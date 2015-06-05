@@ -1,0 +1,558 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A04655">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Love's Triumph Through Callipolis <date type="creation_date">1630</date></title>
+        <author>Jonson, Ben</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Nayoon Ahn</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A04655.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">Loues triumph through Callipolis. Performed in a masque at court 1630. By his Maiestie with the lords, and gentlemen assisting. The inuentors. Ben. Ionson. Inigo Iones.</title>
+            <author>Jonson, Ben, 1573?-1637.</author>
+          </titleStmt>
+          <extent>7 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 January (TCP phase 1)</date>
+            <idno type="marc">99844885</idno>
+            <idno type="stc">STC (2nd ed.) 14776.</idno>
+            <idno type="stc">Greg, II, 437(a).</idno>
+            <idno type="vid">9737</idno>
+            <idno type="DLPS">A04655</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">Loues triumph through Callipolis. Performed in a masque at court 1630. By his Maiestie with the lords, and gentlemen assisting. The inuentors. Ben. Ionson. Inigo Iones.</title>
+            <title type="alt">Loves triumph through Callipolis</title>
+            <title type="alt">Loves triumph through Callipolis.</title>
+            <author>Jonson, Ben, 1573?-1637.</author>
+            <author>Jones, Inigo, 1573-1652.</author>
+          </titleStmt>
+          <extent>[2], 10 p.</extent>
+          <publicationStmt>
+            <publisher>Printed by I[ohn] N[orton] for Thomas Walkley, and are to be sold at his shop at the signe of the Eagle and Child in Brittains-burse,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1630. [i.e. 1631]</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Partly in verse.</p>
+            </note>
+            <note>
+              <p>Printer's name from STC.</p>
+            </note>
+            <note>
+              <p>The year date is given according to Lady Day dating.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the British Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Masques -- Early works to 1800.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A04655-e100010">
+    <front xml:id="A04655-e100020">
+      <div type="title_page" xml:id="A04655-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A04655-e100040">Loves triumph through Callipolis. </p>
+        <p xml:id="A04655-e100050">Performed in a masque at court 1630. By his majesty with the lords, and gentlemen assisting.</p>
+        <p xml:id="A04655-e100060">The inventors. Ben Jonson. Inigo Jones. </p>
+        <quote xml:id="A04655-e100070">
+          <l xml:id="A04655-e100080">Quando magis dignos licuit spectare triumphos? </l>
+        </quote>
+        <p xml:id="A04655-e100090">London, printed by I. N. for Thomas Walkley, and are to be sold at his shop at the sign of the eagle and child in Brittains-burse. 1630.</p>
+      </div>
+    </front>
+    <body xml:id="A04655-e100100">
+      <div type="text" xml:id="A04655-e100110">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>To make the spectators understanders.</head>
+        <p xml:id="A04655-e100120">Whereas all representations, especially those of this nature in court, public spectacles, either have been, or ought to be the mirrors of man's life, whose ends, for the excellence of their exhibiters (As being the donatives, of great princes, to their people) ought always to carry a mixture of profit, with them, no less than delight; we, the inventors, being commanded from the King, to think on some thing worthy of his majesties putting in act, with a selected company of his lords, and gentlemen, called to the assistance: for the honour of his court, and the dignity of that heroic love, and regal respect born by him to his unmatchable lady, and spouse, the Queen's majesty, after some debate of cogitation with ourselves, resolved on this following argument.</p>
+        <p xml:id="A04655-e100130">First, that a person, boni ominis, of a good character, as Euphemus, sent down from heaven to Callipolis, which is understood the city of beauty<pb facs="3" n="2"/> or goodness, should come in; and, finding her majesty there enthroned, declare unto her, that love who was wont to be respected as a special deity in court, and tutelar god of the place, had of late received an advertisement, that in the suburbs, or skirts of Callipolis, were crept in certain sectaries, or depraved lovers, who neither knew the name, or nature of love rightly, yet boasted themselves his followers, when they were fitter to be called his furies: their whole life being a continued vertigo, or rather a torture on the wheel of love, than any motion either of order or measure. When suddenly they leap forth below, a mistress leading them, and with antic gesticulation, and action, after the manner of the old pantomimi, they dance over a distracted comedy of love, expressing their confused affections, in the scenical persons, and habits, of the four prime European nations.</p>
+        <lg xml:id="A04655-e100140">
+          <l xml:id="A04655-e100150">A glorious boasting lover. </l>
+          <l xml:id="A04655-e100160">A whining ballading lover. </l>
+          <l xml:id="A04655-e100170">An adventurous romance lover. </l>
+        </lg>
+        <lg xml:id="A04655-e100180">
+          <l xml:id="A04655-e100190">A fantastic umbrageous lover. </l>
+          <l xml:id="A04655-e100200">A bribing corrupt lover. </l>
+          <l xml:id="A04655-e100210">A froward jealous lover. </l>
+        </lg>
+        <lg xml:id="A04655-e100220">
+          <pb facs="3" n="3"/>
+          <l xml:id="A04655-e100230">A sordid illiberal lover. </l>
+          <l xml:id="A04655-e100240">A proud scornful lover. </l>
+          <l xml:id="A04655-e100250">An angry quarrelling lover. </l>
+        </lg>
+        <lg xml:id="A04655-e100260">
+          <l xml:id="A04655-e100270">A melancholic despairing lover. </l>
+          <l xml:id="A04655-e100280">An envious unquiet lover. </l>
+          <l xml:id="A04655-e100290">A sensual brute lover. </l>
+        </lg>
+        <stage xml:id="A04655-e100300">All which, in varied, intricate turns, and involved mazes, expressed, make the antimasque: and conclude the exit, in a circle.</stage>
+        <stage xml:id="A04655-e100310">Euphemus descends singing.</stage>
+        <lg type="song" xml:id="A04655-e100320">
+          <l xml:id="A04655-e100330">Joy, joy to mortals, the rejoicing fires</l>
+          <l xml:id="A04655-e100340">Of gladness, smile in your dilated hearts! </l>
+          <l xml:id="A04655-e100350">Whilst love presents a world of chaste desires,</l>
+          <l xml:id="A04655-e100360">Which may produce a harmony of parts! </l>
+        </lg>
+        <lg xml:id="A04655-e100370">
+          <l xml:id="A04655-e100380">Love is the right affection of the mind,</l>
+          <l xml:id="A04655-e100390">The noble appetite of what is best:</l>
+          <l xml:id="A04655-e100400">Desire of union with the thing designed,</l>
+          <l xml:id="A04655-e100410">But in fruition of it cannot rest. </l>
+        </lg>
+        <lg xml:id="A04655-e100420">
+          <l xml:id="A04655-e100430">The father plenty is, the mother want,<note anchored="true" place="margin" xml:id="A04655-e100440">Porus, and Penia.</note></l>
+          <l xml:id="A04655-e100450">Plenty the beauty, which it wanteth, draws;</l>
+          <l xml:id="A04655-e100460">Want yields itself: affording what is scant. </l>
+          <l xml:id="A04655-e100470">So, both affections are the union's cause. </l>
+        </lg>
+        <lg xml:id="A04655-e100480">
+          <l xml:id="A04655-e100490">But, rest not here. For love hath larger scopes,</l>
+          <l xml:id="A04655-e100500">New joys, new pleasures, of as fresh a date</l>
+          <l xml:id="A04655-e100510"><pb facs="4" n="4"/> as are his minutes: and, in him no hopes</l>
+          <l xml:id="A04655-e100520">Are pure, but those he can perpetuate. <note anchored="true" place="margin" xml:id="A04655-e100530">〈…〉 re he 〈…〉 es up to 〈◊〉 state.</note></l>
+        </lg>
+        <lg xml:id="A04655-e100540">
+          <l xml:id="A04655-e100550">To you that are by excellence a Queen! </l>
+          <l xml:id="A04655-e100560">The top of beauty! but, of such an air,</l>
+          <l xml:id="A04655-e100570">As, only by the mind's eye, may be seen</l>
+          <l xml:id="A04655-e100580">Your interwoven lines of good, and fair! </l>
+        </lg>
+        <lg xml:id="A04655-e100590">
+          <l xml:id="A04655-e100600">Vouchsafe to grace loves triumph here, tonight ,</l>
+          <l xml:id="A04655-e100610">Through all the streets of your Callipolis;</l>
+          <l xml:id="A04655-e100620">Which by the splendour of your rays made bright</l>
+          <l xml:id="A04655-e100630">The seat, and region of all beauty is. </l>
+        </lg>
+        <lg xml:id="A04655-e100640">
+          <l xml:id="A04655-e100650">Love, in perfection, longeth to appear</l>
+          <l xml:id="A04655-e100660">But prays, of favour, he be not called on,</l>
+          <l xml:id="A04655-e100670">Till all the suburbs, and the skirts be clear</l>
+          <l xml:id="A04655-e100680">Of perturbations, and th'infection gone. </l>
+        </lg>
+        <lg xml:id="A04655-e100690">
+          <l xml:id="A04655-e100700">Then will he flow forth, like a rich perfume</l>
+          <l xml:id="A04655-e100710">Into your nostrils! or some sweeter sound</l>
+          <l xml:id="A04655-e100720">Of melting music, that shall not consume</l>
+          <l xml:id="A04655-e100730">Within the ear, but run the mazes round. </l>
+        </lg>
+        <stage xml:id="A04655-e100740">Here the chorus walk about with their censers.</stage>
+        <sp xml:id="A04655-e100750" who="A04655-chorus">
+          <speaker>Chorus.</speaker>
+          <lg xml:id="A04655-e100760">
+            <l xml:id="A04655-e100770">Mean time, we make lustration of the place,</l>
+            <l xml:id="A04655-e100780"><pb facs="4" n="5"/> and with our solemn fires, and waters prove</l>
+            <l xml:id="A04655-e100790">T'have frighted, hence, the weak diseased race</l>
+            <l xml:id="A04655-e100800">Of those were tortured on the wheel of love. </l>
+          </lg>
+          <lg xml:id="A04655-e100810">
+            <l xml:id="A04655-e100820">1 the glorious,2 whining,3 the adventurous fool,</l>
+            <l xml:id="A04655-e100830">4 fantastic,5 bribing, and the jealous ass</l>
+            <l xml:id="A04655-e100840">1 the sordid,2 scornful,3 and the angry mule4</l>
+            <l xml:id="A04655-e100850"> the melancholic,5 dull, and envious mass,</l>
+          </lg>
+          <stage xml:id="A04655-e100860">Chorus</stage>
+          <lg xml:id="A04655-e100870">
+            <l xml:id="A04655-e100880">With all the rest, that in the sensual school</l>
+            <l xml:id="A04655-e100890">Of lust, for their degree of brute may pass. </l>
+          </lg>
+          <lg xml:id="A04655-e100900">
+            <l xml:id="A04655-e100910">All which are vapoured hence. <note anchored="true" place="margin" xml:id="A04655-e100920">the prospect of a sea appears.</note></l>
+            <l xml:id="A04655-e100930">No loves, but slaves to sense:</l>
+            <l xml:id="A04655-e100940">Mere cattle, and not men. </l>
+          </lg>
+          <lg xml:id="A04655-e100950">
+            <l xml:id="A04655-e100960">Sound, sound, and treble all our joys again,</l>
+            <l xml:id="A04655-e100970">Who had the power, and virtue to remove</l>
+            <l xml:id="A04655-e100980">Such monsters from the labyrinth of love. </l>
+          </lg>
+        </sp>
+        <stage xml:id="A04655-e100990">The triumph is first seen afar off, and led in by Amphitrite, the wife of Oceanus, with four seagods attending her. Nereus, Proteus, Glaucus, Palaemon. It consisteth of fifteen lovers, and as many Cupids, who rank themselves seven, and seven on a side, with each a Cupid before him, with a lighted torch, and the middle person (Which is his majesty,) placed in the centre.</stage>
+        <p xml:id="A04655-e101000">
+          <pb facs="5" n="6"/>
+          <table xml:id="A04655-e101010">
+            <row role="data" xml:id="A04655-e101020">
+              <cell cols="1" role="data" rows="1">1. The provident.</cell>
+              <cell cols="1" role="data" rows="1"> </cell>
+              <cell cols="1" role="data" rows="1">2. The judicious.</cell>
+            </row>
+            <row role="data" xml:id="A04655-e101030">
+              <cell cols="1" role="data" rows="1">3. The secret.</cell>
+              <cell cols="1" role="data" rows="1"> </cell>
+              <cell cols="1" role="data" rows="1">4. The valiant.</cell>
+            </row>
+            <row role="data" xml:id="A04655-e101040">
+              <cell cols="1" role="data" rows="1">5. The witty.</cell>
+              <cell cols="1" role="data" rows="1"> </cell>
+              <cell cols="1" role="data" rows="1">6. The jovial.</cell>
+            </row>
+            <row role="data" xml:id="A04655-e101050">
+              <cell cols="1" role="data" rows="1">7. The secure.</cell>
+              <cell cols="1" role="data" rows="1">15. The heroical,</cell>
+              <cell cols="1" role="data" rows="1">8. The substantial.</cell>
+            </row>
+            <row role="data" xml:id="A04655-e101060">
+              <cell cols="1" role="data" rows="1">9. The modest.</cell>
+              <cell cols="1" role="data" rows="1"> </cell>
+              <cell cols="1" role="data" rows="1">10. The candid.</cell>
+            </row>
+            <row role="data" xml:id="A04655-e101070">
+              <cell cols="1" role="data" rows="1">11. The courteous.</cell>
+              <cell cols="1" role="data" rows="1"> </cell>
+              <cell cols="1" role="data" rows="1">12. The elegant.</cell>
+            </row>
+            <row role="data" xml:id="A04655-e101080">
+              <cell cols="1" role="data" rows="1">13. The rational.</cell>
+              <cell cols="1" role="data" rows="1"> </cell>
+              <cell cols="1" role="data" rows="1">14. The magnificent.</cell>
+            </row>
+          </table>
+        </p>
+        <sp xml:id="A04655-e101090" who="A04655-amphitrite">
+          <speaker>Amphitrite.</speaker>
+          <l xml:id="A04655-e101100">Here, stay a while: this! this</l>
+          <l xml:id="A04655-e101110">The temple of all beauty is! </l>
+          <l xml:id="A04655-e101120">Here, perfect lovers, you must pay</l>
+          <l xml:id="A04655-e101130">First-fruits; and on these altars lay</l>
+          <l xml:id="A04655-e101140">(The lady's breasts) your ample vows,</l>
+          <l xml:id="A04655-e101150">Such, as love brings, and beauty best allows! </l>
+        </sp>
+        <sp xml:id="A04655-e101160" who="A04655-chorus">
+          <speaker>Chorus</speaker>
+          <l xml:id="A04655-e101170">For love, without his object, soon is gone:</l>
+          <l xml:id="A04655-e101180">Love must have answering love, to look upon. </l>
+        </sp>
+        <sp xml:id="A04655-e101190" who="A04655-amphitrite">
+          <speaker>Amphitrite.</speaker>
+          <l xml:id="A04655-e101200">To you, best judge then, of perfection! </l>
+        </sp>
+        <sp xml:id="A04655-e101210" who="A04655-euphemus">
+          <speaker>Euphemus.</speaker>
+          <l xml:id="A04655-e101220">The Queen, of what is wonder, in the place! </l>
+        </sp>
+        <sp xml:id="A04655-e101230" who="A04655-amphitrite">
+          <speaker>Amphitrite.</speaker>
+          <l xml:id="A04655-e101240">Pure object, of heroic love, alone! </l>
+        </sp>
+        <sp xml:id="A04655-e101250" who="A04655-euphemus">
+          <speaker>Euphemus.</speaker>
+          <l xml:id="A04655-e101260">The centre of proportion —! </l>
+        </sp>
+        <sp xml:id="A04655-e101270" who="A04655-amphitrite">
+          <speaker>Amphitrite.</speaker>
+          <l xml:id="A04655-e101280">Sweetness. </l>
+        </sp>
+        <sp xml:id="A04655-e101290" who="A04655-euphemus">
+          <speaker>Euphemus.</speaker>
+          <l xml:id="A04655-e101300">Grace. ? </l>
+        </sp>
+        <sp xml:id="A04655-e101310" who="A04655-amphitrite">
+          <pb facs="5" n="7"/>
+          <speaker>Amphitrite,</speaker>
+          <l xml:id="A04655-e101320">Deign to receive all lines of love in one. </l>
+        </sp>
+        <sp xml:id="A04655-e101330" who="A04655-euphemus">
+          <speaker>Euphemus.</speaker>
+          <l xml:id="A04655-e101340">And by reflecting of them fill this space. </l>
+        </sp>
+        <sp xml:id="A04655-e101350" who="A04655-chorus">
+          <speaker>Chorus</speaker>
+          <lg xml:id="A04655-e101360">
+            <l xml:id="A04655-e101370">Till it a circle of those glories prove,</l>
+            <l xml:id="A04655-e101380">Fit to be sought in beauty, found by love. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04655-e101390" who="A04655-semi-chorus">
+          <speaker>Semi-chorus</speaker>
+          <l xml:id="A04655-e101400">Where love is mutual, still</l>
+          <l xml:id="A04655-e101410">All things in order move,</l>
+        </sp>
+        <sp xml:id="A04655-e101420" who="A04655-semi-chorus">
+          <speaker>Semi-chorus</speaker>
+          <l xml:id="A04655-e101430">The circle of the will</l>
+          <l xml:id="A04655-e101440">Is the true sphere of love. </l>
+        </sp>
+        <sp xml:id="A04655-e101450" who="A04655-chorus">
+          <speaker>Chorus</speaker>
+          <lg xml:id="A04655-e101460">
+            <l xml:id="A04655-e101470">Advance, you gentler Cupids, then advance,</l>
+            <l xml:id="A04655-e101480">And show your just perfections in your dance. </l>
+          </lg>
+          <lg xml:id="A04655-e101490">
+            <l xml:id="A04655-e101500">The Cupids dance their dance. </l>
+            <l xml:id="A04655-e101510">And the masquers their entry. </l>
+          </lg>
+        </sp>
+        <stage xml:id="A04655-e101520">Which done, Euclia, or a fair glory appears in the heavens, singing an applausive song, or Paean of the whole, which she takes occasion to ingeminate in the second chorus, upon the sight of a work of Neptune's, being a hollow rock, filling part of the sea-prospect, whereon the muses sit.</stage>
+        <sp xml:id="A04655-e101530" who="A04655-euclias">
+          <speaker>Euclias</speaker>
+          <lg type="hymn" xml:id="A04655-e101540">
+            <l xml:id="A04655-e101550">So love, emergent out of chaos brought the world to light! </l>
+            <l xml:id="A04655-e101560">And gently moving on the waters, wrought all form to fight! </l>
+          </lg>
+          <lg xml:id="A04655-e101570">
+            <pb facs="6" n="8"/>
+            <l xml:id="A04655-e101580">Love's appetite</l>
+            <l xml:id="A04655-e101590">Did beauty first excite:</l>
+            <l xml:id="A04655-e101600">And left imprinted in the air,</l>
+            <l xml:id="A04655-e101610">Those signatures of good, and fair,</l>
+          </lg>
+        </sp>
+        <sp xml:id="A04655-e101620" who="A04655-chorus">
+          <speaker>Cho.</speaker>
+          <lg xml:id="A04655-e101630">
+            <l xml:id="A04655-e101640">Which since have flowed, flowed forth upon the sense,</l>
+            <l xml:id="A04655-e101650">To wonder first, and then to excellence,</l>
+            <l xml:id="A04655-e101660">By virtue of divine intelligence! </l>
+          </lg>
+        </sp>
+        <stage xml:id="A04655-e101670">The ingemination.</stage>
+        <sp xml:id="A04655-e101680" who="A04655-euclias">
+          <speaker>Euclias</speaker>
+          <lg xml:id="A04655-e101690">
+            <l xml:id="A04655-e101700">And Neptune too</l>
+            <l xml:id="A04655-e101710">Shows what his waves can do:</l>
+            <l xml:id="A04655-e101720">To call the muses all to play,</l>
+            <l xml:id="A04655-e101730">And sing the birth of Venus' day,</l>
+          </lg>
+        </sp>
+        <sp xml:id="A04655-e101740" who="A04655-chorus">
+          <speaker>Cho.</speaker>
+          <lg xml:id="A04655-e101750">
+            <l xml:id="A04655-e101760">Which from the sea flowed, forth upon the sense</l>
+            <l xml:id="A04655-e101770">To wonder first, and next to excellence,</l>
+            <l xml:id="A04655-e101780">By virtue of divine intelligence! </l>
+          </lg>
+        </sp>
+        <stage xml:id="A04655-e101790">Here follow the revels. Which ended, the scene changeth to a garden, and the heavens opening, there appear four new persons, in form of a constellation sitting, or a new afterisme, expecting Venus, whom they call upon with this song. Jupiter. Juno. Genius. Hymen.</stage>
+        <sp xml:id="A04655-e101800" who="A04655-jupiter">
+          <speaker>Jup.</speaker>
+          <l xml:id="A04655-e101810">Hast daughter Venus haste, and come away:</l>
+        </sp>
+        <sp xml:id="A04655-e101820" who="A04655-juno">
+          <speaker>Jun.</speaker>
+          <l xml:id="A04655-e101830">All powers, that govern marriage, pray that you will lend your light</l>
+        </sp>
+        <sp xml:id="A04655-e101840" who="A04655-enius">
+          <pb facs="6" n="9"/>
+          <speaker>Gen.</speaker>
+          <l xml:id="A04655-e101850">Unto the constellation of this night. </l>
+        </sp>
+        <sp xml:id="A04655-e101860" who="A04655-hymen">
+          <speaker>Hym.</speaker>
+          <l xml:id="A04655-e101870">Hymen. </l>
+        </sp>
+        <sp xml:id="A04655-e101880" who="A04655-juno">
+          <speaker>Jun.</speaker>
+          <l xml:id="A04655-e101890">And Juno. </l>
+        </sp>
+        <sp xml:id="A04655-e101900" who="A04655-enius">
+          <speaker>Gen.</speaker>
+          <l xml:id="A04655-e101910">And the genius call,</l>
+        </sp>
+        <sp xml:id="A04655-e101920" who="A04655-jupiter">
+          <speaker>Jup.</speaker>
+          <l xml:id="A04655-e101930">Your father Jupiter,</l>
+        </sp>
+        <sp xml:id="A04655-e101940" who="A04655-chorus">
+          <speaker>Cho.</speaker>
+          <lg xml:id="A04655-e101950">
+            <l xml:id="A04655-e101960">And all</l>
+            <l xml:id="A04655-e101970">That bless, or honour holy nuptial. </l>
+          </lg>
+        </sp>
+        <stage xml:id="A04655-e101980">Venus here appears in a cloud, and pass through the constellation, descendeth to the earth, when presently the cloud vanisheth, and she is seen sitting in a throne.</stage>
+        <sp xml:id="A04655-e101990" who="A04655-venus">
+          <speaker>Venus.</speaker>
+          <lg type="song" xml:id="A04655-e102000">
+            <l xml:id="A04655-e102010">Here, here I present am</l>
+            <l xml:id="A04655-e102020">Both in my girdle, and my flame:</l>
+            <l xml:id="A04655-e102030">Wherein are woven all the powers</l>
+            <l xml:id="A04655-e102040">The graces gave me, or the hours</l>
+            <l xml:id="A04655-e102050">(My nurses once) with all the arts</l>
+            <l xml:id="A04655-e102060">Of gaining, and of holding hearts:</l>
+            <l xml:id="A04655-e102070">And these with I descend. </l>
+            <l xml:id="A04655-e102080">But, to your influences, first commend</l>
+            <l xml:id="A04655-e102090">The vow, I go to take</l>
+            <l xml:id="A04655-e102100">On earth, for perfect love and beauty's sake! </l>
+          </lg>
+        </sp>
+        <stage xml:id="A04655-e102110">Her song ended, and she rising to go up to the Queen, the throne disappears: in place of which there 〈◊〉 up a palm tree 〈◊〉 〈◊〉<pb facs="7" n="10"/> imperial crown on the top, from the root whereof, lilies and roses, twining together and embracing the stem, flourish through the crown, which she in the song, with the chorus describes.</stage>
+        <lg type="song" xml:id="A04655-e102120">
+          <l xml:id="A04655-e102130">Beauty and love, whose story is mysterial,</l>
+          <l xml:id="A04655-e102140">In yonder palmtree, and the crown imperial,</l>
+          <l xml:id="A04655-e102150">Do from the rose, and lily so delicious,</l>
+          <l xml:id="A04655-e102160">Promise a shade, shall ever be propitious</l>
+          <l xml:id="A04655-e102170">To both the kingdoms. But to Britain's genius</l>
+          <l xml:id="A04655-e102180">The snaky rod, and serpents of Cyllenius</l>
+          <l xml:id="A04655-e102190">Bring not more peace, than these, who so united be</l>
+          <l xml:id="A04655-e102200">By love, as with it earth and heaven delighted be. </l>
+          <l xml:id="A04655-e102210">And who this King, and Queen would well historify,</l>
+          <l xml:id="A04655-e102220">Need only speak their names: those them will glorify. </l>
+          <l xml:id="A04655-e102230">Mary, and Charles, Charles, with his Mary, named are</l>
+          <l xml:id="A04655-e102240">And all the rest of loves, or princes famed are. </l>
+        </lg>
+        <stage xml:id="A04655-e102250">After this they dance their going out, and end.</stage>
+      </div>
+    </body>
+    <back xml:id="A04655-e102260">
+      <div type="dramatis_personae" xml:id="A04655-e102270">
+        <p xml:id="A04655-e102280">
+          <table xml:id="A04655-e102290">
+            <head>The masquers names.</head>
+            <row role="data" xml:id="A04655-e102300">
+              <cell cols="1" role="data" rows="2">The King.</cell>
+            </row>
+            <row role="data" xml:id="A04655-e102310">
+              <cell cols="1" role="data" rows="1">The marquess Hamilton. </cell>
+              <cell cols="1" role="data" rows="1">Lord chamberlain. </cell>
+            </row>
+            <row role="data" xml:id="A04655-e102320">
+              <cell cols="1" role="data" rows="1">Earl of Holland. </cell>
+              <cell cols="1" role="data" rows="1">Earl of Carnarvan. </cell>
+            </row>
+            <row role="data" xml:id="A04655-e102330">
+              <cell cols="1" role="data" rows="1">Earl of Newport. </cell>
+              <cell cols="1" role="data" rows="1">Viscount Doncaster. </cell>
+            </row>
+            <row role="data" xml:id="A04655-e102340">
+              <cell cols="1" role="data" rows="1">Lord strange. </cell>
+              <cell cols="1" role="data" rows="1">Sir William Howard. </cell>
+            </row>
+            <row role="data" xml:id="A04655-e102350">
+              <cell cols="1" role="data" rows="1">Sir Robert Stanley. </cell>
+              <cell cols="1" role="data" rows="1">Sir William brook. </cell>
+            </row>
+            <row role="data" xml:id="A04655-e102360">
+              <cell cols="1" role="data" rows="1">〈…〉</cell>
+              <cell cols="1" role="data" rows="1">Master Ralegh. </cell>
+            </row>
+            <row role="data" xml:id="A04655-e102370">
+              <cell cols="1" role="data" rows="1">〈…〉</cell>
+              <cell cols="1" role="data" rows="1">〈…〉</cell>
+            </row>
+            <pb facs="7"/>
+          </table>
+        </p>
+      </div>
+      <div type="machine-generated_castlist"><list n="A04655"><item xml:id="A04655-chorus" n="7">
+    <seg type="character_name">A04655-chorus</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A04655-amphitrite" n="5">
+    <seg type="character_name">A04655-amphitrite</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A04655-euphemus" n="4">
+    <seg type="character_name">A04655-euphemus</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A04655-juno" n="2">
+    <seg type="character_name">A04655-juno</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A04655-euclias" n="2">
+    <seg type="character_name">A04655-euclias</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A04655-enius" n="2">
+    <seg type="character_name">A04655-enius</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A04655-semi-chorus" n="2">
+    <seg type="character_name">A04655-semi-chorus</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A04655-jupiter" n="2">
+    <seg type="character_name">A04655-jupiter</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+<item xml:id="A04655-venus" n="1">
+    <seg type="character_name">A04655-venus</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04655-hymen" n="1">
+    <seg type="character_name">A04655-hymen</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

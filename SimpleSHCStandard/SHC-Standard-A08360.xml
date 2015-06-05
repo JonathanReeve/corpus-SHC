@@ -1,0 +1,2469 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A08360">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Ferrex and Porrex (Gorboduc) <date type="creation_date">1565</date></title>
+        <author>Norton, Thomas</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A08360.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The tragedie of Gorboduc, whereof three actes were wrytten by Thomas Nortone, and the two laste by Thomas Sackuyle. Sett forthe as the same was shewed before the Quenes most excellent Maiestie, in her highnes court of Whitehall, the. xviij. day of Ianuary, anno Domini. 1561. By the Gentlemen of thynner Temple in London.</title>
+            <author>Norton, Thomas, 1532-1584.</author>
+          </titleStmt>
+          <extent>38 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2006 June (TCP phase 1)</date>
+            <idno type="marc">99846637</idno>
+            <idno type="stc">STC (2nd ed.) 18684.</idno>
+            <idno type="stc">Greg, I, 39(a).</idno>
+            <idno type="vid">11621</idno>
+            <idno type="DLPS">A08360</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The tragedie of Gorboduc, whereof three actes were wrytten by Thomas Nortone, and the two laste by Thomas Sackuyle. Sett forthe as the same was shewed before the Quenes most excellent Maiestie, in her highnes court of Whitehall, the. xviij. day of Ianuary, anno Domini. 1561. By the Gentlemen of thynner Temple in London.</title>
+            <title type="alt">Gorboduc</title>
+            <title type="alt">Gorboduc.</title>
+            <author>Norton, Thomas, 1532-1584.</author>
+            <author>Dorset, Thomas Sackville, 1536-1608.</author>
+          </titleStmt>
+          <extent>[72] p.</extent>
+          <publicationStmt>
+            <publisher>in Fletestrete, at the signe of the Faucon by William Griffith: and are to be sold at his shop in Saincte Dunstones Churchyarde in the west of London,</publisher>
+            <pubPlace>Imprynted at London :</pubPlace>
+            <date>Anno. 1565. Septemb. 22.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>In verse.</p>
+            </note>
+            <note>
+              <p>Signatures: A-D E4.</p>
+            </note>
+            <note>
+              <p>Reproduction of a photostat of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A08360-e100010">
+    <front xml:id="A08360-e100020">
+      <div type="title_page" xml:id="A08360-e100030">
+        <pb facs="1"/>
+        <p xml:id="A08360-e100040">❧ the tragedy of Gorboduc, whereof three acts were written by Thomas Norton, and the two last by Thomas Sackvile. ¶ Set forth as the same was showed before the queen's most excellent majesty, in her highness' court of Whitehall, the xviii. day of January, anno domini. 1561. By the gentlemen of th'inner temple in London.</p>
+        <p xml:id="A08360-e100050">
+          <figure xml:id="A08360-e100060"/>
+        </p>
+        <p xml:id="A08360-e100070">❧ imprinted at London in Fleetstreet, at the sign of the Falcon by William Griffith: and are to be sold at his shop in saint dunstones churchyard in the West of London. Anno. 1565. Septemb 22.</p>
+      </div>
+      <div type="argument" xml:id="A08360-e100080">
+        <pb facs="2"/>
+        <head>¶ Th'argument of the tragedy.</head>
+        <p xml:id="A08360-e100090">Gorboduc, King of Britain, divided his realm in his life time to his sons, Ferrex and Porrex. The sons fell to division and dissension. The younger killed the elder. The mother that more dear loved elder, for revenge killed the younger. The people moved with the cruelty of the fact, rose in rebellion and slew both father and mother. The nobility assembled and most terribly destroyed the rebels. And afterwards for want of issue of the prince whereby the succession of the crown became uncertain. They fell to civil war in which both they and many of their issues were slain, and the land for a long time almost desolate and miserably wasted.</p>
+        <p xml:id="A08360-e100100">
+          <figure xml:id="A08360-e100110">
+            <p xml:id="A08360-e100120">W g</p>
+          </figure>
+        </p>
+      </div>
+      <div type="dramatis_personae" xml:id="A08360-e100130">
+        <pb facs="2"/>
+        <head>¶ The names of the speakers.</head>
+        <list xml:id="A08360-e100140">
+          <item xml:id="A08360-e100150">Gorboduc, King of great Britain. </item>
+          <item xml:id="A08360-e100160">Videna, Queen and wife to King Gorboduc. </item>
+          <item xml:id="A08360-e100170">Ferrex, elder son to King Gorboduc. </item>
+          <item xml:id="A08360-e100180">Porrex, younger son to King Gorboduc. </item>
+          <item xml:id="A08360-e100190">Clotyn, Duke of Cornwall. </item>
+          <item xml:id="A08360-e100200">Fergus, Duke of Albany. </item>
+          <item xml:id="A08360-e100210">Mandud, Duke of Leagre. </item>
+          <item xml:id="A08360-e100220">Gwenard, Duke of Cumberland. </item>
+          <item xml:id="A08360-e100230">Eubulus, secretary to the King Gorboduc. </item>
+          <item xml:id="A08360-e100240">Arostus, a counsellor of King Gorboduc. </item>
+          <item xml:id="A08360-e100250">Dordan, a counsellor assigned by the King to his eldest son Ferrex. </item>
+          <item xml:id="A08360-e100260">Philander, a counsellor assigned by the King to his younger son Porrex. (Both being of the old (Kings counsel before.</item>
+          <item xml:id="A08360-e100270">Hermon, a parasite remaining with Ferrex. </item>
+          <item xml:id="A08360-e100280">Tyndar, a parasite remaining with Porrex. </item>
+          <item xml:id="A08360-e100290">Nuntius, a messenger of elder brothers death</item>
+          <item xml:id="A08360-e100300">Nuntius, a messenger of Duke Fergus rising in arms.</item>
+          <item xml:id="A08360-e100310">Marcella, a lady of the Queen's privy chamber.</item>
+          <item xml:id="A08360-e100320">Chorus, four ancient and sage men of Britain. </item>
+        </list>
+      </div>
+    </front>
+    <body xml:id="A08360-e100330">
+      <div n="1" type="dumb_show" xml:id="A08360-e100340">
+        <pb facs="3"/>
+        <head>¶ The Order of the dumb show before the first act, and the signification thereof.</head>
+        <p xml:id="A08360-e100350">¶ First the music of Violenze began to play, during which came in upon the stage six wild men clothed in leaves. Of whom the first bore in his neck a faggot of small sticks, which they all both severally and together assayed with all their strengths to break, but it could not be broken by them. At the length one of them plucked out one of the sticks and broke it: and the rest plucking out all the other sticks one after another did easily break, the same being severed: which being conjoined they had before attempted in vain. After they had this done, they departed the stage, and the music ceased hereby was signified, that a state knit in unity doth continue strong against all force. But being divided, is easily destroyed. As befell upon Duke Gorboduc dividing his land to his two sons which he before held in monarchy. And upon the dissension of the brethren to whom it was divided.</p>
+      </div>
+      <div n="1" type="act" xml:id="A08360-e100360">
+        <div n="1" type="scene" xml:id="A08360-e100370">
+          <pb facs="3"/>
+          <head>Of Gorboduc. Actus primus. Scaena prima.</head>
+          <stage xml:id="A08360-e100380">Viden. Ferrex.</stage>
+          <sp xml:id="A08360-e100390" who="A08360-videna">
+            <speaker>Viden.</speaker>
+            <l xml:id="A08360-e100400">The silent night that brings the</l>
+            <l xml:id="A08360-e100410">Quiet pause,</l>
+            <l xml:id="A08360-e100420">From painful travails of the</l>
+            <l xml:id="A08360-e100430">Weary day:</l>
+            <l xml:id="A08360-e100440">Prolongs my careful thoughts</l>
+            <l xml:id="A08360-e100450">And makes me blame</l>
+            <l xml:id="A08360-e100460">The slow Aurore that so for love or shame</l>
+            <l xml:id="A08360-e100470">Doth long delay to show her blushing face,</l>
+            <l xml:id="A08360-e100480">And now the day renews my griefful plaint. </l>
+          </sp>
+          <sp xml:id="A08360-e100490" who="A08360-ferrex">
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e100500">My gracious lady and mother dear,</l>
+            <l xml:id="A08360-e100510">Pardon my grief, for your so grieved mind</l>
+            <l xml:id="A08360-e100520">To ask what cause tormenteth so your heart. </l>
+          </sp>
+          <sp xml:id="A08360-e100530" who="A08360-videna">
+            <speaker>Viden.</speaker>
+            <l xml:id="A08360-e100540">So great a wrong and so unjust despite,</l>
+            <l xml:id="A08360-e100550">Without all cause against all course of kind. </l>
+          </sp>
+          <sp xml:id="A08360-e100560" who="A08360-ferrex">
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e100570">Suche causeless wrong and so unjust despite,</l>
+            <l xml:id="A08360-e100580">May have redress, or at the least revenge. </l>
+          </sp>
+          <sp xml:id="A08360-e100590" who="A08360-videna">
+            <speaker>Viden.</speaker>
+            <l xml:id="A08360-e100600">Neither my son, such is the froward will,</l>
+            <l xml:id="A08360-e100610">The person such, such my mishap and thine. </l>
+          </sp>
+          <sp xml:id="A08360-e100620" who="A08360-ferrex">
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e100630">Mine know I none, but grief for your distress:</l>
+          </sp>
+          <sp xml:id="A08360-e100640" who="A08360-videna">
+            <speaker>Viden.</speaker>
+            <l xml:id="A08360-e100650">Yes: mine for thine my son: a father? no:</l>
+            <l xml:id="A08360-e100660"><pb facs="4"/> in kind a father, but not in kindliness. </l>
+          </sp>
+          <sp xml:id="A08360-e100670" who="A08360-ferrex">
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e100680">My father: why? I know nothing at all,</l>
+            <l xml:id="A08360-e100690">Wherein I have misdone unto his grace. </l>
+          </sp>
+          <sp xml:id="A08360-e100700" who="A08360-videna">
+            <speaker>Viden.</speaker>
+            <l xml:id="A08360-e100710">Therefore, the more unkind to thee and me. </l>
+            <l xml:id="A08360-e100720">For knowing well (My son) the tender love ▪</l>
+            <l xml:id="A08360-e100730">That I have ever born and bear to thee,</l>
+            <l xml:id="A08360-e100740">He grieved thereat, is not content alone,</l>
+            <l xml:id="A08360-e100750">To spoil thee of my sight my chiefest joy,</l>
+            <l xml:id="A08360-e100760">But thee, of the birth, right and heritage</l>
+            <l xml:id="A08360-e100770">Causeless, unkindly and in wrongful wise,</l>
+            <l xml:id="A08360-e100780">Against all law and right he will bereave,</l>
+            <l xml:id="A08360-e100790">Half of his kingdom he will give away. </l>
+          </sp>
+          <sp xml:id="A08360-e100800" who="A08360-ferrex">
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e100810">To whom? </l>
+          </sp>
+          <sp xml:id="A08360-e100820" who="A08360-videna">
+            <speaker>Viden.</speaker>
+            <l xml:id="A08360-e100830">Even to Porrex his younger son</l>
+            <l xml:id="A08360-e100840">Whose growing pride I do so sore suspect,</l>
+            <l xml:id="A08360-e100850">That being raised to equal rule with thee,</l>
+            <l xml:id="A08360-e100860">Methinks I see his envious heart to swell</l>
+            <l xml:id="A08360-e100870">Filled with disdain and with ambitious pride</l>
+            <l xml:id="A08360-e100880">The end the gods do know, whose altars I</l>
+            <l xml:id="A08360-e100890">Full oft have made in vain of cattle slain,</l>
+            <l xml:id="A08360-e100900">To send the sacred smoke to heaven's throne,</l>
+            <l xml:id="A08360-e100910">For thee my son if things so succeed,</l>
+            <l xml:id="A08360-e100920">As now my jealous mind misdeemeth sore. </l>
+          </sp>
+          <sp xml:id="A08360-e100930" who="A08360-ferrex">
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e100940">Madam leave care and careful plaint for me. </l>
+            <l xml:id="A08360-e100950">Just hath my father been to every wight,</l>
+            <l xml:id="A08360-e100960">His first unjustice he will not extend</l>
+            <l xml:id="A08360-e100970"><pb facs="4"/> to me I trust, that give no cause thereof. </l>
+            <l xml:id="A08360-e100980">My brother's pride shall hurt himself, not me. </l>
+          </sp>
+          <sp xml:id="A08360-e100990" who="A08360-videna">
+            <speaker>Viden.</speaker>
+            <l xml:id="A08360-e101000">So grant the gods: but yet thy father so</l>
+            <l xml:id="A08360-e101010">Hath firmly fixed his unmoved mind</l>
+            <l xml:id="A08360-e101020">That plaints and prayers can no whit avail,</l>
+            <l xml:id="A08360-e101030">For those have I assayed, but even this day,</l>
+            <l xml:id="A08360-e101040">He will endeavour to procure assent</l>
+            <l xml:id="A08360-e101050">Of all his counsel to his fond device. </l>
+          </sp>
+          <sp xml:id="A08360-e101060" who="A08360-ferrex">
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e101070">Their ancestors from race to race have born</l>
+            <l xml:id="A08360-e101080">True faith to my forefathers and their seed,</l>
+            <l xml:id="A08360-e101090">I trust they eke will bear the like to me. </l>
+          </sp>
+          <sp xml:id="A08360-e101100" who="A08360-videna">
+            <speaker>Viden.</speaker>
+            <l xml:id="A08360-e101110">There resteth all, but if they fail thereof,</l>
+            <l xml:id="A08360-e101120">And if the end bring forth an evil success</l>
+            <l xml:id="A08360-e101130">On them and theirs the mischief shall befall,</l>
+            <l xml:id="A08360-e101140">And so I pray the gods requite it them,</l>
+            <l xml:id="A08360-e101150">And so they will, for so is wont to be</l>
+            <l xml:id="A08360-e101160">When lords and trusted rulers under Kings</l>
+            <l xml:id="A08360-e101170">To please the present fancy of the prince,</l>
+            <l xml:id="A08360-e101180">With wrong transpose the course of governance</l>
+            <l xml:id="A08360-e101190">Murders, mischief, or civil sword at length,</l>
+            <l xml:id="A08360-e101200">Or mutual treason, or a just revenge,</l>
+            <l xml:id="A08360-e101210">When right succeeding line returns again</l>
+            <l xml:id="A08360-e101220">By Jove's just judgement and deserved wrath</l>
+            <l xml:id="A08360-e101230">Brings them to civil and reproachful death,</l>
+            <l xml:id="A08360-e101240">And roots their names and kindreds from the earth. </l>
+          </sp>
+          <sp xml:id="A08360-e101250" who="A08360-ferrex">
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e101260">Mother content you, you shall see the end. </l>
+          </sp>
+          <sp xml:id="A08360-e101270" who="A08360-videna">
+            <pb facs="5"/>
+            <speaker>Viden.</speaker>
+            <l xml:id="A08360-e101280">The end? thy end I fear, Jove end me first. </l>
+          </sp>
+        </div>
+        <div n="2" type="scene" xml:id="A08360-e101290">
+          <head>Actus primus. Scaena secunda.</head>
+          <stage xml:id="A08360-e101300">Gorboduc. Arostus. Philander. Eubulus.</stage>
+          <sp xml:id="A08360-e101310" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e101320">My lords whose grave advice and faithful aid</l>
+            <l xml:id="A08360-e101330">Have long upheld my honour and my realm</l>
+            <l xml:id="A08360-e101340">And brought me from this age from tender years. </l>
+            <l xml:id="A08360-e101350">Guiding so great estate with great renown:</l>
+            <l xml:id="A08360-e101360">Now more importeth me the erst to use</l>
+            <l xml:id="A08360-e101370">Your faith and wisdom whereby yet I reign,</l>
+            <l xml:id="A08360-e101380">That when by death my lief and rule shall cease,</l>
+            <l xml:id="A08360-e101390">The kingdom yet may with unbroken course,</l>
+            <l xml:id="A08360-e101400">Have certain prince, by whose undoubted right,</l>
+            <l xml:id="A08360-e101410">Your wealth and peace, may stand in quiet stay,</l>
+            <l xml:id="A08360-e101420">And eke that they whom nature hath prepared,</l>
+            <l xml:id="A08360-e101430">In time to take my place in princely seat,</l>
+            <l xml:id="A08360-e101440">While in their father's time their pliant youth</l>
+            <l xml:id="A08360-e101450">Yields to the frame of skilful governance</l>
+            <l xml:id="A08360-e101460">May so be taught and trained in noble arts,</l>
+            <l xml:id="A08360-e101470">As what their fathers which have reigned before</l>
+            <l xml:id="A08360-e101480">Have with great fame derived down to them</l>
+            <l xml:id="A08360-e101490">With honour they may leave unto their seed:</l>
+            <l xml:id="A08360-e101500">And not be taught for their unworthy life,</l>
+            <l xml:id="A08360-e101510">And for their lawlesses swerving out of kind,</l>
+            <l xml:id="A08360-e101520">Worthy to lose what law and kind them gave</l>
+            <l xml:id="A08360-e101530">But that they may preserve the common peace,</l>
+            <l xml:id="A08360-e101540">The cause that first began and still maintains</l>
+            <l xml:id="A08360-e101550"><pb facs="5"/> the lineal course of King's inheritance,</l>
+            <l xml:id="A08360-e101560">For me, for mine, for you, and for the state</l>
+            <l xml:id="A08360-e101570">Whereof both I and you have charge and care. </l>
+            <l xml:id="A08360-e101580">Thus do I mean to use your wonted faith</l>
+            <l xml:id="A08360-e101590">To me and mine, and to your native land,</l>
+            <l xml:id="A08360-e101600">My lords be plain without all wry respect</l>
+            <l xml:id="A08360-e101610">Or poisonous craft to speak in pleasing wise,</l>
+            <l xml:id="A08360-e101620">Lest as the blame of ill succeeding things</l>
+            <l xml:id="A08360-e101630">Shall light on you, so light the harms also. </l>
+          </sp>
+          <sp xml:id="A08360-e101640" who="A08360-arostus">
+            <speaker>Arostus.</speaker>
+            <l xml:id="A08360-e101650">Your good acceptance so (Most noble King)</l>
+            <l xml:id="A08360-e101660">Of such your faithfulness as heretofore</l>
+            <l xml:id="A08360-e101670">We have employed in duties to your grace,</l>
+            <l xml:id="A08360-e101680">And to this realm whose worthy head you are,</l>
+            <l xml:id="A08360-e101690">Well proves that neither you mistrust at all,</l>
+            <l xml:id="A08360-e101700">Nor we shall need no boasting wise to show,</l>
+            <l xml:id="A08360-e101710">Our truth to you, nor yet our wakeful care</l>
+            <l xml:id="A08360-e101720">For you, for yours, and for our native land,</l>
+            <l xml:id="A08360-e101730">Wherefore (Oh King) I speak for one as all,</l>
+            <l xml:id="A08360-e101740">Sith all as one do bear you equal faith:</l>
+            <l xml:id="A08360-e101750">Doubt not to use their counsels and their aides</l>
+            <l xml:id="A08360-e101760">Whose honours, goods and lives are whole avowed</l>
+            <l xml:id="A08360-e101770">To serve, to aid, and to defend your grace. </l>
+          </sp>
+          <sp xml:id="A08360-e101780" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e101790">My lords I thank you all. This is the case</l>
+            <l xml:id="A08360-e101800">Ye know, the gods, who have the sovereign care</l>
+            <l xml:id="A08360-e101810">For Kings, for kingdoms, and for common weals,</l>
+            <l xml:id="A08360-e101820">Gave me two sons in my more lusty age,</l>
+            <l xml:id="A08360-e101830">Who now in my deceiving years are grown</l>
+            <l xml:id="A08360-e101840">Well towards riper state of mind and strength,</l>
+            <l xml:id="A08360-e101850">To take in hand some greater princely charge,</l>
+            <l xml:id="A08360-e101860"><pb facs="6"/> as yet they live and spend their hopeful days,</l>
+            <l xml:id="A08360-e101870">With me and with their mother here in courts</l>
+            <l xml:id="A08360-e101880">Their age now asketh other place and trade,</l>
+            <l xml:id="A08360-e101890">And mine also doth ask another change,</l>
+            <l xml:id="A08360-e101900">Theirs to more travail, mine to greater ease:</l>
+            <l xml:id="A08360-e101910">When fatal death shall end my mortal life,</l>
+            <l xml:id="A08360-e101920">My purpose is to leave unto them twain</l>
+            <l xml:id="A08360-e101930">The realm divided into two sundry parts:</l>
+            <l xml:id="A08360-e101940">The one Ferrex mine elder son shall have,</l>
+            <l xml:id="A08360-e101950">The other shall the other Porrex rule</l>
+            <l xml:id="A08360-e101960">That both my purpose may more framely stand,</l>
+            <l xml:id="A08360-e101970">And eke that they may better rule their charge,</l>
+            <l xml:id="A08360-e101980">I mean forthwith to place them in the same:</l>
+            <l xml:id="A08360-e101990">That in my life they may both learn to rule,</l>
+            <l xml:id="A08360-e102000">And I may joy to see their ruling well. </l>
+            <l xml:id="A08360-e102010">This is in sum, what I would have ye weigh:</l>
+            <l xml:id="A08360-e102020">First whether ye allow my whole device,</l>
+            <l xml:id="A08360-e102030">And think it good for me, for them, for you,</l>
+            <l xml:id="A08360-e102040">And for our country, mother of us all:</l>
+            <l xml:id="A08360-e102050">And if ye like it and allow it well,</l>
+            <l xml:id="A08360-e102060">Than for their guiding and their governance,</l>
+            <l xml:id="A08360-e102070">Show forth such means of circumstance,</l>
+            <l xml:id="A08360-e102080">As ye think meet to be both known and kept:</l>
+            <l xml:id="A08360-e102090">Lot, this is all, now tell me your advice. </l>
+          </sp>
+          <sp xml:id="A08360-e102100" who="A08360-arostus">
+            <speaker>Arostus.</speaker>
+            <l xml:id="A08360-e102110">And this is much, and asketh great advice,</l>
+            <l xml:id="A08360-e102120">But for my part my sovereign lord and King</l>
+            <l xml:id="A08360-e102130">This do I think your majesty doth know,</l>
+            <l xml:id="A08360-e102140">How under you in justice and in peace,</l>
+            <l xml:id="A08360-e102150">Great wealth and honour, long we have enjoyed</l>
+            <l xml:id="A08360-e102160">So as we can not seem with greedy minds</l>
+            <l xml:id="A08360-e102170"><pb facs="6"/> to wish for change of prince or governance,</l>
+            <l xml:id="A08360-e102180">But if ye like your purpose and device,</l>
+            <l xml:id="A08360-e102190">Our liking must be deemed to proceed,</l>
+            <l xml:id="A08360-e102200">Of rightful reason, and of heedful care,</l>
+            <l xml:id="A08360-e102210">Not for ourselves, but for our common state:</l>
+            <l xml:id="A08360-e102220">Sith our own state doth need no better change</l>
+            <l xml:id="A08360-e102230">I think in all as erst your grace hath said:</l>
+            <l xml:id="A08360-e102240">First when you shall unload your aged mind,</l>
+            <l xml:id="A08360-e102250">Of heavy care and troubles manifold,</l>
+            <l xml:id="A08360-e102260">And say the same upon my lords your sons</l>
+            <l xml:id="A08360-e102270">Whose growing years may bear the burden long</l>
+            <l xml:id="A08360-e102280">And long I pray the gods to grant it so:</l>
+            <l xml:id="A08360-e102290">And in your life while you shall so behold</l>
+            <l xml:id="A08360-e102300">Their rule, their virtues and their noble deeds,</l>
+            <l xml:id="A08360-e102310">Such as their kind behighteth to us all,</l>
+            <l xml:id="A08360-e102320">Great be the profits that shall grow thereof,</l>
+            <l xml:id="A08360-e102330">Your age in quiet shall the longer last,</l>
+            <l xml:id="A08360-e102340">Your lasting age shall be their longer stay,</l>
+            <l xml:id="A08360-e102350">For cares of Kings, that rule as you have ruled</l>
+            <l xml:id="A08360-e102360">For public wealth and not for private joy,</l>
+            <l xml:id="A08360-e102370">Do waste man's life and hasten crooked age,</l>
+            <l xml:id="A08360-e102380">With furrowed face and with enfeebled limbs,</l>
+            <l xml:id="A08360-e102390">To draw on creeping death a swifter pace. </l>
+            <l xml:id="A08360-e102400">They two yet young shall bear the party reign</l>
+            <l xml:id="A08360-e102410">With greater ease, than one now old alone</l>
+            <l xml:id="A08360-e102420">Can wield the whole, for whom much harder is</l>
+            <l xml:id="A08360-e102430">With lessened strength the double weight to bear</l>
+            <l xml:id="A08360-e102440">Your eye, your counsel, and the grave regard</l>
+            <l xml:id="A08360-e102450">Of fathers, yea of such a father's name,</l>
+            <l xml:id="A08360-e102460">Now at beginning of their sundered reign,</l>
+            <l xml:id="A08360-e102470">When it is hazard of their whole success,</l>
+            <l xml:id="A08360-e102480"><pb facs="7"/> shall bridle so their force of youthful heats,</l>
+            <l xml:id="A08360-e102490">And so restrain the rage of insolence,</l>
+            <l xml:id="A08360-e102500">Which most assails the young and noble minds,</l>
+            <l xml:id="A08360-e102510">And so shall guide and train in tempered stay</l>
+            <l xml:id="A08360-e102520">Their yet green bending wits with reverent awe</l>
+            <l xml:id="A08360-e102530">And now enured with virtues at the first. </l>
+            <l xml:id="A08360-e102540">Custom (Oh King) shall bring delightfulness</l>
+            <l xml:id="A08360-e102550">By use of virtue, vice shall grow in hate,</l>
+            <l xml:id="A08360-e102560">But if you so dispose it, that the day,</l>
+            <l xml:id="A08360-e102570">Which ends your life, shall first begin their reign</l>
+            <l xml:id="A08360-e102580">Great is the peril, what will be the end,</l>
+            <l xml:id="A08360-e102590">When such beginning of such liberties</l>
+            <l xml:id="A08360-e102600">Void of such states as in your lief do lie,</l>
+            <l xml:id="A08360-e102610">Shall leave them to free random of their will</l>
+            <l xml:id="A08360-e102620">An open prey too traitorous flattery,</l>
+            <l xml:id="A08360-e102630">The greatest pestilence of noble youth:</l>
+            <l xml:id="A08360-e102640">Which peril shall be passed, if in your life,</l>
+            <l xml:id="A08360-e102650">Their tempered youth with aged father's awe</l>
+            <l xml:id="A08360-e102660">Be brought in ure of skilful staidness</l>
+            <l xml:id="A08360-e102670">And in your life, their lives disposed so,</l>
+            <l xml:id="A08360-e102680">Shall length your noble lief in joyfulness. </l>
+            <l xml:id="A08360-e102690">Thus think I that your grace hath wisely thought</l>
+            <l xml:id="A08360-e102700">And that your tender care of common weal,</l>
+            <l xml:id="A08360-e102710">Hath bred this thought, so to divide your land</l>
+            <l xml:id="A08360-e102720">And plant your sons to bear the present rule</l>
+            <l xml:id="A08360-e102730">While you yet live to see their ruling well,</l>
+            <l xml:id="A08360-e102740">That you may longer live by joy therein. </l>
+            <l xml:id="A08360-e102750">What further means behooveful are and meet</l>
+            <l xml:id="A08360-e102760">At great leisure may your grace device,</l>
+            <l xml:id="A08360-e102770">When all have said, and when we be agreed</l>
+            <l xml:id="A08360-e102780">If this be best to part the realm in twain,</l>
+            <l xml:id="A08360-e102790"><pb facs="7"/> and place your sons in present government</l>
+            <l xml:id="A08360-e102800">Whereof as I have plainely said my mind,</l>
+            <l xml:id="A08360-e102810">So would I here the rest of all my lords. </l>
+          </sp>
+          <sp xml:id="A08360-e102820" who="A08360-philander">
+            <speaker>Philander.</speaker>
+            <l xml:id="A08360-e102830">In part I think as have been said before,</l>
+            <l xml:id="A08360-e102840">In part again my mind is otherwise</l>
+            <l xml:id="A08360-e102850">As for dividing of this realm in twain</l>
+            <l xml:id="A08360-e102860">And lotting out the same in equal parts,</l>
+            <l xml:id="A08360-e102870">To either of my lords your grace's sons,</l>
+            <l xml:id="A08360-e102880">That think I best for this your realm's behalf,</l>
+            <l xml:id="A08360-e102890">For profit and advancement of your sons,</l>
+            <l xml:id="A08360-e102900">And for your comfort and your honour eke:</l>
+            <l xml:id="A08360-e102910">But so to place them while your life do last,</l>
+            <l xml:id="A08360-e102920">To yield to them your royal governance,</l>
+            <l xml:id="A08360-e102930">To be above them only in the name</l>
+            <l xml:id="A08360-e102940">Of father, not in kingly state also,</l>
+            <l xml:id="A08360-e102950">I think not good for you, for them, nor us,</l>
+            <l xml:id="A08360-e102960">This kingdom since the bloody civil field</l>
+            <l xml:id="A08360-e102970">Where Morgan slain did yield his conquered part</l>
+            <l xml:id="A08360-e102980">Unto his cousin's sword in cumberland</l>
+            <l xml:id="A08360-e102990">Containeth all that whilom did suffice,</l>
+            <l xml:id="A08360-e103000">Three noble sons of your forefather Brute,</l>
+            <l xml:id="A08360-e103010">So your two sons, it may also suffice,</l>
+            <l xml:id="A08360-e103020">The more the stronger, if they 'gree in one:</l>
+            <l xml:id="A08360-e103030">The smaller compass that the realm doth hold</l>
+            <l xml:id="A08360-e103040">The easier is the sway thereof to wield,</l>
+            <l xml:id="A08360-e103050">The nearer justice to the wronged poor,</l>
+            <l xml:id="A08360-e103060">The smaller charge, and yet enough for one. </l>
+            <l xml:id="A08360-e103070">And when the region is divided so</l>
+            <l xml:id="A08360-e103080">That brethren be the lords of either part,</l>
+            <l xml:id="A08360-e103090">Such strength doth nature knit between the both. </l>
+            <l xml:id="A08360-e103100"><pb facs="8"/>In sundry bodies by conjoined love</l>
+            <l xml:id="A08360-e103110">That not as two, but one of doubled force,</l>
+            <l xml:id="A08360-e103120">Each is to other as a sure defence,</l>
+            <l xml:id="A08360-e103130">The nobleness and glory of the one</l>
+            <l xml:id="A08360-e103140">Doth sharp the courage of the others mind</l>
+            <l xml:id="A08360-e103150">With virtuous envy to contend for praise,</l>
+            <l xml:id="A08360-e103160">And such an equalness hath nature made,</l>
+            <l xml:id="A08360-e103170">Between the brothers of one father's seed,</l>
+            <l xml:id="A08360-e103180">As an unkindly wrong it seems to be,</l>
+            <l xml:id="A08360-e103190">To throw the other subject under feet</l>
+            <l xml:id="A08360-e103200">Of him, whose peer he is by course of kind,</l>
+            <l xml:id="A08360-e103210">And nature that did make this equalness,</l>
+            <l xml:id="A08360-e103220">Oft so repineth at so great a wrong,</l>
+            <l xml:id="A08360-e103230">That oft she raiseth up a grudging grief,</l>
+            <l xml:id="A08360-e103240">In younger brothers at the elders state:</l>
+            <l xml:id="A08360-e103250">Whereby both towns and kingdoms have be rased</l>
+            <l xml:id="A08360-e103260">And famous stocks of royal blood destroyed:</l>
+            <l xml:id="A08360-e103270">The brother that should be the brother's aid</l>
+            <l xml:id="A08360-e103280">And have a wakeful care for his defence,</l>
+            <l xml:id="A08360-e103290">Gapes for his death, and blames the lyngering years</l>
+            <l xml:id="A08360-e103300">That brings not forth his end with faster course</l>
+            <l xml:id="A08360-e103310">And oft impatient of so long delays,</l>
+            <l xml:id="A08360-e103320">With hateful slaughter he presents the fates</l>
+            <l xml:id="A08360-e103330">And keeps a just reward for brother's blood,</l>
+            <l xml:id="A08360-e103340">With endless vengeance on his stock for aye:</l>
+            <l xml:id="A08360-e103350">Such mischiefs here are wisely met withal:</l>
+            <l xml:id="A08360-e103360">If equal state may nourish equal love,</l>
+            <l xml:id="A08360-e103370">Where none hath cause to grudge at others good,</l>
+            <l xml:id="A08360-e103380">But now the head to stoop beneath them both,</l>
+            <l xml:id="A08360-e103390">Ne kind, ne reason, ne good order bears,</l>
+            <l xml:id="A08360-e103400">And oft it hath been seen, that where nature</l>
+            <l xml:id="A08360-e103410"><pb facs="8"/> hath been perverted in disordered wise,</l>
+            <l xml:id="A08360-e103420">When fathers cease to know that they should rule</l>
+            <l xml:id="A08360-e103430">And children cease to know they should obey,</l>
+            <l xml:id="A08360-e103440">And often our unkindly tenderness,</l>
+            <l xml:id="A08360-e103450">As mother of unkindly stubborns:</l>
+            <l xml:id="A08360-e103460">I speak not this in envy or reproach,</l>
+            <l xml:id="A08360-e103470">As if I grudged the glory of your sons,</l>
+            <l xml:id="A08360-e103480">Whose honour I beseech the gods to increase:</l>
+            <l xml:id="A08360-e103490">Nor yet as if I thought there did remain,</l>
+            <l xml:id="A08360-e103500">So filthy cankers in their noble breasts,</l>
+            <l xml:id="A08360-e103510">Whom I esteem (Which is their greatest praise,</l>
+            <l xml:id="A08360-e103520">Undoubted children of so good a King. </l>
+            <l xml:id="A08360-e103530">Only I mean to show my certain rules,</l>
+            <l xml:id="A08360-e103540">Which kind hath graft within the mind of man</l>
+            <l xml:id="A08360-e103550">That nature hath her order and her course,</l>
+            <l xml:id="A08360-e103560">Which (Being broken) doth corrupt the state</l>
+            <l xml:id="A08360-e103570">Of minds and things even in the best of all</l>
+            <l xml:id="A08360-e103580">My lords your sons may learn to rule of you</l>
+            <l xml:id="A08360-e103590">Your own example in your noble court</l>
+            <l xml:id="A08360-e103600">Is fittest guider of their youthful years,</l>
+            <l xml:id="A08360-e103610">If you desire to seek some present joy</l>
+            <l xml:id="A08360-e103620">By sight of their well ruling in your life,</l>
+            <l xml:id="A08360-e103630">See them obey, so shall you see them rule,</l>
+            <l xml:id="A08360-e103640">Who so obeyeth not with humbleness</l>
+            <l xml:id="A08360-e103650">Will rule without rage and with insolence</l>
+            <l xml:id="A08360-e103660">Long may they rule I do beseech the gods,</l>
+            <l xml:id="A08360-e103670">But long may they learn ere they begin to rule</l>
+            <l xml:id="A08360-e103680">If kind and fates would suffer I would wish</l>
+            <l xml:id="A08360-e103690">Them aged princes and immortal Kings:</l>
+            <l xml:id="A08360-e103700">Wherefore most noble King I well assent,</l>
+            <l xml:id="A08360-e103710">Between your sons thatyou divide your realm. </l>
+            <l xml:id="A08360-e103720"><pb facs="9"/>And as in kind, so match them in degree</l>
+            <l xml:id="A08360-e103730">But while the God's prolong your royal life</l>
+            <l xml:id="A08360-e103740">Prolong your reign, for thereto live you here,</l>
+            <l xml:id="A08360-e103750">And therefore have the gods so long forborn</l>
+            <l xml:id="A08360-e103760">To join you to themselves, that still you might</l>
+            <l xml:id="A08360-e103770">Be prince and father of our common weal:</l>
+            <l xml:id="A08360-e103780">They when they see your children ripe to rule</l>
+            <l xml:id="A08360-e103790">Will make them room, and will remove you hence,</l>
+            <l xml:id="A08360-e103800">That yours in right ensuing of your life</l>
+            <l xml:id="A08360-e103810">May rightly honour your mortal name. </l>
+          </sp>
+          <sp xml:id="A08360-e103820" who="A08360-eubulus">
+            <speaker>Eubulus.</speaker>
+            <l xml:id="A08360-e103830">Your wonted true regard of faithful hearts,</l>
+            <l xml:id="A08360-e103840">Makes me (Oh King) the bolder to presume</l>
+            <l xml:id="A08360-e103850">To speak what I conceive within my breast,</l>
+            <l xml:id="A08360-e103860">Although the same do not agree at all</l>
+            <l xml:id="A08360-e103870">With that which other here my lords have said</l>
+            <l xml:id="A08360-e103880">Nor which yourself have seemed best to like,</l>
+            <l xml:id="A08360-e103890">Pardon I crave and that my words be deemed</l>
+            <l xml:id="A08360-e103900">To flow from hearty zeal unto your grace,</l>
+            <l xml:id="A08360-e103910">And to the safety of your common weal:</l>
+            <l xml:id="A08360-e103920">To part your realm unto my lords your sons</l>
+            <l xml:id="A08360-e103930">I think not good for you, ne yet for them,</l>
+            <l xml:id="A08360-e103940">But worst of all, for this our native land:</l>
+            <l xml:id="A08360-e103950">For with one land, one single rule is best:</l>
+            <l xml:id="A08360-e103960">Divided reigns do make divided hearts. </l>
+            <l xml:id="A08360-e103970">But peace preserves the country and the prince. </l>
+            <l xml:id="A08360-e103980">Suche is in man the greedy mind to reign,</l>
+            <l xml:id="A08360-e103990">So great is his desire to climb aloft,</l>
+            <l xml:id="A08360-e104000">In worldly stage the stateliest parts to bear,</l>
+            <l xml:id="A08360-e104010">That faith and justice and all kindly love,</l>
+            <l xml:id="A08360-e104020">Do yield unto desire of sovereignty:</l>
+            <l xml:id="A08360-e104030"><pb facs="9"/> where equal state doth raise an equal hope</l>
+            <l xml:id="A08360-e104040">To win the thing that either would attain</l>
+            <l xml:id="A08360-e104050">Your grace remembreth how in passed years</l>
+            <l xml:id="A08360-e104060">The mighty Brute, first prince of all this land</l>
+            <l xml:id="A08360-e104070">Possessed the same and ruled it well in one,</l>
+            <l xml:id="A08360-e104080">He thinking that the compass did suffice</l>
+            <l xml:id="A08360-e104090">For his three sons, three kingdoms eke to make</l>
+            <l xml:id="A08360-e104100">Cut it in three, as you would now in twain:</l>
+            <l xml:id="A08360-e104110">But how much brutish blood hath sithence been spilt</l>
+            <l xml:id="A08360-e104120">To join again the sundered unity? </l>
+            <l xml:id="A08360-e104130">What princes slain before their timely honour? </l>
+            <l xml:id="A08360-e104140">What waste of towns and people in the land? </l>
+            <l xml:id="A08360-e104150">What treasons heaped on murders and on spoils? </l>
+            <l xml:id="A08360-e104160">Whose just revenge even yet is scarcely ceased,</l>
+            <l xml:id="A08360-e104170">Ruthful remembrance is yet had in mind:</l>
+            <l xml:id="A08360-e104180">The gods forbid the like to chance again</l>
+            <l xml:id="A08360-e104190">And you (Oh King) give not the cause thereof:</l>
+            <l xml:id="A08360-e104200">My lord Ferrex your elder son, perhaps</l>
+            <l xml:id="A08360-e104210">Whom kind and custom gives a rightful hope</l>
+            <l xml:id="A08360-e104220">To be your heir and to succeed your reign,</l>
+            <l xml:id="A08360-e104230">Shall think that he doth suffer greater wrong</l>
+            <l xml:id="A08360-e104240">Than he perchance will bear, if power serve</l>
+            <l xml:id="A08360-e104250">Porrex the younger so unpoised in state,</l>
+            <l xml:id="A08360-e104260">Perhaps in courage will be raised also,</l>
+            <l xml:id="A08360-e104270">If flattery then which sails not to assail ▪</l>
+            <l xml:id="A08360-e104280">The tender minds of yet unskilful youth,</l>
+            <l xml:id="A08360-e104290">In one shall kindle and increase disdain:</l>
+            <l xml:id="A08360-e104300">And envy in the others heart inflame,</l>
+            <l xml:id="A08360-e104310">This fire shall waste their love, their lives, their land,</l>
+            <l xml:id="A08360-e104320">And ruthful ruin shall destroy them both,</l>
+            <l xml:id="A08360-e104330">A wish not this (Oh King) so to befall</l>
+            <l xml:id="A08360-e104340"><pb facs="10"/> but fear the thing, that I do most abhor</l>
+            <l xml:id="A08360-e104350">Give no beginning to so dreadful end,</l>
+            <l xml:id="A08360-e104360">Keep them in order and obedience:</l>
+            <l xml:id="A08360-e104370">And let them both by now obeying you,</l>
+            <l xml:id="A08360-e104380">Learn such behaviour as beseems their state. </l>
+            <l xml:id="A08360-e104390">The older, mildness in his governance,</l>
+            <l xml:id="A08360-e104400">The younger, a yielding contentedness:</l>
+            <l xml:id="A08360-e104410">And keep them near unto your presence still,</l>
+            <l xml:id="A08360-e104420">That they restrained by the awe of you,</l>
+            <l xml:id="A08360-e104430">May live in compass of well tempered stay,</l>
+            <l xml:id="A08360-e104440">And pass the perils of their youthful years,</l>
+            <l xml:id="A08360-e104450">Your aged life draws on to feebler time,</l>
+            <l xml:id="A08360-e104460">Wherein you shall less able be to bear</l>
+            <l xml:id="A08360-e104470">The travails that in youth you have sustained</l>
+            <l xml:id="A08360-e104480">Both in your persons and your realm's defence</l>
+            <l xml:id="A08360-e104490">If planting now your sons in further parts,</l>
+            <l xml:id="A08360-e104500">You send them further from your present reach</l>
+            <l xml:id="A08360-e104510">Less shall you know how they themselves demand</l>
+            <l xml:id="A08360-e104520">Traitorous corrupters of their pliant youth,</l>
+            <l xml:id="A08360-e104530">Shall have unspied a much more free access,</l>
+            <l xml:id="A08360-e104540">And of ambition and inflamed disdain</l>
+            <l xml:id="A08360-e104550">Shall arm the one, the other, or them both</l>
+            <l xml:id="A08360-e104560">To rival war, or to usurping pride. </l>
+            <l xml:id="A08360-e104570">Late shall you rue, that you ne recked before:</l>
+            <l xml:id="A08360-e104580">Good is I grant of all to hope the best,</l>
+            <l xml:id="A08360-e104590">But not to live still dreadless of the worst,</l>
+            <l xml:id="A08360-e104600">So trust the one, that the other be foreseen,</l>
+            <l xml:id="A08360-e104610">Arm not unskillfulness with princely power</l>
+            <l xml:id="A08360-e104620">But you that long have wisely ruled the reigns</l>
+            <l xml:id="A08360-e104630">Of royalty within your noble realm</l>
+            <l xml:id="A08360-e104640">So hold them, while the gods for our avails</l>
+            <l xml:id="A08360-e104650"><pb facs="10"/> shall stretch the thread of your prolonged dales</l>
+            <l xml:id="A08360-e104660">To soon he claimed, into the flaming cart</l>
+            <l xml:id="A08360-e104670">Whose want of skill did set the earth on fire,</l>
+            <l xml:id="A08360-e104680">Time and example of your noble grace,</l>
+            <l xml:id="A08360-e104690">Shall teach your sons both to obey and rule ▪</l>
+            <l xml:id="A08360-e104700">When time hath taught them, time shall make them pace</l>
+            <l xml:id="A08360-e104710">The place that now is full: and so I pray</l>
+            <l xml:id="A08360-e104720">Long it remain, to comfort of us all. </l>
+          </sp>
+          <sp xml:id="A08360-e104730" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e104740">I take your faithful hearts in thankful part</l>
+            <l xml:id="A08360-e104750">But sith I see no cause to draw my mind,</l>
+            <l xml:id="A08360-e104760">To fear the nature of my loving sons,</l>
+            <l xml:id="A08360-e104770">Or to misdeem that envy or disdain,</l>
+            <l xml:id="A08360-e104780">Can there work hate, where nature planteth love</l>
+            <l xml:id="A08360-e104790">In one self purpose do I still abide,</l>
+            <l xml:id="A08360-e104800">My love extendeth equally to both,</l>
+            <l xml:id="A08360-e104810">My land sufficeth for them both also:</l>
+            <l xml:id="A08360-e104820">Humber shall part the marches of their realms:</l>
+            <l xml:id="A08360-e104830">The southern part the elder shall possess,</l>
+            <l xml:id="A08360-e104840">The Northern shall Porrex the younger rule,</l>
+            <l xml:id="A08360-e104850">In quiet I will pass mine aged days,</l>
+            <l xml:id="A08360-e104860">Free from the travail and the painful cares</l>
+            <l xml:id="A08360-e104870">That hasten age upon the worthiest Kings. </l>
+            <l xml:id="A08360-e104880">But lest the fraud that ye do seem to fear</l>
+            <l xml:id="A08360-e104890">Of flattering tongues, corrupt their tender youth</l>
+            <l xml:id="A08360-e104900">And wrieth them to the ways of youthful lust,</l>
+            <l xml:id="A08360-e104910">To climbing pride, or to revenging hate</l>
+            <l xml:id="A08360-e104920">Or to neglecting of their careful charge</l>
+            <l xml:id="A08360-e104930">Lewdly to live in wanton recklessness,</l>
+            <l xml:id="A08360-e104940">Or to oppressing of the rightful cause</l>
+            <l xml:id="A08360-e104950"><pb facs="11"/> or not to wreak the wrongs done to the poor</l>
+            <l xml:id="A08360-e104960">To tread down truth, or favour false deceit</l>
+            <l xml:id="A08360-e104970">I mean to join to either of my sons</l>
+            <l xml:id="A08360-e104980">Some one of those whose long approved faith</l>
+            <l xml:id="A08360-e104990">And wisdom tried may well assure my heart:</l>
+            <l xml:id="A08360-e105000">That mining fraud shall find no way to creep</l>
+            <l xml:id="A08360-e105010">Into their fensed ears with grave advice:</l>
+            <l xml:id="A08360-e105020">This is the end, and so I pray you all</l>
+            <l xml:id="A08360-e105030">To bear my sons the love and loyalty</l>
+            <l xml:id="A08360-e105040">That I have found within your faithful breasts. </l>
+          </sp>
+          <sp xml:id="A08360-e105050" who="A08360-arostus">
+            <speaker>Arostus.</speaker>
+            <l xml:id="A08360-e105060">You, nor your sons, our sovereign lord shall want</l>
+            <l xml:id="A08360-e105070">Our faith and service while our lives do last. </l>
+          </sp>
+          <sp xml:id="A08360-e105080" who="A08360-chorus">
+            <speaker>Chorus.</speaker>
+            <lg xml:id="A08360-e105090">
+              <l xml:id="A08360-e105100">When settled stay doth hold the royal throne,</l>
+              <l xml:id="A08360-e105110">In steadfast place by known and doubtless right:</l>
+              <l xml:id="A08360-e105120">And chiefly when dissent on one alone</l>
+              <l xml:id="A08360-e105130">Make single and unparted reign to light. </l>
+              <l xml:id="A08360-e105140">Each change of course unjoints the whole estate</l>
+              <l xml:id="A08360-e105150">And yields it thrall to rayne by debate. </l>
+            </lg>
+            <lg xml:id="A08360-e105160">
+              <l xml:id="A08360-e105170">The strength that knitted by last accord in one</l>
+              <l xml:id="A08360-e105180">Against all foreign power of mighty foes,</l>
+              <l xml:id="A08360-e105190">Could of itself defend itself alone,</l>
+              <l xml:id="A08360-e105200">Disjoined once, the former force doth lose</l>
+              <l xml:id="A08360-e105210">The sticks, that sundered broke so soon in twain</l>
+              <l xml:id="A08360-e105220">In faggot bound attempted were in vain. </l>
+            </lg>
+            <lg xml:id="A08360-e105230">
+              <l xml:id="A08360-e105240">Oft tender mind that leads the partial eye</l>
+              <l xml:id="A08360-e105250">Of erring parents in their children's love,</l>
+              <l xml:id="A08360-e105260">Destroys the wrongful loved child thereby:</l>
+              <l xml:id="A08360-e105270"><pb facs="11"/> this doth the proud son of Apollo prove,</l>
+              <l xml:id="A08360-e105280">Who rashly set in chariot of his sire:</l>
+              <l xml:id="A08360-e105290">Inflamed the perched earth with heaven's fire. </l>
+            </lg>
+            <lg xml:id="A08360-e105300">
+              <l xml:id="A08360-e105310">And this great King, that doth divide his land,</l>
+              <l xml:id="A08360-e105320">And changed the course of his discending crown</l>
+              <l xml:id="A08360-e105330">And yields the reign into his children's hand</l>
+              <l xml:id="A08360-e105340">From blissful state of joy and great renown,</l>
+              <l xml:id="A08360-e105350">A mirror shall become to princes all</l>
+              <l xml:id="A08360-e105360">To learn to shun the cause of such a fall. </l>
+            </lg>
+          </sp>
+        </div>
+      </div>
+      <div n="2" type="dumb_show" xml:id="A08360-e105370">
+        <head>¶ The order and signification of the dumb show before the second act.</head>
+        <p xml:id="A08360-e105380">¶ First the music of cornets began to play, during which came in upon the stage a King accompanied with a number of his nobility and gentlemen. And after he had placed himself in a chair of estate prepared for him: there came and kneeled before him a grave and aged gentleman and offered up a cup unto him of wine in a glass, which the King refused. After him comes, a brave and lusty young gentleman and presents the King with a cup of gold filled withpoison, which the King accepted, and drinking the same, immediately fell down dead upon thestage, and so was carried thence away by his lords and gentlemen, and then the music ceased. Hereby was signified, that as glass by nature holdeth no pason, but is clear and may easily be seen through, ne boweth by any art: so a faithful<pb facs="12"/> counsellor holdeth no treason, but is plain and open, ne yieldeth to any undiscrete affection, but giveth wholesome counsel, which the ill advised prince refuseth. The delightful gold filled withpoison betokeneth flattery, which under fair seeming of pleasant words beareth deadly poison, which destroyeth the prince that receiveth it. As befell in the two brethren Ferrex and Porrex who refusing the wholesome advice of grave counsellors, credited these young paracites, and brought to themselves death and destruction thereby.</p>
+      </div>
+      <div n="2" type="act" xml:id="A08360-e105390">
+        <div n="1" type="scene" xml:id="A08360-e105400">
+          <head>Actus secundus. Scaena prima.</head>
+          <stage xml:id="A08360-e105410">Ferrex. Hermon. Dordan.</stage>
+          <sp xml:id="A08360-e105420" who="A08360-ferrex">
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e105430">I marvel much what reason lead the King</l>
+            <l xml:id="A08360-e105440">My father thus without all my desert</l>
+            <l xml:id="A08360-e105450">To reave me half thekingdom which by course</l>
+            <l xml:id="A08360-e105460">Of law and nature should remain to me. </l>
+          </sp>
+          <sp xml:id="A08360-e105470" who="A08360-hermon">
+            <speaker>Hermon.</speaker>
+            <l xml:id="A08360-e105480">If you with stubborn and untamed pride</l>
+            <l xml:id="A08360-e105490">Had stood against him in rebellious wise,</l>
+            <l xml:id="A08360-e105500">Or if with grudging mind you had envied</l>
+            <l xml:id="A08360-e105510">So slow a sliding of his aged years,</l>
+            <l xml:id="A08360-e105520">Or sought before your time to haste the course</l>
+            <l xml:id="A08360-e105530">Of fatal death upon his royal head,</l>
+            <l xml:id="A08360-e105540">Or stained your stock with murder of your kin:</l>
+            <l xml:id="A08360-e105550">Some face of reason might perhaps have seemed</l>
+            <l xml:id="A08360-e105560">To yield some likely cause to spoil ye thus. </l>
+          </sp>
+          <sp xml:id="A08360-e105570" who="A08360-ferrex">
+            <pb facs="12"/>
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e105580">The wreakful god's pour on my cursed head,</l>
+            <l xml:id="A08360-e105590">Eternal plagues and never dying woes,</l>
+            <l xml:id="A08360-e105600">The hellish prince, adjudge my dampned ghost</l>
+            <l xml:id="A08360-e105610">To Tantalus thirst, or proud Ixion's wheel</l>
+            <l xml:id="A08360-e105620">Or cruel gripe to gnaw my growing heart</l>
+            <l xml:id="A08360-e105630">To during torments and unquenched flames</l>
+            <l xml:id="A08360-e105640">If ever I conceived so foul a thought,</l>
+            <l xml:id="A08360-e105650">To wish his end of life, or yet of reign. </l>
+          </sp>
+          <sp xml:id="A08360-e105660" who="A08360-dordan">
+            <speaker>Dordan.</speaker>
+            <l xml:id="A08360-e105670">Ne yet your father (Oh most noble prince)</l>
+            <l xml:id="A08360-e105680">Did ever think so foul a thing of you</l>
+            <l xml:id="A08360-e105690">For he with more than father's tender love</l>
+            <l xml:id="A08360-e105700">While yet the fates do lend him life to rule,</l>
+            <l xml:id="A08360-e105710">(Who long might live to so your ruling well)</l>
+            <l xml:id="A08360-e105720">To you my lord, and to his other son</l>
+            <l xml:id="A08360-e105730">Lo he resigns his realm and royalty</l>
+            <l xml:id="A08360-e105740">Which never would so wise a prince have done</l>
+            <l xml:id="A08360-e105750">If he had ones misdemed that in your heart</l>
+            <l xml:id="A08360-e105760">There ever lodged so unkind a thought. </l>
+            <l xml:id="A08360-e105770">But tender love (My lord) and settled trust</l>
+            <l xml:id="A08360-e105780">Of your good nature, and your able mind</l>
+            <l xml:id="A08360-e105790">Made him to place you thus in royal throne</l>
+            <l xml:id="A08360-e105800">And now to give you half his realm to guide</l>
+            <l xml:id="A08360-e105810">Yea and that half within abounding store</l>
+            <l xml:id="A08360-e105820">Of things that serve to make a wealthy realm</l>
+            <l xml:id="A08360-e105830">In stately cities and in fruitful soil,</l>
+            <l xml:id="A08360-e105840">In temperate breathing of the milder heaven,</l>
+            <l xml:id="A08360-e105850">In things of needful use, which friendly sea</l>
+            <l xml:id="A08360-e105860">Transportes by traffic from the foreign ports,</l>
+            <l xml:id="A08360-e105870">In flowing wealth, in honour and in force,</l>
+            <l xml:id="A08360-e105880"><pb facs="13"/> doth pass the double value of the part</l>
+            <l xml:id="A08360-e105890">That Porrex hath allotted to his reign,</l>
+            <l xml:id="A08360-e105900">Such is your ease, such is your father's love. </l>
+          </sp>
+          <sp xml:id="A08360-e105910" who="A08360-ferrex">
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e105920">Ah love, my friends, love wrongs not whom he loves. </l>
+          </sp>
+          <sp xml:id="A08360-e105930" who="A08360-dordan">
+            <speaker>Dordan.</speaker>
+            <l xml:id="A08360-e105940">Ne yet he wrongeth you that giveth you</l>
+            <l xml:id="A08360-e105950">So large a reign ere that the course of time</l>
+            <l xml:id="A08360-e105960">Bring you to kingdom by descended right,</l>
+            <l xml:id="A08360-e105970">Which time perhaps might end your time before. </l>
+          </sp>
+          <sp xml:id="A08360-e105980" who="A08360-ferrex">
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e105990">Is this no wrong, say you, to reave from me</l>
+            <l xml:id="A08360-e106000">My native right to half so great a realm,</l>
+            <l xml:id="A08360-e106010">And thus to match his younger son with me</l>
+            <l xml:id="A08360-e106020">In equal power, and in as great degree:</l>
+            <l xml:id="A08360-e106030">Yea and what son? theson whose swelling pride</l>
+            <l xml:id="A08360-e106040">Would never yield one point of reverence,</l>
+            <l xml:id="A08360-e106050">When I the elder and apparent heir</l>
+            <l xml:id="A08360-e106060">Stood in the likelihood to possess the whole</l>
+            <l xml:id="A08360-e106070">Yea and that son which from his childish age</l>
+            <l xml:id="A08360-e106080">Envieth mine honour, and doth hate my life,</l>
+            <l xml:id="A08360-e106090">What will he now do? when his pride, his rage,</l>
+            <l xml:id="A08360-e106100">The mindful malice of his grudging heart</l>
+            <l xml:id="A08360-e106110">Is armed with force, with wealth and kingly state</l>
+          </sp>
+          <sp xml:id="A08360-e106120" who="A08360-hermon">
+            <speaker>Hermon.</speaker>
+            <l xml:id="A08360-e106130">Was this not wrong? yea ill advised wrong</l>
+            <l xml:id="A08360-e106140">To give so mad a man so sharp a sword,</l>
+            <l xml:id="A08360-e106150">To so great peril of so great mishap,</l>
+            <l xml:id="A08360-e106160">Wide open thus to set so large a way. </l>
+          </sp>
+          <sp xml:id="A08360-e106170" who="A08360-dordan">
+            <speaker>Dordan.</speaker>
+            <l xml:id="A08360-e106180">Alas my lord, what griefful thing is this? </l>
+            <l xml:id="A08360-e106190"><pb facs="13"/>That of your brother you can think so ill</l>
+            <l xml:id="A08360-e106200">I never saw him utter likely sign</l>
+            <l xml:id="A08360-e106210">Whereby a man might see or once misdeem</l>
+            <l xml:id="A08360-e106220">Such hate of you, ne such unyielding pride</l>
+            <l xml:id="A08360-e106230">Ill is their counsel, shameful be their end,</l>
+            <l xml:id="A08360-e106240">That raising such mistrustful fear in you,</l>
+            <l xml:id="A08360-e106250">Sowing the seed of such unkindly hate,</l>
+            <l xml:id="A08360-e106260">Travail by reason to destroy you both:)</l>
+            <l xml:id="A08360-e106270">Wise is your brother and of noble hope,</l>
+            <l xml:id="A08360-e106280">Worthy to wield a large and mighty realm</l>
+            <l xml:id="A08360-e106290">So much a stronger friend have you thereby,</l>
+            <l xml:id="A08360-e106300">Whose strength is your strength, if you 'gree in one. </l>
+          </sp>
+          <sp xml:id="A08360-e106310" who="A08360-hermon">
+            <speaker>Hermon.</speaker>
+            <l xml:id="A08360-e106320">If nature and the gods had pinched so</l>
+            <l xml:id="A08360-e106330">Their flowing bounty and their noble gifts</l>
+            <l xml:id="A08360-e106340">Of princely qualities from you my lord</l>
+            <l xml:id="A08360-e106350">And powered them all at ones in wasteful wise</l>
+            <l xml:id="A08360-e106360">Upon your father's younger son alone:</l>
+            <l xml:id="A08360-e106370">Perhaps there be that in your prejudice</l>
+            <l xml:id="A08360-e106380">Would say that birth should yield to worthiness:</l>
+            <l xml:id="A08360-e106390">But sith in each good gift and princely act</l>
+            <l xml:id="A08360-e106400">Ye are his match, and in the chief of all</l>
+            <l xml:id="A08360-e106410">In mildness and in sober governance</l>
+            <l xml:id="A08360-e106420">Ye far surmount: and sith there is in you</l>
+            <l xml:id="A08360-e106430">Sufficing skill and hopeful towardness</l>
+            <l xml:id="A08360-e106440">To wield the whole, and match you elders praise</l>
+            <l xml:id="A08360-e106450">I see no cause why ye should lose the half,</l>
+            <l xml:id="A08360-e106460">Ne would I wish you yield to such a loss:</l>
+            <l xml:id="A08360-e106470">Lest your mild sufferance of so great a wrong</l>
+            <l xml:id="A08360-e106480">Be deemed cowardish and simple dread:</l>
+            <l xml:id="A08360-e106490">Which shall give courage to the fiery head</l>
+            <l xml:id="A08360-e106500"><pb facs="14"/> of your young brother to invade the whole,</l>
+            <l xml:id="A08360-e106510">Whiles yet therefore sticks in the people's mind</l>
+            <l xml:id="A08360-e106520">The loathed wrong of your disheritance,</l>
+            <l xml:id="A08360-e106530">And ere your brother have by settled power,</l>
+            <l xml:id="A08360-e106540">By guile full cloak of an alluring show,</l>
+            <l xml:id="A08360-e106550">Got him some force and favour in this realm</l>
+            <l xml:id="A08360-e106560">And while the noble Queen your mother lives,</l>
+            <l xml:id="A08360-e106570">To work and practice all for your avail</l>
+            <l xml:id="A08360-e106580">Attempt redress by arms, and wreak yourself</l>
+            <l xml:id="A08360-e106590">Upon his life, that gaineth by your loss,</l>
+            <l xml:id="A08360-e106600">Who now to shame of you, and grief of us</l>
+            <l xml:id="A08360-e106610">In your own kingdom triumphs over you:</l>
+            <l xml:id="A08360-e106620">Show now your courage meet for kingly estate</l>
+            <l xml:id="A08360-e106630">That they which have avowed to spend their goods</l>
+            <l xml:id="A08360-e106640">Their lands, their lives and honours in your cause,</l>
+            <l xml:id="A08360-e106650">May be the bolder to maintain your part</l>
+            <l xml:id="A08360-e106660">Johan they do see that coward fear in you,</l>
+            <l xml:id="A08360-e106670">Shall not betray ne sail their faithful hearts. </l>
+            <l xml:id="A08360-e106680">If ones the death of Porrex end the strife,</l>
+            <l xml:id="A08360-e106690">And pay the price of his usurped reign,</l>
+            <l xml:id="A08360-e106700">Your mother shall persuade the angry King,</l>
+            <l xml:id="A08360-e106710">The lords your friends eke shall appease his rage</l>
+            <l xml:id="A08360-e106720">For they be wise, and well they can foresee,</l>
+            <l xml:id="A08360-e106730">That ere long time your aged father's death</l>
+            <l xml:id="A08360-e106740">Will bring a time when you shall well requite</l>
+            <l xml:id="A08360-e106750">Their friendly favour, or their hateful spite. </l>
+            <l xml:id="A08360-e106760">Yea, or their slackness to advance your cause</l>
+            <l xml:id="A08360-e106770">Wise men do not so hang on passing state</l>
+            <l xml:id="A08360-e106780">Of present princes, chiefly in their age. </l>
+            <l xml:id="A08360-e106790">But they will further cast their reaching eye</l>
+            <l xml:id="A08360-e106800">To view and weigh the times and reigns to come</l>
+            <l xml:id="A08360-e106810"><pb facs="14"/> ne is it likely though the King be wroth</l>
+            <l xml:id="A08360-e106820">That he yet will, or that the realm will bear</l>
+            <l xml:id="A08360-e106830">Extreme revenge upon his only son:</l>
+            <l xml:id="A08360-e106840">Or if he would, what one is he that dare</l>
+            <l xml:id="A08360-e106850">Be ministre to such an enterprise. </l>
+            <l xml:id="A08360-e106860">And here you be now placed in your own</l>
+            <l xml:id="A08360-e106870">Amid your friends, your vassals and your strength</l>
+            <l xml:id="A08360-e106880">We shall defend and keep your person safe</l>
+            <l xml:id="A08360-e106890">Till either counsel turn his tender mind</l>
+            <l xml:id="A08360-e106900">Or age, or sorrow end his weary days</l>
+            <l xml:id="A08360-e106910">But if the fear of gods and secret grudge</l>
+            <l xml:id="A08360-e106920">Of nature's law, repining at the fact,</l>
+            <l xml:id="A08360-e106930">Withhold your courage from so great attempt:</l>
+            <l xml:id="A08360-e106940">Know ye that lust of kingdoms hath no law</l>
+            <l xml:id="A08360-e106950">The gods do bear and well allow in Kings</l>
+            <l xml:id="A08360-e106960">The things they abhor in rascal routs. </l>
+            <l xml:id="A08360-e106970">When Kings on slender quarrels run to wars</l>
+            <l xml:id="A08360-e106980">And than in cruel and unkindly wise,</l>
+            <l xml:id="A08360-e106990">Command thefts, rapes, murder of innocentes</l>
+            <l xml:id="A08360-e107000">To spoil of towns, and reigns of mighty realms</l>
+            <l xml:id="A08360-e107010">Think you such princes do suppress themselves</l>
+            <l xml:id="A08360-e107020">Subject to laws of kind and fear of gods,</l>
+            <l xml:id="A08360-e107030">Yet none offence, but decked with glorious name</l>
+            <l xml:id="A08360-e107040">Of noble conquests in the hands of Kings,</l>
+            <l xml:id="A08360-e107050">Murders and violent thefts in private men</l>
+            <l xml:id="A08360-e107060">Are heinous crimes and full of foul reproach:</l>
+            <l xml:id="A08360-e107070">But if you like not yet so hot device,</l>
+            <l xml:id="A08360-e107080">Ne list to take such vantage of the time. </l>
+            <l xml:id="A08360-e107090">But though with great peril of your state</l>
+            <l xml:id="A08360-e107100">You will not be the first that shall invade,</l>
+            <l xml:id="A08360-e107110">Assemble yet your force for your defence,</l>
+            <l xml:id="A08360-e107120"><pb facs="15"/> and for your safety stand upon your guard. </l>
+          </sp>
+          <sp xml:id="A08360-e107130" who="A08360-dordan">
+            <speaker>Dordan.</speaker>
+            <l xml:id="A08360-e107140">O heaven was there ever hard or known,</l>
+            <l xml:id="A08360-e107150">So wicked counsel to a noble prince? </l>
+            <l xml:id="A08360-e107160">Let me (My lord) disclose unto your grace</l>
+            <l xml:id="A08360-e107170">This heinous tale, what mischief it contains:</l>
+            <l xml:id="A08360-e107180">Your father's death, your brothers and your owns</l>
+            <l xml:id="A08360-e107190">Your present murder and eternal shame:</l>
+            <l xml:id="A08360-e107200">Hear me (Oh King) and suffer not to sink</l>
+            <l xml:id="A08360-e107210">So high a treason in your princely breast. </l>
+          </sp>
+          <sp xml:id="A08360-e107220" who="A08360-ferrex">
+            <speaker>Ferrex.</speaker>
+            <l xml:id="A08360-e107230">The mighty gods forbid that ever I</l>
+            <l xml:id="A08360-e107240">Should once conceive such mischief in my heart</l>
+            <l xml:id="A08360-e107250">Although my brother hath bereft my realm</l>
+            <l xml:id="A08360-e107260">And bear perhaps to me and hateful mind. </l>
+            <l xml:id="A08360-e107270">Shall I revenge it, with his death therefore? </l>
+            <l xml:id="A08360-e107280">Or shall I so destroy my father's life</l>
+            <l xml:id="A08360-e107290">That gave me life? the gods forbid I say,</l>
+            <l xml:id="A08360-e107300">Cease you to speak so any more to me</l>
+            <l xml:id="A08360-e107310">Ne you my friend with answer once repeat</l>
+            <l xml:id="A08360-e107320">So foul a tale, in silence let in die:</l>
+            <l xml:id="A08360-e107330">What lord or subject shall have hope at all</l>
+            <l xml:id="A08360-e107340">That under me they safely shall enjoy</l>
+            <l xml:id="A08360-e107350">Their goods, their honours, lands and liberties,</l>
+            <l xml:id="A08360-e107360">With whom, neither one only brother dear</l>
+            <l xml:id="A08360-e107370">Ne father dearer, could enjoy their lives? </l>
+            <l xml:id="A08360-e107380">But sith, I fear my younger brother's rage,</l>
+            <l xml:id="A08360-e107390">And sith perhaps some other man may give</l>
+            <l xml:id="A08360-e107400">Some like advice, to move his grudging head</l>
+            <l xml:id="A08360-e107410">At mine estate: which counsel may perchance</l>
+            <l xml:id="A08360-e107420">Take greater force with him, than this with me,</l>
+            <l xml:id="A08360-e107430"><pb facs="15"/> I will in secret so prepare myself,</l>
+            <l xml:id="A08360-e107440">As if his malice or his lust to reign</l>
+            <l xml:id="A08360-e107450">Break forth with arms or sudden violence</l>
+            <l xml:id="A08360-e107460">I may withstand his rage and keep myns own. </l>
+          </sp>
+          <sp xml:id="A08360-e107470" who="A08360-dordan">
+            <speaker>Dordan.</speaker>
+            <l xml:id="A08360-e107480">I fear the fatal time now draweth on</l>
+            <l xml:id="A08360-e107490">When civil hate shall end the noble line</l>
+            <l xml:id="A08360-e107500">Of famous Brute and of his royal seed</l>
+            <l xml:id="A08360-e107510">Great Jove defend the mischiefs now at hand</l>
+            <l xml:id="A08360-e107520">Oh that the secretaries wise advice</l>
+            <l xml:id="A08360-e107530">Had erst been hard when he besought the King</l>
+            <l xml:id="A08360-e107540">Not to divide his land, nor send his sons</l>
+            <l xml:id="A08360-e107550">To further parts from presence of his court</l>
+            <l xml:id="A08360-e107560">Ne yet to yield to them his governance</l>
+            <l xml:id="A08360-e107570">Lo such are they now in the royal throne</l>
+            <l xml:id="A08360-e107580">As was rash Phaeton in Phoebus' car</l>
+            <l xml:id="A08360-e107590">Ne then the fiery steads did draw the flame</l>
+            <l xml:id="A08360-e107600">With wilder random through the kindled skies</l>
+            <l xml:id="A08360-e107610">Then traitorous council now will whirl about</l>
+            <l xml:id="A08360-e107620">The youthful heads of these unskilful Kings,</l>
+            <l xml:id="A08360-e107630">But I hereof their father will inform</l>
+            <l xml:id="A08360-e107640">The reverence of him perhaps shall stay</l>
+            <l xml:id="A08360-e107650">The growing mischiefs, while they yet are green</l>
+            <l xml:id="A08360-e107660">If this help not, than woe unto themselves,</l>
+            <l xml:id="A08360-e107670">The prince, the people, the divided land. </l>
+          </sp>
+        </div>
+        <div n="2" type="scene" xml:id="A08360-e107680">
+          <head>Actus secundus, scaena secunda.</head>
+          <stage xml:id="A08360-e107690">Porrex. Tyndar. Philander.</stage>
+          <pb facs="16"/>
+          <pb facs="16"/>
+          <pb facs="17"/>
+          <pb facs="17"/>
+          <sp xml:id="A08360-e107700" who="A08360-porrex">
+            <pb facs="18"/>
+            <speaker>Porrex</speaker>
+            <l xml:id="A08360-e107710">And is it thus? And doth he so prepare</l>
+            <l xml:id="A08360-e107720">Against his brother as his mortal foe? </l>
+            <l xml:id="A08360-e107730">And now while yet his aged father lives:</l>
+            <l xml:id="A08360-e107740">Neither regards be him? nor fears he me? </l>
+            <l xml:id="A08360-e107750">War would he have? and he shall have it so. </l>
+          </sp>
+          <sp xml:id="A08360-e107760" who="A08360-tyndar">
+            <speaker>Tyndar.</speaker>
+            <l xml:id="A08360-e107770">I saw myself the great prepared store</l>
+            <l xml:id="A08360-e107780">Of horse, of armours and of weapons there,</l>
+            <l xml:id="A08360-e107790">Ne bring I to my lord reported tales</l>
+            <l xml:id="A08360-e107800">Without the ground of seen and searched truth</l>
+            <l xml:id="A08360-e107810">Lo secret quarrels run about his court</l>
+            <l xml:id="A08360-e107820">To bring the name of you my lord in hate</l>
+            <l xml:id="A08360-e107830">Each man almost can now debate the cause</l>
+            <l xml:id="A08360-e107840">And ask a reason of so great a wrong,</l>
+            <l xml:id="A08360-e107850">While he so noble and so wise a prince,</l>
+            <l xml:id="A08360-e107860">Is as unworthy rest his heritage. </l>
+            <l xml:id="A08360-e107870">And why the King mislead by crafty means</l>
+            <l xml:id="A08360-e107880">Divided thus his land from course of right. </l>
+            <l xml:id="A08360-e107890">The wiser sort hold down their griefful heads</l>
+            <l xml:id="A08360-e107900">Each man withdraws from talk and company,</l>
+            <l xml:id="A08360-e107910">Of those that have been known to favour you,</l>
+            <l xml:id="A08360-e107920">To hide the mischief of their meaning there. </l>
+            <l xml:id="A08360-e107930">Rumours are spread of your preparing here. </l>
+            <l xml:id="A08360-e107940">The rascal numbers of the unskilful sorts</l>
+            <l xml:id="A08360-e107950">Are filled with monstrous tales of you and yours</l>
+            <l xml:id="A08360-e107960">In secret I was counselled by my friends</l>
+            <l xml:id="A08360-e107970">To haste me thence, and brought you as you know</l>
+            <l xml:id="A08360-e107980">Letters from those, that both can truly tell</l>
+            <l xml:id="A08360-e107990">And would not write unless they knew it well. </l>
+          </sp>
+          <sp xml:id="A08360-e108000" who="A08360-philander">
+            <pb facs="18"/>
+            <speaker>Philander.</speaker>
+            <l xml:id="A08360-e108010">My lord, yet ere you now unkindly war,</l>
+            <l xml:id="A08360-e108020">Send to your brother to demand the cause. </l>
+            <l xml:id="A08360-e108030">Perhaps some traitorous tales have filled his ears</l>
+            <l xml:id="A08360-e108040">With false reports against your noble grace:</l>
+            <l xml:id="A08360-e108050">Which once disclosed shall end the growing strife</l>
+            <l xml:id="A08360-e108060">That else not stayed with wise foresight in time</l>
+            <l xml:id="A08360-e108070">Shall hazard both your kingdoms and your lives:</l>
+            <l xml:id="A08360-e108080">Send to your father eke, he shall appeal</l>
+            <l xml:id="A08360-e108090">Your kindled minds, and rid you of this fear. </l>
+          </sp>
+          <sp xml:id="A08360-e108100" who="A08360-porrex">
+            <speaker>Porrex.</speaker>
+            <l xml:id="A08360-e108110">Rid me of fear? I fear him not at all:</l>
+            <l xml:id="A08360-e108120">Ne will to him, ne to my father send</l>
+            <l xml:id="A08360-e108130">If danger were for one to tarry there</l>
+            <l xml:id="A08360-e108140">Think ye it safely to return again. </l>
+            <l xml:id="A08360-e108150">In mischiefs such as Ferrex now intends</l>
+            <l xml:id="A08360-e108160">The wanted courteous laws to messengers</l>
+            <l xml:id="A08360-e108170">Are not observed, which in just war they use,</l>
+            <l xml:id="A08360-e108180">Shall I so hazard any one of mine? </l>
+            <l xml:id="A08360-e108190">Shall I betray my trusty friend to him? </l>
+            <l xml:id="A08360-e108200">That hath disclosed his treason unto me? </l>
+            <l xml:id="A08360-e108210">Let him entreat that fears, I fear him not:</l>
+            <l xml:id="A08360-e108220">Or shall I to the King my father send? </l>
+            <l xml:id="A08360-e108230">Yea and send now while such a mother lives</l>
+            <l xml:id="A08360-e108240">That loves my brother and that hateth me? </l>
+            <l xml:id="A08360-e108250">Shall I give leisure by my fond delays</l>
+            <l xml:id="A08360-e108260">To Ferrex to oppress me at unware? </l>
+            <l xml:id="A08360-e108270">I will not, but I will invade his realm</l>
+            <l xml:id="A08360-e108280">And seek the traitor prince within his court</l>
+            <l xml:id="A08360-e108290">Mischief for mischief is a due reward. </l>
+            <l xml:id="A08360-e108300">His wretched head shall pay the worthy price</l>
+            <l xml:id="A08360-e108310"><pb facs="19"/> of this his treason and his hate to me</l>
+            <l xml:id="A08360-e108320">Shall I abide, entreat and send and pray? </l>
+            <l xml:id="A08360-e108330">And hold my yelden throat to traitors knife? </l>
+            <l xml:id="A08360-e108340">While I with valiant mind and conquering force</l>
+            <l xml:id="A08360-e108350">Might rid myself of foes: and win a realm,</l>
+            <l xml:id="A08360-e108360">Yet rather when I have the wretch's head,</l>
+            <l xml:id="A08360-e108370">Than to the King my father will I send,</l>
+            <l xml:id="A08360-e108380">The bootless case may yet appease his wrath:</l>
+            <l xml:id="A08360-e108390">If not I will defend me as I may. </l>
+          </sp>
+          <sp xml:id="A08360-e108400" who="A08360-philander">
+            <speaker>Philander.</speaker>
+            <l xml:id="A08360-e108410">Lo here the end of these two youthful Kings</l>
+            <l xml:id="A08360-e108420">The father's death, the reign of their two realms</l>
+            <l xml:id="A08360-e108430">Oh most unhappy state of counsellors</l>
+            <l xml:id="A08360-e108440">That light on so unhappy lords and times</l>
+            <l xml:id="A08360-e108450">That neither can their good advice be hard,</l>
+            <l xml:id="A08360-e108460">Yet must they bear the blames of ill success</l>
+            <l xml:id="A08360-e108470">But I will to the King their father haste</l>
+            <l xml:id="A08360-e108480">Ere this mischief come to that likely end,</l>
+            <l xml:id="A08360-e108490">That if the mindful wrath of wreakful gods</l>
+            <l xml:id="A08360-e108500">Since mighty Ilion's fall not yet appeased</l>
+            <l xml:id="A08360-e108510">With these poor remnant of the Trojans name</l>
+            <l xml:id="A08360-e108520">Have not determinedly unmoved fate</l>
+            <l xml:id="A08360-e108530">Out of this realm to raze the brutish line</l>
+            <l xml:id="A08360-e108540">By good advice, by awe of father's name</l>
+            <l xml:id="A08360-e108550">By force of wiser lords, this kindled hate</l>
+            <l xml:id="A08360-e108560">May yet be quentched, ere it consume us all. </l>
+          </sp>
+          <sp xml:id="A08360-e108570" who="A08360-chorus">
+            <speaker>Chorus.</speaker>
+            <lg xml:id="A08360-e108580">
+              <l xml:id="A08360-e108590">When youth not bridled with a guiding stay fray,</l>
+              <l xml:id="A08360-e108600">Is left to random of their own delight</l>
+              <l xml:id="A08360-e108610">And wields whole realms, by force of sovereign</l>
+              <l xml:id="A08360-e108620"><pb facs="19"/> great is the danger of unmasted might</l>
+              <l xml:id="A08360-e108630">Lest skills rage throw down with headlong fall</l>
+              <l xml:id="A08360-e108640">Their lands, their states, their lives, themselves and all. </l>
+            </lg>
+            <lg xml:id="A08360-e108650">
+              <l xml:id="A08360-e108660">When growing pride doth fill the swelling breast</l>
+              <l xml:id="A08360-e108670">And greedy lust doth raise the climbing mind</l>
+              <l xml:id="A08360-e108680">O hardly may the peril be repressed,</l>
+              <l xml:id="A08360-e108690">Ne fear of angry gods, ne laws kind,</l>
+              <l xml:id="A08360-e108700">Ne country care can fired hearts restrain</l>
+              <l xml:id="A08360-e108710">When force hath armed envy and disdain. </l>
+            </lg>
+            <lg xml:id="A08360-e108720">
+              <l xml:id="A08360-e108730">When Kings of foreset will neglect the rede,</l>
+              <l xml:id="A08360-e108740">Of best advice, and yield to pleasing tales</l>
+              <l xml:id="A08360-e108750">That do their fancies noisome humour feed</l>
+              <l xml:id="A08360-e108760">He reason, nor regard of right avails</l>
+              <l xml:id="A08360-e108770">Succeeding heaps of plagues shall teach too late</l>
+              <l xml:id="A08360-e108780">To learn the mischiefs of misguiding state. </l>
+            </lg>
+            <lg xml:id="A08360-e108790">
+              <l xml:id="A08360-e108800">Foul fall the traitor false that undermines</l>
+              <l xml:id="A08360-e108810">The love of brethren to destroy them both</l>
+              <l xml:id="A08360-e108820">Woe to the prince, that pliant ear inclines,</l>
+              <l xml:id="A08360-e108830">And yields his mind to poisonous tale, that floweth</l>
+              <l xml:id="A08360-e108840">From flattering mouth, and woe to wretched land</l>
+              <l xml:id="A08360-e108850">That wastes itself with civil sword in hand. </l>
+              <l xml:id="A08360-e108860">Lo, thus it is poison in gold to take,</l>
+              <l xml:id="A08360-e108870">And wholesome drink in homely cup forsake. </l>
+            </lg>
+          </sp>
+        </div>
+      </div>
+      <div n="3" type="dumb_show" xml:id="A08360-e108880">
+        <head>¶ The order and signification of the dumb show before the third act.</head>
+        <p xml:id="A08360-e108890">¶ First the music of flutes began to play,<pb facs="20"/> during which came in upon the stage a company of mourners all clad in black betokening death and sorrow to ensue upon the ill advised misgovernment and dissension of brethren, as befell upon the murder of Ferrex by his younger brother. After the mourners had passed thrice about the stage, they departed, and than the music ceased.</p>
+      </div>
+      <div n="3" type="act" xml:id="A08360-e108900">
+        <div n="1" type="scene" xml:id="A08360-e108910">
+          <head>Actus tertius. Scaena prima.</head>
+          <stage xml:id="A08360-e108920">Gorboduc. Eubulus. Arostus. Philander. Nuntius.</stage>
+          <sp xml:id="A08360-e108930" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e108940">O cruel fates, oh mindful wrath of gods ▪</l>
+            <l xml:id="A08360-e108950">Whose vengeance neither Simois strained streams. </l>
+            <l xml:id="A08360-e108960">Flowing with blood of Trojan princes slain</l>
+            <l xml:id="A08360-e108970">Nor Phrygian fields made rank withcorpses dead</l>
+            <l xml:id="A08360-e108980">Of Asian Kings and lords can yet appease,</l>
+            <l xml:id="A08360-e108990">He slaughter of unhappy Priam's race</l>
+            <l xml:id="A08360-e109000">Nor Ilion's fall made level with the soil,</l>
+            <l xml:id="A08360-e109010">Can yet suffice: but still continued rage,</l>
+            <l xml:id="A08360-e109020">Pursue our lives, and from the farthest seas</l>
+            <l xml:id="A08360-e109030">Doth chaste the issues of destroyed Troy:</l>
+            <l xml:id="A08360-e109040">O no man happy, till his end be seen,</l>
+            <l xml:id="A08360-e109050">If any flowing wealth and seeming joy</l>
+            <l xml:id="A08360-e109060">In present years might make a happy wight,</l>
+            <l xml:id="A08360-e109070">Happy was Hecuba the woefullest wretch</l>
+            <l xml:id="A08360-e109080">That ever live to make a mirror of</l>
+            <l xml:id="A08360-e109090">And happy Priam with his noble sons,</l>
+            <l xml:id="A08360-e109100">And happy I till now, alas, I see</l>
+            <l xml:id="A08360-e109110"><pb facs="20"/> and feel my most unhappy wretchedness:</l>
+            <l xml:id="A08360-e109120">Behold my lords, read ye this letter here</l>
+            <l xml:id="A08360-e109130">Lo it contains the ruin of our realm</l>
+            <l xml:id="A08360-e109140">If timely speed provide not hasty help</l>
+            <l xml:id="A08360-e109150">Yet (Oh ye gods) if ever woeful King</l>
+            <l xml:id="A08360-e109160">Might move you Kings of Kings, wreak it on me</l>
+            <l xml:id="A08360-e109170">And on my sons, not on this guiltless realm. </l>
+            <l xml:id="A08360-e109180">Send down your wasting flames from wrathful skies</l>
+            <l xml:id="A08360-e109190">To reave me and my sons the hateful breath</l>
+            <l xml:id="A08360-e109200">Read, read my lords: this is the matter why</l>
+            <l xml:id="A08360-e109210">I called ye now to have your good advice. </l>
+          </sp>
+          <floatingText type="letter" xml:id="A08360-e109220">
+            <body xml:id="A08360-e109230">
+              <head>¶ The letter from Dordan the counsellor of the elder prince.</head>
+              <stage xml:id="A08360-e109240">Eubulus readeth the letter.</stage>
+              <l xml:id="A08360-e109250">My sovereign lord, what I am loath to write</l>
+              <l xml:id="A08360-e109260">But loathest am to see, that I am forced</l>
+              <l xml:id="A08360-e109270">By letters now to make you understand</l>
+              <l xml:id="A08360-e109280">My lord Ferrex your eldest son mislead</l>
+              <l xml:id="A08360-e109290">By traitors framed of young untempered wits</l>
+              <l xml:id="A08360-e109300">Assembleth force against your younger son,</l>
+              <l xml:id="A08360-e109310">Ne can my counsel yet withdraw the heat</l>
+              <l xml:id="A08360-e109320">And furious pangs of his enflamed head:</l>
+              <l xml:id="A08360-e109330">Disdain (Sayeth he) of his inheritance</l>
+              <l xml:id="A08360-e109340">Arms him to wreak the great pretended wrong</l>
+              <l xml:id="A08360-e109350">With civil sword upon his brother's life,</l>
+              <l xml:id="A08360-e109360">If present help do not restrain this rage</l>
+              <l xml:id="A08360-e109370">This flame will waste your sons, your land and you. </l>
+              <closer xml:id="A08360-e109380">
+                <signed xml:id="A08360-e109390">Your majesty's faithful and most humble subject Dordan.</signed>
+              </closer>
+            </body>
+          </floatingText>
+          <sp xml:id="A08360-e109400" who="A08360-arostus">
+            <pb facs="21"/>
+            <speaker>Arestus.</speaker>
+            <l xml:id="A08360-e109410">O King, appease your grief and stay your plaint</l>
+            <l xml:id="A08360-e109420">Great is the matter and a woeful case</l>
+            <l xml:id="A08360-e109430">But timely knowledge may bring timely help</l>
+            <l xml:id="A08360-e109440">Send for them both unto your presence here</l>
+            <l xml:id="A08360-e109450">The reverence of your honour age and state</l>
+            <l xml:id="A08360-e109460">Your grave advice, the awe of father's name</l>
+            <l xml:id="A08360-e109470">Shall quickly knit again this broken piece:</l>
+            <l xml:id="A08360-e109480">And if in either of my lords your sons</l>
+            <l xml:id="A08360-e109490">Be such untamed and unyielding pride</l>
+            <l xml:id="A08360-e109500">As will not bend unto your noble hests. </l>
+            <l xml:id="A08360-e109510">If Ferrex the elder son can bear no peer. </l>
+            <l xml:id="A08360-e109520">Or Porrex not content, aspires to more</l>
+            <l xml:id="A08360-e109530">Than you him gave, above his native right:</l>
+            <l xml:id="A08360-e109540">Join with the juster side, so shall you force</l>
+            <l xml:id="A08360-e109550">Them to agree: and bold the land in state. </l>
+          </sp>
+          <sp xml:id="A08360-e109560" who="A08360-eubulus">
+            <speaker>Eubulus.</speaker>
+            <l xml:id="A08360-e109570">What meaneth this? Lo yonder comes in haste</l>
+            <l xml:id="A08360-e109580">Philander from my lord your younger son. </l>
+          </sp>
+          <sp xml:id="A08360-e109590" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e109600">The gods send joyful news. </l>
+          </sp>
+          <sp xml:id="A08360-e109610" who="A08360-philander">
+            <speaker>Philander.</speaker>
+            <l xml:id="A08360-e109620">The mighty Jove</l>
+            <l xml:id="A08360-e109630">Preserve your majesty, oh noble King. </l>
+          </sp>
+          <sp xml:id="A08360-e109640" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e109650">Philander, welcome: but how doth my son? </l>
+          </sp>
+          <sp xml:id="A08360-e109660" who="A08360-philander">
+            <speaker>Philander.</speaker>
+            <l xml:id="A08360-e109670">Your son, sir, lives and healthy I him left:</l>
+            <l xml:id="A08360-e109680">But yet (Oh King) this want of lustful health</l>
+            <l xml:id="A08360-e109690">Could not be half so grief-full to your grace,</l>
+            <l xml:id="A08360-e109700">As these most wretched tidings that I bring. </l>
+          </sp>
+          <sp xml:id="A08360-e109710" who="A08360-gorboduc">
+            <pb facs="21"/>
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e109720">O heavens yet more? no end of woes to 〈◊〉? </l>
+          </sp>
+          <sp xml:id="A08360-e109730" who="A08360-philander">
+            <speaker>Philander.</speaker>
+            <l xml:id="A08360-e109740">Tyndar, oh King, came lately from the court</l>
+            <l xml:id="A08360-e109750">Of Ferrex, to my lord your younger son,</l>
+            <l xml:id="A08360-e109760">And made report of great prepared store</l>
+            <l xml:id="A08360-e109770">Of war, and saith that it is whollic meant</l>
+            <l xml:id="A08360-e109780">Against Porrex for high disdain that he</l>
+            <l xml:id="A08360-e109790">Lives now a King and equal in degree</l>
+            <l xml:id="A08360-e109800">With him, that claimeth to succeed the whole. </l>
+            <l xml:id="A08360-e109810">As by due title of descending right</l>
+            <l xml:id="A08360-e109820">Porrex is now so set on flaming fire,</l>
+            <l xml:id="A08360-e109830">Partly with kindled rage of cruel wrath,</l>
+            <l xml:id="A08360-e109840">Partly with hope to gain a realm thereby,</l>
+            <l xml:id="A08360-e109850">That he in haste prepareth to invade</l>
+            <l xml:id="A08360-e109860">His brother's land, and with unkindly war</l>
+            <l xml:id="A08360-e109870">Threatens the murder of your elder son,</l>
+            <l xml:id="A08360-e109880">Ne could I him persuade that first he should</l>
+            <l xml:id="A08360-e109890">Send to his brother to demand the cause,</l>
+            <l xml:id="A08360-e109900">Nor yet to you to stay his hateful strife. </l>
+            <l xml:id="A08360-e109910">Wherefore sith there no more I can be hard. </l>
+            <l xml:id="A08360-e109920">I come myself now to inform your grace:</l>
+            <l xml:id="A08360-e109930">And to beseech you, as you love the lief</l>
+            <l xml:id="A08360-e109940">And safety of your children and your realm. </l>
+            <l xml:id="A08360-e109950">Now to employ your wisdom and your force</l>
+            <l xml:id="A08360-e109960">To stay this mischief ere it be too late. </l>
+          </sp>
+          <sp xml:id="A08360-e109970" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e109980">Are they in arms? would he not send for me ▪</l>
+            <l xml:id="A08360-e109990">Is this the honour of a father's name? </l>
+            <l xml:id="A08360-e110000">In vain we travail to assuage their minds</l>
+            <l xml:id="A08360-e110010">As if their hearts whom neither brother's love</l>
+            <l xml:id="A08360-e110020"><pb facs="22"/> nor father's awe, nor kingdom's care can move</l>
+            <l xml:id="A08360-e110030">Our counsels could withdraw from raging heat</l>
+            <l xml:id="A08360-e110040">Jove slay them both, and end the cursed line</l>
+            <l xml:id="A08360-e110050">For though perhaps fear of such mighty force</l>
+            <l xml:id="A08360-e110060">As I my lords, joined with your noble aides</l>
+            <l xml:id="A08360-e110070">May yet raise, shall repress their present heat,</l>
+            <l xml:id="A08360-e110080">The secret grudge and malice will remain</l>
+            <l xml:id="A08360-e110090">The fire not quenched, but kept in close restraint</l>
+            <l xml:id="A08360-e110100">Fead still within, breaks forth with double flame</l>
+            <l xml:id="A08360-e110110">Their death and mine must pease the angry gods</l>
+          </sp>
+          <sp xml:id="A08360-e110120" who="A08360-philander">
+            <speaker>Philander.</speaker>
+            <l xml:id="A08360-e110130">Yield not, oh King, so much to weak despair</l>
+            <l xml:id="A08360-e110140">Your sons yet live, and long I trust, they shall:</l>
+            <l xml:id="A08360-e110150">If fates had taken you from earthly life</l>
+            <l xml:id="A08360-e110160">Before beginning of this civil strife:</l>
+            <l xml:id="A08360-e110170">Perhaps your sons in their unmastered youth,</l>
+            <l xml:id="A08360-e110180">Lose from regard of any living wight,</l>
+            <l xml:id="A08360-e110190">Would run on headlong, with unbridled race</l>
+            <l xml:id="A08360-e110200">To their own death and ruin of this realm. </l>
+            <l xml:id="A08360-e110210">But sith the god that have the care for Kings,</l>
+            <l xml:id="A08360-e110220">Of things and times dispose the order so</l>
+            <l xml:id="A08360-e110230">That in your life this kindled flame breaks forth</l>
+            <l xml:id="A08360-e110240">While yet your life, your wisdom and your power,</l>
+            <l xml:id="A08360-e110250">May stay the growing mischief, and repress</l>
+            <l xml:id="A08360-e110260">The fiery blaze of their enkindled heat</l>
+            <l xml:id="A08360-e110270">It seems, and so ye ought to deem thereof,</l>
+            <l xml:id="A08360-e110280">That loving Jove hath tempered so the time</l>
+            <l xml:id="A08360-e110290">Of this debate to happen in your days</l>
+            <l xml:id="A08360-e110300">That you yet living may the same appease. </l>
+            <l xml:id="A08360-e110310">And add it to the glory of your latter age</l>
+            <l xml:id="A08360-e110320">And they your sons may learn to live in peace</l>
+            <l xml:id="A08360-e110330"><pb facs="22"/> beware (Oh King) the greatest harm of all,</l>
+            <l xml:id="A08360-e110340">Lest by your wailful plaints your hastened death</l>
+            <l xml:id="A08360-e110350">Yield larger room unto their growing rage:</l>
+            <l xml:id="A08360-e110360">Preserve your life, the only hope of stay:</l>
+            <l xml:id="A08360-e110370">And if your highness herein list to use</l>
+            <l xml:id="A08360-e110380">Wisdom or force, counsel or knightly aid:</l>
+            <l xml:id="A08360-e110390">Lo we our persons, powers and lives are yours. </l>
+            <l xml:id="A08360-e110400">Use us till death, oh King, we are your own. </l>
+          </sp>
+          <sp xml:id="A08360-e110410" who="A08360-eubulus">
+            <speaker>Eubulus.</speaker>
+            <l xml:id="A08360-e110420">Lo here the peril that was erst foreseen</l>
+            <l xml:id="A08360-e110430">When you, (Oh King) did first divide your land</l>
+            <l xml:id="A08360-e110440">And yield your present reign unto your sons. </l>
+            <l xml:id="A08360-e110450">But now (Oh noble prince) now is no time</l>
+            <l xml:id="A08360-e110460">To wail and plain, and waste your woeful life,</l>
+            <l xml:id="A08360-e110470">Now is the time for present good advice,</l>
+            <l xml:id="A08360-e110480">Sorrow doth dark the judgement of the wit</l>
+            <l xml:id="A08360-e110490">The heart unbroken and the courage free</l>
+            <l xml:id="A08360-e110500">From feeble faintness of bootless despair</l>
+            <l xml:id="A08360-e110510">Doth either rise to safety or renown</l>
+            <l xml:id="A08360-e110520">By noble valour of unvanquished mind</l>
+            <l xml:id="A08360-e110530">Or yet doth perish in more happy sort</l>
+            <l xml:id="A08360-e110540">Your grace may send to either of your sons</l>
+            <l xml:id="A08360-e110550">Some one both wise and noble personage,</l>
+            <l xml:id="A08360-e110560">Which with good counsel and with weighty name</l>
+            <l xml:id="A08360-e110570">Of father shall present before their eyes</l>
+            <l xml:id="A08360-e110580">Your hest, your lief, your safety and their own</l>
+            <l xml:id="A08360-e110590">The present mischief of their deadly strife</l>
+            <l xml:id="A08360-e110600">And in the while, assemble you the force</l>
+            <l xml:id="A08360-e110610">Which your commandment and the speedy haste</l>
+            <l xml:id="A08360-e110620">Of all my lords here present can prepare:</l>
+            <l xml:id="A08360-e110630">The terror of your mighty power shall stay</l>
+            <l xml:id="A08360-e110640"><pb facs="23"/> the rage of both, or yet one at least. </l>
+          </sp>
+          <sp xml:id="A08360-e110650" who="A08360-nuntius">
+            <speaker>Nuntius.</speaker>
+            <l xml:id="A08360-e110660">O King the greatest grief that ever prince did here</l>
+            <l xml:id="A08360-e110670">The ever woeful messenger did tell,</l>
+            <l xml:id="A08360-e110680">That ever wretched land hath seen before</l>
+            <l xml:id="A08360-e110690">I bring to you. Porrex your younger son</l>
+            <l xml:id="A08360-e110700">With sudden force, invaded hath the land</l>
+            <l xml:id="A08360-e110710">That you to Ferrex did allot to rule:</l>
+            <l xml:id="A08360-e110720">And with his own most bloody hand he hath</l>
+            <l xml:id="A08360-e110730">His brother slain, and doth possess his realm. </l>
+          </sp>
+          <sp xml:id="A08360-e110740" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e110750">O heavens send down the flames of your revenge,</l>
+            <l xml:id="A08360-e110760">Destroy I say with flash of wreakful fire</l>
+            <l xml:id="A08360-e110770">The traitor son, and than the wretched sire:</l>
+            <l xml:id="A08360-e110780">But let us go, that yet perhaps I may</l>
+            <l xml:id="A08360-e110790">Die with revenge, and pease the hateful gods. </l>
+          </sp>
+          <sp xml:id="A08360-e110800" who="A08360-chorus">
+            <speaker>Chorus.</speaker>
+            <l xml:id="A08360-e110810">The lust of kingdoms knows no sacred faith</l>
+            <l xml:id="A08360-e110820">No rule of reason, no regard of right</l>
+            <l xml:id="A08360-e110830">No kindly love, no fear of heaven's wrath:</l>
+            <l xml:id="A08360-e110840">But with contempt of gods, and man's despite,</l>
+            <l xml:id="A08360-e110850">Through bloody slaughter doth prepare the ways</l>
+            <l xml:id="A08360-e110860">To fatal sceptre and accursed reign. </l>
+            <l xml:id="A08360-e110870">The son so loathes the father's lingering days. </l>
+            <l xml:id="A08360-e110880">Ne dreads his hand in brother's blood to stain</l>
+            <l xml:id="A08360-e110890">Oh wretched prince, ne dost thou yet record</l>
+            <l xml:id="A08360-e110900">The yet fresh murders done within the land</l>
+            <l xml:id="A08360-e110910">Of thy forefathers, when the cruel sword</l>
+            <l xml:id="A08360-e110920">Bereft Morgan his lief with cousin's hand? </l>
+            <l xml:id="A08360-e110930">Thus fatal plagues pursue the guilty race</l>
+            <l xml:id="A08360-e110940">Whose murderous hand imbrued with guiltless blood</l>
+            <l xml:id="A08360-e110950"><pb facs="23"/> asks vengeance before the heaven's face,</l>
+            <l xml:id="A08360-e110960">With endless mischiefs on the cursed brood. </l>
+            <l xml:id="A08360-e110970">The wicked child this brings to woeful sire</l>
+            <l xml:id="A08360-e110980">The mournful plaints to waste his weary life:</l>
+            <l xml:id="A08360-e110990">Thus do the cruel flames of civil fire</l>
+            <l xml:id="A08360-e111000">Destroy the parted reign with hateful strife</l>
+            <l xml:id="A08360-e111010">And hence doth spring the well from which doth slo:</l>
+            <l xml:id="A08360-e111020">The dead black streams of mournings, plaints and woe. </l>
+          </sp>
+        </div>
+      </div>
+      <div n="4" type="dumb_show" xml:id="A08360-e111030">
+        <head>¶ The order and signification of the dumb show before the fourth act.</head>
+        <p xml:id="A08360-e111040">¶ First the music of oboes began to play. during which there came forth from under the stage, as though out of hell three furies. Allecto, Megaera and Ctesiphone clad in black garments sprinkled with blood and flames, their bodies girt with snakes, their heads spread with serpents in stead of hair, the one bearing in her hand a snake, the other a whip, and the third a burning firebrand: each driving before them a King and a Queen, which moved by furies unnaturally bad slain their own children. The names of the Kings and Queens were these. Tantalus, Medea, Athamas, Ino, Cambises, Althaea, after that the furies and these had passed about the stage thrice, they departed and than the music ceased: hereby was signified the unnatural murders to follow, that is to say. Porrex slain by his own mother. And of King Gorboduc and Queen viden killed by their own subjects.</p>
+      </div>
+      <div n="4" type="act" xml:id="A08360-e111050">
+        <div n="1" type="scene" xml:id="A08360-e111060">
+          <pb facs="24"/>
+          <head>Actus quartus. Scaena prima.</head>
+          <stage xml:id="A08360-e111070">Vidensola.</stage>
+          <sp xml:id="A08360-e111080" who="A08360-videna">
+            <speaker>Viden.</speaker>
+            <l xml:id="A08360-e111090">Why should I live and linger forth my tune</l>
+            <l xml:id="A08360-e111100">In longer lief to double my distress? </l>
+            <l xml:id="A08360-e111110">O me most woeful wight whom no mishap</l>
+            <l xml:id="A08360-e111120">Long ere this day could have bereaved hence. </l>
+            <l xml:id="A08360-e111130">Might not these hands by fortune or by fate,</l>
+            <l xml:id="A08360-e111140">Have pierced this breast and life with iron reft,</l>
+            <l xml:id="A08360-e111150">Or in this palace here where I so long</l>
+            <l xml:id="A08360-e111160">Have spent my days, could not that happy hour ▪</l>
+            <l xml:id="A08360-e111170">Ones, ones have happed i which these hugy frames</l>
+            <l xml:id="A08360-e111180">With death by fall might have oppressed me</l>
+            <l xml:id="A08360-e111190">Or should not this most hard and cruel soil,</l>
+            <l xml:id="A08360-e111200">So eft where I have pressed my wretched steps</l>
+            <l xml:id="A08360-e111210">Sometime had ruth of mine accursed lief,</l>
+            <l xml:id="A08360-e111220">To rend in twain and swallow me therein,</l>
+            <l xml:id="A08360-e111230">So had my bones possessed now in peace</l>
+            <l xml:id="A08360-e111240">Their happy grave within the closed ground</l>
+            <l xml:id="A08360-e111250">And greedy worms had gnawn this pined heart</l>
+            <l xml:id="A08360-e111260">Without my feeling pain: so should not now</l>
+            <l xml:id="A08360-e111270">This living breast remain the ruthful tomb</l>
+            <l xml:id="A08360-e111280">Wherein my heart yelden to death is graved:</l>
+            <l xml:id="A08360-e111290">Nor dreary thoughts with pangs of pining grief</l>
+            <l xml:id="A08360-e111300">My doleful mind had not afflicted thus,</l>
+            <l xml:id="A08360-e111310">Oh my beloved son: oh my sweet child,</l>
+            <l xml:id="A08360-e111320">My tear Ferrex, my joy, my life's delight. </l>
+            <l xml:id="A08360-e111330">Is my well-beloved son, is my sweet child,</l>
+            <l xml:id="A08360-e111340">My dear Perrex, my joy, my life's delight</l>
+            <l xml:id="A08360-e111350"><pb facs="24"/> murdered with cruel death? O hateful wretch,</l>
+            <l xml:id="A08360-e111360">Oh heinous traitor both to heaven and earth,</l>
+            <l xml:id="A08360-e111370">Thou Porrex, thou this damned deed hast wrought</l>
+            <l xml:id="A08360-e111380">Thou Porrex, thou shalt dear aby the same,</l>
+            <l xml:id="A08360-e111390">Traitor to kin and kind, to sire and me,</l>
+            <l xml:id="A08360-e111400">To thine own flesh, and traitor to thyself</l>
+            <l xml:id="A08360-e111410">The gods on the in hell shall wreak their wrath,</l>
+            <l xml:id="A08360-e111420">And here in earth this hand shall take revenge</l>
+            <l xml:id="A08360-e111430">On the Porrex, thou false and caitiff wight,</l>
+            <l xml:id="A08360-e111440">If after blood, so eager were thy thirst</l>
+            <l xml:id="A08360-e111450">And murderous mind had so possessed thee,</l>
+            <l xml:id="A08360-e111460">If such hard heart of rock and stony flint</l>
+            <l xml:id="A08360-e111470">Live in thy breast, that nothing else could like</l>
+            <l xml:id="A08360-e111480">Thy cruel tyrant's thought but death and blood</l>
+            <l xml:id="A08360-e111490">Wild savage beasts might not theslaughter serve</l>
+            <l xml:id="A08360-e111500">To feed thy greedy will, and in the midst</l>
+            <l xml:id="A08360-e111510">Of their entrails to stain thy deadly hands</l>
+            <l xml:id="A08360-e111520">With blood deserved, and drink thereof thy fill:</l>
+            <l xml:id="A08360-e111530">Or if naught else but death and blood of man</l>
+            <l xml:id="A08360-e111540">Might please thy lust, could none in britain land</l>
+            <l xml:id="A08360-e111550">Whose heart be torn out of his loving breast</l>
+            <l xml:id="A08360-e111560">With thine own hand, or work what death thou wouldst</l>
+            <l xml:id="A08360-e111570">Suffice to make a sacrifice to appease wouldst</l>
+            <l xml:id="A08360-e111580">That deadly mind and murderous thought in thee? </l>
+            <l xml:id="A08360-e111590">But he who in the self same womb was wrapped</l>
+            <l xml:id="A08360-e111600">Where thou in dismal hour receivedst life? </l>
+            <l xml:id="A08360-e111610">Or if needs, needs this hand must slaughter make</l>
+            <l xml:id="A08360-e111620">Moughist thou not have reached a mortal wound</l>
+            <l xml:id="A08360-e111630">And with thy sword have pierced this cursed womb? </l>
+            <l xml:id="A08360-e111640">That the accursed Porrex brought to light? </l>
+            <l xml:id="A08360-e111650">And given me a just reward therefore. </l>
+            <l xml:id="A08360-e111660"><pb facs="25"/>So Ferrex, if sweet life might have enjoyed</l>
+            <l xml:id="A08360-e111670">And to his aged father comfort brought,</l>
+            <l xml:id="A08360-e111680">With some young son in whom they both might live</l>
+            <l xml:id="A08360-e111690">But whereunto waste I this ruthful speech? </l>
+            <l xml:id="A08360-e111700">To the that hast thy brother's blood thus shed</l>
+            <l xml:id="A08360-e111710">Shall I still think that from this womb thou sprung? </l>
+            <l xml:id="A08360-e111720">That I thee bare? or take thee for my son? </l>
+            <l xml:id="A08360-e111730">No traitor, no: I the refuse for mine,</l>
+            <l xml:id="A08360-e111740">Murderer I thee renounce, thou art not mine:</l>
+            <l xml:id="A08360-e111750">Never, oh wretch, this womb conceived thee,</l>
+            <l xml:id="A08360-e111760">Nor never bode I painful throws for thee:</l>
+            <l xml:id="A08360-e111770">Changeling to me thou art, and not my child</l>
+            <l xml:id="A08360-e111780">Nor to no wight, that spark of pity knew,</l>
+            <l xml:id="A08360-e111790">Ruthless, unkind, monster of nature's work. </l>
+            <l xml:id="A08360-e111800">Thou never sucked the milk of woman's breast</l>
+            <l xml:id="A08360-e111810">But from thy birth the cruel tigers teats</l>
+            <l xml:id="A08360-e111820">Have nursed, nor yet of flesh and blood</l>
+            <l xml:id="A08360-e111830">Formed is thy heart, but of hard iron wrought. </l>
+            <l xml:id="A08360-e111840">And wild and desert woods bread thee to life:</l>
+            <l xml:id="A08360-e111850">But canst thou hope to scape my just revenge? </l>
+            <l xml:id="A08360-e111860">Or that these hands will not be wrooke on thee? </l>
+            <l xml:id="A08360-e111870">Dost thou not know that Ferrex mother lives</l>
+            <l xml:id="A08360-e111880">That loved him more dear then herself? </l>
+            <l xml:id="A08360-e111890">And doth she live, and is not venged on thee? </l>
+          </sp>
+        </div>
+        <div n="2" type="scene" xml:id="A08360-e111900">
+          <head>Actus quartus. Scaena secunda.</head>
+          <stage xml:id="A08360-e111910">Gorboduc. Arostus Eubulus. Porrex. Marccilla.</stage>
+          <sp xml:id="A08360-e111920" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e111930">We marvel much whereto this lingering stay</l>
+            <l xml:id="A08360-e111940"><pb facs="25"/> falls out so long: Porrex unto our court</l>
+            <l xml:id="A08360-e111950">By order of our letters is returned</l>
+            <l xml:id="A08360-e111960">And Eubulus received from us by hest</l>
+            <l xml:id="A08360-e111970">At his arrival here to give him charge</l>
+            <l xml:id="A08360-e111980">Before our presence straight to make repair</l>
+            <l xml:id="A08360-e111990">And yet we have no word whereof he stays. </l>
+          </sp>
+          <sp xml:id="A08360-e112000" who="A08360-arostus">
+            <speaker>Arostus</speaker>
+            <l xml:id="A08360-e112010">Lo where he comes and Eubulus with him. </l>
+          </sp>
+          <sp xml:id="A08360-e112020" who="A08360-eubulus">
+            <speaker>Eubulus.</speaker>
+            <l xml:id="A08360-e112030">According to your highness hest to me</l>
+            <l xml:id="A08360-e112040">Here have I Porrex brought even in such sort</l>
+            <l xml:id="A08360-e112050">As from his wearied horse he did alight,</l>
+            <l xml:id="A08360-e112060">For that your grace did will such haste therein. </l>
+          </sp>
+          <sp xml:id="A08360-e112070" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e112080">We like and praise this speedy will in you</l>
+            <l xml:id="A08360-e112090">To work the thing that to your charge we gave</l>
+            <l xml:id="A08360-e112100">Porrex, if we so far should swerve from kind,</l>
+            <l xml:id="A08360-e112110">And from these bounds which laws of nature sets</l>
+            <l xml:id="A08360-e112120">As thou hast done by vile and wretched deed</l>
+            <l xml:id="A08360-e112130">In cruel murder of thy brother's life,</l>
+            <l xml:id="A08360-e112140">Our present hand could stay no longer time,</l>
+            <l xml:id="A08360-e112150">But straight should bathe this blade in blood of thee</l>
+            <l xml:id="A08360-e112160">As just revenge of thy detested crime. </l>
+            <l xml:id="A08360-e112170">No. We should not offend the law of kind,</l>
+            <l xml:id="A08360-e112180">If now this sword of ours did slay thee here:</l>
+            <l xml:id="A08360-e112190">For thou hast murdered him whose heinous death</l>
+            <l xml:id="A08360-e112200">Even nature's force doth move us to revenge</l>
+            <l xml:id="A08360-e112210">By blood again: but justice forceth us</l>
+            <l xml:id="A08360-e112220">To measure death for death, thy due desert,</l>
+            <l xml:id="A08360-e112230">Yet sithence thou art our child, and sith as yet</l>
+            <l xml:id="A08360-e112240">In this hard case what word thou canst allege</l>
+            <l xml:id="A08360-e112250"><pb facs="26"/> for thy defence, by us hath not been harden</l>
+            <l xml:id="A08360-e112260">We are content to stay our will for that</l>
+            <l xml:id="A08360-e112270">Which justice bids us presently to work:</l>
+            <l xml:id="A08360-e112280">And give the leave to use thy speech at full</l>
+            <l xml:id="A08360-e112290">If ought thou have to lay for thine excuse. </l>
+          </sp>
+          <sp xml:id="A08360-e112300" who="A08360-porrex">
+            <speaker>Porrex.</speaker>
+            <l xml:id="A08360-e112310">Neither oh King, I can or will deny</l>
+            <l xml:id="A08360-e112320">But that this hand from Ferrex life hath reft:</l>
+            <l xml:id="A08360-e112330">Which fact how much my doleful heart doth wail</l>
+            <l xml:id="A08360-e112340">O would it might as full appear to sight</l>
+            <l xml:id="A08360-e112350">As inward grief doth pour it forth to me,</l>
+            <l xml:id="A08360-e112360">So yet perhaps if ever ruthful heart</l>
+            <l xml:id="A08360-e112370">Melting in tears within a manly breast</l>
+            <l xml:id="A08360-e112380">Through deep repentance of his bloody fact</l>
+            <l xml:id="A08360-e112390">If ever grief, if ever woeful man</l>
+            <l xml:id="A08360-e112400">Might move regreite with sorrow of his fault,</l>
+            <l xml:id="A08360-e112410">I think the torment of my mournful case</l>
+            <l xml:id="A08360-e112420">Known to your grace, as I do feel the same,</l>
+            <l xml:id="A08360-e112430">Would force even wrath herself to pity me. </l>
+            <l xml:id="A08360-e112440">But as the water troubled with the mud</l>
+            <l xml:id="A08360-e112450">Shows not the face which else the eye should see,</l>
+            <l xml:id="A08360-e112460">Even so your ireful mind with stirred thought,</l>
+            <l xml:id="A08360-e112470">Can not so perfectly discern my cause. </l>
+            <l xml:id="A08360-e112480">But this unhap, amongst so many heaps</l>
+            <l xml:id="A08360-e112490">I must content me with, most wretched man,</l>
+            <l xml:id="A08360-e112500">That to myself I must refer my woe</l>
+            <l xml:id="A08360-e112510">In pining thoughts of mine accursed fact:</l>
+            <l xml:id="A08360-e112520">Sithence I may not show here my smallest grief</l>
+            <l xml:id="A08360-e112530">Such as it is, and as my breast endures,</l>
+            <l xml:id="A08360-e112540">Which I esteem the greatest misery</l>
+            <l xml:id="A08360-e112550">Of all mishaps that fortune now can send. </l>
+            <l xml:id="A08360-e112560"><pb facs="26"/>Not that I rest in hope with plaints and tears</l>
+            <l xml:id="A08360-e112570">Should purchase life: for to the gods I clepe</l>
+            <l xml:id="A08360-e112580">For true record of this my faithful speech,</l>
+            <l xml:id="A08360-e112590">Never this heart shall have the thoughtful dread</l>
+            <l xml:id="A08360-e112600">To die the death that by your grace's dome</l>
+            <l xml:id="A08360-e112610">By just desert, shall be pronounced to me:</l>
+            <l xml:id="A08360-e112620">Nor never shall this tongue ones spend this speech</l>
+            <l xml:id="A08360-e112630">Pardon to crave, or seek by suit to live:</l>
+            <l xml:id="A08360-e112640">I mean not this as though I were not touched</l>
+            <l xml:id="A08360-e112650">With care of dreadful death, or that I held</l>
+            <l xml:id="A08360-e112660">Life in contempt: but that I know, the mind</l>
+            <l xml:id="A08360-e112670">Stoops to no dread, although the flesh be frail,</l>
+            <l xml:id="A08360-e112680">And for my gilt, I yield the same so great</l>
+            <l xml:id="A08360-e112690">As in myself I find a fear to sue</l>
+            <l xml:id="A08360-e112700">For grant of life. </l>
+          </sp>
+          <sp xml:id="A08360-e112710" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e112720">In vain, oh wretch thou showed</l>
+            <l xml:id="A08360-e112730">A woeful heart, Ferrex now lies in grave,</l>
+            <l xml:id="A08360-e112740">Slain by thy hand. </l>
+          </sp>
+          <sp xml:id="A08360-e112750" who="A08360-porrex">
+            <speaker>Porrex.</speaker>
+            <l xml:id="A08360-e112760">Yet this, oh father, hear;</l>
+            <l xml:id="A08360-e112770">And than I end: your majesty well knows,</l>
+            <l xml:id="A08360-e112780">That when my brother Ferrex and myself</l>
+            <l xml:id="A08360-e112790">By your own hest were joined in governance</l>
+            <l xml:id="A08360-e112800">Of this your grace's realm of Britain land</l>
+            <l xml:id="A08360-e112810">I never sought nor travailed for the same,</l>
+            <l xml:id="A08360-e112820">Nor by myself, or by no scende I wrought ▪</l>
+            <l xml:id="A08360-e112830">But from your highness' will alone it sprung,</l>
+            <l xml:id="A08360-e112840">Of your most gracious goodness bent to me,</l>
+            <l xml:id="A08360-e112850">But how my brother's heart even than repined</l>
+            <l xml:id="A08360-e112860">With swollen disdain against mine equal rule</l>
+            <l xml:id="A08360-e112870"><pb facs="27"/> sing that realm, which by descent should grow</l>
+            <l xml:id="A08360-e112880">Wholly to him, allotted half to me? </l>
+            <l xml:id="A08360-e112890">Even in your highness' court he now remains,</l>
+            <l xml:id="A08360-e112900">And with my brother than in nearest place</l>
+            <l xml:id="A08360-e112910">Who can record, what proof thereof was shown</l>
+            <l xml:id="A08360-e112920">And how my brother's envious heart appeared</l>
+            <l xml:id="A08360-e112930">Yet I that judged it my part to seek</l>
+            <l xml:id="A08360-e112940">His favour and good will, and loath to make</l>
+            <l xml:id="A08360-e112950">Your highness know, the thing which should have brought</l>
+            <l xml:id="A08360-e112960">Grief to your grace, and your offence to him</l>
+            <l xml:id="A08360-e112970">Hoping by earnest suit should soon have won</l>
+            <l xml:id="A08360-e112980">A loving heart within a brother's breast</l>
+            <l xml:id="A08360-e112990">Wrought in that sort that for a pledge of love</l>
+            <l xml:id="A08360-e113000">And faithful heart, he gave to me his hand. </l>
+            <l xml:id="A08360-e113010">This made me think, that he had banished quite</l>
+            <l xml:id="A08360-e113020">All rancour from his thought and bore to me</l>
+            <l xml:id="A08360-e113030">Such hearty love, as I did owe to him:</l>
+            <l xml:id="A08360-e113040">But after once we left your grace's court</l>
+            <l xml:id="A08360-e113050">And from your highness' presence lived apart</l>
+            <l xml:id="A08360-e113060">This equal rule still, still did grudge him so</l>
+            <l xml:id="A08360-e113070">That now those envious sparks which erst lay raked</l>
+            <l xml:id="A08360-e113080">In living cinders of dissembling breast,</l>
+            <l xml:id="A08360-e113090">Kindled so far within his hate's disdain</l>
+            <l xml:id="A08360-e113100">That longer could he not refrain from proof</l>
+            <l xml:id="A08360-e113110">Of secret practice to deprive me life</l>
+            <l xml:id="A08360-e113120">By poisons force, and had bereft me so. </l>
+            <l xml:id="A08360-e113130">If mine own servant hired to this fact</l>
+            <l xml:id="A08360-e113140">And moved by truth with hate to work the same,</l>
+            <l xml:id="A08360-e113150">In time had not bewrayed it unto me:</l>
+            <l xml:id="A08360-e113160">When thus I saw the knot of love unknit</l>
+            <l xml:id="A08360-e113170">All honest league and faithful promise broke</l>
+            <l xml:id="A08360-e113180"><pb facs="27"/> the law of kind and troth thus rent in twain</l>
+            <l xml:id="A08360-e113190">His heart on mischief set, and in his breast</l>
+            <l xml:id="A08360-e113200">Black treason hid then, then did I despair</l>
+            <l xml:id="A08360-e113210">That ever time could win him friend to me</l>
+            <l xml:id="A08360-e113220">Than saw I how he smiled with slaying knife</l>
+            <l xml:id="A08360-e113230">Wrapped under cloak, then saw I deep deceit</l>
+            <l xml:id="A08360-e113240">Lurk in his face and death prepared for me:</l>
+            <l xml:id="A08360-e113250">Even nature moved me than to hold my life</l>
+            <l xml:id="A08360-e113260">More dear to me than his, and bade this hand</l>
+            <l xml:id="A08360-e113270">Since by his life my death must needs ensue,</l>
+            <l xml:id="A08360-e113280">And by his death my life to be preserved:</l>
+            <l xml:id="A08360-e113290">To shed his blood, and seek my safety so. </l>
+            <l xml:id="A08360-e113300">And wisdom willed me without protract</l>
+            <l xml:id="A08360-e113310">In speedy wise to put the same in ure. </l>
+            <l xml:id="A08360-e113320">Thus have I told the cause that moved me</l>
+            <l xml:id="A08360-e113330">To work my brother's death and so I yield</l>
+            <l xml:id="A08360-e113340">My life, my death to judgement of your grace. </l>
+          </sp>
+          <sp xml:id="A08360-e113350" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e113360">O cruel wight, should any cause prevail</l>
+            <l xml:id="A08360-e113370">To make the stain thy hands with brother's blood</l>
+            <l xml:id="A08360-e113380">But what of thee we will resolve to do</l>
+            <l xml:id="A08360-e113390">Shall yet remain unknown: thou in the mean</l>
+            <l xml:id="A08360-e113400">Shalt from our royal presence banished be</l>
+            <l xml:id="A08360-e113410">Until our princely pleasure further shall</l>
+            <l xml:id="A08360-e113420">To the be showed, depart therefore our sight</l>
+            <l xml:id="A08360-e113430">Accursed child. What cruel destiny</l>
+            <l xml:id="A08360-e113440">What froward fate hath sorted us this chance</l>
+            <l xml:id="A08360-e113450">That even in those, where we should comfort find</l>
+            <l xml:id="A08360-e113460">Where our delight now in our aged days</l>
+            <l xml:id="A08360-e113470">Should rest and be, even there our only grief</l>
+            <l xml:id="A08360-e113480">And deepest sorrows to abridge our lief,</l>
+            <l xml:id="A08360-e113490"><pb facs="28"/> most pining cares and deadly thoughts do grave yours</l>
+          </sp>
+          <sp xml:id="A08360-e113500" who="A08360-arostus">
+            <speaker>Arostus.</speaker>
+            <l xml:id="A08360-e113510">Your grace should now in these grave years of</l>
+            <l xml:id="A08360-e113520">Have found ere this the price of mortal joys,</l>
+            <l xml:id="A08360-e113530">How short they be, how fading here in earth</l>
+            <l xml:id="A08360-e113540">How full of change, how brittle our estate,</l>
+            <l xml:id="A08360-e113550">Of nothing sure, save only of the death,</l>
+            <l xml:id="A08360-e113560">To whom both man and all the world doth owe</l>
+            <l xml:id="A08360-e113570">Their end at last, neither shall nature's power</l>
+            <l xml:id="A08360-e113580">In other sort against your heart prevail,</l>
+            <l xml:id="A08360-e113590">Than as the naked hand whose stroke assayes</l>
+            <l xml:id="A08360-e113600">The armed breast where force doth light in vain</l>
+          </sp>
+          <sp xml:id="A08360-e113610" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e113620">Many can yield right grave and sage advice</l>
+            <l xml:id="A08360-e113630">Of patient sprite to others wrapped in woe,</l>
+            <l xml:id="A08360-e113640">And can in speech both rule and conquer kind,</l>
+            <l xml:id="A08360-e113650">Who if by proof, they might feel natures force,</l>
+            <l xml:id="A08360-e113660">Would show themselves men as they are in deed,</l>
+            <l xml:id="A08360-e113670">Which now will needs be gods: but what doth mean</l>
+            <l xml:id="A08360-e113680">The sorry cheer of her that here doth come? </l>
+          </sp>
+          <sp xml:id="A08360-e113690" who="A08360-marcella">
+            <speaker>Marcella.</speaker>
+            <l xml:id="A08360-e113700">O where is ruth? or where is pity now? </l>
+            <l xml:id="A08360-e113710">Whether is gentle heart and mercy fled? </l>
+            <l xml:id="A08360-e113720">Are they exiled out of our stony breasts</l>
+            <l xml:id="A08360-e113730">Never to make return? is all the world</l>
+            <l xml:id="A08360-e113740">Drowned in blood, and sunk in cruelty? </l>
+            <l xml:id="A08360-e113750">If not in women mercy may be found</l>
+            <l xml:id="A08360-e113760">If not (Alas) within the mother's breast</l>
+            <l xml:id="A08360-e113770">To her own child, to her own flesh and blood</l>
+            <l xml:id="A08360-e113780">If ruth be banished thence, if pity there</l>
+            <l xml:id="A08360-e113790">May have no place, if there no gentle heart</l>
+            <l xml:id="A08360-e113800"><pb facs="28"/> do live and dwell, where should we seek it than? </l>
+          </sp>
+          <sp xml:id="A08360-e113810" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e113820">Madam (Alas) what means your woeful tale? </l>
+          </sp>
+          <sp xml:id="A08360-e113830" who="A08360-marcella">
+            <speaker>Marcella.</speaker>
+            <l xml:id="A08360-e113840">O silly woman I, why to this hour,</l>
+            <l xml:id="A08360-e113850">Have kind and fortune thus deferred my breath</l>
+            <l xml:id="A08360-e113860">That I should live to see this doleful day</l>
+            <l xml:id="A08360-e113870">Will ever wight believe that such hard heart</l>
+            <l xml:id="A08360-e113880">Could rest within the cruel mother's breast,</l>
+            <l xml:id="A08360-e113890">With her own hand to slay her only son? </l>
+            <l xml:id="A08360-e113900">But out (Alas) these eyes beheld the same,</l>
+            <l xml:id="A08360-e113910">They saw the dreary sight, and are become</l>
+            <l xml:id="A08360-e113920">Most ruthful records of the bloody fact. </l>
+            <l xml:id="A08360-e113930">Porrex, (Alas) is by his mother slain,</l>
+            <l xml:id="A08360-e113940">And with her hand a woeful thing to tell,</l>
+            <l xml:id="A08360-e113950">While slumbering on his careful bed he rests</l>
+            <l xml:id="A08360-e113960">His heart stalled in with knife is reft of life. </l>
+          </sp>
+          <sp xml:id="A08360-e113970" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e113980">O Eubulus, o draw this sword of ours,</l>
+            <l xml:id="A08360-e113990">And pierce this heart with speed, oh hateful light,</l>
+            <l xml:id="A08360-e114000">Oh loathsome lief, oh sweet and welcome death,</l>
+            <l xml:id="A08360-e114010">Dear Eubulus work this we thee beseech. </l>
+          </sp>
+          <sp xml:id="A08360-e114020" who="A08360-eubulus">
+            <speaker>Eubulus.</speaker>
+            <l xml:id="A08360-e114030">Patient your grace, perhaps he liveth yet. </l>
+            <l xml:id="A08360-e114040">With wound received, but not of certain death. </l>
+          </sp>
+          <sp xml:id="A08360-e114050" who="A08360-gorboduc">
+            <speaker>Gorboduc.</speaker>
+            <l xml:id="A08360-e114060">O let us than repair, unto the place,</l>
+            <l xml:id="A08360-e114070">And see if that Porrex, or thus be slain. </l>
+          </sp>
+          <sp xml:id="A08360-e114080" who="A08360-marcella">
+            <speaker>Marcella.</speaker>
+            <l xml:id="A08360-e114090">Alas he liveth not, it is too true,</l>
+            <l xml:id="A08360-e114100">That with these eyes of him a peerless prince,</l>
+            <l xml:id="A08360-e114110"><pb facs="29"/> son to a King, and in the flower of youth,</l>
+            <l xml:id="A08360-e114120">Even with a twink a senseless stock I saw. </l>
+          </sp>
+          <sp xml:id="A08360-e114130" who="A08360-arostus">
+            <speaker>Arostus</speaker>
+            <l xml:id="A08360-e114140">O dampned deed. </l>
+          </sp>
+          <sp xml:id="A08360-e114150" who="A08360-marcella">
+            <speaker>Marcella.</speaker>
+            <l xml:id="A08360-e114160">But hear this ruthful end. </l>
+            <l xml:id="A08360-e114170">The noble prince pierced with the sudden wound</l>
+            <l xml:id="A08360-e114180">Out of his wretched slumber hastily start</l>
+            <l xml:id="A08360-e114190">Whole strength now failing straight he overthrew</l>
+            <l xml:id="A08360-e114200">When in the fall his eyes even new unclosed</l>
+            <l xml:id="A08360-e114210">Beheld the Queen and cried to her for help</l>
+            <l xml:id="A08360-e114220">We then, alas, the ladies which that time</l>
+            <l xml:id="A08360-e114230">Did there attend, seeing that heinous deed</l>
+            <l xml:id="A08360-e114240">And hearing him oft call the wretched name</l>
+            <l xml:id="A08360-e114250">Of mother, and to cry to her for aid</l>
+            <l xml:id="A08360-e114260">Whose direful hand gave him the mortal wound</l>
+            <l xml:id="A08360-e114270">Pitying, (Alas, for naught else could we do)</l>
+            <l xml:id="A08360-e114280">His ruthful end, ran to the woeful bed</l>
+            <l xml:id="A08360-e114290">Despoiled straight his breast, and all we might</l>
+            <l xml:id="A08360-e114300">Wiped in vain with napkins next at hand,</l>
+            <l xml:id="A08360-e114310">The sudden streams of blood that flushed fast</l>
+            <l xml:id="A08360-e114320">Out of the gaping wound: oh what a look,</l>
+            <l xml:id="A08360-e114330">Oh what a ruthful steadfast eye methought </l>
+            <l xml:id="A08360-e114340">He fixed upon my face, which to my death</l>
+            <l xml:id="A08360-e114350">Will never part from me, when with a bray</l>
+            <l xml:id="A08360-e114360">A deep set sign he gave and therewith all</l>
+            <l xml:id="A08360-e114370">Clasping his hands, to heaven he cast his sight ▪</l>
+            <l xml:id="A08360-e114380">And straight pale death pressing within his face</l>
+            <l xml:id="A08360-e114390">The flying ghost his mortal corpse forsook. </l>
+          </sp>
+          <sp xml:id="A08360-e114400" who="A08360-arostus">
+            <speaker>Arostus.</speaker>
+            <l xml:id="A08360-e114410">Never did age bring forth so vile a fact. </l>
+          </sp>
+          <sp xml:id="A08360-e114420" who="A08360-marcella">
+            <pb facs="29"/>
+            <speaker>Marcella.</speaker>
+            <l xml:id="A08360-e114430">O hard and cruel hap, that thus assigned</l>
+            <l xml:id="A08360-e114440">Unto so worthy a wight so wretched end</l>
+            <l xml:id="A08360-e114450">But most hard cruel heart, that could consent</l>
+            <l xml:id="A08360-e114460">To lend the hateful destinies that hand</l>
+            <l xml:id="A08360-e114470">By which, alas, so heinous crime was wrought,</l>
+            <l xml:id="A08360-e114480">Oh Queen of adamant, oh marble breast</l>
+            <l xml:id="A08360-e114490">If not the favour of his comely face,</l>
+            <l xml:id="A08360-e114500">If not his princely cheer and countenance,</l>
+            <l xml:id="A08360-e114510">His valiant active arms, his manly breast. </l>
+            <l xml:id="A08360-e114520">If not his fair and seemly personage</l>
+            <l xml:id="A08360-e114530">His noble limbs in such preparation cast</l>
+            <l xml:id="A08360-e114540">As would have wrapped a silly woman's thought</l>
+            <l xml:id="A08360-e114550">If this might not have moved the bloody heart</l>
+            <l xml:id="A08360-e114560">And that most cruel hand the wretched weapon</l>
+            <l xml:id="A08360-e114570">Even to let fall, and kissed him in the face,</l>
+            <l xml:id="A08360-e114580">With tears for ruth to reave such one by death</l>
+            <l xml:id="A08360-e114590">Should nature yet consent to slay her son</l>
+            <l xml:id="A08360-e114600">Oh mother, thou to murder thus thy child</l>
+            <l xml:id="A08360-e114610">Even Jove with justice must withlightning flames</l>
+            <l xml:id="A08360-e114620">From heaven send down some strange revenge on thee. </l>
+            <l xml:id="A08360-e114630">Ah noble prince, how oft have I beheld</l>
+            <l xml:id="A08360-e114640">Thee mounted on thy fierce and traumpling stead</l>
+            <l xml:id="A08360-e114650">Shining in armour bright before the tilt</l>
+            <l xml:id="A08360-e114660">And with thy mistress sleeve tied on thy helm</l>
+            <l xml:id="A08360-e114670">And charge thy staff to please thy lady's eye</l>
+            <l xml:id="A08360-e114680">That bowed the head piece of thy friendly foe,</l>
+            <l xml:id="A08360-e114690">How oft in arms on horse to bend the mace</l>
+            <l xml:id="A08360-e114700">How oft in arms on foot to break the sword,</l>
+            <l xml:id="A08360-e114710">Which never now these eyes men 〈◊〉 again. </l>
+          </sp>
+          <sp xml:id="A08360-e114720" who="A08360-arostus">
+            <pb facs="30"/>
+            <speaker>Arostus.</speaker>
+            <l xml:id="A08360-e114730">Madam, alas, in vain these plaints are shed. </l>
+            <l xml:id="A08360-e114740">Rather with me depart and help to assuage,</l>
+            <l xml:id="A08360-e114750">The thoughtful griefs that in the aged Kings</l>
+            <l xml:id="A08360-e114760">Must needs by nature grow by death of this</l>
+            <l xml:id="A08360-e114770">His only son, whom he did hold so dear. </l>
+          </sp>
+          <sp xml:id="A08360-e114780" who="A08360-marcella">
+            <speaker>Marcella.</speaker>
+            <l xml:id="A08360-e114790">What wight is that which saw that I did see</l>
+            <l xml:id="A08360-e114800">And could refrain to wail with plaint and tears</l>
+            <l xml:id="A08360-e114810">Not I, alas, that heart is not in me,</l>
+            <l xml:id="A08360-e114820">But let us go, for I am grieved anew,</l>
+            <l xml:id="A08360-e114830">To call to mind the wretched father's woe. </l>
+          </sp>
+          <sp xml:id="A08360-e114840" who="A08360-chorus">
+            <speaker>Chorus.</speaker>
+            <lg xml:id="A08360-e114850">
+              <l xml:id="A08360-e114860">When greedy lust in royal seat to reign</l>
+              <l xml:id="A08360-e114870">Hath reft all care of gods and eke of men,</l>
+              <l xml:id="A08360-e114880">And cruel heart, wrath, treason and disdain</l>
+              <l xml:id="A08360-e114890">Within the ambitious breast are lodged then</l>
+              <l xml:id="A08360-e114900">Behold how mischief wide herself displays</l>
+              <l xml:id="A08360-e114910">And with the brother's hand the brother slays. </l>
+              <l xml:id="A08360-e114920">When blood thus shed, doth stain this heaven's face</l>
+              <l xml:id="A08360-e114930">Crying to Jove for vengeance of the deed,</l>
+              <l xml:id="A08360-e114940">The mighty God even moveth from his place</l>
+              <l xml:id="A08360-e114950">With wrath to wreak, then sends he forth with speed</l>
+              <l xml:id="A08360-e114960">The dreadful furies, daughters of the night</l>
+              <l xml:id="A08360-e114970">With serpents girt, carrying the whip of ire,</l>
+              <l xml:id="A08360-e114980">With hair of stinging snakes and shining bright</l>
+              <l xml:id="A08360-e114990">With flames and blood, and with a brand of fire:</l>
+              <l xml:id="A08360-e115000">These for revenge of wretched murder done</l>
+              <l xml:id="A08360-e115010">Do make the mother kill her only son. </l>
+            </lg>
+          </sp>
+          <lg xml:id="A08360-e115020">
+            <pb facs="30"/>
+            <l xml:id="A08360-e115030">Blood asketh blood, and death must death requite</l>
+            <l xml:id="A08360-e115040">Jove by his just and everlasting dome</l>
+            <l xml:id="A08360-e115050">Justly hath ever so requited it</l>
+            <l xml:id="A08360-e115060">These times before record, and times to come,</l>
+            <l xml:id="A08360-e115070">Shall find it true, and so doth present proof,</l>
+            <l xml:id="A08360-e115080">Present before our eyes for our behoof. </l>
+          </lg>
+          <lg xml:id="A08360-e115090">
+            <l xml:id="A08360-e115100">O happy wight that suffres not the snare</l>
+            <l xml:id="A08360-e115110">Of murderous mind to tangle him in blood ▪</l>
+            <l xml:id="A08360-e115120">And happy he that can in time beware</l>
+            <l xml:id="A08360-e115130">By others harms and turn it to his good</l>
+            <l xml:id="A08360-e115140">But woe to him that fearing not to offend</l>
+            <l xml:id="A08360-e115150">Doth serve his lust, and will not see the end. </l>
+          </lg>
+        </div>
+      </div>
+      <div n="5" type="dumb_show" xml:id="A08360-e115160">
+        <head>¶ The order and signification of the dumb show before the fifthe act.</head>
+        <p xml:id="A08360-e115170">¶ First the drums and flutes, began to sound, during which there came forth upon the stage a company of hargabusiers and of armed men all in order of battle. These after their pieces discharged, and that the armed men had three times marched about the stage, departed, and then the drums and fluits did cease. Hereby was signified tumults, rebellions, arms and civil wars to follow ▪ as fell in the realm of great Britain, which by the space of fifty years and more continued in civil war between the nobility after the death of King Gorboduc, and of his issues, for want</p>
+        <l xml:id="A08360-e115180"><pb facs="31"/>Of certain limitation in the succession of the</l>
+        <l xml:id="A08360-e115190">Crown, till the time of Dunwalle Molmutius,</l>
+        <l xml:id="A08360-e115200">Who reduced the land to monarch. </l>
+      </div>
+      <div n="5" type="act" xml:id="A08360-e115210">
+        <div n="1" type="scene" xml:id="A08360-e115220">
+          <head>Actus quintus. Scaena prima.</head>
+          <stage xml:id="A08360-e115230">Clotyn. Mandud. Gwenard. Fergus. Eubulus.</stage>
+          <sp xml:id="A08360-e115240" who="A08360-clotyn">
+            <speaker>Clotyn.</speaker>
+            <l xml:id="A08360-e115250">Did ever age bring forth such tyrant's hearts</l>
+            <l xml:id="A08360-e115260">The brother hath bereft the brother's life,</l>
+            <l xml:id="A08360-e115270">The mother she hath died her cruel hands</l>
+            <l xml:id="A08360-e115280">In blood of her own son, and now at last</l>
+            <l xml:id="A08360-e115290">The people lo forgetting truth and love,</l>
+            <l xml:id="A08360-e115300">Contemning quite both law and loyal heart</l>
+            <l xml:id="A08360-e115310">Even they have slain their sovereign lord and Queen. </l>
+          </sp>
+          <sp xml:id="A08360-e115320" who="A08360-mandud">
+            <speaker>Mandud.</speaker>
+            <l xml:id="A08360-e115330">Shall this their traitorous crime unpunished rest</l>
+            <l xml:id="A08360-e115340">Even yet they cease not, carried out with rage,</l>
+            <l xml:id="A08360-e115350">In their rebellious routs, to threaten still</l>
+            <l xml:id="A08360-e115360">A new blood shed unto the prince's kin</l>
+            <l xml:id="A08360-e115370">To slay them all, and to uproot the race</l>
+            <l xml:id="A08360-e115380">Both of the King and Queen, so are they moved</l>
+            <l xml:id="A08360-e115390">With Porrex death, wherein they falsely charge</l>
+            <l xml:id="A08360-e115400">The guiltless King without desert at all</l>
+            <l xml:id="A08360-e115410">And traitorously have murdered him therefore,</l>
+            <l xml:id="A08360-e115420">And eke the Queen. </l>
+          </sp>
+          <sp xml:id="A08360-e115430" who="A08360-gwenard">
+            <speaker>Gwenard.</speaker>
+            <l xml:id="A08360-e115440">Shall subjects dare with force</l>
+            <l xml:id="A08360-e115450">To work revenge upon their prince's fact? </l>
+            <l xml:id="A08360-e115460">Admit the worst that may: as sure in this</l>
+            <l xml:id="A08360-e115470"><pb facs="31"/> the deed was foul, the Queen to slay her son</l>
+            <l xml:id="A08360-e115480">Shall yet the subject seek to take the sword? </l>
+            <l xml:id="A08360-e115490">Arise against his lord, and slay his King? </l>
+            <l xml:id="A08360-e115500">O wretched state, where those rebellious hearts</l>
+            <l xml:id="A08360-e115510">Are not rent out even from their living breasts</l>
+            <l xml:id="A08360-e115520">And with the body thrown unto the fowls</l>
+            <l xml:id="A08360-e115530">As carrion food, for terror of the rest. </l>
+          </sp>
+          <sp xml:id="A08360-e115540" who="A08360-fergus">
+            <speaker>Fergus.</speaker>
+            <l xml:id="A08360-e115550">There can no punishment be thought too great</l>
+            <l xml:id="A08360-e115560">For this so grievous crime: let speed therefore</l>
+            <l xml:id="A08360-e115570">Be used therein for it behooveth so. </l>
+          </sp>
+          <sp xml:id="A08360-e115580" who="A08360-eubulus">
+            <speaker>Eubulus.</speaker>
+            <l xml:id="A08360-e115590">Ye all my lords I see consent in one</l>
+            <l xml:id="A08360-e115600">And I as one consent with ye in all:</l>
+            <l xml:id="A08360-e115610">I hold it more than need with the sharpest law</l>
+            <l xml:id="A08360-e115620">To punish the tumultuous bloody rage</l>
+            <l xml:id="A08360-e115630">For nothing more may shake the common state</l>
+            <l xml:id="A08360-e115640">Than sufferance of uproars without redress</l>
+            <l xml:id="A08360-e115650">Whereby how some kingdoms of mighty power</l>
+            <l xml:id="A08360-e115660">After great conquests made, and flourishing</l>
+            <l xml:id="A08360-e115670">In fame and wealth have been to ruin brought</l>
+            <l xml:id="A08360-e115680">I pray to Jove that we may rather wail</l>
+            <l xml:id="A08360-e115690">Such hap in them than witness in ourselves</l>
+            <l xml:id="A08360-e115700">Eke fully with the Duke my mind agrees</l>
+            <l xml:id="A08360-e115710">That no cause serves, whereby the subject may</l>
+            <l xml:id="A08360-e115720">Call to account the doings of his prince. </l>
+            <l xml:id="A08360-e115730">Much less in blood by sword to work revenge</l>
+            <l xml:id="A08360-e115740">No more than may the hand cut of the head,</l>
+            <l xml:id="A08360-e115750">In act nor speech, no: not in secret thought</l>
+            <l xml:id="A08360-e115760">The subject may rebel against his lord</l>
+            <l xml:id="A08360-e115770">Or judge of him that sits in Caesar's seat. </l>
+            <l xml:id="A08360-e115780"><pb facs="32"/>With grudging mind do damn those hemislikes</l>
+            <l xml:id="A08360-e115790">Though Kings forget to govern as they ought,</l>
+            <l xml:id="A08360-e115800">Yet subjects must obey as they are bound:</l>
+            <l xml:id="A08360-e115810">But now my lords before ye farther wade</l>
+            <l xml:id="A08360-e115820">Or spend your speech, what sharp revenge shall fall</l>
+            <l xml:id="A08360-e115830">By justice plague on these rebellious wights</l>
+            <l xml:id="A08360-e115840">Methinks ye rather should first search the way</l>
+            <l xml:id="A08360-e115850">By which in time the rage of this uproar</l>
+            <l xml:id="A08360-e115860">Might be repressed, and these great tumults ceased</l>
+            <l xml:id="A08360-e115870">Even yet the life of Britain land doth hang. </l>
+            <l xml:id="A08360-e115880">In traitors balance of unequal weight</l>
+            <l xml:id="A08360-e115890">Think not my lords the death of Gorboduc</l>
+            <l xml:id="A08360-e115900">Nor yet Videna's blood will cease their rage:</l>
+            <l xml:id="A08360-e115910">Even our own lives, our wives and children,</l>
+            <l xml:id="A08360-e115920">Our country dearest of all in danger stands,</l>
+            <l xml:id="A08360-e115930">Now to be spoilt, now, now made desolate,</l>
+            <l xml:id="A08360-e115940">And by ourselves a conquest too ensue:</l>
+            <l xml:id="A08360-e115950">For give ones sway unto the people's lusts,</l>
+            <l xml:id="A08360-e115960">To rush forth on, and stay them not in time,</l>
+            <l xml:id="A08360-e115970">And as the stream that rolleth down the hill,</l>
+            <l xml:id="A08360-e115980">So will they headlong run with raging thoughts</l>
+            <l xml:id="A08360-e115990">From blood to blood, from mischief unto more,</l>
+            <l xml:id="A08360-e116000">To ruin of the realm, themselves and all</l>
+            <l xml:id="A08360-e116010">So giddy are the common people's minds,</l>
+            <l xml:id="A08360-e116020">So glad of change, more wavering than the sea</l>
+            <l xml:id="A08360-e116030">Ye see (My lords) what strength these rebels have,</l>
+            <l xml:id="A08360-e116040">What hugy number is assembled still,</l>
+            <l xml:id="A08360-e116050">For though the traitorous fact, for which their rose</l>
+            <l xml:id="A08360-e116060">Be wrought and done, yet lodge they still in field</l>
+            <l xml:id="A08360-e116070">So that how far their furies yet will stretch</l>
+            <l xml:id="A08360-e116080">Great cause we have to dread, that we may seek</l>
+            <l xml:id="A08360-e116090">By present battle to repress their power. </l>
+            <l xml:id="A08360-e116100"><pb facs="32"/>Speed must we use to levy force therefore,</l>
+            <l xml:id="A08360-e116110">For either they forthwith will mischief work</l>
+            <l xml:id="A08360-e116120">Or their rebellious roars forthwith will cease:</l>
+            <l xml:id="A08360-e116130">These violent things may have no lasting loud</l>
+            <l xml:id="A08360-e116140">Let us therefore use this for present help</l>
+            <l xml:id="A08360-e116150">Persuade by gentle speech, and offer grace</l>
+            <l xml:id="A08360-e116160">With gift of pardon save unto the chief,</l>
+            <l xml:id="A08360-e116170">And that upon condition that forthwith</l>
+            <l xml:id="A08360-e116180">They yield the captains of their enterprise</l>
+            <l xml:id="A08360-e116190">To bear such guerdon of their traitorous fact</l>
+            <l xml:id="A08360-e116200">As may be both due vengeance to themselves,</l>
+            <l xml:id="A08360-e116210">And wholesome terror to posterity. </l>
+            <l xml:id="A08360-e116220">This shall I think: flatter the greatest part</l>
+            <l xml:id="A08360-e116230">That now are holden with desire of home,</l>
+            <l xml:id="A08360-e116240">Wearied in field with could of winter's nights,</l>
+            <l xml:id="A08360-e116250">And some (No doubt) stricken with dread of law</l>
+            <l xml:id="A08360-e116260">When this is ones proclaimed, it shall make</l>
+            <l xml:id="A08360-e116270">The captains to mistrust the multitude</l>
+            <l xml:id="A08360-e116280">Whose safety bids them to betray their heads</l>
+            <l xml:id="A08360-e116290">And so much more because the rascal routs,</l>
+            <l xml:id="A08360-e116300">In things of great and perilous attempts,</l>
+            <l xml:id="A08360-e116310">Are never trusty to the noble race. </l>
+            <l xml:id="A08360-e116320">And while we treat and stand on terms of grace,</l>
+            <l xml:id="A08360-e116330">We shall both stay their furies rage the while,</l>
+            <l xml:id="A08360-e116340">And eke gain time, whose only help sufficeth</l>
+            <l xml:id="A08360-e116350">Withouten war to vanquish rebels power</l>
+            <l xml:id="A08360-e116360">In the meanwhile , make you in readiness</l>
+            <l xml:id="A08360-e116370">Such band of horsemen as ye may prepare:</l>
+            <l xml:id="A08360-e116380">Horsemen (You know) are not the commons strength</l>
+            <l xml:id="A08360-e116390">But are the force and store of noble men</l>
+            <l xml:id="A08360-e116400">Whereby the unchosen and unarmed sort</l>
+            <l xml:id="A08360-e116410"><pb facs="33"/> of sk●●●she rebels, whom none other power</l>
+            <l xml:id="A08360-e116420">But number makes to be of dreadful force</l>
+            <l xml:id="A08360-e116430">With sudden brunt may quickly be oppressed</l>
+            <l xml:id="A08360-e116440">And if this gentle mean of proffered grace</l>
+            <l xml:id="A08360-e116450">With stubborn hearts cannot so far avail</l>
+            <l xml:id="A08360-e116460">As to assuage their desperate courages. </l>
+            <l xml:id="A08360-e116470">Than do I wish such slaughter to be made,</l>
+            <l xml:id="A08360-e116480">As present age and eke posterity</l>
+            <l xml:id="A08360-e116490">May be adread with horror of revenge,</l>
+            <l xml:id="A08360-e116500">That justly then shall on these rebels fall:</l>
+            <l xml:id="A08360-e116510">This is my lords the sum of mine advice. </l>
+          </sp>
+          <sp xml:id="A08360-e116520" who="A08360-clotyn">
+            <speaker>Clotyn.</speaker>
+            <l xml:id="A08360-e116530">Neither this case admits debate at large,</l>
+            <l xml:id="A08360-e116540">And though it did: this speech that hath been said</l>
+            <l xml:id="A08360-e116550">Hath well abridged the tale I would have told:</l>
+            <l xml:id="A08360-e116560">Fully with Eubulus do I consent</l>
+            <l xml:id="A08360-e116570">In all that he hath said: and if the same</l>
+            <l xml:id="A08360-e116580">To you my lords, may seem for best advice,</l>
+            <l xml:id="A08360-e116590">I wish that it should straight be put in ure. </l>
+          </sp>
+          <sp xml:id="A08360-e116600" who="A08360-mandud">
+            <speaker>Mandud.</speaker>
+            <l xml:id="A08360-e116610">My lords than let us presently depart</l>
+            <l xml:id="A08360-e116620">And follow this that liketh us so well. </l>
+          </sp>
+          <sp xml:id="A08360-e116630" who="A08360-fergus">
+            <speaker>Fergus.</speaker>
+            <l xml:id="A08360-e116640">If ever time to gain a kingdom here</l>
+            <l xml:id="A08360-e116650">Were offered man, now it is offered me:</l>
+            <l xml:id="A08360-e116660">The realm is reft both of their King and Queen</l>
+            <l xml:id="A08360-e116670">The offspring of the prince is slain and dead</l>
+            <l xml:id="A08360-e116680">No issue now remains, the heir unknown,</l>
+            <l xml:id="A08360-e116690">The people are in arms and mutinies</l>
+            <l xml:id="A08360-e116700">The nobles they are busied how to cease</l>
+            <l xml:id="A08360-e116710">These great rebellious tumults and uproars</l>
+            <l xml:id="A08360-e116720"><pb facs="33"/> and Britain land now desert left alone</l>
+            <l xml:id="A08360-e116730">Amid these broils uncertain where to rest</l>
+            <l xml:id="A08360-e116740">Offers herself unto that noble heart</l>
+            <l xml:id="A08360-e116750">That will or dare pursue to bear her crown:</l>
+            <l xml:id="A08360-e116760">Shall I that am the Duke of Albany</l>
+            <l xml:id="A08360-e116770">Descended from that line of noble blood. </l>
+            <l xml:id="A08360-e116780">Which hath so long flourished in worthy fame</l>
+            <l xml:id="A08360-e116790">Of valiant hearts, such as in noble breasts</l>
+            <l xml:id="A08360-e116800">Of right should rest above the baser sort,</l>
+            <l xml:id="A08360-e116810">Refuse to adventure lief to win a crown,</l>
+            <l xml:id="A08360-e116820">Whom shall I find enemies that will with stand</l>
+            <l xml:id="A08360-e116830">My fact herein, if I attempt by arms</l>
+            <l xml:id="A08360-e116840">To seek the fame now in these times of broil</l>
+            <l xml:id="A08360-e116850">These Duke's power can hardly well appease</l>
+            <l xml:id="A08360-e116860">The people that already are in arms. </l>
+            <l xml:id="A08360-e116870">But if perhaps my force be ones in field</l>
+            <l xml:id="A08360-e116880">Is not my strength in power above the best</l>
+            <l xml:id="A08360-e116890">Of all these lords now left in Britain land. </l>
+            <l xml:id="A08360-e116900">And though they should match me with power of men</l>
+            <l xml:id="A08360-e116910">Yet doubtful is the chance of battles joined</l>
+            <l xml:id="A08360-e116920">If victors of the field we may depart,</l>
+            <l xml:id="A08360-e116930">Ours is the sceptre than of great Britain,</l>
+            <l xml:id="A08360-e116940">If slain amid the plain this body be</l>
+            <l xml:id="A08360-e116950">Mine enemies yet shall not deny me this,</l>
+            <l xml:id="A08360-e116960">But that I died giving the noble charge</l>
+            <l xml:id="A08360-e116970">To hazard life for conquest of a crown. </l>
+            <l xml:id="A08360-e116980">Forthwith therefore will I in post depart</l>
+            <l xml:id="A08360-e116990">To Albany and raise in armour there</l>
+            <l xml:id="A08360-e117000">All power I can: and here my secret friends,</l>
+            <l xml:id="A08360-e117010">By secret practice shall solicit still,</l>
+            <l xml:id="A08360-e117020">To seek to win to me the people's hearts. </l>
+          </sp>
+        </div>
+        <div n="2" type="scene" xml:id="A08360-e117030">
+          <pb facs="34"/>
+          <head>Actus quintus. Scaena secunda.</head>
+          <stage xml:id="A08360-e117040">Eubulus. Clotyn. Mandud. Gwenard. Arostus nuntius.</stage>
+          <sp xml:id="A08360-e117050" who="A08360-eubulus">
+            <speaker>Eubulus.</speaker>
+            <l xml:id="A08360-e117060">O Jove, how are these people's hearts abused</l>
+            <l xml:id="A08360-e117070">What blind fury, thus headlong caries them? </l>
+            <l xml:id="A08360-e117080">That though so many books, so many rolls</l>
+            <l xml:id="A08360-e117090">Of ancient time record what grievous plagues,</l>
+            <l xml:id="A08360-e117100">Light on these rebels aye and though so oft</l>
+            <l xml:id="A08360-e117110">Their ears have hard their aged fathers tell</l>
+            <l xml:id="A08360-e117120">What just reward these traitors still receive. </l>
+            <l xml:id="A08360-e117130">Yea though themselves have seen deep death and blood</l>
+            <l xml:id="A08360-e117140">By strangling cord and slaughter of the sword</l>
+            <l xml:id="A08360-e117150">To such assigned, yet can they not beware:</l>
+            <l xml:id="A08360-e117160">Yet can they not stay their rebellious hands,</l>
+            <l xml:id="A08360-e117170">But suffering to foul treason to distain</l>
+            <l xml:id="A08360-e117180">Their wretched minds, forget their loyal heart,</l>
+            <l xml:id="A08360-e117190">Reject all truth and rise against their prince,</l>
+            <l xml:id="A08360-e117200">A ruthful case that those, whom duties bound</l>
+            <l xml:id="A08360-e117210">Whom grafted law by nature truth and faith</l>
+            <l xml:id="A08360-e117220">Bound to preserve their country and their King</l>
+            <l xml:id="A08360-e117230">Born to defend their common wealth and prince,</l>
+            <l xml:id="A08360-e117240">Even they should give consent thus to subvert</l>
+            <l xml:id="A08360-e117250">The Britain land, and from the womb should bring</l>
+            <l xml:id="A08360-e117260">(Oh native soil) those, that will needs destroy</l>
+            <l xml:id="A08360-e117270">And ruin thee and eke themselves in fine:</l>
+            <l xml:id="A08360-e117280">For lo, when ones the Duke had offered grace</l>
+            <l xml:id="A08360-e117290">Of pardon sweet (The multitude mislead</l>
+            <l xml:id="A08360-e117300">By traitorous fraud of their ungracious heads)</l>
+            <l xml:id="A08360-e117310">One sort that saw the dangerous success</l>
+            <l xml:id="A08360-e117320"><pb facs="34"/> of stubborn standing in rebellious war</l>
+            <l xml:id="A08360-e117330">And knew the difference of prince's power</l>
+            <l xml:id="A08360-e117340">From headless number of tumultuous routs,</l>
+            <l xml:id="A08360-e117350">Whom common country's care and private fear</l>
+            <l xml:id="A08360-e117360">Taught to repent the terror of their rage</l>
+            <l xml:id="A08360-e117370">Laid hands upon the Captains of their band,</l>
+            <l xml:id="A08360-e117380">And brought them bound unto the mighty Dukes</l>
+            <l xml:id="A08360-e117390">Another sort not trusting yet so well</l>
+            <l xml:id="A08360-e117400">The truth of pardon or mistrusting more</l>
+            <l xml:id="A08360-e117410">Their own offence than that they could conceive</l>
+            <l xml:id="A08360-e117420">Such hope of pardon for so foul misdeed:</l>
+            <l xml:id="A08360-e117430">Or for that they their captains could not yield</l>
+            <l xml:id="A08360-e117440">Who fearing to be yielded, flayed before,</l>
+            <l xml:id="A08360-e117450">Stale home by silence of the secret night,</l>
+            <l xml:id="A08360-e117460">The third unhappy and unraged sort</l>
+            <l xml:id="A08360-e117470">Of desperate hearts, who stained in prince's blood</l>
+            <l xml:id="A08360-e117480">From traitorous furor could not be withdrawn</l>
+            <l xml:id="A08360-e117490">By love, by law, by grace, ne yet by fear,</l>
+            <l xml:id="A08360-e117500">By proffered life, ne yet by threatened death,</l>
+            <l xml:id="A08360-e117510">With minds hopeless of lief, dreadless of death,</l>
+            <l xml:id="A08360-e117520">Careless of country, and aweless of God:</l>
+            <l xml:id="A08360-e117530">Stood bent to fight as furies did them move</l>
+            <l xml:id="A08360-e117540">With violent death to close their traitorous life:</l>
+            <l xml:id="A08360-e117550">These all by power of horsemen were oppressed</l>
+            <l xml:id="A08360-e117560">And with revenging sword slain in the field,</l>
+            <l xml:id="A08360-e117570">Or with the strangling cord hanged on the trees</l>
+            <l xml:id="A08360-e117580">Where yet the carryen carcases do proche</l>
+            <l xml:id="A08360-e117590">The fruits that rebels reap of their uproars,</l>
+            <l xml:id="A08360-e117600">And of the murder of their sacred prince,</l>
+            <l xml:id="A08360-e117610">But lo, where do approach the noble Dukes,</l>
+            <l xml:id="A08360-e117620">By whom these tumults have been thus appeased. </l>
+          </sp>
+          <sp xml:id="A08360-e117630" who="A08360-clotyn">
+            <pb facs="35"/>
+            <speaker>Clotyn.</speaker>
+            <l xml:id="A08360-e117640">I think the world will now at length beware ▪</l>
+            <l xml:id="A08360-e117650">And fear to put on arms against their prince. </l>
+          </sp>
+          <sp xml:id="A08360-e117660" who="A08360-mandud">
+            <speaker>Mandud.</speaker>
+            <l xml:id="A08360-e117670">If not: those traitorous hearts that dare rebel</l>
+            <l xml:id="A08360-e117680">Let them behold the wide and hugy fields</l>
+            <l xml:id="A08360-e117690">With blood and body spread with rebels slain,</l>
+            <l xml:id="A08360-e117700">The lusty trees clothed with corpses dead</l>
+            <l xml:id="A08360-e117710">That strangled with the cord do hang therein. </l>
+          </sp>
+          <sp xml:id="A08360-e117720" who="A08360-arostus">
+            <speaker>Arostus.</speaker>
+            <l xml:id="A08360-e117730">A just reward such as all times before</l>
+            <l xml:id="A08360-e117740">Have ever lotted to those wretched folks. </l>
+          </sp>
+          <sp xml:id="A08360-e117750" who="A08360-gwenard">
+            <speaker>Gwenard.</speaker>
+            <l xml:id="A08360-e117760">But what means he that cometh here so fast. </l>
+          </sp>
+          <sp xml:id="A08360-e117770" who="A08360-nuntius">
+            <speaker>Nuntius.</speaker>
+            <l xml:id="A08360-e117780">My lords, as duty and my troth doth move</l>
+            <l xml:id="A08360-e117790">And of my country work and care in me</l>
+            <l xml:id="A08360-e117800">That if the spending of my breath avail</l>
+            <l xml:id="A08360-e117810">To do the service that my heart desires,</l>
+            <l xml:id="A08360-e117820">I would not shun to embrace a present death,</l>
+            <l xml:id="A08360-e117830">So have I now in that wherein I thought</l>
+            <l xml:id="A08360-e117840">My travail might perform some good effects</l>
+            <l xml:id="A08360-e117850">Ventured my lief to bring these tidings here. </l>
+            <l xml:id="A08360-e117860">Fergus the mighty Duke of Albany</l>
+            <l xml:id="A08360-e117870">Is now in arms and lodgeth in the field</l>
+            <l xml:id="A08360-e117880">With twenty thousand men, hither he bends</l>
+            <l xml:id="A08360-e117890">His speedy mark, and minds to invade the crown</l>
+            <l xml:id="A08360-e117900">Daily he gathereth strength and spreads abroad</l>
+            <l xml:id="A08360-e117910">That to this realm no certain heir remains,</l>
+            <l xml:id="A08360-e117920">That Britain land is left without a guide,</l>
+            <l xml:id="A08360-e117930">That he the sceptre seeks, for nothing else</l>
+            <l xml:id="A08360-e117940"><pb facs="35"/> but to preserve the people and the land</l>
+            <l xml:id="A08360-e117950">Which now remain as ship without a stern</l>
+            <l xml:id="A08360-e117960">Lo this is that which I have hereto said. </l>
+          </sp>
+          <sp xml:id="A08360-e117970" who="A08360-clotyn">
+            <speaker>Clotyn.</speaker>
+            <l xml:id="A08360-e117980">Is this his faith? and shall he falsely thus</l>
+            <l xml:id="A08360-e117990">Abuse the vantage of unhappy times? </l>
+            <l xml:id="A08360-e118000">O wretched land, if his outrageous pride,</l>
+            <l xml:id="A08360-e118010">His cruel and untempered wilfulness</l>
+            <l xml:id="A08360-e118020">His deep dissembling shows of false pretence</l>
+            <l xml:id="A08360-e118030">Should once attain the crown of Brittayn land</l>
+            <l xml:id="A08360-e118040">Let us my lords, with timely force resist</l>
+            <l xml:id="A08360-e118050">The new attempt of this our common foe</l>
+            <l xml:id="A08360-e118060">As we would quench the flames of common fire. </l>
+          </sp>
+          <sp xml:id="A08360-e118070" who="A08360-mandud">
+            <speaker>Mandud.</speaker>
+            <l xml:id="A08360-e118080">Though we remain without a certain prince</l>
+            <l xml:id="A08360-e118090">To wield the realm or guide the wand'ring rule</l>
+            <l xml:id="A08360-e118100">Yet now the common mother of us all,</l>
+            <l xml:id="A08360-e118110">Our native land, our country that contains</l>
+            <l xml:id="A08360-e118120">Our wives, children, kindred, ourselves and all</l>
+            <l xml:id="A08360-e118130">That ever is or may be dear to man</l>
+            <l xml:id="A08360-e118140">Cries unto us to help ourselves and her:</l>
+            <l xml:id="A08360-e118150">Let us advance our powers to repress</l>
+            <l xml:id="A08360-e118160">This growing foe of all our liberties. </l>
+          </sp>
+          <sp xml:id="A08360-e118170" who="A08360-gwenard">
+            <speaker>Gwenard.</speaker>
+            <l xml:id="A08360-e118180">Yea let us so my lords with hasty speed,</l>
+            <l xml:id="A08360-e118190">And ye (Oh God's) send us the welcome death,</l>
+            <l xml:id="A08360-e118200">To shed our blood in field and leave us not,</l>
+            <l xml:id="A08360-e118210">In loath some life to longer out our lives</l>
+            <l xml:id="A08360-e118220">To see the hugy heaps of these unhaps,</l>
+            <l xml:id="A08360-e118230">That now roll down upon the wretched land</l>
+            <l xml:id="A08360-e118240">Where empty place of princely governance</l>
+            <l xml:id="A08360-e118250"><pb facs="36"/> no certain stay now left of doubtless heir,</l>
+            <l xml:id="A08360-e118260">Thus leave this guideless realm an open prey,</l>
+            <l xml:id="A08360-e118270">To endless storms and waste of civil war. </l>
+          </sp>
+          <sp xml:id="A08360-e118280" who="A08360-arostus">
+            <speaker>Arostus.</speaker>
+            <l xml:id="A08360-e118290">That ye (My lords) do so agree in one</l>
+            <l xml:id="A08360-e118300">To save your country from the violent reign</l>
+            <l xml:id="A08360-e118310">And wrongfully usurped tyranny</l>
+            <l xml:id="A08360-e118320">Of him that threatens conquest of you all</l>
+            <l xml:id="A08360-e118330">To save your realm, and in this realm yourselves</l>
+            <l xml:id="A08360-e118340">From foreign thraldom of so proud a prince,</l>
+            <l xml:id="A08360-e118350">Much do I praise, and I beseech the gods,</l>
+            <l xml:id="A08360-e118360">With happy honour to requite it you. </l>
+            <l xml:id="A08360-e118370">But (Oh my lords) sith now the heaven's wrath</l>
+            <l xml:id="A08360-e118380">Hath reft this land the issue of their prince:</l>
+            <l xml:id="A08360-e118390">Sith of the body of our late sovereign lord</l>
+            <l xml:id="A08360-e118400">Remains no more, since the young Kings be slain</l>
+            <l xml:id="A08360-e118410">And of the title of the discended crown,</l>
+            <l xml:id="A08360-e118420">Uncertainly the divers minds do think</l>
+            <l xml:id="A08360-e118430">Even of the learned sort, and more uncertainly</l>
+            <l xml:id="A08360-e118440">Will partial fancy and affection deem:</l>
+            <l xml:id="A08360-e118450">But most uncertain will climbing pride</l>
+            <l xml:id="A08360-e118460">And hope of reign withdraw from sundry parts</l>
+            <l xml:id="A08360-e118470">The doubtful right and hopeful lust to reign. </l>
+            <l xml:id="A08360-e118480">When ones this noble service is achieved</l>
+            <l xml:id="A08360-e118490">For Britain land the mother of ye all,</l>
+            <l xml:id="A08360-e118500">When ones ye have with armed force repressed,</l>
+            <l xml:id="A08360-e118510">The proud attempts of this Albanian prince,</l>
+            <l xml:id="A08360-e118520">That threatens thraldom to your native land,</l>
+            <l xml:id="A08360-e118530">When ye shall vanquishers return from field</l>
+            <l xml:id="A08360-e118540">And find the princely state an open prey. </l>
+            <l xml:id="A08360-e118550">To greedy lust and to usurping power,</l>
+            <l xml:id="A08360-e118560"><pb facs="36"/> then, then (My lords) if ever kindly care</l>
+            <l xml:id="A08360-e118570">Of ancient honour of your ancestors,</l>
+            <l xml:id="A08360-e118580">Of present wealth and noblesse of your stocks:</l>
+            <l xml:id="A08360-e118590">Yea of the lives and safety yet to come</l>
+            <l xml:id="A08360-e118600">Of your dear wives, your children and yourselves,</l>
+            <l xml:id="A08360-e118610">Might move your noble acts with gentle ruth,</l>
+            <l xml:id="A08360-e118620">Then, then have pity on the torne estate,</l>
+            <l xml:id="A08360-e118630">Then help to salve the well near hopeless sore</l>
+            <l xml:id="A08360-e118640">Which ye shall do, if ye yourselves with hold</l>
+            <l xml:id="A08360-e118650">The slaying knife from your own mother's throat</l>
+            <l xml:id="A08360-e118660">Her shall you save, and you, and yours in her</l>
+            <l xml:id="A08360-e118670">If ye shall all with one assent forbear</l>
+            <l xml:id="A08360-e118680">Ones to lay hand or take unto yourselves</l>
+            <l xml:id="A08360-e118690">The crown by colour of pretended right,</l>
+            <l xml:id="A08360-e118700">Or by what other means soever it be</l>
+            <l xml:id="A08360-e118710">Till first by common counsel of you all</l>
+            <l xml:id="A08360-e118720">In parliament the regal diadem</l>
+            <l xml:id="A08360-e118730">Be set in certain place of governance,</l>
+            <l xml:id="A08360-e118740">In which your parliament and in your choice,</l>
+            <l xml:id="A08360-e118750">Preserve the right (My lords,) without respect</l>
+            <l xml:id="A08360-e118760">Of strength of friends, or whatsoever cause</l>
+            <l xml:id="A08360-e118770">That may set forward any others part,</l>
+            <l xml:id="A08360-e118780">For right will last, and wrong can not endure,</l>
+            <l xml:id="A08360-e118790">Right mean I his or hers, upon whose name</l>
+            <l xml:id="A08360-e118800">The people rest by mean of native line,</l>
+            <l xml:id="A08360-e118810">Or by the virtue of some former law,</l>
+            <l xml:id="A08360-e118820">Already made their title to advance:</l>
+            <l xml:id="A08360-e118830">Such one (My lords) let be your chosen King</l>
+            <l xml:id="A08360-e118840">Such one so born within your native land</l>
+            <l xml:id="A08360-e118850">Such one prefer, and in no wise admit. </l>
+            <l xml:id="A08360-e118860">The heavy yoke of foreign governance,</l>
+            <l xml:id="A08360-e118870"><pb facs="37"/> let foreign titles yield to public wealth,</l>
+            <l xml:id="A08360-e118880">And with that heart wherewith ye now prepare</l>
+            <l xml:id="A08360-e118890">Thus to withstand the proud invading foe,</l>
+            <l xml:id="A08360-e118900">With that same heart (My lords) keep out also</l>
+            <l xml:id="A08360-e118910">Unnatural thraldom of stranger's reign,</l>
+            <l xml:id="A08360-e118920">Ne suffer you against the rules of kind</l>
+            <l xml:id="A08360-e118930">Your mother land to serve a foreign prince. </l>
+          </sp>
+          <sp xml:id="A08360-e118940" who="A08360-eubulus">
+            <speaker>Eubulus.</speaker>
+            <l xml:id="A08360-e118950">¶ Lo here the end of Brutus' royal line,</l>
+            <l xml:id="A08360-e118960">And lo the entry to the woeful wrack</l>
+            <l xml:id="A08360-e118970">And utter ruin of this noble realm. </l>
+            <l xml:id="A08360-e118980">The royal King, and eke his sons are slain,</l>
+            <l xml:id="A08360-e118990">No ruler rests within the regal seat:</l>
+            <l xml:id="A08360-e119000">The heir, to whom the sceptre longs, unknown</l>
+            <l xml:id="A08360-e119010">That to each force of foreign prince's power</l>
+            <l xml:id="A08360-e119020">Whom vantage of your wretched state</l>
+            <l xml:id="A08360-e119030">By sudden arms to gain so rich a realm</l>
+            <l xml:id="A08360-e119040">And to the proud and greedy mind at home</l>
+            <l xml:id="A08360-e119050">Whom blinded lust to reign leads to aspire. </l>
+            <l xml:id="A08360-e119060">Lo Britain realm is left an open prey,</l>
+            <l xml:id="A08360-e119070">A present spoil by conquest to ensue,</l>
+            <l xml:id="A08360-e119080">Who seeth not now how many rising minds</l>
+            <l xml:id="A08360-e119090">Do feed their thoughts, with hope to reach a realm</l>
+            <l xml:id="A08360-e119100">And who will not by force attempt to win</l>
+            <l xml:id="A08360-e119110">So great a gain that hope persuades to have:</l>
+            <l xml:id="A08360-e119120">A simple colour shall for title serve. </l>
+            <l xml:id="A08360-e119130">Who wins the royal crown will want no right</l>
+            <l xml:id="A08360-e119140">Nor such as shall display by long descent</l>
+            <l xml:id="A08360-e119150">A linear race to prove himself a King,</l>
+            <l xml:id="A08360-e119160">In the meanwhile these civil arms shall rage,</l>
+            <l xml:id="A08360-e119170">And thus a thousand mischiefs shall unfold</l>
+            <l xml:id="A08360-e119180"><pb facs="37"/> and far and near spread thee (Oh Britain land)</l>
+            <l xml:id="A08360-e119190">All right and law shall cease, and he that had</l>
+            <l xml:id="A08360-e119200">Nothing to day, to morrow shall enjoy</l>
+            <l xml:id="A08360-e119210">Great heaps of good, and he that flowed in wealth,</l>
+            <l xml:id="A08360-e119220">Leo he shall be reft of life and all,</l>
+            <l xml:id="A08360-e119230">And happiest he that then possesseth least. </l>
+            <l xml:id="A08360-e119240">The wives shall suffer rape, the maids deflowered</l>
+            <l xml:id="A08360-e119250">And children fatherless shall weep and wail:</l>
+            <l xml:id="A08360-e119260">With fire and sword thy native folk shall perish. </l>
+            <l xml:id="A08360-e119270">One kinsman shall bereave another life,</l>
+            <l xml:id="A08360-e119280">The father shall unwitting slay the son,</l>
+            <l xml:id="A08360-e119290">The son shall slay the sire and know it not:</l>
+            <l xml:id="A08360-e119300">Women and maids the cruel soldiers sword</l>
+            <l xml:id="A08360-e119310">Shall pierce to death, and silly children lo</l>
+            <l xml:id="A08360-e119320">That playing in the streets and fields are found</l>
+            <l xml:id="A08360-e119330">By violent hand shall close their latter day. </l>
+            <l xml:id="A08360-e119340">Whom shall the fierce and bloody soldier</l>
+            <l xml:id="A08360-e119350">Reserve too lief, whom shall he space from death</l>
+            <l xml:id="A08360-e119360">Even thou (Oh wretched mother) half alive</l>
+            <l xml:id="A08360-e119370">Thou shalt behold thy dear and only child</l>
+            <l xml:id="A08360-e119380">Slain with the sword while he yet sucks thy breast:</l>
+            <l xml:id="A08360-e119390">Lo, guiltless blood shall thus each where be shed:</l>
+            <l xml:id="A08360-e119400">Thus shall the wasted soil yield forth no fruit</l>
+            <l xml:id="A08360-e119410">But dearth and famine shall possess the land. </l>
+            <l xml:id="A08360-e119420">The towns shall be consumed and brent with fire,</l>
+            <l xml:id="A08360-e119430">The peopled cities shall war desolate,</l>
+            <l xml:id="A08360-e119440">And thou (Oh Britain land) whilom in renown</l>
+            <l xml:id="A08360-e119450">Whilom in wealth and fame shalt thus be torn,</l>
+            <l xml:id="A08360-e119460">Dismembered thus, and thus be rent in twain,</l>
+            <l xml:id="A08360-e119470">Thus wasted and defaced, spoilt and destroyed:</l>
+            <l xml:id="A08360-e119480">These be the fruits your civil wars will bring. </l>
+            <l xml:id="A08360-e119490"><pb facs="38"/>Hereto it comes when Kings will not consent,</l>
+            <l xml:id="A08360-e119500">To grave advice, but follow wilful will:</l>
+            <l xml:id="A08360-e119510">This is the end, when in young princes' hearts</l>
+            <l xml:id="A08360-e119520">Flattery prevails, and sage rede hath no place:</l>
+            <l xml:id="A08360-e119530">These are the plagues, when murder is the mean</l>
+            <l xml:id="A08360-e119540">To make new heirs unto the royal crown. </l>
+            <l xml:id="A08360-e119550">Thus wreak the gods, when thethe mother's wrath</l>
+            <l xml:id="A08360-e119560">Naught but theblood of her own child may suage. </l>
+            <l xml:id="A08360-e119570">These mischiefs springs when rebels will arise,</l>
+            <l xml:id="A08360-e119580">To work revenge and judge their prince's fact:</l>
+            <l xml:id="A08360-e119590">This, this ensues when noble men do fail</l>
+            <l xml:id="A08360-e119600">In loyal truth, and subjects will be Kings. </l>
+            <l xml:id="A08360-e119610">And this doth grow when lo unto the prince,</l>
+            <l xml:id="A08360-e119620">Whom death or sudden hap of lief bereaves,</l>
+            <l xml:id="A08360-e119630">No certain heir remains, such certainty</l>
+            <l xml:id="A08360-e119640">As not all only is the rightful heir,</l>
+            <l xml:id="A08360-e119650">But to the realm is so made unknown to be</l>
+            <l xml:id="A08360-e119660">And troth thereby vested in subjects' hearts,</l>
+            <l xml:id="A08360-e119670">To owe faith there, where right is known to rest</l>
+            <l xml:id="A08360-e119680">Alas, in parliament what hope can be,</l>
+            <l xml:id="A08360-e119690">When is of parliament no hope at all,</l>
+            <l xml:id="A08360-e119700">Which though it be assembled by consent,</l>
+            <l xml:id="A08360-e119710">Yet is it not likely with consent to end:</l>
+            <l xml:id="A08360-e119720">While each one for himself, or for his friend</l>
+            <l xml:id="A08360-e119730">Against his foe, shall travail what he may,</l>
+            <l xml:id="A08360-e119740">While now the state left open to the man,</l>
+            <l xml:id="A08360-e119750">That shall with greatest force invade the same,</l>
+            <l xml:id="A08360-e119760">Shall fill ambitious minds with gaping hope:</l>
+            <l xml:id="A08360-e119770">When will they ones with yielding hearts agree? </l>
+            <l xml:id="A08360-e119780">Or in the while, how shall the realm he used? </l>
+            <l xml:id="A08360-e119790">No, no: then parliament should have been holden</l>
+            <l xml:id="A08360-e119800"><pb facs="38"/> and certain heirs appointed to the crown</l>
+            <l xml:id="A08360-e119810">To stay their title of established right:</l>
+            <l xml:id="A08360-e119820">And plant the people in obedience</l>
+            <l xml:id="A08360-e119830">While yet the prince did live, whose name and power</l>
+            <l xml:id="A08360-e119840">By lawful summons and authority</l>
+            <l xml:id="A08360-e119850">Might make a parliament to be of force,</l>
+            <l xml:id="A08360-e119860">And might have set the state in quiet stay:</l>
+            <l xml:id="A08360-e119870">But now (Oh happy man) whom speedy death</l>
+            <l xml:id="A08360-e119880">Deprives of life, ne is enforced to see</l>
+            <l xml:id="A08360-e119890">These hugy mischiefs and these miseries,</l>
+            <l xml:id="A08360-e119900">These civil wars, these murders and these wrongs</l>
+            <l xml:id="A08360-e119910">Of justice, yet must Jove in fine restore</l>
+            <l xml:id="A08360-e119920">This noble crown unto the lawful heir:</l>
+            <l xml:id="A08360-e119930">For right will always live, and rise at length,</l>
+            <l xml:id="A08360-e119940">But wrong can never take deep root to last. </l>
+          </sp>
+        </div>
+        <trailer xml:id="A08360-e119950">¶ The end of the tragedy of King Gorboduc. </trailer>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A08360"><item xml:id="A08360-gorboduc" n="17">
+    <seg type="character_name">A08360-gorboduc</seg>
+    <seg type="speech_count">17</seg>
+  </item>
+  <item xml:id="A08360-ferrex" n="13">
+    <seg type="character_name">A08360-ferrex</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+  <item xml:id="A08360-arostus" n="11">
+    <seg type="character_name">A08360-arostus</seg>
+    <seg type="speech_count">11</seg>
+  </item>
+  <item xml:id="A08360-videna" n="10">
+    <seg type="character_name">A08360-videna</seg>
+    <seg type="speech_count">10</seg>
+  </item>
+  <item xml:id="A08360-eubulus" n="8">
+    <seg type="character_name">A08360-eubulus</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A08360-philander" n="7">
+    <seg type="character_name">A08360-philander</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A08360-marcella" n="6">
+    <seg type="character_name">A08360-marcella</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A08360-dordan" n="5">
+    <seg type="character_name">A08360-dordan</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+<item xml:id="A08360-clotyn" n="4">
+    <seg type="character_name">A08360-clotyn</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A08360-chorus" n="4">
+    <seg type="character_name">A08360-chorus</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A08360-porrex" n="4">
+    <seg type="character_name">A08360-porrex</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A08360-mandud" n="4">
+    <seg type="character_name">A08360-mandud</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A08360-hermon" n="3">
+    <seg type="character_name">A08360-hermon</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A08360-gwenard" n="3">
+    <seg type="character_name">A08360-gwenard</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A08360-fergus" n="2">
+    <seg type="character_name">A08360-fergus</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A08360-nuntius" n="2">
+    <seg type="character_name">A08360-nuntius</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A08360-tyndar" n="1">
+    <seg type="character_name">A08360-tyndar</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

@@ -1,0 +1,948 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Female Academy<date type="creation_date">1662</date></title>
+        <author>Cavendish, Margaret</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Hannah Bredar</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A53060_21.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">Playes written by the thrice noble, illustrious and excellent princess, the Lady Marchioness of Newcastle.</title>
+            <author>Newcastle, Margaret Cavendish, Duchess of, 1624?-1674.</author>
+          </titleStmt>
+          <extent>356 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 March (TCP phase 1)</date>
+            <idno type="marc">11861873</idno>
+            <idno type="stc">Wing N868.</idno>
+            <idno type="vid">50022</idno>
+            <idno type="DLPS">A53060</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">Playes written by the thrice noble, illustrious and excellent princess, the Lady Marchioness of Newcastle.</title>
+            <author>Newcastle, Margaret Cavendish, Duchess of, 1624?-1674.</author>
+            <author>Newcastle, William Cavendish, 1592-1676.</author>
+          </titleStmt>
+          <extent>[24], 679 [i.e. 675], [4] p. : ill.</extent>
+          <publicationStmt>
+            <publisher>Printed by A. Warren, for John Martyn, James Allestry, and Tho. Dicas ...,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1662.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>First edition.</p>
+            </note>
+            <note>
+              <p>Errata: p. [4] at end.</p>
+            </note>
+            <note>
+              <p>Reproduction of original in Huntington Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:id="A53060_21-e100010">
+    <body xml:id="A53060_21-e100020">
+      <div type="play" xml:id="A53060_21-e100030">
+        <pb facs="341" n="652"/>
+        <div type="dramatis_personae" xml:id="A53060_21-e100040">
+          <list xml:id="A53060_21-e100050">
+            <head>The actors names.</head>
+            <item xml:id="A53060_21-e100060">Two grave matrons belonging to the female academy. </item>
+            <item xml:id="A53060_21-e100070">Two or three ancient ladies.</item>
+            <item xml:id="A53060_21-e100080">Two or three citizens' wives.</item>
+            <item xml:id="A53060_21-e100090">A company of young gentlemen and others.</item>
+          </list>
+        </div>
+        <div n="1" type="act" xml:id="A53060_21-e100100">
+          <pb facs="341" n="653"/>
+          <head>The female academy.</head>
+          <head type="sub">Act i.</head>
+          <div n="1" type="scene" xml:id="A53060_21-e100110">
+            <head>Scene 1.</head>
+            <stage xml:id="A53060_21-e100120">Enter two ancient ladies.</stage>
+            <sp xml:id="A53060_21-e100130" who="A53060_21-yyyy_1">
+              <speaker>1 lady. </speaker>
+              <p xml:id="A53060_21-e100140">If you would have your daughter virtuously and wisely educated, you must put her into the female academy.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100150" who="A53060_21-yyyy_2">
+              <speaker>2 lady. </speaker>
+              <p xml:id="A53060_21-e100160">The female academy, what is that?</p>
+            </sp>
+            <sp xml:id="A53060_21-e100170" who="A53060_21-yyyy_1">
+              <speaker>1 lady. </speaker>
+              <p xml:id="A53060_21-e100180">Why a house, wherein a company of young ladies are instructed by old matrons; as to speak wittily and rationally, and to behave themselves handsomely, and to live virtuously.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100190" who="A53060_21-yyyy_2">
+              <speaker>2 lady. </speaker>
+              <p xml:id="A53060_21-e100200">Do any men come amongst them?</p>
+            </sp>
+            <sp xml:id="A53060_21-e100210" who="A53060_21-yyyy_1">
+              <speaker>1 lady. </speaker>
+              <p xml:id="A53060_21-e100220">O no; only there is a large open grate, where on the outside men stand, which come to hear and see them; but no men enter into the academy, nor women, but those that are put in for education; for they have another large open grate at the other end of the room they discourse in; where on the outside of that grate stand women that come to hear them discourse.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100230" who="A53060_21-yyyy_2">
+              <speaker>2 lady. </speaker>
+              <p xml:id="A53060_21-e100240">I will put my daughter therein to be instructed.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100250" who="A53060_21-yyyy_1">
+              <speaker>1 lady. </speaker>
+              <p xml:id="A53060_21-e100260">If your daughter were not of honourable birth, they would not receive her, for they take in none but those of ancient descent, as also rich, for it is a place of charges.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100270" who="A53060_21-yyyy_2">
+              <speaker>2 lady. </speaker>
+              <p xml:id="A53060_21-e100280">Why then they will not refuse my daughter, for she is both honourably born, and also rich.</p>
+            </sp>
+            <stage xml:id="A53060_21-e100290">Exeunt.</stage>
+          </div>
+          <div n="2" type="scene" xml:id="A53060_21-e100300">
+            <head>Scene 2.</head>
+            <stage xml:id="A53060_21-e100310">Enter a company of young ladies, and with them two grave matrons; where through the hanging a company of men look on them, as through a grate.</stage>
+            <sp xml:id="A53060_21-e100320" who="A53060_21-yyyy_1">
+              <speaker>1 matron. </speaker>
+              <p xml:id="A53060_21-e100330">Come lady, 'tis your turn this day to take the chair.</p>
+            </sp>
+            <stage xml:id="A53060_21-e100340">All sit, and she that speaks sits in an adorned chair.</stage>
+            <sp xml:id="A53060_21-e100350" who="A53060_21-speaker">
+              <pb facs="342" n="654"/>
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e100360">Deliver your theme.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100370" who="A53060_21-yyyy_1">
+              <speaker>1 Matrod. </speaker>
+              <p xml:id="A53060_21-e100380">You speak lady like a robber, when he says deliver your purse; but you must say propound your theme.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100390" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e100400">Why then propound your theme.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100410" who="A53060_21-yyyy_1">
+              <speaker>1 matron. </speaker>
+              <p xml:id="A53060_21-e100420">I present to your opinion, whether women are capable to have as much wit or wisdom as men.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100430" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e100440">First, I must define what wit and wisdom are: as for wit, it is the daughter of nature, and wisdom is a son of the gods: this daughter of nature, the lady wit, is very beautiful, and for the most part her countenance is very amiable, and her speech delightful; in her accoutrements she is as all other of the female sex are, various; as sometimes in plain garments, and sometimes in glittering garments; and sometimes she is attired in garments of as many several colours as the rainbow; and she alters in their fashions, as often as in their substances or trimmings: as for her humour, it is according to the nature of her sex, which is as various and changing as her accoutrements; for that sometimes she is merry and jesting, other times pleasing and delightful; sometimes melancholy, sometimes fantastical, other times spiteful and censorious, and oft times wild and wanton, unless discretion rules and leads her, who keeps her within the bounds and pales of modesty; also her discourses are various, as sometimes she will flatter grossly, other times she will rail maliciously, and sometimes she will speak so eloquently, and demean herself so elegantly, as to ravish the minds of the beholders and hearers this lady wit hath nine daughters, very beautiful ladies, namely the nine muses; and every several muse partakes of every several humour of the mother: these nine beautiful ladies, nature's grandchildren, and wit's daughters, have vowed single lives, living always in the court with their mother, whose court is a very glorious palace; for it is composed of celestial flame, and divine spirits were the architectures thereof; the servants and courtiers of the lady wit are poets, men of all nations, qualities, dignities and humours; these courtiers the poets, make love to the lady wits daughters, the nine muses, and often receive favours from them; which favours their servants the poets braid them into rhymes, and make several works of verse, then tie them into true lovers knots, and then as all lovers use to do, with their mistress's favours, vaingloriously show them to the public view of the world; for though the lady muses will not marry, yet they receive courtly addresses, and take delight to be wooed and sued to; the younger sort of poets are amorous lovers; the grave and more ancient poets are Platonic lovers, and some are divine lovers, and some are heroic lovers, and some are satirical lovers, which woo in a crabbed style: but to conclude of wit, there are good wits which have foolish judgements; for though wit and wisdom are sisters and brothers, both the children of nature, yet for the most part, the brother is a mere fool, and the sister hath a great wit; but some have masculine wits, and effeminate judgements, as if their beams were hermophrica. </p>
+              <p xml:id="A53060_21-e100450">The next I am to define is wisdom, who as I said, is a son of the gods: this wisdom is a person of perfect and upright shape, of well-composed features, of a manly garb, and an assured countenance, in his speech he is of a ready delivery, and he hath a well-tempered humour: as for the accoutrements of his person, he changes them according to the times and occasions: his constant habitation is in the strong tower of honesty, this<pb facs="342" n="655"/> tower is built round, without ends or corners, or by places; and it stands upon four pillars, as prudence, fortitude, justice and temperance; upon every several pillar are letters engraven, wherein may be read the proper uses, benefits, and advantages of each pillar: these pillars of support, causes this tower to be impregnable; for though there are many assaults made against it, as by riches, which shoots his golden bullets out of his golden canons at it, striving to batter it down; and power brings a mighty army to assault it, and danger of death strives to storm it, and flattery and insinuation to undermine it, yet it holds out without any breach therein; for the walls of this tower, named honesty, are of a wonderful strength, for they are as durable as an entire diamond, not to be dissolved, and as transparent as a crystal, without the least spot, stain, or blemish: in this tower as I said, lives wisdom, a most magnificent lord he is, and is attended numerously and nobly: his chief favourite is truth, his chief counsellors are reason, understanding, observation, experience, and judgement; his chief officers are patience, industry, and opportunity; his domestic servants are the appetites, which servants he rules and governs with great moderation; his nobility are the passions, which he prefers according to their merit; but those that are apt to be factious, he severely punishes, for he is one that loves peace, and hates brulleries, or any dissension: he is a person of the quickest sense, for he hath a most piercing sight to foresee dangers, as to avoid them, and can well distinguish the right ways from the wrong; likewise he hath a most clear hearing, for nothing passes by that concerns him, but the sound gives him an alarum to stand upon his guard, or a charge to take his advantage; but he hath a silent tongue, for he never speaks but it is to some purpose also he hath a marvelous quick scent, to smell out a rebellion or treason, and he will follow it pace by pace, as hounds do hares, and never leaves till he hath hunted it out; also his touch is very sensible, he soon feels a courtesy or injury, the first he receives gratefully, and feels tenderly, the other he receives strongly, and gripes hard, when he can take fast hold, otherwise he lets it pass or fall, as if his touch were numbed; he is a person which is so solicited by the weak, sought to by the wronged, flattered by the ambitious, sued to by the distressed; and he often fits in the court of errors, to rectify the disorder therein: sometimes he hath been in great humane counsels, but that is very rare; indeed he is so seldom in great humane counsels, as he is hardly known, for not one among a thousand that did ever see him, much less to have any acquaintance with him, for he is reserved, and not company for every one: but there are many that falsely pretend not only to be acquainted with him, but gets fall vizards, and pretend to be wisdom itself, and the world for the most part is cozened and abused with these cheats, in not knowing the right and true wisdom; and how should they? when wisdom itself appears so seldom, as he is a stranger even in King's courts and prince's palaces, and so great a stranger he is in many courts and counsels, that if by chance he should be there, they thrust him out as a troublesome guest, and laugh at his advice as foolish, or condemn his counsel as treacherous: but now I have declared unto you whom wit and wisdom are, now I am to give my opinion whether women are capable of their society; but truly I must tell you it is a difficult question, by reason the several educations, which are the ushers that lead humane creatures to several societies, for there are society; of the ignorant and foolish, as well as of the witty and wise, and several ushers belonging<pb facs="343" n="656"/> thereto; and indeed these latter societies are numerous, and of all sorts; the other are societies of the most choicest, for though wit is not an absolute goddess, nor humane wisdom an absolute God, yet they are a degree above other earthly mortals, but fools are produced from the degrees of mortality, and ignorance is the daughter of obscurity; the ushers of these are obstinacy, stupidity, and illiterature, which leads mortals to dangerous and inaccessible ways; in this last society, for the most part women are of, as being bred therein, and having such ill tutors and guides, they must needs err, for there is an old saying, when the blind leads the blind, they must needs fall into the ditch, nor having sight to choose their way; so women breeding up women, the generations must needs be fools: for the first, women had an ill tutor, the devil, which neither instructed her in the knowledge of wisdom nor wit, but learned her hurtful dissimulation, to which she hath bred all her female generations successively, as from female to female; but your question is, whether women are capable of wit and wisdom: truly in my opinion women are more capable of wit than wisdom, by reason they are both of the female gender, which may cause some sympathy in their natures; and in some things they do plainly sympathy and agree, for wit is wild and various, and so are women, and wit is busy and meddles with every thing, cause, or subject, so do women; wit is fantastical, and so are women, wit is always in extremes, and so are women, wit doth talk much, and so do women, wit is humoursome, and so are women, wit is prodigal, and so are women, wit loves praises, and so do women, wit doth sport and play, dance and sing the time away, and so do women, wit is many times wanton, and so are women; thus far are women capable of the society and conversation of wit; but I doubt of her subtle invention, quick apprehension, rare conceptions, elevated fancy, and smooth elocution.</p>
+              <p xml:id="A53060_21-e100460">As for wisdom, women seem to all outward appearance to have a natural antipathy abhorring his severe and strict rules, hating his medicinable admonitions, his profitable counsels and advice, his wary ways, his prudent forecast, his serious actions, his temperate life and sober disposition; all which makes them uncapable of the society of wisdom.</p>
+            </sp>
+            <stage xml:id="A53060_21-e100470">Exeunt.</stage>
+          </div>
+        </div>
+        <div n="2" type="act" xml:id="A53060_21-e100480">
+          <head>Act ii.</head>
+          <div n="3" type="scene" xml:id="A53060_21-e100490">
+            <head>Scene 3.</head>
+            <stage xml:id="A53060_21-e100500">Enter two gentlemen.</stage>
+            <sp xml:id="A53060_21-e100510" who="A53060_21-yyyy_1">
+              <speaker>1 gentleman. </speaker>
+              <p xml:id="A53060_21-e100520">I suppose you have heard that a company of young gentlemen have set up an academy, next to the lady's academy.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100530" who="A53060_21-yyyy_2">
+              <speaker>2 gentleman. </speaker>
+              <p xml:id="A53060_21-e100540">We heard nothing of it.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100550" who="A53060_21-yyyy_1">
+              <speaker>1 gentleman. </speaker>
+              <p xml:id="A53060_21-e100560">Why then I will tell you, the men are very angry that the<pb facs="343" n="657"/> women should speak so much, and they so little, I think: for they have made that room which they stood in to see and hear the ladies speak in, so a place for themselves to speak in, that the ladies may hear what they can say.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100570" who="A53060_21-yyyy_2">
+              <speaker>2 gentleman. </speaker>
+              <p xml:id="A53060_21-e100580">Faith if you will have my opinion, it is, that the men do it out of a mockery to the ladies.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100590" who="A53060_21-gentleman_1">
+              <speaker>1 gentleman</speaker>
+              <p xml:id="A53060_21-e100600">'Tis likely so, for they rail extremely that so many fair young ladies are so strictly enclosed, as not to suffer men to visit them in the academy.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100610" who="A53060_21-yyyy_2">
+              <speaker>2 gentleman. </speaker>
+              <p xml:id="A53060_21-e100620">Faith if the men should be admitted into their academy, there would be work enough for the grave matrons, were it but to act the part of midwives.</p>
+            </sp>
+            <stage xml:id="A53060_21-e100630">Exeunt.</stage>
+          </div>
+          <div n="4" type="scene" xml:id="A53060_21-e100640">
+            <head>Scene 4.</head>
+            <stage xml:id="A53060_21-e100650">Enter the academy ladies, and their grave matrons; another of the young ladies sits as lady speaker in an armed chair, the rest on stools about her.</stage>
+            <sp xml:id="A53060_21-e100660" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e100670">Lady, at this time let the theme of your discourse be of discoursing.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100680" who="A53060_21-lady">
+              <speaker>Lady.</speaker>
+              <p xml:id="A53060_21-e100690">As for discourse it is differently various, some discourses are delightful and pleasing, others tedious and troublesome, some rude and uncivil, some vain and unnecessary, some graceful and acceptable, some wise and profitable; but in most discourses time is lost, having nothing that is worthy to be learned, practised, or observed: but there are two sorts of discourses, or manner of ways of discoursings, as there is a discoursing within the mind, and a discourse with words; as for the inward discourse in the mind, it is to discourse to a man's self, as if they were discoursing to others, making questions or propositions, syllogisms and conclusions to himself, wherein a man may deceive himself with his own false arguments, for it is an old saying, that it is one thing to oppose himself, and another thing to be opposed by others, and it is easy to argue without opposition; as for discoursing with words, it is more difficult than to discourse with thoughts: for though words are as high and substantial as thoughts, yet the mouth is not so ready in speaking, as the brain in thinking, and the brain can present more thoughts at one time, than the mouth can deliver words at one time: but words, or rhetoric is apt to deceive a man, as his conceptions, especially orators, which draw themselves with the force of rhetoric, from the right and the truth, so as an orator is as apt to delude himself, as to delude his auditory, if he make words or eloquence the ground of his questions, persuasions, or judgement, and not reason, for reason must find out the truth, and right, and truth must judge the cause; but rhetoric is for the most part a vizard to right reason, for it seems a natural face, and is not so: rhetoric seems right reason, but is not: also there are extemporal discourses, and discourses premeditated, extemporal sounds best to the ears of the hearers, although of less wit than premeditated<pb facs="344" n="658"/> discourses, because they are delivered more naturally, and so flow more freely and easily, which makes the noise not only to sound more sweetly, but the discourse to be more delightful both to the ears and the mind of the hearers, and more ready to the understanding; but of all discourses the disputive discourses are harshest: indeed all disputive discourses are like chromatic music, wherein is more skill than harmony; but all discourses should be fitted, measured, or chosen to the time, place, persons, and occasions, for that discourse which is proper for one time, place, or person, is improper for another time, place, or person, as a discourse of mirth in a time of sadness, a familiar discourse from an inferior to a superior, a vain discourse to a serious humour, or an effeminate discourse to a man, or a masculine discourse to a woman, and many the like examples might be given: also there are discourses that are sensible discourses, rational discourses, and witty discourses: also there are other discourses, that have neither sense, reason, wit, nor fancy in them: also there are clownish discourses and courtly discourses: also there is a general discoursing, and particular discoursing, also scholastical discourses and poetical discourses: but of all the several ways, manners, or sorts of discourses and discoursings, let me commend the poetical discourses and discoursings, which are brief and quick, full of variety, curiosity, and newness, being as new as peep of day, as refreshing as the Zephyrus' wind, as modest as the blushing morning, sweet as the flowery spring, as pleasant as a summer's evening, as profitable as autumn's harvest, as splendorous as the midday sun, as flowing as the full tide sea, as dilating as the spreading air, as fruitful as the fertile earth, and have as great an influence upon the natures, dispositions, and humours of men, as the stars, and planets in the heavens have, it takes life from the celestial flame, and is produced from the gods on high: and this discourse makes man resemble to a deity.</p>
+            </sp>
+            <stage xml:id="A53060_21-e100700">Exeunt.</stage>
+          </div>
+          <div n="5" type="scene" xml:id="A53060_21-e100710">
+            <head>Scene 5.</head>
+            <stage xml:id="A53060_21-e100720">Enter two gentlemen as meeting each other:</stage>
+            <sp xml:id="A53060_21-e100730" who="A53060_21-yyyy_1">
+              <speaker>1 gentleman. </speaker>
+              <p xml:id="A53060_21-e100740">Whither so hastily?</p>
+            </sp>
+            <sp xml:id="A53060_21-e100750" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e100760">I am going to hear them speak in the academy.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100770" who="A53060_21-gentleman_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e100780">They have done for this time.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100790" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e100800">And did they speak well.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100810" who="A53060_21-gentleman_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e100820">As they use to do.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100830" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e100840">Why they never spoke before there?</p>
+            </sp>
+            <sp xml:id="A53060_21-e100850" who="A53060_21-gentleman_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e100860">Where?</p>
+            </sp>
+            <sp xml:id="A53060_21-e100870" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e100880">Why in the academy.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100890" who="A53060_21-gentleman_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e100900">Why I am sure I heard one lady speak yesterday, and another today.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100910" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e100920">Ladies, I mean the academy of men.</p>
+            </sp>
+            <sp xml:id="A53060_21-e100930" who="A53060_21-gentleman_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e100940">Why do the men intend to speak?</p>
+            </sp>
+            <sp xml:id="A53060_21-e100950" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e100960">Yes presently, if they have not done speaking already.</p>
+            </sp>
+            <stage xml:id="A53060_21-e100970">Exeunt.</stage>
+          </div>
+          <div n="6" type="scene" xml:id="A53060_21-e100980">
+            <pb facs="344" n="659"/>
+            <head>Scene 6.</head>
+            <stage xml:id="A53060_21-e100990">Enter a company of young men, as in the room next to the ladies; one takes the chair.</stage>
+            <sp xml:id="A53060_21-e101000" who="A53060_21-gentleman_speaker">
+              <speaker>Gentleman speaker.</speaker>
+              <p xml:id="A53060_21-e101010">Gentlemen, we need no learned scholars, nor grave sages to propound the theme of our discourse in this place, and at this time; for our minds are so full of thoughts of the female sex, as we have no room for any other subject or object; wherefore let the theme be what it will, our discourses will soon run on them: but if we could bring women as easily into our arms, as into our brains; and had we as many mistresses in our possessions, as we have in our imaginations, we should be much more happy than we are; nay, had we been blind, deaf, and insensible to the sex, we had been happy, unless that sex had been more kinder than they are; but they are cruel, which makes men miserable: but nature had made beauty in vain, if not for the use of the masculine sex, wherefore nature forbids restraint, and 'tis a sin against nature for women to be encloistered, retired, or restrained: nay, it is not only a sin against nature, but a grievous sin against the gods, for women to live single lives, or to vow virginity: for if women live virgins, there will be no saints for heaven, nor worship nor adoration offered to the gods from earth: for if all women live virgins, the race of mankind will be utterly extinguished; and if it be a general sin to live virgins, no particular can be exempted; and if it be lawful for one to live a virgin, it is lawful for all; so if it be unlawful for one, it is unlawful for all; but surely the gods would not make any thing lawful that were against themselves: but to conclude, those women which restrain themselves from the company and use of men, are damned, being accused by men, judged by nature, and condemned by the gods.</p>
+            </sp>
+            <stage xml:id="A53060_21-e101020">Exeunt.</stage>
+          </div>
+          <div n="7" type="scene" xml:id="A53060_21-e101030">
+            <head>Scene. 7.</head>
+            <stage xml:id="A53060_21-e101040">Enter two gentlewomen.</stage>
+            <sp xml:id="A53060_21-e101050" who="A53060_21-yyyy_1">
+              <speaker>1 gentlewoman. </speaker>
+              <p xml:id="A53060_21-e101060">What say you, will you go into the academy?</p>
+            </sp>
+            <sp xml:id="A53060_21-e101070" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e101080">No faith, I mean not to be damned.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101090" who="A53060_21-gentleman_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e101100">I am of your mind, I will run unto the men to save me.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101110" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e101120">So will I, since the ways of salvation are so easy and so pleasant.</p>
+            </sp>
+            <stage xml:id="A53060_21-e101130">Exeunt.</stage>
+          </div>
+          <div n="8" type="scene" xml:id="A53060_21-e101140">
+            <pb facs="345" n="660"/>
+            <head>Scene 8.</head>
+            <stage xml:id="A53060_21-e101150">Enter the academy of ladies, and the grave matronnesse: the lady that is to speak takes a chair.</stage>
+            <sp xml:id="A53060_21-e101160" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e101170">Lady, let the theme of your discourse be at this time on the behaviour of our sex.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101180" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e101190">It is a greater difficulty for a woman to behave herself discreetly in private visitations, than for a man to speak wisely in privy counsels: and it is a greater difficulty for a woman to behave herself well in a public assembly, than for a man to speak eloquently in a public auditory: and it is a greater difficulty for a woman to behave herself well to several persons, and in several assemblies, than for a man to behave himself gallantly in several battles, and as much dishonour comes in the misbehaviour of the one, as the cowardliness of the other: wherefore there requires as much skill, care, and conduct in a woman's behaviour, in visiting, entertaining, placing, applying, and discoursing, as to a commander in mustering, training, entrenching, besieging, embattling, fighting, and retreating; for it is not enough for a woman to behave herself according to her degree, quality, dignity, birth, and breeding, age, beauty, wit, and fortune; but according to time, place, and occasion, business, and affairs, as also to the humours, capacities, professions, dignities, qualities, births, breedings, fortunes, ages, and sexes of those persons she is in company and conversation withal: also in mixed companies she must have a mixed behaviour, and mixed discourses, as sometimes to one, then to another, according as she can handsomely and civilly apply or address herself; and to those that apply and address themselves to her: for a woman must not behave herself, or discourse unto a great lord or prince, as to a peasant, or to a peasant as to a great lord or prince, nor to a soldier as to a divine, nor to a divine as to a soldier, nor to a statesman as to a tradesman, nor to a tradesman as to a statesman, nor to a flattering gallant, as to a grave senior, nor to a grave senior as to a flattering gallant, nor to a young man as to an ancient man, nor to a boy as to a man, nor to a woman as to a man, nor to a poet as to a woman, or as to those men that understand not poetry, nor to learned men, as to ignorant men. Also an ancient grave matron must not behave herself like a wanton young girl, nor a wife like a maid, nor a widow like a wife, nor a mother like her daughter, nor a mistress like her servant, nor a servant like a mistress, nor a great lady like a country wise, nor a country wife like a great lady, for that would be ridiculous; indeed it is easier for a middle rank or degree, at least it is oftener seen, to behave themselves better than those of high titles and great estates, or those of a very mean condition, and of low birth, for the one is apt to err with excessive pride, the other with an excessive rudeness, both being bold and ignorantly bred, knowing not how to be civil, nor what belongs to civil persons; for the pride of the one scorns to be instructed, and the poverty of the other hath not means to keep and pay instructers; for the excess of plenty nuzzles the one in ignorance, and excess of poverty blindfolds the other from knowledge: but to conclude of the behaviour of women, first as to the generality, they must behave themselves<pb facs="345" n="661"/> civilly and circumspectly, to particulars, modestly and friendly; for the chief principals of behaviour are twelve, six good, and six bad; the six good are, ceremony, civility, modesty, humility, friendship, and obedience: the first is majestical and magnificent, the second noble, the third virtuous, the fourth humane, the fifth generous, the sixth pious; the first is graceful, the second sociable, the third delightful, the fourth natural, the fifth helpful, the sixth necessary; the first belongs to dignity, the second to breeding, the third to youth, the fourth to age, the fifth to wealth, the sixth to peace.</p>
+              <p xml:id="A53060_21-e101200">As for the six bad principals, is, to be proud, bold, rude, wanton, disobedient, and cruel; the first is, insolent, the second impudent, the third ignorant, the fourth brutish, the fifth unnatural, the sixth wicked: the first lives with mean births, joined with good fortune, the second lives with ignorant and doltish spirits, the third with base breeding, the fourth with beasts, the fifth with uncivil nations, the sixth with atheists: the first is to be slighted, the second to be pitied, the third to be shunned, the fourth to be hated, the fifth to be governed, the sixth to be punished.</p>
+            </sp>
+            <stage xml:id="A53060_21-e101210">Exeunt.</stage>
+          </div>
+          <div n="9" type="scene" xml:id="A53060_21-e101220">
+            <head>Scene 9:</head>
+            <stage xml:id="A53060_21-e101230">Enter two gentlemen.</stage>
+            <sp xml:id="A53060_21-e101240" who="A53060_21-gentleman_1">
+              <speaker>1. Gent.</speaker>
+              <p xml:id="A53060_21-e101250">What say you to these young ladies?</p>
+            </sp>
+            <sp xml:id="A53060_21-e101260" who="A53060_21-gentleman_2">
+              <speaker>2. Gent.</speaker>
+              <p xml:id="A53060_21-e101270">I say, that though they be but young ladies, they discourse like old women.</p>
+            </sp>
+            <stage xml:id="A53060_21-e101280">Exeunt.</stage>
+          </div>
+          <div n="10" type="scene" xml:id="A53060_21-e101290">
+            <head>Scene 10.</head>
+            <stage xml:id="A53060_21-e101300">Enter a company of young gentlemen: the gentleman speaker takes the chair. </stage>
+            <sp xml:id="A53060_21-e101310" who="A53060_21-gentleman_speaker">
+              <speaker>Gentleman speaker.</speaker>
+              <p xml:id="A53060_21-e101320">The beauty of the female sex hath as great an influence upon the eyes of men, as the stars of the heavens have upon their nature and disposition: but as a cloud of ill education, covers, changes, or buries the good influence of the stars; so a cloud of time covers, changes, and buries the beauties of the fairest ladies' faces, which alters the affections of men, and buries all the delight that was received therefrom, in the ruins of age, and the graves of wrinkles: but beauty, whilst it is fresh and flourishing, it is the most powerful conqueress and triumphs in the chariot of youth; and though her masculine subjects forsake her, when time hath displaced her, and weakened her power; yet she were unwise, not to take pleasure in her victories, whilst she may.</p>
+            </sp>
+            <stage xml:id="A53060_21-e101330">Exeunt.</stage>
+          </div>
+          <div n="11" type="scene" xml:id="A53060_21-e101340">
+            <pb facs="346" n="662"/>
+            <head>Scene 11.</head>
+            <stage xml:id="A53060_21-e101350">Enter two citizens wives.</stage>
+            <sp xml:id="A53060_21-e101360" who="A53060_21-yyyy_1">
+              <speaker>1. Wife. </speaker>
+              <p xml:id="A53060_21-e101370">Come, come, neighbour, we shall get no room to see and hear the young ladies, if we go not quickly.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101380" who="A53060_21-yyyy_2">
+              <speaker>2. Wife. </speaker>
+              <p xml:id="A53060_21-e101390">Yes, let us go; but stay neighbour, I must run home again, for I have left the key in the cellar door.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101400" who="A53060_21-yyyy_1">
+              <speaker>1. Wife. </speaker>
+              <p xml:id="A53060_21-e101410">Let it be there for this time.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101420" who="A53060_21-yyyy_2">
+              <speaker>2. Wife. </speaker>
+              <p xml:id="A53060_21-e101430">By my truth I must not, for my maid Joan, and the prentice, will drink out all my ale, and strong beer, and there will be none left to give my husband a draught when he goeth to bed.</p>
+            </sp>
+            <stage xml:id="A53060_21-e101440">Enter another citizens wife.</stage>
+            <sp xml:id="A53060_21-e101450" who="A53060_21-yyyy_1">
+              <speaker>1. Wife. </speaker>
+              <p xml:id="A53060_21-e101460">What, neighbour, are you come back already?</p>
+            </sp>
+            <sp xml:id="A53060_21-e101470" who="A53060_21-yyyy_3">
+              <speaker>3 wife. </speaker>
+              <p xml:id="A53060_21-e101480">Why there is no getting in; the doorkeeper beat me back, and said there was no room for citizens' wives, for the room was only kept for ladies, and gentlewomen of quality.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101490" who="A53060_21-yyyy_2">
+              <speaker>2. Wife. </speaker>
+              <p xml:id="A53060_21-e101500">Well, we may come to be ladies one day, although not gentlewomen, and then we shall not so often be beaten back.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101510" who="A53060_21-yyyy_1">
+              <speaker>1. Wife. </speaker>
+              <p xml:id="A53060_21-e101520">Let us go to the gentlemen's side, they will receive us, and use us kindly.</p>
+            </sp>
+            <stage xml:id="A53060_21-e101530">Exeunt.</stage>
+          </div>
+          <div n="12" type="scene" xml:id="A53060_21-e101540">
+            <head>Scene 12.</head>
+            <stage xml:id="A53060_21-e101550">Enter the academy of young ladies, and their matrons. They all sit, and the lady speaker takes the chair. </stage>
+            <sp xml:id="A53060_21-e101560" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e101570">Ladies, let the theme of our discourse, at this time, be of truth.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101580" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e101590">Truth, although she hath but one face, which is a natural face, yet she hath many several countenances; for sometimes her countenance is severe, other times kind and familiar, sometimes it is sad, sometimes merry, other times pleasing and delightful: also she hath as different humours, as she hath countenances, according to the cause, or occasion; likewise, her presence, or approach, shows the different effects, and several causes; or from one cause on several objects, or subjects: as for example, sometimes her approach shows man to be miserable, or happy; as when she comes to inform him of good fortune, or bad; or when she presents him with right understanding of the condition he is in: but in truth, in whatsoever countenance, or humour she puts on, she is a most beautiful lady: for although she do not shine as the sun, which dazzles and obscures the sight with his splendorous beams, yet she doth appear like a bright, clear day, wherein, and whereby, all things are seen perfectly; and although she have various humours, yet her actions are just, for the alteration of her countenance, and humours, are not to deceive men, nor she takes no delight<pb facs="346" n="663"/> in her own sad approach, to grieve men, but she doth bear apart, both of their grief and joy: she makes neither the chances, fortunes, accidents nor actions, but only declares them: she is neither the cause, nor effects, but only shows the several effects of causes, or what causes those effects: she is of a sweet nature, and an humble disposition, she doth as freely, and commonly accompany the poor, as the rich, the mean as the great: indeed, her constant habitation and dwelling, is among the learned and industrious men; but she hath an opposite or rival, namely falsehood, which often obscures her, and is often preferred before her: this falsehood, her rival, is of the nature of a courtesan, as all courtesans are, as to flatter, and insinuate herself and company, to all men's good liking, and good opinion: she is full of deceit and dissembling, and although she hates truth, yet she imitates her as much as she can; I do not say she imitates the justice, severity, and plainness of truth; for those, of all things, or actions, she shuns; but she imitates her behaviour and countenance; for although falsehood is fowl, and filthy of herself, yet by artificial paint, she makes herself appear as fair, and pure as truth; but the deservingly wife can soon see the difference between the artificial fair of falsehood, and the true, natural, fair complexion of truth, although fools do admire, and are sooner catched, so, for the most part deceived with the deceiving arts of falsehood, than the natural verity of truth: for falsehood makes a glaring show at the first sight, but the more she is viewed, the worse she appears; whereas truth, the more she is viewed, the better she appears: also falsehood uses rhetoric, to allure and deceive with her eloquent tongue, whereas truth speaks little herself, but brings always, and at all times, and in all places, and to all things, right reason, and plain proof to speak for her, who speak without flourishing phrases, or decking sentences, or scholastical rules, methods or tenses, but speak to the purpose, deliver the matter briefly, and keep to the sense of truth, or true sense, which is both the best and natural way of speaking, and the honest practice of truth, whereas eloquence is one of the most cozening and abusing arts as is; for as paint is a vizard on the face, so is eloquence a vizard on the mind, and the tongue is the pencil of deceit, drawing the pictures of discourse; thus falsehood strives to resemble truth, as much as artificially she can.</p>
+            </sp>
+            <stage xml:id="A53060_21-e101600">Exeunt.</stage>
+          </div>
+        </div>
+        <div n="3" type="act" xml:id="A53060_21-e101610">
+          <pb facs="347" n="664"/>
+          <head>Act iii.</head>
+          <div n="13" type="scene" xml:id="A53060_21-e101620">
+            <head>Scene 13.</head>
+            <stage xml:id="A53060_21-e101630">Enter two gentlemen.</stage>
+            <sp xml:id="A53060_21-e101640" who="A53060_21-yyyy_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e101650">How do you like the ladies and their discoursings?</p>
+            </sp>
+            <sp xml:id="A53060_21-e101660" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e101670">I like some of the ladies discourses better than others; and I like some of the ladies better than the other; but let us go hear the men.</p>
+            </sp>
+            <stage xml:id="A53060_21-e101680">Exeunt.</stage>
+          </div>
+          <div n="14" type="scene" xml:id="A53060_21-e101690">
+            <head>Scene 14.</head>
+            <stage xml:id="A53060_21-e101700">Enter a company of gentlemen, he that is to speak takes the chair.</stage>
+            <sp xml:id="A53060_21-e101710" who="A53060_21-gentleman_speaker">
+              <speaker>Gentleman speaker.</speaker>
+              <p xml:id="A53060_21-e101720">Those women that retire themselves from the company of men, are very ungrateful; as, first to nature, because she made them only for breed; next to men who are their defenders, protectors, their nourishers, their maintainers; their instructers, their delighters, their admirers, their lovers and deisiers; as men defend them from the raging blustering elements, by building them houses, and not only build them houses for shelter, but houses for pleasure and magnificency: also men protect them from wild ravenous and cruel beasts, that otherwise would devour them; for as women have not natural strength to build, so have they not natural courage to sight, being for the most part as fearful as weak: likewise men nourish them, for men fish fowl, and hunt to get them food to feed them, for which women would neither take the pains, nor endure the labour, nor have the heart to kill their food; for women by nature are so pitiful, and have such tender dispositions, as they would rather suffer death themselves, than destroy life in other creatures; also men maintain them by composing themselves into commonwealths, wherein is traffic and commerce, that each family may live by each other; also laws to keep them in peace, to rule them in order, to defend them with arms, which women could never do, by reason they know not what government to settle in or to, nor what laws to make, or how to execute those laws that were made; neither could they plead suits, decide causes, judge controversies, deal out right, or punish injuries, or condemn criminals: also men are the instructers to inform them of arts and sciences, which women would ne'er have had the patience to study, for they would never have allowed so much time and solitary musing, for the perfecting or devoting those conceptions, as those that first invented or found them out; besides if women were not instructed by men of the natural cause of effects,<pb facs="347" n="665"/> how often would they have been affrighted almost to death, with the loud and terrifying thunders, the flashing lightnings, the dark eclipses, the unsteady earthquakes, the overflowing tides, and many the like natural effects from hidden causes ? besides, women would want all those conveniencies that art affords them, and furnishes them with: also men instruct women with the mystery of the gods, whereas for want of which knowledge, they would have been damned through ignorance: also men are their delighters, they traffic on the sea, all over the world, to every several climate and country, to find and to bring the female sex curiosities, hazarding their lives for the same; whereas women could neither build their ships, nor guide them on the seas when they were built; they have not strength to pull and tug great cable ropes, to set and spread large sails, to cast and weigh massy anchors, no, not in a calm, much less in furious storms, with which men often fight, though not with arms, with subtlety and skill, by which the elements are conquered still, whereas women are conquered, and not only being strengthless and heartless, but healthless; for not only the roaring seas, and whistling winds, and rattling showers, and rumbling thunders, and fiery lightnings, rocks, shelves, and sands unknown, or not to be avoided, besides mountains of ice, if to the Northern pole, all which would terrify them, yet their weak bodies, sick stomachs, and nice appetites, could never endure long voyages; they would vomit out their life before they could sail to their assigned port, or haven: also men are women's admirers; they gaze on their beauties, and praise their sweet graces, whereas women through envy detract from each other; also men are women's only true lovers, they flatter, kiss and please them, whereas women are apt to quarrel, rail and fight with each other: and lastly, men deify women, making them goddesses by their poetical descriptions and elevations, whereas nature made them mere mortals, human creatures; wherefore it is a great ingratitude, nay a horrid ingratitude in those women, that deny men their company, conversation, and communication; wherefore men have not only reason to take it ill, but to be angry with those women that shun or restrain their company from them; but good counsel ought to go before anger, for the difference betwixt good counsel and anger, is, that good counsel goes before a fault is committed, and anger followeth when a fault is committed, for as good counsel or admonishment is to prevent a fault, so anger is a punishment for a fault past.</p>
+            </sp>
+            <stage xml:id="A53060_21-e101730">Exeunt.</stage>
+          </div>
+          <div n="15" type="scene" xml:id="A53060_21-e101740">
+            <head>Scene 15.</head>
+            <stage xml:id="A53060_21-e101750">Enter three ancient ladies.</stage>
+            <sp xml:id="A53060_21-e101760" who="A53060_21-yyyy_1">
+              <speaker>1 lady. </speaker>
+              <p xml:id="A53060_21-e101770">Is your daughter put into the academy?</p>
+            </sp>
+            <sp xml:id="A53060_21-e101780" who="A53060_21-yyyy_2">
+              <speaker>2 lady. </speaker>
+              <p xml:id="A53060_21-e101790">Yes.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101800" who="A53060_21-yyyy_3">
+              <speaker>3 lady. </speaker>
+              <p xml:id="A53060_21-e101810">How long madam hath your daughter been in the academy?</p>
+            </sp>
+            <sp xml:id="A53060_21-e101820" who="A53060_21-yyyy_2">
+              <speaker>2 lady. </speaker>
+              <p xml:id="A53060_21-e101830">This week, but she hath not profited much, for I do not hear her discourse.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101840" who="A53060_21-yyyy_1">
+              <pb facs="348" n="666"/>
+              <speaker>1 lady. </speaker>
+              <p xml:id="A53060_21-e101850">First it is to be considered, whether your daughter be capable of discoursing, for she must have a natural ingenuity to the art of rhetoric.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101860" who="A53060_21-yyyy_3">
+              <speaker>3 lady. </speaker>
+              <p xml:id="A53060_21-e101870">My daughter was always a pretty talking girl, as any in all the country and town I lived in.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101880" who="A53060_21-yyyy_2">
+              <speaker>2 lady. </speaker>
+              <p xml:id="A53060_21-e101890">Yes, children may talk prettily for children, but when they come to be women, it is a question whether they will talk wisely or no; but let us go hear which of the ladies discourses today.</p>
+            </sp>
+            <stage xml:id="A53060_21-e101900">Exeunt.</stage>
+          </div>
+          <div n="16" type="scene" xml:id="A53060_21-e101910">
+            <head>Scene 16.</head>
+            <stage xml:id="A53060_21-e101920">Enter the academical ladies and their matrons; the lady speaker takes the chair.</stage>
+            <sp xml:id="A53060_21-e101930" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e101940">Lady, for this time let the theme of your discourse be of discourse.</p>
+            </sp>
+            <sp xml:id="A53060_21-e101950" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e101960">Reverend matron, this theme hath been discoursed of before by one of our academy, but yet by reason one and the same theme may be discoursed of after different manners or ways, I shall obey you.</p>
+              <p xml:id="A53060_21-e101970">As for discourse, there is of four sorts; the first is discoursing in the mind, which is reasoning.</p>
+              <p xml:id="A53060_21-e101980">The second is discoursing with words, which is speaking,</p>
+              <p xml:id="A53060_21-e101990">The third is discoursing by signs, which is action or acting.</p>
+              <p xml:id="A53060_21-e102000">The last is discoursing by figures, which is by letters and hieroglyphics, which is by printing, writing, painting, and the like.</p>
+              <p xml:id="A53060_21-e102010">As for the first, which is a discourse in the mind, which is reasoning, which reasoning is a discourse with things, and not with words, as such a thing is not such a thing, and what such things are, and what they are not, or in what such things agree or disagree, sympathy, or antipathy, or such things resemble, or not resemble, or on the cause of things, or their effects, or the like: this discourse is in the mind, which is distinguishing, and distinguishing belongs to judgement.</p>
+              <p xml:id="A53060_21-e102020">The second discoursing is with words, which is speech, and words are not things or notches, but only marks of things, or nicks, or notches to know things by; and the tongue is the tally on which they are scored: for speech is a number of words, which words are made and joined together by the breath, tongue, teeth, and lips, and the continuance make a discourse; for a discourse is like a line or thread, whereon are a number of words strung, like as a chain of beads, if the words be well sorted, and fitly and properly matched, as also evenly strung, the discourse is pleasant and delightful; this chain of discourse is longer or shorter, according as the speaker pleases. The third discourse, is a discourse by signs, which is in actions, as some can discourse by the motion of their faces, countenances, hands, fingers, paces, or measures, or by the cast of the eyes, and many such like postures, looks, actions, and several such ways of motion as have been invented to be understood. This and the first kind of discourse, as by<pb facs="348" n="667"/> things and motions, beasts may have, for ought we can know to the contrary. The last is by figures, or letters, prints, hieroglyphics, and painted storeys, or engraven in metal, or cut, or carved in stone, or moulded, or formed in earth, as clay, or the like; in this kind of discourse, the pencil hath sometimes outdone the pen, as the painter hath outdone the historian and poet: this discoursing by signs, or figures, are discourses to the eye, and not to the ear. There is also another kind, or sort of discoursing, which is hardly learned as yet, because newly invented, or at least, to what I have heard, which is by notes, and several strains in music. I only mention it, because I never heard it but once, and then I did not understand it: but yet it was by a skilful and ingenious musician, which discoursed a story of his travels, in his playing on a musical instrument, namely, the harpsical. But certainly, to my understanding, or reason, it did seem a much easier way of discoursing, than discoursing by actions, or posture. But to end my discourse of discoursing, which discoursing may be by several ways, several actions and postures, by several creatures, and in several languages: but reasoning is the soul's language, words the language of the senses, action the life's language, writing, printing, painting, carving and moulding, are arts several languages, but music is the language of the gods.</p>
+            </sp>
+            <stage xml:id="A53060_21-e102030">Exeunt.</stage>
+          </div>
+          <div n="17" type="scene" xml:id="A53060_21-e102040">
+            <head>Scene 17.</head>
+            <stage xml:id="A53060_21-e102050">Enter two gentlemen.</stage>
+            <sp xml:id="A53060_21-e102060" who="A53060_21-gentleman_1">
+              <speaker>1. Gent.</speaker>
+              <p xml:id="A53060_21-e102070">How do you like the lady's discourse?</p>
+            </sp>
+            <sp xml:id="A53060_21-e102080" who="A53060_21-gentleman_2">
+              <speaker>2. Gent.</speaker>
+              <p xml:id="A53060_21-e102090">As I like discourse.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102100" who="A53060_21-gentleman_1">
+              <speaker>1. Gent.</speaker>
+              <p xml:id="A53060_21-e102110">How is that?</p>
+            </sp>
+            <sp xml:id="A53060_21-e102120" who="A53060_21-gentleman_2">
+              <speaker>2. Gent.</speaker>
+              <p xml:id="A53060_21-e102130">Why I had rather hear a number of words, than speak a number of words.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102140" who="A53060_21-gentleman_1">
+              <speaker>1. Gent.</speaker>
+              <p xml:id="A53060_21-e102150">Then thou art not of the nature of mankind; for there is no man that had not rather speak than hear.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102160" who="A53060_21-gentleman_2">
+              <speaker>2. Gent.</speaker>
+              <p xml:id="A53060_21-e102170">No, it is a sign I am not of the nature of womankind, that will hear nothing, but will speak all; indeed, for the most part, they stop their ears with their tongues, at least, with the sound of their voices.</p>
+            </sp>
+            <stage xml:id="A53060_21-e102180">Exeunt.</stage>
+          </div>
+          <div n="18" type="scene" xml:id="A53060_21-e102190">
+            <head>Scene 18.</head>
+            <stage xml:id="A53060_21-e102200">Enter a company of gentlemen; the speaker takes the chair. </stage>
+            <sp xml:id="A53060_21-e102210" who="A53060_21-gentleman_speaker">
+              <speaker>Gentleman speaker.</speaker>
+              <p xml:id="A53060_21-e102220">It were too tedious to recite the several humours of the female sex; their scornful pride, their obstinate retiredness, their reserved coyness, their facile inconstancy, by which they become the most useless, and most unprofitable creatures that nature hath made; but when they are joined to men, they are the most useful, and most profitable creatures nature hath made; wherefore, all those women that have common reason, or sense of shame, will never retire themselves from the company of<pb facs="349" n="668"/> men: for what women that have any consideration of honour, truth, or touch of goodness, will be the worst of all creatures, when they may be the best? but the truth of it is, women are spoilt by the overfond dotage of men; for being flattered, they become so self-conceited, as they think they were only made for the gods, and not for men; and being mistresses of men's affections, they usurp their masculine power and authority, and instead of being dutiful, humble and obedient to men, as they ought to be, they are tyrannical tyrannizers.</p>
+            </sp>
+            <stage xml:id="A53060_21-e102230">Exeunt.</stage>
+          </div>
+          <div n="19" type="scene" xml:id="A53060_21-e102240">
+            <head>Scene 19.</head>
+            <stage xml:id="A53060_21-e102250">Enter two gentlemen.</stage>
+            <sp xml:id="A53060_21-e102260" who="A53060_21-gentleman_1">
+              <speaker>1. Gent.</speaker>
+              <p xml:id="A53060_21-e102270">The young gallants methinks begin to be whetted with anger.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102280" who="A53060_21-gentleman_2">
+              <speaker>2. Gent.</speaker>
+              <p xml:id="A53060_21-e102290">They have reason, when the women have such dull, blunt appetites.</p>
+            </sp>
+            <stage xml:id="A53060_21-e102300">Exeunt.</stage>
+          </div>
+          <div n="20" type="scene" xml:id="A53060_21-e102310">
+            <head>Scene 20.</head>
+            <stage xml:id="A53060_21-e102320">Enter the ladies of the academy: the lady speaker takes the chair. </stage>
+            <sp xml:id="A53060_21-e102330" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e102340">Ladies, let the theme of your discourse be, at this time, of friendship.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102350" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e102360">This theme may more easily be discoursed of, than friendship made; by reason it is very difficult to make a right friendship, for hard it is to match men in agreeable humours, appetites, passions, capacities, conversations, customs, actions, natures and dispositions, all which must be to make a true and lasting friendship, otherwise, two friends will be like two horses that draw contrary ways, whereas souls, bodies, education and lives, must equally agree in friendship; for a worthy honest man cannot be a friend to a base and unworthy man, by reason friendship is both an offensive and defensive league between two souls and bodies; and no actions, either of the souls or bodies, or any outward thing, or fortune belonging thereunto, are to be denied; wherefore knaves with knaves, and unworthy persons with unworthy persons, may make a friendship, and honest men with honest men, and worthy persons with worthy persons, may do the like: but an honest man with a knave, or a worthy person with a base man, or an honourable person with a mean fellow, a noble soul with a base nature, a coward with a valiant man, can make no true friendship. For, put the case, in such friendships, my friend should desire me to do a base action for his sake, I must either break friendship, or do unworthily, but as all worthy persons make truth their goddess, which they seek and worship, honour the saint which they pray too, virtue,<pb facs="349" n="669"/> the lady which they serve, so honesty is the only friend they trust and rely on, and all the world is obliged to honesty, for upright and just dealing.</p>
+            </sp>
+            <stage xml:id="A53060_21-e102370">Exeunt.</stage>
+          </div>
+        </div>
+        <div n="4" type="act" xml:id="A53060_21-e102380">
+          <head>Act iv.</head>
+          <div n="21" type="scene" xml:id="A53060_21-e102390">
+            <head>Scene 21.</head>
+            <stage xml:id="A53060_21-e102400">Enter two gentlemen.</stage>
+            <sp xml:id="A53060_21-e102410" who="A53060_21-yyyy_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e102420">Methinks the women's lectural discourse is better than the men's; for in my opinion, the men's discourses are simple, childish, and foolish, in comparison of the women's,</p>
+            </sp>
+            <sp xml:id="A53060_21-e102430" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e102440">Why, the subject of the discourse is of women, which are simple, foolish, and childish.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102450" who="A53060_21-gentleman_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e102460">There is no sign of their simplicity or folly, in their discourse or speeches, I know not what may be in their actions.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102470" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e102480">Now you come to the point, for the weakness of women lies in their actions, not in their words; for they have sharp wits and blunt judgements.</p>
+            </sp>
+            <stage xml:id="A53060_21-e102490">Exeunt.</stage>
+          </div>
+          <div n="22" type="scene" xml:id="A53060_21-e102500">
+            <head>Scene 22.</head>
+            <stage xml:id="A53060_21-e102510">Enter the ladies and grave matroness; the lady speaker takes the chair.</stage>
+            <sp xml:id="A53060_21-e102520" who="A53060_21-matronesse">
+              <speaker>Matronesse.</speaker>
+              <p xml:id="A53060_21-e102530">Lady, let the theme of your discourse today be of a theatre.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102540" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e102550">A theatre is a public place for public actions, orations, disputations, presentations, whereunto is a public resort; but there are only two theatres, which are the chief, and the most frequented; the one is of war, the other of peace; the theatre of war is the field; and the battles they sight, are the plays they act, and the soldiers are the tragedians, and the theatre of peace is the stage, and the plays there acted are the humours, manners, dispositions, natures, customs of men thereon described and acted, whereby the theatres are as schools to teach youth good principles, and instruct them in the nature and customs of the world and mankind, and learn men to know themselves better than by any other way of instruction; and upon these theatres they may learn what is noble and good, what base and wicked, what is ridiculous and misbecoming, what graceful and best becoming, what to avoid and what to imitate; the genius that belongs to the theatre of war is valour, and the genius that<pb facs="350" n="670"/> belongs to the theatre of peace is wit: the designer of the rough plays of war, is a general or council; the designer of the smooth plays of peace is a poet, or a chief magistrate; but the difference of these plays acted on each theatre, is, the one is real, the other feigned, the one in earnest, the other in jest; for a poet only feigns tragedies, but the soldiers do truly act tragedies; on the poetical theatre I will only insist, for this theatre belongs more to our persons, and is a more fitter subject for the discourse of our sex, than war is; for we delight more in scenes than in battles: I will begin first with poets, who are the authors and makers of these kind of plays; fame hath spoke loud, both of ancient and modern poets; as for the ancient poets, they are a length out of the reach of my judgement, so as my opinion will hardly reach so far; but as for our modern poets, that have made plays in our modern times, although they deserve praise, yet not so much nor so high applause as is given them; for most of their plots, or foundation of their plays, were taken out of old authors, as from the Greeks and Romans, Historians and poets, also all the modern romances are taken out of these storeys, and many plays out of these romances.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102560" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e102570">Lady, give me leave a little while to instruct you, as to tell you, that all romances should be so; for the ground of a right romance is a true story, only falsehood is intermixed therein, so that a romance is a compound of truth and falsehood.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102580" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e102590">Give me leave to answer you, that in my opinion, a right romance is poetical fictions put into a historical style; but for plays, the true comedy is pure love and humours, also the customs, manners, and the habits, and inbred qualities of mankind; and right tragi-comedies are the descriptions of the passions which are created in the soul; and a right tragedy is intermixed with the passions, appetites, and humours of men, with the influence of outward actions, accidents, and misfortunes: but as I said, some poets take the plots out of true history, others out of feigned history, which are romances, so as their plots (For the most part) are mere translations, and oft times the wit is also but a translated wit, only metamorphosed after their own way; but the truth is, that some of them their wit is their own, and their plots were stolen, or plainly taken, and some their plots are their own, but the wit stolen; but of all theft, wit is never confessed; and some neither the plot nor wit is their own, and other; both plots and wit are truly their own; these last poets (Although but very few) are the true sons of nature, the other but as adulterate issues; but for the most part, our modern plays, both plots and wit, are mere translations, and yet come out as boldly upon the stage, as if the translators were the original authors, thinking, or at least hoping that the alteration of the language conceals the theft, which to the unlearned it doth, but the learned soon find them out, and see all their bodies, wings, legs, tail, and feathers, although they hide their head in the bush of ignorance. I speak not in discommendation of these translations, nor translators, for translations are so far from being condemned, as they ought to be much, nay very much commended, and highly praised, if it be such as is praise worthy, for old authors may in some expressions be more profitable and good, both for wit and examples, than the modern; and the translators may be commended both for their judgement and learning; besides, very good translators must have a sympathetical genius, with the original<pb facs="350" n="671"/> author, but their condemnation proceeds from the translators unjust owning of it, upon themselves, or in translating it to the author's prejudice.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102600" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e102610">Lady, let me interrupt you once again, to ask your opinion how you like the Italian and French plays.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102620" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e102630">As well as I can like any thing that is a strain beyond nature, or as I may say, nature's constraint: for the truth is, in their discourse or rehearsals, they do not only raise their voice a note or two too high, but many notes too high, and in their actions they are so forced, as the spectators might very easily believe the actors would break their sinew-strings; and in their speech they fetch their breath so short and thick, and in such painful fetches and throws, as those spectators that are strangers, might verily believe that they were gasping for life.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102640" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e102650">But lady, all know love, which is the theme or subject of plays, is a violent passion, which forces the players to an elevation of action and speech.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102660" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e102670">Most reverend matron, my opinion is, that though it be commendable and admirable for the poet to be elevated with a poetical divine inspiration to outdo nature; yet for the actors, their best grace is to play or act in the tracts or paths of nature, and to keep within nature's bounds; and whensoever they go awry, or transgress therefrom, they are to be condemned, and to be accounted ill actors; and as for the passions of love, certainly the strongest love is like the deepest water, which is most silent, and least unnecessarily active; they may sometimes murmur, with winds of sighs, but never roar; they neither foam nor froth with violence, but are composed into a heavy body, with a settled sadness: but in short, the Italian and French players act more romantical than natural, which is feigned and constrained: but to conclude with the poet, he delights the ear and the understanding with the variety of every thing that nature, hath made, or art invented; for a poet is like a bee, that gathers the sweet of every flower, and brings the honey to his hive, which are the ears and memory of the hearers, or readers, in whose head his wit swarms; but as painters draw to the life, so poets should write to the life, and player's act to the life.</p>
+            </sp>
+            <stage xml:id="A53060_21-e102680">Exeunt.</stage>
+          </div>
+          <div n="13" type="scene" xml:id="A53060_21-e102690">
+            <head>Scene 13.</head>
+            <stage xml:id="A53060_21-e102700">Enter three gentlemen.</stage>
+            <sp xml:id="A53060_21-e102710" who="A53060_21-yyyy_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e102720">The academy of ladies take no notice of the academy of men, nor seem to consider what the men say, for they go on their own serious way, and edifying discourses.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102730" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e102740">At which the men are so angry, as they have sworn to leave off talking, and instead thereof, they will sound trumpets so loud, when the ladies are in their discoursings, as they shall not hear themselves speak; by which means they hope to draw them out of their cloister, as they swarm bees; for as bees gather together at the sound of a basin, kettle, or such like mettled<pb facs="351" n="672"/> thing: so they will disperse that swarm of academical ladies, with the sound of brazen trumpets.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102750" who="A53060_21-gentleman_3">
+              <speaker>3. Gent.</speaker>
+              <p xml:id="A53060_21-e102760">Why the ladies look through their grate, upon the men, whilst the men are speaking, and seem to listen to what they speak, as the men do on and to the ladies.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102770" who="A53060_21-gentleman_2">
+              <speaker>2. Gent.</speaker>
+              <p xml:id="A53060_21-e102780">That is true, but they take no notice of them in their literal discourses, as what the men have said; for they neither mention the men, nor their discoursings, or arguments, or academy, as if there were no such men.</p>
+            </sp>
+            <stage xml:id="A53060_21-e102790">Exeunt.</stage>
+          </div>
+          <div n="24" type="scene" xml:id="A53060_21-e102800">
+            <head>Scene 24.</head>
+            <stage xml:id="A53060_21-e102810">Enter the ladies, and their matrons: the lady speaker takes the chair. </stage>
+            <sp xml:id="A53060_21-e102820" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e102830">Lady, let the theme of your discourse be, at this time, of vanity, vice, and wickedness.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102840" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e102850">There is a difference betwixt vanity, vice, and wickedness: wickedness is in the will, vice in the desires, and vanity in the actions will proceeds from the soul, vice from the appetites, and action from custom, or practice; the soul is produced from the gods, the appetites created by nature, and custom is derived from time: as for desires, we may desire, and not will, and we may will, and not act, and we may act, and neither will, nor desire, and we may desire, will, and act all at once; and to some particulars, we may neither desire, will nor act; but the will makes vice wickedness, and vanity vice; the willing of good, proceeds from the gods, the willing of evil proceeds from the devils: so that sin is to will evil, in despite of good, and piety is to will good, in despite of evil, as neither the persuasions, nor temptations of the one, or the other, shall draw our wills; for sin, or wickedness, is neither in the knowledge, nor appetites: for if our great grandmother Eve, had not wilfully eat of that which was strictly forbidden her, she had not sinned, for if that she had only heard of the effects of that fruit, or had desired it, yet had not wilfully eaten thereof, she had never damned her posterity: thus, to will against the god's command, is wickedness: but there is no such thing as wickedness, in nature, but as I said wickedness proceeds from the soul, vice from the appetites, and vanity from the actions: as for wickedness, it is like a dead palsy, it hath no sense, or feeling of the grace or goodness of the gods, and vice is like an unwholesome meat, cut out by the appetites, for the appetites are like knives, whereas some are blunt, others are sharp, and as it were, too much edged, but they are either blunt, of sharp, according as nature whets them: but if they be very sharp, as to be keen, they wound the body, and make the life bleed. As for vanity, it is as the froth of life, it is light, and swims atop, which bubbles out into extravagant and unprofitable actions, false opinions, and idle, and impossible imaginations. But as I said, it is not the knowledge of vanity, vice and wickedness, that makes a creature guilty thereof, but the will, and wilful practice thereof, for wickedness, vice, and vanity, must be known as much as piety, virtue, and discretion, otherwise men may run into evil,<pb facs="351" n="673"/> through ignorance; wherefore it is as great a shame to education, not to be instructed in the bad, as it is a glory to be instructed in the good: but the question will be, whether knowledge can be without a partaking thereof? I answer, not a perfect knowledge, but a suppositive knowledge for there are many things which cannot be perfectly known, but suppositively known: so we must only know wickedness, vice, and vanity, as we do know the gods and devils, which is by a lively faith; so as we must be instructed in all that is pious, virtuous, and judicious, as we are instructed of the power and goodness of the gods; and we must be instructed in all that is wicked, vicious, and idle, as we are of the evil, and power of the devils. Now I must inform you, that there are three sorts of knowledge, as a knowledge of possession, a knowledge of action, and a knowledge of declaration; the knowledge of action lies in the appetites, the knowledge of declaration lies in the senses, the knowledge of possession in the will, action and declarations. As for example, we may hear, and see, drunkenness, adultery, murder, theft, and the like, and have no appetite to the same actions; also we may have an appetite to the same actions, yet not a will to act the same; but if we have a desire, and will act the same, we have, and are possessed with the most perfect knowledge thereof; but this last knowledge is utterly unlawful in things that are evil, but not in things that are good: but to conclude, we must be instructed by a narrative way, and by the intelligence of our ears, and eyes, in that which is evil, as well, and as plainly, as in things that are good, not to be ignorant in any thing that can be declared unto us, not staying until we be old, but to be thus instructed whilst we are young; for many that are young novices, commit many evils through ignorance, not being instructed, and informed plainly and clearly, but darkly, and obscurely, caused by their foolish, cautionary, formal tutors, or educators, who hold that erroneous opinion, that youth ought not to know such, or such things, or acts; which if they had known, evil might have been prevented, and not left until their evil be known by practice; so that more evil is rather known by practice, than declaration, or instruction of information: but if our senses are a guide to our reason, and our reason a guide to our understanding, and that the reason and understanding governs our appetites, then 'tis probable, our sense, reason, and understanding, may govern our will.</p>
+            </sp>
+            <stage xml:id="A53060_21-e102860">Exeunt.</stage>
+          </div>
+        </div>
+        <div n="5" type="act" xml:id="A53060_21-e102870">
+          <head>Act v.</head>
+          <div n="25" type="scene" xml:id="A53060_21-e102880">
+            <head>Scene 25.</head>
+            <stage xml:id="A53060_21-e102890">Enter the academical gentlemen.</stage>
+            <sp xml:id="A53060_21-e102900" who="A53060_21-gentleman_1">
+              <speaker>1. Gent.</speaker>
+              <p xml:id="A53060_21-e102910">This is not to be suffered: for if we should let these ladies rest in peace and quiet, in their inclosed habitation, we shall have none but old women; for all those young ladies, that are not in the academy, talk of nothing but of going into a female academy.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102920" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e102930">You say true, insomuch as it begins to be a mode, and a fashion,<pb facs="352" n="674"/> for all the youngest, fairest, richest, and noblest ladies, to enclose themselves into an academy.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102940" who="A53060_21-gentleman_3">
+              <speaker>3. Gent.</speaker>
+              <p xml:id="A53060_21-e102950">Nay, we must seek some way, and devise some means to unroost them.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102960" who="A53060_21-gentleman_4">
+              <speaker>4. Gent.</speaker>
+              <p xml:id="A53060_21-e102970">There is nothing can do it, but noise; for they take such pleasure in the exercise of their tongues, that unless we can put them to silence, there is no hopes to get them out.</p>
+            </sp>
+            <sp xml:id="A53060_21-e102980" who="A53060_21-gentleman_1">
+              <speaker>1. Gent.</speaker>
+              <p xml:id="A53060_21-e102990">Trumpets, I doubt, will not be loud enough.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103000" who="A53060_21-gentleman_6">
+              <speaker>6. Gent.</speaker>
+              <p xml:id="A53060_21-e103010">Let us try.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103020" who="A53060_21-all_gentlemen">
+              <speaker>All the Gentlemen.</speaker>
+              <p xml:id="A53060_21-e103030">Content, content, etc. </p>
+            </sp>
+            <stage xml:id="A53060_21-e103040">Exeunt.</stage>
+          </div>
+          <div n="26" type="scene" xml:id="A53060_21-e103050">
+            <head>Scene 26.</head>
+            <stage xml:id="A53060_21-e103060">Enter the ladies, and the grave matrons; the lady speaker takes the chair.</stage>
+            <sp xml:id="A53060_21-e103070" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e103080">Lady, let the theme of your discourse be, at this time, of boldness, and bashfulness.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103090" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e103100">There are three sorts of boldness, or confidence, the one proceeds from custom, or practice, as it may be observed by preachers, pleaders, and players, that can present themselves, speak, and act freely, in a public assembly.</p>
+              <p xml:id="A53060_21-e103110">The second sort of boldness, or confidence, proceeds from ignorance, not foreseeing what errors, or follies, may be committed, or chance to fall out, or what is fittest to be done, or said; like as poor mean country people, who have neither birth nor breeding, have so much confidence, as they can more confidently present themselves, or presence, to those of noble birth and breeding, and can more freely, and boldly, talk to any person, or persons, of what quality, or dignity soever, than those noble persons can talk to them.</p>
+              <p xml:id="A53060_21-e103120">The third, and last sort of confidence, or boldness, proceeds from an extraordinary opinionatedness, or self-conceitedness; for those that think, or believe themselves to be above others, in wit, person, parts, or power, although they have neither, will be most haughtily, and proudly confident, scorning, and undervaluing all others, as inferior. Thus bold confidence, or confident boldness, is produced from practice, ignorance, and pride.</p>
+              <p xml:id="A53060_21-e103130">Also there are three sorts of bashfulness.</p>
+              <p xml:id="A53060_21-e103140">The one proceeds from too great an apprehension.</p>
+              <p xml:id="A53060_21-e103150">The other from a poetical fiction.</p>
+              <p xml:id="A53060_21-e103160">The third from an aspiring ambition.</p>
+              <p xml:id="A53060_21-e103170">First, from too groat an apprehension, as some are afraid that their observers, or friends, should make an evil construction of their good intentions. Others will be bashful, and out of countenance, upon a poetical fiction, as imagining of some impossible, or at least some improbable accident, which may fall out to their disgrace. The third and last is, through an aspiring ambition, desiring to outact all others in excellencies, and<pb facs="352" n="675"/> fearing to fail therein, is apt to be out of countenance, as if they had received a foil; thus we may perceive that the stream of good nature, the piercing beams of wit, and the throne of noble ambition is the true cause of bashfulness, I mean not shamefacedness, but sweet bashfulness: but although bashfulness is a sweet, tender, noble, and piercing effect, of and from the soul; yet bashfulness is apt to unstring the nerves, to weaken the sinews, to dull the senses, to quench the spirits, to blunt the eyes or points of wit, and to obstruct the speech, insomuch as to cause the words to run stumblingly out of the mouth, or to suffer none to pass forth: but a little anger in the mind will take off the extreme bashfulness of the behaviour, although much anger doth obstruct the senses, spirits and speech, as much as extreme bashfulness doth: for extreme anger, and extreme bashfulness, have often one and the same effects to outward appearance.</p>
+            </sp>
+            <stage xml:id="A53060_21-e103180">Exeunt.</stage>
+          </div>
+          <div n="27" type="scene" xml:id="A53060_21-e103190">
+            <head>Scene 27.</head>
+            <stage xml:id="A53060_21-e103200">Enter two gentlemen.</stage>
+            <sp xml:id="A53060_21-e103210" who="A53060_21-yyyy_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e103220">The gentlemen will turn trumpeters, for a regiment of gentlemen have bought every one of them a trumpet, to sound a march to the academy of ladies.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103230" who="A53060_21-gentleman_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e103240">Faith if the ladies would answer their trumpets with blowing of horns, they would serve them but as they ought to be served.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103250" who="A53060_21-yyyy_1">
+              <speaker>1 gentleman. </speaker>
+              <p xml:id="A53060_21-e103260">Women will sooner make horns, than blow horns.</p>
+            </sp>
+            <stage xml:id="A53060_21-e103270">Exeunt</stage>
+          </div>
+          <div n="28" type="scene" xml:id="A53060_21-e103280">
+            <head>Scene 28.</head>
+            <stage xml:id="A53060_21-e103290">Enter the lady and their matroness; the lady speaker takes the chair.</stage>
+            <sp xml:id="A53060_21-e103300" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e103310">Lady, let the theme of your discourse at this time be of virtuous courtships, and wooing suitors.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103320" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e103330">Some poetical and romantical writers make valiant gallant heroics woo poorly, sneakingly, and peddlingly.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103340" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e103350">Lady, let me interrupt you; would you have gallant heroics in their courtships to fair young ladies, as commanding as in the field, or as furious as in a battle.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103360" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e103370">No, I would have them woo with a confident behaviour, a noble demeanour, a generous civility, and not to be amazed or to tremble for fear, to weep for pity, to kneel for mercy, to sigh and be dejected<pb facs="353" n="676"/> with a mistress's frown; for though sorrow, sighs, tears and humility become all heroic spirits very well, and express a noble and generous soul, yet not in such a cause: for tears become all heroic spirits, for the death or torments of friends, or for the sufferances of innocents, or virtue, yet not if only themselves were tormented, or to die, or for any misfortune that could come upon our own persons or estates, or for any obstructions to their own pleasures or delights, but it becomes all heroic spirits, to tremble for fear of their honour, or loss of their fame, and expresses a generous soul to grieve and to mourn in a general calamity, and to humble themselves to the gods for those in distress, and to implore and kneel to them for mercy, both for themselves and others, as for to divert the wrath of the gods; but not to weep, sigh, tremble, kneel, pray, for their effeminate pleasures, delights, or societies; nor to grieve or sorrow for the loss of the same.</p>
+              <p xml:id="A53060_21-e103380">Also some writers, when they are to describe a bashful and modest lady, such as are nobly and honourably bred, describe them as if they were simply shamefaced; which description makes such appear, as if they came merely from the Milk-bowl, and had been bred only with silly huswives, and that their practice was, to pick worms from roots of flowers, and their pastimes to carry and fling crumbs of bread to birds, or little chickens that were hatched by their hens their mothers gave them, or to gather a lapful of sweet flowers, to distil a little sweet water to dip their handkerchiefs in, or to wash their faces in a little rose-water; and indeed, this harmless and innocent breeding, may be modest and bashful, or rather shamefaced, for want of other conversation, which custom and company will soon cast off, or wear out, and then print boldness on their brow; but true modest souls, which have for the most part bashful countenances, proceed from a deep apprehension, a clear understanding, an ingenuous wit, a thinking brain, a pure mind, a refined spirit, a noble education, and not from an ignorant obscure breeding; for it is not ignorance that makes modesty, but knowledge, nor is it guiltiness that makes bashfulness, but fear of those that are guilty; but as I said, many writers that would make a description of modest and bashful women, mistake and express a shamefaced ignorance and obscure breeding; and instead of expressing a young lady to be innocent of faults, they express her to be one that is ignorant of knowledge, so as when they would describe a modest, bashful, innocent virgin, they mistake and describe a simple ignorant shame faced maid, that either wants breeding or capacity.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103390" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e103400">But lady, let me ask you one question, would you have a young virgin as confident and knowing as a married wife?</p>
+            </sp>
+            <sp xml:id="A53060_21-e103410" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e103420">Yes, although not in their behaviour or condition of life, but in her virtue and constancy; for a chaste married wife is as modest and bashful as a virgin, though not so simple, ignorant, and shamefaced as a plain bred maid; but as I said, writers should describe the wooing of gallant heroics, or great and noble persons, to woo with a generous confidence, or manly garb, a civil demeanour, a rational discourse, to an honest design, and to a virtuous end, and not with a whining voice, in pitiful words, and fawning language; and if it be only for a mistress, as for a courtesan, bribes are the best advocates, or to employ others to treat with them, and not to be the pimp, although for themselves.</p>
+              <p xml:id="A53060_21-e103430">Also writers should when they describe noble virgins, to receive noble<pb facs="353" n="677"/> addresses of love, and to receive those noble addresses or courtships with an attentive modesty in a bashful countenance; and if to tremble for fear, to describe the fear, as being the nature of the sex; also to describe their behaviour after a noble garb, and their answers to their suitors, to be full of reason, sense, and truth, and those answers to be delivered in as short discourses, and as few words as civility will allow of, and not like an ignorant innocent, a childish simplicity, an unbred behaviour, expressing themselves, or answering their suitors with mincing words that have neither sense nor reason in them.</p>
+              <p xml:id="A53060_21-e103440">Also poetical and romantical writers should not make great princes that have been bred in great and populous cities, glorious camps; and splendorous courts, to woo and make love like private bred men, or like rude bred clowns, or like mean bred servants, or like scholars, that woo by the book in scholastical terms or phrases, or to woo like flaunting, ranting, swearing, bragging swaggerers, or rusters; or to woo a country wench, like as a noble lady, or great Princess.</p>
+              <p xml:id="A53060_21-e103450">Also not to make such women as have been bred and born nobly and honourably, to receive the courtship of great persons, like a dairy-maid, kitchenmaid, or like such as have been bred in mean cottages, as to behave themselves simply, or rudely, as to the answer and speak crossingly, or thwartingly, as contradicting every word that is spoken unto them, as if they did believe what they said was not truth; for civil and honourable bred women, who have noble and generous souls, will rather seem to believe all their superlative praises, than make doubts, as if they knew they lied; for to make doubts, is in the midway to give the lie.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103460" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e103470">Lady, how approve you of those lovers that kiss the letters, tokens, pledges, and the like, that are sent unto them from their lovers? or such as wear letters, tokens, or pledges in their bosoms, and next their heart, and take them and view them a hundred times a day?</p>
+            </sp>
+            <sp xml:id="A53060_21-e103480" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e103490">Approve it say you? you mean disapprove it; but let me tell you, most reverend matron, that the very hearing of it makes the sick, and the seeing of it would make me die.</p>
+              <p xml:id="A53060_21-e103500">I have so great an aversion against such actions, for those actions: like as whining speeches, proceed from filthy amorous love, and mean lovers; for true love in noble persons, receives gifts as an expression of their suitors, or lovers loves, and will carefully keep them as an acknowledgement of the receipt, and accept of them as a great seal to their affections; yet they keep such presents, but as treasurers, not as owners, until they be man and wife; neither do they make idols of such gifts, nor do they adore the owner the more for the gift, nor the gist for the owner; nor do they think fit they ought to give such outward expressions of love, by such useless actions, whenas they have a high esteem of their suitors love, a perfect belief of their merit, and a constant return of their affection, and a resolution to die, or suffer any misery for their sakes if need required; besides, true lovers have ever the idea of their beloved in their thoughts, by which they cannot forget their memory, indeed love-letters they may read often, because letters are an enjoyment of their discourse, although their persons be at a distance, and are also a recreation and delight in their wits, if there be any wit therein, but to kiss the paper, they neither find pleasure, delight, non<pb facs="354" n="678"/> profit, neither to themselves, nor to their beloved; the truth is, not one writer amongst a thousand make lovers woo either wisely, wittily, nobly, eloquently, or naturally; but either foolishly, meanly, unmanly, unhandsomely, or amorously, which is corruptly.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103510" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e103520">Lady, you say very true, and some romantical writers, make long and tedious orations, or long and tedious and fruitless discourse, in such times as requires sudden action.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103530" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e103540">You say right, as to speak when they are to fight; but for my part I hate to read romances, or some scenes in plays, whose ground or foundation is amorous love.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103550" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e103560">When you read such books, you must never consider the subject that the writer writes on, but consider the wit, language, fancy, or description.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103570" who="A53060_21-yyyy_2">
+              <speaker>2 matron. </speaker>
+              <p xml:id="A53060_21-e103580">Most reverend sister, I suppose few read romances, or the like books, but for the wit, Fancy, judgement, and lively descriptions; for they do not read such books, as they do read chronicles, wherein is only to be considered the true relation of the history.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103590" who="A53060_21-speaker">
+              <speaker>Lady speaker.</speaker>
+              <p xml:id="A53060_21-e103600">Most grave and wife matroness, I believe though none read romances, or such like books, whose ground is feigned love, and lovers, as they read chronicles, whose ground should be unfeigned truth; yet certainly, few read romances or the like books, either for the wit, Fancy, judgement or descriptions, but to feed their amorous humours on their amorous discourses, and to tune their voice to their amorous strains of amorous love; for it is to be observed, that those books that are most amorously penned, are most often read.</p>
+            </sp>
+            <stage xml:id="A53060_21-e103610">Exeunt.</stage>
+          </div>
+          <div type="scene" xml:id="A53060_21-e103620">
+            <head>Scene the last.</head>
+            <stage xml:id="A53060_21-e103630">Enter the academical gentlemen; to them enters a servant.</stage>
+            <sp xml:id="A53060_21-e103640" who="A53060_21-manservant">
+              <speaker>Man servant.</speaker>
+              <p xml:id="A53060_21-e103650">May it please your worships, there is an ancient gentlewoman that desires to speak with your worships.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103660" who="A53060_21-gentleman_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e103670">I lay my life it is one of the matrons of the academy.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103680" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e103690">Faith if the humble bee is flown out, the rest of the bees will follow.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103700" who="A53060_21-gentleman_3">
+              <speaker>3 gent.</speaker>
+              <p xml:id="A53060_21-e103710">I fear if they do, they will swarm about our ears.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103720" who="A53060_21-gentleman_4">
+              <speaker>4 gent.</speaker>
+              <p xml:id="A53060_21-e103730">Yes, and sting us with their tongues.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103740" who="A53060_21-gentleman_5">
+              <speaker>5 gent.</speaker>
+              <p xml:id="A53060_21-e103750">Let us send for her in.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103760" who="A53060_21-gentleman_6">
+              <speaker>6 gent.</speaker>
+              <p xml:id="A53060_21-e103770">I will go and usher her in.</p>
+            </sp>
+            <stage xml:id="A53060_21-e103780">He goes out.</stage>
+            <stage xml:id="A53060_21-e103790">Enters with the matron; all the gentlemen pull off their hats.</stage>
+            <sp xml:id="A53060_21-e103800" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e103810">Gentlemen, the ladies of the academy have sent me unto you, to know the reason or cause that you will not let them rest in quiet, or suffer them to live in peace, but disturb them in both, by a confused noise of<pb facs="354" n="679"/> trumpets, which you uncivilly and discourteously blow at their grate and gates.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103820" who="A53060_21-gentleman_1">
+              <speaker>1 gent.</speaker>
+              <p xml:id="A53060_21-e103830">The cause is, that they will not permit us to come into their company, but have barricadoed their gates against us, and have encloistered themselves from us; besides, it is a dangerous example for all the rest of their sex; for if all women should take a toy in their heads to encloister themselves, there would be none left out to breed on.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103840" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e103850">Surely it is very fit and proper that young virgins should live a retired life, both for their education and reputation.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103860" who="A53060_21-gentleman_2">
+              <speaker>2 gent.</speaker>
+              <p xml:id="A53060_21-e103870">As for their education, it is but to learn to talk, and women can do that without teaching, for on my conscience, a woman was the first inventor of speech; and as for their retirement, nature did never make them for that purpose, but to associate themselves with men: and since men are the chief head of their kind, it were a sign they had but very little brain, if they would suffer the youngest and fairest women to encloister themselves.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103880" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e103890">Gentlemen pray give me leave to inform you, for I perceive you are in great error of mistake, for these ladies have not vowed virginity, or are they encloistered; for an academy is not a cloister, but a school, wherein are taught how to be good wives when they are married.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103900" who="A53060_21-gentleman_3">
+              <speaker>3 gent.</speaker>
+              <p xml:id="A53060_21-e103910">But no man can come to woo them to be wives.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103920" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e103930">No, but if they can win their parents, or those they are left in trust with, and get their good liking and consent, the young ladies have learned so much duty and obedience, as to obey to what they shall think fit.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103940" who="A53060_21-gentleman_4">
+              <speaker>4 gent.</speaker>
+              <p xml:id="A53060_21-e103950">But we desire the lady's good liking, we care not for their friends; for the approvement and good liking of their friends, without the love of the ladies, will not make us happy, for there is no satisfaction in a secondary love, as to be beloved for another's sake, and not for their own.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103960" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e103970">If you be worthy gentlemen, as I believe you all are, their love will be due to your merits, and your merits will persuade them to love you.</p>
+            </sp>
+            <sp xml:id="A53060_21-e103980" who="A53060_21-all_gentlemen">
+              <speaker>All the Gentlemen.</speaker>
+              <p xml:id="A53060_21-e103990">Well, if you will be our mediator, we will surcease our clamour, otherwise we will increase our noise.</p>
+            </sp>
+            <sp xml:id="A53060_21-e104000" who="A53060_21-matron">
+              <speaker>Matron.</speaker>
+              <p xml:id="A53060_21-e104010">If you can get leave of their parents, and friends, I will endeavour to serve you, and shall be proud of the employment that you shall be pleased to impose to my trust and management.</p>
+            </sp>
+            <sp xml:id="A53060_21-e104020" who="A53060_21-gentlemen">
+              <speaker>Gentlemen.</speaker>
+              <p xml:id="A53060_21-e104030">And we shall be your servants, for your favours.</p>
+            </sp>
+            <stage xml:id="A53060_21-e104040">They all go out, with the gentlemen waiting on her, with their hats in their hands, scraping and congying to her.</stage>
+          </div>
+        </div>
+        <trailer xml:id="A53060_21-e104050">Finis.</trailer>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A53060_21"><item xml:id="A53060_21-matron" n="22">
+    <seg type="character_name">A53060_21-matron</seg>
+    <seg type="speech_count">22</seg>
+  </item>
+  <item xml:id="A53060_21-yyyy_1" n="22">
+    <seg type="character_name">A53060_21-yyyy_1</seg>
+    <seg type="speech_count">22</seg>
+  </item>
+  <item xml:id="A53060_21-gentleman_2" n="21">
+    <seg type="character_name">A53060_21-gentleman_2</seg>
+    <seg type="speech_count">21</seg>
+  </item>
+  <item xml:id="A53060_21-speaker" n="19">
+    <seg type="character_name">A53060_21-speaker</seg>
+    <seg type="speech_count">19</seg>
+  </item>
+  <item xml:id="A53060_21-gentleman_1" n="18">
+    <seg type="character_name">A53060_21-gentleman_1</seg>
+    <seg type="speech_count">18</seg>
+  </item>
+  <item xml:id="A53060_21-yyyy_2" n="14">
+    <seg type="character_name">A53060_21-yyyy_2</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A53060_21-gentleman_speaker" n="4">
+    <seg type="character_name">A53060_21-gentleman_speaker</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A53060_21-gentleman_3" n="4">
+    <seg type="character_name">A53060_21-gentleman_3</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A53060_21-gentleman_4" n="3">
+    <seg type="character_name">A53060_21-gentleman_4</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A53060_21-yyyy_3" n="3">
+    <seg type="character_name">A53060_21-yyyy_3</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+<item xml:id="A53060_21-all_gentlemen" n="2">
+    <seg type="character_name">A53060_21-all_gentlemen</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A53060_21-gentleman_6" n="2">
+    <seg type="character_name">A53060_21-gentleman_6</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A53060_21-lady" n="1">
+    <seg type="character_name">A53060_21-lady</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A53060_21-manservant" n="1">
+    <seg type="character_name">A53060_21-manservant</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A53060_21-gentlemen" n="1">
+    <seg type="character_name">A53060_21-gentlemen</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A53060_21-matronesse" n="1">
+    <seg type="character_name">A53060_21-matronesse</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A53060_21-gentleman_5" n="1">
+    <seg type="character_name">A53060_21-gentleman_5</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

@@ -1,0 +1,2427 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A02070">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>George a Green, the Pinner of Wakefield <date type="creation_date">1590</date></title>
+        <author>Greene, Robert</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Nayoon Ahn</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A02070.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">A pleasant conceyted comedie of George a Greene, the pinner of VVakefield. As it was sundry times acted by the seruants of the right Honourable the Earle of Sussex.</title>
+          </titleStmt>
+          <extent>23 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 January (TCP phase 1)</date>
+            <idno type="marc">99841552</idno>
+            <idno type="stc">STC (2nd ed.) 12212.</idno>
+            <idno type="stc">Greg, I, 158.</idno>
+            <idno type="vid">6142</idno>
+            <idno type="DLPS">A02070</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">A pleasant conceyted comedie of George a Greene, the pinner of VVakefield. As it was sundry times acted by the seruants of the right Honourable the Earle of Sussex.</title>
+            <title type="alt">Pleasant conceyted comedie of George a Greene, the pinner of Wakefield.</title>
+            <title type="alt">Pleasant comedie of the pinner of Wakefield.</title>
+            <title type="alt">George a Greene.</title>
+            <author>Greene, Robert, 1558?-1592,</author>
+          </titleStmt>
+          <extent>[52] p.</extent>
+          <publicationStmt>
+            <publisher>By Simon Stafford, for Cuthbert Burby: and are to be sold at his shop neere the Royall Exchange,</publisher>
+            <pubPlace>Imprinted at London :</pubPlace>
+            <date>1599.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>George a Greene (Play)</p>
+            </note>
+            <note>
+              <p>Sometimes attributed to Robert Greene.</p>
+            </note>
+            <note>
+              <p>In verse.</p>
+            </note>
+            <note>
+              <p>Signatures: A-F4 G2.</p>
+            </note>
+            <note>
+              <p>Running title reads: The pleasant comedie of the pinner of Wakefield.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A02070-e100010">
+    <front xml:id="A02070-e100020">
+      <div type="title_page" xml:id="A02070-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A02070-e100040">A pleasant conceited comedy of George a green, the pinner of Wakefield. </p>
+        <p xml:id="A02070-e100050">As it was sundry times acted by the servants of the right honourable the Earl of Sussex.</p>
+        <p xml:id="A02070-e100060">Imprinted at London by Simon Stafford, for Cuthbert Burby: and are to be sold at his shop near the royal exchange. 1599.</p>
+      </div>
+    </front>
+    <body xml:id="A02070-e100070">
+      <div type="play" xml:id="A02070-e100080">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>A pleasant conceited comedy of George a green, the pinner of Wakefield.</head>
+        <stage xml:id="A02070-e100090">Enter the Earl of Kendall, with him the lord Bonfild, sir Gilbert Armestrong, and John.</stage>
+        <sp xml:id="A02070-e100100" who="A02070-kendall">
+          <speaker>Earl of Kendall.</speaker>
+          <l xml:id="A02070-e100110">Welcome to Bradford, martial gentlemen,</l>
+          <l xml:id="A02070-e100120">L. Bonfild, and sir Gilbert Armstrong both,</l>
+          <l xml:id="A02070-e100130">And all my troops, e'en to my basest groom,</l>
+          <l xml:id="A02070-e100140">Courage and welcome; for the day is ours:</l>
+          <l xml:id="A02070-e100150">Our cause is good, it is for the lands avail:</l>
+          <l xml:id="A02070-e100160">Then let us fight, and die for England's good. </l>
+        </sp>
+        <sp xml:id="A02070-e100170" who="A02070-omnes">
+          <speaker>Omnes.</speaker>
+          <l xml:id="A02070-e100180">We will, my lord. </l>
+        </sp>
+        <sp xml:id="A02070-e100190" who="A02070-kendall">
+          <speaker>Kendall.</speaker>
+          <l xml:id="A02070-e100200">As I am Henry Momford, Kendal's Earl,</l>
+          <l xml:id="A02070-e100210">You honour me with this assent of yours,</l>
+          <l xml:id="A02070-e100220">And here upon my sword I make protest,</l>
+          <l xml:id="A02070-e100230"><pb facs="3"/> for to relieve the poor, or die myself:</l>
+          <l xml:id="A02070-e100240">And know, my lords, that James, the King of Scots,</l>
+          <l xml:id="A02070-e100250">Wars hard upon the borders of this land:</l>
+          <l xml:id="A02070-e100260">Here is his post: say, John Taylour,</l>
+          <l xml:id="A02070-e100270">What news with King James? </l>
+        </sp>
+        <sp xml:id="A02070-e100280" who="A02070-john">
+          <speaker>John</speaker>
+          <l xml:id="A02070-e100290">War, my lord: tell, and good news I trow:</l>
+          <l xml:id="A02070-e100300">For King Jame vows to meet you the 26. of this month. </l>
+          <l xml:id="A02070-e100310">God willing, marry doth he sir. </l>
+        </sp>
+        <sp xml:id="A02070-e100320" who="A02070-kendall">
+          <speaker>Kendall.</speaker>
+          <l xml:id="A02070-e100330">My friends, you see what we have to win. </l>
+          <l xml:id="A02070-e100340">Well, John, commend me to King James,</l>
+          <l xml:id="A02070-e100350">And tell him I will meet him the 26. of this month,</l>
+          <l xml:id="A02070-e100360">And all the rest: and so farewell. </l>
+        </sp>
+        <stage xml:id="A02070-e100370">Exit John.</stage>
+        <sp xml:id="A02070-e100380" who="A02070-bonfield">
+          <speaker>Bonfild,</speaker>
+          <l xml:id="A02070-e100390">Why standst thou as a man in dumps? </l>
+          <l xml:id="A02070-e100400">Courage: for if I win, I'll make thee Duke:</l>
+          <l xml:id="A02070-e100410">I Henry Momford will be King myself,</l>
+          <l xml:id="A02070-e100420">And I will make thee Duke of Lancaster,</l>
+          <l xml:id="A02070-e100430">And Gilbert Armstrong lord of Doncaster. </l>
+        </sp>
+        <sp xml:id="A02070-e100440" who="A02070-bonfield">
+          <speaker>Bonfild.</speaker>
+          <l xml:id="A02070-e100450">Nothing, my lord, makes me amazed at all,</l>
+          <l xml:id="A02070-e100460">But that our soldiers finds our victuals scant:</l>
+          <l xml:id="A02070-e100470">We must make havoc of those country swains:</l>
+          <l xml:id="A02070-e100480">For so will the rest tremble and be afraid,</l>
+          <l xml:id="A02070-e100490">And humbly send provision to your camp. </l>
+        </sp>
+        <sp xml:id="A02070-e100500" who="A02070-gilbert">
+          <speaker>Gilb.</speaker>
+          <l xml:id="A02070-e100510">My lord Bonfild gives good advice,</l>
+          <l xml:id="A02070-e100520">They make a scorn and stand upon the King:</l>
+          <l xml:id="A02070-e100530">So what is brought, is sent from them perforce;</l>
+          <l xml:id="A02070-e100540">Ask Mannering else. </l>
+        </sp>
+        <sp xml:id="A02070-e100550" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e100560">What sayest thou, Mannering? </l>
+        </sp>
+        <sp xml:id="A02070-e100570" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e100580">Whenas I showed your high commission,</l>
+          <l xml:id="A02070-e100590"><pb facs="3"/> they made this answer,</l>
+          <l xml:id="A02070-e100600">Only to send provision for your horses. </l>
+        </sp>
+        <sp xml:id="A02070-e100610" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e100620">Well, hie thee to Wakefield, bid the town</l>
+          <l xml:id="A02070-e100630">To send me all provision that I want;</l>
+          <l xml:id="A02070-e100640">Lest I, like martial Tamburlaine, lay waste</l>
+          <l xml:id="A02070-e100650">Their bordering countries,</l>
+          <l xml:id="A02070-e100660">And leaving none alive that contradicts my commission. </l>
+        </sp>
+        <sp xml:id="A02070-e100670" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e100680">Let me alone, my lord, I'll make them</l>
+          <l xml:id="A02070-e100690">Veil their plumes: for whatsoever he be,</l>
+          <l xml:id="A02070-e100700">The proudest knight, justice, or other, that gainsayeth</l>
+          <l xml:id="A02070-e100710">Your word, he clap him fast, to make the rest to fear. </l>
+        </sp>
+        <sp xml:id="A02070-e100720" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e100730">Do so Nick: hie thee thither presently,</l>
+          <l xml:id="A02070-e100740">And let us hear of thee again to morrow. </l>
+        </sp>
+        <sp xml:id="A02070-e100750" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e100760">Will you not remove, my lord? </l>
+        </sp>
+        <sp xml:id="A02070-e100770" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e100780">No: I will lie at Bradford all this night,</l>
+          <l xml:id="A02070-e100790">And all the next: come, Bonfield, let us go,</l>
+          <l xml:id="A02070-e100800">And listen out some bonny lasses here. </l>
+        </sp>
+        <stage xml:id="A02070-e100810">Exeunt omnes.</stage>
+        <stage xml:id="A02070-e100820">Enter the justice, a townsman, George a Greene, and sir Nicholas Mannering with his commission.</stage>
+        <sp xml:id="A02070-e100830" who="A02070-justice">
+          <speaker>Justice.</speaker>
+          <l xml:id="A02070-e100840">M. Mannering, stand aside, whilst we confer</l>
+          <l xml:id="A02070-e100850">What is best to do. </l>
+          <l xml:id="A02070-e100860">Townsmen of Wakefield, the Earl of Kendal</l>
+          <l xml:id="A02070-e100870">Here hath sent for victuals;</l>
+          <l xml:id="A02070-e100880">And in aiding him, we show ourselves</l>
+          <l xml:id="A02070-e100890">No less than traitors to the King:</l>
+          <l xml:id="A02070-e100900">Therefore let me hear, townsmen,</l>
+          <l xml:id="A02070-e100910">What is your consents. </l>
+        </sp>
+        <sp xml:id="A02070-e100920" who="A02070-townes">
+          <pb facs="4"/>
+          <speaker>Townes.</speaker>
+          <l xml:id="A02070-e100930">Even as you please we are all content. </l>
+        </sp>
+        <sp xml:id="A02070-e100940" who="A02070-justice">
+          <speaker>Justice.</speaker>
+          <l xml:id="A02070-e100950">Then m. Mannering we are resolved. </l>
+        </sp>
+        <sp xml:id="A02070-e100960" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e100970">As how? </l>
+        </sp>
+        <sp xml:id="A02070-e100980" who="A02070-justice">
+          <speaker>Justice.</speaker>
+          <l xml:id="A02070-e100990">Marry sir, thus. </l>
+          <l xml:id="A02070-e101000">We will send the Earl of Kendal no victuals,</l>
+          <l xml:id="A02070-e101010">Because he is a traitor to the King;</l>
+          <l xml:id="A02070-e101020">And in aiding him we show ourselves no less. </l>
+        </sp>
+        <sp xml:id="A02070-e101030" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e101040">Why, men of Wakefield, are you waxen mad;</l>
+          <l xml:id="A02070-e101050">That present danger cannot whet your wits,</l>
+          <l xml:id="A02070-e101060">Wisely to make provision of yourselves? </l>
+          <l xml:id="A02070-e101070">The Earl is thirty thousand men strong in power,</l>
+          <l xml:id="A02070-e101080">And what town soever him resist,</l>
+          <l xml:id="A02070-e101090">He lays it flat and level with the ground:</l>
+          <l xml:id="A02070-e101100">Ye silly men, you seek your own decay:</l>
+          <l xml:id="A02070-e101110">Therefore send my lord such provision as he wants,</l>
+          <l xml:id="A02070-e101120">So he will spare your town, and come no nearer</l>
+          <l xml:id="A02070-e101130">Wakefield than he is. </l>
+        </sp>
+        <sp xml:id="A02070-e101140" who="A02070-justice">
+          <speaker>Justice.</speaker>
+          <l xml:id="A02070-e101150">Master Mannering, you have your answer,</l>
+          <l xml:id="A02070-e101160">You may be gone. </l>
+        </sp>
+        <sp xml:id="A02070-e101170" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e101180">Well, Woodroffe, for so I guess is thy name,</l>
+          <l xml:id="A02070-e101190">I'll make thee curse thy overthwart denial;</l>
+          <l xml:id="A02070-e101200">And all that sit upon the bench this day,</l>
+          <l xml:id="A02070-e101210">Shall rue the hour they have withstood my lords</l>
+          <l xml:id="A02070-e101220">Commission. </l>
+        </sp>
+        <sp xml:id="A02070-e101230" who="A02070-justice">
+          <speaker>Justice.</speaker>
+          <l xml:id="A02070-e101240">Do thy worst, we fear thee not. </l>
+        </sp>
+        <sp xml:id="A02070-e101250" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e101260">See you these seals? before you pass the town,</l>
+          <l xml:id="A02070-e101270">I will have all things my lord doth want,</l>
+          <l xml:id="A02070-e101280">Inspite of you. </l>
+        </sp>
+        <sp xml:id="A02070-e101290" who="A02070-george">
+          <pb facs="4"/>
+          <speaker>George a green.</speaker>
+          <l xml:id="A02070-e101300">Proud dapper Jack, vail bonnet to</l>
+          <l xml:id="A02070-e101310">The bench,</l>
+          <l xml:id="A02070-e101320">That represents the person of the King;</l>
+          <l xml:id="A02070-e101330">Or sirrah, I'll lay thy head before thy feet. </l>
+        </sp>
+        <sp xml:id="A02070-e101340" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e101350">Why, who art thou? </l>
+        </sp>
+        <sp xml:id="A02070-e101360" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e101370">Why, I am George a green,</l>
+          <l xml:id="A02070-e101380">True liegeman to my King,</l>
+          <l xml:id="A02070-e101390">Who scorns that men of such esteem as these,</l>
+          <l xml:id="A02070-e101400">Should brook the braves of any traitorous squire:</l>
+          <l xml:id="A02070-e101410">You of the bench, and you my fellow friends,</l>
+          <l xml:id="A02070-e101420">Neighbours, we subjects all unto the King,</l>
+          <l xml:id="A02070-e101430">We are English born, and therefore Edward's friends,</l>
+          <l xml:id="A02070-e101440">Vowed unto him even in our mother's womb,</l>
+          <l xml:id="A02070-e101450">Our minds to God, our hearts unto our King,</l>
+          <l xml:id="A02070-e101460">Our wealth, our homage, and our carcases,</l>
+          <l xml:id="A02070-e101470">Be all King Edward's: then sirrah, we have</l>
+          <l xml:id="A02070-e101480">Nothing left for traitors, but our swords,</l>
+          <l xml:id="A02070-e101490">Whetted to bathe them in your bloods,</l>
+          <l xml:id="A02070-e101500">And die against you, before we send you any victuals. </l>
+        </sp>
+        <sp xml:id="A02070-e101510" who="A02070-justice">
+          <speaker>Justice.</speaker>
+          <l xml:id="A02070-e101520">Well spoken, George a green. </l>
+        </sp>
+        <sp xml:id="A02070-e101530" who="A02070-townes">
+          <speaker>Townes.</speaker>
+          <l xml:id="A02070-e101540">Pray let George a green speak for us. </l>
+        </sp>
+        <sp xml:id="A02070-e101550" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e101560">Sirrah you get no victuals here,</l>
+          <l xml:id="A02070-e101570">Not if a hoof of beef would save your lives. </l>
+        </sp>
+        <sp xml:id="A02070-e101580" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e101590">Fellow, I stand amazed at thy presumption:</l>
+          <l xml:id="A02070-e101600">Why, what art thou that darest gainsay my lord,</l>
+          <l xml:id="A02070-e101610">Knowing his mighty puissance and his stroke? </l>
+          <l xml:id="A02070-e101620">Why, my friend, I come not barely of myself:</l>
+          <l xml:id="A02070-e101630">For see, I have a large commission. </l>
+        </sp>
+        <sp xml:id="A02070-e101640" who="A02070-george">
+          <pb facs="5"/>
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e101650">Let me see it, sirrah. </l>
+          <l xml:id="A02070-e101660">Whose seals be these? </l>
+        </sp>
+        <sp xml:id="A02070-e101670" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e101680">This is the Earl of Kendal's seal at arms,</l>
+          <l xml:id="A02070-e101690">This lord charnel Bonfield's,</l>
+          <l xml:id="A02070-e101700">And this sir Gilbert Armstrong's. </l>
+        </sp>
+        <sp xml:id="A02070-e101710" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e101720">I tell thee, sirrah, did good King Edward's son</l>
+          <l xml:id="A02070-e101730">Seal a commission against the King his father,</l>
+          <l xml:id="A02070-e101740">Thus would I tear it in despite of him,</l>
+          <stage xml:id="A02070-e101750">He tears the commission.</stage>
+          <l xml:id="A02070-e101760">Being traitor to my sovereign. </l>
+        </sp>
+        <sp xml:id="A02070-e101770" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e101780">What? hast thou torn my lord; commission? </l>
+          <l xml:id="A02070-e101790">Thou shalt rue it, and so shall all Wakefield. </l>
+        </sp>
+        <sp xml:id="A02070-e101800" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e101810">What, are you in choler? I will give you pills</l>
+          <l xml:id="A02070-e101820">To cool your stomach. </l>
+          <l xml:id="A02070-e101830">Seest thou these seals? </l>
+          <l xml:id="A02070-e101840">Now by my father's soul, which was a yeoman,</l>
+          <l xml:id="A02070-e101850">When he was alive, eat them,</l>
+          <l xml:id="A02070-e101860">Or eat my dagger's point, proud squire. </l>
+        </sp>
+        <sp xml:id="A02070-e101870" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e101880">But thou dost but jest, I hope. </l>
+        </sp>
+        <sp xml:id="A02070-e101890" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e101900">Sure that shall you see, before we two part. </l>
+        </sp>
+        <sp xml:id="A02070-e101910" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e101920">Well, and there be no remedy, so George,</l>
+          <l xml:id="A02070-e101930">One is gone: I pray thee no more now. </l>
+        </sp>
+        <sp xml:id="A02070-e101940" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e101950">O sir, if one be good, the others cannot hurt. </l>
+          <l xml:id="A02070-e101960">So sir, now you may go tell the Earl of Kendal,</l>
+          <l xml:id="A02070-e101970">Although I have rent his large commission,</l>
+          <l xml:id="A02070-e101980">Yet of courtesy I have sent all his seals</l>
+          <l xml:id="A02070-e101990">Back again by you. </l>
+        </sp>
+        <sp xml:id="A02070-e102000" who="A02070-mannering">
+          <speaker>Man.</speaker>
+          <l xml:id="A02070-e102010">Well, sir, I will do your arrant. </l>
+          <stage xml:id="A02070-e102020">Exit.</stage>
+        </sp>
+        <sp xml:id="A02070-e102030" who="A02070-george">
+          <pb facs="5"/>
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e102040">Now let him tell his lord, that he hath</l>
+          <l xml:id="A02070-e102050">Spoke with George a green,</l>
+          <l xml:id="A02070-e102060">Right pinner of merry Wakefield town,</l>
+          <l xml:id="A02070-e102070">That hath physic for a fool,</l>
+          <l xml:id="A02070-e102080">Pills for a traitor that doth wrong his sovereign. </l>
+          <l xml:id="A02070-e102090">Are you content with this that I have done? </l>
+        </sp>
+        <sp xml:id="A02070-e102100" who="A02070-justice">
+          <speaker>Justice.</speaker>
+          <l xml:id="A02070-e102110">Ay, content, George:</l>
+          <l xml:id="A02070-e102120">For highly hast thou honoured Wakefield town,</l>
+          <l xml:id="A02070-e102130">In cutting of proud Mannering so short. </l>
+          <l xml:id="A02070-e102140">Come, thou shalt be my welcome guest today;</l>
+          <l xml:id="A02070-e102150">For well thou hast deserved reward and favour. </l>
+        </sp>
+        <stage xml:id="A02070-e102160">Exeunt omnes.</stage>
+        <stage xml:id="A02070-e102170">Enter old Musgrove, and young Cuddie his son.</stage>
+        <sp xml:id="A02070-e102180" who="A02070-cuddy">
+          <speaker>Cuddie.</speaker>
+          <l xml:id="A02070-e102190">Now gentle father list unto thy son,</l>
+          <l xml:id="A02070-e102200">And for my mother's love,</l>
+          <l xml:id="A02070-e102210">That erst was blithe and bonny in thine eye,</l>
+          <l xml:id="A02070-e102220">Grant one petition that I shall demand. </l>
+        </sp>
+        <sp xml:id="A02070-e102230" who="A02070-old_musgrove">
+          <speaker>Old Musgrove.</speaker>
+          <l xml:id="A02070-e102240">What is that, my Cuddie? </l>
+        </sp>
+        <sp xml:id="A02070-e102250" who="A02070-cuddy">
+          <speaker>Cuddie.</speaker>
+          <l xml:id="A02070-e102260">Father, you know the ancient enmity of late,</l>
+          <l xml:id="A02070-e102270">Between the Musgroves and the wily Scottes,</l>
+          <l xml:id="A02070-e102280">Whereof they have oath,</l>
+          <l xml:id="A02070-e102290">Not to leave one alive that strides a lance. </l>
+          <l xml:id="A02070-e102300">O father, you are old, and waning age unto the grave:</l>
+          <l xml:id="A02070-e102310">Old William Musgrove, which whilom was thought,</l>
+          <l xml:id="A02070-e102320">The bravest horseman in all Westmoreland,</l>
+          <l xml:id="A02070-e102330">Is weak, and forced to stay his arm upon a staff,</l>
+          <l xml:id="A02070-e102340">That erst could wield a lance:</l>
+          <l xml:id="A02070-e102350"><pb facs="6"/> then, gentle father, resign the hold to me;</l>
+          <l xml:id="A02070-e102360">Give arms to youth, and honour unto age. </l>
+        </sp>
+        <sp xml:id="A02070-e102370" who="A02070-musgrove">
+          <speaker>Mus.</speaker>
+          <l xml:id="A02070-e102380">Avant, false hearted boy, my joints do quake,</l>
+          <l xml:id="A02070-e102390">Even with anguish of thy very words. </l>
+          <l xml:id="A02070-e102400">Hath William Musgrove seen an hundred years? </l>
+          <l xml:id="A02070-e102410">Have I been feared and dreaded of the Scottes,</l>
+          <l xml:id="A02070-e102420">That when they heard my name in any road,</l>
+          <l xml:id="A02070-e102430">They fled away, and posted thence amain? </l>
+          <l xml:id="A02070-e102440">And shall I die with shame now in mine age? </l>
+          <l xml:id="A02070-e102450">No, Cuddie, no, thus resolve I,</l>
+          <l xml:id="A02070-e102460">Here have I lived, and here will Musgrove die. </l>
+        </sp>
+        <stage xml:id="A02070-e102470">Exeunt omnes.</stage>
+        <stage xml:id="A02070-e102480">Enter lord Bonfild, sir Gilbert Armestrong, m. Grime, and Bettris his daughter.</stage>
+        <sp xml:id="A02070-e102490" who="A02070-bonfield">
+          <speaker>Bon.</speaker>
+          <l xml:id="A02070-e102500">Now, gentle Grime, God a mercy for our good cheer,</l>
+          <l xml:id="A02070-e102510">Our fare was royal, and our welcome great;</l>
+          <l xml:id="A02070-e102520">And sith so kindly thou hast entertained us,</l>
+          <l xml:id="A02070-e102530">If we return with happy victory,</l>
+          <l xml:id="A02070-e102540">We will deal as friendly with thee in recompense. </l>
+        </sp>
+        <sp xml:id="A02070-e102550" who="A02070-grime">
+          <speaker>Grime.</speaker>
+          <l xml:id="A02070-e102560">Your welcome was but duty, gentle lord:</l>
+          <l xml:id="A02070-e102570">For wherefore have we given us our wealth,</l>
+          <l xml:id="A02070-e102580">But to make our betters welcome when they come? </l>
+          <l xml:id="A02070-e102590">O, this goes hard when traitors must be flattered:</l>
+          <l xml:id="A02070-e102600">But life is sweet, and I cannot withstand it. </l>
+          <l xml:id="A02070-e102610">God (I hope) will revenge the quarrel of my King. </l>
+        </sp>
+        <sp xml:id="A02070-e102620" who="A02070-gilbert">
+          <speaker>Gilb.</speaker>
+          <l xml:id="A02070-e102630">What said you, grime? </l>
+        </sp>
+        <sp xml:id="A02070-e102640" who="A02070-grime">
+          <speaker>Grime.</speaker>
+          <l xml:id="A02070-e102650">I say, sir Gilbert, looking on my daughter,</l>
+          <l xml:id="A02070-e102660">I curse the hour that ere I got the girl:</l>
+          <l xml:id="A02070-e102670"><pb facs="6"/> for sir, she may have many wealthy suitors,</l>
+          <l xml:id="A02070-e102680">And yet she disdains them all, to have</l>
+          <l xml:id="A02070-e102690">Poor George a green unto her husband. </l>
+        </sp>
+        <sp xml:id="A02070-e102700" who="A02070-bonfield">
+          <speaker>Bonfild.</speaker>
+          <l xml:id="A02070-e102710">On that, good Grime, I am talking with thy</l>
+          <l xml:id="A02070-e102720">Daughter;</l>
+          <l xml:id="A02070-e102730">But she in quirks and quiddities of love,</l>
+          <l xml:id="A02070-e102740">Sets me to school, she is so overwise. </l>
+          <l xml:id="A02070-e102750">But, gentle girl, if thou wilt forsake</l>
+          <l xml:id="A02070-e102760">The pinner, and be my love, I will advance thee high:</l>
+          <l xml:id="A02070-e102770">To dignify those hairs of amber hue,</l>
+          <l xml:id="A02070-e102780">I'll grace them with a chaplet made of pearl,</l>
+          <l xml:id="A02070-e102790">Set with choice rubies, sparks, and diamonds,</l>
+          <l xml:id="A02070-e102800">Planted upon a velvet hood to hide that head,</l>
+          <l xml:id="A02070-e102810">Wherein two saphires burn like sparkling fire:</l>
+          <l xml:id="A02070-e102820">This will I do, fair Bettris, and far more,</l>
+          <l xml:id="A02070-e102830">If thou wilt love the lord of Doncaster. </l>
+        </sp>
+        <sp xml:id="A02070-e102840" who="A02070-bettris">
+          <speaker>Bettris.</speaker>
+          <l xml:id="A02070-e102850">Heigh ho, my heart is in a higher place,</l>
+          <l xml:id="A02070-e102860">Perhaps on the Earl, if that be he,</l>
+          <l xml:id="A02070-e102870">See where he comes, or angry or in love;</l>
+          <l xml:id="A02070-e102880">For why, his colour looketh discontent. </l>
+        </sp>
+        <sp xml:id="A02070-e102890" who="A02070-kendall">
+          <speaker>Kendall.</speaker>
+          <l xml:id="A02070-e102900">Come, Nick, follow me. </l>
+        </sp>
+        <stage xml:id="A02070-e102910">Enter the Earl of Kendall and Nicholas Mannering.</stage>
+        <sp xml:id="A02070-e102920" who="A02070-bonfield">
+          <speaker>Bonfild.</speaker>
+          <l xml:id="A02070-e102930">How now, my lord? what news? </l>
+        </sp>
+        <sp xml:id="A02070-e102940" who="A02070-kendall">
+          <speaker>Kendall.</speaker>
+          <l xml:id="A02070-e102950">Such news, Bonfild, as will make thee laugh,</l>
+          <l xml:id="A02070-e102960">And fret thy fill, to hear how Nick was used:</l>
+          <l xml:id="A02070-e102970">Why, the justices stand on their terms;</l>
+          <l xml:id="A02070-e102980">Nick, as you know, is haughty in his words;</l>
+          <l xml:id="A02070-e102990"><pb facs="7"/> he laid the law unto the justices,</l>
+          <l xml:id="A02070-e103000">With threatening braves, that one looked on another,</l>
+          <l xml:id="A02070-e103010">Ready to stoop: but that a churl came in,</l>
+          <l xml:id="A02070-e103020">One George a green, the pinner of the town. </l>
+          <l xml:id="A02070-e103030">And with his dagger drawn laid hands on Nick,</l>
+          <l xml:id="A02070-e103040">And by no beggars swore that we were traitors,</l>
+          <l xml:id="A02070-e103050">Rent our commission, and upon a brave,</l>
+          <l xml:id="A02070-e103060">Made Nick to eat the seals, or brook the stab:</l>
+          <l xml:id="A02070-e103070">Poor Mannering afraid, came posting hither straight. </l>
+        </sp>
+        <sp xml:id="A02070-e103080" who="A02070-bettris">
+          <speaker>Bettris.</speaker>
+          <l xml:id="A02070-e103090">O lovely George, fortune be still thy friend,</l>
+          <l xml:id="A02070-e103100">And as thy thoughts be high, so be thy mind,</l>
+          <l xml:id="A02070-e103110">In all accords, even to thy hearts desire. </l>
+        </sp>
+        <sp xml:id="A02070-e103120" who="A02070-bonfield">
+          <speaker>Bonfild.</speaker>
+          <l xml:id="A02070-e103130">What says fair Bettris? </l>
+        </sp>
+        <sp xml:id="A02070-e103140" who="A02070-grime">
+          <speaker>Grimes.</speaker>
+          <l xml:id="A02070-e103150">My lord, she is praying for George a green:</l>
+          <l xml:id="A02070-e103160">He is the man, and she will none but him. </l>
+        </sp>
+        <sp xml:id="A02070-e103170" who="A02070-bonfield">
+          <speaker>Bonfild.</speaker>
+          <l xml:id="A02070-e103180">But him? why, look on me, my girl:</l>
+          <l xml:id="A02070-e103190">Thou knowest, that yesternight I courted thee,</l>
+          <l xml:id="A02070-e103200">And swore at my return to wed with thee:</l>
+          <l xml:id="A02070-e103210">Then tell me, love, shall I have all thy fair? </l>
+        </sp>
+        <sp xml:id="A02070-e103220" who="A02070-bettris">
+          <speaker>Bettris.</speaker>
+          <l xml:id="A02070-e103230">I care not for Earl, nor yet for knight,</l>
+          <l xml:id="A02070-e103240">Nor baron that is so bold:</l>
+          <l xml:id="A02070-e103250">For George a green the merry pinner,</l>
+          <l xml:id="A02070-e103260">He hath my heart in hold. </l>
+        </sp>
+        <sp xml:id="A02070-e103270" who="A02070-bonfield">
+          <speaker>Bonfild.</speaker>
+          <l xml:id="A02070-e103280">Bootless, my lord, are many vain replies. </l>
+          <l xml:id="A02070-e103290">Let us hie us to Wakefield, and send her the pinner's head. </l>
+        </sp>
+        <sp xml:id="A02070-e103300" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e103310">It shall be so. Grime, gramercy,</l>
+          <l xml:id="A02070-e103320">Shut up the daughter, bridle her affects,</l>
+          <l xml:id="A02070-e103330">Let me not miss her when I make return:</l>
+          <l xml:id="A02070-e103340"><pb facs="7"/> therefore look to her, as to thy life, good grime. </l>
+        </sp>
+        <sp xml:id="A02070-e103350" who="A02070-grime">
+          <speaker>Grime.</speaker>
+          <l xml:id="A02070-e103360">I warrant you, my lord. </l>
+        </sp>
+        <stage xml:id="A02070-e103370">Ex. Grime and Bettris.</stage>
+        <sp xml:id="A02070-e103380" who="A02070-kendal">
+          <speaker>Ken.</speaker>
+          <l xml:id="A02070-e103390">And Bettris, leave a base pinner, for to love an Earl,</l>
+          <l xml:id="A02070-e103400">Fain would I see this pinner George a green. </l>
+          <l xml:id="A02070-e103410">It shall be thus:</l>
+          <l xml:id="A02070-e103420">Nick Mannering shall lead on the battle,</l>
+          <l xml:id="A02070-e103430">And we three will go to Wakefield in some disguise:</l>
+          <l xml:id="A02070-e103440">But howsoever, I'll have his head today. </l>
+        </sp>
+        <stage xml:id="A02070-e103450">Ex. omnes.</stage>
+        <stage xml:id="A02070-e103460">Enter the King of Scots, lord Humes, with soldiers and Johnie.</stage>
+        <sp xml:id="A02070-e103470" who="A02070-king">
+          <speaker>King.</speaker>
+          <l xml:id="A02070-e103480">Why, Johnnie: then the Earl of Kendal is blithe,</l>
+          <l xml:id="A02070-e103490">And hath brave men that troop along with him. </l>
+        </sp>
+        <sp xml:id="A02070-e103500" who="A02070-john">
+          <speaker>Iohnie.</speaker>
+          <l xml:id="A02070-e103510">I marry, my liege, and hath good men</l>
+          <l xml:id="A02070-e103520">That come along with him,</l>
+          <l xml:id="A02070-e103530">And vows to meet you at Scrasblesea, God willing. </l>
+        </sp>
+        <sp xml:id="A02070-e103540" who="A02070-king">
+          <speaker>King.</speaker>
+          <l xml:id="A02070-e103550">If good s. Andrew lend King Jame leave,</l>
+          <l xml:id="A02070-e103560">I will be with him at the pointed day. </l>
+          <l xml:id="A02070-e103570">But soft: whose pretty boy art thou? </l>
+        </sp>
+        <stage xml:id="A02070-e103580">Enter Jane a bailie's son.</stage>
+        <sp xml:id="A02070-e103590" who="A02070-ned">
+          <speaker>Ned.</speaker>
+          <l xml:id="A02070-e103600">Sir, I am son unto sir John a barley,</l>
+          <l xml:id="A02070-e103610">Eldest and all that ere my mother had,</l>
+          <l xml:id="A02070-e103620">Edward my name. </l>
+        </sp>
+        <sp xml:id="A02070-e103630" who="A02070-james">
+          <speaker>Jame.</speaker>
+          <l xml:id="A02070-e103640">And whither art thou going, pretty Ned? </l>
+        </sp>
+        <sp xml:id="A02070-e103650" who="A02070-ned">
+          <speaker>Ned.</speaker>
+          <l xml:id="A02070-e103660">To seek some birds, and kill them, if I can:</l>
+          <l xml:id="A02070-e103670">And now my schoolmaster is also gone:</l>
+          <l xml:id="A02070-e103680">So have I liberty to ply my bow:</l>
+          <l xml:id="A02070-e103690"><pb facs="8"/> for when he comes, I stir not from my book. </l>
+        </sp>
+        <sp xml:id="A02070-e103700" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e103710">Lord Humes, but mark the visage of this child;</l>
+          <l xml:id="A02070-e103720">By him I guess the beauty of his mother:</l>
+          <l xml:id="A02070-e103730">None but Leda could breed Helena. </l>
+          <l xml:id="A02070-e103740">Tell me, Ned, who is within with thy mother. </l>
+        </sp>
+        <sp xml:id="A02070-e103750" who="A02070-ned">
+          <speaker>Ned.</speaker>
+          <l xml:id="A02070-e103760">Not but herself and household servants, sir:</l>
+          <l xml:id="A02070-e103770">If you would speak with her, knock at this gate. </l>
+        </sp>
+        <sp xml:id="A02070-e103780" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e103790">Johnnie, knock at that gate. </l>
+        </sp>
+        <stage xml:id="A02070-e103800">Enter Jane a barley upon the walls.</stage>
+        <sp xml:id="A02070-e103810" who="A02070-jane">
+          <speaker>Jane.</speaker>
+          <l xml:id="A02070-e103820">O, I am betrayed: what multitudes be these? </l>
+        </sp>
+        <sp xml:id="A02070-e103830" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e103840">Fear not, fair Jane: for all these men are mine,</l>
+          <l xml:id="A02070-e103850">And all thy friends, if thou be friend to me:</l>
+          <l xml:id="A02070-e103860">I am thy lover James the King of Scottes,</l>
+          <l xml:id="A02070-e103870">That oft have sued and wooed with many letters,</l>
+          <l xml:id="A02070-e103880">Painting my outward passions with my pen,</l>
+          <l xml:id="A02070-e103890">Whenas my inward soul did bleed for woe:</l>
+          <l xml:id="A02070-e103900">Little regard was given to my suit,</l>
+          <l xml:id="A02070-e103910">But haply thy husband's presence wrought it:</l>
+          <l xml:id="A02070-e103920">Therefore, sweet Jane, I fitted me to time;</l>
+          <l xml:id="A02070-e103930">And hearing that thy husband was from home,</l>
+          <l xml:id="A02070-e103940">Am come to crave what long I have desired. </l>
+        </sp>
+        <sp xml:id="A02070-e103950" who="A02070-ned">
+          <speaker>Ned.</speaker>
+          <l xml:id="A02070-e103960">Nay, soft you, sir, you get no entrance here,</l>
+          <l xml:id="A02070-e103970">That seek to wrong sir John a barley so,</l>
+          <l xml:id="A02070-e103980">And offer such dishonour to my mother. </l>
+        </sp>
+        <sp xml:id="A02070-e103990" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e104000">Why, what dishonour, Ned? </l>
+        </sp>
+        <sp xml:id="A02070-e104010" who="A02070-ned">
+          <speaker>Ned.</speaker>
+          <l xml:id="A02070-e104020">Though young, yet often have I heard</l>
+          <l xml:id="A02070-e104030">My father say,</l>
+          <l xml:id="A02070-e104040">No greater wrong than to be made cuckold. </l>
+          <l xml:id="A02070-e104050"><pb facs="8"/>Were I of age, or were my body strong,</l>
+          <l xml:id="A02070-e104060">Were he ten Kings, I would shoot him to the heart,</l>
+          <l xml:id="A02070-e104070">That should attempt to give sir John the horn. </l>
+          <l xml:id="A02070-e104080">Mother, let him not come in,</l>
+          <l xml:id="A02070-e104090">I will go lie at locky miller's house. </l>
+        </sp>
+        <sp xml:id="A02070-e104100" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e104110">Stay him. </l>
+        </sp>
+        <sp xml:id="A02070-e104120" who="A02070-jane">
+          <speaker>Jane.</speaker>
+          <l xml:id="A02070-e104130">Ay, well said, Ned, thou hast given the King</l>
+          <l xml:id="A02070-e104140">His answer:</l>
+          <l xml:id="A02070-e104150">For were the ghost of Cesar on the earth,</l>
+          <l xml:id="A02070-e104160">Wrapped in the wonted glory of his honour,</l>
+          <l xml:id="A02070-e104170">He should not make me wrong my husband so:</l>
+          <l xml:id="A02070-e104180">But good King James is pleasant, as I guess,</l>
+          <l xml:id="A02070-e104190">And means to try what humour I am in;</l>
+          <l xml:id="A02070-e104200">Else would he never have brought an host of men,</l>
+          <l xml:id="A02070-e104210">To have them witness of his Scottish lust. </l>
+        </sp>
+        <sp xml:id="A02070-e104220" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e104230">Jane, in faith, Jane. </l>
+        </sp>
+        <sp xml:id="A02070-e104240" who="A02070-jane">
+          <speaker>Jane.</speaker>
+          <l xml:id="A02070-e104250">Never reply: for I protest by the highest</l>
+          <l xml:id="A02070-e104260">Holy God,</l>
+          <l xml:id="A02070-e104270">That doometh just revenge for things amiss,</l>
+          <l xml:id="A02070-e104280">King James of all men shall not have my love. </l>
+        </sp>
+        <sp xml:id="A02070-e104290" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e104300">Then list to me, saint Andrew be my boot,</l>
+          <l xml:id="A02070-e104310">But I'll raze thy castle to the very ground,</l>
+          <l xml:id="A02070-e104320">Unless thou open the gate, and let me in. </l>
+        </sp>
+        <sp xml:id="A02070-e104330" who="A02070-jane">
+          <speaker>Jane.</speaker>
+          <l xml:id="A02070-e104340">I fear thee not, King Jamie, do thy worst:</l>
+          <l xml:id="A02070-e104350">This castle is too strong for thee to scale:</l>
+          <l xml:id="A02070-e104360">Besides, to morrow will sir John come home. </l>
+        </sp>
+        <sp xml:id="A02070-e104370" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e104380">Well, Jane, since thou disdainest King James love,</l>
+          <l xml:id="A02070-e104390">I'll draw thee on with sharp and deep extremes:</l>
+          <l xml:id="A02070-e104400"><pb facs="9"/> for by my father's soul, this brat of thine</l>
+          <l xml:id="A02070-e104410">Shall perish here before thine eyes,</l>
+          <l xml:id="A02070-e104420">Unless thou open the gate, and let me in. </l>
+        </sp>
+        <sp xml:id="A02070-e104430" who="A02070-jane">
+          <speaker>Jane.</speaker>
+          <l xml:id="A02070-e104440">Oh deep extremes: my heart begins to break:</l>
+          <l xml:id="A02070-e104450">My little Ned looks pale for fear. </l>
+          <l xml:id="A02070-e104460">Cheer thee, my boy, I will do much for thee. </l>
+        </sp>
+        <sp xml:id="A02070-e104470" who="A02070-ned">
+          <speaker>Ned.</speaker>
+          <l xml:id="A02070-e104480">But not so much, as to dishonour me. </l>
+        </sp>
+        <sp xml:id="A02070-e104490" who="A02070-jane">
+          <speaker>Jane.</speaker>
+          <l xml:id="A02070-e104500">And if thou diest, I cannot live, sweet Ned. </l>
+        </sp>
+        <sp xml:id="A02070-e104510" who="A02070-ned">
+          <speaker>Ned.</speaker>
+          <l xml:id="A02070-e104520">Then die with honour, mother, dying chaste. </l>
+        </sp>
+        <sp xml:id="A02070-e104530" who="A02070-jane">
+          <speaker>Jane.</speaker>
+          <l xml:id="A02070-e104540">I am armed:</l>
+          <l xml:id="A02070-e104550">My husband's love, his honour, and his fame,</l>
+          <l xml:id="A02070-e104560">Joins victory by virtue. </l>
+          <l xml:id="A02070-e104570">Now, King James, if mother's tears cannot allay thine ire,</l>
+          <l xml:id="A02070-e104580">Than butcher him, for I will never yield:</l>
+          <l xml:id="A02070-e104590">The son shall die, before I wrong the father. </l>
+        </sp>
+        <sp xml:id="A02070-e104600" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e104610">Why then he dies. </l>
+        </sp>
+        <stage xml:id="A02070-e104620">Alarum within: enter a messenger.</stage>
+        <sp xml:id="A02070-e104630" who="A02070-messenger">
+          <speaker>Messenger.</speaker>
+          <l xml:id="A02070-e104640">My lord, Musgrove is at hand. </l>
+        </sp>
+        <sp xml:id="A02070-e104650" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e104660">Who, Musgrove? The devil he is. Come,</l>
+          <l xml:id="A02070-e104670">My horse. </l>
+        </sp>
+        <stage xml:id="A02070-e104680">Exeunt omnes.</stage>
+        <stage xml:id="A02070-e104690">Enter old Musgrove with King James prisoner.</stage>
+        <sp xml:id="A02070-e104700" who="A02070-musgrove">
+          <speaker>Mus.</speaker>
+          <l xml:id="A02070-e104710">Now, King James, thou art my prisoner. </l>
+        </sp>
+        <sp xml:id="A02070-e104720" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e104730">Not thine, but fortune's prisoner. </l>
+        </sp>
+        <stage xml:id="A02070-e104740">Enter Cuddie.</stage>
+        <sp xml:id="A02070-e104750" who="A02070-cuddy">
+          <speaker>Cuddie.</speaker>
+          <l xml:id="A02070-e104760">Father, the field is ours: their colours we</l>
+          <l xml:id="A02070-e104770">Have seized:</l>
+          <l xml:id="A02070-e104780">And Humes is stain: I slew him hand to hand. </l>
+        </sp>
+        <sp xml:id="A02070-e104790" who="A02070-musgrove">
+          <pb facs="9"/>
+          <speaker>Mus.</speaker>
+          <l xml:id="A02070-e104800">God and saint George. </l>
+        </sp>
+        <sp xml:id="A02070-e104810" who="A02070-cuddy">
+          <speaker>Cuddie.</speaker>
+          <l xml:id="A02070-e104820">O father, I am sore athirst. </l>
+        </sp>
+        <sp xml:id="A02070-e104830" who="A02070-jane">
+          <speaker>Jane.</speaker>
+          <l xml:id="A02070-e104840">Come in, young Cuddie, come and drink thy fill:</l>
+          <l xml:id="A02070-e104850">Bring in King Jame with you as a guest:</l>
+          <l xml:id="A02070-e104860">For all this broil was cause he could not enter. </l>
+        </sp>
+        <stage xml:id="A02070-e104870">Exeunt omnes.</stage>
+        <stage xml:id="A02070-e104880">Enter George a Greene alone.</stage>
+        <sp xml:id="A02070-e104890" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e104900">The sweet content of men that live in love,</l>
+          <l xml:id="A02070-e104910">Breeds fretting humours in a restless mind,</l>
+          <l xml:id="A02070-e104920">And fancy being checked by fortune's spite,</l>
+          <l xml:id="A02070-e104930">Grows too impatient in her sweet desires:</l>
+          <l xml:id="A02070-e104940">Sweet to those men whom love leads on to bliss,</l>
+          <l xml:id="A02070-e104950">But sour to me, whose hap is still amiss. </l>
+        </sp>
+        <stage xml:id="A02070-e104960">Enter the clown.</stage>
+        <sp xml:id="A02070-e104970" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e104980">Marry amen, sir. </l>
+        </sp>
+        <sp xml:id="A02070-e104990" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e105000">Sir, what do you cry, amen at? </l>
+        </sp>
+        <sp xml:id="A02070-e105010" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e105020">Why, did not you talk of love? </l>
+        </sp>
+        <sp xml:id="A02070-e105030" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e105040">How do you know that? </l>
+        </sp>
+        <sp xml:id="A02070-e105050" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e105060">Well, though I say it that should not say it,</l>
+          <l xml:id="A02070-e105070">There are few fellows in our parish,</l>
+          <l xml:id="A02070-e105080">So nettled with love, as I have been of late. </l>
+        </sp>
+        <sp xml:id="A02070-e105090" who="A02070-george">
+          <speaker>Geor.</speaker>
+          <l xml:id="A02070-e105100">Sirrah, I thought no less, when the other morning,</l>
+          <l xml:id="A02070-e105110">You rose so early to go to your wenches. </l>
+          <l xml:id="A02070-e105120">Sir, I had thought you had gone about my honest business. </l>
+        </sp>
+        <sp xml:id="A02070-e105130" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e105140">Trow you have hit it: for master, be it known</l>
+          <l xml:id="A02070-e105150">To you,</l>
+          <l xml:id="A02070-e105160">There is some good will betwixt Madge the sousewife,</l>
+          <l xml:id="A02070-e105170">And I,</l>
+          <l xml:id="A02070-e105180"><pb facs="10"/> marry she hath another lover. </l>
+        </sp>
+        <sp xml:id="A02070-e105190" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e105200">Canst thou brook any rivals in thy love? </l>
+        </sp>
+        <sp xml:id="A02070-e105210" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e105220">A rider? no, he is a sow-gelder, and goes a foot. </l>
+          <l xml:id="A02070-e105230">But Madge pointed to meet me in your wheat close. </l>
+        </sp>
+        <sp xml:id="A02070-e105240" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e105250">Well, did she meet you there? </l>
+        </sp>
+        <sp xml:id="A02070-e105260" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e105270">Never make question of that:</l>
+          <l xml:id="A02070-e105280">And first I saluted her with a green gown,</l>
+          <l xml:id="A02070-e105290">And after fell as hard a-wooing ,</l>
+          <l xml:id="A02070-e105300">As if the priest had been at our backs, to have married us. </l>
+        </sp>
+        <sp xml:id="A02070-e105310" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e105320">What, did she grant? </l>
+        </sp>
+        <sp xml:id="A02070-e105330" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e105340">Did she grant? Never make question of that:</l>
+          <l xml:id="A02070-e105350">And she gave me a shirt collar,</l>
+          <l xml:id="A02070-e105360">Wrought over with no counterfeit stuff. </l>
+        </sp>
+        <sp xml:id="A02070-e105370" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e105380">What, was it gold? </l>
+        </sp>
+        <sp xml:id="A02070-e105390" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e105400">Nay, 'twas better than gold. </l>
+        </sp>
+        <sp xml:id="A02070-e105410" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e105420">What was it? </l>
+        </sp>
+        <sp xml:id="A02070-e105430" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e105440">Right Coventry blew,</l>
+          <l xml:id="A02070-e105450">Who had no sooner come there, but wot you who came by. </l>
+        </sp>
+        <sp xml:id="A02070-e105460" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e105470">No, who? </l>
+        </sp>
+        <sp xml:id="A02070-e105480" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e105490">Clim the sow-gelder. </l>
+        </sp>
+        <sp xml:id="A02070-e105500" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e105510">Came he by? </l>
+        </sp>
+        <sp xml:id="A02070-e105520" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e105530">He spied Madge and I sit together,</l>
+          <l xml:id="A02070-e105540">He leapt from his horse, laid his hand on his dagger, and</l>
+          <l xml:id="A02070-e105550">Began to swear. </l>
+          <l xml:id="A02070-e105560">Now I seeing he had a dagger,</l>
+          <l xml:id="A02070-e105570">And I nothing but this twig in my hand,</l>
+          <l xml:id="A02070-e105580">I gave him fair words and said nothing. </l>
+          <l xml:id="A02070-e105590"><pb facs="10"/>He comes to me and takes me by the bosom,</l>
+          <l xml:id="A02070-e105600">You horseb shoe, said he, hold my horse,</l>
+          <l xml:id="A02070-e105610">And look he take no cold in his feet. </l>
+          <l xml:id="A02070-e105620">No marry shall he sir, quoth I,</l>
+          <l xml:id="A02070-e105630">I'll lay my cloak underneath him:</l>
+          <l xml:id="A02070-e105640">I took my cloak, spread it all along,</l>
+          <l xml:id="A02070-e105650">And his horse on the midst of it. </l>
+        </sp>
+        <sp xml:id="A02070-e105660" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e105670">Thou clown, didst thou set his horse upon</l>
+          <l xml:id="A02070-e105680">Thy cloak? </l>
+        </sp>
+        <sp xml:id="A02070-e105690" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e105700">Ay, but mark how I served him:</l>
+          <l xml:id="A02070-e105710">Madge and he was no sooner gone down into the ditch,</l>
+          <l xml:id="A02070-e105720">But I plucked out my knife,</l>
+          <l xml:id="A02070-e105730">Cut four holes in my cloak, and made his horse stand</l>
+          <l xml:id="A02070-e105740">On the bare ground. </l>
+        </sp>
+        <sp xml:id="A02070-e105750" who="A02070-george">
+          <speaker>Geor.</speaker>
+          <l xml:id="A02070-e105760">'Twas well done: now sir, go and survey my fields:</l>
+          <l xml:id="A02070-e105770">If you find any cattle in the corn, to pound with them. </l>
+        </sp>
+        <sp xml:id="A02070-e105780" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e105790">And if I find any in the pound,</l>
+          <l xml:id="A02070-e105800">I shall turn them out. </l>
+          <stage xml:id="A02070-e105810">Exit Jenkin.</stage>
+        </sp>
+        <stage xml:id="A02070-e105820">Enter the Earl of Kendal, lord Bonfield, sir Gilbert, all disguised, with a train of men.</stage>
+        <sp xml:id="A02070-e105830" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e105840">Now we have put the horses in the corn,</l>
+          <l xml:id="A02070-e105850">Let us stand in some corner for to hear,</l>
+          <l xml:id="A02070-e105860">What braving terms the pinner will breathe,</l>
+          <l xml:id="A02070-e105870">When he spies our horses in the corn. </l>
+        </sp>
+        <stage xml:id="A02070-e105880">Enter Jack blowing of his horn.</stage>
+        <sp xml:id="A02070-e105890" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e105900">O master where are you? we have a prize. </l>
+        </sp>
+        <sp xml:id="A02070-e105910" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e105920">A prize, what is it? </l>
+        </sp>
+        <sp xml:id="A02070-e105930" who="A02070-jenkin">
+          <pb facs="11"/>
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e105940">Three goodly horses in our wheat close. </l>
+        </sp>
+        <sp xml:id="A02070-e105950" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e105960">Three horses in our wheat close? whose be they? </l>
+        </sp>
+        <sp xml:id="A02070-e105970" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <p xml:id="A02070-e105980">Marry that's a riddle to me: but they are there: velvet horses, and I never saw such horses before. As my duty was, I put off my cap, and said as followeth: my masters, what do you make in our close? One of them hearing me ask what he made there, held up his head and neighed, and after his manner laughed as heartily as if a mare had been tied to his girdle. My masters, said I, it is no laughing matter; for if my master take you here, you go, as round as a top, to the pound. Another untoward jade hearing me threaten him to the pound, and to tell you of them, cast up both his heels, and let such a monstrous great fart; that was as much as in his language to say, a fart for the pound, and a fart for George a green. Now I hearing this, put on my cap, blew my horn, called them all jades, and came to tell you.</p>
+        </sp>
+        <sp xml:id="A02070-e105990" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e106000">Now sir, go and drive me those three horses</l>
+          <l xml:id="A02070-e106010">To the pound. </l>
+        </sp>
+        <sp xml:id="A02070-e106020" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e106030">Do you hear? I were best take a constable</l>
+          <l xml:id="A02070-e106040">With me. </l>
+        </sp>
+        <sp xml:id="A02070-e106050" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e106060">Why so? </l>
+          <l xml:id="A02070-e106070">Why, they being gentlemen's horses, may stand on their</l>
+          <l xml:id="A02070-e106080">Reputation, and will not obey me. </l>
+        </sp>
+        <sp xml:id="A02070-e106090" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e106100">Go do as I bid you, sir. </l>
+        </sp>
+        <sp xml:id="A02070-e106110" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e106120">Well, I may go. </l>
+        </sp>
+        <stage xml:id="A02070-e106130">The Earl of Kendall, the lord Bonfild, and sir Gilbert Armestrong meet them.</stage>
+        <sp xml:id="A02070-e106140" who="A02070-kendal">
+          <pb facs="11"/>
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e106150">Whither away, sir? </l>
+        </sp>
+        <sp xml:id="A02070-e106160" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e106170">Whither away? I am going to put the horses</l>
+          <l xml:id="A02070-e106180">In the pound. </l>
+        </sp>
+        <sp xml:id="A02070-e106190" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e106200">Sirrah, those three horses belong to us, and we put</l>
+          <l xml:id="A02070-e106210">Them in, and they must tarry there, and eat their fill. </l>
+        </sp>
+        <sp xml:id="A02070-e106220" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e106230">Stay, I will go tell my master. </l>
+          <l xml:id="A02070-e106240">Hear you, master? we have another prize:</l>
+          <l xml:id="A02070-e106250">Those three horses be in your wheat close still,</l>
+          <l xml:id="A02070-e106260">And here be three geldings more. </l>
+        </sp>
+        <sp xml:id="A02070-e106270" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e106280">What be these? </l>
+        </sp>
+        <sp xml:id="A02070-e106290" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e106300">These are the masters of the horses. </l>
+        </sp>
+        <sp xml:id="A02070-e106310" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e106320">Now, gentlemen, I know not your degrees,</l>
+          <l xml:id="A02070-e106330">But more you cannot be, unless you be Kings,</l>
+          <l xml:id="A02070-e106340">Why wrong you us of Wakefield with your horses? </l>
+          <l xml:id="A02070-e106350">I am the pinner, and before you pass,</l>
+          <l xml:id="A02070-e106360">You shall make good the trespass they have done. </l>
+        </sp>
+        <sp xml:id="A02070-e106370" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e106380">Peace, saucy mate, prate not to us:</l>
+          <l xml:id="A02070-e106390">I tell thee, pinner, we are gentlemen. </l>
+        </sp>
+        <sp xml:id="A02070-e106400" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e106410">Why sir, so may I sir, although I give no arms. </l>
+        </sp>
+        <sp xml:id="A02070-e106420" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e106430">Thou? how art thou a gentleman? </l>
+        </sp>
+        <sp xml:id="A02070-e106440" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e106450">And such is my master, and he may give as good</l>
+          <l xml:id="A02070-e106460">Arms, as ever your great grandfather could give. </l>
+        </sp>
+        <sp xml:id="A02070-e106470" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e106480">Pray thee let me hear how? </l>
+        </sp>
+        <sp xml:id="A02070-e106490" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e106500">Marry my master may give for his arms,</l>
+          <l xml:id="A02070-e106510">The picture of April in a green jerkin,</l>
+          <l xml:id="A02070-e106520">With a rook on one fist, and an horn on the other:</l>
+          <l xml:id="A02070-e106530">But my master gives his arms the wrong way;</l>
+          <l xml:id="A02070-e106540">For he gives the horn on his fist:</l>
+          <l xml:id="A02070-e106550"><pb facs="12"/> and your grandfather, because he would not lose his</l>
+          <l xml:id="A02070-e106560">Arms,</l>
+          <l xml:id="A02070-e106570">Wears the horn on his own head. </l>
+        </sp>
+        <sp xml:id="A02070-e106580" who="A02070-kendal">
+          <speaker>Kend:</speaker>
+          <l xml:id="A02070-e106590">Well pinner, sith our horses be in,</l>
+          <l xml:id="A02070-e106600">In spite of thee they now shall feed their fill,</l>
+          <l xml:id="A02070-e106610">And eat until our leisures serve to go. </l>
+        </sp>
+        <sp xml:id="A02070-e106620" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e106630">Now by my father's soul,</l>
+          <l xml:id="A02070-e106640">Were good King Edward's horses in the corn,</l>
+          <l xml:id="A02070-e106650">They shall amend the seath or kiss the pound,</l>
+          <l xml:id="A02070-e106660">Much more yours sir, whatsoever you be. </l>
+        </sp>
+        <sp xml:id="A02070-e106670" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e106680">Why man, thou knowest not us,</l>
+          <l xml:id="A02070-e106690">We do belong to Henry Momford Earl of Kendal,</l>
+          <l xml:id="A02070-e106700">Men that before a month be full expired,</l>
+          <l xml:id="A02070-e106710">Will be King Edward's betters in the land. </l>
+        </sp>
+        <sp xml:id="A02070-e106720" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e106730">King Edward's better, rebel, thou liest. </l>
+          <stage xml:id="A02070-e106740">George strikes him.</stage>
+        </sp>
+        <sp xml:id="A02070-e106750" who="A02070-bonfield">
+          <speaker>Bonfild.</speaker>
+          <l xml:id="A02070-e106760">Villain, what hast thou done? thou hast stroke</l>
+          <l xml:id="A02070-e106770">An Earl. </l>
+        </sp>
+        <sp xml:id="A02070-e106780" who="A02070-george">
+          <speaker>Geor.</speaker>
+          <l xml:id="A02070-e106790">Why what care I? A poor man that is true,</l>
+          <l xml:id="A02070-e106800">Is better than an Earl, if he be false:</l>
+          <l xml:id="A02070-e106810">Traitors reap no better favours at my hands. </l>
+        </sp>
+        <sp xml:id="A02070-e106820" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e106830">Ay, so methinks , but thou shalt dear aby this blow. </l>
+          <l xml:id="A02070-e106840">Now or never lay hold on the pinner. </l>
+        </sp>
+        <stage xml:id="A02070-e106850">Enter all the ambush.</stage>
+        <sp xml:id="A02070-e106860" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e106870">Stay, my lords, let us parley on these broils:</l>
+          <l xml:id="A02070-e106880">Not Hercules against two, the proverb is,</l>
+          <l xml:id="A02070-e106890">Nor I against so great a multitude. </l>
+          <l xml:id="A02070-e106900">Had not your troops come marching as they did,</l>
+          <l xml:id="A02070-e106910"><pb facs="12"/> I would have stopped your passage unto London:</l>
+          <l xml:id="A02070-e106920">But now I'll fly to secret policy. </l>
+        </sp>
+        <sp xml:id="A02070-e106930" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e106940">What dost thou murmur, George? </l>
+        </sp>
+        <sp xml:id="A02070-e106950" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e106960">Marry this, my lord, I muse,</l>
+          <l xml:id="A02070-e106970">If thou be Henry Momford Kendal's Earl,</l>
+          <l xml:id="A02070-e106980">That thou wilt do poor G. a green this wrong,</l>
+          <l xml:id="A02070-e106990">Ever to match me with a troop of men. </l>
+        </sp>
+        <sp xml:id="A02070-e107000" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e107010">Why dost thou strike me then? </l>
+        </sp>
+        <sp xml:id="A02070-e107020" who="A02070-george">
+          <speaker>Geor.</speaker>
+          <l xml:id="A02070-e107030">Why my lord, measure me but by yourself:</l>
+          <l xml:id="A02070-e107040">Had you a man had served you long,</l>
+          <l xml:id="A02070-e107050">And heard your foe misuse you behind your back,</l>
+          <l xml:id="A02070-e107060">And would not draw his sword in your defence,</l>
+          <l xml:id="A02070-e107070">You would cashier him. </l>
+          <l xml:id="A02070-e107080">Much more, King Edward is my King:</l>
+          <l xml:id="A02070-e107090">And before I'll hear him so wronged,</l>
+          <l xml:id="A02070-e107100">I'll die within this place,</l>
+          <l xml:id="A02070-e107110">And maintain good whatsoever I have said. </l>
+          <l xml:id="A02070-e107120">And if I speak not reason in this case,</l>
+          <l xml:id="A02070-e107130">What I have said I'll maintain in this place. </l>
+        </sp>
+        <sp xml:id="A02070-e107140" who="A02070-bonfield">
+          <speaker>Bon.</speaker>
+          <l xml:id="A02070-e107150">A pardon my lord for this pinner,</l>
+          <l xml:id="A02070-e107160">For trust me he speaketh like a man of worth. </l>
+        </sp>
+        <sp xml:id="A02070-e107170" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e107180">Well, George, wilt thou leave Wakefield and</l>
+          <l xml:id="A02070-e107190">Wend with me,</l>
+          <l xml:id="A02070-e107200">I'll freely put up all and pardon thee. </l>
+        </sp>
+        <sp xml:id="A02070-e107210" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e107220">I my lord, considering me one thing,</l>
+          <l xml:id="A02070-e107230">You will leave these arms and follow your good King. </l>
+        </sp>
+        <sp xml:id="A02070-e107240" who="A02070-kendal">
+          <speaker>Ken.</speaker>
+          <l xml:id="A02070-e107250">Why George, I rise not against King Edward,</l>
+          <l xml:id="A02070-e107260">But for the poor that is oppressed by wrong,</l>
+          <l xml:id="A02070-e107270"><pb facs="13"/> from whence came you? where do you dwell? </l>
+        </sp>
+        <sp xml:id="A02070-e107280" who="A02070-willy">
+          <speaker>Vvily.</speaker>
+          <l xml:id="A02070-e107290">I am, forsooth, a sempster's maid hard-by,</l>
+          <l xml:id="A02070-e107300">That hath brought work home to your daughter. </l>
+        </sp>
+        <sp xml:id="A02070-e107310" who="A02070-grime">
+          <speaker>Grime.</speaker>
+          <l xml:id="A02070-e107320">Nay, are you not some crafty quean,</l>
+          <l xml:id="A02070-e107330">That comes from George a green, that rascal,</l>
+          <l xml:id="A02070-e107340">With some letters to my daughter? </l>
+          <l xml:id="A02070-e107350">I will have you searched. </l>
+        </sp>
+        <sp xml:id="A02070-e107360" who="A02070-willy">
+          <speaker>Vvily.</speaker>
+          <l xml:id="A02070-e107370">Alas, sir, it is hebrew unto me,</l>
+          <l xml:id="A02070-e107380">To tell me of George a green, or any other:</l>
+          <l xml:id="A02070-e107390">Search me good sir,</l>
+          <l xml:id="A02070-e107400">And if you find a letter about me,</l>
+          <l xml:id="A02070-e107410">Let me have the punishment that is due. </l>
+        </sp>
+        <sp xml:id="A02070-e107420" who="A02070-grime">
+          <speaker>Grime.</speaker>
+          <l xml:id="A02070-e107430">Why are you muffled? I like you the worse</l>
+          <l xml:id="A02070-e107440">For that. </l>
+        </sp>
+        <sp xml:id="A02070-e107450" who="A02070-willy">
+          <speaker>Vvily.</speaker>
+          <l xml:id="A02070-e107460">I am not, sir, ashamed to show my face,</l>
+          <l xml:id="A02070-e107470">Yet loath I am my cheeks should take the air,</l>
+          <l xml:id="A02070-e107480">Not that I am chary of my beauty's hue,</l>
+          <l xml:id="A02070-e107490">But that I am troubled with the toothache sore. </l>
+        </sp>
+        <sp xml:id="A02070-e107500" who="A02070-grime">
+          <speaker>Grime.</speaker>
+          <l xml:id="A02070-e107510">A pretty wench of smiling countenance,</l>
+          <l xml:id="A02070-e107520">Old men can like, although they cannot love,</l>
+          <l xml:id="A02070-e107530">Ay, and love, though not so brief as young men can. </l>
+          <l xml:id="A02070-e107540">Well, go in, my wench, and speak with my daughter. </l>
+          <stage xml:id="A02070-e107550">Exit.</stage>
+          <l xml:id="A02070-e107560">I wonder much at the Earl of Kendal,</l>
+          <l xml:id="A02070-e107570">Being a mighty man, as still he is,</l>
+          <l xml:id="A02070-e107580">Yet for to be a traitor to his King,</l>
+          <l xml:id="A02070-e107590">Is more than God or man will well allow:</l>
+          <l xml:id="A02070-e107600">But what a fool am I to talk of him? </l>
+          <l xml:id="A02070-e107610"><pb facs="13"/>My mind is more here of the pretty lass:</l>
+          <l xml:id="A02070-e107620">Had she brought some forty pounds to town. </l>
+          <l xml:id="A02070-e107630">I could be content to make her my wife:</l>
+          <l xml:id="A02070-e107640">Yet I have heard it in a proverb said,</l>
+          <l xml:id="A02070-e107650">He that is old, and marries with a lass,</l>
+          <l xml:id="A02070-e107660">Lies but at home, and proves himself an ass. </l>
+          <stage xml:id="A02070-e107670">Enter Bettris in Wily's apparel to Grime</stage>
+          <l xml:id="A02070-e107680">How now, my wench, how is't? what not a word? </l>
+          <l xml:id="A02070-e107690">Alas, poor soul, the toothache plagues her sore. </l>
+          <l xml:id="A02070-e107700">Well, my wench, here is an angel for to buy thee</l>
+          <l xml:id="A02070-e107710">And I pray thee use mine house,</l>
+          <l xml:id="A02070-e107720">The oftener the more welcome: farewell. </l>
+        </sp>
+        <sp xml:id="A02070-e107730" who="A02070-bettris">
+          <speaker>Bettris.</speaker>
+          <l xml:id="A02070-e107740">O blessed love, and blessed fortune both. </l>
+          <l xml:id="A02070-e107750">But Bettris, stand not here to talk of love,</l>
+          <l xml:id="A02070-e107760">But hie thee straight unto thy George a green:</l>
+          <l xml:id="A02070-e107770">Never went roebuck swifter on the downs,</l>
+          <l xml:id="A02070-e107780">Than I will trip it till I see my George. </l>
+        </sp>
+        <stage xml:id="A02070-e107790">Enter the Earl of Kendall, L. Bonfield, sir Gilbert, and Jenkin the clown.</stage>
+        <sp xml:id="A02070-e107800" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e107810">Come away Jenkin. </l>
+        </sp>
+        <sp xml:id="A02070-e107820" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e107830">Come, here is his house. Where be you, ho? </l>
+        </sp>
+        <sp xml:id="A02070-e107840" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e107850">Who knocks there? </l>
+        </sp>
+        <sp xml:id="A02070-e107860" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e107870">Here are two or three poor men, father,</l>
+          <l xml:id="A02070-e107880">Would speak with you. </l>
+        </sp>
+        <sp xml:id="A02070-e107890" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e107900">Pray give your man leave to lead me fort</l>
+        </sp>
+        <sp xml:id="A02070-e107910" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e107920">Go, Jenkin, fetch him forth. </l>
+        </sp>
+        <sp xml:id="A02070-e107930" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e107940">Come, old man. </l>
+        </sp>
+        <stage xml:id="A02070-e107950">Enter George a Greene disguised.</stage>
+        <sp xml:id="A02070-e107960" who="A02070-kendal">
+          <pb facs="14"/>
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e107970">Father, here is three poor men come to question</l>
+          <l xml:id="A02070-e107980">Thee a word in secret that concerns their lives. </l>
+        </sp>
+        <sp xml:id="A02070-e107990" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e108000">Say on my sons. </l>
+        </sp>
+        <sp xml:id="A02070-e108010" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e108020">Father, I am sure you hear the news,</l>
+          <l xml:id="A02070-e108030">How that the Earl of Kendal wars against the King,</l>
+          <l xml:id="A02070-e108040">Now father we three are gentlemen by birth,</l>
+          <l xml:id="A02070-e108050">But younger brothers that want revenues,</l>
+          <l xml:id="A02070-e108060">And for the hope we have to be preferred,</l>
+          <l xml:id="A02070-e108070">If that we knew that we shall win,</l>
+          <l xml:id="A02070-e108080">We will march with him:</l>
+          <l xml:id="A02070-e108090">If not, we will not march a foot to London more. </l>
+          <l xml:id="A02070-e108100">Therefore good father, tell us what shall happen,</l>
+          <l xml:id="A02070-e108110">Whether the King or the Earl of Kendal shall win. </l>
+        </sp>
+        <sp xml:id="A02070-e108120" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e108130">The King, my son. </l>
+        </sp>
+        <sp xml:id="A02070-e108140" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e108150">Art thou sure of that? </l>
+        </sp>
+        <sp xml:id="A02070-e108160" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e108170">Ay, as sure as thou art Henry Momford,</l>
+          <l xml:id="A02070-e108180">The one l. Bonfild, the other sir Gilbert. </l>
+        </sp>
+        <sp xml:id="A02070-e108190" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e108200">Why this is wondrous, being blind of sight,</l>
+          <l xml:id="A02070-e108210">His deep perseverance should be such to know us. </l>
+        </sp>
+        <sp xml:id="A02070-e108220" who="A02070-gilbert">
+          <speaker>Gilb.</speaker>
+          <l xml:id="A02070-e108230">Magic is mighty, and foretelleth great matters:</l>
+          <l xml:id="A02070-e108240">In deed father, here is the Earl come to see thee,</l>
+          <l xml:id="A02070-e108250">And therefore good father fable not with him. </l>
+        </sp>
+        <sp xml:id="A02070-e108260" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e108270">Welcome is the Earl to my poor cell,</l>
+          <l xml:id="A02070-e108280">And so are you my lords: but let me counsel you,</l>
+          <l xml:id="A02070-e108290">To leave these wars against your King,</l>
+          <l xml:id="A02070-e108300">And live in quiet. </l>
+        </sp>
+        <sp xml:id="A02070-e108310" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e108320">Father, we come not for advice in war,</l>
+          <l xml:id="A02070-e108330">But to know whether we shall win or lose. </l>
+        </sp>
+        <sp xml:id="A02070-e108340" who="A02070-george">
+          <pb facs="14"/>
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e108350">Lose gentle lords, but not by good King Edward:</l>
+          <l xml:id="A02070-e108360">A baser man shall give you all the foil. </l>
+        </sp>
+        <sp xml:id="A02070-e108370" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e108380">I marry father, what man is that? </l>
+        </sp>
+        <sp xml:id="A02070-e108390" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e108400">Poor George a green the pinner. </l>
+        </sp>
+        <sp xml:id="A02070-e108410" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e108420">What shall he? </l>
+        </sp>
+        <sp xml:id="A02070-e108430" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e108440">Pull all your plumes, and sore dishonour you. </l>
+        </sp>
+        <sp xml:id="A02070-e108450" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e108460">He, as how? </l>
+        </sp>
+        <sp xml:id="A02070-e108470" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e108480">Nay, the end tries all, but so it will fall out. </l>
+        </sp>
+        <sp xml:id="A02070-e108490" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e108500">But so it shall not by my honour Christ. </l>
+          <l xml:id="A02070-e108510">I'll raise my camp, and fire Wakefield town,</l>
+          <l xml:id="A02070-e108520">And take that servile pinner George a green,</l>
+          <l xml:id="A02070-e108530">And butcher him before King Edward's face. </l>
+        </sp>
+        <sp xml:id="A02070-e108540" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e108550">Good my lord be not offended,</l>
+          <l xml:id="A02070-e108560">For I speak no more than art reveals to me:</l>
+          <l xml:id="A02070-e108570">And for greater proof,</l>
+          <l xml:id="A02070-e108580">Give your man leave to fetch me my staff. </l>
+        </sp>
+        <sp xml:id="A02070-e108590" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e108600">Jenkin, fetch him his walking staff. </l>
+        </sp>
+        <sp xml:id="A02070-e108610" who="A02070-jenkin">
+          <speaker>Jen.</speaker>
+          <l xml:id="A02070-e108620">Here is your walking staff. </l>
+        </sp>
+        <sp xml:id="A02070-e108630" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e108640">I'll prove it good upon your carcases:</l>
+          <l xml:id="A02070-e108650">A wiser wizard never met you yet,</l>
+          <l xml:id="A02070-e108660">Nor one that better could foredoom your fall:</l>
+          <l xml:id="A02070-e108670">Now I have singled you here alone,</l>
+          <l xml:id="A02070-e108680">I care not though you be three to one. </l>
+        </sp>
+        <sp xml:id="A02070-e108690" who="A02070-kendal">
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e108700">Villain, hast thou betrayed us? </l>
+        </sp>
+        <sp xml:id="A02070-e108710" who="A02070-george">
+          <speaker>Georg.</speaker>
+          <l xml:id="A02070-e108720">Momford, thou liest, never was I traitor yet;</l>
+          <l xml:id="A02070-e108730">Only devised this guile to draw you on,</l>
+          <l xml:id="A02070-e108740">For to be combatants. </l>
+          <l xml:id="A02070-e108750">Now conquer me, and then march on to London:</l>
+          <pb facs="15"/>
+          <pb facs="15"/>
+          <l xml:id="A02070-e108760"><pb facs="16"/> lest you be torn in pieces with she devils:</l>
+          <l xml:id="A02070-e108770">Mistress Bettris, once, twice, thrice. </l>
+          <stage xml:id="A02070-e108780">He throws the ground in, and she comes out.</stage>
+          <l xml:id="A02070-e108790">O is this no cunning? </l>
+        </sp>
+        <sp xml:id="A02070-e108800" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e108810">Is this my love, or is it but her shadow? </l>
+        </sp>
+        <sp xml:id="A02070-e108820" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e108830">I this is the shadow, but here is the substance. </l>
+        </sp>
+        <sp xml:id="A02070-e108840" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e108850">Tell me sweet love, what good fortune</l>
+          <l xml:id="A02070-e108860">Brought thee hither:</l>
+          <l xml:id="A02070-e108870">For one it was that favoured George a green. </l>
+        </sp>
+        <sp xml:id="A02070-e108880" who="A02070-bettris">
+          <speaker>Bettris.</speaker>
+          <l xml:id="A02070-e108890">Both love and fortune brought me to my George,</l>
+          <l xml:id="A02070-e108900">In whose sweet sight is all my hearts content. </l>
+        </sp>
+        <sp xml:id="A02070-e108910" who="A02070-george">
+          <speaker>Geor.</speaker>
+          <l xml:id="A02070-e108920">Tell me sweet love, how camest thou from thy</l>
+          <l xml:id="A02070-e108930">Fathers? </l>
+        </sp>
+        <sp xml:id="A02070-e108940" who="A02070-bettris">
+          <speaker>Bettris.</speaker>
+          <l xml:id="A02070-e108950">A willing mind hath many slips in love:</l>
+          <l xml:id="A02070-e108960">It was not I, but wily thy sweet boy. </l>
+        </sp>
+        <sp xml:id="A02070-e108970" who="A02070-george">
+          <speaker>Geor.</speaker>
+          <l xml:id="A02070-e108980">And where is wily now? </l>
+        </sp>
+        <sp xml:id="A02070-e108990" who="A02070-bettris">
+          <speaker>Bettris.</speaker>
+          <l xml:id="A02070-e109000">In my apparel in my chamber still. </l>
+        </sp>
+        <sp xml:id="A02070-e109010" who="A02070-george">
+          <speaker>Geor.</speaker>
+          <l xml:id="A02070-e109020">Jenkin, come hither: go to Bradford,</l>
+          <l xml:id="A02070-e109030">And listen out your fellow wily. </l>
+          <l xml:id="A02070-e109040">Come, Bettris, let us in,</l>
+          <l xml:id="A02070-e109050">And in my cottage we will sit and talk. </l>
+        </sp>
+        <stage xml:id="A02070-e109060">Exeunt omnes.</stage>
+        <stage xml:id="A02070-e109070">Enter King Edward, the King of Scots, lord Warwick young Cuddy, and their train.</stage>
+        <sp xml:id="A02070-e109080" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e109090">Brother of Scotland, I do hold it hard,</l>
+          <l xml:id="A02070-e109100">Seeing a league of truce was late confirmed</l>
+          <l xml:id="A02070-e109110">Twixt you and me, without displeasure offered,</l>
+          <l xml:id="A02070-e109120">You should make such invasion in my land,</l>
+          <l xml:id="A02070-e109130"><pb facs="16"/> the vows of Kings should be as oracles,</l>
+          <l xml:id="A02070-e109140">Not blemished with the stain of any breach,</l>
+          <l xml:id="A02070-e109150">Chiefly where fealty and homage willeth it. </l>
+        </sp>
+        <sp xml:id="A02070-e109160" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e109170">Brother of England, rub not the sore afresh,</l>
+          <l xml:id="A02070-e109180">My conscience grieves me for my deep misdeed,</l>
+          <l xml:id="A02070-e109190">I have the worst, of thirty thousand men,</l>
+          <l xml:id="A02070-e109200">There scaped not full five thousand from the field. </l>
+        </sp>
+        <sp xml:id="A02070-e109210" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e109220">Gramercy, Musgrove, else it had gone hard. </l>
+          <l xml:id="A02070-e109230">Cuddie, I'll quite thee well ere we two part</l>
+        </sp>
+        <sp xml:id="A02070-e109240" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e109250">But had not his old father William Musgrove</l>
+          <l xml:id="A02070-e109260">Played twice the man, I had not now been here,</l>
+          <l xml:id="A02070-e109270">A stronger man I seldom felt before,</l>
+          <l xml:id="A02070-e109280">But one of more resolute valiance,</l>
+          <l xml:id="A02070-e109290">Treads not I think upon the English ground. </l>
+        </sp>
+        <sp xml:id="A02070-e109300" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e109310">I wot well, Musgrove shall not lose his hire. </l>
+        </sp>
+        <sp xml:id="A02070-e109320" who="A02070-cuddy">
+          <speaker>Cuddie.</speaker>
+          <l xml:id="A02070-e109330">And it please your grace, my father was</l>
+          <l xml:id="A02070-e109340">Five score and three at midsummer last passed,</l>
+          <l xml:id="A02070-e109350">Yet had King Jamie bene as good as George a green,</l>
+          <l xml:id="A02070-e109360">Yet Billy Musgrove would have fought with him. </l>
+        </sp>
+        <sp xml:id="A02070-e109370" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e109380">As George a green, I pray thee, Cuddie,</l>
+          <l xml:id="A02070-e109390">Let me question thee,</l>
+          <l xml:id="A02070-e109400">Much have I heard since I came to my crown,</l>
+          <l xml:id="A02070-e109410">Many in manner of a proverb say,</l>
+          <l xml:id="A02070-e109420">Were he as good as G. a green, I would strike him sure:</l>
+          <l xml:id="A02070-e109430">I pray thee tell me, Cuddie, canst thou inform me,</l>
+          <l xml:id="A02070-e109440">What is that George a green. </l>
+        </sp>
+        <sp xml:id="A02070-e109450" who="A02070-cuddy">
+          <speaker>Cuddie.</speaker>
+          <l xml:id="A02070-e109460">Know, my lord, I never saw the man,</l>
+          <l xml:id="A02070-e109470">But mickle talk is of him in the country. </l>
+          <l xml:id="A02070-e109480"><pb facs="17"/>They say he is the pinner of Wakefield town,</l>
+          <l xml:id="A02070-e109490">But for his other qualities, I let alone. </l>
+        </sp>
+        <sp xml:id="A02070-e109500" who="A02070-warw">
+          <speaker>War.</speaker>
+          <l xml:id="A02070-e109510">May it please your grace, I know the man too well. </l>
+        </sp>
+        <sp xml:id="A02070-e109520" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e109530">Too well, why so, Warwick? </l>
+        </sp>
+        <sp xml:id="A02070-e109540" who="A02070-warw">
+          <speaker>War.</speaker>
+          <l xml:id="A02070-e109550">For once he swinged me, till my bones did ache. </l>
+        </sp>
+        <sp xml:id="A02070-e109560" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e109570">Why, dares he strike an Earl? </l>
+        </sp>
+        <sp xml:id="A02070-e109580" who="A02070-warwick">
+          <speaker>Warw.</speaker>
+          <l xml:id="A02070-e109590">An Earl my lord, nay he will strike a King,</l>
+          <l xml:id="A02070-e109600">Be it not King Edward. </l>
+          <l xml:id="A02070-e109610">For stature he is framed,</l>
+          <l xml:id="A02070-e109620">Like to the picture of stout Hercules,</l>
+          <l xml:id="A02070-e109630">And for his carriage passeth robin hood. </l>
+          <l xml:id="A02070-e109640">The boldest Earl or baron of your land,</l>
+          <l xml:id="A02070-e109650">That offereth scathe unto the town of Wakefield,</l>
+          <l xml:id="A02070-e109660">George will arrest his pledge unto the pound,</l>
+          <l xml:id="A02070-e109670">And who so resisteth bears away the blows,</l>
+          <l xml:id="A02070-e109680">For he himself is good enough for three. </l>
+        </sp>
+        <sp xml:id="A02070-e109690" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e109700">Why this is wondrous, my l. of Warwick,</l>
+          <l xml:id="A02070-e109710">Sore do I long to see this George a green. </l>
+          <l xml:id="A02070-e109720">But leaving him, what shall we do, my lord,</l>
+          <l xml:id="A02070-e109730">For to subdue the rebels in the North? </l>
+          <l xml:id="A02070-e109740">They are now marching up to Doncaster. </l>
+          <stage xml:id="A02070-e109750">Enter one with the Earl of Kendal prisoner.</stage>
+          <l xml:id="A02070-e109760">Soft, who have we there? </l>
+        </sp>
+        <sp xml:id="A02070-e109770" who="A02070-cuddy">
+          <speaker>Cuddie.</speaker>
+          <l xml:id="A02070-e109780">Here is a traitor, the Earl of Kendal. </l>
+        </sp>
+        <sp xml:id="A02070-e109790" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e109800">Aspiring traitor, how dar'st thou once</l>
+          <l xml:id="A02070-e109810">Cast thine eyes upon thy sovereign,</l>
+          <l xml:id="A02070-e109820">That honoured thee with kindness and with favour? </l>
+          <l xml:id="A02070-e109830">But I will make thee buy this treason dear. </l>
+        </sp>
+        <sp xml:id="A02070-e109840" who="A02070-kendal">
+          <pb facs="17"/>
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e109850">Good my lord. </l>
+        </sp>
+        <sp xml:id="A02070-e109860" who="A02070-edward">
+          <speaker>Edw.</speaker>
+          <l xml:id="A02070-e109870">Reply not, traitor. </l>
+          <l xml:id="A02070-e109880">Tell me, Cuddie, whose deed of honour</l>
+          <l xml:id="A02070-e109890">Won the victory against this rebel. </l>
+        </sp>
+        <sp xml:id="A02070-e109900" who="A02070-cuddy">
+          <speaker>Cuddy.</speaker>
+          <l xml:id="A02070-e109910">George a green the pinner of Wakefield. </l>
+        </sp>
+        <sp xml:id="A02070-e109920" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e109930">George a green, now shall I hear news</l>
+          <l xml:id="A02070-e109940">Certain what this pinner is:</l>
+          <l xml:id="A02070-e109950">Discourse it briefly, Cuddie, how it befell. </l>
+        </sp>
+        <sp xml:id="A02070-e109960" who="A02070-cuddy">
+          <speaker>Cud.</speaker>
+          <l xml:id="A02070-e109970">Kendal and Bonfild, with sir Gilbert Armstrong,</l>
+          <l xml:id="A02070-e109980">Came to Wakefield town disguised. </l>
+          <l xml:id="A02070-e109990">And there spoke ill of your grace,</l>
+          <l xml:id="A02070-e110000">Which George but hearing, felled them at his feet,</l>
+          <l xml:id="A02070-e110010">And had not rescue come into the place,</l>
+          <l xml:id="A02070-e110020">George had slain him in his close of wheat. </l>
+        </sp>
+        <sp xml:id="A02070-e110030" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e110040">But Cuddie, canst thou not tell</l>
+          <l xml:id="A02070-e110050">Where I might give and grant some thing,</l>
+          <l xml:id="A02070-e110060">That might please, and highly gratify the pinner's thoughts? </l>
+        </sp>
+        <sp xml:id="A02070-e110070" who="A02070-cuddy">
+          <speaker>Cuddie.</speaker>
+          <l xml:id="A02070-e110080">This at their parting George did say to me,</l>
+          <l xml:id="A02070-e110090">If the King vouchsafe of this my service,</l>
+          <l xml:id="A02070-e110100">Then gentle Cuddie kneel upon thy knee,</l>
+          <l xml:id="A02070-e110110">And humbly crave a boon of him for me. </l>
+        </sp>
+        <sp xml:id="A02070-e110120" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e110130">Cuddie, what is it? </l>
+        </sp>
+        <sp xml:id="A02070-e110140" who="A02070-cuddy">
+          <speaker>Cuddie.</speaker>
+          <l xml:id="A02070-e110150">It is his will your grace would pardon them,</l>
+          <l xml:id="A02070-e110160">And let them live although they have offended. </l>
+        </sp>
+        <sp xml:id="A02070-e110170" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e110180">I think the man striveth to be glorious. </l>
+          <l xml:id="A02070-e110190">Well, George hath craved it, and it shall be granted,</l>
+          <l xml:id="A02070-e110200">Which none but he in England should have gotten. </l>
+          <l xml:id="A02070-e110210">Live Kendal, but as prisoner,</l>
+          <l xml:id="A02070-e110220">So shalt thou end thy days within the tower. </l>
+        </sp>
+        <sp xml:id="A02070-e110230" who="A02070-kendal">
+          <pb facs="18"/>
+          <speaker>Kend.</speaker>
+          <l xml:id="A02070-e110240">Gracious is Edward to offending subjects. </l>
+        </sp>
+        <sp xml:id="A02070-e110250" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e110260">My lord of Kend. you are welcome to the court. </l>
+        </sp>
+        <sp xml:id="A02070-e110270" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e110280">Nay, but ill come as it falls out now,</l>
+          <l xml:id="A02070-e110290">Ay, ill come in deed, were it not for George a green,</l>
+          <l xml:id="A02070-e110300">But gentle King, for so you would aver,</l>
+          <l xml:id="A02070-e110310">And Edward's betters, I salute you both,</l>
+          <l xml:id="A02070-e110320">And here I vow by good saint George,</l>
+          <l xml:id="A02070-e110330">You will gain but little when your sums are counted. </l>
+          <l xml:id="A02070-e110340">I sore do long to see this George a green:</l>
+          <l xml:id="A02070-e110350">And for because I never saw the North,</l>
+          <l xml:id="A02070-e110360">I will forthwith go see it:</l>
+          <l xml:id="A02070-e110370">And for that to none I will be known,</l>
+          <l xml:id="A02070-e110380">We will disguise ourselves and steal down secretly,</l>
+          <l xml:id="A02070-e110390">Thou and I King James, Cuddie, and two or three,</l>
+          <l xml:id="A02070-e110400">And make a merry journey for a month. </l>
+          <l xml:id="A02070-e110410">Away then, conduct him to the tower. </l>
+          <l xml:id="A02070-e110420">Come on King James my heart must needs be merry,</l>
+          <l xml:id="A02070-e110430">If fortune make such havoc of our foes. </l>
+        </sp>
+        <stage xml:id="A02070-e110440">Ex. omnes.</stage>
+        <stage xml:id="A02070-e110450">Enter Robin hood, maid Marian, Scarlet, and much the miller's son.</stage>
+        <sp xml:id="A02070-e110460" who="A02070-robin">
+          <speaker>Robin.</speaker>
+          <l xml:id="A02070-e110470">Why is not lovely Marian blithe of cheer? </l>
+          <l xml:id="A02070-e110480">What ails my leman that she begins to lower? </l>
+          <l xml:id="A02070-e110490">Say good Marian why art thou so sad. </l>
+        </sp>
+        <sp xml:id="A02070-e110500" who="A02070-marian">
+          <speaker>Marian.</speaker>
+          <l xml:id="A02070-e110510">Nothing, my robin, grieves me to the heart,</l>
+          <l xml:id="A02070-e110520">But whensoever I do walk abroad,</l>
+          <l xml:id="A02070-e110530">I hear no songs but all of George a green,</l>
+          <l xml:id="A02070-e110540">Bettris his fair leman passeth me. </l>
+          <l xml:id="A02070-e110550">And this my robin gauls my very soul. </l>
+        </sp>
+        <sp xml:id="A02070-e110560" who="A02070-robin">
+          <pb facs="18"/>
+          <speaker>Robin.</speaker>
+          <l xml:id="A02070-e110570">Content, what wreaks it us though George a</l>
+          <l xml:id="A02070-e110580">Green be stout,</l>
+          <l xml:id="A02070-e110590">So long as he doth proffer us no scathe? </l>
+          <l xml:id="A02070-e110600">Envy doth seldom hurt but to itself,</l>
+          <l xml:id="A02070-e110610">And therefore, Marian, smile upon thy robin. </l>
+        </sp>
+        <sp xml:id="A02070-e110620" who="A02070-marian">
+          <speaker>Marian.</speaker>
+          <l xml:id="A02070-e110630">Never will Marian smile upon her robin,</l>
+          <l xml:id="A02070-e110640">Nor lie with him under the green wood shade,</l>
+          <l xml:id="A02070-e110650">Till that thou go to Wakefield on a green,</l>
+          <l xml:id="A02070-e110660">And beat the pinner for the love of me. </l>
+        </sp>
+        <sp xml:id="A02070-e110670" who="A02070-robin">
+          <speaker>Robin.</speaker>
+          <l xml:id="A02070-e110680">Content thee, Marian, I will ease thy grief,</l>
+          <l xml:id="A02070-e110690">My merry men and I will thither stray,</l>
+          <l xml:id="A02070-e110700">And here I vow that for the love of thee,</l>
+          <l xml:id="A02070-e110710">I will beat George a green, or he shall beat me. </l>
+        </sp>
+        <sp xml:id="A02070-e110720" who="A02070-scarlet">
+          <speaker>Scarlet.</speaker>
+          <l xml:id="A02070-e110730">As I am scarlet, next to little John,</l>
+          <l xml:id="A02070-e110740">One of the boldest yeomen of the crew,</l>
+          <l xml:id="A02070-e110750">So will I wend with Robin all along,</l>
+          <l xml:id="A02070-e110760">And try this pinner what he dares do. </l>
+        </sp>
+        <sp xml:id="A02070-e110770" who="A02070-much">
+          <speaker>Much.</speaker>
+          <l xml:id="A02070-e110780">As I am much the miller's son,</l>
+          <l xml:id="A02070-e110790">That left my mill to go with thee,</l>
+          <l xml:id="A02070-e110800">And nill repent that I have done,</l>
+          <l xml:id="A02070-e110810">This pleasant life contenteth me,</l>
+          <l xml:id="A02070-e110820">In ought I may to do thee good,</l>
+          <l xml:id="A02070-e110830">I'll live and die with Robin hood. </l>
+        </sp>
+        <sp xml:id="A02070-e110840" who="A02070-marian">
+          <speaker>Marian.</speaker>
+          <l xml:id="A02070-e110850">And Robin, Marian she will go with thee,</l>
+          <l xml:id="A02070-e110860">To see fair Bettris how bright she is of blee. </l>
+        </sp>
+        <sp xml:id="A02070-e110870" who="A02070-robin">
+          <speaker>Robin.</speaker>
+          <l xml:id="A02070-e110880">Marian, thou shalt go with thy robin. </l>
+          <l xml:id="A02070-e110890">Bend up your bows, and see your strings be tight,</l>
+          <l xml:id="A02070-e110900">The arrows keen, and every thing be ready,</l>
+          <l xml:id="A02070-e110910"><pb facs="19"/> I shall be turned out of mine office. </l>
+        </sp>
+        <sp xml:id="A02070-e110920" who="A02070-shoemaker">
+          <speaker>Shoemaker.</speaker>
+          <l xml:id="A02070-e110930">What is that, sir? </l>
+        </sp>
+        <sp xml:id="A02070-e110940" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e110950">Whensoever I go to fight with anybody ,</l>
+          <l xml:id="A02070-e110960">I use to flourish my staff thrice about my head</l>
+          <l xml:id="A02070-e110970">Before I strike, and then show no favour. </l>
+        </sp>
+        <sp xml:id="A02070-e110980" who="A02070-shoemaker">
+          <speaker>Shoemaker.</speaker>
+          <l xml:id="A02070-e110990">Well sir, and till then I will not strike thee. </l>
+        </sp>
+        <sp xml:id="A02070-e111000" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e111010">Well sir, here is once, twice, here is my hand,</l>
+          <l xml:id="A02070-e111020">I will never do it the third time. </l>
+        </sp>
+        <sp xml:id="A02070-e111030" who="A02070-shoemaker">
+          <speaker>Shoemaker.</speaker>
+          <l xml:id="A02070-e111040">Why then I see we shall not fight. </l>
+        </sp>
+        <sp xml:id="A02070-e111050" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e111060">Faith no: come, I will give thee two pots</l>
+          <l xml:id="A02070-e111070">Of the best ale, and be friends. </l>
+        </sp>
+        <sp xml:id="A02070-e111080" who="A02070-shoemaker">
+          <speaker>Shoemaker</speaker>
+          <l xml:id="A02070-e111090">Faith I see it is as hard to get water out of a flint,</l>
+          <l xml:id="A02070-e111100">As to get him to have about with me:</l>
+          <l xml:id="A02070-e111110">Therefore I will enter into him for some good cheer:</l>
+          <l xml:id="A02070-e111120">My friend, I see thou art a faint hearted fellow,</l>
+          <l xml:id="A02070-e111130">Thou hast no stomach to fight,</l>
+          <l xml:id="A02070-e111140">Therefore let us go to the alehouse and drink. </l>
+        </sp>
+        <sp xml:id="A02070-e111150" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e111160">Well, content, go thy ways and say thy prayers,</l>
+          <l xml:id="A02070-e111170">Thou scap'st my hands today. </l>
+        </sp>
+        <stage xml:id="A02070-e111180">Exeunt omnes.</stage>
+        <stage xml:id="A02070-e111190">Enter George a Greene and Bettris.</stage>
+        <sp xml:id="A02070-e111200" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e111210">Tell me sweet love, how is thy mind content,</l>
+          <l xml:id="A02070-e111220">What canst thou brook to live with George a green? </l>
+        </sp>
+        <sp xml:id="A02070-e111230" who="A02070-bettris">
+          <speaker>Bettris.</speaker>
+          <l xml:id="A02070-e111240">O George, how little pleasing are these words? </l>
+          <l xml:id="A02070-e111250">Came I from Bradford for the love of thee? </l>
+          <l xml:id="A02070-e111260">And left my father for so sweet a friend? </l>
+          <l xml:id="A02070-e111270">Here will I live until my life do end. </l>
+        </sp>
+        <stage xml:id="A02070-e111280">Enter Robin hood, and Marian, and his train.</stage>
+        <sp xml:id="A02070-e111290" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e111300">Happy am I to have so sweet a love. </l>
+          <l xml:id="A02070-e111310"><pb facs="19"/>But what are these come trasing here along? </l>
+        </sp>
+        <sp xml:id="A02070-e111320" who="A02070-bettris">
+          <speaker>Bettris.</speaker>
+          <l xml:id="A02070-e111330">Three men come striking through the corn,</l>
+          <l xml:id="A02070-e111340">My love. </l>
+        </sp>
+        <sp xml:id="A02070-e111350" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e111360">Back again, you foolish travellers,</l>
+          <l xml:id="A02070-e111370">For you are wrong, and may not wend this way. </l>
+        </sp>
+        <sp xml:id="A02070-e111380" who="A02070-robin_hood">
+          <speaker>Robin Hood.</speaker>
+          <l xml:id="A02070-e111390">That were great shame. </l>
+          <l xml:id="A02070-e111400">Now by my soul, proud sir,</l>
+          <l xml:id="A02070-e111410">We be three tall yeomen, and thou art but one:</l>
+          <l xml:id="A02070-e111420">Come, we will forward in despite of him. </l>
+        </sp>
+        <sp xml:id="A02070-e111430" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e111440">Leap the ditch, or I will make you skip. </l>
+          <l xml:id="A02070-e111450">What, cannot the high way serve your turn,</l>
+          <l xml:id="A02070-e111460">But you must make a path over the corn? </l>
+        </sp>
+        <sp xml:id="A02070-e111470" who="A02070-robin">
+          <speaker>Robin.</speaker>
+          <l xml:id="A02070-e111480">Why, art thou mad? dar'st thou encounter three? </l>
+          <l xml:id="A02070-e111490">We are no babes, man, look upon our limbs. </l>
+        </sp>
+        <sp xml:id="A02070-e111500" who="A02070-george">
+          <speaker>Geo.</speaker>
+          <l xml:id="A02070-e111510">Sirrah, the biggest limbs have not the stourest hearts. </l>
+          <l xml:id="A02070-e111520">Were ye as good as Robin hood, and his three merry men,</l>
+          <l xml:id="A02070-e111530">I'll drive you back the same way that ye came. </l>
+          <l xml:id="A02070-e111540">Be ye men, ye scorn to encounter me all at once,</l>
+          <l xml:id="A02070-e111550">But be ye cowards, set upon me all three,</l>
+          <l xml:id="A02070-e111560">And try the pinner what he dares perform. </l>
+        </sp>
+        <sp xml:id="A02070-e111570" who="A02070-scarlet">
+          <speaker>Scarlet.</speaker>
+          <l xml:id="A02070-e111580">Were thou as high in deeds,</l>
+          <l xml:id="A02070-e111590">As thou art haughty in words,</l>
+          <l xml:id="A02070-e111600">Thou well mightest be a champion for a King:</l>
+          <l xml:id="A02070-e111610">But empty vessels have the loudest sounds,</l>
+          <l xml:id="A02070-e111620">And cowards prattle more than men of worth. </l>
+        </sp>
+        <sp xml:id="A02070-e111630" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e111640">Sirrah, darest thou try me? </l>
+        </sp>
+        <sp xml:id="A02070-e111650" who="A02070-scarlet">
+          <speaker>Scarlet.</speaker>
+          <l xml:id="A02070-e111660">I sirrah, that I dare. </l>
+        </sp>
+        <stage xml:id="A02070-e111670">They fight, and George a Greene beats him.</stage>
+        <sp xml:id="A02070-e111680" who="A02070-much">
+          <pb facs="20"/>
+          <speaker>Much.</speaker>
+          <l xml:id="A02070-e111690">How now? what art thou down? </l>
+          <l xml:id="A02070-e111700">Come, sir, I am next. </l>
+        </sp>
+        <stage xml:id="A02070-e111710">They fight, and George a Greene beats him.</stage>
+        <sp xml:id="A02070-e111720" who="A02070-robin_hood">
+          <speaker>Robin Hood.</speaker>
+          <l xml:id="A02070-e111730">Come sirrah, now to me, spare me not,</l>
+          <l xml:id="A02070-e111740">For I'll not spare thee. </l>
+        </sp>
+        <sp xml:id="A02070-e111750" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e111760">Make no doubt, I will be as liberal to thee. </l>
+        </sp>
+        <stage xml:id="A02070-e111770">They fight, Robin hood stays.</stage>
+        <sp xml:id="A02070-e111780" who="A02070-robin_hood">
+          <speaker>Robin Hood.</speaker>
+          <l xml:id="A02070-e111790">Stay, George, for here I do protest,</l>
+          <l xml:id="A02070-e111800">Thou art the stoutest champion that ever I laid</l>
+          <l xml:id="A02070-e111810">Hands upon. </l>
+        </sp>
+        <sp xml:id="A02070-e111820" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e111830">Soft you sir, by your leave you lie,</l>
+          <l xml:id="A02070-e111840">You never yet laid hands on me. </l>
+        </sp>
+        <sp xml:id="A02070-e111850" who="A02070-robin_hood">
+          <speaker>Robin Hood.</speaker>
+          <l xml:id="A02070-e111860">George, wilt thou forsake Wakefield,</l>
+          <l xml:id="A02070-e111870">And go with me,</l>
+          <l xml:id="A02070-e111880">Two liveries will give thee every year,</l>
+          <l xml:id="A02070-e111890">And forty crowns shall be thy fee. </l>
+        </sp>
+        <sp xml:id="A02070-e111900" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e111910">Why, who art thou? </l>
+        </sp>
+        <sp xml:id="A02070-e111920" who="A02070-robin_hood">
+          <speaker>Robin Hood.</speaker>
+          <l xml:id="A02070-e111930">Why, Robin hood:</l>
+          <l xml:id="A02070-e111940">I am come hither with my Marian,</l>
+          <l xml:id="A02070-e111950">And these my yeomen for to visit thee. </l>
+        </sp>
+        <sp xml:id="A02070-e111960" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e111970">Robin hood? next to King Edward</l>
+          <l xml:id="A02070-e111980">Art thou lief to me:</l>
+          <l xml:id="A02070-e111990">Welcome, sweet Robin, welcome, maid Marian. </l>
+          <l xml:id="A02070-e112000">And welcome, you my friends. </l>
+          <l xml:id="A02070-e112010">Will you to my poor house,</l>
+          <l xml:id="A02070-e112020">You shall have wafer cakes your fill,</l>
+          <l xml:id="A02070-e112030">A piece of beef hung up since Martlemas,</l>
+          <l xml:id="A02070-e112040">Mutton and veal, if this like you not,</l>
+          <l xml:id="A02070-e112050"><pb facs="20"/> take that you find, or that you bring for me. </l>
+        </sp>
+        <sp xml:id="A02070-e112060" who="A02070-robin_hood">
+          <speaker>Robin Hood.</speaker>
+          <l xml:id="A02070-e112070">Godamercies, good George,</l>
+          <l xml:id="A02070-e112080">I'll be thy guest today. </l>
+        </sp>
+        <sp xml:id="A02070-e112090" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e112100">Robin, therein thou honourest me. </l>
+          <l xml:id="A02070-e112110">I'll lead the way. </l>
+        </sp>
+        <stage xml:id="A02070-e112120">Exeunt omnes.</stage>
+        <stage xml:id="A02070-e112130">Enter King Edward, and King James disguised, with two staves.</stage>
+        <sp xml:id="A02070-e112140" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e112150">Come on, King James, now we are</l>
+          <l xml:id="A02070-e112160">Thus disguised,</l>
+          <l xml:id="A02070-e112170">There is none (I know) will take us to be Kings:</l>
+          <l xml:id="A02070-e112180">I think we are now in Bradford,</l>
+          <l xml:id="A02070-e112190">Where all the merry shoemakers dwell. </l>
+        </sp>
+        <stage xml:id="A02070-e112200">Enter a shoemaker.</stage>
+        <sp xml:id="A02070-e112210" who="A02070-shoemaker">
+          <speaker>Shoemaker.</speaker>
+          <l xml:id="A02070-e112220">Down with your staves, my friends,</l>
+          <l xml:id="A02070-e112230">Down with them. </l>
+        </sp>
+        <sp xml:id="A02070-e112240" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e112250">Down with our staves? I pray thee, why so? </l>
+        </sp>
+        <sp xml:id="A02070-e112260" who="A02070-shoemaker">
+          <speaker>Shoemaker.</speaker>
+          <l xml:id="A02070-e112270">My friend, I see thou art a stranger here,</l>
+          <l xml:id="A02070-e112280">Else wouldst thou not have questioned of the thing. </l>
+          <l xml:id="A02070-e112290">This is the town of merry Bradford,</l>
+          <l xml:id="A02070-e112300">And here hath been a custom kept of old,</l>
+          <l xml:id="A02070-e112310">That none may bear his staff upon his neck,</l>
+          <l xml:id="A02070-e112320">But trail it all along throughout the town,</l>
+          <l xml:id="A02070-e112330">Unless they mean to have about with me. </l>
+        </sp>
+        <sp xml:id="A02070-e112340" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e112350">But hear you sir, hath the King</l>
+          <l xml:id="A02070-e112360">Granted you this custom? </l>
+        </sp>
+        <sp xml:id="A02070-e112370" who="A02070-shoemaker">
+          <speaker>Shoemaker.</speaker>
+          <l xml:id="A02070-e112380">King or kaisar, none shall pass this way,</l>
+          <l xml:id="A02070-e112390">Except King Edward,</l>
+          <l xml:id="A02070-e112400">No not the stoutest groom that haunts his court:</l>
+          <l xml:id="A02070-e112410"><pb facs="21"/> therefore down with your staves. </l>
+        </sp>
+        <sp xml:id="A02070-e112420" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e112430">What were we best to do? </l>
+        </sp>
+        <sp xml:id="A02070-e112440" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e112450">Faith, my lord, they are stout fellows. </l>
+          <l xml:id="A02070-e112460">And because we will see some sport,</l>
+          <l xml:id="A02070-e112470">We will trail our staves. </l>
+        </sp>
+        <sp xml:id="A02070-e112480" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e112490">Hearest thou, my friend? </l>
+          <l xml:id="A02070-e112500">Because we are men of peace and travellers,</l>
+          <l xml:id="A02070-e112510">We are content to trail our staves. </l>
+        </sp>
+        <sp xml:id="A02070-e112520" who="A02070-shoemaker">
+          <speaker>Shoemaker.</speaker>
+          <l xml:id="A02070-e112530">The way lies before you, go along. </l>
+        </sp>
+        <stage xml:id="A02070-e112540">Enter Robin hood and George a Greene disguised.</stage>
+        <sp xml:id="A02070-e112550" who="A02070-robin_hood">
+          <speaker>Robin Hood.</speaker>
+          <l xml:id="A02070-e112560">See George, two men are passing</l>
+          <l xml:id="A02070-e112570">Through the town,</l>
+          <l xml:id="A02070-e112580">Two lusty men, and yet they trail their staves. </l>
+        </sp>
+        <sp xml:id="A02070-e112590" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e112600">Robin, they are some peasants</l>
+          <l xml:id="A02070-e112610">Tricked in yeoman's weeds. Hollo, you two travellers. </l>
+        </sp>
+        <sp xml:id="A02070-e112620" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e112630">Call you us, sir? </l>
+        </sp>
+        <sp xml:id="A02070-e112640" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e112650">Ay, you. Are ye not big enough to bear</l>
+          <l xml:id="A02070-e112660">Your bats upon your necks,</l>
+          <l xml:id="A02070-e112670">But you must trail them along the streets? </l>
+        </sp>
+        <sp xml:id="A02070-e112680" who="A02070-edward">
+          <speaker>Edwar.</speaker>
+          <l xml:id="A02070-e112690">Yes sir, we are big enough, but here is a custom</l>
+          <l xml:id="A02070-e112700">Kept, that none may pass his staff upon his neck,</l>
+          <l xml:id="A02070-e112710">Unless he trail it at the weapon's point. </l>
+          <l xml:id="A02070-e112720">Sir, we are men of peace, and love to sleep</l>
+          <l xml:id="A02070-e112730">In our whole skins, and therefore quietness is best. </l>
+        </sp>
+        <sp xml:id="A02070-e112740" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e112750">Base minded peasants, worthless to be men,</l>
+          <l xml:id="A02070-e112760">What, have you bones and limbs to strike a blow,</l>
+          <l xml:id="A02070-e112770">And be your hearts so faint, you cannot fight? </l>
+          <l xml:id="A02070-e112780">Wert not for shame, I would shrub your shoulders well,</l>
+          <l xml:id="A02070-e112790"><pb facs="21"/> and teach you manhood against another time. </l>
+        </sp>
+        <sp xml:id="A02070-e112800" who="A02070-shoemaker">
+          <speaker>Shoemaker</speaker>
+          <l xml:id="A02070-e112810">Well preached sir Jack, down with your staff. </l>
+        </sp>
+        <sp xml:id="A02070-e112820" who="A02070-edward">
+          <speaker>Edwar.</speaker>
+          <l xml:id="A02070-e112830">Do you hear my friends? and you be wise,</l>
+          <l xml:id="A02070-e112840">Keep down your staves,</l>
+          <l xml:id="A02070-e112850">For all the town will rise upon you. </l>
+        </sp>
+        <sp xml:id="A02070-e112860" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e112870">Thou speakest like an honest quiet fellow. </l>
+          <l xml:id="A02070-e112880">But hear you me, in spite of all the swains</l>
+          <l xml:id="A02070-e112890">Of Dradford town, bear me your staves upon your necks,</l>
+          <l xml:id="A02070-e112900">Or to begin withal, I'll baste you both so well,</l>
+          <l xml:id="A02070-e112910">You were never better basted in your lives. </l>
+        </sp>
+        <sp xml:id="A02070-e112920" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e112930">We will hold up our staves. </l>
+        </sp>
+        <stage xml:id="A02070-e112940">George a Greene fights with the shoemakers, and beats them all down.</stage>
+        <sp xml:id="A02070-e112950" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e112960">What, have you any more? </l>
+          <l xml:id="A02070-e112970">Call all your town forth, cut, and long-tail. </l>
+        </sp>
+        <stage xml:id="A02070-e112980">The shoemaker's spy George a Greene.</stage>
+        <sp xml:id="A02070-e112990" who="A02070-shoemaker">
+          <speaker>Shoemaker.</speaker>
+          <l xml:id="A02070-e113000">What, George a green, is it you? </l>
+          <l xml:id="A02070-e113010">A plague found you,</l>
+          <l xml:id="A02070-e113020">I think you longed to swinge me well. </l>
+          <l xml:id="A02070-e113030">Come George, we will crush a pot before we part. </l>
+        </sp>
+        <sp xml:id="A02070-e113040" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e113050">A pot you slave, we will have an hundred. </l>
+          <l xml:id="A02070-e113060">Here, will Perkins, take my purse,</l>
+          <l xml:id="A02070-e113070">Fetch me a stand of ale, and set in the market place,</l>
+          <l xml:id="A02070-e113080">That all may drink that are athirst this day,</l>
+          <l xml:id="A02070-e113090">For this is for a free to welcome Robin hood</l>
+          <l xml:id="A02070-e113100">To Bradford town. </l>
+          <stage xml:id="A02070-e113110">They bring out the stane of ale, and fall a drinking.</stage>
+          <l xml:id="A02070-e113120">Here Robin, sit thou here: for thou art the best man</l>
+        </sp>
+        <sp xml:id="A02070-e113130" who="A02070-edward">
+          <pb facs="22"/>
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e113140">What is that? </l>
+        </sp>
+        <sp xml:id="A02070-e113150" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e113160">Hark in your ear. </l>
+        </sp>
+        <stage xml:id="A02070-e113170">He whispers the King in the ear.</stage>
+        <sp xml:id="A02070-e113180" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e113190">Go your ways and do it. </l>
+        </sp>
+        <sp xml:id="A02070-e113200" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e113210">Come down on your knees, I have got it. </l>
+        </sp>
+        <sp xml:id="A02070-e113220" who="A02070-shoemaker">
+          <speaker>Shoemaker.</speaker>
+          <l xml:id="A02070-e113230">Let us hear what it is first. </l>
+        </sp>
+        <sp xml:id="A02070-e113240" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e113250">Marry, because you have drunk with the King,</l>
+          <l xml:id="A02070-e113260">And the King hath so graciously pledged you,</l>
+          <l xml:id="A02070-e113270">You shall be no more called shoemakers. </l>
+          <l xml:id="A02070-e113280">But you and yours to the world's end,</l>
+          <l xml:id="A02070-e113290">Shall be called the trade of the gentle craft. </l>
+        </sp>
+        <sp xml:id="A02070-e113300" who="A02070-shoemaker">
+          <speaker>Shoemaker.</speaker>
+          <l xml:id="A02070-e113310">I beseech your majesty reform this</l>
+          <l xml:id="A02070-e113320">Which he hath spoken. </l>
+        </sp>
+        <sp xml:id="A02070-e113330" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e113340">I beseech your worship consume this</l>
+          <l xml:id="A02070-e113350">Which he hath spoken. </l>
+        </sp>
+        <sp xml:id="A02070-e113360" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e113370">Confirm it, you would say. </l>
+          <l xml:id="A02070-e113380">Well, he hath done it for you, it is sufficient. </l>
+          <l xml:id="A02070-e113390">Come, George, we will go to Grime,</l>
+          <l xml:id="A02070-e113400">And have thy love. </l>
+        </sp>
+        <sp xml:id="A02070-e113410" who="A02070-jenkin">
+          <speaker>Jenkin.</speaker>
+          <l xml:id="A02070-e113420">I am sure your worship will abide:</l>
+          <l xml:id="A02070-e113430">For yonder is coming old Musgrove,</l>
+          <l xml:id="A02070-e113440">And mad Cuddie his son. </l>
+          <l xml:id="A02070-e113450">Master, my fellow Wily comes dressed like a woman,</l>
+          <l xml:id="A02070-e113460">And master Grime will marry Wily: here they come. </l>
+        </sp>
+        <stage xml:id="A02070-e113470">Enter Musgrove and Cuddie, and master Grime, Wilie, maid Marian and Bettris.</stage>
+        <sp xml:id="A02070-e113480" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e113490">Which is thy old father, Cuddie? </l>
+        </sp>
+        <sp xml:id="A02070-e113500" who="A02070-cuddy">
+          <pb facs="22"/>
+          <speaker>Cuddie.</speaker>
+          <l xml:id="A02070-e113510">This, if it please your majesty. </l>
+        </sp>
+        <sp xml:id="A02070-e113520" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e113530">Ah old Musgrove, kneel up,</l>
+          <l xml:id="A02070-e113540">It fits not such grey hairs to kneel. </l>
+        </sp>
+        <sp xml:id="A02070-e113550" who="A02070-musgrove">
+          <speaker>Musgrove.</speaker>
+          <l xml:id="A02070-e113560">Long live my sovereign,</l>
+          <l xml:id="A02070-e113570">Long and happy be his days:</l>
+          <l xml:id="A02070-e113580">Vouchsafe, my gracious lord, a simple gift,</l>
+          <l xml:id="A02070-e113590">At Billy Musgroves' hand:</l>
+          <l xml:id="A02070-e113600">King James at Meddellom castle gave me this,</l>
+          <l xml:id="A02070-e113610">This won the honour, and this give I thee. </l>
+        </sp>
+        <sp xml:id="A02070-e113620" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e113630">Godamercy, Musgrove, for this friendly gift,</l>
+          <l xml:id="A02070-e113640">And for thou felledst a King with this same weapon,</l>
+          <l xml:id="A02070-e113650">This blade shall here dub valiant Musgrove knight. </l>
+        </sp>
+        <sp xml:id="A02070-e113660" who="A02070-musgrove">
+          <speaker>Musgr.</speaker>
+          <l xml:id="A02070-e113670">Alas what hath your highness done? I am poor. </l>
+        </sp>
+        <sp xml:id="A02070-e113680" who="A02070-edward">
+          <speaker>Edw.</speaker>
+          <l xml:id="A02070-e113690">To mend thy living take thou Meddellom castle,</l>
+          <l xml:id="A02070-e113700">The hold of both: and if thou want living, complain,</l>
+          <l xml:id="A02070-e113710">Thou shalt have more to maintain thine estate. </l>
+          <l xml:id="A02070-e113720">George, which is thy love? </l>
+        </sp>
+        <sp xml:id="A02070-e113730" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e113740">This, if please your majesty. </l>
+        </sp>
+        <sp xml:id="A02070-e113750" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e113760">Art thou her aged father? </l>
+        </sp>
+        <sp xml:id="A02070-e113770" who="A02070-grime">
+          <speaker>Grime.</speaker>
+          <l xml:id="A02070-e113780">I am, and it like your majesty. </l>
+        </sp>
+        <sp xml:id="A02070-e113790" who="A02070-edward">
+          <speaker>Edwar.</speaker>
+          <l xml:id="A02070-e113800">And wilt not give thy daughter unto George? </l>
+        </sp>
+        <sp xml:id="A02070-e113810" who="A02070-grime">
+          <speaker>Grime.</speaker>
+          <l xml:id="A02070-e113820">Yes, my lord, if he will let me marry</l>
+          <l xml:id="A02070-e113830">With this lovely lass. </l>
+        </sp>
+        <sp xml:id="A02070-e113840" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e113850">What sayst thou, George? </l>
+        </sp>
+        <sp xml:id="A02070-e113860" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e113870">With all my heart, my lord, I give consent. </l>
+        </sp>
+        <sp xml:id="A02070-e113880" who="A02070-grime">
+          <speaker>Grime.</speaker>
+          <l xml:id="A02070-e113890">Then do I give my daughter unto George. </l>
+        </sp>
+        <sp xml:id="A02070-e113900" who="A02070-willy">
+          <speaker>Vvilie.</speaker>
+          <l xml:id="A02070-e113910">Then shall the marriage soon be at an end. </l>
+          <l xml:id="A02070-e113920">Witness, my lord, if that I be a woman,</l>
+          <l xml:id="A02070-e113930"><pb facs="23"/> for I am wily, boy to George a green,</l>
+          <l xml:id="A02070-e113940">Who for my master wrought this subtle shift. </l>
+        </sp>
+        <sp xml:id="A02070-e113950" who="A02070-edward">
+          <speaker>Edwar.</speaker>
+          <l xml:id="A02070-e113960">What, is it a boy? what sayst thou to this grime? </l>
+        </sp>
+        <sp xml:id="A02070-e113970" who="A02070-grime">
+          <speaker>Grime.</speaker>
+          <l xml:id="A02070-e113980">Marry, my lord, I think this boy hath</l>
+          <l xml:id="A02070-e113990">More knavery, than all the world besides. </l>
+          <l xml:id="A02070-e114000">Yet am I content that George shall both have</l>
+          <l xml:id="A02070-e114010">My daughter and my lands. </l>
+        </sp>
+        <sp xml:id="A02070-e114020" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e114030">Now George, it rest I gratify thy worth:</l>
+          <l xml:id="A02070-e114040">And therefore here I do bequeath to thee,</l>
+          <l xml:id="A02070-e114050">In full possession half that Kendal hath,</l>
+          <l xml:id="A02070-e114060">And what as Bradford holds of me in chief,</l>
+          <l xml:id="A02070-e114070">I give it frankly unto thee for ever. </l>
+          <l xml:id="A02070-e114080">Kneel down George. </l>
+        </sp>
+        <sp xml:id="A02070-e114090" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e114100">What will your majesty do? </l>
+        </sp>
+        <sp xml:id="A02070-e114110" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e114120">Dub thee a knight, George. </l>
+        </sp>
+        <sp xml:id="A02070-e114130" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e114140">I beseech your grace, grant me one thing. </l>
+        </sp>
+        <sp xml:id="A02070-e114150" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e114160">What is that? </l>
+        </sp>
+        <sp xml:id="A02070-e114170" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e114180">Then let me live and die a yeoman still:</l>
+          <l xml:id="A02070-e114190">So was my father, so must live his son. </l>
+          <l xml:id="A02070-e114200">For 'tis more credit to men of base degree,</l>
+          <l xml:id="A02070-e114210">To do great deeds, than men of dignity. </l>
+        </sp>
+        <sp xml:id="A02070-e114220" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e114230">Well, be it so George. </l>
+        </sp>
+        <sp xml:id="A02070-e114240" who="A02070-james">
+          <speaker>James.</speaker>
+          <l xml:id="A02070-e114250">I beseech your grace dispatch with me,</l>
+          <l xml:id="A02070-e114260">And set down my ransom. </l>
+        </sp>
+        <sp xml:id="A02070-e114270" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e114280">George a green, set down the King of Scots</l>
+          <l xml:id="A02070-e114290">His ransom. </l>
+        </sp>
+        <sp xml:id="A02070-e114300" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e114310">I beseech your grace pardon me,</l>
+          <l xml:id="A02070-e114320">It passeth my skill. </l>
+        </sp>
+        <sp xml:id="A02070-e114330" who="A02070-edward">
+          <pb facs="23"/>
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e114340">Do it, the honour's thine. </l>
+        </sp>
+        <sp xml:id="A02070-e114350" who="A02070-george">
+          <speaker>George.</speaker>
+          <l xml:id="A02070-e114360">Then let King James make good</l>
+          <l xml:id="A02070-e114370">Those towns which he hath burned upon the borders,</l>
+          <l xml:id="A02070-e114380">Give a small pension to the father less,</l>
+          <l xml:id="A02070-e114390">Whose fathers he caused murdered in those wars,</l>
+          <l xml:id="A02070-e114400">Put in pledge for these things to your grace,</l>
+          <l xml:id="A02070-e114410">And so return. King James, are you content. </l>
+        </sp>
+        <sp xml:id="A02070-e114420" who="A02070-james">
+          <speaker>Jamie.</speaker>
+          <l xml:id="A02070-e114430">I am content: and like your majesty,</l>
+          <l xml:id="A02070-e114440">And will leave good castles in security. </l>
+        </sp>
+        <sp xml:id="A02070-e114450" who="A02070-edward">
+          <speaker>Edward.</speaker>
+          <l xml:id="A02070-e114460">I crave no more. Now George a green,</l>
+          <l xml:id="A02070-e114470">I'll to thy house: and when I have supped, I'll go to ask,</l>
+          <l xml:id="A02070-e114480">And see if Jane a barley be so fair,</l>
+          <l xml:id="A02070-e114490">As good King James reports her for to be. </l>
+          <l xml:id="A02070-e114500">And for the ancient custom of vail staff, keep it still</l>
+          <l xml:id="A02070-e114510">Claim privilege from me:</l>
+          <l xml:id="A02070-e114520">If any ask a reason why? or how? </l>
+          <l xml:id="A02070-e114530">Say, English Edward veiled his staff to you. </l>
+        </sp>
+        <trailer xml:id="A02070-e114540">Finis.</trailer>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A02070"><item xml:id="A02070-george" n="79">
+    <seg type="character_name">A02070-george</seg>
+    <seg type="speech_count">79</seg>
+  </item>
+  <item xml:id="A02070-edward" n="41">
+    <seg type="character_name">A02070-edward</seg>
+    <seg type="speech_count">41</seg>
+  </item>
+  <item xml:id="A02070-jenkin" n="36">
+    <seg type="character_name">A02070-jenkin</seg>
+    <seg type="speech_count">36</seg>
+  </item>
+  <item xml:id="A02070-kendal" n="35">
+    <seg type="character_name">A02070-kendal</seg>
+    <seg type="speech_count">35</seg>
+  </item>
+  <item xml:id="A02070-james" n="18">
+    <seg type="character_name">A02070-james</seg>
+    <seg type="speech_count">18</seg>
+  </item>
+  <item xml:id="A02070-mannering" n="14">
+    <seg type="character_name">A02070-mannering</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A02070-shoemaker" n="12">
+    <seg type="character_name">A02070-shoemaker</seg>
+    <seg type="speech_count">12</seg>
+  </item>
+  <item xml:id="A02070-cuddy" n="12">
+    <seg type="character_name">A02070-cuddy</seg>
+    <seg type="speech_count">12</seg>
+  </item>
+  <item xml:id="A02070-grime" n="11">
+    <seg type="character_name">A02070-grime</seg>
+    <seg type="speech_count">11</seg>
+  </item>
+  <item xml:id="A02070-bonfield" n="10">
+    <seg type="character_name">A02070-bonfield</seg>
+    <seg type="speech_count">10</seg>
+  </item>
+  <item xml:id="A02070-bettris" n="9">
+    <seg type="character_name">A02070-bettris</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A02070-jane" n="8">
+    <seg type="character_name">A02070-jane</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A02070-ned" n="7">
+    <seg type="character_name">A02070-ned</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A02070-robin_hood" n="7">
+    <seg type="character_name">A02070-robin_hood</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A02070-justice" n="7">
+    <seg type="character_name">A02070-justice</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A02070-musgrove" n="5">
+    <seg type="character_name">A02070-musgrove</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A02070-kendall" n="5">
+    <seg type="character_name">A02070-kendall</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A02070-robin" n="5">
+    <seg type="character_name">A02070-robin</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A02070-willy" n="4">
+    <seg type="character_name">A02070-willy</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A02070-gilbert" n="3">
+    <seg type="character_name">A02070-gilbert</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A02070-marian" n="3">
+    <seg type="character_name">A02070-marian</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A02070-scarlet" n="3">
+    <seg type="character_name">A02070-scarlet</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A02070-townes" n="2">
+    <seg type="character_name">A02070-townes</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A02070-john" n="2">
+    <seg type="character_name">A02070-john</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A02070-warw" n="2">
+    <seg type="character_name">A02070-warw</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A02070-much" n="2">
+    <seg type="character_name">A02070-much</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A02070-king" n="2">
+    <seg type="character_name">A02070-king</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+<item xml:id="A02070-warwick" n="1">
+    <seg type="character_name">A02070-warwick</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A02070-old_musgrove" n="1">
+    <seg type="character_name">A02070-old_musgrove</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A02070-omnes" n="1">
+    <seg type="character_name">A02070-omnes</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A02070-messenger" n="1">
+    <seg type="character_name">A02070-messenger</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

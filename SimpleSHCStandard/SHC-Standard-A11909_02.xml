@@ -1,0 +1,1886 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Thyestes<date type="creation_date">1581</date></title>
+        <author>Seneca</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A11909_02.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">Seneca his tenne tragedies, translated into Englysh.</title>
+            <author>Seneca, Lucius Annaeus, ca. 4 B.C.-65 A.D.</author>
+          </titleStmt>
+          <extent>225 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2007 October (TCP phase 1)</date>
+            <idno type="marc">99852323</idno>
+            <idno type="stc">STC (2nd ed.) 22221.</idno>
+            <idno type="stc">Greg, III, p. 1105-6.</idno>
+            <idno type="vid">17639</idno>
+            <idno type="DLPS">A11909</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">Seneca his tenne tragedies, translated into Englysh.</title>
+            <title type="alt">Tragedies. English</title>
+            <author>Seneca, Lucius Annaeus, ca. 4 B.C.-65 A.D.</author>
+            <author>Heywood, Jasper, 1535-1598,</author>
+            <author>Neville, Alexander, 1544-1614,</author>
+            <author>Studley, John, 1545?-1590?,</author>
+            <author>T. N. d. 1617,</author>
+            <author>Newton, Thomas, 1542?-1607.</author>
+          </titleStmt>
+          <extent>[4], 65, 64-217, [1] leaves.</extent>
+          <publicationStmt>
+            <publisher>In Fleetstreete neere vnto Saincte Dunstans church by Thomas Marsh,</publisher>
+            <pubPlace>Imprinted at London :</pubPlace>
+            <date>1581.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Editor's dedication signed: Thomas Newton.</p>
+            </note>
+            <note>
+              <p>In verse.</p>
+            </note>
+            <note>
+              <p>A reprinting of the following translations previously published separately: "Hercules furens", "Thyestes", and "Troas" by Jasper Heywood; "¦edipus" by Alexander Neville (a revised version); "Medea" and "Agamemnon" by John Studley; and "Octavia" (not by Seneca) by Thomas Nuce. Prints for the first time "Hippolytus" and "Hercules Oetæus" translated by Studley, and "Thebais" translated by Thomas Newton.</p>
+            </note>
+            <note>
+              <p>The first leaf is blank except for signature-mark "A"; the last leaf is blank.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:id="A11909_02-e100010">
+    <body xml:id="A11909_02-e100020">
+      <div n="2" type="tragedy" xml:id="A11909_02-e100030">
+        <pb facs="24" n="21"/>
+        <head>The second tragedy of Seneca entituled Thyestes, faithfully englished by Jasper Heywood fellow of alsolne college in Oxenford.</head>
+        <argument xml:id="A11909_02-e100040">
+          <head>The argument of this tragedy.</head>
+          <p xml:id="A11909_02-e100050">Megaera one of the hellish furies raising up Tantalus from hell, incited him to set mortal hatred between his two nephews Thyestes', and Atreus being brothers, and raining as Kings over Mycenae by interchangeable turns, that is to wit Thyestes' to rain the one year, and Atreus the other. Now Atreus enraged with fury against his brother partly for defiling and deflowering his wife Aerope by policy, and partly for taking from him a ram with a golden fleece, practised with his servant how to be revenged of his brother. This Atreus therefore dissembling a reconciliation and inviting Thyestes to Mycenae secretly and unknown to him, set before him at a banquet the flesh of his own children to eat. Afterwards Atreus having also given to his said brother theblood of his children in a goblet to drink, did lastly command the heads also to be brought in, at the doleful sight whereof Thyestes' greatly lamenting knowing the he had eaten his own children, was wonderfully anguished. But Atreus for that he had thus revenged himself, took therein great pleasure and delectation.</p>
+        </argument>
+        <div n="1" type="act" xml:id="A11909_02-e100060">
+          <pb facs="25"/>
+          <head>Thyestes' of Seneca the first act.</head>
+          <list xml:id="A11909_02-e100070">
+            <head>The names of the speakers</head>
+            <item xml:id="A11909_02-e100080">Tantalus.</item>
+            <item xml:id="A11909_02-e100090">Megaera.</item>
+            <item xml:id="A11909_02-e100100">Atrcus.</item>
+            <item xml:id="A11909_02-e100110">Servant.</item>
+            <item xml:id="A11909_02-e100120">Thyestes'.</item>
+            <item xml:id="A11909_02-e100130">Philistencs.</item>
+            <item xml:id="A11909_02-e100140">Messenger,</item>
+            <item xml:id="A11909_02-e100150">Chorus.</item>
+          </list>
+          <stage xml:id="A11909_02-e100160">Tantalus Megaera,</stage>
+          <l xml:id="A11909_02-e100170">What fury fell enforceth me</l>
+          <l xml:id="A11909_02-e100180">To flee, th'unhappy seat,</l>
+          <l xml:id="A11909_02-e100190">That gay and gasp with greedy law,</l>
+          <l xml:id="A11909_02-e100200">The fleeing food to eat</l>
+          <l xml:id="A11909_02-e100210">What God to Tantalus the bowers</l>
+          <l xml:id="A11909_02-e100220">Where breathing bodies dwell</l>
+          <l xml:id="A11909_02-e100230">Doth show again? is ought found worse, than burning thirst of hell</l>
+          <l xml:id="A11909_02-e100240">In lakes allow? or yet worse plague than hunger is there one,</l>
+          <l xml:id="A11909_02-e100250">In vain that ever gapes for food? shall Sisyphus his stone,</l>
+          <l xml:id="A11909_02-e100260">That slipper restless rolling poise upon my back be born. </l>
+          <l xml:id="A11909_02-e100270">Or shall my limbs with swifter swinge of whirling wheel be torn? </l>
+          <l xml:id="A11909_02-e100280">Or shall my pains be Tytius' pangs th'increasing liver still,</l>
+          <l xml:id="A11909_02-e100290">Whose growing guts the gnawing gripes and filthy fowls do fill? </l>
+          <l xml:id="A11909_02-e100300">That still by night repairs the paunch that was devoured by day,</l>
+          <l xml:id="A11909_02-e100310">And wondrous womb unwasted lieth a new prepared pray</l>
+          <l xml:id="A11909_02-e100320">What ill am I appointed for? O cruel judge of sprites,</l>
+          <l xml:id="A11909_02-e100330">Who so thou be that torments new among the soul's delights</l>
+          <l xml:id="A11909_02-e100340">Still to dispose, and what thou canst to all my deadly woe,</l>
+          <l xml:id="A11909_02-e100350">That keeper even of dungeon dark would fore abhor to know. </l>
+          <l xml:id="A11909_02-e100360">Or hell itself it quake to see: for dread whereof likewise</l>
+          <l xml:id="A11909_02-e100370">I tremble would, that plague seek out: lo now there doth arise</l>
+          <l xml:id="A11909_02-e100380">My brood that shall in mischief far the grandsire's gilt out go,</l>
+          <l xml:id="A11909_02-e100390">And guiltless make: that first shall dare unventured ills to do. </l>
+          <l xml:id="A11909_02-e100400">Whatever place remaineth yet of all this wicked land,</l>
+          <l xml:id="A11909_02-e100410">I will fill up: and never once while Pelops house doth stand</l>
+          <l xml:id="A11909_02-e100420">Shall Minos' idle be. </l>
+          <sp xml:id="A11909_02-e100430" who="A11909_02-megaera">
+            <speaker>Meg.</speaker>
+            <l xml:id="A11909_02-e100440">Go forth thou detestable sprite</l>
+            <l xml:id="A11909_02-e100450">And vex the gods of wicked house with rage of furies might. </l>
+            <l xml:id="A11909_02-e100460">Let them contend with all offence, by turns and one by one</l>
+            <l xml:id="A11909_02-e100470">Let swords be drawn: and mean of ire procure there may be none,</l>
+            <l xml:id="A11909_02-e100480">Nor shame: let fury blind inflame their minds and wrathful will,</l>
+            <l xml:id="A11909_02-e100490">Let yet the parent's rage endure and longer lasting ill</l>
+            <l xml:id="A11909_02-e100500"><pb facs="25" n="22"/> through children's children spread: nor yet let any leisure be</l>
+            <l xml:id="A11909_02-e100510">The former faults to hate, but still more mischief new to see,</l>
+            <l xml:id="A11909_02-e100520">Nor one in one: but ere the guilt with vengeance be acquit,</l>
+            <l xml:id="A11909_02-e100530">Increase the crime: from brothers proud let rule of kingdom flit</l>
+            <l xml:id="A11909_02-e100540">To runagates: and swerving state of all unstable things,</l>
+            <l xml:id="A11909_02-e100550">Let it by doubtful dome be tossed, between th'uncertain Kings. </l>
+            <l xml:id="A11909_02-e100560">Let mighty fall to misery, and miser climb to might,</l>
+            <l xml:id="A11909_02-e100570">Let chance turn th'empire upsydown both give and take the right. </l>
+            <l xml:id="A11909_02-e100580">The banished for guilt, when god restore their country shall. </l>
+            <l xml:id="A11909_02-e100590">Let them to mischief fall a fresh as hateful then to all,</l>
+            <l xml:id="A11909_02-e100600">As to themselves: let ire think naught unlawful to be done,</l>
+            <l xml:id="A11909_02-e100610">Let brother dread the brother's wrath, and father fear the soon,</l>
+            <l xml:id="A11909_02-e100620">And eke the soon his parent's power: let babes be murdered ill,</l>
+            <l xml:id="A11909_02-e100630">But worse begotten? her spouse betrapped to treasons train to kill,</l>
+            <l xml:id="A11909_02-e100640">Let hateful wife a wait, and let them bear through seas their war,</l>
+            <l xml:id="A11909_02-e100650">Let bloodshed lie the lands about and every field afar :</l>
+            <l xml:id="A11909_02-e100660">And over conquering captains great, of countries' far to see,</l>
+            <l xml:id="A11909_02-e100670">Let lust triumph: in wicked house let whoredom counted he</l>
+            <l xml:id="A11909_02-e100680">The lightest offence: let trust that in the breasts of brothers breeds,</l>
+            <l xml:id="A11909_02-e100690">And truth be gone: let not from sight of your so heinous deeds</l>
+            <l xml:id="A11909_02-e100700">The heavens be hid, about the pole when shine the stars on high,</l>
+            <l xml:id="A11909_02-e100710">And flames with wonted beams of light do deck the painted skills. </l>
+            <l xml:id="A11909_02-e100720">Let darkest night be made, and let the day the heavens forsake. </l>
+            <l xml:id="A11909_02-e100730">Disturb the gods of wicked house, hate, slaughter, murder make. </l>
+            <l xml:id="A11909_02-e100740">Fill up the house of Tantalus with mischieves and debates,</l>
+            <l xml:id="A11909_02-e100750">Adorned be the pillars high with bay, and let the gates</l>
+            <l xml:id="A11909_02-e100760">Be garnished green: and worthy there for thy return to sight. </l>
+            <l xml:id="A11909_02-e100770">Be kindled fire: let mischief done in Thracia once, their light</l>
+            <l xml:id="A11909_02-e100780">More many fold, wherefore doth yet the uncle's hand delay? </l>
+            <l xml:id="A11909_02-e100790">Doth yet Thyestes not bewail his children's fatal day? </l>
+            <l xml:id="A11909_02-e100800">Shall he not find them where with heat of fires that under glow</l>
+            <l xml:id="A11909_02-e100810">The cauldron boils? their limbs each one a pieces let them go</l>
+            <l xml:id="A11909_02-e100820">Dispersed: let father's fires, with blood of children filled be:</l>
+            <l xml:id="A11909_02-e100830">Let dainties such be dressed: it is no mischief new to thee,</l>
+            <l xml:id="A11909_02-e100840">To banquet so: behold this day we have to thee released,</l>
+            <l xml:id="A11909_02-e100850">And hunger starved womb of thine we send to such a feast. </l>
+            <l xml:id="A11909_02-e100860">With foulest food thy famine fill, let blood in wine be drowned,</l>
+            <l xml:id="A11909_02-e100870">And drunk in sight of thee: lo now such dishes have I found,</l>
+            <l xml:id="A11909_02-e100880">As thou wouldst shun, stay whither dost thou headlong way now take</l>
+          </sp>
+          <sp xml:id="A11909_02-e100890" who="A11909_02-tantalus">
+            <speaker>Tan.</speaker>
+            <l xml:id="A11909_02-e100900">To pools and floods of hell again and still declining lake,</l>
+            <l xml:id="A11909_02-e100910"><pb facs="26"/> and flight of tree full fraught with fruit that from the lips doth flee,</l>
+            <l xml:id="A11909_02-e100920">To dungeon dark of hateful hell let leeful be for me</l>
+            <l xml:id="A11909_02-e100930">To go: or if to light be thought the pains that there I have,</l>
+            <l xml:id="A11909_02-e100940">Remove me from those lakes again: in midst of worser wave</l>
+            <l xml:id="A11909_02-e100950">Of Phlegethon, to stand in seas of fire beset to be. </l>
+            <l xml:id="A11909_02-e100960">Who so beneath thy pointed pains by destinies decree</l>
+            <l xml:id="A11909_02-e100970">Dost still endure who so thou be that underliest allow</l>
+            <l xml:id="A11909_02-e100980">The hollow den, or ruin who that fears and overthrow</l>
+            <l xml:id="A11909_02-e100990">Of falling hill, or cruel cries that sound in caves of hell</l>
+            <l xml:id="A11909_02-e101000">Of greedy roarying lions throats or flock of furies fell</l>
+            <l xml:id="A11909_02-e101010">Who quakes to know or who the brands of fire in direst pain</l>
+            <l xml:id="A11909_02-e101020">Half burned throws of hark to the voice of Tantalus: again</l>
+            <l xml:id="A11909_02-e101030">That hastes to hell, and whom the truth hath taught believe well me</l>
+            <l xml:id="A11909_02-e101040">Love well your pains, they are but small when shall my hap so be</l>
+            <l xml:id="A11909_02-e101050">To flee the light? </l>
+          </sp>
+          <sp xml:id="A11909_02-e101060" who="A11909_02-megaera">
+            <speaker>Meg</speaker>
+            <l xml:id="A11909_02-e101070">Disturb thou first this house with dire discord</l>
+            <l xml:id="A11909_02-e101080">Debates and battles bring with thee, and of th'unhappy sword</l>
+            <l xml:id="A11909_02-e101090">Ill love to Kings: the cruel breast strike through and hateful heart,</l>
+            <l xml:id="A11909_02-e101100">With tumult mad. </l>
+          </sp>
+          <sp xml:id="A11909_02-e101110" who="A11909_02-tantalus">
+            <speaker>Tan.</speaker>
+            <l xml:id="A11909_02-e101120">To suffer pains it seemeth well my part,</l>
+            <l xml:id="A11909_02-e101130">Not woes to work: I am sent forth like vapour dire to rise,</l>
+            <l xml:id="A11909_02-e101140">That breaks the ground or poison like the plague in wondrous wise</l>
+            <l xml:id="A11909_02-e101150">That slaughter makes, shall I to such detested crimes, apply</l>
+            <l xml:id="A11909_02-e101160">My nephews hearts? O parents great of gods above the sky</l>
+            <l xml:id="A11909_02-e101170">And mine (Though shamed I be to grant) although with greater pain</l>
+            <l xml:id="A11909_02-e101180">My tongue be vexed, yet this to speak I may no whit refrain</l>
+            <l xml:id="A11909_02-e101190">Nor hold my peace: I warn you this least sacred hand with blood</l>
+            <l xml:id="A11909_02-e101200">Of slaughter dire, or strange fell of frantic fury wood</l>
+            <l xml:id="A11909_02-e101210">The altars stain, I will resist: and guard such guilt away. </l>
+            <l xml:id="A11909_02-e101220">With stripes why dost thou me affright? why threat'st thou me to fray</l>
+            <l xml:id="A11909_02-e101230">Those crawling snakes? or famine fixed in empty womb, wherefore</l>
+            <l xml:id="A11909_02-e101240">Dost thou revive? now fries within with thirst enkindled sore</l>
+            <l xml:id="A11909_02-e101250">My heart: and in the bowels burned the boiling flame do glow. </l>
+          </sp>
+          <sp xml:id="A11909_02-e101260" who="A11909_02-megaera">
+            <speaker>Meg.</speaker>
+            <l xml:id="A11909_02-e101270">I follow thee: through all this house now rage and fury throw</l>
+            <l xml:id="A11909_02-e101280">Let them be driven so, and so let either thirst to see</l>
+            <l xml:id="A11909_02-e101290">Each others blood full well hath felt the coming in of thee</l>
+            <l xml:id="A11909_02-e101300">This house, and all with wicked touch of the begun to quake. </l>
+            <l xml:id="A11909_02-e101310">Enough it is, repair again to dens and loathsome lake,</l>
+            <l xml:id="A11909_02-e101320">Of flood well known, the sadder soil with heavy foot of thine</l>
+            <l xml:id="A11909_02-e101330">Aggrieved is, seest thou from syringes how waters do decline</l>
+            <l xml:id="A11909_02-e101340">And inward sink? or how the banks lie void by droughty heat? </l>
+            <l xml:id="A11909_02-e101350">And hotter blast of fiery wind the fewer clouds doth beat? </l>
+            <l xml:id="A11909_02-e101360"><pb facs="26" n="23"/>The trees be spoilt, and naked stand to sight in withered woods,</l>
+            <l xml:id="A11909_02-e101370">The barren bows whose fruits are fled: the land between the floods</l>
+            <l xml:id="A11909_02-e101380">With surge of seas on either side that wonted to resound,</l>
+            <l xml:id="A11909_02-e101390">And nearer fords to separate sometime with lesser ground,</l>
+            <l xml:id="A11909_02-e101400">Now broader spread, it heareth how aloof the waters rise. </l>
+            <l xml:id="A11909_02-e101410">Now Lerna turns against the stream Phoronides likewise</l>
+            <l xml:id="A11909_02-e101420">His poares be stopped, with customed course Alphéus drives not still,</l>
+            <l xml:id="A11909_02-e101430">His holly waves, the trembling tops of high Cithaeron hill,</l>
+            <l xml:id="A11909_02-e101440">They stand not sure: from height adown they shake their silver snow,</l>
+            <l xml:id="A11909_02-e101450">And noble fields of Argos fear, their former drought to know. </l>
+            <l xml:id="A11909_02-e101460">Yea Titan doubts himself to roll the world his wonted way,</l>
+            <l xml:id="A11909_02-e101470">And drive by force to former course the backward drawing day. </l>
+            <stage xml:id="A11909_02-e101480">Chorus,</stage>
+            <l xml:id="A11909_02-e101490">This Argos town if any god be found,</l>
+            <l xml:id="A11909_02-e101500">And pisey boures that famous yet remain,</l>
+            <l xml:id="A11909_02-e101510">Or kingdoms else to love of Corinth's ground,</l>
+            <l xml:id="A11909_02-e101520">The double havens, or sundered seas in twain</l>
+            <l xml:id="A11909_02-e101530">If any love of Taygetus his snows,</l>
+            <l xml:id="A11909_02-e101540">(By winter which when they on hills be cast:</l>
+            <l xml:id="A11909_02-e101550">By Boreas' blasts that from Sarmatia blows,</l>
+            <l xml:id="A11909_02-e101560">With yearly breath the summer melts as fast)</l>
+            <l xml:id="A11909_02-e101570">Where clear Alphéus runs with flood so cold,</l>
+            <l xml:id="A11909_02-e101580">By plays well known that there Olimpik's height:</l>
+            <l xml:id="A11909_02-e101590">Let pleasant power of his from hence withhold</l>
+            <l xml:id="A11909_02-e101600">Such tunes of strife that here they may not light:</l>
+            <l xml:id="A11909_02-e101610">Not nephew worse than grandsire spring from us,</l>
+            <l xml:id="A11909_02-e101620">Or direr deeds delight the younger age. </l>
+            <l xml:id="A11909_02-e101630">Let wicked stock of thirsty Tantalus</l>
+            <l xml:id="A11909_02-e101640">At length leave of, and weary be of rage. </l>
+            <l xml:id="A11909_02-e101650">Enough is done, and naught prevailed the just,</l>
+            <l xml:id="A11909_02-e101660">Or wrong: betrayed is Myrtilus and drowned,</l>
+            <l xml:id="A11909_02-e101670">That did betray his dame, and with like trust</l>
+            <l xml:id="A11909_02-e101680">Born as he bore, himself hath made renowned</l>
+            <l xml:id="A11909_02-e101690"><pb facs="27"/> with changed name the sea: and better known</l>
+            <l xml:id="A11909_02-e101700">To mariners thereof no fable is. </l>
+            <l xml:id="A11909_02-e101710">On wicked sword the little infant thrown</l>
+            <l xml:id="A11909_02-e101720">As ran the chide to take his father's kiss. </l>
+            <l xml:id="A11909_02-e101730">Unripe for th'altars offering fell down dead:</l>
+            <l xml:id="A11909_02-e101740">And with thy hand (Oh Tantalus) was rent,</l>
+            <l xml:id="A11909_02-e101750">With such a meat for God's thy boards to spread. </l>
+            <l xml:id="A11909_02-e101760">Eternal famine for such food is sent,</l>
+            <l xml:id="A11909_02-e101770">And thirst: nor for those dainty meats unmild,</l>
+            <l xml:id="A11909_02-e101780">Might meeter pain appointed ever be</l>
+            <l xml:id="A11909_02-e101790">Vith empty throat stands Tantalus beguiled,</l>
+            <l xml:id="A11909_02-e101800">Above thy wicked head their leans to thee,</l>
+            <l xml:id="A11909_02-e101810">Than Phiney's fowls in flight a swifter prey. </l>
+            <l xml:id="A11909_02-e101820">With burned bows declined on every side,</l>
+            <l xml:id="A11909_02-e101830">And of his fruits all bent to bear the sway,</l>
+            <l xml:id="A11909_02-e101840">The tree deludes the gapes of hunger wide</l>
+            <l xml:id="A11909_02-e101850">Though he full greedy feed thereon would fain. </l>
+            <l xml:id="A11909_02-e101860">So oft deceived neglects to touch them yet:</l>
+            <l xml:id="A11909_02-e101870">He turns his eyes, his jaws he doth refrain,</l>
+            <l xml:id="A11909_02-e101880">And famine fixed in closed gums doth shut. </l>
+            <l xml:id="A11909_02-e101890">But then each branch his plenteous riches all,</l>
+            <l xml:id="A11909_02-e101900">Let's lower down, and apples from an high</l>
+            <l xml:id="A11909_02-e101910">With lither leaves they flatter like to fall</l>
+            <l xml:id="A11909_02-e101920">And famine stir: in vain that bids to try</l>
+            <l xml:id="A11909_02-e101930">His hands: which when he hath wrought forth anon</l>
+            <l xml:id="A11909_02-e101940">To be beguiled, in higher air again</l>
+            <l xml:id="A11909_02-e101950">The harvest hangs and fickle fruit is gone,</l>
+            <l xml:id="A11909_02-e101960">Then thirst him grieves no less than hunger's pain:</l>
+            <l xml:id="A11909_02-e101970">Wherewith when kindled is his boiling blood</l>
+            <l xml:id="A11909_02-e101980">Like fire, the wretch the waves to him doth call,</l>
+            <l xml:id="A11909_02-e101990">That meet his mouth: which straight the fleeing flood</l>
+            <l xml:id="A11909_02-e102000">Withdraws, and from the dried ford doth fall:</l>
+            <l xml:id="A11909_02-e102010">And him forsakes that follows them. He drinks</l>
+            <l xml:id="A11909_02-e102020">The dust so deep of gulf that from him shrinks. </l>
+          </sp>
+        </div>
+        <div n="2" type="act" xml:id="A11909_02-e102030">
+          <pb facs="27" n="24"/>
+          <head>The second act.</head>
+          <stage xml:id="A11909_02-e102040">Atreus. servant</stage>
+          <l xml:id="A11909_02-e102050">Oh dastard, coward, oh wretch, and (Which</l>
+          <l xml:id="A11909_02-e102060">The greatest yet of all</l>
+          <l xml:id="A11909_02-e102070">To tyrant's check I compte that may</l>
+          <l xml:id="A11909_02-e102080">In weighty things befall)</l>
+          <l xml:id="A11909_02-e102090">Oh unrevenged: after guilts</l>
+          <l xml:id="A11909_02-e102100">So great and brother's guile. </l>
+          <l xml:id="A11909_02-e102110">And truth trodden down dost thou provoke</l>
+          <l xml:id="A11909_02-e102120">With vain complaints the while</l>
+          <l xml:id="A11909_02-e102130">Thy wrath? already now to rage all Argos town throughout</l>
+          <l xml:id="A11909_02-e102140">In armour ought of thine, and all the double seas about</l>
+          <l xml:id="A11909_02-e102150">Thy fleet to ride: now all the fields with fervent flames of thine,</l>
+          <l xml:id="A11909_02-e102160">And towns to flash it well beseemed: and everywhere to shine,</l>
+          <l xml:id="A11909_02-e102170">The bright drawn sword: all under foot of horse let every side</l>
+          <l xml:id="A11909_02-e102180">Of Argos land resound: and let the wounds not serve to hide</l>
+          <l xml:id="A11909_02-e102190">Our woes, nor yet in haughty top of hills and mountains high,</l>
+          <l xml:id="A11909_02-e102200">The builded towers. The people all let them to battle cry</l>
+          <l xml:id="A11909_02-e102210">And clear for Mycenas town who so his hateful head</l>
+          <l xml:id="A11909_02-e102220">Hides and defends, with slaughter dire let blood of him be shed. </l>
+          <l xml:id="A11909_02-e102230">This princely Pelops palace proud, and bowers of high renown,</l>
+          <l xml:id="A11909_02-e102240">On me so on my brother to let them be beaten down,</l>
+          <l xml:id="A11909_02-e102250">Go to, do that which never shall no after age allow,</l>
+          <l xml:id="A11909_02-e102260">Nor none it wished: some mischief great there must be ventured now,</l>
+          <l xml:id="A11909_02-e102270">Both fierce and bloody: such as would my brother rather long</l>
+          <l xml:id="A11909_02-e102280">To have been his. Thou never dost enough revenge the wrong. </l>
+          <l xml:id="A11909_02-e102290">Except thou pass. And fiercer fact what may be done so dire,</l>
+          <l xml:id="A11909_02-e102300">That his exceeds? doth ever he lay down his hateful ire? </l>
+          <l xml:id="A11909_02-e102310">Doth ever he the modest mean in time of wealth regard</l>
+          <l xml:id="A11909_02-e102320">Or quiet in adversity? I know his nature hard</l>
+          <l xml:id="A11909_02-e102330">Untractable, that broke may be, but never wil it bend. </l>
+          <l xml:id="A11909_02-e102340">For which are he prepare himself, or force to fight intend,</l>
+          <l xml:id="A11909_02-e102350">Set first on him, lest while I rest he should on me arise. </l>
+          <l xml:id="A11909_02-e102360">He will destroy or be destroyed in midst the mischief lies,</l>
+          <l xml:id="A11909_02-e102370"><pb facs="28"/> prepared to him that takes it first,</l>
+          <sp xml:id="A11909_02-e102380" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e102390">Doth fame of people naught</l>
+            <l xml:id="A11909_02-e102400">Adverse thee fear? </l>
+          </sp>
+          <sp xml:id="A11909_02-e102410" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e102420">The greatest good of kingdom may be thought</l>
+            <l xml:id="A11909_02-e102430">That still the people are constrained their princes deeds as well</l>
+            <l xml:id="A11909_02-e102440">To praise, as them to suffer all. </l>
+          </sp>
+          <sp xml:id="A11909_02-e102450" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e102460">Whom fear doth so compel</l>
+            <l xml:id="A11909_02-e102470">To praise, the same his foes to be, doth fear enforce agoyne:</l>
+            <l xml:id="A11909_02-e102480">But who indeed the glory seeks of favour true t'obtain</l>
+            <l xml:id="A11909_02-e102490">He rather would with hates of each be praised, than tongues of all</l>
+          </sp>
+          <sp xml:id="A11909_02-e102500" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e102510">The truer praise full oft hath happed to meaner men to fall:</l>
+            <l xml:id="A11909_02-e102520">The false but unto mighty man what nill they let them will. </l>
+          </sp>
+          <sp xml:id="A11909_02-e102530" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e102540">Let first the King will honest things and none the fame dare nill. </l>
+          </sp>
+          <sp xml:id="A11909_02-e102550" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e102560">Where leeful are to him that rules but honest things alone,</l>
+            <l xml:id="A11909_02-e102570">There rains the King by others leave. </l>
+          </sp>
+          <sp xml:id="A11909_02-e102580" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e102590">And where theshame is none,</l>
+            <l xml:id="A11909_02-e102600">Nor care of right, faith, piety, nor holiness none stayeth,</l>
+            <l xml:id="A11909_02-e102610">That kingdom swerves. </l>
+          </sp>
+          <sp xml:id="A11909_02-e102620" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e102630">Such holiness, such piety and faith. </l>
+            <l xml:id="A11909_02-e102640">Are private goods: let Kings run one in that that likes their will. </l>
+          </sp>
+          <sp xml:id="A11909_02-e102650" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e102660">The brother's hurt a mischief count though he be ne'er so ill. </l>
+          </sp>
+          <sp xml:id="A11909_02-e102670" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e102680">It is but right to do to him, that wrong to brother were ▪</l>
+            <l xml:id="A11909_02-e102690">What heinous hurt hath his offence let pass to prove? or where</l>
+            <l xml:id="A11909_02-e102700">Refrained the guilt, thy spouse he stole away for lechery,</l>
+            <l xml:id="A11909_02-e102710">And reign by stealth: the ancient note and sign of empery,</l>
+            <l xml:id="A11909_02-e102720">By fraud he got: my house by fraud to vex he never ceased:</l>
+            <l xml:id="A11909_02-e102730">In Pelops house there fostered is a noble worthy beast</l>
+            <l xml:id="A11909_02-e102740">The close kept Ram: the goodly guide of rich and fairest flocks. </l>
+            <l xml:id="A11909_02-e102750">By whom throughout on every side depend a down the locks</l>
+            <l xml:id="A11909_02-e102760">Of glittering gold, with fleece of which the new Kings wonted were</l>
+            <l xml:id="A11909_02-e102770">Of Tantal's stock their sceptre's guilt, and mace of might to beat. </l>
+            <l xml:id="A11909_02-e102780">Of this the owner reigneth he, with him of house so great</l>
+            <l xml:id="A11909_02-e102790">The fortune fleeth, this sacred ram aloof in safety shut</l>
+            <l xml:id="A11909_02-e102800">In secret mead is wont to graze, which stone on every side</l>
+            <l xml:id="A11909_02-e102810">With rocky wall encloseth round the fatal beast to hide. </l>
+            <l xml:id="A11909_02-e102820">This beast (Adventuring mischief great) adjoining yet for pray</l>
+            <l xml:id="A11909_02-e102830">My spoused mate, the traitor false hath hence conveyed away</l>
+            <l xml:id="A11909_02-e102840">From hence the wrongs of mutual hate, and mischief all upspring:</l>
+            <l xml:id="A11909_02-e102850">In exile wandered he throughout my kingdoms all along:</l>
+            <l xml:id="A11909_02-e102860">No part of mine remaineth safe to me, from trains of his. </l>
+            <l xml:id="A11909_02-e102870">My fear deflowered, and loyalty of empire broken is:</l>
+            <l xml:id="A11909_02-e102880">My house all vexed, my blood in doubt, and naught that trust is in,</l>
+            <l xml:id="A11909_02-e102890">But brother foe what stay'st thou yet? at length lo now begin. </l>
+            <l xml:id="A11909_02-e102900">Take heart of Tantalus to thee, to Pelops cast thine eye:</l>
+            <l xml:id="A11909_02-e102910">To such examples well beseems, I should my hand apply. </l>
+            <l xml:id="A11909_02-e102920"><pb facs="28" n="25"/>Tell thou which way were best to bring that cruel head to death. </l>
+          </sp>
+          <sp xml:id="A11909_02-e102930" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e102940">Through pierced with sword let him be slain and yield his hateful breath. </l>
+          </sp>
+          <sp xml:id="A11909_02-e102950" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e102960">Thou speak'st of th'end: but I him would oppress with greater pain. </l>
+            <l xml:id="A11909_02-e102970">Let tyrants vex with torment more: should ever in my rain</l>
+            <l xml:id="A11909_02-e102980">Be gentle death? </l>
+          </sp>
+          <sp xml:id="A11909_02-e102990" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e103000">Doth piety in thee prevail no whit? </l>
+          </sp>
+          <sp xml:id="A11909_02-e103010" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e103020">Depart thou hence all piety, if in this house as yet</l>
+            <l xml:id="A11909_02-e103030">Thou ever wert: and now let all the flock of furies dire,</l>
+            <l xml:id="A11909_02-e103040">And full of strife Erinys come, and double brands of fire</l>
+            <l xml:id="A11909_02-e103050">Megaera shaking: for not yet enough with fury great</l>
+            <l xml:id="A11909_02-e103060">And rage doth burn my boiling breast: it ought to be replete,</l>
+            <l xml:id="A11909_02-e103070">With monster more. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103080" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e103090">What mischief new dost thou in rage provide? </l>
+          </sp>
+          <sp xml:id="A11909_02-e103100" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e103110">Not such a one as may the mean of wonted grief abide. </l>
+            <l xml:id="A11909_02-e103120">No guilt will I forbear, nor none may be enough despite. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103130" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e103140">What sword? </l>
+          </sp>
+          <sp xml:id="A11909_02-e103150" who="A11909_02-atreus">
+            <speaker>Atr.</speaker>
+            <l xml:id="A11909_02-e103160">Too little that. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103170" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e103180">What fire? </l>
+          </sp>
+          <sp xml:id="A11909_02-e103190" who="A11909_02-atreus">
+            <speaker>Atr.</speaker>
+            <l xml:id="A11909_02-e103200">And y● is yet to</l>
+          </sp>
+          <sp xml:id="A11909_02-e103210" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e103220">What weapon then shall sorrow such find fit to work thy will? </l>
+          </sp>
+          <sp xml:id="A11909_02-e103230" who="A11909_02-atreus">
+            <speaker>Atr.</speaker>
+            <l xml:id="A11909_02-e103240">Thy estes self. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103250" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e103260">Then ire itself yet that's a greater ill. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103270" who="A11909_02-atreus">
+            <speaker>Atr.</speaker>
+            <l xml:id="A11909_02-e103280">I grant: a tumbling tumult quakes, within my bosoms lo,</l>
+            <l xml:id="A11909_02-e103290">And round it rolls: I moved am and wot not whereunto. </l>
+            <l xml:id="A11909_02-e103300">But drawn I am: from bottom deep the roaring soil doth cry</l>
+            <l xml:id="A11909_02-e103310">The day so fair with thunder sounds, and house as all from high</l>
+            <l xml:id="A11909_02-e103320">Were rent, from roof, and rafters cracks: and lares turned about</l>
+            <l xml:id="A11909_02-e103330">Have wried their sight: so be't, so be't, let mischief such be sought,</l>
+            <l xml:id="A11909_02-e103340">As ye oh gods would fear. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103350" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e103360">What thing seekest thou to bring to pass</l>
+            <l xml:id="A11909_02-e103370">I note what greater thing my mind, and more than wont it was</l>
+          </sp>
+          <sp xml:id="A11909_02-e103380" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e103390">Above the reach that men are wont to work, begins to swell:</l>
+            <l xml:id="A11909_02-e103400">And staithe with slothful hands. What thing it is I cannot tell:</l>
+            <l xml:id="A11909_02-e103410">But great it is. Be't so, my mind now in this feat proceed,</l>
+            <l xml:id="A11909_02-e103420">For Atreus and Thyestes both, it were a worthy deed. </l>
+            <l xml:id="A11909_02-e103430">Let each of us the crime commit. The Thracian house did see</l>
+            <l xml:id="A11909_02-e103440">Such wicked tables once: I grant the mischief great to be,</l>
+            <l xml:id="A11909_02-e103450">But done ere this: some greater guilt and mischief more, let ire</l>
+            <l xml:id="A11909_02-e103460">Find out. The stomach of thy son oh father thou inspire,</l>
+            <l xml:id="A11909_02-e103470">And sister eke, like is the cause: assist me with your power,</l>
+            <l xml:id="A11909_02-e103480">And drive my hand: let greedy parents all his babes devour,</l>
+            <l xml:id="A11909_02-e103490">And glad to rent his children be: and on their limbs to feed. </l>
+            <l xml:id="A11909_02-e103500">Enough, and well it is devised: this pleaseth me in deed. </l>
+            <l xml:id="A11909_02-e103510">In mean time where is he? so long and innocent wherefore</l>
+            <l xml:id="A11909_02-e103520">Doth Atreus walk? before mine eyes already more and more</l>
+            <l xml:id="A11909_02-e103530">The shade of such a slaughter walks: the want of children cast,</l>
+            <l xml:id="A11909_02-e103540">In father's jaws. But why my mind, yet dreadst thou so at last,</l>
+            <l xml:id="A11909_02-e103550"><pb facs="29"/> and faint'st before thou enterprise? it must be done, let be,</l>
+            <l xml:id="A11909_02-e103560">That which in all this mischief is the greatest guilt to see,</l>
+            <l xml:id="A11909_02-e103570">Let him commit. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103580" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e103590">But what deceit may we for him prepare,</l>
+            <l xml:id="A11909_02-e103600">Whereby betrapped he may be drawn, to fall into the snare? </l>
+            <l xml:id="A11909_02-e103610">He wots full well we are his foes. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103620" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e103630">He could not taken be,</l>
+            <l xml:id="A11909_02-e103640">Except himself would take: but now my kingdoms hopeth he. </l>
+            <l xml:id="A11909_02-e103650">For hope of this he would not fear to meet the mighty Jove,</l>
+            <l xml:id="A11909_02-e103660">Though him he threatened to destroy, with lightning from above. </l>
+            <l xml:id="A11909_02-e103670">For hope of this to pass the threats of waves he will not fail,</l>
+            <l xml:id="A11909_02-e103680">Nor dread no whit by doubtful shelves, of Lybic seas to sail,</l>
+            <l xml:id="A11909_02-e103690">For hope of this (Which thing he doth the worst of all believe,)</l>
+            <l xml:id="A11909_02-e103700">He will his brother see. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103710" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e103720">Who shall of peace the promise give? </l>
+            <l xml:id="A11909_02-e103730">Whom will he trust? </l>
+          </sp>
+          <sp xml:id="A11909_02-e103740" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e103750">His evil hope will soon believe it well. </l>
+            <l xml:id="A11909_02-e103760">Yet to my sons the charge which they shall to their uncle tell,</l>
+            <l xml:id="A11909_02-e103770">We will commit: that whom he would from exile come again,</l>
+            <l xml:id="A11909_02-e103780">And miseries for kingdom change, and over Argos reign</l>
+            <l xml:id="A11909_02-e103790">A King of half: and though too hard of heart our prayers all</l>
+            <l xml:id="A11909_02-e103800">Himself despise, his children yet naught woting what may fall,</l>
+            <l xml:id="A11909_02-e103810">With travels tired, and apt to be enticed from misery,</l>
+            <l xml:id="A11909_02-e103820">Requests will move: on th'one side his desire of empire,</l>
+            <l xml:id="A11909_02-e103830">On th'other side his poverty, and labour hard to see,</l>
+            <l xml:id="A11909_02-e103840">Will him subdue and make to yield, although full stout he be. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103850" who="A11909_02-unassigned">
+            <speaker>Sea.</speaker>
+            <l xml:id="A11909_02-e103860">His travails now the time hath made to seem to him but small. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103870" who="A11909_02-atreus">
+            <speaker>Atr.</speaker>
+            <l xml:id="A11909_02-e103880">Not so: for day by day the grief of ill increaseth all. </l>
+            <l xml:id="A11909_02-e103890">'Tis light to suffer miseries, but heavy them t'endure. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103900" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e103910">Yet other messengers to send, in such affairs procure,</l>
+          </sp>
+          <sp xml:id="A11909_02-e103920" who="A11909_02-atreus">
+            <speaker>Atr.</speaker>
+            <l xml:id="A11909_02-e103930">The younger sort the worse precepts do easily hearken to. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103940" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e103950">What thing against their uncle now, you them instruct to do,</l>
+            <l xml:id="A11909_02-e103960">Perhaps with you to work the like, they will not be a dread. </l>
+            <l xml:id="A11909_02-e103970">Such mischief wrought hath oft returned upon the workers head. </l>
+          </sp>
+          <sp xml:id="A11909_02-e103980" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e103990">Though never man to them the ways of guile and guilt have taught,</l>
+            <l xml:id="A11909_02-e104000">Yet kingdom will. Fearest thou they should be made by counsel naught? </l>
+            <l xml:id="A11909_02-e104010">They are so born. That with thou car, ste a cruel enterprise,</l>
+            <l xml:id="A11909_02-e104020">And direly deemest done to be, and wickedly likewise,</l>
+            <l xml:id="A11909_02-e104030">Perhaps is wrought against me there. </l>
+          </sp>
+          <sp xml:id="A11909_02-e104040" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e104050">And shall your sons of this</l>
+            <l xml:id="A11909_02-e104060">Deceit beware that work you will? no secretness there is</l>
+            <l xml:id="A11909_02-e104070">In their so green and tender years: they will your trains disclose,</l>
+          </sp>
+          <sp xml:id="A11909_02-e104080" who="A11909_02-atreus">
+            <speaker>Atre.</speaker>
+            <l xml:id="A11909_02-e104090">A privy counsel close to keep, is learned with many woes. </l>
+          </sp>
+          <sp xml:id="A11909_02-e104100" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e104110">And will ye them, by whom ye would he should beguiled be,</l>
+            <l xml:id="A11909_02-e104120">Them selves beguiled? </l>
+          </sp>
+          <sp xml:id="A11909_02-e104130" who="A11909_02-atreus">
+            <speaker>At.</speaker>
+            <l xml:id="A11909_02-e104140">May let them both from fault and blame be free. </l>
+            <l xml:id="A11909_02-e104150"><pb facs="29" n="26"/>For what shall need in mischiefs such as I to work intend,</l>
+            <l xml:id="A11909_02-e104160">To mingle them? let all my hate by me alone take end. </l>
+            <l xml:id="A11909_02-e104170">Thou leav'st thy purpose ill my mind: if thou thine own forbear,</l>
+            <l xml:id="A11909_02-e104180">Thou sparest him. Wherefore of this let Agamemnon hear</l>
+            <l xml:id="A11909_02-e104190">Be minister: and client eke of mine for such a deed,</l>
+            <l xml:id="A11909_02-e104200">Let Menelâus present be: truth of th'uncertain seed,</l>
+            <l xml:id="A11909_02-e104210">By such a practice may be tried: if it refuse they shall,</l>
+            <l xml:id="A11909_02-e104220">Nor of debate will bearers be, if they him uncle call,</l>
+            <l xml:id="A11909_02-e104230">He is their father: let them go. But much the fearful face</l>
+            <l xml:id="A11909_02-e104240">Betrays itself: even him that feigns the secret weighty case,</l>
+            <l xml:id="A11909_02-e104250">Doth oft betray: let them therefore not know, how great a guile</l>
+            <l xml:id="A11909_02-e104260">They go about. And thou these things in secret keep the while. </l>
+          </sp>
+          <sp xml:id="A11909_02-e104270" who="A11909_02-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A11909_02-e104280">I need not warned be, for these within my bosom deep,</l>
+            <l xml:id="A11909_02-e104290">Both faith, and fear, but chiefly faith, doth shut and closely keep. </l>
+          </sp>
+          <sp xml:id="A11909_02-e104300" who="A11909_02-missing">
+            <stage xml:id="A11909_02-e104310">Chorus.</stage>
+            <l xml:id="A11909_02-e104320">The noble house at length of high renown,</l>
+            <l xml:id="A11909_02-e104330">The famous stock of ancient Inachus,</l>
+            <l xml:id="A11909_02-e104340">Appeased and laid the threats of brothers down</l>
+            <l xml:id="A11909_02-e104350">But now what fury stirs and drives you thus</l>
+            <l xml:id="A11909_02-e104360">Each one to thirst the others blood again,</l>
+            <l xml:id="A11909_02-e104370">Or get by guilt the golden mace in hand? </l>
+            <l xml:id="A11909_02-e104380">Ye little wot that so desire to reign,</l>
+            <l xml:id="A11909_02-e104390">In what estate or place doth kingdom stand. </l>
+            <l xml:id="A11909_02-e104400">Not riches makes a King or high renown,</l>
+            <l xml:id="A11909_02-e104410">Not garnished weed with purple Tyrian die,</l>
+            <l xml:id="A11909_02-e104420">Not lofty looks, or head enclosed with crown,</l>
+            <l xml:id="A11909_02-e104430">Not glittering beams with gold and turrets hie. </l>
+            <l xml:id="A11909_02-e104440"><pb facs="30"/>A King he is that fear hath laid aside,</l>
+            <l xml:id="A11909_02-e104450">And all affects that in the breast are bred:</l>
+            <l xml:id="A11909_02-e104460">Whom impotent ambition doth not guide,</l>
+            <l xml:id="A11909_02-e104470">Nor fickle favour hath of people led. </l>
+            <l xml:id="A11909_02-e104480">Nor all that West in metals mines hath found,</l>
+            <l xml:id="A11909_02-e104490">Or channel clear of golden Tagus shows,</l>
+            <l xml:id="A11909_02-e104500">Nor all the grain that threshed is on ground,</l>
+            <l xml:id="A11909_02-e104510">That with the heat of Lybic harvest glows. </l>
+            <l xml:id="A11909_02-e104520">Nor whom the flash of lightning flame shall be eaten,</l>
+            <l xml:id="A11909_02-e104530">Nor Eastern wind that smites upon the seas,</l>
+            <l xml:id="A11909_02-e104540">Nor swelling surge with rage of wind replete,</l>
+            <l xml:id="A11909_02-e104550">Or greedy gulf of Adria displease. </l>
+            <l xml:id="A11909_02-e104560">Whom not the prick of soldiers sharpest spear,</l>
+            <l xml:id="A11909_02-e104570">Or poyncted pike in hand hath made to rue,</l>
+            <l xml:id="A11909_02-e104580">Nor whom the glimpse of sword might cause to fear,</l>
+            <l xml:id="A11909_02-e104590">Or bright drawn blade of glittering steel sub due. </l>
+            <l xml:id="A11909_02-e104600">Who in the seat of safety sets his feet,</l>
+            <l xml:id="A11909_02-e104610">Beholds all haps how under him they lie,</l>
+            <l xml:id="A11909_02-e104620">And gladly runs his fat all day to meet,</l>
+            <l xml:id="A11909_02-e104630">Nor ought complains or grudgeth for to die. </l>
+            <l xml:id="A11909_02-e104640">Though present were the princes everychone,</l>
+            <l xml:id="A11909_02-e104650">The scattered Dakes to chase that wonted be,</l>
+            <l xml:id="A11909_02-e104660">That shining seas beset with precious stone,</l>
+            <l xml:id="A11909_02-e104670">And red sea coasts do hold, like blood to see:</l>
+            <l xml:id="A11909_02-e104680">Or they which else the Caspian mountains high,</l>
+            <l xml:id="A11909_02-e104690">From sarmats strong with all their power withhold:</l>
+            <l xml:id="A11909_02-e104700">Or he that on the flood of Danuby,</l>
+            <l xml:id="A11909_02-e104710">In frost a foot to travail dare be bold:</l>
+            <l xml:id="A11909_02-e104720">Or seres in whatever place they lie,</l>
+            <l xml:id="A11909_02-e104730">Renowned with fleece that there of silk doth spring,</l>
+            <l xml:id="A11909_02-e104740"><pb facs="30" n="27"/> they never might the truth here of deny,</l>
+            <l xml:id="A11909_02-e104750">It is the mind that only makes a King. </l>
+            <l xml:id="A11909_02-e104760">There is no need of sturdy steeds in war,</l>
+            <l xml:id="A11909_02-e104770">No need with arms or arrows else to fight,</l>
+            <l xml:id="A11909_02-e104780">That Parthus wonts with bow to fling from far,</l>
+            <l xml:id="A11909_02-e104790">While from the field he falsely feigneth flight. </l>
+            <l xml:id="A11909_02-e104800">Nor yet to siege no need it is to bring</l>
+            <l xml:id="A11909_02-e104810">Great guns in carts to overthrow the wall,</l>
+            <l xml:id="A11909_02-e104820">That from far off their battering pellets sling. </l>
+            <l xml:id="A11909_02-e104830">A King he is that feareth naught at all. </l>
+            <l xml:id="A11909_02-e104840">Each man himself this King dome gives at hand. </l>
+            <l xml:id="A11909_02-e104850">Let who so list with mighty mace to reign,</l>
+            <l xml:id="A11909_02-e104860">In tickle top of court delight to stand</l>
+            <l xml:id="A11909_02-e104870">Let me the sweet and quiet rest obtain. </l>
+            <l xml:id="A11909_02-e104880">So set in place obscure and low degree,</l>
+            <l xml:id="A11909_02-e104890">Of pleasant rest I shall the sweetness know. </l>
+            <l xml:id="A11909_02-e104900">My life unknown to them that noble be,</l>
+            <l xml:id="A11909_02-e104910">Shall in the step of secret silence go. </l>
+            <l xml:id="A11909_02-e104920">Thus when my days at length are over past,</l>
+            <l xml:id="A11909_02-e104930">And time without all troublous tumult spent,</l>
+            <l xml:id="A11909_02-e104940">An aged man I shall depart at last,</l>
+            <l xml:id="A11909_02-e104950">In mean estate, to die full well content. </l>
+            <l xml:id="A11909_02-e104960">But grievous is to him the death, that when</l>
+            <l xml:id="A11909_02-e104970">So far abroad the bruit of him is blown,</l>
+            <l xml:id="A11909_02-e104980">That known he is to much to other men:</l>
+            <l xml:id="A11909_02-e104990">Departeth yet unto himself unknown. </l>
+          </sp>
+        </div>
+        <div n="3" type="act" xml:id="A11909_02-e105000">
+          <pb facs="31"/>
+          <head>The third act.</head>
+          <stage xml:id="A11909_02-e105010">Thyestes, Phylisthenes</stage>
+          <l xml:id="A11909_02-e105020">My country bowers so long wished for, and Argos riches all,</l>
+          <l xml:id="A11909_02-e105030">Cytese good that unto banished then, and misers may befall,</l>
+          <l xml:id="A11909_02-e105040">The touch of soil where born I was, a gods of native land,</l>
+          <l xml:id="A11909_02-e105050">(If gods they be,) a sacred towers I see of Cyclops hand:</l>
+          <l xml:id="A11909_02-e105060">That represent then all man's work, a greater majesty. </l>
+          <l xml:id="A11909_02-e105070">Renowned stad●s to my youth, where noble sometime I</l>
+          <l xml:id="A11909_02-e105080">Have not so seld as once, the palm in father's chariot won. </l>
+          <l xml:id="A11909_02-e105090">All Argos now to meet with me, and people fast will run:</l>
+          <l xml:id="A11909_02-e105100">But Atreus to. yet rather lead in woods again thy flight,</l>
+          <l xml:id="A11909_02-e105110">And bushes thick, and hidden among the brutish beasts from sight,</l>
+          <l xml:id="A11909_02-e105120">Like life to theirs: where splendent pomp of court a princely pride,</l>
+          <l xml:id="A11909_02-e105130">May not with flattering fulgent face, allure thine eyes aside,</l>
+          <l xml:id="A11909_02-e105140">With whom the kingdom given is, behold, and well regard,</l>
+          <l xml:id="A11909_02-e105150">Beset but late with such mishaps, as all men count full hard,</l>
+          <l xml:id="A11909_02-e105160">I stout and joyful was: but now again thus in't fear</l>
+          <l xml:id="A11909_02-e105170">I am return. my mind misdoubts, and backward seeks to bear</l>
+          <l xml:id="A11909_02-e105180">My body hence: and forth I draw my pace against my will. </l>
+          <sp xml:id="A11909_02-e105190" who="A11909_02-phylisthenes">
+            <speaker>Phy.</speaker>
+            <l xml:id="A11909_02-e105200">With slothful step (What meaneth this?) my father standeth still,</l>
+            <l xml:id="A11909_02-e105210">And turns his face and holds himself, in doubt what thing to do. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105220" who="A11909_02-thyestes">
+            <speaker>Thy.</speaker>
+            <l xml:id="A11909_02-e105230">What thing (My mind) considerest thou? or else so long whereto</l>
+            <l xml:id="A11909_02-e105240">Dost thou so East counsel wrest? wilt thou to things unsure</l>
+            <l xml:id="A11909_02-e105250">Thy brother and the kingdom trust? fearest thou those ills t'endure</l>
+            <l xml:id="A11909_02-e105260">Now overcome, and milder made? and travails dost thou flee</l>
+            <l xml:id="A11909_02-e105270">That well were placed? it thee avails, a miser now to be. </l>
+            <l xml:id="A11909_02-e105280">Turn hence thy pace while leefull is, and keep thee from his hand. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105290" who="A11909_02-phylisthenes">
+            <speaker>Phy.</speaker>
+            <l xml:id="A11909_02-e105300">What cause thee drives (Oh father dear) thus frō thy native land,</l>
+            <l xml:id="A11909_02-e105310">Now seen to shrink? what makes thee thus from things so good at last</l>
+            <l xml:id="A11909_02-e105320">Withdraw thyself? thy brother comes whose tres be overpast,</l>
+            <l xml:id="A11909_02-e105330">And half the kingdom gives, and of the house dysacerate,</l>
+            <l xml:id="A11909_02-e105340">Repairs the parts: and thee restores again to former state. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105350" who="A11909_02-thyestes">
+            <speaker>Thy.</speaker>
+            <l xml:id="A11909_02-e105360">The cause of fear that I know not, thou dost require to hear. </l>
+            <l xml:id="A11909_02-e105370">I see nothing that makes me dread, and yet I greatly fear. </l>
+            <l xml:id="A11909_02-e105380"><pb facs="31" n="28"/>I would go on, but yet my limbs with weary legs do slack:</l>
+            <l xml:id="A11909_02-e105390">And other way than I would pass, I am withheld back. </l>
+            <l xml:id="A11909_02-e105400">So oft the ship that driven is with wind and eke with oar,</l>
+            <l xml:id="A11909_02-e105410">The swelling surge resisting both beats back upon the shore. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105420" who="A11909_02-phylisthenes">
+            <speaker>Phy.</speaker>
+            <l xml:id="A11909_02-e105430">Yet overcome whatever stays, and thus doth let your mind,</l>
+            <l xml:id="A11909_02-e105440">And see what are at your return, prepared for you to find. </l>
+            <l xml:id="A11909_02-e105450">You may oh father reign. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105460" who="A11909_02-thyestes">
+            <speaker>Thy.</speaker>
+            <l xml:id="A11909_02-e105470">I may but then when die I might. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105480" who="A11909_02-phylisthenes">
+            <speaker>P.</speaker>
+            <l xml:id="A11909_02-e105490">Chief thing is power. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105500" who="A11909_02-tantalus">
+            <speaker>T.</speaker>
+            <l xml:id="A11909_02-e105510">Naught worth at all, if thou desire it naught. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105520" who="A11909_02-phylisthenes">
+            <speaker>P.</speaker>
+            <l xml:id="A11909_02-e105530">You shall it to your children leave. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105540" who="A11909_02-tantalus">
+            <speaker>T.</speaker>
+            <l xml:id="A11909_02-e105550">The kingdom takes not twain,</l>
+          </sp>
+          <sp xml:id="A11909_02-e105560" who="A11909_02-phylisthenes">
+            <speaker>Phy.</speaker>
+            <l xml:id="A11909_02-e105570">Who may be happy, rather would he miser yet remain? </l>
+          </sp>
+          <sp xml:id="A11909_02-e105580" who="A11909_02-thyestes">
+            <speaker>Thy.</speaker>
+            <l xml:id="A11909_02-e105590">Believe me well, with titles false the great things us delight:</l>
+            <l xml:id="A11909_02-e105600">And heavy haps in vain are feared. while high I stood in sight,</l>
+            <l xml:id="A11909_02-e105610">I never stinted then to quake, and self same sword to fear,</l>
+            <l xml:id="A11909_02-e105620">That hanged by mine own side was. O how great good it were,</l>
+            <l xml:id="A11909_02-e105630">With none to strive, but careless food to eat and rest to know? </l>
+            <l xml:id="A11909_02-e105640">The greater guilts they enter not in cottage set alow. </l>
+            <l xml:id="A11909_02-e105650">And safer food is fed upon, at narrow board always,</l>
+            <l xml:id="A11909_02-e105660">While drunk in gold the poison is by proof well taught I say,</l>
+            <l xml:id="A11909_02-e105670">That evil haps before the good to love it likes my will. </l>
+            <l xml:id="A11909_02-e105680">Of haughty house that stands aloft in tickle top of hill,</l>
+            <l xml:id="A11909_02-e105690">And sways aside, the city low need never be affright:</l>
+            <l xml:id="A11909_02-e105700">Nor in the top of roof above, there shines no ivory bright,</l>
+            <l xml:id="A11909_02-e105710">Nor watchman none defends my sleeps by night, or guards my rest:</l>
+            <l xml:id="A11909_02-e105720">With fleet I fish not, nor the sees I have not backward pressed,</l>
+            <l xml:id="A11909_02-e105730">Nor turned to flight with builded wall: nor wicked belly I</l>
+            <l xml:id="A11909_02-e105740">With taxes of the people fed: nor parcel none doth lie,</l>
+            <l xml:id="A11909_02-e105750">Of ground of mine beyond the Getes: and Parthians far about:</l>
+            <l xml:id="A11909_02-e105760">Nor worshipped with frankincense I am, nor (Jove shut out)</l>
+            <l xml:id="A11909_02-e105770">My altars decked are: nor none in top of house doth stand</l>
+            <l xml:id="A11909_02-e105780">In garden trees, nor kindled yet with help of each man's hand,</l>
+            <l xml:id="A11909_02-e105790">The baths do smoke: nor yet are days in slothful slumbers led,</l>
+            <l xml:id="A11909_02-e105800">Nor nights passed forth in watch and wine, without the rest of bed. </l>
+            <l xml:id="A11909_02-e105810">We nothing fear, the house is safe without the hidden knife,</l>
+            <l xml:id="A11909_02-e105820">And poor estate the sweetness feels, of test and quiet life. </l>
+            <l xml:id="A11909_02-e105830">Great kingdom is to be content, without the same to live. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105840" who="A11909_02-phylisthenes">
+            <speaker>Phy.</speaker>
+            <l xml:id="A11909_02-e105850">Yet should it not refused be, if God the kingdom give. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105860" who="A11909_02-thyestes">
+            <speaker>Thy.</speaker>
+            <l xml:id="A11909_02-e105870">Not yet desired it ought to be. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105880" who="A11909_02-phylisthenes">
+            <speaker>Phy.</speaker>
+            <l xml:id="A11909_02-e105890">Your brother bids you rain. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105900" who="A11909_02-thyestes">
+            <speaker>Thy.</speaker>
+            <l xml:id="A11909_02-e105910">Bids he? the more is to be feared: there lurketh there some train. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105920" who="A11909_02-phylisthenes">
+            <speaker>Phy.</speaker>
+            <l xml:id="A11909_02-e105930">From whence it fell, yet piety is wont to turn at length:</l>
+            <l xml:id="A11909_02-e105940">And love unfeigned, repairs again his erst omitted strength. </l>
+          </sp>
+          <sp xml:id="A11909_02-e105950" who="A11909_02-thyestes">
+            <pb facs="32"/>
+            <speaker>Thy.</speaker>
+            <l xml:id="A11909_02-e105960">Doth Atreus then his brother love? each ursa first on his. </l>
+            <l xml:id="A11909_02-e105970">The seas shall wash and swelling surge of seas of Sicily</l>
+            <l xml:id="A11909_02-e105980">Shall rest and all assuaged be: and corn to ripeness grow</l>
+            <l xml:id="A11909_02-e105990">In bottom of Ionian seas, and darkest night shall show</l>
+            <l xml:id="A11909_02-e106000">And spread the light about the soil: the waters with the fire,</l>
+            <l xml:id="A11909_02-e106010">The life with death, the wind with seas, shall friendship first require,</l>
+            <l xml:id="A11909_02-e106020">And be at league. </l>
+          </sp>
+          <sp xml:id="A11909_02-e106030" who="A11909_02-phylisthenes">
+            <speaker>Phy.</speaker>
+            <l xml:id="A11909_02-e106040">Of what deceit are you so dreadful here? </l>
+          </sp>
+          <sp xml:id="A11909_02-e106050" who="A11909_02-thyestes">
+            <speaker>Thy.</speaker>
+            <l xml:id="A11909_02-e106060">Of everychone: what end at length might I provide of fear? </l>
+            <l xml:id="A11909_02-e106070">In all he can he hateth me. </l>
+          </sp>
+          <sp xml:id="A11909_02-e106080" who="A11909_02-phylisthenes">
+            <speaker>Phy.</speaker>
+            <l xml:id="A11909_02-e106090">To you what hurt can he? </l>
+          </sp>
+          <sp xml:id="A11909_02-e106100" who="A11909_02-thyestes">
+            <speaker>Thy.</speaker>
+            <l xml:id="A11909_02-e106110">As for myself I nothing dread you little babes make me</l>
+            <l xml:id="A11909_02-e106120">Afraid of him. </l>
+          </sp>
+          <sp xml:id="A11909_02-e106130" who="A11909_02-phylisthenes">
+            <speaker>Phy.</speaker>
+            <l xml:id="A11909_02-e106140">Dread, ye to be beguiled when caught ye are:</l>
+            <l xml:id="A11909_02-e106150">To late it is to shoes the traytie in middle of the snare. </l>
+            <l xml:id="A11909_02-e106160">But go we on this (Father) is to you my last request. </l>
+          </sp>
+          <sp xml:id="A11909_02-e106170" who="A11909_02-thyestes">
+            <speaker>Thy.</speaker>
+            <l xml:id="A11909_02-e106180">I follow you. I lead you not. </l>
+          </sp>
+          <sp xml:id="A11909_02-e106190" who="A11909_02-phylisthenes">
+            <speaker>Phy.</speaker>
+            <l xml:id="A11909_02-e106200">God turn it to the best</l>
+            <l xml:id="A11909_02-e106210">That well devised is for good: pass forth with cheerful pace. </l>
+          </sp>
+          <div n="2" type="scene" xml:id="A11909_02-e106220">
+            <pb facs="32" n="29"/>
+            <head>The second scene.</head>
+            <stage xml:id="A11909_02-e106230">Atreus, Thyestes.</stage>
+            <l xml:id="A11909_02-e106240">Entrapped in train the beast is caught</l>
+            <l xml:id="A11909_02-e106250">And in the snare doth fall:</l>
+            <l xml:id="A11909_02-e106260">Both him, and eke of hated stock</l>
+            <l xml:id="A11909_02-e106270">With him the offspring all,</l>
+            <l xml:id="A11909_02-e106280">About the father's side I see:</l>
+            <l xml:id="A11909_02-e106290">And now in safety stands</l>
+            <l xml:id="A11909_02-e106300">And surest ground my wrathful hate:</l>
+            <l xml:id="A11909_02-e106310">Now comes into my hands</l>
+            <l xml:id="A11909_02-e106320">At length Thyestes: yea he comes</l>
+            <l xml:id="A11909_02-e106330">And all at once to me. </l>
+            <l xml:id="A11909_02-e106340">I scant refrain myself, and scant may anger bridled be. </l>
+            <l xml:id="A11909_02-e106350">So when the bloodhound seeks the beast, by step and quick of scent</l>
+            <l xml:id="A11909_02-e106360">Draws in the leame, and pace by pace to wind the ways he went,</l>
+            <l xml:id="A11909_02-e106370">With nose to soil doth hunt, while he the boar aloof hath found</l>
+            <l xml:id="A11909_02-e106380">Far of by scent, he yet refrains and wanders through the ground</l>
+            <l xml:id="A11909_02-e106390">With silent mouth: but when at hand he once perceives the prey,</l>
+            <l xml:id="A11909_02-e106400">With all the strength he hath he strives, with voice and calls away</l>
+            <l xml:id="A11909_02-e106410">His lingering master, and from him by force out breaketh he. </l>
+            <l xml:id="A11909_02-e106420">When ire doth hope the present blood, it may not hidden be. </l>
+            <l xml:id="A11909_02-e106430">Yet let it hidden be. behold with ugly hair to sight</l>
+            <l xml:id="A11909_02-e106440">How irksomely deformed with filth his foulest tace is dight,</l>
+            <l xml:id="A11909_02-e106450">How loathsome lies his beard unkempt: but let us friendship fain. </l>
+            <l xml:id="A11909_02-e106460">To see my brother me delights: give now to me again</l>
+            <l xml:id="A11909_02-e106470">Embracing long desired for: whatever strife there was</l>
+            <l xml:id="A11909_02-e106480">Before this time between us twain, forget and let it pass:</l>
+            <l xml:id="A11909_02-e106490">From this day forth let brother's love, let blood, and law of kind</l>
+            <l xml:id="A11909_02-e106500">Regarded be, let all debate be slaked in either's mind. </l>
+            <sp xml:id="A11909_02-e106510" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e106520">I could excuse myself, except thou wert as now thou art. </l>
+              <l xml:id="A11909_02-e106530">But (Atreus) now I grant, the fault was mine in every part:</l>
+              <l xml:id="A11909_02-e106540">And I offended have in all, my cause the worse to be,</l>
+              <l xml:id="A11909_02-e106550">Your this day's kindness makes: in deed a guilty wight is he,</l>
+              <l xml:id="A11909_02-e106560"><pb facs="33"/> that would so good a brother hurt as you, in any whit. </l>
+              <l xml:id="A11909_02-e106570">But now with tears I must entreat, and first I me submit. </l>
+              <l xml:id="A11909_02-e106580">These hands that at thy feet do lie, do thee beseech and pray,</l>
+              <l xml:id="A11909_02-e106590">That ire and hate be laid aside, and from thy bosom may</l>
+              <l xml:id="A11909_02-e106600">Be scraped out: and clear forgotten. for pledges take thou these</l>
+              <l xml:id="A11909_02-e106610">Oh brother dear, these guiltless babes. </l>
+            </sp>
+            <sp xml:id="A11909_02-e106620" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e106630">Thy hands yet from my knees</l>
+              <l xml:id="A11909_02-e106640">Remove, and rather me to take in arms, upon me fall</l>
+              <l xml:id="A11909_02-e106650">And ye oh aids of elders age, ye little infants all,</l>
+              <l xml:id="A11909_02-e106660">Me clip and coll about the neck: this foul attire forsake,</l>
+              <l xml:id="A11909_02-e106670">And spare mine eyes that pity it, and fresher vesture take</l>
+              <l xml:id="A11909_02-e106680">Like mine to see. and you with joy, the half of empery</l>
+              <l xml:id="A11909_02-e106690">Dear brother take: the greater praise shall come to me thereby,</l>
+              <l xml:id="A11909_02-e106700">Our father's seat to yield to you, and brother to relieve. </l>
+              <l xml:id="A11909_02-e106710">To have a kingdom is but chance, but virtue it to give. </l>
+            </sp>
+            <sp xml:id="A11909_02-e106720" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e106730">A just reward for such deserts, the gods (Oh brother dear)</l>
+              <l xml:id="A11909_02-e106740">Repay to thee: but on my head a regal crown to wear,</l>
+              <l xml:id="A11909_02-e106750">My loathsome life denies: and far doth from the sceptre flee</l>
+              <l xml:id="A11909_02-e106760">My hand unhappy: in the midst let leefull be for me</l>
+              <l xml:id="A11909_02-e106770">Of men to lurk. </l>
+            </sp>
+            <sp xml:id="A11909_02-e106780" who="A11909_02-atreus">
+              <speaker>Atre.</speaker>
+              <l xml:id="A11909_02-e106790">This kingdom can with twain full well agree. </l>
+            </sp>
+            <sp xml:id="A11909_02-e106800" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e106810">Whatever is (Oh brother) yours, I count it mine to be. </l>
+            </sp>
+            <sp xml:id="A11909_02-e106820" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e106830">Who would dame fortune's gifts refuse, if she him raise to reign? </l>
+            </sp>
+            <sp xml:id="A11909_02-e106840" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e106850">The gifts of her each man it wots, how soon they pass again. </l>
+            </sp>
+            <sp xml:id="A11909_02-e106860" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e106870">Ye me deprive of glory great, except ye th'empire take. </l>
+            </sp>
+            <sp xml:id="A11909_02-e106880" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e106890">You have your praise in offering it, and I it to forsake. </l>
+              <l xml:id="A11909_02-e106900">And full persuaded to refuse the kingdom, am I still. </l>
+            </sp>
+            <sp xml:id="A11909_02-e106910" who="A11909_02-atreus">
+              <speaker>Atre.</speaker>
+              <l xml:id="A11909_02-e106920">Except your part ye will sustain mine own forsake I will. </l>
+            </sp>
+            <sp xml:id="A11909_02-e106930" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e106940">I take it then. and bear I will the name thereof alone:</l>
+              <l xml:id="A11909_02-e106950">The rights and arms, as well as mine they shall be yours each one. </l>
+            </sp>
+            <sp xml:id="A11909_02-e106960" who="A11909_02-atreus">
+              <speaker>Atre.</speaker>
+              <l xml:id="A11909_02-e106970">The regal crown as you beseems upon your head then take:</l>
+              <l xml:id="A11909_02-e106980">And I th'appointed sacrifice for gods, will now go make. </l>
+            </sp>
+            <sp xml:id="A11909_02-e106990" who="A11909_02-missing">
+              <pb facs="33" n="30"/>
+              <stage xml:id="A11909_02-e107000">Chorus.</stage>
+              <l xml:id="A11909_02-e107010">Would any man it ween? that cruel wight</l>
+              <l xml:id="A11909_02-e107020">Atreus, of mind so impotent to see</l>
+              <l xml:id="A11909_02-e107030">Was soon astonished with his brother's sight,</l>
+              <l xml:id="A11909_02-e107040">Mo greater force than piety may be:</l>
+              <l xml:id="A11909_02-e107050">Where kindred is not, lasteth every threat,</l>
+              <l xml:id="A11909_02-e107060">Whom true love holds, it holds eternally. </l>
+              <l xml:id="A11909_02-e107070">The wrath but late with causes kindled great</l>
+              <l xml:id="A11909_02-e107080">All favour broke, and did to battle cry,</l>
+              <l xml:id="A11909_02-e107090">When horsemen did resound one every side,</l>
+              <l xml:id="A11909_02-e107100">The swords each where, then glistered more and more:</l>
+              <l xml:id="A11909_02-e107110">Which raging Mars with often stroke did guide</l>
+              <l xml:id="A11909_02-e107120">The fresher blood to shed yet thirsting sore. </l>
+              <l xml:id="A11909_02-e107130">But love the sword against their wills doth suage,</l>
+              <l xml:id="A11909_02-e107140">And them to peace persuades with hand in hand. </l>
+              <l xml:id="A11909_02-e107150">So sudden rest, amid so great a rage</l>
+              <l xml:id="A11909_02-e107160">What God hath made? throughout Mycenae's land</l>
+              <l xml:id="A11909_02-e107170">The harness clinked, but late of civil strife:</l>
+              <l xml:id="A11909_02-e107180">And for their babes did fearful mother quake,</l>
+              <l xml:id="A11909_02-e107190">Her armed spouse to lose much feared the wife,</l>
+              <l xml:id="A11909_02-e107200">When sword was made the scabbard to forsake,</l>
+              <l xml:id="A11909_02-e107210">That now by rest with rust was overgrown. </l>
+              <l xml:id="A11909_02-e107220">Some to repair the walls that did decay,</l>
+              <l xml:id="A11909_02-e107230">And some to strength the towers half overthrown,</l>
+              <l xml:id="A11909_02-e107240">And some the gates with gins of iron to stay</l>
+              <l xml:id="A11909_02-e107250">Full busy were, and dreadful watch by night</l>
+              <l xml:id="A11909_02-e107260">From turret high did overlook the town. </l>
+              <l xml:id="A11909_02-e107270"><pb facs="34"/>Worse is then war itself the fear of fight. </l>
+              <l xml:id="A11909_02-e107280">(Now are the threats of cruel sword laid down,</l>
+              <l xml:id="A11909_02-e107290">And now the rumour whists of battles sown,</l>
+              <l xml:id="A11909_02-e107300">The noise of crooked trumpet silent lies,</l>
+              <l xml:id="A11909_02-e107310">And quiet peace returns to joyful town. </l>
+              <l xml:id="A11909_02-e107320">So when the waxes of swelling surge arise,</l>
+              <l xml:id="A11909_02-e107330">While Corus wind the Brutian seas doth smite,</l>
+              <l xml:id="A11909_02-e107340">And Scylla sounds from hollow caves within,</l>
+              <l xml:id="A11909_02-e107350">And shipmen are with wafting waves affright,</l>
+              <l xml:id="A11909_02-e107360">Charybdis casts that erst it had drunk in:</l>
+              <l xml:id="A11909_02-e107370">And Cyclops fierce his father yet doth dread,</l>
+              <l xml:id="A11909_02-e107380">In Aetna bank that fervent is with heats,</l>
+              <l xml:id="A11909_02-e107390">Lest quenched be with waves that overshed</l>
+              <l xml:id="A11909_02-e107400">The fire that from eternal furnace beats:</l>
+              <l xml:id="A11909_02-e107410">And poor Laërtes thinks his kingdoms all</l>
+              <l xml:id="A11909_02-e107420">May drowned be, and Ithaca doth quake:</l>
+              <l xml:id="A11909_02-e107430">If once the force of winds begin to fall,</l>
+              <l xml:id="A11909_02-e107440">The sea lieth down more mild than standing lake. </l>
+              <l xml:id="A11909_02-e107450">The deep, where ships so wide full dreadful were</l>
+              <l xml:id="A11909_02-e107460">To pass, with sails on either side out spread</l>
+              <l xml:id="A11909_02-e107470">Now fallen adown, the lesser boat doth bear:</l>
+              <l xml:id="A11909_02-e107480">And leisure is to view the fishes dead</l>
+              <l xml:id="A11909_02-e107490">Even there, where late with tempest bet upon</l>
+              <l xml:id="A11909_02-e107500">The shaken Cyclades were with seas aghast. </l>
+              <l xml:id="A11909_02-e107510">No state endures the pain and pleasure, one</l>
+              <l xml:id="A11909_02-e107520">To other yields, and joys be soonest passed. </l>
+              <l xml:id="A11909_02-e107530">One hour sets up the things that lowest be. </l>
+              <l xml:id="A11909_02-e107540">He that the crowns to princes doth divide,</l>
+              <l xml:id="A11909_02-e107550">Whom people please with bending of the knee. </l>
+              <l xml:id="A11909_02-e107560">And at whose beck their battles lay aside</l>
+              <l xml:id="A11909_02-e107570"><pb facs="34" n="31"/> the meads, and Indians eke to Phoebus nigh,</l>
+              <l xml:id="A11909_02-e107580">And Dakes that Parthyans do with horsemen threat,</l>
+              <l xml:id="A11909_02-e107590">Himself yet holds his sceptors doubtfully. </l>
+              <l xml:id="A11909_02-e107600">And men of might he fears and chances great</l>
+              <l xml:id="A11909_02-e107610">(That each estate may turn) and doubtful hour. </l>
+              <l xml:id="A11909_02-e107620">O ye, whom lord of land and waters wide,</l>
+              <l xml:id="A11909_02-e107630">Of life and death grants here to have the power,</l>
+              <l xml:id="A11909_02-e107640">Lay ye your proud and lofty looks aside:</l>
+              <l xml:id="A11909_02-e107650">What your inferior fears of you amiss. </l>
+              <l xml:id="A11909_02-e107660">That your superior threats to you again. </l>
+              <l xml:id="A11909_02-e107670">To greater King, each King a subject is. </l>
+              <l xml:id="A11909_02-e107680">Whom dawn of day hath seen in pride to reign,</l>
+              <l xml:id="A11909_02-e107690">Him overthrown hath seen the evening late. </l>
+              <l xml:id="A11909_02-e107700">Let none rejoice to much that good hath got,</l>
+              <l xml:id="A11909_02-e107710">Let none despair of best in worst estate. </l>
+              <l xml:id="A11909_02-e107720">For Clotho mingles all, and suffreth not</l>
+              <l xml:id="A11909_02-e107730">Fortune to stand: but fates about doth drive. </l>
+              <l xml:id="A11909_02-e107740">Such friendship find with gods yet no man might,</l>
+              <l xml:id="A11909_02-e107750">That he the morrow might be sure to live. </l>
+              <l xml:id="A11909_02-e107760">The god our things all tossed and turned quite</l>
+              <l xml:id="A11909_02-e107770">Rolls with a whirl wind. </l>
+            </sp>
+          </div>
+        </div>
+        <div n="4" type="act" xml:id="A11909_02-e107780">
+          <pb facs="35"/>
+          <head>The fourth act.</head>
+          <stage xml:id="A11909_02-e107790">Messenger. Chorus.</stage>
+          <l xml:id="A11909_02-e107800">What whirlwind may me headlong drive</l>
+          <l xml:id="A11909_02-e107810">And up in air me fling,</l>
+          <l xml:id="A11909_02-e107820">And wrap in darkest cloud, whereby</l>
+          <l xml:id="A11909_02-e107830">It might so heinous thing,</l>
+          <l xml:id="A11909_02-e107840">Take from mine eyes? O wicked house</l>
+          <l xml:id="A11909_02-e107850">That even of Pelops ought</l>
+          <l xml:id="A11909_02-e107860">And Tantalus abhorred be. </l>
+          <sp xml:id="A11909_02-e107870" who="A11909_02-chorus">
+            <speaker>Chorus</speaker>
+            <l xml:id="A11909_02-e107880">What new thing hast thou brought? </l>
+          </sp>
+          <sp xml:id="A11909_02-e107890" who="A11909_02-megaera">
+            <speaker>Me.</speaker>
+            <l xml:id="A11909_02-e107900">What land is this? lieth Sparta here</l>
+            <l xml:id="A11909_02-e107910">And Argos, that hath bred</l>
+            <l xml:id="A11909_02-e107920">So wicked brethern? and the ground of Corinth lying spread</l>
+            <l xml:id="A11909_02-e107930">Between the seas? or Ister else where wont to take their flight,</l>
+            <l xml:id="A11909_02-e107940">Are people wild? or that which wonts with snow to shine so bright</l>
+            <l xml:id="A11909_02-e107950">Hippolytus land? or else do here the wand'ring Scythians dwell? </l>
+          </sp>
+          <sp xml:id="A11909_02-e107960" who="A11909_02-chorus">
+            <speaker>Chorus</speaker>
+            <l xml:id="A11909_02-e107970">What monstrous mischief is this place then guilty of? that tell,</l>
+            <l xml:id="A11909_02-e107980">And this declare to us at large whatever be the ill. </l>
+          </sp>
+          <sp xml:id="A11909_02-e107990" who="A11909_02-megaera">
+            <speaker>Me.</speaker>
+            <l xml:id="A11909_02-e108000">If once my mind may stay itself, and quaking limbs I will. </l>
+            <l xml:id="A11909_02-e108010">But yet of such a cruel deed before mine eyes the fear. </l>
+            <l xml:id="A11909_02-e108020">And image walks: ye raging storms now far from hence me bear</l>
+            <l xml:id="A11909_02-e108030">And to that place me drive, to which now driven is the day</l>
+            <l xml:id="A11909_02-e108040">Thus drawn from hence. </l>
+          </sp>
+          <sp xml:id="A11909_02-e108050" who="A11909_02-chorus">
+            <speaker>Chorus</speaker>
+            <l xml:id="A11909_02-e108060">Our minds ye hold yet still in doubt: full stay. </l>
+            <l xml:id="A11909_02-e108070">Tell what it is ye so abhor. The author thereof show. </l>
+            <l xml:id="A11909_02-e108080">I ask not who, but which of them that quickly let us know. </l>
+          </sp>
+          <sp xml:id="A11909_02-e108090" who="A11909_02-megaera">
+            <speaker>Me.</speaker>
+            <l xml:id="A11909_02-e108100">In Pelops turret high, a part there is of palace wide</l>
+            <l xml:id="A11909_02-e108110">That toward the South erected leans, of which the utter side</l>
+            <l xml:id="A11909_02-e108120">With equal top to mountain stands, and on the city lies,</l>
+            <l xml:id="A11909_02-e108130">And people proud against their prince if once the traitor's rise</l>
+            <l xml:id="A11909_02-e108140">Hath underneath his batiring stroke: there shines the place in sight</l>
+            <l xml:id="A11909_02-e108150">Where woont the people to frequent, whose golden beams so bright</l>
+            <l xml:id="A11909_02-e108160">The noble spotted pillars grey, of marble do support,</l>
+            <l xml:id="A11909_02-e108170">Within this place well known to men, where they so oft resort,</l>
+            <l xml:id="A11909_02-e108180"><pb facs="35" n="32"/> to many other rooms about the noble court doth go. </l>
+            <l xml:id="A11909_02-e108190">The privy palace underlieth in secret place alos,</l>
+            <l xml:id="A11909_02-e108200">With ditch full deep that doth enclose the wood of priviter,</l>
+            <l xml:id="A11909_02-e108210">And hidden parts of kingdom old: where never grew no tree</l>
+            <l xml:id="A11909_02-e108220">That cheerful bows is wont to bear, with knife or lopped be,</l>
+            <l xml:id="A11909_02-e108230">But tax, and cypress, and with tree of holm full black to see</l>
+            <l xml:id="A11909_02-e108240">Doth beck and bend the wood so dark: aloft above all these</l>
+            <l xml:id="A11909_02-e108250">The higher oak doth over look, surmounting all the trees. </l>
+            <l xml:id="A11909_02-e108260">From hens with luck the reign to take, accustomed are the Kings,</l>
+            <l xml:id="A11909_02-e108270">From hens in danger aid to ask, and doom in doubtful things. </l>
+            <l xml:id="A11909_02-e108280">To this affixed are the gifts, the sounding trumpets bright,</l>
+            <l xml:id="A11909_02-e108290">The chariots broke, and spoils of sea that now Mirtôon hight,</l>
+            <l xml:id="A11909_02-e108300">There hang the wheels once won by craft of falser axle tree,</l>
+            <l xml:id="A11909_02-e108310">And every other conquests note, here leeful is to see</l>
+            <l xml:id="A11909_02-e108320">The Phrygian tire of Pelops head: the spoil of enmies here,</l>
+            <l xml:id="A11909_02-e108330">And of barbarian triumph left, the painted gorgeous gear. </l>
+            <l xml:id="A11909_02-e108340">A loathsome spring stands under shade, and slothful course doth take,</l>
+            <l xml:id="A11909_02-e108350">With water black: even such as is: of irksome Stygian lake</l>
+            <l xml:id="A11909_02-e108360">The ugly wave whereby art wont, to swear the gods on high. </l>
+            <l xml:id="A11909_02-e108370">Here all the night the grisly ghosts and gods of death to erie</l>
+            <l xml:id="A11909_02-e108380">The fame reports: with clinking chains resounds the wood each where</l>
+            <l xml:id="A11909_02-e108390">The sprights cry out and every thing that dreadful is to hear,</l>
+            <l xml:id="A11909_02-e108400">May there be seen: of ugly shapes from old sepulchres sent</l>
+            <l xml:id="A11909_02-e108410">A fearful flock doth wander there, and in that place frequent</l>
+            <l xml:id="A11909_02-e108420">Worse things than ever yet were known: ye all the wood full oft</l>
+            <l xml:id="A11909_02-e108430">With flame is wont to flash, and all the higher trees aloft</l>
+            <l xml:id="A11909_02-e108440">Without a fire do burn: and oft the wood beside all this</l>
+            <l xml:id="A11909_02-e108450">With triple barking roars at once: full oft the palace is</l>
+            <l xml:id="A11909_02-e108460">Affright with shapes, nor light of day may on the terror quell. </l>
+            <l xml:id="A11909_02-e108470">Eternal night doth hold the place, and darkness there of hell</l>
+            <l xml:id="A11909_02-e108480">In mid day reigns: from hens to them that pray out of the ground</l>
+            <l xml:id="A11909_02-e108490">The certain answers given are, what time with dreadful sound</l>
+            <l xml:id="A11909_02-e108500">From secret place the fates be told, and dungeon roars within</l>
+            <l xml:id="A11909_02-e108510">While of the God breaks out the voice: whereto when entered in</l>
+            <l xml:id="A11909_02-e108520">Fierce Atreus was, that did with him his brother's children trail,</l>
+            <l xml:id="A11909_02-e108530">Decked are the altars: who (Alas) may it enough bewail? </l>
+            <l xml:id="A11909_02-e108540">Behind the infant's backs anon he knit their noble hands,</l>
+            <l xml:id="A11909_02-e108550">And eke their heavy heads about he bound with purple bands:</l>
+            <l xml:id="A11909_02-e108560">There wanted there no frankincense, nor yet the holy wine,</l>
+            <l xml:id="A11909_02-e108570">Nor knife to cut the sacrifice, besprinked with leavens fine,</l>
+            <l xml:id="A11909_02-e108580"><pb facs="36"/> kept is in all the order due, icast such a mischief great</l>
+            <l xml:id="A11909_02-e108590">Should not be ordered well. </l>
+          </sp>
+          <sp xml:id="A11909_02-e108600" who="A11909_02-chorus">
+            <speaker>Chorus</speaker>
+            <l xml:id="A11909_02-e108610">Who doth his hand on sword then set? </l>
+          </sp>
+          <sp xml:id="A11909_02-e108620" who="A11909_02-megaera">
+            <speaker>Mc.</speaker>
+            <l xml:id="A11909_02-e108630">He is himself the priest, and he himself the deadly verse</l>
+            <l xml:id="A11909_02-e108640">With prayer dire from fervent mouth doth sing and oft rehearse. </l>
+            <l xml:id="A11909_02-e108650">And he at th'altars stands himself, he them assigned to die</l>
+            <l xml:id="A11909_02-e108660">Doth handle, and in order set, and to the knife apply,</l>
+            <l xml:id="A11909_02-e108670">He lights the fires, no rights were left of sacrifice undone. </l>
+            <l xml:id="A11909_02-e108680">The wood then quaked, and all at once from trembling ground anon</l>
+            <l xml:id="A11909_02-e108690">The palace becked, in doubt which way the poise thereof would fall,</l>
+            <l xml:id="A11909_02-e108700">And shaking as in waves it stood: from th'air and therewithal</l>
+            <l xml:id="A11909_02-e108710">A blazing star that foulest train drew after him doth go:</l>
+            <l xml:id="A11909_02-e108720">The wines that in the fires were cast, with changed liquour flow,</l>
+            <l xml:id="A11909_02-e108730">And turn to blood: and twice or thrice th'attire sell from his head,</l>
+            <l xml:id="A11909_02-e108740">The ivocy bright in temples seemed to weep and tears to shed. </l>
+            <l xml:id="A11909_02-e108750">The sights amazed all other men, but steadfast yet always</l>
+            <l xml:id="A11909_02-e108760">Of mind, unmoved. Atreus stands, and even the gods doth fray</l>
+            <l xml:id="A11909_02-e108770">That threaten him and all delay forsaken by and by</l>
+            <l xml:id="A11909_02-e108780">To th' altars turns, and there therewithal asyde he looks awry. </l>
+            <l xml:id="A11909_02-e108790">As hungry tiger wonts that doth in Gangey woods remain</l>
+            <l xml:id="A11909_02-e108800">With doubtful pace to range and roam between the bullocks twain,</l>
+            <l xml:id="A11909_02-e108810">Of either pray full-covetous and yet uncertain where</l>
+            <l xml:id="A11909_02-e108820">She first may bite, and roaring throat now turns the tone to tear</l>
+            <l xml:id="A11909_02-e108830">And then to th'other straight returns, and doubtful famine holds:</l>
+            <l xml:id="A11909_02-e108840">So Atreus dire, between the babes doth stand and them beholds</l>
+            <l xml:id="A11909_02-e108850">On whom he points to slake his ire: first slaughter where to make,</l>
+            <l xml:id="A11909_02-e108860">He doubts: or whom he should again for second offering take,</l>
+            <l xml:id="A11909_02-e108870">Yet skills it naught, but yet he doubts and such a cruelty</l>
+            <l xml:id="A11909_02-e108880">It him delights to order well. </l>
+          </sp>
+          <sp xml:id="A11909_02-e108890" who="A11909_02-chorus">
+            <speaker>Chorus</speaker>
+            <l xml:id="A11909_02-e108900">Whom take he first to die? </l>
+          </sp>
+          <sp xml:id="A11909_02-e108910" who="A11909_02-megaera">
+            <speaker>Me.</speaker>
+            <l xml:id="A11909_02-e108920">First place, lest in him think ye might no pier to remain</l>
+            <l xml:id="A11909_02-e108930">To graundsier dedicated is, first Tantalus is slain. </l>
+          </sp>
+          <sp xml:id="A11909_02-e108940" who="A11909_02-chorus">
+            <speaker>Chorus</speaker>
+            <l xml:id="A11909_02-e108950">With what a mind and countenance, could theboy his death sustain? </l>
+          </sp>
+          <sp xml:id="A11909_02-e108960" who="A11909_02-megaera">
+            <speaker>Me.</speaker>
+            <l xml:id="A11909_02-e108970">All careless of himself he stood, nor once he would in vain</l>
+            <l xml:id="A11909_02-e108980">His prayers lose. But Atreus fierce the sword in him at last</l>
+            <l xml:id="A11909_02-e108990">In deep and deadly wound doth hide to hilts, and groping fast</l>
+            <l xml:id="A11909_02-e109000">His throat in hand, he thrust him through. The sword them drawn away</l>
+            <l xml:id="A11909_02-e109010">When long the body had upheld itself in doubtful stay. </l>
+            <l xml:id="A11909_02-e109020">Which way to fall, at length upon the uncle down it falls. </l>
+            <l xml:id="A11909_02-e109030">And then to th'altars cruelly philisthenes he tralles,</l>
+            <l xml:id="A11909_02-e109040">And on his brother throws: and straight his neck of cutteth he. </l>
+            <l xml:id="A11909_02-e109050">The carcase headlong falls to ground: a piteous thing to see. </l>
+            <l xml:id="A11909_02-e109060"><pb facs="36"/>The mourning head with murmur yet uncertain doth complain. </l>
+          </sp>
+          <sp xml:id="A11909_02-e109070" who="A11909_02-chorus">
+            <speaker>Chorus</speaker>
+            <l xml:id="A11909_02-e109080">What after double death doth he and slaughter then of twain? </l>
+            <l xml:id="A11909_02-e109090">Spares he the child? or gilt on gilt again yet heapeth he? </l>
+          </sp>
+          <sp xml:id="A11909_02-e109100" who="A11909_02-messenger">
+            <speaker>Messenger</speaker>
+            <l xml:id="A11909_02-e109110">As long maimed lion fierce amid the wood of Armenie,</l>
+            <l xml:id="A11909_02-e109120">The drove pursues and conquest makes of slaughter many one,</l>
+            <l xml:id="A11909_02-e109130">Though now defiled be his taws with blood and hunger gone</l>
+            <l xml:id="A11909_02-e109140">Yet slaketh not his ireful rage with blood of bulls so great,</l>
+            <l xml:id="A11909_02-e109150">But slothful now with weary tooth the lesser calves doth threat:</l>
+            <l xml:id="A11909_02-e109160">None other wise doth Atreus rage, and swells with anger strained,</l>
+            <l xml:id="A11909_02-e109170">And holding now the sword in hand, with double slaughter stained,</l>
+            <l xml:id="A11909_02-e109180">Regarding not where fell his rage, with cursed hand unmild</l>
+            <l xml:id="A11909_02-e109190">He strake it through his body quite, at bosom of the child</l>
+            <l xml:id="A11909_02-e109200">The blade goeth in, and at the back again out went the same,</l>
+            <l xml:id="A11909_02-e109210">He falls and quenching with his blood the altars sacred flame,</l>
+            <l xml:id="A11909_02-e109220">Of either wound at length he dieth. </l>
+          </sp>
+          <sp xml:id="A11909_02-e109230" who="A11909_02-chorus">
+            <speaker>Chorus</speaker>
+            <l xml:id="A11909_02-e109240">O heinous hateful act. </l>
+          </sp>
+          <sp xml:id="A11909_02-e109250" who="A11909_02-messenger">
+            <speaker>Messenger</speaker>
+            <l xml:id="A11909_02-e109260">Abhor ye this? ye hear not yet the end of all the fact,</l>
+            <l xml:id="A11909_02-e109270">There follows more. </l>
+          </sp>
+          <sp xml:id="A11909_02-e109280" who="A11909_02-chorus">
+            <speaker>Chorus</speaker>
+            <l xml:id="A11909_02-e109290">A fiercer thing, or worse than this to see</l>
+            <l xml:id="A11909_02-e109300">Could nature bear? </l>
+          </sp>
+          <sp xml:id="A11909_02-e109310" who="A11909_02-megaera">
+            <speaker>Me.</speaker>
+            <l xml:id="A11909_02-e109320">Why think ye this of guilt the end to be? </l>
+            <l xml:id="A11909_02-e109330">It is but part. </l>
+          </sp>
+          <sp xml:id="A11909_02-e109340" who="A11909_02-chorus">
+            <speaker>Chorus</speaker>
+            <l xml:id="A11909_02-e109350">What could he wore? to cruel beasts he cast</l>
+            <l xml:id="A11909_02-e109360">Perhaps their bodies to be torn, and kept from fires at last. </l>
+          </sp>
+          <sp xml:id="A11909_02-e109370" who="A11909_02-megaera">
+            <speaker>Me.</speaker>
+            <l xml:id="A11909_02-e109380">Would god he had: that never tomb the dead might over hide,</l>
+            <l xml:id="A11909_02-e109390">Nor flames dissolve, though them for food to fowls in pastures wide</l>
+            <l xml:id="A11909_02-e109400">He had out thrown, or them for prey to cruel beasts would fling. </l>
+            <l xml:id="A11909_02-e109410">That which the worst was wont to be, were here a wished thing,</l>
+            <l xml:id="A11909_02-e109420">That them their father saw untombed: but o more cursed crime</l>
+            <l xml:id="A11909_02-e109430">Uncredible, the which deny will men of after time:</l>
+            <l xml:id="A11909_02-e109440">From bosoms yet alive out drawn the trembling bowels shake,</l>
+            <l xml:id="A11909_02-e109450">The veins yet breath, the fearful heart doth yet both pant and quakes</l>
+            <l xml:id="A11909_02-e109460">But he the strings doth turn in hand, and destinies behold,</l>
+            <l xml:id="A11909_02-e109470">And of the guts the signs each one doth view not fully cold. </l>
+            <l xml:id="A11909_02-e109480">When him the sacrifice had pleased, his diligence hē puts</l>
+            <l xml:id="A11909_02-e109490">To dress his brother's banquet now: and straight a fonder cuts</l>
+            <l xml:id="A11909_02-e109500">The bodies into quarters all, and by the stumps anon</l>
+            <l xml:id="A11909_02-e109510">The shoulders wide, and brawns of arms be strikes of everychone. </l>
+            <l xml:id="A11909_02-e109520">He lays abroad their naked limbs, and cuts away the bones:</l>
+            <l xml:id="A11909_02-e109530">The only heads he keeps and hands to him committed once. </l>
+            <l xml:id="A11909_02-e109540">Some of the guts are broached. and in the fires that burn full ●oe</l>
+            <l xml:id="A11909_02-e109550">They drop, the boiling liquor some doth tumble to end fro</l>
+            <l xml:id="A11909_02-e109560">In morning cauldron: from the flesh that overstads aloft</l>
+            <l xml:id="A11909_02-e109570">The fire doth fly, and skatter out and into chimney oft</l>
+            <l xml:id="A11909_02-e109580"><pb facs="37"/> up heat again, and there constrained by force to tarry yet</l>
+            <l xml:id="A11909_02-e109590">Unwilling burns: the liver makes great noise upon the spit,</l>
+            <l xml:id="A11909_02-e109600">Nor easily wot I, if the flesh, or flames they be that bry,</l>
+            <l xml:id="A11909_02-e109610">But cry they do: the fire like pitch it fumeth by an by:</l>
+            <l xml:id="A11909_02-e109620">Nor yet the smake itself so sad, like filthy mist in sight</l>
+            <l xml:id="A11909_02-e109630">Ascendeth up as wont it is, nor takes his way upright,</l>
+            <l xml:id="A11909_02-e109640">But even the gods and house it doth with filthy turn defile. </l>
+            <l xml:id="A11909_02-e109650">O patient Phoebus though from hence thou backward flee the while,</l>
+            <l xml:id="A11909_02-e109660">And in the midst of heaven above dost drown the broken day,</l>
+            <l xml:id="A11909_02-e109670">Thou fleest too late: the father eats his children, well away,</l>
+            <l xml:id="A11909_02-e109680">And limbs to which he once gave life, with cursed jaw doth tear. </l>
+            <l xml:id="A11909_02-e109690">He shines with ointment shed full sweet all round about his hair,</l>
+            <l xml:id="A11909_02-e109700">Replete with wine; and oftentimes so cursed kind of food</l>
+            <l xml:id="A11909_02-e109710">His mouth hath held, that would not down. but yet this one thing good</l>
+            <l xml:id="A11909_02-e109720">In all thy ills (Thyestes) is that them thou dost not know,</l>
+            <l xml:id="A11909_02-e109730">And yet shall that not long endure, though Titan backward go</l>
+            <l xml:id="A11909_02-e109740">And chariots turn against himself, to meet the ways be gone,</l>
+            <l xml:id="A11909_02-e109750">And heavy night so heinous deed to keep from sight be sent,</l>
+            <l xml:id="A11909_02-e109760">And out of time from East arise, so foul a fact to hide,</l>
+            <l xml:id="A11909_02-e109770">Yet shall the whole at length be seen: thy ills shall all be spied. </l>
+          </sp>
+          <sp xml:id="A11909_02-e109780" who="A11909_02-missing">
+            <pb facs="37" n="34"/>
+            <stage xml:id="A11909_02-e109790">Chorus.</stage>
+            <l xml:id="A11909_02-e109800">Which way oh prince of lands and gods on high,</l>
+            <l xml:id="A11909_02-e109810">At whose uprise eftsoon of shadowed night</l>
+            <l xml:id="A11909_02-e109820">All beauty fleeth, which way turnst thou awry? </l>
+            <l xml:id="A11909_02-e109830">And drawest the day in midst of heaven to flight? </l>
+            <l xml:id="A11909_02-e109840">Why dost thou (Phoebus) hide from us thy sight? </l>
+            <l xml:id="A11909_02-e109850">Not yet the watch that later hour brings in,</l>
+            <l xml:id="A11909_02-e109860">Doth Vesper warn the stars to kindle light. </l>
+            <l xml:id="A11909_02-e109870">Not yet doth turn of Hesper's wheel begin</l>
+            <l xml:id="A11909_02-e109880">To lose thy chare his well deserved way. </l>
+            <l xml:id="A11909_02-e109890">The trumpet third not yet hath blown his blast</l>
+            <l xml:id="A11909_02-e109900">While towards the night begins to yield the day:</l>
+            <l xml:id="A11909_02-e109910">Great wonder hath of sudden suppers haste</l>
+            <l xml:id="A11909_02-e109920">The ploughman yet whose oxen are untied. </l>
+            <l xml:id="A11909_02-e109930">From wonted course of heaven what draws thee backs? </l>
+            <l xml:id="A11909_02-e109940">What causes have from certain race conspired</l>
+            <l xml:id="A11909_02-e109950">To turn thy horse? do yet from dungeon black</l>
+            <l xml:id="A11909_02-e109960">Of hollow hell, the conquered giants prove</l>
+            <l xml:id="A11909_02-e109970">A fresh assault? doth. Tityus yet assay</l>
+            <l xml:id="A11909_02-e109980">With trenched heart, and wounded womb to move</l>
+            <l xml:id="A11909_02-e109990">The former ires? or from the hill away</l>
+            <l xml:id="A11909_02-e110000">Hath now Typhoeus wound his side by might? </l>
+            <l xml:id="A11909_02-e110010">Is up to heaven the way erected high</l>
+            <l xml:id="A11909_02-e110020">Of phlegrey foes by mountains set upright? </l>
+            <l xml:id="A11909_02-e110030">And now doth Ossa Pelion overly? </l>
+            <l xml:id="A11909_02-e110040">The wonted turns are gone of day and night,</l>
+            <l xml:id="A11909_02-e110050">The rise of sun, nor fall shall be no more,</l>
+            <l xml:id="A11909_02-e110060">Aurora dewish mother of the light</l>
+            <l xml:id="A11909_02-e110070">That wonts to send the horses out before,</l>
+            <l xml:id="A11909_02-e110080">Doth wonder much again return to see. </l>
+            <l xml:id="A11909_02-e110090">Her dawning light: she wots not how to case</l>
+            <l xml:id="A11909_02-e110100"><pb facs="38"/> the weary wheels, nor manes that smoking be</l>
+            <l xml:id="A11909_02-e110110">Of horse with sweat to bathe amid the seas. </l>
+            <l xml:id="A11909_02-e110120">Himself unwonted there to lodge likewise,</l>
+            <l xml:id="A11909_02-e110130">Doth setting son again the morning see,</l>
+            <l xml:id="A11909_02-e110140">And now commands the darkness up to rise. </l>
+            <l xml:id="A11909_02-e110150">Before the night to come prepared be. </l>
+            <l xml:id="A11909_02-e110160">About the pole yet glowth no fire in sight. </l>
+            <l xml:id="A11909_02-e110170">Nor light moon the shades doth comfort yet</l>
+            <l xml:id="A11909_02-e110180">What so it be, God grant it be the night. </l>
+            <l xml:id="A11909_02-e110190">Our hearts do quake with fear oppressed great. </l>
+            <l xml:id="A11909_02-e110200">And dreadful are least heaven and earth and all</l>
+            <l xml:id="A11909_02-e110210">With fatal ruin shaken shall decay:</l>
+            <l xml:id="A11909_02-e110220">And lest on gods again, and men shall fall</l>
+            <l xml:id="A11909_02-e110230">Disfigured chaos: and the land away</l>
+            <l xml:id="A11909_02-e110240">The seas, and fires, and of the glorious skies</l>
+            <l xml:id="A11909_02-e110250">The wand'ring lamps, lest nature yet shall hide. </l>
+            <l xml:id="A11909_02-e110260">Now shall no more with blaze of his uprise,</l>
+            <l xml:id="A11909_02-e110270">The lord of stars that leads the world so wide,</l>
+            <l xml:id="A11909_02-e110280">Of summer both and winter give the marks. </l>
+            <l xml:id="A11909_02-e110290">Nor yet the moon with Phoebus flames that burns,</l>
+            <l xml:id="A11909_02-e110300">Shall take from us by night the dreadful carks,</l>
+            <l xml:id="A11909_02-e110310">With swifter course or pass her brother's turns,</l>
+            <l xml:id="A11909_02-e110320">While compass less she fets in crooked race:</l>
+            <l xml:id="A11909_02-e110330">The gods on heaps shall out of order fall,</l>
+            <l xml:id="A11909_02-e110340">And each with other mingled be in place. </l>
+            <l xml:id="A11909_02-e110350">The wried way of holy planets all,</l>
+            <l xml:id="A11909_02-e110360">With path a slope that doth divide the zones. </l>
+            <l xml:id="A11909_02-e110370">That bears the signs, and years in course doth bring,</l>
+            <l xml:id="A11909_02-e110380">Shall see the stars with him fall down at ones. </l>
+            <l xml:id="A11909_02-e110390">And he that first not yet with gentle spring,</l>
+            <l xml:id="A11909_02-e110400">The temperate gale doth give to sails, the ram</l>
+            <l xml:id="A11909_02-e110410">Shall headlong fall a down to seas again,</l>
+            <l xml:id="A11909_02-e110420">Through which he once with fearful Helen swam. </l>
+            <l xml:id="A11909_02-e110430">Next him the bull that doth with horn sustain</l>
+            <l xml:id="A11909_02-e110440"><pb facs="38" n="35"/> the sisters seven with him shall overturn</l>
+            <l xml:id="A11909_02-e110450">The twins and arms of crooked cancer all,</l>
+            <l xml:id="A11909_02-e110460">The lion hot that wonts the soil to burn</l>
+            <l xml:id="A11909_02-e110470">Of Hercules again from heaven shall fall. </l>
+            <l xml:id="A11909_02-e110480">To lands once left the virgin shall be thrown,</l>
+            <l xml:id="A11909_02-e110490">And levelled poise of balance sway allow,</l>
+            <l xml:id="A11909_02-e110500">And draw with them the stinging scorpion down. </l>
+            <l xml:id="A11909_02-e110510">So likewise he that holds in Thessal bow</l>
+            <l xml:id="A11909_02-e110520">His swift well feathered arrows Chiron old,</l>
+            <l xml:id="A11909_02-e110530">Shall break the same and eke shall less his shot</l>
+            <l xml:id="A11909_02-e110540">And Capricorn that brings the winter cold</l>
+            <l xml:id="A11909_02-e110550">Shall overturn and break the water pot</l>
+            <l xml:id="A11909_02-e110560">Who so thou be: and down with thee to ground,</l>
+            <l xml:id="A11909_02-e110570">The last of all the signs shall pisces fall</l>
+            <l xml:id="A11909_02-e110580">And monsters eke in seas yet never drowned,</l>
+            <l xml:id="A11909_02-e110590">The water gulf shall overwhelm them all. </l>
+            <l xml:id="A11909_02-e110600">And he which doth between each ursa glide,</l>
+            <l xml:id="A11909_02-e110610">Like crooked flood the slipper serpent twined:</l>
+            <l xml:id="A11909_02-e110620">And lesser bear by greater dragon's side,</l>
+            <l xml:id="A11909_02-e110630">Full cold with frost congealed hard by kind,</l>
+            <l xml:id="A11909_02-e110640">And carter dull that slowly guides his wain</l>
+            <l xml:id="A11909_02-e110650">Unstable shall Boòtes fall from high. </l>
+            <l xml:id="A11909_02-e110660">We are thought meet of all men whom again</l>
+            <l xml:id="A11909_02-e110670">Should hugy heap of chaos o'er. </l>
+            <l xml:id="A11909_02-e110680">And world oppress with overturned mass</l>
+            <l xml:id="A11909_02-e110690">The latest age now falleth us upon. </l>
+            <l xml:id="A11909_02-e110700">With evil hap we are begotten alas</l>
+            <l xml:id="A11909_02-e110710">If wretch's we have lost the sight of son,</l>
+            <l xml:id="A11909_02-e110720">Or him by fraught enforced have to fly</l>
+            <l xml:id="A11909_02-e110730">Let our complaints yet go and fear be pasts</l>
+            <l xml:id="A11909_02-e110740">He greedy is of life, that will not die</l>
+            <l xml:id="A11909_02-e110750">When all the world shall end with him at last. </l>
+          </sp>
+        </div>
+        <div n="5" type="act" xml:id="A11909_02-e110760">
+          <pb facs="39"/>
+          <pb facs="39" n="35"/>
+          <pb facs="40"/>
+          <head>The fift act.</head>
+          <stage xml:id="A11909_02-e110770">Atreus alone.</stage>
+          <l xml:id="A11909_02-e110780">Now equal with the stars I go.</l>
+          <l xml:id="A11909_02-e110790">Beyond each other wight,</l>
+          <l xml:id="A11909_02-e110800">With haughty head the heavens above,</l>
+          <l xml:id="A11909_02-e110810">And highest pole I smite,</l>
+          <l xml:id="A11909_02-e110820">The kingdom now, and seat I hold,</l>
+          <l xml:id="A11909_02-e110830">Where once my father reigned:</l>
+          <l xml:id="A11909_02-e110840">I now let go the gods: for all</l>
+          <l xml:id="A11909_02-e110850">My will I have obtained</l>
+          <l xml:id="A11909_02-e110860">Enough and well, ye even enough for me I am acquit</l>
+          <l xml:id="A11909_02-e110870">But why enough? I will proceed and fill the father yet</l>
+          <l xml:id="A11909_02-e110880">With blood of his least any shame should me restrain at all,</l>
+          <l xml:id="A11909_02-e110890">The day is gone, go to therefore while thee the heaven doth call</l>
+          <l xml:id="A11909_02-e110900">Would God I could against their wills yet hold the gods that flee</l>
+          <l xml:id="A11909_02-e110910">And of revenging dish constrain them witnesses to be:</l>
+          <l xml:id="A11909_02-e110920">But yet (Which well enough is wrought) let it the father see. </l>
+          <l xml:id="A11909_02-e110930">In spight of all the drowned day I will remove from thee</l>
+          <l xml:id="A11909_02-e110940">The darkness all, in shade whereof do lurk thy miseries. </l>
+          <l xml:id="A11909_02-e110950">And guest at such a banquet now to long he careless lies,</l>
+          <l xml:id="A11909_02-e110960">With merry face: now eat and drunk enough he hath at last</l>
+          <l xml:id="A11909_02-e110970">'Tis best himself should know his ills ye servants, all in haste</l>
+          <l xml:id="A11909_02-e110980">Undo the temple doors: and let the house be open all:</l>
+          <l xml:id="A11909_02-e110990">Fain would I see, when look upon his children's heads he shall</l>
+          <l xml:id="A11909_02-e111000">What countenance he then would make, or in what words break out</l>
+          <l xml:id="A11909_02-e111010">Would first his grief, or how would quake his body round about</l>
+          <l xml:id="A11909_02-e111020">With spright amazed sore: of all my work the fruit were this</l>
+          <l xml:id="A11909_02-e111030">I would him not a miser see, but while so made he is,</l>
+          <l xml:id="A11909_02-e111040">Behold the temple opened now doth shine with many a light:</l>
+          <l xml:id="A11909_02-e111050">In glittering gold and purple seat he sits himself upright,</l>
+          <l xml:id="A11909_02-e111060">And staying up his heavy head with wine upon his hand. </l>
+          <l xml:id="A11909_02-e111070">He belcheth out, now chief of gods in highest place I stand,</l>
+          <l xml:id="A11909_02-e111080">And King of Kings: I have my wish, and more than I could think. </l>
+          <l xml:id="A11909_02-e111090">He filled is, he now the wine in silver bowl doth drink</l>
+          <l xml:id="A11909_02-e111100">And spare it not: there yet remains a worser draught for thee</l>
+          <l xml:id="A11909_02-e111110"><pb facs="40" n="36"/> that sprung out of the bodies late of sacrifices three,</l>
+          <l xml:id="A11909_02-e111120">Which wine shall hide let them withal the hoards be taken up. </l>
+          <l xml:id="A11909_02-e111130">The father (Mingled with the wine,) his children's blood shall sup. </l>
+          <l xml:id="A11909_02-e111140">That would have drunk of mine. Behold he now begins to strain</l>
+          <l xml:id="A11909_02-e111150">His voice, and sings, nor yet for joy his mind be may refrain,</l>
+          <div n="2" type="scene" xml:id="A11909_02-e111160">
+            <head>The second scene</head>
+            <stage xml:id="A11909_02-e111170">Thyestes' alone</stage>
+            <l xml:id="A11909_02-e111180">O beaten bosoms dulled so long with woe,</l>
+            <l xml:id="A11909_02-e111190">Lay down your cares, at length your grieves relent</l>
+            <l xml:id="A11909_02-e111200">Let sorrow pass, and all your dread let go,</l>
+            <l xml:id="A11909_02-e111210">And fellow eke of fearful banishment,</l>
+            <l xml:id="A11909_02-e111220">Sad poverty and ill in misery</l>
+            <l xml:id="A11909_02-e111230">The shame of cares, more whence thy fall thou haste,</l>
+            <l xml:id="A11909_02-e111240">Then whether skills, great hap to him, from high</l>
+            <l xml:id="A11909_02-e111250">That falls, it is in surety to be placed</l>
+            <l xml:id="A11909_02-e111260">Beneath, and great it is to him again</l>
+            <l xml:id="A11909_02-e111270">That pressed with storm, or euylls feels the smart,</l>
+            <l xml:id="A11909_02-e111280">Of kingdom lost the payses to sustain</l>
+            <l xml:id="A11909_02-e111290">With neck unbowed: nor yet detect of heart</l>
+            <l xml:id="A11909_02-e111300">Nor overcome, his heavy haps always</l>
+            <l xml:id="A11909_02-e111310">To bear upright but now of careful carks</l>
+            <l xml:id="A11909_02-e111320">Shake of the showers, and of thy wretched days</l>
+            <l xml:id="A11909_02-e111330">Away with all the miserable marks. </l>
+            <l xml:id="A11909_02-e111340">To joyful state return thy cheerful face. </l>
+            <l xml:id="A11909_02-e111350">Put from thy mind the old Thyestes hence. </l>
+            <l xml:id="A11909_02-e111360">It is the wont of wight in woeful case,</l>
+            <l xml:id="A11909_02-e111370">In state of joy to have no confidence. </l>
+            <l xml:id="A11909_02-e111380">Though better haps to them returned be,</l>
+            <l xml:id="A11909_02-e111390">Th'afflicted yet to joy it irks sore. </l>
+            <l xml:id="A11909_02-e111400">Why callest thou me aback, and hind'rest me</l>
+            <l xml:id="A11909_02-e111410">This happy day to celebrate? wherefore</l>
+            <l xml:id="A11909_02-e111420"><pb facs="41"/> bidst thou me (Sorrow) weep without a cause. </l>
+            <l xml:id="A11909_02-e111430">Who doth me let with flowers so fresh and gay,</l>
+            <l xml:id="A11909_02-e111440">To deck my hairs? it lets and me withdraws. </l>
+            <l xml:id="A11909_02-e111450">Down from my head the roses fall away:</l>
+            <l xml:id="A11909_02-e111460">My moisted hair with ointment over all,</l>
+            <l xml:id="A11909_02-e111470">With sudden maze stands up in wondrous wise,</l>
+            <l xml:id="A11909_02-e111480">From face that would not weep the streams do fall. </l>
+            <l xml:id="A11909_02-e111490">And howling cries amid my words arise. </l>
+            <l xml:id="A11909_02-e111500">My sorrow yet th'accustomed tears doth love</l>
+            <l xml:id="A11909_02-e111510">And wretches still delight to weep and cry. </l>
+            <l xml:id="A11909_02-e111520">Unpleasant plaints it pleaseth them to move:</l>
+            <l xml:id="A11909_02-e111530">And flourished fair it likes with Tyrian die</l>
+            <l xml:id="A11909_02-e111540">Their robes to rent, to wail it likes them still</l>
+            <l xml:id="A11909_02-e111550">For sorrow sends (In sign that woes draw nic)</l>
+            <l xml:id="A11909_02-e111560">The mind that wots before of after ill. </l>
+            <l xml:id="A11909_02-e111570">The sturdy storms the shipmen over lie. </l>
+            <l xml:id="A11909_02-e111580">When void of wind th'assuaged seas do rest. </l>
+            <l xml:id="A11909_02-e111590">What tumult yet or countenance to see</l>
+            <l xml:id="A11909_02-e111600">Mak'st thou mad man? at length a trustful breast</l>
+            <l xml:id="A11909_02-e111610">To brother gene, whatever now it be,</l>
+            <l xml:id="A11909_02-e111620">Causeless, or else too late thou art a dread. </l>
+            <l xml:id="A11909_02-e111630">I wretch would not so fear, but yet me draws</l>
+            <l xml:id="A11909_02-e111640">A trembling terror: down mine eyes do shed</l>
+            <l xml:id="A11909_02-e111650">Their sudden tears and yet I know no cause,</l>
+            <l xml:id="A11909_02-e111660">Is it a grief, or fear? or else hath tears</l>
+            <l xml:id="A11909_02-e111670">● great joy itself. </l>
+          </div>
+          <div n="3" type="scene" xml:id="A11909_02-e111680">
+            <pb facs="41" n="37"/>
+            <head>The third scene.</head>
+            <stage xml:id="A11909_02-e111690">Atreus. Thyestes.</stage>
+            <l xml:id="A11909_02-e111700">Let us this day with one consent</l>
+            <l xml:id="A11909_02-e111710">(Oh brother celebrate)</l>
+            <l xml:id="A11909_02-e111720">This day my sceptors my confirm,</l>
+            <l xml:id="A11909_02-e111730">And establish my estate. </l>
+            <l xml:id="A11909_02-e111740">And faithful bond of peace and love</l>
+            <l xml:id="A11909_02-e111750">Between us ratify. </l>
+            <sp xml:id="A11909_02-e111760" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e111770">Enough with meat and eke with wine,</l>
+              <l xml:id="A11909_02-e111780">Now satisfied am I. </l>
+              <l xml:id="A11909_02-e111790">But yet of all my joys it were a great increase to me,</l>
+              <l xml:id="A11909_02-e111800">If now about my side I might my little children see. </l>
+            </sp>
+            <sp xml:id="A11909_02-e111810" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e111820">Believe that here even in thine arms thy children present be. </l>
+              <l xml:id="A11909_02-e111830">For here they are; and shall be here, no part of them from thee</l>
+              <l xml:id="A11909_02-e111840">Sal be withheld: their loved looks now give to thee I will,</l>
+              <l xml:id="A11909_02-e111850">And with the heap of all his babes, the father fully fill. </l>
+              <l xml:id="A11909_02-e111860">Thou shalt be glutted fear thou not: they with my boys as yet</l>
+              <l xml:id="A11909_02-e111870">The joyful sacrifices make at board where children sit. </l>
+              <l xml:id="A11909_02-e111880">They shall be called, the friendly cup now take of courtesy</l>
+              <l xml:id="A11909_02-e111890">With wine upfilled. </l>
+            </sp>
+            <sp xml:id="A11909_02-e111900" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e111910">Of brother's feast I take full willingly</l>
+              <l xml:id="A11909_02-e111920">The fynal gift, shed some to gods of this our father's land,</l>
+              <l xml:id="A11909_02-e111930">Then let the rest be drunk, what's this? in no wise will my hand</l>
+              <l xml:id="A11909_02-e111940">Obey: the poise increaseth sore, and down mine arm doth sway. </l>
+              <l xml:id="A11909_02-e111950">And from my lips the wafting wine itself doth fly away,</l>
+              <l xml:id="A11909_02-e111960">And in deceived mouth, about my jaws it runneth round. </l>
+              <l xml:id="A11909_02-e111970">The table to, itself doth shake and leap from trembling ground. </l>
+              <l xml:id="A11909_02-e111980">Scant burns the fire: the air itself with heavy cheer to slght</l>
+              <l xml:id="A11909_02-e111990">Forsook of son amazed is between the day and night. </l>
+              <l xml:id="A11909_02-e112000">What meaneth this? yet more and more of backward beaten sky</l>
+              <l xml:id="A11909_02-e112010">The compass falls, and thicker mist the world doth o'er</l>
+              <l xml:id="A11909_02-e112020">Then blackest darkness, and the night in night itself doth hide. </l>
+              <l xml:id="A11909_02-e112030">All stars be fled, what so it be my brother God provide</l>
+              <l xml:id="A11909_02-e112040">And soon to spare: the gods so grant that all this tempest fall</l>
+              <l xml:id="A11909_02-e112050">On this vile head: but now restore to me my children all,</l>
+            </sp>
+            <sp xml:id="A11909_02-e112060" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e112070">I will, and never day again shall them from thee withdraw,</l>
+            </sp>
+            <sp xml:id="A11909_02-e112080" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e112090">What tumult tumbleth so my guts, and doth my bowels gnaw? </l>
+              <l xml:id="A11909_02-e112100"><pb facs="42"/>What quakes within, with heavy poise I feel myself oppressed,</l>
+              <l xml:id="A11909_02-e112110">And with another voice than mine bewails my doleful breast:</l>
+              <l xml:id="A11909_02-e112120">Come near my sons, for you now doth th'unhappy father call:</l>
+              <l xml:id="A11909_02-e112130">Come near, for you once seen, this grief would soon assuage and fall</l>
+              <l xml:id="A11909_02-e112140">Whence murmur they? 〈◊〉 fathers at 〈◊〉 embrace them quickly now</l>
+              <l xml:id="A11909_02-e112150">For here they are lo come to thee: dost thou thy children know? </l>
+            </sp>
+            <sp xml:id="A11909_02-e112160" who="A11909_02-thyestes">
+              <speaker>Th.</speaker>
+              <l xml:id="A11909_02-e112170">I know my brother: such a guilt yet canst thou suffer well</l>
+              <l xml:id="A11909_02-e112180">Oh earth to bear? nor yet from hence to Stygian lake of hell</l>
+              <l xml:id="A11909_02-e112190">Dost thou both drown thy sell and us? nor yet with broken ground</l>
+              <l xml:id="A11909_02-e112200">Dost thou these kingdoms and their King with chaos rude confound? </l>
+              <l xml:id="A11909_02-e112210">Nor yet uprenting from the soil the bowers of wicked land. </l>
+              <l xml:id="A11909_02-e112220">Dost thou Mycenae overturn with Tantalus to stand,</l>
+              <l xml:id="A11909_02-e112230">And ancestors of ours, if there in hell be any one,</l>
+              <l xml:id="A11909_02-e112240">Now ought we both: now from the frames on either side anon</l>
+              <l xml:id="A11909_02-e112250">Of ground, all here and there rent up out of thy bosom deep:</l>
+              <l xml:id="A11909_02-e112260">Thy dens and dungeons set abroad, and us enclosed keep,</l>
+              <l xml:id="A11909_02-e112270">In bottom low of Acheron above our heads aloft</l>
+              <l xml:id="A11909_02-e112280">Let wander all the guilty ghosts, with burning frete full oft</l>
+              <l xml:id="A11909_02-e112290">Let fiery Phlegethon that drives his sands both to and fro</l>
+              <l xml:id="A11909_02-e112300">To our confusion over run and violently flow</l>
+              <l xml:id="A11909_02-e112310">Oh slothful soil unshaken poise un●●●● yet art thou? </l>
+              <l xml:id="A11909_02-e112320">The gods are fled:</l>
+            </sp>
+            <sp xml:id="A11909_02-e112330" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e112340">But take to thee with joy thy children now,</l>
+              <l xml:id="A11909_02-e112350">And rather them embrace: at length thy children all of thee</l>
+              <l xml:id="A11909_02-e112360">So long wished for (For no delay there standeth now in me)</l>
+              <l xml:id="A11909_02-e112370">Enjoy and kiss embracing arms divide thou unto three. </l>
+            </sp>
+            <sp xml:id="A11909_02-e112380" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e112390">Is this thy league? may this thy love and faith of brother be? </l>
+              <l xml:id="A11909_02-e112400">And dost thou so repose thy hate? the father doth not crave</l>
+              <l xml:id="A11909_02-e112410">His sons alive (Which might have been without thy guilt) to have</l>
+              <l xml:id="A11909_02-e112420">And eke without thy hate, but this doth brother brother pray:</l>
+              <l xml:id="A11909_02-e112430">That them he may entomb restore, whom see thou shalt straight way,</l>
+              <l xml:id="A11909_02-e112440">Be burned: the father naught requires of thee that have he shall,</l>
+              <l xml:id="A11909_02-e112450">But soon forgo</l>
+            </sp>
+            <sp xml:id="A11909_02-e112460" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e112470">Whatever part rot of thy children all</l>
+              <l xml:id="A11909_02-e112480">Remains, here shalt thou have: and what remaineth not thou host. </l>
+            </sp>
+            <sp xml:id="A11909_02-e112490" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e112500">Lie they in fields, a food out fling for fleering fowls to waste</l>
+              <l xml:id="A11909_02-e112510">Or are they kept a prey, for wild and brutish beasts to eat? </l>
+            </sp>
+            <sp xml:id="A11909_02-e112520" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e112530">Thou hast devoured thy sons and filled thyself with wicked meat. </l>
+            </sp>
+            <sp xml:id="A11909_02-e112540" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e112550">O this is it that shamed the gods and day from hence did drive</l>
+              <l xml:id="A11909_02-e112560">Turned back to East, alas I wretch what wailings may I give? </l>
+              <l xml:id="A11909_02-e112570">Or what complaints? what woeful words may be enough for me? </l>
+              <l xml:id="A11909_02-e112580">Their heads cut of, and hands of torn, I from their bodies see,</l>
+              <l xml:id="A11909_02-e112590"><pb facs="42" n="38"/> and wrenched feet from broken thighs I here behold again</l>
+              <l xml:id="A11909_02-e112600">'Tis this that greedy father could not suffer to sustain. </l>
+              <l xml:id="A11909_02-e112610">In belly roll my bowels round, and closed crime so great</l>
+              <l xml:id="A11909_02-e112620">Without a passage strives within and seeks away to get. </l>
+              <l xml:id="A11909_02-e112630">Thy sword (Oh brother) lewd to me much of my blood alas</l>
+              <l xml:id="A11909_02-e112640">It hath: let us therewith make way for all my sons to pass. </l>
+              <l xml:id="A11909_02-e112650">Is yet the sword from me withheld? thyself thy bosoms tear,</l>
+              <l xml:id="A11909_02-e112660">And let thy breasts resound with strokes: yet wretch thy hand forbear</l>
+              <l xml:id="A11909_02-e112670">And spare the dead: whoever saw such mischief put in proof? </l>
+              <l xml:id="A11909_02-e112680">What rude Heniochus that dwells by ragged coast aloof,</l>
+              <l xml:id="A11909_02-e112690">Of Caucasus unapt for men? or fear to Athens,, who</l>
+              <l xml:id="A11909_02-e112700">Procustes wild? the father I oppress my children do</l>
+              <l xml:id="A11909_02-e112710">And am oppressed, is any mean of guilt or mischief yet? </l>
+            </sp>
+            <sp xml:id="A11909_02-e112720" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e112730">A mean in mischief ought to be when guilt thou dost commit,</l>
+              <l xml:id="A11909_02-e112740">Not when thou quit'st: for yet even this too little seems to me. </l>
+              <l xml:id="A11909_02-e112750">The blood yet warm even from the wound I should in sight of these</l>
+              <l xml:id="A11909_02-e112760">Even in thy laws have shed, that thou the blood of them mightst drink</l>
+              <l xml:id="A11909_02-e112770">That live yet: but while to much to haste my hate I think</l>
+              <l xml:id="A11909_02-e112780">My wrath beguiled is myself with sword the wounds them gave</l>
+              <l xml:id="A11909_02-e112790">I strake them down, the sacred fires with slaughter vowed I have</l>
+              <l xml:id="A11909_02-e112800">Well pleased, the carcase cutting then, and lifeless limbs on ground. </l>
+              <l xml:id="A11909_02-e112810">I have in little parcels chopped, and some of them I drowned</l>
+              <l xml:id="A11909_02-e112820">In boiling caldrons, some to fires that burnt full slow I put,</l>
+              <l xml:id="A11909_02-e112830">And made to drop: their sinews all, and limbs a two I cut</l>
+              <l xml:id="A11909_02-e112840">Even yet alive and on the spit, that thrust was through the same</l>
+              <l xml:id="A11909_02-e112850">I heard the liver wail and cry, and with my hand the flame:</l>
+              <l xml:id="A11909_02-e112860">I oft kept in: but every whit the father might of this</l>
+              <l xml:id="A11909_02-e112870">Have better done, but now my wrath to lightly ended is. </l>
+              <l xml:id="A11909_02-e112880">He rent his sons with wicked gum, himself yet wotting naught. </l>
+              <l xml:id="A11909_02-e112890">Nor they thereof</l>
+            </sp>
+            <sp xml:id="A11909_02-e112900" who="A11909_02-thyestes">
+              <speaker>Th.</speaker>
+              <l xml:id="A11909_02-e112910">O ye enclosed with bending banks about</l>
+              <l xml:id="A11909_02-e112920">All seas me hear, and to this guilt ye gods now hearken well</l>
+              <l xml:id="A11909_02-e112930">Whatever place ye fled are to here all ye sprites of hell,</l>
+              <l xml:id="A11909_02-e112940">And here ye lands, and night so dark that them dost o'er</l>
+              <l xml:id="A11909_02-e112950">With cloud so black to my complaints do than thyself apply. </l>
+              <l xml:id="A11909_02-e112960">To thee now left I am, thou dost alone me miser see,</l>
+              <l xml:id="A11909_02-e112970">And thou art left without thy stars: I will not make for me</l>
+              <l xml:id="A11909_02-e112980">Petitions yet, nor ought for me require may ought yet be</l>
+              <l xml:id="A11909_02-e112990">That me should vail? for you shall all my wishes now foresee. </l>
+              <l xml:id="A11909_02-e113000">Thou guider great of skies above, and prince of highest might,</l>
+              <l xml:id="A11909_02-e113010">Of heavenly place now all with clouds full horrible to sight,</l>
+              <l xml:id="A11909_02-e113020"><pb facs="43"/> enwrap the world, and let the winds on every side break out:</l>
+              <l xml:id="A11909_02-e113030">And send the dreadful thunder clap through all the world about</l>
+              <l xml:id="A11909_02-e113040">Nor with what hand thou guilts house and undeserved wall</l>
+              <l xml:id="A11909_02-e113050">With lesser bolt are wont to beat, but with the which did fall</l>
+              <l xml:id="A11909_02-e113060">The three unheaped mountains once and which to hills in height</l>
+              <l xml:id="A11909_02-e113070">Stood equal up, the giants huge: throw out such weapons straight,</l>
+              <l xml:id="A11909_02-e113080">And fling thy fires: and therewithal revenge the drowned day. </l>
+              <l xml:id="A11909_02-e113090">Let flee they flames, the light thus lost and hid from heaven away,</l>
+              <l xml:id="A11909_02-e113100">With flashes fill: the cause (Lest long thou shouldst doubt whom to hit)</l>
+              <l xml:id="A11909_02-e113110">Of each of us is ill: if not at least let mine be it. </l>
+              <l xml:id="A11909_02-e113120">Me strike with triple edged tool thy brand of flaming fire. </l>
+              <l xml:id="A11909_02-e113130">Beat through this breast: if father I my children to desire</l>
+              <l xml:id="A11909_02-e113140">To lay in tomb or corpses cast to fire as doth behove,</l>
+              <l xml:id="A11909_02-e113150">I must be burned if nothing now the gods to wrath may move,</l>
+              <l xml:id="A11909_02-e113160">Nor power from skies with thunder bolt none strikes the wicked men</l>
+              <l xml:id="A11909_02-e113170">Let yet eternal night remain, and hide with darkness than</l>
+              <l xml:id="A11909_02-e113180">The world about: ay, Titan naught complain as now it stands</l>
+              <l xml:id="A11909_02-e113190">If still thou hide thee thus away. </l>
+            </sp>
+            <sp xml:id="A11909_02-e113200" who="A11909_02-atreus">
+              <speaker>Atre.</speaker>
+              <l xml:id="A11909_02-e113210">Now praise I well my hands. </l>
+              <l xml:id="A11909_02-e113220">Now got I have the palm. I had been overcome of thee,</l>
+              <l xml:id="A11909_02-e113230">Except thou sorrowedst so but now even children born to me</l>
+              <l xml:id="A11909_02-e113240">I count and now of bridebed chaste the faith I do repair,</l>
+            </sp>
+            <sp xml:id="A11909_02-e113250" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e113260">In what offended have my sons:</l>
+            </sp>
+            <sp xml:id="A11909_02-e113270" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e113280">In that, that thine they were</l>
+            </sp>
+            <sp xml:id="A11909_02-e113290" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e113300">Setst thou the sons for father's food? </l>
+            </sp>
+            <sp xml:id="A11909_02-e113310" who="A11909_02-atreus">
+              <speaker>Arr.</speaker>
+              <l xml:id="A11909_02-e113320">I do and (Which is best)</l>
+              <l xml:id="A11909_02-e113330">The certain sons,</l>
+            </sp>
+            <sp xml:id="A11909_02-e113340" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e113350">The gods that guide all infants I protest. </l>
+            </sp>
+            <sp xml:id="A11909_02-e113360" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e113370">What wedlock gods? </l>
+            </sp>
+            <sp xml:id="A11909_02-e113380" who="A11909_02-thyestes">
+              <speaker>Th.</speaker>
+              <l xml:id="A11909_02-e113390">Who would the gilt with guilt so quite again? </l>
+            </sp>
+            <sp xml:id="A11909_02-e113400" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e113410">I know thy grief prevented now with wrong thou dost complain:</l>
+              <l xml:id="A11909_02-e113420">Nor this thee irks, that said thou art with food of cursed kind,</l>
+              <l xml:id="A11909_02-e113430">But that thou hadst not it prepared for so it was thy mind,</l>
+              <l xml:id="A11909_02-e113440">Such meats as these to set before thy brother wotting naught,</l>
+              <l xml:id="A11909_02-e113450">And by the mother's help to have, likewise my children caught:</l>
+              <l xml:id="A11909_02-e113460">And them with such like to slay: this one thing letted thee,</l>
+              <l xml:id="A11909_02-e113470">Thou thoughtest them thine. </l>
+            </sp>
+            <sp xml:id="A11909_02-e113480" who="A11909_02-thyestes">
+              <speaker>Thy.</speaker>
+              <l xml:id="A11909_02-e113490">The gods shall all of this revengers be</l>
+              <l xml:id="A11909_02-e113500">And unto them for vengeance due my vows thee render shall</l>
+            </sp>
+            <sp xml:id="A11909_02-e113510" who="A11909_02-atreus">
+              <speaker>Atr.</speaker>
+              <l xml:id="A11909_02-e113520">But vexed to be I thee the white, give to thy children all. </l>
+            </sp>
+          </div>
+          <div n="4" type="scene" xml:id="A11909_02-e113530">
+            <pb facs="43" n="39"/>
+            <head>The fourth scene, added to the tragedy by the translator.</head>
+            <stage xml:id="A11909_02-e113540">Thyestes alone.</stage>
+            <l xml:id="A11909_02-e113550">O King of Dis' dungeon dark,</l>
+            <l xml:id="A11909_02-e113560">And grisly ghosts of hell,</l>
+            <l xml:id="A11909_02-e113570">That in the deep and dreadful den,</l>
+            <l xml:id="A11909_02-e113580">Of blackest terrace dwell. </l>
+            <l xml:id="A11909_02-e113590">Where lean and pale diseases lie</l>
+            <l xml:id="A11909_02-e113600">Where fear and famine are,</l>
+            <l xml:id="A11909_02-e113610">Where discord stands with bleeding brows,</l>
+            <l xml:id="A11909_02-e113620">Where every kind of care,</l>
+            <l xml:id="A11909_02-e113630">Where furies fight in beds of steel, and hairs of crawling snakes,</l>
+            <l xml:id="A11909_02-e113640">Where Gorgon grim, where harpies are, and loathsome limbo lakes,</l>
+            <l xml:id="A11909_02-e113650">Where most prodigious ugly things, the hollow hell doth bide. </l>
+            <l xml:id="A11909_02-e113660">If yet a monster more misshaped than all that there do hide,</l>
+            <l xml:id="A11909_02-e113670">That makes his brood his cursed food, ye all abhor to see,</l>
+            <l xml:id="A11909_02-e113680">Nor yet the deep Averne itself, may bide to cover me,</l>
+            <l xml:id="A11909_02-e113690">Nor grisly gates of Pluto's place, yet dare themselves to spread,</l>
+            <l xml:id="A11909_02-e113700">Nor gaping ground to swallow him, whom gods and day have fled:</l>
+            <l xml:id="A11909_02-e113710">Yet break ye out from cursed seats, and here remain with me,</l>
+            <l xml:id="A11909_02-e113720">Ye need not now to be afraid, the air and heaven to see. </l>
+            <l xml:id="A11909_02-e113730">Nor triple headed Cerberus, thou needst not be affright,</l>
+            <l xml:id="A11909_02-e113740">The day unknown to thee to see or else the loathsome light. </l>
+            <l xml:id="A11909_02-e113750">They both be fled: and now doth dwell none other countenance here,</l>
+            <l xml:id="A11909_02-e113760">Then doth beneath the foulest face, of hateful hell appear. </l>
+            <l xml:id="A11909_02-e113770">Come see a meetest match for thee, a more than monstrous womb,</l>
+            <l xml:id="A11909_02-e113780">That is of his unhappy brood, become a cursed tomb. </l>
+            <l xml:id="A11909_02-e113790">Flock here ye foulest fiends of hell, and thou oh grandsire great,</l>
+            <l xml:id="A11909_02-e113800">Come see the glutted guts of mine, with such a kind of meat,</l>
+            <l xml:id="A11909_02-e113810">As thou didst once for gods prepare. Let torments all of hell</l>
+            <l xml:id="A11909_02-e113820">Now fall upon this hateful head, that hath deserved them well. </l>
+            <l xml:id="A11909_02-e113830">Ye all be plagued wrongfully, your guilts be small, in sight</l>
+            <l xml:id="A11909_02-e113840">Of mine, and meet it were your pang on me alone should light. </l>
+            <l xml:id="A11909_02-e113850">Now thou oh grandsire guiltless art, and meeter were for me,</l>
+            <l xml:id="A11909_02-e113860">With fleeing flood to be beguiled, and fruit of fickle tree. </l>
+            <l xml:id="A11909_02-e113870"><pb facs="44"/>Thou slewest thy son, but I my sons, alas, have made my meat. </l>
+            <l xml:id="A11909_02-e113880">I could thy famine better bear, my paunch is now replete</l>
+            <l xml:id="A11909_02-e113890">With food: and with my children three, my belly is extent. </l>
+            <l xml:id="A11909_02-e113900">O filthy fowls and gnawing gripes, that Tytius be some rent</l>
+            <l xml:id="A11909_02-e113910">Behold a fitter pray for you, to fill yourselves upon</l>
+            <l xml:id="A11909_02-e113920">Then are the growing guts of him: four wombs enwrapped in one. </l>
+            <l xml:id="A11909_02-e113930">This paunch at once shall still you all: if ye abhor the food,</l>
+            <l xml:id="A11909_02-e113940">Nor may yourselves abide to bathe, in such a cursed blood:</l>
+            <l xml:id="A11909_02-e113950">Yet lend to me your clinching claws, your prey a while forbear,</l>
+            <l xml:id="A11909_02-e113960">And with your talons suffer me, this monstrous maw to tear. </l>
+            <l xml:id="A11909_02-e113970">Or whirling wheels, with swinge of which Ixion still is rolled,</l>
+            <l xml:id="A11909_02-e113980">Your books upon this glutton gorge, would catch a surer hold. </l>
+            <l xml:id="A11909_02-e113990">Thou filthy flood of Limbo lake, and Stygian pool so dire,</l>
+            <l xml:id="A11909_02-e114000">From chocked channel belch abroad. Thou fearful freate of fire,</l>
+            <l xml:id="A11909_02-e114010">Spue out thy flames oh Phlegethon: and overshed the ground. </l>
+            <l xml:id="A11909_02-e114020">With vomit of thy fiery stream, let me and earth be drowned,</l>
+            <l xml:id="A11909_02-e114030">Break up thou soil from bottom deep, and give thou room to hell,</l>
+            <l xml:id="A11909_02-e114040">That night, where day, theghosts, where gods were wont to reign, may dwell. </l>
+            <l xml:id="A11909_02-e114050">Why gap'st thou not? Why do you not oh gates of hell unfold? </l>
+            <l xml:id="A11909_02-e114060">Why do ye thus th'infernal fiends, so long from hence withhold? </l>
+            <l xml:id="A11909_02-e114070">Are you likewise afraid to see, and know so wretched wight,</l>
+            <l xml:id="A11909_02-e114080">From whom the gods have wried their looks, and turned are to flight? </l>
+            <l xml:id="A11909_02-e114090">O hateful head, whom heaven and hell, have shunned and left alone,</l>
+            <l xml:id="A11909_02-e114100">The sun, the stars, the light, the day, the gods, the ghosts be gone. </l>
+            <l xml:id="A11909_02-e114110">Yet turn again ye skies a while, ere quite ye go from me,</l>
+            <l xml:id="A11909_02-e114120">Take vengeance first on him, whose fault enforceth you to flee. </l>
+            <l xml:id="A11909_02-e114130">If needs ye must your flight prepare, and may no longer bide,</l>
+            <l xml:id="A11909_02-e114140">But roll ye must with you forthwith, the gods and sun a side,</l>
+            <l xml:id="A11909_02-e114150">Yet slowly flee: that I at length, may you yet overtake,</l>
+            <l xml:id="A11909_02-e114160">While wand'ring ways I after you, and speedy journey make. </l>
+            <l xml:id="A11909_02-e114170">By seas, by lands, by woods, by rocks, in dark I wander shall:</l>
+            <l xml:id="A11909_02-e114180">And on your wrath, for right reward to due deserts, will call. </l>
+            <l xml:id="A11909_02-e114190">Ye scape not from me, so ye gods, still after you I go,</l>
+            <l xml:id="A11909_02-e114200">And vengeance ask on wicked wight, your thunder bolt to throw. </l>
+            <trailer xml:id="A11909_02-e114210">Finis.</trailer>
+          </div>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A11909_02"><item xml:id="A11909_02-atreus" n="38">
+    <seg type="character_name">A11909_02-atreus</seg>
+    <seg type="speech_count">38</seg>
+  </item>
+  <item xml:id="A11909_02-thyestes" n="29">
+    <seg type="character_name">A11909_02-thyestes</seg>
+    <seg type="speech_count">29</seg>
+  </item>
+  <item xml:id="A11909_02-servant" n="20">
+    <seg type="character_name">A11909_02-servant</seg>
+    <seg type="speech_count">20</seg>
+  </item>
+  <item xml:id="A11909_02-phylisthenes" n="13">
+    <seg type="character_name">A11909_02-phylisthenes</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+  <item xml:id="A11909_02-megaera" n="11">
+    <seg type="character_name">A11909_02-megaera</seg>
+    <seg type="speech_count">11</seg>
+  </item>
+  <item xml:id="A11909_02-chorus" n="10">
+    <seg type="character_name">A11909_02-chorus</seg>
+    <seg type="speech_count">10</seg>
+  </item>
+  <item xml:id="A11909_02-tantalus" n="4">
+    <seg type="character_name">A11909_02-tantalus</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+<item xml:id="A11909_02-missing" n="3">
+    <seg type="character_name">A11909_02-missing</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A11909_02-messenger" n="2">
+    <seg type="character_name">A11909_02-messenger</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A11909_02-unassigned" n="1">
+    <seg type="character_name">A11909_02-unassigned</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

@@ -1,0 +1,464 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A20053">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Britannia's Honour<date type="creation_date">1628</date></title>
+        <author>Dekker, Thomas</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A20053.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">Brittannia's honor brightly shining in seuerall magnificent shevves or pageants, to celebrate the solemnity of the Right Honorable Richard Deane, at his inauguration into the majoralty of the honourable citty of London, on Wednesday, October 29th. 1628. At the particular cost, and charges of the right vvorshipfull, worthy, and ancient Society of Skinners. Inuented by Tho. Dekker.</title>
+            <author>Dekker, Thomas, ca. 1572-1632.</author>
+          </titleStmt>
+          <extent>11 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 May (TCP phase 1)</date>
+            <idno type="marc">99850438</idno>
+            <idno type="stc">STC (2nd ed.) 6493.</idno>
+            <idno type="stc">Greg, 419.</idno>
+            <idno type="vid">15640</idno>
+            <idno type="DLPS">A20053</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">Brittannia's honor brightly shining in seuerall magnificent shevves or pageants, to celebrate the solemnity of the Right Honorable Richard Deane, at his inauguration into the majoralty of the honourable citty of London, on Wednesday, October 29th. 1628. At the particular cost, and charges of the right vvorshipfull, worthy, and ancient Society of Skinners. Inuented by Tho. Dekker.</title>
+            <author>Dekker, Thomas, ca. 1572-1632.</author>
+          </titleStmt>
+          <extent>[20] p.</extent>
+          <publicationStmt>
+            <publisher>N. Okes and J. Norton,</publisher>
+            <pubPlace>[London :</pubPlace>
+            <date>1628]</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Imprint from STC.</p>
+            </note>
+            <note>
+              <p>Signatures: A-B4 C2.</p>
+            </note>
+            <note>
+              <p>Title page cropped, with loss of imprint (supplied by STC); some print show-through.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the British Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Deane, Richard, -- Sir.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A20053-e100010">
+    <front xml:id="A20053-e100020">
+      <div type="title_page" xml:id="A20053-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A20053-e100040">Brittannia's honour: brightly shining in several magnificent shows or pageants, to celebrate the solemnity of the right honourable Richard Deane, at his inauguration into the majoralty of the honourable city of London, on Wednesday, October the 29th. 1628. At the particular cost, and charges of the right worshipful, worthy, and ancient society of skinners. </p>
+        <quote xml:id="A20053-e100050"><bibl xml:id="A20053-e100060">Mart. lib. 7. Ep. 5.</bibl>rursus 10, magnos clamat Nova-troia triumphos.</quote>
+        <p xml:id="A20053-e100070">Invented by tho. Dekker. <figure xml:id="A20053-e100080"><p xml:id="A20053-e100090">To God only be all glory</p></figure></p>
+      </div>
+      <div type="dedication" xml:id="A20053-e100100">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>To the right honourable, Richard Deane lord mayor of the most renowned city of London: and to the two worthy sheriffs, Mr. Rowland Backhouse, and Mr. William Acton.</head>
+        <opener xml:id="A20053-e100110">
+          <salute xml:id="A20053-e100120">Honourable praetor: noble consuls.</salute>
+        </opener>
+        <l xml:id="A20053-e100130">Ye are (This year) the subject of my verse,</l>
+        <l xml:id="A20053-e100140">In you lie hid the fires which heat my brains,</l>
+        <l xml:id="A20053-e100150">To you, my songs triumphant I rehearse:</l>
+        <l xml:id="A20053-e100160">From you, a thanks brings in a golden gains,</l>
+        <l xml:id="A20053-e100170">Since you are then the glory of my muse,</l>
+        <l xml:id="A20053-e100180">But you, whom can she for her patrons choose? </l>
+        <closer xml:id="A20053-e100190">
+          <signed xml:id="A20053-e100200">While I rest, devoted to your lordship, and worships in all service, Tho. Dekker. </signed>
+        </closer>
+      </div>
+    </front>
+    <body xml:id="A20053-e100210">
+      <div type="text" xml:id="A20053-e100220">
+        <pb facs="3"/>
+        <pb facs="3"/>
+        <head>Brittannia's honour: brightly shining in several magnificent shows or pageants, to celebrate the solemnity of the right honourable Richard Deane, at his inauguration into the majoralty of the honourable city of London, on Wednesday the 29. of October. 1628.</head>
+        <p xml:id="A20053-e100230">What honour can be greater to a kingdom, than to have a city for beauty, able to match with the fairest in the world? A city, renowned abroad, admired at home. London, and her royal daughter (Westminster) are the representative body of the general state; for, here our Kings and Queens keep their courts; here are our princes, the peers, nobility, gentry, lords spiritual and temporal, with the numerous communality. </p>
+        <p xml:id="A20053-e100240">London in foreign countries is called the Queen of cities, and the queen-mother over her own. She is her King's chamber-royal, his golden-key: his storehouse: the magazine of merchandise; the mistress of sciences; a nurse to all the shires in England. </p>
+        <p xml:id="A20053-e100250"><pb facs="4"/>So famous she is for her buildings, that Troy has leaped out of her own cinders, to build her walls. So remarkable for priority and power, that hers is the master-wheel of the whole kingdom: as that moves, so the main engine works.</p>
+        <p xml:id="A20053-e100260">London is admiral over the navy royal of cities: and as she sails, the whole fleet of them keep their course.</p>
+        <p xml:id="A20053-e100270">Fully to write down all the titles, styles, and honours of this our Metrapolis, would weary a 1000. pens: Apollo shall have a new garland of Bayes, to undertake it.</p>
+        <p xml:id="A20053-e100280">As thus in state, she herself is glorious; so have all our Kings held it fit to make her chief ruler eminent, and answerable to her greatness. The Praetorian dignity is therefore come from the ancient Romans, to invest with robes of honour, our lord mayor of London: their consuls are our sheriffs; their senators our aldermen. </p>
+        <p xml:id="A20053-e100290">The extension of a lord mayor's power, is every year to be seen both by land and water: down as low as lee in Essex: up, as high as Stanes in Middlesex: in both which places, he keeps personal courts. His house is a chancery: he the chancellor to mitigate the fury of law: he the moderator between the griping rich and the wrangling poor. </p>
+        <p xml:id="A20053-e100300">All the city ▪ orphans call him father: all the widows call him their champion. His table lies spread to courtiers, and free to all gentlemen of fashion.</p>
+        <p xml:id="A20053-e100310">More to proclaim his greatness, what viceroy is installed with louder popular acclamations? What deputy to his sovereign goes along with such triumphs? To behold them, Kings, Queens, princes, and ambassadors (From all parts of the world) have with admiration, rejoiced.</p>
+        <p xml:id="A20053-e100320">These triumphal passages are full of magnificence for state, munificence for cost, and beneficence for doing good. For ▪ besides all the twelve companies, (Every one of which is a gainer by this employment:) it would puzzle a good memory<pb facs="4"/> to reckon up all those tradesmen (With other extraordinary professions which live not in the city) who get money by this action.</p>
+        <p xml:id="A20053-e100330">Then by this means, are every year added to those that were before, three fair, spacious, and palacious houses, beautified, painted, and adorned.</p>
+        <p xml:id="A20053-e100340">The lord mayor of London (Like a prince) hath likewise his variety of noble recreations: as hunting, shooting, wrestling, before him, and such like.</p>
+        <p xml:id="A20053-e100350">Thus having (As it were in landscape) afar off shown you the tops only of our city-buildings; and in a little picture drawn the face of her authority, giving but a glimpse of her praetor as he passes by; let me now open a book to you, of all those ceremonies, which this great festival day hath provided to attend upon him, and do him honour.</p>
+        <div n="1" type="part" xml:id="A20053-e100360">
+          <head>The first show, is called a sea-consort.</head>
+          <p xml:id="A20053-e100370">The first salutation being on the water, is furnished with persons and properties fitting the quality of that element. An artificial rock therefore is quaintly contrived: on whose highest ascent fits Amphitrite Queen of the seas, habited to her state; a mantle fringed with silver crossing her body: her hair long, and dishevelled, on her head, a fantastic dressing made out of a fish's writhen shell, interwoven with pearl, the shell is silver, on the top of it stands an artificial moving tortoise: on each side of her, swim two mermaids. These two enticed by the variety of several instruments (Echoing to one another) have followed the sea sovereign, and wait upon her, as maids of honour.</p>
+          <p xml:id="A20053-e100380">Round about the rock are sea-nymphs, and in places convenient for them are bestowed our three famous rivers, Humber, Trent, and Severn, aptly attired according to the quality of such marine persons, who play upon cornets.</p>
+          <p xml:id="A20053-e100390"><pb facs="5"/>Amphitryte is the speaker. From whom are delivered these lines.</p>
+          <sp xml:id="A20053-e100400" who="A20053-missing">
+            <lg xml:id="A20053-e100410">
+              <l xml:id="A20053-e100420">Hail worthy praetor, (Hail grave senators)</l>
+              <l xml:id="A20053-e100430">The Queen of waves (Leaving Grey Neptune's bowers)</l>
+              <l xml:id="A20053-e100440">Waits here (Fair lord) to serve you. Fame's report,</l>
+              <l xml:id="A20053-e100450">(So far as old Oceanus' crystal court)</l>
+              <l xml:id="A20053-e100460">What triumphs ceremony forth would call</l>
+              <l xml:id="A20053-e100470">To swell the joys of this grand festival,</l>
+              <l xml:id="A20053-e100480">Enticed me with my mermaids and a train</l>
+              <l xml:id="A20053-e100490">Of sea-nymphs hither. Here (This day) shall reign</l>
+              <l xml:id="A20053-e100500">Pleasures in state majestic: and to lend</l>
+              <l xml:id="A20053-e100510">A brighter splendour to them, do attend</l>
+              <l xml:id="A20053-e100520">Three of my noblest children, Humber, Trent,</l>
+              <l xml:id="A20053-e100530">And Severn (Glorious made by punishment.) </l>
+              <l xml:id="A20053-e100540">The silver-footed Thames (My eldest son)</l>
+              <l xml:id="A20053-e100550">To grace your triumphs, by your barge shall run. </l>
+              <l xml:id="A20053-e100560">Your fortunes (Led by a white-handed fate</l>
+              <l xml:id="A20053-e100570">Up to this high fame) I congratulate:</l>
+              <l xml:id="A20053-e100580">Glad am I to behold you thus set round</l>
+              <l xml:id="A20053-e100590">With glories, thus with acclamations crowned,</l>
+              <l xml:id="A20053-e100600">So circled, and hemmed in, on every side</l>
+              <l xml:id="A20053-e100610">With echoing music, fishes even take pride</l>
+              <l xml:id="A20053-e100620">To swim along, and listen, go, and take</l>
+              <l xml:id="A20053-e100630">The dignity stays for you, whilst I make</l>
+              <l xml:id="A20053-e100640">Smooth way before you, on this glassy floor,</l>
+              <l xml:id="A20053-e100650">Ushering your glad arrival to the shore. </l>
+              <l xml:id="A20053-e100660">To honour's temple now you have not far,</l>
+              <l xml:id="A20053-e100670">High, and come back more great than yet you are, on,</l>
+            </lg>
+          </sp>
+          <p xml:id="A20053-e100680">And so the cornets playing one to another, they go forward. If her majesty be pleased on the water, or land, to honour these triumphs with her presence; this following speech<pb facs="5"/> in French is then delivered to her, with a book of the presentations, all the cover, being set thick with flower de Luce's in gold.</p>
+          <div type="section" xml:id="A20053-e100690">
+            <opener xml:id="A20053-e100700">
+              <salute xml:id="A20053-e100710">Madam,</salute>
+            </opener>
+            <p xml:id="A20053-e100720">Voicy, maintenant les quatre elements qui vos attendent pour vous fair honneur. L'eau est couverte de triomphes flottans, pour dancer en l'air: e'l'air est remply de mille echoes, and retentit de la doulce music, que leur voix resonne, pour attirer vos oreilles favorables à les escouter. Puis vous avez sur la, terrae dix mille mains qui vous applaudissent pour joy and allegresse quelles ressentent de voir vostre majesty dans la ville. L'element du feu, bruit and ton vostre bien venue. Vos subjects accourent à grand foùlle, ravis de voir les graces qui on't choisi leur throsne sur vostre front. Toutes les deliees d' Amour see iouënt sur vos paupieres, la rose d' angleterre, and les fleurs de lis de France s'entrebaisent sur le vermeil de vos jouës. Soyez saine comme le printemps, glorieuse comme l'este, autant fructeuse que la vigne. Que seurte guard, and environ vostre chariot le jour: et le sommeil door dress and orne vostre chambre de nuict. Vivez longuement: Vivez heureuze: Vivez aimee, and cherry. Bonte vous guard; virtue vous couronne; et les anges vous guident.</p>
+          </div>
+          <div type="section" xml:id="A20053-e100730">
+            <head>Thus englished.</head>
+            <opener xml:id="A20053-e100740">
+              <salute xml:id="A20053-e100750">Royal lady,</salute>
+            </opener>
+            <p xml:id="A20053-e100760">Behold, the four elements wait upon you to do you honour: water hath provided floating triumphs to dance in the air: in the air are a thousand echoes with music in their mouths, to entice you to hear them: on the shore shall ten thousand pair of hands give you plaudits in the city: the element of fire, thunders aloud your welcomes. Throngs of subjects here, are glad to see the graces enthroned on your forehead: all the delicacies of<pb facs="6"/> love, playing on your eyelids, the roses of England, and the lilies of France, kissing one another on your cheeks. Be you healthful as the spring; glorious as summer: fruitful as the vine: safety run along your chariot by day; golden slumbers dress up your chamber at night.</p>
+            <l xml:id="A20053-e100770">Live long,</l>
+            <l xml:id="A20053-e100780">Live happy,</l>
+            <l xml:id="A20053-e100790">Live beloved;</l>
+            <l xml:id="A20053-e100800">Goodness guard you,</l>
+            <l xml:id="A20053-e100810">Virtues crown you,</l>
+            <l xml:id="A20053-e100820">Angels guide you. </l>
+          </div>
+        </div>
+        <div n="2" type="part" xml:id="A20053-e100830">
+          <head>The second presentation, new Troy's tree of honour.</head>
+          <p xml:id="A20053-e100840">A person in a rich Roman antique habit, with an ornament of steeples, towers, and turrets on her head, sits in a quaint arbour, interwoven with several branches of flowers.</p>
+          <p xml:id="A20053-e100850">In her left hand, she holds a golden truncheon (Leaning on the ground) to show that she's a leader and conductress of a mighty people: her right hand (Thrusting through the arbour) takes hold of a tree, out of which spread twelve main and goodly branches. </p>
+          <p xml:id="A20053-e100860">This lady (Thus sitting) represents London: the tree (Guarded, and supported by her) the 12. Superior companies. </p>
+          <p xml:id="A20053-e100870">Upon every particular branch, is bestowed the arms of some one of the twelve, expressed in the true colours within a fair shield. The highest branch of all (As overtopping the rest at this time) bearing the arms of the skinners in a more large and glorious escutcheon. </p>
+          <p xml:id="A20053-e100880">Among the leaves in the top, is a tablet, in which is written, in letters of gold, vivite concordes, live in love: or agree in one. </p>
+          <p xml:id="A20053-e100890">Over the person, representing London, is likewise inscribed in golden capitals, this,<quote xml:id="A20053-e100900"><l xml:id="A20053-e100910">Me cunctus Lauro perducit ad astra triumphus. </l><l xml:id="A20053-e100920">Each triumph crowned with bays,</l><l xml:id="A20053-e100930">Me to the stars does raze. </l></quote></p>
+          <p xml:id="A20053-e100940"><pb facs="6"/>In places convenient, and in a triangular form, under the twelve branches of the tree, are seated Minerva, (Inventress and patroness of arts, handicrafts, and trades) in ornaments proper to her quality: and not far from her, is Bellona goddess of war, in a martial habit, on her head a helm and plume, in her hands a golden spear and shield, with Medusa's head. Hereby intimating, that both arts and arms, are (In a high degree and fullness of honour,) nursed up and maintained by and in the city: and, that either of them flourish bravely under the shadow and protection of the twelve branches, shooting forth from that. New Troy's tree of honour. </p>
+          <p xml:id="A20053-e100950">Upon a border of flowers, enclosing this tree, are fitly bestowed the arms of as many of the inferior companies in less escutcheons, as for the quantity of room, can there be handsomely placed.</p>
+          <p xml:id="A20053-e100960">Within the same border, (Where less trees also grow) are presented peace, religion, civil government, justice, learning, industry, and close to industry, honour. For as all these are golden columns, to bear up the glories of the city, so is the city an indulgent and careful mother, to bring up them to their glories. And as these twelve noble branches cover these persons, (As it were with the wings of angels,) so the persons watch day and night to defend the twelve branches. </p>
+          <p xml:id="A20053-e100970">These persons are adorned fitting their state and condition, and hold such properties in their hands, as of right belong unto them.</p>
+          <p xml:id="A20053-e100980">1. Peace hath a dove on her fist, and a palmtree branch in her hand.</p>
+          <p xml:id="A20053-e100990">2. Religion is in a white glittering robe, with a coronet of stars on her head, holding in one hand, a book open, in the other, a golden ladder, (Emblem of prayer, by whose<pb facs="7"/> steps we climb to heaven.)</p>
+          <p xml:id="A20053-e101000">3. Civil government is in a robe full of eyes, and a dial in her hand to express her vigilance: for she must watch every hour, and keep all eyes open, yet all little enough.</p>
+          <p xml:id="A20053-e101010">4. Justice holds a sword.</p>
+          <p xml:id="A20053-e101020">5. Learning a book, and a Jacob's staff.</p>
+          <p xml:id="A20053-e101030">6. Industry, a golden hammer, and a seaman's compass, as taking pains to get wealth, both by sea and land.</p>
+          <p xml:id="A20053-e101040">7. Honour sits in scarlet.</p>
+          <p xml:id="A20053-e101050">The person, in whom is figured London, is the speaker, who thus salutes his lordship.</p>
+          <sp xml:id="A20053-e101060" who="A20053-missing">
+            <lg xml:id="A20053-e101070">
+              <l xml:id="A20053-e101080">Ten thousand welcomes greet you on the shore,</l>
+              <l xml:id="A20053-e101090">(My long expected praetor,) oh before</l>
+              <l xml:id="A20053-e101100">You look on others, fix your eyes on me,</l>
+              <l xml:id="A20053-e101110">On me, your second mother, (London.) She</l>
+              <l xml:id="A20053-e101120">Whom all great Britain's cities, style their Queen,</l>
+              <l xml:id="A20053-e101130">For still I am, and have her darling been. </l>
+              <l xml:id="A20053-e101140">The Christian world, in me, reads times best storeys,</l>
+              <l xml:id="A20053-e101150">And reading, falls blind at my dazling glories,</l>
+              <l xml:id="A20053-e101160">But now the snow of age, covers my head:</l>
+              <l xml:id="A20053-e101170">As therefore you, by me have up been bred ▪</l>
+              <l xml:id="A20053-e101180">You (Sir) must nurse me now: with a quick eye</l>
+              <l xml:id="A20053-e101190">View then my tree of honour, branching high</l>
+              <l xml:id="A20053-e101200">For hundreds of past years, with 12. large stems,</l>
+              <l xml:id="A20053-e101210">Twelve noble companies, which like 12. Gems</l>
+              <l xml:id="A20053-e101220">So shine, they add new sun beams to the day:</l>
+              <l xml:id="A20053-e101230">Guard all these 12. maine-boughes; but you must lay:</l>
+              <l xml:id="A20053-e101240">A soft hand, on the topping-branch, for there</l>
+              <l xml:id="A20053-e101250">(Thrive the root well) yourself grows all this year:</l>
+              <l xml:id="A20053-e101260">The lesser twigs which lowly run along</l>
+              <l xml:id="A20053-e101270">My tall tree, border, you must shield from wrong,</l>
+              <l xml:id="A20053-e101280">There the poor be, (The sweating trade's man) flies</l>
+              <l xml:id="A20053-e101290"><pb facs="7"/> from flower to flower, and home with honey bees. </l>
+              <l xml:id="A20053-e101300">With me Minerva; and Bellona come,</l>
+              <l xml:id="A20053-e101310">For arts and arms, must at your board have room,</l>
+              <l xml:id="A20053-e101320">Your gates will spread, the rich to entertain,</l>
+              <l xml:id="A20053-e101330">But whilst the mighty ones within remain,</l>
+              <l xml:id="A20053-e101340">And feast: remember at the same gate stands</l>
+              <l xml:id="A20053-e101350">The poor, with crying papers in their hands,</l>
+              <l xml:id="A20053-e101360">To watch when justice up the glass shall turn,</l>
+              <l xml:id="A20053-e101370">Let those sands run, the poor can never mourn. </l>
+              <l xml:id="A20053-e101380">Place in your eyes two beacons, to descry</l>
+              <l xml:id="A20053-e101390">Dangers far off, which strike ere home they fly;</l>
+              <l xml:id="A20053-e101400">Kiss peace; let order ever steer the helm,</l>
+              <l xml:id="A20053-e101410">Left-handed rule, a state does overwhelm. </l>
+              <l xml:id="A20053-e101420">You are your sovereign's gardener for one year,</l>
+              <l xml:id="A20053-e101430">The plot of ground, you're trusted with, lies here,</l>
+              <l xml:id="A20053-e101440">(A city,) and your care must all be spent,</l>
+              <l xml:id="A20053-e101450">To prune and and dress the tree of government. </l>
+              <l xml:id="A20053-e101460">Lop off disorders, factions, mutiny,</l>
+              <l xml:id="A20053-e101470">And murmurations against those sit high,</l>
+              <l xml:id="A20053-e101480">May your years last day, end as this begins,</l>
+              <l xml:id="A20053-e101490">Sphered in the loves of noble citizens. </l>
+            </lg>
+          </sp>
+        </div>
+        <div n="3" type="part" xml:id="A20053-e101500">
+          <head>Our third presentation is called, the glory of furs.</head>
+          <p xml:id="A20053-e101510">This is a chariot triumphant, garnished with trophies of armours. It is drawn by two luzernes, the supporters of the skinner's arms. On the two luzernes ride two antics, who dance to a drum beating before them, there aptly placed. At the upper end of this chariot, in the most eminent seat, carrying the proportion of a throne, are advanced a Russian prince and Princess; richly habited in furs, to the custom of the country.</p>
+          <p xml:id="A20053-e101520">1. Under them, sits an old lord, furred up to his chin in a short cloak.</p>
+          <p xml:id="A20053-e101530"><pb facs="8"/>2. By him, a lady with Martin skins about her neck, and her hands in a muff.</p>
+          <p xml:id="A20053-e101540">3. Then, a judge in robes furred.</p>
+          <p xml:id="A20053-e101550">4. Then, an university doctor, in his robes furred.</p>
+          <p xml:id="A20053-e101560">5. Then, a Fro● in a short furred cassock, girt to her.</p>
+          <p xml:id="A20053-e101570">6. Then a skipper in a furred Cap.</p>
+          <p xml:id="A20053-e101580">In all these persons, is an implication of the necessary, ancient and general use of furs, from the highest to the lowest.</p>
+          <p xml:id="A20053-e101590">On the top of this throne, (At the four corners) are erected the arms of the city, in four pendants: on the point of the fore front, a large square banner plays with the wind, which fame (Who is in this chariot,) holds in her hand, as she stands upright, being the speaker. </p>
+          <l xml:id="A20053-e101600">Fame's turn is now to speak; for who but fame</l>
+          <l xml:id="A20053-e101610">Can with her thousand tongues abroad proclaim,</l>
+          <l xml:id="A20053-e101620">Your this day's progress (Rising like the sun,)</l>
+          <l xml:id="A20053-e101630">Which through the yearly zodiac on must run. </l>
+          <l xml:id="A20053-e101640">Fame hath brought hither from great Mosco's court,</l>
+          <l xml:id="A20053-e101650">(The seven-mouthed Volga, spreading the report,)</l>
+          <l xml:id="A20053-e101660">Two Russian princes, who to feast their eyes,</l>
+          <l xml:id="A20053-e101670">With the rich wonders of these rarities,</l>
+          <l xml:id="A20053-e101680">Ride in this glorious chariot; how amazed</l>
+          <l xml:id="A20053-e101690">They look, to see streets thronged, and windows glazed</l>
+          <l xml:id="A20053-e101700">With beauties, from whose eyes such beams are sent,</l>
+          <l xml:id="A20053-e101710">Here moves a second starry firmament. </l>
+          <l xml:id="A20053-e101720">Much, on them, startling admiration wins,</l>
+          <l xml:id="A20053-e101730">To see these brave, grave, noble citizens,</l>
+          <l xml:id="A20053-e101740">So streamed in multitudes, yet flowing in state,</l>
+          <l xml:id="A20053-e101750">For all their order are proportionate. </l>
+          <l xml:id="A20053-e101760">Russia, now envies London, seeing (Here) spent</l>
+          <l xml:id="A20053-e101770">Her richest furs, in graceful ornament,</l>
+          <l xml:id="A20053-e101780">More brave and more abounding, than her own:</l>
+          <l xml:id="A20053-e101790">A golden pen he earns, that can make known</l>
+          <l xml:id="A20053-e101800"><pb facs="8"/> the use of furs, so great, so general,</l>
+          <l xml:id="A20053-e101810">All men, may these, their winter armours call. </l>
+          <l xml:id="A20053-e101820">Th'invention of warm furs the sun did fret,</l>
+          <l xml:id="A20053-e101830">For Russians lapped in these, slighted his heat,</l>
+          <l xml:id="A20053-e101840">Which seen, his fiery steeds he drove from thence,</l>
+          <l xml:id="A20053-e101850">And so the muff has dwelled in cold ere since. </l>
+          <l xml:id="A20053-e101860">What royalties, add furs to emperors, Kings,</l>
+          <l xml:id="A20053-e101870">Princes, Dukes, Earls, in the distinguishings,</l>
+          <l xml:id="A20053-e101880">Of all their several robes? The furs worn here,</l>
+          <l xml:id="A20053-e101890">Above th'old Roman state make ours appear:</l>
+          <l xml:id="A20053-e101900">The reverend judge, and all that climb the trees</l>
+          <l xml:id="A20053-e101910">Of sacred arts, ascend to their degrees,</l>
+          <l xml:id="A20053-e101920">And by the colours changed of furs are known:</l>
+          <l xml:id="A20053-e101930">What dignity, each corporation</l>
+          <l xml:id="A20053-e101940">Puts on by furs, witness these infinite eyes,</l>
+          <l xml:id="A20053-e101950">Thank then the bringers of these rarities. </l>
+          <l xml:id="A20053-e101960">I wish (Grave praetor) that as hand in hand,</l>
+          <l xml:id="A20053-e101970">Plenty and bounty bring you safe to land,</l>
+          <l xml:id="A20053-e101980">So, health may be chief carver at that board,</l>
+          <l xml:id="A20053-e101990">To which you hasten. Be as good a lord</l>
+          <l xml:id="A20053-e102000">I'th' eyes of heaven, as this day you are great</l>
+          <l xml:id="A20053-e102010">In fame's applause: high to your honoured seat. </l>
+        </div>
+        <div n="4" type="part" xml:id="A20053-e102020">
+          <head>The fourth presentation is called Brittannia's watch-tower.</head>
+          <p xml:id="A20053-e102030">This is a magnificent structure, advancing itself from the platform, or groundwork upward, with the beauty of eight antique terms, by whose strength is supported a four square building; the top of which is a watch-tower, or lantern, with eight columns of silver: and, on the highest point of this watch-tower, is advanced a banner, bearing the colours of the kingdom.</p>
+          <p xml:id="A20053-e102040">At four corners of the upper square, stand four pendants;<pb facs="9"/> in which are the arms of the four companies of which his lordship is free.</p>
+          <p xml:id="A20053-e102050">At each end of this platform, stands a great Corinthian brazen pillar, on a pedestal of marble. </p>
+          <p xml:id="A20053-e102060">On the capitals of those pillars, stand two angels, in postures ready to fly: holding garlands of victory in one hand, stuck with white and red roses, and branches of palm in the other.</p>
+          <p xml:id="A20053-e102070">The capitals and bases of the pillars are gold, and are emblems of the two houses of York and Lancaster; once divided, but now joined into one glorious building, to support this royal kingdom, and consequently this city.</p>
+          <p xml:id="A20053-e102080">At night, in place of the angels, are set two great lights: and so is the watch-tower at that time, filled with lighted tapers.</p>
+          <p xml:id="A20053-e102090">Upon the same square, in four several places, are advanced four stately pyramids, being figures, of the four kingdoms embellished with escutcheons.</p>
+          <p xml:id="A20053-e102100">In the upper seat of all (Fashioned into a throne) is placed Britannia, majestically attired, fitting to her greatness.</p>
+          <p xml:id="A20053-e102110">Beneath her, and round about her, are these persons: viz. magnanimity with a drawn sword.</p>
+          <p xml:id="A20053-e102120">A shipwright with a mallet, holding a scutcheon, in which is drawn a ship under sail. Then, a person representing victory, with a palm tree. Providence with a trumpet, ready to foresee dangers, and awaken men to meet them.</p>
+          <p xml:id="A20053-e102130">All these have been, and still are, watch-towers, and lanterns, in the nights of fear and trouble, to guard the kingdom, and in the kingdom, this city.</p>
+          <p xml:id="A20053-e102140">In other eminent places are seated some of those Kings of England (In robes ermined) whose loves and royal favours, in former times were watch-towers to grace London,<pb facs="9"/> stuck full with the beams and lights of honours, titles, offices, magistracies and royalties, which they bestowed upon her.</p>
+          <p xml:id="A20053-e102150">Edward confessor, called London's chief ruler, a port-reve. Richard 1. appointed two bailiffs over London. </p>
+          <p xml:id="A20053-e102160">King John gave the city a lord maior and two sheriffs. Henry 3. added aldermen.</p>
+          <p xml:id="A20053-e102170">These were tender over the renown of the city, and still heaped on her head, royalties upon royalties.</p>
+          <p xml:id="A20053-e102180">And albeit most of our Kings, have in most of all of the twelve companies, entered their names, as free of the societies, thereby to royalize their brotherhoods: and that many of our Kings likewise, besides princes and great personages, have been free of this company, whose names I forbear to set down, because they have in former years been fully expressed: yet no company, did ever, or can hereafter, receive such graces from Kings, as this ancient, and honoured corporation of skinners, hath had, and still have, in regard that all our Kings and princes, sit in their high courts of parliament in robes ermined, (Being the richest fur) the workmanship of which goes through the skinner's fingers, wearing likewise under their crowns, royal caps of honour ermined.</p>
+          <p xml:id="A20053-e102190">Three of such crowns, being the rich arms of this company, thereby expressing as well their honour, as antiquity.</p>
+          <p xml:id="A20053-e102200">Britannia delivers thus much.</p>
+          <sp xml:id="A20053-e102210" who="A20053-missing">
+            <lg xml:id="A20053-e102220">
+              <l xml:id="A20053-e102230">Shall the proud wife of Neptune, or shrill fame,</l>
+              <l xml:id="A20053-e102240">Or Troynovant herself, ring out your name:</l>
+              <l xml:id="A20053-e102250">And I be dumb, or sparing, to sound high,</l>
+              <l xml:id="A20053-e102260">The glories of this day? No, they shall fly</l>
+              <l xml:id="A20053-e102270">Like soaring eagles, to that curled main</l>
+              <l xml:id="A20053-e102280">Whose head my rocky bridle, in does rein:</l>
+              <l xml:id="A20053-e102290"><pb facs="10"/> the great Britannia, bred you in her womb,</l>
+              <l xml:id="A20053-e102300">Hear then a mother's counsel; you are come</l>
+              <l xml:id="A20053-e102310">Aboard a goodly ship, where all your state,</l>
+              <l xml:id="A20053-e102320">Fame, honour and renown (Embarked) must wait</l>
+              <l xml:id="A20053-e102330">The voyage of twelve moons. High admiral</l>
+              <l xml:id="A20053-e102340">You are to all that fleet, which thus you call</l>
+              <l xml:id="A20053-e102350">To sail in this vast ocean. Nor must you</l>
+              <l xml:id="A20053-e102360">Walk heartless on the hatches, I here's a new</l>
+              <l xml:id="A20053-e102370">State-navigation, to be studied now,</l>
+              <l xml:id="A20053-e102380">With an high reared, undaunted, fixed brow. </l>
+              <l xml:id="A20053-e102390">Be sure to have brave ordnance, and charged well;</l>
+              <l xml:id="A20053-e102400">In this your ship, trust none, for officers sell</l>
+              <l xml:id="A20053-e102410">Their captains trust; let none but your own eyes,</l>
+              <l xml:id="A20053-e102420">Rule chart and compass, there your safety lies. </l>
+              <l xml:id="A20053-e102430">Your own hands steer the helm, but strongly steer,</l>
+              <l xml:id="A20053-e102440">And spite of storms, be stout when you stand there. </l>
+              <l xml:id="A20053-e102450">Emblem of mercy! Your keen sword does sleep,</l>
+              <l xml:id="A20053-e102460">But why a sword, if not to kul, and keep</l>
+              <l xml:id="A20053-e102470">Vices (Like slaves) in awe? Fullness of wine</l>
+              <l xml:id="A20053-e102480">Is a foul dropsy, that and lust entwine:</l>
+              <l xml:id="A20053-e102490">Pride a swollen timpany, sloth, the beggar's gout,</l>
+              <l xml:id="A20053-e102500">(In tradesmen's hands and feet, it runs about,)</l>
+              <l xml:id="A20053-e102510">No cure for this! Oaths thick as smallshot fly</l>
+              <l xml:id="A20053-e102520">From children, no defence to put this by! </l>
+              <l xml:id="A20053-e102530">You may, you must. I counsel not, but read</l>
+              <l xml:id="A20053-e102540">A lesson of my love; by which love led</l>
+              <l xml:id="A20053-e102550">I'll on, and bring you to your honoured chair,</l>
+              <l xml:id="A20053-e102560">Whilst aves (Round about you) dance i'th' air. </l>
+            </lg>
+          </sp>
+        </div>
+        <div type="part" xml:id="A20053-e102570">
+          <head>The last presentation is called the sun's bower.</head>
+          <p xml:id="A20053-e102580">The upper part of this, is adorned with several flowers, which interwoven together, dress up a comely green arbour, in which the sun sits, with golden beams about his face;<pb facs="10"/> an attire glittering like gold; and a mantle bright as his garment, fringed with gold, his hair curled and yellow. About him are placed, spring, summer, autumn, and winter, in proper habiliments. Beneath these, is a wilderness, in which are many sorts of such beasts, whose rich skins serve for furs: as the rear, wolf, Leopard, Lucern, cat-a-mountain , foxes, sables, coneys, ferrets, squirrels, etc. Of these beasts, some are climbing, some standing, some grinning, with lively, natural postures. In a scroll, hanging on a bough, this is written in capital letters.</p>
+          <l xml:id="A20053-e102590">Deus ecce furentibus obstat. </l>
+          <l xml:id="A20053-e102600">See, for all some beasts are fell,</l>
+          <l xml:id="A20053-e102610">There's one, that can their curstness quell. </l>
+          <p xml:id="A20053-e102620">Sol is the speaker.</p>
+          <sp xml:id="A20053-e102630" who="A20053-missing">
+            <lg xml:id="A20053-e102640">
+              <l xml:id="A20053-e102650">Heaven's bright Oriental gates I opened this morn,</l>
+              <l xml:id="A20053-e102660">And hither wheeled my chariot to adorn</l>
+              <l xml:id="A20053-e102670">These splendours with my beams: ne'er did the sun</l>
+              <l xml:id="A20053-e102680">In his celestial circle faster run</l>
+              <l xml:id="A20053-e102690">Than now, to see these sights: oh how I joy</l>
+              <l xml:id="A20053-e102700">To view a kingdom, and a new-built Troy</l>
+              <l xml:id="A20053-e102710">So flourishing so full, so fair, so dear</l>
+              <l xml:id="A20053-e102720">To th' gods. they leave Jove's court to revel here. </l>
+              <l xml:id="A20053-e102730">All o'er the world, I travel in one day,</l>
+              <l xml:id="A20053-e102740">Yet oft am forced to leave my beaten way,</l>
+              <l xml:id="A20053-e102750">Frighted with uproars, battles, massacres,</l>
+              <l xml:id="A20053-e102760">Famines, and all that hellish brood of wars:</l>
+              <l xml:id="A20053-e102770">I meet no peace but here. O blessed land! </l>
+              <l xml:id="A20053-e102780">That seest fires kindling round, and yet canst stand</l>
+              <l xml:id="A20053-e102790">Unburnt for all their flames; oh nation blessed! </l>
+              <l xml:id="A20053-e102800">When all thy neighbour's shriek, none wound thy breast. </l>
+              <l xml:id="A20053-e102810">To crown these joys, with me are come along,</l>
+              <l xml:id="A20053-e102820"><pb facs="11"/> the four lords of the year, who by a strong</l>
+              <l xml:id="A20053-e102830">Knit charm, bring in this goodly Russian prize,</l>
+              <l xml:id="A20053-e102840">As earnest of a more rich merchandise:</l>
+              <l xml:id="A20053-e102850">Half of our race, time, and my hours have run,</l>
+              <l xml:id="A20053-e102860">Nor shall they give o'er till the goal be won. </l>
+            </lg>
+          </sp>
+          <p xml:id="A20053-e102870">The sun at night being covered with a veil of darkness: the person, representing London, thus takes leave.</p>
+          <sp xml:id="A20053-e102880" who="A20053-missing">
+            <lg xml:id="A20053-e102890">
+              <l xml:id="A20053-e102900">The sun is mantled in thick clouds of black,</l>
+              <l xml:id="A20053-e102910">And by his hidden beams, threatens the wrack</l>
+              <l xml:id="A20053-e102920">Of all these glories: every pleasure dies</l>
+              <l xml:id="A20053-e102930">When raven-winged night, from her cave flies;</l>
+              <l xml:id="A20053-e102940">None but these artificial stars keep fire</l>
+              <l xml:id="A20053-e102950">To light you home, these burn with a desire</l>
+              <l xml:id="A20053-e102960">To lengthen your brave triumphs; but their heat</l>
+              <l xml:id="A20053-e102970">Must cool, and die at length, though never so great. </l>
+              <l xml:id="A20053-e102980">Peace therefore guide you on: rest, charm your eyes,</l>
+              <l xml:id="A20053-e102990">And honours wait to cheer you when you rise. </l>
+            </lg>
+          </sp>
+          <p xml:id="A20053-e103000">Let it be no ostentation in me the inventor, to speak thus much in praise of the works, that for many years, none have been able to match them for curiosity: they are not vast, but neat, and comprehend as much art for architecture, as can be bestowed upon such little bodies. The commendations of which must live upon Mr. Gerard Christmas the father, and Mr. John Christmas the son.</p>
+          <trailer xml:id="A20053-e103010">Finis.</trailer>
+          <pb facs="11"/>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A20053"><item xml:id="A20053-missing" n="5">
+    <seg type="character_name">A20053-missing</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+</list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

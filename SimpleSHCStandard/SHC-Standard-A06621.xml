@@ -1,0 +1,2494 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A06621">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Midas<date type="creation_date">1589</date></title>
+        <author>Lyly, John</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Madeline Burg</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A06621.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">Midas. Plaied before the Queenes Maiestie vpon Tvvelfe day at night, by the Children of Paules.</title>
+            <author>Lyly, John, 1554?-1606.</author>
+          </titleStmt>
+          <extent>31 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2004 November (TCP phase 1)</date>
+            <idno type="marc">99845379</idno>
+            <idno type="stc">STC (2nd ed.) 17083.</idno>
+            <idno type="stc">Greg, I, 106(a).</idno>
+            <idno type="vid">10276</idno>
+            <idno type="DLPS">A06621</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">Midas. Plaied before the Queenes Maiestie vpon Tvvelfe day at night, by the Children of Paules.</title>
+            <author>Lyly, John, 1554?-1606.</author>
+          </titleStmt>
+          <extent>[60] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by Thomas Scarlet for I[ohn] B[roome] and are to be sold in Paules Churchyard at the signe of the Bible,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1592.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Anonymous. By John Lyly.</p>
+            </note>
+            <note>
+              <p>Publisher's name from STC.</p>
+            </note>
+            <note>
+              <p>Signatures: A2 2A-G4.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A06621-e100010">
+    <front xml:id="A06621-e100020">
+      <div type="title_page" xml:id="A06621-e100030">
+        <pb facs="1"/>
+        <p xml:id="A06621-e100040"><pb facs="1"/>Midas. Played before the queen's majesty upon twelve day at night, by the children of Paul's.</p>
+        <p xml:id="A06621-e100050">London printed by Thomas scarlet for I. B. and are to be sold in Paul's churchyard at the sign of the bible. 1592.</p>
+      </div>
+      <div type="prologue" xml:id="A06621-e100060">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The prologue in Paul's.</head>
+        <p xml:id="A06621-e100070">Gentlemen, so nice is the world, that for apparel there is no fashion, for music no instrument, for diet no delicate, for plays no invention but breedeth satiety before noon, and contempt before night.</p>
+        <p xml:id="A06621-e100080">Come to the tailor, he is gone to the painters, to learn how more cunning may lurk in the fashion, then can be expressed in the making. Ask the musicians, they will say their heads ache with devising notes beyond Ela. Inquire at ordinaries, there must be salads for the Italian; picktooths for the Spaniard; pots for the German; porridge for the Englishman. At our exercises, soldiers call for tragedies, their object is blood: courtiers for comedies, their subject is love: countrymen for pastoralles, shepherds are their saints. Traffic and travel hath woven the nature of all nations into ours, and made this land like arras, full of device, which was broadcloth, full of workmanship.</p>
+        <p xml:id="A06621-e100090">Time hath confounded our minds, our minds the matter, but all cometh to this pass, that what heretofore hath<pb facs="3"/> been served in several dishes for a feast, is now minced in a charger for a gallimaufry. If we present a mingle-mangle, our fault is to be excused, because the whole world is become an hodgepodge.</p>
+        <p xml:id="A06621-e100100">We are jealous of your judgements, because you are wise; of our own performance, because we are unperfect; of our author's device, because he is idle. Only this doth encourage us, that presenting our studies before gentlemen, though they receive an inward mislike, we shall not be hissed with an open disgrace.</p>
+        <p xml:id="A06621-e100110">Stirps rudis urtica est: stirps generosa, rosa. </p>
+      </div>
+    </front>
+    <body xml:id="A06621-e100120">
+      <div n="1" type="act" xml:id="A06621-e100130">
+        <div n="1" type="scene" xml:id="A06621-e100140">
+          <pb facs="3"/>
+          <head>Actus primus. Scaena prima.</head>
+          <stage xml:id="A06621-e100150">Bacchus, Mydas, Eristus, Martius.</stage>
+          <sp xml:id="A06621-e100160" who="A06621-bacchus">
+            <speaker>Bacchus</speaker>
+            <p xml:id="A06621-e100170">Midas, where the gods bestow benefits they ask thanks, but where they receive good turns they give rewards. Thou hast filled my belly with meat, mine ears with music, mine eyes with wonders. Bacchus of all the gods is the best fellow, and Midas amongst men a King of fellows. All thy grounds are vineyards, thy corn grapes, thy chambers sellers, thy household stuff standing cups: and therefore ask any thing it shall be granted. Wouldst thou have the pipes of thy conducts to run wine, the udders of thy beasts to drop nectar, or thy trees to bud ambrosia? Desirest thou to be fortunate in thy love, or in thy victories famous, or to have the years of thy life as many as the hairs on thy head? Nothing shall be denied, so great is Bacchus, so happy is Midas. </p>
+          </sp>
+          <sp xml:id="A06621-e100180" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e100190">Bacchus, for a King to beg of a god it is no shame, but to ask with advice, wisdom; give me leave to consult: lest desiring things above my reach, I be fired with Phaeton: or against nature, and be drowned with Icarus: and so perishing, the world shall both laugh and wonder, crying, magnis tamen excidit ausis. </p>
+          </sp>
+          <sp xml:id="A06621-e100200" who="A06621-bacchus">
+            <speaker>Bac.</speaker>
+            <p xml:id="A06621-e100210">Consult, Bacchus will consent.</p>
+          </sp>
+          <sp xml:id="A06621-e100220" who="A06621-midas">
+            <speaker>Mid.</speaker>
+            <p xml:id="A06621-e100230">Now my lords, let me hear your opinions, what wish may make Midas most happy, and his subjects best content?</p>
+          </sp>
+          <sp xml:id="A06621-e100240" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e100250">Were I a King I would wish to possess my mistress, for what sweetness can there be found in life, but love? whose wounds the more mortal they are to the heart, the more immortal they make the possessors: and<pb facs="4"/> who knoweth not that the possessing of that must be most precious, the pursuing whereof is so pleasing.</p>
+          </sp>
+          <sp xml:id="A06621-e100260" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e100270">Love is a pastime for children, breeding nothing but folly, and nourishing nothing but idleness. I would wish to be monarch of the world, conquering kingdoms like villages, and being greatest on the earth be commander of the whole earth: for what is there that more tickles the mind of a King, than a hope to be the only King, wringing out of every country tribute, and in his own to sit in triumph. Those that call conquerors ambitious, are like those that teach thrift covetousness, cleanliness pride, honesty preciseness. Command the world, Midas, a greater thing you cannot desire, a less you should not.</p>
+          </sp>
+          <sp xml:id="A06621-e100280" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e100290">What say you Mellacrites? </p>
+          </sp>
+          <sp xml:id="A06621-e100300" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e100310">Nothing, but that these two have said nothing. I would wish that everything I touched might turn to gold: this is the sinews of war, and the sweetness of peace. Is it not gold that maketh the chastest to yield to lust, the honestest to lewdness, the wisest to folly, the faithfullest to deceit, and the most holy in heart, to be most hollow of heart? In this word gold are all the powers of the gods, the desires of men, the wonders of the world, the miracles of nature, the looseness of fortune and triumphs of time. By gold may you shake the courts of other princes, and have your own settled, one spade of gold undermines faster than an hundred mattocks of steel. Would one be thought religious and devout? Quantum quisque sua nummorum servat in arca, tantum habet et fidei: religions balance are golden bags. Desire you virtue? querenda pecunia primum est, virtus post nummos: the first stair of virtue is money. Doth any thirst after gentry, and wish to be esteemed beautiful? <pb facs="4"/>Et genus et formam regina pecunia donat: King coin hath a mint to stamp gentlemen, and art to make amiableness. I deny not but love is sweet, and the marrow of a man's mind, that to conquer Kings is the quintessence of the thoughts of Kings: why ţhen follow both, aurea sunt vera nunc saecula, plurimus auro venit honos, auro conciliatur amor: it is a world for gold, honour and love are both taken up on interest. Doth Midas determine to tempt the minds of true subjects? to draw them from obedience to treachery, from their allegiance and oaths to treason and perjury? quid non mortalia pectora cogit aurisacra fames? what holes doth not gold bore in men's hearts? Such virtue is there in gold, that being bred in the barrenest ground, and trodden under foot, it mounteth to sit on princes' heads. Wish gold Midas, or wish not to be Midas. In the council of the gods, was not Anubis with his long nose of gold, preferred before Neptune's, whose stature was but brass? And Aesculapius more honoured for his golden beard, than Apollo for his sweet harmony?</p>
+          </sp>
+          <sp xml:id="A06621-e100320" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e100330">To have gold and not love, (Which cannot be purchased by gold) is to be a slave to gold.</p>
+          </sp>
+          <sp xml:id="A06621-e100340" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e100350">To possess mountains of gold, and a mistress more precious than gold, and not to command the world, is to make Midas new prentice to a mint, and journeyman to a woman</p>
+          </sp>
+          <sp xml:id="A06621-e100360" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e100370">To enjoy a fair lady in love, and want fair gold to give: to have thousands of people to fight, and no penny to pay, will make ones mistress wild, and his soldiers tame. Jupiter was a god, but he knew gold was a greater: and flew into those grates with his golden wings, where he could not enter with his swan's wings. What stayed Atlanta's course with Hippomanes?<pb facs="5"/> an apple of gold; what made the three goddesses strive? an apple of gold. If therefore thou make not thy mistress a goldfinch, thou mayst chance to find her a wagtail: believe me, res est ingeniosa dare. Besides, how many gates of cities this golden key hath opened, we may remember of late, and ought to fear hereafter. That iron world is worn out, the golden is now come, sub Jove nunc mundus iussa sequare jovis. </p>
+          </sp>
+          <sp xml:id="A06621-e100380" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e100390">Gold is but the guts of the earth.</p>
+          </sp>
+          <sp xml:id="A06621-e100400" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e100410">I had rather have the earth's guts, than the moon's brains. What is it that gold cannot command, or hath not conquered? Justice herself, that sitteth wimpled about the eyes, doth it not because she will take no gold, but that she would not be seen blushing when she takes it: the balance she holdeth are not to weigh the right of the cause, but the weight of the bribe: she will put up her naked sword if thou offer her a golden scabbard.</p>
+          </sp>
+          <sp xml:id="A06621-e100420" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e100430">Cease you to dispute, I am determined. It is gold, Bacchus, that Midas desireth, let every thing that Midas toucheth be turned to gold, so shalt thou bless thy guest, and manifest thy godhead. Let it be gold Bacchus. </p>
+          </sp>
+          <sp xml:id="A06621-e100440" who="A06621-bacchus">
+            <speaker>Bac.</speaker>
+            <p xml:id="A06621-e100450">Midas thy wish cleaveth to thy last word. Take up this stone.</p>
+          </sp>
+          <sp xml:id="A06621-e100460" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e100470">Fortunate Midas. It is gold Mellacrites, gold, it is gold.</p>
+          </sp>
+          <sp xml:id="A06621-e100480" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e100490">This stick.</p>
+          </sp>
+          <sp xml:id="A06621-e100500" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e100510">Gold Mellacrites, my sweet boy all is gold: for ever honoured be Bacchus, that above measure hath made Midas fortunate.</p>
+          </sp>
+          <sp xml:id="A06621-e100520" who="A06621-bacchus">
+            <speaker>Bac.</speaker>
+            <p xml:id="A06621-e100530">If Midas be pleased Bacchus is, I will to my temple with Silenus, for by this time there are many to offer<pb facs="5"/> unto me sacrifices: paenam pro munere poscis. </p>
+          </sp>
+          <sp xml:id="A06621-e100540" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e100550">Come my lords, I will with gold pave my court, and deck with gold my turrets, these petty islands near to Phrygia shall totter, and other kingdoms be turned topsy turvy: I will command both the affections of men, and the fortunes. Chastity will grow cheap where gold is not thought dear. Celia, chaste Celia shall yield. You my lords shall have my hands in your houses, turning your brazen gates to fine gold. Thus shall Midas be monarch of the world, the darer of fortune, the commander of love. Come let us in.</p>
+          </sp>
+          <sp xml:id="A06621-e100560" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e100570">We follow, desiring that our thoughts may be touched with thy finger, that they also may become gold.</p>
+          </sp>
+          <sp xml:id="A06621-e100580" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e100590">Well I fear the event, because of Bacchus last words, paenam pro munere poscis. </p>
+          </sp>
+          <sp xml:id="A06621-e100600" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e100610">Tush, he is a drunken god, else he would not have given so great a gift. Now it is done, I care not for any thing he can do.</p>
+          </sp>
+          <stage xml:id="A06621-e100620">Exeunt.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A06621-e100630">
+          <head>Actus. 1. Sce. 2.</head>
+          <stage xml:id="A06621-e100640">Licio. Petulus.</stage>
+          <sp xml:id="A06621-e100650" who="A06621-licio">
+            <speaker>Lit.</speaker>
+            <p xml:id="A06621-e100660">Thou servest Mellacrites, and I his daughter, which is the better man?</p>
+          </sp>
+          <sp xml:id="A06621-e100670" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e100680">The masculine gender is more worthy than the feminine, therefore Licio backare.</p>
+          </sp>
+          <sp xml:id="A06621-e100690" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e100700">That is when those two genders are at jar, but when they belong both to one thing, then.</p>
+          </sp>
+          <sp xml:id="A06621-e100710" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e100720">What then?</p>
+          </sp>
+          <sp xml:id="A06621-e100730" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e100740">Then they agree like the fiddle and the stick.</p>
+          </sp>
+          <sp xml:id="A06621-e100750" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e100760">Pulchrè sanè. God's blessing on thy blue nose, but Licio, my mistress is a proper woman.</p>
+          </sp>
+          <sp xml:id="A06621-e100770" who="A06621-licio">
+            <pb facs="6"/>
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e100780">I but thou knowest neither properties.</p>
+          </sp>
+          <sp xml:id="A06621-e100790" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e100800">I care not for her qualities, so I may embrace her quantity.</p>
+          </sp>
+          <sp xml:id="A06621-e100810" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e100820">Are you so pert?</p>
+          </sp>
+          <sp xml:id="A06621-e100830" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e100840">I and so expert, that I can as well tell the thoughts of a woman's heart by her eyes, as the change of the weather by an almanac.</p>
+          </sp>
+          <sp xml:id="A06621-e100850" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e100860">Sir boy you must not be saucy.</p>
+          </sp>
+          <sp xml:id="A06621-e100870" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e100880">No, but faithful and serviceable.</p>
+          </sp>
+          <sp xml:id="A06621-e100890" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e100900">Lock up your lips or I will lop them off. But sirrah, for thy better instructions I will unfold every wrinkle of my mistress disposition.</p>
+          </sp>
+          <sp xml:id="A06621-e100910" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e100920">I pray thee do.</p>
+          </sp>
+          <sp xml:id="A06621-e100930" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e100940">But for this time I will only handle the head and purtenance.</p>
+          </sp>
+          <sp xml:id="A06621-e100950" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e100960">Nothing else?</p>
+          </sp>
+          <sp xml:id="A06621-e100970" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e100980">Why, will not that be a long hours work to describe, that is almost a whole days work to dress?</p>
+          </sp>
+          <sp xml:id="A06621-e100990" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101000">Proceed.</p>
+          </sp>
+          <sp xml:id="A06621-e101010" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101020">First, she hath a head as round as a tennis ball.</p>
+          </sp>
+          <sp xml:id="A06621-e101030" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101040">I would my bed were a hazard.</p>
+          </sp>
+          <sp xml:id="A06621-e101050" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101060">Why?</p>
+          </sp>
+          <sp xml:id="A06621-e101070" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101080">Nothing, but that I would have her head there among other balls.</p>
+          </sp>
+          <sp xml:id="A06621-e101090" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101100">Video, pro intelligo. Then hath she an hawk's eye.</p>
+          </sp>
+          <sp xml:id="A06621-e101110" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101120">O that I were a partridge head.</p>
+          </sp>
+          <sp xml:id="A06621-e101130" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101140">To what end?</p>
+          </sp>
+          <sp xml:id="A06621-e101150" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101160">That she might tire with her eyes on my countenance.</p>
+          </sp>
+          <sp xml:id="A06621-e101170" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101180">Wouldst thou be hanged?</p>
+          </sp>
+          <sp xml:id="A06621-e101190" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101200">Scilicet. </p>
+          </sp>
+          <sp xml:id="A06621-e101210" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101220">Well, she hath the tongue of a parrot?</p>
+          </sp>
+          <sp xml:id="A06621-e101230" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101240">That's a leaden dagger in a velvet sheath, to<pb facs="6"/> have a black tongue in a fair mouth.</p>
+          </sp>
+          <sp xml:id="A06621-e101250" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101260">Tush, it is not for the blackness, but for the babbling, for every hour she will cry walk knave, walk.</p>
+          </sp>
+          <sp xml:id="A06621-e101270" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101280">Then will I mutter, a rope for parrot, a rope.</p>
+          </sp>
+          <sp xml:id="A06621-e101290" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101300">So mayst thou be hanged, not by the lips, but by the neck. Then sir hath she a calf's tooth.</p>
+          </sp>
+          <sp xml:id="A06621-e101310" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101320">O monstrous mouth! I would then it had been a sheep's eye, and a neat's tongue.</p>
+          </sp>
+          <sp xml:id="A06621-e101330" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101340">It is not for the bigness, but the sweetness: all her teeth are as sweet as the sweet tooth of a calf.</p>
+          </sp>
+          <sp xml:id="A06621-e101350" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101360">Sweetly meant.</p>
+          </sp>
+          <sp xml:id="A06621-e101370" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101380">She hath the ears of a want.</p>
+          </sp>
+          <sp xml:id="A06621-e101390" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101400">Doth she want ears?</p>
+          </sp>
+          <sp xml:id="A06621-e101410" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101420">I say the ears of a want, a mole, thou dost want wit to understand me. She will hear though she be never so low on the ground.</p>
+          </sp>
+          <sp xml:id="A06621-e101430" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101440">Why then if one ask her a question, it is likely she will hearken to it.</p>
+          </sp>
+          <sp xml:id="A06621-e101450" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101460">Harken thou after that, she hath the nose of a sow.</p>
+          </sp>
+          <sp xml:id="A06621-e101470" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101480">Then belike there she wears her wedding ring.</p>
+          </sp>
+          <sp xml:id="A06621-e101490" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101500">No, she can smell a knave a mile off.</p>
+          </sp>
+          <sp xml:id="A06621-e101510" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101520">Let us go farther Licio, she hath both us in the wind.</p>
+          </sp>
+          <sp xml:id="A06621-e101530" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101540">She hath a beetle brow.</p>
+          </sp>
+          <sp xml:id="A06621-e101550" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101560">What, is she beetle browed?</p>
+          </sp>
+          <sp xml:id="A06621-e101570" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101580">Thou hast a beetle head, I say the brow of a beetle, a little fly, whose brow is as black as velvet.</p>
+          </sp>
+          <sp xml:id="A06621-e101590" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101600">What lips hath she?</p>
+          </sp>
+          <sp xml:id="A06621-e101610" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101620">Tush, the lips are no part of the head, only made for a double leaf door for the mouth.</p>
+          </sp>
+          <sp xml:id="A06621-e101630" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101640">What is then the chin?</p>
+          </sp>
+          <sp xml:id="A06621-e101650" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101660">That is only the threshold to the door.</p>
+          </sp>
+          <sp xml:id="A06621-e101670" who="A06621-petulus">
+            <pb facs="7"/>
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101680">I perceive you are driven to the wall that stands behind the door, for this is ridiculous: but now you can say no more of the head, begin with the purtenances, for that was your promise.</p>
+          </sp>
+          <sp xml:id="A06621-e101690" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101700">The purtenances, it is impossible to reckon them up, much less to tell the nature of them. Hoods, frontlets, wires, cawls, curling-irons, periwigs, bodkins, fillets, hairlaces, ribbons, rolls, knotstrings, glasses, combs, caps, hats, coifs, kerchers, clothes, earrings, borders, crippins, shadows, spots, and so many other trifles, as both I want the words of art to name them, time to utter them, and wit to remember them: these be but a few notes.</p>
+          </sp>
+          <sp xml:id="A06621-e101710" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101720">Notes quoth you, I note one thing.</p>
+          </sp>
+          <sp xml:id="A06621-e101730" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101740">What is that?</p>
+          </sp>
+          <sp xml:id="A06621-e101750" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101760">That if every part require so much as the head, it will make the richest husband in the world ache at the heart.</p>
+          </sp>
+          <stage xml:id="A06621-e101770">Enter Pipenetta.</stage>
+          <sp xml:id="A06621-e101780" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101790">But soft here comes Pipenetta, what news?</p>
+          </sp>
+          <sp xml:id="A06621-e101800" who="A06621-pipenetta">
+            <speaker>Pip.</speaker>
+            <p xml:id="A06621-e101810">I would not be in your coats for any thing.</p>
+          </sp>
+          <sp xml:id="A06621-e101820" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101830">Indeed if thou shouldst rig up and down in our jackets, thou wouldst be thought a very tomboy.</p>
+          </sp>
+          <sp xml:id="A06621-e101840" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e101850">I mean I would not be in your cases.</p>
+          </sp>
+          <sp xml:id="A06621-e101860" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101870">Neither shalt thou Pipenetta, for first, they are too little for thy body, and then too fair to pull over so foul a skin.</p>
+          </sp>
+          <sp xml:id="A06621-e101880" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e101890">These boys be drunk, I would not be in your takings.</p>
+          </sp>
+          <sp xml:id="A06621-e101900" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101910">I think so, for we take nothing in our hands but weapons, it is for thee to use needles and pins, a sampler, not a buckler.</p>
+          </sp>
+          <sp xml:id="A06621-e101920" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e101930">Nay then we shall never have done, I mean I would not be so coursed as you shall be.</p>
+          </sp>
+          <sp xml:id="A06621-e101940" who="A06621-petulus">
+            <pb facs="7"/>
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e101950">Worse and worse. We are no chase (Pretty mops,) for deer we are not, neither red nor fallow, because we are bachelors, and have not cornu copia, we want heads: hares we cannot be, because they are male one year, and the next female, we change not our sex: badgers we are not, for our legs are one as long as another: and who will take us to be foxes, that stand so never a goose, and bite not?</p>
+          </sp>
+          <sp xml:id="A06621-e101960" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e101970">Fool's you are, and therefore good game for wise men to hunt: but for knaves I leave you, for honest wenches to talk of.</p>
+          </sp>
+          <sp xml:id="A06621-e101980" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e101990">Nay stay sweet Pipenetta, we are but disposed to be merry.</p>
+          </sp>
+          <sp xml:id="A06621-e102000" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e102010">I marvel how old you will be before you be disposed to be honest. But this is the matter, my master is gone abroad, and wants his page to wait on him: my mistress would rise, and lacks your worship to fetch her hair.</p>
+          </sp>
+          <sp xml:id="A06621-e102020" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e102030">Why, is it not on her head?</p>
+          </sp>
+          <sp xml:id="A06621-e102040" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e102050"> methinks it should, but I mean the hair that she must wear today.</p>
+          </sp>
+          <sp xml:id="A06621-e102060" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e102070">Why, doth she wear any but her own?</p>
+          </sp>
+          <sp xml:id="A06621-e102080" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e102090">In faith sir no, I am sure it is her own when she pays for it. But do you hear the strange news at the court?</p>
+          </sp>
+          <sp xml:id="A06621-e102100" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e102110">No, except this be it, to have ones hair lie all night out of the house from ones head.</p>
+          </sp>
+          <sp xml:id="A06621-e102120" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e102130">Tush, every thing that Midas toucheth is gold.</p>
+          </sp>
+          <sp xml:id="A06621-e102140" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e102150">The devil it is.</p>
+          </sp>
+          <sp xml:id="A06621-e102160" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e102170">Indeed gold is the devil.</p>
+          </sp>
+          <sp xml:id="A06621-e102180" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e102190">Thou art deceived wench, angels are gold. But is it true?</p>
+          </sp>
+          <sp xml:id="A06621-e102200" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e102210">True? Why the meat that he toucheth turneth to<pb facs="8"/> gold, so doth the drink, so doth his raiment.</p>
+          </sp>
+          <sp xml:id="A06621-e102220" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e102230">I would he would give me a good box on the ear, that I might have a golden cheek.</p>
+          </sp>
+          <sp xml:id="A06621-e102240" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e102250">How happy shall we be if he would but stroke our heads, that we might have golden hairs. But let us all in, lest he lose the virtue of the gift before we taste the benefit.</p>
+          </sp>
+          <sp xml:id="A06621-e102260" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e102270">If he take a cudgel and that turn to gold, yet beating you with it, you shall only feel the weight of gold</p>
+          </sp>
+          <sp xml:id="A06621-e102280" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e102290">What difference to be beaten with gold, and to be beaten gold?</p>
+          </sp>
+          <sp xml:id="A06621-e102300" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e102310">As much as to say, drink before you go, and go before you drink.</p>
+          </sp>
+          <sp xml:id="A06621-e102320" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e102330">Come let us go, lest we drink of a dry cup for our long tarrying.</p>
+          </sp>
+          <stage xml:id="A06621-e102340">Exeunt.</stage>
+        </div>
+      </div>
+      <div n="2" type="act" xml:id="A06621-e102350">
+        <div n="1" type="scene" xml:id="A06621-e102360">
+          <head>Actus. 2. Scae. 1.</head>
+          <stage xml:id="A06621-e102370">Eristus, Caelia, Sophronia, Mellacrites. Martius.</stage>
+          <sp xml:id="A06621-e102380" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e102390">Fair Caelia, thou seest of gold there is satiety, of love there cannot.</p>
+          </sp>
+          <sp xml:id="A06621-e102400" who="A06621-celia">
+            <speaker>Cael.</speaker>
+            <p xml:id="A06621-e102410">If thou shouldst wish that whatsoever thou thoughtest might be love, as Midas whatever he touched might be gold, it may be love would be as loathsome to thine ears, as gold is to his eyes, and make thy heart pinch with melancholy, as his guts do with famine.</p>
+          </sp>
+          <sp xml:id="A06621-e102420" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e102430">No sweet Caelia, in love there is variety.</p>
+          </sp>
+          <sp xml:id="A06621-e102440" who="A06621-celia">
+            <speaker>Cae.</speaker>
+            <p xml:id="A06621-e102450">Indeed men vary in their love.</p>
+          </sp>
+          <sp xml:id="A06621-e102460" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e102470">They vary their love, yet change it not.</p>
+          </sp>
+          <sp xml:id="A06621-e102480" who="A06621-celia">
+            <speaker>Cae.</speaker>
+            <p xml:id="A06621-e102490">Love and change are at variance, therefore if they vary, they must change.</p>
+          </sp>
+          <sp xml:id="A06621-e102500" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e102510">Men change the manner of their love, not the humour: the means how to obtain, not the mistress<pb facs="8"/> they honour. So did Jupiter, that could not entreat Danae by golden words, possess his love by a golden shower, not altering his affection, but using art.</p>
+          </sp>
+          <sp xml:id="A06621-e102520" who="A06621-celia">
+            <speaker>Cae.</speaker>
+            <p xml:id="A06621-e102530">The same Jupiter was an eagle, a swan, a bull, and for every saint a new shape, as men have for every mistress a new shadow. If you take example of the gods, who more wanton, more wavering? if of yourselves, being but men, who will think you more constant than gods? Eristus, if gold could have allured mine eyes, thou knowest Midas that commandeth all things to be gold, had conquered: if threats might have feared my heart, Midas being a King, might have commanded my affections: if love, gold, or authority might have enchanted me, Midas had obtained by love, gold, and authority, quorum si singula nostram flectere non poterant, potuissent omnia mentem. </p>
+          </sp>
+          <sp xml:id="A06621-e102540" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e102550">Ah Caelia, if Kings say they love, and yet dissemble, who dare say that they dissemble, and not love? They command the affections of others yield, and their own to be believed. My tears which have made furrows in my cheeks, and in mine eyes fountains: my sighs, which have made of my heart a furnace, and kindled in my head flames: my body that melteth by piecemeal, and my mind that pineth at an instant, may witness that my love is both unspotted, and unspeakable, quorum si singula duram flectere non poterant, deberent omnia mentem. But soft, here cometh the Princess, with the rest of the lords.</p>
+          </sp>
+          <stage xml:id="A06621-e102560">Ent. Soph.</stage>
+          <sp xml:id="A06621-e102570" who="A06621-sophronia">
+            <speaker>Sophro.</speaker>
+            <p xml:id="A06621-e102580">Mellacrites, I cannot tell whether I should more mislike thy council, or Midas consent, but the covetous humour of you both I contemn and wonder at, being unfit for a King, whose honour should consist in liberality, not greediness; and unworthy the calling<pb facs="9"/> of Mellacrites, whose fame should rise by the soldier's god, Mars, not by the merchant's god, gold.</p>
+          </sp>
+          <sp xml:id="A06621-e102590" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e102600">Madam, things passed cannot be recalled, but repented; and therefore are rather to be pitied than punished. It now behooveth us how to redress the miserable estate of our King, not to dispute of the occasion. Your highness sees, and without grief you cannot see, that his meat turneth to massy gold in his mouth, and his wine slideth down his throat like liquid gold: if he touch his robes they are turned to gold, and what is not that toucheth him, but becometh gold?</p>
+          </sp>
+          <sp xml:id="A06621-e102610" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e102620">I Mellacrites, if thy tongue had been turned to gold before thou gavest our King such council, Midas heart had been full of ease, and thy mouth of gold.</p>
+          </sp>
+          <sp xml:id="A06621-e102630" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e102640">If my advice had taken place, Midas that now sitteth over head and ears in crowns, had worn upon his head many Kings crowns, and been conqueror of the world, that now is commander of dross. That greediness of Mellacrites, whose heartstrings are made of Plutus purse-strings, hath made Midas a lump of earth, that should be a god on earth; and thy effeminate mind Eristus, whose eyes are stitched on Celia's face, and thoughts guide to her beauty, hath bred in all the court such a tender wantonness, that nothing is thought of but love, a passion proceeding of beastly lust, and coloured with a courtly name of love. Thus whilst we follow the nature of things, we forget the names. Since this unsatiable thirst of gold, and untemperate humour of lust crept into the King's court, soldiers have begged alms of artificers, and with their helmet on their head been glad to follow a lover with a glove in his hat, which so much abateth the courage of true captains, that they must account it more honourable, in the court<pb facs="9"/> to be a coward so rich and amorous, than in a camp to be valiant, if poor and maimed. He is more favoured that pricks his finger with his mistress needle, than he that breaks his lance on his enemy's face: and he that hath his mouth full of fair words, than he that hath his body full of deep scars. If one be old, and have silver hairs on his beard, so he have golden ruddocks in his bags, he must be wise and honourable. If young and have curled locks on his head, amorous glances with his eyes, smooth speeches in his mouth, every lady's lap shall be his pillow, every lady's face his glass, every lady's ear a sheath for his flatteries; only soldiers, if they be old, must beg in their own countries; if young, try the fortune of wars in another. He is the man; that being let blood caries his arm in a scarf of his mistress favour, not he that bears his leg on a stilt for his country's safety.</p>
+          </sp>
+          <sp xml:id="A06621-e102650" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e102660">Stay Martius, though I know love to grow to such looseness, and hoarding to such misery, that I may rather grieve at both, than remedy either: yet thy animating my father to continual arms, to conquer crowns, hath only brought him into imminent danger of his own head. The love he hath followed, I fear unnatural; the riches he hath got, I know unmeasurable; the wars he hath levied, I doubt unlawful; hath drawn his body with grey hairs to the graves's mouth; and his mind with eating cares to desperate determinations: ambition hath but two steps, the lowest blood; the highest envy: both these hath my unhappy father climbed, digging mines of gold with the lives of men, and now envied of the whole world, is environed with enemies round about the world, not knowing that ambition hath one heel nailed in hell, though she stretch<pb facs="10"/> her finger to touch the heavens. I would the gods would remove this punishment, so that Midas would be penitent. Let him thrust thee, Eristus with thy love, into Italy, where they honour lust for a God, as the Egyptians did dogs: thee, Mellacrites with thy greediness of gold, to the utmost parts of the West, where all the guts of the earth are gold: and thee, Martius, that soundest but blood and terror, into those barbarous nations, where nothing is to be found but blood and terror. Let Phrygia be an example of chastity, not lust; liberality, not covetousness; valour, not tyranny. I wish not your bodies banished, but your minds, that my father and your King, may be our honour, and the world's wonder. And thou Caelia, and all you ladies, learn this of Sophronia, that beauty in a minute is both a blossom and a blast: love, a worm which seeming to live in the eye, dies in the heart. You be all young, and fair, endeavour all to be wise and virtuous, that when, like roses, you shall fall from the stalk, you may be gathered and put to the still.</p>
+          </sp>
+          <sp xml:id="A06621-e102670" who="A06621-celia">
+            <speaker>Cae.</speaker>
+            <p xml:id="A06621-e102680">Madam, I am free from love, and unfortunate to be beloved.</p>
+          </sp>
+          <sp xml:id="A06621-e102690" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e102700">To be free from love is strange, but to think scorn to be beloved, monstrous.</p>
+          </sp>
+          <sp xml:id="A06621-e102710" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e102720">Eristus, thy tongue doth itch to talk of love, and my ears tingle to hear it. I charge you all, if you owe any duty to your King, to go presently unto the temple of Bacchus, offer praise-gifts, and sacrifice, that Midas may be released of his wish, or his life: this I entreat you, this Midas commands you. Jar not with yourselves, agree in one for your King, if ever you took Midas for your lawful King.</p>
+          </sp>
+          <sp xml:id="A06621-e102730" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e102740">Madam we will go, and omit nothing that<pb facs="10"/> duty may perform, or pains.</p>
+          </sp>
+          <sp xml:id="A06621-e102750" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e102760">Go speedily, lest Midas die before you return: and you Caelia shall go with me, that with talk we may beguile the time, and my father think of no meat.</p>
+          </sp>
+          <sp xml:id="A06621-e102770" who="A06621-celia">
+            <speaker>Cael.</speaker>
+            <p xml:id="A06621-e102780">I attend.</p>
+          </sp>
+          <stage xml:id="A06621-e102790">Exeunt.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A06621-e102800">
+          <head>Actus 2. Scaena 2.</head>
+          <stage xml:id="A06621-e102810">Licio, Petulus, Pipenetta,</stage>
+          <sp xml:id="A06621-e102820" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e102830">Ah my girl, is not this a golden world?</p>
+          </sp>
+          <sp xml:id="A06621-e102840" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e102850">It is all one as if it were led with me, and yet as golden with me as with the King, for I see it, and feel it not, he feels it, and enjoys it not.</p>
+          </sp>
+          <sp xml:id="A06621-e102860" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e102870">Gold is but the earth's garbage, a weed bred by the sun, the very rubbish of barren ground.</p>
+          </sp>
+          <sp xml:id="A06621-e102880" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e102890">Tush Licio, thou art unlettered, all the earth is an egg, the white, silver, the yolk, gold.</p>
+          </sp>
+          <sp xml:id="A06621-e102900" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e102910">Why thou fool, what hen should lay that egg?</p>
+          </sp>
+          <sp xml:id="A06621-e102920" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e102930">I warrant a goose.</p>
+          </sp>
+          <sp xml:id="A06621-e102940" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e102950">Nay I believe a bull.</p>
+          </sp>
+          <sp xml:id="A06621-e102960" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e102970">Blirt to you both, it was laid by the sun.</p>
+          </sp>
+          <sp xml:id="A06621-e102980" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e102990">The sun is rather a cock than a hen.</p>
+          </sp>
+          <sp xml:id="A06621-e103000" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e103010">'Tis true girl, else how could Titan have trodden Daphne? </p>
+          </sp>
+          <sp xml:id="A06621-e103020" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103030">I weep over both your wits, if I prove in every respect no difference between an egg and gold, will you not then grant gold to be an egg?</p>
+          </sp>
+          <sp xml:id="A06621-e103040" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e103050">Yes, but I believe thy idle imagination will make it an addle egg.</p>
+          </sp>
+          <sp xml:id="A06621-e103060" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e103070">Let us hear. Proceed doctor egg.</p>
+          </sp>
+          <sp xml:id="A06621-e103080" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103090">Gold will be cracked: a common saying, a cracked crown.</p>
+          </sp>
+          <sp xml:id="A06621-e103100" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e103110">I that's a broken head.</p>
+          </sp>
+          <sp xml:id="A06621-e103120" who="A06621-petulus">
+            <pb facs="11"/>
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103130">Nay then I see thou hast a broken wit.</p>
+          </sp>
+          <sp xml:id="A06621-e103140" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e103150">Well, suppose gold will crack.</p>
+          </sp>
+          <sp xml:id="A06621-e103160" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103170">So will an egg.</p>
+          </sp>
+          <sp xml:id="A06621-e103180" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e103190">On.</p>
+          </sp>
+          <sp xml:id="A06621-e103200" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103210">An egg is roasted in the fire.</p>
+          </sp>
+          <sp xml:id="A06621-e103220" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e103230">Well.</p>
+          </sp>
+          <sp xml:id="A06621-e103240" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103250">So is gold tried in the fire.</p>
+          </sp>
+          <sp xml:id="A06621-e103260" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e103270">Forth.</p>
+          </sp>
+          <sp xml:id="A06621-e103280" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103290">An egg (As physicians say) will make one lusty.</p>
+          </sp>
+          <sp xml:id="A06621-e103300" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e103310">Conclude.</p>
+          </sp>
+          <sp xml:id="A06621-e103320" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103330">And who knows not that gold will make one frolic?</p>
+          </sp>
+          <sp xml:id="A06621-e103340" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e103350">Pipenetta this is true, for it is called egg, as a thing that doth egg on, so doth gold.</p>
+          </sp>
+          <sp xml:id="A06621-e103360" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e103370">Let us hear all.</p>
+          </sp>
+          <sp xml:id="A06621-e103380" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103390">Eggs potched are for a weak stomach, and gold boiled, for a consuming body.</p>
+          </sp>
+          <sp xml:id="A06621-e103400" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e103410">Spoken like a physician.</p>
+          </sp>
+          <sp xml:id="A06621-e103420" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e103430">Or a fool of necessity.</p>
+          </sp>
+          <sp xml:id="A06621-e103440" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103450">An egg is eaten at one sup, and a portague lost at one cast.</p>
+          </sp>
+          <sp xml:id="A06621-e103460" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e103470">Gamester-like concluded.</p>
+          </sp>
+          <sp xml:id="A06621-e103480" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103490">Eggs make custards, and gold makes spoons to eat them.</p>
+          </sp>
+          <sp xml:id="A06621-e103500" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e103510">A reason dough-baked.</p>
+          </sp>
+          <sp xml:id="A06621-e103520" who="A06621-licio">
+            <speaker>Li</speaker>
+            <p xml:id="A06621-e103530">O! the oven of his wit was not throughly heated.</p>
+          </sp>
+          <sp xml:id="A06621-e103540" who="A06621-petulus">
+            <speaker>Pet:</speaker>
+            <p xml:id="A06621-e103550">Only this odds I find between money and eggs, which makes me wonder, that being more pence in the world than eggs, that one should have three eggs for a penny, and not three pence for an egg.</p>
+          </sp>
+          <sp xml:id="A06621-e103560" who="A06621-pipenetta">
+            <speaker>Pi.</speaker>
+            <p xml:id="A06621-e103570">A wonderful matter, but your wisdom is overshot in your comparison, for eggs have chickens, gold hath none.</p>
+          </sp>
+          <sp xml:id="A06621-e103580" who="A06621-petulus">
+            <pb facs="11"/>
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103590">Mops I pity thee, gold hath eggs, change an angel into ten shillings, and all those pieces are the angels eggs.</p>
+          </sp>
+          <sp xml:id="A06621-e103600" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e103610">He hath made a spoke, wilt thou eat an egg? but soft, here come our masters, let us shrink aside.</p>
+          </sp>
+          <stage xml:id="A06621-e103620">Enter Mellacrites, Martius, Eristus.</stage>
+          <sp xml:id="A06621-e103630" who="A06621-mellacrites">
+            <speaker>Mell.</speaker>
+            <p xml:id="A06621-e103640">A short answer, yet a sound, Bacchus is pithy and pitiful.</p>
+          </sp>
+          <sp xml:id="A06621-e103650" who="A06621-oracle">
+            <speaker>Oracle.</speaker>
+            <l xml:id="A06621-e103660">In Pactolus go bathe thy wish, and thee,</l>
+            <l xml:id="A06621-e103670">Thy wish the waves shall have, and thou be free. </l>
+          </sp>
+          <sp xml:id="A06621-e103680" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e103690">I understand no oracles, shall the water turn every thing to gold, what then shall become of the fish: shall he be free from gold? what then shall become of us, of his crown, of our country? I like not these riddles.</p>
+          </sp>
+          <sp xml:id="A06621-e103700" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e103710">Thou Martius art so warlike, that thou wouldst cut of the wish with a sword, not cure it with a salve: but the gods that can give the desires of the heart, can as easily withdraw the torment. Suppose Vulcan should so temper thy sword, that were thy heart never so valeant, thine arm never so strong, yet thy blade should never draw blood, wouldst not thou wish to have a weaker hand, and a sharper edge?</p>
+          </sp>
+          <sp xml:id="A06621-e103720" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e103730">Yes.</p>
+          </sp>
+          <sp xml:id="A06621-e103740" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e103750">If Mars should answer thee thus, go bathe thy sword in water, and wash thy hands in milk, and thy sword shall cleave adamant, and thy heart answer the sharpness of thy sword, wouldst not thou try the conclusion?</p>
+          </sp>
+          <sp xml:id="A06621-e103760" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e103770">What else?</p>
+          </sp>
+          <sp xml:id="A06621-e103780" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e103790">Then let Midas believe till he have tried, and think that the god's rule as well by giving remedies, as granting wishes. But Eristus is mum.</p>
+          </sp>
+          <sp xml:id="A06621-e103800" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e103810">Caelia hath sealed his mouth.</p>
+          </sp>
+          <sp xml:id="A06621-e103820" who="A06621-eristus">
+            <pb facs="12"/>
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e103830">Caelia hath sealed her face in my heart, which I am no more ashamed to confess, than thou that Mars hath made a scar in thy face Martius. But let us in to the King. Sir boys you wait well.</p>
+          </sp>
+          <sp xml:id="A06621-e103840" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e103850">We durst not go to Bacchus, for if I see a grape, my head aches.</p>
+          </sp>
+          <sp xml:id="A06621-e103860" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e103870">And if I find a cudgel I'll make your shoulders ache.</p>
+          </sp>
+          <sp xml:id="A06621-e103880" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e103890">And you Licio, wait on yourself.</p>
+          </sp>
+          <sp xml:id="A06621-e103900" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e103910">I cannot choose sir, I am always so near myself.</p>
+          </sp>
+          <sp xml:id="A06621-e103920" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e103930">I'll be as near you as your skin presently.</p>
+          </sp>
+          <stage xml:id="A06621-e103940">Exeunt.</stage>
+        </div>
+      </div>
+      <div n="3" type="act" xml:id="A06621-e103950">
+        <div n="1" type="scene" xml:id="A06621-e103960">
+          <head>Actus 3. Scae. 1.</head>
+          <stage xml:id="A06621-e103970">Mydas, Mellacrites, Martius, Eristus.</stage>
+          <sp xml:id="A06621-e103980" who="A06621-midas">
+            <speaker>My.</speaker>
+            <l xml:id="A06621-e103990">In Pactolus go bathe thy wish and thee,</l>
+            <l xml:id="A06621-e104000">Thy wish the waves shall have, and thou be free. </l>
+            <p xml:id="A06621-e104010">Miserable Midas, as unadvised in thy wish, as in thy success unfortunate. O unquenchable thirst of gold, which turneth men's heads to lead, and makest them blockish; their hearts to iron, and makest them covetous; their eyes to delight in the view, and makest them blind in the use. I that did possess mines of gold, could not be contented till my mind were also a mine. Could not the treasure of Phrygia, nor the tributes of Greece, nor mountains in the East, whose guts are gold, satisfy thy mind with gold? Ambition eateth gold, and drinketh blood; climbeth so high by other men's heads, that she breaketh her own neck. What should I do with a world of ground, whose body must be content with seven foot of earth? or why did I covet to get so many crowns, having myself but one head? Those that took small vessels at the sea, I accounted pirates; and<pb facs="12"/> myself that suppressed whole fleets, a conqueror: as though robberies of Midas might mask under the names of triumphs, and the traffic of other nations be called treachery. Thou hast pampered up thyself with slaughter, as Diomedes did his horse with blood; so unsatiable thy thirst, so heavy thy sword. Two books have I always carried in my bosom, calling them the dagger, and the sword; in which the names of all princes, noblemen, and gentlemen were dedicated to slaughter, or if not (Which worse is) to slavery. O my lords, when I call to mind my cruelties in Lycaonia, my usurping in Getulia, my oppression in Sola: then do I find neither mercies in my conquests, nor colour for my wars, nor measure in my taxes. I have written my laws in blood, and made my gods of gold; I have caused the mother's wombs to be their children's tombs, cradles to swim in blood like boats, and the temples of the gods a stews for strumpets. Have not I made the sea to groan under the number of my ships: and have they not perished, that there was not two left to make a number? Have I not thrust my subjects into a camp, like oxen into a cart; whom having made slaves by unjust wars, I use now as slaves for all wars? Have not I enticed the subjects of my neighbour princes to destroy their natural Kings? like moths that eat the cloth in which they were bred, like vipers that gnaw the bowels of which they were born, and like worms that consume the wood in which they were engendered? To what kingdom have not I pretended claim? as though I had been by the gods created heir apparent to the world, making every trifle a title; and all the territories about me, traitors to me. Why did I wish that all might be gold I touched,<pb facs="13"/> but that I thought all men's hearts would be touched with gold, that what policy could not compass, nor prowess, gold might have commanded, and conquered. A bridge of gold did I mean to make in that island where all my navy could not make a breach. Those islands did I long to touch, that I might turn them to gold, and myself to glory. But unhappy Midas, who by the same means perisheth himself, that he thought to conquer others: being now become a shame to the world, a scorn to that petty prince, and to thyself a consumption. A petty prince, Midas? no, a prince protected by the gods, by nature, by his own virtue, and his subjects' obedience. Have not all treasons been discovered by miracle, not counsel? that do the god's challenge. Is not the country walled with huge waves? that doth nature claim. Is he not through the whole world a wonder, for wisdom and temperance? that is his own strength. Do not all his subjects (Like bees) swarm to preserve the King of bees? that their loyalty maintaineth. My lords, I faint both for lack of food, and want of grace. I will to the river, where if I be rid of this intolerable disease of gold, I will next shake off that untemperate desire of government, and measure my territories, not by the greatness of my mind, but the right of my succession.</p>
+          </sp>
+          <sp xml:id="A06621-e104020" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e104030">I am not a little sorry, that because all that your highness toucheth turneth to pure gold, and therefore all your princely affections should be converted to dross. Doth your majesty begin to melt your own crown, that should make it with other monarchies massy? Begin you to make enclosure of of your mind, and to debate of inheritance, when the sword proclaims you conqueror? If your highness'<pb facs="13"/> heart be not of kingdom proof, every pelting prince will batter it. Though you lose this garish gold, let your mind be still of steel, and let the sharpest sword decide the right of sceptres.</p>
+          </sp>
+          <sp xml:id="A06621-e104040" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e104050">Every little King is a King, and the title consisteth not in the compass of ground, but in the right of inheritance.</p>
+          </sp>
+          <sp xml:id="A06621-e104060" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e104070">Are not conquests good titles?</p>
+          </sp>
+          <sp xml:id="A06621-e104080" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e104090">Conquests are great thefts.</p>
+          </sp>
+          <sp xml:id="A06621-e104100" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e104110">If your highness would be advised by me, then would I rob for kingdoms, and if I obtained, fain would I see him that durst call the conqueror a thief.</p>
+          </sp>
+          <sp xml:id="A06621-e104120" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e104130">Martius, thy council hath shed as much blood as would make another sea. Valour I cannot call it, and barbarousness is a word too mild. Come Mellaorites, let us go, and come you Eristus, that if I obtain mercy of Bacchus, we may offer sacrifice to Bacchus. Martius, if you be not disposed to go, dispose as you will of yourself.</p>
+          </sp>
+          <sp xml:id="A06621-e104140" who="A06621-martius">
+            <speaker>Martius.</speaker>
+            <p xml:id="A06621-e104150">I will humbly attend on your highness, as still hoping to have my hearts desire, and you your height of honour.</p>
+          </sp>
+          <stage xml:id="A06621-e104160">Exeunt.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A06621-e104170">
+          <head>Actus 3. Scae. 2.</head>
+          <stage xml:id="A06621-e104180">Licto, Petulus, Dello, motto.</stage>
+          <sp xml:id="A06621-e104190" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e104200">Ah Licio, a bot's on the barber, ever since I consened him of the golden beard I have had the toothache.</p>
+          </sp>
+          <sp xml:id="A06621-e104210" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e104220">I think motto hath poisoned thy gums.</p>
+          </sp>
+          <sp xml:id="A06621-e104230" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e104240">It is a deadly pain.</p>
+          </sp>
+          <sp xml:id="A06621-e104250" who="A06621-licio">
+            <pb facs="14"/>
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e104260">I knew a dog run mad with it.</p>
+          </sp>
+          <sp xml:id="A06621-e104270" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e104280">I believe it Licio, and thereof it is that they call it a dogged pain. Thou knowest I have tried all old women's medicines, and cunning men's charms, but interim my teeth ache.</p>
+          </sp>
+          <stage xml:id="A06621-e104290">Enter Dello the barber's boy.</stage>
+          <sp xml:id="A06621-e104300" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e104310">I am glad I have heard the wags, to be quittance for overhearing us. We will take the vantage, they shall find us quick barbers. I'll tell motto my master, and then we will have quid pro quo, a tooth for a beard.</p>
+          </sp>
+          <stage xml:id="A06621-e104320">Exit.</stage>
+          <sp xml:id="A06621-e104330" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e104340">Licio, to make me merry I pray thee go forward with the description of thy mistress: thou must begin now at the paps.</p>
+          </sp>
+          <sp xml:id="A06621-e104350" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e104360">Indeed (Petulus) a good beginning for thee, for thou canst eat pap now, because thou canst bite nothing else. But I have not mind on those matters. If the King lose his golden wish, we shall have but a brazen court, but what became of the beard, Petulus? </p>
+          </sp>
+          <sp xml:id="A06621-e104370" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e104380">I have pawned it, for I durst not coin it.</p>
+          </sp>
+          <sp xml:id="A06621-e104390" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e104400">What dost thou pay for the pawning?</p>
+          </sp>
+          <sp xml:id="A06621-e104410" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e104420">Twelve pence in the pound for the month.</p>
+          </sp>
+          <sp xml:id="A06621-e104430" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e104440">What for the herbage?</p>
+          </sp>
+          <sp xml:id="A06621-e104450" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e104460">It is not at herbage.</p>
+          </sp>
+          <sp xml:id="A06621-e104470" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e104480">Yes Petulus, if it be a beard it must be at her badge, for a beard is a badge of hair; and a badge of hair, hairbadge.</p>
+          </sp>
+          <stage xml:id="A06621-e104490">Enter motto with Dello.</stage>
+          <sp xml:id="A06621-e104500" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e104510">Dello, thou knowest Midas touched his beard, and 'twas gold.</p>
+          </sp>
+          <sp xml:id="A06621-e104520" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e104530">Well.</p>
+          </sp>
+          <sp xml:id="A06621-e104540" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e104550">That the pages cozened me of it.</p>
+          </sp>
+          <sp xml:id="A06621-e104560" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e104570">No lie.</p>
+          </sp>
+          <sp xml:id="A06621-e104580" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e104590">That I must be revenged.</p>
+          </sp>
+          <sp xml:id="A06621-e104600" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e104610">In good time.</p>
+          </sp>
+          <sp xml:id="A06621-e104620" who="A06621-motto">
+            <pb facs="14"/>
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e104630">Thou knowest I have taught thee the knacking of the hands, the tickling on a man's hairs, like the tuning of a cittern.</p>
+          </sp>
+          <sp xml:id="A06621-e104640" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e104650">True.</p>
+          </sp>
+          <sp xml:id="A06621-e104660" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e104670">Besides, I instructed thee in the phrases of our eloquent occupation, as how sir will you be trimmed? will you have your beard like a spade, or a bodkin? A penthouse on your upper lip, or an ally on your chin? allow curl on your head like a bull, or dangling lock like a spaniel? your moustaches sharp at the ends, like shoemakers aules, or hanging down to your mouth like goat's flakes? your lovelocks wreathed with a silken twist, or shaggy to fall on your shoulders?</p>
+          </sp>
+          <sp xml:id="A06621-e104680" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e104690">I confess you have taught me Tully de or atore, the very art of trimming.</p>
+          </sp>
+          <sp xml:id="A06621-e104700" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e104710">Well for all this I desire no more at thy hands, than to keep secret the revenge I have prepared for the pages.</p>
+          </sp>
+          <sp xml:id="A06621-e104720" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e104730">O sir, you know I am a barber, and cannot tittle tattle, I am one of those whose tongues are swelled with silence.</p>
+          </sp>
+          <sp xml:id="A06621-e104740" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e104750">Indeed thou shouldst be no blab, because a barber, therefore be secret. Was it not a good cure Dello, to ease the toothache, and never touch the tooth?</p>
+          </sp>
+          <sp xml:id="A06621-e104760" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e104770">O master, he that is your patient for the toothache, I warrant is patient of all aches.</p>
+          </sp>
+          <sp xml:id="A06621-e104780" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e104790">I did but rub his gums, and presently the rheum evaporated.</p>
+          </sp>
+          <sp xml:id="A06621-e104800" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e104810">Deus bone, is that word come into the barber's basin.</p>
+          </sp>
+          <sp xml:id="A06621-e104820" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e104830">Ay sir and why not? My master is a barber and a surgeon.</p>
+          </sp>
+          <sp xml:id="A06621-e104840" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e104850">In good time.</p>
+          </sp>
+          <sp xml:id="A06621-e104860" who="A06621-petulus">
+            <pb facs="15"/>
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e104870">O motto, I am almost dead with the toothache, all my gums are swollen, and my teeth stand in my head like thorns.</p>
+          </sp>
+          <sp xml:id="A06621-e104880" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e104890">It may be that it is only the breding of a beard, and being the first beard, you shall have a hard travel.</p>
+          </sp>
+          <sp xml:id="A06621-e104900" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e104910">Old fool, dost thou think hairs will breed in my teeth?</p>
+          </sp>
+          <sp xml:id="A06621-e104920" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e104930">As likely sir, for any thing I know, as on your chin.</p>
+          </sp>
+          <sp xml:id="A06621-e104940" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e104950">O teeth, o torments, o torments, o teeth!</p>
+          </sp>
+          <sp xml:id="A06621-e104960" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e104970">May I but touch them Dello, I'll teach his tongue to tell a tale, what villainy it is to cozen one of a beard, but stand not thou nigh, for it is odds when he spits, but that all his teeth fly in thy face.</p>
+          </sp>
+          <sp xml:id="A06621-e104980" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e104990">Good motto give some ease, for at thy coming in, I overheard of a cure thou hadst done.</p>
+          </sp>
+          <sp xml:id="A06621-e105000" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105010">My teeth: I will not have this pain, that's certain.</p>
+          </sp>
+          <sp xml:id="A06621-e105020" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e105030">Ay, so did you overhear me, when you cozened me of a beard: but I forget all.</p>
+          </sp>
+          <sp xml:id="A06621-e105040" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e105050">My master is mild and merciful: and merciful, because a barber, for when he hath the throat at command, you know he taketh revenge but on a silly hair.</p>
+          </sp>
+          <sp xml:id="A06621-e105060" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e105070">How now Petulus, do they still ache?</p>
+          </sp>
+          <sp xml:id="A06621-e105080" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105090">I motto. </p>
+          </sp>
+          <sp xml:id="A06621-e105100" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e105110">Let me rub your gums with this leaf.</p>
+          </sp>
+          <sp xml:id="A06621-e105120" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105130">Do motto, and for thy labour I will requite thee. Out rascal, what hast thou done? all my nether teeth are lose, and wag like the keys of a pair of virginals.</p>
+          </sp>
+          <sp xml:id="A06621-e105140" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e105150">O sir, if you will, I will sing to them, your mouth being the instrument.</p>
+          </sp>
+          <sp xml:id="A06621-e105160" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105170">Do Dello. </p>
+          </sp>
+          <sp xml:id="A06621-e105180" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e105190">Out villain, thou bitest. I cannot tune these virginal keys.</p>
+          </sp>
+          <sp xml:id="A06621-e105200" who="A06621-petulus">
+            <pb facs="15"/>
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105210">They were the jacks above, the keys beneath were easy.</p>
+          </sp>
+          <sp xml:id="A06621-e105220" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e105230">A bots on your jacks and jaws too.</p>
+          </sp>
+          <sp xml:id="A06621-e105240" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e105250">They were virginals of your master's making.</p>
+          </sp>
+          <sp xml:id="A06621-e105260" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105270">O my teeth, good motto what will ease my pain?</p>
+          </sp>
+          <sp xml:id="A06621-e105280" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e105290">Nothing in the world, but to let me lay a golden beard to your chin.</p>
+          </sp>
+          <sp xml:id="A06621-e105300" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105310">It is at pawn.</p>
+          </sp>
+          <sp xml:id="A06621-e105320" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e105330">You are like to fetch it out with your teeth, or go without your teeth.</p>
+          </sp>
+          <sp xml:id="A06621-e105340" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105350">Motto withdraw thyself, it may be thou shalt draw my teeth; attend my resolution. A doubtful dispute, whether I were best to lose my golden beard, or my bone tooth? Help me lycio to determine.</p>
+          </sp>
+          <sp xml:id="A06621-e105360" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e105370">Your teeth ache Petulus, your beard doth not.</p>
+          </sp>
+          <sp xml:id="A06621-e105380" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105390">I but Licio, if I part from my beard, my heart will ache.</p>
+          </sp>
+          <sp xml:id="A06621-e105400" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e105410">If your tooth be hollow it must be stopped, or pulled out; and stop it the barber will not, without the beard.</p>
+          </sp>
+          <sp xml:id="A06621-e105420" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105430">My heart is hollow too, and nothing can stop it but gold.</p>
+          </sp>
+          <sp xml:id="A06621-e105440" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e105450">Thou canst not eat meat without teeth.</p>
+          </sp>
+          <sp xml:id="A06621-e105460" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105470">Nor buy it without money.</p>
+          </sp>
+          <sp xml:id="A06621-e105480" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e105490">Thou mayst get more gold, if thou lose these, more teeth thou canst not.</p>
+          </sp>
+          <sp xml:id="A06621-e105500" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105510">I but the golden beard will last me ten years in porridge, and then to what use are teeth?</p>
+          </sp>
+          <sp xml:id="A06621-e105520" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e105530">If thou want teeth, thy tongue will catch cold.</p>
+          </sp>
+          <sp xml:id="A06621-e105540" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105550">'Tis true, and if I lack money my whole body may go naked. But Licio, let the barber have his beard, I will have a device (By thy help) to get it again, and a cozenage beyond that, maugre his beard.</p>
+          </sp>
+          <sp xml:id="A06621-e105560" who="A06621-licio">
+            <speaker>Lycio.</speaker>
+            <p xml:id="A06621-e105570">That's the best way, both to ease thy pains,<pb facs="16"/> and try our wits.</p>
+          </sp>
+          <sp xml:id="A06621-e105580" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105590">Barber, eleven of my teeth have gone on a jury, to try whether the beard be thine, they have chosen my tongue for the foreman, which cryeth, guilty.</p>
+          </sp>
+          <sp xml:id="A06621-e105600" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e105610">Guilded, nay boy, all my beard was gold. It was not guilt, I will not be so overmatched.</p>
+          </sp>
+          <sp xml:id="A06621-e105620" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e105630">You cannot pose my master in a beard. Come to his house you shall sit upon twenty, all his cushions are stuffed with beards,</p>
+          </sp>
+          <sp xml:id="A06621-e105640" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e105650">Let him go home with thee, ease him, and thou shalt have thy beard.</p>
+          </sp>
+          <sp xml:id="A06621-e105660" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e105670">I am content, but I will have the beard in my hand to be sure.</p>
+          </sp>
+          <sp xml:id="A06621-e105680" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105690">And I thy finger in my mouth to be sure of ease.</p>
+          </sp>
+          <sp xml:id="A06621-e105700" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e105710">Agreed.</p>
+          </sp>
+          <sp xml:id="A06621-e105720" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e105730">Dello, sing a song to the tune of my teeth do ache.</p>
+          </sp>
+          <sp xml:id="A06621-e105740" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e105750">I will.</p>
+          </sp>
+          <stage xml:id="A06621-e105760">The song. Exeunt.</stage>
+        </div>
+        <div n="3" type="scene" xml:id="A06621-e105770">
+          <head>Actus 3. Scae. 3.</head>
+          <stage xml:id="A06621-e105780">Sophronia, Caelia, Camilla, Amerula, Suavia.</stage>
+          <sp xml:id="A06621-e105790" who="A06621-sophronia">
+            <speaker>So.</speaker>
+            <p xml:id="A06621-e105800">Ladies, here must we attend the happy return of my father, but in the mean season what pastime shall we use to pass the time? I will agree to any, so it be not to talk of love.</p>
+          </sp>
+          <sp xml:id="A06621-e105810" who="A06621-suavia">
+            <speaker>Sua.</speaker>
+            <p xml:id="A06621-e105820">Then sleep is the best exercise.</p>
+          </sp>
+          <sp xml:id="A06621-e105830" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e105840">Why Suavia, are you so light, that you must chat of love; or so heavy, that you must needs sleep? Penelope in the absence of her lord beguiled the days with spinning.</p>
+          </sp>
+          <sp xml:id="A06621-e105850" who="A06621-suavia">
+            <speaker>Sua.</speaker>
+            <p xml:id="A06621-e105860">Indeed she spun a fair thread, if it were to make a string to the bow wherein she drew herwoers.</p>
+          </sp>
+          <sp xml:id="A06621-e105870" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e105880">Why Suavia, it was a bow which she knew to be above thy strength, and therein she showed her wit.</p>
+          </sp>
+          <sp xml:id="A06621-e105890" who="A06621-suavia">
+            <pb facs="16"/>
+            <speaker>Sua.</speaker>
+            <p xml:id="A06621-e105900">Qui latus arguerit corneus arcus erat: it was made of horn madam, and therein she showed her meaning.</p>
+          </sp>
+          <sp xml:id="A06621-e105910" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e105920">Why, dost thou not think she was chaste?</p>
+          </sp>
+          <sp xml:id="A06621-e105930" who="A06621-suavia">
+            <speaker>Sua.</speaker>
+            <p xml:id="A06621-e105940">Yes, of all her wooers.</p>
+          </sp>
+          <sp xml:id="A06621-e105950" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e105960">To talk with thee is to lose time, not well to spend it, how say you Amerula, what shall we do?</p>
+          </sp>
+          <sp xml:id="A06621-e105970" who="A06621-amerula">
+            <speaker>Am.</speaker>
+            <p xml:id="A06621-e105980">Tell tales.</p>
+          </sp>
+          <sp xml:id="A06621-e105990" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e106000">What say you Caelia? </p>
+          </sp>
+          <sp xml:id="A06621-e106010" who="A06621-camilla">
+            <speaker>Cae</speaker>
+            <p xml:id="A06621-e106020">Sing.</p>
+          </sp>
+          <sp xml:id="A06621-e106030" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e106040">What think you Camilla? </p>
+          </sp>
+          <sp xml:id="A06621-e106050" who="A06621-camilla">
+            <speaker>Cam.</speaker>
+            <p xml:id="A06621-e106060">Dance.</p>
+          </sp>
+          <sp xml:id="A06621-e106070" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e106080">You see Suavia, that there are other things to keep one from idleness; besides love: nay that there is nothing to make idleness, but love.</p>
+          </sp>
+          <sp xml:id="A06621-e106090" who="A06621-suavia">
+            <speaker>Sua.</speaker>
+            <p xml:id="A06621-e106100">Well, let me stand by and feed mine own thoughts with sweetness, whilst they fill your eyes and ears, with songs and dancings.</p>
+          </sp>
+          <sp xml:id="A06621-e106110" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e106120">Amerula, begin thy tale.</p>
+          </sp>
+          <sp xml:id="A06621-e106130" who="A06621-amerula">
+            <speaker>Am.</speaker>
+            <p xml:id="A06621-e106140">There dwelled sometimes in Phrygia, a lady very fair, but passing froward, as much marvelled at for beauty, as for peevishness misliked. Hie she was in the instep, but short in the heel; straight laced, but loose bodied. It came to pass, that a gentleman, as young in wit as years, and in years a very boy, chanced to glance his eyes on her, and there were they dazzled on her beauty, as larks that are caught in the sun with the glittering of a glass. In her fair looks were his thoughts entangled, like the birds of Canary, that fall into a silken net. Dote he did without measure, and die he must without her love. She on the other side, as one that knew her good, began to look askance, yet felt the passions of love eating into her heart, though she dissembled them with her eyes.</p>
+          </sp>
+          <sp xml:id="A06621-e106150" who="A06621-suavia">
+            <pb facs="17"/>
+            <speaker>Suau.</speaker>
+            <p xml:id="A06621-e106160">Ha, ha, he.</p>
+          </sp>
+          <sp xml:id="A06621-e106170" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e106180">Why laughest thou?</p>
+          </sp>
+          <sp xml:id="A06621-e106190" who="A06621-suavia">
+            <speaker>Sua.</speaker>
+            <p xml:id="A06621-e106200">To see you (Madam) so tame as to be brought to hear a tale of love, that before were so wild you would not come to the name; and that Amerula could devise how to spend the time with a tale, only that she might not talk of love, and now to make love only her tale.</p>
+          </sp>
+          <sp xml:id="A06621-e106210" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e106220">Indeed I was overshot in judgement, and she in discretion. Amerula, another tale or none, this is too lovely.</p>
+          </sp>
+          <sp xml:id="A06621-e106230" who="A06621-suavia">
+            <speaker>Sua.</speaker>
+            <p xml:id="A06621-e106240">Nay let me hear any woman tell a tale of x. lines long without it tend to love, and I will be bound never to come at the court. And you Caelia that would fain trip on your pettitoes; can you persuade me to take delight to dance, and not love? or you that cannot rule your feet, can guide your affections, having the one as unstaid as the other unsteady: dancing is love sauce, therefore I dare be so saucy, as if you love to dance, to say you dance for love. But Camilla she will sing, whose voice if it should utter her thoughts, would make the tune of a heart out of tune. She that hath crochets in her head, hath also love conceits. I dare swear she harpeth not only on plain song: and before you (Sophronia) none of them all use plain dealing; but because they see you so curious they frame themselves counterfeit. For myself, as I know honest love to be a thing inseparable from our sex, so do I think it most allowable in the court; unless we would have all our thoughts made of church-work, and so carry a holy face, and a hollow heart.</p>
+          </sp>
+          <sp xml:id="A06621-e106250" who="A06621-sophronia">
+            <speaker>Sophr.</speaker>
+            <p xml:id="A06621-e106260">Ladies, how like you Suavia in her loving vain?</p>
+          </sp>
+          <sp xml:id="A06621-e106270" who="A06621-celia">
+            <pb facs="17"/>
+            <speaker>Cael.</speaker>
+            <p xml:id="A06621-e106280">Wé are content at this time to soothe her in her vanity.</p>
+          </sp>
+          <sp xml:id="A06621-e106290" who="A06621-amerula">
+            <speaker>Amer.</speaker>
+            <p xml:id="A06621-e106300">She casts all our minds in the mould of her own head, and yet erreth as far from our meanings, as she doth from her own modesty.</p>
+          </sp>
+          <sp xml:id="A06621-e106310" who="A06621-suavia">
+            <speaker>Sua.</speaker>
+            <p xml:id="A06621-e106320">Amerula, if you were not bitter, your name had been ill bestowed: but I think it as lawful in the court to be counted loving and chaste, as you in the temple to seem religious, and be spiteful.</p>
+          </sp>
+          <sp xml:id="A06621-e106330" who="A06621-camilla">
+            <speaker>Camill.</speaker>
+            <p xml:id="A06621-e106340">I marvel you will reply any more Amerula, her tongue is so nimble it will never lie still.</p>
+          </sp>
+          <sp xml:id="A06621-e106350" who="A06621-suavia">
+            <speaker>Sua.</speaker>
+            <p xml:id="A06621-e106360">The liker thy feet Camilla, which were taught not to stand still.</p>
+          </sp>
+          <sp xml:id="A06621-e106370" who="A06621-sophronia">
+            <speaker>Sophronia.</speaker>
+            <p xml:id="A06621-e106380">So, no more ladies: let our coming to sport not turn to spite. Love thou Suavia, if thou think it sweet: sing thou Caelia for thine own content: tell thou tales, and dance thou Camilla: and so every one using her own delight, shall have no cause to be discontent. But here cometh Martius and the rest. What news Martius of my sovereign and father Midas? </p>
+          </sp>
+          <sp xml:id="A06621-e106390" who="A06621-martius">
+            <speaker>Mart.</speaker>
+            <p xml:id="A06621-e106400">Madam, he no sooner bathed his limbs in the river, but it turned to a golden stream, the sands to fine gold, and all to gold that was cast into the water. Midas dismayed at the sudden alteration, assayed again to touch a stone, but he could not alter the nature of the stone. Then went we with him to the temple of Bacchus, where we offered a lance wreathed about with ivy. Garlands of ripe grapes, and skins of wolves and panthers, and a great standing cup of the water, which so lately was turned to gold. Bacchus accepted our gifts, commanding Midas to honour the gods, and also in wishing to be as wise, as he meant to have<pb facs="18"/> made him fortunate.</p>
+          </sp>
+          <sp xml:id="A06621-e106410" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e106420">Happy Sophronia, that hast lived to hear these news, and happy Midas, if thou live better to govern thy fortune. But what is become of our King?</p>
+          </sp>
+          <sp xml:id="A06621-e106430" who="A06621-mellacrites">
+            <speaker>Mell.</speaker>
+            <p xml:id="A06621-e106440">Midas overjoyed with this good fortune, determined to use some solace in the woods; where, by chance we roused a great bore, he eager of the sport, outrid us: and we thinking he had been come to his palace some other way, came ourselves the next way. If he be not returned, he cannot be long: we have also lost our pages, which we think are with him.</p>
+          </sp>
+          <sp xml:id="A06621-e106450" who="A06621-sophronia">
+            <speaker>Sophro.</speaker>
+            <p xml:id="A06621-e106460">The god's shield him from all harms: the woods are full of tigers, and he of courage: wild beasts make no difference between a King and a clown; nor hunters in the heat of their pastime, fear no more the fierceness of the boar, than the fearfulness of the hare. But I hope well, let us in to see all well.</p>
+          </sp>
+          <stage xml:id="A06621-e106470">Exeunt.</stage>
+        </div>
+      </div>
+      <div n="4" type="act" xml:id="A06621-e106480">
+        <div n="1" type="scene" xml:id="A06621-e106490">
+          <head>Actus 4. Scaena 1.</head>
+          <stage xml:id="A06621-e106500">Apollo. Pan. Mydas. Nymphes.</stage>
+          <sp xml:id="A06621-e106510" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e106520">Pan wilt thou contend with Apollo, who tunes the heavens, and makes them all hang by harmony? Orpheus that caused trees to move with the sweetness of his harp, offereth yearly homage to my lute: so doth Arion, that brought dolphins to his sugared notes; and Amphion, that by music reared the walls of Thebes. Only pan with his harsh whistle (Which makes beasts shake for fear, not men dance for joy) seeks to compare with Apollo. </p>
+          </sp>
+          <sp xml:id="A06621-e106530" who="A06621-pan">
+            <speaker>Pan.</speaker>
+            <p xml:id="A06621-e106540">Pan is a god, Apollo is no more. Comparisons cannot be odious, where the deities are equal. This pipe (My sweet pipe) was once a nymph, a fair<pb facs="18"/> nymph; once my lovely mistress, now my heavenly music. Tell me Apollo, is there any instrument so sweet to play on, as ones mistress? Had thy lute been of laurel, and the strings of Daphne's hair; thy tunes might have been compared to my notes: for then Daphne would have added to thy stroke sweetness, and to thy thoughts melody.</p>
+          </sp>
+          <sp xml:id="A06621-e106550" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e106560">Doth pan talk of the passions of love? of the passions of divine love? O, how that word Daphne wounds Apollo, pronounced by the barbarous mouth of pan. I fear his breath will blast the fair green, if I dazzle not his eyes, that he may not behold it. Thy pipe a nymph? some hag rather, haunting these shady groves, and desiring not thy love, but the fellowship of such a monster. What God is pan but the god of beasts, of woods, and hills? excluded from heaven, and in earth not honoured. Break thy pipe, or with my sweet lute will I break thy heart. Let not love enter into those savage lips, a word for Jove, for Apollo, for the heavenly gods, whose thoughts are gods, and gods are all love.</p>
+          </sp>
+          <sp xml:id="A06621-e106570" who="A06621-pan">
+            <speaker>Pan.</speaker>
+            <p xml:id="A06621-e106580">Apollo, I told thee before that pan was a God, I tell thee now again, as great a god as Apollo, I had almost said a greater: and because thou shalt know I care not to tell my thoughts, I say a greater. Pan feels the passions of love deeply engraven in his heart, with as fair nymphs, with as great fortune, as Apollo, as Neptune, as Jove; and better than pan can none describe love. Not Apollo, not Neptune, not Jove. My temple is in Arcady, where they burn continual flames to pan. In Arcady is mine oracle, where Erato the nymph giveth answers for pan. In Arcady the place of love, is the honour of pan. I but I am God of hills. So I am Apollo, and that of hills<pb facs="19"/> so high, as I can pry into the juggling of the highest gods. Of woods? So I am Apollo, of woods so thick, that thou with thy beams canst not pierce them. I knew Apollo's prying, I knew mine own jealousy. Sun and shadow cousin one another. Be thou sun still, the shadow is fast at thy heels Apollo. I as near to thy love, as thou to mine. A carter with his whistle and his whip in true ear, moves as much as Phoebus with his fiery chariot, and winged horses. Love-leaves are as well for country porridge, as heavenly nectar. Love made Jupiter a goose, and Neptune a swine, and both for love of an earthly mistress. What hath made pan, or any God on earth (For gods on earth can change their shapes) turn themselves for an heavenly goddess? Believe me Apollo, our groves are pleasanter than your heavens, our milkmaids than your goddesses, our rude ditties to a pipe than your sonnets to a lute. Here is flat faith amo amas; where you cry, o utinam amarent vel non amassem. I let pass (Apollo) thy hard words, as calling pan monster; which is as much, as to call all monsters: for pan is all, Apollo but one. But touch thy strings, and let these nymphs decide.</p>
+          </sp>
+          <sp xml:id="A06621-e106590" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e106600">Those nymphs shall decide, unless thy rude speech have made them deaf: as for any other answer to pan, take this, that it becometh not Apollo to answer pan. Pan is all, and all is pan; thou art pan and all, all pan and tinkerly. But to this music, wherein all thy shame shall be seen, and all my skill.</p>
+          </sp>
+          <stage xml:id="A06621-e106610">Enter Mydas.</stage>
+          <sp xml:id="A06621-e106620" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e106630">In the chase, I lost all my company, and missed the game too, I think Midas shall in all things be unfortunate.</p>
+          </sp>
+          <sp xml:id="A06621-e106640" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e106650">What is he that talketh?</p>
+          </sp>
+          <sp xml:id="A06621-e106660" who="A06621-midas">
+            <pb facs="19"/>
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e106670">Midas the unfortunate King of Phrygia. </p>
+          </sp>
+          <sp xml:id="A06621-e106680" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e106690">To be a King is next being to a God. Thy fortune is not bad: what is thy folly?</p>
+          </sp>
+          <sp xml:id="A06621-e106700" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e106710">To abuse a God.</p>
+          </sp>
+          <sp xml:id="A06621-e106720" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e106730">An ungrateful part of a King. But Midas, seeing by chance thou art come, or sent by some god of purpose; none can in the earth better judge of gods, than Kings. Sit down with these nymphs. I am Apollo, this pan, both gods. We contend for sovereignty in music. Seeing it happens in earth, we must be judged of those on earth; in which there are none more worthy than Kings and nymphs. Therefore give ear, that thy judgement err not.</p>
+          </sp>
+          <sp xml:id="A06621-e106740" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e106750">If gods you be, although I dare wish nothing of God's, being so deeply wounded with wishing; yet let my judgement prevail before these nymphs, if we agree not, because I am a King.</p>
+          </sp>
+          <sp xml:id="A06621-e106760" who="A06621-pan">
+            <speaker>Pan.</speaker>
+            <p xml:id="A06621-e106770">There must be no condition, but judge Midas, and judge nymphs.</p>
+          </sp>
+          <sp xml:id="A06621-e106780" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e106790">Then thus I begin both my song and my play.</p>
+          </sp>
+          <stage xml:id="A06621-e106800">A song of Daphne to the lute.</stage>
+          <sp xml:id="A06621-e106810" who="A06621-erato">
+            <speaker>Nymph Erato.</speaker>
+            <p xml:id="A06621-e106820">Oh divine Apollo, o sweet consent!</p>
+          </sp>
+          <sp xml:id="A06621-e106830" who="A06621-thia">
+            <speaker>Thia.</speaker>
+            <p xml:id="A06621-e106840">If the god of music should not be above our reach, who should?</p>
+          </sp>
+          <sp xml:id="A06621-e106850" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e106860">I like it not.</p>
+          </sp>
+          <sp xml:id="A06621-e106870" who="A06621-pan">
+            <speaker>Pan.</speaker>
+            <p xml:id="A06621-e106880">Now let me tune my pipes. I cannot pipe and sing, that's the odds in the instrument, not the art: but I will pipe and then sing; and then judge both of the art and instrument.</p>
+          </sp>
+          <stage xml:id="A06621-e106890">He pipes, and then sings.</stage>
+          <sp xml:id="A06621-e106900" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e106910">Hast thou done Pan? </p>
+          </sp>
+          <sp xml:id="A06621-e106920" who="A06621-pan">
+            <speaker>Pan.</speaker>
+            <p xml:id="A06621-e106930">Ay, and done well, as I think.</p>
+          </sp>
+          <sp xml:id="A06621-e106940" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e106950">Now nymphs, what say you?</p>
+          </sp>
+          <sp xml:id="A06621-e106960" who="A06621-erato">
+            <speaker>Erato.</speaker>
+            <p xml:id="A06621-e106970">We all say that Apollo hath showed himself<pb facs="20"/> both a god, and of music the god; pan himself a rude satire, neither keeping measure, nor time; his piping as far out of tune, as his body out of form. To thee divine Apollo, we give the prize and reverence.</p>
+          </sp>
+          <sp xml:id="A06621-e106980" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e106990">But what says Midas? </p>
+          </sp>
+          <sp xml:id="A06621-e107000" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e107010"> methinks there's more sweetness in the pipe of pan, than Apollo's lute; I brook not that nice tickling of strings, that contents me that makes one start. What a shrillness came into mine ears out of that pipe, and what a goodly noise it made? Apollo, I must needs judge that pan deserveth most praise.</p>
+          </sp>
+          <sp xml:id="A06621-e107020" who="A06621-pan">
+            <speaker>Pan.</speaker>
+            <p xml:id="A06621-e107030">Blessed be Midas, worthy to be a God: these girls, whose ears do but itch with daintiness, gene the verdict without weighing the virtue; they have been brought up in chambers with soft music, not where I make the woods ring with my pipe, Midas. </p>
+          </sp>
+          <sp xml:id="A06621-e107040" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e107050">Wretched, unworthy to be a King, thou shalt know what it is to displease Apollo. I will leave thee but the two last letters of they name, to be thy whole name; which if thou canst not guess, touch thine cares, they shall tell thee.</p>
+          </sp>
+          <sp xml:id="A06621-e107060" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e107070">What hast thou done Apollo? the ears of an ass upon the head of a King?</p>
+          </sp>
+          <sp xml:id="A06621-e107080" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e107090">And well worthy, when the dulness of an ass is in the ears of a King.</p>
+          </sp>
+          <sp xml:id="A06621-e107100" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e107110">Help pan, or Midas perisheth.</p>
+          </sp>
+          <sp xml:id="A06621-e107120" who="A06621-pan">
+            <speaker>Pan.</speaker>
+            <p xml:id="A06621-e107130">I cannot undo what Apollo hath done, nor give thee any amends, unless to those ears thou wilt have added these horns.</p>
+          </sp>
+          <sp xml:id="A06621-e107140" who="A06621-yyyy_1">
+            <speaker>1. Nymph. </speaker>
+            <p xml:id="A06621-e107150">It were very well, that it might be hard to judge whether he were more ox or ass.</p>
+          </sp>
+          <sp xml:id="A06621-e107160" who="A06621-apollo">
+            <speaker>Ap.</speaker>
+            <p xml:id="A06621-e107170">Farewell Midas. </p>
+          </sp>
+          <sp xml:id="A06621-e107180" who="A06621-pan">
+            <pb facs="20"/>
+            <speaker>Pan.</speaker>
+            <p xml:id="A06621-e107190">Midas farewell.</p>
+          </sp>
+          <sp xml:id="A06621-e107200" who="A06621-yyyy_2">
+            <speaker>2. Nymph. </speaker>
+            <p xml:id="A06621-e107210">I warrant they be dainty ears, nothing can please them but Pan's pipe.</p>
+          </sp>
+          <sp xml:id="A06621-e107220" who="A06621-erato">
+            <speaker>Erato.</speaker>
+            <p xml:id="A06621-e107230">He hath the advantage of all ears, except the mouse; for else there's none so sharp of hearing, as the ass. Farewell Midas. </p>
+          </sp>
+          <sp xml:id="A06621-e107240" who="A06621-yyyy_2">
+            <speaker>2. Nymph. </speaker>
+            <p xml:id="A06621-e107250">Midas farewell.</p>
+          </sp>
+          <sp xml:id="A06621-e107260" who="A06621-yyyy_3">
+            <speaker>3. Nymph. </speaker>
+            <p xml:id="A06621-e107270">Farewell Midas. </p>
+          </sp>
+          <stage xml:id="A06621-e107280">Exeunt.</stage>
+          <sp xml:id="A06621-e107290" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e107300">Ah Midas, why was not thy whole body metamorphosed, that there might have been no part left of Midas? Where shall I shroud this shame? or how may I be restored to mine old shape? Apollo is angry: blame not Apollo, whom being god of music thou didst both dislike and dishonour; preferring the barbarous noise of Pan's pipe, before the sweet melody of Apollo's lute. If I return to Phrygia, I shall be pointed at; if live in these woods, savage beasts must be my companions: and what other companions should Midas hope for than beasts, being of all beasts himself the dullest? Had it not been better for thee to have perished by a golden death, than now to lead a beastly life? Unfortunate in thy wish, unwise in thy judgement; first a golden fool, now a leaden ass. What will they say in Lesbos (If happily these news come to Lesbos?) If they come Midas? yes, report flies as swift as thoughts, gathering wings in the air, and doubling rumours by her own running, insomuch as having here the ears of an ass, it will there be told, all my hairs are ass's ears. Then will this be the byword; is Midas that sought to be monarch of the world, become the mock of the world? are his golden mines turned into water, as free for every one that will fetch, as for himself, that possessed them by wish? Ah poor Midas, are his conceits become blockish,<pb facs="21"/> his counsels unfortunate, his judgements unskilful? Ah foolish Midas, a just reward, for thy pride to wax poor, for thy overweening to wax dull, for thy ambition to wax humble, for thy cruelty to say, sisque miser semper, nec sis miserabilis ulli. But I must seek to cover my shame by art, least being once discovered to these petty Kings of Mysia, Pisidia and Galatia, they all join to add to mine ass's ears, of all the beasts the dullest, a sheep's heart, of all the beasts the fearfullest: and so cast lots for those kingdoms, that I have won with so many lives, and kept with so many envies.</p>
+          </sp>
+          <stage xml:id="A06621-e107310">Exit.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A06621-e107320">
+          <head>Actus 4. Scae. 2.</head>
+          <stage xml:id="A06621-e107330">Enter s. shepherd's Menalcas, Coryn, Celthus, driapon, Amyntas.</stage>
+          <sp xml:id="A06621-e107340" who="A06621-menalcas">
+            <speaker>Menal.</speaker>
+            <p xml:id="A06621-e107350">I muse what the nymphs meant, that so sang in the groves, Midas of Phrygia hath asses ears.</p>
+          </sp>
+          <sp xml:id="A06621-e107360" who="A06621-corin">
+            <speaker>Cor.</speaker>
+            <p xml:id="A06621-e107370">I marvel not, for one of them plainly told me he had asses ears.</p>
+          </sp>
+          <sp xml:id="A06621-e107380" who="A06621-celia">
+            <speaker>Cel.</speaker>
+            <p xml:id="A06621-e107390">Ay, but it is not safe to say it: he is a great King, and his hands are longer than his ears: therefore forus that keep sheep, it is wisdom enough to tell sheep.</p>
+          </sp>
+          <sp xml:id="A06621-e107400" who="A06621-driapon">
+            <speaker>Dria.</speaker>
+            <p xml:id="A06621-e107410">'Tis true, yet since Midas grew so mischievous, as to blur his diadem with blood, which should glister with nothing but pity; and so miserable, that he made gold his god, that was framed to be his slave, many broad speeches have flown abroad: in his own country they stick not to call him tyrant, and else where usurper. They flatly say, that he eateth into other dominions, as the sea doth into the land, not knowing, that in swallowing a poor island as big as Lesbos, he may cast up three territories thrice as big as Phrygia:<pb facs="21"/> for what the sea winneth in the marsh, it loseth in the sand.</p>
+          </sp>
+          <sp xml:id="A06621-e107420" who="A06621-amintas">
+            <speaker>Amint.</speaker>
+            <p xml:id="A06621-e107430">Take me with you, but speak softly, for these reeds may have ears, and hear us.</p>
+          </sp>
+          <sp xml:id="A06621-e107440" who="A06621-menalcas">
+            <speaker>Men.</speaker>
+            <p xml:id="A06621-e107450">Suppose they have, yet they may be without tongues, to bewray us.</p>
+          </sp>
+          <sp xml:id="A06621-e107460" who="A06621-corin">
+            <speaker>Cor.</speaker>
+            <p xml:id="A06621-e107470">Nay let them have tongues too, we have eyes to see that they have none, and therefore if they hear, and speak, they know not from whence it comes.</p>
+          </sp>
+          <sp xml:id="A06621-e107480" who="A06621-amintas">
+            <speaker>Amint.</speaker>
+            <p xml:id="A06621-e107490">Well, than this I say, when a lion doth so much degenerate from princely kind, that he will borrow of the beasts, I say he is no lion, but a monster; pieced with the craftiness of the fox, the cruelty of the tiger, the ravening of the wolf, the dissembling of hyena, he is worthy also to have the ears of an ass.</p>
+          </sp>
+          <sp xml:id="A06621-e107500" who="A06621-menalcas">
+            <speaker>Men.</speaker>
+            <p xml:id="A06621-e107510">He seeks to conquer Lesbos, and like a foolish gamester, having a bagful of his own, ventures it all to win a groat of another.</p>
+          </sp>
+          <sp xml:id="A06621-e107520" who="A06621-corin">
+            <speaker>Cor.</speaker>
+            <p xml:id="A06621-e107530">He that fishes for Lesbos, must have such a wooden net, as all the trees in Phrygia will not serve to make the cod, nor all the woods in Pisidia provide the corks.</p>
+          </sp>
+          <sp xml:id="A06621-e107540" who="A06621-driapon">
+            <speaker>Driap.</speaker>
+            <p xml:id="A06621-e107550">Nay, he means to angle for it with an hook of gold, and a bait of gold, and so to strike the fish with a pleasing bait, that will slide out of an open net.</p>
+          </sp>
+          <sp xml:id="A06621-e107560" who="A06621-amintas">
+            <speaker>Amint.</speaker>
+            <p xml:id="A06621-e107570">Tush, tush, those islanders are too subtle to nibble at craft, and too richet to swallow treasure: if that be his hope, he may as well dive to the bottom of the sea, and bring up an anchor of a thousand weight, as plod with his gold to corrupt a people so wise. And besides, a nation (As I have heard) so valiant, that are readier to strike than ward.</p>
+          </sp>
+          <sp xml:id="A06621-e107580" who="A06621-celia">
+            <speaker>Cel.</speaker>
+            <p xml:id="A06621-e107590">More than all this Amintas (Though we dare not<pb facs="22"/> so much as mutter it,) their King is such a one as dazzleth the clearest eyes with majesty, daunteth the valiantest hearts with courage, and for virtue filleth all the world with wonder. If beauty go beyond sight, confidence above valour, and virtue exceed miracle, what is it to be thought, but that Midas goeth to undermine that by the simplicity of man, that is fastened to a rock, by the providence of the gods.</p>
+          </sp>
+          <sp xml:id="A06621-e107600" who="A06621-menalcas">
+            <speaker>Men.</speaker>
+            <p xml:id="A06621-e107610">We poor commons (Who tasting war, are made to relish nothing but taxes) can do nothing but grieve, to see things unlawful practised, to obtain things impossible. All his mines do but gild his comb, to make it glister in the wars, and cut ours that are forced to follow him in his wars.</p>
+          </sp>
+          <sp xml:id="A06621-e107620" who="A06621-corin">
+            <speaker>Cor.</speaker>
+            <p xml:id="A06621-e107630">Well, that must be born, not blamed, that cannot be changed: for my part, if I may enjoy the fleece of my silly flock with quietness, I will never care three flocks for his ambition.</p>
+          </sp>
+          <sp xml:id="A06621-e107640" who="A06621-menalcas">
+            <speaker>Men.</speaker>
+            <p xml:id="A06621-e107650">Let this suffice, we may talk too much, and being overheard, be all undone. I am so jealous, that methinks the very reeds bow down, as though they listened to our talk: and soft, I hear some coming, let us in, and meet at a place more meet.</p>
+          </sp>
+          <stage xml:id="A06621-e107660">Exeunt.</stage>
+        </div>
+        <div n="3" type="scene" xml:id="A06621-e107670">
+          <head>Actus 4. Scae. 3.</head>
+          <stage xml:id="A06621-e107680">Licio, Petulus, Minutius, huntsman.</stage>
+          <sp xml:id="A06621-e107690" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e107700">Is not hunting a tedious occupation?</p>
+          </sp>
+          <sp xml:id="A06621-e107710" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e107720">I and troublesome, for if you call a dog a dog, you are undone.</p>
+          </sp>
+          <sp xml:id="A06621-e107730" who="A06621-huntsman">
+            <speaker>Huntsman</speaker>
+            <p xml:id="A06621-e107740">You be both fools, and besides, base-minded, hunting is for Kings, not peasants. Such as you,<pb facs="22"/> are unworthy to be hounds, much less huntsmen, that know not when a hound is fleet, fair flewed, and well hanged, being ignorant of the deepness of a hound's mouth, and the sweetness.</p>
+          </sp>
+          <sp xml:id="A06621-e107750" who="A06621-minutius">
+            <speaker>Min.</speaker>
+            <p xml:id="A06621-e107760">Why I hope sir a curs mouth is no deeper than the sea, nor sweeter than a honey comb.</p>
+          </sp>
+          <sp xml:id="A06621-e107770" who="A06621-huntsman">
+            <speaker>Huntsman</speaker>
+            <p xml:id="A06621-e107780">Pretty coxcomb, a hound will swallow thee as easily, as a great pit a small pebble.</p>
+          </sp>
+          <sp xml:id="A06621-e107790" who="A06621-minutius">
+            <speaker>Minu.</speaker>
+            <p xml:id="A06621-e107800">Indeed hunting were a pleasant sport, but the dogs make such barking, that one cannot hear the hounds cry.</p>
+          </sp>
+          <sp xml:id="A06621-e107810" who="A06621-huntsman">
+            <speaker>Huntsman</speaker>
+            <p xml:id="A06621-e107820">I'll make thee cry. If I catch thee in the forest thou shalt be leashed.</p>
+          </sp>
+          <sp xml:id="A06621-e107830" who="A06621-minutius">
+            <speaker>Minu.</speaker>
+            <p xml:id="A06621-e107840">What's that?</p>
+          </sp>
+          <sp xml:id="A06621-e107850" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e107860">Dost thou not understand their language?</p>
+          </sp>
+          <sp xml:id="A06621-e107870" who="A06621-minutius">
+            <speaker>Minu.</speaker>
+            <p xml:id="A06621-e107880">Not I.</p>
+          </sp>
+          <sp xml:id="A06621-e107890" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e107900">'Tis the best calamance in the world, as easily deciphered, as the characters in a nutmeg.</p>
+          </sp>
+          <sp xml:id="A06621-e107910" who="A06621-minutius">
+            <speaker>Minu.</speaker>
+            <p xml:id="A06621-e107920">I pray thee speak some.</p>
+          </sp>
+          <sp xml:id="A06621-e107930" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e107940">I will.</p>
+          </sp>
+          <sp xml:id="A06621-e107950" who="A06621-huntsman">
+            <speaker>Huntsman</speaker>
+            <p xml:id="A06621-e107960">But speak in order or I'll pay you.</p>
+          </sp>
+          <sp xml:id="A06621-e107970" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e107980">To it Petulus. </p>
+          </sp>
+          <sp xml:id="A06621-e107990" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e108000">There was a boy leashed on the single, because when he was embossed, he took soil.</p>
+          </sp>
+          <sp xml:id="A06621-e108010" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e108020">What's that:</p>
+          </sp>
+          <sp xml:id="A06621-e108030" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e108040">Why, a boy was beaten on the tail with a leathern thong, because when he foamed at the mouth with running, he went into the water.</p>
+          </sp>
+          <sp xml:id="A06621-e108050" who="A06621-huntsman">
+            <speaker>Huntsman</speaker>
+            <p xml:id="A06621-e108060">This is worse than fustian, mum you were best. Hunting is an honourable pastime, and for my part, I had as lief hunt a dear in a park, as court a lady in a chamber.</p>
+          </sp>
+          <sp xml:id="A06621-e108070" who="A06621-minutius">
+            <speaker>Minu.</speaker>
+            <p xml:id="A06621-e108080">Give me a pastry for a park, and let me<pb facs="23"/> shake off a whole kennel of teeth for hounds, then shalt thou see a notable champing, after that will I carouse a bowl of wine, and so in the stomach let the venison take soil.</p>
+          </sp>
+          <sp xml:id="A06621-e108090" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e108100">He hath laid the plot to be prudent, why 'tis pastry crust, eat enough and it will make you wise, an old proverb.</p>
+          </sp>
+          <sp xml:id="A06621-e108110" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e108120">Ay, and eloquent, for you must tipple wine freely, et foecundi calices quem non fecere disertum. </p>
+          </sp>
+          <sp xml:id="A06621-e108130" who="A06621-huntsman">
+            <speaker>Huntsman</speaker>
+            <p xml:id="A06621-e108140">Fecere dizardum. Leave off these toys, and let us seek out Midas, whom we lost in the chase.</p>
+          </sp>
+          <sp xml:id="A06621-e108150" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e108160">I'll warrant he hath by this started a covey of bucks, or roused a scull of pheasants.</p>
+          </sp>
+          <sp xml:id="A06621-e108170" who="A06621-huntsman">
+            <speaker>Huntsman</speaker>
+            <p xml:id="A06621-e108180">Treason to two brave sports, hawking and hunting, thou shouldst say, start a hare, rouse the dear, spring the partridge.</p>
+          </sp>
+          <sp xml:id="A06621-e108190" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e108200">I'll warrant that was devised by some country swad, that seeing a hare skip up, which made him start, he presently said, he started the hare.</p>
+          </sp>
+          <sp xml:id="A06621-e108210" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e108220">Ay, and some lubber lying besides a spring, and seeing a partridge come by, said he did spring the partridge.</p>
+          </sp>
+          <sp xml:id="A06621-e108230" who="A06621-huntsman">
+            <speaker>Huntsman</speaker>
+            <p xml:id="A06621-e108240">Well, remember all this.</p>
+          </sp>
+          <sp xml:id="A06621-e108250" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e108260">Remember all? nay then had we good memories, for there be more phrases than thou hast hairs, but let me see, I pray thee what's this about thy neck?</p>
+          </sp>
+          <sp xml:id="A06621-e108270" who="A06621-huntsman">
+            <speaker>Huntsman</speaker>
+            <p xml:id="A06621-e108280">A bugle.</p>
+          </sp>
+          <sp xml:id="A06621-e108290" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e108300">If it had stood on thy head I should have called it a horn. Well, 'tis hard to have ones brows embroidered with bugle.</p>
+          </sp>
+          <sp xml:id="A06621-e108310" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e108320">But canst thou blow it?</p>
+          </sp>
+          <sp xml:id="A06621-e108330" who="A06621-huntsman">
+            <speaker>Huntsman</speaker>
+            <p xml:id="A06621-e108340">What else?</p>
+          </sp>
+          <sp xml:id="A06621-e108350" who="A06621-minutius">
+            <speaker>Min.</speaker>
+            <p xml:id="A06621-e108360">But not away.</p>
+          </sp>
+          <sp xml:id="A06621-e108370" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e108380">No, 'twill make Boreas out of breath, to blow his horns away.</p>
+          </sp>
+          <sp xml:id="A06621-e108390" who="A06621-licio">
+            <pb facs="23"/>
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e108400">There was good blowing I'll warrant before they came there.</p>
+          </sp>
+          <sp xml:id="A06621-e108410" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e108420">Well, 'tis a shroud blow.</p>
+          </sp>
+          <sp xml:id="A06621-e108430" who="A06621-huntsman">
+            <speaker>Huntsman</speaker>
+            <p xml:id="A06621-e108440">Spare your winds in this, or I'll wind your necks in a cord: but soft I heard my master's blast.</p>
+          </sp>
+          <sp xml:id="A06621-e108450" who="A06621-unassigned">
+            <speaker>Myn.</speaker>
+            <p xml:id="A06621-e108460">Some have felt it.</p>
+          </sp>
+          <sp xml:id="A06621-e108470" who="A06621-huntsman">
+            <speaker>Huntsman</speaker>
+            <p xml:id="A06621-e108480">Thy mother when such a fly blow was buzzed out; but I must be gone, I perceive Midas is come. Ex. </p>
+          </sp>
+          <sp xml:id="A06621-e108490" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e108500">Then let not us tarry, for now shall we shave the barber's house. The world will grow full of wiles seeing Midas hath lost his golden wish.</p>
+          </sp>
+          <sp xml:id="A06621-e108510" who="A06621-unassigned">
+            <speaker>Myn.</speaker>
+            <p xml:id="A06621-e108520">I care not, my head shall dig devises, and my tongue stamp them; so as my mouth shall be a mint, and my brains a mine.</p>
+          </sp>
+          <sp xml:id="A06621-e108530" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e108540">Then help us to cozen the barber.</p>
+          </sp>
+          <sp xml:id="A06621-e108550" who="A06621-minutius">
+            <speaker>Min.</speaker>
+            <p xml:id="A06621-e108560">The barber shall know every hair of my chin to be as good as a choke-pear for his purse.</p>
+          </sp>
+        </div>
+        <div n="4" type="scene" xml:id="A06621-e108570">
+          <head>Actus 4. Scaena 4.</head>
+          <stage xml:id="A06621-e108580">Mellacrites. Martius. Eristus.</stage>
+          <sp xml:id="A06621-e108590" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e108600">I marvel what Midas meaneth to be so melancholy since his hunting.</p>
+          </sp>
+          <sp xml:id="A06621-e108610" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e108620">It is a good word in Midas, otherwise I should term it in another blockishness. I cannot tell whether it be a sourness commonly incident to age, or a severeness particular to the Kings of Phrygia, or a suspicion cleaving to great estates; but methinks he seemeth so jealous of us all, and becomes so overthwart to all others, that either I must conjecture his wits are not his own, or his meaning very hard to some.</p>
+          </sp>
+          <sp xml:id="A06621-e108630" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e108640">For my part, I neither care nor wonder, I see all his expeditions for wars are laid in water: for now<pb facs="24"/> when he should execute, he begins to consult; and suffers the enemies to bid us good morrow at our own doors, to whom we long since might have given the last good night in their own beds. He weareth (I know not whether for warmth or wantonness) a great tiara on his head, as though his head were not heavy enough, unless he loaded it with great rolls: an attire never used (That I could hear of) but of old women, or pelting priests. This will make Pisidia wanton, Lycaonia stiff, all his territories wavering; and he that hath couched so many kingdoms in one crown, will have his kingdom scattered into as many crowns, as he possesseth countries. I will rouse him up, and if his ears be not asses ears, I will make them tingle. I respect not my life, I know it is my duty, and certainly I dare swear war is my profession.</p>
+          </sp>
+          <sp xml:id="A06621-e108650" who="A06621-eristus">
+            <speaker>Erist.</speaker>
+            <p xml:id="A06621-e108660">Martius, we will all join: and though I have been (As in Phrygia they term) a brave courtier, that is, (As they expound it) a fine lover; yet will I set both aside, love and courting, and follow Martius: for never shall it be said, bella gerant alij, semper Eristus amet. </p>
+          </sp>
+          <sp xml:id="A06621-e108670" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e108680">And I (Martius) that honored gold for a god, and accounted all other gods but lead, will follow Martius, and say; Vilius argentum est aurum, virtutibus aurum. </p>
+          </sp>
+          <sp xml:id="A06621-e108690" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e108700">My lords, I give you thanks, and am glad: for there are no stouter soldiers in the world, than those that are made of lovers, nor any more liberal in wars, than they that in peace have been covetous. Then doubt not, if courage and coin can prevail, but we shall prevail; and besides, nothing can prevail but fortune. But here comes Sophronia, I will first talk with her. <stage xml:id="A06621-e108710"><pb facs="24"/>Enter Sophronia, Camilla, Amerula.</stage>madam, either our King hath no ears to hear, or no care to consider, both in what state we stand being his subjects, and what danger he is in being our King. Duty is not regarded, courage contemned; altogether careless of us, and his own safety.</p>
+          </sp>
+          <sp xml:id="A06621-e108720" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e108730">Martius, I mislike not thy plain dealing: but pity my father's trance; a trance I must call that, where nature cannot move, nor counsel, nor music, nor physic, nor danger, nor death, nor all. But that which maketh me most both to sorrow and wonder, is that music (A mithridate for melancholy) should make him mad; crying still, uno namque modo pan and Apollo nocent. None hath access to him but motto, as though melancholy were to be shaven with a razor, not cured with a medicine. But stay, what noise is this in those reeds?</p>
+          </sp>
+          <sp xml:id="A06621-e108740" who="A06621-mellacrites">
+            <speaker>Mellac.</speaker>
+            <p xml:id="A06621-e108750">What sound is this? who dares utter that he hears?</p>
+          </sp>
+          <sp xml:id="A06621-e108760" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e108770">I dare Mellacrites, the words are plain, Midas the King hath asses ears.</p>
+          </sp>
+          <sp xml:id="A06621-e108780" who="A06621-camilla">
+            <speaker>Cam.</speaker>
+            <p xml:id="A06621-e108790">This is strange, and yet to be told the King.</p>
+          </sp>
+          <sp xml:id="A06621-e108800" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e108810">So dare I Camilla: for it concerneth me in duty, and us all in discretion. But soft, let us hearken better.</p>
+          </sp>
+          <sp xml:id="A06621-e108820" who="A06621-reeds">
+            <speaker>The redes.</speaker>
+            <p xml:id="A06621-e108830">Midas of Phrygia hath asses ears.</p>
+          </sp>
+          <sp xml:id="A06621-e108840" who="A06621-erato">
+            <speaker>Er.</speaker>
+            <p xml:id="A06621-e108850">This is monstrous, and either portends some mischief to the King, or unto the state confusion. Midas of Phrygia hath asses ears? It is unpossible, let us with speed to the King to know his resolution, for to some oracle he must send. Till his majesty be acquainted with this matter, we dare not root out the reeds; himself must both hear the sound, and guess at the reason.</p>
+          </sp>
+          <sp xml:id="A06621-e108860" who="A06621-sophronia">
+            <speaker>Sop.</speaker>
+            <p xml:id="A06621-e108870">Unfortunate Midas, that being so great a King, there should out of the earth spring so great a shame.</p>
+          </sp>
+          <sp xml:id="A06621-e108880" who="A06621-martius">
+            <pb facs="25"/>
+            <speaker>Martius.</speaker>
+            <p xml:id="A06621-e108890">It may be that his wishing for gold, being but dross of the world, is by all the gods accounted foolish, and so discovered out of the earth: for, a King to thirst for gold in steed of honour, to prefer heaps of worldly coin before triumphs in warlike conquests, was in my mind no princely mind.</p>
+          </sp>
+          <sp xml:id="A06621-e108900" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e108910">Let us not debate the cause, but seek to prevent the snares; for in my mind it foretelleth that which woundeth my mind. Let us in.</p>
+          </sp>
+          <stage xml:id="A06621-e108920">Exeunt.</stage>
+        </div>
+      </div>
+      <div n="5" type="act" xml:id="A06621-e108930">
+        <div n="1" type="scene" xml:id="A06621-e108940">
+          <head>Actus 5. Scaena 1.</head>
+          <stage xml:id="A06621-e108950">Mydas. Sophronia. Mellicrates. Martius.</stage>
+          <sp xml:id="A06621-e108960" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e108970">Sophronia, thou seest I am become a shame to the world, and a wonder. Mine ears glow. Mine ears? Ah miserable Midas, to have such ears as make thy checks blush, thy head monstrous, and thy heart desperate? Yet in blushing I am impudent, for I walk in the streets; in deformity I seem comely, for I have left off my tiara; and my heart the more heavy it is for grief, the more hope it conceiveth of recovery.</p>
+          </sp>
+          <sp xml:id="A06621-e108980" who="A06621-sophronia">
+            <speaker>Sophron.</speaker>
+            <p xml:id="A06621-e108990">Dread sovereign and loving sire, there are nine days past, and therefore the wonder is past; there are many years to come, and therefore a remedy to be hoped for. Though your cares belong, yet is there room left on your head for a diadem: though they resemble the ears of the dullest beast, yet should they not daunt the spirit of so great a King. The gods dally with men, Kings are no more: they disgrace Kings, lest they should be thought gods: sacrifice pleaseth them,<pb facs="25"/> so that if you know by the oracle what God wrought it, you shall by humble submission, by that God be released.</p>
+          </sp>
+          <sp xml:id="A06621-e109000" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e109010">Sophronia, I commend thy care and courage, but let me hear these reeds, that these loathsome ears may be glutted with the report, and that is as good as a remedy.</p>
+          </sp>
+          <sp xml:id="A06621-e109020" who="A06621-reeds">
+            <speaker>The redes.</speaker>
+            <p xml:id="A06621-e109030">Midas of Phrygia hath asses ears.</p>
+          </sp>
+          <sp xml:id="A06621-e109040" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e109050">Midas of Phrygia hath asses ears? So he hath, unhappy Midas. If these reeds sing my shame so loud, will men whisper it softly? No, all the world already rings of it and as impossible it is to stay the rumor, as to catch the wind in a net that bloweth in the air; or to stop the wind of all men's mouths that breathe out air. I will to Apollo, whose oracle must be my doom, and I fear me, my dishonour, because my doom was his, if Kings may disgrace gods. and gods they disgrace, when they forget their duties.</p>
+          </sp>
+          <sp xml:id="A06621-e109060" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e109070">What saith Midas? </p>
+          </sp>
+          <sp xml:id="A06621-e109080" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e109090">Nothing, but that Apollo must determine all, or Midas see ruin of all. To Apollo will I offer an ivory lute for his sweet harmony, and berries of bays as black as jet, for his love Daphne, pure simples for his physic, and continual incense for his prophesying.</p>
+          </sp>
+          <sp xml:id="A06621-e109100" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e109110">Apollo may discover some odd riddle, but not give the redress, for yet did I never hear that his oracles were without doubtfulness, nor his remedies without impossibilities. This superstition of yours is able to bring errors among the common sort, not ease to your discontented mind.</p>
+          </sp>
+          <sp xml:id="A06621-e109120" who="A06621-midas">
+            <speaker>My.</speaker>
+            <p xml:id="A06621-e109130">Dost thou not know Martius, that when Bacchus commanded me to bathe myself in Pactolus, thou thoughtedst it a mere mockery, before with thine<pb facs="26"/> eyes thou sawest the remedy.</p>
+          </sp>
+          <sp xml:id="A06621-e109140" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e109150">Ay, Bacchus gave the wish, and therefore was like also to give the remedy.</p>
+          </sp>
+          <sp xml:id="A06621-e109160" who="A06621-midas">
+            <speaker>My.</speaker>
+            <p xml:id="A06621-e109170">And who knows whether Apollo gave me these ears, and therefore may release the punishment. Well, reply not, for I will to Delphos: in the mean time let it be proclaimed, that if there be any so cunning, that can tell the reason of these reeds creaking, he shall have my daughter to his wife, or if she refuse it, a dukedom for his pains: and withal, that whosoever is so bold as to say that Midas hath asses ears, shall presently lose his.</p>
+          </sp>
+          <sp xml:id="A06621-e109180" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e109190">Dear father then go forwards, prepare for the sacrifice, and dispose of Sophronia as it best pleaseth you.</p>
+          </sp>
+          <sp xml:id="A06621-e109200" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e109210">Come let us in.</p>
+          </sp>
+          <stage xml:id="A06621-e109220">Exeunt.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A06621-e109230">
+          <head>Actus 5. Scaena 2.</head>
+          <stage xml:id="A06621-e109240">Licio. Petulus.</stage>
+          <sp xml:id="A06621-e109250" who="A06621-petulus">
+            <speaker>Pe.</speaker>
+            <p xml:id="A06621-e109260">What a rascal was motto to cozen us, and say there were thirty men in a room that would undo us, and when all came to all, they were but table-men.</p>
+          </sp>
+          <sp xml:id="A06621-e109270" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e109280">I and then to give us an inventory of all his goods, only to redeem the beard, but we will be even with him; and I'll be forsworn but I'll be revenged.</p>
+          </sp>
+          <sp xml:id="A06621-e109290" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109300">And here I vow by my conceald beard, if ever it chance to be discovered to the world, that it may make a pike devant, I will have it so sharp pointed, that it shall stab motto like a poynado.</p>
+          </sp>
+          <sp xml:id="A06621-e109310" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e109320">And I protest by these hairs on my head, which are but casualties, for alas who knows not how soon they are lost, autumn shaves like a razor: if these locks<pb facs="26"/> be rooted against wind and weather, spring and fall, I swear they shall not be lopped, till motto by my knavery be so bald, that I may write verses on his scalp. In witness whereof I eat this hair: now must thou Petulus kiss thy beard, for that was the book thou swarest by.</p>
+          </sp>
+          <sp xml:id="A06621-e109330" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109340">Nay I would I could come but to kiss my chin, which is as yet the cover of my book, but my word shall stand. Now let us read the inventory, we'll share it equally.</p>
+          </sp>
+          <sp xml:id="A06621-e109350" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e109360">What else?</p>
+          </sp>
+          <sp xml:id="A06621-e109370" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109380">An inventory of all mottoes movable bads and goods, as also of such debts as are owing him, with such household stuff as cannot be removed. Inprimis, in the bedchamber, one fowl wife, and five small children.</p>
+          </sp>
+          <sp xml:id="A06621-e109390" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e109400">I'll not share in that.</p>
+          </sp>
+          <sp xml:id="A06621-e109410" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109420">I am content, take thou all. These be his movable bads.</p>
+          </sp>
+          <sp xml:id="A06621-e109430" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e109440">And from me they shall be remoueables.</p>
+          </sp>
+          <sp xml:id="A06621-e109450" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109460">Item in the servant's chamber, two pair of cursed queans tongues.</p>
+          </sp>
+          <sp xml:id="A06621-e109470" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e109480">Tongues thou wouldst say.</p>
+          </sp>
+          <sp xml:id="A06621-e109490" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109500">Nay they pinch worse than tongs.</p>
+          </sp>
+          <sp xml:id="A06621-e109510" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e109520">They are movables I'll warrant.</p>
+          </sp>
+          <sp xml:id="A06621-e109530" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109540">Item, one pair of horns in the bride-chamber, on the bed's head.</p>
+          </sp>
+          <sp xml:id="A06621-e109550" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e109560">The beast's head, for motto is stuffed in the head, and these are among unmoveable goods.</p>
+          </sp>
+          <sp xml:id="A06621-e109570" who="A06621-petulus">
+            <speaker>Pe.</speaker>
+            <p xml:id="A06621-e109580">Well, foelix quem faciunt aliena pericula cautum, happy are they whom other men's horns do make to beware. Item, a broken pate owing me by one of the coal house, for notching his head like a chessboard. Take thou that, and I give thee all the rest of his debts.</p>
+          </sp>
+          <sp xml:id="A06621-e109590" who="A06621-petulus">
+            <pb facs="27"/>
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109600">Noli me tangere, I refuse the executorship, because I will not meddle with his desperate debts. Item, an hundred shrewd turns owing me by the pages in the court, because I will not trust them for trimming.</p>
+          </sp>
+          <sp xml:id="A06621-e109610" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e109620">That's due debt.</p>
+          </sp>
+          <sp xml:id="A06621-e109630" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109640">Well, because motto is poor, they shall be paid him cum recumbentibus. All the pages shall enter into recognizance, but ecce, Pipenetta chants it.</p>
+          </sp>
+          <stage xml:id="A06621-e109650">Enter Pipenetta singing.</stage>
+          <sp xml:id="A06621-e109660" who="A06621-pipenetta">
+            <speaker>Pipe.</speaker>
+            <p xml:id="A06621-e109670">Hey ho, would I were a witch, that I might be a Duchess.</p>
+          </sp>
+          <sp xml:id="A06621-e109680" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109690">I know not whether thy fortune is to be a Duchess, but sure I am thy face serves thee well for a witch, what's the matter?</p>
+          </sp>
+          <sp xml:id="A06621-e109700" who="A06621-pipenetta">
+            <speaker>Pipe.</speaker>
+            <p xml:id="A06621-e109710">The matter, marry 'tis proclaimed, that whosoever can tell the cause, and the reed's song, shall either have Sophronia to wife, or (If she refuse it) a dukedom for his wisdom. Besides, whosoever saith, that Midas hath asses ears, shall lose theirs.</p>
+          </sp>
+          <sp xml:id="A06621-e109720" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e109730">I'll be a Duke, I find honour to bud in my head, and methinks every joint of mine arms, from the shoulder to the little finger, says send for the herald. Mine arms are all armoury, gules, sables, azure, or, vert, pur, post, pare, etc.</p>
+          </sp>
+          <sp xml:id="A06621-e109740" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109750">And my heart is like a hearth where Cupid is making a fire, for Sophronia shall be my wife: methinks Venus and nature stand with each of them a pair of bellows, the one cooling my low birth, the other kindling my lofty affections.</p>
+          </sp>
+          <sp xml:id="A06621-e109760" who="A06621-pipenetta">
+            <speaker>Pipe.</speaker>
+            <p xml:id="A06621-e109770">Apollo will help me because I can sing.</p>
+          </sp>
+          <sp xml:id="A06621-e109780" who="A06621-licio">
+            <speaker>Li.</speaker>
+            <p xml:id="A06621-e109790">Mercury me, because I can lie.</p>
+          </sp>
+          <sp xml:id="A06621-e109800" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109810">All the gods me, because I can lie, sing, swear, and love. But soft, here comes motto, now shall we have<pb facs="27"/> a fit time to be revenged, if by device we can make him say, Midas hath asses ears.</p>
+          </sp>
+          <stage xml:id="A06621-e109820">Enter motto.</stage>
+          <sp xml:id="A06621-e109830" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e109840">Let us not seem to be angry about the inventory, and you shall see my wit to be the hangman for his tongue.</p>
+          </sp>
+          <sp xml:id="A06621-e109850" who="A06621-pipenetta">
+            <speaker>Pip.</speaker>
+            <p xml:id="A06621-e109860">Why fools, hath a barber a tongue?</p>
+          </sp>
+          <sp xml:id="A06621-e109870" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109880">We'll make him have a tongue, that his teeth that look like a comb shall be the scissors to cut it off.</p>
+          </sp>
+          <sp xml:id="A06621-e109890" who="A06621-pipenetta">
+            <speaker>Pip.</speaker>
+            <p xml:id="A06621-e109900">I pray let me have the odd ends. I fear nothing so much as to be tongue tawed.</p>
+          </sp>
+          <sp xml:id="A06621-e109910" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e109920">Thou shalt have all the shavings, and then a woman's tongue imped with a barber's, will prove a razor or a razor.</p>
+          </sp>
+          <sp xml:id="A06621-e109930" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e109940">How now motto, what all a mort?</p>
+          </sp>
+          <sp xml:id="A06621-e109950" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e109960">I am as melancholy as a cat.</p>
+          </sp>
+          <sp xml:id="A06621-e109970" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e109980">Melancholy? marry gup, is melancholy a word for a barber's mouth? thou shouldst say, heavy, dull, and doltish: melancholy is the crest of courtier's arms, and now every base companion, being in his mumble-fumbles, says he is melancholy.</p>
+          </sp>
+          <sp xml:id="A06621-e109990" who="A06621-petulus">
+            <speaker>Petul.</speaker>
+            <p xml:id="A06621-e110000">Motto, thou shouldst say thou art lumpish. If thou encroach upon our courtly terms, we'll trounce thee: belike if thou shouldst spit often, thou wouldst call it the rheum. Motto, in men of reputation and credit it is the rheum; in such mechanical mushrooms, it is a catarrh, a pose, the water evil. You were best wear a velvet patch on your temples too.</p>
+          </sp>
+          <sp xml:id="A06621-e110010" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110020">What a world it is to see eggs forwarder than cocks? these infants are as cunning in diseases, as I that have run them over all, backward and forward. I tell you boys, it is melancholy that now troubleth me.</p>
+          </sp>
+          <sp xml:id="A06621-e110030" who="A06621-dello">
+            <pb facs="28"/>
+            <speaker>Dell.</speaker>
+            <p xml:id="A06621-e110040">My master could tickle you with diseases, and that old ones, that have continued in his ancestors bones these three hundred years. He is the last of the family that is left uneaten.</p>
+          </sp>
+          <sp xml:id="A06621-e110050" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110060">What meanst thou Dello? </p>
+          </sp>
+          <sp xml:id="A06621-e110070" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e110080">He means you are the last of the stock alive, the rest the worms have eaten.</p>
+          </sp>
+          <sp xml:id="A06621-e110090" who="A06621-dello">
+            <speaker>Dell.</speaker>
+            <p xml:id="A06621-e110100">A pox of those saucy worms, that eat men before they be dead.</p>
+          </sp>
+          <sp xml:id="A06621-e110110" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e110120">But tell us motto, why art thou sad?</p>
+          </sp>
+          <sp xml:id="A06621-e110130" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110140">Because all the court is sad.</p>
+          </sp>
+          <sp xml:id="A06621-e110150" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e110160">Why are they sad in court?</p>
+          </sp>
+          <sp xml:id="A06621-e110170" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110180">Because the King hath a pain in his ears.</p>
+          </sp>
+          <sp xml:id="A06621-e110190" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e110200">Belike it is the wens.</p>
+          </sp>
+          <sp xml:id="A06621-e110210" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110220">It may be, for his ears are swollen very big.</p>
+          </sp>
+          <sp xml:id="A06621-e110230" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e110240">Ten to one motto knows of the ass's ears.</p>
+          </sp>
+          <sp xml:id="A06621-e110250" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e110260">If he know it, we shall: for it is as hard for a barber to keep a secret in his mouth, as a burning coal in his hand. Thou shalt see me wring it out by wit. Motto, 'twas told me that the King will discharge you of your office, because you cut his ear when you last trimmed him.</p>
+          </sp>
+          <sp xml:id="A06621-e110270" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110280">'Tis a lie; and yet if I had, he might well spare an inch or two.</p>
+          </sp>
+          <sp xml:id="A06621-e110290" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e110300">It will out, I feel him coming.</p>
+          </sp>
+          <sp xml:id="A06621-e110310" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e110320">Master, take heed, you will blab allanone, these wags are crafty.</p>
+          </sp>
+          <sp xml:id="A06621-e110330" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110340">Let me alone.</p>
+          </sp>
+          <sp xml:id="A06621-e110350" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e110360">Why motto, what difference between the King's ears, and thine?</p>
+          </sp>
+          <sp xml:id="A06621-e110370" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110380">As as between an ass's ears and mine.</p>
+          </sp>
+          <sp xml:id="A06621-e110390" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e110400">O, motto is modest; to mitigate the matter, he calls his own ears, asses ears.</p>
+          </sp>
+          <sp xml:id="A06621-e110410" who="A06621-motto">
+            <pb facs="28"/>
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110420">Nay, I mean the Kings are ass's ears.</p>
+          </sp>
+          <sp xml:id="A06621-e110430" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e110440">Treason, treason!</p>
+          </sp>
+          <sp xml:id="A06621-e110450" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e110460">I told you master, you have made a fair hand; for now you have made your lips scissors to cut off your ears.</p>
+          </sp>
+          <sp xml:id="A06621-e110470" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110480">Perij, unless you pity me, motto is in a pit.</p>
+          </sp>
+          <sp xml:id="A06621-e110490" who="A06621-petulus">
+            <speaker>Pe.</speaker>
+            <p xml:id="A06621-e110500">Nay motto, treason is a worse pain than toothache.</p>
+          </sp>
+          <sp xml:id="A06621-e110510" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e110520">Now motto, thou knowest thine ears are ours to command.</p>
+          </sp>
+          <sp xml:id="A06621-e110530" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110540">Your servants, or handmaidens.</p>
+          </sp>
+          <sp xml:id="A06621-e110550" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e110560">Then will I lead my maid by the hand.</p>
+          </sp>
+          <stage xml:id="A06621-e110570">He pulls him by the ears.</stage>
+          <sp xml:id="A06621-e110580" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110590">Out villain, thou wring'st too hard.</p>
+          </sp>
+          <sp xml:id="A06621-e110600" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e110610">Not so hard as he bit me.</p>
+          </sp>
+          <sp xml:id="A06621-e110620" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110630">Thou seest boy we are both mortal. I enjoy mine ears, but durante placito; nor thou thy finger, but favente dento. </p>
+          </sp>
+          <sp xml:id="A06621-e110640" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e110650">Yea motto, hast thou latin?</p>
+          </sp>
+          <sp xml:id="A06621-e110660" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110670">Alas, he that hath drawn so many teeth, and never asked latin for a tooth, is ill brought up.</p>
+          </sp>
+          <sp xml:id="A06621-e110680" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e110690">Well motto, let us have the beard, without covin fraud, or delay, at one entire payment, and thou shalt scape a payment.</p>
+          </sp>
+          <sp xml:id="A06621-e110700" who="A06621-motto">
+            <speaker>Mot.</speaker>
+            <p xml:id="A06621-e110710">I protest by scissors, brush and comb, basin, ball and apron, by razor, ear-pike and rubbing clothes, and all the tria sequuntur triaes in our secret occupation (For you know it is no blabbing art) that you shall have the beard, in manner and form following. Not only the golden beard and every hair, (Though it be not hair) but a dozen of beards, to stuff two dozen of cushions.</p>
+          </sp>
+          <sp xml:id="A06621-e110720" who="A06621-licio">
+            <speaker>Ly.</speaker>
+            <p xml:id="A06621-e110730">Then they be big ones.</p>
+          </sp>
+          <sp xml:id="A06621-e110740" who="A06621-dello">
+            <speaker>Del.</speaker>
+            <p xml:id="A06621-e110750">They be half a yard broad, and a nail, three quarters long, and a foot thick; so sir shall you<pb facs="29"/> find them stuff enough, and soft enough. All my mistress lines that she dries her clothes on, are made only of mustachio stuff. And if I durst tell the truth, as lusty as I am here, I lie upon a bed of beards; a bot's of their bristles, and they that owe them, they are harder than flocks.</p>
+          </sp>
+          <sp xml:id="A06621-e110760" who="A06621-petulus">
+            <speaker>Pet.</speaker>
+            <p xml:id="A06621-e110770">A fine discourse: well motto, we give thee mercy, but we will not lose the beard. Remember now our inventory. Item, we will not let thee go out of our hands, till we have the beard in our hands.</p>
+          </sp>
+          <sp xml:id="A06621-e110780" who="A06621-motto">
+            <speaker>Mott.</speaker>
+            <p xml:id="A06621-e110790">Then follow.</p>
+          </sp>
+          <stage xml:id="A06621-e110800">Exeunt.</stage>
+        </div>
+        <div n="3" type="scene" xml:id="A06621-e110810">
+          <head>Actus 5. Scaen. 3.</head>
+          <stage xml:id="A06621-e110820">Mydas. Sophronia. Mellicrates. Martius.</stage>
+          <sp xml:id="A06621-e110830" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e110840">This is Delphos. Sacred Apollo, whose oracles be all divine, though doubtful: answer poor Midas, and pity him.</p>
+          </sp>
+          <sp xml:id="A06621-e110850" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e110860">I marvel there is no answer.</p>
+          </sp>
+          <sp xml:id="A06621-e110870" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e110880">Fond Midas, how canst thou ask pity of him whom thou hast so much abused; or why dost thou abuse the world, both to seem ignorant in not acknowledging an offence; and impudent, so openly to crave pardon. Apollo will not answer, but Midas must not cease. Apollo, divine Apollo, Midas hath asses ears, yet let pity sink into thine ears, and tell when he shall be free from this shame, or what may mitigate his sin?</p>
+          </sp>
+          <sp xml:id="A06621-e110890" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e110900">Tush, Apollo is tuning his pipes, or at barleybreak with Daphne, or assaying on some shepherd's coat, or taking measure of a serpent's skin. Were I Midas, I would rather cut these ears off close from my head, than stand whimpering before such a blind God.</p>
+          </sp>
+          <sp xml:id="A06621-e110910" who="A06621-midas">
+            <speaker>My.</speaker>
+            <p xml:id="A06621-e110920">Thou art barbarous not valiant. God's must be<pb facs="29"/> entreated, not commanded: thou wouldst quench fire with a sword, and add to my shame (Which is more than any prince can endure) thy rudeness, (Which is more than any sensible creature would follow.) Divine Apollo what shall become of Midas? Accept this lute, these berries, these simples, these tapers; if Apollo take any delight in music, in Daphne, in physic, in eternity.</p>
+            <l xml:id="A06621-e110930">When pan Apollo in music shall excel,<note anchored="true" place="margin" xml:id="A06621-e110940">Apollo his oracle</note></l>
+            <l xml:id="A06621-e110950">Midas of Phrygia shall lose his ass's ears;</l>
+            <l xml:id="A06621-e110960">Pan did Apollo in music far excel,</l>
+            <l xml:id="A06621-e110970">Therefore King Midas weareth asses ears:</l>
+            <l xml:id="A06621-e110980">Unless he shrink his stretching hand from Lesbos,</l>
+            <l xml:id="A06621-e110990">His ears in length, at length shall reach to Delphos. </l>
+          </sp>
+          <sp xml:id="A06621-e111000" who="A06621-melancholic">
+            <speaker>Melancholic</speaker>
+            <p xml:id="A06621-e111010">It were good to expound these oracles, that the learned men in Phrygia were assembled, otherwise the remedy will be as impossible to be had, as the cause to be sifted.</p>
+          </sp>
+          <sp xml:id="A06621-e111020" who="A06621-martius">
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e111030">I foresaw some old saw, which should be doubtful. Who would gad to such gods, that must be honoured if they speak without sense: and the oracle wondered at, as though it were above sense?</p>
+          </sp>
+          <sp xml:id="A06621-e111040" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e111050">No more Martius, I am the learnedst in Phrygia to interpret these oracles and though shame hath hitherto caused me to conceal it, now I must unfold it by necessity. Thus destiny bringeth me, not only to be cause of all my shame, but reporter. Thou Sophronia, and you my lords, harken; when I had bathed my self in Pactolus, and saw my wish to float in the waves, I wished the waves to overflow my body, so melancholy my fortune made me, so mad my folly: yet by hunting I thought to ease my heart. And coming at last to the hill Tmolus, I perceived Apollo and Pan contending for excellency in music: among nymphs they required also my judgement. I (Whom the loss of gold made discontent, and the possessing desperate) either<pb facs="30"/> dulled with the humours of my weak brain, or deceived by thickness of my deaf ears, preferred the harsh noise of Pan's pipe, before the sweet stroke of Apollo's lute, which caused Phoebus in justice (As I now confess, and then as I saw in anger) to set these ears on my head, that have wrung so many tears from mine eyes. For stretching my hands to Lesbos, I find that all the gods have spurned at my practises, and those islands scorned them. My pride the gods disdain; my policy men: my mines have been emptied by soldiers, my soldiers spoilt by wars, my wars without success, because usurping, my usurping without end, because my ambition above measure. I will therefore yield myself to Bacchus, and acknowledge my wish to be vanity. to Apollo, and confess my judgement to be foolish: to Mars, and say my wars are unjust: to Diana, and tell my affection hath been unnatural. And I doubt not, what a god hath done to make me know myself, all the gods will help to undo, that I may come to myself.</p>
+          </sp>
+          <sp xml:id="A06621-e111060" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e111070">Is it possible that Midas should be so overshot in judgement? Unhappy Midas, whose wits melt with his gold, and whose gold is consumed with his wits.</p>
+          </sp>
+          <sp xml:id="A06621-e111080" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e111090">What talketh Sophronia to herself?</p>
+          </sp>
+          <sp xml:id="A06621-e111100" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e111110">Nothing, but that since Midas hath confessed his fault to us, he also acknowledge it to Apollo. </p>
+          </sp>
+          <sp xml:id="A06621-e111120" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e111130">I will Sophronia. Sacred Apollo, things passed cannot be recalled, repented they may be: behold, Midas not only submitting himself to punishment, but confessing his peevishness, being glad for shame to call that peevishness, which indeed was folly. Whatsoever Apollo shall command, Midas will execute.</p>
+          </sp>
+          <sp xml:id="A06621-e111140" who="A06621-apollo">
+            <speaker>Apollo.</speaker>
+            <p xml:id="A06621-e111150">Then attend Midas. I accept thy submission, and sacrifice, so as yearly at this temple thou offer sacrifice<pb facs="30"/> in submission: withal, take Apollo's council, which if thou scorn, thou shalt find thy destiny. I will not speak in riddles, all shall be plain, because thou art dull, but all certain, if thou be obstinate.</p>
+            <l xml:id="A06621-e111160">Weigh not in one balance gold and justice. </l>
+            <l xml:id="A06621-e111170">With one hand wage not war and peace. </l>
+            <l xml:id="A06621-e111180">Let thy head be glad of one crown. </l>
+            <l xml:id="A06621-e111190">And take care to keep one friend. </l>
+            <l xml:id="A06621-e111200">The friend that thou wouldst make thy foe. </l>
+            <l xml:id="A06621-e111210">The kingdom thou wouldst make the world</l>
+            <l xml:id="A06621-e111220">The hand that thou dost arm with force. </l>
+            <l xml:id="A06621-e111230">The gold that thou dost think a god</l>
+            <l xml:id="A06621-e111240">Shall conquer, fall, shrink short, be common:</l>
+            <l xml:id="A06621-e111250">With force, with pride, with fear, with traffic. </l>
+            <l xml:id="A06621-e111260">If this thou like, shake off an ass's ears:</l>
+            <l xml:id="A06621-e111270">If not, for ever shake an ass's ears. </l>
+            <l xml:id="A06621-e111280">Apollo will not reply. </l>
+          </sp>
+          <sp xml:id="A06621-e111290" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e111300">It may be Sophronia, that neither you, nor any else, understand Apollo, because none of you have the heart of a King: but my thoughts expound my fortunes, and my fortunes hang upon my thoughts. That great Apollo, that joined to my head asses ears, hath put into my heart a lion's mind. I see that by obscure shadows, which you cannot discern in fresh colours. Apollo in the depth of his dark answer, is to me the glistering of a bright sun. I perceive (And yet not too late) that Lesbos will not be touched by gold, by force it cannot: that the gods have pitched it out of the world, as not to be controlled by any in the world. Though my hand be gold, yet I must not think to span over the main ocean. Though my soldiers be valiant, I must not therefore think my quarrels just. There is no way to nail the crown of Phrygia fast to my daughter's head, but in letting the crowns of others sit in quiet on theirs,</p>
+          </sp>
+          <sp xml:id="A06621-e111310" who="A06621-martius">
+            <pb facs="31"/>
+            <speaker>Mar.</speaker>
+            <p xml:id="A06621-e111320">Midas? </p>
+          </sp>
+          <sp xml:id="A06621-e111330" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e111340">How darest thou reply seeing me resolved? thy counsel hath spilt more blood than all my soldiers lances, let none be so hardy as to look to cross me. Sacred Apollo; if sacrifice yearly at thy temple, and submission hourly in mine own court, if fulfilling thy counsel, and correcting my councillors, may shake off these asses ears, I here before thee vow to shake off all envies abroad, and at home all tyranny.</p>
+          </sp>
+          <stage xml:id="A06621-e111350">The ears fall off.</stage>
+          <sp xml:id="A06621-e111360" who="A06621-sophronia">
+            <speaker>Soph.</speaker>
+            <p xml:id="A06621-e111370">Honoured be Apollo, Midas is restored.</p>
+          </sp>
+          <sp xml:id="A06621-e111380" who="A06621-midas">
+            <speaker>Myd.</speaker>
+            <p xml:id="A06621-e111390">Fortunate Midas, that feelst thy head lightened of dull ears, and thy heart of deadly sorrows. Come my lords, let us repair to our palace, in which Apollo shall have a stately statue erected: every month will we solemnize there a feast, and here every year a sacrifice. Phrygia shall be governed by gods, not men, jest the gods make beasts of men. So my counsel of war shall not make conquests in their own conceits, nor my councillors in peace make me poor, to enrich themselves. So blessed be Apollo, quiet be Lesbos, happy be Midas: and to begin this solemnity, let us sing to Apollo, for, so much as music, nothing can content Apollo. </p>
+          </sp>
+          <stage xml:id="A06621-e111400">They sing all.</stage>
+          <stage xml:id="A06621-e111410">Exeunt.</stage>
+        </div>
+        <trailer xml:id="A06621-e111420">Finis.</trailer>
+        <pb facs="31"/>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A06621"><item xml:id="A06621-petulus" n="116">
+    <seg type="character_name">A06621-petulus</seg>
+    <seg type="speech_count">116</seg>
+  </item>
+  <item xml:id="A06621-licio" n="99">
+    <seg type="character_name">A06621-licio</seg>
+    <seg type="speech_count">99</seg>
+  </item>
+  <item xml:id="A06621-midas" n="37">
+    <seg type="character_name">A06621-midas</seg>
+    <seg type="speech_count">37</seg>
+  </item>
+<item xml:id="A06621-motto" n="36">
+    <seg type="character_name">A06621-motto</seg>
+    <seg type="speech_count">36</seg>
+  </item>
+  <item xml:id="A06621-sophronia" n="29">
+    <seg type="character_name">A06621-sophronia</seg>
+    <seg type="speech_count">29</seg>
+  </item>
+  <item xml:id="A06621-pipenetta" n="29">
+    <seg type="character_name">A06621-pipenetta</seg>
+    <seg type="speech_count">29</seg>
+  </item>
+  <item xml:id="A06621-dello" n="21">
+    <seg type="character_name">A06621-dello</seg>
+    <seg type="speech_count">21</seg>
+  </item>
+  <item xml:id="A06621-martius" n="20">
+    <seg type="character_name">A06621-martius</seg>
+    <seg type="speech_count">20</seg>
+  </item>
+  <item xml:id="A06621-melancholic" n="17">
+    <seg type="character_name">A06621-melancholic</seg>
+    <seg type="speech_count">17</seg>
+  </item>
+  <item xml:id="A06621-eristus" n="15">
+    <seg type="character_name">A06621-eristus</seg>
+    <seg type="speech_count">15</seg>
+  </item>
+  <item xml:id="A06621-apollo" n="14">
+    <seg type="character_name">A06621-apollo</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A06621-huntsman" n="12">
+    <seg type="character_name">A06621-huntsman</seg>
+    <seg type="speech_count">12</seg>
+  </item>
+  <item xml:id="A06621-suavia" n="10">
+    <seg type="character_name">A06621-suavia</seg>
+    <seg type="speech_count">10</seg>
+  </item>
+  <item xml:id="A06621-celia" n="9">
+    <seg type="character_name">A06621-celia</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A06621-minutius" n="8">
+    <seg type="character_name">A06621-minutius</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A06621-pan" n="8">
+    <seg type="character_name">A06621-pan</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A06621-menalcas" n="5">
+    <seg type="character_name">A06621-menalcas</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A06621-erato" n="4">
+    <seg type="character_name">A06621-erato</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A06621-corin" n="4">
+    <seg type="character_name">A06621-corin</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A06621-bacchus" n="4">
+    <seg type="character_name">A06621-bacchus</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A06621-camilla" n="4">
+    <seg type="character_name">A06621-camilla</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A06621-amerula" n="3">
+    <seg type="character_name">A06621-amerula</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A06621-amintas" n="3">
+    <seg type="character_name">A06621-amintas</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A06621-mellacrites" n="3">
+    <seg type="character_name">A06621-mellacrites</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A06621-yyyy_2" n="2">
+    <seg type="character_name">A06621-yyyy_2</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A06621-unassigned" n="2">
+    <seg type="character_name">A06621-unassigned</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A06621-reeds" n="2">
+    <seg type="character_name">A06621-reeds</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A06621-driapon" n="2">
+    <seg type="character_name">A06621-driapon</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A06621-thia" n="1">
+    <seg type="character_name">A06621-thia</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A06621-yyyy_3" n="1">
+    <seg type="character_name">A06621-yyyy_3</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A06621-yyyy_1" n="1">
+    <seg type="character_name">A06621-yyyy_1</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A06621-oracle" n="1">
+    <seg type="character_name">A06621-oracle</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

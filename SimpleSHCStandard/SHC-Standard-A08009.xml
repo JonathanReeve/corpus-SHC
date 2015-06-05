@@ -1,0 +1,2114 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A08009">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Summer's Last Will and Testament <date type="creation_date">1592</date></title>
+        <author>Nash, Thomas</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Nicole Sheriko</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A08009.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">A pleasant comedie, called Summers last will and testament. Written by Thomas Nash.</title>
+            <author>Nash, Thomas, 1567-1601.</author>
+          </titleStmt>
+          <extent>30 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 May (TCP phase 1)</date>
+            <idno type="marc">99845698</idno>
+            <idno type="stc">STC (2nd ed.) 18376.</idno>
+            <idno type="stc">Greg, I, 173.</idno>
+            <idno type="vid">10617</idno>
+            <idno type="DLPS">A08009</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">A pleasant comedie, called Summers last will and testament. Written by Thomas Nash.</title>
+            <title type="alt">Summer's last will and testament</title>
+            <title type="alt">Summers last will and testament.</title>
+            <author>Nash, Thomas, 1567-1601.</author>
+          </titleStmt>
+          <extent>[60] p.</extent>
+          <publicationStmt>
+            <publisher>By Simon Stafford, for Walter Burre,</publisher>
+            <pubPlace>Imprinted at London :</pubPlace>
+            <date>1600.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Mostly in verse.</p>
+            </note>
+            <note>
+              <p>Signatures: A2 B-H4 I2 (-C3,4).</p>
+            </note>
+            <note>
+              <p>The first leaf is blank.</p>
+            </note>
+            <note>
+              <p>Running title reads: Summers last will and testament.</p>
+            </note>
+            <note>
+              <p>Variant 1: printer's name misspelled "Water".</p>
+            </note>
+            <note>
+              <p>Sheet F is missigned D; first leaf has the "D" erased and "F" stamped in. Variant 2: this correction not made.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Sommers, William, -- d. 1560 -- Drama.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A08009-e100010">
+    <front xml:id="A08009-e100020">
+      <div type="title_page" xml:id="A08009-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A08009-e100040">A pleasant comedy, called Summer's last will and testament. </p>
+        <p xml:id="A08009-e100050">Written by Thomas Nash. </p>
+        <p xml:id="A08009-e100060">Imprinted at London by Simon Stafford, for water burr. 1600.</p>
+      </div>
+    </front>
+    <body xml:id="A08009-e100070">
+      <div type="text" xml:id="A08009-e100080">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>Summers last will and testament.</head>
+        <sp xml:id="A08009-e100090" who="A08009-missing">
+          <stage xml:id="A08009-e100100">Enter Will Summer's in his fool's coat but half on, coming out.</stage>
+        </sp>
+        <p xml:id="A08009-e100110">Noctem peccatis, et fraudibus obiice nubem. There is no such fine time to play the knave in, as the night. I am a goose or a ghost at least; for what with turmoil of getting my fool's apparel, and care of being perfect, I am sure I have not yet supped tonight . Will Summer's ghost I should be, come to present you with Summer's last will, and testament. Be it so, if my cousin Ned will lend me his chain and his fiddle. Other stately paced prologues use to attire themselves within: I that have a toy in my head, more than ordinary, and use to go without money, without garters, without girdle, without a hatband, without points to my hose, without a knife to my dinner, and make so much use of this word without, in every thing, will here dress me without. Dick Huntley cries, begin, begin: and all the whole house, for shame come away; when I had my things but now brought me out of the laundry. God forgive me, I did not see my lord before. I'll set a good face on it, as though what I had talked idly all this while, were my part. So it is, boni viri, that one fool presents another; and I a fool by nature, and by art, do speak to you in the person of the idiot our playmaker. He like a fop and an ass, must be making himself a public laughing stock, and have no thank for his labour; where other magisterij, whose invention is far more exquisite, are content to sit still, and do nothing. I'll show you what a<pb facs="3"/> scurvy prologue he had made me in an old vain of similitudes: if you be good fellows, give it the hearing, that you may judge of him thereafter.</p>
+        <p xml:id="A08009-e100120">The prologue.</p>
+        <p xml:id="A08009-e100130">At a solemn feast of the triumuiri in Rome, it was seen and observed, that the birds ceased to sing, and sat solitary on the house tops, by reason of the sight of a painted serpent set openly to view. So fares it with us novices, that here betray our imperfections: we, afraid to look on the imaginary serpent of envy, painted in men's affections, have ceased to tune any music of mirth to your ears this twelvemonth, thinking, that as it is the nature of the serpent to hiss: so childhood and ignorance would play the goslings, contemning, and condemning what they understood not. Their censures we weigh not, whose senses are not yet unswaddled. The little minutes will be continually striking, though no man regard them. Whelps will bark, before they can see, and strive to bite, before they have teeth. Politianus speaketh of a beast, who, while he is cut on the table, drinketh, and represents the motions and voices of a living creature. Such like foolish beasts are we, who, whilst we are cut, mocked, and flouted at, in every man's common talk, will notwithstanding proceed to shame ourselves, to make sport. No man pleaseth all, we seek to please one. Didymus wrote four thousand books, or as some say, six thousand, of the art of grammar. Our author hopes, it may be as lawful for him to write a thousand lines of as light a subject. Socrates (Whom the oracle pronounced the wisest man of Greece) sometimes danced. Scipio and Lelius by the seaside played at pebble-stone. Semel insanivimus omnes. Every man cannot, with Archimedes, make a heaven of brass, or dig gold out of the iron mines of the law. Such odd trifles, as mathematicians experiments be, artificial flies to hang in the air by themselves, dancing balls, an eggshell that shall climb up to the top of a spear, fiery breathing gores, poetae noster professeth not to make. Placeat sibi quisque heebit. What's a fool but his babble? Deep reaching wits, here is no deep<pb facs="3"/> stream for you to angle in. Moralisers, you that wrest a never meant meaning, out of every thing, applying all things to the present time, keep your attention for the common stage: for here are no quips in characters for you to read. Vain glozers, gather what you will. Spite, spell backwards, what thou canst. As the Parthians fight, flying away: so will we prate and talk, but stand to nothing that we say.</p>
+        <p xml:id="A08009-e100140">How say you, my masters, do you not laugh at him for a coxcomb? Why, he hath made a prologue longer than his play: nay, 'tis no play neither, but a show. I'll be sworn, the fig of Roland's godson, is a giant in comparison of it. What can be made of Summer's last will and testament? Such another thing, as Cyllian of Brainford's will, where she bequeathed a score of farts amongst her friends. Forsooth, because the plague reigns in most places in this latter end of summer, summer must come in sick: he must call his officers to account, yield his throne to autumn, make winter his executor, with tittle tattle Tom boy: God give you good night in Watling street. I care not what I say now: for I play no more than you hear; and some of that you heard to (By your leave) was extempore. He were as good have let me had the best part: for I'll be revenged on him to the uttermost, in this person of will summer, which I have put on to play the prologue, and mean not to put off, till the play be done. I'll sit as a chorus, and flout the actors and him at the end of every scene: I know they will not interrupt me, for fear of marring of all: but look to your cues, my masters; for I intend to play the knave in cue, and put you besides all your parts, if you take not the better heed. Actors, you rogues, come away, clear your throats, blow your noses, and wipe your mouths ere you enter, that you may take no occasion to spit or to cough, when you are non plus. And this I bar over and besides, that none of you stroke your beards, to make action, play with your codpiece points, or stand fumbling on your button, when you know not how to bestow your fingers. Serve God, and act cleanly; a fit of mirth, and an old song first, if you will.</p>
+        <sp xml:id="A08009-e100150" who="A08009-missing">
+          <stage xml:id="A08009-e100160"><pb facs="4"/>Enter summer, leaning on autumns and winter's shoulders, and attended on with a train of satyrs, and wood-nymphs, singing.</stage>
+          <lg xml:id="A08009-e100170">
+            <l xml:id="A08009-e100180">Fair summer droops, droop men and beasts therefore:</l>
+            <l xml:id="A08009-e100190">So fair a summer look for never more. </l>
+            <l xml:id="A08009-e100200">All good things vanish, less than in a day,</l>
+            <l xml:id="A08009-e100210">Peace, plenty, pleasure suddenly decay. </l>
+            <l xml:id="A08009-e100220">Go not yet away bright soul of the sad year. </l>
+            <l xml:id="A08009-e100230">The earth is hell, when thou leanest to appear. </l>
+            <l xml:id="A08009-e100240">What, shall those flowers that decked thy garland erst,</l>
+            <l xml:id="A08009-e100250">Upon thy grave be wastefully dispersed? </l>
+            <l xml:id="A08009-e100260">O trees, consume your sap in sorrow's source. </l>
+            <l xml:id="A08009-e100270">Streams, turn to tears your tributary course. </l>
+            <l xml:id="A08009-e100280">Go not yet hence, bright soul of the sad year. </l>
+            <l xml:id="A08009-e100290">The earth is hell, when thou leavest to appear. </l>
+          </lg>
+        </sp>
+        <stage xml:id="A08009-e100300">The satyrs and wood-nymphs go out singing, and leave summer and winter and autumn on the stage.</stage>
+        <sp xml:id="A08009-e100310" who="A08009-will_summer">
+          <speaker>Will. Summer.</speaker>
+          <p xml:id="A08009-e100320">A couple of pretty boys, if they would wash their faces, and were well breeched an hour or two. The rest of the green men have reasonable voices, good to sing catches, or the great jowben by the fire's side, in a winter's evening. But let us hear what summer can say for himself, why he should not be hissed at.</p>
+        </sp>
+        <sp xml:id="A08009-e100330" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e100340">What pleasure always lasts: no joy endures:</l>
+          <l xml:id="A08009-e100350">Summer I was, I am not as I was:</l>
+          <l xml:id="A08009-e100360">Harvest and age have whitened my green head:</l>
+          <l xml:id="A08009-e100370">On autumn now and winter must I lean. </l>
+          <l xml:id="A08009-e100380">Needs must he fall, whom none but foes uphold. </l>
+          <l xml:id="A08009-e100390">Thus must the happiest man have his black day. </l>
+          <l xml:id="A08009-e100400">Omnibus una manes nox, et calcanda semel via laethi. </l>
+          <l xml:id="A08009-e100410">This month have I lain languishing a-bed ,</l>
+          <l xml:id="A08009-e100420">Looking each hour to yield my life, and throne;</l>
+          <l xml:id="A08009-e100430">And died I had in deed unto the earth,</l>
+          <l xml:id="A08009-e100440">But that Eliza England's beauteous Queen,</l>
+          <l xml:id="A08009-e100450">On whom all seasons prosperously attend,</l>
+          <l xml:id="A08009-e100460">Forbade the execution of my fate,</l>
+          <l xml:id="A08009-e100470"><pb facs="4"/> until her joyful progress was expired. </l>
+          <l xml:id="A08009-e100480">For her doth summer live, and linger here,</l>
+          <l xml:id="A08009-e100490">And wisheth long to live to her content:</l>
+          <l xml:id="A08009-e100500">But wishes are not had when they wish well. </l>
+          <l xml:id="A08009-e100510">I must depart, my death-day is set down:</l>
+          <l xml:id="A08009-e100520">To these two must I leave my wheaten crown. </l>
+          <l xml:id="A08009-e100530">So unto unthrifts rich men leave their lands,</l>
+          <l xml:id="A08009-e100540">Who in an hour consume long labours gains. </l>
+          <l xml:id="A08009-e100550">True is it that divinest Sidney sung,</l>
+          <l xml:id="A08009-e100560">Oh, he is marred, that is for others made. </l>
+          <l xml:id="A08009-e100570">Come near, my friends, for I am near my end. </l>
+          <l xml:id="A08009-e100580">In presence of this honourable train,</l>
+          <l xml:id="A08009-e100590">Who love me (For I patronize their sports)</l>
+          <l xml:id="A08009-e100600">Mean I to make my final testament:</l>
+          <l xml:id="A08009-e100610">But first I'll call my officers to count,</l>
+          <l xml:id="A08009-e100620">And of the wealth I gave them to dispose,</l>
+          <l xml:id="A08009-e100630">Know what is left. I may know what to give</l>
+          <l xml:id="A08009-e100640">Vertumnus then, that turnst the year about. </l>
+          <l xml:id="A08009-e100650">Summon them one by one to answer me,</l>
+          <l xml:id="A08009-e100660">First Ver, the spring, unto whose custody</l>
+          <l xml:id="A08009-e100670">I have committed more than to the rest:</l>
+          <l xml:id="A08009-e100680">The choice of all my fragrant meads and flowers,</l>
+          <l xml:id="A08009-e100690">And what delights soe'er nature affords. </l>
+        </sp>
+        <sp xml:id="A08009-e100700" who="A08009-vertumnus">
+          <speaker>Vertum.</speaker>
+          <p xml:id="A08009-e100710">I will, my lord. Ver, lusty Ver, by the name of lusty Ver, come into the court, lose a mark in issues.</p>
+          <stage xml:id="A08009-e100720">Enter Ver with his train, overlaid with suits of green moss, representing short grass, singing.</stage>
+          <lg xml:id="A08009-e100730">
+            <head>The song.</head>
+            <l xml:id="A08009-e100740">Spring, the sweet spring, is the years pleasant King,</l>
+            <l xml:id="A08009-e100750">Than blooms each thing, than maids dance in a ring,</l>
+            <l xml:id="A08009-e100760">Cold doth not sting, the pretty birds do sing,</l>
+            <l xml:id="A08009-e100770">Cuckoo, jug, jug, pu we, to witta woo. </l>
+            <l xml:id="A08009-e100780">The palm and may make country houses gay. </l>
+            <l xml:id="A08009-e100790">Lambs frisk and play, the shepherd's pipe all day,</l>
+            <l xml:id="A08009-e100800">And we hear aye, birds tune this merry lay,</l>
+            <l xml:id="A08009-e100810">Cuckoo, jug, jug, pu we, to witta woo. </l>
+            <l xml:id="A08009-e100820"><pb facs="5"/>The fields breathe sweet, the daisies kiss our feet,</l>
+            <l xml:id="A08009-e100830">Young lovers meet, old wives a sunning sit:</l>
+            <l xml:id="A08009-e100840">In every street, these tunes our ears do greet,</l>
+            <l xml:id="A08009-e100850">Cuckoo, jug, jug, pu we, to witta woo. </l>
+            <l xml:id="A08009-e100860">Spring the sweet spring. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A08009-e100870" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e100880">By my troth, they have voices as clear as crystal: this is a pretty thing, if it be for nothing but to go a-begging with.</p>
+        </sp>
+        <sp xml:id="A08009-e100890" who="A08009-summer">
+          <speaker>Summer:</speaker>
+          <l xml:id="A08009-e100900">Believe me, Ver, but thou art pleasant bent,</l>
+          <l xml:id="A08009-e100910">This humour should import a harmless mind:</l>
+          <l xml:id="A08009-e100920">Know'st thou the reason why I sent for thee? </l>
+        </sp>
+        <sp xml:id="A08009-e100930" who="A08009-vertumnus">
+          <speaker>Ver.</speaker>
+          <l xml:id="A08009-e100940">No faith, nor care not, whether I do or no. </l>
+          <p xml:id="A08009-e100950">If you will dance a galliard, so it is: if not, Falangtado, Falangtado, to wear the black and yellow: Falangtado, Falangtado, my mates are gone, I'll follow.</p>
+        </sp>
+        <sp xml:id="A08009-e100960" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e100970">Nay, stay a while, we must confer and talk. </l>
+          <l xml:id="A08009-e100980">Ver, call to mind I am thy sovereign lord,</l>
+          <l xml:id="A08009-e100990">And what thou hast, of me thou hast, and holdest. </l>
+          <l xml:id="A08009-e101000">Unto no other end I sent for thee. </l>
+          <l xml:id="A08009-e101010">But to demand a reckoning at thy hands,</l>
+          <l xml:id="A08009-e101020">How well or ill thou hast employed my wealth. </l>
+        </sp>
+        <sp xml:id="A08009-e101030" who="A08009-vertumnus">
+          <speaker>Ver.</speaker>
+          <l xml:id="A08009-e101040">If that be all, we will not disagree. </l>
+          <l xml:id="A08009-e101050">A clean trencher and a napkin you shall have presently. </l>
+        </sp>
+        <sp xml:id="A08009-e101060" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e101070">The truth is, this fellow hath been a tapster in his days.</p>
+          <stage xml:id="A08009-e101080">Ver goes in, and fetcheth out the hobby horse and the morris dance, who dance about.</stage>
+        </sp>
+        <sp xml:id="A08009-e101090" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e101100">How now? is this the reckoning we shall have? </l>
+        </sp>
+        <sp xml:id="A08009-e101110" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e101120">My lord, he doth abuse you: brook it not. </l>
+        </sp>
+        <sp xml:id="A08009-e101130" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e101140">Summa totalis I fear will prove him but a fool. </l>
+        </sp>
+        <sp xml:id="A08009-e101150" who="A08009-vertumnus">
+          <speaker>Ver.</speaker>
+          <p xml:id="A08009-e101160">About, about, lively, put your horse to it, rein him harder, jerk him with your wand, sit fast, sit fast, man; focle, hold up your ladle there.</p>
+        </sp>
+        <sp xml:id="A08009-e101170" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e101180">O brave hall! O, well said, butcher. Now for the credit of Wostershire. The finest set of morris-dancers that is between this and Stretham: marry, methinks there is<pb facs="5"/> one of them danceth like a clothier's horse, with a woolpack on his back. You friend with the hobby-horse, go not too fast, for fear of wearing out my lords tyle-stones with your hobnails.</p>
+        </sp>
+        <sp xml:id="A08009-e101190" who="A08009-vertumnus">
+          <speaker>Ver.</speaker>
+          <p xml:id="A08009-e101200">So, so, so, trot the ring twice over, and away. May it please my lord, this is the grand capital sum, but there are certain parcels behind, as you shall see.</p>
+        </sp>
+        <sp xml:id="A08009-e101210" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e101220">Nay, nay, no more; for this is all too much. </l>
+        </sp>
+        <sp xml:id="A08009-e101230" who="A08009-vertumnus">
+          <speaker>Ver.</speaker>
+          <l xml:id="A08009-e101240">Content yourself, we'll have variety. </l>
+          <stage xml:id="A08009-e101250">Here enter 3. Clowns, and 3. maids, singing this song, dancing.</stage>
+          <lg xml:id="A08009-e101260">
+            <l xml:id="A08009-e101270">Trip and go, heave and ho,</l>
+            <l xml:id="A08009-e101280">Up and down to and fro,</l>
+            <l xml:id="A08009-e101290">From the town, to the grove,</l>
+            <l xml:id="A08009-e101300">Two, and two, let us rove</l>
+            <l xml:id="A08009-e101310">A-maying, a playing:</l>
+            <l xml:id="A08009-e101320">Love hath no gainsaying:</l>
+            <l xml:id="A08009-e101330">So merrily trip and go. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A08009-e101340" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e101350">Beshrew my heart, of a number of ill legs, I never saw worse dancers: how blessed are you, that the wenches of the parish do not see you!</p>
+        </sp>
+        <sp xml:id="A08009-e101360" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e101370">Presumptuous Ver, uncivil nurtured boy,</l>
+          <l xml:id="A08009-e101380">Thinkest I will be derided thus of thee? </l>
+          <l xml:id="A08009-e101390">Is this th'account and reckoning that thou mak'st? </l>
+        </sp>
+        <sp xml:id="A08009-e101400" who="A08009-vertumnus">
+          <speaker>Ver.</speaker>
+          <p xml:id="A08009-e101410">Troth, my lord, to tell you plain, I can give you no other account: nam quae habui, pordidi; what I had, I have spent on good fellows, in these sports you have seen, which are proper to the spring, and others of like sort, (As giving wenches green gowns, making garlands for fencers, and tricking up children gay) have I bestowed all my flowery treasure, and flower of my youth.</p>
+        </sp>
+        <sp xml:id="A08009-e101420" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e101430">A small matter. I know one spent in less than a year, eight and fifty pounds in mustard, and another that ran in debt, in the space of four or five year, above fourteen thousand pound in lute strings and grey paper.</p>
+        </sp>
+        <sp xml:id="A08009-e101440" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e101450">O monstrous unthrift, whoe'er heard the like? </l>
+          <l xml:id="A08009-e101460">The seas vast throat in so short tract of time,</l>
+          <l xml:id="A08009-e101470"><pb facs="6"/> devoureth nor consumeth half so much. </l>
+          <l xml:id="A08009-e101480">How well mightst thou have lived within thy bounds? </l>
+        </sp>
+        <sp xml:id="A08009-e101490" who="A08009-vertumnus">
+          <speaker>Ver.</speaker>
+          <p xml:id="A08009-e101500">What talk you to me, of living within my bounds? I tell you, none but asses live within their bounds: the silly beasts, if they be put in a pasture, that is eaten bare to the very earth, and where there is nothing to be had but thistles, will rather fall soberly to those thistles, and be hunger-starved, than they will offer to break their bounds; whereas the lusty courser, if he be in a barren plot, and spy better grass in some pasture near adjoining, breaks over hedge and ditch, and to go, ere he will be pent in, and not have his belly full. Peradventure, the horses lately sworn to be stolen, carried that youthful mind, who, if they had been asses, would have been yet extant.</p>
+        </sp>
+        <sp xml:id="A08009-e101510" who="A08009-will_summer">
+          <speaker>Will Summer.</speaker>
+          <p xml:id="A08009-e101520">Thus we may see, the longer we live, the more we shall learn: I never thought honesty an ass, till this day.</p>
+        </sp>
+        <sp xml:id="A08009-e101530" who="A08009-vertumnus">
+          <speaker>Ver.</speaker>
+          <p xml:id="A08009-e101540">This world is transitory, it was made of nothing, and it must to nothing: wherefore, if we will do the will of our high creator, (Whose will it is, that it pass to nothing) we must help to consume it to nothing. Gold is more vile than men: men die in thousands, and ten thousands, yea, many times in hundreth thousands in one battle. If then, the best husband be so liberal of his best handiwork, to what end should we make much of a glittering excrement, or doubt to spend at a banquet as many pounds, as he spends men at a battle? Methinks I honour Geta the Roman emperor, for a brave minded fellow: for he commanded a banquet to be made him of all meats under the sun; which were served in after the order of the alphabet; and the clerk of the kitchen following the last dish (Which was two mile off from the foremost) brought him an index of their several names: neither did he pingle when it was set on the board, but for the space of three days and three nights, never rose from the table.</p>
+        </sp>
+        <sp xml:id="A08009-e101550" who="A08009-will_summer">
+          <speaker>Will Summer.</speaker>
+          <p xml:id="A08009-e101560">O intolerable lying villain, that was never begotten without the consent of a whetstone.</p>
+        </sp>
+        <sp xml:id="A08009-e101570" who="A08009-summer">
+          <speaker><pb facs="6"/>Summer.</speaker>
+          <l xml:id="A08009-e101580">Ungracious man, how fondly he argueth! </l>
+        </sp>
+        <sp xml:id="A08009-e101590" who="A08009-vertumnus">
+          <speaker>Ver.</speaker>
+          <p xml:id="A08009-e101600">Tell me, I pray, wherefore was gold laid under our feet in the veins of the earth, but that we should contemn it, and tread upon it, and so consequently tread thrift under our feet? It was not known, till the iron age, donec facinus inuasit mortales, as the poet says; and the Scythians always detested it. I will prove it, that an unthrift, of any, comes nearest a happy man, in so much as he comes nearest to beggary. Cicero saith, summum bonum consists in omnium rerum vacation, that it is the chiefest felicity that may be, to rest from all labours. Now, who doth so much vacare à rebus, who rests so much? who hath so little to do, as the beggar? Who can sing so merry a note, as he that cannot change a groat? Cui nil est, nil deest: he that hath nothing, wants nothing. On the other side, it is said of the carl, omnia habeo, nec quicquam habeo: I have all things, yet want every thing. Multi mihi vitio vertunt, quia egeo, saith Marcus Cato in Aulus Gellius, at ego illis, quia nequeunt egere: many upbraid me, say he, because I am poor: but I upbraid them, because they cannot live if they were poor. It is a common proverb, dinesque miserque, a rich man, and a miserable: nam natura paucis contenta, none so contented as the poor man. Admit that the chiefest happiness were not rest or ease, but knowledge, as Herillus, Alcidamas, and many of Socrates' followers affirm; why, paupertas omnes perdocot arts, poverty instructs a man in all arts, it makes a man hardy and venturous; and therefore it is called of the poets, paupertas audax, valiant poverty. It is not so much subject to inordinate desires, as wealth or prosperity. Non habet unde suum paupertas pascat amorem: poverty hath not wherewithal to feed lust. All the poets were beggars: all alchemists, and all philosophers are beggars: omnia mea mecum porto, quoth bias, when he had nothing, but bread and cheese in a leathern bag, and two or three books in his bosom. Saint Francis, a holy saint, and never had any money. It is madness to dote upon muck. That young man of Athens, (Aelianus makes mention of) may be an example to us, who<pb facs="7"/> doted so extremely on the image of fortune, that when he might not enjoy it, he died for sorrow. The earth yields all her fruits together, and why should not we spend them together? I thank heavens on my knees, that have made me an unthrift.</p>
+        </sp>
+        <sp xml:id="A08009-e101610" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e101620">O vanity itself; oh wit ill spent! </l>
+          <l xml:id="A08009-e101630">So study thousands not to mend their lives,</l>
+          <l xml:id="A08009-e101640">But to maintain the sin they most affect,</l>
+          <l xml:id="A08009-e101650">To be hell's advocates against their own souls. </l>
+          <l xml:id="A08009-e101660">Ver, since thou givest such praise to beggary,</l>
+          <l xml:id="A08009-e101670">And hast defended it so valiantly,</l>
+          <l xml:id="A08009-e101680">This be thy penance; thou shalt never appear,</l>
+          <l xml:id="A08009-e101690">Or come abroad, but Lent shall wait on thee:</l>
+          <l xml:id="A08009-e101700">His scarcity may countervail thy waste. </l>
+          <l xml:id="A08009-e101710">Riot may flourish, but finds want at last. </l>
+          <l xml:id="A08009-e101720">Take him away, that knoweth no good way,</l>
+          <l xml:id="A08009-e101730">And lead him the next way to woe and want. </l>
+          <stage xml:id="A08009-e101740">Exit Ver.</stage>
+          <l xml:id="A08009-e101750">Thus in the paths of knowledge many stray,</l>
+          <l xml:id="A08009-e101760">And from the means of life fetch their decay. </l>
+        </sp>
+        <sp xml:id="A08009-e101770" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e101780">Heigh ho. Here is a coil in deed to bring beggars to stocks. I promise you truly, I was almost asleep; I thought I had been at a sermon. Well, for this one nights exhortation, I vow (By God's grace) never to be good husband while I live. But what is this to the purpose? Hur come to powl (As the Welshman says) and her pay an halfpenny for burr seat, and her hear the preacher talge, and a talge very well by gis, but yet a cannot make her laugh: go a theater, and hear a Queen's fice, and he make her laugh, and laugh her bellyful. So we come hither to laugh and be merry, and we hear a filthy beggarly oration, in the praise of beggary. It is a beggarly poet that writ it: and that makes him so much commend it, because he knows not how to mend himself. Well, rather than he shall have no employment but lick dishes, I will set him a work myself, to write in praise of the art of stooping, and how there was never any famous thresher, porter, brewer, pioneer, or carpenter, that had straight back. Repair to my<pb facs="7"/> chamber, poor fellow, when the play is done, and thou shalt see what I will say to thee.</p>
+        </sp>
+        <sp xml:id="A08009-e101790" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e101800">Vertumnus, call solstitium. </l>
+        </sp>
+        <sp xml:id="A08009-e101810" who="A08009-vertumnus">
+          <speaker>Vertum.</speaker>
+          <p xml:id="A08009-e101820">Solstitium, come into the court without: peace there below; make room for master solstitium. </p>
+          <stage xml:id="A08009-e101830">Enter solstitium like an aged hermit, carrying a pair of balances, with an hourglass in either of them; one hourglass white, the other black: he is brought in by a number of shepherds, playing upon recorders.</stage>
+        </sp>
+        <sp xml:id="A08009-e101840" who="A08009-solstitium">
+          <speaker>Solstitium.</speaker>
+          <l xml:id="A08009-e101850">All hail to summer my dread sovereign lord. </l>
+        </sp>
+        <sp xml:id="A08009-e101860" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e101870">Welcome, solstitium, thou art one of them,</l>
+          <l xml:id="A08009-e101880">To whose good husbandry we have referred</l>
+          <l xml:id="A08009-e101890">Part of those small revenues that we have. </l>
+          <l xml:id="A08009-e101900">What hast thou gained us? what hast thou brought in? </l>
+        </sp>
+        <sp xml:id="A08009-e101910" who="A08009-solstitium">
+          <speaker>Solstitium.</speaker>
+          <l xml:id="A08009-e101920">Alas, my lord, what gave you me to keep,</l>
+          <l xml:id="A08009-e101930">But a few days' eyes in my prime of youth? </l>
+          <l xml:id="A08009-e101940">And those I have converted to white hairs:</l>
+          <l xml:id="A08009-e101950">I never loved ambitiously to climb,</l>
+          <l xml:id="A08009-e101960">Or thrust my hand too far into the fire. </l>
+          <l xml:id="A08009-e101970">To be in heaven, sure, is a blessed thing:</l>
+          <l xml:id="A08009-e101980">But atlas-like, to prop heaven on ones back,</l>
+          <l xml:id="A08009-e101990">Cannot but be more labour than delight. </l>
+          <l xml:id="A08009-e102000">Such is the state of men in honour placed;</l>
+          <l xml:id="A08009-e102010">They are gold vessels made for servile uses,</l>
+          <l xml:id="A08009-e102020">High trees that keep the weather from low houses,</l>
+          <l xml:id="A08009-e102030">But cannot shield the tempest from themselves. </l>
+          <l xml:id="A08009-e102040">I love to dwell betwixt the hills and dales;</l>
+          <l xml:id="A08009-e102050">Neither to be so great to be envied,</l>
+          <l xml:id="A08009-e102060">Nor yet so poor the world should pity me. </l>
+          <l xml:id="A08009-e102070">Inter utrumque tene, medio tutissimus ibis. </l>
+        </sp>
+        <sp xml:id="A08009-e102080" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e102090">What dost thou with those balances thou bearest? </l>
+        </sp>
+        <sp xml:id="A08009-e102100" who="A08009-solstitium">
+          <speaker>Solstitium.</speaker>
+          <l xml:id="A08009-e102110">In them I weigh the day and night alike. </l>
+          <l xml:id="A08009-e102120">This white glass is the hourglass of the day:</l>
+          <l xml:id="A08009-e102130">This black one the just measure of the night;</l>
+          <l xml:id="A08009-e102140">One more than other holdeth not a grain:</l>
+          <l xml:id="A08009-e102150"><pb facs="8"/> both serve times just proportion to maintain. </l>
+        </sp>
+        <sp xml:id="A08009-e102160" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e102170">I like thy moderation wondrous well:</l>
+          <l xml:id="A08009-e102180">And this thy balance, weighing the white glass</l>
+          <l xml:id="A08009-e102190">And black, with equal poise and steadfast hand,</l>
+          <l xml:id="A08009-e102200">A pattern is to princes and great men,</l>
+          <l xml:id="A08009-e102210">How to weigh all estates indifferently:</l>
+          <l xml:id="A08009-e102220">The spiritualty and temporalty alike,</l>
+          <l xml:id="A08009-e102230">Neither to be too prodigal of smiles,</l>
+          <l xml:id="A08009-e102240">Nor too severe in frowning without cause. </l>
+          <l xml:id="A08009-e102250">If you be wise, you monarchs of the earth,</l>
+          <l xml:id="A08009-e102260">Have two such glasses still before your eyes;</l>
+          <l xml:id="A08009-e102270">Think as you have a white glass running on,</l>
+          <l xml:id="A08009-e102280">Good days, friend's favour, and all things at beck,</l>
+          <l xml:id="A08009-e102290">So this white glass run out (As out it will)</l>
+          <l xml:id="A08009-e102300">The black comes next, your downfall is at hand,</l>
+          <l xml:id="A08009-e102310">Take this of me, for somewhat I have tried;</l>
+          <l xml:id="A08009-e102320">A mighty ebb follows a mighty tide. </l>
+          <l xml:id="A08009-e102330">But say, solstitium, hadst thou naught besides? </l>
+          <l xml:id="A08009-e102340">Naught but days' eyes, and fair looks, gave I thee? </l>
+        </sp>
+        <sp xml:id="A08009-e102350" who="A08009-solstitium">
+          <speaker>Solstitium.</speaker>
+          <l xml:id="A08009-e102360">Nothing my lord, nor ought more did I ask. </l>
+        </sp>
+        <sp xml:id="A08009-e102370" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e102380">But hadst thou always kept thee in my sight,</l>
+          <l xml:id="A08009-e102390">Thy good deserts, though silent, would have asked. </l>
+        </sp>
+        <sp xml:id="A08009-e102400" who="A08009-solstitium">
+          <speaker>Solst.</speaker>
+          <l xml:id="A08009-e102410">Deserts, my lord, of ancient servitors,</l>
+          <l xml:id="A08009-e102420">Are like old sores, which may not be ripped up:</l>
+          <l xml:id="A08009-e102430">Such use these times have got, that none must beg,</l>
+          <l xml:id="A08009-e102440">But those that have young limbs to lavish fast. </l>
+        </sp>
+        <sp xml:id="A08009-e102450" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e102460">I grieve, no more regard was had of thee:</l>
+          <l xml:id="A08009-e102470">A little sooner hadst thou spoke to me,</l>
+          <l xml:id="A08009-e102480">Thou hadst been heard, but now the time is past:</l>
+          <l xml:id="A08009-e102490">Death waiteth at the door for thee and me;</l>
+          <l xml:id="A08009-e102500">Let us go measure out our beds in clay:</l>
+          <l xml:id="A08009-e102510">Naught but good deeds hence shall we bear away. </l>
+          <l xml:id="A08009-e102520">Be, as thou wert, best steward of my hours,</l>
+          <l xml:id="A08009-e102530">And so return unto thy country bowers. </l>
+          <stage xml:id="A08009-e102540">Here solstitium goes out with his music, as he comes in.</stage>
+        </sp>
+        <sp xml:id="A08009-e102550" who="A08009-will_summer">
+          <speaker><pb facs="8"/>Will summer.</speaker>
+          <p xml:id="A08009-e102560">Fie, fie of honesty, fie: solstitium is an ass, perdie, this play is a gallimaufry: fetch me some drink, somebody . What cheer, what cheer, my hearts? are not you thirsty with listening to this dry sport? What have we to do with scales, and hourglasses, except we were bakers, or clock-keepers? I cannot tell how other men are addicted, but it is against my profession to use any scales, but such as we play at with a bowl, or keep any hours, but dinner or supper. It is a pedantical thing, to respect times and seasons: if a man be drinking with good fellows late, he must come home, for fear the gates be shut; when I am in my warm bed, I must rise to prayers, because the bell rings. I like no such foolish customs. Actors, bring now a black Jack, and a roundlet of of Rhenish wine, disputing of the antiquity of red noses; let the prodigal child come out in his doublet and hose all greasy, his shirt hanging forth, and never a penny in his purse, and talk what a fine thing it is to walk summerly, or sit whistling under a hedge and keep hogs. Go forward in grace and virtue to proceed; but let us have no more of these grave matters.</p>
+        </sp>
+        <sp xml:id="A08009-e102570" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e102580">Vertumnus, will sol come before us. </l>
+        </sp>
+        <sp xml:id="A08009-e102590" who="A08009-vertumnus">
+          <speaker>Vertumnus.</speaker>
+          <l xml:id="A08009-e102600">Sol, sol, ut, re, me, fa, sol, come to church while the bell toll. </l>
+          <stage xml:id="A08009-e102610">Enter sol, very richly attired, with a noise of musicians before him.</stage>
+        </sp>
+        <sp xml:id="A08009-e102620" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e102630">I marry, here comes majesty in pomp,</l>
+          <l xml:id="A08009-e102640">Resplendent sol, chief planet of the heavens,</l>
+          <l xml:id="A08009-e102650">He is our servant, looks he never so big. </l>
+        </sp>
+        <sp xml:id="A08009-e102660" who="A08009-sol">
+          <speaker>Sol.</speaker>
+          <l xml:id="A08009-e102670">My liege, what cravest thou at thy vassals hands? </l>
+        </sp>
+        <sp xml:id="A08009-e102680" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e102690">Hypocrisy, how it can change his shape! </l>
+          <l xml:id="A08009-e102700">How base is pride from his own dunghill put? </l>
+          <l xml:id="A08009-e102710">How I have raised thee, sol, I list not tell,</l>
+          <l xml:id="A08009-e102720">Out of the ocean of adversity,</l>
+          <l xml:id="A08009-e102730">To sit in height of honours glorious heaven,</l>
+          <l xml:id="A08009-e102740">To be the eyesore of aspiring eyes,</l>
+          <l xml:id="A08009-e102750"><pb facs="9"/> to give the day her life, from thy bright looks,</l>
+          <l xml:id="A08009-e102760">And let naught thrive upon the face of earth,</l>
+          <l xml:id="A08009-e102770">From which thou shalt withdraw thy powerful smiles. </l>
+          <l xml:id="A08009-e102780">What hast thou done deserving such high grace? </l>
+          <l xml:id="A08009-e102790">What industry, or meritorious toil,</l>
+          <l xml:id="A08009-e102800">Canst thou produce, to prove my gift well placed? </l>
+          <l xml:id="A08009-e102810">Some service, or some profit I expect:</l>
+          <l xml:id="A08009-e102820">None is promoted but for some respect. </l>
+        </sp>
+        <sp xml:id="A08009-e102830" who="A08009-sol">
+          <speaker>Sol.</speaker>
+          <l xml:id="A08009-e102840">My lord, what needs these terms betwixt us two? </l>
+          <l xml:id="A08009-e102850">Upbraiding, ill beseems your bounteous mind:</l>
+          <l xml:id="A08009-e102860">I do you honour for advancing me. </l>
+          <l xml:id="A08009-e102870">Why, 'tis a credit for your excellence,</l>
+          <l xml:id="A08009-e102880">To have so great a subject as I am:</l>
+          <l xml:id="A08009-e102890">This is your glory and magnificence,</l>
+          <l xml:id="A08009-e102900">That without stooping of your mightiness,</l>
+          <l xml:id="A08009-e102910">Or taking any whit from your high state,</l>
+          <l xml:id="A08009-e102920">You can make one as mighty as yourself. </l>
+        </sp>
+        <sp xml:id="A08009-e102930" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e102940">O arrogance exceeding all belief! </l>
+          <l xml:id="A08009-e102950">Summer my lord, this saucy upstart Jack,</l>
+          <l xml:id="A08009-e102960">That now doth rule the chariot of the sun,</l>
+          <l xml:id="A08009-e102970">And makes all stars derive their light from him,</l>
+          <l xml:id="A08009-e102980">Is a most base insinuating slave,</l>
+          <l xml:id="A08009-e102990">The son of parsimony, and disdain,</l>
+          <l xml:id="A08009-e103000">One that will shine, on friends and foes alike,</l>
+          <l xml:id="A08009-e103010">That under brightest smiles, hideth black showers:</l>
+          <l xml:id="A08009-e103020">Whose envious breath doth dry up springs and lakes,</l>
+          <l xml:id="A08009-e103030">And burns the grass, that beasts can get no food. </l>
+        </sp>
+        <sp xml:id="A08009-e103040" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e103050">No dunghill hath so vild an excrement,</l>
+          <l xml:id="A08009-e103060">But with his beams he will forth with exhale:</l>
+          <l xml:id="A08009-e103070">The fens and quagmires tithe to him their filth:</l>
+          <l xml:id="A08009-e103080">Forth purest mines he sucks a gainful dross:</l>
+          <l xml:id="A08009-e103090">Green juy-bushes at the vintner's doors</l>
+          <l xml:id="A08009-e103100">He withers, and devoureth all their sap. </l>
+        </sp>
+        <sp xml:id="A08009-e103110" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e103120">Lascivious and intemperate he is. </l>
+          <l xml:id="A08009-e103130">The wrong of Daphne is a well known tale:</l>
+          <l xml:id="A08009-e103140">Each evening he descends to Thetis lap,</l>
+          <l xml:id="A08009-e103150"><pb facs="9"/> the while men think he baths him in the sea. </l>
+          <l xml:id="A08009-e103160">O, but when he returneth whence he came,</l>
+          <l xml:id="A08009-e103170">Down to the West, then dawns his deity,</l>
+          <l xml:id="A08009-e103180">Then doubled is the swelling of his looks;</l>
+          <l xml:id="A08009-e103190">He over loads his car with orient gems,</l>
+          <l xml:id="A08009-e103200">And reins his fiery horses with rich pearl:</l>
+          <l xml:id="A08009-e103210">He terms himself the god of poetry,</l>
+          <l xml:id="A08009-e103220">And setteth wanton songs unto the lute. </l>
+        </sp>
+        <sp xml:id="A08009-e103230" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e103240">Let him not talk; for he hath words at will,</l>
+          <l xml:id="A08009-e103250">And wit to make the baddest matter good. </l>
+        </sp>
+        <sp xml:id="A08009-e103260" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e103270">Bad words, bad wit: o, where dwells faith or truth? </l>
+          <l xml:id="A08009-e103280">Ill usury my favours reap from thee,</l>
+          <l xml:id="A08009-e103290">Usurping sol, the hate of heaven and earth. </l>
+        </sp>
+        <sp xml:id="A08009-e103300" who="A08009-sol">
+          <speaker>Sol.</speaker>
+          <l xml:id="A08009-e103310">If envy unconfuted may accuse,</l>
+          <l xml:id="A08009-e103320">Than innocence must uncondemned die. </l>
+          <l xml:id="A08009-e103330">The name of martyrdom offence hath gained,</l>
+          <l xml:id="A08009-e103340">When fury stopped a froward judges ears. </l>
+          <l xml:id="A08009-e103350">Much I'll not say (Much speech much folly shows)</l>
+          <l xml:id="A08009-e103360">What I have done, you gave me leave to do. </l>
+          <l xml:id="A08009-e103370">The excrements you bred, whereon I feed,</l>
+          <l xml:id="A08009-e103380">To rid the earth of their contagious fumes;</l>
+          <l xml:id="A08009-e103390">With such gross carriage did I load my beams,</l>
+          <l xml:id="A08009-e103400">I burned no grass, I dried no springs and lakes:</l>
+          <l xml:id="A08009-e103410">I sucked no mines, I withered no green boughs. </l>
+          <l xml:id="A08009-e103420">But when to ripen harvest I was forced,</l>
+          <l xml:id="A08009-e103430">To make my rays more fervent than I wont,</l>
+          <l xml:id="A08009-e103440">For Daphne's wrongs and scapes in Thetis lap,</l>
+          <l xml:id="A08009-e103450">All gods are subject to the like mishap. </l>
+          <l xml:id="A08009-e103460">Stars daily fall ('tis use is all in all)</l>
+          <l xml:id="A08009-e103470">And men account the fall but nature's course:</l>
+          <l xml:id="A08009-e103480">Vaunting my jewels, hasting to the West,</l>
+          <l xml:id="A08009-e103490">Or rising early from the grey eyed morn. </l>
+          <l xml:id="A08009-e103500">What do I vaunt but your large bountihood</l>
+          <l xml:id="A08009-e103510">And show how liberal a lord I serve. </l>
+          <l xml:id="A08009-e103520">Music and poetry, my two last crimes,</l>
+          <l xml:id="A08009-e103530">Are those two exercises of delight,</l>
+          <l xml:id="A08009-e103540"><pb facs="10"/> wherewith long labours I do weary out. </l>
+          <l xml:id="A08009-e103550">The dying swan is not forbid to sing. </l>
+          <l xml:id="A08009-e103560">The waves of Heber played on Orpheus strings,</l>
+          <l xml:id="A08009-e103570">When he (Sweet music's trophy) was destroyed. </l>
+          <l xml:id="A08009-e103580">And as for poetry, wood's eloquence,</l>
+          <l xml:id="A08009-e103590">(Dead Phaeton's three sisters' funeral tears</l>
+          <l xml:id="A08009-e103600">That by the gods were to electrum turned)</l>
+          <l xml:id="A08009-e103610">Not flint, or rocks of icy cinders framed,</l>
+          <l xml:id="A08009-e103620">Deny the source of silver-falling streams. </l>
+          <l xml:id="A08009-e103630">Envy envieth not outcries unrest:</l>
+          <l xml:id="A08009-e103640">In vain I plead, well, is to me a fault,</l>
+          <l xml:id="A08009-e103650">And these my words seem the flight web of art,</l>
+          <l xml:id="A08009-e103660">And not to have the taste of sounder truth. </l>
+          <l xml:id="A08009-e103670">Let none but fools, be cared for of the wise;</l>
+          <l xml:id="A08009-e103680">Knowledge own children, knowledge most despise. </l>
+        </sp>
+        <sp xml:id="A08009-e103690" who="A08009-unassigned">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e103700">Thou knowest too much, to know to keep the mean. </l>
+          <l xml:id="A08009-e103710">He that sees all things, oft sees not himself. </l>
+          <l xml:id="A08009-e103720">The Thames is witness of thy tyranny,</l>
+          <l xml:id="A08009-e103730">Whose waves thou hast exhaust for winter showers. </l>
+          <l xml:id="A08009-e103740">The naked channel plains her of thy spite,</l>
+          <l xml:id="A08009-e103750">That laidst her entrails unto open sight. </l>
+          <l xml:id="A08009-e103760">Unprofitably born to man and beast,</l>
+          <l xml:id="A08009-e103770">Which like to Nilus yet doth hide his head,</l>
+          <l xml:id="A08009-e103780">Some few years since thou lettest o'erflow these walks,</l>
+          <l xml:id="A08009-e103790">And in the horse-race headlong ran at race,</l>
+          <l xml:id="A08009-e103800">While in a cloud, thou hidest thy burning face:</l>
+          <l xml:id="A08009-e103810">Where was thy care to rid contagious filth,</l>
+          <l xml:id="A08009-e103820">When some men wetshod, (With his waters) drooped? </l>
+          <l xml:id="A08009-e103830">Others that ate the eels his heat cast up,</l>
+          <l xml:id="A08009-e103840">Sickened and died by them empoisoned. </l>
+          <l xml:id="A08009-e103850">Sleepest thou, or keepest thou then Admetus' sheep,</l>
+          <l xml:id="A08009-e103860">Thou drivest not back these flowings to the deep? </l>
+        </sp>
+        <sp xml:id="A08009-e103870" who="A08009-sol">
+          <speaker>Sol.</speaker>
+          <l xml:id="A08009-e103880">The winds, not I, have floods and tides in chase:</l>
+          <l xml:id="A08009-e103890">Diana, whom our fables call the moon,</l>
+          <l xml:id="A08009-e103900">Only commandeth o'er the raging main ,</l>
+          <l xml:id="A08009-e103910">She leads his wallowing offspring up and down,</l>
+          <l xml:id="A08009-e103920"><pb facs="10"/> she waning, all streams ebb in the year:</l>
+          <l xml:id="A08009-e103930">She was eclipsed, when that the Thames was bare. </l>
+        </sp>
+        <sp xml:id="A08009-e103940" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e103950">A bare conjecture, builded on perhaps;</l>
+          <l xml:id="A08009-e103960">In laying thus the blame upon the moon,</l>
+          <l xml:id="A08009-e103970">Thou imitatest subtle Pythagoras,</l>
+          <l xml:id="A08009-e103980">Who, what he would the people should believe,</l>
+          <l xml:id="A08009-e103990">The same he wrote with blood upon a glass,</l>
+          <l xml:id="A08009-e104000">And turned it opposite 'gainst the new moon;</l>
+          <l xml:id="A08009-e104010">Whose beams reflecting on it with full force,</l>
+          <l xml:id="A08009-e104020">Showed all those lines, to them that stood behind,</l>
+          <l xml:id="A08009-e104030">Most plainly writ in circle of the moon,</l>
+          <l xml:id="A08009-e104040">And then he said, not I, but the new moon</l>
+          <l xml:id="A08009-e104050">Fair Cynthia persuades you this and that;</l>
+          <l xml:id="A08009-e104060">With like collusion shalt thou not blind me:</l>
+          <l xml:id="A08009-e104070">But for abusing both the moon and me,</l>
+          <l xml:id="A08009-e104080">Long shalt thou be eclipsed by the moon,</l>
+          <l xml:id="A08009-e104090">And long in darkness live, and see no light. </l>
+          <l xml:id="A08009-e104100">A way with him, his doom hath no reverse. </l>
+        </sp>
+        <sp xml:id="A08009-e104110" who="A08009-sol">
+          <speaker>Sol.</speaker>
+          <l xml:id="A08009-e104120">What is eclipsed, will one day shine again:</l>
+          <l xml:id="A08009-e104130">Though winter frowns, the spring will ease my pain. </l>
+          <l xml:id="A08009-e104140">Time, from the brow, doth wipe out every stain. </l>
+          <stage xml:id="A08009-e104150">Exit Sol.</stage>
+        </sp>
+        <sp xml:id="A08009-e104160" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e104170">I think the sun is not so long in passing through the twelve signs, as the son of a fool hath been disputing here, about had I wist. Out of doubt, the poet is bribed of some that have a mess of cream to eat, before my lord go to bed yet, to hold him half the night with riff, raff, of the rumming of Elanor. If I can tell what it means, pray god, I may never get breakfast more, when I am hungry. Troth, I am of opinion, he is one of those hieroglyphical writers, that by the figures of beasts, planets, and of stones, express the mind, as we do in a. b. c. or one that writes under hair, as I have heard of a certain notary histions, who following Darius in the Persian wars, and desirous to disclose some secrets of import, to his friend Aristagoras, that dwelled afar off, found out this means: he had a servant that had been<pb facs="11"/> long sick of a pain in his eyes, whom, under pretence of curing his malady, he shaved from one side of his head, to the other, and with a soft pencil wrote upon his scalp, (As on parchment) the discourse of his business, the fellow all the while imagining, his master had done nothing but anoint his head with a feather. After this, he kept him secretly in his tent, till his hair was somewhat grown, and then willed him to go to Aristagoras into the country, and bid him shave him, as he had done, and he should have perfect remedy. He did so: Aristagoras shaved him with his own hands, read his friend's letter; and when he had done, washed it out, that no man should perceive it else, and sent him home to buy him a nightcap. If I wist there were any such knavery, or Peter Bales brachigraphy, under sols bushy hair, I would have a barber, my host of the morion's head, to be his interpreter, who would whet his razor on his Richmond cap, and give him the terrible cut, like himself, but he would come as near as a quart pot, to the construction of it. To be sententious, not superfluous, sol should have been beholding to the Barbour, and not the beard-master. Is it pride that is shadowed under<note anchored="true" place="margin" xml:id="A08009-e104180">imberbis Apollo, a beardless poet.</note> this two-legged sun, that never came nearer heaven, than Dubber's hill? That pride is not my sin, Slovens hall, where I was born, be my record. As for covetousness, intemperance and exaction, I meet with nothing in a whole year, but a cup of wine, for such vices to be conversant in. Pergite porro, my good children, and multiply the sins of your absurdities, till you come to the full measure of the grand hiss, and you shall hear how we will purge rheum with censuring your imperfections.</p>
+        </sp>
+        <sp xml:id="A08009-e104190" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e104200">Vertumnus, call Orion. </l>
+        </sp>
+        <sp xml:id="A08009-e104210" who="A08009-vertumnus">
+          <speaker>Vertum.</speaker>
+          <p xml:id="A08009-e104220">Orion, Urion, Arion; my lord thou must look upon: Orion, gentleman dog-keeper, huntsman, come into the court: look you bring all bounds, and no bandogges. Peace there, that we may hear their horns blow.</p>
+          <stage xml:id="A08009-e104230">Enter Orion like a hunter, with a horn about his neck, all his men after the same sort hallowing, and blowing their horns.</stage>
+        </sp>
+        <sp xml:id="A08009-e104240" who="A08009-orion">
+          <speaker><pb facs="11"/>Orion.</speaker>
+          <l xml:id="A08009-e104250">Sirrah, wast thou that called us from our game? </l>
+          <l xml:id="A08009-e104260">How durst thou (Being but a petty God)</l>
+          <l xml:id="A08009-e104270">Disturb me in the entrance of my sports? </l>
+        </sp>
+        <sp xml:id="A08009-e104280" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e104290">'Twas I, Orion, caused thee to be called. </l>
+        </sp>
+        <sp xml:id="A08009-e104300" who="A08009-orion">
+          <speaker>Orion.</speaker>
+          <l xml:id="A08009-e104310">'Tis I, dread lord, that humbly will obey. </l>
+        </sp>
+        <sp xml:id="A08009-e104320" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e104330">How haps't thou leftest the heavens, to hunt below? </l>
+          <l xml:id="A08009-e104340">As I remember, thou wert Hireus' son,</l>
+          <l xml:id="A08009-e104350">Whom of a huntsman Jove chose for a star,</l>
+          <l xml:id="A08009-e104360">And thou art called the dogstar, art thou not? </l>
+        </sp>
+        <sp xml:id="A08009-e104370" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e104380">Pleaseth your honour, heaven's circumference</l>
+          <l xml:id="A08009-e104390">Is not enough for him to hunt and range,</l>
+          <l xml:id="A08009-e104400">But with those venom-breathed curs he leads,</l>
+          <l xml:id="A08009-e104410">He comes to chase health from our earthly bounds:</l>
+          <l xml:id="A08009-e104420">Each one of those foul-mouthed mangy dogs</l>
+          <l xml:id="A08009-e104430">Governs a day, (No dog but hath his day)</l>
+          <l xml:id="A08009-e104440">And all the days by them so governed,</l>
+          <l xml:id="A08009-e104450">The dog-days height, infectious fosterers</l>
+          <l xml:id="A08009-e104460">Of meteors from carrion that arise,</l>
+          <l xml:id="A08009-e104470">And putrified bodies of dead men,</l>
+          <l xml:id="A08009-e104480">Are they engendered to that ugly shape,</l>
+          <l xml:id="A08009-e104490">Being naught else but preserved corruption. </l>
+          <l xml:id="A08009-e104500">'Tis these that in the entrance of their reign</l>
+          <l xml:id="A08009-e104510">The plague and dangerous agues have brought in. </l>
+          <l xml:id="A08009-e104520">They are and bark at night against the moon,</l>
+          <l xml:id="A08009-e104530">For fetching in fresh tides to cleanse the streets. </l>
+          <l xml:id="A08009-e104540">They vomit flames, and blast the ripened fruits:</l>
+          <l xml:id="A08009-e104550">They are death's messengers unto all those,</l>
+          <l xml:id="A08009-e104560">That sicken while their malice beareth sway. </l>
+        </sp>
+        <sp xml:id="A08009-e104570" who="A08009-orion">
+          <speaker>Orion.</speaker>
+          <l xml:id="A08009-e104580">A tedious discourse, built on no ground,</l>
+          <l xml:id="A08009-e104590">A silly fancy autumn hast thou told,</l>
+          <l xml:id="A08009-e104600">Which no philosophy doth warrantise,</l>
+          <l xml:id="A08009-e104610">No old received poetry confirms. </l>
+          <l xml:id="A08009-e104620">I will not grace thee by confuting thee:</l>
+          <l xml:id="A08009-e104630">Yet in a jest (Since thou railest so 'gainst dogs)</l>
+          <l xml:id="A08009-e104640">I'll speak a word or two in their defence:</l>
+          <l xml:id="A08009-e104650">That creature's best that comes most near to men. </l>
+          <l xml:id="A08009-e104660"><pb facs="12"/>That dogs of all come nearest, thus I prove:</l>
+          <l xml:id="A08009-e104670">First they excel us in all outward sense,</l>
+          <l xml:id="A08009-e104680">Which no one of experience will deny,</l>
+          <l xml:id="A08009-e104690">They hear, they smell, they see better than we,</l>
+          <l xml:id="A08009-e104700">To come to speech they have it questionless,</l>
+          <l xml:id="A08009-e104710">Although we understand them not so well:</l>
+          <l xml:id="A08009-e104720">They bark as good old Saxon as may be,</l>
+          <l xml:id="A08009-e104730">And that in more variety than we:</l>
+          <l xml:id="A08009-e104740">For they have one voice when they are in chase,</l>
+          <l xml:id="A08009-e104750">Another, when they wrangle for their meat,</l>
+          <l xml:id="A08009-e104760">Another, when we beat them out of doors. </l>
+          <l xml:id="A08009-e104770">That they have reason, this I will allege,</l>
+          <l xml:id="A08009-e104780">They choose those things that are most fit for them,</l>
+          <l xml:id="A08009-e104790">And shun the contrary all that they may,</l>
+          <l xml:id="A08009-e104800">They know what is for their own diet best,</l>
+          <l xml:id="A08009-e104810">And seek about for't very carefully. </l>
+          <l xml:id="A08009-e104820">At sight of any whip they run away,</l>
+          <l xml:id="A08009-e104830">As runs a thief from noise of hue and cry:</l>
+          <l xml:id="A08009-e104840">Nor live they on the sweat of others brows,</l>
+          <l xml:id="A08009-e104850">But have their trades to get their living with,</l>
+          <l xml:id="A08009-e104860">Hunting and coney-catching, two fine arts:</l>
+          <l xml:id="A08009-e104870">Yea, there be of them as there be of men,</l>
+          <l xml:id="A08009-e104880">Of every occupation more or less:</l>
+          <l xml:id="A08009-e104890">Some carriers, and they fetch, some watermen,</l>
+          <l xml:id="A08009-e104900">And they will dive and swim when you bid them:</l>
+          <l xml:id="A08009-e104910">Some butchers, and they worry sheep by night:</l>
+          <l xml:id="A08009-e104920">Some cooks, and they do nothing but turn spits. </l>
+          <l xml:id="A08009-e104930">Chrysippus holds, dogs are logicians,</l>
+          <l xml:id="A08009-e104940">In that by study and by canvasing,</l>
+          <l xml:id="A08009-e104950">They can distinguish twixt three several things,</l>
+          <l xml:id="A08009-e104960">As when he cometh where three broad ways meet,</l>
+          <l xml:id="A08009-e104970">And of those three hath stayed at two of them,</l>
+          <l xml:id="A08009-e104980">By which he guesseth that the game went not,</l>
+          <l xml:id="A08009-e104990">Without more pause he runneth on the third,</l>
+          <l xml:id="A08009-e105000">Which, as Chrysippus saith, insinuates,</l>
+          <l xml:id="A08009-e105010">As if he reasoned thus within himself:</l>
+          <l xml:id="A08009-e105020"><pb facs="12"/> either he went this, that, or yonder way,</l>
+          <l xml:id="A08009-e105030">But neither that, nor yonder, therefore this:</l>
+          <l xml:id="A08009-e105040">But whether they logicians be or no,</l>
+          <l xml:id="A08009-e105050">Cinicks they are, for they will snarl and bite,</l>
+          <l xml:id="A08009-e105060">Right courtiers to flatter and to fawn,</l>
+          <l xml:id="A08009-e105070">Valiant to set upon the enemies,</l>
+          <l xml:id="A08009-e105080">Most faithful and most constant to their friends;</l>
+          <l xml:id="A08009-e105090">Nay they are wise, as Homer witnesseth,</l>
+          <l xml:id="A08009-e105100">Who talking of Ulysses coming home,</l>
+          <l xml:id="A08009-e105110">Saith all his household, but Argus his dog,</l>
+          <l xml:id="A08009-e105120">Had quite forgotten him: ay, and his deep insight,</l>
+          <l xml:id="A08009-e105130">Nor Pallas art in altering of his shape,</l>
+          <l xml:id="A08009-e105140">Nor his base weeds, nor absence twenty years,</l>
+          <l xml:id="A08009-e105150">Could go beyond, or any way delude. </l>
+          <l xml:id="A08009-e105160">That dog's physicians are, thus I infer,</l>
+          <l xml:id="A08009-e105170">They are never sick, but they know their disease,</l>
+          <l xml:id="A08009-e105180">And find out means to ease them of their grief,</l>
+          <l xml:id="A08009-e105190">Special good surgeons to cure dangerous wounds:</l>
+          <l xml:id="A08009-e105200">For strucken with a stake into the flesh,</l>
+          <l xml:id="A08009-e105210">This policy they use to get it out:</l>
+          <l xml:id="A08009-e105220">They trail one of their feet upon the ground,</l>
+          <l xml:id="A08009-e105230">And gnaw the flesh about where the wound is,</l>
+          <l xml:id="A08009-e105240">Till it be clean drawn out: and then, because</l>
+          <l xml:id="A08009-e105250">Ulcers and sores kept foul, are hardly cured,</l>
+          <l xml:id="A08009-e105260">They lick and purify it with their tongue,</l>
+          <l xml:id="A08009-e105270">And well observe Hipocrates old rule,</l>
+          <l xml:id="A08009-e105280">The only medicine for the foot, is rest:</l>
+          <l xml:id="A08009-e105290">For if they have the least hurt in their feet,</l>
+          <l xml:id="A08009-e105300">They bear them up, and look they be not stirred:</l>
+          <l xml:id="A08009-e105310">When humours rise, they eat a sovereign herb,</l>
+          <l xml:id="A08009-e105320">Whereby what cloys their stomachs, they cast up,</l>
+          <l xml:id="A08009-e105330">And as some writers of experience tell,</l>
+          <l xml:id="A08009-e105340">They were the first invented vomiting. </l>
+          <l xml:id="A08009-e105350">Shamest thou not, autumn, unadvisedly</l>
+          <l xml:id="A08009-e105360">To slander such rare creatures as they be? </l>
+        </sp>
+        <sp xml:id="A08009-e105370" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e105380">We called thee not, Orion, to this end,</l>
+          <l xml:id="A08009-e105390"><pb facs="13"/> to tell a story of dogs qualities. </l>
+          <l xml:id="A08009-e105400">With all thy hunting how are we enrich? </l>
+          <l xml:id="A08009-e105410">What tribute payest thou us for thy high place? </l>
+        </sp>
+        <sp xml:id="A08009-e105420" who="A08009-orion">
+          <speaker>Orion.</speaker>
+          <l xml:id="A08009-e105430">What tribute should I pay you out of naught? </l>
+          <l xml:id="A08009-e105440">Hunter's do hunt for pleasure, not for gain. </l>
+          <l xml:id="A08009-e105450">While dog-days last, the harvest safely thrives:</l>
+          <l xml:id="A08009-e105460">The sun burns hot, to finish up fruits growth:</l>
+          <l xml:id="A08009-e105470">There is no blood-letting to make men weak:</l>
+          <l xml:id="A08009-e105480">Physicians with their cataposia,</l>
+          <l xml:id="A08009-e105490">R. tittle Elinctoria</l>
+          <l xml:id="A08009-e105500">Masticatorum and cataplasmata:</l>
+          <l xml:id="A08009-e105510">Their gargarisms, clisters, and pitched clothes,</l>
+          <l xml:id="A08009-e105520">Their perfumes, syrups, and their triacles,</l>
+          <l xml:id="A08009-e105530">Refrain to poison the sick patients,</l>
+          <l xml:id="A08009-e105540">And dare not minister till I be out. </l>
+          <l xml:id="A08009-e105550">Then none will bathe, and so are fewer drowned:</l>
+          <l xml:id="A08009-e105560">All lust is perilsome, therefore less used. </l>
+          <l xml:id="A08009-e105570">In brief, the year without me cannot stand:</l>
+          <l xml:id="A08009-e105580">Summer, I am thy staff, and thy right hand. </l>
+        </sp>
+        <sp xml:id="A08009-e105590" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e105600">A broken staff, a lame right hand I had,</l>
+          <l xml:id="A08009-e105610">If thou wert all the stay that held me up. </l>
+          <l xml:id="A08009-e105620">Nihil violentum perpetuum. </l>
+          <l xml:id="A08009-e105630">No violence that liveth to old age. </l>
+          <l xml:id="A08009-e105640">Ill-governed star, that never boadest good luck,</l>
+          <l xml:id="A08009-e105650">I banish thee a twelvemonth and a day,</l>
+          <l xml:id="A08009-e105660">Forth of my presence, come not in my sight,</l>
+          <l xml:id="A08009-e105670">Nor show thy head, so much as in the night. </l>
+        </sp>
+        <sp xml:id="A08009-e105680" who="A08009-orion">
+          <speaker>Orion.</speaker>
+          <l xml:id="A08009-e105690">I am content, though hunting be not out,</l>
+          <l xml:id="A08009-e105700">We will go hunt in hell for better hap. </l>
+          <l xml:id="A08009-e105710">One parting blow, my hearts, unto our friends,</l>
+          <l xml:id="A08009-e105720">To bid the fields and huntsmen all farewell:</l>
+          <l xml:id="A08009-e105730">Toss up your bugle horns unto the stars. </l>
+          <l xml:id="A08009-e105740">Toil findeth ease, peace follows after wars. </l>
+          <stage xml:id="A08009-e105750">Exit.</stage>
+          <stage xml:id="A08009-e105760"><pb facs="13"/>Here they go out, blowing their horns, and hallowing, as they came in.</stage>
+        </sp>
+        <sp xml:id="A08009-e105770" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e105780">Faith, this scene of Orion, is right prandium caninum, a dog's dinner, which as it is without wine, so here's a coil about dogs, without wit. If I had thought the ship of fools would have stayed to take in fresh water at the I'll of dogs, I would have furnished it with a whole kennel of collections to the purpose. I have had a dog myself, that would dream, and talk in his sleep, turn round like Ned fool, and sleep all night in a porridge pot. Mark but the skirmish between sixpence and the fox, and it is miraculous, how they overcome one another in honourable courtesy. The fox, though he wears a chain, runs as though he were free, mocking us (As it is a crafty beast) because we having a lord and master to attend on, run about at our pleasures, like masterless men. Young sixpence, the best page his master hath, plays a little, and retires. I warrant, he will not be far out of the way, when his master goes to dinner. Learn of him, you diminutive urchins, how to behave yourselves in your vocation, take not up your standings in a nut-tree, when you should be waiting on my lord's trencher. Shoot but a bit at butts, play but a span at points. Whatever you do, memento mori: remember to rise betimes in the morning.</p>
+        </sp>
+        <sp xml:id="A08009-e105790" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e105800">Vertumnus, call harvest. </l>
+        </sp>
+        <sp xml:id="A08009-e105810" who="A08009-vertumnus">
+          <speaker>Vertumnus.</speaker>
+          <p xml:id="A08009-e105820">Harvest, by West, and by North, by South and southeast, show thyself like a beast. Goodman harvest yeoman, come in, and say what you can: room for the scythe and the sickles there.</p>
+          <stage xml:id="A08009-e105830">Enter harvest with a sith on his neck, and all his reapers with siccles, and a great black bowl with a posset in it, born before him: they come in singing.</stage>
+          <lg xml:id="A08009-e105840">
+            <pb facs="14"/>
+            <head>The song.</head>
+            <l xml:id="A08009-e105850">Merry, merry, merry, cheery, cheery, cheery,</l>
+            <l xml:id="A08009-e105860">Troll the black bowl to me,</l>
+            <l xml:id="A08009-e105870">Heigh derry, derry, with a poop and a lerry,</l>
+            <l xml:id="A08009-e105880">I'll troll it again to thee:</l>
+            <l xml:id="A08009-e105890">Hooky, hooky, we have shorn,</l>
+            <l xml:id="A08009-e105900">And we have bound,</l>
+            <l xml:id="A08009-e105910">And we have brought harvest</l>
+            <l xml:id="A08009-e105920">Home to town. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A08009-e105930" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e105940">Harvest, the baily of my husbandry,</l>
+          <l xml:id="A08009-e105950">What plenty hast thou heaped into our barns? </l>
+          <l xml:id="A08009-e105960">I hope thou hast sped well thou art so blithe. </l>
+        </sp>
+        <sp xml:id="A08009-e105970" who="A08009-harvest">
+          <speaker>Harvest.</speaker>
+          <l xml:id="A08009-e105980">Sped well, or ill sir, I drink to you on the same:</l>
+          <l xml:id="A08009-e105990">Is your throat clear to help us to sing, hooky, hooky? </l>
+          <stage xml:id="A08009-e106000">Here they all sing after him,</stage>
+          <lg xml:id="A08009-e106010">
+            <l xml:id="A08009-e106020">Hooky, hooky, we have shorn,</l>
+            <l xml:id="A08009-e106030">And we have bound,</l>
+            <l xml:id="A08009-e106040">And we have brought harvest</l>
+            <l xml:id="A08009-e106050">Home to town. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A08009-e106060" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e106070">Thou Coridon, why answer'st not direct? </l>
+        </sp>
+        <sp xml:id="A08009-e106080" who="A08009-harvest">
+          <speaker>Harvest.</speaker>
+          <p xml:id="A08009-e106090">Answer? why friend, I am no tapster, to say, anon, anon, sir: but leave you to molest me, goodman tawny leaves, for fear (As the proverb says, leave is light) so I mow off all your leaves with my scythe.</p>
+        </sp>
+        <sp xml:id="A08009-e106100" who="A08009-winter">
+          <speaker><pb facs="14"/>Winter.</speaker>
+          <l xml:id="A08009-e106110">Mock not, and mow not too long you were best,</l>
+          <l xml:id="A08009-e106120">For fear we whet not your sith upon your pate. </l>
+        </sp>
+        <sp xml:id="A08009-e106130" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e106140">Since thou art so perverse in answering,</l>
+          <l xml:id="A08009-e106150">Harvest, hear what complaints are brought to me. </l>
+          <l xml:id="A08009-e106160">Thou art accused by the public voice,</l>
+          <l xml:id="A08009-e106170">For an engrosser of the common store,</l>
+          <l xml:id="A08009-e106180">A carl, that hast no conscience, nor remorse,</l>
+          <l xml:id="A08009-e106190">But dost impoverish the fruitful earth,</l>
+          <l xml:id="A08009-e106200">To make thy garners rise up to the heavens. </l>
+          <l xml:id="A08009-e106210">To whom givest thou? who feedeth at thy board? </l>
+          <l xml:id="A08009-e106220">No alms, but unreasonable gain,</l>
+          <l xml:id="A08009-e106230">Digests what thy huge iron teeth devour:</l>
+          <l xml:id="A08009-e106240">Small beer, course bread, the hinds and beggars cry,</l>
+          <l xml:id="A08009-e106250">Whilst thou with holdest both the malt and flower,</l>
+          <l xml:id="A08009-e106260">And givest us bran, and water, (Fit for dogs.) </l>
+        </sp>
+        <sp xml:id="A08009-e106270" who="A08009-harvest">
+          <speaker>Harvest.</speaker>
+          <p xml:id="A08009-e106280">Hooky, hooky, if you were not my lord, I would say you lie. First and foremost you say I am a grocer. A grocer is a citizen: I am no citizen, therefore no grocer. A hoarder up of grain: that's false; for not so much but my elbows eat wheat every time I lean on them. A carl: that is as much to say, as a coney-catcher of good fellowship. For that one word, you shall pledge me a carouse: eat a spoonful of the curd to allay your choler. My mates and fellows, sing no more, merry, merry: but weep out a lamentable hooky, hooky, and let your sickles cry, sick, sick, and very sick, and sick, and for the time; for harvest your master is abused without reason or rhyme. I have no conscience I; I'll come nearer to you, and yet I am no scab, nor no louse. Can you make proof wherever I sold away my conscience, or pawned it? do you know who would buy it, or lend any money upon it? I think I have given you the pose; blow your nose, master constable. But to say that I impoverish the earth, that I rob the man in the moon, that I take a purse on the top of Paul's steeple; by this straw and third I swear, you are no gentleman, no proper man, no honest man, to make me sing, oh man in desperation.</p>
+        </sp>
+        <sp xml:id="A08009-e106290" who="A08009-summer">
+          <speaker><pb facs="15"/>Summer.</speaker>
+          <l xml:id="A08009-e106300">I must give credit unto what I hear;</l>
+          <l xml:id="A08009-e106310">For other than I hear, attract I naught. </l>
+        </sp>
+        <sp xml:id="A08009-e106320" who="A08009-harvest">
+          <speaker>Harvest.</speaker>
+          <p xml:id="A08009-e106330">Ay, ay, naught seek, naught have: an ill husband is the first step to a knave. You object I feed none at my board. I am sure, if you were a hog, you would never say so: for, surreverence of their worships, they feed at my stable, table, every day. I keep good hospitality for hens and geese; gleaners are oppressed with heavy burdens of my bounty. They rake me, and eat me to the very bones, till there be nothing left but gravel and stones, and yet I give no alms, but devour all. They say when a man cannot hear well, you hear with your harvest ears: but if you heard with your harvest ears, that is, with the ears of corn, which my almscart scatters, they would tell you, that I am the very poor man's box of pity, that there are more holes of liberality open in harvest's heart, then in a sieve, or a dustbox. Suppose you were a craftsman, or an artificer, and should come to buy corn of me, you should have bushels of me, not like the baker's loaf, that should weigh but six ounces, but usury for your money, thousands for one: what would you have more? Eat me out of my apparel, if you will, if you suspect me for a miser.</p>
+        </sp>
+        <sp xml:id="A08009-e106340" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e106350">I credit thee, and think thou wert belied. </l>
+          <l xml:id="A08009-e106360">But tell me, hadst thou a good crop this year? </l>
+        </sp>
+        <sp xml:id="A08009-e106370" who="A08009-harvest">
+          <speaker>Harvest.</speaker>
+          <p xml:id="A08009-e106380">Hay, God's plenty, which was so sweet and so good, that when I ierted my whip, and said to my horses but hay, they would go as they were mad.</p>
+        </sp>
+        <sp xml:id="A08009-e106390" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e106400">But hay alone thou sayest not; but hay-ree. </l>
+        </sp>
+        <sp xml:id="A08009-e106410" who="A08009-harvest">
+          <speaker>Harvest.</speaker>
+          <p xml:id="A08009-e106420">I sing hay-ree, that is, hay and rye: meaning, that they shall have hay and rye their bellyfuls, if they will draw hard; so we say, wa, hay, when they go out of the way: meaning, that they shall want hay, if they will not do as they should do.</p>
+        </sp>
+        <sp xml:id="A08009-e106430" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e106440">How thrive thy oats, thy barley, and thy wheat? </l>
+        </sp>
+        <sp xml:id="A08009-e106450" who="A08009-harvest">
+          <speaker>Harvest.</speaker>
+          <p xml:id="A08009-e106460">My oats grew like a cup of beer that makes the brewer rich: my rye like a cavalier, that wears a huge feather<pb facs="15"/> in his cap, but hath no courage in his heart; had a long stalk, a goodly husk, but nothing so great a kernel as it was wont: my barley, even as many a novice is crossbitten, as soon as ever he peeps out of the shell, so was it frost-bitten in the blade, yet picked up his crumbs again afterwards, and bade, fill pot, hostess, in spite of a dear year. As for my pease and my fetches, they are famous, and not to be spoken of.</p>
+        </sp>
+        <sp xml:id="A08009-e106470" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e106480">Ay, ay, such country buttoned caps as you,</l>
+          <l xml:id="A08009-e106490">Do want no fetches to undo great towns. </l>
+        </sp>
+        <sp xml:id="A08009-e106500" who="A08009-harvest">
+          <speaker>Harvest.</speaker>
+          <l xml:id="A08009-e106510">Will you make good your words, that we want no fetches? </l>
+        </sp>
+        <sp xml:id="A08009-e106520" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e106530">Ay, that he shall. </l>
+        </sp>
+        <sp xml:id="A08009-e106540" who="A08009-harvest">
+          <speaker>Harvest.</speaker>
+          <l xml:id="A08009-e106550">Then fetch us a cloak-bag, to carry away yourself in. </l>
+        </sp>
+        <sp xml:id="A08009-e106560" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e106570">Plough-swains are blunt, and will taunt bitterly. </l>
+          <l xml:id="A08009-e106580">Harvest, when all is done, thou art the man,</l>
+          <l xml:id="A08009-e106590">Thou dost me the best service of them all:</l>
+          <l xml:id="A08009-e106600">Rest from thy labours till the year renews,</l>
+          <l xml:id="A08009-e106610">And let the husbandmen sing of thy praise. </l>
+        </sp>
+        <sp xml:id="A08009-e106620" who="A08009-harvest">
+          <speaker>Harvest.</speaker>
+          <p xml:id="A08009-e106630">Rest from my labours, and let the husbandmen sing of my praise? Nay, we do not mean to rest so; by your leave, we'll have a largesse amongst you, ere we part.</p>
+        </sp>
+        <sp xml:id="A08009-e106640" who="A08009-all">
+          <speaker>All.</speaker>
+          <l xml:id="A08009-e106650">A largesse, a largesse, a largesse. </l>
+        </sp>
+        <sp xml:id="A08009-e106660" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <l xml:id="A08009-e106670">Is there no man that will give them a hiss for a largesse? </l>
+        </sp>
+        <sp xml:id="A08009-e106680" who="A08009-harvest">
+          <speaker>Harvest.</speaker>
+          <p xml:id="A08009-e106690">No, that there is not, goodman Lundgis: I see, charity waxeth cold, and I think this house be her habitation, for it is not very hot; we were as good even put up our pipes, and sing merry, merry, for we shall get no money.</p>
+          <stage xml:id="A08009-e106700">Here they go out all singing,</stage>
+          <lg xml:id="A08009-e106710">
+            <l xml:id="A08009-e106720">Merry, merry, merry, cheery, cheery, cheery,</l>
+            <l xml:id="A08009-e106730">Troll the black bowl to me:</l>
+            <l xml:id="A08009-e106740"><pb facs="16"/> heigh derry, derry, with a poop and a lerrie,</l>
+            <l xml:id="A08009-e106750">I'll troll it again to thee:</l>
+            <l xml:id="A08009-e106760">Hookie-bookie , we have shorn and we have bound,</l>
+            <l xml:id="A08009-e106770">And we have brought harvest home to town. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A08009-e106780" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e106790">Well, go thy ways, thou bundle of straw; I'll give thee this gift, thou shalt be a clown while thou liv'st. As lusty as they are, they run on the score with George's wife for their posset, and God knows who shall pay goodman yeoman's, for his wheat sheaf: they may sing well enough, troll the black bowl to me, troll the black bowl to me: for, a hundreth to one, but they will be all drunk, ere they go to bed: yet, of a slavering fool, that hath no conceit in any thing, but in carrying a wand in his hand, with commendation when he runneth by the high way side, this stripling harvest hath done reasonable well. O that somebody had had the wit to set his thatched suit on fire, and so lighted him out: if I had had but a jet ring on my finger, I might have done with him what I list; I had spoilt him, I had taken his apparel prisoner; for it being made of straw, and the nature of let, to draw straw unto it, I would have nailed him to the pommel of my chair, till the play were done, and then have carried him to my chamber door, and laid him at the threshold as a wisp, or a piece of mat, to wipe my shoes on, every time I come up dirty.</p>
+        </sp>
+        <sp xml:id="A08009-e106800" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e106810">Vertumnus, call Bacchus. </l>
+        </sp>
+        <sp xml:id="A08009-e106820" who="A08009-vertumnus">
+          <speaker>Vertum.</speaker>
+          <p xml:id="A08009-e106830">Bacchus, baccha, bacchum, god Bacchus, god fat-back, baron of double beer, and bottle ale, come in and show thy nose that is nothing pale: back, back there, god barrelbelly may enter.</p>
+          <stage xml:id="A08009-e106840">Enter Bacchus riding upon an ass trapped in ivy, himself dressed in vine leaves, and a garland of grapes on his head: his companions having all jacks in their hands, and ivy garlands on their heads, they come in singing.</stage>
+          <lg xml:id="A08009-e106850">
+            <pb facs="16"/>
+            <head>The song.</head>
+            <l xml:id="A08009-e106860">Monsieur Mingo, for quaffing doth surpass,</l>
+            <l xml:id="A08009-e106870">In cup, in can, or glass. </l>
+            <l xml:id="A08009-e106880">God Bacchus do me right,</l>
+            <l xml:id="A08009-e106890">And dub me knight Domingo. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A08009-e106900" who="A08009-bacchus">
+          <speaker>Bacchus.</speaker>
+          <p xml:id="A08009-e106910">Wherefore didst thou call me, Vertumnus? hast any drink to give me? One of you hold my ass while I light: walk him up and down the hall, till I talk a word or two.</p>
+        </sp>
+        <sp xml:id="A08009-e106920" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <p xml:id="A08009-e106930">What, Bacchus: still animus in patinis, no mind but on the pot?</p>
+        </sp>
+        <sp xml:id="A08009-e106940" who="A08009-bacchus">
+          <speaker>Bacchus.</speaker>
+          <p xml:id="A08009-e106950">Why, summer, summer, how wouldst do, but for rain? What is a fair house without water coming to it? Let me see how a smith can work, if he have not his trough standing by him. What sets an edge on a knife? the grindstone alone? no, the moist element poured upon it, which grinds out all gaps, sets a point upon it, and scours it as bright as the firmament. So, I tell thee, give a soldier wine before he goes to battle, it grinds out all gaps, it makes him forget all scars and wounds, and fight in the thickest of his enemies, as though he were but at foils, amongst his fellows. Give a scholar wine, going to his book, or being about to invent, it sets a new point on his wit, it glazeth it, it scours it, it gives him acumen. Plato saith, vinum esse fomitem quendam, et incit abilem ingenij virtutisque. Aristotle saith, nulla est magna scientia absque mixtura dementiae. There is no excellent knowledge without mixture of madness. And what makes a man more mad in the head then wine? Qui bene vult poyein, debet axtá pinyen, he that will do well, must drink well. Prome, prome, potum prome: ho butler, a fresh pot. Nunc est bibendum, nunc pede libero terra pulsanda: a pox on him that leaves his drink behind him; heigh rendovow. </p>
+        </sp>
+        <sp xml:id="A08009-e106960" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e106970">It is wine's custom, to be full of words. </l>
+          <l xml:id="A08009-e106980">I pray thee, Bacchus, give us vicissitudinem loquendi. </l>
+        </sp>
+        <sp xml:id="A08009-e106990" who="A08009-bacchus">
+          <speaker>Bacchus.</speaker>
+          <p xml:id="A08009-e107000">A fiddlestick, never tell me I am full of words. Foecundi calices, quem non fecere desertum: aut epi, aut abi, either<pb facs="17"/> take your drink, or you are an infidel.</p>
+        </sp>
+        <sp xml:id="A08009-e107010" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e107020">I would about thy vintage question thee:</l>
+          <l xml:id="A08009-e107030">How thrive thy vines? hadst thou good store of grapes? </l>
+        </sp>
+        <sp xml:id="A08009-e107040" who="A08009-bacchus">
+          <speaker>Bac.</speaker>
+          <p xml:id="A08009-e107050">Vinum quasivenenum, wine is poison to a sick body; a sick body is no sound body; ergo, wine is a pure thing, and is poison to all corruption. Try-lill, the hunter's hoop to you: I'll stand to it, Alexander was a brave man, and yet an arrant drunkard.</p>
+        </sp>
+        <sp xml:id="A08009-e107060" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e107070">Fie, drunken sot, forgettest thou where thou art? </l>
+          <l xml:id="A08009-e107080">My lord asks thee, what vintage thou hast made? </l>
+        </sp>
+        <sp xml:id="A08009-e107090" who="A08009-bacchus">
+          <speaker>Bac.</speaker>
+          <p xml:id="A08009-e107100">Our vintage, was a vintage, for it did not work upon the advantage, it came in the vanguard of summer, and winds and storms met it by the way, and made it cry, alas and welladay.</p>
+        </sp>
+        <sp xml:id="A08009-e107110" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e107120">That was not well, but all miscarried not? </l>
+        </sp>
+        <sp xml:id="A08009-e107130" who="A08009-bacchus">
+          <speaker>Bac.</speaker>
+          <p xml:id="A08009-e107140">Faith, shall I tell you no lie? Because you are my countryman, and so forth, and a good fellow, is a good fellow, though he have never a penny in his purse: we had but even pot luck, a little to moisten our lips, and no more. That same sol, is a pagan, and a proselyte, he shined so bright all summer, that he burned more grapes, than his beams were worth, were every beam as big as a weaver's beam. A fabis abstinendum: faith, he should have abstained: for what is flesh and blood without his liquor?</p>
+        </sp>
+        <sp xml:id="A08009-e107150" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e107160">Thou wantest no liquor, nor no flesh and blood. </l>
+          <l xml:id="A08009-e107170">I pray thee may I ask without offence? </l>
+          <l xml:id="A08009-e107180">How many tons of wine hast in thy paunch? </l>
+          <l xml:id="A08009-e107190">Methinks , that, built like a round church,</l>
+          <l xml:id="A08009-e107200">Should yet have some of Julius Caesar's wine:</l>
+          <l xml:id="A08009-e107210">I warrant, 'twas not broached this hundred year. </l>
+        </sp>
+        <sp xml:id="A08009-e107220" who="A08009-bacchus">
+          <speaker>Bacchus.</speaker>
+          <p xml:id="A08009-e107230">Hearest, thou dow-belly, because thou talkest, and talkest, and dar'st not drink to me a black Jack, wilt thou give me leave, to broach this little kilderkin of my corpse, against thy back? I know thou art but a mitcher, and dar'st not stand me. A voni, monsieur winter, a frolic upsy freeze, cross, ho, super nagulum. <note anchored="true" place="margin" xml:id="A08009-e107240">knocks the jack upon his thumb.</note></p>
+        </sp>
+        <sp xml:id="A08009-e107250" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e107260">Gramercy, Bacchus, as much as though I did. </l>
+          <l xml:id="A08009-e107270">For this time thou must pardon me perforce. </l>
+        </sp>
+        <sp xml:id="A08009-e107280" who="A08009-bacchus">
+          <speaker>Bacchus.</speaker>
+          <p xml:id="A08009-e107290">What, give me the disgrace? Go to, I say, I am no Pope, to pardon any man. Ran, ran, tarra, cold beer makes good<pb facs="17"/> blood. S. George for England: somewhat is better than nothing. Let me see, hast thou done me justice? why so: thou art a King, though there were no more Kings in the cards but the knave. Summer, wilt thou have a demi culvering, that shall cry husty tusty, and make thy cup fly fine meal in the element?</p>
+        </sp>
+        <sp xml:id="A08009-e107300" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e107310">No, keep thy drink, I pray thee, to thyself. </l>
+        </sp>
+        <sp xml:id="A08009-e107320" who="A08009-bacchus">
+          <speaker>Bacchus.</speaker>
+          <p xml:id="A08009-e107330">This Pupillonian in the fool's coat, shall have a cast of Martin's, and a whiff. To the health of captain Rinocerotry: look to it, let him have weight and measure.</p>
+        </sp>
+        <sp xml:id="A08009-e107340" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e107350">What an ass is this? I cannot drink so much, though I should burst.</p>
+        </sp>
+        <sp xml:id="A08009-e107360" who="A08009-bacchus">
+          <speaker>Bacchus.</speaker>
+          <p xml:id="A08009-e107370">Fool, do not refuse your moist sustenance; come, come, dog's head in the pot, do what you are born to.</p>
+        </sp>
+        <sp xml:id="A08009-e107380" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e107390">If you will needs make me a drunkard against my will, so it is, I'll try what burden my belly is of.</p>
+        </sp>
+        <sp xml:id="A08009-e107400" who="A08009-bacchus">
+          <speaker>Bacchus.</speaker>
+          <p xml:id="A08009-e107410">Crouch, crouch on your knees, fool, when you pledge god Bacchus. </p>
+          <stage xml:id="A08009-e107420">Here Will summer drinks, and they sing about him. Bacchus begins. All, monsieur Mingo for quaffing did surpass, in cup, in can, or glass.</stage>
+        </sp>
+        <sp xml:id="A08009-e107430" who="A08009-bacchus">
+          <speaker>Bacchus.</speaker>
+          <p xml:id="A08009-e107440">Ho, well shot, a toucher, a toucher: for quaffing toy doth pass, in cup, in can, or glass.</p>
+        </sp>
+        <sp xml:id="A08009-e107450" who="A08009-all">
+          <speaker>All.</speaker>
+          <l xml:id="A08009-e107460">God Bacchus do him right, and dub him knight. </l>
+        </sp>
+        <sp xml:id="A08009-e107470" who="A08009-bacchus">
+          <speaker>Bac.</speaker>
+          <l xml:id="A08009-e107480">Rise up sir Robert Tospot. </l>
+          <stage xml:id="A08009-e107490">Here he dubs Will summer with the black Jack.</stage>
+        </sp>
+        <sp xml:id="A08009-e107500" who="A08009-summer">
+          <speaker>Summer</speaker>
+          <l xml:id="A08009-e107510">No more of this, I hate it to the death. </l>
+          <l xml:id="A08009-e107520">No such deformer of the soul and sense,</l>
+          <l xml:id="A08009-e107530">As is this swinish damned-born drunkenness. </l>
+          <l xml:id="A08009-e107540">Bacchus, for thou abusest so earth's fruits,</l>
+          <l xml:id="A08009-e107550">Imprisoned live in cellars and in vaults,</l>
+          <l xml:id="A08009-e107560">Let none commit their counsels unto thee:</l>
+          <l xml:id="A08009-e107570">Thy wrath be fatal to thy dearest friends,</l>
+          <l xml:id="A08009-e107580">Unarmed run upon thy foemen's swords,</l>
+          <l xml:id="A08009-e107590">Never fear any plague, before it fall:</l>
+          <l xml:id="A08009-e107600">Dropsies, and watery tympanies haunt thee,</l>
+          <l xml:id="A08009-e107610">Thy lungs with surfeiting be putrified,</l>
+          <l xml:id="A08009-e107620">To cause thee have an odious stinking breath,</l>
+          <l xml:id="A08009-e107630">Slaver and drivel like a child at mouth,</l>
+          <l xml:id="A08009-e107640"><pb facs="18"/> be poor and beggarly in thy old age,</l>
+          <l xml:id="A08009-e107650">Let thy own kinsmen laugh, when thou complain'st,</l>
+          <l xml:id="A08009-e107660">And many tears gain nothing but blind scoffs. </l>
+          <l xml:id="A08009-e107670">This is the guerdon due to drunkenness;</l>
+          <l xml:id="A08009-e107680">Shame, sickness, misery, follow excess. </l>
+        </sp>
+        <sp xml:id="A08009-e107690" who="A08009-bacchus">
+          <speaker>Bacchus.</speaker>
+          <p xml:id="A08009-e107700">Now on my honour, Sim summer, thou art a bad member, a dunce, a mongrel, to discredit so worshipful an art after this order. Thou hast cursed me, and I will bless thee: never cup of nipitaty in London, come near thy niggardly habitation. I beseech the gods of good fellowship, thou mayst fall into a consumption with drinking small beer. Every day mayst thou eat fish, and let it stick in the midst of thy maw, for want of a cup of wine to swim away in. Venison be venenum to thee: and may that vintner have the plague in his house, that sells thee a drop of claret to kill the poison of it. As many wounds mayst thou have, as Caesar had in the senate house, and get no white wine to wash them with: and to conclude, pine away in melancholy and sorrow, before thou hast the fourth part of a dram of my juice to cheer up thy spirits.</p>
+        </sp>
+        <sp xml:id="A08009-e107710" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e107720">Hale him away, he barketh like a wolf,</l>
+          <l xml:id="A08009-e107730">It is his drink, not he that rails on us. </l>
+        </sp>
+        <sp xml:id="A08009-e107740" who="A08009-bacchus">
+          <speaker>Bacchus.</speaker>
+          <p xml:id="A08009-e107750">Nay soft, brother summer, back with that foot, here is a snuff in the bottom of the Jack, enough to light a man to bed withal, we'll leave no flocks behind us whatsoever we do.</p>
+        </sp>
+        <sp xml:id="A08009-e107760" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e107770">Go drag him hence I say when I command. </l>
+        </sp>
+        <sp xml:id="A08009-e107780" who="A08009-bacchus">
+          <speaker>Bacchus.</speaker>
+          <l xml:id="A08009-e107790">Since we must needs go, let's go merrily. </l>
+          <p xml:id="A08009-e107800">Farewell, sir Robert toss-pot: sing amain, monsieur Myngo, whilst I mount up my ass.</p>
+          <stage xml:id="A08009-e107810">Here they go out singing, monsieur Myngo, as they came in.</stage>
+        </sp>
+        <sp xml:id="A08009-e107820" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e107830">Of all gods, this Bacchus is the ill-favourdest misshapen god that ever I saw. A pox on him, he hath christened me with a new nickname of sir Robert toss-pot, that will not part from me this twelvemonth. Ned fools clothes are so perfumed with the beer he poured on me, that there shall not be a Dutchman within 20 mile, but he'll smell out and claim kindred<pb facs="18"/> of him. What a beastly thing is it, to bottle up ale in a man's belly, when a man must set his guts on a gallon pot last, only to purchase the alehouse title of a boon companion? Carouse, pledge me and you dare: 'swounds, I'll drink with thee for all that ever thou art worth. It is e'en as 2. men should strive who should run furthest into the sea for a wager. Methinks these are good household terms; will it please you to be here, sir? I commend me to you: shall I be so bold as trouble you? saving your tale I drink to you. And if these were put in practice but a year or two in taverns, wine would soon fall from six and twenty pound a ton, and be beggar's money, a penny a quart, and take up his inn with waste beer in the alms tub. I am a sinner as others: I must not say much of this argument. Every one when he is whole, can give advice to them that are sick. My masters, you that be good fellows, get you into corners, and soup off your provender closely: report hath a blister on her tongue: open taverns are tell-tales. Non peccat, quicunque potest peccasse negare. </p>
+        </sp>
+        <sp xml:id="A08009-e107840" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e107850">I'll call my servants to account said I? </l>
+          <l xml:id="A08009-e107860">A bad account: worse servants no man hath. </l>
+          <l xml:id="A08009-e107870">Quos credis sides effuge, tutus reis:</l>
+          <l xml:id="A08009-e107880">The proverb I have proved to be too true,</l>
+          <l xml:id="A08009-e107890">Totidem domi hosts habemus, quot servos. </l>
+          <l xml:id="A08009-e107900">And that wise caution of Democritus,</l>
+          <l xml:id="A08009-e107910">Seruns necessaria possessio, non autem dulcis:</l>
+          <l xml:id="A08009-e107920">Nowhere fidelity and labour dwells. </l>
+          <l xml:id="A08009-e107930">Hope, young heads count to build on had I wist. </l>
+          <l xml:id="A08009-e107940">Conscience but few respect, all hunt for gain:</l>
+          <l xml:id="A08009-e107950">Except the camel have his provender</l>
+          <l xml:id="A08009-e107960">Hung at his mouth, he will not travel on. </l>
+          <l xml:id="A08009-e107970">Tiresias to Narcissus promised</l>
+          <l xml:id="A08009-e107980">Much prosperous hap, and many golden days,</l>
+          <l xml:id="A08009-e107990">If of his beauty he no knowledge took. </l>
+          <l xml:id="A08009-e108000">Knowledge breeds pride, pride breedeth discontent. </l>
+          <l xml:id="A08009-e108010">Black discontent, thou urgest to revenge. </l>
+          <l xml:id="A08009-e108020">Revenge opens not her ears to poor men's prayers. </l>
+          <l xml:id="A08009-e108030">That dolt destruction, is she without doubt,</l>
+          <l xml:id="A08009-e108040"><pb facs="19"/> that hales her forth and feedeth her with naught. </l>
+          <l xml:id="A08009-e108050">Simplicity and plainness, you I love:</l>
+          <l xml:id="A08009-e108060">Hence double diligence, thou meanest deceit. </l>
+          <l xml:id="A08009-e108070">Those that now serpent-like creep on the ground,</l>
+          <l xml:id="A08009-e108080">And seem to eat the dust, they crouch so low:</l>
+          <l xml:id="A08009-e108090">If they be disappointed of their prey,</l>
+          <l xml:id="A08009-e108100">Most traitorously will trace their tails and sting. </l>
+          <l xml:id="A08009-e108110">Yea, such as like the lapwing build their nests</l>
+          <l xml:id="A08009-e108120">In a man's dung, come up by drudgery,</l>
+          <l xml:id="A08009-e108130">Will be the first, that like that foolish bird,</l>
+          <l xml:id="A08009-e108140">Will follow him with yelling and false cries. </l>
+          <l xml:id="A08009-e108150">Well sung a shepherd (That now sleeps in skies)</l>
+          <l xml:id="A08009-e108160">Dumb swains do love, and not vain chattering pies. </l>
+          <l xml:id="A08009-e108170">In mountains poets say echo is hid,</l>
+          <l xml:id="A08009-e108180">For her deformity and monstrous shape:</l>
+          <l xml:id="A08009-e108190">Those mountains are the houses of great lords,</l>
+          <l xml:id="A08009-e108200">Where scenter with his hundreth voices sounds</l>
+          <l xml:id="A08009-e108210">A hundreth trumps at once with rumor filled:</l>
+          <l xml:id="A08009-e108220">A woman they imagine her to be,</l>
+          <l xml:id="A08009-e108230">Because that sex keeps nothing close they hear:</l>
+          <l xml:id="A08009-e108240">And that's the reason magic writers frame,</l>
+          <l xml:id="A08009-e108250">There are more witches women then of men;</l>
+          <l xml:id="A08009-e108260">For women generally for the most part,</l>
+          <l xml:id="A08009-e108270">Of secrets more desirous of, than men,</l>
+          <l xml:id="A08009-e108280">Which having got, they have no power to hold. </l>
+          <l xml:id="A08009-e108290">In these times had echoes first fathers lived,</l>
+          <l xml:id="A08009-e108300">No woman, but a man she had been feigned. </l>
+          <l xml:id="A08009-e108310">(Though women yet will want no news to prate.) </l>
+          <l xml:id="A08009-e108320">For men (Mean men) the scum and dross of all,</l>
+          <l xml:id="A08009-e108330">Will talk and babble of they know not what,</l>
+          <l xml:id="A08009-e108340">Upbraid, deprave, and taunt, they care not whom:</l>
+          <l xml:id="A08009-e108350">Surmises pass for sound approved truths:</l>
+          <l xml:id="A08009-e108360">Familiarity and conference,</l>
+          <l xml:id="A08009-e108370">That were the sinews of societies,</l>
+          <l xml:id="A08009-e108380">Are now for underminings only used,</l>
+          <l xml:id="A08009-e108390">And novel wits, that love none but themselves,</l>
+          <l xml:id="A08009-e108400"><pb facs="19"/> think wisdom's height as falsehood slily couched,</l>
+          <l xml:id="A08009-e108410">Seeking each other to o'erthrow his mate. </l>
+          <l xml:id="A08009-e108420">O friendship, thy old temple is defaced. </l>
+          <l xml:id="A08009-e108430">Embracing every guileful courtesy,</l>
+          <l xml:id="A08009-e108440">Hath overgrown fraud-wanting honesty. </l>
+          <l xml:id="A08009-e108450">Examples live but in the idle schools:</l>
+          <l xml:id="A08009-e108460">Sinon bears all the sway in princes' courts:</l>
+          <l xml:id="A08009-e108470">Sickness, be thou my soul's physician:</l>
+          <l xml:id="A08009-e108480">Bring the apothecary death with thee. </l>
+          <l xml:id="A08009-e108490">In earth is hell, true hell felicity,</l>
+          <l xml:id="A08009-e108500">Compared with this world the den of wolves. </l>
+        </sp>
+        <sp xml:id="A08009-e108510" who="A08009-autumn">
+          <speaker>Autumn</speaker>
+          <l xml:id="A08009-e108520">My lord, you are too passionate without cause. </l>
+        </sp>
+        <sp xml:id="A08009-e108530" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e108540">Grieve not for that which cannot be recalled:</l>
+          <l xml:id="A08009-e108550">Is it your servant's carelessness you plain? </l>
+          <l xml:id="A08009-e108560">Tully by one of his own slaves was slain. </l>
+          <l xml:id="A08009-e108570">The husbandman close in his bosom nursed</l>
+          <l xml:id="A08009-e108580">A subtle snake, that after wrought his bane. </l>
+        </sp>
+        <sp xml:id="A08009-e108590" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e108600">Servos fideles liberalitaes facit:</l>
+          <l xml:id="A08009-e108610">Where on the contrary, seruitutem:</l>
+          <l xml:id="A08009-e108620">Those that attend upon illiberall lords,</l>
+          <l xml:id="A08009-e108630">Whose covetise yields naught else but fair looks,</l>
+          <l xml:id="A08009-e108640">Even of those fair looks make their gainful use. </l>
+          <l xml:id="A08009-e108650">For as in Ireland and in Denmark both</l>
+          <l xml:id="A08009-e108660">Witches for gold will sell a man a wind,</l>
+          <l xml:id="A08009-e108670">Which in the corner of a napkin wrapped,</l>
+          <l xml:id="A08009-e108680">Shall blow him safe unto what coast he will:</l>
+          <l xml:id="A08009-e108690">So make ill servant's sale of their lords wind,</l>
+          <l xml:id="A08009-e108700">Which wrapped up in a piece of parchment,</l>
+          <l xml:id="A08009-e108710">Blows many a knave forth danger of the law. </l>
+        </sp>
+        <sp xml:id="A08009-e108720" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e108730">Enough of this, let me go make my will. </l>
+          <l xml:id="A08009-e108740">Ah it is made, although I hold my peace,</l>
+          <l xml:id="A08009-e108750">These two will share betwixt them what I have. </l>
+          <l xml:id="A08009-e108760">The surest way to get my will performed,</l>
+          <l xml:id="A08009-e108770">Is to make my executor my heir:</l>
+          <l xml:id="A08009-e108780">And he, if all be given him and none else,</l>
+          <l xml:id="A08009-e108790">Unfallibly will see it well performed. </l>
+          <l xml:id="A08009-e108800"><pb facs="20"/>Lion's will feed, though none bid them go to. </l>
+          <l xml:id="A08009-e108810">Ill grows the tree affordeth never a graft. </l>
+          <l xml:id="A08009-e108820">Had I some issue to sit in my throne,</l>
+          <l xml:id="A08009-e108830">My grief would die, death should not hear me groan. </l>
+          <l xml:id="A08009-e108840">But when perforce these must enjoy my wealth,</l>
+          <l xml:id="A08009-e108850">Which thank me not, but enter't as a prey,</l>
+          <l xml:id="A08009-e108860">Bequeathed it is not, but clean cast away. </l>
+          <l xml:id="A08009-e108870">Autumn, be thou successor of my seat:</l>
+          <l xml:id="A08009-e108880">Hold, take my crown: look how he grasps for it. </l>
+          <l xml:id="A08009-e108890">Thou shalt not have it yet: but hold it too;</l>
+          <l xml:id="A08009-e108900">Why should I keep that needs I must forgo? </l>
+        </sp>
+        <sp xml:id="A08009-e108910" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e108920">Then (Duty laid aside) you do me wrong:</l>
+          <l xml:id="A08009-e108930">I am more worthy of it far then he. </l>
+          <l xml:id="A08009-e108940">He hath no skill nor courage for to rule,</l>
+          <l xml:id="A08009-e108950">A weather-beaten bankrupt ass it is,</l>
+          <l xml:id="A08009-e108960">That scatters and consumeth all he hath:</l>
+          <l xml:id="A08009-e108970">Each one do pluck from him without control. </l>
+          <l xml:id="A08009-e108980">He is nor hot nor cold, a silly soul,</l>
+          <l xml:id="A08009-e108990">That fain would please each party, if so he might:</l>
+          <l xml:id="A08009-e109000">He and the spring are scholars favourites. </l>
+          <l xml:id="A08009-e109010">What scholars are, what thriftless kind of men,</l>
+          <l xml:id="A08009-e109020">Yourself be judge, and judge of him by them. </l>
+          <l xml:id="A08009-e109030">When Cerberus was headlong drawn from hell,</l>
+          <l xml:id="A08009-e109040">He voided a black poison from his mouth,</l>
+          <l xml:id="A08009-e109050">Called aconitum, whereof ink was made:</l>
+          <l xml:id="A08009-e109060">That ink with reeds first laid on dried barks,</l>
+          <l xml:id="A08009-e109070">Served men a while to make rude works withal,</l>
+          <l xml:id="A08009-e109080">Till Hermes, secretary to the gods,</l>
+          <l xml:id="A08009-e109090">Or Hermes Trismegistus as some will,</l>
+          <l xml:id="A08009-e109100">Weary with graving in blind characters,</l>
+          <l xml:id="A08009-e109110">And figures of familiar beasts and plants,</l>
+          <l xml:id="A08009-e109120">Invented letters to write lies withal. </l>
+          <l xml:id="A08009-e109130">In them he penned the fables of the gods,</l>
+          <l xml:id="A08009-e109140">The giants war, and thousand tales besides. </l>
+          <l xml:id="A08009-e109150">After each nation got these toys in use,</l>
+          <l xml:id="A08009-e109160">There grew up certain drunken parasites,</l>
+          <l xml:id="A08009-e109170"><pb facs="20"/> termed poets, which for a meal's meat or two,</l>
+          <l xml:id="A08009-e109180">Would promise monarchs immortality:</l>
+          <l xml:id="A08009-e109190">They vomited in verse all that they knew,</l>
+          <l xml:id="A08009-e109200">Found causes and beginnings of the world,</l>
+          <l xml:id="A08009-e109210">Fetched pedigrees of mountains and of floods,</l>
+          <l xml:id="A08009-e109220">From men and women whom the gods transformed:</l>
+          <l xml:id="A08009-e109230">If any town or city, they passed by,</l>
+          <l xml:id="A08009-e109240">Had in compassion (Thinking them mad men)</l>
+          <l xml:id="A08009-e109250">Forborn to whip them, or imprison them,</l>
+          <l xml:id="A08009-e109260">That city was not built by humane hands,</l>
+          <l xml:id="A08009-e109270">Was raised by music, like Megara walls,</l>
+          <l xml:id="A08009-e109280">Apollo, poet's patron founded it,</l>
+          <l xml:id="A08009-e109290">Because they found one fitting favour there:</l>
+          <l xml:id="A08009-e109300">Musaeus, Lynus, Homer, Orpheus,</l>
+          <l xml:id="A08009-e109310">Were of this trade, and thereby won their fame. </l>
+        </sp>
+        <sp xml:id="A08009-e109320" who="A08009-will_summer">
+          <speaker>Will. Summer.</speaker>
+          <l xml:id="A08009-e109330">Famamalum, quo non velocius ullum. </l>
+        </sp>
+        <sp xml:id="A08009-e109340" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e109350">Next them, a company of ragged knaves,</l>
+          <l xml:id="A08009-e109360">Sun-bathing beggars, lazy hedge-creepers,</l>
+          <l xml:id="A08009-e109370">Sleeping face onwards in the fields all night,</l>
+          <l xml:id="A08009-e109380">Dreamed strange devices of the sun and moon,</l>
+          <l xml:id="A08009-e109390">And they like Gipsies wand'ring up and down,</l>
+          <l xml:id="A08009-e109400">Told fortunes, juggled, nicknamed all the stars,</l>
+          <l xml:id="A08009-e109410">And were of idiots termed philosophers:</l>
+          <l xml:id="A08009-e109420">Such was Pythagoras the silencer,</l>
+          <l xml:id="A08009-e109430">Prometheus, Thales, Milesius,</l>
+          <l xml:id="A08009-e109440">Who would all things of water should be made:</l>
+          <l xml:id="A08009-e109450">Anaximander, Anaximenes,</l>
+          <l xml:id="A08009-e109460">That positively said the air was God;</l>
+          <l xml:id="A08009-e109470">Zenocrates, that said there were eight gods:</l>
+          <l xml:id="A08009-e109480">And Cratoniates, Alcmeon too,</l>
+          <l xml:id="A08009-e109490">Who thought the sun and moon, and stars were gods:</l>
+          <l xml:id="A08009-e109500">The poorer sort of them that could get naught,</l>
+          <l xml:id="A08009-e109510">Professed, like beggarly Franciscan friars,</l>
+          <l xml:id="A08009-e109520">And the strict order of the caponchins,</l>
+          <l xml:id="A08009-e109530">A voluntary wretched poverty,</l>
+          <l xml:id="A08009-e109540">Contempt of gold, thin fare, and lying hard:</l>
+          <l xml:id="A08009-e109550"><pb facs="21"/> yet he that was most vehement in these,</l>
+          <l xml:id="A08009-e109560">Diogenes the cynic and the dog,</l>
+          <l xml:id="A08009-e109570">Was taken coining money in his cell. </l>
+        </sp>
+        <sp xml:id="A08009-e109580" who="A08009-will_summer">
+          <speaker>Wil summer.</speaker>
+          <p xml:id="A08009-e109590">What an old ass was that? Methinks , he should have coined carrot roots rather: for as for money, he had no use for, except it were to melt, and solder up holes in his tub withal.</p>
+        </sp>
+        <sp xml:id="A08009-e109600" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e109610">It were a whole Olympiad's work to tell,</l>
+          <l xml:id="A08009-e109620">How many devilish, ergo armed arts,</l>
+          <l xml:id="A08009-e109630">Sprung all as vices, of this idleness:</l>
+          <l xml:id="A08009-e109640">For even as soldiers not employed in wars,</l>
+          <l xml:id="A08009-e109650">But living loosely in a quiet state,</l>
+          <l xml:id="A08009-e109660">Not having wherewithal to maintain pride,</l>
+          <l xml:id="A08009-e109670">Nay scarce to find their bellies any food,</l>
+          <l xml:id="A08009-e109680">Naught but walk melancholy, and devise</l>
+          <l xml:id="A08009-e109690">How they may cozen merchants, fleece young heirs,</l>
+          <l xml:id="A08009-e109700">Creep into favour by betraying men,</l>
+          <l xml:id="A08009-e109710">Rob churches, beg waste toys, court city dames,</l>
+          <l xml:id="A08009-e109720">Who shall undo their husbands for their sakes:</l>
+          <l xml:id="A08009-e109730">The baser rabble how to cheat and steal,</l>
+          <l xml:id="A08009-e109740">And yet be free from penalty of death. </l>
+          <l xml:id="A08009-e109750">So those word-warriors, lazy stargazers,</l>
+          <l xml:id="A08009-e109760">Used to no labour, but to louse themselves,</l>
+          <l xml:id="A08009-e109770">Had their heads filled with cozening fantasies,</l>
+          <l xml:id="A08009-e109780">They plotted how to make their poverty,</l>
+          <l xml:id="A08009-e109790">Better esteemed of, then high sovereignty:</l>
+          <l xml:id="A08009-e109800">They thought how they might plant a heaven on earth,</l>
+          <l xml:id="A08009-e109810">Whereof they would be principal low gods,</l>
+          <l xml:id="A08009-e109820">That heaven they called Contemplation,</l>
+          <l xml:id="A08009-e109830">As much to say, as a most pleasant sloth,</l>
+          <l xml:id="A08009-e109840">Which better I cannot compare then this,</l>
+          <l xml:id="A08009-e109850">That if a fellow licenced to beg,</l>
+          <l xml:id="A08009-e109860">Should all his life time go from fair to fair,</l>
+          <l xml:id="A08009-e109870">And buy grape-seed, having no business else. </l>
+          <l xml:id="A08009-e109880">That contemplation like an aged weed,</l>
+          <l xml:id="A08009-e109890">Engendered thousand sects, and all those sects</l>
+          <l xml:id="A08009-e109900"><pb facs="21"/> were but as these times, cunning shrouded rogues,</l>
+          <l xml:id="A08009-e109910">Grammarians some: and wherein differ they</l>
+          <l xml:id="A08009-e109920">From beggars, that profess the pedlars French? </l>
+          <l xml:id="A08009-e109930">The poets next, slovenly tattered slaves,</l>
+          <l xml:id="A08009-e109940">That wander, and sell ballets in the streets. </l>
+          <l xml:id="A08009-e109950">Historiographers others there be,</l>
+          <l xml:id="A08009-e109960">And the like lazars by the high way side,</l>
+          <l xml:id="A08009-e109970">That for a penny, or a halfpenny,</l>
+          <l xml:id="A08009-e109980">Will call each knave a good faced gentleman,</l>
+          <l xml:id="A08009-e109990">Give honour unto tinkers, for good ale,</l>
+          <l xml:id="A08009-e110000">Prefer a cobbler fore the black prince far,</l>
+          <l xml:id="A08009-e110010">If he bestow but blacking of their shoes:</l>
+          <l xml:id="A08009-e110020">And as it is the spittle-house's guise,</l>
+          <l xml:id="A08009-e110030">Over the gate to write their founders names,</l>
+          <l xml:id="A08009-e110040">Or on the outside of their walls at least,</l>
+          <l xml:id="A08009-e110050">In hope by their examples others moved. </l>
+          <l xml:id="A08009-e110060">Will be more bountiful and liberal,</l>
+          <l xml:id="A08009-e110070">So in the forefront of their chronicles,</l>
+          <l xml:id="A08009-e110080">Or peroration operis,</l>
+          <l xml:id="A08009-e110090">They learning's benefactors reckon up,</l>
+          <l xml:id="A08009-e110100">Who built this college, who gave that free-school,</l>
+          <l xml:id="A08009-e110110">What King or Queen advanced scholars most,</l>
+          <l xml:id="A08009-e110120">And in their times what writers flourished;</l>
+          <l xml:id="A08009-e110130">Rich men and magistrates whilst yet they live,</l>
+          <l xml:id="A08009-e110140">They flatter palpably, in hope of gain. </l>
+          <l xml:id="A08009-e110150">Smooth-tongued orators, the fourth in place,</l>
+          <l xml:id="A08009-e110160">Lawyers, our commonwealth entitles them,</l>
+          <l xml:id="A08009-e110170">Meereswash-bucklers, and ruffianly mates,</l>
+          <l xml:id="A08009-e110180">That will for twelve pence make a doughty fray,</l>
+          <l xml:id="A08009-e110190">Set men for straws together by the ears. </l>
+          <l xml:id="A08009-e110200">Sky measuring mathematicians;</l>
+          <l xml:id="A08009-e110210">Gold-breathing alchemists also we have,</l>
+          <l xml:id="A08009-e110220">Both which are subtle witted humorists,</l>
+          <l xml:id="A08009-e110230">That get their meals by telling miracles,</l>
+          <l xml:id="A08009-e110240">Which they have seen in travailing the skies,</l>
+          <l xml:id="A08009-e110250">Vain boasters, liars, makeshifts, they are all,</l>
+          <l xml:id="A08009-e110260"><pb facs="22"/> men that removed from their inkhorn terms,</l>
+          <l xml:id="A08009-e110270">Bring forth no action worthy of their bread. </l>
+          <l xml:id="A08009-e110280">What should I speak of pale physicians? </l>
+          <l xml:id="A08009-e110290">Who as Fismenus non nasatus was,</l>
+          <l xml:id="A08009-e110300">(Upon a wager that his friends had laid)</l>
+          <l xml:id="A08009-e110310">Hired to live in a privy a whole year:</l>
+          <l xml:id="A08009-e110320">So are they hired for lucre and for gain,</l>
+          <l xml:id="A08009-e110330">All their whole life to smell on excrements. </l>
+        </sp>
+        <sp xml:id="A08009-e110340" who="A08009-will_summer">
+          <speaker>Wil. summer.</speaker>
+          <p xml:id="A08009-e110350">Very true, for I have heard it for a proverb many a time and oft, hunc os fatidum, fah, he stinks like a physician.</p>
+        </sp>
+        <sp xml:id="A08009-e110360" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e110370">Innumerable monstrous practises,</l>
+          <l xml:id="A08009-e110380">Hath loitering contemplation brought forth more,</l>
+          <l xml:id="A08009-e110390">Which 'twere too long particular to recite:</l>
+          <l xml:id="A08009-e110400">Suffice they all conduce unto this end,</l>
+          <l xml:id="A08009-e110410">To banish labour, nourish slothfulness,</l>
+          <l xml:id="A08009-e110420">Pamper up lust, device new-fangled sins. </l>
+          <l xml:id="A08009-e110430">Nay I will justify there is no vice,</l>
+          <l xml:id="A08009-e110440">Which learning and vild knowledge brought not in,</l>
+          <l xml:id="A08009-e110450">Or in whose praise some learned have not wrote. </l>
+          <l xml:id="A08009-e110460">The art of murder Machiavel hath penned:</l>
+          <l xml:id="A08009-e110470">Whoredom hath Ovid to uphold her throne:</l>
+          <l xml:id="A08009-e110480">And Aretine of late in Italy,</l>
+          <l xml:id="A08009-e110490">Whose Cortigiana toucheth bawds their trade. </l>
+          <l xml:id="A08009-e110500">Gluttony Epicurus doth defend,</l>
+          <l xml:id="A08009-e110510">And books of th'art of cookery confirm:</l>
+          <l xml:id="A08009-e110520">Of which Platina hath not writ the least. </l>
+          <l xml:id="A08009-e110530">Drunkenness of his good behaviour</l>
+          <l xml:id="A08009-e110540">Hath testimonial from where he was born:</l>
+          <l xml:id="A08009-e110550">That pleasant work de arte bibendi,</l>
+          <l xml:id="A08009-e110560">A drunken Dutchman spewed out few years since:</l>
+          <l xml:id="A08009-e110570">Nor wanteth sloth (Although sloths plague be want). </l>
+          <l xml:id="A08009-e110580">His paper pillars for to lean upon,</l>
+          <l xml:id="A08009-e110590">The praise of nothing pleads his worthiness. </l>
+          <l xml:id="A08009-e110600">Folly Erasmus sets a flourish on. </l>
+          <l xml:id="A08009-e110610">For baldness, a bald ass, I have forgotten,</l>
+          <l xml:id="A08009-e110620"><pb facs="22"/> patched up a pamphletary periwig. </l>
+          <l xml:id="A08009-e110630">Slovenry Grobianus magnifieth:</l>
+          <l xml:id="A08009-e110640">Sodomitry a Cardinal commends,</l>
+          <l xml:id="A08009-e110650">And Aristotle necessary deems. </l>
+          <l xml:id="A08009-e110660">In brief all books, divinity except,</l>
+          <l xml:id="A08009-e110670">Are naught but tales of the devil's laws,</l>
+          <l xml:id="A08009-e110680">Poison wrapped up in sugared words,</l>
+          <l xml:id="A08009-e110690">Man's pride, damnation's props, the world's abuse:</l>
+          <l xml:id="A08009-e110700">Then censure (Good my lord) what bookmen are</l>
+          <l xml:id="A08009-e110710">If they be pestilent members in a state;</l>
+          <l xml:id="A08009-e110720">He is unfit to sit at stern of state,</l>
+          <l xml:id="A08009-e110730">That favours such as will o'erthrow his state:</l>
+          <l xml:id="A08009-e110740">Blessed is that government where no art thrives,</l>
+          <l xml:id="A08009-e110750">Vox populi, vex dei:</l>
+          <l xml:id="A08009-e110760">The vulgars' voice, it is the voice of God. </l>
+          <l xml:id="A08009-e110770">Yet Tully saith, non est consilium in vulgo, non ratio, non discrimen, non differentia:</l>
+          <l xml:id="A08009-e110780">The vulgar have no learning, wit, nor sense. </l>
+          <l xml:id="A08009-e110790">The having spent all his time</l>
+          <l xml:id="A08009-e110800">In study of philosophy and arts,</l>
+          <l xml:id="A08009-e110810">And noting well the vanity of them,</l>
+          <l xml:id="A08009-e110820">Wished with repentance, for his folly past,</l>
+          <l xml:id="A08009-e110830">Some would teach him th'art of oblivion,</l>
+          <l xml:id="A08009-e110840">How to forget the arts that he had learned. </l>
+          <l xml:id="A08009-e110850">And Cicero, whom we alleged before,</l>
+          <l xml:id="A08009-e110860">(As saith Valerius) stepping into old age,</l>
+          <l xml:id="A08009-e110870">Despised learning, loathed eloquence. </l>
+          <l xml:id="A08009-e110880">Naso, that could speak nothing but pure verse,</l>
+          <l xml:id="A08009-e110890">And had more wit than words to utter it,</l>
+          <l xml:id="A08009-e110900">And words as choice as ever poet had,</l>
+          <l xml:id="A08009-e110910">Cried and exclaimed in bitter agony,</l>
+          <l xml:id="A08009-e110920">When knowledge had corrupted his chaste mind,</l>
+          <l xml:id="A08009-e110930">Discite qui sapitis non haec qua scimus inertes,</l>
+          <l xml:id="A08009-e110940">Said trepidas acies, and fera bella sequi. </l>
+          <l xml:id="A08009-e110950">You that be wise, and ever mean to thrive,</l>
+          <l xml:id="A08009-e110960">Oh study not these toys we sluggards use,</l>
+          <l xml:id="A08009-e110970"><pb facs="23"/> but follow arms, and wait on barbarous wars. </l>
+          <l xml:id="A08009-e110980">Young men, young boys, beware of schoolmasters,</l>
+          <l xml:id="A08009-e110990">They will infect you, mar you, blear your eyes:</l>
+          <l xml:id="A08009-e111000">They seek to lay the curse of God on you,</l>
+          <l xml:id="A08009-e111010">Namely confusion of languages,</l>
+          <l xml:id="A08009-e111020">Wherewith those that the tower of Babel built,</l>
+          <l xml:id="A08009-e111030">Accursed were in the world's infancy. </l>
+          <l xml:id="A08009-e111040">Latin, it was the speech of infidels. </l>
+          <l xml:id="A08009-e111050">Logic hath naught to say in a true cause. </l>
+          <l xml:id="A08009-e111060">Philosophy is curiosity:</l>
+          <l xml:id="A08009-e111070">And Socrates was therefore put to death,</l>
+          <l xml:id="A08009-e111080">Only for he was a philosopher:</l>
+          <l xml:id="A08009-e111090">Abhor, contemn, despise, these damned snares. </l>
+        </sp>
+        <sp xml:id="A08009-e111100" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e111110">Out upon it, who would be a scholar? not I, I promise you: my mind always gave me, this learning was such a filthy thing, which made me hate it so as I did: when I should have been at school, construing batte, mi fili, mi fili, mi batte, I was close under a hedge, or under a barn wall, playing at span counter, or Jack in a box: my master beat me, my father beat me, my mother gave me bread and butter, ye all this would not make me a squitter-book. It was my destiny, I thank her as a most courteous goddess, that she hath not cast me away upon gibridge. O, in what a mighty vain am I now against hornbooks! Here before all this company, I profess myself on open enemy to ink and paper. I'll make it good upon the accidence body, that in speech is the devils pater noster: nouns and pronouns, I pronounce you as traitors to boys buttocks, syntaxis and prosodia, you are tormenters of wit, and good for nothing but to get a schoolmaster two pence a week. Hang copies, fly out phrase books, let pens be turned to picktooths: bowls, cards and dice, you are the true liberal sciences, I'll never be goose-quill, gentlemen, while I live.</p>
+        </sp>
+        <sp xml:id="A08009-e111120" who="A08009-unassigned">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e111130">Winter, with patience unto my grief,</l>
+          <l xml:id="A08009-e111140">I have attended thy invective tale:</l>
+          <l xml:id="A08009-e111150">So much untruth wit never shadowed:</l>
+          <l xml:id="A08009-e111160">'Gainst her own bowels thou arts weapons turnest:</l>
+          <l xml:id="A08009-e111170"><pb facs="23"/> let none believe thee, that will ever thrive:</l>
+          <l xml:id="A08009-e111180">Words have their course, the wind blows where it lists;</l>
+          <l xml:id="A08009-e111190">He errs alone, in error that persists. </l>
+          <l xml:id="A08009-e111200">For thou 'gainst autumn such exceptions takest,</l>
+          <l xml:id="A08009-e111210">I grant, his overseer thou shalt be,</l>
+          <l xml:id="A08009-e111220">His treasurer, protector, and his staff,</l>
+          <l xml:id="A08009-e111230">He shall do nothing without thy consent;</l>
+          <l xml:id="A08009-e111240">Provide thou for his weal, and his content. </l>
+        </sp>
+        <sp xml:id="A08009-e111250" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e111260">Thanks, gracious lord. so I'll dispose of him,</l>
+          <l xml:id="A08009-e111270">As it shall not repent you of your gift. </l>
+        </sp>
+        <sp xml:id="A08009-e111280" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e111290">On such conditions no crown will I take. </l>
+          <l xml:id="A08009-e111300">I challenge winter for my enemy,</l>
+          <l xml:id="A08009-e111310">A most insatiate miserable carl,</l>
+          <l xml:id="A08009-e111320">That, to fill up his garners to the brim,</l>
+          <l xml:id="A08009-e111330">Cares not how he indammageth the earth:</l>
+          <l xml:id="A08009-e111340">What poverty he makes it to endure! </l>
+          <l xml:id="A08009-e111350">He over-bars the crystal streams with ye,</l>
+          <l xml:id="A08009-e111360">That none but he and his may drink of them:</l>
+          <l xml:id="A08009-e111370">All for a foul backwinter he lays up;</l>
+          <l xml:id="A08009-e111380">Hard craggy ways, and uncouth slippery paths</l>
+          <l xml:id="A08009-e111390">He frames, that passengers may slide and fall:</l>
+          <l xml:id="A08009-e111400">Who quaketh not, that heareth but his name? </l>
+          <l xml:id="A08009-e111410">O, but two sons he hath, worse than himself,</l>
+          <l xml:id="A08009-e111420">Christmas the one, a pinchback, cutthroat churl,</l>
+          <l xml:id="A08009-e111430">That keeps no open house, as he should do,</l>
+          <l xml:id="A08009-e111440">Delighteth in no game or fellowship,</l>
+          <l xml:id="A08009-e111450">Loves no good deeds, and hateth talk,</l>
+          <l xml:id="A08009-e111460">But sitteth in a corner turning crabs,</l>
+          <l xml:id="A08009-e111470">Or coughing o'er a warmed pot of ale:</l>
+          <l xml:id="A08009-e111480">Backwinter th'other, that's his none sweet boy,</l>
+          <l xml:id="A08009-e111490">Who like his father taketh in all points,</l>
+          <l xml:id="A08009-e111500">An elf it is, compact of envious pride,</l>
+          <l xml:id="A08009-e111510">A miscreant, born for a plague to men. </l>
+          <l xml:id="A08009-e111520">A monster, that devoureth all he meets:</l>
+          <l xml:id="A08009-e111530">Were but his father dead, so he would reign:</l>
+          <l xml:id="A08009-e111540">Yea he would go goodneere, to deal by him,</l>
+          <l xml:id="A08009-e111550"><pb facs="24"/> as Nabuchodonozor's ungracious son,</l>
+          <l xml:id="A08009-e111560">Euilmerodach by his father dealt:</l>
+          <l xml:id="A08009-e111570">Who, when his sire was turned to an ox,</l>
+          <l xml:id="A08009-e111580">Full greedily snatchted up his sovereignty,</l>
+          <l xml:id="A08009-e111590">And thought himself a King without control. </l>
+          <l xml:id="A08009-e111600">So it fell out, seven years expired and gone,</l>
+          <l xml:id="A08009-e111610">Nabuchodonozor came to his shape again,</l>
+          <l xml:id="A08009-e111620">And dispossessed him of the regiment:</l>
+          <l xml:id="A08009-e111630">Which my young prince no little grieving at,</l>
+          <l xml:id="A08009-e111640">When that his father shortly after died,</l>
+          <l xml:id="A08009-e111650">Fearing lest he should come from death again,</l>
+          <l xml:id="A08009-e111660">As he came from an ox to be a man,</l>
+          <l xml:id="A08009-e111670">Wiled that his body spoiled of coverture,</l>
+          <l xml:id="A08009-e111680">Should be cast forth into the open fields,</l>
+          <l xml:id="A08009-e111690">For birds and ravens, to devour at will,</l>
+          <l xml:id="A08009-e111700">Thinking if they bore every one of them,</l>
+          <l xml:id="A08009-e111710">A bill full of his flesh into their nests,</l>
+          <l xml:id="A08009-e111720">He would not rise, to trouble him in haste. </l>
+        </sp>
+        <sp xml:id="A08009-e111730" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <p xml:id="A08009-e111740">A virtuous son, and I'll lay my life on't, he was a cavalier and a good fellow.</p>
+        </sp>
+        <sp xml:id="A08009-e111750" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e111760">Pleaseth your honour, all he says, is false. </l>
+          <l xml:id="A08009-e111770">For my own part I love good husbandry,</l>
+          <l xml:id="A08009-e111780">But hate dishonourable covetise. </l>
+          <l xml:id="A08009-e111790">Youth never aspires to virtues perfect growth,</l>
+          <l xml:id="A08009-e111800">Till his wild oats be sown: and so the earth,</l>
+          <l xml:id="A08009-e111810">Until his weeds be rotted, with my frosts,</l>
+          <l xml:id="A08009-e111820">Is not for any seed, or tillage fit. </l>
+          <l xml:id="A08009-e111830">He must be purged that hath surfeited:</l>
+          <l xml:id="A08009-e111840">The fields have surfeited with summer fruits,</l>
+          <l xml:id="A08009-e111850">They must be purged, made poor, oppressed with snow,</l>
+          <l xml:id="A08009-e111860">Ere they recover their decayed pride,</l>
+          <l xml:id="A08009-e111870">For overbarring of the streams with ice. </l>
+          <l xml:id="A08009-e111880">Who locks not poison from his children's taste? </l>
+          <l xml:id="A08009-e111890">When winter reigns, the water is so cold,</l>
+          <l xml:id="A08009-e111900">That it is poison, present death to those</l>
+          <l xml:id="A08009-e111910">That wash, or bathe their limbs, in his cold streams. </l>
+          <l xml:id="A08009-e111920"><pb facs="24"/>The slipprier that ways are under us,</l>
+          <l xml:id="A08009-e111930">The better it makes us to heed our steps,</l>
+          <l xml:id="A08009-e111940">And look ere we presume too rashly on:</l>
+          <l xml:id="A08009-e111950">If that my sons have misbehaved themselves,</l>
+          <l xml:id="A08009-e111960">A god's name let them answer't fore my lord. </l>
+        </sp>
+        <sp xml:id="A08009-e111970" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e111980">Now I beseech your honour it may be so. </l>
+        </sp>
+        <sp xml:id="A08009-e111990" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e112000">With all my heart: Vertumnus, go for them. </l>
+        </sp>
+        <sp xml:id="A08009-e112010" who="A08009-will_summer">
+          <speaker>Wil summer.</speaker>
+          <p xml:id="A08009-e112020">This same Harry baker is such a necessary fellow to go on errands, as you shall not find in a country. It is pity but he should have another silver arrow, if it be but for crossing the stage, with his cap on.</p>
+        </sp>
+        <sp xml:id="A08009-e112030" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e112040">To weary out the time until they come,</l>
+          <l xml:id="A08009-e112050">Sing me some doleful ditty to the lute,</l>
+          <l xml:id="A08009-e112060">That may complain my near approaching death. </l>
+          <lg xml:id="A08009-e112070">
+            <head>The song.</head>
+            <lg xml:id="A08009-e112080">
+              <l xml:id="A08009-e112090">Adieu, farewell earth's bliss,</l>
+              <l xml:id="A08009-e112100">This world uncertain is,</l>
+              <l xml:id="A08009-e112110">Fond are life's lustful joys,</l>
+              <l xml:id="A08009-e112120">Death proves them all but toys,</l>
+              <l xml:id="A08009-e112130">None from his darts can fly,</l>
+              <l xml:id="A08009-e112140">I am sick, I must die. </l>
+              <l xml:id="A08009-e112150">Lord have mercy on us. </l>
+            </lg>
+            <lg xml:id="A08009-e112160">
+              <l xml:id="A08009-e112170">Rich men, trust not in wealth,</l>
+              <l xml:id="A08009-e112180">Gold cannot buy you health,</l>
+              <l xml:id="A08009-e112190">Physic himself must fade. </l>
+              <l xml:id="A08009-e112200">All things, to end are made,</l>
+              <l xml:id="A08009-e112210">The plague full swift goes high,</l>
+              <l xml:id="A08009-e112220">I am sick, I must die,</l>
+              <l xml:id="A08009-e112230">Lord have mercy on us. </l>
+            </lg>
+            <lg xml:id="A08009-e112240">
+              <l xml:id="A08009-e112250"><pb facs="25"/>Beauty is but a flower,</l>
+              <l xml:id="A08009-e112260">Which wrinkles will devour,</l>
+              <l xml:id="A08009-e112270">Brightness falls from the air,</l>
+              <l xml:id="A08009-e112280">Queens have died young, and fair,</l>
+              <l xml:id="A08009-e112290">Dust hath closed Helen's eye. </l>
+              <l xml:id="A08009-e112300">I am sick, I must die,</l>
+              <l xml:id="A08009-e112310">Lord have mercy on us. </l>
+            </lg>
+            <lg xml:id="A08009-e112320">
+              <l xml:id="A08009-e112330">Strength stoops unto the grave,</l>
+              <l xml:id="A08009-e112340">Worms feed on Hector brave,</l>
+              <l xml:id="A08009-e112350">Swords may not fight with fate,</l>
+              <l xml:id="A08009-e112360">Earth still holds ope her gate,</l>
+              <l xml:id="A08009-e112370">Come, come, the bells do cry. </l>
+              <l xml:id="A08009-e112380">I am sick, I must die,</l>
+              <l xml:id="A08009-e112390">Lord have mercy on us. </l>
+            </lg>
+            <lg xml:id="A08009-e112400">
+              <l xml:id="A08009-e112410">Wit with his wantonness,</l>
+              <l xml:id="A08009-e112420">Tasteth death's bitterness,</l>
+              <l xml:id="A08009-e112430">Hell's executioner,</l>
+              <l xml:id="A08009-e112440">Hath no ears for to hear,</l>
+              <l xml:id="A08009-e112450">What vain art can reply. </l>
+              <l xml:id="A08009-e112460">I am sick, I must die,</l>
+              <l xml:id="A08009-e112470">Lord have mercy on us. </l>
+            </lg>
+            <lg xml:id="A08009-e112480">
+              <l xml:id="A08009-e112490">Haste therefore each degree,</l>
+              <l xml:id="A08009-e112500">To welcome destiny:</l>
+              <l xml:id="A08009-e112510">Heaven is our heritage,</l>
+              <l xml:id="A08009-e112520">Earth but a player's stage,</l>
+              <l xml:id="A08009-e112530"><pb facs="25"/> mount we unto the sky. </l>
+              <l xml:id="A08009-e112540">I am sick, I must die,</l>
+              <l xml:id="A08009-e112550">Lord have mercy on us. </l>
+            </lg>
+          </lg>
+        </sp>
+        <sp xml:id="A08009-e112560" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e112570">Beshrew me, but thy song hath moved me. </l>
+        </sp>
+        <sp xml:id="A08009-e112580" who="A08009-will_summer">
+          <speaker>Will summer.</speaker>
+          <l xml:id="A08009-e112590">Lord have mercy on us, how lamentable 'tis ▪</l>
+          <stage xml:id="A08009-e112600">Enter Vertumnus with Christmas and backwinter.</stage>
+        </sp>
+        <sp xml:id="A08009-e112610" who="A08009-vertumnus">
+          <speaker>Vertumnus.</speaker>
+          <p xml:id="A08009-e112620">I have dispatched, my lord, I have brought you them you sent me for.</p>
+        </sp>
+        <sp xml:id="A08009-e112630" who="A08009-unassigned">
+          <speaker>Will summer.</speaker>
+          <l xml:id="A08009-e112640">What sayest thou? hast thou made a good batch? </l>
+          <l xml:id="A08009-e112650">I pray thee give me a new loaf. </l>
+        </sp>
+        <sp xml:id="A08009-e112660" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e112670">Christmas, how chance thou comest not as the rest,</l>
+          <l xml:id="A08009-e112680">Accompanied with some music, or some song? </l>
+          <l xml:id="A08009-e112690">A merry carol would have graced thee well,</l>
+          <l xml:id="A08009-e112700">Thy ancestors have used it heretofore. </l>
+        </sp>
+        <sp xml:id="A08009-e112710" who="A08009-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A08009-e112720">Ay, antiquity was the mother of ignorance: this latter world that sees but with her spectacles, hath spied a pad in those sports more than they could.</p>
+        </sp>
+        <sp xml:id="A08009-e112730" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e112740">What, is't against thy conscience for to sing? </l>
+        </sp>
+        <sp xml:id="A08009-e112750" who="A08009-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A08009-e112760">No nor to say, by my troth, if I may get a good bargain.</p>
+        </sp>
+        <sp xml:id="A08009-e112770" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <p xml:id="A08009-e112780">Why, thou shouldst spend, thou shouldst not care to get. Christmas is god of hospitality.</p>
+        </sp>
+        <sp xml:id="A08009-e112790" who="A08009-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A08009-e112800">So will he never be of good husbandry. I may say to you, there is many an old god, that is now grown out of fashion. So is the god of hospitality.</p>
+        </sp>
+        <sp xml:id="A08009-e112810" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e112820">What reason canst thou give he should be left? </l>
+        </sp>
+        <sp xml:id="A08009-e112830" who="A08009-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A08009-e112840">No other reason, but that gluttony is a sin, and too many dunghills are infectious. A man's belly was not made for a powdering beef tub: to feed the poor twelve days, and let them starve all the year after, would but stretch out the guts wider than they should be, and so make famine a bigger den in their bellies, than he had before. I should kill an ox, and have some such fellow as Milo to come and eat it up at a mouthful. <pb facs="26"/>Or like the Sybarites, do nothing all one year, but bid guests against the next year. The scraping of trenchers you think would put a man to no charges. It is not a hundreth pound a year would serve the scullions in dishclouts. My house stands upon vaults, it will fall if it be overloaden with a multitude. Besides, have you never read of a city that was undermined and destroyed by moles? So, say I keep hospitality, and a whole fair of beggars bid me to dinner every day, what with making legs, when they thank me at their going away, and settling their wallets handsomely on their backs, they would shake as many lice on the ground, as were able to undermine my house, and undo me utterly: it is their prayers would build it again, if it were overthrown by this vermin, would it? I pray, who begun feasting, and gourmandize first, but Sardanapalus, Nero, Heliogabalus, Commodus, tyrants, whoremasters, unthrifts? Some call them emperors, but I respect no crowns, but crowns in the purse. Any man may wear a silver crown, that hath made a fray in Smithfield, and lost but a piece of his brain pan. And to tell you plain, your golden crowns are little better in substance, and many times got after the same sort.</p>
+        </sp>
+        <sp xml:id="A08009-e112850" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e112860">Gross-headed sot, how light he makes of state! </l>
+        </sp>
+        <sp xml:id="A08009-e112870" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e112880">Who treadeth not on stars when they are fallen? </l>
+          <l xml:id="A08009-e112890">Who talketh not of states, when they are dead? </l>
+          <l xml:id="A08009-e112900">A fool conceits no further than he sees,</l>
+          <l xml:id="A08009-e112910">He hath no sense of ought, but what he feels. </l>
+        </sp>
+        <sp xml:id="A08009-e112920" who="A08009-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A08009-e112930">Ay, ay, such wise men as you, come to beg at such fools doors as we be.</p>
+        </sp>
+        <sp xml:id="A08009-e112940" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e112950">Thou shutst thy door, how should we beg of thee? </l>
+          <l xml:id="A08009-e112960">No alms but thy sink carries from thy house. </l>
+        </sp>
+        <sp xml:id="A08009-e112970" who="A08009-will_summer">
+          <speaker>Wil summer.</speaker>
+          <p xml:id="A08009-e112980">And I can tell you, that's as plentiful alms for the plague, as the sheriff's tub to them of Newgate.</p>
+        </sp>
+        <sp xml:id="A08009-e112990" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e113000">For feasts thou keepest none, cankers thou feedest:</l>
+          <l xml:id="A08009-e113010">The worms will curse thy flesh another day,</l>
+          <l xml:id="A08009-e113020">Because it yields them no fatter prey. </l>
+        </sp>
+        <sp xml:id="A08009-e113030" who="A08009-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A08009-e113040">What worms do another day I care not, but I'll be sworn upon a whole kilderkin of single beer, I will not<pb facs="26"/> have a worm-eaten nose like a pursuivant, while I live. Feasts ere but puffing up of the flesh, the purveyors for diseases, travel, cost, time ill spent. O, it were a trim thing to send, as the Romans did, round about the world for provision for one banquet. I must rig ships to Samos for peacocks, to Paphos for pigeons, to Austria for oysters, to Phasis for pheasants, to Arabia for phoenixes, to Meander for swans, to the Orcades for geese, to Phrigia for woodcocks, to Malta for cranes, to the isle of man for puffins, to Ambracia for goats, to Tartole for lampreys, to Egypt for dates, to Spain for chestnuts, and all for one feast.</p>
+        </sp>
+        <sp xml:id="A08009-e113050" who="A08009-will_summer">
+          <speaker>Wil summer.</speaker>
+          <p xml:id="A08009-e113060">O sir, you need not, you may buy them at London better cheap.</p>
+        </sp>
+        <sp xml:id="A08009-e113070" who="A08009-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A08009-e113080">Liberalitas liberalitate perit, love me a little and love me long: our feet must have wherewithal to feed the stones, out backs walls of wool to keep out the cold that besiegeth our warm blood, our doors must have bars, our doublets must have buttons. Item, for an old sword to scrape the stones before the door with, three halfpence for stitching a wooden tankard that was burst. These water-bearers will empty the conduit and a man's coffers at once. Not a porter that brings a man a letter, but will have his penny. I am afraid to keep passed one or two servants, least hungry knaves they should rob me: and those I keep, I warrant I do not pamper up too lusty, I keep them under with red herring and poor John all the year long. I have damned up all my chimneys for fear (Though I burn nothing but small coal) my house should be set on fire with the smoke. I will not deny, but once in a dozen year when there is a great rot of sheep, and I know not what to do with them, I keep open house for all the beggars, in some of my outyards, marry they must bring bread with them, I am no baker.</p>
+        </sp>
+        <sp xml:id="A08009-e113090" who="A08009-will_summer">
+          <speaker>Wil summer.</speaker>
+          <p xml:id="A08009-e113100">As good men as you, and have thought no scorn to serve their prenticeships on the pillory.</p>
+        </sp>
+        <sp xml:id="A08009-e113110" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e113120">Winter, is this thy son? hearest how he talks? </l>
+        </sp>
+        <sp xml:id="A08009-e113130" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e113140">I am his father, therefore may not speak,</l>
+          <l xml:id="A08009-e113150"><pb facs="27"/> but otherwise I could excuse his fault. </l>
+        </sp>
+        <sp xml:id="A08009-e113160" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e113170">Christmas, I tell thee plain, thou art a snudge. </l>
+          <l xml:id="A08009-e113180">And wert not that we love thy father well,</l>
+          <l xml:id="A08009-e113190">Thou shouldst have felt, what longs to avarice. </l>
+          <l xml:id="A08009-e113200">It is the honour of nobility,</l>
+          <l xml:id="A08009-e113210">To keep high days and solemn festivals:</l>
+          <l xml:id="A08009-e113220">Then, to set their magnificence to view,</l>
+          <l xml:id="A08009-e113230">To frolic open with their favourites,</l>
+          <l xml:id="A08009-e113240">And use their neighbours with all courtesy,</l>
+          <l xml:id="A08009-e113250">When thou in hugger-mugger spend'st thy wealth. </l>
+          <l xml:id="A08009-e113260">Amend thy manners, breathe thy rusty gold:</l>
+          <l xml:id="A08009-e113270">Bounty will win thee love, when thou art old. </l>
+        </sp>
+        <sp xml:id="A08009-e113280" who="A08009-will_summer">
+          <speaker>Wil summer.</speaker>
+          <p xml:id="A08009-e113290">Ay, that bounty would I fain meet, to borrow money of, he is fairly blessed nowadays , that scapes blows when he begs. Verba dandi et reddendi, go together in the grammar rule: there is no giving but with condition of restoring: ah benedicite, well is he hath no necessity of gold ne of sustenance; slow good hap comes by chance; flattery best fares; arts are but idle wares; fair words want giving hands; the Leto begs that hath no lands; fie on thee thou scurvy knave, that hast naught, and yet goest brave; a prison be thy death bed, or be hanged all save the head.</p>
+        </sp>
+        <sp xml:id="A08009-e113300" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e113310">Backwinter, stand forth. </l>
+        </sp>
+        <sp xml:id="A08009-e113320" who="A08009-vertumnus">
+          <speaker>Vertum.</speaker>
+          <l xml:id="A08009-e113330">Stand forth, stand forth, hold up your head, speak out. </l>
+        </sp>
+        <sp xml:id="A08009-e113340" who="A08009-back-winter">
+          <speaker>Back-winter.</speaker>
+          <l xml:id="A08009-e113350">What, should I stand? or whether, should I go? </l>
+        </sp>
+        <sp xml:id="A08009-e113360" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e113370">Autumn accuseth thee of sundry crimes,</l>
+          <l xml:id="A08009-e113380">Which here thou art to clear, or to confess. </l>
+        </sp>
+        <sp xml:id="A08009-e113390" who="A08009-back-winter">
+          <speaker>Back-winter.</speaker>
+          <l xml:id="A08009-e113400">With thee, or autumn, have I naught to do:</l>
+          <l xml:id="A08009-e113410">I would you were both hanged face to face. </l>
+        </sp>
+        <sp xml:id="A08009-e113420" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e113430">Is this the reverence that thou owest to us? </l>
+        </sp>
+        <sp xml:id="A08009-e113440" who="A08009-back-winter">
+          <speaker>Back-winter.</speaker>
+          <l xml:id="A08009-e113450">Why not? what art thou? </l>
+          <l xml:id="A08009-e113460">Shalt thou always live? </l>
+        </sp>
+        <sp xml:id="A08009-e113470" who="A08009-autumn">
+          <speaker>Autumn.</speaker>
+          <l xml:id="A08009-e113480">It is the veriest dog in Christendom. </l>
+        </sp>
+        <sp xml:id="A08009-e113490" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e113500">That's for he barks at such a knave as thou. </l>
+        </sp>
+        <sp xml:id="A08009-e113510" who="A08009-back-winter">
+          <speaker>Back-winter.</speaker>
+          <l xml:id="A08009-e113520">Would I could bark the sun out of the sky,</l>
+          <l xml:id="A08009-e113530">Turn moon and stars to frozen meteors,</l>
+          <l xml:id="A08009-e113540"><pb facs="27"/> and make the ocean a dry land of ice,</l>
+          <l xml:id="A08009-e113550">With tempest of my breath, turn up high trees,</l>
+          <l xml:id="A08009-e113560">On mountains heap up second mounts of snow,</l>
+          <l xml:id="A08009-e113570">Which melted into water, might fall down,</l>
+          <l xml:id="A08009-e113580">As fell the deluge on the former world. </l>
+          <l xml:id="A08009-e113590">I hate the air, the fire, the spring, the year,</l>
+          <l xml:id="A08009-e113600">And what so e'er brings mankind any good. </l>
+          <l xml:id="A08009-e113610">O that my looks were lightning to blast fruits! </l>
+          <l xml:id="A08009-e113620">Would I with thunder presently might die,</l>
+          <l xml:id="A08009-e113630">So I might speak in thunder, to slay men. </l>
+          <l xml:id="A08009-e113640">Earth, if I cannot injure thee enough,</l>
+          <l xml:id="A08009-e113650">I'll bite thee with my teeth, I'll scratch thee thus,</l>
+          <l xml:id="A08009-e113660">I'll beat down the partition with my heels,</l>
+          <l xml:id="A08009-e113670">Which as a mud-vault severs hell and thee. </l>
+          <l xml:id="A08009-e113680">Spirits, come up, 'tis I that knock for you,</l>
+          <l xml:id="A08009-e113690">One that envies the world, far more than you:</l>
+          <l xml:id="A08009-e113700">Come up in millions, millions are to few,</l>
+          <l xml:id="A08009-e113710">To execute the malice I intend. </l>
+        </sp>
+        <sp xml:id="A08009-e113720" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e113730">O scelus inauditum, o vox damnatorum! </l>
+          <l xml:id="A08009-e113740">Not raging Hecuba, whose hollow eyes</l>
+          <l xml:id="A08009-e113750">Gave suck to fifty sorrows at one time,</l>
+          <l xml:id="A08009-e113760">That mid wife to so many murders was,</l>
+          <l xml:id="A08009-e113770">Used half the execrations that thou dost. </l>
+        </sp>
+        <sp xml:id="A08009-e113780" who="A08009-back-winter">
+          <speaker>Back-winter.</speaker>
+          <l xml:id="A08009-e113790">More I will use, if more I may prevail:</l>
+          <l xml:id="A08009-e113800">Backwinter comes but seldom forth abroad,</l>
+          <l xml:id="A08009-e113810">But when he comes, he pincheth to the proof;</l>
+          <l xml:id="A08009-e113820">Winter is mild, his son is rough and stern. </l>
+          <l xml:id="A08009-e113830">Ovid could well write of my tyranny,</l>
+          <l xml:id="A08009-e113840">When he was banished to the frozen zone. </l>
+        </sp>
+        <sp xml:id="A08009-e113850" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e113860">And banished be thou from my fertile bounds. </l>
+          <l xml:id="A08009-e113870">Winter, imprison him in thy dark cell,</l>
+          <l xml:id="A08009-e113880">Or with the winds, in bellowing caves of brass,</l>
+          <l xml:id="A08009-e113890">Let stern Hipporlatos lock him up safe,</l>
+          <l xml:id="A08009-e113900">Never to peep forth, but when thou faint and weak</l>
+          <l xml:id="A08009-e113910">Wantest him to aid thee in thy regiment. </l>
+        </sp>
+        <sp xml:id="A08009-e113920" who="A08009-back-winter">
+          <speaker>Back-winter.</speaker>
+          <l xml:id="A08009-e113930">I will peep forth, thy kingdom to supplant:</l>
+          <l xml:id="A08009-e113940"><pb facs="28"/> my father I will quickly freeze to death,</l>
+          <l xml:id="A08009-e113950">And then sole monarch will I sit and think,</l>
+          <l xml:id="A08009-e113960">How I may banish thee, as thou dost me. </l>
+        </sp>
+        <sp xml:id="A08009-e113970" who="A08009-winter">
+          <speaker>Winter.</speaker>
+          <l xml:id="A08009-e113980">I see my downfall written in his brows:</l>
+          <l xml:id="A08009-e113990">Convey him hence, to his assigned hell. </l>
+          <l xml:id="A08009-e114000">Fathers are given to love their sons too well. </l>
+        </sp>
+        <sp xml:id="A08009-e114010" who="A08009-will_summer">
+          <speaker>Wil summer.</speaker>
+          <p xml:id="A08009-e114020">No by my troth, nor mothers neither, I am sure I could never find it. This backwinter plays a railing part to no purpose, my small learning finds no reason for it, except as a backwinter or an after winter is more raging tempestuous, and violent than the beginning of winter, so he brings him in stamping and raging as if he were mad, when his father is a jolly mild quiet old man, and stands still and does nothing. The court accepts of your meaning; you might have writ in the margin of your playbook, let there be a few rushes laid in the place where backwinter shall tumble, for fear of raying his clothes: or set down, enter backwinter, with his boy, bringing a brush after him, to take off the dust if need require. But you will never have any wardrobe wit while you live. I pray you hold the book well, we be not nonplus in the latter end of the play.</p>
+        </sp>
+        <sp xml:id="A08009-e114030" who="A08009-summer">
+          <speaker>Summer.</speaker>
+          <l xml:id="A08009-e114040">This is the last stroke, my tongues clock must strike,</l>
+          <l xml:id="A08009-e114050">My last will, which I will that you perform:</l>
+          <l xml:id="A08009-e114060">My crown I have disposed already of. </l>
+          <l xml:id="A08009-e114070">Item, I give my withered flowers, and herbs,</l>
+          <l xml:id="A08009-e114080">Unto dead corpses, for to deck them with,</l>
+          <l xml:id="A08009-e114090">My shady walks to great men's servitors,</l>
+          <l xml:id="A08009-e114100">Who in their master's shadows walk secure,</l>
+          <l xml:id="A08009-e114110">My pleasant open air, and fragrant smells,</l>
+          <l xml:id="A08009-e114120">To Croyden and the grounds abutting round,</l>
+          <l xml:id="A08009-e114130">My heat and warmth to toiling labourers,</l>
+          <l xml:id="A08009-e114140">My long days to bondmen, and prisoners,</l>
+          <l xml:id="A08009-e114150">My short nights to young married souls,</l>
+          <l xml:id="A08009-e114160">My drought and thirst, to drunkards quenchless throats,</l>
+          <l xml:id="A08009-e114170">My fruits to autumn my adopted heir,</l>
+          <l xml:id="A08009-e114180">My murmuring springs, musicians of sweet sleep,</l>
+          <l xml:id="A08009-e114190">To murmuring malcontents, with their well tuned cares,</l>
+          <l xml:id="A08009-e114200"><pb facs="28"/> channelled in a sweet falling quatorzain,</l>
+          <l xml:id="A08009-e114210">Do lull their ears asleep, listening themselves. </l>
+          <l xml:id="A08009-e114220">And finally, oh words, now cleanse your course,</l>
+          <l xml:id="A08009-e114230">Unto Eliza that most sacred dame,</l>
+          <l xml:id="A08009-e114240">Whom none but saints and angels ought to name;</l>
+          <l xml:id="A08009-e114250">All my fair days remaining, I bequeath</l>
+          <l xml:id="A08009-e114260">To wait upon her till she be returned. </l>
+          <l xml:id="A08009-e114270">Autumn, I charge thee, when that I am dead,</l>
+          <l xml:id="A08009-e114280">Be pressed and serviceable at her beck,</l>
+          <l xml:id="A08009-e114290">Present her with thy goodliest ripened fruits,</l>
+          <l xml:id="A08009-e114300">Unclothe no arbours where she ever sat,</l>
+          <l xml:id="A08009-e114310">Touch not a tree, thou thinkst she may pass by. </l>
+          <l xml:id="A08009-e114320">And winter, with thy wrythen frosty face,</l>
+          <l xml:id="A08009-e114330">Smooth up thy visage when thou lookest on her,</l>
+          <l xml:id="A08009-e114340">Thou never lookest on such bright majesty:</l>
+          <l xml:id="A08009-e114350">A charmed circle draw about her court,</l>
+          <l xml:id="A08009-e114360">Wherein warm days may dance, and no cold come,</l>
+          <l xml:id="A08009-e114370">On seas let winds make war, not vex her rest,</l>
+          <l xml:id="A08009-e114380">Quiet enclose her bed, thought fly her breast. </l>
+          <l xml:id="A08009-e114390">Ah gracious Queen, though summer pine away,</l>
+          <l xml:id="A08009-e114400">Yet let thy flourishing stand at a stay,</l>
+          <l xml:id="A08009-e114410">First droop this universals aged frame,</l>
+          <l xml:id="A08009-e114420">Ere any malady thy strength should tame:</l>
+          <l xml:id="A08009-e114430">Heaven raise up pillars to uphold thy hand,</l>
+          <l xml:id="A08009-e114440">Peace may have still his temple in thy land. </l>
+          <l xml:id="A08009-e114450">Lo, I have said, this is the total sum. </l>
+          <l xml:id="A08009-e114460">Autumn and winter, on your faithfulness,</l>
+          <l xml:id="A08009-e114470">For the performance I do firmly build. </l>
+          <l xml:id="A08009-e114480">Farewell, my friends, summer bids you farewell,</l>
+          <l xml:id="A08009-e114490">Archers, and bowlers, all my followers,</l>
+          <l xml:id="A08009-e114500">A dieu, and dwell with desolation,</l>
+          <l xml:id="A08009-e114510">Silence must be your master's mansion:</l>
+          <l xml:id="A08009-e114520">Slow marching thus, descend I to the fiends. </l>
+          <l xml:id="A08009-e114530">Weep heavens, mourn earth, here summer ends. </l>
+          <stage xml:id="A08009-e114540">Here the satires and wood-nymphs carry him out, singing as he came in.</stage>
+          <lg xml:id="A08009-e114550">
+            <pb facs="29"/>
+            <head>The song.</head>
+            <lg xml:id="A08009-e114560">
+              <l xml:id="A08009-e114570">Autumn hath all the summers fruitful treasure,</l>
+              <l xml:id="A08009-e114580">Gone is our sport, fled is poor Croyden's pleasure:</l>
+              <l xml:id="A08009-e114590">Short days, sharp days, long nights come on a pace,</l>
+              <l xml:id="A08009-e114600">Ah who shall hide us, from the winter's face? </l>
+              <l xml:id="A08009-e114610">Cold doth increase, the sickness will not cease,</l>
+              <l xml:id="A08009-e114620">And here we lie God knows, with little ease:</l>
+              <l xml:id="A08009-e114630">From winter, plague and pestilence, good lord deliver us. </l>
+            </lg>
+            <lg xml:id="A08009-e114640">
+              <l xml:id="A08009-e114650">London doth mourn, Lambeth is quite forlorn,</l>
+              <l xml:id="A08009-e114660">Trades cry, woe worth, that ever they were born:</l>
+              <l xml:id="A08009-e114670">The want of term, is town and city's harms,</l>
+              <l xml:id="A08009-e114680">Close chambers we do want, to keep us warm,</l>
+              <l xml:id="A08009-e114690">Long banished must we live from our friends:</l>
+              <l xml:id="A08009-e114700">This low built house, will bring us to our ends. </l>
+              <l xml:id="A08009-e114710">From winter, plague and pestilence, good lord deliver us. </l>
+            </lg>
+          </lg>
+        </sp>
+        <sp xml:id="A08009-e114720" who="A08009-will-summer">
+          <speaker>Wilsummer.</speaker>
+          <p xml:id="A08009-e114730">How is't? how is't? you that be of the graver sort, do you think these youths worthy of a plaudite for praying for the Queen, and singing of the litany? they are poor fellows I must needs say, and have bestowed great labour in sowing leaves, and grass, and straw, and moss upon cast suits. You may do well to warm your hands with clapping, before you go to bed, and send them to the tavern with merry hearts. Here is a pretty boy comes with an epilogue, to get<note anchored="true" place="margin" xml:id="A08009-e114740">enter a little boy with an epilogue.</note> him audacity. I pray you sit still a little, and hear him say his lesson without book. It is a good boy, be not afraid, turn thy face to my lord. Thou and I will play at pouch, tomorrow morning for a breakfast. Come and sit on my knee, and I'll dance thee, if thou canst not endure to stand.</p>
+        </sp>
+      </div>
+    </body>
+    <back xml:id="A08009-e114750">
+      <div type="epilogue" xml:id="A08009-e114760">
+        <pb facs="29"/>
+        <head>The epilogue.</head>
+        <p xml:id="A08009-e114770">Ulysses a dwarf, and the prolocutor for the Grecians, gave me leave that am a pigmy, to do an embassage to you from the cranes: gentlemen (For Kings are no better) certain humble animals, called our actors, commend them unto you; who, what offence they have committed, I know not (Except it be in purloining some hours out of times treasury, that might have been better employed; but by me (The agent for their imperfections) they humbly crave pardon, if happily some of their terms have trodden awry, or their tongues slumbled unwittingly on any man's content. In much corn is some cockle; in a heap of coin here and there a piece of copper; wit hath his dregs as well as wine; words their waste, ink his blots, every speech his parenthesis, poetical fury, as well crabs as sweetings for his summer fruits. Nemo sapit omnibus horis. Their folly is deceased, their fear is yet living. Nothing can kill an ass but cold: cold entertainment, discouraging scoffs, authorised disgraces, may kill a whole litter of young asses of them here at once, that have travelled thus far in impudence, only in hope to sit a sunning in your smiles. The Romans dedicated a temple to the fever quartane, thinking it some great God, because it shook them so: and another, to ill fortune in exquilliis a mountain in room, that it should not plague them at cards and dice. Your grace's frowns are to them shaking fevers, your least disfavours, the greatest ill fortune that may betide them. They can build no temples, but themselves and their best endeavours, with all prostrate reverence, they here dedicate and offer up, wholly to your service. Sis bonus, o faelixque tuis. To make the gods merry, the celestial clown Vulcan tuned his polt foot, to the measures of Apollo's lute, and danced a limping gallyard in Jove's starry hall. <pb facs="30"/>To make you merry that are the gods of art, and guides unto heaven, a number of rude Vulcan's, unwieldy speakers, hammer-headed clowns (For so it pleaseth them in modesty to name themselves) have set their deformities to view, as it were in a dance here before you. Bear with their wants, lull melancholy asleep with their absurdities, and expect hereafter better fruits of their industry. Little creatures often terrify great beasts: the elephant flieth from a ram, the lion from a cock and from fire; the crocodile from all sea-fish, the whale from the noise of parched bones; light toys chase great cares. The great fool toy hath marred the play: good night, gentlemen; I go, let him be carried away.</p>
+        <p xml:id="A08009-e114780">Wilsummer. Is't true jackanapes, do you serve me so? As sure as this coat is too short for me, all the points of your hose for this are condemned to my pocket, if you and I e'er play at span counter more. Valete, spectatores, pay for this sport with a plaudite, and the next time the wind blows from this corner, we will make you ten times as merry.</p>
+        <p xml:id="A08009-e114790">Barbarus hic ego sum, quia non intelligor ulli. </p>
+        <trailer xml:id="A08009-e114800">Finis.</trailer>
+        <pb facs="30"/>
+      </div>
+      <div type="machine-generated_castlist"><list n="A08009"><item xml:id="A08009-summer" n="60">
+    <seg type="character_name">A08009-summer</seg>
+    <seg type="speech_count">60</seg>
+  </item>
+  <item xml:id="A08009-will_summer" n="29">
+    <seg type="character_name">A08009-will_summer</seg>
+    <seg type="speech_count">29</seg>
+  </item>
+  <item xml:id="A08009-winter" n="17">
+    <seg type="character_name">A08009-winter</seg>
+    <seg type="speech_count">17</seg>
+  </item>
+  <item xml:id="A08009-vertumnus" n="17">
+    <seg type="character_name">A08009-vertumnus</seg>
+    <seg type="speech_count">17</seg>
+  </item>
+  <item xml:id="A08009-bacchus" n="16">
+    <seg type="character_name">A08009-bacchus</seg>
+    <seg type="speech_count">16</seg>
+  </item>
+  <item xml:id="A08009-autumn" n="15">
+    <seg type="character_name">A08009-autumn</seg>
+    <seg type="speech_count">15</seg>
+  </item>
+  <item xml:id="A08009-harvest" n="11">
+    <seg type="character_name">A08009-harvest</seg>
+    <seg type="speech_count">11</seg>
+  </item>
+  <item xml:id="A08009-christmas" n="7">
+    <seg type="character_name">A08009-christmas</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+<item xml:id="A08009-back-winter" n="6">
+    <seg type="character_name">A08009-back-winter</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A08009-orion" n="5">
+    <seg type="character_name">A08009-orion</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A08009-solstitium" n="5">
+    <seg type="character_name">A08009-solstitium</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A08009-sol" n="5">
+    <seg type="character_name">A08009-sol</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A08009-unassigned" n="3">
+    <seg type="character_name">A08009-unassigned</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A08009-all" n="2">
+    <seg type="character_name">A08009-all</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A08009-missing" n="2">
+    <seg type="character_name">A08009-missing</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A08009-will-summer" n="1">
+    <seg type="character_name">A08009-will-summer</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

@@ -1,0 +1,1706 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A13062">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jack Straw <date type="creation_date">1590</date></title>
+        <author>anon.</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Nayoon Ahn</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A13062.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The life and death of Iacke Straw, a notable rebell in England vvho was kild in Smithfield by the Lord Maior of London.</title>
+          </titleStmt>
+          <extent>25 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2011 April (TCP phase 2)</date>
+            <idno type="marc">99846658</idno>
+            <idno type="stc">STC (2nd ed.) 23356.</idno>
+            <idno type="stc">Greg, I, 114(a).</idno>
+            <idno type="vid">11642</idno>
+            <idno type="DLPS">A13062</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The life and death of Iacke Straw, a notable rebell in England vvho was kild in Smithfield by the Lord Maior of London.</title>
+            <title type="alt">Life and death of Jacke Straw, a notable rebell in England.</title>
+            <title type="alt">Life and death of Iacke Strawe.</title>
+            <title type="alt">Life and death of Jacke Strawe.</title>
+          </titleStmt>
+          <extent>[44] p.</extent>
+          <publicationStmt>
+            <publisher>By Iohn Danter, and are to be solde by VVilliam Barley at his shop in Gratious-street ouer against Leaden-Hall,</publisher>
+            <pubPlace>Printed at London :</pubPlace>
+            <date>1593 [i.e. 1594]</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Jack Straw.</p>
+            </note>
+            <note>
+              <p>Misattributed to George Peele.</p>
+            </note>
+            <note>
+              <p>Colophon dated 1594.</p>
+            </note>
+            <note>
+              <p>Signatures: A-F4 (-A1, F4).</p>
+            </note>
+            <note>
+              <p>Running title reads: The life and death of Iacke Strawe.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the British Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Straw, Jack, -- d. 1381? -- Drama -- Early works to 1800.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A13062-e100010">
+    <front xml:id="A13062-e100020">
+      <div type="title_page" xml:id="A13062-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A13062-e100040">The life and death of Jack straw, a notable rebel in England: who was killed in Smithfield by the lord mayor of London.</p>
+        <p xml:id="A13062-e100050">
+          <figure xml:id="A13062-e100060"/>
+        </p>
+        <p xml:id="A13062-e100070">Printed at London by John Danter, and are to be sold by William barley at his shop in Gratious-street over against leaden-hall, 1593.</p>
+      </div>
+    </front>
+    <body xml:id="A13062-e100080">
+      <div n="1" type="act" xml:id="A13062-e100090">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The life and death of Jack straw.</head>
+        <head>Actus primus.</head>
+        <sp xml:id="A13062-e100100" who="A13062-collector">
+          <speaker>Collector.</speaker>
+          <l xml:id="A13062-e100110">Now such a murmuring to rise upon so trifling a thing,</l>
+          <l xml:id="A13062-e100120">In all my life never saw I before:</l>
+          <l xml:id="A13062-e100130">And yet I have been officer this seven year and more ▪</l>
+          <l xml:id="A13062-e100140">The tiler and his wife are in a great rage,</l>
+          <l xml:id="A13062-e100150">Affirming their daughter to be under age. </l>
+        </sp>
+        <sp xml:id="A13062-e100160" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e100170">Art thou the collector of the King's task? </l>
+        </sp>
+        <sp xml:id="A13062-e100180" who="A13062-collector">
+          <speaker>Collector.</speaker>
+          <l xml:id="A13062-e100190">I am Tyler why dost thou ask? </l>
+        </sp>
+        <sp xml:id="A13062-e100200" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e100210">Because thou goest beyond the commission of the King,</l>
+          <l xml:id="A13062-e100220">We grant to his highness' pleasure in every thing:</l>
+          <l xml:id="A13062-e100230">Thou hast thy task money for all that be here,</l>
+          <l xml:id="A13062-e100240">My daughter is not fourteen years old, therefore she goes clear. </l>
+        </sp>
+        <sp xml:id="A13062-e100250" who="A13062-collector">
+          <speaker>Collector.</speaker>
+          <l xml:id="A13062-e100260">And because thou sayest so, I should believe thee. </l>
+        </sp>
+        <sp xml:id="A13062-e100270" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e100280">Choose whether thou wilt or no, thou gettest no more of me. </l>
+          <l xml:id="A13062-e100290">For I am sure thy office doth not arm thee with such authority. </l>
+          <l xml:id="A13062-e100300">Thus to abuse the poor people of the country. </l>
+          <l xml:id="A13062-e100310"><pb facs="3"/>But chiefest of all vild villain as thou art,</l>
+          <l xml:id="A13062-e100320">To play so unmanly and beastly a part,</l>
+          <l xml:id="A13062-e100330">As to search my daughter thus in my presence. </l>
+        </sp>
+        <sp xml:id="A13062-e100340" who="A13062-collector">
+          <speaker>Collector.</speaker>
+          <l xml:id="A13062-e100350">Why base villain, wilt thou teach me what to do? </l>
+          <l xml:id="A13062-e100360">Wilt thou prescribe me mine office, and what belongs thereto? </l>
+        </sp>
+        <sp xml:id="A13062-e100370" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e100380">What villain, dost strike me? I swear by the rood,</l>
+          <l xml:id="A13062-e100390">As I am Jack straw, thou shalt buy it with thy blood. </l>
+          <l xml:id="A13062-e100400">There lie and be well paid for thy pain. </l>
+        </sp>
+        <sp xml:id="A13062-e100410" who="A13062-collector">
+          <speaker>Collector.</speaker>
+          <l xml:id="A13062-e100420">O help, help, the King's officer is slain. </l>
+        </sp>
+        <stage xml:id="A13062-e100430">Enter parson ball, what Tyler, nobs, Tom Miller the clown.</stage>
+        <sp xml:id="A13062-e100440" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e100450">How now Jack straw, doth anybody abuse thee? </l>
+        </sp>
+        <sp xml:id="A13062-e100460" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e100470">Alas Wat, I have killed the King's officer in striking rashly. </l>
+        </sp>
+        <sp xml:id="A13062-e100480" who="A13062-miller">
+          <speaker>Tom Miller.</speaker>
+          <l xml:id="A13062-e100490">A small matter to recover a man that is slain,</l>
+          <l xml:id="A13062-e100500">Blow wind in his tail, and fetch him again. </l>
+        </sp>
+        <sp xml:id="A13062-e100510" who="A13062-ball">
+          <speaker>Parson ball.</speaker>
+          <l xml:id="A13062-e100520">Content thee, 'tis no matter, and Jack straw god a mercy,</l>
+          <l xml:id="A13062-e100530">Herein thou hast done good service to thy country:</l>
+          <l xml:id="A13062-e100540">Were all inhuman slaves so served as he,</l>
+          <l xml:id="A13062-e100550">England would be civil, and from all such dealings free. </l>
+        </sp>
+        <sp xml:id="A13062-e100560" who="A13062-nobs">
+          <speaker>Nobs.</speaker>
+          <l xml:id="A13062-e100570">By gog's blood my masters, we will not put up this so quietly,</l>
+          <l xml:id="A13062-e100580">We owe God a death, and we can but die:</l>
+          <l xml:id="A13062-e100590">And though the fairest end of a rebel is the gallows. </l>
+          <l xml:id="A13062-e100600"><pb facs="3"/>Yet if you will be ruled by me,</l>
+          <l xml:id="A13062-e100610">Wele so deal of ourselves as we'll revenge this villainy,</l>
+        </sp>
+        <sp xml:id="A13062-e100620" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e100630">The King God wot knows not what's done by such poor men as we,</l>
+          <l xml:id="A13062-e100640">But we'll make him know it, if you will be ruled by me:</l>
+          <l xml:id="A13062-e100650">Here's parson ball an honest priest, and tells us that in charity,</l>
+          <l xml:id="A13062-e100660">We may stick together in such quarrels honestly. </l>
+        </sp>
+        <sp xml:id="A13062-e100670" who="A13062-miller">
+          <speaker>Tom Miller.</speaker>
+          <l xml:id="A13062-e100680">What is he an honest man? the devil he is, he is the parson of the town,</l>
+          <l xml:id="A13062-e100690">You think there's no knavery hid under a black gown,</l>
+          <l xml:id="A13062-e100700">Find him in a pulpit but twice in the year,</l>
+          <l xml:id="A13062-e100710">And I'll find him forty times in the alehouse tasting strong beer. </l>
+        </sp>
+        <sp xml:id="A13062-e100720" who="A13062-ball">
+          <speaker>Parson ball.</speaker>
+          <l xml:id="A13062-e100730">Neighbours, neighbours, the weakest nowadays goes to the wall,</l>
+          <l xml:id="A13062-e100740">But mark my words, and follow the counsel of John ball. </l>
+          <l xml:id="A13062-e100750">England is grown to such a pass of late,</l>
+          <l xml:id="A13062-e100760">That rich men triumph to see the poor beg at their gate. </l>
+          <l xml:id="A13062-e100770">But I am able by good scripture before you to prove,</l>
+          <l xml:id="A13062-e100780">That God doth not this dealing allow nor love. </l>
+          <l xml:id="A13062-e100790">But when Adam delved, and Eve span,</l>
+          <l xml:id="A13062-e100800">Who was then a gentleman. </l>
+          <l xml:id="A13062-e100810">Brethren, brothers, it were better to have this community,</l>
+          <l xml:id="A13062-e100820">Then to have this difference in degrees:</l>
+          <l xml:id="A13062-e100830">The landlord his rent, the lawyer his fees. </l>
+          <l xml:id="A13062-e100840">So quickly the poor man's substance is spent,</l>
+          <l xml:id="A13062-e100850">But merrily with the world it went,</l>
+          <l xml:id="A13062-e100860">When men eat berries of the hawthorn tree,</l>
+          <l xml:id="A13062-e100870">And thou help me, I'll help thee,</l>
+          <l xml:id="A13062-e100880"><pb facs="4"/> there was no place for surgery,</l>
+          <l xml:id="A13062-e100890">And old men knew not usury:</l>
+          <l xml:id="A13062-e100900">Now 'tis come to a woeful pass,</l>
+          <l xml:id="A13062-e100910">The widow that hath but a pan of brass,</l>
+          <l xml:id="A13062-e100920">And scarce a house to hide her head,</l>
+          <l xml:id="A13062-e100930">Sometimes no penny to buy her bread,</l>
+          <l xml:id="A13062-e100940">Must pay her landlord many a groat,</l>
+          <l xml:id="A13062-e100950">Or 'twill be pulled out of her throat:</l>
+          <l xml:id="A13062-e100960">Brothers mine so might I thrive,</l>
+          <l xml:id="A13062-e100970">As I wish not to be alive,</l>
+          <l xml:id="A13062-e100980">To see such dealings with extremity,</l>
+          <l xml:id="A13062-e100990">The rich have all, the poor live in misery:</l>
+          <l xml:id="A13062-e101000">But follow the counsel of John ball,</l>
+          <l xml:id="A13062-e101010">I promise you I love ye all:</l>
+          <l xml:id="A13062-e101020">And make division equally,</l>
+          <l xml:id="A13062-e101030">Of each man's goods indifferently,</l>
+          <l xml:id="A13062-e101040">And rightly may you follow arms,</l>
+          <l xml:id="A13062-e101050">To rid you from these civil harms. </l>
+        </sp>
+        <sp xml:id="A13062-e101060" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e101070">Well said parson so may it be,</l>
+          <l xml:id="A13062-e101080">As we purpose to prefer thee:</l>
+          <l xml:id="A13062-e101090">We will have all the rich men displaced ▪</l>
+          <l xml:id="A13062-e101100">And all the bravery of them defaced,</l>
+          <l xml:id="A13062-e101110">And as rightly as I am Jack straw,</l>
+          <l xml:id="A13062-e101120">In spite of all the men of law,</l>
+          <l xml:id="A13062-e101130">Make thee Archbishop of Canterbury,</l>
+          <l xml:id="A13062-e101140">And chancellor of England or I'll die. </l>
+          <l xml:id="A13062-e101150">How sayest thou Wat, shall it be so? </l>
+        </sp>
+        <sp xml:id="A13062-e101160" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e101170">I Jack straw, or else I'll bide many a foul blow. </l>
+          <l xml:id="A13062-e101180">It shall be no other but he,</l>
+          <l xml:id="A13062-e101190">That thus favours the commonalty,</l>
+          <l xml:id="A13062-e101200">Stay we no longer prating here,</l>
+          <l xml:id="A13062-e101210">But let us roundly to this gear,</l>
+          <l xml:id="A13062-e101220"><pb facs="4"/> 'tis more than time that we were gone,</l>
+          <l xml:id="A13062-e101230">We'll be lords my masters every one. </l>
+        </sp>
+        <sp xml:id="A13062-e101240" who="A13062-miller">
+          <speaker>Tom Miller.</speaker>
+          <l xml:id="A13062-e101250">And I my master's will make one,</l>
+          <l xml:id="A13062-e101260">To fight when all our foes be gone,</l>
+          <l xml:id="A13062-e101270">Well shall they see before we'll lack,</l>
+          <l xml:id="A13062-e101280">We'll stuff the gallows till it crack. </l>
+        </sp>
+        <sp xml:id="A13062-e101290" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e101300">I hope we shall have men enough,</l>
+          <l xml:id="A13062-e101310">To aid us herein what, how thinkest thou? </l>
+        </sp>
+        <sp xml:id="A13062-e101320" who="A13062-ball">
+          <speaker>Parson ball.</speaker>
+          <l xml:id="A13062-e101330">Tag and rag thou needst not doubt. </l>
+        </sp>
+        <sp xml:id="A13062-e101340" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e101350">But who shall be captain of the rout. </l>
+        </sp>
+        <sp xml:id="A13062-e101360" who="A13062-ball">
+          <speaker>Parson ball.</speaker>
+          <l xml:id="A13062-e101370">That shall you two for all our Kentish men. </l>
+        </sp>
+        <sp xml:id="A13062-e101380" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e101390">Fellow captain welcome let's about it. </l>
+        </sp>
+        <sp xml:id="A13062-e101400" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e101410">Agreed fellow captains to London. </l>
+          <stage xml:id="A13062-e101420">Exeunt all but nobs.</stage>
+        </sp>
+        <sp xml:id="A13062-e101430" who="A13062-nobs">
+          <speaker>Nobs.</speaker>
+          <l xml:id="A13062-e101440">Here's even work towards for the hangman, did you ever see such a crew,</l>
+          <l xml:id="A13062-e101450">After so bad a beginning, what's like to ensue? </l>
+          <l xml:id="A13062-e101460">Faith even the common reward for rebels, swingledom swangledom, you know as well as I,</l>
+          <l xml:id="A13062-e101470">But what care they, ye hear them say they owe God a death, and they can but die:</l>
+          <l xml:id="A13062-e101480">'Tis dishonour for such as they to die in their bed,</l>
+          <l xml:id="A13062-e101490">And credit to cape: under the gallows all save the head:</l>
+          <l xml:id="A13062-e101500">And yet by my fay the beginning of this riot,</l>
+          <l xml:id="A13062-e101510">May chance cost many a man's life before all be at quiet:</l>
+          <l xml:id="A13062-e101520"><pb facs="5"/> and i'faith I'll be amongst them as forward as the best. </l>
+          <l xml:id="A13062-e101530">And if ought fall out but well, I shall shift amongst the rest,</l>
+          <l xml:id="A13062-e101540">And being but a boy, may hide me in the throng,</l>
+          <l xml:id="A13062-e101550">Tyborn stand fast, I fear you will be laden ere it be long. </l>
+          <stage xml:id="A13062-e101560">Exeunt.</stage>
+          <stage xml:id="A13062-e101570">Enter lord treasurer, lord Archbishop, and secretary, with others.</stage>
+        </sp>
+        <sp xml:id="A13062-e101580" who="A13062-treasurer">
+          <speaker>Lord treasurer.</speaker>
+          <l xml:id="A13062-e101590">And yet lord Archbishop your grace doth know,</l>
+          <l xml:id="A13062-e101600">That since the latest time of parliament,</l>
+          <l xml:id="A13062-e101610">Wherein this task was granted to the King,</l>
+          <l xml:id="A13062-e101620">By general consent of either house,</l>
+          <l xml:id="A13062-e101630">To help his wars which he intends to France,</l>
+          <l xml:id="A13062-e101640">For wreak and just recovery of his right,</l>
+          <l xml:id="A13062-e101650">How slow their payment is in every place,</l>
+          <l xml:id="A13062-e101660">That better a King not to command at all,</l>
+          <l xml:id="A13062-e101670">Than be beholding to ungrateful minds. </l>
+        </sp>
+        <sp xml:id="A13062-e101680" who="A13062-archbishop">
+          <speaker>Archbishop.</speaker>
+          <l xml:id="A13062-e101690">Lord treasurer it seemeth strange to me,</l>
+          <l xml:id="A13062-e101700">That being won with reason and regard,</l>
+          <l xml:id="A13062-e101710">Of true succeeding prince, the common sort,</l>
+          <l xml:id="A13062-e101720">Should be so slack to give or grudge the gift,</l>
+          <l xml:id="A13062-e101730">That is to be employed for their behoof,</l>
+          <l xml:id="A13062-e101740">Hard and unnatural be the thoughts of theirs,</l>
+          <l xml:id="A13062-e101750">That suck the milk, and will not help the well,</l>
+          <l xml:id="A13062-e101760">The King himself being now but young of age:</l>
+          <l xml:id="A13062-e101770">If things should fall out otherwise than well,</l>
+          <l xml:id="A13062-e101780">The blame doth fall upon the counsellor,</l>
+          <l xml:id="A13062-e101790">And if I take my aim not all awry,</l>
+          <l xml:id="A13062-e101800">The multitude a beast of many heads,</l>
+          <l xml:id="A13062-e101810">Of misconceiving and misconstruing minds,</l>
+          <l xml:id="A13062-e101820">Reputes this last benevolence to the King,</l>
+          <l xml:id="A13062-e101830"><pb facs="5"/> given at high court of parliament,</l>
+          <l xml:id="A13062-e101840">A matter more require for private good,</l>
+          <l xml:id="A13062-e101850">Than help or benefit of common weal,</l>
+          <l xml:id="A13062-e101860">Wherein how much they wrong the better sort,</l>
+          <l xml:id="A13062-e101870">My conscience beareth witness in the cause. </l>
+        </sp>
+        <sp xml:id="A13062-e101880" who="A13062-secretary">
+          <speaker>Secretary.</speaker>
+          <l xml:id="A13062-e101890">My lords, because your words not worthless are,</l>
+          <l xml:id="A13062-e101900">Because they stand on reason's surest ground,</l>
+          <l xml:id="A13062-e101910">And tend unto the profit of the King,</l>
+          <l xml:id="A13062-e101920">Whose profit is the profit of the land,</l>
+          <l xml:id="A13062-e101930">Yet give me leave in reverence of the cause,</l>
+          <l xml:id="A13062-e101940">To speak my mind touching this question:</l>
+          <l xml:id="A13062-e101950">When such as we do see the people's hearts,</l>
+          <l xml:id="A13062-e101960">Expressed as far as time will give them leave,</l>
+          <l xml:id="A13062-e101970">With hartines of their benevolence,</l>
+          <l xml:id="A13062-e101980">My thinks it were for others happiness,</l>
+          <l xml:id="A13062-e101990">That hearts and purses should together go:</l>
+          <l xml:id="A13062-e102000">Misdeem not good my lords of this my speech,</l>
+          <l xml:id="A13062-e102010">Sith well I wot the noble and the slave,</l>
+          <l xml:id="A13062-e102020">And all do live but for a common weal,</l>
+          <l xml:id="A13062-e102030">Which common weal in other terms, is the Kings. </l>
+        </sp>
+        <sp xml:id="A13062-e102040" who="A13062-messenger">
+          <speaker>Messenger.</speaker>
+          <l xml:id="A13062-e102050">The justices and sheriffs of Kent, sends greetings to your honours here by me. </l>
+        </sp>
+        <sp xml:id="A13062-e102060" who="A13062-archbishop">
+          <speaker>Archbishop.</speaker>
+          <l xml:id="A13062-e102070">My lords, this brief doth openly unfold,</l>
+          <l xml:id="A13062-e102080">A dangerous task to us and all our trains,</l>
+          <l xml:id="A13062-e102090">With speed let us impart the news unto my lord the King,</l>
+          <l xml:id="A13062-e102100">The fearful news that whilst the flame doth but begin,</l>
+          <l xml:id="A13062-e102110">Sad policy may serve to quench the fire:</l>
+          <l xml:id="A13062-e102120">The commons now are up in Kent, let us not suffer this first attempt too far. </l>
+        </sp>
+        <sp xml:id="A13062-e102130" who="A13062-treasurer">
+          <pb facs="6"/>
+          <speaker>Treasurer.</speaker>
+          <l xml:id="A13062-e102140">My friend what power have they assembled in the field. </l>
+        </sp>
+        <sp xml:id="A13062-e102150" who="A13062-messenger">
+          <speaker>Messenger.</speaker>
+          <l xml:id="A13062-e102160">My lord a twenty thousand men or there about. </l>
+        </sp>
+        <sp xml:id="A13062-e102170" who="A13062-secretary">
+          <speaker>Secretary.</speaker>
+          <l xml:id="A13062-e102180">See here the peril that was late foreseen,</l>
+          <l xml:id="A13062-e102190">Ready to fall on this unhappy land:</l>
+          <l xml:id="A13062-e102200">What barbarous minds for grievance more than needs,</l>
+          <l xml:id="A13062-e102210">Unnaturally seeks wreak upon their lord,</l>
+          <l xml:id="A13062-e102220">Their true anointed prince, their lawful King:</l>
+          <l xml:id="A13062-e102230">So dare this blind unshamefast multitude,</l>
+          <l xml:id="A13062-e102240">Lay violent hands they wot not why nor where:</l>
+          <l xml:id="A13062-e102250">But be thou still as best becometh thee,</l>
+          <l xml:id="A13062-e102260">To stand in quarrel with thy natural liege,</l>
+          <l xml:id="A13062-e102270">The sun may sometime be eclipsed with clouds,</l>
+          <l xml:id="A13062-e102280">But hardly may the twinkling stars obscure,</l>
+          <l xml:id="A13062-e102290">Or put him out of whom they borrow light. </l>
+        </sp>
+        <stage xml:id="A13062-e102300">Exeunt.</stage>
+        <stage xml:id="A13062-e102310">Enter Jack straw, what Tyler, Hob Carter, Tom Miller, and nobs.</stage>
+        <sp xml:id="A13062-e102320" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e102330">I marry what this is another matter, methinks the world is changed of late,</l>
+          <l xml:id="A13062-e102340">Who would live like a beggar, and may be in this estate. </l>
+        </sp>
+        <sp xml:id="A13062-e102350" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e102360">We are here four captains just, Jack straw, what Tyler, Hob Carter, and Tom miller:</l>
+          <l xml:id="A13062-e102370">Search me all England and find four such captains, and by gog's blood I'll be hanged. </l>
+        </sp>
+        <sp xml:id="A13062-e102380" who="A13062-nobs">
+          <speaker>Nobs.</speaker>
+          <l xml:id="A13062-e102390">So you will be nevertheless I stand in great doubt. </l>
+        </sp>
+        <sp xml:id="A13062-e102400" who="A13062-hob">
+          <speaker>Hob Carter.</speaker>
+          <l xml:id="A13062-e102410">Captain straw, and captain Tyler, I think I have<pb facs="6"/> brought a company of Essex men for my train,</l>
+          <l xml:id="A13062-e102420">That will never yield, but kill or else be slain. </l>
+        </sp>
+        <sp xml:id="A13062-e102430" who="A13062-miller">
+          <speaker>Tom Miller.</speaker>
+          <l xml:id="A13062-e102440">And for a little captain I have the vantage of you all,</l>
+          <l xml:id="A13062-e102450">For while you are a fighting, I can creep into a quart pot I am so small. </l>
+        </sp>
+        <sp xml:id="A13062-e102460" who="A13062-nobs">
+          <speaker>Nobs.</speaker>
+          <l xml:id="A13062-e102470">But masters what answer made sir John Morton at Rochester,</l>
+          <l xml:id="A13062-e102480">I heard say he would keep the castle still, for the King's use. </l>
+        </sp>
+        <sp xml:id="A13062-e102490" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <p xml:id="A13062-e102500">So he did till I fetched him out by force, and I have his wife and children pledges, for his speedy return from the King, to whom he is gone with our message.</p>
+        </sp>
+        <sp xml:id="A13062-e102510" who="A13062-miller">
+          <speaker>Tom Miller.</speaker>
+          <l xml:id="A13062-e102520">Let him take heed he bring a wise answer to our worships, or else his pledges goes to the pot. </l>
+        </sp>
+        <sp xml:id="A13062-e102530" who="A13062-hob">
+          <speaker>Hob Carter.</speaker>
+          <l xml:id="A13062-e102540">Captain straw, how many men have we in the field,</l>
+        </sp>
+        <sp xml:id="A13062-e102550" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e102560">Marry captain carter, about fifty thousand men. </l>
+        </sp>
+        <sp xml:id="A13062-e102570" who="A13062-hob">
+          <speaker>Hob Carter.</speaker>
+          <l xml:id="A13062-e102580">Where shall we pitch our tents to lie in safety. </l>
+        </sp>
+        <sp xml:id="A13062-e102590" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e102600">Marry hob upon black-heath beside Greenwich, there we'll lie,</l>
+          <l xml:id="A13062-e102610">And if the King will come thither to know our pleasures so it is: if not, I know what we'll do. </l>
+        </sp>
+        <sp xml:id="A13062-e102620" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e102630">Gog's blood Jack, have we the cards in our hands? </l>
+          <l xml:id="A13062-e102640">Let's take it upon us while we have it. </l>
+        </sp>
+        <stage xml:id="A13062-e102650">Exeunt.</stage>
+        <sp xml:id="A13062-e102660" who="A13062-nobs">
+          <pb facs="7"/>
+          <speaker>Nobs.</speaker>
+          <l xml:id="A13062-e102670">I marry, for you know not how long you shall hold it. </l>
+          <l xml:id="A13062-e102680">Fifty thousand men they have already in arms that will draw together,</l>
+          <l xml:id="A13062-e102690">If we hang together as fast, some of us shall repent it. </l>
+        </sp>
+        <stage xml:id="A13062-e102700">Exeunt.</stage>
+        <stage xml:id="A13062-e102710">Enter the Queen mother, the county of Salisbury, and a gentleman usher.</stage>
+        <sp xml:id="A13062-e102720" who="A13062-queen_mother">
+          <speaker>Queen mother.</speaker>
+          <l xml:id="A13062-e102730">This strange unwelcome and unhappy news,</l>
+          <l xml:id="A13062-e102740">Of these unnatural rebels and unjust,</l>
+          <l xml:id="A13062-e102750">That threaten wrack unto this wretched land,</l>
+          <l xml:id="A13062-e102760">Ay me affrights my woman's mazed mind,</l>
+          <l xml:id="A13062-e102770">Burdens my heart, and interrupts my sleep,</l>
+          <l xml:id="A13062-e102780">That now unless some better tidings come,</l>
+          <l xml:id="A13062-e102790">Unto my son their true anointed King. </l>
+          <l xml:id="A13062-e102800">My heavy heart I fear will break in twain,</l>
+          <l xml:id="A13062-e102810">Surcharged with a heavy load of thoughts. </l>
+        </sp>
+        <sp xml:id="A13062-e102820" who="A13062-salisbury">
+          <speaker>County Salisbury.</speaker>
+          <l xml:id="A13062-e102830">Madam, your grace's care in this, I much commend,</l>
+          <l xml:id="A13062-e102840">For though your son my lord the King be young,</l>
+          <l xml:id="A13062-e102850">Yet he will see so well unto himself,</l>
+          <l xml:id="A13062-e102860">That he will make the proudest rebel know,</l>
+          <l xml:id="A13062-e102870">What 'tis to move or to displease a King,</l>
+          <l xml:id="A13062-e102880">And though his looks bewray such lenity,</l>
+          <l xml:id="A13062-e102890">Yet at advantage he can use extremity:</l>
+          <l xml:id="A13062-e102900">Your grace may call to mind that being a King,</l>
+          <l xml:id="A13062-e102910">He will not put up any injury,</l>
+          <l xml:id="A13062-e102920">Especially of base and common men,</l>
+          <l xml:id="A13062-e102930">Which are not worthy but with reverence,</l>
+          <l xml:id="A13062-e102940">To look into the princely state of Kings,</l>
+          <l xml:id="A13062-e102950">A King sometimes will make a show of courtesy,</l>
+          <l xml:id="A13062-e102960"><pb facs="7"/> only to fit a following policy:</l>
+          <l xml:id="A13062-e102970">And it may be the King determines so,</l>
+          <l xml:id="A13062-e102980">That he will try before he trust a foe. </l>
+        </sp>
+        <sp xml:id="A13062-e102990" who="A13062-usher">
+          <speaker>Usher.</speaker>
+          <l xml:id="A13062-e103000">True madam, for your grace's son the King,</l>
+          <l xml:id="A13062-e103010">Is so well ruled by divers of his peers,</l>
+          <l xml:id="A13062-e103020">As that I think the proudest foe he hath,</l>
+          <l xml:id="A13062-e103030">Shall find more work than he will take in hand,</l>
+          <l xml:id="A13062-e103040">That seeks the downfall of his majesty:</l>
+          <l xml:id="A13062-e103050">I hope the council are too wise for that,</l>
+          <l xml:id="A13062-e103060">To suffer rebels in aspiring pride,</l>
+          <l xml:id="A13062-e103070">That purpose treason to the prince and state. </l>
+          <l xml:id="A13062-e103080">In good time, see where my lord the King,</l>
+          <l xml:id="A13062-e103090">Doth come accompanied with the Bishop and lord treasurer. </l>
+        </sp>
+        <sp xml:id="A13062-e103100" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e103110">I marvel much my lords what rage it is,</l>
+          <l xml:id="A13062-e103120">That moves my people whom I love so dear,</l>
+          <l xml:id="A13062-e103130">Under a show of quarrel good and just,</l>
+          <l xml:id="A13062-e103140">To rise against us thus in mutinies,</l>
+          <l xml:id="A13062-e103150">With threatening force against our state and us:</l>
+          <l xml:id="A13062-e103160">But if it be as we are given to know,</l>
+          <l xml:id="A13062-e103170">By letters and by credible report,</l>
+          <l xml:id="A13062-e103180">A little spark hath kindled all this fire,</l>
+          <l xml:id="A13062-e103190">Which must be quenched with circumspect regard,</l>
+          <l xml:id="A13062-e103200">Before we feel the violence of the flame:</l>
+          <l xml:id="A13062-e103210">Meanwhile , sweet lady mother be content,</l>
+          <l xml:id="A13062-e103220">And think their malice shall not injure you,</l>
+          <l xml:id="A13062-e103230">For we have tools to crop and cut them off,</l>
+          <l xml:id="A13062-e103240">Ere they presume to touch our royal self,</l>
+          <l xml:id="A13062-e103250">And thus resolve, that you secure shall be,</l>
+          <l xml:id="A13062-e103260">What hard mishap soever fall to me. </l>
+          <stage xml:id="A13062-e103270">Enter messenger.</stage>
+          <l xml:id="A13062-e103280">Health and good hap befall your majesty. </l>
+        </sp>
+        <sp xml:id="A13062-e103290" who="A13062-usher">
+          <pb facs="8"/>
+          <speaker>Usher.</speaker>
+          <l xml:id="A13062-e103300">My lord here is a messenger from Kent,</l>
+          <l xml:id="A13062-e103310">That craves access unto your majesty. </l>
+        </sp>
+        <sp xml:id="A13062-e103320" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e103330">Admit him near, for we will hear him speak,</l>
+          <l xml:id="A13062-e103340">'Tis hard when twixt the people and the King,</l>
+          <l xml:id="A13062-e103350">Such terms of threats and parleys must be had,</l>
+          <l xml:id="A13062-e103360">Would any gentleman or man of worth,</l>
+          <l xml:id="A13062-e103370">Be seen in such a cause without offence,</l>
+          <l xml:id="A13062-e103380">Both to his god, his country, and his prince,</l>
+          <l xml:id="A13062-e103390">Except he were enforced thereunto? </l>
+        </sp>
+        <sp xml:id="A13062-e103400" who="A13062-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A13062-e103410">I cannot think so good a gentleman,</l>
+          <l xml:id="A13062-e103420">As is that knight sir John Morton I mean,</l>
+          <l xml:id="A13062-e103430">Would entertain so base and vild a thought:</l>
+          <l xml:id="A13062-e103440">Nor can it sink into my woman's head,</l>
+          <l xml:id="A13062-e103450">That were it not for fear or policy,</l>
+          <l xml:id="A13062-e103460">So true a bird would file so fair a nest,</l>
+          <l xml:id="A13062-e103470">But here he comes, oh so my longing mind,</l>
+          <l xml:id="A13062-e103480">Desires to know the tidings he doth bring. </l>
+        </sp>
+        <sp xml:id="A13062-e103490" who="A13062-morton">
+          <speaker>Morton.</speaker>
+          <l xml:id="A13062-e103500">The commons of Kent salute your majesty,</l>
+          <l xml:id="A13062-e103510">And I am made their unhappy messenger:</l>
+          <l xml:id="A13062-e103520">My lord, a crew of rebels are in field,</l>
+          <l xml:id="A13062-e103530">And they have made commotions late in Kent,</l>
+          <l xml:id="A13062-e103540">And drawn your people to a mutiny:</l>
+          <l xml:id="A13062-e103550">And if your grace see not to it in time,</l>
+          <l xml:id="A13062-e103560">Your land will come to ruin by their means,</l>
+          <l xml:id="A13062-e103570">Yet may your grace find remedy in time,</l>
+          <l xml:id="A13062-e103580">To qualify their pride that thus presume. </l>
+        </sp>
+        <sp xml:id="A13062-e103590" who="A13062-bishop">
+          <speaker>Bishop.</speaker>
+          <l xml:id="A13062-e103600">Who are the captains of this rebel rout,</l>
+          <l xml:id="A13062-e103610">That thus do rise 'gainst their anointed King? </l>
+          <l xml:id="A13062-e103620">What be they men of any worth or no? </l>
+          <l xml:id="A13062-e103630"><pb facs="8"/>If men of worth, I cannot choose but pity them. </l>
+        </sp>
+        <sp xml:id="A13062-e103640" who="A13062-morton">
+          <speaker>Morton.</speaker>
+          <l xml:id="A13062-e103650">No my good lord, they be men of no great account,</l>
+          <l xml:id="A13062-e103660">For they be none but tylers, thatchers, millers, and such like. </l>
+          <l xml:id="A13062-e103670">That in their lives did never come in field,</l>
+          <l xml:id="A13062-e103680">Before this mutiny did call them forth:</l>
+          <l xml:id="A13062-e103690">And for security of my back return,</l>
+          <l xml:id="A13062-e103700">Upon this message which I showed the King,</l>
+          <l xml:id="A13062-e103710">They keep my wife and children for a pledge,</l>
+          <l xml:id="A13062-e103720">And hauled me out from forth my castle at Rochester,</l>
+          <l xml:id="A13062-e103730">And swore me there to come unto your majesty,</l>
+          <l xml:id="A13062-e103740">And having told you their minds,</l>
+          <l xml:id="A13062-e103750">I hope your grace will pardon me for all:</l>
+          <l xml:id="A13062-e103760">In that I am enforced thereunto. </l>
+        </sp>
+        <sp xml:id="A13062-e103770" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e103780">How many men have they assembled in the field? </l>
+        </sp>
+        <sp xml:id="A13062-e103790" who="A13062-morton">
+          <speaker>Morton.</speaker>
+          <l xml:id="A13062-e103800">I think my lord about twenty thousand men,</l>
+          <l xml:id="A13062-e103810">But if your grace would follow my advice,</l>
+          <l xml:id="A13062-e103820">Thus would I deal with these rebellious men,</l>
+          <l xml:id="A13062-e103830">I would find time to parley with some of them,</l>
+          <l xml:id="A13062-e103840">And know what in their minds they do intend,</l>
+          <l xml:id="A13062-e103850">For being armed with such treacherous thoughts,</l>
+          <l xml:id="A13062-e103860">They may perform more than your grace expects. </l>
+        </sp>
+        <sp xml:id="A13062-e103870" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e103880">With speed return to those unnatural men,</l>
+          <l xml:id="A13062-e103890">And see sir John you greet them thus from us,</l>
+          <l xml:id="A13062-e103900">Tell them that we ourself will come to them,</l>
+          <l xml:id="A13062-e103910">To understand their meaning and their minds:</l>
+          <l xml:id="A13062-e103920">And tell them if they have any evil sustained,</l>
+          <l xml:id="A13062-e103930">Ourself will see sufficient recompense:</l>
+          <l xml:id="A13062-e103940">Go good sir John, and tell them upon the Thames,</l>
+          <l xml:id="A13062-e103950">Ourself will meet with them,</l>
+          <l xml:id="A13062-e103960"><pb facs="9"/> there to confer concerning their avail,</l>
+          <l xml:id="A13062-e103970">Do so sir John and kindly recommend us to them all. </l>
+        </sp>
+        <sp xml:id="A13062-e103980" who="A13062-morton">
+          <speaker>Morton.</speaker>
+          <l xml:id="A13062-e103990">We shall fulfil your grace's mind in this,</l>
+          <l xml:id="A13062-e104000">And thus I take my congee of your majesty,</l>
+          <l xml:id="A13062-e104010">Wishing your grace thrice Nestor's years to reign,</l>
+          <l xml:id="A13062-e104020">To keep your land, and guard your royal train,</l>
+        </sp>
+        <sp xml:id="A13062-e104030" who="A13062-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A13062-e104040">Farewell good knight and as thou darest remember them though they forget themselves. </l>
+        </sp>
+        <sp xml:id="A13062-e104050" who="A13062-bishop">
+          <speaker>Bishop.</speaker>
+          <stage xml:id="A13062-e104060">Exeunt Morton.</stage>
+          <l xml:id="A13062-e104070">Your grace herein is very well advised,</l>
+          <l xml:id="A13062-e104080">With resolution fitting your degree,</l>
+          <l xml:id="A13062-e104090">Your grace must show yourself to be a King,</l>
+          <l xml:id="A13062-e104100">And rule like god's viceregent here on earth,</l>
+          <l xml:id="A13062-e104110">The looks of Kings do lend both life and death,</l>
+          <l xml:id="A13062-e104120">And when a King doth set down his decree,</l>
+          <l xml:id="A13062-e104130">His sentence should be irrevocable,</l>
+          <l xml:id="A13062-e104140">Your grace herein hath shown your princely mind,</l>
+          <l xml:id="A13062-e104150">In that you hate to pray on carrion flesh,</l>
+          <l xml:id="A13062-e104160">Such prays befits not Kings to pray upon,</l>
+          <l xml:id="A13062-e104170">That may command and countermand their own. </l>
+          <l xml:id="A13062-e104180">I hope my lord this message so will prove,</l>
+          <l xml:id="A13062-e104190">That public hate will turn to private love. </l>
+          <l xml:id="A13062-e104200">And therefore I say my lord you have answered well,</l>
+          <l xml:id="A13062-e104210">The task was given your grace by act of parliament,</l>
+          <l xml:id="A13062-e104220">And you have reason to demand your dew. </l>
+        </sp>
+        <sp xml:id="A13062-e104230" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e104240">My lords I hope we shall not need to fear,</l>
+          <l xml:id="A13062-e104250">To meet those men that thus do threaten us.</l>
+          <l xml:id="A13062-e104260">We will my lords to morrow meet with them,</l>
+          <l xml:id="A13062-e104270">And hear my lords what 'tis that they demand. </l>
+          <l xml:id="A13062-e104280">Mother your grace shall need to take no care,</l>
+          <l xml:id="A13062-e104290"><pb facs="9"/> for you shall in our tower of London stay,</l>
+          <l xml:id="A13062-e104300">Till we return from Kent to you again. </l>
+          <l xml:id="A13062-e104310">My lord see every thing prepared for us:</l>
+          <l xml:id="A13062-e104320">And mother thus I leave your majesty,</l>
+          <l xml:id="A13062-e104330">You to the tower, and I must hence to Kent,</l>
+        </sp>
+        <sp xml:id="A13062-e104340" who="A13062-treasurer">
+          <speaker>Treasurer.</speaker>
+          <l xml:id="A13062-e104350">My lord if so you please take my advice herein,</l>
+          <l xml:id="A13062-e104360">That speaks in love and duty to your grace:</l>
+          <l xml:id="A13062-e104370">I shall in every matter privilege your majesty and all your lordly train. </l>
+          <l xml:id="A13062-e104380">I mean against your manor of Greenwich town,</l>
+          <l xml:id="A13062-e104390">And so amid the stream may hover safe,</l>
+          <l xml:id="A13062-e104400">Meanwhile they send some few and chosen men,</l>
+          <l xml:id="A13062-e104410">To give your grace to understand their minds,</l>
+          <l xml:id="A13062-e104420">And thus my lord I have adventured,</l>
+          <l xml:id="A13062-e104430">To show your majesty my mind herein. </l>
+        </sp>
+        <trailer xml:id="A13062-e104440">Finis actus primus.</trailer>
+        <pb facs="10"/>
+        <pb facs="10"/>
+      </div>
+      <div n="2" type="act" xml:id="A13062-e104450">
+        <pb facs="11"/>
+        <head>Actus secundus.</head>
+        <stage xml:id="A13062-e104460">Enter Tom Miller with a goose.</stage>
+        <sp xml:id="A13062-e104470" who="A13062-miller">
+          <l xml:id="A13062-e104480">It is good to make provision, for peradventure we shall lack victuals and we lie in camp on black heath long. </l>
+          <l xml:id="A13062-e104490">And in faith as long as this goose lasts we'll not starve:</l>
+          <l xml:id="A13062-e104500">And as many good fellows as will come to the eating of her, come and welcome. </l>
+          <l xml:id="A13062-e104510">For in faith I came lightly by her,</l>
+          <l xml:id="A13062-e104520">And lightly come lightly gone,</l>
+          <l xml:id="A13062-e104530">We captains are lords within ourselves,</l>
+          <l xml:id="A13062-e104540">And if the world hold out we shall be Kings shortly. </l>
+        </sp>
+        <stage xml:id="A13062-e104550">Enter nobs and cut away the goose while he talketh, and leave the head behind him with them and Morton.</stage>
+        <sp xml:id="A13062-e104560" who="A13062-miller">
+          <speaker>Tom Miller.</speaker>
+          <l xml:id="A13062-e104570">The rest of my fellow captains are gone before to Greenwich to meet the King:</l>
+          <l xml:id="A13062-e104580">That comes to know our minds,</l>
+          <l xml:id="A13062-e104590">And while they be about it:</l>
+          <l xml:id="A13062-e104600">I'll make good cheer, with my goose here,</l>
+          <l xml:id="A13062-e104610">What's the goose flown away without her head. </l>
+        </sp>
+        <stage xml:id="A13062-e104620">Exeunt.</stage>
+        <stage xml:id="A13062-e104630">Enter with the crew Tom Miller, Jack straw, what Tyler, and Hob Carter.</stage>
+        <sp xml:id="A13062-e104640" who="A13062-jack">
+          <pb facs="11"/>
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e104650">Here's a stir more than needs,</l>
+          <l xml:id="A13062-e104660">What means the King thus to abuse us? </l>
+          <l xml:id="A13062-e104670">And makes us run about his pleasure, and to no end. </l>
+          <l xml:id="A13062-e104680">He promised us to meet us on the water,</l>
+          <l xml:id="A13062-e104690">And by lady as soon as we came at the water side,</l>
+          <l xml:id="A13062-e104700">He fair and flat turns his barge and away he goes to London. </l>
+          <l xml:id="A13062-e104710">I tell thee what we will not put up this abuse. </l>
+        </sp>
+        <sp xml:id="A13062-e104720" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e104730">By gog's blood captain straw, we will remove our camp, and away to London roundly,</l>
+          <l xml:id="A13062-e104740">And there we'll speak with him, or were know why we shall not. </l>
+        </sp>
+        <sp xml:id="A13062-e104750" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e104760">God a-mercy what and ere we have done,</l>
+          <l xml:id="A13062-e104770">We will be lords every one. </l>
+        </sp>
+        <sp xml:id="A13062-e104780" who="A13062-hob">
+          <speaker>Hob Carter.</speaker>
+          <l xml:id="A13062-e104790">Gentle Jack straw, in one line let us draw,</l>
+          <l xml:id="A13062-e104800">And we'll not leave a man of law. </l>
+          <l xml:id="A13062-e104810">Nor a paper worth a hawe,</l>
+          <l xml:id="A13062-e104820">And make him worse than a daw,</l>
+          <l xml:id="A13062-e104830">That shall stand against Jack straw. </l>
+        </sp>
+        <sp xml:id="A13062-e104840" who="A13062-morton">
+          <speaker>Morton.</speaker>
+          <l xml:id="A13062-e104850">Methinks you might do well to answer the King,</l>
+          <l xml:id="A13062-e104860">In the name of the whole company:</l>
+          <l xml:id="A13062-e104870">Some dozen or twenty men for the nonce, that may deliver the minds of you all in few words. </l>
+        </sp>
+        <sp xml:id="A13062-e104880" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e104890">Sir John Morton you are an ass, to tell us what we have to do,</l>
+          <l xml:id="A13062-e104900">Hold your prating you were best. </l>
+        </sp>
+        <sp xml:id="A13062-e104910" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e104920">I tell thee sir John thou abusest us ▪</l>
+          <l xml:id="A13062-e104930"><pb facs="12"/> but let's to London as fast as we can. </l>
+          <stage xml:id="A13062-e104940">Enter King, Archbishop, treasurer, secretary, sir John Newton, and Spencer.</stage>
+          <l xml:id="A13062-e104950">My lords if all our men are come unto the shore,</l>
+          <l xml:id="A13062-e104960">Let us return again into the town</l>
+          <l xml:id="A13062-e104970">These people are not to be talked withal,</l>
+          <l xml:id="A13062-e104980">Much less with reason to be ordered. </l>
+          <l xml:id="A13062-e104990">That so unorderly with shrieks and cries,</l>
+          <l xml:id="A13062-e105000">Make show as though they would invade us all. </l>
+          <l xml:id="A13062-e105010">I have not heard nor read of any King ▪</l>
+          <l xml:id="A13062-e105020">So ungently of his people entertained. </l>
+        </sp>
+        <stage xml:id="A13062-e105030">Exeunt King and his train save Newton and Spencer.</stage>
+        <sp xml:id="A13062-e105040" who="A13062-spencer">
+          <speaker>Spencer.</speaker>
+          <l xml:id="A13062-e105050">Sir John what was the cause the King returned so soon,</l>
+          <l xml:id="A13062-e105060">And with such 〈◊〉 so quickly took the shore. </l>
+        </sp>
+        <sp xml:id="A13062-e105070" who="A13062-newton">
+          <speaker>Sir Newton.</speaker>
+          <l xml:id="A13062-e105080">Bargeman the King had reason for the same, warrant thee he was not ill advised. </l>
+        </sp>
+        <sp xml:id="A13062-e105090" who="A13062-spencer">
+          <speaker>Spencer.</speaker>
+          <l xml:id="A13062-e105100">I think he meant to have commenced some talk with that 〈…〉</l>
+        </sp>
+        <sp xml:id="A13062-e105110" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e105120">He meant so indeed Spencer but you heard how it fell out ▪</l>
+        </sp>
+        <sp xml:id="A13062-e105130" who="A13062-spencer">
+          <speaker>Spencer.</speaker>
+          <l xml:id="A13062-e105140">Not well I held my stern so hard. </l>
+        </sp>
+        <sp xml:id="A13062-e105150" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e105160">'Twas thus, the King and all his company,</l>
+          <l xml:id="A13062-e105170">Being rowed with oars so far as Greenwich town,</l>
+          <l xml:id="A13062-e105180">It was a world to see what troops of men,</l>
+          <l xml:id="A13062-e105190">Like bees that swarm about the honey hive. </l>
+          <l xml:id="A13062-e105200"><pb facs="12"/>'gan strew the gravel ground and sandy plain,</l>
+          <l xml:id="A13062-e105210">That filled the air with cries and fearful noise. </l>
+          <l xml:id="A13062-e105220">And from the water did an echo rise:</l>
+          <l xml:id="A13062-e105230">That pierced the years of our renowned King,</l>
+          <l xml:id="A13062-e105240">Affrighting so his heart with strong conceit,</l>
+          <l xml:id="A13062-e105250">Of some unhappy grievous stratigene;</l>
+          <l xml:id="A13062-e105260">That trust me with my ears I heard him say,</l>
+          <l xml:id="A13062-e105270">He thought they would have all like spaniels,</l>
+          <l xml:id="A13062-e105280">Ta'e water desperately and 〈◊〉 him. </l>
+          <l xml:id="A13062-e105290">So did they all yfere like 〈◊〉 men,</l>
+          <l xml:id="A13062-e105300">That time he thought to speed away apace,</l>
+          <l xml:id="A13062-e105310">And take the best advantage of the place. </l>
+        </sp>
+        <sp xml:id="A13062-e105320" who="A13062-spencer">
+          <speaker>Spencer.</speaker>
+          <l xml:id="A13062-e105330">Indeed I could not greatly blame his majesty,</l>
+          <l xml:id="A13062-e105340">Myself was not so scared this seven year:</l>
+          <l xml:id="A13062-e105350">My thought there was sufficient mouths enough,</l>
+          <l xml:id="A13062-e105360">At highest tide to have drawn the Thames dry. </l>
+        </sp>
+        <sp xml:id="A13062-e105370" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e105380">Spencer ere it flow thrice at London bridge,</l>
+          <l xml:id="A13062-e105390">London I fear will hear of worser news. </l>
+        </sp>
+        <stage xml:id="A13062-e105400">Exeunt ambo.</stage>
+        <stage xml:id="A13062-e105410">Enter Jack straw, what Tyler, Hob Carter, Tom Miller, n●bs, Morton, and southwarkemen.</stage>
+        <sp xml:id="A13062-e105420" who="A13062-southwarkmen">
+          <speaker>Southwarkemen.</speaker>
+          <p xml:id="A13062-e105430">Neighbours you that keep the gates, let the King's liege people in, or we 〈◊〉 be fain to aid them with balls of wild fire or some other device, for they have spoiled all Southwark ▪ let out all the prisoners, broke up the Marshalsea and the King's bench, and made great havoc in the burrow here,</p>
+          <l xml:id="A13062-e105440">Therefore I pray you let them in. </l>
+        </sp>
+        <sp xml:id="A13062-e105450" who="A13062-tyler">
+          <pb facs="13"/>
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e105460">Porter open the gate, if thou lovest thyself, or thine own life, open the gate. </l>
+        </sp>
+        <sp xml:id="A13062-e105470" who="A13062-miller">
+          <speaker>Tom Miller.</speaker>
+          <l xml:id="A13062-e105480">You have a certain spare goose came in to be roasted,</l>
+          <l xml:id="A13062-e105490">She is enough by this. </l>
+        </sp>
+        <stage xml:id="A13062-e105500">Exeunt all but Morton.</stage>
+        <sp xml:id="A13062-e105510" who="A13062-morton">
+          <speaker>Morton.</speaker>
+          <l xml:id="A13062-e105520">What means these wretched miscreants,</l>
+          <l xml:id="A13062-e105530">To make a spoil of their own country men:</l>
+          <l xml:id="A13062-e105540">Unnatural rebels whatsoe'er ,</l>
+          <l xml:id="A13062-e105550">By foreign foes may seem no whit so strange. </l>
+          <l xml:id="A13062-e105560">As Englishmen to trouble England thus</l>
+          <l xml:id="A13062-e105570">Well may I term it infest to the land. </l>
+          <l xml:id="A13062-e105580">Like that foul lawless force and violence,</l>
+          <l xml:id="A13062-e105590">Which Cyneris did offer to his child. </l>
+          <l xml:id="A13062-e105600">O happy time from all such troubles free,</l>
+          <l xml:id="A13062-e105610">What now alas is like to be the end of this attempt,</l>
+          <l xml:id="A13062-e105620">But that so long as they are glutted all with blood, they bathe therein. </l>
+          <stage xml:id="A13062-e105630">Exeunt Morton, enter nobs with a Flemming.</stage>
+          <p xml:id="A13062-e105640">Sirrah here it is set down by our captains that as many of you as cannot say bread and cheese, in good and perfect English, ye die for it, and that was the cause so many strangers did die in Smithfield.</p>
+          <l xml:id="A13062-e105650">Let me hear you say bread and cheese. </l>
+          <l xml:id="A13062-e105660">Brocke and keyse. </l>
+        </sp>
+        <stage xml:id="A13062-e105670">Exeunt both</stage>
+        <trailer xml:id="A13062-e105680">Finis actus secundus.</trailer>
+      </div>
+      <div n="3" type="act" xml:id="A13062-e105690">
+        <pb facs="13"/>
+        <head>Actus tertius.</head>
+        <stage xml:id="A13062-e105700">Enter King, lord Maior, sir John Newton, two sargeants, with guard and gentlemen.</stage>
+        <sp xml:id="A13062-e105710" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e105720">Sir Newton, and lord mayor, this wrong that I am offered,</l>
+          <l xml:id="A13062-e105730">This open and unnatural injury,</l>
+          <l xml:id="A13062-e105740">A King to be thus hardly handled,</l>
+          <l xml:id="A13062-e105750">Of his own people and no other foes,</l>
+          <l xml:id="A13062-e105760">But such as have been brought up and bred in his own bosom,</l>
+          <l xml:id="A13062-e105770">Nourished with his tender care,</l>
+          <l xml:id="A13062-e105780">To be thus robbed of honour and of friends,</l>
+          <l xml:id="A13062-e105790">Thus daunted with continual frights and fears,</l>
+          <l xml:id="A13062-e105800">Haled on to what mishap I cannot tell:</l>
+          <l xml:id="A13062-e105810">More heard mishap than had of like been mine,</l>
+          <l xml:id="A13062-e105820">Had I not marked been to be a King. </l>
+        </sp>
+        <sp xml:id="A13062-e105830" who="A13062-lord_mayor">
+          <speaker>Lord mayor.</speaker>
+          <l xml:id="A13062-e105840">It shall become your grace most gracious lord,</l>
+          <l xml:id="A13062-e105850">To bear the mind in this afflicted time,</l>
+          <l xml:id="A13062-e105860">As other Kings and lords hath done before,</l>
+          <l xml:id="A13062-e105870">Armed with sufferance and magnanimity,</l>
+          <l xml:id="A13062-e105880">The one to make you resolute for chance,</l>
+          <l xml:id="A13062-e105890">The other forward in your resolution:</l>
+          <l xml:id="A13062-e105900">The greatest wrong this rout hath done your grace,</l>
+          <l xml:id="A13062-e105910">Amongst a many other wicked parts,</l>
+          <l xml:id="A13062-e105920">Is in frighting your worthy lady mother,</l>
+          <l xml:id="A13062-e105930">Making foul slaughter of your noble men,</l>
+          <l xml:id="A13062-e105940"><pb facs="14"/> burning up books and 〈◊〉 of records,</l>
+          <l xml:id="A13062-e105950">Dancing houses of 〈◊〉,</l>
+          <l xml:id="A13062-e105960">Saint iames in Smithfield, the Savoy and such like,</l>
+          <l xml:id="A13062-e105970">And beating down like wolves, the better sort,</l>
+          <l xml:id="A13062-e105980">The greatest wrong in my opinion is,</l>
+          <l xml:id="A13062-e105990">That in honour doth your person touch,</l>
+          <l xml:id="A13062-e106000">I mean they call your majesty to parley,</l>
+          <l xml:id="A13062-e106010">And over bear you with a multitude,</l>
+          <l xml:id="A13062-e106020">As if you were a vassal not a King:</l>
+          <l xml:id="A13062-e106030">Oh wretched minds of vild and barbarous men,</l>
+          <l xml:id="A13062-e106040">For whom the heavens have secret wreak in store:</l>
+          <l xml:id="A13062-e106050">But my lord with reverence and with pardon too,</l>
+          <l xml:id="A13062-e106060">Why comes your grace into Smithfield near the crew,</l>
+          <l xml:id="A13062-e106070">Unarmed and guarded with so small a train. </l>
+        </sp>
+        <sp xml:id="A13062-e106080" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e106090">If clemency may win their raging minds,</l>
+          <l xml:id="A13062-e106100">To civil order, I'll approve it first. </l>
+          <l xml:id="A13062-e106110">They shall perceive I come in quiet wise,</l>
+          <l xml:id="A13062-e106120">Accompanied with the lord maior here alone,</l>
+          <l xml:id="A13062-e106130">Besides our guard that doth attend on us. </l>
+        </sp>
+        <sp xml:id="A13062-e106140" who="A13062-mayor">
+          <speaker>Mayor.</speaker>
+          <l xml:id="A13062-e106150">May it please your grace that I shall raise the streets,</l>
+          <l xml:id="A13062-e106160">To guard your majesty through Smithfield as you walk. </l>
+        </sp>
+        <sp xml:id="A13062-e106170" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e106180">No lord maior, 'twill make them more outrageous,</l>
+          <l xml:id="A13062-e106190">And be a mean to shed a world of blood:</l>
+          <l xml:id="A13062-e106200">I more account the blood of Englishmen than so,</l>
+          <l xml:id="A13062-e106210">But this is the place I have appointed them</l>
+          <l xml:id="A13062-e106220">To hear them speak and have adventured,</l>
+          <l xml:id="A13062-e106230">To come among this foul verily crew:</l>
+          <l xml:id="A13062-e106240">And lo my lords, see where the people comes. </l>
+        </sp>
+        <pb facs="14"/>
+        <stage xml:id="A13062-e106250">Enter Jack straw, what Tyler, Tom Miller, parson on ball. and Hob Carter.</stage>
+        <sp xml:id="A13062-e106260" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e106270">My masters this is the King, come away,</l>
+          <l xml:id="A13062-e106280">'Tis he that we would speak with all. </l>
+        </sp>
+        <sp xml:id="A13062-e106290" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e106300">Newton, desire that one may speak for all;</l>
+          <l xml:id="A13062-e106310">To tell the sum of their demand at full. </l>
+        </sp>
+        <sp xml:id="A13062-e106320" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e106330">My masters you that are the especial men,</l>
+          <l xml:id="A13062-e106340">His majesty requires you all by me,</l>
+          <l xml:id="A13062-e106350">That one may speak and tell him your demand,</l>
+          <l xml:id="A13062-e106360">And gently here he lets you know by me,</l>
+          <l xml:id="A13062-e106370">He is resolved to hear him all at large. </l>
+        </sp>
+        <sp xml:id="A13062-e106380" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e106390">I good my friends, I pray you heartily,</l>
+          <l xml:id="A13062-e106400">Tell us your minds as mildly as you can:</l>
+          <l xml:id="A13062-e106410">And we will answer you so well to all,</l>
+          <l xml:id="A13062-e106420">As you shall not mislike in anything. </l>
+        </sp>
+        <sp xml:id="A13062-e106430" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e106440">We come to revenge your officers ill demeanour,</l>
+          <l xml:id="A13062-e106450">And though we have killed him for his knavery,</l>
+          <l xml:id="A13062-e106460">Now we be gotten together, we will have wealth and liberty</l>
+        </sp>
+        <stage xml:id="A13062-e106470">Cry all. Wealth and liberty.</stage>
+        <sp xml:id="A13062-e106480" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e106490">It is enough, believe me if you will,</l>
+          <l xml:id="A13062-e106500">For as I am your true succeeding prince,</l>
+          <l xml:id="A13062-e106510">I swear by all the honour of my crown,</l>
+          <l xml:id="A13062-e106520">You shall have liberty and pardon all,</l>
+          <l xml:id="A13062-e106530">As God hath given it and your lawful King. </l>
+        </sp>
+        <sp xml:id="A13062-e106540" who="A13062-tyler">
+          <pb facs="15"/>
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e106550">Ere we'll be pinched with poverty,</l>
+          <l xml:id="A13062-e106560">To dig our meat and victuals from the ground,</l>
+          <l xml:id="A13062-e106570">That are as worthy of good maintenance,</l>
+          <l xml:id="A13062-e106580">As any gentleman your grace doth keep,</l>
+          <l xml:id="A13062-e106590">We will be Kings and lords within ourselves. </l>
+          <l xml:id="A13062-e106600">And not abide the pride of tyranny. </l>
+        </sp>
+        <sp xml:id="A13062-e106610" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e106620">I pray thee fellow what countryman art thou? </l>
+        </sp>
+        <sp xml:id="A13062-e106630" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e106640">It skills not much, I am an Englishman. </l>
+        </sp>
+        <sp xml:id="A13062-e106650" who="A13062-ball">
+          <speaker>Ball.</speaker>
+          <l xml:id="A13062-e106660">Marry sir he is a Kentishman, and hath been my scholar ere now. </l>
+        </sp>
+        <sp xml:id="A13062-e106670" who="A13062-mayor">
+          <speaker>Mayor.</speaker>
+          <l xml:id="A13062-e106680">Little good manner hath the villain learned,</l>
+          <l xml:id="A13062-e106690">To use his lord and King so barbarously. </l>
+        </sp>
+        <sp xml:id="A13062-e106700" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e106710">Well people ask you any more,</l>
+          <l xml:id="A13062-e106720">Than to be free and have your liberty. </l>
+        </sp>
+        <stage xml:id="A13062-e106730">Cry all</stage>
+        <stage xml:id="A13062-e106740">Wealth and liberty.</stage>
+        <sp xml:id="A13062-e106750" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e106760">Then take my word I promise it to you all,</l>
+          <l xml:id="A13062-e106770">And eke my general pardon now forth with,</l>
+          <l xml:id="A13062-e106780">Under seal and letters patents to perform the same. </l>
+          <l xml:id="A13062-e106790">Let every man betake him to his home,</l>
+          <l xml:id="A13062-e106800">And with what speed our clarks can make dispatch,</l>
+          <l xml:id="A13062-e106810">Your pardons and your letters patents,</l>
+          <l xml:id="A13062-e106820">Shall be forth with sent down in every shire. </l>
+        </sp>
+        <sp xml:id="A13062-e106830" who="A13062-hob">
+          <speaker>Hob Carter.</speaker>
+          <l xml:id="A13062-e106840">Marry I thank your grace, Hob Carter and the Essex men will home again, and we take your word. </l>
+        </sp>
+        <sp xml:id="A13062-e106850" who="A13062-king">
+          <pb facs="15"/>
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e106860">We believe you all, and thank you all,</l>
+          <l xml:id="A13062-e106870">And presently we will commandment give,</l>
+          <l xml:id="A13062-e106880">That all this business may be quickly ready. </l>
+        </sp>
+        <stage xml:id="A13062-e106890">Exeunt King and his train.</stage>
+        <sp xml:id="A13062-e106900" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e106910">I tell thee Wat, this is not that that I would have,</l>
+          <l xml:id="A13062-e106920">I come for more than to be answered thus,</l>
+          <l xml:id="A13062-e106930">And if the Essex men will needs be gone,</l>
+          <l xml:id="A13062-e106940">Content, let them go suck their mams at home,</l>
+          <l xml:id="A13062-e106950">I came for spoil and spoil I'll have. </l>
+        </sp>
+        <sp xml:id="A13062-e106960" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e106970">Do what thou wilt Jack, I will follow thee. </l>
+        </sp>
+        <sp xml:id="A13062-e106980" who="A13062-nobs">
+          <speaker>Nobs.</speaker>
+          <l xml:id="A13062-e106990">How and if it be to the gallows. </l>
+        </sp>
+        <sp xml:id="A13062-e107000" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e107010">Why that is the worst. </l>
+        </sp>
+        <sp xml:id="A13062-e107020" who="A13062-nobs">
+          <speaker>Nobs.</speaker>
+          <l xml:id="A13062-e107030">And i'faith that is sure, but if you will be ruled by me,</l>
+          <l xml:id="A13062-e107040">Trust not to his pardon for you die every mother's son. </l>
+          <l xml:id="A13062-e107050">But captains, go forward as we have be gone. </l>
+        </sp>
+        <sp xml:id="A13062-e107060" who="A13062-ball">
+          <speaker>Ball.</speaker>
+          <l xml:id="A13062-e107070">My masters the boy speaks wisely,</l>
+          <l xml:id="A13062-e107080">I have red this in Cato, ad cum silium antiquam voceris. </l>
+          <l xml:id="A13062-e107090">Take good counsel while it is given. </l>
+        </sp>
+        <sp xml:id="A13062-e107100" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e107110">Content boy we will be ruled by thee. </l>
+        </sp>
+        <stage xml:id="A13062-e107120">Exeunt omnes.</stage>
+        <stage xml:id="A13062-e107130">Enter Tom Miller to burn papers.</stage>
+        <sp xml:id="A13062-e107140" who="A13062-nobs">
+          <speaker>Nobs.</speaker>
+          <l xml:id="A13062-e107150">Why how now captain miller, I perceive you take no care which way the world goes. </l>
+        </sp>
+        <sp xml:id="A13062-e107160" who="A13062-miller">
+          <pb facs="16"/>
+          <speaker>Tom Miller.</speaker>
+          <p xml:id="A13062-e107170"> i'faith nobs I have made a bonfire here of a great many of bonds and indentures and obligations, faith I have been amongst the ends of the court, and among the records, and all that I saw either in the guild-hall or in any other place, I have set fire on them, but where hast thou been?</p>
+        </sp>
+        <sp xml:id="A13062-e107180" who="A13062-nobs">
+          <speaker>Nobs.</speaker>
+          <p xml:id="A13062-e107190">I have been with our captains, straw and Tiler, at saint Jones in Smithfield, but sirrah: I can tell you news, captain Carter is gone home, and all our Essex men, and I fear we shall all be hanged, therefore look you to yourself, for I will look to myself.</p>
+        </sp>
+        <stage xml:id="A13062-e107200">Exeunt nobs.</stage>
+        <sp xml:id="A13062-e107210" who="A13062-miller">
+          <speaker>Tom Miller.</speaker>
+          <l xml:id="A13062-e107220">Well if we shall be hanged it is but a folly to be sorry,</l>
+          <l xml:id="A13062-e107230">But go to it with a good stomach. </l>
+          <l xml:id="A13062-e107240">Riddle me a riddle, what's this,</l>
+          <l xml:id="A13062-e107250">I shall be hanged, I shall not be hanged. </l>
+        </sp>
+        <stage xml:id="A13062-e107260">Here he tries it with a staff.</stage>
+        <stage xml:id="A13062-e107270">Enter lady mother and gentleman usher.</stage>
+        <sp xml:id="A13062-e107280" who="A13062-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A13062-e107290">What doth that fellow? </l>
+        </sp>
+        <sp xml:id="A13062-e107300" who="A13062-usher">
+          <speaker>Usher.</speaker>
+          <l xml:id="A13062-e107310">It seemeth madam, he disputeth with himself,</l>
+          <l xml:id="A13062-e107320">Whether he shall be hanged or no. </l>
+        </sp>
+        <sp xml:id="A13062-e107330" who="A13062-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A13062-e107340">Alas poor soul, simple enough God wot,</l>
+          <l xml:id="A13062-e107350">And yet not so simple as a great many of his company. </l>
+        </sp>
+        <sp xml:id="A13062-e107360" who="A13062-usher">
+          <speaker>Usher.</speaker>
+          <l xml:id="A13062-e107370">If it be as we are let to understand,</l>
+          <l xml:id="A13062-e107380">My lord the King hath given them general pardon. </l>
+        </sp>
+        <sp xml:id="A13062-e107390" who="A13062-queen">
+          <pb facs="16"/>
+          <speaker>Queen.</speaker>
+          <p xml:id="A13062-e107400">So he hath, and they like honest men are gone homewards, or at least the most part of them, but worse in mine opinion is their haps that tarry longest.</p>
+        </sp>
+        <sp xml:id="A13062-e107410" who="A13062-miller">
+          <speaker>Tom Miller.</speaker>
+          <p xml:id="A13062-e107420">But peace here is the King's mother, she can do much with the King, I'll treat her to beg my pardon of the King wisely, I'll go to her, humbly unto your worships, a poor captain Thomas miller, requesting your favourable bequest, touching the permission of destroy, towards the said captain miller, which in blunt and flat terms is nominated, sursum cordum, alis dictus hangum meum, from which place of torment God us all deliver, and grant us to be merciful while we live here together: now sir, understanding your worship is the King's mother, lamentably in the behalf before spoken, to stand between me and the gallows or to beg my pardon, in which you shall not only save a proper handsome tall fellow and a stout captain, but also you shall purchase the prayers of all the ale wives in the town, for saving a maltworm and a customer to help away their strong ale.</p>
+        </sp>
+        <sp xml:id="A13062-e107430" who="A13062-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A13062-e107440">What means the fellow by all this eloquence? </l>
+        </sp>
+        <sp xml:id="A13062-e107450" who="A13062-usher">
+          <speaker>Usher.</speaker>
+          <l xml:id="A13062-e107460">It seems he fears he shall be hanged,</l>
+          <l xml:id="A13062-e107470">And therefore craves your grace's favour in his behalf. </l>
+        </sp>
+        <sp xml:id="A13062-e107480" who="A13062-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A13062-e107490">Alas poor fellow, he seemeth to be a stark idiot. </l>
+          <l xml:id="A13062-e107500">Good fellow if thou wilt go beg thy pardon of the King,</l>
+          <l xml:id="A13062-e107510">I will speak for thee. </l>
+        </sp>
+        <sp xml:id="A13062-e107520" who="A13062-miller">
+          <speaker>Tom Miller.</speaker>
+          <l xml:id="A13062-e107530">Will you in faith, and I will give you a tawdry lace. </l>
+        </sp>
+        <sp xml:id="A13062-e107540" who="A13062-usher">
+          <speaker>Usher.</speaker>
+          <l xml:id="A13062-e107550">Madam here comes an unruly crew let's be gone. </l>
+          <pb facs="17"/>
+          <stage xml:id="A13062-e107560">Exeunt Queen mother and usher.</stage>
+          <stage xml:id="A13062-e107570">Enter Jack straw, what Tyler, parson ball, nobs, Tom Miller being there.</stage>
+        </sp>
+        <sp xml:id="A13062-e107580" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e107590">The King and his nobles think they may sleep in quiet,</l>
+          <l xml:id="A13062-e107600">Now they have given us a little holy water at the court,</l>
+          <l xml:id="A13062-e107610">But there's no such matter, we be no such fools</l>
+          <l xml:id="A13062-e107620">To be bobbed out with words and after come to hanging:</l>
+          <l xml:id="A13062-e107630">What do the thing thou com'st for,</l>
+          <l xml:id="A13062-e107640">If thou wilt be ruled by me, we'll not leave it so. </l>
+        </sp>
+        <sp xml:id="A13062-e107650" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e107660">Ran tara have at all my boys. </l>
+        </sp>
+        <sp xml:id="A13062-e107670" who="A13062-miller">
+          <speaker>Tom Miller.</speaker>
+          <l xml:id="A13062-e107680">Sayest thou so my heart, than farewell my pardon:</l>
+          <l xml:id="A13062-e107690">For I'll do as ye do, hang together for company. </l>
+        </sp>
+        <sp xml:id="A13062-e107700" who="A13062-ball">
+          <speaker>Ball.</speaker>
+          <l xml:id="A13062-e107710">Neighbours and friends never yield,</l>
+          <l xml:id="A13062-e107720">But fight it lustily in the field:</l>
+          <l xml:id="A13062-e107730">For God will give you strength and might,</l>
+          <l xml:id="A13062-e107740">And put your enemies to flight:</l>
+          <l xml:id="A13062-e107750">To stand against them day and night,</l>
+          <l xml:id="A13062-e107760">For of mine honesty your quarrels right. </l>
+        </sp>
+        <sp xml:id="A13062-e107770" who="A13062-miller">
+          <speaker>Tom Miller.</speaker>
+          <l xml:id="A13062-e107780">O parson ball, before you all,</l>
+          <l xml:id="A13062-e107790">If all fall out not well, by following thy counsel,</l>
+          <l xml:id="A13062-e107800">And that by listening to thy talk,</l>
+          <l xml:id="A13062-e107810">To the gallows we do walk:</l>
+          <l xml:id="A13062-e107820">Parson ball I will tell thee. </l>
+          <l xml:id="A13062-e107830">And swear it of mine honesty,</l>
+          <l xml:id="A13062-e107840">Thou shalt be hanged as well as we. </l>
+        </sp>
+        <sp xml:id="A13062-e107850" who="A13062-jack">
+          <pb facs="17"/>
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e107860">Peace here comes the King I trow. </l>
+        </sp>
+        <stage xml:id="A13062-e107870">Enter the King, Maior, and Newton bearing a sword.</stage>
+        <sp xml:id="A13062-e107880" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e107890">What company be those Newton we do see? </l>
+          <l xml:id="A13062-e107900">Be them of those that promised us to part? </l>
+        </sp>
+        <sp xml:id="A13062-e107910" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e107920">Even part of those my good and gracious lord,</l>
+          <l xml:id="A13062-e107930">That promised your highness to depart. </l>
+        </sp>
+        <sp xml:id="A13062-e107940" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e107950">Why then I see they stand not to their words,</l>
+          <l xml:id="A13062-e107960">And sure they should not break it so with me,</l>
+          <l xml:id="A13062-e107970">That have so carefully remembered them:</l>
+          <l xml:id="A13062-e107980">This is a part of great ingratitude. </l>
+        </sp>
+        <sp xml:id="A13062-e107990" who="A13062-mayor">
+          <speaker>Mayor.</speaker>
+          <l xml:id="A13062-e108000">And it like your majesty the Essex men,</l>
+          <l xml:id="A13062-e108010">With far more better minds have parted company,</l>
+          <l xml:id="A13062-e108020">And every man be ta'en him to his home. </l>
+          <l xml:id="A13062-e108030">The chiefest of these rebels be of Kent,</l>
+          <l xml:id="A13062-e108040">Of base degree and worse conditions all,</l>
+          <l xml:id="A13062-e108050">And vowed as I am given to understand,</l>
+          <l xml:id="A13062-e108060">To nothing but to havoc and to spoil. </l>
+        </sp>
+        <sp xml:id="A13062-e108070" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e108080">Lord maior, if it be so I wot,</l>
+          <l xml:id="A13062-e108090">It is a dangerous and unnatural resolution. </l>
+          <l xml:id="A13062-e108100">I pray thee Newton go and speak with them,</l>
+          <l xml:id="A13062-e108110">Ask them what more it is that they require. </l>
+        </sp>
+        <sp xml:id="A13062-e108120" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e108130">My masters, you that be the chiefest of the rout,</l>
+          <l xml:id="A13062-e108140"><pb facs="18"/> the King entreats you kindly here by me,</l>
+          <l xml:id="A13062-e108150">To come and speak with him a word or two. </l>
+        </sp>
+        <sp xml:id="A13062-e108160" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e108170">Sirrah, if the King would any thing with us,</l>
+          <l xml:id="A13062-e108180">Tell him the way is indifferent to meet us. </l>
+        </sp>
+        <sp xml:id="A13062-e108190" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e108200">You are too many to be talked with all,</l>
+          <l xml:id="A13062-e108210">Besides you owe a duty to your prince. </l>
+        </sp>
+        <sp xml:id="A13062-e108220" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e108230">Sirrah, give me the sword thou wearest there,</l>
+          <l xml:id="A13062-e108240">Becomes it thee to be armed in my presence. </l>
+        </sp>
+        <sp xml:id="A13062-e108250" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e108260">Sir I wear my weapon for mine own defence,</l>
+          <l xml:id="A13062-e108270">And by your leave will wear it yet a while. </l>
+        </sp>
+        <sp xml:id="A13062-e108280" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e108290">What wilt thou villain, give me it I say. </l>
+        </sp>
+        <sp xml:id="A13062-e108300" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e108310">Newton give it him if that be all the matter,</l>
+          <l xml:id="A13062-e108320">Here take it and much good do it thee. </l>
+        </sp>
+        <stage xml:id="A13062-e108330">The King gives him the sword.</stage>
+        <sp xml:id="A13062-e108340" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e108350">Villain I say, give me the sword thou bearest up,</l>
+          <l xml:id="A13062-e108360">For that's the thing I tell thee I affect. </l>
+        </sp>
+        <sp xml:id="A13062-e108370" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e108380">This sword belongs unto my lord the King,</l>
+          <l xml:id="A13062-e108390">'Tis none of mine, nor shalt thou have the same:</l>
+          <l xml:id="A13062-e108400">Proud rebel wert but thou and I alone,</l>
+          <l xml:id="A13062-e108410">Thou durst not ask it thus boldly, at my hands,</l>
+          <l xml:id="A13062-e108420">For all the wealth this Smithfield doth contain. </l>
+        </sp>
+        <sp xml:id="A13062-e108430" who="A13062-jack">
+          <speaker>Jack straw.</speaker>
+          <l xml:id="A13062-e108440">By him that died for me, I will not dine,</l>
+          <l xml:id="A13062-e108450">Till I have seen thee hanged or made away. </l>
+        </sp>
+        <sp xml:id="A13062-e108460" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e108470">Alas lord maior, Newton is in great danger,</l>
+          <l xml:id="A13062-e108480">And force cannot prevail amongst the rout. </l>
+        </sp>
+        <sp xml:id="A13062-e108490" who="A13062-mayor">
+          <pb facs="18"/>
+          <speaker>Mayor.</speaker>
+          <l xml:id="A13062-e108500">Old Rome I can remember I have read,</l>
+          <l xml:id="A13062-e108510">When thou didst flourish for virtue, and for arms,</l>
+          <l xml:id="A13062-e108520">What magnanimity did abide in thee:</l>
+          <l xml:id="A13062-e108530">Then Walworth as it may become thee well,</l>
+          <l xml:id="A13062-e108540">Deserve some honour at thy prince's hand,</l>
+          <l xml:id="A13062-e108550">And beautify this dignity of thine,</l>
+          <l xml:id="A13062-e108560">With some or other act of consequence:</l>
+          <l xml:id="A13062-e108570">Villain I say whence comes this rage of thine,</l>
+          <l xml:id="A13062-e108580">How darest thou a dungell bastard born,</l>
+          <l xml:id="A13062-e108590">To brave thy sovereign and his nobles thus. </l>
+          <l xml:id="A13062-e108600">Villain I do arrest thee in my prince's name,</l>
+          <l xml:id="A13062-e108610">Proud rebel as thou art take that withal;</l>
+          <stage xml:id="A13062-e108620">Here he stabs him.</stage>
+          <l xml:id="A13062-e108630">Learn thou and all posterity after thee,</l>
+          <l xml:id="A13062-e108640">What 'tis a servile slave, to brave a King. </l>
+          <l xml:id="A13062-e108650">Pardon my gracious lord for this my fact,</l>
+          <l xml:id="A13062-e108660">Is service done to God, and to yourself. </l>
+        </sp>
+        <sp xml:id="A13062-e108670" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e108680">Lord mayor for thy valiant act in this,</l>
+          <l xml:id="A13062-e108690">And noble courage in the King's behalf,</l>
+          <l xml:id="A13062-e108700">Thou shalt perceive us not to be ungrateful. </l>
+          <stage xml:id="A13062-e108710">Cry all,</stage>
+          <l xml:id="A13062-e108720">Our captain is slain, our captain is slain. </l>
+        </sp>
+        <sp xml:id="A13062-e108730" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e108740">Fear you not people for I am your King,</l>
+          <l xml:id="A13062-e108750">And I will be your captain and your friend. </l>
+        </sp>
+        <sp xml:id="A13062-e108760" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e108770">Pleaseth your grace for to with draw yourself. </l>
+          <l xml:id="A13062-e108780">These rebels then will soon be put to foil. </l>
+        </sp>
+        <stage xml:id="A13062-e108790">Exeunt all but the mayor and two sargeants.</stage>
+        <sp xml:id="A13062-e108800" who="A13062-mayor">
+          <speaker>Mayor.</speaker>
+          <l xml:id="A13062-e108810">Soldiers take heart to you and follow me,</l>
+          <l xml:id="A13062-e108820"><pb facs="19"/><pb facs="19"/><pb facs="20"/> it is our god that gives the victory:</l>
+          <l xml:id="A13062-e108830">Drag this accursed villain through the streets. </l>
+          <l xml:id="A13062-e108840">To strike a terror to the rebel's hearts,</l>
+          <l xml:id="A13062-e108850">London will give you power and arms,</l>
+          <l xml:id="A13062-e108860">And God will strengthen you and daunt your foes:</l>
+          <l xml:id="A13062-e108870">Fill Smithfield full of noise and joyful cries,</l>
+          <l xml:id="A13062-e108880">And say aloud God save our noble prince. </l>
+        </sp>
+        <trailer xml:id="A13062-e108890">Finis actus tertius.</trailer>
+      </div>
+      <div n="4" type="act" xml:id="A13062-e108900">
+        <pb facs="20"/>
+        <head>Actus quartus.</head>
+        <stage xml:id="A13062-e108910">Enter King, lord Maior, Morton, Newton, and noble men.</stage>
+        <sp xml:id="A13062-e108920" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e108930">Lord maior and well beloved friends,</l>
+          <l xml:id="A13062-e108940">Whose readiness in aid of us and ours,</l>
+          <l xml:id="A13062-e108950">Hath given just trial of your loyalty,</l>
+          <l xml:id="A13062-e108960">And love you bear to us and to our land:</l>
+          <l xml:id="A13062-e108970">Sith by the help and mighty hand of God,</l>
+          <l xml:id="A13062-e108980">These foul unnatural broils are quieted,</l>
+          <l xml:id="A13062-e108990">And this unhappy tumult well appeased:</l>
+          <l xml:id="A13062-e109000">Having as law and duty binds us too,</l>
+          <l xml:id="A13062-e109010">Given both due praise and sacrifice of thanks,</l>
+          <l xml:id="A13062-e109020">Unto our god from whom this goodness comes:</l>
+          <l xml:id="A13062-e109030">Let me now to your counsel recommend,</l>
+          <l xml:id="A13062-e109040">And to your sad opinions generally,</l>
+          <l xml:id="A13062-e109050">The end of all these great and high affairs,</l>
+          <l xml:id="A13062-e109060">This mighty business that we have in hand</l>
+          <l xml:id="A13062-e109070">And that I may in brief unfold my mind,</l>
+          <l xml:id="A13062-e109080">My lords I would not yet, but mercy should,</l>
+          <l xml:id="A13062-e109090">Against the law in this hard case prevail:</l>
+          <l xml:id="A13062-e109100">And as I gave my word unto you all,</l>
+          <l xml:id="A13062-e109110">That if they then had left their mutiny,</l>
+          <l xml:id="A13062-e109120">Or rather had let fall their wrongful arms,</l>
+          <l xml:id="A13062-e109130">Their pardon then should have been general,</l>
+          <l xml:id="A13062-e109140">So will I not; yet God forbid I should,</l>
+          <l xml:id="A13062-e109150">(Though law I know exact it at my hands)</l>
+          <l xml:id="A13062-e109160"><pb facs="21"/> behold so many of my country men,</l>
+          <l xml:id="A13062-e109170">All done to death and strangled in one day,</l>
+          <l xml:id="A13062-e109180">The end is this, that of that careless rout,</l>
+          <l xml:id="A13062-e109190">That hath so far unnaturally rebelled,</l>
+          <l xml:id="A13062-e109200">The chief offenders may be punished:</l>
+          <l xml:id="A13062-e109210">And thus you know my mind, and so my lords proceed,</l>
+          <l xml:id="A13062-e109220">I pray you and no otherwise. </l>
+        </sp>
+        <sp xml:id="A13062-e109230" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e109240">Sith mercy in a prince resembleth right,</l>
+          <l xml:id="A13062-e109250">The gladsome sunshine in a winter's day,</l>
+          <l xml:id="A13062-e109260">Pleaseth your grace to pardon me to speak:</l>
+          <l xml:id="A13062-e109270">When all the hope of life and breathing here,</l>
+          <l xml:id="A13062-e109280">Be ta'en from all this rout in general,</l>
+          <l xml:id="A13062-e109290">If then at instant of the dying hour,</l>
+          <l xml:id="A13062-e109300">Your graces honourable pardon come,</l>
+          <l xml:id="A13062-e109310">To men half dead, killed wholly in conceit,</l>
+          <l xml:id="A13062-e109320">Then think I, it will be more gracious,</l>
+          <l xml:id="A13062-e109330">Than if it offered were so hastily:</l>
+          <l xml:id="A13062-e109340">When thread of life is almost ●ret in twain,</l>
+          <l xml:id="A13062-e109350">To give it strength breeds thanks, and wonders too. </l>
+        </sp>
+        <sp xml:id="A13062-e109360" who="A13062-mayor">
+          <speaker>Mayor.</speaker>
+          <l xml:id="A13062-e109370">So many as are ta'en within the city,</l>
+          <l xml:id="A13062-e109380">Are fast in hold to know your grace's will,</l>
+        </sp>
+        <sp xml:id="A13062-e109390" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e109400">There is but one or two in all the rout,</l>
+          <l xml:id="A13062-e109410">Whom we would have to die for this offence,</l>
+          <l xml:id="A13062-e109420">Especially that by name are noted men:</l>
+          <l xml:id="A13062-e109430">One is a naughty and seditious priest,</l>
+          <l xml:id="A13062-e109440"><pb facs="21"/> they call him ball, as we are let to know,</l>
+          <l xml:id="A13062-e109450">A person more notorious than the rest,</l>
+          <l xml:id="A13062-e109460">But this I do refer to your dispose. </l>
+        </sp>
+        <sp xml:id="A13062-e109470" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e109480">Pleaseth your grace they have been rid apace,</l>
+          <l xml:id="A13062-e109490">Such special men as we could possibly find,</l>
+          <l xml:id="A13062-e109500">And many of the common rout among:</l>
+          <l xml:id="A13062-e109510">And yet survives this ball that cursed priest,</l>
+          <l xml:id="A13062-e109520">And one what Tiler, leader of the rest:</l>
+          <l xml:id="A13062-e109530">Whose villainies and outrageous cruelties,</l>
+          <l xml:id="A13062-e109540">Have been so barbourously executed:</l>
+          <l xml:id="A13062-e109550">The one with malice of his traitorous taunts,</l>
+          <l xml:id="A13062-e109560">The other with the violence of his hands,</l>
+          <l xml:id="A13062-e109570">That gentle ruth nor mercy hath no ears,</l>
+          <l xml:id="A13062-e109580">To hear them speak, much less to pardon them. </l>
+        </sp>
+        <sp xml:id="A13062-e109590" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e109600">It is enough, I understand your minds,</l>
+          <l xml:id="A13062-e109610">And well I wot in causes such as these,</l>
+          <l xml:id="A13062-e109620">Kings may be found too full of clemency:</l>
+          <l xml:id="A13062-e109630">But who are those that enter in this place. </l>
+        </sp>
+        <sp xml:id="A13062-e109640" who="A13062-newton">
+          <speaker>Newton.</speaker>
+          <l xml:id="A13062-e109650">Pleaseth it your grace, these be the men,</l>
+          <l xml:id="A13062-e109660">Whom law hath worthily condemned to die,</l>
+          <l xml:id="A13062-e109670">Going to the place of execution:</l>
+          <l xml:id="A13062-e109680">The foremost is that ball, and next to him,</l>
+          <l xml:id="A13062-e109690">Wat Tyler, obstinate rebels both,</l>
+          <l xml:id="A13062-e109700">For all the rest are of a better mould,</l>
+          <l xml:id="A13062-e109710">Whose minds are softer than the foremost twain:</l>
+          <l xml:id="A13062-e109720">For being common soldiers in the camp,</l>
+          <l xml:id="A13062-e109730">Were rather led with counsel of the rest,</l>
+          <l xml:id="A13062-e109740">Deserving better to be pitied. </l>
+        </sp>
+        <sp xml:id="A13062-e109750" who="A13062-king">
+          <pb facs="22"/>
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e109760">Morton to those condemned men we see,</l>
+          <l xml:id="A13062-e109770">〈◊〉 this a pardon to them all:</l>
+          <l xml:id="A13062-e109780">Excepting namely those two foremost men. </l>
+          <l xml:id="A13062-e109790">I mean the priest and him they call Wat Tyler. </l>
+          <l xml:id="A13062-e109800">To all the rest free pardon we do send,</l>
+          <l xml:id="A13062-e109810">And give the same to understand from us. </l>
+        </sp>
+        <floatingText xml:id="A13062-e109820">
+          <body xml:id="A13062-e109830">
+            <div type="document" xml:id="A13062-e109840">
+              <pb facs="22"/>
+              <head>The Kings pardon delivered by sir John Morton to the rebels.</head>
+              <p xml:id="A13062-e109850">My friends and unhappy countrymen, whom the laws of England, have worthily condemned unto death for your open and unnatural rebellion against your lawful sovereign and anointed prince. I am sent unto you from the King's most excellent majesty to give you to understand, that notwithstanding this violence which you have offered to yourselves, in running furiously into the danger of the law, as mad and frantic men upon an edged sword: yet notwithstanding I say, that you have gathered rods to scourge your own selves, following desperately your lewd and misgoverned heads, which have haled you on to this wretched and shameful end which is now imminent over you all, that must in strangling cords die like dogs, and finish your lives in this miserable reproachful sort, because you would not live like men: but far unlike yourselves unlike Englishmen, degenerate from your natural obedience, and nature of your country, that by kind bringeth forth none such, or at least brooketh none such, but spits them out for bastards and recreants: notwithstanding I say, (This torment wherein you now live looking every hour to suffer such a shameful and most detestable death, as doth commonly, belong to such horrible offenders) yet it hath pleased the King of his accustomed goodness to give you<pb facs="23"/> your lives, and freely to forgive you your faults sending by me general pardon to you all, excepting one only accursed and seditious priest, that so far swerved from the truth, and his allegiance to his prince, and one what Tiler, whose outrage hath been noted so outrageous in all his actions as for ensample to all Englishmen hereafter, his majesty hath thought good to account him and this parson, (First stirrers in this tumult, and unnatural rebelling) the greatest offenders that now live to grieve his majesty: and thus I have delivered the message of the King, which is in effect, general pardon to you all, and a sentence of death unto the two archrebels, John ball, and what tiler: for which great grace, if you think yourselves any thing bound to his highness (As infinitely you are) let it appear as far forth hereafter as you may, either by outward signs of duty, or inward loyalty of hearts expressed, and to begin the same, in sign of your thankfulness, say all God save the King.</p>
+            </div>
+          </body>
+        </floatingText>
+        <stage xml:id="A13062-e109860">Cry all, God save the King.</stage>
+        <sp xml:id="A13062-e109870" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e109880">Well then we know the worst,</l>
+          <l xml:id="A13062-e109890">He can but hang us, and that is all,</l>
+          <l xml:id="A13062-e109900">Were Jack Strawe alive again,</l>
+          <l xml:id="A13062-e109910">And I in as good possibility as ever I was,</l>
+          <l xml:id="A13062-e109920">I would lay a surer trump,</l>
+          <l xml:id="A13062-e109930">Ere I would lose so fair a trick. </l>
+        </sp>
+        <sp xml:id="A13062-e109940" who="A13062-ball">
+          <speaker>Ball.</speaker>
+          <l xml:id="A13062-e109950">And what I said in time of our business I repent not,</l>
+          <l xml:id="A13062-e109960">And if it were to speak again,</l>
+          <l xml:id="A13062-e109970">Every word should be a whole sermon,</l>
+          <l xml:id="A13062-e109980">So much I repent me. </l>
+        </sp>
+        <sp xml:id="A13062-e109990" who="A13062-morton">
+          <speaker>Morton.</speaker>
+          <l xml:id="A13062-e110000">Away with the rebels suffer them not to speak,</l>
+          <l xml:id="A13062-e110010"><pb facs="23"/> his words are poison in the ears of the people,</l>
+          <l xml:id="A13062-e110020">Away villain, stain to thy country and thy calling. </l>
+        </sp>
+        <sp xml:id="A13062-e110030" who="A13062-tyler">
+          <speaker>Wat Tyler.</speaker>
+          <l xml:id="A13062-e110040">Why Morton are you so lusty with a pox,</l>
+          <l xml:id="A13062-e110050">I pulled you out of Rochester castle by the poll. </l>
+        </sp>
+        <sp xml:id="A13062-e110060" who="A13062-morton">
+          <speaker>Morton.</speaker>
+          <l xml:id="A13062-e110070">And in recompense I will help to set your head on a pole. </l>
+        </sp>
+        <sp xml:id="A13062-e110080" who="A13062-tyler">
+          <speaker>Wat Tiler.</speaker>
+          <l xml:id="A13062-e110090">Pray you let's be polled first. </l>
+        </sp>
+        <sp xml:id="A13062-e110100" who="A13062-morton">
+          <speaker>Morton.</speaker>
+          <l xml:id="A13062-e110110">Away with the rebels. </l>
+          <stage xml:id="A13062-e110120">Exeunt rebels.</stage>
+          <l xml:id="A13062-e110130">As gave your grace in charge I have delivered,</l>
+          <l xml:id="A13062-e110140">Your highness' pleasure amongst the prisoners,</l>
+          <l xml:id="A13062-e110150">And have proclaimed your grace's pardon amongst them all</l>
+          <l xml:id="A13062-e110160">Save only those two unnatural Englishmen,</l>
+          <l xml:id="A13062-e110170">Oh might I say no English nor men,</l>
+          <l xml:id="A13062-e110180">That ball and Tyler cursed rebels both,</l>
+          <l xml:id="A13062-e110190">Whom I commanded to be executed:</l>
+          <l xml:id="A13062-e110200">And in your highness' name have freed all the rest,</l>
+          <l xml:id="A13062-e110210">Whose thankful hearts I find as full replete,</l>
+          <l xml:id="A13062-e110220">With signs of joy and duty to your grace,</l>
+          <l xml:id="A13062-e110230">As those unnatural rebels hateful mouths</l>
+          <l xml:id="A13062-e110240">Are full of foul speeches, and unhonourable. </l>
+        </sp>
+        <sp xml:id="A13062-e110250" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e110260">It is no matter Morton let them bark,</l>
+          <l xml:id="A13062-e110270">I trow they cannot bite when they be dead. </l>
+          <l xml:id="A13062-e110280">And lord mayor for your valiant act,</l>
+          <l xml:id="A13062-e110290">And dangerous attempt in our behalf,</l>
+          <l xml:id="A13062-e110300">To free your country and your King from ill:</l>
+          <l xml:id="A13062-e110310">In our behalf and in our common weal,</l>
+          <l xml:id="A13062-e110320">We will accept it as the deed deserves,</l>
+          <l xml:id="A13062-e110330">And thank you for this honourable attempt. </l>
+        </sp>
+        <sp xml:id="A13062-e110340" who="A13062-mayor">
+          <pb facs="24"/>
+          <speaker>Mayor.</speaker>
+          <l xml:id="A13062-e110350">What subject's hearts could brook the rage of theirs,</l>
+          <l xml:id="A13062-e110360">To vaunt in presence of their sovereign lord,</l>
+          <l xml:id="A13062-e110370">To brave him to his face before his peers,</l>
+          <l xml:id="A13062-e110380">But would by policy or force attempt,</l>
+          <l xml:id="A13062-e110390">To quell the raging of such furious foes? </l>
+          <l xml:id="A13062-e110400">My sovereign lord, 'twas but my duty done,</l>
+          <l xml:id="A13062-e110410">First unto God, next to my lawful King,</l>
+          <l xml:id="A13062-e110420">Proceeding from a true and loyal heart,</l>
+          <l xml:id="A13062-e110430">And so I hope your grace esteems thereof. </l>
+        </sp>
+        <sp xml:id="A13062-e110440" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e110450">To the end this deed shall rest in memory,</l>
+          <l xml:id="A13062-e110460">Which shall continue for ever to the end:</l>
+          <l xml:id="A13062-e110470">Lord maior I'll adjoin to thy degree,</l>
+          <l xml:id="A13062-e110480">Another title of a lasting fame. </l>
+          <l xml:id="A13062-e110490">Kneel down William Walworth and receive,</l>
+          <l xml:id="A13062-e110500">By mine own hand the order of knighthood:</l>
+          <l xml:id="A13062-e110510">Stand up sir William first knight of thy degree,</l>
+          <l xml:id="A13062-e110520">But hence forth all which shall succeed thy place,</l>
+          <l xml:id="A13062-e110530">Shall have like honour for thy noble deed. </l>
+          <l xml:id="A13062-e110540">Besides that time, shall ne'er abridge thy fame,</l>
+          <l xml:id="A13062-e110550">The city arms shall bear for memory,</l>
+          <l xml:id="A13062-e110560">The bloody dagger the more for Walworth's honour:</l>
+          <l xml:id="A13062-e110570">Call forth your Harrold and receive your due. </l>
+        </sp>
+        <sp xml:id="A13062-e110580" who="A13062-mayor">
+          <speaker>Mayor.</speaker>
+          <l xml:id="A13062-e110590">My gracious lord this honourable grace</l>
+          <l xml:id="A13062-e110600">So 〈◊〉 desert, sith what I did</l>
+          <l xml:id="A13062-e110610">My dune and allegiance bade me do,</l>
+          <l xml:id="A13062-e110620">Binds me and my successors evermore,</l>
+          <l xml:id="A13062-e110630">With sweet encouragement to the like attempt. </l>
+          <l xml:id="A13062-e110640">〈◊〉 majesty and all, our royal peers,</l>
+          <l xml:id="A13062-e110650">Shall find your London such a store 〈◊〉 still,</l>
+          <l xml:id="A13062-e110660">As not 〈…〉 command our wealth,</l>
+          <l xml:id="A13062-e110670">But loyal hearts the treasure of a prince,</l>
+          <l xml:id="A13062-e110680"><pb facs="24"/> shall grow like grains sown in 〈…〉 soil,</l>
+          <l xml:id="A13062-e110690">And God I praise that with his holy 〈◊〉</l>
+          <l xml:id="A13062-e110700">Hath given me heart to free my prince and land. </l>
+        </sp>
+        <sp xml:id="A13062-e110710" who="A13062-king">
+          <speaker>King.</speaker>
+          <l xml:id="A13062-e110720">Then sith these dangerous broils are over past,</l>
+          <l xml:id="A13062-e110730">With shedding of so little English blood. </l>
+          <l xml:id="A13062-e110740">'Tis for the fame and honour of a prince,</l>
+          <l xml:id="A13062-e110750">Well to reward the actors of the same,</l>
+          <l xml:id="A13062-e110760">So many of thy brethren as accompanied thee,</l>
+          <l xml:id="A13062-e110770">In Smithfield here about this bold attempt,</l>
+          <l xml:id="A13062-e110780">When time shall serve I'll knight them as thou art</l>
+          <l xml:id="A13062-e110790">And so lord maior, Newton, Morton and the rest,</l>
+          <l xml:id="A13062-e110800">Accompany us to guard us to the tower,</l>
+          <l xml:id="A13062-e110810">Where we'll repose and rest ourselves all night. </l>
+        </sp>
+        <trailer xml:id="A13062-e110820">Finis.</trailer>
+      </div>
+    </body>
+    <back xml:id="A13062-e110830">
+      <div type="colophon" xml:id="A13062-e110840">
+        <pb facs="25"/>
+        <p xml:id="A13062-e110850">❧ printed at London by John Danter, and are to be sold by William barley, at his shop in gracious street over against leaden-hall. 1594.</p>
+        <pb facs="25"/>
+      </div>
+      <div type="machine-generated_castlist"><list n="A13062"><item xml:id="A13062-king" n="29">
+    <seg type="character_name">A13062-king</seg>
+    <seg type="speech_count">29</seg>
+  </item>
+  <item xml:id="A13062-jack" n="27">
+    <seg type="character_name">A13062-jack</seg>
+    <seg type="speech_count">27</seg>
+  </item>
+  <item xml:id="A13062-tyler" n="17">
+    <seg type="character_name">A13062-tyler</seg>
+    <seg type="speech_count">17</seg>
+  </item>
+  <item xml:id="A13062-newton" n="14">
+    <seg type="character_name">A13062-newton</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A13062-miller" n="14">
+    <seg type="character_name">A13062-miller</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A13062-nobs" n="9">
+    <seg type="character_name">A13062-nobs</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A13062-morton" n="9">
+    <seg type="character_name">A13062-morton</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A13062-mayor" n="8">
+    <seg type="character_name">A13062-mayor</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A13062-ball" n="8">
+    <seg type="character_name">A13062-ball</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A13062-queen" n="7">
+    <seg type="character_name">A13062-queen</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A13062-usher" n="6">
+    <seg type="character_name">A13062-usher</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A13062-hob" n="5">
+    <seg type="character_name">A13062-hob</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A13062-collector" n="5">
+    <seg type="character_name">A13062-collector</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A13062-spencer" n="4">
+    <seg type="character_name">A13062-spencer</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A13062-treasurer" n="3">
+    <seg type="character_name">A13062-treasurer</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A13062-archbishop" n="2">
+    <seg type="character_name">A13062-archbishop</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A13062-bishop" n="2">
+    <seg type="character_name">A13062-bishop</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A13062-messenger" n="2">
+    <seg type="character_name">A13062-messenger</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A13062-secretary" n="2">
+    <seg type="character_name">A13062-secretary</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A13062-lord_mayor" n="1">
+    <seg type="character_name">A13062-lord_mayor</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A13062-queen_mother" n="1">
+    <seg type="character_name">A13062-queen_mother</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A13062-salisbury" n="1">
+    <seg type="character_name">A13062-salisbury</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A13062-southwarkmen" n="1">
+    <seg type="character_name">A13062-southwarkmen</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+</list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

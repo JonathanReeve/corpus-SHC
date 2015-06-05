@@ -1,0 +1,524 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Works <date type="creation_date">1601</date></title>
+        <author>Jonson, Ben</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A04632_00.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The workes of Beniamin Ionson.</title>
+            <author>Jonson, Ben, 1573?-1637.</author>
+          </titleStmt>
+          <extent>441 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 January (TCP phase 1)</date>
+            <idno type="marc">99847709</idno>
+            <idno type="stc">STC (2nd ed.) 14752.</idno>
+            <idno type="stc">Greg, III, p. 1070-3.</idno>
+            <idno type="vid">12766</idno>
+            <idno type="DLPS">A04632</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The workes of Beniamin Ionson.</title>
+            <title type="alt">Works. Vol. 1</title>
+            <title type="alt">Workes of Benjamin Jonson.</title>
+            <author>Jonson, Ben, 1573?-1637.</author>
+            <author>Hole, William, d. 1624,</author>
+          </titleStmt>
+          <extent>[12], 1015, [1] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by W: Stansby, and are to be sould by Rich: Meighen,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>An0 D. 1616.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Mostly in verse.</p>
+            </note>
+            <note>
+              <p>The title page is engraved and signed "Guliel[mus] Hole fecit". The second state of the imprint (see The Library, ser. 6, 8:152-6).</p>
+            </note>
+            <note>
+              <p>The first leaf is blank.</p>
+            </note>
+            <note>
+              <p>The subsidiary plays each have separate dated title pages. Of these, "Every man out of his humour", "Cynthia's revels", and "Poetaster" have title pages in varying states; see Greg for details. Pagination and register are continuous.</p>
+            </note>
+            <note>
+              <p>A number of sheets exist in two different settings, and certain of these appear to be reprints done much later; see Greg and "Studies in Bibliography" 40:106-20.</p>
+            </note>
+            <note>
+              <p>A second volume was published without general title page in 1631.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the British Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:id="A04632_00-e100010">
+    <body xml:id="A04632_00-e100020">
+      <div type="title_page" xml:id="A04632_00-e100030">
+        <p xml:id="A04632_00-e100040">
+          <pb facs="1"/>
+          <gap extent="unknown" xml:id="A04632_00-e100050" n="1-a-0010"/>
+          <pb facs="1"/>
+          <gap extent="unknown" xml:id="A04632_00-e100060" n="1-b-0010"/>
+        </p>
+      </div>
+      <div type="catalogue" xml:id="A04632_00-e100070">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The catalogue.</head>
+        <list xml:id="A04632_00-e100080">
+          <label xml:id="A04632_00-e100090">every man in his humour,</label>
+          <item xml:id="A04632_00-e100100">To Mr. Cambden.</item>
+          <label xml:id="A04632_00-e100110">every man out of his humour,</label>
+          <item xml:id="A04632_00-e100120">To the inns of court.</item>
+          <label xml:id="A04632_00-e100130">Cynthia's revels,</label>
+          <item xml:id="A04632_00-e100140">To the court.</item>
+          <label xml:id="A04632_00-e100150">Poētaster,</label>
+          <item xml:id="A04632_00-e100160">To Mr. Rich. Martin.</item>
+          <label xml:id="A04632_00-e100170">Sejanus,</label>
+          <item xml:id="A04632_00-e100180">To esme lo. Aubigny.</item>
+          <label xml:id="A04632_00-e100190">the fox,</label>
+          <item xml:id="A04632_00-e100200">To the universities.</item>
+          <label xml:id="A04632_00-e100210">the silent woman,</label>
+          <item xml:id="A04632_00-e100220">To sir Fran. Stvart.</item>
+          <label xml:id="A04632_00-e100230">the alchemist,</label>
+          <item xml:id="A04632_00-e100240">To the lady wroth.</item>
+          <label xml:id="A04632_00-e100250">Catiline,</label>
+          <item xml:id="A04632_00-e100260">To the Earl of Pembroke.</item>
+          <label xml:id="A04632_00-e100270">epigrams,</label>
+          <item xml:id="A04632_00-e100280">To the same.</item>
+          <label xml:id="A04632_00-e100290">the forest,</label>
+          <item xml:id="A04632_00-e100300"/>
+          <label xml:id="A04632_00-e100310">entertainments,</label>
+          <item xml:id="A04632_00-e100320"/>
+          <label xml:id="A04632_00-e100330">Panegyre,</label>
+          <item xml:id="A04632_00-e100340"/>
+          <label xml:id="A04632_00-e100350">masques,</label>
+          <item xml:id="A04632_00-e100360"/>
+          <label xml:id="A04632_00-e100370">barriers.</label>
+          <item xml:id="A04632_00-e100380"/>
+        </list>
+      </div>
+      <div type="encomia" xml:id="A04632_00-e100390">
+        <pb facs="3"/>
+        <lg xml:id="A04632_00-e100400">
+          <head>Ad v. Cl. Ben Jonsonium, carmen protrepticon.</head>
+          <l xml:id="A04632_00-e100410">Raptam thrëicij lyram Neanthus</l>
+          <l xml:id="A04632_00-e100420">Pulset; carmina circulis Palaemon</l>
+          <l xml:id="A04632_00-e100430">Scribar; qui manibus facit deabus</l>
+          <l xml:id="A04632_00-e100440">Illotis, metuat probum. Placere</l>
+          <l xml:id="A04632_00-e100450">Te doctis innat auribus, placere</l>
+          <l xml:id="A04632_00-e100460">Te raris innat auribus. Camaenas</l>
+          <l xml:id="A04632_00-e100470">Cùm totus legerem tuas (Camaenae</l>
+          <l xml:id="A04632_00-e100480">Nam totum rogitant tuae, nec ullam</l>
+          <l xml:id="A04632_00-e100490">Qui pigrè trabat oscitationem,</l>
+          <l xml:id="A04632_00-e100500">Lectorem) et numeros, acumen, artem,</l>
+          <l xml:id="A04632_00-e100510">Mirum judicium, quod ipse censor,</l>
+          <l xml:id="A04632_00-e100520">Ionsoni, nimiùm licet malignus,</l>
+          <l xml:id="A04632_00-e100530">Si doctus simùl, exigat, viderem,</l>
+          <l xml:id="A04632_00-e100540">Sermonem et nitidum, facetiásque</l>
+          <l xml:id="A04632_00-e100550">Dignas Mercurio, nouásque gnomas</l>
+          <l xml:id="A04632_00-e100560">Morum sed veterum, tuíque iuris</l>
+          <l xml:id="A04632_00-e100570">Quicquid dramaticum tui legebam,</l>
+          <l xml:id="A04632_00-e100580">Tam semper fore, támque te loqwium,</l>
+          <l xml:id="A04632_00-e100590">Ut nec Lemnia notior sigillo</l>
+          <l xml:id="A04632_00-e100600">Tellus, nec maculâ sacrandus Apis,</l>
+          <l xml:id="A04632_00-e100610">Non cesto Venus, aut comis Apollo,</l>
+          <l xml:id="A04632_00-e100620">Quàm musâ fueris sciente notus,</l>
+          <l xml:id="A04632_00-e100630">Quàm musâ fueris tuá notatus,</l>
+          <l xml:id="A04632_00-e100640">Illâ, quae unica, sydus ut refulgens,</l>
+          <l xml:id="A04632_00-e100650">Stricturas, superat comis, minorum:</l>
+          <l xml:id="A04632_00-e100660">In mentem subijt stolonis illud,</l>
+          <l xml:id="A04632_00-e100670">Lingua Pieridas fuisse plauti</l>
+          <l xml:id="A04632_00-e100680">Usuras, ciceronis atque dictum,</l>
+          <l xml:id="A04632_00-e100690">Saturno genitum phrasi platonis,</l>
+          <l xml:id="A04632_00-e100700">Musae si latio, jovisque athenis</l>
+          <l xml:id="A04632_00-e100710">Dixissent. Fore iam sed hunc et illas</l>
+          <l xml:id="A04632_00-e100720">Jonsoni numeros puto locutos,</l>
+          <l xml:id="A04632_00-e100730"><pb facs="3"/> anglis si fuerint utrique fati. </l>
+          <l xml:id="A04632_00-e100740">Tam, mi, tu sophiam doces amaenè,</l>
+          <l xml:id="A04632_00-e100750">Sparsìm támque sophos amaena sternis! </l>
+          <l xml:id="A04632_00-e100760">Said, tot delicias, minùs placebat,</l>
+          <l xml:id="A04632_00-e100770">Sparsis distraherent tot in libellis</l>
+          <l xml:id="A04632_00-e100780">Cerdoi caculae. Volumen unum,</l>
+          <l xml:id="A04632_00-e100790">Quod seri britonum terant nepotes,</l>
+          <l xml:id="A04632_00-e100800">Optabam, et thyasus chorúsque amantum</l>
+          <l xml:id="A04632_00-e100810">Musas hoc cupiunt, tui laborum</l>
+          <l xml:id="A04632_00-e100820">Et quicquid reliquum est, adhuc tuísque</l>
+          <l xml:id="A04632_00-e100830">Servatvm pluteis. Tibi at videmur</l>
+          <l xml:id="A04632_00-e100840">Non tàm quaerere quàm parare nobis</l>
+          <l xml:id="A04632_00-e100850">Laudem, dum volumus palàm merentis</l>
+          <l xml:id="A04632_00-e100860">To laurus cupidi reposta scripta;</l>
+          <l xml:id="A04632_00-e100870">Dum secernere te tuásque musas</l>
+          <l xml:id="A04632_00-e100880">Audemus numero ungulae liquorem</l>
+          <l xml:id="A04632_00-e100890">Gustante, ut veteres nonem sorores</l>
+          <l xml:id="A04632_00-e100900">Et sirenibus et solent cicadis;</l>
+          <l xml:id="A04632_00-e100910">Dum et secernere posse te videmur,</l>
+          <l xml:id="A04632_00-e100920">Efflictìm petimus nonúmque librum,</l>
+          <l xml:id="A04632_00-e100930">Qui nullo sacer haùt petatur aevo,</l>
+          <l xml:id="A04632_00-e100940">Qui nullo sacer exolescat aevo,</l>
+          <l xml:id="A04632_00-e100950">Qui curis niteat tuis secundis;</l>
+          <l xml:id="A04632_00-e100960">Ut nos scire aliquid simùl putetur. </l>
+          <l xml:id="A04632_00-e100970">Atqui hoc macte sies, velútque calpar,</l>
+          <l xml:id="A04632_00-e100980">Quod dijs inferium, tibi sacremus,</l>
+          <l xml:id="A04632_00-e100990">Ut nobis benè sit, tuámque frontem</l>
+          <l xml:id="A04632_00-e101000">Perfundant ederae recentiores</l>
+          <l xml:id="A04632_00-e101010">Et splendour nows. Invident coronam</l>
+          <l xml:id="A04632_00-e101020">Hanc tantam patriae tibique (Quantà</l>
+          <l xml:id="A04632_00-e101030">Aeternùm à merito tuo superbum</l>
+          <l xml:id="A04632_00-e101040">Anglorum genus esse possit olìm)</l>
+          <l xml:id="A04632_00-e101050">Tantum qui penitùs volunt amaenas</l>
+          <l xml:id="A04632_00-e101060">Sublatas literas, timéntue lucem</l>
+          <l xml:id="A04632_00-e101070">Jonson I nimiam tenebriones. </l>
+          <closer xml:id="A04632_00-e101080">
+            <signed xml:id="A04632_00-e101090">I. Selden i. c.</signed>
+          </closer>
+        </lg>
+        <lg xml:id="A04632_00-e101100">
+          <pb facs="4"/>
+          <head>To Ben Jonson, on his works.</head>
+          <l xml:id="A04632_00-e101110">May I subscribe a name? dares my bold quill</l>
+          <l xml:id="A04632_00-e101120">Write that or good or ill,</l>
+          <l xml:id="A04632_00-e101130">Whose frame is of that height, that, to mine eye,</l>
+          <l xml:id="A04632_00-e101140">It's head is in the sky? </l>
+          <l xml:id="A04632_00-e101150">Yes. Since the most censures, believes, and saith</l>
+          <l xml:id="A04632_00-e101160">By an implicit faith:</l>
+          <l xml:id="A04632_00-e101170">Lest their misfortune make them chance amiss,</l>
+          <l xml:id="A04632_00-e101180">I'll waste them right by this. </l>
+          <l xml:id="A04632_00-e101190">Of all I know thou only art the man</l>
+          <l xml:id="A04632_00-e101200">That dares but what he can:</l>
+          <l xml:id="A04632_00-e101210">Yet by performance shows he can do more</l>
+          <l xml:id="A04632_00-e101220">Than hath been done before,</l>
+          <l xml:id="A04632_00-e101230">Or will be after. (Such assurance gives</l>
+          <l xml:id="A04632_00-e101240">Perfection where it lives.) </l>
+          <l xml:id="A04632_00-e101250">Words speak thy matter; matter fills thy words;</l>
+          <l xml:id="A04632_00-e101260">And choice that grace affords</l>
+          <l xml:id="A04632_00-e101270">That both are best: and both most fitly placed,</l>
+          <l xml:id="A04632_00-e101280">Are with new Venus graced</l>
+          <l xml:id="A04632_00-e101290">From artful method all in this point meet,</l>
+          <l xml:id="A04632_00-e101300">With good to mingle sweet. </l>
+          <l xml:id="A04632_00-e101310">These are thy lower parts. what stands above</l>
+          <l xml:id="A04632_00-e101320">Who sees not yet must love,</l>
+          <l xml:id="A04632_00-e101330">When on the base he reads Ben Jonson's name,</l>
+          <l xml:id="A04632_00-e101340">And hears the rest from fame. </l>
+          <l xml:id="A04632_00-e101350">This from my love of truth: which pays this due</l>
+          <l xml:id="A04632_00-e101360">To your just worth, not you. </l>
+          <closer xml:id="A04632_00-e101370">
+            <signed xml:id="A04632_00-e101380">Ed. Heyward.</signed>
+          </closer>
+        </lg>
+        <lg xml:id="A04632_00-e101390">
+          <head>Upon Sejanus.</head>
+          <l xml:id="A04632_00-e101400">So brings the wealth-contracting jeweller</l>
+          <l xml:id="A04632_00-e101410">Pearls and dear stones, from richest shores and streams,</l>
+          <l xml:id="A04632_00-e101420">As thy accomplished travail doth confer</l>
+          <l xml:id="A04632_00-e101430">From skill-enriched souls, their wealthier gems;</l>
+          <l xml:id="A04632_00-e101440"><pb facs="4"/> so doth his hand enchase in enamelled gold,</l>
+          <l xml:id="A04632_00-e101450">Cut, and adorned beyond their native merits,</l>
+          <l xml:id="A04632_00-e101460">His solid flames, as thine hath here enrolled</l>
+          <l xml:id="A04632_00-e101470">In more than golden verse, those bettered spirits;</l>
+          <l xml:id="A04632_00-e101480">So he entreasures princes cabinets,</l>
+          <l xml:id="A04632_00-e101490">As thy wealth will their wished libraries;</l>
+          <l xml:id="A04632_00-e101500">So, on the throat of the rude sea, he sets</l>
+          <l xml:id="A04632_00-e101510">His venturous foot, for his illustrious prize:</l>
+          <l xml:id="A04632_00-e101520">And through wild deserts, armed with wilder beasts,</l>
+          <l xml:id="A04632_00-e101530">As thou adventurest on the multitude,</l>
+          <l xml:id="A04632_00-e101540">Upon the boggy, and engulfed breasts</l>
+          <l xml:id="A04632_00-e101550">Of hirelings, sworn to find most right, most rude:</l>
+          <l xml:id="A04632_00-e101560">And he, in storms at sea, doth not endure,</l>
+          <l xml:id="A04632_00-e101570">Nor in vast deserts, amongst wolves, more danger;</l>
+          <l xml:id="A04632_00-e101580">Then we, that would with virtue live secure,</l>
+          <l xml:id="A04632_00-e101590">Sustain for her in every vices anger. </l>
+          <l xml:id="A04632_00-e101600">Nor is this allegory unjustly racked,</l>
+          <l xml:id="A04632_00-e101610">To this strange length: only, that jewels are,</l>
+          <l xml:id="A04632_00-e101620">In estimation merely, so exact:</l>
+          <l xml:id="A04632_00-e101630">And thy work, in itself, is dear and rare. </l>
+          <l xml:id="A04632_00-e101640">Wherein Minerva had been vanquished,</l>
+          <l xml:id="A04632_00-e101650">Had she, by it, her sacred looms advanced,</l>
+          <l xml:id="A04632_00-e101660">And through thy subject woven her graphic thread,</l>
+          <l xml:id="A04632_00-e101670">Contending therein, to be more entranced;</l>
+          <l xml:id="A04632_00-e101680">For, though thy hand was scarce addressed to draw</l>
+          <l xml:id="A04632_00-e101690">The semicircle of Sejanus life,</l>
+          <l xml:id="A04632_00-e101700">The muse yet makes it the whole sphere, and law</l>
+          <l xml:id="A04632_00-e101710">To all state lives: and bounds ambition's strife. </l>
+          <l xml:id="A04632_00-e101720">And as a little brook creeps from his spring,</l>
+          <l xml:id="A04632_00-e101730">With shallow tremblings, through the lowest vales,</l>
+          <l xml:id="A04632_00-e101740">As if he feared his stream abroad to bring,</l>
+          <l xml:id="A04632_00-e101750">Lest profane sect should wrong it, and rude gales;</l>
+          <l xml:id="A04632_00-e101760">But finding happy channels, and supplies</l>
+          <l xml:id="A04632_00-e101770">Of other fords mix with his modest course,</l>
+          <l xml:id="A04632_00-e101780">He grows a goodly river, and descries</l>
+          <l xml:id="A04632_00-e101790">The strength, that maned him, since he left his source;</l>
+          <l xml:id="A04632_00-e101800">Then takes he in delight some meads, and groves,</l>
+          <l xml:id="A04632_00-e101810">And, with his two-edged waters, flourishes</l>
+          <l xml:id="A04632_00-e101820">Before great palaces, and all men's loves</l>
+          <l xml:id="A04632_00-e101830">Build by his shores, to greet his passages:</l>
+          <l xml:id="A04632_00-e101840">So thy chaste muse, by virtuous self-mistrust,</l>
+          <l xml:id="A04632_00-e101850">Which is a true mark of the truest merit;</l>
+          <l xml:id="A04632_00-e101860">In virgin fear of men's illiterate lust,</l>
+          <l xml:id="A04632_00-e101870">Shut her soft wings, and durst not show her spirit;</l>
+          <l xml:id="A04632_00-e101880">Till, nobly cherished, now thou let'st her fly,</l>
+          <l xml:id="A04632_00-e101890">Singing the sable orgies of the Muses,</l>
+          <l xml:id="A04632_00-e101900">And in the highest pitch of tragedy,</l>
+          <l xml:id="A04632_00-e101910">Makest her command, all things thy ground produces. </l>
+          <l xml:id="A04632_00-e101920">Besides, thy poëme hath this due respect,</l>
+          <l xml:id="A04632_00-e101930">That it lets pass nothing, without observing,</l>
+          <pb facs="5"/>
+          <pb facs="5"/>
+          <l xml:id="A04632_00-e101940"><pb facs="6"/> worthy instruction; or that might correct</l>
+          <l xml:id="A04632_00-e101950">Rude manners, and renoun the well deserving:</l>
+          <l xml:id="A04632_00-e101960">Performing such a lively evidence</l>
+          <l xml:id="A04632_00-e101970">In thy narrations, that thy hearers still</l>
+          <l xml:id="A04632_00-e101980">Thou turnest to thy spectators; and the sense</l>
+          <l xml:id="A04632_00-e101990">That thy spectators have of good or ill,</l>
+          <l xml:id="A04632_00-e102000">Thou iniectest jointly to thy reader's souls. </l>
+          <l xml:id="A04632_00-e102010">So dear is held, so decked thy numerous task,</l>
+          <l xml:id="A04632_00-e102020">As thou puttest handles to the Thespian bouls,</l>
+          <l xml:id="A04632_00-e102030">Or stuck'st rich plumes in the Palladian cask. </l>
+          <l xml:id="A04632_00-e102040">All thy worth, yet, thyself must patronise,</l>
+          <l xml:id="A04632_00-e102050">By quaffing more of the Castalian head;</l>
+          <l xml:id="A04632_00-e102060">In expiscation of whose mysteries,</l>
+          <l xml:id="A04632_00-e102070">Our nets must still be clogged, with heavy lead,</l>
+          <l xml:id="A04632_00-e102080">To make them sink, and catch: for cheerful gold</l>
+          <l xml:id="A04632_00-e102090">Was never found in the pierian streams,</l>
+          <l xml:id="A04632_00-e102100">But wants, and scorns, and shames for silver sold. </l>
+          <l xml:id="A04632_00-e102110">What? what shall we elect in these extremes? </l>
+          <l xml:id="A04632_00-e102120">Now by the shafts of the great Cyrrhan poet,</l>
+          <l xml:id="A04632_00-e102130">That bear all light, that is, about the world;</l>
+          <l xml:id="A04632_00-e102140">I would have all dull poet-haters know it,</l>
+          <l xml:id="A04632_00-e102150">They shall be soul-bound, and in darkness hurled,</l>
+          <l xml:id="A04632_00-e102160">A thousand years (As Sathan was, their fire)</l>
+          <l xml:id="A04632_00-e102170">Ere any, worthy the poetic name,</l>
+          <l xml:id="A04632_00-e102180">(Might I, that warm but at the muse's fire,</l>
+          <l xml:id="A04632_00-e102190">Presume to guard it) should let deathless fame</l>
+          <l xml:id="A04632_00-e102200">Light half a beam of all her hundred eyes,</l>
+          <l xml:id="A04632_00-e102210">At his dim taper, in their memories. </l>
+          <l xml:id="A04632_00-e102220">Fly, fly, you are too near; so, odorous flowers</l>
+          <l xml:id="A04632_00-e102230">Being held too near the sensor of our sense,</l>
+          <l xml:id="A04632_00-e102240">Render not pure, nor so sincere their powers,</l>
+          <l xml:id="A04632_00-e102250">As being held a little distance thence. </l>
+          <l xml:id="A04632_00-e102260">O could the world but feel how sweet a touch</l>
+          <l xml:id="A04632_00-e102270">The knowledge hath, which is in love with goodness,</l>
+          <l xml:id="A04632_00-e102280">(If poesy were not ravished so much,</l>
+          <l xml:id="A04632_00-e102290">And her composed rage, held the simplest woodness,</l>
+          <l xml:id="A04632_00-e102300">Though of all heats, that temper humane brains,</l>
+          <l xml:id="A04632_00-e102310">Hers ever was most subtle, high, and holy,</l>
+          <l xml:id="A04632_00-e102320">First binding savage lives, in civil chains:</l>
+          <l xml:id="A04632_00-e102330">Solely religious, and adored solely,</l>
+          <l xml:id="A04632_00-e102340">If was felt this) they would not think a love,</l>
+          <l xml:id="A04632_00-e102350">That gives itself, in her, did vanities give;</l>
+          <l xml:id="A04632_00-e102360">Who is (In earth, though low) in worth above,</l>
+          <l xml:id="A04632_00-e102370">Most able t'honour life, though least to live. </l>
+          <l xml:id="A04632_00-e102380">And so good friend, safe passage to thy freight,</l>
+          <l xml:id="A04632_00-e102390">To thee a long peace, through a virtuous strife,</l>
+          <l xml:id="A04632_00-e102400">In which, let's both contend to virtue's height,</l>
+          <l xml:id="A04632_00-e102410">Not making fame our object, but good life. </l>
+          <closer xml:id="A04632_00-e102420">
+            <signed xml:id="A04632_00-e102430">Geor. Chapman.</signed>
+          </closer>
+        </lg>
+        <lg xml:id="A04632_00-e102440">
+          <pb facs="6"/>
+          <head>To his worthy friend, the author, H. Holland.</head>
+          <l xml:id="A04632_00-e102450">In that, this book doth deign Sejanus name,</l>
+          <l xml:id="A04632_00-e102460">Him unto more, than Caesar's love, it brings:</l>
+          <l xml:id="A04632_00-e102470">For, where he could not with ambition's wings,</l>
+          <l xml:id="A04632_00-e102480">One quill doth heave him to the height of fame. </l>
+          <l xml:id="A04632_00-e102490">Ye great-ones though (Whose ends may be the same)</l>
+          <l xml:id="A04632_00-e102500">Know, that, however we do flatter Kings,</l>
+          <l xml:id="A04632_00-e102510">Their favours (Like themselves) are fading things,</l>
+          <l xml:id="A04632_00-e102520">With no less envy had, then lost with shame. </l>
+          <l xml:id="A04632_00-e102530">Nor make yourselves less honest than you are,</l>
+          <l xml:id="A04632_00-e102540">To make our author wiser than he is:</l>
+          <l xml:id="A04632_00-e102550">Ne of such crimes accuse him, which I dare</l>
+          <l xml:id="A04632_00-e102560">By all his muses swear, be none of his. </l>
+          <l xml:id="A04632_00-e102570">The men are not, some faults may be these times:</l>
+          <l xml:id="A04632_00-e102580">He acts those men, and they did act these crimes. </l>
+        </lg>
+        <lg xml:id="A04632_00-e102590">
+          <head>Amicissimo, et meritissimo Ben: Jonson.</head>
+          <l xml:id="A04632_00-e102600">Qvod arte ansus et hic tuâ, poeta,</l>
+          <l xml:id="A04632_00-e102610">Si anderent hominum deique iuris</l>
+          <l xml:id="A04632_00-e102620">Consulti, veteres sequi aemulariérque,</l>
+          <l xml:id="A04632_00-e102630">O omnes saperemus ad salutem. </l>
+          <l xml:id="A04632_00-e102640">His sed sunt veteres araneosi;</l>
+          <l xml:id="A04632_00-e102650">Tam nemo veterum est secutor, ut tu</l>
+          <l xml:id="A04632_00-e102660">Illos quòd sequeris novator audis. </l>
+          <l xml:id="A04632_00-e102670">Factamen quod agis; tuique primâ</l>
+          <l xml:id="A04632_00-e102680">Libricanitie induantur horâ:</l>
+          <l xml:id="A04632_00-e102690">Nam chartis pveritiae est neganda,</l>
+          <l xml:id="A04632_00-e102700">Nascuntúrque senes, oportet, illi</l>
+          <l xml:id="A04632_00-e102710">Libri, queis dare vis perennitatem. </l>
+          <l xml:id="A04632_00-e102720">Priscis, ingenium facit, labérque</l>
+          <l xml:id="A04632_00-e102730">Te parem; hos superes, ut et futuros,</l>
+          <l xml:id="A04632_00-e102740">Ex nostrâ vitiositate sumas,</l>
+          <l xml:id="A04632_00-e102750">Quâ priscos superamus, et futuros. </l>
+          <closer xml:id="A04632_00-e102760">
+            <signed xml:id="A04632_00-e102770">I. D.</signed>
+          </closer>
+        </lg>
+        <lg xml:id="A04632_00-e102780">
+          <head>Ad utramque academiam, de Benjamin Jonsonio.</head>
+          <l xml:id="A04632_00-e102790">Hic ille est primus, qui doctum drama britannis,</l>
+          <l xml:id="A04632_00-e102800">Graiorum antiqua, et latij monimenta theatri,</l>
+          <l xml:id="A04632_00-e102810">Tanquam explorator versans, foelicibus ausis</l>
+          <l xml:id="A04632_00-e102820">Prebebit: magnis coeptis Gemina astra favete. </l>
+          <l xml:id="A04632_00-e102830">Alterutrâ veteres contenti laude: cothurnum hic,</l>
+          <l xml:id="A04632_00-e102840">Atque pari soccum tractat sol scenicus arte,</l>
+          <l xml:id="A04632_00-e102850">Das Volpone iocos, fletus seiane dedisti. </l>
+          <l xml:id="A04632_00-e102860">At si ionsonias mulctatas limit musas</l>
+          <l xml:id="A04632_00-e102870">Angustâ plangent quiquam: vos, dicite, contrà,</l>
+          <l xml:id="A04632_00-e102880">O nimiùm miseros quibus Anglis Anglica lingua</l>
+          <l xml:id="A04632_00-e102890">Aut non sat nota est; aut queis (Sen trans mare natis)</l>
+          <l xml:id="A04632_00-e102900">Hand nota omnino: vegetet cum tempore vates,</l>
+          <l xml:id="A04632_00-e102910">Mutabit patriam, fiêtque ipse anglus Apollo. </l>
+          <closer xml:id="A04632_00-e102920">
+            <signed xml:id="A04632_00-e102930">E. Bolton.</signed>
+          </closer>
+        </lg>
+        <lg xml:id="A04632_00-e102940">
+          <pb facs="7"/>
+          <head><note anchored="true" place="margin" xml:id="A04632_00-e102950">upon his fox.</note>to my dear friend, m. Ben: Jonson.</head>
+          <l xml:id="A04632_00-e102960">If it might stand with justice, to allow</l>
+          <l xml:id="A04632_00-e102970">The swift conversion of all follies; now,</l>
+          <l xml:id="A04632_00-e102980">Such is my mercy, that I could admit</l>
+          <l xml:id="A04632_00-e102990">All sorts should equally approve the wit</l>
+          <l xml:id="A04632_00-e103000">Of this thy even work: whose growing fame</l>
+          <l xml:id="A04632_00-e103010">Shall raise thee high, and thou it, with thy name ▪</l>
+          <l xml:id="A04632_00-e103020">And did not manners, and my love command</l>
+          <l xml:id="A04632_00-e103030">Me to forbear to make those understand,</l>
+          <l xml:id="A04632_00-e103040">Whom thou, perhaps, hast in thy wiser doom</l>
+          <l xml:id="A04632_00-e103050">Long since, firmly resolved, shall never come</l>
+          <l xml:id="A04632_00-e103060">To know more than they do; I would have shown</l>
+          <l xml:id="A04632_00-e103070">To all the world, the art, which thou alone</l>
+          <l xml:id="A04632_00-e103080">Hast taught our tongue, the rules of time of place,</l>
+          <l xml:id="A04632_00-e103090">And other rites, delivered, with the grace</l>
+          <l xml:id="A04632_00-e103100">Of comic style, which only, is far more,</l>
+          <l xml:id="A04632_00-e103110">Than any English stage hath known before. </l>
+          <l xml:id="A04632_00-e103120">But, since our subtle gallants think it good</l>
+          <l xml:id="A04632_00-e103130">To like of naught, that may be understood,</l>
+          <l xml:id="A04632_00-e103140">Lest they should be disproved; or have, at best,</l>
+          <l xml:id="A04632_00-e103150">Stomachs so raw, that nothing can digest</l>
+          <l xml:id="A04632_00-e103160">But what's obscene, or barks: let us desire</l>
+          <l xml:id="A04632_00-e103170">They may continue, simply, to admire</l>
+          <l xml:id="A04632_00-e103180">Fine clothes, and strange words; and may live, in age,</l>
+          <l xml:id="A04632_00-e103190">To see themselves ill brought upon the stage,</l>
+          <l xml:id="A04632_00-e103200">And like it. Whilst thy bold, and knowing muse</l>
+          <l xml:id="A04632_00-e103210">Contains all praise, but such as thou wouldst choose</l>
+          <closer xml:id="A04632_00-e103220">
+            <signed xml:id="A04632_00-e103230">Franc Beaumont.</signed>
+          </closer>
+        </lg>
+        <lg xml:id="A04632_00-e103240">
+          <head>Upon the silent woman.</head>
+          <l xml:id="A04632_00-e103250">Hear you bad writers, and though you not see,</l>
+          <l xml:id="A04632_00-e103260">I will inform you where you happy be:</l>
+          <l xml:id="A04632_00-e103270">Provide the most malicious thoughts you can,</l>
+          <l xml:id="A04632_00-e103280">And bend them all against some private man,</l>
+          <l xml:id="A04632_00-e103290">To bring him, not his vices, on the stage,</l>
+          <l xml:id="A04632_00-e103300">Your envy shall be clad in so poor rage,</l>
+          <l xml:id="A04632_00-e103310">And your expressing of him shall be such,</l>
+          <l xml:id="A04632_00-e103320">That he himself shall think he hath no touch. </l>
+          <l xml:id="A04632_00-e103330">Where he that strongly writes, although he mean</l>
+          <l xml:id="A04632_00-e103340">To scourge but vices in a laboured scene,</l>
+          <l xml:id="A04632_00-e103350">Yet private faults shall be so well expressed</l>
+          <l xml:id="A04632_00-e103360">As men do act hem, that each private breast,</l>
+          <l xml:id="A04632_00-e103370">That finds these errors in itself, shall say,</l>
+          <l xml:id="A04632_00-e103380">He meant me, not my vices, in the play. </l>
+          <closer xml:id="A04632_00-e103390">
+            <signed xml:id="A04632_00-e103400">Franc Beaumont.</signed>
+          </closer>
+        </lg>
+        <lg xml:id="A04632_00-e103410">
+          <head><note anchored="true" place="margin" xml:id="A04632_00-e103420">upon his Catiline.</note>to my friend m. Ben: Jonson.</head>
+          <l xml:id="A04632_00-e103430">If thou hadst itched after the wild applause</l>
+          <l xml:id="A04632_00-e103440">Of common people, and hadst made thy laws</l>
+          <l xml:id="A04632_00-e103450">In writing, such, as catched at present voice,</l>
+          <l xml:id="A04632_00-e103460">I should commend the thing, but not thy choice. </l>
+          <l xml:id="A04632_00-e103470">But thou hast squared thy rules, by what is good;</l>
+          <l xml:id="A04632_00-e103480">And art, three ages yet, from understood:</l>
+          <l xml:id="A04632_00-e103490">And (I dare say) in it, there lies much wit</l>
+          <l xml:id="A04632_00-e103500">Lost, till thy readers can grow up to it. </l>
+          <l xml:id="A04632_00-e103510">Which they can never outgrow, to find it ill,</l>
+          <l xml:id="A04632_00-e103520">But must fall back again, or like it still. </l>
+          <closer xml:id="A04632_00-e103530">
+            <signed xml:id="A04632_00-e103540">Franc Beaumont.</signed>
+          </closer>
+        </lg>
+      </div>
+    </body>
+    <back>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

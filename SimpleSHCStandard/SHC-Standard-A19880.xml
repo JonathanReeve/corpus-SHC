@@ -1,0 +1,607 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A19880">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Salmacida Spolia <date type="creation_date">1640</date></title>
+        <author>Davenant, William </author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A19880.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">Salmacida spolia. A masque. Presented by the King and Queenes Majesties, at White-hall, on Tuesday the 21. day of Ianuary 1639.</title>
+            <author>D'Avenant, William, Sir, 1606-1668.</author>
+          </titleStmt>
+          <extent>14 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2006 June (TCP phase 1)</date>
+            <idno type="marc">99857649</idno>
+            <idno type="stc">STC (2nd ed.) 6306.</idno>
+            <idno type="stc">Greg, II, 571.</idno>
+            <idno type="vid">23416</idno>
+            <idno type="DLPS">A19880</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">Salmacida spolia. A masque. Presented by the King and Queenes Majesties, at White-hall, on Tuesday the 21. day of Ianuary 1639.</title>
+            <author>D'Avenant, William, Sir, 1606-1668.</author>
+          </titleStmt>
+          <extent>[28] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by T[homas] H[arper] for Thomas Walkley, and are to be sold at his shop at the signe of the flying Horse neere Yorke house,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1639 [i.e. 1640]</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Signed on D4r: William Davenant.</p>
+            </note>
+            <note>
+              <p>Partly in verse.</p>
+            </note>
+            <note>
+              <p>Printer's name from STC.</p>
+            </note>
+            <note>
+              <p>The years are given according to Lady Day dating (Greg).</p>
+            </note>
+            <note>
+              <p>Signatures: [A]2 B-D4.</p>
+            </note>
+            <note>
+              <p>The first leaf is blank.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:id="A19880-e100010">
+    <front xml:id="A19880-e100020">
+      <div type="title_page" xml:id="A19880-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A19880-e100040">Salmacida spolia. A masqve.</p>
+        <p xml:id="A19880-e100050">Presented by the King and Queen's majesties, at Whitehall, on Tuesday the 21. day of January 1639.</p>
+        <p xml:id="A19880-e100060">London, printed by T. H. for Thomas Walkley, and are to be sold at his shop at the sign of the flying horse near York house. 1639.</p>
+      </div>
+    </front>
+    <body xml:id="A19880-e100070">
+      <div type="argument" xml:id="A19880-e100080">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The subject of the masqve.</head>
+        <p xml:id="A19880-e100090">Discord a malicious fury, appears in a storm, and by the invocation of malignant spirits, proper to her evil use, having already put most of the world into disorder, endeavours to disturb these parts, envying the blessings and tranquillity we have long enjoyed.</p>
+        <p xml:id="A19880-e100100">These incantations are expressed by those spirits in an antimasque: who on a sudden are surprised, and stopped in their motion by a secret power, whose wisdom they tremble at, and depart as foreknowing, that wisdom will change all their malicious hope of these disorders into a sudden calm, which after their departure is prepared by a disperst harmony of music.</p>
+        <p xml:id="A19880-e100110">This secret wisdom in the person of the King attended by his nobles, and under the name of Philogenes or lover of his people, hath his appearance prepared by a chorus, representing the<pb facs="3"/> beloved people, and is instantly discovered, environed with those nobles in the throne of honour.</p>
+        <p xml:id="A19880-e100120">Then the Queen personating the chief Heroine, with her martial ladies, is sent down from heaven by Pallas as a reward of his prudence, for reducing the threatening storm into the following calm.</p>
+      </div>
+      <div type="body_of_masque" xml:id="A19880-e100130">
+        <pb facs="3"/>
+        <p xml:id="A19880-e100140">In the border that enclosed the scenes and made a frontispiece to all the work, in a square niche on the right hand stood two figures of women, one of them expressing much majesty in her aspect, apparelled in sky colour with a crown of gold on her head, and a bridle in her hand, representing reason: the other embracing her was in changeable silk with wings at her shoulders, figured for intellectual appetite, who while she embraceth reason, all the actions of men are rightly governed. Above these in a second order, were winged children, one riding on a furious lion, which he seems to tame with reins and a bit: another bearing an antique ensign: the third hovering above with a branch of palm in his hand, expressing the victory over the perturbations. In a niche on the other side stood two figures joining hands, one a grave old man in a robe of purple, with a heart of gold in a chain about his neck, figured for counsel; the other a woman, in a garment of cloth of gold, in her hand a sword with a serpent winding about the blade, representing resolution, both these being necessary to the good means of arriving to a virtuous end.</p>
+        <p xml:id="A19880-e100150">Over these and answering to the other side was a round altar raised high, and on it the bird of Pallas, figured for prudence: on either side were children with wings, one in act of adoration, another holding a book, and a third flying over their heads with a lighted torch in his hand, representing the intellectual light accompanied with doctrine and discipline, and alluding to the figures below, as those on the other side.</p>
+        <p xml:id="A19880-e100160"><pb facs="4"/>Above these ran a large frieze, with a cornicement: in the midst whereof was a double compartment rich and full of ornament: on the top of this sat fame with spreaded wings, in act, sounding a trumpet of gold: joining to the compartment in various postures lay two figures in their natural colours as big as the life; one holding an anchor representing safety; the other expressing riches, with a cornucopia; and about her stood antique vases of gold. The rest of this Frieze was composed of children, with significant signs to express their several qualities; forgetfulness of injuries, extinguishing a flaming torch on an armour; commerce, with ears of corn; Felicity, with a basket of lilies; affection to the country, holding a grasshopper; prosperous success, with the rudder of a ship; innocence, with a branch of fern: all these expressing the several goods, followers of peace and concord, and forerunners of humane felicity: so as the work of this front consisting of picture qualified with moral philosophy, tempered delight with profit.</p>
+        <p xml:id="A19880-e100170">In the midst of the aforesaid compartment in an oval table was written.</p>
+        <quote xml:id="A19880-e100180">Salmacida spolia.</quote>
+        <p xml:id="A19880-e100190">The ancient adagies are these. </p>
+        <quote xml:id="A19880-e100200">
+          <l xml:id="A19880-e100210">Salmacida spolia sine sanguine sine sudore, potius quam. </l>
+          <l xml:id="A19880-e100220">Cadmia victoria, ubi ipsos victores pernicies opprimit. </l>
+        </quote>
+        <p xml:id="A19880-e100230"><pb facs="4"/>But before I proceed in the descriptions of the scenes, it is not amiss briefly to set down the histories from whence these proverbs took their original.</p>
+        <p xml:id="A19880-e100240">For the first Melas and Arevanias of Argos, and Troezen conducted a common colony to Habicarnassus in Asia, and there drove out the barbarous Carie and Lelegi, who fled up to the mountains; from whence they made many incursions, robbing and cruelly spoiling the Grecian inhabitants, which could by no means be prevented.</p>
+        <p xml:id="A19880-e100250">On the top of the right horn of the hill which surrounds Halicarnassus, in form of a theater, is a famous fountain of most clear water, and exquisite taste called Salmacis: it happened that near to this fountain one of the colony (To make gain by the goodness of the water) set up a tavern, and furnished it with all necessaries, to which the barbarians resorting (Enticed by the delicious taste of this water, at first some few, and after many together in troops,) of fierce and cruel natures, were reduced of their own accord to the sweetness of the Grecian customs.</p>
+        <p xml:id="A19880-e100260">The other adage is thus derived. </p>
+        <p xml:id="A19880-e100270">The city of Thebes, anciently called Cadmia, had war with Adrastus, the Argive King, who raised a great army of Arcadians and Missenians, and fought a battle with them near Ismenia, where the Thebans were overthrown, turned their backs, and fled into their city; the Peloponnesians (Not accustomed to scale walled towns) assaulting furiously, but<pb facs="5"/> without order, were repulsed from the walls by the defendants, and may of the Argives slain: at that instant the besieged making a great sally, and finding the enemy in disorder and confusion, cut them all in pieces, only Adrastus excepted, who was saved by flight: but this victory was gotten with great damage and slaughter of the Thebans, for few of them returned alive into their city.</p>
+        <p xml:id="A19880-e100280">The allusion is, that his majesty out of his mercy and clemency approving the first proverb, seeks by all means to reduce tempestuous and turbulent natures into a sweet calm of civil concord.</p>
+        <p xml:id="A19880-e100290">A curtain flying up, a horrid scene appeared of storm and tempest: no glimpse of the sun was seen, as if darkness, confusion, and deformity, had possessed the world, and driven light to heaven, the trees bending, as forced by a gust of wind, their branches rent from their trunks, and some torn up by the roots: afar off was a dark wrought sea, with rolling billows, breaking against the rocks, with rain, lightning and thunder: in the midst was a globe of the earth, which at an instant falling on fire, was turned into a fury, her hair upright, mixed with snakes, her body lean wrinkled and of a swarthy colour, her breasts hung bagging down to her waste, to which with a knot of serpents was girt red bases, and under it tawny skirts down to her feet: in her hand she brandished a sable torch, and looking askance with hollow envious eyes came down into the room.</p>
+        <lg xml:id="A19880-e100300">
+          <pb facs="5"/>
+          <head>Fury.</head>
+          <l xml:id="A19880-e100310">Blow winds! until you raise the seas so high,</l>
+          <l xml:id="A19880-e100320">That waves may hang like tears in the sun's eye,</l>
+          <l xml:id="A19880-e100330">That we (When in vast cataracts they fall)</l>
+          <l xml:id="A19880-e100340">May think he weeps at nature's funeral. </l>
+          <l xml:id="A19880-e100350">Blow winds! and from the troubled womb of earth</l>
+          <l xml:id="A19880-e100360">(Where you receive your undiscovered birth)</l>
+          <l xml:id="A19880-e100370">Break out in wild disorders, till you make</l>
+          <l xml:id="A19880-e100380">Atlas, beneath his shaking load to shake. </l>
+          <l xml:id="A19880-e100390">How am I grieved, the world should everywhere </l>
+          <l xml:id="A19880-e100400">Be vexed into a storm, save only here? </l>
+          <l xml:id="A19880-e100410">Thou over-lucky too much happy I'll! </l>
+          <l xml:id="A19880-e100420">Grow more desirous of this flattering style! </l>
+          <l xml:id="A19880-e100430">For thy long health can never altered be,</l>
+          <l xml:id="A19880-e100440">But by thy surfeits on Felicity:</l>
+          <l xml:id="A19880-e100450">And I to stir the humours that increase</l>
+          <l xml:id="A19880-e100460">In thy full body (Overgrown with peace)</l>
+          <l xml:id="A19880-e100470">Will call those furies hither, who incense. </l>
+          <l xml:id="A19880-e100480">The guilty, and disorder innocence. </l>
+          <l xml:id="A19880-e100490">Ascend! Ascend! you horrid sullen brood</l>
+          <l xml:id="A19880-e100500">Of evil spirits, and displace the good! </l>
+          <l xml:id="A19880-e100510">The great, make only wiser, to suspect</l>
+          <l xml:id="A19880-e100520">Whom they have wronged by falsehood, or neglect;</l>
+          <l xml:id="A19880-e100530">The rich, make full of avarice as pride,</l>
+          <l xml:id="A19880-e100540">Like graves, or swallowing seas, unsatisfied;</l>
+          <l xml:id="A19880-e100550">Busy to help the state (When needy grown)</l>
+          <l xml:id="A19880-e100560">From poor men's fortunes, never from their own. </l>
+          <l xml:id="A19880-e100570">The poor, ambitious make, apt to obey</l>
+          <l xml:id="A19880-e100580">The false in hope to rule whom they betray:</l>
+          <l xml:id="A19880-e100590">And make religion to become their vice,</l>
+          <l xml:id="A19880-e100600">Named, to disguise ambitious avarice:</l>
+        </lg>
+        <p xml:id="A19880-e100610"><pb facs="6"/>The speech ended, three furies make their entry presented by<list xml:id="A19880-e100620"><item xml:id="A19880-e100630">M. Charles Murrey. </item><item xml:id="A19880-e100640">M. Seymor. </item><item xml:id="A19880-e100650">M. Tartarean. </item></list></p>
+        <p xml:id="A19880-e100660">This antimasque being passed, the scene changed into a calm, the sky serene, afar off Zephyrus appeared breathing a gentle gale: in the landscape were corn fields and pleasant trees, sustaining vines fraught with grapes, and in some of the furthest parts villages, with all such things as might express a country in peace, rich, and fruitful. There came breaking out of the heavens a silver chariot, in which sat two persons, the one a woman in a watchet garment, her dressing of silver mixed with bulrushes, representing concord: somewhat below her sat the good genius of great Britain, a young man in a carnation garment, embroidered all with flowers, an antic sword hung in a scarf, a garland on his head, and in his hand a branch of Platan mixed with ears of corn: these in their dissent sung together.</p>
+        <floatingText xml:id="A19880-e100670">
+          <body xml:id="A19880-e100680">
+            <div type="song" xml:id="A19880-e100690">
+              <head>I. song. Good genius of great Britain, concord. </head>
+              <sp xml:id="A19880-e100700" who="A19880-concord">
+                <speaker>Concord.</speaker>
+                <l xml:id="A19880-e100710">Why should I hasten hither, since the good</l>
+                <l xml:id="A19880-e100720">I bring to men is slowly understood? </l>
+              </sp>
+              <sp xml:id="A19880-e100730" who="A19880-genius">
+                <pb facs="6"/>
+                <speaker>Genius.</speaker>
+                <l xml:id="A19880-e100740">I know it is the people's vice,</l>
+                <l xml:id="A19880-e100750">To lay too mean, too cheap a price</l>
+                <l xml:id="A19880-e100760">On every blessing they possess</l>
+                <l xml:id="A19880-e100770">Th'enjoying makes them think it less. </l>
+              </sp>
+              <sp xml:id="A19880-e100780" who="A19880-concord">
+                <speaker>Concord.</speaker>
+                <l xml:id="A19880-e100790">If then, the need of what is good,</l>
+                <l xml:id="A19880-e100800">Doth make it loved, or understood,</l>
+                <l xml:id="A19880-e100810">Or 'tis by absence better known</l>
+                <l xml:id="A19880-e100820">I shall be valued, when I'm gone. </l>
+              </sp>
+              <sp xml:id="A19880-e100830" who="A19880-genius">
+                <speaker>Genius.</speaker>
+                <l xml:id="A19880-e100840">Yet stay! O stay! if but to please</l>
+                <l xml:id="A19880-e100850">The great and wise Philogenes. </l>
+              </sp>
+              <sp xml:id="A19880-e100860" who="A19880-concord">
+                <speaker>Concord.</speaker>
+                <l xml:id="A19880-e100870">Should dews not fall, the sun forbear</l>
+                <l xml:id="A19880-e100880">His course, or I my visits here;</l>
+                <l xml:id="A19880-e100890">Alike from these defects would cease</l>
+                <l xml:id="A19880-e100900">The power and hope, of all increase. </l>
+              </sp>
+              <sp xml:id="A19880-e100910" who="A19880-genius">
+                <speaker>Genius.</speaker>
+                <l xml:id="A19880-e100920">Stay then! O stay! If but to ease</l>
+                <l xml:id="A19880-e100930">The cares of wise Philogenes. </l>
+              </sp>
+              <sp xml:id="A19880-e100940" who="A19880-concord">
+                <speaker>Concord.</speaker>
+                <l xml:id="A19880-e100950">I will! and much I grieve, that though the best</l>
+                <l xml:id="A19880-e100960">Of kingly science, harbours in his breast,</l>
+                <l xml:id="A19880-e100970">Yet 'tis his fate, to rule in adverse times,</l>
+                <l xml:id="A19880-e100980">When wisdom must awhile give place to crimes. </l>
+              </sp>
+            </div>
+          </body>
+        </floatingText>
+        <p xml:id="A19880-e100990"><pb facs="7"/>Being arrived at the earth, and descended from the chariot, they sing this short dialogue, and then departed several ways to incite the beloved people to honest pleasures and recreations which have ever been peculiar to this nation. </p>
+        <sp xml:id="A19880-e101000" who="A19880-both">
+          <speaker>Both.</speaker>
+          <l xml:id="A19880-e101010">O who but he, could thus endure</l>
+          <l xml:id="A19880-e101020">To live, and govern in a sullen age,</l>
+          <l xml:id="A19880-e101030">When it is harder far to cure,</l>
+          <l xml:id="A19880-e101040">The people's folly than resist their rage? </l>
+        </sp>
+        <p xml:id="A19880-e101050">After which there followed these several entries of antimasques. </p>
+        <stage xml:id="A19880-e101060">1. Entry.</stage>
+        <p xml:id="A19880-e101070">Wolfgangus Vandergoose Spagricke, operator to the invisible lady styled the magical sister of the Rosicrosse, with these receipts following, and many other rare secrets, undertakes in short time to cure the defects of nature, and diseases of the mind:</p>
+        <p xml:id="A19880-e101080">
+          <list xml:id="A19880-e101090">
+            <item xml:id="A19880-e101100">1 confection of hope and fear to entertain lovers.</item>
+            <item xml:id="A19880-e101110">2 essence of dissimulation to enforce love.</item>
+            <item xml:id="A19880-e101120">3 Julep of fruition to recreate the hot fevers of love.</item>
+            <item xml:id="A19880-e101130">4 water of dalliance to warm an old courage.</item>
+            <item xml:id="A19880-e101140">5 a subtle quintessence drawn from mathematical points and lines, filtered through a melancholy brain to make eunuchs engender.</item>
+            <item xml:id="A19880-e101150">6 Pomado of the bark of comeliness, the<pb facs="7"/> sweetness of wormwood, with the fat of gravity to anoint those that have an ill mine.</item>
+            <item xml:id="A19880-e101160">7 spirit of Satyrus' high capers, and Bacchus whirling virtigoes to make one dance well.</item>
+            <item xml:id="A19880-e101170">8 one dram of the first matter, as much of the rust of times sith mixed with the juice of Medea's herbs, this in an electuary makes all sorts of old people young.</item>
+            <item xml:id="A19880-e101180">9 an opiade of the spirit of muskadine taken in good quantity to bedward, to make one forget his creditors.</item>
+            <item xml:id="A19880-e101190">10 powder of Menippus' tree, and the rind of hemp to consolate those who have lost their money.</item>
+            <item xml:id="A19880-e101200">11 treacle of the gale of serpents, and the liver of doves to initiate a neophyte courtier.</item>
+            <item xml:id="A19880-e101210">12 an easy vomit of the fawning of a spaniel 'Gallobelgicus, and the last coranto, hot from the press, with the powder of some lean jests, to prepare a disprovues welcome to rich men's tables.</item>
+            <item xml:id="A19880-e101220">13 a gargarism of Florio's first fruits, Diana de monte Major, and the scraping of Spanish Romano 'As distilled in balneo, to make a sufficient linguist without travelling, or scarce knowing himself what he says.</item>
+            <item xml:id="A19880-e101230">14 a bath made of a catalogue from the mart 'And common places, taken in a Frankford dryfat, in his diet he must refrain all real knowledge, and only suck in vulgar opinions, using the fricase of confederacy, will make ignorants in all professions to seem and not to be.</item>
+          </list>
+        </p>
+        <pb facs="8"/>
+        <stage xml:id="A19880-e101240">2. Entry.</stage>
+        <p xml:id="A19880-e101250">Four old men richly attired, the shapes proper to the persons, presented by<list xml:id="A19880-e101260"><item xml:id="A19880-e101270">M. boroughs. </item><item xml:id="A19880-e101280">M. Skipwith. </item><item xml:id="A19880-e101290">M. Pert. </item><item xml:id="A19880-e101300">M. Ashton. </item></list></p>
+        <stage xml:id="A19880-e101310">3. Entry:</stage>
+        <p xml:id="A19880-e101320">Three young soldiers in several fashioned habits, but costly, and presented to the life, by<list xml:id="A19880-e101330"><item xml:id="A19880-e101340">M. Hearne. </item><item xml:id="A19880-e101350">M. Slingsby. </item><item xml:id="A19880-e101360">M. Chumley. </item></list></p>
+        <stage xml:id="A19880-e101370">4. Entry.</stage>
+        <p xml:id="A19880-e101380">A nurse and three children in long coats, with bibs, biggins, and muckenders.</p>
+        <stage xml:id="A19880-e101390">5. Entry.</stage>
+        <p xml:id="A19880-e101400">An ancient Irishman, presented by m. jay. </p>
+        <stage xml:id="A19880-e101410">6. Entry.</stage>
+        <p xml:id="A19880-e101420">An ancient Scotishman, presented by m. Atkins. </p>
+        <stage xml:id="A19880-e101430">7. Entry.</stage>
+        <p xml:id="A19880-e101440">An old fashioned Englishman, and his mistress presented by<list xml:id="A19880-e101450"><item xml:id="A19880-e101460">M. Arpe. </item><item xml:id="A19880-e101470">M. will. Murry. </item></list></p>
+        <p xml:id="A19880-e101480">These three antimasques were well and naturally set out.</p>
+        <pb facs="8"/>
+        <stage xml:id="A19880-e101490">8. Entry.</stage>
+        <p xml:id="A19880-e101500">Doctor Tartaglia and two pedants of Francolin, presented by<list xml:id="A19880-e101510"><item xml:id="A19880-e101520">M. rhymes. </item><item xml:id="A19880-e101530">M. Warder. </item><item xml:id="A19880-e101540">M. Villiers. </item></list></p>
+        <stage xml:id="A19880-e101550">9. Entry.</stage>
+        <p xml:id="A19880-e101560">Four grotesques or drolities, in the most fantastical shapes that could be devised.</p>
+        <stage xml:id="A19880-e101570">10. Entry.</stage>
+        <p xml:id="A19880-e101580">The invisible lady magical sister of the Rosicrosse.</p>
+        <stage xml:id="A19880-e101590">11. Entry.</stage>
+        <p xml:id="A19880-e101600">A shepherd, presented by m. Charles Murry. </p>
+        <stage xml:id="A19880-e101610">12. Entry.</stage>
+        <p xml:id="A19880-e101620">A farmer and his wife, presented by m. Skipwith. </p>
+        <stage xml:id="A19880-e101630">13. Entry.</stage>
+        <p xml:id="A19880-e101640">A country gentleman, his wife, and his bailiff, presented by<list xml:id="A19880-e101650"><item xml:id="A19880-e101660">M. boroughs. </item><item xml:id="A19880-e101670">M. Ashton. </item><item xml:id="A19880-e101680">M. Pert. </item></list></p>
+        <pb facs="9"/>
+        <stage xml:id="A19880-e101690">14. Entry.</stage>
+        <p xml:id="A19880-e101700">An amorous courtier richly apparelled, presented by m. Seymor. </p>
+        <stage xml:id="A19880-e101710">15. Entry.</stage>
+        <p xml:id="A19880-e101720">Two roaring boys, their suits answering their profession.</p>
+        <stage xml:id="A19880-e101730">16. Entry.</stage>
+        <p xml:id="A19880-e101740">Four mad lovers, and as madly clad.</p>
+        <stage xml:id="A19880-e101750">17. Entry.</stage>
+        <p xml:id="A19880-e101760">A jealous Dutchman, his wife and her Italian lover, presented by<list xml:id="A19880-e101770"><item xml:id="A19880-e101780">M. Arpe. </item><item xml:id="A19880-e101790">M. rhymes. </item><item xml:id="A19880-e101800">M. Tartarean. </item></list></p>
+        <stage xml:id="A19880-e101810">18. Entry.</stage>
+        <p xml:id="A19880-e101820">Three Swisses, one a little Swiss, who played the wag with them as they slept, presented by<list xml:id="A19880-e101830"><item xml:id="A19880-e101840">M. Cotterell. </item><item xml:id="A19880-e101850">M. Newton. </item><item xml:id="A19880-e101860">M. Jeffrey Hudson. </item></list></p>
+        <stage xml:id="A19880-e101870">19. Entry.</stage>
+        <p xml:id="A19880-e101880">Four antic cavaliers, imitating a manage and tilting.</p>
+        <list xml:id="A19880-e101890">
+          <item xml:id="A19880-e101900">M. Arpe. </item>
+          <item xml:id="A19880-e101910">M. jay. </item>
+          <item xml:id="A19880-e101920">M. Atkins. </item>
+          <item xml:id="A19880-e101930">M. Tartarean. </item>
+        </list>
+        <stage xml:id="A19880-e101940">20. Entry.</stage>
+        <p xml:id="A19880-e101950">A cavaleritro and two pages.</p>
+        <p xml:id="A19880-e101960"><pb facs="9"/>All which antimasques were well set out and excellently danced, and the tunes fitted to the persons.</p>
+        <p xml:id="A19880-e101970">The antimasques being passed, all the scene was changed into craggy rocks and inaccessible mountains, in the upper parts where any earth could fasten, were some trees, but of strange forms, such as only grow in remote parts of the Alps, and in desolate places; the furthest of these was hollow in the midst, and seemed to be cut through by art, as the Pausilipo near Naples, and so high as the top pierced the clouds, all which represented the difficult way which heroes are to pass ere they come to the throne of honour.</p>
+        <p xml:id="A19880-e101980">The chorus of the beloved people came forth (Led by concord and the good genius of great Britain,) their habits being various and rich, they go up to the state and sing.</p>
+        <lg xml:id="A19880-e101990">
+          <head>Ii. song. To the Queen mother.</head>
+          <lg n="1" xml:id="A19880-e102000">
+            <head>1</head>
+            <l xml:id="A19880-e102010">When with instructed eyes, we look upon</l>
+            <l xml:id="A19880-e102020">Our blessings that descend so fast,</l>
+            <l xml:id="A19880-e102030">From the fair partner of our monarch's throne,</l>
+            <l xml:id="A19880-e102040">We grieve, they are too great to last. </l>
+          </lg>
+          <lg n="2" xml:id="A19880-e102050">
+            <head>2</head>
+            <l xml:id="A19880-e102060">But when those growing comforts we survey,</l>
+            <l xml:id="A19880-e102070">By whom our hopes are longer lived,</l>
+            <l xml:id="A19880-e102080"><pb facs="10"/> then gladly we our vows, and praises pay</l>
+            <l xml:id="A19880-e102090">To her, from whom they are derived. </l>
+          </lg>
+          <lg n="3" xml:id="A19880-e102100">
+            <head>3</head>
+            <l xml:id="A19880-e102110">And since (Great Queen) she is derived from you;</l>
+            <l xml:id="A19880-e102120">We here begin our offerings,</l>
+            <l xml:id="A19880-e102130">For those who sacrificed to rivers, knew,</l>
+            <l xml:id="A19880-e102140">Their first rights due, unto their springs. </l>
+          </lg>
+          <lg n="4" xml:id="A19880-e102150">
+            <head>4</head>
+            <l xml:id="A19880-e102160">The stream, from whence our blessings flow, you bred;</l>
+            <l xml:id="A19880-e102170">You in whose bosom, e'en the chief, and best</l>
+            <l xml:id="A19880-e102180">Of modern victors laid his weary head,</l>
+            <l xml:id="A19880-e102190">When he rewarded victories with rest. </l>
+            <l xml:id="A19880-e102200">Your beauty kept his valour's flame alive;</l>
+            <l xml:id="A19880-e102210">Your Tuscan wisdom taught it how to thrive. </l>
+          </lg>
+        </lg>
+        <lg xml:id="A19880-e102220">
+          <head>Inviting the King's appearance in the throne of honour.</head>
+          <opener xml:id="A19880-e102230">To be printed, not sung.</opener>
+          <l xml:id="A19880-e102240">Why are our joys detained by this delay? </l>
+          <l xml:id="A19880-e102250">Unless (As in a morning overcast)</l>
+          <l xml:id="A19880-e102260">We find it long, ere we can find out day;</l>
+          <l xml:id="A19880-e102270">So whilst our hopes increase, our time doth waste. </l>
+          <l xml:id="A19880-e102280">Or are you slow 'cause th'way to honour's throne</l>
+          <l xml:id="A19880-e102290">(In which you travail now) is so uneven,</l>
+          <l xml:id="A19880-e102300">Hilly, and craggy, or as much unknown,</l>
+          <l xml:id="A19880-e102310">As that uncertain path which leads to heaven? </l>
+          <l xml:id="A19880-e102320">O that philosophers (Who through those mists</l>
+          <l xml:id="A19880-e102330">Low nature casts, do upper knowledge spy)</l>
+          <l xml:id="A19880-e102340">Or those that smile at them (O'erweening priests)</l>
+          <l xml:id="A19880-e102350">Could with such sure such an undoubted eye,</l>
+          <l xml:id="A19880-e102360"><pb facs="10"/> reach distant heaven, as you can honours' throne,</l>
+          <l xml:id="A19880-e102370">Than we should shift our flesh t'inhabit there,</l>
+          <l xml:id="A19880-e102380">Where we are taught, the heroes are gone;</l>
+          <l xml:id="A19880-e102390">Though now content with earth, 'cause you are here. </l>
+        </lg>
+        <p xml:id="A19880-e102400">The song ended they return up to the stage, and divide themselves on each side; then the further part of the scene disappeared, and the King's majesty and the rest of the masquers were discovered, sitting in the throne of honour, his majesty highest in a seat of gold, and the rest of the lords about him: this throne was adorned with palm trees, between which stood statues of the ancient heroes: in the under parts on each side lay captives bound in several postures, lying on trophies of armours, shields, and antique weapons, all his throne being feigned of goldsmith's work. The habit of his majesty and the masquers was of watchet, richly embroidered with silver, long stockings set up of white: their caps silver with scrolls of gold, and plumes of white feathers.</p>
+        <lg xml:id="A19880-e102410">
+          <head>3. Song. To the King, when he appears, with his lords in the throne of honour.</head>
+          <lg n="1" xml:id="A19880-e102420">
+            <head>1</head>
+            <l xml:id="A19880-e102430">Those quar'ling winds (That deafened unto death</l>
+            <l xml:id="A19880-e102440">The living, and did wake men dead before)</l>
+            <l xml:id="A19880-e102450">Seem now to pant small gusts, as out of breath,</l>
+            <l xml:id="A19880-e102460">And fly, to reconcile themselves on shore. </l>
+          </lg>
+          <lg n="2" xml:id="A19880-e102470">
+            <pb facs="11"/>
+            <head>2</head>
+            <l xml:id="A19880-e102480">If it be kingly patience to out last</l>
+            <l xml:id="A19880-e102490">Those storms the people's giddy fury raise,</l>
+            <l xml:id="A19880-e102500">Till like, fantastic winds themselves they waste,</l>
+            <l xml:id="A19880-e102510">The wisdom of that patience is thy praise. </l>
+          </lg>
+          <lg n="3" xml:id="A19880-e102520">
+            <head>3</head>
+            <l xml:id="A19880-e102530">Murmur's a sickness epidemical;</l>
+            <l xml:id="A19880-e102540">'Tis catching, and infects weak common ears;</l>
+            <l xml:id="A19880-e102550">For through those crooked, narrow alleys, all</l>
+            <l xml:id="A19880-e102560">Invaded are, and killed by whisperers. </l>
+          </lg>
+          <lg n="4" xml:id="A19880-e102570">
+            <head>4</head>
+            <l xml:id="A19880-e102580">This you discerned, and by your mercy taught,</l>
+            <l xml:id="A19880-e102590">Would not (Like monarchs that severe have been)</l>
+            <l xml:id="A19880-e102600">Invent, imperial arts, to question thought;</l>
+            <l xml:id="A19880-e102610">Nor punish vulgar sickness as a sin. </l>
+          </lg>
+          <lg n="5" xml:id="A19880-e102620">
+            <head>5</head>
+            <l xml:id="A19880-e102630">Nor would your valour, (When it might subdue)</l>
+            <l xml:id="A19880-e102640">Be hindered of the pleasure to forgive;</l>
+            <l xml:id="A19880-e102650">They're worse than overcome (Your wisdom knew)</l>
+            <l xml:id="A19880-e102660">That needed mercy to have leave to live. </l>
+          </lg>
+          <lg n="6" xml:id="A19880-e102670">
+            <head>6</head>
+            <l xml:id="A19880-e102680">Since strength of virtues, gained you honour's throne;</l>
+            <l xml:id="A19880-e102690">Accept our wonder, and enjoy your praise! </l>
+            <l xml:id="A19880-e102700">He's fit to govern there, and rule alone,</l>
+            <l xml:id="A19880-e102710">Whom inward helps, not outward force doth raise. </l>
+          </lg>
+        </lg>
+        <p xml:id="A19880-e102720">Whilst the chorus sung this song, there came softly from the upper part of the heavens, a huge cloud of various colours, but pleasant to the sight; which descending to the midst of the scene opened, and within it was a transparent brightness of thin exhalations, such as the gods<pb facs="11"/> are feigned to descend in ▪ in the most eminent place of which, her majesty sat, representing the chief Heroine, environed with her martial ladies; and from over her head were darted lightsome rays that illuminated her seat, and all the ladies about her participated more or less of that light, as they sat near or further off: this brightness with many streaks of thin vapours about it, such as are seen in a fair evening sky softly descended: and as it came near to the earth, the seat of honour by little and little vanished, as if it gave way to these heavenly graces. The Queen's majesty and her ladies were in Amazonian habits of carnation, embroidered with silver, with plumed helms, bandrics with antique swords hanging by their sides, all as rich as might be, but the strangeness of the habits was most admired. </p>
+        <lg xml:id="A19880-e102730">
+          <head>Iv. Song. When the Queen and her ladies descended.</head>
+          <lg n="1" xml:id="A19880-e102740">
+            <head>1</head>
+            <l xml:id="A19880-e102750">You that so wisely studious are,</l>
+            <l xml:id="A19880-e102760">To measure, and to trace each star,</l>
+            <l xml:id="A19880-e102770">How swift they travail, and how far,</l>
+            <l xml:id="A19880-e102780">Now number your celestial store,</l>
+            <l xml:id="A19880-e102790">Planets, or lesser lights, and try,</l>
+            <l xml:id="A19880-e102800">If in the face of all the sky,</l>
+            <l xml:id="A19880-e102810">You count so many as before? </l>
+          </lg>
+          <lg n="2" xml:id="A19880-e102820">
+            <pb facs="12"/>
+            <head>2</head>
+            <l xml:id="A19880-e102830">If you would practise how to know</l>
+            <l xml:id="A19880-e102840">The chief for influence, or show;</l>
+            <l xml:id="A19880-e102850">Level your perspectives below! </l>
+            <l xml:id="A19880-e102860">For in this nether orb they move! </l>
+            <l xml:id="A19880-e102870">Each here (When lost in's doubtful art)</l>
+            <l xml:id="A19880-e102880">May by his eyes, advance his heart,</l>
+            <l xml:id="A19880-e102890">And through his optic learn to love! </l>
+          </lg>
+          <lg n="3" xml:id="A19880-e102900">
+            <head>3</head>
+            <l xml:id="A19880-e102910">But what is she that rules the night? </l>
+            <l xml:id="A19880-e102920">That kindles ladies with her light,</l>
+            <l xml:id="A19880-e102930">And gives to men the power of sight? </l>
+            <l xml:id="A19880-e102940">All those who can her virtue doubt,</l>
+            <l xml:id="A19880-e102950">Her mind, will in her face advise,</l>
+            <l xml:id="A19880-e102960">For through the casements of her eyes,</l>
+            <l xml:id="A19880-e102970">Her soul is ever looking out. </l>
+          </lg>
+          <lg n="4" xml:id="A19880-e102980">
+            <head>4</head>
+            <l xml:id="A19880-e102990">And with its beams, she doth survey</l>
+            <l xml:id="A19880-e103000">Our growth in virtue ▪ or decay;</l>
+            <l xml:id="A19880-e103010">Still lighting us in honour's way! </l>
+            <l xml:id="A19880-e103020">All that are good, she did inspire! </l>
+            <l xml:id="A19880-e103030">Lovers are chaste, because they know</l>
+            <l xml:id="A19880-e103040">It is her will, they should be so;</l>
+            <l xml:id="A19880-e103050">The valiant take from her their fire! </l>
+          </lg>
+        </lg>
+        <p xml:id="A19880-e103060">When this heavenly seat touched the earth, the King's majesty took out the Queen, and the lords the ladies, and came down into the room, and danced their entry, betwixt which and the second dance was this song. </p>
+        <lg xml:id="A19880-e103070">
+          <head>V. song. After the first dance.</head>
+          <lg n="1" xml:id="A19880-e103080">
+            <pb facs="12"/>
+            <head>1</head>
+            <l xml:id="A19880-e103090">Why stand you still, and at these beauty's gaze,</l>
+            <l xml:id="A19880-e103100">As if you were afraid,</l>
+            <l xml:id="A19880-e103110">Or they were made,</l>
+            <l xml:id="A19880-e103120">Much more for wonder than delight? </l>
+            <l xml:id="A19880-e103130">Sure those whom first their virtue did amaze,</l>
+            <l xml:id="A19880-e103140">Their feature must at last invite. </l>
+          </lg>
+          <lg n="2" xml:id="A19880-e103150">
+            <head>2</head>
+            <l xml:id="A19880-e103160">Time never knew, the mischiefs of his haste! </l>
+            <l xml:id="A19880-e103170">Nor can you force him stay</l>
+            <l xml:id="A19880-e103180">To keep off day:</l>
+            <l xml:id="A19880-e103190">Make then fit use of triumphs here;</l>
+            <l xml:id="A19880-e103200">It were a crime 'gainst pleasant youth, to waste</l>
+            <l xml:id="A19880-e103210">This night, in overcivil fear. </l>
+          </lg>
+          <lg n="3" xml:id="A19880-e103220">
+            <head>3</head>
+            <l xml:id="A19880-e103230">Move then like time, for love (As well as he)</l>
+            <l xml:id="A19880-e103240">Hath got a calendar,</l>
+            <l xml:id="A19880-e103250">Where must appear,</l>
+            <l xml:id="A19880-e103260">How evenly you these measures tread;</l>
+            <l xml:id="A19880-e103270">And when they end, we far more grieved shall be,</l>
+            <l xml:id="A19880-e103280">Than for his hours when they are fled. </l>
+          </lg>
+        </lg>
+        <p xml:id="A19880-e103290">The second dance ended, and their majesties being seated under the state, the scene was changed into magnificent buildings composed of several selected pieces of architecture: in the furthest part was a bridge over a river, where many people, coaches, horses, and such like were seen to pass to and fro: beyond this on the shore were buildings in prospective, which shooting far from the eye showed as the suburbs of a great city. </p>
+        <p xml:id="A19880-e103300">From the highest part of the heavens came forth<pb facs="13"/> a cloud far in the scene, in which were eight persons richly attired representing the spheres; this joining with two other clouds which appeared at that instant full of music covered all the upper part of the scene, and at that instant beyond all these, a heaven opened full of deities, which celestial prospect with the chorus below filled all the whole scene with apparitions and harmony. </p>
+        <lg xml:id="A19880-e103310">
+          <head>Vi song. To the King and Queen, by a chorus of all.</head>
+          <lg xml:id="A19880-e103320">
+            <l xml:id="A19880-e103330">So musical as to all ears,</l>
+            <l xml:id="A19880-e103340">Doth seem the music of the spheres,</l>
+            <l xml:id="A19880-e103350">Are you, unto each other still;</l>
+            <l xml:id="A19880-e103360">Tuning your thoughts to either's will. </l>
+          </lg>
+          <lg xml:id="A19880-e103370">
+            <l xml:id="A19880-e103380">All that are harsh, all that are rude,</l>
+            <l xml:id="A19880-e103390">Are by your harmony subdued;</l>
+            <l xml:id="A19880-e103400">Yet so, into obedience wrought,</l>
+            <l xml:id="A19880-e103410">As if not forced to it, but taught. </l>
+          </lg>
+          <lg xml:id="A19880-e103420">
+            <l xml:id="A19880-e103430">Live still, the pleasure of our sight;</l>
+            <l xml:id="A19880-e103440">Both our examples and delight. </l>
+          </lg>
+          <lg xml:id="A19880-e103450">
+            <l xml:id="A19880-e103460">So long, until you find, the good success</l>
+            <l xml:id="A19880-e103470">Of all your virtues, in one happiness. </l>
+          </lg>
+          <lg xml:id="A19880-e103480">
+            <l xml:id="A19880-e103490">Till we so kind, so wise, and careful be,</l>
+            <l xml:id="A19880-e103500">In the behalf of our posterity,</l>
+          </lg>
+          <lg xml:id="A19880-e103510">
+            <pb facs="13"/>
+            <l xml:id="A19880-e103520">That we may wish your sceptres ruling here,</l>
+            <l xml:id="A19880-e103530">(Loved even by those, who should your justice fear)</l>
+            <l xml:id="A19880-e103540">When we are gone, when to our last remove</l>
+            <l xml:id="A19880-e103550">We are dispatched, to sing your praise above. </l>
+          </lg>
+        </lg>
+        <p xml:id="A19880-e103560">After this song the spheres passed through the air, and all the deities ascended, and so concluded this masque: which was generally approved of, especially by all strangers that were present, to be the noblest and most ingenuous that hath been done here in that kind. </p>
+        <p xml:id="A19880-e103570">The invention, ornament, scenes and apparitions, with their descriptions, were made by Inigo Jones, surveyor general of his majesty's works.</p>
+        <p xml:id="A19880-e103580">What was spoken or sung, by William Davenant, her majesty's servant.</p>
+        <p xml:id="A19880-e103590">The subject was set down by them both.</p>
+        <p xml:id="A19880-e103600">The music was composed by Lewis Richard, master of her majesty's music.</p>
+        <trailer xml:id="A19880-e103610">Finis.</trailer>
+      </div>
+      <div type="names_of_masquers" xml:id="A19880-e103620">
+        <pb facs="14"/>
+        <head>The names of the masquers.</head>
+        <p xml:id="A19880-e103630">
+          <table xml:id="A19880-e103640">
+            <row role="data" xml:id="A19880-e103650">
+              <cell cols="1" role="data" rows="1">
+                <list xml:id="A19880-e103660">
+                  <item xml:id="A19880-e103670">The King's majesty.</item>
+                  <item xml:id="A19880-e103680">Duke of Lenox. </item>
+                  <item xml:id="A19880-e103690">Earl of Carlisle. </item>
+                  <item xml:id="A19880-e103700">Earl of Newport. </item>
+                  <item xml:id="A19880-e103710">Earl of Limerick. </item>
+                  <item xml:id="A19880-e103720">Lord Russell. </item>
+                  <item xml:id="A19880-e103730">Lord Herbert. </item>
+                  <item xml:id="A19880-e103740">Lord Paget. </item>
+                  <item xml:id="A19880-e103750">Lord Fielding. </item>
+                  <item xml:id="A19880-e103760">Master Russell. </item>
+                  <item xml:id="A19880-e103770">Master Thomas Howard. </item>
+                </list>
+              </cell>
+              <cell cols="1" role="data" rows="1">
+                <list xml:id="A19880-e103780">
+                  <item xml:id="A19880-e103790">The Queen's majesty.</item>
+                  <item xml:id="A19880-e103800">Duchess of Lenox. </item>
+                  <item xml:id="A19880-e103810">Countess of Carnarvan. </item>
+                  <item xml:id="A19880-e103820">Countess of Newport. </item>
+                  <item xml:id="A19880-e103830">Countess of Portland. </item>
+                  <item xml:id="A19880-e103840">Lady Andover. </item>
+                  <item xml:id="A19880-e103850">Lady Margaret Howard. </item>
+                  <item xml:id="A19880-e103860">Lady Kellymekin. </item>
+                  <item xml:id="A19880-e103870">Lady Francis Howard. </item>
+                  <item xml:id="A19880-e103880">Mistress Cary. </item>
+                  <item xml:id="A19880-e103890">Mistress Nevill. </item>
+                </list>
+              </cell>
+            </row>
+          </table>
+        </p>
+        <pb facs="14"/>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A19880"><item xml:id="A19880-concord" n="4">
+    <seg type="character_name">A19880-concord</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A19880-genius" n="3">
+    <seg type="character_name">A19880-genius</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+<item xml:id="A19880-both" n="1">
+    <seg type="character_name">A19880-both</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

@@ -1,0 +1,642 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A07976">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Spring's Glory <date type="creation_date">1638</date></title>
+        <author>Nabbes, Thomas</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Hannah Bredar</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A07976_01.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The springs glorie. Vindicating love by temperance against the tenent, sine cerere &amp; Baccho friget Venus. Moralized in a maske. With other poems, epigrams, elegies, and epithalamiums of the authors Thomas Nabbes.</title>
+            <author>Nabbes, Thomas, 1605?-1645?</author>
+          </titleStmt>
+          <extent>26 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2005 December (TCP phase 1)</date>
+            <idno type="marc">99848287</idno>
+            <idno type="stc">STC (2nd ed.) 18343.</idno>
+            <idno type="stc">Greg, II, 543,544(AI).</idno>
+            <idno type="vid">13371</idno>
+            <idno type="DLPS">A07976</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The springs glorie. Vindicating love by temperance against the tenent, sine cerere &amp; Baccho friget Venus. Moralized in a maske. With other poems, epigrams, elegies, and epithalamiums of the authors Thomas Nabbes.</title>
+            <author>Nabbes, Thomas, 1605?-1645?</author>
+          </titleStmt>
+          <extent>[56] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by I[ohn] D[awson] for Charles Greene, and are to be sold by Nicholas Fussell at the signe of the white Lyon in Pauls Church-yard,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1638.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>In verse.</p>
+            </note>
+            <note>
+              <p>Printer's name from STC.</p>
+            </note>
+            <note>
+              <p>Signatures: [A]4 B-G4.</p>
+            </note>
+            <note>
+              <p>The first leaf and the last leaf are blank.</p>
+            </note>
+            <note>
+              <p>With a dedication to Benedict Roberts on A3r. Variant: dedication to William Ball.</p>
+            </note>
+            <note>
+              <p>Also issued as part of his: Playes, maskes, epigrams, elegies, and epithalamiums.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Library of Congress.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A07976_01-e100010">
+    <front xml:id="A07976_01-e100020">
+      <div type="title_page" xml:id="A07976_01-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A07976_01-e100040">The spring's glory.</p>
+        <p xml:id="A07976_01-e100050">Vindicating love by temperance against the tenet, sine cerere et baccho friget Venus. </p>
+        <p xml:id="A07976_01-e100060">Moralised in a mask. With other poems, epigrams, elegies, and epithalamium of the authors Thomas Nabbes.</p>
+        <p xml:id="A07976_01-e100070">London, printed by I.d. for Charles green, and are to be sold by Nicolas Fussell at the sign of the white lion in Paul's churchyard. 1638.</p>
+      </div>
+      <div type="dedication" xml:id="A07976_01-e100080">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>Optimae spei juveni</head>
+        <p xml:id="A07976_01-e100090">Domino Benedicto Roberts, filio natu minori Nicolai Roberts armigeri, amoris ergò, et observantiae erga parents, sequentia poemata humillimè dedicat</p>
+        <closer xml:id="A07976_01-e100100">
+          <signed xml:id="A07976_01-e100110">Thomas Nabbes.</signed>
+        </closer>
+      </div>
+      <div type="encomium" xml:id="A07976_01-e100120">
+        <pb facs="3"/>
+        <pb facs="3"/>
+        <head>To his intimate and learned friend master Thomas Nabbes on his ensuing poems.</head>
+        <l xml:id="A07976_01-e100130">Let those who to the world oft publish forth</l>
+        <l xml:id="A07976_01-e100140">Their own deserts, in praising others worth,</l>
+        <l xml:id="A07976_01-e100150">Throng for a room; and pride themselves to be</l>
+        <l xml:id="A07976_01-e100160">Ranked in the front of thy learned poesy. </l>
+        <l xml:id="A07976_01-e100170">It shall suffice me (Who have never yet</l>
+        <l xml:id="A07976_01-e100180">Studied to humour others, nor have sweat</l>
+        <l xml:id="A07976_01-e100190">Like some, two hours in plodding jests, which may</l>
+        <l xml:id="A07976_01-e100200">At the first sight their author's wits betray)</l>
+        <l xml:id="A07976_01-e100210">To have a meaner room: for I nor come</l>
+        <l xml:id="A07976_01-e100220">To beg the reader mitigate thy doom;</l>
+        <l xml:id="A07976_01-e100230">Nor with intent to praise thy work or thee:</l>
+        <l xml:id="A07976_01-e100240">For that would seem a plain tautology. </l>
+        <l xml:id="A07976_01-e100250">Those, whose diviner souls Phoebean flame</l>
+        <l xml:id="A07976_01-e100260">Hath thoroughly kindled, such as have a name</l>
+        <l xml:id="A07976_01-e100270">I'the list of Phoebu's darlings, will admire</l>
+        <l xml:id="A07976_01-e100280">The eager flames of thy poetic fire. </l>
+        <l xml:id="A07976_01-e100290">None will dislike ought here, but such dull things</l>
+        <l xml:id="A07976_01-e100300">Whose souls are out of tune; when Phoebus sings</l>
+        <l xml:id="A07976_01-e100310">Some bayards will be bold to judge his strain</l>
+        <l xml:id="A07976_01-e100320">Harsh and unpleasing; yet applaud the vain —</l>
+        <l xml:id="A07976_01-e100330">— confused sound of some hoarse pipers voice,</l>
+        <l xml:id="A07976_01-e100340">And say 'tis rare, and makes an excellent noise. </l>
+        <l xml:id="A07976_01-e100350">If that it chance some fancy not thy strain</l>
+        <l xml:id="A07976_01-e100360">They're dull and ignorant; the wiser train</l>
+        <l xml:id="A07976_01-e100370">Will praise thee for't, and utter still with fame</l>
+        <l xml:id="A07976_01-e100380">The often mention of thy honoured name. </l>
+        <l xml:id="A07976_01-e100390">Let critics censure, and these lines condemn,</l>
+        <l xml:id="A07976_01-e100400">Secured by thine own bays ▪ their rage contemn. </l>
+        <closer xml:id="A07976_01-e100410">
+          <signed xml:id="A07976_01-e100420">C.g. Oxon.</signed>
+        </closer>
+      </div>
+      <div type="encomium" xml:id="A07976_01-e100430">
+        <pb facs="4"/>
+        <head>To his honoured friend master Thomas Nabbes.</head>
+        <l xml:id="A07976_01-e100440">Had I the massy wealth of Cheops, then</l>
+        <l xml:id="A07976_01-e100450">I'd raise a pyramid unto thy pen</l>
+        <l xml:id="A07976_01-e100460">That should for state put down the empty fame</l>
+        <l xml:id="A07976_01-e100470">Of Mausoleus' tomb, blot out the name</l>
+        <l xml:id="A07976_01-e100480">The sun's colossus had in that same day</l>
+        <l xml:id="A07976_01-e100490">When it bestrid the spacious Rhodian bay. </l>
+        <l xml:id="A07976_01-e100500">Let Momus prate; thou art above him far:</l>
+        <l xml:id="A07976_01-e100510">The cur that barks at, cannot hurt the star. </l>
+        <l xml:id="A07976_01-e100520">But why should I presume? for me to praise</l>
+        <l xml:id="A07976_01-e100530">Thy winged raptures, rhapsodies and lays</l>
+        <l xml:id="A07976_01-e100540">Were with dark lantern up and down to run,</l>
+        <l xml:id="A07976_01-e100550">And show th'admiring world the glittering sun. </l>
+        <closer xml:id="A07976_01-e100560">
+          <signed xml:id="A07976_01-e100570">Robert chamberlaine. </signed>
+        </closer>
+      </div>
+    </front>
+    <body xml:id="A07976_01-e100580">
+      <div type="masque" xml:id="A07976_01-e100590">
+        <pb facs="4"/>
+        <head>The spring's glory; within an arch of agreeable workmanship, a scene of winter presents itself, the trees and earth covered with snow, and in the middle thereof a prospect of a fair house as the mansion of Christmas.</head>
+        <stage xml:id="A07976_01-e100600">Venus and Cupid descend.</stage>
+        <sp xml:id="A07976_01-e100610" who="A07976_01-venus">
+          <speaker>Venus.</speaker>
+          <l xml:id="A07976_01-e100620">Without good meat and drink must Venus freeze? </l>
+          <l xml:id="A07976_01-e100630">Must I derive my flames and my desire</l>
+          <l xml:id="A07976_01-e100640">From Ceres and from Bacchus? shall the fire</l>
+          <l xml:id="A07976_01-e100650">That burns in hearts, and pays me solemn rites</l>
+          <l xml:id="A07976_01-e100660">Kindle from fullness and gorged appetites? </l>
+          <l xml:id="A07976_01-e100670">It shall not son. Learn of thy seaborn mother</l>
+          <l xml:id="A07976_01-e100680">Never to borrow power from any other. </l>
+          <l xml:id="A07976_01-e100690">The virtue that's our own, who dares to claim? </l>
+          <l xml:id="A07976_01-e100700">Are not both gods and men by thy sure aim,</l>
+          <l xml:id="A07976_01-e100710">When at their bosoms thou directest a dart. </l>
+          <l xml:id="A07976_01-e100720">Wounded with passion passed the cure of art? </l>
+          <l xml:id="A07976_01-e100730"><pb facs="5"/>Did not the god of medicine himself want;</l>
+          <l xml:id="A07976_01-e100740">(When he was struck by thee) a sovereign plant</l>
+          <l xml:id="A07976_01-e100750">To heal his hurt? nor did it rancour by</l>
+          <l xml:id="A07976_01-e100760">Abundance of choice cates and luxury? </l>
+          <l xml:id="A07976_01-e100770">'Twas merely thy effect. Why then should we</l>
+          <l xml:id="A07976_01-e100780">To Ceres or to Bacchus' deity</l>
+          <l xml:id="A07976_01-e100790">Assign our rights? </l>
+        </sp>
+        <sp xml:id="A07976_01-e100800" who="A07976_01-cupid">
+          <speaker>Cupid.</speaker>
+          <l xml:id="A07976_01-e100810">In part we must; for they</l>
+          <l xml:id="A07976_01-e100820">Are aiders in our work, and therefore may</l>
+          <l xml:id="A07976_01-e100830">Share in the attributes of power. If wine</l>
+          <l xml:id="A07976_01-e100840">Did not the spirits and the blood refine,</l>
+          <l xml:id="A07976_01-e100850">Making them warm and active, I should throw</l>
+          <l xml:id="A07976_01-e100860">My shafts at rocks of ice, and from my bow</l>
+          <l xml:id="A07976_01-e100870">The winged arrows of desire would fly</l>
+          <l xml:id="A07976_01-e100880">With empty and successless battery. </l>
+          <l xml:id="A07976_01-e100890">If Ceres bounties flowed not, where should I</l>
+          <l xml:id="A07976_01-e100900">Find any flame to light my torches by? </l>
+          <l xml:id="A07976_01-e100910">Fullness and ease assist me more than all</l>
+          <l xml:id="A07976_01-e100920">The helps I have besides. </l>
+        </sp>
+        <sp xml:id="A07976_01-e100930" who="A07976_01-venus">
+          <speaker>Venus.</speaker>
+          <l xml:id="A07976_01-e100940">And therefore shall</l>
+          <l xml:id="A07976_01-e100950">They be preferred? Thou art a foolish boy. </l>
+          <l xml:id="A07976_01-e100960">Their base effects are lust; they love to joy</l>
+          <l xml:id="A07976_01-e100970">In what is sensual only. Our pure heat</l>
+          <l xml:id="A07976_01-e100980">Borrows no activeness from drink or meat;</l>
+          <l xml:id="A07976_01-e100990">It moves more in the soul. God Bacchus shall</l>
+          <l xml:id="A07976_01-e101000">Have his due attributes, and Ceres call</l>
+          <l xml:id="A07976_01-e101010">The plough, crooked sickle, flail and many more</l>
+          <l xml:id="A07976_01-e101020">Her own admired inventions, and the store</l>
+          <l xml:id="A07976_01-e101030">She gathers for men's use. But should the mind</l>
+          <l xml:id="A07976_01-e101040">Make these her only objects, what a blind</l>
+          <l xml:id="A07976_01-e101050"><pb facs="5"/> and dangerous issue of effects would grow</l>
+          <l xml:id="A07976_01-e101060">From such a seed! high spirits strive to know</l>
+          <l xml:id="A07976_01-e101070">More than a common eye sees, and aspire</l>
+          <l xml:id="A07976_01-e101080">Still upwards like the pyramid of fire,</l>
+          <l xml:id="A07976_01-e101090">When earth tends to its centre. We must move</l>
+          <l xml:id="A07976_01-e101100">More than the sense; else 'tis not perfect love. </l>
+          <stage xml:id="A07976_01-e101110">To them Ceres and Bacchus.</stage>
+          <l xml:id="A07976_01-e101120">Here's Ceres and Lyaens. </l>
+        </sp>
+        <sp xml:id="A07976_01-e101130" who="A07976_01-ceres">
+          <speaker>Ceres.</speaker>
+          <l xml:id="A07976_01-e101140">We are told</l>
+          <l xml:id="A07976_01-e101150">By Maia's son that you intend to scold</l>
+          <l xml:id="A07976_01-e101160">With me and Bacchus. </l>
+        </sp>
+        <sp xml:id="A07976_01-e101170" who="A07976_01-venus">
+          <speaker>Venus.</speaker>
+          <l xml:id="A07976_01-e101180">I have cause to chide. </l>
+          <l xml:id="A07976_01-e101190">You'd rob me of my titles, and beside</l>
+          <l xml:id="A07976_01-e101200">Make it a glutton's tenet, there can be</l>
+          <l xml:id="A07976_01-e101210">No love without you. </l>
+        </sp>
+        <sp xml:id="A07976_01-e101220" who="A07976_01-ceres">
+          <speaker>Ceres.</speaker>
+          <l xml:id="A07976_01-e101230">And your deity</l>
+          <l xml:id="A07976_01-e101240">Hath summoned us for this: 'tis very good. </l>
+          <l xml:id="A07976_01-e101250">I must confess you made your father wood</l>
+          <l xml:id="A07976_01-e101260">To ravish fair Europa. Having seen</l>
+          <l xml:id="A07976_01-e101270">Trains of Arcadian virgins on the green</l>
+          <l xml:id="A07976_01-e101280">Tread their chaste measures, or with nimble pace</l>
+          <l xml:id="A07976_01-e101290">Through the Parthenian groves, and thickets chase</l>
+          <l xml:id="A07976_01-e101300">A well-breathed stag, one of them straightways must</l>
+          <l xml:id="A07976_01-e101310">Be tempted to her ruin by his lust:</l>
+          <l xml:id="A07976_01-e101320">And this employment Venus still is thine. </l>
+        </sp>
+        <sp xml:id="A07976_01-e101330" who="A07976_01-venus">
+          <pb facs="6"/>
+          <speaker>Venus.</speaker>
+          <l xml:id="A07976_01-e101340">Ceres is mad still for her Proserpine:</l>
+          <l xml:id="A07976_01-e101350">Whose rape hath made her Queen of the abyss. </l>
+          <l xml:id="A07976_01-e101360">Who to be so rewarded would not kiss</l>
+          <l xml:id="A07976_01-e101370">The black lips of hell's King? and to his bed</l>
+          <l xml:id="A07976_01-e101380">Bring the short pleasures of a maidenhead? </l>
+          <l xml:id="A07976_01-e101390">Repine not at it then. </l>
+        </sp>
+        <sp xml:id="A07976_01-e101400" who="A07976_01-ceres">
+          <speaker>Ceres.</speaker>
+          <l xml:id="A07976_01-e101410">I must whilst day</l>
+          <l xml:id="A07976_01-e101420">Hath any light, or heavens bright eye a ray. </l>
+          <l xml:id="A07976_01-e101430">It was your son's great act to boast of; he</l>
+          <l xml:id="A07976_01-e101440">That suffers not th'infernals to go free</l>
+          <l xml:id="A07976_01-e101450">Of his diseases. </l>
+        </sp>
+        <sp xml:id="A07976_01-e101460" who="A07976_01-bacchus">
+          <speaker>Bacchus.</speaker>
+          <l xml:id="A07976_01-e101470">Rather Ceres' mine:</l>
+          <l xml:id="A07976_01-e101480">For if the God had never tasted wine,</l>
+          <l xml:id="A07976_01-e101490">Not all the heat of his infernal fire</l>
+          <l xml:id="A07976_01-e101500">Could e'er have thawed him into one desire;</l>
+          <l xml:id="A07976_01-e101510">Or kindled the least flame in his cold breast</l>
+          <l xml:id="A07976_01-e101520">Without my virtue. </l>
+        </sp>
+        <sp xml:id="A07976_01-e101530" who="A07976_01-venus">
+          <speaker>Venus.</speaker>
+          <l xml:id="A07976_01-e101540">'Tis an idle jest. </l>
+          <l xml:id="A07976_01-e101550">Doth Bacchus think he can with heat of wine</l>
+          <l xml:id="A07976_01-e101560">Light the bright flame of love, that is divine,</l>
+          <l xml:id="A07976_01-e101570">And burns not from such causes, but takes fire</l>
+          <l xml:id="A07976_01-e101580">From th'elemental part of pure desire</l>
+          <l xml:id="A07976_01-e101590">Unmixed with grossness? Thy effects are foul;</l>
+          <l xml:id="A07976_01-e101600">And motions of the sense, not of the soul. </l>
+          <l xml:id="A07976_01-e101610">Subscribe then to our power; my son and I</l>
+          <l xml:id="A07976_01-e101620">Must have the attributes. </l>
+        </sp>
+        <sp xml:id="A07976_01-e101630" who="A07976_01-ceres">
+          <pb facs="6"/>
+          <speaker>Ceres.</speaker>
+          <l xml:id="A07976_01-e101640">Let him lay by</l>
+          <l xml:id="A07976_01-e101650">His quiver rather. Ceres means to be</l>
+          <l xml:id="A07976_01-e101660">The Queen of love, and Bacchus' deity</l>
+          <l xml:id="A07976_01-e101670">Include all that is Cupids. </l>
+        </sp>
+        <sp xml:id="A07976_01-e101680" who="A07976_01-venus">
+          <speaker>Venus.</speaker>
+          <l xml:id="A07976_01-e101690">First I'll leave</l>
+          <l xml:id="A07976_01-e101700">To be immortal, and myself bereave</l>
+          <l xml:id="A07976_01-e101710">Of all that I can claim above the sky,</l>
+          <l xml:id="A07976_01-e101720">Or under heavens arched roof, if destiny</l>
+          <l xml:id="A07976_01-e101730">May give it confirmation. Take a dart</l>
+          <l xml:id="A07976_01-e101740">And aim it at her proud imperious heart</l>
+          <l xml:id="A07976_01-e101750">To show in thy revenge what thou canst do. </l>
+        </sp>
+        <sp xml:id="A07976_01-e101760" who="A07976_01-cupid">
+          <speaker>Cupid.</speaker>
+          <l xml:id="A07976_01-e101770">I must not mother. We'll refer it to</l>
+          <l xml:id="A07976_01-e101780">Another trial, and if Bacchus can</l>
+          <l xml:id="A07976_01-e101790">Confirm what he so saucily began</l>
+          <l xml:id="A07976_01-e101800">To argue, by example, we'll deny</l>
+          <l xml:id="A07976_01-e101810">Nothing that's due unto his deity. </l>
+        </sp>
+        <sp xml:id="A07976_01-e101820" who="A07976_01-bacchus">
+          <speaker>Bacchus.</speaker>
+          <p xml:id="A07976_01-e101830">Content.</p>
+          <stage xml:id="A07976_01-e101840">To them Christmas and Shrovetide enter. </stage>
+          <stage xml:id="A07976_01-e101850">Christmas is personated by an old reverend gentleman in a furred gown and cap, etc. And Shrovetide by a fat cook with a frying-pan, etc. </stage>
+          <l xml:id="A07976_01-e101860">And see occasion hath complied</l>
+          <l xml:id="A07976_01-e101870">Even with our wish. It cannot be denied</l>
+          <l xml:id="A07976_01-e101880">But these share both our bounties; have free use</l>
+          <l xml:id="A07976_01-e101890">Of all our gifts: and if you'll not refuse</l>
+          <l xml:id="A07976_01-e101900">A trial from them —</l>
+        </sp>
+        <sp xml:id="A07976_01-e101910" who="A07976_01-venus">
+          <pb facs="7"/>
+          <speaker>Venus.</speaker>
+          <l xml:id="A07976_01-e101920">Let them speak, whilst we</l>
+          <l xml:id="A07976_01-e101930">To their dispose refer the victory. </l>
+        </sp>
+        <sp xml:id="A07976_01-e101940" who="A07976_01-shrovetide">
+          <speaker>Shrovetide.</speaker>
+          <p xml:id="A07976_01-e101950">I say Christmas you are passed date, you are out of the almanac. Resign, resign. Let the oven give place to the frying-pan, and mince-pies yield superiority to pancakes and fritters.</p>
+        </sp>
+        <sp xml:id="A07976_01-e101960" who="A07976_01-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A07976_01-e101970">Resign to thee! I that am the King of good cheer and feasting, though I come but once a year to reign over baked, boiled, roast, and plumporridge, will have being in despite of thy lard-ship. Thou art but my fag-end, and I must still be before thee.</p>
+        </sp>
+        <sp xml:id="A07976_01-e101980" who="A07976_01-shrovetide">
+          <speaker>Shrovetide.</speaker>
+          <p xml:id="A07976_01-e101990">But thou wilt never be beforehand. Thou art a prodigal Christmas; and Shrovetide hath seen thee many times in the poultry.</p>
+        </sp>
+        <sp xml:id="A07976_01-e102000" who="A07976_01-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A07976_01-e102010">Dost scorn my liberality, thou reasty bacon, tallow-faced scullion? Though thou be as fat as a Flemming, I'll have lent choke thee with a red-herring.</p>
+        </sp>
+        <sp xml:id="A07976_01-e102020" who="A07976_01-shrovetide">
+          <speaker>Shrovetide.</speaker>
+          <p xml:id="A07976_01-e102030">I'll arm myself for that. In three days I can victual my garrison for seven weeks: and it shall go hard but I will domineer in Lent despite of the thin-chapped surgeon that makes men skillitons.</p>
+        </sp>
+        <sp xml:id="A07976_01-e102040" who="A07976_01-christmas">
+          <pb facs="7"/>
+          <speaker>Christmas.</speaker>
+          <p xml:id="A07976_01-e102050">As how?</p>
+        </sp>
+        <sp xml:id="A07976_01-e102060" who="A07976_01-shrovetide">
+          <speaker>Shrovetide.</speaker>
+          <p xml:id="A07976_01-e102070">At any nobleman's house, I can lick my fingers in a privy kitchen. Though I be out of commons in the hall, there's flesh to be had sometimes in a chamber besides a laundress. The very threepenny ordinary will keep me in an upper gallery, and I can be invisible even in the pie-house. Should all fail, the wenches I got with child shall long, and have the physician's ticket.</p>
+        </sp>
+        <sp xml:id="A07976_01-e102080" who="A07976_01-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A07976_01-e102090">Thou get children!</p>
+        </sp>
+        <sp xml:id="A07976_01-e102100" who="A07976_01-shrovetide">
+          <speaker>Shrovetide.</speaker>
+          <p xml:id="A07976_01-e102110">Yes more than Christmas, and better too: for thine are all unthrifts, whores, or murderers. Thy son in and in, undid many a citizen. Thou hast a daughter called my lady's hole, a filthy black slut she is; and put is common in every bawdy house. 'tis thought Noddy was none of thine own getting, but an alderman's, that in exchange cuckolded thee, when thou wast a courtier. Thou hast one son bred up in the country called Christmas gambols, that doth nothing but break men's necks; and many more that would undo the commonwealth, were it not for the groom porter.</p>
+        </sp>
+        <sp xml:id="A07976_01-e102120" who="A07976_01-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A07976_01-e102130">Dost see these sirrah?</p>
+        </sp>
+        <sp xml:id="A07976_01-e102140" who="A07976_01-shrovetide">
+          <pb facs="8"/>
+          <speaker>Shrovetide.</speaker>
+          <p xml:id="A07976_01-e102150">Ceres and Bacchus: I am their worshipper. Were stews tolerated, and Venus the grand bawd of them, without good meat and drink, your young factors would never be able to break their masters or mistresses, nor your she-silk-worm in cheap care a button for her foreman.</p>
+        </sp>
+        <sp xml:id="A07976_01-e102160" who="A07976_01-ceres">
+          <speaker>Ceres.</speaker>
+          <l xml:id="A07976_01-e102170">Venus being overcome, I hope will yield,</l>
+          <l xml:id="A07976_01-e102180">Now she is vanquished in the open field,</l>
+          <l xml:id="A07976_01-e102190">And her weak forces scattered: nor can they</l>
+          <l xml:id="A07976_01-e102200">Gather new head to make a second fray. </l>
+        </sp>
+        <stage xml:id="A07976_01-e102210">To them Lent enters. </stage>
+        <stage xml:id="A07976_01-e102220">He is figured in a lean man, his habit like trousers, and what other antic devices may be thought proper ▪</stage>
+        <sp xml:id="A07976_01-e102230" who="A07976_01-venus">
+          <speaker>Venus.</speaker>
+          <l xml:id="A07976_01-e102240">Yes: with this champion; and his fresh supply</l>
+          <l xml:id="A07976_01-e102250">I'll wage new war, and call back victory. </l>
+        </sp>
+        <sp xml:id="A07976_01-e102260" who="A07976_01-shrovetide">
+          <speaker>Shrovetide.</speaker>
+          <p xml:id="A07976_01-e102270">This leave thin-gut starveling, begotten by a Spaniard ▪ and nursed at the lower end of Friday-street.</p>
+        </sp>
+        <sp xml:id="A07976_01-e102280" who="A07976_01-lent">
+          <speaker>Lent.</speaker>
+          <p xml:id="A07976_01-e102290">Why thou helluo of hens and bacon, thou house of collops and eggs; thou that makest the kitchen proclaim<pb facs="8"/> its employment through the neighbourhood, with the se●t of thy lard and crumpets, what canst thou boast oft?</p>
+        </sp>
+        <sp xml:id="A07976_01-e102300" who="A07976_01-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A07976_01-e102310">Children, children, thou parched starveling: thou canst get nothing but anatomies.</p>
+        </sp>
+        <sp xml:id="A07976_01-e102320" who="A07976_01-lent">
+          <speaker>Lent.</speaker>
+          <p xml:id="A07976_01-e102330">Children! I get more (I maintain not their lawfulness) than Christmas and Shrovetide. O the virtue of oysters, lobsters, sturgeon, anchoves, and caviary. Why thou grout-headed bladder, puffed with the windiness of pared apples coffered in batter: for every brawn or hog, either Christmas or thyself have demolished; I have a thousand herrings, despite of the Dutchmens wasteful theft, let them rob the four seas never so often. Besides, I couple more than the parson of Pancrace: I mean city woodcocks, with suburb-wagtails.</p>
+        </sp>
+        <sp xml:id="A07976_01-e102340" who="A07976_01-christmas">
+          <speaker>Christmas.</speaker>
+          <p xml:id="A07976_01-e102350">Thou couple!</p>
+        </sp>
+        <sp xml:id="A07976_01-e102360" who="A07976_01-lent">
+          <speaker>Lent.</speaker>
+          <p xml:id="A07976_01-e102370">Who more? Is not s. Valentine's day mine? are not cod's mine, thou codshead, and maids mine? put them together thou wilt find they are things —</p>
+        </sp>
+        <sp xml:id="A07976_01-e102380" who="A07976_01-shrovetide">
+          <speaker>Shrovetide.</speaker>
+          <p xml:id="A07976_01-e102390">Thou art a thing of emptiness, and lent was ever a Jack by conversion.</p>
+        </sp>
+        <sp xml:id="A07976_01-e102400" who="A07976_01-lent">
+          <pb facs="9"/>
+          <speaker>Lent.</speaker>
+          <p xml:id="A07976_01-e102410">Such a jack as can come aloft, and do Venus more credit than thy fullness. Do not I share of Aries, Taurus, and gemini; the inns I lie at in my progress. Yet no cuckold can deny but Aries and Taurus should follow gemini. And it follows, or should, that I having two fathers myself, should get most children.</p>
+        </sp>
+        <sp xml:id="A07976_01-e102420" who="A07976_01-christmas">
+          <speaker>Christmas. </speaker>
+          <p xml:id="A07976_01-e102430">Who were thy fathers prithee?</p>
+        </sp>
+        <sp xml:id="A07976_01-e102440" who="A07976_01-lent">
+          <speaker>Lent.</speaker>
+          <p xml:id="A07976_01-e102450">Devotion and policy; and I have begotten hypocrisy on a holy sister, that despite of all informers would have flesh, her belly full. Let Christmas and Shrovetide eat and drink; I'll be for Venus, though I feed upon nothing but herring-cobs.</p>
+        </sp>
+        <sp xml:id="A07976_01-e102460" who="A07976_01-venus">
+          <speaker>Venus.</speaker>
+          <l xml:id="A07976_01-e102470">Who's now the conqueror? Will Ceres now</l>
+          <l xml:id="A07976_01-e102480">Subscribe unto my power? and Bacchus bow</l>
+          <l xml:id="A07976_01-e102490">To Cupid's awful strength? </l>
+        </sp>
+        <sp xml:id="A07976_01-e102500" who="A07976_01-ceres">
+          <speaker>Ceres.</speaker>
+          <l xml:id="A07976_01-e102510">Not till it is</l>
+          <l xml:id="A07976_01-e102520">Confirmed by better evidence than his. </l>
+        </sp>
+        <sp xml:id="A07976_01-e102530" who="A07976_01-lent">
+          <speaker>Lent.</speaker>
+          <p xml:id="A07976_01-e102540">Then mine ● observe.</p>
+        </sp>
+        <stage xml:id="A07976_01-e102550"><pb facs="9"/>Here the scene suddenly changeth into a prospect, with trees budded, the earth somewhat green, and at one side an old barn, out of which issues a company of beggars, with a bagpipe. </stage>
+        <p xml:id="A07976_01-e102560">See you these good fellows, that prefer the warm sun, before the scraps which niggardly Christmas and Shrovetide feast them with; and would get a better race under a hedge to people new England, than the seperatists that possess it. Whilst they entertain ye, I'll summon the spring, and she shall moderate.</p>
+        <stage xml:id="A07976_01-e102570">The beggar's dance.</stage>
+        <stage xml:id="A07976_01-e102580">Exeunt.</stage>
+        <stage xml:id="A07976_01-e102590">After the dance, is heard the chirping of birds; and whilst the following song is singing, the scene again changeth into a pleasant arbour, in which the spring in a green robe wrought over with flowers presents herself. </stage>
+        <floatingText xml:id="A07976_01-e102600">
+          <body xml:id="A07976_01-e102610">
+            <div type="song" xml:id="A07976_01-e102620">
+              <head>The song.</head>
+              <lg xml:id="A07976_01-e102630">
+                <l xml:id="A07976_01-e102640">See, see a metamorphosis,</l>
+                <l xml:id="A07976_01-e102650">The late grey field now verdant is. </l>
+                <l xml:id="A07976_01-e102660">The sun with warm beams glads the earth,</l>
+                <l xml:id="A07976_01-e102670">And to the springing flowers</l>
+                <l xml:id="A07976_01-e102680">He gives a new and lively birth</l>
+                <l xml:id="A07976_01-e102690">By th'aid of gentle showers. </l>
+                <l xml:id="A07976_01-e102700">The lambs no longer bleat for cold,</l>
+                <l xml:id="A07976_01-e102710">Nor cry for succour from the old:</l>
+                <l xml:id="A07976_01-e102720">But frisk and play with confidence</l>
+                <l xml:id="A07976_01-e102730">Like emblems of true innocence. </l>
+              </lg>
+              <lg xml:id="A07976_01-e102740">
+                <head>Chorus.</head>
+                <l xml:id="A07976_01-e102750">The cheerful birds their voices strain▪</l>
+                <l xml:id="A07976_01-e102760">The cuckoo's hoarse for want of rain. </l>
+                <l xml:id="A07976_01-e102770"><pb facs="10"/>The nightingale doth sweetly sing,</l>
+                <l xml:id="A07976_01-e102780">To welcome in the joyful spring. </l>
+              </lg>
+            </div>
+          </body>
+        </floatingText>
+        <sp xml:id="A07976_01-e102790" who="A07976_01-spring">
+          <speaker>Spring.</speaker>
+          <l xml:id="A07976_01-e102800">Thus break my glories forth that late lay hid</l>
+          <l xml:id="A07976_01-e102810">Within the icy earth, and were forbid</l>
+          <l xml:id="A07976_01-e102820">By winter's nipping cold to show their heads</l>
+          <l xml:id="A07976_01-e102830">Above the snowy covering of their beds. </l>
+          <l xml:id="A07976_01-e102840">The winds not rugged now, but calm and fair,</l>
+          <l xml:id="A07976_01-e102850">Sweep flowery gardens, and perfume the air. </l>
+          <l xml:id="A07976_01-e102860">The woods shrill choristers (Whose frozen throats</l>
+          <l xml:id="A07976_01-e102870">Late wanted motion,) now have found their notes;</l>
+          <l xml:id="A07976_01-e102880">Straining their little organs to sound high,</l>
+          <l xml:id="A07976_01-e102890">And teach men art from nature's harmony. </l>
+          <l xml:id="A07976_01-e102900">Come you to welcome me? </l>
+        </sp>
+        <sp xml:id="A07976_01-e102910" who="A07976_01-ceres">
+          <speaker>Ceres.</speaker>
+          <l xml:id="A07976_01-e102920">Yes lovely maid;</l>
+          <l xml:id="A07976_01-e102930">And to have judgement from you, who most aid</l>
+          <l xml:id="A07976_01-e102940">In love's great work. </l>
+        </sp>
+        <sp xml:id="A07976_01-e102950" who="A07976_01-spring">
+          <speaker>Spring.</speaker>
+          <l xml:id="A07976_01-e102960">Is there a strife between</l>
+          <l xml:id="A07976_01-e102970">The goddess of desire, and plenty's Queen? </l>
+          <l xml:id="A07976_01-e102980">Will they subscribe, I'll moderate. </l>
+        </sp>
+        <sp xml:id="A07976_01-e102990" who="A07976_01-all">
+          <speaker>All.</speaker>
+          <p xml:id="A07976_01-e103000">Content.</p>
+        </sp>
+        <sp xml:id="A07976_01-e103010" who="A07976_01-spring">
+          <speaker>Spring.</speaker>
+          <l xml:id="A07976_01-e103020">First hear my reasons; then my sentence: bent</l>
+          <l xml:id="A07976_01-e103030">'Gainst neither's honours, for I must comply</l>
+          <l xml:id="A07976_01-e103040">With as virtues. Venus' deity</l>
+          <l xml:id="A07976_01-e103050"><pb facs="10"/> is powerful over all; and Ceres gives</l>
+          <l xml:id="A07976_01-e103060">Each that hath being that by which he 〈◊〉</l>
+          <l xml:id="A07976_01-e103070">Yet many times excess perverts the end</l>
+          <l xml:id="A07976_01-e103080">Of pure intentions; and extremes extend</l>
+          <l xml:id="A07976_01-e103090">Their powers to undo those acts are free</l>
+          <l xml:id="A07976_01-e103100">In their own natures from impurity ▪</l>
+          <l xml:id="A07976_01-e103110">Love ought to be Platonic, and divine ▪</l>
+          <l xml:id="A07976_01-e103120">Such as is only kindled, and doth shine</l>
+          <l xml:id="A07976_01-e103130">With beams, that may all dark effects control</l>
+          <l xml:id="A07976_01-e103140">In the refined parts of the glorious soul. </l>
+          <l xml:id="A07976_01-e103150">Men do abuse your gifts, when they delight</l>
+          <l xml:id="A07976_01-e103160">Only to please their sensual appetite,</l>
+          <l xml:id="A07976_01-e103170">And heat the blood from fulness; whence there grows</l>
+          <l xml:id="A07976_01-e103180">No perfect love, but such as only knows</l>
+          <l xml:id="A07976_01-e103190">The coursest difference, and therefore must</l>
+          <l xml:id="A07976_01-e103200">Presume to own no other name but lust. </l>
+          <l xml:id="A07976_01-e103210">In me let temperance teach you to apply</l>
+          <l xml:id="A07976_01-e103220">Things to their best ends; and to rectify</l>
+          <l xml:id="A07976_01-e103230">All motions that intend effects, beside</l>
+          <l xml:id="A07976_01-e103240">What may run clear and currant with the side</l>
+          <l xml:id="A07976_01-e103250">Of purest love: in which let all your jars</l>
+          <l xml:id="A07976_01-e103260">Be reconciled, and finish your stern wars. </l>
+        </sp>
+        <sp xml:id="A07976_01-e103270" who="A07976_01-all">
+          <speaker>All.</speaker>
+          <p xml:id="A07976_01-e103280">Thus we embrace in peace.</p>
+        </sp>
+        <sp xml:id="A07976_01-e103290" who="A07976_01-spring">
+          <speaker>S●●i●g. </speaker>
+          <l xml:id="A07976_01-e103300">And I the spring</l>
+          <l xml:id="A07976_01-e103310">Will lead a moderate measure. Chirps sing</l>
+          <l xml:id="A07976_01-e103320">Your choicest airs; and as our ears they great,</l>
+          <l xml:id="A07976_01-e103330">Unto the music we'll apply our feet. </l>
+        </sp>
+        <stage xml:id="A07976_01-e103340">The spring leads them a measure; after which they retire back to the scene. </stage>
+        <div type="epilogue" xml:id="A07976_01-e103350">
+          <pb facs="11"/>
+          <head>Epilogue.</head>
+          <l xml:id="A07976_01-e103360">I that of all the seasons am the least,</l>
+          <l xml:id="A07976_01-e103370">Though first in time, and usher in the rest,</l>
+          <l xml:id="A07976_01-e103380">Impart my pleasures freely, but desire</l>
+          <l xml:id="A07976_01-e103390">You'll not abuse them with excess. My choir</l>
+          <l xml:id="A07976_01-e103400">Shall sing as every fair one doth become</l>
+          <l xml:id="A07976_01-e103410">A chaste bride, her epithalamium . </l>
+          <l xml:id="A07976_01-e103420">Though they are short be pleased with these, to you</l>
+          <l xml:id="A07976_01-e103430">I yearly will return and bring you new. </l>
+          <p xml:id="A07976_01-e103440">The spring being received into the scene it closeth.</p>
+          <trailer xml:id="A07976_01-e103450">The end.</trailer>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A07976_01"><item xml:id="A07976_01-venus" n="9">
+    <seg type="character_name">A07976_01-venus</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A07976_01-christmas" n="8">
+    <seg type="character_name">A07976_01-christmas</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A07976_01-shrovetide" n="8">
+    <seg type="character_name">A07976_01-shrovetide</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+<item xml:id="A07976_01-ceres" n="7">
+    <seg type="character_name">A07976_01-ceres</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A07976_01-lent" n="6">
+    <seg type="character_name">A07976_01-lent</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A07976_01-spring" n="4">
+    <seg type="character_name">A07976_01-spring</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A07976_01-cupid" n="2">
+    <seg type="character_name">A07976_01-cupid</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07976_01-bacchus" n="2">
+    <seg type="character_name">A07976_01-bacchus</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07976_01-all" n="2">
+    <seg type="character_name">A07976_01-all</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

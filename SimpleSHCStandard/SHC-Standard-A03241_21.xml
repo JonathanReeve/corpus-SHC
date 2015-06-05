@@ -1,0 +1,810 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Amphrisa<date type="creation_date">1635</date></title>
+        <author>Heywood, Thomas</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A03241_21.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">Pleasant dialogues and dramma's, selected out of Lucian, Erasmus, Textor, Ovid, &amp;c. With sundry emblems extracted from the most elegant Iacobus Catsius. As also certaine elegies, epitaphs, and epithalamions or nuptiall songs; anagrams and acrosticks; with divers speeches (upon severall occasions) spoken to their most excellent Majesties, King Charles, and Queene Mary. With other fancies translated from Beza, Bucanan, and sundry Italian poets. By Thomas Heywood.</title>
+            <author>Heywood, Thomas, d. 1641.</author>
+          </titleStmt>
+          <extent>160 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2006 June (TCP phase 1)</date>
+            <idno type="marc">99839810</idno>
+            <idno type="stc">STC (2nd ed.) 13358.</idno>
+            <idno type="stc">Pforzheimer, II, 482.</idno>
+            <idno type="vid">4265</idno>
+            <idno type="DLPS">A03241</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">Pleasant dialogues and dramma's, selected out of Lucian, Erasmus, Textor, Ovid, &amp;c. With sundry emblems extracted from the most elegant Iacobus Catsius. As also certaine elegies, epitaphs, and epithalamions or nuptiall songs; anagrams and acrosticks; with divers speeches (upon severall occasions) spoken to their most excellent Majesties, King Charles, and Queene Mary. With other fancies translated from Beza, Bucanan, and sundry Italian poets. By Thomas Heywood.</title>
+            <author>Heywood, Thomas, d. 1641.</author>
+            <author>Cats, Jacob, 1577-1660.</author>
+            <author>Erasmus, Desiderius, d. 1536.</author>
+            <author>Lucian,</author>
+            <author>Ovid, 43 B.C.-17 or 18 A.D.</author>
+            <author>Ravisius Textor, Joannes, ca. 1480-1524.</author>
+          </titleStmt>
+          <extent>[16], 284, [20] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by R. O[ulton] for R. H[earne] and are to be sold by Thomas Slater at the Swan in Duck-lane,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1637.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Printer's and publisher's names from STC.</p>
+            </note>
+            <note>
+              <p>The first leaf is blank.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Folger Shakespeare Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:id="A03241_21-e100010">
+    <body xml:id="A03241_21-e100020">
+      <div n="21" type="dialogue" xml:id="A03241_21-e100030">
+        <pb facs="104" n="192"/>
+        <div type="argument" xml:id="A03241_21-e100040">
+          <head>The argument of Amphrisa the forsaken shepherdess. </head>
+          <lg xml:id="A03241_21-e100050">
+            <l xml:id="A03241_21-e100060">The innocence, truth, and simplicity</l>
+            <l xml:id="A03241_21-e100070">Of country damsels: what felicity</l>
+            <l xml:id="A03241_21-e100080">They arrive to in their low estate;</l>
+            <l xml:id="A03241_21-e100090">What freedoms they participate,</l>
+            <l xml:id="A03241_21-e100100">What joy, what solace, what content</l>
+            <l xml:id="A03241_21-e100110">To their innocuous life is lent. </l>
+          </lg>
+          <lg xml:id="A03241_21-e100120">
+            <l xml:id="A03241_21-e100130">The humble shed and cottage held</l>
+            <l xml:id="A03241_21-e100140">More safe than gorgeous houses, swelled</l>
+            <l xml:id="A03241_21-e100150">With pomp and wealth. It likewise proves</l>
+            <l xml:id="A03241_21-e100160">More simple truth in their chaste loves,</l>
+            <l xml:id="A03241_21-e100170">Than greater ladies, tympanied </l>
+            <l xml:id="A03241_21-e100180">With much more honour, state, and pride. </l>
+            <l xml:id="A03241_21-e100190">Here's of the willow wreath dispute,</l>
+            <l xml:id="A03241_21-e100200">How, and why worn. What best doth suit</l>
+            <l xml:id="A03241_21-e100210">Forsaken virgins, read and find</l>
+            <l xml:id="A03241_21-e100220">Their characters who prove unkind. </l>
+          </lg>
+        </div>
+        <div type="body_of_dialogue" xml:id="A03241_21-e100230">
+          <stage xml:id="A03241_21-e100240">Enter two shepherdess, Pelopoea and Alope. </stage>
+          <sp xml:id="A03241_21-e100250" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e100260">Good morrow. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100270" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e100280">So to you, fair shepherdess. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100290" who="A03241_21-pelopoea">
+            <speaker>Iel.</speaker>
+            <l xml:id="A03241_21-e100300">What news in our Arcadia? </l>
+          </sp>
+          <sp xml:id="A03241_21-e100310" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e100320">I know none:</l>
+            <l xml:id="A03241_21-e100330">For well you wot it is no news with us,</l>
+            <l xml:id="A03241_21-e100340">That men should prove inconstant. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100350" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e100360">Think you so? </l>
+          </sp>
+          <sp xml:id="A03241_21-e100370" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e100380">Thought's free. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100390" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e100400">I pray can you define methought ? </l>
+          </sp>
+          <sp xml:id="A03241_21-e100410" who="A03241_21-alope">
+            <pb facs="104" n="193"/>
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e100420">Let me bethink myself, I think I can:</l>
+            <l xml:id="A03241_21-e100430">For I have thought of many things ere now. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100440" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e100450">But can you guess what I think? </l>
+          </sp>
+          <sp xml:id="A03241_21-e100460" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e100470">I (Perhaps)</l>
+            <l xml:id="A03241_21-e100480">May jump with your conceit, come near't at least. </l>
+            <l xml:id="A03241_21-e100490">Of colours there are none so opposite</l>
+            <l xml:id="A03241_21-e100500">As white and black: and of the elements</l>
+            <l xml:id="A03241_21-e100510">Than fire and water none more contrary:</l>
+            <l xml:id="A03241_21-e100520">Nor is there ought so antipathied in men,</l>
+            <l xml:id="A03241_21-e100530">As what they think and speak. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100540" who="A03241_21-pelopoea">
+            <speaker>Pelop.</speaker>
+            <l xml:id="A03241_21-e100550">Now let me help you:</l>
+            <l xml:id="A03241_21-e100560">Men's thoughts like courtiers cloaks are often shifted,</l>
+            <l xml:id="A03241_21-e100570">And change as oft as they are truly sifted. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100580" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e100590">This then hath been the cause of women's sorrow;</l>
+            <l xml:id="A03241_21-e100600">Men think today ill, to do worse tomorrow:</l>
+            <l xml:id="A03241_21-e100610">Witness Amphrisa's servant. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100620" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e100630">Pity 'tis,</l>
+            <l xml:id="A03241_21-e100640">So fair a body, and so sweet a soul</l>
+            <l xml:id="A03241_21-e100650">Should be so foully dealt with. Her false lover</l>
+            <l xml:id="A03241_21-e100660">Unkindly hath forsook her. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100670" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e100680">That's the reason</l>
+            <l xml:id="A03241_21-e100690">She's grown into so deep a melancholy. </l>
+            <l xml:id="A03241_21-e100700">I wonder any woman dare trust man,</l>
+            <l xml:id="A03241_21-e100710">Since, like as the chameleons change themselves</l>
+            <l xml:id="A03241_21-e100720">Into all perfect colours saving white;</l>
+            <l xml:id="A03241_21-e100730">● they can to all humours frame their speech,</l>
+            <l xml:id="A03241_21-e100740">●e only to prove honest. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100750" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e100760">You say well. </l>
+            <l xml:id="A03241_21-e100770">But as no worms breed where they feel no warmth,</l>
+            <l xml:id="A03241_21-e100780">No vultures watch where they can find no prey;</l>
+            <l xml:id="A03241_21-e100790">No pirate roves but where he hopes for spoil:</l>
+            <l xml:id="A03241_21-e100800">No none of these false servants wait, but where</l>
+            <l xml:id="A03241_21-e100810">They find a yielding mistress. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100820" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e100830">Indeed light minds are caught with little things,</l>
+            <l xml:id="A03241_21-e100840">And fancy smells to Fennell. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100850" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e100860">But Amphrisa</l>
+            <l xml:id="A03241_21-e100870"><pb facs="105" n="194"/> is held to be the wisest shepherdess</l>
+            <l xml:id="A03241_21-e100880">That lives in our Arcadia. </l>
+          </sp>
+          <sp xml:id="A03241_21-e100890" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e100900">But I have heard,</l>
+            <l xml:id="A03241_21-e100910">Late wit and cheated wisdom to be counted</l>
+            <l xml:id="A03241_21-e100920">Next neighbours unto folly. Shepherd's now,</l>
+            <l xml:id="A03241_21-e100930">The holier that they seem in outward show,</l>
+            <l xml:id="A03241_21-e100940">The hollower are their hearts. By subtle sophistry</l>
+            <l xml:id="A03241_21-e100950">(As I have heard) the best philosophy</l>
+            <l xml:id="A03241_21-e100960">May be perverted. And men's flatteries</l>
+            <l xml:id="A03241_21-e100970">Are just like Circe's riches, which can turn</l>
+            <l xml:id="A03241_21-e100980">Vain glorious fools to asses, credulous fools</l>
+            <l xml:id="A03241_21-e100990">To woodcocks, pretty wanton fools to apes,</l>
+            <l xml:id="A03241_21-e101000">And proud fools into peacocks. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101010" who="A03241_21-pelopoea">
+            <speaker>Pel</speaker>
+            <l xml:id="A03241_21-e101020">But amongst these,</l>
+            <l xml:id="A03241_21-e101030">Amphrisa had no place. </l>
+            <stage xml:id="A03241_21-e101040">Enter Amphrisa seeming discontented. </stage>
+          </sp>
+          <sp xml:id="A03241_21-e101050" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e101060">See, here she comes</l>
+            <l xml:id="A03241_21-e101070">That for herself can answer. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101080" who="A03241_21-pelopoea">
+            <speaker>Pelop.</speaker>
+            <l xml:id="A03241_21-e101090">But 'twere sin</l>
+            <l xml:id="A03241_21-e101100">In us, not to be answered, thus to suffer her</l>
+            <l xml:id="A03241_21-e101110">To pale the cheerful blood in her far cheeks,</l>
+            <l xml:id="A03241_21-e101120">Through wilful passion. Which I'll not endure. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101130" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e101140">Then rouse her from these dumps. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101150" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e101160">You're sad, Amphrisa:</l>
+            <l xml:id="A03241_21-e101170">Sweet may we know the cause? </l>
+            <l xml:id="A03241_21-e101180">Amphrisa. You have prevented</l>
+            <l xml:id="A03241_21-e101190">A strange conceit which somewhat troubled me;</l>
+            <l xml:id="A03241_21-e101200">But by your interruption almost lost. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101210" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e101220">Nay recollect yourself, pray let us hear't. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101230" who="A03241_21-amphrisa">
+            <speaker>Amph.</speaker>
+            <l xml:id="A03241_21-e101240">I was thinking, why Parrasius, drawing youth,</l>
+            <l xml:id="A03241_21-e101250">Made love to tickle one side with a feather,</l>
+            <l xml:id="A03241_21-e101260">To move a smile; and with the other hand</l>
+            <l xml:id="A03241_21-e101270">To sting it with a scorpion. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101280" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e101290">You're stung then. </l>
+            <l xml:id="A03241_21-e101300">But I was thinking on Praxiteles,</l>
+            <l xml:id="A03241_21-e101310">Who drew his mistress thus: look on her one way,</l>
+            <l xml:id="A03241_21-e101320"><pb facs="105" n="195"/> she laughed upon him: straight before, she wept:</l>
+            <l xml:id="A03241_21-e101330">But change the side, and cast your eye adverse,</l>
+            <l xml:id="A03241_21-e101340">And then she appeared sleeping. And so you,</l>
+            <l xml:id="A03241_21-e101350">Fit but your fancies unto such a face,</l>
+            <l xml:id="A03241_21-e101360">You'll never complain of servant. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101370" who="A03241_21-amphrisa">
+            <speaker>Amph.</speaker>
+            <l xml:id="A03241_21-e101380">Then it seems,</l>
+            <l xml:id="A03241_21-e101390">My story's told aforehand. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101400" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e101410">Yes, and rumoured</l>
+            <l xml:id="A03241_21-e101420">Through all Arcadia. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101430" who="A03241_21-amphrisa">
+            <speaker>Amph.</speaker>
+            <l xml:id="A03241_21-e101440">And none pity me? </l>
+          </sp>
+          <sp xml:id="A03241_21-e101450" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e101460">There's none so marble breasted, but doth melt</l>
+            <l xml:id="A03241_21-e101470">To hear of your disaster. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101480" who="A03241_21-amphrisa">
+            <speaker>Amph.</speaker>
+            <l xml:id="A03241_21-e101490">Is there one,</l>
+            <l xml:id="A03241_21-e101500">To whom the cause of my disease is known,</l>
+            <l xml:id="A03241_21-e101510">That can prescribe me cure for't? </l>
+          </sp>
+          <sp xml:id="A03241_21-e101520" who="A03241_21-pelopoea">
+            <speaker>Pelop.</speaker>
+            <l xml:id="A03241_21-e101530">Without feeling</l>
+            <l xml:id="A03241_21-e101540">Your pulse, I know the nature of your grief:</l>
+            <l xml:id="A03241_21-e101550">You have an heat, on which a coldness waits,</l>
+            <l xml:id="A03241_21-e101560">A pain that is endured with pleasantness,</l>
+            <l xml:id="A03241_21-e101570">And makes those sweets you eat have bitter taste:</l>
+            <l xml:id="A03241_21-e101580">It puts eyes in your thoughts, ears in your heart:</l>
+            <l xml:id="A03241_21-e101590">'Twas by desire first bred, by delight nursed,</l>
+            <l xml:id="A03241_21-e101600">And hath of late been weaned by jealousy. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101610" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e101620">But how can these disgusts be remedied,</l>
+            <l xml:id="A03241_21-e101630">Which reason never yet could comprehend? </l>
+          </sp>
+          <sp xml:id="A03241_21-e101640" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e101650">By patience. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101660" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e101670">That's a physic all prescribe,</l>
+            <l xml:id="A03241_21-e101680">But few or none doth follow. Pray what is't? </l>
+          </sp>
+          <sp xml:id="A03241_21-e101690" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e101700">It is the best receipt that can be taken</l>
+            <l xml:id="A03241_21-e101710">Both against love and fortune (Crossed in both.) </l>
+          </sp>
+          <sp xml:id="A03241_21-e101720" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e101730">To wish the best, to think upon the worst,</l>
+            <l xml:id="A03241_21-e101740">And all contingents brook with patience. </l>
+            <l xml:id="A03241_21-e101750">●s a most sovereign medicine. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101760" who="A03241_21-pelopoea">
+            <speaker>Pelop.</speaker>
+            <l xml:id="A03241_21-e101770">And moreover;</l>
+            <l xml:id="A03241_21-e101780">What cannot be redressed with peevishness,</l>
+            <l xml:id="A03241_21-e101790">Ought to be born with patience. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101800" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e101810">Patience? </l>
+            <l xml:id="A03241_21-e101820">She is so like to fortitude herself,</l>
+            <l xml:id="A03241_21-e101830">That by her sweet aspect she appears to be</l>
+            <l xml:id="A03241_21-e101840">Her sister or her daughter. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101850" who="A03241_21-pelopoea">
+            <pb facs="106" n="196"/>
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e101860">The only remedy for injuries, is</l>
+            <l xml:id="A03241_21-e101870">By patience to forget them. And more noble</l>
+            <l xml:id="A03241_21-e101880">It is to yield yourself in triumph to't</l>
+            <l xml:id="A03241_21-e101890">Then to be drawn by force. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101900" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e101910">You have prevailed,</l>
+            <l xml:id="A03241_21-e101920">For I am now your patient; and entreat you,</l>
+            <l xml:id="A03241_21-e101930">Like skilled physicians, study for my health. </l>
+          </sp>
+          <sp xml:id="A03241_21-e101940" who="A03241_21-alope">
+            <speaker>Alop</speaker>
+            <l xml:id="A03241_21-e101950">From their doctors</l>
+            <l xml:id="A03241_21-e101960">The sick expect more art than eloquence:</l>
+            <l xml:id="A03241_21-e101970">And therefore what defect you find in words,</l>
+            <l xml:id="A03241_21-e101980">Expect in our prescriptions. </l>
+            <stage xml:id="A03241_21-e101990">Enter their Queen and two nymphs.</stage>
+          </sp>
+          <sp xml:id="A03241_21-e102000" who="A03241_21-queen">
+            <speaker>Queen</speaker>
+            <l xml:id="A03241_21-e102010">I never was with pastime better pleased;</l>
+            <l xml:id="A03241_21-e102020">So clear a morning, and such temperate air;</l>
+            <l xml:id="A03241_21-e102030">The sun so bright, yet sparing of his heat,</l>
+            <l xml:id="A03241_21-e102040">Made all the toil we took (To chase the stag)</l>
+            <l xml:id="A03241_21-e102050">To seem no labour, but an exercise. </l>
+            <l xml:id="A03241_21-e102060">The wily beast to shun our swift pursuit,</l>
+            <l xml:id="A03241_21-e102070">Forsook the plains, to take the mountain tops. </l>
+            <l xml:id="A03241_21-e102080">Yet maugre the opposure of the rocks</l>
+            <l xml:id="A03241_21-e102090">And cliffs depending to molest our speed</l>
+            <l xml:id="A03241_21-e102100">Our well-tried nymphs, like wild kids climbed those hills</l>
+            <l xml:id="A03241_21-e102110">And thrilled their arrowy javelins after him:</l>
+            <l xml:id="A03241_21-e102120">Nor left the chase, till all those golden heads</l>
+            <l xml:id="A03241_21-e102130">Were new stained in his blood. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102140" who="A03241_21-nymph_1">
+            <speaker>1. Nymph. </speaker>
+            <l xml:id="A03241_21-e102150">It proved, great Queen</l>
+            <l xml:id="A03241_21-e102160">Your active nymphs were better breathed than he,</l>
+            <l xml:id="A03241_21-e102170">For whom we could not overtake, we tired:</l>
+            <l xml:id="A03241_21-e102180">That done, we touched our beagles, and so made</l>
+            <l xml:id="A03241_21-e102190">Both hills and valleys echo to his death. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102200" who="A03241_21-nymph_2">
+            <speaker>2. Nymph. </speaker>
+            <l xml:id="A03241_21-e102210">He stood so long, and made us stray so far,</l>
+            <l xml:id="A03241_21-e102220">Amongst the swains and lovely shepherdess,</l>
+            <l xml:id="A03241_21-e102230">That use to graze their flocks upon these downs;</l>
+            <l xml:id="A03241_21-e102240">The sun must needs pass the meridian,</l>
+            <l xml:id="A03241_21-e102250">Ere we can reach the lodge. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102260" who="A03241_21-queen">
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e102270">The Arcadian girls</l>
+            <l xml:id="A03241_21-e102280">Are of no common beauty; as their habits</l>
+            <l xml:id="A03241_21-e102290"><pb facs="106" n="197"/> much grace the fields; so many of those features</l>
+            <l xml:id="A03241_21-e102300">Mine eye by chance hath glanced on in the chase,</l>
+            <l xml:id="A03241_21-e102310">In mine opinion would become the court. </l>
+            <l xml:id="A03241_21-e102320">They say, these virgins are acute in wit,</l>
+            <l xml:id="A03241_21-e102330">And fluent in conceit, to speak or sing;</l>
+            <l xml:id="A03241_21-e102340">As having oft drunk from the muse's spring. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102350" who="A03241_21-nymph_1">
+            <speaker>1. Nym. </speaker>
+            <l xml:id="A03241_21-e102360">See, royal Queen, where three (Not of the meanest</l>
+            <l xml:id="A03241_21-e102370">Or least to be respected) are retired. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102380" who="A03241_21-queen">
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e102390">Be not too loud, these bows will shelter us;</l>
+            <l xml:id="A03241_21-e102400">Let's listen how they fashion their discourse,</l>
+            <l xml:id="A03241_21-e102410">And how far short the folds and cottages</l>
+            <l xml:id="A03241_21-e102420">Come of the court or city. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102430" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e102440">Nay pray prescribe. 'tis said of all physicians</l>
+            <l xml:id="A03241_21-e102450">What good comes by their physic, the sun sees:</l>
+            <l xml:id="A03241_21-e102460">But in their art, if they have bad success,</l>
+            <l xml:id="A03241_21-e102470">That the earth covers. Howsoe'er I suffer,</l>
+            <l xml:id="A03241_21-e102480">You blameless are. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102490" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e102500">All those that are unskilful</l>
+            <l xml:id="A03241_21-e102510">Will flatter grief till it grow desperate. </l>
+            <l xml:id="A03241_21-e102520">But though you know the use of physic sweet,</l>
+            <l xml:id="A03241_21-e102530">To taste it is unsavoury. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102540" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e102550">Howsoever I am prepared. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102560" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e102570">Imagine first, you never had a servant. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102580" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e102590">Not so: for who can know the sweet of ease,</l>
+            <l xml:id="A03241_21-e102600">That never was in pain? </l>
+          </sp>
+          <sp xml:id="A03241_21-e102610" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e102620">Or say she had,</l>
+            <l xml:id="A03241_21-e102630">Think that he never played false. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102640" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e102650">A mere relapse,</l>
+            <l xml:id="A03241_21-e102660">Before the first be cured, to think him faithful,</l>
+            <l xml:id="A03241_21-e102670">Were but to enter her disease anew,</l>
+            <l xml:id="A03241_21-e102680">To make her grief more violent. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102690" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e102700">But one speak:</l>
+            <l xml:id="A03241_21-e102710">The medicine that's proposed of contraries,</l>
+            <l xml:id="A03241_21-e102720">Can never breed peace of mind. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102730" who="A03241_21-queen">
+            <speaker>(Qu.</speaker>
+            <l xml:id="A03241_21-e102740">All, solid sense.) </l>
+            <l xml:id="A03241_21-e102750">For I perceive, those that are sound themselves,</l>
+            <l xml:id="A03241_21-e102760"><pb facs="107" n="198"/> have still more will to help, than skill to cure. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102770" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e102780">Well, mistress doctor I'll give way to you. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102790" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e102800">Think then you had a servant, and he false;</l>
+            <l xml:id="A03241_21-e102810">For whose sake never more trust perjured man. </l>
+            <l xml:id="A03241_21-e102820">And though some say Jove winks at dovers oaths,</l>
+            <l xml:id="A03241_21-e102830">'Tis (After) with broad eyes to punish them. </l>
+            <l xml:id="A03241_21-e102840">Words should not credit men, but men their words:</l>
+            <l xml:id="A03241_21-e102850">For he that breaks his promise lies to heaven;</l>
+            <l xml:id="A03241_21-e102860">And whom heaven hates, who but would fear to love</l>
+            <l xml:id="A03241_21-e102870">Most cursed 'tis to flatter and forswear;</l>
+            <l xml:id="A03241_21-e102880">And dearth of oaths is blessed barrenness. </l>
+            <l xml:id="A03241_21-e102890">You're sick at heart: the only help for that</l>
+            <l xml:id="A03241_21-e102900">Is, let your heart abhor his treachery,</l>
+            <l xml:id="A03241_21-e102910">And him, for it. You're pained too in the head,</l>
+            <stage xml:id="A03241_21-e102920">She present a wreath of willow</stage>
+            <l xml:id="A03241_21-e102930">For that here's balm made or a willow wreath. </l>
+            <l xml:id="A03241_21-e102940">Let this charmed circle but impale your brows,</l>
+            <l xml:id="A03241_21-e102950">'Tis present help for both. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102960" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e102970">Make this apparent. </l>
+          </sp>
+          <sp xml:id="A03241_21-e102980" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e102990">Thus: all th' Arcadian swains and nymphs that see</l>
+            <l xml:id="A03241_21-e103000">Your brows ingirt with this for saken wreath</l>
+            <l xml:id="A03241_21-e103010">Will take note of his falsehood, and your faith;</l>
+            <l xml:id="A03241_21-e103020">Your innocence, and his inconstancy:</l>
+            <l xml:id="A03241_21-e103030">And those that wear tears in their eyes for you,</l>
+            <l xml:id="A03241_21-e103040">Of love and pity, to be thus abused,</l>
+            <l xml:id="A03241_21-e103050">Will steep their tongues in wormwood and in gall,</l>
+            <l xml:id="A03241_21-e103060">To brand him for his open perjury;</l>
+            <l xml:id="A03241_21-e103070">Their pity, with your patience joined,</l>
+            <l xml:id="A03241_21-e103080">(With this to boot) will prove an absolute cure. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103090" who="A03241_21-amphrisa">
+            <speaker>Amph.</speaker>
+            <l xml:id="A03241_21-e103100">Some ease I find already, crown me then. </l>
+            <stage xml:id="A03241_21-e103110">She is crowned with willow.</stage>
+          </sp>
+          <sp xml:id="A03241_21-e103120" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e103130">May, wheresoever your head you softly pillow,</l>
+            <l xml:id="A03241_21-e103140">Be never more troubled, whilst thus wreathed in willow</l>
+          </sp>
+          <sp xml:id="A03241_21-e103150" who="A03241_21-amphrisa">
+            <speaker>Amph.</speaker>
+            <l xml:id="A03241_21-e103160">Nor shall it, Alope, for from this hour,</l>
+            <l xml:id="A03241_21-e103170">Heart's grief nor heads pain shall of me have power. </l>
+            <l xml:id="A03241_21-e103180">I now have chased hence sorrow. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103190" who="A03241_21-queen">
+            <speaker>Queen.</speaker>
+            <l xml:id="A03241_21-e103200">This conceit</l>
+            <l xml:id="A03241_21-e103210"><pb facs="107" n="199"/> hath taken me highly; and great pity 'tis,</l>
+            <l xml:id="A03241_21-e103220">That such choice wits should find no other ears</l>
+            <l xml:id="A03241_21-e103230">Than those that swains, and flocks, and fowls have. Wit</l>
+            <l xml:id="A03241_21-e103240">So spent, is only treasured in the air. </l>
+            <l xml:id="A03241_21-e103250">The earth hath least part on't. Virgins, good day. </l>
+            <l xml:id="A03241_21-e103260">Nay, do not fall too low. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103270" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e103280">You are our Queen. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103290" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e103300">And lady of our fortunes. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103310" who="A03241_21-queen">
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e103320">By that title</l>
+            <l xml:id="A03241_21-e103330">I do command you then to spare your knees. </l>
+            <l xml:id="A03241_21-e103340">Nay rise. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103350" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e103360">'Tis only by your grace and goodness</l>
+            <l xml:id="A03241_21-e103370">We breathe and live. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103380" who="A03241_21-queen">
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e103390">It is enough to me,</l>
+            <l xml:id="A03241_21-e103400">That you present us such acknowledgement. </l>
+            <l xml:id="A03241_21-e103410">And as for you, fair virgin, I could wish</l>
+            <l xml:id="A03241_21-e103420">Your willow were a laurel. Nay, so 'tis:</l>
+            <l xml:id="A03241_21-e103430">Because all such may be styled conquerors,</l>
+            <l xml:id="A03241_21-e103440">That can subdue their passions. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103450" who="A03241_21-alope">
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e103460">Our fear is,</l>
+            <l xml:id="A03241_21-e103470">That if our rude discourse have touched your ear,</l>
+            <l xml:id="A03241_21-e103480">The coarseness might offend you. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103490" who="A03241_21-queen">
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e103500">Pleased us highly:</l>
+            <l xml:id="A03241_21-e103510">Which that you may perceive in me's unfeignd,</l>
+            <l xml:id="A03241_21-e103520">I charge you, as I am your sovereigness,</l>
+            <l xml:id="A03241_21-e103530">All coyness and evasion set apart,</l>
+            <l xml:id="A03241_21-e103540">To be most free in language. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103550" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e103560">Imposition</l>
+            <l xml:id="A03241_21-e103570">That comes from you is unto us a law,</l>
+            <l xml:id="A03241_21-e103580">Which ought to be kept sacred. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103590" who="A03241_21-queen">
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e103600">I'll as freely</l>
+            <l xml:id="A03241_21-e103610">Command then, as you willing are t'obey,</l>
+            <l xml:id="A03241_21-e103620">For were I not a Queen, I'd wish to be</l>
+            <l xml:id="A03241_21-e103630">As one of you, a witty shepherdess. </l>
+            <l xml:id="A03241_21-e103640">Pray sing me something of your country life,</l>
+            <l xml:id="A03241_21-e103650">To make me more in love with't. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103660" who="A03241_21-amphrisa">
+            <pb facs="108" n="200"/>
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e103670">'Tis our fear; a life that is so mean, so ill expressed</l>
+            <l xml:id="A03241_21-e103680">As needs it must be, (If imposed on us)</l>
+            <l xml:id="A03241_21-e103690">May make you rather loathe it. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103700" who="A03241_21-queen">
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e103710">I had thought</l>
+            <l xml:id="A03241_21-e103720">Courts only had been filled with compliment,</l>
+            <l xml:id="A03241_21-e103730">Of which I see, the cottage is not clear. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103740" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e103750">Give not our simple truth, and fear to offend,</l>
+            <l xml:id="A03241_21-e103760">A character we know not (Gracious Queen)</l>
+            <l xml:id="A03241_21-e103770">But howsoever, if you make us faulty,</l>
+            <l xml:id="A03241_21-e103780">You have the power to pardon. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103790" who="A03241_21-queen">
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e103800">And presume</l>
+            <l xml:id="A03241_21-e103810">That's granted, ere the offence be. </l>
+          </sp>
+          <sp xml:id="A03241_21-e103820" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e103830">Then thus, madam. </l>
+            <stage xml:id="A03241_21-e103840">She sings.</stage>
+            <lg xml:id="A03241_21-e103850">
+              <head>The song.</head>
+              <l xml:id="A03241_21-e103860">We that have known no greater state</l>
+              <l xml:id="A03241_21-e103870">Than this we live in, praise our fate:</l>
+              <l xml:id="A03241_21-e103880">For courtly silks in cares are spent,</l>
+              <l xml:id="A03241_21-e103890">When country's russet breeds content. </l>
+              <l xml:id="A03241_21-e103900">The power of sceptres we admire;</l>
+              <l xml:id="A03241_21-e103910">But sheep-books for our use desire. </l>
+              <l xml:id="A03241_21-e103920">Simple and low is our condition;</l>
+              <l xml:id="A03241_21-e103930">For here with us is no ambition. </l>
+              <l xml:id="A03241_21-e103940">We with the sun our flocks unfold,</l>
+              <l xml:id="A03241_21-e103950">Whose rising makes their fleeces gold. </l>
+              <l xml:id="A03241_21-e103960">"Our music from the birds we borrow;</l>
+              <l xml:id="A03241_21-e103970">" they bidding us, we them, good morrow. </l>
+            </lg>
+            <stage xml:id="A03241_21-e103980">These last two lines twice</stage>
+          </sp>
+          <sp xml:id="A03241_21-e103990" who="A03241_21-queen">
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e104000">Nay, fair ones, what you have begun in song,</l>
+            <l xml:id="A03241_21-e104010">Continue in discourse: we would hear more</l>
+            <l xml:id="A03241_21-e104020">Of your pleased life. </l>
+          </sp>
+          <sp xml:id="A03241_21-e104030" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e104040">Your highness may command. </l>
+            <l xml:id="A03241_21-e104050">Our habits are but course and plain,</l>
+            <l xml:id="A03241_21-e104060">Yet they defend from wind and rain. </l>
+            <l xml:id="A03241_21-e104070">As warm too, in an equal eye</l>
+            <l xml:id="A03241_21-e104080">As those be, stained in scarlet dye. </l>
+            <l xml:id="A03241_21-e104090">Those that have plenty wear (We see)</l>
+            <l xml:id="A03241_21-e104100">But one at once; and so do we. </l>
+          </sp>
+          <sp xml:id="A03241_21-e104110" who="A03241_21-alope">
+            <pb facs="108" n="201"/>
+            <speaker>Alop.</speaker>
+            <l xml:id="A03241_21-e104120">The shepherd with his homespun lass</l>
+            <l xml:id="A03241_21-e104130">As many merry hours doth pass,</l>
+            <l xml:id="A03241_21-e104140">As courtiers with their costly girls,</l>
+            <l xml:id="A03241_21-e104150">Though richly decked in gold and pearls:</l>
+            <l xml:id="A03241_21-e104160">And though but plain, to purpose woo,</l>
+            <l xml:id="A03241_21-e104170">Nay oft-times with less danger too. </l>
+          </sp>
+          <sp xml:id="A03241_21-e104180" who="A03241_21-pelopoea">
+            <speaker>Pel.</speaker>
+            <l xml:id="A03241_21-e104190">Those that delight in dainties store,</l>
+            <l xml:id="A03241_21-e104200">One stomach feed at once, no more. </l>
+            <l xml:id="A03241_21-e104210">And when with homely fare we feast,</l>
+            <l xml:id="A03241_21-e104220">With us it doth as well digest:</l>
+            <l xml:id="A03241_21-e104230">And many times we better speed;</l>
+            <l xml:id="A03241_21-e104240">For our wild fruits no surfeits breed,</l>
+          </sp>
+          <sp xml:id="A03241_21-e104250" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e104260">If we sometimes the willow wear,</l>
+            <l xml:id="A03241_21-e104270">By subtle swains that dare forswear. </l>
+            <l xml:id="A03241_21-e104280">We wonder whence it comes, and fear,</l>
+            <l xml:id="A03241_21-e104290">Th' have been at court, and learned it there. </l>
+            <l xml:id="A03241_21-e104300">If any lady then shall please,</l>
+            <l xml:id="A03241_21-e104310">Whose cheek looks pale through my disease,</l>
+            <l xml:id="A03241_21-e104320">By any faithless servant, or false friend,</l>
+            <l xml:id="A03241_21-e104330">(Being cured myself) this I can give or lend. </l>
+            <stage xml:id="A03241_21-e104340">She offers the willow.</stage>
+          </sp>
+          <sp xml:id="A03241_21-e104350" who="A03241_21-queen">
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e104360">Believe't, a sweet conclusion: for oft-times</l>
+            <l xml:id="A03241_21-e104370">Such things fall out. But we have further heard</l>
+            <l xml:id="A03241_21-e104380">(Besides what now our ears are witness to)</l>
+            <l xml:id="A03241_21-e104390">That as your words keep time, your voices tune;</l>
+            <l xml:id="A03241_21-e104400">So hath the curious motion of your feet</l>
+            <l xml:id="A03241_21-e104410">Been taught to know true measure. You can dance? </l>
+          </sp>
+          <sp xml:id="A03241_21-e104420" who="A03241_21-amphrisa">
+            <speaker>Amp.</speaker>
+            <l xml:id="A03241_21-e104430">Yes royal Princess, as we sing and speak,</l>
+            <l xml:id="A03241_21-e104440">After such rural fashion. </l>
+          </sp>
+          <sp xml:id="A03241_21-e104450" who="A03241_21-queen">
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e104460">If no worse,</l>
+            <l xml:id="A03241_21-e104470">It may become a theatre of eyes,</l>
+            <l xml:id="A03241_21-e104480">Yet wrest no blushes from you. Will you then,</l>
+            <l xml:id="A03241_21-e104490">Since that we parallel in number thus,</l>
+            <l xml:id="A03241_21-e104500">Help us to fill a measure? </l>
+          </sp>
+          <sp xml:id="A03241_21-e104510" who="A03241_21-pelopoea">
+            <speaker>Pelop.</speaker>
+            <l xml:id="A03241_21-e104520">So we thought</l>
+            <l xml:id="A03241_21-e104530">There might no jarring discords grow from us,</l>
+            <l xml:id="A03241_21-e104540">To spoil your better music. </l>
+          </sp>
+          <sp xml:id="A03241_21-e104550" who="A03241_21-queen">
+            <pb facs="109" n="202"/>
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e104560">No such fear. </l>
+            <l xml:id="A03241_21-e104570">Come then, such music as the place will yield,</l>
+            <l xml:id="A03241_21-e104580">We'll instantly make use of. </l>
+            <stage xml:id="A03241_21-e104590">Music sounds, and they dance the measure.</stage>
+          </sp>
+          <sp xml:id="A03241_21-e104600" who="A03241_21-queen">
+            <speaker>Qu.</speaker>
+            <l xml:id="A03241_21-e104610">Complete in all: you have made us now eyewitness</l>
+            <l xml:id="A03241_21-e104620">Of what, relation sparingly hath spoken. </l>
+            <l xml:id="A03241_21-e104630">To encourage which, and that so great a merit</l>
+            <l xml:id="A03241_21-e104640">Pass not without some meed, receive these favours,</l>
+            <l xml:id="A03241_21-e104650">And wear them for our sake. </l>
+            <stage xml:id="A03241_21-e104660">Jewels given.</stage>
+            <l xml:id="A03241_21-e104670">Time bids us part. </l>
+            <l xml:id="A03241_21-e104680">Greater than these we have for you in store,</l>
+            <l xml:id="A03241_21-e104690">And mean hereafter to employ you more. </l>
+          </sp>
+          <trailer xml:id="A03241_21-e104700">Finis.</trailer>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A03241_21"><item xml:id="A03241_21-pelopoea" n="27">
+    <seg type="character_name">A03241_21-pelopoea</seg>
+    <seg type="speech_count">27</seg>
+  </item>
+  <item xml:id="A03241_21-alope" n="24">
+    <seg type="character_name">A03241_21-alope</seg>
+    <seg type="speech_count">24</seg>
+  </item>
+  <item xml:id="A03241_21-amphrisa" n="20">
+    <seg type="character_name">A03241_21-amphrisa</seg>
+    <seg type="speech_count">20</seg>
+  </item>
+  <item xml:id="A03241_21-queen" n="16">
+    <seg type="character_name">A03241_21-queen</seg>
+    <seg type="speech_count">16</seg>
+  </item>
+  <item xml:id="A03241_21-nymph_1" n="2">
+    <seg type="character_name">A03241_21-nymph_1</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+<item xml:id="A03241_21-nymph_2" n="1">
+    <seg type="character_name">A03241_21-nymph_2</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

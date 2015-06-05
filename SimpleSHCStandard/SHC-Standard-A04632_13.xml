@@ -1,0 +1,985 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Entertainment of the Queen and Prince at Althorp (The Satyr)<date type="creation_date">1604</date></title>
+        <author>Jonson, Ben</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Nayoon Ahn</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A04632_13.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The workes of Beniamin Ionson.</title>
+            <author>Jonson, Ben, 1573?-1637.</author>
+          </titleStmt>
+          <extent>441 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 January (TCP phase 1)</date>
+            <idno type="marc">99847709</idno>
+            <idno type="stc">STC (2nd ed.) 14752.</idno>
+            <idno type="stc">Greg, III, p. 1070-3.</idno>
+            <idno type="vid">12766</idno>
+            <idno type="DLPS">A04632</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The workes of Beniamin Ionson.</title>
+            <title type="alt">Works. Vol. 1</title>
+            <title type="alt">Workes of Benjamin Jonson.</title>
+            <author>Jonson, Ben, 1573?-1637.</author>
+            <author>Hole, William, d. 1624,</author>
+          </titleStmt>
+          <extent>[12], 1015, [1] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by W: Stansby, and are to be sould by Rich: Meighen,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>An0 D. 1616.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Mostly in verse.</p>
+            </note>
+            <note>
+              <p>The title page is engraved and signed "Guliel[mus] Hole fecit". The second state of the imprint (see The Library, ser. 6, 8:152-6).</p>
+            </note>
+            <note>
+              <p>The first leaf is blank.</p>
+            </note>
+            <note>
+              <p>The subsidiary plays each have separate dated title pages. Of these, "Every man out of his humour", "Cynthia's revels", and "Poetaster" have title pages in varying states; see Greg for details. Pagination and register are continuous.</p>
+            </note>
+            <note>
+              <p>A number of sheets exist in two different settings, and certain of these appear to be reprints done much later; see Greg and "Studies in Bibliography" 40:106-20.</p>
+            </note>
+            <note>
+              <p>A second volume was published without general title page in 1631.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the British Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:id="A04632_13-e100010">
+    <front xml:id="A04632_13-e100020">
+      <div type="title_page" xml:id="A04632_13-e100030">
+        <pb facs="461"/>
+        <p xml:id="A04632_13-e100040">A particular entertainment of the Queen and prince their highness at Althrope, at the right honourable the lord Spencer's, on Satturday being the 25. of June 1603. as they came first into the kingdom;</p>
+        <p xml:id="A04632_13-e100050">Written by the same author, and not before published.</p>
+        <p xml:id="A04632_13-e100060">The author b. I.</p>
+        <p xml:id="A04632_13-e100070">London, mdcxvi xvi.</p>
+      </div>
+    </front>
+    <body xml:id="A04632_13-e100080">
+      <div type="text" xml:id="A04632_13-e100090">
+        <pb facs="462"/>
+        <pb facs="462" n="871"/>
+        <head>A satire.</head>
+        <p xml:id="A04632_13-e100100">The invention was, to have a satire lodged in a little spinet, by which her majesty, and the prince were to come, who (At the report of certain cornets that were divided in several places of the park, to signify her approach) advanced his head above the top of the wood, wondering, and (With his pipe in his hand) began as followeth.</p>
+        <sp xml:id="A04632_13-e100110" who="A04632_13-satyr">
+          <speaker>Satyre.</speaker>
+          <l xml:id="A04632_13-e100120">Here? there? and everywhere ? </l>
+          <l xml:id="A04632_13-e100130">Some solemnities are near,</l>
+          <l xml:id="A04632_13-e100140">That these changes strike mine ear. </l>
+          <l xml:id="A04632_13-e100150">My pipe and I a part shall bear. </l>
+          <stage xml:id="A04632_13-e100160">And after a short strain with his pipe; again.</stage>
+          <l xml:id="A04632_13-e100170">Look, see; (Beshrew this tree,)</l>
+          <l xml:id="A04632_13-e100180">What may all this wonder be? </l>
+          <l xml:id="A04632_13-e100190">Pipe it, who that list for me:</l>
+          <l xml:id="A04632_13-e100200">I'll fly out abroad, and see. </l>
+          <stage xml:id="A04632_13-e100210">There he leapt down, and gazing the Queen and prince in the face, went forward.</stage>
+          <l xml:id="A04632_13-e100220">That is Cyparissus face! </l>
+          <l xml:id="A04632_13-e100230">And the dame hath Syrinx grace! </l>
+          <l xml:id="A04632_13-e100240">O that pan were now in place,</l>
+          <l xml:id="A04632_13-e100250">Sure, they are of heavenly race. </l>
+        </sp>
+        <stage xml:id="A04632_13-e100260">Here he ran into the wood again, and hid himself whilst to the sound of excellent soft music, that was there concealed in the thicket; there came tripping up the lawn, a bevy of fairies, attending on Mab their Queen, who<pb facs="463" n="872"/> falling into an artificial ring, that was there cut in the path, began to dance a round, whilst their mistress spoke as followeth. </stage>
+        <sp xml:id="A04632_13-e100270" who="A04632_13-fairy">
+          <speaker>Faerie.</speaker>
+          <lg xml:id="A04632_13-e100280">
+            <l xml:id="A04632_13-e100290">Haile, and welcome worthiest Queen,</l>
+            <l xml:id="A04632_13-e100300">Joy had never perfect been,</l>
+            <l xml:id="A04632_13-e100310">To the nymphs that haunt this green,</l>
+            <l xml:id="A04632_13-e100320">Had they not this evening seen. </l>
+          </lg>
+          <lg xml:id="A04632_13-e100330">
+            <l xml:id="A04632_13-e100340">Now they print it on the ground</l>
+            <l xml:id="A04632_13-e100350">With their feet in figures round,</l>
+            <l xml:id="A04632_13-e100360">Marks that will be ever found,</l>
+            <l xml:id="A04632_13-e100370">To remember this glad stound. </l>
+          </lg>
+          <stage xml:id="A04632_13-e100380">The satire peeping out of the bush, said.</stage>
+          <l xml:id="A04632_13-e100390">Trust her not, you bonny-bell,</l>
+          <l xml:id="A04632_13-e100400">She will forty leasings tell,</l>
+          <l xml:id="A04632_13-e100410">I do know her pranks right well. </l>
+        </sp>
+        <sp xml:id="A04632_13-e100420" who="A04632_13-fairy">
+          <speaker>Faerie.</speaker>
+          <l xml:id="A04632_13-e100430">Satire, we must have a spell,</l>
+          <l xml:id="A04632_13-e100440">For your tongue, it runs too fleet. </l>
+        </sp>
+        <sp xml:id="A04632_13-e100450" who="A04632_13-satyr">
+          <speaker>Satyre.</speaker>
+          <l xml:id="A04632_13-e100460">Not so nimbly as your feet,</l>
+          <l xml:id="A04632_13-e100470">When about the cream-bowls sweet,</l>
+          <l xml:id="A04632_13-e100480">You, and all your elves do meet. </l>
+          <stage xml:id="A04632_13-e100490">Here he came hopping forth, and mixing himself with the fairies skipped in, out, and about their circle, while the elves made many offers to catch at him.</stage>
+          <l xml:id="A04632_13-e100500">This is Mab the mistress-fairy,</l>
+          <l xml:id="A04632_13-e100510">That doth nightly rob the dairy,</l>
+          <l xml:id="A04632_13-e100520">And can hurt, or help the cherning,</l>
+          <l xml:id="A04632_13-e100530">(As she please) without discerning. </l>
+        </sp>
+        <sp xml:id="A04632_13-e100540" who="A04632_13-elf">
+          <speaker>Elfe.</speaker>
+          <l xml:id="A04632_13-e100550">Pug, you will anon take warning? </l>
+          <l xml:id="A04632_13-e100560">She, that pinches country wenches,</l>
+          <l xml:id="A04632_13-e100570">If they rub not clean their benches,</l>
+          <l xml:id="A04632_13-e100580">And with sharper nails remembers,</l>
+          <l xml:id="A04632_13-e100590">When they rake not up their embers:</l>
+          <l xml:id="A04632_13-e100600">But if so they chance to feast her,</l>
+          <l xml:id="A04632_13-e100610">In a shoe she drops a tester. </l>
+        </sp>
+        <sp xml:id="A04632_13-e100620" who="A04632_13-elf">
+          <speaker>Elfe.</speaker>
+          <l xml:id="A04632_13-e100630">Shall we strip the skipping jester? </l>
+          <l xml:id="A04632_13-e100640">This is she, that empties cradles,</l>
+          <l xml:id="A04632_13-e100650">Takes out children, puts in ladles:</l>
+          <l xml:id="A04632_13-e100660">Trains forth midwives in their slumber,</l>
+          <l xml:id="A04632_13-e100670">With a sive the holes to number. </l>
+          <l xml:id="A04632_13-e100680">And then leads them, from her boroughs</l>
+          <l xml:id="A04632_13-e100690">Home through ponds, and water furrows. </l>
+        </sp>
+        <sp xml:id="A04632_13-e100700" who="A04632_13-elf">
+          <pb facs="463" n="873"/>
+          <speaker>Elfe.</speaker>
+          <l xml:id="A04632_13-e100710">Shall not all this mocking stir us? </l>
+          <l xml:id="A04632_13-e100720">She can start our Franklin's daughters,</l>
+          <l xml:id="A04632_13-e100730">In their sleep, with shrieks, and laughters,</l>
+          <l xml:id="A04632_13-e100740">And on sweet saint Anne's night,</l>
+          <l xml:id="A04632_13-e100750">Feed them with a promised sight,</l>
+          <l xml:id="A04632_13-e100760">Some of husbands, some of lovers,</l>
+          <l xml:id="A04632_13-e100770">Which an empty dream discovers. </l>
+        </sp>
+        <sp xml:id="A04632_13-e100780" who="A04632_13-elf">
+          <speaker>Elfe.</speaker>
+          <l xml:id="A04632_13-e100790">Satire, vengeance near you hovers,</l>
+          <l xml:id="A04632_13-e100800">And in hope that you would come here</l>
+          <l xml:id="A04632_13-e100810">Yester-eve the lady<note anchored="true" n="*" place="margin" xml:id="A04632_13-e100820">for she was expected here on midsummer day at night, but came not till the day following.</note> summer,</l>
+          <l xml:id="A04632_13-e100830">She invited to a banquet:</l>
+          <l xml:id="A04632_13-e100840">But (In sooth) I con you thank yet,</l>
+          <l xml:id="A04632_13-e100850">That you could so well deceive her</l>
+          <l xml:id="A04632_13-e100860">Of the pride which 'gan upheave her:</l>
+          <l xml:id="A04632_13-e100870">And (By this) would so have blown her,</l>
+          <l xml:id="A04632_13-e100880">As no wood-god should have known her. </l>
+        </sp>
+        <stage xml:id="A04632_13-e100890">Here he skipped into the wood.</stage>
+        <sp xml:id="A04632_13-e100900" who="A04632_13-elf">
+          <speaker>Elfe.</speaker>
+          <l xml:id="A04632_13-e100910">Mistress, this is only spite:</l>
+          <l xml:id="A04632_13-e100920">For you would not yesternight</l>
+          <l xml:id="A04632_13-e100930">Kiss him in the cock-shout light. </l>
+        </sp>
+        <stage xml:id="A04632_13-e100940">And came again.</stage>
+        <sp xml:id="A04632_13-e100950" who="A04632_13-satyr">
+          <speaker>Satyre.</speaker>
+          <l xml:id="A04632_13-e100960">By pan, and thou hast hit it right. </l>
+        </sp>
+        <stage xml:id="A04632_13-e100970">There they laid hold on him, and nipped him.</stage>
+        <sp xml:id="A04632_13-e100980" who="A04632_13-fairy">
+          <speaker>Faery.</speaker>
+          <l xml:id="A04632_13-e100990">Fairies, pinch him black and blue,</l>
+          <l xml:id="A04632_13-e101000">Now you have him, make him rue. </l>
+        </sp>
+        <sp xml:id="A04632_13-e101010" who="A04632_13-satyr">
+          <speaker>Satyre.</speaker>
+          <l xml:id="A04632_13-e101020">O, hold, Mab: I sue. </l>
+        </sp>
+        <sp xml:id="A04632_13-e101030" who="A04632_13-elf">
+          <speaker>Elfe.</speaker>
+          <l xml:id="A04632_13-e101040">Nay, the devil shall have his due. </l>
+        </sp>
+        <stage xml:id="A04632_13-e101050">There he ran quite away and left them in a confusion, while the fairy began again.</stage>
+        <sp xml:id="A04632_13-e101060" who="A04632_13-satyr">
+          <speaker>Satyre.</speaker>
+          <lg xml:id="A04632_13-e101070">
+            <l xml:id="A04632_13-e101080">Pardon lady this wild strain,</l>
+            <l xml:id="A04632_13-e101090">Common with the sylvan train,</l>
+            <l xml:id="A04632_13-e101100">That do skip about this plain:</l>
+            <l xml:id="A04632_13-e101110">Elves, apply your gyre again. </l>
+          </lg>
+          <lg xml:id="A04632_13-e101120">
+            <l xml:id="A04632_13-e101130">And whilst some do hop the ring,</l>
+            <l xml:id="A04632_13-e101140">Some shall play, and some shall sing,</l>
+            <l xml:id="A04632_13-e101150">We'll express in every thing,</l>
+            <l xml:id="A04632_13-e101160"><note anchored="true" n="*" place="margin" xml:id="A04632_13-e101170">quasi Orion's Anna. </note>Orana's welcoming. </l>
+          </lg>
+          <stage xml:id="A04632_13-e101180"><pb facs="464" n="874"/>Song.</stage>
+          <l xml:id="A04632_13-e101190">This is she,</l>
+          <l xml:id="A04632_13-e101200">This is she,</l>
+          <l xml:id="A04632_13-e101210">In whose world of grace</l>
+          <l xml:id="A04632_13-e101220">Every season, person, place,</l>
+          <l xml:id="A04632_13-e101230">That receive her, happy be,</l>
+          <l xml:id="A04632_13-e101240">For with no less,</l>
+          <l xml:id="A04632_13-e101250">Than<note anchored="true" n="*" place="margin" xml:id="A04632_13-e101260">bringing with her the prince, which is the greatest felicity of kingdoms.</note> a kingdom's happiness,</l>
+          <l xml:id="A04632_13-e101270">Doth she private<note anchored="true" n="b" place="margin" xml:id="A04632_13-e101280">for households.</note> lares bless,</l>
+          <l xml:id="A04632_13-e101290">And ours above the rest:</l>
+          <l xml:id="A04632_13-e101300">By how much we deserve it least. </l>
+          <l xml:id="A04632_13-e101310">Long live Oriana</l>
+          <l xml:id="A04632_13-e101320">To exceed (Whom she succeeds) our late Diana. </l>
+        </sp>
+        <sp xml:id="A04632_13-e101330" who="A04632_13-fairy">
+          <speaker>Faery.</speaker>
+          <lg xml:id="A04632_13-e101340">
+            <l xml:id="A04632_13-e101350">Madam, now an end to make,</l>
+            <l xml:id="A04632_13-e101360">Deign a simple gift to take:</l>
+            <l xml:id="A04632_13-e101370">Only for the fairy's sake,</l>
+            <l xml:id="A04632_13-e101380">Who about you still shall wake. </l>
+          </lg>
+          <lg xml:id="A04632_13-e101390">
+            <l xml:id="A04632_13-e101400">'Tis done only to supply,</l>
+            <l xml:id="A04632_13-e101410">His suspected courtesy,</l>
+            <l xml:id="A04632_13-e101420">Who (Since Thamyra did die)</l>
+            <l xml:id="A04632_13-e101430">Hath not brooked a lady's eye,</l>
+          </lg>
+          <lg xml:id="A04632_13-e101440">
+            <l xml:id="A04632_13-e101450">Nor allowed about his place,</l>
+            <l xml:id="A04632_13-e101460">Any of the female race. </l>
+            <l xml:id="A04632_13-e101470">Only we are free to trace</l>
+            <l xml:id="A04632_13-e101480">All his grounds, as he to chase. </l>
+          </lg>
+          <lg xml:id="A04632_13-e101490">
+            <l xml:id="A04632_13-e101500">For which bounty to us lent,</l>
+            <l xml:id="A04632_13-e101510">Of him unknowledged, or unsent,</l>
+            <l xml:id="A04632_13-e101520">We prepared this<note anchored="true" n="*" place="margin" xml:id="A04632_13-e101530">a jewel was given her.</note> compliment,</l>
+            <l xml:id="A04632_13-e101540">And as far from cheap intent,</l>
+          </lg>
+          <lg xml:id="A04632_13-e101550">
+            <l xml:id="A04632_13-e101560">In particular to feed,</l>
+            <l xml:id="A04632_13-e101570">Any hope that should succeed. </l>
+            <l xml:id="A04632_13-e101580">Or our glory by the deed,</l>
+            <l xml:id="A04632_13-e101590">As yourself are from the need. </l>
+          </lg>
+          <lg xml:id="A04632_13-e101600">
+            <l xml:id="A04632_13-e101610">Utter not; we you implore,</l>
+            <l xml:id="A04632_13-e101620">Who did give it, nor wherefore. </l>
+            <l xml:id="A04632_13-e101630">And whenever you restore</l>
+            <l xml:id="A04632_13-e101640">Yourself to us, you shall have more. </l>
+          </lg>
+          <lg xml:id="A04632_13-e101650">
+            <l xml:id="A04632_13-e101660">Highest, happiest Queen farewell,</l>
+            <l xml:id="A04632_13-e101670">But beware you do not tell. </l>
+          </lg>
+        </sp>
+        <stage xml:id="A04632_13-e101680"><pb facs="464" n="875"/>Here the fairies hopped away in a fantastic dance, when on a sudden the satire discovered himself again and came forth. </stage>
+        <sp xml:id="A04632_13-e101690" who="A04632_13-satyr">
+          <speaker>Satyre.</speaker>
+          <l xml:id="A04632_13-e101700">Not tell? Ha, ha, I could smile,</l>
+          <l xml:id="A04632_13-e101710">At this old, and toothless wile. </l>
+          <l xml:id="A04632_13-e101720">Lady, I have been no sleeper,</l>
+          <l xml:id="A04632_13-e101730">She belies the noble keeper. </l>
+          <l xml:id="A04632_13-e101740">Say, that here he like the groves:</l>
+          <l xml:id="A04632_13-e101750">And pursue no foreign loves,</l>
+          <l xml:id="A04632_13-e101760">Is he therefore to be deemed,</l>
+          <l xml:id="A04632_13-e101770">Rude, or savage? or esteemed,</l>
+          <l xml:id="A04632_13-e101780">But a sorry entertainer,</l>
+          <l xml:id="A04632_13-e101790">'Cause he is no common strainer:</l>
+          <l xml:id="A04632_13-e101800">After painted nymphs for favours,</l>
+          <l xml:id="A04632_13-e101810">Or that in his garb he savours</l>
+          <l xml:id="A04632_13-e101820">Little of the nicety,</l>
+          <l xml:id="A04632_13-e101830">In the sprucer courtiery;</l>
+          <l xml:id="A04632_13-e101840">As the rosary of kisses,</l>
+          <l xml:id="A04632_13-e101850">With the oath that never misses,</l>
+          <l xml:id="A04632_13-e101860">This, believe me on the breast,</l>
+          <l xml:id="A04632_13-e101870">And then telling some man's jest,</l>
+          <l xml:id="A04632_13-e101880">Thinking to prefer his wit,</l>
+          <l xml:id="A04632_13-e101890">Equal with his suit by it,</l>
+          <l xml:id="A04632_13-e101900">I mean his clothes: no, no, no,</l>
+          <l xml:id="A04632_13-e101910">Here doth no such humour flow. </l>
+          <l xml:id="A04632_13-e101920">He can neither bribe a grace,</l>
+          <l xml:id="A04632_13-e101930">Nor encounter my lords face</l>
+          <l xml:id="A04632_13-e101940">With a pliant smile, and flatter,</l>
+          <l xml:id="A04632_13-e101950">Though this lately were some matter</l>
+          <l xml:id="A04632_13-e101960">To the making of a courtier. </l>
+          <l xml:id="A04632_13-e101970">Now he hopes he shall resort there,</l>
+          <l xml:id="A04632_13-e101980">Safer, and with more allowance;</l>
+          <l xml:id="A04632_13-e101990">Since a hand hath governance,</l>
+          <l xml:id="A04632_13-e102000">That hath given those customs chase,</l>
+          <l xml:id="A04632_13-e102010">And hath brought his own in place. </l>
+          <l xml:id="A04632_13-e102020">O that now a wish could bring,</l>
+          <l xml:id="A04632_13-e102030">The godlike person of a King,</l>
+          <l xml:id="A04632_13-e102040">Then should even envy find,</l>
+          <l xml:id="A04632_13-e102050">Cause of wonder at the mind</l>
+          <l xml:id="A04632_13-e102060">Of our woodman: but lo, where</l>
+          <l xml:id="A04632_13-e102070">His kingly image doth appear,</l>
+          <l xml:id="A04632_13-e102080">And is all this while neglected. </l>
+          <l xml:id="A04632_13-e102090">Pardon (Lord) you are respected</l>
+          <l xml:id="A04632_13-e102100"><pb facs="465" n="876"/> deep as is the keeper's hart,</l>
+          <l xml:id="A04632_13-e102110">And as dear in every part. </l>
+          <l xml:id="A04632_13-e102120">See, for instance where he sends</l>
+          <l xml:id="A04632_13-e102130"><note anchored="true" place="margin" xml:id="A04632_13-e102140">here the satire fetched out of the wood, the lord Spencer's eldest son, attired and appointed like a huntsman.</note> his son, his heir; who humbly bends</l>
+          <l xml:id="A04632_13-e102150">Low, as is his father's earth,</l>
+          <l xml:id="A04632_13-e102160">To the womb that gave you birth</l>
+          <l xml:id="A04632_13-e102170">So he was directed first,</l>
+          <l xml:id="A04632_13-e102180">Next to you, of whom the thirst</l>
+          <l xml:id="A04632_13-e102190">Of seeing takes away the use</l>
+          <l xml:id="A04632_13-e102200">Of that part, should plead excuse</l>
+          <l xml:id="A04632_13-e102210">For his boldness, which is less</l>
+          <l xml:id="A04632_13-e102220">By his comely shamefacedness. </l>
+          <l xml:id="A04632_13-e102230">Rise up, sir, I will betray,</l>
+          <l xml:id="A04632_13-e102240">All I think you have to say;</l>
+          <l xml:id="A04632_13-e102250">That your father gives you here,</l>
+          <l xml:id="A04632_13-e102260">(Freely as to him you were)</l>
+          <l xml:id="A04632_13-e102270">To the service of this prince:</l>
+          <l xml:id="A04632_13-e102280">And with you these instruments</l>
+          <l xml:id="A04632_13-e102290">Of his wild and sylvan trade,</l>
+          <l xml:id="A04632_13-e102300">Better not Actaeon had. </l>
+          <l xml:id="A04632_13-e102310">The bow was Phoebe's, and the horn,</l>
+          <l xml:id="A04632_13-e102320">By Orion often worn:</l>
+          <l xml:id="A04632_13-e102330">The dog of Sparta breed, and good,</l>
+          <l xml:id="A04632_13-e102340">As can ring within a wood;</l>
+          <l xml:id="A04632_13-e102350">Thence his name is: you shall try</l>
+          <l xml:id="A04632_13-e102360">How he hunteth instantly. </l>
+          <l xml:id="A04632_13-e102370">But perhaps the Queen your mother,</l>
+          <l xml:id="A04632_13-e102380">Rather doth affect some other</l>
+          <l xml:id="A04632_13-e102390">Sport, as coursing: we will prove</l>
+          <l xml:id="A04632_13-e102400">Which her highness most doth love. </l>
+          <l xml:id="A04632_13-e102410">Satyrs let the woods resound,</l>
+          <l xml:id="A04632_13-e102420">They shall have their welcome crowned,</l>
+          <l xml:id="A04632_13-e102430">With a brace of bucks to ground. </l>
+          <stage xml:id="A04632_13-e102440">At that, the whole wood and place resounded with the noise of cornets, horns, and other hunting music, and a brace of choice deer put out, and as fortunately killed, as they were meant to be; even in the sight of her majesty.</stage>
+          <stage xml:id="A04632_13-e102450">This was the first night's show. Where the next day being Sunday, she rested, and on Munday, till after dinner; where there was a speech suddenly thought on, to induce a morrise of the clowns thereabouts, who most officiously presented themselves, but by reason of the throng of the country that came in, their speaker could not be heard, who was in the person of nobody, to deliver this following speech, and attired in a pair of breeches which were made to come up to his neck, with his arms out at his pockets, and a cap drowning his face. </stage>
+          <lg xml:id="A04632_13-e102460">
+            <pb facs="465" n="877"/>
+            <l xml:id="A04632_13-e102470">If my outside move your laughter,</l>
+            <l xml:id="A04632_13-e102480">Pray Jove, my inside be thereafter. </l>
+          </lg>
+          <lg xml:id="A04632_13-e102490">
+            <l xml:id="A04632_13-e102500">Queen, prince, Duke, Earls,</l>
+            <l xml:id="A04632_13-e102510">Countesses; you courtly pearls:</l>
+            <l xml:id="A04632_13-e102520">(And, I hope no mortal sin,</l>
+            <l xml:id="A04632_13-e102530">If I put less ladies in)</l>
+            <l xml:id="A04632_13-e102540">Fair saluted be you all. </l>
+            <l xml:id="A04632_13-e102550">At this time it doth befall,</l>
+            <l xml:id="A04632_13-e102560">We are the usher to a morris,</l>
+            <l xml:id="A04632_13-e102570">(A kind of masque) whereof good store is</l>
+            <l xml:id="A04632_13-e102580">In the country hereabout,</l>
+            <l xml:id="A04632_13-e102590">But this, the choice of all the rout. </l>
+            <l xml:id="A04632_13-e102600">Who, because that no man sent them,</l>
+            <l xml:id="A04632_13-e102610">Have got nobody to present them. </l>
+            <l xml:id="A04632_13-e102620">These are things have no suspicion</l>
+            <l xml:id="A04632_13-e102630">Of their ill doing; nor ambition</l>
+            <l xml:id="A04632_13-e102640">Of their well: but as the pipe</l>
+            <l xml:id="A04632_13-e102650">Shall inspire them, mean to skip. </l>
+            <l xml:id="A04632_13-e102660">They come to see, and to be seen,</l>
+            <l xml:id="A04632_13-e102670">And though they dance afore the Queen,</l>
+            <l xml:id="A04632_13-e102680">There's none of these doth hope to come by</l>
+            <l xml:id="A04632_13-e102690">Wealth, to build another Holmby:</l>
+            <l xml:id="A04632_13-e102700">All those dancing days are done,</l>
+            <l xml:id="A04632_13-e102710">Men must now have more than one</l>
+            <l xml:id="A04632_13-e102720">Grace, to build their fortunes on,</l>
+            <l xml:id="A04632_13-e102730">Else our soles would sure have gone,</l>
+            <l xml:id="A04632_13-e102740">All by this time to our feet. </l>
+            <l xml:id="A04632_13-e102750">I not deny, where graces meet</l>
+            <l xml:id="A04632_13-e102760">In a man, that quality</l>
+            <l xml:id="A04632_13-e102770">Is a graceful property:</l>
+            <l xml:id="A04632_13-e102780">But when dancing is his best,</l>
+            <l xml:id="A04632_13-e102790">(Beshrew me) I suspect the rest. </l>
+            <l xml:id="A04632_13-e102800">But I am nobody, and my breath</l>
+            <l xml:id="A04632_13-e102810">(Soon as it is born) hath death. </l>
+            <l xml:id="A04632_13-e102820">Come on clowns, forsake your dumps,</l>
+            <l xml:id="A04632_13-e102830">And bestir your hobnailed stumps,</l>
+            <l xml:id="A04632_13-e102840">Do your worst, I'll undertake,</l>
+            <l xml:id="A04632_13-e102850">Not a jerk you have shall make</l>
+            <l xml:id="A04632_13-e102860">Any lady here in love. </l>
+            <l xml:id="A04632_13-e102870">Perhaps your fool, or so, may move</l>
+            <l xml:id="A04632_13-e102880">Some lady's woman with a trick,</l>
+            <l xml:id="A04632_13-e102890">And upon it she may pick</l>
+            <l xml:id="A04632_13-e102900">A pair of revelling legs, or two,</l>
+            <l xml:id="A04632_13-e102910">Out of you, with much ado. </l>
+            <l xml:id="A04632_13-e102920"><pb facs="466" n="878"/>But see, the hobby-horse is forgotten. </l>
+            <l xml:id="A04632_13-e102930">Fool, it must be your lot,</l>
+            <l xml:id="A04632_13-e102940">To supply his want with faces,</l>
+            <l xml:id="A04632_13-e102950">And some other buffoon graces,</l>
+            <l xml:id="A04632_13-e102960">You know how; piper play,</l>
+            <l xml:id="A04632_13-e102970">And let nobody hence away. </l>
+          </lg>
+          <stage xml:id="A04632_13-e102980">There was also another parting speech; which was to have been presented in the person of a youth, and accompanied with divers gentlemen's younger sons of the country: but by reason of the multitudinous press, was also hindered. And which we have here adjoined.</stage>
+          <l xml:id="A04632_13-e102990">And will you then, mirror of Queens, depart? </l>
+          <l xml:id="A04632_13-e103000">Shall nothing stay you? not my master's heart? </l>
+          <l xml:id="A04632_13-e103010">That pants to lose the comfort of your light,</l>
+          <l xml:id="A04632_13-e103020">And see his day ere it be old grow night? </l>
+          <l xml:id="A04632_13-e103030">You are a goddess, and your will be done:</l>
+          <l xml:id="A04632_13-e103040">Yet this our last hope is, that as the sun</l>
+          <l xml:id="A04632_13-e103050">Cheers objects far removed, as well as near;</l>
+          <l xml:id="A04632_13-e103060">So, wheresoe'er you shine, you'll sparkle here. </l>
+          <l xml:id="A04632_13-e103070">And you dear lord, on whom my covetous eye</l>
+          <l xml:id="A04632_13-e103080">Doth feed itself, but cannot satisfy,</l>
+          <l xml:id="A04632_13-e103090">Oh shoot up fast in spirit, as in years;</l>
+          <l xml:id="A04632_13-e103100">That when upon her head proud Europe wears</l>
+          <l xml:id="A04632_13-e103110">Her stateliest tire, you may appear thereon</l>
+          <l xml:id="A04632_13-e103120">The richest gem, without a paragon. </l>
+          <l xml:id="A04632_13-e103130">Shine bright and fixed as the Arctic star:</l>
+          <l xml:id="A04632_13-e103140">And when slow time hath made you fit for war,</l>
+          <l xml:id="A04632_13-e103150">Look over the strict ocean, and think where</l>
+          <l xml:id="A04632_13-e103160">You may but lead us forth, that grow up here</l>
+          <l xml:id="A04632_13-e103170">Against a day, when our officious swords</l>
+          <l xml:id="A04632_13-e103180">Shall speak our action better than our words. </l>
+          <l xml:id="A04632_13-e103190">Till then, all good event conspire to crown</l>
+          <l xml:id="A04632_13-e103200">Your parents hopes, our zeal, and your renown. </l>
+          <l xml:id="A04632_13-e103210">Peace usher now your steps, and where you come,</l>
+          <l xml:id="A04632_13-e103220">Be envy still struck blind, and flattery dumb. </l>
+        </sp>
+        <div type="section" xml:id="A04632_13-e103230">
+          <pb facs="466" n="879"/>
+          <head>A private entertainment of the King and Queen, on May-day in the morning, at sir William Cornwalleis his house, at Highgate. 1604.</head>
+          <byline xml:id="A04632_13-e103240">by the same author.</byline>
+          <stage xml:id="A04632_13-e103250">The King, and Queen being entered in at the gate, the penates, or household-gods received them, attired after the antique manner, with javelins in their hands, standing on each side of the porch, with this speech.</stage>
+          <sp xml:id="A04632_13-e103260" who="A04632_13-penates">
+            <speaker>Penates.</speaker>
+            <lg n="1" xml:id="A04632_13-e103270">
+              <head>1.</head>
+              <l xml:id="A04632_13-e103280">Leap light hearts in every breast,</l>
+              <l xml:id="A04632_13-e103290">Joy is now the fittest passion;</l>
+              <l xml:id="A04632_13-e103300">Double majesty hath blessed</l>
+              <l xml:id="A04632_13-e103310">All the place, with that high grace,</l>
+              <l xml:id="A04632_13-e103320">Exceedeth admiration! </l>
+            </lg>
+            <lg n="2" xml:id="A04632_13-e103330">
+              <head>2.</head>
+              <l xml:id="A04632_13-e103340">Welcome, monarch of this isle,</l>
+              <l xml:id="A04632_13-e103350">Europe's envy, and her mirror;</l>
+              <l xml:id="A04632_13-e103360">Great in each part of thy style:</l>
+              <l xml:id="A04632_13-e103370">England's wish, and Scotland's bliss,</l>
+              <l xml:id="A04632_13-e103380">Both France, and Ireland's terror. </l>
+            </lg>
+            <lg n="1" xml:id="A04632_13-e103390">
+              <head>1.</head>
+              <l xml:id="A04632_13-e103400">Welcome, are you; and no less,</l>
+              <l xml:id="A04632_13-e103410">Your admired Queen: the glory</l>
+              <l xml:id="A04632_13-e103420">Both of state, and comeliness. </l>
+              <l xml:id="A04632_13-e103430">Every line of her divine</l>
+              <l xml:id="A04632_13-e103440">Form, is a beauteous story. </l>
+            </lg>
+            <lg n="2" xml:id="A04632_13-e103450">
+              <head>2.</head>
+              <l xml:id="A04632_13-e103460">High in fortune, as in blood,</l>
+              <l xml:id="A04632_13-e103470">So are both; and blood renowned</l>
+              <l xml:id="A04632_13-e103480">By oft falls, that make a flood</l>
+              <l xml:id="A04632_13-e103490">In your veins: yet, all these strains</l>
+              <l xml:id="A04632_13-e103500">Are in your virtues drowned. </l>
+            </lg>
+            <lg n="1" xml:id="A04632_13-e103510">
+              <head>1.</head>
+              <l xml:id="A04632_13-e103520">House, be proud; for of earth's store</l>
+              <l xml:id="A04632_13-e103530">These two, only, are the wonder:</l>
+              <l xml:id="A04632_13-e103540">In them she's rich, and in no more. </l>
+              <l xml:id="A04632_13-e103550">Zeal is bound their praise to sound</l>
+              <l xml:id="A04632_13-e103560">As loud as fame, or thunder. </l>
+            </lg>
+            <lg n="2" xml:id="A04632_13-e103570">
+              <pb facs="467" n="880"/>
+              <head>2.</head>
+              <l xml:id="A04632_13-e103580">Note, but how the air, the spring</l>
+              <l xml:id="A04632_13-e103590">Concur in their devotions;</l>
+              <l xml:id="A04632_13-e103600">Pairs of turtles sit, and sing</l>
+              <l xml:id="A04632_13-e103610">On each tree, o'erjoyed to see</l>
+              <l xml:id="A04632_13-e103620">In them like love, like motions. </l>
+            </lg>
+            <lg n="1" xml:id="A04632_13-e103630">
+              <head>1.</head>
+              <l xml:id="A04632_13-e103640">Enter sir, this longing door,</l>
+              <l xml:id="A04632_13-e103650">Whose glad lord naught could have blessed</l>
+              <l xml:id="A04632_13-e103660">Equally; (I'm sure not more)</l>
+              <l xml:id="A04632_13-e103670">Then this sight: save of your right,</l>
+              <l xml:id="A04632_13-e103680">When you were first possessed. </l>
+            </lg>
+            <lg n="2" xml:id="A04632_13-e103690">
+              <head>2.</head>
+              <l xml:id="A04632_13-e103700">That, indeed, transcended this. </l>
+              <l xml:id="A04632_13-e103710">Since which hour, wherein you gained it. </l>
+              <l xml:id="A04632_13-e103720">For this grace, both he and his,</l>
+              <l xml:id="A04632_13-e103730">Every day, have learned to pray,</l>
+              <l xml:id="A04632_13-e103740">And, now, they have obtained it. </l>
+            </lg>
+          </sp>
+          <stage xml:id="A04632_13-e103750">Here the Penates lead them in, through the house, into the garden, where Mercury, with a second speech, received them, walking before them. </stage>
+          <sp xml:id="A04632_13-e103760" who="A04632_13-mercury">
+            <speaker>Mer.</speaker>
+            <p xml:id="A04632_13-e103770">Retire, you household-gods, and leave these excellent creatures to be entertained by a more eminent deity. Hail King, and Queen of the islands, called truly fortunate, and by you made so; to tell you, who I am, and wear all these notable, and speaking ensigns about me, were to challenge you of most impossible ignorance, and accuse myself of as palpable glory: it is enough that you know me here, and come with the licence of my father Jove, who is the bounty of heaven, to give you early welcome to the bower of my mother Maia, no less the goodness of earth. And may it please you to walk, I will tell you no wonderful story. This place, whereon you are now advanced (By the mighty power of poetry, and the help of a faith, that can remove mountains) is the Arcadian hill Cyllene, the place, where myself was both begotten, and born; and of which I am frequently called Cyllenius: under yond purslane tree stood sometime my cradle. Where, now, behold my mother Maia, sitting in the pride of her plenty, gladding the air with her breath, and cheering the spring with her smiles. At her feet, the blushing Aurora, who, with her rosy hand, casteth her honey dews on those sweeter herbs, accompanied with that gentle wind, Favonius, whose subtle spirit, in the breathing forth, Flora makes into flowers, and sticks them in the grass, as if she contended to have the embroidery of the<pb facs="467" n="881"/> earth, richer than the cope of the sky. Here, for her month, the yearly delicate may keeps state; and from this mount, takes pleasure to display these valleys, yond lesser hills, those statelier edifices, and towers, that seem enamoured so far off, and are reared on end, to behold her, as if their utmost object were her beauties. Hither the dryads of the valley, and nymphs of the great river come every morning, to taste of her favours; and depart away with laps filled with her bounties. But, see! upon your approach their pleasures are instantly remitted. The birds are hushed, Zephyre is still, the morn forbears her office, Flora is dumb, and herself amazed, to behold two such marvels, that do more adorn place, than she can time; pardon, your majesty, the fault, for it is that hath caused it; and till they can collect their spirits, think silence, and wonder the best adoration.</p>
+          </sp>
+          <stage xml:id="A04632_13-e103780">Here, Aurora, Zephyrus, and Flora, began this song in three parts. </stage>
+          <stage xml:id="A04632_13-e103790">Song.</stage>
+          <l xml:id="A04632_13-e103800">See, see, o see, who here is come a-maying! </l>
+          <l xml:id="A04632_13-e103810">The master of the ocean;</l>
+          <l xml:id="A04632_13-e103820">And his beauteous Orian:</l>
+          <l xml:id="A04632_13-e103830">Why left we off our playing? </l>
+          <l xml:id="A04632_13-e103840">To gaze, to gaze,</l>
+          <l xml:id="A04632_13-e103850">On them, that gods no less than men amaze. </l>
+          <l xml:id="A04632_13-e103860">Up nightingale, and sing</l>
+          <l xml:id="A04632_13-e103870">Jug, jug, jug, jug, etc. </l>
+          <l xml:id="A04632_13-e103880">Raise lark thy note, and wing,</l>
+          <l xml:id="A04632_13-e103890">All birds their music bring,</l>
+          <l xml:id="A04632_13-e103900">Sweet Robin, linnet, thrush,</l>
+          <l xml:id="A04632_13-e103910">Record, from every bush,</l>
+          <l xml:id="A04632_13-e103920">The welcome of the King;</l>
+          <l xml:id="A04632_13-e103930">And Queen:</l>
+          <l xml:id="A04632_13-e103940">Whose like were never seen,</l>
+          <l xml:id="A04632_13-e103950">For good, for fair. </l>
+          <l xml:id="A04632_13-e103960">Nor can be; though fresh may,</l>
+          <l xml:id="A04632_13-e103970">Should every day</l>
+          <l xml:id="A04632_13-e103980">Invite a several pair,</l>
+          <l xml:id="A04632_13-e103990">No, though she should invite a several pair. </l>
+          <stage xml:id="A04632_13-e104000">Which ended: Maia (Seated in her bower, with all those personages about her, as before described) began to raise herself, and, then declining, spoke. </stage>
+          <sp xml:id="A04632_13-e104010" who="A04632_13-mai">
+            <speaker>Mai.</speaker>
+            <lg xml:id="A04632_13-e104020">
+              <l xml:id="A04632_13-e104030">If all the pleasures were distilled</l>
+              <l xml:id="A04632_13-e104040">Of every flower, in every field,</l>
+              <pb facs="468" n="884"/>
+              <pb facs="468" n="885"/>
+              <pb facs="469" n="880"/>
+              <pb facs="469" n="881"/>
+              <l xml:id="A04632_13-e104050"><pb facs="470" n="882"/> and all that Hibla hives do yield</l>
+              <l xml:id="A04632_13-e104060">Were into one broad mazor filled;</l>
+              <l xml:id="A04632_13-e104070">If, thereto, added all the gums,</l>
+              <l xml:id="A04632_13-e104080">And spice, that from Panchaia comes,</l>
+              <l xml:id="A04632_13-e104090">The odour, that Hydaspes lends</l>
+              <l xml:id="A04632_13-e104100">Or phoenix proves, before she ends;</l>
+              <l xml:id="A04632_13-e104110">If all the air, my Flora drew,</l>
+              <l xml:id="A04632_13-e104120">Or spirit, that Zephyre ever blew;</l>
+              <l xml:id="A04632_13-e104130">Were put therein; and and all the dew</l>
+              <l xml:id="A04632_13-e104140">That ever rosy morning knew;</l>
+              <l xml:id="A04632_13-e104150">Yet, all diffused upon this bower,</l>
+              <l xml:id="A04632_13-e104160">To make one sweet detaining hour,</l>
+              <l xml:id="A04632_13-e104170">Were much too little for the grace,</l>
+              <l xml:id="A04632_13-e104180">And honour, you vouchsafe the place. </l>
+              <l xml:id="A04632_13-e104190">But, if you please to come again,</l>
+              <l xml:id="A04632_13-e104200">We vow, we will not then, with vain,</l>
+              <l xml:id="A04632_13-e104210">And empty pass-times entertain,</l>
+              <l xml:id="A04632_13-e104220">Your so desired, though grieved pain. </l>
+              <l xml:id="A04632_13-e104230">For, we will have the wanton fawns,</l>
+              <l xml:id="A04632_13-e104240">That frisking skip, about the lawns,</l>
+              <l xml:id="A04632_13-e104250">The paniskes, and the sylvans rude,</l>
+              <l xml:id="A04632_13-e104260">Satires, and all that multitude,</l>
+              <l xml:id="A04632_13-e104270">To dance their wilder rounds about,</l>
+              <l xml:id="A04632_13-e104280">And cleave the air, with many a shout,</l>
+              <l xml:id="A04632_13-e104290">As they would hunt poor echo out</l>
+              <l xml:id="A04632_13-e104300">Of yonder valley, who doth flout</l>
+              <l xml:id="A04632_13-e104310">Their rustic noise. To visit whom</l>
+              <l xml:id="A04632_13-e104320">You shall behold whole bevies come</l>
+              <l xml:id="A04632_13-e104330">Of gaudy nymphs, who tender calls</l>
+              <l xml:id="A04632_13-e104340">Well tuned (Unto the many falls</l>
+              <l xml:id="A04632_13-e104350">Of sweet, and several sliding rills,</l>
+              <l xml:id="A04632_13-e104360">That stream from tops of those less hills)</l>
+              <l xml:id="A04632_13-e104370">Sound like so many silver quills</l>
+              <l xml:id="A04632_13-e104380">When Zephyre them with music fills. </l>
+              <l xml:id="A04632_13-e104390">For these, Favonius here shall blow</l>
+              <l xml:id="A04632_13-e104400">New flowers, which you shall see to grow,</l>
+              <l xml:id="A04632_13-e104410">Of which, each hand a part shall take,</l>
+              <l xml:id="A04632_13-e104420">And, for your heads, fresh garlands make. </l>
+              <l xml:id="A04632_13-e104430">Wherewith, whilst they your temples round,</l>
+              <l xml:id="A04632_13-e104440">An air of several birds shall sound</l>
+              <l xml:id="A04632_13-e104450">An Iö paean, that shall drown</l>
+              <l xml:id="A04632_13-e104460">The acclamations, at your crown. </l>
+            </lg>
+            <lg xml:id="A04632_13-e104470">
+              <l xml:id="A04632_13-e104480">All this, and more than I have gift of saying,</l>
+              <l xml:id="A04632_13-e104490">May vows, so you will oft come here a masing. </l>
+            </lg>
+          </sp>
+          <sp xml:id="A04632_13-e104500" who="A04632_13-mercury">
+            <pb facs="470" n="883"/>
+            <speaker>Mer.</speaker>
+            <p xml:id="A04632_13-e104510">And Mercury, her son, shall venture the displeasure of his father, with the whole bench of heaven, that day, but he will do his mother's intents all serviceable assistance. Till then, and ever, live high and happy, you, and your other you; both envied for your fortunes, loved for your graces, and admired for your virtues.</p>
+          </sp>
+          <stage xml:id="A04632_13-e104520">This was the morning's entertainment; after dinner, the King, and Queen coming again into the garden, Mercury the second time accosted them. </stage>
+          <sp xml:id="A04632_13-e104530" who="A04632_13-mercury">
+            <speaker>Mer.</speaker>
+            <p xml:id="A04632_13-e104540">Again, great pair, I salute you; and with leave of all the gods: whose high pleasure it is, that Mercury make this your holiday. May all the blessings both of earth, and heaven, concur to thank you: for till this day's sun, I have faintly enjoyed a minute's rest to my creation. Now, I do, and acknowledge it you sole, and no less the divine benefit. If my desire to delight you, might not divert to your trouble, I would entreat your eyes to a new, and strange spectacle; a certain son of mine, whom the Arcadians call a god, howsoever the rest of the world receive him: it is the horned pan, whom in the translated figure of a goat I begotten on the fair Spartan Penelope; may, let both your ears, and looks forgive it: these are but the lightest escapes of our deities. And, it is better in me, to prevent his rustic impudence, by my blushing acknowledgement, then, anon, by his rude, and not insolent claim, be enforced to confess him. Yonder he keeps, and with him the wood nymphs, whose leader he is in rounds, and dances, to this sylvan music. The place, about which they skip, is the fount of laughter, or Bacchus spring; whose statue is advanced on the top; and from whose pipes, at an observed hour of the day, there flows a lusty liquor, that hath the present virtue to expel sadness; and within certain minutes after it is tasted, force all the mirth of the spleen into the face. Of this is pan the guardian. Lo! the fountain begins to run, but the nymphs at your sight are fled. Pan, and his satires wildly stand at gaze. I will approach, and question him: vouchsafe your ear, and forgive his behaviour, which (Even to me, that am his parent) will no doubt be rude enough, though otherwise full of salt, which, except my presence did temper, might turn to be gall, and bitterness; but that shall charm him.</p>
+          </sp>
+          <sp xml:id="A04632_13-e104550" who="A04632_13-pan">
+            <speaker>Pan.</speaker>
+            <l xml:id="A04632_13-e104560">O, it is Mercury! Hollow 'em, again,</l>
+            <l xml:id="A04632_13-e104570">What be all these, father? gods, or men? </l>
+          </sp>
+          <sp xml:id="A04632_13-e104580" who="A04632_13-mercury">
+            <speaker>Mer.</speaker>
+            <p xml:id="A04632_13-e104590">All humane. Only, these two are deities on earth, but such, as the greatest powers of heaven may resign to.</p>
+          </sp>
+          <sp xml:id="A04632_13-e104600" who="A04632_13-pan">
+            <speaker>Pan.</speaker>
+            <l xml:id="A04632_13-e104610">Why did our nymphs run away? can you tell? </l>
+            <l xml:id="A04632_13-e104620">Here be sweet beauty's love Mercury well? </l>
+            <l xml:id="A04632_13-e104630">I see by their looks. How say you? great master? </l>
+            <l xml:id="A04632_13-e104640">Will you please to here? Shall I be your taster? </l>
+          </sp>
+          <sp xml:id="A04632_13-e104650" who="A04632_13-mercury">
+            <pb facs="471" n="884"/>
+            <speaker>Mer.</speaker>
+            <l xml:id="A04632_13-e104660">Pan, you are too rude. </l>
+          </sp>
+          <sp xml:id="A04632_13-e104670" who="A04632_13-pan">
+            <speaker>Pan.</speaker>
+            <l xml:id="A04632_13-e104680">It is but a glass,</l>
+            <l xml:id="A04632_13-e104690">By my beard, and my horns, 'tis a health, and shall pass. </l>
+            <l xml:id="A04632_13-e104700">Were he a King, and his mistress a Queen</l>
+            <l xml:id="A04632_13-e104710">This draught shall make him a petulant spleen. </l>
+            <l xml:id="A04632_13-e104720">But, trow, is he loose, or costive of laughter? </l>
+            <l xml:id="A04632_13-e104730">I'd know, to fill him his glass, thereafter,</l>
+            <l xml:id="A04632_13-e104740">Sure, either my skill, or my sight doth mock,</l>
+            <l xml:id="A04632_13-e104750">Or this lordings look should not care for the smock;</l>
+            <l xml:id="A04632_13-e104760">And yet he should love both a horse and a hound,</l>
+            <l xml:id="A04632_13-e104770">And not rest till he saw his game on the ground:</l>
+            <l xml:id="A04632_13-e104780">Well, look to him, dame; beshrew me were I</l>
+            <l xml:id="A04632_13-e104790">Amongst these bonny-bells, you should need a good eye. </l>
+            <l xml:id="A04632_13-e104800">Here mistress; all out. Since a god is your skinker:</l>
+            <l xml:id="A04632_13-e104810">By my hand, I believe you were born a good drinker. </l>
+            <l xml:id="A04632_13-e104820">They are things of no spirit, their blood is asleep,</l>
+            <l xml:id="A04632_13-e104830">That, when it is offered 'em do not drink deep. </l>
+            <l xml:id="A04632_13-e104840">Come, who is next? Our liquor here cools. </l>
+            <l xml:id="A04632_13-e104850">Ladies, I'm sure, you all ha' not fools</l>
+            <l xml:id="A04632_13-e104860">At home to laugh at. A little of this,</l>
+            <l xml:id="A04632_13-e104870">Ta'en down here in private, were not amiss. </l>
+            <l xml:id="A04632_13-e104880">Believe it, she drinks like a wench, that had store</l>
+            <l xml:id="A04632_13-e104890">Of lord for her laughter, will you have more? </l>
+            <l xml:id="A04632_13-e104900">What answer you, lordings? will you any, or none? </l>
+            <l xml:id="A04632_13-e104910">Laugh, and be fat, sir, your penance is known. </l>
+            <l xml:id="A04632_13-e104920">They that love mirth, let 'em heartily drink,</l>
+            <l xml:id="A04632_13-e104930">'Tis the only receipt, to make sorrow sink. </l>
+            <l xml:id="A04632_13-e104940">The young nymph, that's troubled with an old man,</l>
+            <l xml:id="A04632_13-e104950">Let her laugh him away, as fast as he can. </l>
+            <l xml:id="A04632_13-e104960">Nay drink, and not pause, as who would say must you? </l>
+            <l xml:id="A04632_13-e104970">But laugh at the wench, that next doth trust you. </l>
+            <l xml:id="A04632_13-e104980">To you, sweet beauty; nay, pray you come hither:</l>
+            <l xml:id="A04632_13-e104990">Ere you sit out, you'll laugh at a feather. </l>
+            <l xml:id="A04632_13-e105000">I'll never fear you, for being too witty,</l>
+            <l xml:id="A04632_13-e105010">You sip, so like a forsooth of the city,</l>
+            <l xml:id="A04632_13-e105020">Lords, for yourselves, your own cups crown,</l>
+            <l xml:id="A04632_13-e105030">The ladies, i'faith, else will laugh you down. </l>
+            <l xml:id="A04632_13-e105040">Go to, little blushet, for this, anon,</l>
+            <l xml:id="A04632_13-e105050">You'll steal forth a laugh in the shade of your fan. </l>
+            <l xml:id="A04632_13-e105060">This, and another thing, I can tell you,</l>
+            <l xml:id="A04632_13-e105070">Will breed a laughter, as low as your belly</l>
+            <l xml:id="A04632_13-e105080">Of such sullen pieces, Jove send us not many,</l>
+            <l xml:id="A04632_13-e105090">They must be tickled, before they will any. </l>
+            <l xml:id="A04632_13-e105100">What have we done? They that want, let 'em call,</l>
+            <l xml:id="A04632_13-e105110">Gallants, of both sides, you see here is all. </l>
+            <l xml:id="A04632_13-e105120"><pb facs="471" n="885"/>Pan's entertainment: look for no more. </l>
+            <l xml:id="A04632_13-e105130">Only, good faces, I read you, make store</l>
+            <l xml:id="A04632_13-e105140">Of your amorous knights, and squires hereafter,</l>
+            <l xml:id="A04632_13-e105150">They are excellent sponges, to drink up your laughter. </l>
+            <l xml:id="A04632_13-e105160">Farewell, I must seek out my nymphs, that you frighted;</l>
+            <l xml:id="A04632_13-e105170">Thank Hermes, my father, if ought have delighted. </l>
+          </sp>
+          <sp xml:id="A04632_13-e105180" who="A04632_13-mercury">
+            <speaker>Mer.</speaker>
+            <p xml:id="A04632_13-e105190">I am sure, thy last rudeness cannot; for it makes me seriously ashamed. I will not labour his excuse, since I know you more ready to pardon, than he to trespass: but, for your singular patience, tender you all abundance of thanks; and, mixing with the master of the place, in his wishes, make them my divinations: that your loves be ever flourishing as may, and your house as fruitful: that your acts exceed the best, and your years the longest of your predecessors: that no bad fortune touch you, nor good change you. But still, that you triumph, in this facility, over the ridiculous pride of other princes; and for ever live safe in the love, rather, than the fear of your subjects.</p>
+          </sp>
+          <p xml:id="A04632_13-e105200">And thus it ended. </p>
+          <closer xml:id="A04632_13-e105210">
+            <signed xml:id="A04632_13-e105220">Ben Jonson.</signed>
+          </closer>
+        </div>
+        <div type="section" xml:id="A04632_13-e105230">
+          <head>The entertainment of the two Kings of great Britain and Denmark at Theobald's, July 24. 1606.</head>
+          <p xml:id="A04632_13-e105240">The Kings being entered the inner court; above, over the porch, sat the three hours, upon clouds, as at the ports of heaven; crowned with several flowers: of which, one bore a sundial; the other, a clock; the third, an hourglass; signifying as by their names, law, justice, and peace. And for those faculties chosen to gratulate their coming with this speech.</p>
+          <quote xml:id="A04632_13-e105250">
+            <l xml:id="A04632_13-e105260">Enter, o longed for princes, bless these bowers,</l>
+            <l xml:id="A04632_13-e105270">And us, the three, by you made happy, hours:</l>
+            <l xml:id="A04632_13-e105280">We that include all time, yet never knew</l>
+            <l xml:id="A04632_13-e105290">Minute like this, or object like to you. </l>
+            <l xml:id="A04632_13-e105300">Two Kings, the world's prime honours, whose access</l>
+            <l xml:id="A04632_13-e105310">Shows either's greatness, yet makes neither less:</l>
+            <l xml:id="A04632_13-e105320">Vouchsafe your thousand welcomes in this shower;</l>
+            <l xml:id="A04632_13-e105330">The master vows, not sibyl's leaves were truer. </l>
+          </quote>
+          <p xml:id="A04632_13-e105340"><pb facs="472" n="886"/>Expressed to the King of Denmark thus. </p>
+          <quote xml:id="A04632_13-e105350">
+            <l xml:id="A04632_13-e105360">Qui colit has aedeis, ingentia gaudia adumbrans,</l>
+            <l xml:id="A04632_13-e105370">Cernendo reges pace coïre pares,</l>
+            <l xml:id="A04632_13-e105380">Nos tempestivas, ad limina, collocat horas,</l>
+            <l xml:id="A04632_13-e105390">Quòd bona sub nobis omnia proveniant. </l>
+            <l xml:id="A04632_13-e105400">Unum ad laetitiae cumulum tristatur abesse,</l>
+            <l xml:id="A04632_13-e105410">Quòd nequeat signis laetitiam exprimere. </l>
+            <l xml:id="A04632_13-e105420">Sed, quia res solùm ingentes hâc parte laborant</l>
+            <l xml:id="A04632_13-e105430">Utcunque expressam credidit esse satis. </l>
+            <l xml:id="A04632_13-e105440">At, quod non potuit dominus, supplevit abunde</l>
+            <l xml:id="A04632_13-e105450">Frondoso tellus munere facta loquax. </l>
+            <l xml:id="A04632_13-e105460">Eccos quàm grati veniant quos terra salutat! </l>
+            <l xml:id="A04632_13-e105470">Verior his folijs nulla Sibylla fuit. </l>
+          </quote>
+          <p xml:id="A04632_13-e105480">The inscriptions on the walls were,<quote xml:id="A04632_13-e105490"><l xml:id="A04632_13-e105500">Date veniam subitis. </l><l xml:id="A04632_13-e105510">Debentur qvae sunt qvaeque fvtvra. </l></quote></p>
+          <div type="subsection" xml:id="A04632_13-e105520">
+            <head>Epigrams hung up.</head>
+            <quote xml:id="A04632_13-e105530">
+              <lg xml:id="A04632_13-e105540">
+                <head>Ad reges serenissimos:</head>
+                <l xml:id="A04632_13-e105550">Saepè theobaldae (Sortis bonitate beatae)</l>
+                <l xml:id="A04632_13-e105560">Excepêre svos sub pia tecta deos;</l>
+                <l xml:id="A04632_13-e105570">Haud simul at geminos: sed enim potuisse negabant:</l>
+                <l xml:id="A04632_13-e105580">Nec fas est tales posse putare dvos. </l>
+                <l xml:id="A04632_13-e105590">Fortunata antehâc, sed nunc domus undique faelix,</l>
+                <l xml:id="A04632_13-e105600">At dominus quantò (Si licet usque) magis! </l>
+                <l xml:id="A04632_13-e105610">Et licet, o magni, folijs si siditis istis,</l>
+                <l xml:id="A04632_13-e105620">Quêis horae summam contribuere fidem. </l>
+              </lg>
+              <lg xml:id="A04632_13-e105630">
+                <head>Ad serenissimum jacobum.</head>
+                <l xml:id="A04632_13-e105640">Miraris, cur hospitio te accepimus horae,</l>
+                <l xml:id="A04632_13-e105650">Cuius ad obsequium non satis annus erat? </l>
+                <l xml:id="A04632_13-e105660">Nempè quòd adueniant ingentia gaudia raro,</l>
+                <l xml:id="A04632_13-e105670">Et quando adueniant vix datur hora frui. </l>
+              </lg>
+              <lg xml:id="A04632_13-e105680">
+                <head>Ad serenissimum christianum.</head>
+                <l xml:id="A04632_13-e105690">Miraris, cur hospitio te accepimus horae,</l>
+                <l xml:id="A04632_13-e105700">Quas solis famulas Graecia docta vocat? </l>
+                <l xml:id="A04632_13-e105710">Talis ab aduentu vestro lux fulsit in aedeis,</l>
+                <l xml:id="A04632_13-e105720">Ut dominus solemn crederet esse nowm. </l>
+              </lg>
+            </quote>
+          </div>
+          <div type="subsection" xml:id="A04632_13-e105730">
+            <pb facs="472" n="887"/>
+            <head>Others, at their departure.</head>
+            <lg xml:id="A04632_13-e105740">
+              <head>Ad serenissimum jacobum.</head>
+              <l xml:id="A04632_13-e105750">Hospitio qui te caepit, famulantibus horis,</l>
+              <l xml:id="A04632_13-e105760">Cedere abhinc, nullâ concomitante sinit;</l>
+              <l xml:id="A04632_13-e105770">Nempe omneis horas veniendi duxit amicas</l>
+              <l xml:id="A04632_13-e105780">Sed discedendi nulla minuta probat. </l>
+            </lg>
+            <lg xml:id="A04632_13-e105790">
+              <head>Ad serenissimum christianum.</head>
+              <l xml:id="A04632_13-e105800">Te veniente, novo domus haec frondebat amictu;</l>
+              <l xml:id="A04632_13-e105810">Te discessuro, non prout ante viret:</l>
+              <l xml:id="A04632_13-e105820">Nempe, sub accessu solis, nows incipit annus,</l>
+              <l xml:id="A04632_13-e105830">Et, sub discessu, squalida saevit Hiems. </l>
+            </lg>
+            <closer xml:id="A04632_13-e105840">
+              <signed xml:id="A04632_13-e105850">The author b. I.</signed>
+            </closer>
+          </div>
+        </div>
+        <div type="section" xml:id="A04632_13-e105860">
+          <head>An entertainment of King James and Queen Anne, at Theobald's, when the house was delivered up, with the possession, to the Queen, by the Earl of Salisbury, 22. of may, 1607. </head>
+          <head type="sub">The prince Janvile, brother to the Duke of Gvise, being then present.</head>
+          <stage xml:id="A04632_13-e105870">The King, and Queen, with the princes of Wales, and Lorraine, and the nobility, being entered into the gallery, after dinner; there was seen nothing but a traverse of white, across the room: which suddenly drawn, was discovered a gloomy obscure place, hung all with black silks, and in it only one light, which the genius of the house held, sadly attired; his Cornucopia ready to fall out of his hand, his garland drooping on his head, his eyes fixed on the ground; when, out of this pensive posture, after some little pause, he broke, and began. </stage>
+          <sp xml:id="A04632_13-e105880" who="A04632_13-genius">
+            <speaker>Genius.</speaker>
+            <l xml:id="A04632_13-e105890">Let not your glories darken, to behold</l>
+            <l xml:id="A04632_13-e105900">The place, and me, her genius here, so sad;</l>
+            <l xml:id="A04632_13-e105910">Who, by bold rumor, have been lately told,</l>
+            <l xml:id="A04632_13-e105920">That I must change the loved lord, I had. </l>
+            <l xml:id="A04632_13-e105930">And he, now, in the twilight of sere age,</l>
+            <l xml:id="A04632_13-e105940">Begin to seek a habitation new;</l>
+            <l xml:id="A04632_13-e105950"><pb facs="473" n="888"/> and all his fortunes, and himself engage</l>
+            <l xml:id="A04632_13-e105960">Unto a seat, his fathers never knew. </l>
+            <l xml:id="A04632_13-e105970">And I, uncertain what I must endure,</l>
+            <l xml:id="A04632_13-e105980">Since all the ends of destiny are obscure. </l>
+          </sp>
+          <stage xml:id="A04632_13-e105990">Here a voice was heard, from behind the darkness, which bade him,</stage>
+          <sp xml:id="A04632_13-e106000" who="A04632_13-mercury">
+            <speaker>Mercury.</speaker>
+            <l xml:id="A04632_13-e106010">Despair not, genius, thou shalt know thy fate. </l>
+          </sp>
+          <stage xml:id="A04632_13-e106020">And withal, the black vanishing, was discovered a glorious place, figuring the lararium, or seat of the household-gods, where both the lares, and Penates, were painted, in copper colours; erected with columns and architrabe, freeze, and coronice, in which were placed divers diaphanal glasses, filled with several waters, that showed like so many stones, of orient and transparent hiewes. Within, as farther off, in landtschap, were seen clouds riding, and in one corner, a boy figuring good event, attired in white, hovering in the air, with wings displayed, having nothing seen to sustain him by, all the time the show lasted: at the other corner, a Mercury descended, in a flying posture, with his caduceus on his hand, who spoke to the three Parcae, that sat low in a grate, with an iron roof, the one holding the rock, the other the spindle, and the third the shears, with a book of adamant lying open befor● them. But first, the genius surprisedly wonder, urged this doubt, by question. </stage>
+          <sp xml:id="A04632_13-e106030" who="A04632_13-genius">
+            <speaker>Genius.</speaker>
+            <l xml:id="A04632_13-e106040">What sight is this, so strange! and full of state! </l>
+            <l xml:id="A04632_13-e106050">The son of Maia, making his descent</l>
+            <l xml:id="A04632_13-e106060">Unto the fates, and met with good event. </l>
+          </sp>
+          <sp xml:id="A04632_13-e106070" who="A04632_13-mercury">
+            <speaker>Mercury.</speaker>
+            <l xml:id="A04632_13-e106080">Daughters of night, and secrecy, attend;</l>
+            <l xml:id="A04632_13-e106090">You, that draw out the chain of destiny,</l>
+            <l xml:id="A04632_13-e106100">Upon whose threads, both lives and times depend,</l>
+            <l xml:id="A04632_13-e106110">And all the periods of mortality. </l>
+            <l xml:id="A04632_13-e106120">The will of Jove is, that you straight do look</l>
+            <l xml:id="A04632_13-e106130">The change, and fate unto this house decreed,</l>
+            <l xml:id="A04632_13-e106140">And speaking from your adamantine book,</l>
+            <l xml:id="A04632_13-e106150">Unto the genius of the place it read;</l>
+            <l xml:id="A04632_13-e106160">That he may know, and knowing, bless his lot,</l>
+            <l xml:id="A04632_13-e106170">That such a grace, beyond his hopes, hath got. </l>
+          </sp>
+          <sp xml:id="A04632_13-e106180" who="A04632_13-clotho">
+            <speaker>Clotho.</speaker>
+            <l xml:id="A04632_13-e106190">When, underneath thy roof, is seen</l>
+            <l xml:id="A04632_13-e106200">The greatest King, and fairest Queen,</l>
+            <l xml:id="A04632_13-e106210">With princes an unmatched pair,</l>
+            <l xml:id="A04632_13-e106220">One, hope of all the earth, their heir;</l>
+            <l xml:id="A04632_13-e106230">The other styled of Lorraine,</l>
+            <l xml:id="A04632_13-e106240">Their blood; and sprung from Charlemaine:</l>
+            <l xml:id="A04632_13-e106250"><pb facs="473" n="889"/> when all these glories jointly shine,</l>
+            <l xml:id="A04632_13-e106260">And fill thee with a heat divine,</l>
+            <l xml:id="A04632_13-e106270">And these reflected, do beget</l>
+            <l xml:id="A04632_13-e106280">And splendent sun, shall never set,</l>
+            <l xml:id="A04632_13-e106290">But here shine fixed, to affright</l>
+            <l xml:id="A04632_13-e106300">All after-hopes of following night,</l>
+            <l xml:id="A04632_13-e106310">Then, genius, is thy period come,</l>
+            <l xml:id="A04632_13-e106320">To change thy lord: thus, fates do doom. </l>
+          </sp>
+          <sp xml:id="A04632_13-e106330" who="A04632_13-genius">
+            <speaker>Genius.</speaker>
+            <l xml:id="A04632_13-e106340">But is my patron with this lot content,</l>
+            <l xml:id="A04632_13-e106350">So to forsake his father's monument? </l>
+            <l xml:id="A04632_13-e106360">Or, is it gain, or else necessity,</l>
+            <l xml:id="A04632_13-e106370">Or will to raise a house of better frame,</l>
+            <l xml:id="A04632_13-e106380">That makes him shut forth his posterity</l>
+            <l xml:id="A04632_13-e106390">Out of his patrimony, with his name? </l>
+          </sp>
+          <sp xml:id="A04632_13-e106400" who="A04632_13-mercury">
+            <speaker>Mercury.</speaker>
+            <l xml:id="A04632_13-e106410">Nor gain, nor need; much less a vain desire,</l>
+            <l xml:id="A04632_13-e106420">To frame new roofs, or build his dwelling higher;</l>
+            <l xml:id="A04632_13-e106430">He hath, with mortar, busied been too much,</l>
+            <l xml:id="A04632_13-e106440">That his affections should continue such. </l>
+          </sp>
+          <sp xml:id="A04632_13-e106450" who="A04632_13-genius">
+            <speaker>Genius.</speaker>
+            <l xml:id="A04632_13-e106460">Do men take joy in labours, not t'enjoy? </l>
+            <l xml:id="A04632_13-e106470">Or doth their business all their likings spend? </l>
+            <l xml:id="A04632_13-e106480">Have they more pleasure in a tedious way,</l>
+            <l xml:id="A04632_13-e106490">Than to repose them at their journey's end? </l>
+          </sp>
+          <sp xml:id="A04632_13-e106500" who="A04632_13-mercury">
+            <speaker>Mercury.</speaker>
+            <l xml:id="A04632_13-e106510">Genius, obey, and not expostulate;</l>
+            <l xml:id="A04632_13-e106520">It is your virtue: and such powers as you,</l>
+            <l xml:id="A04632_13-e106530">Should make religion of offending fate,</l>
+            <l xml:id="A04632_13-e106540">Whose dooms are just, and whose designs are true. </l>
+          </sp>
+          <sp xml:id="A04632_13-e106550" who="A04632_13-lachesis">
+            <speaker>Lachesis.</speaker>
+            <l xml:id="A04632_13-e106560">The person, for whose royal sake,</l>
+            <l xml:id="A04632_13-e106570">Thou must a change so happy make,</l>
+            <l xml:id="A04632_13-e106580">Is he, that governs with his smile,</l>
+            <l xml:id="A04632_13-e106590">This lesser world, this greatest isle. </l>
+            <l xml:id="A04632_13-e106600">His lady's servant thou must be;</l>
+            <l xml:id="A04632_13-e106610">Whose second would great nature see,</l>
+            <l xml:id="A04632_13-e106620">Or fortune, after all their pain,</l>
+            <l xml:id="A04632_13-e106630">They might despair to make again. </l>
+          </sp>
+          <sp xml:id="A04632_13-e106640" who="A04632_13-atropos">
+            <speaker>Atropos.</speaker>
+            <l xml:id="A04632_13-e106650">She is the grace of all, that are:</l>
+            <l xml:id="A04632_13-e106660">And as Elisa, now a star,</l>
+          </sp>
+          <pb facs="474"/>
+          <gap extent="unknown" xml:id="A04632_13-e106670" n="474-a-0010"/>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A04632_13"><item xml:id="A04632_13-mercury" n="10">
+    <seg type="character_name">A04632_13-mercury</seg>
+    <seg type="speech_count">10</seg>
+  </item>
+  <item xml:id="A04632_13-satyr" n="6">
+    <seg type="character_name">A04632_13-satyr</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A04632_13-elf" n="6">
+    <seg type="character_name">A04632_13-elf</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A04632_13-genius" n="4">
+    <seg type="character_name">A04632_13-genius</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A04632_13-fairy" n="4">
+    <seg type="character_name">A04632_13-fairy</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+<item xml:id="A04632_13-pan" n="3">
+    <seg type="character_name">A04632_13-pan</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A04632_13-penates" n="1">
+    <seg type="character_name">A04632_13-penates</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04632_13-mai" n="1">
+    <seg type="character_name">A04632_13-mai</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04632_13-atropos" n="1">
+    <seg type="character_name">A04632_13-atropos</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04632_13-lachesis" n="1">
+    <seg type="character_name">A04632_13-lachesis</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04632_13-clotho" n="1">
+    <seg type="character_name">A04632_13-clotho</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

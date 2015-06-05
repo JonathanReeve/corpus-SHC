@@ -1,0 +1,462 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A06150">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Masque of the Inner Temple and Gray's Inn<date type="creation_date">1613</date></title>
+        <author>Beaumont, Francis</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Nayoon Ahn</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A06150.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The masque of the Inner Temple and Grayes Inne Grayes Inne and the Inner Temple, presented before his Maiestie, the Queenes Maiestie, the Prince, Count Palatine and the Lady Elizabeth their Highnesses, in the Banquetting house at White-hall on Saturday the twentieth day of Februarie, 1612.</title>
+            <author>Beaumont, Francis, 1584-1616.</author>
+          </titleStmt>
+          <extent>15 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2001</date>
+            <idno type="marc">99850786</idno>
+            <idno type="stc">STC (2nd ed.) 1664.</idno>
+            <idno type="vid">16013</idno>
+            <idno type="DLPS">A06150</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The masque of the Inner Temple and Grayes Inne Grayes Inne and the Inner Temple, presented before his Maiestie, the Queenes Maiestie, the Prince, Count Palatine and the Lady Elizabeth their Highnesses, in the Banquetting house at White-hall on Saturday the twentieth day of Februarie, 1612.</title>
+            <author>Beaumont, Francis, 1584-1616.</author>
+          </titleStmt>
+          <extent>[32] p.</extent>
+          <publicationStmt>
+            <publisher>Imprinted by F[elix] K[ingston] for George Norton, and are to be sold at his shoppe neere Temple-bar,</publisher>
+            <pubPlace>At London :</pubPlace>
+            <date>[1613]</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Anonymous. By Francis Beaumont.</p>
+            </note>
+            <note>
+              <p>Printer's name and publication date from STC.</p>
+            </note>
+            <note>
+              <p>The first leaf is blank.</p>
+            </note>
+            <note>
+              <p>Another edition, with cancel title page omitting Beaumont's name, of the edition published earlier the same year.</p>
+            </note>
+            <note>
+              <p>Signatures: A-D4.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Harvard University. Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Masques -- Early works to 1800.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A06150-e100010">
+    <front xml:id="A06150-e100020">
+      <div type="title_page" xml:id="A06150-e100030">
+        <pb facs="1"/>
+        <p xml:id="A06150-e100040">The masqve of the inner temple and Gray's inn: Gray's inn and the inner temple, presented before his majesty, the Queen's majesty, the prince, count Palatine and the lady Elizabeth their highnesses, in the banquetting house at Whitehall on Saturday the twentieth day of February, 1612.</p>
+        <p xml:id="A06150-e100050">By Francis Beamont, gent.</p>
+        <p xml:id="A06150-e100060">At London, imprinted by F. K. for George Norton, and are to be sold at his shop near Temple-bar.</p>
+      </div>
+      <div type="title_page" xml:id="A06150-e100070">
+        <pb facs="1"/>
+        <p xml:id="A06150-e100080">The masqve of the inner temple and Gray's inn: Gray's inn and the inner temple, presented before his majesty, the Queen's majesty, the prince, count Palatine and the lady Elizabeth their highnesses, in the banquetting house at Whitehall on Saturday the twentieth day of February, 1612.</p>
+        <p xml:id="A06150-e100090">At London, imprinted by F. K. for George Norton, and are to be sold at his shop near Temple-bar.</p>
+      </div>
+      <div type="introduction" xml:id="A06150-e100100">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The mask of the inner temple and Gray's inn, Gray's inn and the inner temple, presented before his majesty, the Queens, etc.</head>
+        <p xml:id="A06150-e100110">This mask was appointed to have been presented the Shrove-tuesday before, at which time the maskers with their attendants and divers others gallant young gentlemen of both houses, as their convoy, set forth from Winchester house which was the rendezvous towards the court, about seven of the clock at night.</p>
+        <p xml:id="A06150-e100120">This voyage by water was performed in great triumph. The gentlemen maskers being placed by themselves in the Kings royal barge with the rich furniture of state, and adorned with a great number of lights placed<pb facs="3"/> in such order as might make best show.</p>
+        <p xml:id="A06150-e100130">They were attended with a multitude of barges and galleys, with all variety of loud music, and several peals, of ordnance. And led by two admirals.</p>
+        <p xml:id="A06150-e100140">Of this show his majesty was graciously pleased to take view, with the prince, the count palatine, and the lady Elizabeth: their highnesses at the windows of his privy gallery upon the water, till their landing, which was at the privy stairs; where they were most honourably received by the lord chamberlain, and so conducted to the vestry.</p>
+        <p xml:id="A06150-e100150">The hall was by that time filled with company of very good fashion, but yet so as a very great number of principal ladies, and other noble persons were not yet come in, whereby it was foreseen that the room would be so scanted as might have been inconvenient. And there upon his majesty was most graciously pleased with the consent of the gentlemen maskers, to put off the night until Saturday following with this special favour and privilege, that there should be no let,<pb facs="3"/> as to the outward ceremony of magnificence until that time.</p>
+        <p xml:id="A06150-e100160">At the day that it was presented, there was a choice room reserved for the gentlemen, of both their houses, who coming in troop about seven of the clock, received that special honour and noble favour, as to be brought to their places, by the right honourable the Earl of Northampton, lord privy seal.</p>
+      </div>
+      <div type="dedication" xml:id="A06150-e100170">
+        <pb facs="4"/>
+        <pb facs="4"/>
+        <head>To the worthy sir Francis Bacon, his majesty's solicitor general, and the grave and learned bench of the anciently allied houses of Gray's inn, and the inner temple, the inner temple, and Gray's inn.</head>
+        <p xml:id="A06150-e100180">Ye that spared no time nor travel, in the setting forth, ordering, and furnishing of this masque, being the first fruits of honour in this kind, which these two societies have offered to his majesty: will not think much now to look back upon the effects of your own care and work: for that whereof the success was then doubtful, is now happily performed and graciously accepted. And that which you were then to think of in straits of time, you may now peruse at leisure: and you sir Francis Bacon especially, as you did then by your countenance, and loving affection advance it, so let your good word grace it, and defend it, which is able to add value to the greatest, and least matters.</p>
+      </div>
+    </front>
+    <body xml:id="A06150-e100190">
+      <div type="text" xml:id="A06150-e100200">
+        <pb facs="5"/>
+        <pb facs="5"/>
+        <head>The devise or argument of the masqve.</head>
+        <p xml:id="A06150-e100210">Jupiter and Juno willing to do honour to the marriage of the two famous rivers Thamesis and Rhone, employ their messengers severally, Mercury and Iris for that purpose. They meet and contend: then Mercury for his part brings forth an antimasque all of spirits or divine natures; but yet not of one kind or livery (Because that had been so much in use heretofore) but as it were in consort like to broken music: and preserving the propriety of the device; for that rivers in nature are maintained either by springs from beneath, or showers from above: he raiseth four of the Naiades out of the fountains, and bringeth<pb facs="6"/> down five of the Hyades out of the clouds to dance hereupon Iris scoffs at Mercury for that he had devised a dance but of one sex, which could have no life: but Mercury who was provided for that exception, and in token that the match should be blessed both with love and riches calleth forth out of the groves four Cupids, and brings down from Jupiter's altar four statues of gold and silver to dance with the nymphs and stars: in which dance the Cupids being blind, and the statues having but half life put into them, and retaining still somewhat of their old nature, giveth fit occasion to new and strange varieties both in the music and paces. This was the first antimasque.</p>
+        <p xml:id="A06150-e100220">Then Iris for her part in scorn of this highflying device, and in token that the match shall likewise be blessed with the love of the common people, calls to Flora her confederate (For that the months of flowers are likewise the months of sweet showers, and rain bows) to bring in a may dance or rural dance, consisting likewise not of<pb facs="6"/> any suited persons, but of a confusion or commixture of all such persons as are natural and proper for country sports. This is the second antimasque.</p>
+        <p xml:id="A06150-e100230">Then Mercury and Iris after this vying one upon the other, seem to leave their contention; and Mercury by the consent of Iris brings down the Olympian knights, intimating that Jupiter having after a long discontinuance revived the Olympian games, and summoned thereunto from all parts the liveliest and activest persons that were had enjoined them before they fell to their games to do honour to these nuptials. The Olympian games portend to the match, celebrity, victory, and felicity. This was the main masque.</p>
+        <p xml:id="A06150-e100240">The fabric was a mountain with two descents, and severed with two travesses.</p>
+        <div type="part" xml:id="A06150-e100250">
+          <head>At the entrance of the King.</head>
+          <p xml:id="A06150-e100260">The first Travers was drawn, and the lower descent of the mountain discovered, which was the pendant of a hill to<pb facs="7"/> life, with divers boscages and grovets upon the steep or hanging grounds thereof; and at the foot of the hill, four delicate fountains running with water and bordered with sedges and water flowers.</p>
+          <p xml:id="A06150-e100270">Iris first appeared; and presently after Mercury striving to overtake her.</p>
+          <p xml:id="A06150-e100280">Iris apparelled in a robe of discoulored taffeta figured in variable colours, like the rainbow, a cloudy wreath on her head, and tresses.</p>
+          <p xml:id="A06150-e100290">Mercury in doublet and hose of white taffeta, a white hat, wings on his shoulders and feet, his caduceus in his hand, speaking to Iris as followeth:</p>
+          <sp xml:id="A06150-e100300" who="A06150-mercury">
+            <speaker>Mercury.</speaker>
+            <l xml:id="A06150-e100310">Stay, stay. </l>
+            <l xml:id="A06150-e100320">Stay light foot Iris, for thou strivest in vain,</l>
+            <l xml:id="A06150-e100330">My wings are nimbler than thy feet. </l>
+          </sp>
+          <sp xml:id="A06150-e100340" who="A06150-iris">
+            <speaker>Iris.</speaker>
+            <l xml:id="A06150-e100350">Away,</l>
+            <l xml:id="A06150-e100360">Dissembling Mercury; my messages</l>
+            <l xml:id="A06150-e100370">Ask honest haste, not like those wanton ones</l>
+            <l xml:id="A06150-e100380">Your thundering father sends. </l>
+          </sp>
+          <sp xml:id="A06150-e100390" who="A06150-mercury">
+            <pb facs="7"/>
+            <speaker>Mercury.</speaker>
+            <l xml:id="A06150-e100400">Stay foolish maid,</l>
+            <l xml:id="A06150-e100410">Or I will take my rise upon a hill,</l>
+            <l xml:id="A06150-e100420">When I perceive thee seated in a cloud,</l>
+            <l xml:id="A06150-e100430">In all the painted glory that thou hast,</l>
+            <l xml:id="A06150-e100440">And never cease to clap my willing wings,</l>
+            <l xml:id="A06150-e100450">Till I catch hold of thy discoloured bow,</l>
+            <l xml:id="A06150-e100460">And shiver it beyond the angry power</l>
+            <l xml:id="A06150-e100470">Of your cursed mistress, to make up again. </l>
+          </sp>
+          <sp xml:id="A06150-e100480" who="A06150-iris">
+            <speaker>Iris.</speaker>
+            <l xml:id="A06150-e100490">Hermes forbear, Juno will chide and strike;</l>
+            <l xml:id="A06150-e100500">Is great Jove jealous that I am employed</l>
+            <l xml:id="A06150-e100510">On her love errands? she did never yet</l>
+            <l xml:id="A06150-e100520">Clasp weak mortality in her white arms,</l>
+            <l xml:id="A06150-e100530">As he hath often done: I only come</l>
+            <l xml:id="A06150-e100540">To celebrate the long wished nuptials,</l>
+            <l xml:id="A06150-e100550">Here in Olympia, which are now performed</l>
+            <l xml:id="A06150-e100560">Betwixt two goodly rivers, which have mixed</l>
+            <l xml:id="A06150-e100570">Their gentle rising waves, and are to grow</l>
+            <l xml:id="A06150-e100580">Into a thousand streams, great as themselves;</l>
+            <l xml:id="A06150-e100590">I need not name them, for the sound is loud</l>
+            <l xml:id="A06150-e100600">In heaven and earth, and I am sent from her</l>
+            <l xml:id="A06150-e100610">The Queen of marriage, that was present here,</l>
+            <l xml:id="A06150-e100620">And smiled to see them join, and hath not chid</l>
+            <l xml:id="A06150-e100630">Since it was done: good Hermes let me go. </l>
+          </sp>
+          <sp xml:id="A06150-e100640" who="A06150-mercury">
+            <pb facs="8"/>
+            <speaker>Mercury.</speaker>
+            <l xml:id="A06150-e100650">Nay you must stay, Jove's message is the same,</l>
+            <l xml:id="A06150-e100660">Whose eyes are lightning, and whose voice is thunder,</l>
+            <l xml:id="A06150-e100670">Whose breath is any wind, he will, who knows</l>
+            <l xml:id="A06150-e100680">How to be first on earth as well as heaven. </l>
+          </sp>
+          <sp xml:id="A06150-e100690" who="A06150-iris">
+            <speaker>Iris.</speaker>
+            <l xml:id="A06150-e100700">But what hath he to do with nuptial rights? </l>
+            <l xml:id="A06150-e100710">Let him keep state upon his starry throne,</l>
+            <l xml:id="A06150-e100720">And fright poor mortals with his thunderbolts,</l>
+            <l xml:id="A06150-e100730">Leaving to us the mutual darts of eyes. </l>
+          </sp>
+          <sp xml:id="A06150-e100740" who="A06150-mercury">
+            <speaker>Mercury.</speaker>
+            <l xml:id="A06150-e100750">Alas, whenever offered he t'abridge</l>
+            <l xml:id="A06150-e100760">Your lady's power, but only now in these,</l>
+            <l xml:id="A06150-e100770">Whose match concerns his general government? </l>
+            <l xml:id="A06150-e100780">Hath not each god a part in these high joys? </l>
+            <l xml:id="A06150-e100790">And shall not he the King of gods presume</l>
+            <l xml:id="A06150-e100800">Without proud Juno's licence? let her know</l>
+            <l xml:id="A06150-e100810">That when enamoured Jove first gave her power</l>
+            <l xml:id="A06150-e100820">To link soft hearts in undissolved bonds,</l>
+            <l xml:id="A06150-e100830">He then foresaw, and to himself reserved</l>
+            <l xml:id="A06150-e100840">The honour of this marriage: thou shalt stand</l>
+            <l xml:id="A06150-e100850">Still as a rock, while I to bless this feast</l>
+            <l xml:id="A06150-e100860">Will summon up with my all charming rod,</l>
+            <l xml:id="A06150-e100870">The nymphs of fountains, from whose watery locks</l>
+            <l xml:id="A06150-e100880">Hung with the dew of blessing and increase,</l>
+            <l xml:id="A06150-e100890">The greedy rivers take their nourishment. </l>
+            <l xml:id="A06150-e100900"><pb facs="8"/>You nymphs, who bathing in your loved springs,</l>
+            <l xml:id="A06150-e100910">Beheld these rivers in their infancy,</l>
+            <l xml:id="A06150-e100920">And joyed to see them, when their circled heads</l>
+            <l xml:id="A06150-e100930">Refreshed the air, and spread the ground with flowers:</l>
+            <l xml:id="A06150-e100940">Rise from your wells, and with your nimble feet</l>
+            <l xml:id="A06150-e100950">Perform that office to this happy pair;</l>
+            <l xml:id="A06150-e100960">Which in these plains, you to Alpheus did;</l>
+            <l xml:id="A06150-e100970">When passing hence through many seas unmixed,</l>
+            <l xml:id="A06150-e100980">He gained the favour of his Arethuse. </l>
+          </sp>
+          <p xml:id="A06150-e100990">Immediately upon which speech, four Naiades arise gently out of their several fountains, and present themselves upon the stage, attired in long habits of seagreen taffeta, with bubbles of crystal intermixed with powdering of silver resembling drops of water bluish tresses on their heads, garlands of water-lillies. They fall into a measure, dance a little, then make a stand.</p>
+          <sp xml:id="A06150-e101000" who="A06150-iris">
+            <speaker>Iris.</speaker>
+            <l xml:id="A06150-e101010">Is Hermes grown a lover, by what power</l>
+            <l xml:id="A06150-e101020">Unknown to us, calls he the Naiades? </l>
+          </sp>
+          <sp xml:id="A06150-e101030" who="A06150-mercury">
+            <pb facs="9"/>
+            <speaker>Mercury.</speaker>
+            <l xml:id="A06150-e101040">Presumptuous Iris, I could make thee dance</l>
+            <l xml:id="A06150-e101050">Till thou forgottest thy lady's messages,</l>
+            <l xml:id="A06150-e101060">And ran'st back crying to her, thou shalt know</l>
+            <l xml:id="A06150-e101070">My power is more, only my breath, and this</l>
+            <l xml:id="A06150-e101080">Shall move fixed stars, and force the firmament</l>
+            <l xml:id="A06150-e101090">To yield the Hyades, who govern showers,</l>
+            <l xml:id="A06150-e101100">And dewy clouds, in whose dispersed drops</l>
+            <l xml:id="A06150-e101110">Thou form'st the shape of thy deceitful bow. </l>
+            <l xml:id="A06150-e101120">You maids, who yearly at appointed times,</l>
+            <l xml:id="A06150-e101130">Advance with kindly tears, the gentle floods,</l>
+            <l xml:id="A06150-e101140">Descend, and pour your blessing on these streams,</l>
+            <l xml:id="A06150-e101150">Which rolling down from heaven aspiring hills,</l>
+            <l xml:id="A06150-e101160">And now united in the fruitful vales;</l>
+            <l xml:id="A06150-e101170">Bear all before them ravished with their joy,</l>
+            <l xml:id="A06150-e101180">And swell in glory till they know no bounds. </l>
+          </sp>
+          <p xml:id="A06150-e101190">Five Hyades descend softly in a cloud from the firmament, to the middle part of the hill, apparelled in sky-coloured taffeta robes, spangled like the heavens, golden tresses, and each a fair star on their head; from thence descend to the stage, at whose sight the Naiades seeming to rejoice, meet and join in a dance.</p>
+          <sp xml:id="A06150-e101200" who="A06150-iris">
+            <pb facs="9"/>
+            <speaker>Iris.</speaker>
+            <l xml:id="A06150-e101210">Great wit and power hath Hermes to contrive</l>
+            <l xml:id="A06150-e101220">A liveless dance, which of one sex consists. </l>
+          </sp>
+          <sp xml:id="A06150-e101230" who="A06150-mercury">
+            <speaker>Mercury.</speaker>
+            <l xml:id="A06150-e101240">Alas poor Iris, Venus hath in store</l>
+            <l xml:id="A06150-e101250">A secret ambush of her winged boys,</l>
+            <l xml:id="A06150-e101260">Who lurking long within these pleasant groves;</l>
+            <l xml:id="A06150-e101270">First struck these lovers with their equal darts,</l>
+            <l xml:id="A06150-e101280">Those Cupids shall come forth, and join with these,</l>
+            <l xml:id="A06150-e101290">To honour that which they themselves begun. </l>
+          </sp>
+          <p xml:id="A06150-e101300">Enter four Cupids from each side of the boscage, attired in flame coloured taffeta close to their body, like naked boys, with bows, arrows, and wings of gold; chaplets of flowers on their heads, hoodwinked with Tiffiny scarves, who join with the nymphs and the Hyades in another dance. That ended, Iris speaks.</p>
+          <sp xml:id="A06150-e101310" who="A06150-iris">
+            <speaker>Iris.</speaker>
+            <l xml:id="A06150-e101320">Behold the statues which wise Vulcan placed</l>
+            <l xml:id="A06150-e101330">Under the altar of Olympian Jove,</l>
+            <l xml:id="A06150-e101340"><pb facs="10"/> shall dance for joy of these great nuptials:</l>
+            <l xml:id="A06150-e101350">And gave to them an artificial life,</l>
+            <l xml:id="A06150-e101360">See how they move, drawn by this heavenly joy,</l>
+            <l xml:id="A06150-e101370">Like the wild trees, which followed Orpheus' harp. </l>
+          </sp>
+          <p xml:id="A06150-e101380">The statues enter, supposed to be before descended from Jove's altar, and to have been prepared in the covert with the Cupids, attending their call.</p>
+          <p xml:id="A06150-e101390">These statues were attired in cases of gold and silver close to their body, faces, hands and feet, nothing seen but gold and silver, as if they had been solid images of mettle, tresses of hair as they had been of mettle embossed, girdles and small aprons of oaken leaves, as if they likewise had been carved or moulded out of the mettle: at their coming, the music changed from violins to hoboys, cornets, etc. And the air of the music was utterly turned into a soft time, with drawing notes, excellently expressing their natures, and the measure likewise was fitted unto the same, and the statues placed in such several postures, sometimes all together in the centre of the dance, and<pb facs="10"/> sometimes in the four utmost angles, as was very graceful, besides the novelty and so concluded the first antimasque.</p>
+          <sp xml:id="A06150-e101400" who="A06150-mercury">
+            <speaker>Mercury.</speaker>
+            <l xml:id="A06150-e101410">And what will Juno's Iris do for her? </l>
+          </sp>
+          <sp xml:id="A06150-e101420" who="A06150-iris">
+            <speaker>Iris.</speaker>
+            <l xml:id="A06150-e101430">Just match this show; or my invention fails,</l>
+            <l xml:id="A06150-e101440">Had it been worthier, I would have invoked</l>
+            <l xml:id="A06150-e101450">The blazing comets, clouds and falling stars,</l>
+            <l xml:id="A06150-e101460">And all my kindred meteors of the air</l>
+            <l xml:id="A06150-e101470">To have excelled it, but I now must strive</l>
+            <l xml:id="A06150-e101480">To imitate confusion, therefore thou</l>
+            <l xml:id="A06150-e101490">Delightful Flora, if thou ever feltst</l>
+            <l xml:id="A06150-e101500">Increase of sweetness in those blooming plants,</l>
+            <l xml:id="A06150-e101510">On which the horns of my fair bow decline;</l>
+            <l xml:id="A06150-e101520">Send hither all the rural company,</l>
+            <l xml:id="A06150-e101530">Which deck the may-games with their country sports;</l>
+            <l xml:id="A06150-e101540">Juno will have it so. </l>
+          </sp>
+          <p xml:id="A06150-e101550">The second antimasque rush in, dance their measure, and as rudely depart; consisting of a pedant may lord, may lady, servingman, chambermaid,<pb facs="11"/> a country clown, or shepherd, country wench, an host, hostess, a he baboon, she baboon, a he fool, she fool ushering them in.</p>
+          <p xml:id="A06150-e101560">All these persons apparelled to the life, the men issuing out of one side of the boscage, and the women from the other: the music was extremely well fitted, having such a spirit of country jollity as can hardly be imagined; but the perpetual laughter and applause was above the music.</p>
+          <p xml:id="A06150-e101570">The dance likewise was of the same strain; and the dancers, or rather actors expressed every one their part so naturally and aptly, as when a man's eye was caught with the one, and then passed on to the other, he could not satisfy himself which did best. It pleased his majesty to call for it again at the end, as he did likewise for the first antimasque; but one of the statues by that time was undressed.</p>
+          <sp xml:id="A06150-e101580" who="A06150-mercury">
+            <pb facs="11"/>
+            <speaker>Mercury.</speaker>
+            <l xml:id="A06150-e101590">Iris we strive,</l>
+            <l xml:id="A06150-e101600">Like winds at liberty, who should do worst</l>
+            <l xml:id="A06150-e101610">Ere we return. If Juno be the Queen</l>
+            <l xml:id="A06150-e101620">Of marriage, let her give happy way</l>
+            <l xml:id="A06150-e101630">To what is done, in honour of the state</l>
+            <l xml:id="A06150-e101640">She governs. </l>
+          </sp>
+          <sp xml:id="A06150-e101650" who="A06150-iris">
+            <speaker>Iris.</speaker>
+            <l xml:id="A06150-e101660">Hermes, so it may be done</l>
+            <l xml:id="A06150-e101670">Merely in honour of the state, and these</l>
+            <l xml:id="A06150-e101680">That now have proved it, not to satisfy</l>
+            <l xml:id="A06150-e101690">The lust of Jupiter, in having thanks</l>
+            <l xml:id="A06150-e101700">More than his Juno, if thy snaky rod</l>
+            <l xml:id="A06150-e101710">Have power to search the heavens, or found the sea,</l>
+            <l xml:id="A06150-e101720">Or call together all the ends of earth,</l>
+            <l xml:id="A06150-e101730">To bring in any thing that may do grace</l>
+            <l xml:id="A06150-e101740">To us, and these; do it, we shall be pleased. </l>
+          </sp>
+          <sp xml:id="A06150-e101750" who="A06150-mercury">
+            <speaker>Mercury.</speaker>
+            <l xml:id="A06150-e101760">Then know that from the mouth of Jove himself,</l>
+            <l xml:id="A06150-e101770">Whose words have wings, and need not to be born;</l>
+            <l xml:id="A06150-e101780">I took a message, and I bore it through</l>
+            <l xml:id="A06150-e101790">A thousand yielding clouds, and never stayed</l>
+            <l xml:id="A06150-e101800">Till his high will was done: the Olympian games</l>
+            <l xml:id="A06150-e101810">Which long have slept, at these wished nuptials,</l>
+            <l xml:id="A06150-e101820">He pleased to have renewed and all his knights</l>
+            <l xml:id="A06150-e101830">Are gathered hither, who within their tents</l>
+            <l xml:id="A06150-e101840"><pb facs="12"/> rest on this hill, upon whose rising head. </l>
+            <l xml:id="A06150-e101850">Behold Jove's altar, and his blessed priest's</l>
+            <l xml:id="A06150-e101860">Moving about it: come you holy men,</l>
+            <l xml:id="A06150-e101870">And with your voices draw these youths along,</l>
+            <l xml:id="A06150-e101880">That till Jove's music call them to their games,</l>
+            <l xml:id="A06150-e101890">Their active sports may give a blessed content</l>
+            <l xml:id="A06150-e101900">To those, for whom they are again begun. </l>
+          </sp>
+        </div>
+        <div type="part" xml:id="A06150-e101910">
+          <head>The main masque.</head>
+          <p xml:id="A06150-e101920">The second Travers is drawn, and the higher ascent of the mountain is discovered; wherein upon a level after a great rise of the hill, were placed two pavilions: open in the front of them, the pavilions were to sight as of cloth of gold, and they were trimmed on the inside with rich armour and military furniture hanged up as upon the walls; and behind the tents there were represented in prospective, the tops of divers other tents, as if it had been a camp. In these pavilions were placed fifteen Olympian knights, upon seats a little embowed near the form of a crescent, and the knights appeared first, as consecrated persons all in veils, like to copes, of silver tiffany, gathered,<pb facs="12"/> and falling a large compass about them, and over their heads high mitres with long pendants behind falling from them; the mitres were so high, that they received their hats and feathers, that nothing was seen but veil: in the midst between both the tents upon the very top of the hill, being a higher level than that of the tents, was placed Jupiter's altar gilt, with three great tapers upon golden candlesticks burning upon it: and the four statues, two of gold, and two of silver, as supporters, and Jupiter's priests in white robes about it.</p>
+          <p xml:id="A06150-e101930">Upon the sight of the King, the veils of the knights did fall easily from them, and they appeared in their own habit.</p>
+        </div>
+        <div type="part" xml:id="A06150-e101940">
+          <head>The knights attire.</head>
+          <p xml:id="A06150-e101950">Arming doublets of carnation satin embroidered with blazing stars of silver plate, with powderings of smaller stars betwixt; gorgets of silver mail; long hose of the same, with the doublets laid with silver<pb facs="13"/> lace spangled, and enriched with embroidery between the lace; carnation like stockings embroidered all over; garters and roses suitable; pumps of carnation satin embroidered as the doublets; hats of the same stuff and embroidery cut like a helmet before, the hinder part cut into scallops, answering the skirts of their doublets; the bands of the hats were wreathes of silver in form of garlands of wild olives, white feathers with one fall of carnation; belts of the same stuff and embroidered with the doublet; silver swords; little Italian bands and cuffs embroidered with silver fair long tresses of hair.</p>
+        </div>
+        <div type="part" xml:id="A06150-e101960">
+          <head>The priests habits.</head>
+          <p xml:id="A06150-e101970">Long robes of white taffeta; long white heads of hair: the high-priest a cap of white silk shag close to his head, with two labels at the ears, the midst rising in form of a pyramis, in the top thereof a branch of silver, every priest playing upon a lute: twelve in number.</p>
+          <p xml:id="A06150-e101980"><pb facs="13"/>The priests descend and sing this song following; after whom the knights likewise descends first laying aside their veils belts, and swords.</p>
+          <lg xml:id="A06150-e101990">
+            <head>The first song.</head>
+            <l xml:id="A06150-e102000">Shake off your heavy trance,</l>
+            <l xml:id="A06150-e102010">And leap into a dance,</l>
+            <l xml:id="A06150-e102020">Such as no mortals use to tread,</l>
+            <l xml:id="A06150-e102030">Fit only for Apollo</l>
+            <l xml:id="A06150-e102040">To play to, for the moon to lead,</l>
+            <l xml:id="A06150-e102050">And all the stars to follow. </l>
+          </lg>
+          <p xml:id="A06150-e102060">The knights by this time are all descended and fallen into their place, and then dance their first measure.</p>
+          <lg xml:id="A06150-e102070">
+            <head>The second song.</head>
+            <l xml:id="A06150-e102080">On blessed youths, for love doth pause</l>
+            <l xml:id="A06150-e102090">Laying aside his graver laws</l>
+            <l xml:id="A06150-e102100">For this device,</l>
+            <l xml:id="A06150-e102110">And at the wedding such a pair,</l>
+            <l xml:id="A06150-e102120">Each dance is taken for a prayer,</l>
+            <l xml:id="A06150-e102130">Each song a sacrifice. </l>
+          </lg>
+          <p xml:id="A06150-e102140"><pb facs="14"/>The knights dance their second measure.</p>
+          <lg xml:id="A06150-e102150">
+            <head>The third song.</head>
+            <head>Single.</head>
+            <l xml:id="A06150-e102160">More pleasing were these sweet delights,</l>
+            <l xml:id="A06150-e102170">If ladies moved as well as knights;</l>
+            <l xml:id="A06150-e102180">Run every one of you and catch</l>
+            <l xml:id="A06150-e102190">A nymph in honour of this match;</l>
+            <l xml:id="A06150-e102200">And whisper boldly in her ear,</l>
+            <l xml:id="A06150-e102210">Jove will but laugh, if you forswear. </l>
+          </lg>
+          <lg xml:id="A06150-e102220">
+            <head>All.</head>
+            <l xml:id="A06150-e102230">And this day's sins he doth resolve</l>
+            <l xml:id="A06150-e102240">That we his priests should all absolve. </l>
+          </lg>
+          <p xml:id="A06150-e102250">The knights take their ladies to dance with them galliards, durets, corantoes, etc. and lead them to their places. Then loud music sound's, supposed to call them to their Olympian games.</p>
+          <lg xml:id="A06150-e102260">
+            <head>The fourth song.</head>
+            <l xml:id="A06150-e102270">Ye should stay longer if we durst,</l>
+            <l xml:id="A06150-e102280">Away, alas that he that first</l>
+            <l xml:id="A06150-e102290"><pb facs="14"/> gave time wild wings to fly away,</l>
+            <l xml:id="A06150-e102300">Hath now no power to make him stay. </l>
+            <l xml:id="A06150-e102310">But though these games must needs be played,</l>
+            <l xml:id="A06150-e102320">I would this pair, when they are laid,</l>
+            <l xml:id="A06150-e102330">And not a creature nigh them,</l>
+            <l xml:id="A06150-e102340">Could catch his scythe, as he doth pass,</l>
+            <l xml:id="A06150-e102350">And cut his wings, and break his glass,</l>
+            <l xml:id="A06150-e102360">And keep him ever by them. </l>
+          </lg>
+          <p xml:id="A06150-e102370">The knights dance their parting measure and ascend, put on their swords and belts; during which time, the priests sing the fifth and last song.</p>
+          <lg xml:id="A06150-e102380">
+            <l xml:id="A06150-e102390">Peace and silence be the guide</l>
+            <l xml:id="A06150-e102400">To the man, and to the bride,</l>
+            <l xml:id="A06150-e102410">If there be a joy yet new</l>
+            <l xml:id="A06150-e102420">In marriage, let it fall on you,</l>
+            <l xml:id="A06150-e102430">That all the world may wonder. </l>
+            <l xml:id="A06150-e102440">If we should stay, we should do worse,</l>
+            <l xml:id="A06150-e102450">And turn our blessing to a curse,</l>
+            <l xml:id="A06150-e102460">By keeping you asunder. </l>
+          </lg>
+        </div>
+        <trailer xml:id="A06150-e102470">Finis.</trailer>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A06150"><item xml:id="A06150-mercury" n="9">
+    <seg type="character_name">A06150-mercury</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+<item xml:id="A06150-iris" n="8">
+    <seg type="character_name">A06150-iris</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

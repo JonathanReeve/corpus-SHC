@@ -1,0 +1,2990 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A21136">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Merry Devil of Edmonton <date type="creation_date">1608</date></title>
+        <author>anon.</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Nayoon Ahn</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A21136.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The merry deuill of Edmonton. As it hath beene sundry times acted, by his Maiesties Seruants, at the Globe, on the banke-side.</title>
+          </titleStmt>
+          <extent>23 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 May (TCP phase 1)</date>
+            <idno type="marc">99842003</idno>
+            <idno type="stc">STC (2nd ed.) 7493.</idno>
+            <idno type="stc">Greg, I, 264(a).</idno>
+            <idno type="vid">6626</idno>
+            <idno type="DLPS">A21136</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The merry deuill of Edmonton. As it hath beene sundry times acted, by his Maiesties Seruants, at the Globe, on the banke-side.</title>
+            <title type="alt">Merry devill of Edmonton</title>
+            <title type="alt">Merry devill of Edmonton.</title>
+            <author>Shakespeare, William, 1564-1616,</author>
+            <author>Dekker, Thomas, ca. 1572-1632,</author>
+            <author>Heywood, Thomas, d. 1641,</author>
+          </titleStmt>
+          <extent>[48] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by Henry Ballard for Arthur Iohnson, dwelling at the signe of the white-horse in Paules Church yard, ouer against the great north doore of Paules,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1608.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Sometimes attributed to William Shakespeare, to Thomas Dekker, to Thomas Heywood, and to others.</p>
+            </note>
+            <note>
+              <p>Partly in verse.</p>
+            </note>
+            <note>
+              <p>Based on the life of Peter Fabell.</p>
+            </note>
+            <note>
+              <p>Not the same work as "The life and death of the merry devill of Edmonton", a pamphlet by Thomas Brewer.</p>
+            </note>
+            <note>
+              <p>Signatures: A-F4.</p>
+            </note>
+            <note>
+              <p>The first leaf is blank except for signature-mark "A".</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+            <note>
+              <p>Corner cut out of upper right corner of title page, allowing part of headpiece to show through.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Fabell, Peter, -- 15th cent. -- Drama -- Early works to 1800.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A21136-e100010">
+    <front xml:id="A21136-e100020">
+      <div type="title_page" xml:id="A21136-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A21136-e100040">The merry devil of Edmonton.</p>
+        <p xml:id="A21136-e100050">As it hath been sundry times acted, by his majesty's servants, at the globe, on the Bankside. </p>
+        <p xml:id="A21136-e100060">London printed by Henry Ballard for Arthur Johnson, dwelling at the sign of the white-horse in Paul's church yard, over against the great North door of Paul's. 1608.</p>
+      </div>
+    </front>
+    <body xml:id="A21136-e100070">
+      <div type="play" xml:id="A21136-e100080">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The merry devil of Edmonton.</head>
+        <div type="prologue" xml:id="A21136-e100090">
+          <head>The prologue.</head>
+          <l xml:id="A21136-e100100">Your silence and attention worthy friends, (Sense,</l>
+          <l xml:id="A21136-e100110">That your free spirits may with more pleasing</l>
+          <l xml:id="A21136-e100120">Relish the life of this our active scene,</l>
+          <l xml:id="A21136-e100130">To which intent, to calm this murmuring breath,</l>
+          <l xml:id="A21136-e100140">We ring this round with our invoking spells,</l>
+          <l xml:id="A21136-e100150">If that your listening ears be yet prepared</l>
+          <l xml:id="A21136-e100160">To entertain the subject of our play,</l>
+          <l xml:id="A21136-e100170">Lend us your patience. </l>
+          <l xml:id="A21136-e100180">'Tis Peter Fabell a renowned scholar,</l>
+          <l xml:id="A21136-e100190">Whose fame hath still been hitherto forgotten</l>
+          <l xml:id="A21136-e100200">By all the writers of this latter age. </l>
+          <l xml:id="A21136-e100210">In Middlesex his birth and his abode,</l>
+          <l xml:id="A21136-e100220">Not full seven mile from this great famous city</l>
+          <l xml:id="A21136-e100230">That for his fame in sleights and magic won,</l>
+          <l xml:id="A21136-e100240">Was called the merry fiend of Edmonton. </l>
+          <l xml:id="A21136-e100250">If any here make doubt of such a name,</l>
+          <l xml:id="A21136-e100260">In Edmonton yet fresh unto this day,</l>
+          <l xml:id="A21136-e100270">Fixed in the wall of that old ancient church</l>
+          <l xml:id="A21136-e100280">His monument remaineth to be seen;</l>
+          <l xml:id="A21136-e100290">His memory yet in the mouths of men,</l>
+          <l xml:id="A21136-e100300">That whilst he lived he could deceive the devil. </l>
+          <l xml:id="A21136-e100310">Imagine now that whilst he is retired,</l>
+          <l xml:id="A21136-e100320">From Cambridge back unto his native home,</l>
+          <l xml:id="A21136-e100330">Suppose the silent sable visaged night,</l>
+          <l xml:id="A21136-e100340"><pb facs="3"/> casts her black curtain over all the world,</l>
+          <l xml:id="A21136-e100350">And whilst he sleeps within his silent bed,</l>
+          <l xml:id="A21136-e100360">Toiled with the studies of the passed day:</l>
+          <l xml:id="A21136-e100370">The very time and hour wherein that spirit</l>
+          <l xml:id="A21136-e100380">That many years attended his command;</l>
+          <l xml:id="A21136-e100390">And often times twixt Cambridge and that town,</l>
+          <l xml:id="A21136-e100400">Had in a minute born him through the air,</l>
+          <l xml:id="A21136-e100410">By composition twixt the fiend and him,</l>
+          <stage xml:id="A21136-e100420">Draw the curtains.</stage>
+          <l xml:id="A21136-e100430">Comes now to claim the scholar for his due. </l>
+          <l xml:id="A21136-e100440">Behold him here laid on his restless couch,</l>
+          <l xml:id="A21136-e100450">His fatal chime prepared at his head,</l>
+          <l xml:id="A21136-e100460">His chamber guarded with these sable slights,</l>
+          <l xml:id="A21136-e100470">And by him stands that necromantic chair,</l>
+          <l xml:id="A21136-e100480">In which he makes his direful invocations,</l>
+          <l xml:id="A21136-e100490">And binds the fiends that shall obey his will,</l>
+          <l xml:id="A21136-e100500">Sit with a pleased eye until you know</l>
+          <l xml:id="A21136-e100510">The comic end of our sad tragic show. </l>
+          <stage xml:id="A21136-e100520">Exit.</stage>
+        </div>
+        <div type="act" xml:id="A21136-e100530">
+          <stage xml:id="A21136-e100540">The chime goes, in which time Fabell is oft seen to stare about him, and hold up his hands.</stage>
+          <sp xml:id="A21136-e100550" who="A21136-fabell">
+            <speaker>Fa.</speaker>
+            <l xml:id="A21136-e100560">What means the tolling of this fatal chime,</l>
+            <l xml:id="A21136-e100570">Oh what a trembling horror strikes my heart! </l>
+            <l xml:id="A21136-e100580">My stiffened hair stands upright on my head,</l>
+            <l xml:id="A21136-e100590">As do the bristles of a porcupine. </l>
+          </sp>
+          <stage xml:id="A21136-e100600">Enter Coreb a spirit.</stage>
+          <sp xml:id="A21136-e100610" who="A21136-conjuror">
+            <speaker>Co.</speaker>
+            <l xml:id="A21136-e100620">Fabell awake, or I will bear thee hence headlong to hell. </l>
+          </sp>
+          <sp xml:id="A21136-e100630" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e100640">Ha, ha, why dost thou wake me? </l>
+            <l xml:id="A21136-e100650">Coreb, is it thou? </l>
+          </sp>
+          <sp xml:id="A21136-e100660" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e100670">'Tis I. </l>
+          </sp>
+          <sp xml:id="A21136-e100680" who="A21136-fabell">
+            <speaker>Fa.</speaker>
+            <l xml:id="A21136-e100690">I know thee well, I hear the watchful dogs,</l>
+            <l xml:id="A21136-e100700">With hollow howling tell of thy approach,</l>
+            <l xml:id="A21136-e100710">The lights burn dim, affrighted with thy presence:</l>
+            <l xml:id="A21136-e100720">And this distempered and tempestuous night</l>
+            <l xml:id="A21136-e100730">Tells me the air is troubled with some devil. </l>
+          </sp>
+          <sp xml:id="A21136-e100740" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e100750">Come, art thou ready? </l>
+          </sp>
+          <sp xml:id="A21136-e100760" who="A21136-fabell">
+            <pb facs="3"/>
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e100770">Whither? or to what? </l>
+          </sp>
+          <sp xml:id="A21136-e100780" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e100790">Why scholar this the hour my date expires,</l>
+            <l xml:id="A21136-e100800">I must depart and come to claim my due. </l>
+          </sp>
+          <sp xml:id="A21136-e100810" who="A21136-fabell">
+            <speaker>Fa.</speaker>
+            <l xml:id="A21136-e100820">Ha, what is thy due? </l>
+          </sp>
+          <sp xml:id="A21136-e100830" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e100840">Fabell, thyself,</l>
+          </sp>
+          <sp xml:id="A21136-e100850" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e100860">O let not darkness hear thee speak that word,</l>
+            <l xml:id="A21136-e100870">Lest that with force it hurry hence amain,</l>
+            <l xml:id="A21136-e100880">And leave the world to look upon my woe</l>
+            <l xml:id="A21136-e100890">Yet overwhelm me with this globe of earth,</l>
+            <l xml:id="A21136-e100900">And let a little sparrow with her bill,</l>
+            <l xml:id="A21136-e100910">Take but so much as she can bear away,</l>
+            <l xml:id="A21136-e100920">That every day thus losing of my load,</l>
+            <l xml:id="A21136-e100930">I may again in time yet hope to rise. </l>
+          </sp>
+          <sp xml:id="A21136-e100940" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e100950">Didst thou not write thy name in thine own blood? </l>
+            <l xml:id="A21136-e100960">And drewest the formal deed twixt thee and me,</l>
+            <l xml:id="A21136-e100970">And is it not recorded now in hell? </l>
+          </sp>
+          <sp xml:id="A21136-e100980" who="A21136-fabell">
+            <speaker>Fa.</speaker>
+            <l xml:id="A21136-e100990">Why com'st thou in this stern and horrid shape? </l>
+            <l xml:id="A21136-e101000">Not in familiar sort as thou wast wont. </l>
+          </sp>
+          <sp xml:id="A21136-e101010" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e101020">Because the date of thy command is out,</l>
+            <l xml:id="A21136-e101030">And I am master of thy skill and thee. </l>
+          </sp>
+          <sp xml:id="A21136-e101040" who="A21136-fabell">
+            <speaker>Fa.</speaker>
+            <l xml:id="A21136-e101050">Coreb, thou angry and impatient spirit,</l>
+            <l xml:id="A21136-e101060">I have earnest business for a private friend,</l>
+            <l xml:id="A21136-e101070">Reserve me spirit until some further time. </l>
+          </sp>
+          <sp xml:id="A21136-e101080" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e101090">I will not for the mines of all the earth. </l>
+          </sp>
+          <sp xml:id="A21136-e101100" who="A21136-fabell">
+            <speaker>Fa.</speaker>
+            <l xml:id="A21136-e101110">Then let me rise, and ere I leave the world,</l>
+            <l xml:id="A21136-e101120">Dispatch some business that I have to do,</l>
+            <l xml:id="A21136-e101130">And in mean time repose thee in that chair. </l>
+          </sp>
+          <sp xml:id="A21136-e101140" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e101150">Fabell, I will. </l>
+            <stage xml:id="A21136-e101160">Sit down.</stage>
+          </sp>
+          <sp xml:id="A21136-e101170" who="A21136-fabell">
+            <speaker>Fa.</speaker>
+            <l xml:id="A21136-e101180">O that this soul that cost so great a price,</l>
+            <l xml:id="A21136-e101190">As the dear precious blood of her redeemer,</l>
+            <l xml:id="A21136-e101200">Inspired with knowledge, should by that alone</l>
+            <l xml:id="A21136-e101210">Which makes a man so mean unto the powers,</l>
+            <l xml:id="A21136-e101220">Even lead him down into the depth of hell,</l>
+            <l xml:id="A21136-e101230">When men in their own pride strive to know more than man should know! </l>
+            <l xml:id="A21136-e101240">For this alone God cast the angels down,</l>
+            <l xml:id="A21136-e101250">The infinity of arts is like a sea,</l>
+            <l xml:id="A21136-e101260"><pb facs="4"/> into which when man will take in hand to sail</l>
+            <l xml:id="A21136-e101270">Further than reason, which should be his pilot,</l>
+            <l xml:id="A21136-e101280">Hath skill to guide him, losing once his compass,</l>
+            <l xml:id="A21136-e101290">He falleth to such deep and dangerous whirlpools,</l>
+            <l xml:id="A21136-e101300">As he doth lose the very sight of heaven:</l>
+            <l xml:id="A21136-e101310">The more he strives to come to quiet harbour,</l>
+            <l xml:id="A21136-e101320">The further still he finds himself from land,</l>
+            <l xml:id="A21136-e101330">Man striving still to find the depth of evil,</l>
+            <l xml:id="A21136-e101340">Seeking to be a God, becomes a devil. </l>
+          </sp>
+          <sp xml:id="A21136-e101350" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e101360">Come Fabell hast thou done? </l>
+          </sp>
+          <sp xml:id="A21136-e101370" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e101380">Yes, yes, come hither. </l>
+          </sp>
+          <sp xml:id="A21136-e101390" who="A21136-coreb">
+            <speaker>Cour</speaker>
+            <l xml:id="A21136-e101400">Fabell, I cannot. </l>
+          </sp>
+          <sp xml:id="A21136-e101410" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e101420">Cannot, what ails your hollowness? </l>
+          </sp>
+          <sp xml:id="A21136-e101430" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e101440">Good Fabell help me. </l>
+          </sp>
+          <sp xml:id="A21136-e101450" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e101460">Alas where lies your grief? some aquavitae,</l>
+            <l xml:id="A21136-e101470">The devil's very sick, I fear he'll die,</l>
+            <l xml:id="A21136-e101480">For he looks very ill. </l>
+          </sp>
+          <sp xml:id="A21136-e101490" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e101500">Dar'st thou deride the minister of darkness? </l>
+            <l xml:id="A21136-e101510">In Lucifer's dread name Coreb conjures thee</l>
+            <l xml:id="A21136-e101520">To set him free. </l>
+          </sp>
+          <sp xml:id="A21136-e101530" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e101540">I will not for the mines of all the earth,</l>
+            <l xml:id="A21136-e101550">Unless thou give me liberty to see,</l>
+            <l xml:id="A21136-e101560">Seven fiends more before thou seize on me. </l>
+          </sp>
+          <sp xml:id="A21136-e101570" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e101580">Fabell, I give it thee. </l>
+          </sp>
+          <sp xml:id="A21136-e101590" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e101600">Swear damned fiend. </l>
+          </sp>
+          <sp xml:id="A21136-e101610" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e101620">Unbind me, and by hell I will not touch thee,</l>
+            <l xml:id="A21136-e101630">Till seven years from this hour be full expired. </l>
+          </sp>
+          <sp xml:id="A21136-e101640" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e101650">Enough, come out. </l>
+          </sp>
+          <sp xml:id="A21136-e101660" who="A21136-coreb">
+            <speaker>Cor.</speaker>
+            <l xml:id="A21136-e101670">A vengeance take thy art,</l>
+            <l xml:id="A21136-e101680">Live and convert all piety to evil,</l>
+            <l xml:id="A21136-e101690">Never did man thus overreach the devil;</l>
+            <l xml:id="A21136-e101700">No time on earth like Phaetontique flames,</l>
+            <l xml:id="A21136-e101710">Can have perpetual being. I'll return</l>
+            <l xml:id="A21136-e101720">To my infernal mansion, but be sure</l>
+            <l xml:id="A21136-e101730">Thy seven years done, no trick shall make me tarry,</l>
+            <stage xml:id="A21136-e101740">Exit.</stage>
+            <l xml:id="A21136-e101750">But Coreb, thou to hell shalt Fabell carry. </l>
+          </sp>
+          <sp xml:id="A21136-e101760" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e101770">Then thus betwixt us two this variance ends,</l>
+            <l xml:id="A21136-e101780"><pb facs="4"/> thou to thy fellow fiends, I to my friends. </l>
+            <stage xml:id="A21136-e101790">Exit.</stage>
+          </sp>
+          <stage xml:id="A21136-e101800">Enter sir Arthur Clare, Dorcas his lady, Milliscent his daughter, young Harry Clare, the men booted, the gentlewomen in cloaks and safeguards, Blague the merry host of the George comes in with them.</stage>
+          <sp xml:id="A21136-e101810" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e101820">Welcome good knight to the George at Waltham,</l>
+            <l xml:id="A21136-e101830">My freehold, my tenements, goods, and chattels,</l>
+            <p xml:id="A21136-e101840">Madam here's a room is the very Homer and Iliads of a lodging, it hath none of the four elements in it, I built it out of the</p>
+            <l xml:id="A21136-e101850">Centre, and I drink ne'er the less sack. </l>
+            <l xml:id="A21136-e101860">Welcome my little waste of maidenheads, what? </l>
+            <l xml:id="A21136-e101870">I serve the good Duke of Norfolk. </l>
+          </sp>
+          <sp xml:id="A21136-e101880" who="A21136-clare">
+            <speaker>Clare.</speaker>
+            <l xml:id="A21136-e101890">God a mercy my good host Blague,</l>
+            <l xml:id="A21136-e101900">Thou hast a good seat here. </l>
+          </sp>
+          <sp xml:id="A21136-e101910" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e101920">'Tis correspondent or so, there's not a Tartarian</l>
+            <l xml:id="A21136-e101930">Nor a carrier, shall breathe upon your geldings,</l>
+            <l xml:id="A21136-e101940">They have villainous rank feet, the rogues,</l>
+            <l xml:id="A21136-e101950">And they shall not sweat in my linen. </l>
+            <l xml:id="A21136-e101960">Knights and lords too have been drunk in my house,</l>
+            <l xml:id="A21136-e101970">I thank the destinies. </l>
+          </sp>
+          <sp xml:id="A21136-e101980" who="A21136-harry">
+            <speaker>Har.</speaker>
+            <l xml:id="A21136-e101990">Prithee good sinful innkeeper, will that corruption thine</l>
+            <l xml:id="A21136-e102000">Ostler look well to my geldings. Hay, a pox a these rushes. </l>
+          </sp>
+          <sp xml:id="A21136-e102010" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e102020">You saint Dennis, your geldings shall walk without doors, and cool his feet for his master's sake by the body of s George I have an excellent intellect to go steal some venison now when wast thou in the forest?</p>
+          </sp>
+          <sp xml:id="A21136-e102030" who="A21136-harry">
+            <speaker>Har.</speaker>
+            <p xml:id="A21136-e102040">Away you stale mess of white broth: come hither sister, let me help you.</p>
+          </sp>
+          <sp xml:id="A21136-e102050" who="A21136-clare">
+            <speaker>Clare.</speaker>
+            <p xml:id="A21136-e102060">Mine host is not sir Richard Mounchensey come yet according to our appointment when we last dined here?</p>
+          </sp>
+          <sp xml:id="A21136-e102070" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e102080">The knight's not yet apparent marry here's a forerunner that summons a parley, and saith, he'll be here top and top-gallant presently.</p>
+          </sp>
+          <sp xml:id="A21136-e102090" who="A21136-clare">
+            <speaker>Clare.</speaker>
+            <p xml:id="A21136-e102100">'Tis well good mine host, go down and see breakfast be provided.</p>
+          </sp>
+          <sp xml:id="A21136-e102110" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e102120">Knight, thy breath hath the force of a woman, it takes<pb facs="5"/> me down, I am for the baser element of the kitchen: I retire like a valiant soldier's face point blank to the foeman; or like a courtier that must not show the prince his posteriors; vanish to know my canvasadoes and my interrogatories, for I serve the good Duke of Norfolk.</p>
+            <stage xml:id="A21136-e102130">Exit.</stage>
+          </sp>
+          <sp xml:id="A21136-e102140" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e102150">How doth my lady, are you not weary madam? </l>
+            <l xml:id="A21136-e102160">Come hither, I must talk in private with you,</l>
+            <l xml:id="A21136-e102170">My daughter Milliscent must not overhear. </l>
+          </sp>
+          <sp xml:id="A21136-e102180" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e102190">Ay, whispering, pray God it tend my good,</l>
+            <l xml:id="A21136-e102200">Strange fear assails my heart, usurps my blood. </l>
+          </sp>
+          <sp xml:id="A21136-e102210" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e102220">You know our meeting with the knight Mounehensey,</l>
+            <l xml:id="A21136-e102230">Is to assure our daughter to his heir. </l>
+          </sp>
+          <sp xml:id="A21136-e102240" who="A21136-dorcas">
+            <speaker>Dor.</speaker>
+            <l xml:id="A21136-e102250">'Tis without question. </l>
+          </sp>
+          <sp xml:id="A21136-e102260" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e102270">Two tedious winters have passed o'er since first,</l>
+            <l xml:id="A21136-e102280">These couple loved each other, and in passion</l>
+            <l xml:id="A21136-e102290">Glued first their naked hands with youthful moisture,</l>
+            <l xml:id="A21136-e102300">Just so long on my knowledge. </l>
+          </sp>
+          <sp xml:id="A21136-e102310" who="A21136-dorcas">
+            <speaker>Dor.</speaker>
+            <l xml:id="A21136-e102320">And what of this? </l>
+          </sp>
+          <sp xml:id="A21136-e102330" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e102340">This morning should my daughter lose her name,</l>
+            <l xml:id="A21136-e102350">And to Mounchensey's house convey our arms,</l>
+            <l xml:id="A21136-e102360">Quartered within his scutcheon; th'affiance made</l>
+            <l xml:id="A21136-e102370">Twixt him and her, this morning should be sealed. </l>
+          </sp>
+          <sp xml:id="A21136-e102380" who="A21136-dorcas">
+            <speaker>Dor.</speaker>
+            <l xml:id="A21136-e102390">I know it should. </l>
+          </sp>
+          <sp xml:id="A21136-e102400" who="A21136-clare">
+            <speaker>Clar.</speaker>
+            <l xml:id="A21136-e102410">But there are crosses wife, here's one in Waltham,</l>
+            <l xml:id="A21136-e102420">Another at the abbey; and the third</l>
+            <l xml:id="A21136-e102430">At Cheshunt, and 'tis ominous to pass</l>
+            <l xml:id="A21136-e102440">Any of these without a pater-noster:</l>
+            <l xml:id="A21136-e102450">Crosses of love still thwart this marriage,</l>
+            <l xml:id="A21136-e102460">Whilst that we two like spirits walk in night,</l>
+            <l xml:id="A21136-e102470">About those stony and hard hearted plots. </l>
+          </sp>
+          <sp xml:id="A21136-e102480" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e102490">O God, what means my father? </l>
+          </sp>
+          <sp xml:id="A21136-e102500" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e102510">For look you wife, the riotous old knight,</l>
+            <l xml:id="A21136-e102520">Hath o'errun his annual revenue,</l>
+            <l xml:id="A21136-e102530">In keeping jolly Christmas all the year,</l>
+            <l xml:id="A21136-e102540">The nostrils of his chimney are still stuffed,</l>
+            <l xml:id="A21136-e102550">With smoke more chargeable than cane-tobacco,</l>
+            <l xml:id="A21136-e102560">His hawks devour his fattest dogs whilst simple,</l>
+            <l xml:id="A21136-e102570"><pb facs="5"/> his leanest curs eate him hound's carrion</l>
+            <l xml:id="A21136-e102580">Besides, I heard of late his younger brother,</l>
+            <l xml:id="A21136-e102590">A Turkey merchant hath sure sucked the knight,</l>
+            <l xml:id="A21136-e102600">By means of some great losses on the sea,</l>
+            <l xml:id="A21136-e102610">That you conceive me, before God all naught,</l>
+            <l xml:id="A21136-e102620">His seat is weak, thus each thing rightly scanned,</l>
+            <l xml:id="A21136-e102630">You'll see a flight wife, shortly of his land. </l>
+          </sp>
+          <sp xml:id="A21136-e102640" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e102650">Treason to my heart's truest sovereign,</l>
+            <l xml:id="A21136-e102660">How soon is love smothered in foggy gain? </l>
+          </sp>
+          <sp xml:id="A21136-e102670" who="A21136-dorcas">
+            <speaker>Dor.</speaker>
+            <l xml:id="A21136-e102680">But how shall we prevent this dangerous match? </l>
+          </sp>
+          <sp xml:id="A21136-e102690" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e102700">I have a plot, a trick, and this it is,</l>
+            <l xml:id="A21136-e102710">Under this colour I'll break off the match;</l>
+            <l xml:id="A21136-e102720">I'll tell the knight that now my mind is changed</l>
+            <l xml:id="A21136-e102730">For marrying of my daughter, for I intend</l>
+            <l xml:id="A21136-e102740">To send her unto Cheshunt nunnery. </l>
+          </sp>
+          <sp xml:id="A21136-e102750" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e102760">O me accursed! </l>
+          </sp>
+          <sp xml:id="A21136-e102770" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e102780">There to become a most religious nun. </l>
+          </sp>
+          <sp xml:id="A21136-e102790" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e102800">I'll first be buried quick. </l>
+          </sp>
+          <sp xml:id="A21136-e102810" who="A21136-clare">
+            <speaker>Clar.</speaker>
+            <l xml:id="A21136-e102820">To spend her beauty in most private prayers. </l>
+          </sp>
+          <sp xml:id="A21136-e102830" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e102840">I'll sooner be a sinner in forsaking</l>
+            <l xml:id="A21136-e102850">Mother and father. </l>
+          </sp>
+          <sp xml:id="A21136-e102860" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e102870">How dost like my plot? </l>
+          </sp>
+          <sp xml:id="A21136-e102880" who="A21136-dorcas">
+            <speaker>Dor.</speaker>
+            <l xml:id="A21136-e102890">Exceeding well, but is it your intent</l>
+            <l xml:id="A21136-e102900">She shall continue there? </l>
+          </sp>
+          <sp xml:id="A21136-e102910" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e102920">Continue there? Ha, ha, that were a jest,</l>
+            <l xml:id="A21136-e102930">You know a virgin may continue there,</l>
+            <l xml:id="A21136-e102940">A twelvemonth and a day only on trial,</l>
+            <l xml:id="A21136-e102950">There shall my daughter sojourn some three months,</l>
+            <l xml:id="A21136-e102960">And in mean time I'll compass a fair match</l>
+            <l xml:id="A21136-e102970">Twixt youthful Jerningham, the lusty heir</l>
+            <l xml:id="A21136-e102980">Of sir Raph Jerningham dwelling in the forest,</l>
+            <l xml:id="A21136-e102990">I think they'll both come hither with Mounchensey. </l>
+            <stage xml:id="A21136-e103000">Exeunt.</stage>
+          </sp>
+          <sp xml:id="A21136-e103010" who="A21136-dorcas">
+            <speaker>Dor.</speaker>
+            <l xml:id="A21136-e103020">Your care argues the love you bear our child,</l>
+            <l xml:id="A21136-e103030">I will subscribe to any thing you'll have me. </l>
+          </sp>
+          <sp xml:id="A21136-e103040" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e103050">You will subscribe to it, good, good, 'tis well,</l>
+            <l xml:id="A21136-e103060">Love hath two chairs of state, heaven and hell:</l>
+            <l xml:id="A21136-e103070">My dear Mounchensey, thou my death shalt rue,</l>
+            <l xml:id="A21136-e103080"><pb facs="6"/> ere to thy heart Milliscent prove untrue. </l>
+            <stage xml:id="A21136-e103090">Exit.</stage>
+          </sp>
+          <stage xml:id="A21136-e103100">Enter Blague.</stage>
+          <sp xml:id="A21136-e103110" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e103120">Ostlers, you knaves and commanders, take the horses of the knights and competitors: your honourable hulks have put into harbour, they'll take in fresh water here, and I have provided clean chamberpots.</p>
+            <stage xml:id="A21136-e103130">Via, they come.</stage>
+          </sp>
+          <stage xml:id="A21136-e103140">Enter sir Richard Mounchensey, sir Raph Jerningham, young Frank Jerningham, Raymond Mounchensey, Peter Fabell, and bilbo.</stage>
+          <sp xml:id="A21136-e103150" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e103160">The destinies be most neat chamberlains to these swaggering puritans, knights of the subsidy.</p>
+          </sp>
+          <sp xml:id="A21136-e103170" who="A21136-mounchensey">
+            <speaker>Sir Moun.</speaker>
+            <l xml:id="A21136-e103180">God a mercy good mine host. </l>
+          </sp>
+          <sp xml:id="A21136-e103190" who="A21136-jerningham">
+            <speaker>Sir Ier.</speaker>
+            <l xml:id="A21136-e103200">Thanks good host Blague. </l>
+          </sp>
+          <sp xml:id="A21136-e103210" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e103220">Room for my case of pistols that have Greek and Latin bullets in them, let me cling to your flanks my nimble Giberalters, and blow wind in your calves to make them swell bigger: ha, I'll caper in mine own fee-simple, away with puntillioes, and orthography: I serve the good Duke of Norfolk. Bilbo. Tityre tu patulae recubens sub tegmine fagi. </p>
+          </sp>
+          <sp xml:id="A21136-e103230" who="A21136-bilbo">
+            <speaker>Bil.</speaker>
+            <p xml:id="A21136-e103240">Truly mine host, bilbo, though he be somewhat out of fashion, will be your only blade still I have a villainous sharp stomach to slice a breakfast.</p>
+          </sp>
+          <sp xml:id="A21136-e103250" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e103260">Thou shalt have it without any more discontinuance, releases, or atturnment; what? we know our terms of hunting; and the sea-card.</p>
+          </sp>
+          <sp xml:id="A21136-e103270" who="A21136-bilbo">
+            <speaker>Bil.</speaker>
+            <l xml:id="A21136-e103280">And do you serve the good Duke of Norfolk still? </l>
+          </sp>
+          <sp xml:id="A21136-e103290" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e103300">Still, and still, and still, my soldier of s Quentin's, come, follow me, I have Charles wain below in a but of sack, 'twill glister like your crabfish.</p>
+          </sp>
+          <sp xml:id="A21136-e103310" who="A21136-bilbo">
+            <speaker>Bil.</speaker>
+            <p xml:id="A21136-e103320">You have fine scholarlike terms, your Cooper's dictionary is your only book to study in a cellar, a man shall find very strange words in it: come my host, let's serve the good Duke of Norfolk.</p>
+          </sp>
+          <sp xml:id="A21136-e103330" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e103340">And still, and still, and still my boy I'll serve the good Duke of Norfolk.</p>
+          </sp>
+          <sp xml:id="A21136-e103350" who="A21136-jerningham">
+            <pb facs="6"/>
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e103360">Good sir Arthur Clare. </l>
+          </sp>
+          <sp xml:id="A21136-e103370" who="A21136-clare">
+            <speaker>Clar.</speaker>
+            <l xml:id="A21136-e103380">What gentleman is that? I know him not. </l>
+          </sp>
+          <sp xml:id="A21136-e103390" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <l xml:id="A21136-e103400">'Tis m. Fabell sir a Cambridge scholar,</l>
+            <l xml:id="A21136-e103410">My son's dear friend. </l>
+          </sp>
+          <sp xml:id="A21136-e103420" who="A21136-clare">
+            <speaker>Clar.</speaker>
+            <l xml:id="A21136-e103430">Sir, I entreat you know me. </l>
+          </sp>
+          <sp xml:id="A21136-e103440" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e103450">Command me sir, I am affected to you</l>
+            <l xml:id="A21136-e103460">For your Mounchensey's sake. </l>
+          </sp>
+          <sp xml:id="A21136-e103470" who="A21136-clare">
+            <speaker>Clar.</speaker>
+            <l xml:id="A21136-e103480">Alas for him,</l>
+            <l xml:id="A21136-e103490">I not respect whether he sink or swim,</l>
+            <l xml:id="A21136-e103500">A word in private sir Raph Jerningham. </l>
+          </sp>
+          <sp xml:id="A21136-e103510" who="A21136-raymond">
+            <speaker>Ray.</speaker>
+            <l xml:id="A21136-e103520">Methinks your father looketh strangely on me,</l>
+            <l xml:id="A21136-e103530">Say love, why are you sad? </l>
+          </sp>
+          <sp xml:id="A21136-e103540" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e103550">I am not sweet,</l>
+            <l xml:id="A21136-e103560">Passion is strong, when woe with woe doth meet. </l>
+          </sp>
+          <sp xml:id="A21136-e103570" who="A21136-clare">
+            <speaker>Clar.</speaker>
+            <l xml:id="A21136-e103580">Shall's in to breakfast, after we'll conclude</l>
+            <l xml:id="A21136-e103590">The cause of this our coming, in and feed,</l>
+            <l xml:id="A21136-e103600">And let that usher a more serious deed. </l>
+          </sp>
+          <sp xml:id="A21136-e103610" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e103620">Whilst you desire his grief, my heart shall bleed. </l>
+          </sp>
+          <sp xml:id="A21136-e103630" who="A21136-young_jerningham">
+            <speaker>Young Jer.</speaker>
+            <l xml:id="A21136-e103640">Raymond Mounchensey come be frolic friend,</l>
+            <l xml:id="A21136-e103650">This is the day thou hast expected long. </l>
+          </sp>
+          <sp xml:id="A21136-e103660" who="A21136-raymond">
+            <speaker>Ray.</speaker>
+            <l xml:id="A21136-e103670">Pray God dear Harry Clare it prove so happy. </l>
+          </sp>
+          <sp xml:id="A21136-e103680" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e103690">There's naught can alter it, be merry lad. </l>
+          </sp>
+          <sp xml:id="A21136-e103700" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e103710">There's naught shall alter it, be lively Raymond,</l>
+            <l xml:id="A21136-e103720">Stand any opposition 'gainst thy hope,</l>
+            <l xml:id="A21136-e103730">Art shall confront it with her largest scope. </l>
+            <stage xml:id="A21136-e103740">Exeunt.</stage>
+          </sp>
+          <stage xml:id="A21136-e103750">Peter Fabell, solus.</stage>
+          <sp xml:id="A21136-e103760" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e103770">Good old Mounchensey, is thy hap so ill,</l>
+            <l xml:id="A21136-e103780">That for thy bounty and thy royal parts,</l>
+            <l xml:id="A21136-e103790">Thy kind alliance should be held in scorn,</l>
+            <l xml:id="A21136-e103800">And after all these promises by Clare,</l>
+            <l xml:id="A21136-e103810">Refuse to give his daughter to thy son,</l>
+            <l xml:id="A21136-e103820">Only because thy revenues cannot reach,</l>
+            <l xml:id="A21136-e103830">To make her dowage of so rich a jointure,</l>
+            <l xml:id="A21136-e103840">As can the heir of wealthy Jerningham? </l>
+            <l xml:id="A21136-e103850">And therefore is the false fox now in hand,</l>
+            <l xml:id="A21136-e103860">To strike a match betwixt her and th'other,</l>
+            <l xml:id="A21136-e103870">And the old graybeards now are close together,</l>
+            <l xml:id="A21136-e103880"><pb facs="7"/> plotting it in the garden. Is't even so? </l>
+            <l xml:id="A21136-e103890">Raymond Mounchensey, boy, have thou and I</l>
+            <l xml:id="A21136-e103900">Thus long at Cambridge read the liberal arts,</l>
+            <l xml:id="A21136-e103910">The metaphysics, magic, and those parts,</l>
+            <l xml:id="A21136-e103920">Of the most secret deep philosophy? </l>
+            <l xml:id="A21136-e103930">Have I so many melancholy nights</l>
+            <l xml:id="A21136-e103940">Watched on the top of Peter-house highest tower? </l>
+            <l xml:id="A21136-e103950">And come we back unto our native home,</l>
+            <l xml:id="A21136-e103960">For want of skill to lose the wench thou lovest? </l>
+            <l xml:id="A21136-e103970">We'll first hang Enfield in such rings of mist</l>
+            <l xml:id="A21136-e103980">As never rose from any dampish fen,</l>
+            <l xml:id="A21136-e103990">I'll make the brined sea to rise at Ware,</l>
+            <l xml:id="A21136-e104000">And drown the marshes unto Stratford bridge,</l>
+            <l xml:id="A21136-e104010">I'll drive the deer from Waltham in their walks,</l>
+            <l xml:id="A21136-e104020">And scatter them like sheep in every field:</l>
+            <l xml:id="A21136-e104030">We may perhaps be crossed, but if we be,</l>
+            <l xml:id="A21136-e104040">He shall cross the devil that but crosses me. </l>
+            <stage xml:id="A21136-e104050">Enter Raymond and young jerning.</stage>
+            <l xml:id="A21136-e104060">But here comes Raymond disconsolate and sad,</l>
+            <l xml:id="A21136-e104070">And here's the gallant that must have the wench. </l>
+            <l xml:id="A21136-e104080">I prithee Raymond leave these solemn dumps,</l>
+            <l xml:id="A21136-e104090">Revive thy spirits, thou that before hast been,</l>
+            <l xml:id="A21136-e104100">More watchful than the day-proclaiming cock,</l>
+            <l xml:id="A21136-e104110">As sportive as a kid, as frank and merry</l>
+            <l xml:id="A21136-e104120">As mirth herself. </l>
+            <l xml:id="A21136-e104130">If ought in me may thy content procure,</l>
+            <l xml:id="A21136-e104140">It is thine own thou mayst thyself assure. </l>
+          </sp>
+          <sp xml:id="A21136-e104150" who="A21136-raymond">
+            <speaker>Ray.</speaker>
+            <l xml:id="A21136-e104160">Ha Jerningham, if any but thyself</l>
+            <l xml:id="A21136-e104170">Had spoke that word, it would have come as cold</l>
+            <l xml:id="A21136-e104180">As the bleak Northern winds, upon the face</l>
+            <l xml:id="A21136-e104190">Of winter. </l>
+            <l xml:id="A21136-e104200">From thee they have some power upon my blood,</l>
+            <l xml:id="A21136-e104210">Yet being from thee, had but that hollow sound,</l>
+            <l xml:id="A21136-e104220">Come from the lips of any living man,</l>
+            <l xml:id="A21136-e104230">It might have won the credit of mine ear,</l>
+            <l xml:id="A21136-e104240">From thee it cannot. </l>
+          </sp>
+          <sp xml:id="A21136-e104250" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e104260">If I understand thee, I am a villain,</l>
+            <l xml:id="A21136-e104270">What, dost thou speak in parables to thy friends? </l>
+          </sp>
+          <sp xml:id="A21136-e104280" who="A21136-clare">
+            <pb facs="7"/>
+            <speaker>Clar.</speaker>
+            <l xml:id="A21136-e104290">Come boy and make me this same groaning love,</l>
+            <l xml:id="A21136-e104300">Troubled with stitches, and the cough o'th' lungs,</l>
+            <l xml:id="A21136-e104310">That wept his eyes out when he was a child,</l>
+            <l xml:id="A21136-e104320">And ever since hath shot at hoodman-blind,</l>
+            <l xml:id="A21136-e104330">Make her leap, caper, jerk and laugh and sing,</l>
+            <l xml:id="A21136-e104340">And play me horse-tricks,</l>
+            <l xml:id="A21136-e104350">Make Cupid wanton as his mother's dove,</l>
+            <l xml:id="A21136-e104360">But, in this sort boy I would have thee love. </l>
+          </sp>
+          <sp xml:id="A21136-e104370" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e104380">Why how now madcap? what my lusty Frank,</l>
+            <l xml:id="A21136-e104390">So near a wife, and will not tell your friend? </l>
+            <l xml:id="A21136-e104400">But you will to this gear in hugger-mugger,</l>
+            <l xml:id="A21136-e104410">Art thou turned miser rascal in thy loves? </l>
+          </sp>
+          <sp xml:id="A21136-e104420" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e104430">Who I? 'sblood, what should all you see in me,</l>
+            <l xml:id="A21136-e104440">That I should look like a married man? ha,</l>
+            <l xml:id="A21136-e104450">Am I bald? are my legs too little for my hose? </l>
+            <l xml:id="A21136-e104460">If I feel any thing in my forehead, I am</l>
+            <l xml:id="A21136-e104470">A villain, do I wear a nightcap? do I bend</l>
+            <l xml:id="A21136-e104480">In the hams? What dost thou see in me that I</l>
+            <l xml:id="A21136-e104490">Should be towards marriage, ha? </l>
+          </sp>
+          <sp xml:id="A21136-e104500" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e104510">What thou married? let me look upon thee,</l>
+            <l xml:id="A21136-e104520">Rogue, who has given out this of thee? how</l>
+            <l xml:id="A21136-e104530">Camest thou into this ill name? what company</l>
+            <l xml:id="A21136-e104540">Hast thou been in rascal? </l>
+          </sp>
+          <sp xml:id="A21136-e104550" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e104560">You are the man sir, must have Millescent,</l>
+            <l xml:id="A21136-e104570">The match is making in the garden now,</l>
+            <l xml:id="A21136-e104580">Her jointure is agreed on, and th'old men</l>
+            <l xml:id="A21136-e104590">Your father's mean to launch their busy bags,</l>
+            <l xml:id="A21136-e104600">But in mean time to thrust Mountchensey off,</l>
+            <l xml:id="A21136-e104610">For colour of this new intended match. </l>
+            <l xml:id="A21136-e104620">Fair Millescent to Cheshunt must be sent,</l>
+            <l xml:id="A21136-e104630">To take the approbation for a nun. </l>
+            <l xml:id="A21136-e104640">Ne'er look upon me lad, the match is done. </l>
+          </sp>
+          <sp xml:id="A21136-e104650" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e104660">Raymond Mountchensey, now I touch thy grief,</l>
+            <l xml:id="A21136-e104670">With the true feeling of a zealous friend. </l>
+            <l xml:id="A21136-e104680">And as for fair and beauteous Millescent,</l>
+            <l xml:id="A21136-e104690">With my vain breath I will not seek to slubber,</l>
+            <l xml:id="A21136-e104700">Her angel like perfections, but thou knowest,</l>
+            <l xml:id="A21136-e104710"><pb facs="8"/> that Essex hath the saint that I adore,</l>
+            <l xml:id="A21136-e104720">Where ere did we meet thee and wanton springs,</l>
+            <l xml:id="A21136-e104730">That like a wag thou hast not laughed at me,</l>
+            <l xml:id="A21136-e104740">And with regardless jesting mocked my love? </l>
+            <l xml:id="A21136-e104750">Now many a sad and weary summer night,</l>
+            <l xml:id="A21136-e104760">My sighs have drunk the dew from off the earth,</l>
+            <l xml:id="A21136-e104770">I have taught the watchful nightingale to wake,</l>
+            <l xml:id="A21136-e104780">And from the meadows spring the early lark,</l>
+            <l xml:id="A21136-e104790">An hour before she would have risen to sing,</l>
+            <l xml:id="A21136-e104800">I have loaded the poor minutes with my moans,</l>
+            <l xml:id="A21136-e104810">That I have made the heavy slow paced hours,</l>
+            <l xml:id="A21136-e104820">To hang like heavy clogs upon the day. </l>
+            <l xml:id="A21136-e104830">But dear Mounchensey, had not my affection</l>
+            <l xml:id="A21136-e104840">Seized on the beauty of another dame,</l>
+            <l xml:id="A21136-e104850">Before I would give o'er the chase and wrong the love,</l>
+            <l xml:id="A21136-e104860">Of one so worthy and so true a friend,</l>
+            <l xml:id="A21136-e104870">I will abjure both beauty and her sight,</l>
+            <l xml:id="A21136-e104880">And will in love become a counterfeit. </l>
+          </sp>
+          <sp xml:id="A21136-e104890" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e104900">Dear Jerningham, thou hast begotten my life,</l>
+            <l xml:id="A21136-e104910">And from the mouth of he I where now I sat,</l>
+            <l xml:id="A21136-e104920">I feel my spirit rebound against the stars:</l>
+            <l xml:id="A21136-e104930">Thou hast conquered me dear friend in my free soul,</l>
+            <l xml:id="A21136-e104940">Their time or death can by their power control. </l>
+          </sp>
+          <sp xml:id="A21136-e104950" who="A21136-fabell">
+            <speaker>Fab</speaker>
+            <l xml:id="A21136-e104960">Frank Jerningham, thou art a gallant boy,</l>
+            <l xml:id="A21136-e104970">And were he not my pupil I would say,</l>
+            <l xml:id="A21136-e104980">He were as fine a mettled gentleman,</l>
+            <l xml:id="A21136-e104990">Of as free spirit and of as fine a temper,</l>
+            <l xml:id="A21136-e105000">As is in England, and he is a man,</l>
+            <l xml:id="A21136-e105010">That very richly may deserve thy love. </l>
+            <l xml:id="A21136-e105020">But noble Clare, this while of our discourse,</l>
+            <l xml:id="A21136-e105030">What may Mounchensey, honour to thyself,</l>
+            <l xml:id="A21136-e105040">Exact upon the measure of thy grace? </l>
+          </sp>
+          <sp xml:id="A21136-e105050" who="A21136-clare">
+            <speaker>Clar.</speaker>
+            <l xml:id="A21136-e105060">Raymond Mounchensey? I would have thee know,</l>
+            <l xml:id="A21136-e105070">He does not breathe this air,</l>
+            <l xml:id="A21136-e105080">Whose love I cherish, and whose soul I love,</l>
+            <l xml:id="A21136-e105090">More than Mounchensey's:</l>
+            <l xml:id="A21136-e105100">Nor ever in my life did see the man,</l>
+            <l xml:id="A21136-e105110">Whom for his wit and many virtuous parts,</l>
+            <l xml:id="A21136-e105120"><pb facs="8"/> I think more worthy of my sister's love. </l>
+            <l xml:id="A21136-e105130">But since the matter grows unto this pass,</l>
+            <l xml:id="A21136-e105140">I must not seem to cross my father's will. </l>
+            <l xml:id="A21136-e105150">But when thou list to visit her by night,</l>
+            <l xml:id="A21136-e105160">My horses saddled, and the stable door</l>
+            <l xml:id="A21136-e105170">Stands ready for thee, use them at thy pleasure,</l>
+            <l xml:id="A21136-e105180">In honest marriage wed her frankly boy,</l>
+            <l xml:id="A21136-e105190">And if thou gettest her lad, God give thee joy. </l>
+          </sp>
+          <sp xml:id="A21136-e105200" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <l xml:id="A21136-e105210">Then care away, let fates my fall pretend,</l>
+            <l xml:id="A21136-e105220">Backed with the favours of so true a friend. </l>
+          </sp>
+          <sp xml:id="A21136-e105230" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e105240">Let us alone to bustle for the set,</l>
+            <l xml:id="A21136-e105250">For age and craft, with wit and art have met. </l>
+            <l xml:id="A21136-e105260">I'll make my spirits to dance such nightly jigs</l>
+            <l xml:id="A21136-e105270">Along the way twixt this and Tott'nham cross,</l>
+            <l xml:id="A21136-e105280">The carrier's jades shall cast their heavy packs,</l>
+            <l xml:id="A21136-e105290">And the strong hedges scarce shall keep them in:</l>
+            <l xml:id="A21136-e105300">The milkmaid's cuts shall turn the wenches off,</l>
+            <l xml:id="A21136-e105310">And lay the dossers tumbling in the dust:</l>
+            <l xml:id="A21136-e105320">The frank and merry London prentices,</l>
+            <l xml:id="A21136-e105330">That come for cream and lusty country cheer,</l>
+            <l xml:id="A21136-e105340">Shall lose their way, and scrambling in the ditches</l>
+            <l xml:id="A21136-e105350">All night, shall whoop and hollow, cry and call,</l>
+            <l xml:id="A21136-e105360">Yet none to other find the way at all. </l>
+          </sp>
+          <sp xml:id="A21136-e105370" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e105380">Pursue the project scholar, what we can do,</l>
+            <l xml:id="A21136-e105390">To help endeavour join our lives thereto. </l>
+          </sp>
+          <stage xml:id="A21136-e105400">Enter banks, sir John, and Smug.</stage>
+          <sp xml:id="A21136-e105410" who="A21136-banks">
+            <speaker>Banks.</speaker>
+            <p xml:id="A21136-e105420">Take me with you good sir John; a plague on thee Smug, and thou touchest liquor thou art foundered straight: what are your brains always water-mills? must they ever run round?</p>
+          </sp>
+          <sp xml:id="A21136-e105430" who="A21136-smug">
+            <speaker>Smug.</speaker>
+            <p xml:id="A21136-e105440">Banks, your ale is a philistine fox, 'sheart there's fire i'th' tail: out; you are a rogue to charge us with mugs i'th' rearward: a plague of this wind, oh it tickles our catastrophe.</p>
+          </sp>
+          <sp xml:id="A21136-e105450" who="A21136-john">
+            <speaker>Sir Io.</speaker>
+            <p xml:id="A21136-e105460">Neighbour banks of Waltham, and goodman Smug the honest smith of Edmonton, as I dwell betwixt you both at Enfield, I know the taste of both your ale houses, they are good both, smart both: hem, grass and hay, we are all mortal, let's<pb facs="9"/> live till we die, and be merry and there's an end.</p>
+          </sp>
+          <sp xml:id="A21136-e105470" who="A21136-banks">
+            <speaker>Banks.</speaker>
+            <p xml:id="A21136-e105480">Well said sir John, you are of the same humour still, and doth the water run the same way still boy?</p>
+          </sp>
+          <sp xml:id="A21136-e105490" who="A21136-smug">
+            <speaker>Smug.</speaker>
+            <p xml:id="A21136-e105500">Vulcan was a rogue to him; sir John lock, lock, lock fast sir John: so sir John, I'll one of these years when it shall please the goddesses and the destinies, be drunk in your company; that's all now, and God fend us health; shall I swear I love you?</p>
+          </sp>
+          <sp xml:id="A21136-e105510" who="A21136-john">
+            <speaker>Sir Io.</speaker>
+            <l xml:id="A21136-e105520">No oaths, no oaths, good neighbour Smug,</l>
+            <l xml:id="A21136-e105530">We'll wet our lips together in hug;</l>
+            <l xml:id="A21136-e105540">Car rouse in private, and elevate the heart,</l>
+            <l xml:id="A21136-e105550">And the liver and the lights, and the lights,</l>
+            <l xml:id="A21136-e105560">Mark you me within us, for hem,</l>
+            <l xml:id="A21136-e105570">Grass and hay, we are all mortal, let's live till we die, and be</l>
+            <l xml:id="A21136-e105580">Merry, and there's an end. </l>
+          </sp>
+          <sp xml:id="A21136-e105590" who="A21136-banks">
+            <speaker>Banks.</speaker>
+            <p xml:id="A21136-e105600">But to our former motion about stealing some venison, whither go we?</p>
+          </sp>
+          <sp xml:id="A21136-e105610" who="A21136-john">
+            <speaker>Sir Io.</speaker>
+            <p xml:id="A21136-e105620">Into the forest neighbour banks, into Brian's walk the mad keeper.</p>
+          </sp>
+          <sp xml:id="A21136-e105630" who="A21136-smug">
+            <speaker>Smug.</speaker>
+            <l xml:id="A21136-e105640">Zblood , I'll tickle your keeper. </l>
+          </sp>
+          <sp xml:id="A21136-e105650" who="A21136-banks">
+            <speaker>Bank.</speaker>
+            <p xml:id="A21136-e105660"> i'faith thou art always drunk when we have need of thee.</p>
+          </sp>
+          <sp xml:id="A21136-e105670" who="A21136-smug">
+            <speaker>Smug.</speaker>
+            <p xml:id="A21136-e105680">Need of me? 'sheart, you shall have need of me always while there's iron in an anvil.</p>
+          </sp>
+          <sp xml:id="A21136-e105690" who="A21136-banks">
+            <speaker>Banks.</speaker>
+            <p xml:id="A21136-e105700">M. parson, may the smith go think you, being in this taking?</p>
+          </sp>
+          <sp xml:id="A21136-e105710" who="A21136-smug">
+            <speaker>Smug.</speaker>
+            <l xml:id="A21136-e105720">Go, I'll go in spite of all the bells in Waltham. </l>
+          </sp>
+          <sp xml:id="A21136-e105730" who="A21136-john">
+            <speaker>Sir Io.</speaker>
+            <p xml:id="A21136-e105740">The question is good neighbour banks, let me see, the moon shines tonight , there's not a narrow bridge betwixt this and the forest, his brain will be settled ere night, he may go, he may go neighbour banks: now we want none but the company of mine host Blague at the George at Waltham, if he were here, our consort were full; look where comes my good host, the Duke of Norfolk's man, and how and how? A hem, grass and hay, we are not yet mortal 'Let's live till we die and be merry, and there's an end.</p>
+          </sp>
+          <stage xml:id="A21136-e105750">Enter host.</stage>
+          <sp xml:id="A21136-e105760" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e105770">Ha my Castilian dialogues, and art thou in breath still boy? Miller doth the match hold? Smith, I see by thy eyes thou<pb facs="9"/> hast been reading little Geneva print: but wend we merrily to the forest to steal some of the King's deer. I'll meet you at the time appointed: away, I have knights and colonels at my house, and must tend the Hungarians. If we be scared in the forest, we'll meet in the church-porch at Enfield; is't correspondent?</p>
+          </sp>
+          <sp xml:id="A21136-e105780" who="A21136-banks">
+            <speaker>Ban.</speaker>
+            <l xml:id="A21136-e105790">'Tis well; but how if any of us should be taken? </l>
+          </sp>
+          <sp xml:id="A21136-e105800" who="A21136-smith">
+            <speaker>Smi.</speaker>
+            <l xml:id="A21136-e105810">He shall have ransom by the lord. </l>
+          </sp>
+          <sp xml:id="A21136-e105820" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e105830">Tush the knave keepers are my besonians, and my pensioners, nine o'clock , be valiant my little Gogmagog's; I'll fence with all the justices in Hartfordshire ; I'll have a buck till I die, I'll slay a doe while I live, hold your bow straight and steady. I serve the good Duke of Norfolk.</p>
+          </sp>
+          <sp xml:id="A21136-e105840" who="A21136-smug">
+            <speaker>Smu.</speaker>
+            <l xml:id="A21136-e105850">O rare! who, ho, ho boy. </l>
+          </sp>
+          <sp xml:id="A21136-e105860" who="A21136-john">
+            <speaker>Sir Io.</speaker>
+            <p xml:id="A21136-e105870">Peace neighbour Smug, you see this is a boor, a boor of the country, an illiterate boor, and yet the citizen of good fellows, come let's provide , ahem: grass and hay, we are not yet all mortal, we'll live till we die, and be merry, and there's an end: come Smug. </p>
+          </sp>
+          <sp xml:id="A21136-e105880" who="A21136-smug">
+            <speaker>Smug.</speaker>
+            <l xml:id="A21136-e105890">God night Waltham, who, ho, ho boy. </l>
+            <stage xml:id="A21136-e105900">Exeunt.</stage>
+          </sp>
+          <stage xml:id="A21136-e105910">Enter the knights and gentlemen from breakfast again.</stage>
+          <sp xml:id="A21136-e105920" who="A21136-old_mounchensey">
+            <speaker>Old Moun.</speaker>
+            <l xml:id="A21136-e105930">Nor I for thee Clare, not of this,</l>
+            <l xml:id="A21136-e105940">What? hast thou fed me all this while with shalls? </l>
+            <l xml:id="A21136-e105950">And comest to tell me now thou likest it not? </l>
+          </sp>
+          <sp xml:id="A21136-e105960" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e105970">I do not hold thy offer competent. </l>
+            <l xml:id="A21136-e105980">Nor do I like th' assurance of thy love,</l>
+            <l xml:id="A21136-e105990">The title is so brangled with thy debts. </l>
+          </sp>
+          <sp xml:id="A21136-e106000" who="A21136-old_mounchensey">
+            <speaker>Old mo</speaker>
+            <l xml:id="A21136-e106010">Too good for thee, and knight thou knowest it well,</l>
+            <l xml:id="A21136-e106020">I fawned not on thee for thy goods, not I,</l>
+            <l xml:id="A21136-e106030">'Twas thine own motion, that thy wife doth know. </l>
+          </sp>
+          <sp xml:id="A21136-e106040" who="A21136-lady">
+            <speaker>Lady</speaker>
+            <l xml:id="A21136-e106050">Husband it was so, he lies not in that. </l>
+          </sp>
+          <sp xml:id="A21136-e106060" who="A21136-clare">
+            <speaker>Clar.</speaker>
+            <l xml:id="A21136-e106070">Hold thy chat quean. </l>
+          </sp>
+          <sp xml:id="A21136-e106080" who="A21136-old_mounchensey">
+            <speaker>Old Moun.</speaker>
+            <l xml:id="A21136-e106090">To which I hearkened willingly, and the rather,</l>
+            <l xml:id="A21136-e106100">Because I was persuaded it proceeded</l>
+            <l xml:id="A21136-e106110">From love thou borest to me and to my boy,</l>
+            <l xml:id="A21136-e106120">And gavest him free access unto thy house,</l>
+            <l xml:id="A21136-e106130">Where he hath not behaved him to thy child,</l>
+            <l xml:id="A21136-e106140">But as befits a gentleman so do:</l>
+            <l xml:id="A21136-e106150">Nor is my poor distressed state so low,</l>
+            <l xml:id="A21136-e106160"><pb facs="10"/> that I'll shut up my doors I warrant thee,</l>
+            <l xml:id="A21136-e106170">Let it suffice Mountchensey, I mislike it,</l>
+            <l xml:id="A21136-e106180">Nor think thy son a match fit for my child,</l>
+            <l xml:id="A21136-e106190">To tell thee Clare his blood is good and clear,</l>
+            <l xml:id="A21136-e106200">As the best drop that panteth in thy veins:</l>
+            <l xml:id="A21136-e106210">But for this maid thy fair and virtuous child,</l>
+            <l xml:id="A21136-e106220">She is no more disparaged by thy baseness,</l>
+            <l xml:id="A21136-e106230">Than the most orient and the precious jewel,</l>
+            <l xml:id="A21136-e106240">Which still retains his lustre and his beauty,</l>
+            <l xml:id="A21136-e106250">Although a slave were owner of the same. </l>
+          </sp>
+          <sp xml:id="A21136-e106260" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e106270">She is the last is left me to bestow,</l>
+            <l xml:id="A21136-e106280">And her I mean to dedicate to God. </l>
+          </sp>
+          <sp xml:id="A21136-e106290" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e106300">You do sir. </l>
+          </sp>
+          <sp xml:id="A21136-e106310" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e106320">Sir, sir, I do, she is mine own. </l>
+          </sp>
+          <sp xml:id="A21136-e106330" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e106340">And pity she is so,</l>
+            <l xml:id="A21136-e106350">Damnation dog, thee and thy wretched pelf aside. </l>
+          </sp>
+          <sp xml:id="A21136-e106360" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e106370">Not thou Mountchensey shalt bestow my child. </l>
+          </sp>
+          <sp xml:id="A21136-e106380" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e106390">Neither shouldst thou bestow her where thou</l>
+            <l xml:id="A21136-e106400">Meanest. </l>
+          </sp>
+          <sp xml:id="A21136-e106410" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e106420">What wilt thou do? </l>
+          </sp>
+          <sp xml:id="A21136-e106430" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <l xml:id="A21136-e106440">No matter, let that be,</l>
+            <l xml:id="A21136-e106450">I will do that, perhaps shall anger thee;</l>
+            <l xml:id="A21136-e106460">Thou hast wronged my love, and by god's blessed angel,</l>
+            <l xml:id="A21136-e106470">Thou shalt well know it. </l>
+          </sp>
+          <sp xml:id="A21136-e106480" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e106490">Tut, brave not me. </l>
+          </sp>
+          <sp xml:id="A21136-e106500" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <l xml:id="A21136-e106510">Brave thee base churl, were't not for manhood's sake,</l>
+            <l xml:id="A21136-e106520">I say no more, but that there be some by,</l>
+            <l xml:id="A21136-e106530">Whose blood is hotter than ours is,</l>
+            <l xml:id="A21136-e106540">Which being stirred, might make us both repent</l>
+            <l xml:id="A21136-e106550">This foolish meeting: but Raph Clare</l>
+            <l xml:id="A21136-e106560">Although thy father have abused my friendship,</l>
+            <l xml:id="A21136-e106570">Yet I love thee, I do my noble boy,</l>
+            <l xml:id="A21136-e106580">I do i'faith. </l>
+          </sp>
+          <sp xml:id="A21136-e106590" who="A21136-lady">
+            <speaker>Lady.</speaker>
+            <l xml:id="A21136-e106600">Ay, do, do, fill all the world with talk of us, man, man. </l>
+            <l xml:id="A21136-e106610">I never looked for better at your hands. </l>
+          </sp>
+          <sp xml:id="A21136-e106620" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e106630">I hope your great experience and your years,</l>
+            <l xml:id="A21136-e106640">Would have proved patience rather to your soul,</l>
+            <l xml:id="A21136-e106650">Than with this frantic and untamed passion,</l>
+            <l xml:id="A21136-e106660"><pb facs="10"/> to whet their skeans and but that,</l>
+            <l xml:id="A21136-e106670">I hope their friendships are too well confirmed,</l>
+            <l xml:id="A21136-e106680">And their minds tempered with more kindly heat,</l>
+            <l xml:id="A21136-e106690">Than for their froward parents' soars,</l>
+            <l xml:id="A21136-e106700">That they should break forth into public brawls,</l>
+            <l xml:id="A21136-e106710">Howe'er the rough hand of th'untoward world,</l>
+            <l xml:id="A21136-e106720">Hath moulded your proceedings in this matter,</l>
+            <l xml:id="A21136-e106730">Yet I am sure the first intent was love:</l>
+            <l xml:id="A21136-e106740">Then since the first spring was so sweet and warm,</l>
+            <l xml:id="A21136-e106750">Let it die gently, never kill it with a scorn. </l>
+          </sp>
+          <sp xml:id="A21136-e106760" who="A21136-raymond">
+            <speaker>Ray.</speaker>
+            <l xml:id="A21136-e106770">O thou base world, how leprous is that soul</l>
+            <l xml:id="A21136-e106780">That is once limed in that polluted mud,</l>
+            <l xml:id="A21136-e106790">O sir Arthur you have startled his free active spirits,</l>
+            <l xml:id="A21136-e106800">With a too sharp spur for his mind to bear:</l>
+            <l xml:id="A21136-e106810">Have patience sir, the remedy to woe,</l>
+            <l xml:id="A21136-e106820">Is to leave what of force we must forgo. </l>
+          </sp>
+          <sp xml:id="A21136-e106830" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e106840">And I must take a twelvemonth's approbation,</l>
+            <l xml:id="A21136-e106850">That in mean time this sole and private life,</l>
+            <l xml:id="A21136-e106860">At the year's end may fashion me a wife:</l>
+            <l xml:id="A21136-e106870">But sweet Mounchensey ere this year be done,</l>
+            <l xml:id="A21136-e106880">Thou'st be a friar if that I be a nun;</l>
+            <l xml:id="A21136-e106890">And father ere young Jerningham's I'll be,</l>
+            <l xml:id="A21136-e106900">I will turn mad to spite both him and thee. </l>
+          </sp>
+          <sp xml:id="A21136-e106910" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e106920">Wife come to horse, and housewife make you ready,</l>
+            <l xml:id="A21136-e106930">For if I live, I swear by this good light,</l>
+            <l xml:id="A21136-e106940">I'll see you lodged in Cheshunt house tonight . </l>
+          </sp>
+          <sp xml:id="A21136-e106950" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <l xml:id="A21136-e106960">Raymond away, thou seest how matters fall,</l>
+            <l xml:id="A21136-e106970">Churl, hell consume thee and thy pelf and all. </l>
+          </sp>
+          <sp xml:id="A21136-e106980" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e106990">Now m. Clare, you see how matters fadge,</l>
+            <l xml:id="A21136-e107000">Your Milliscent must needs be made a nun:</l>
+            <l xml:id="A21136-e107010">Well sir, we are the men must ply this match,</l>
+            <l xml:id="A21136-e107020">Hold you your peace and be a looker on,</l>
+            <l xml:id="A21136-e107030">And send her unto Cheshunt where he will,</l>
+            <l xml:id="A21136-e107040">I'll send me fellows of a handful high,</l>
+            <l xml:id="A21136-e107050">Into the cloisters where the nuns frequent,</l>
+            <l xml:id="A21136-e107060">Shall make them skip like does about the dale,</l>
+            <l xml:id="A21136-e107070">And make the lady prioress of the house to play</l>
+            <l xml:id="A21136-e107080"><pb facs="11"/> at leapfrog naked in their smocks,</l>
+            <l xml:id="A21136-e107090">Until the merry wenches at their mass,</l>
+            <l xml:id="A21136-e107100">Cry tee-hee wee-hee,</l>
+            <l xml:id="A21136-e107110">And tickling these mad lasses in their flanks,</l>
+            <l xml:id="A21136-e107120">Shall sprawl and squeak, and pinch their fellow nuns. </l>
+            <l xml:id="A21136-e107130">Be lively boys, before the wench we lose,</l>
+            <l xml:id="A21136-e107140">I'll make the abbess wear the canon's hose. </l>
+            <stage xml:id="A21136-e107150">Exeunt.</stage>
+          </sp>
+          <stage xml:id="A21136-e107160">Enter Harry Clare, Frank Jerningham, Peter Fabell, and Milliscent.</stage>
+          <sp xml:id="A21136-e107170" who="A21136-unassigned">
+            <speaker>Ha. Cla.</speaker>
+            <l xml:id="A21136-e107180">Spite now hath done her worst, sister be patient,</l>
+          </sp>
+          <sp xml:id="A21136-e107190" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e107200">Forewarned poor Raymond's company to heaven,</l>
+            <l xml:id="A21136-e107210">When the composure of weak frailty meet,</l>
+            <l xml:id="A21136-e107220">Upon this mart of dirt; oh then weak love,</l>
+            <l xml:id="A21136-e107230">Must in her own unhappiness be silent,</l>
+            <l xml:id="A21136-e107240">And wink on all deformities. </l>
+          </sp>
+          <sp xml:id="A21136-e107250" who="A21136-millicent">
+            <speaker>Milli.</speaker>
+            <l xml:id="A21136-e107260">'Tis well;</l>
+            <l xml:id="A21136-e107270">Where's Raymond brother? where's my dear Mounchensey? </l>
+            <l xml:id="A21136-e107280">Would we might weep together and then part,</l>
+            <l xml:id="A21136-e107290">Our sighing parley would much ease my heart. </l>
+          </sp>
+          <sp xml:id="A21136-e107300" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e107310">Sweet beauty fouled your sorrows in the thought,</l>
+            <l xml:id="A21136-e107320">Of future reconcilement; let your tears</l>
+            <l xml:id="A21136-e107330">Show you a woman; but be no farther spent</l>
+            <l xml:id="A21136-e107340">Than from the eyes; for (Sweet) experience says,</l>
+            <l xml:id="A21136-e107350">That love is firm that's flattered with delays. </l>
+          </sp>
+          <sp xml:id="A21136-e107360" who="A21136-millicent">
+            <speaker>Milli.</speaker>
+            <l xml:id="A21136-e107370">Alas sir, think you I shall ere be his? </l>
+          </sp>
+          <sp xml:id="A21136-e107380" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e107390">As sure as parting smiles on future bliss. </l>
+            <l xml:id="A21136-e107400">Yond comes my friend, see he hath doted</l>
+            <l xml:id="A21136-e107410">So long upon your beauty, that your want</l>
+            <l xml:id="A21136-e107420">Will with a pale retirement waste his blood,</l>
+            <l xml:id="A21136-e107430">For in true love, music doth sweetly dwell,</l>
+            <l xml:id="A21136-e107440">Severed these less worlds bear within them hell. </l>
+          </sp>
+          <stage xml:id="A21136-e107450">Enter Mounchensey.</stage>
+          <sp xml:id="A21136-e107460" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <p xml:id="A21136-e107470">Harry and Francke you are enjoined to wean your friendship from me, we must part the breath of all advised corruption, pardon me.</p>
+            <l xml:id="A21136-e107480"><pb facs="11"/>Faith I must say so, you may think I love you,</l>
+            <l xml:id="A21136-e107490">I breathe not, rougher spite do sever us,</l>
+            <l xml:id="A21136-e107500">We'll meet by steal sweet friend by stealth you twain. </l>
+            <l xml:id="A21136-e107510">Kisses are sweetest got with struggling pain. </l>
+          </sp>
+          <sp xml:id="A21136-e107520" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e107530">Our friendship dies not Raymond. </l>
+          </sp>
+          <sp xml:id="A21136-e107540" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e107550">Pardon me:</l>
+            <l xml:id="A21136-e107560">I am busied, I have lost my faculties,</l>
+            <l xml:id="A21136-e107570">And buried them in Millicent's clear eyes. </l>
+          </sp>
+          <sp xml:id="A21136-e107580" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e107590">Alas sweet love what shall become of me? </l>
+            <l xml:id="A21136-e107600">I must to Cheshunt to the nunnery,</l>
+            <l xml:id="A21136-e107610">I shall ne'er see thee more. </l>
+          </sp>
+          <sp xml:id="A21136-e107620" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <l xml:id="A21136-e107630">How sweet! </l>
+            <l xml:id="A21136-e107640">I'll be thy votary, we'll often meet,</l>
+            <l xml:id="A21136-e107650">This kiss divides us, and breathes soft adieu,</l>
+            <l xml:id="A21136-e107660">This be a double charm to keep both true. </l>
+          </sp>
+          <sp xml:id="A21136-e107670" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e107680">Have done your fathers may chance spy your parting </l>
+            <l xml:id="A21136-e107690">Refuse not you by any means good sweetness,</l>
+            <l xml:id="A21136-e107700">To go unto the nunnery, far from hence,</l>
+            <l xml:id="A21136-e107710">Must we beget your love's sweet happiness,</l>
+            <l xml:id="A21136-e107720">You shall not stay there long, your harder bed,</l>
+            <l xml:id="A21136-e107730">Shall be more soft when nun and maid are dead. </l>
+          </sp>
+          <stage xml:id="A21136-e107740">Enter bilbo.</stage>
+          <sp xml:id="A21136-e107750" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <l xml:id="A21136-e107760">Now sirrah what's the matter? </l>
+          </sp>
+          <sp xml:id="A21136-e107770" who="A21136-bilbo">
+            <speaker>Bil.</speaker>
+            <p xml:id="A21136-e107780">Marry you must to horse presently, that villainous old gouty churl, sir Richard Clare longs till he be at the nunnery.</p>
+          </sp>
+          <sp xml:id="A21136-e107790" who="A21136-unassigned">
+            <speaker>Ha. Cla.</speaker>
+            <l xml:id="A21136-e107800">How sir? </l>
+            <p xml:id="A21136-e107810">O I cry you mercy, he is your father sir indeed; but I am sure that there's less affinity betwixt your two natures, than there is between a broker and a cutpurse.</p>
+          </sp>
+          <sp xml:id="A21136-e107820" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <l xml:id="A21136-e107830">Bring my gelding sirrah. </l>
+          </sp>
+          <sp xml:id="A21136-e107840" who="A21136-bilbo">
+            <speaker>Bil.</speaker>
+            <p xml:id="A21136-e107850">Well nothing grieves me, but for the poor wench, she must now cry vale to lobster pies, artichokes, and all such meats of mortality; poor gentlewoman, the sign must not be in virgo any longer with her, and that me grieves full well.</p>
+            <l xml:id="A21136-e107860">Poor Milliscent</l>
+            <l xml:id="A21136-e107870">Must pray and repent:</l>
+            <l xml:id="A21136-e107880"><pb facs="12"/> oh fatal wonder! </l>
+            <l xml:id="A21136-e107890">She'll now be no fatter,</l>
+            <l xml:id="A21136-e107900">Love must not come at her,</l>
+            <l xml:id="A21136-e107910">Yet she shall be kept under. </l>
+            <stage xml:id="A21136-e107920">Exit.</stage>
+          </sp>
+          <sp xml:id="A21136-e107930" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e107940">Farewell dear Raymond. </l>
+          </sp>
+          <sp xml:id="A21136-e107950" who="A21136-unassigned">
+            <speaker>Ha. Cla.</speaker>
+            <l xml:id="A21136-e107960">Friend adieu. </l>
+          </sp>
+          <sp xml:id="A21136-e107970" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e107980">Dear sweet. </l>
+            <l xml:id="A21136-e107990">No joy enjoys my heart till we next meet. </l>
+            <stage xml:id="A21136-e108000">Exeunt.</stage>
+          </sp>
+          <sp xml:id="A21136-e108010" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e108020">Well Raymond now the tide of discontent,</l>
+            <l xml:id="A21136-e108030">Beats in thy face, but ere't be long the wind,</l>
+            <l xml:id="A21136-e108040">Shall turn the flood, we must to Waltham abbey,</l>
+            <l xml:id="A21136-e108050">And as fair Milliscent in Cheshunt lives,</l>
+            <l xml:id="A21136-e108060">A most unwilling nun, so thou shalt there</l>
+            <l xml:id="A21136-e108070">Become a beardless novice, to what end</l>
+            <l xml:id="A21136-e108080">Let time and future accidents declare:</l>
+            <l xml:id="A21136-e108090">Taste thou my slights, thy love I'll only share. </l>
+          </sp>
+          <sp xml:id="A21136-e108100" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e108110">Turn friar? come my good counsellor let's go,</l>
+            <l xml:id="A21136-e108120">Yet that disguise will hardly shroud my woe. </l>
+            <stage xml:id="A21136-e108130">Exeunt.</stage>
+          </sp>
+          <stage xml:id="A21136-e108140">Enter the prioress of Cheshunt, with a nun or two, sir Arthur Clare, sir Raph Jerningham, Henry and Francke, the lady, and bilbo, with Millisent.</stage>
+          <sp xml:id="A21136-e108150" who="A21136-unassigned">
+            <speaker>La. Cla.</speaker>
+            <l xml:id="A21136-e108160">Madam;</l>
+            <l xml:id="A21136-e108170">The love unto this holy sisterhood,</l>
+            <l xml:id="A21136-e108180">And our confirmd opinion of your zeal</l>
+            <l xml:id="A21136-e108190">Hath truly won us to bestow our child,</l>
+            <l xml:id="A21136-e108200">Rather on this than any neighbouring cell. </l>
+          </sp>
+          <sp xml:id="A21136-e108210" who="A21136-prioress">
+            <speaker>Prioress</speaker>
+            <l xml:id="A21136-e108220">Jesus' daughter Mary's child,</l>
+            <l xml:id="A21136-e108230">Holy matron woman mild,</l>
+            <l xml:id="A21136-e108240">For thee a mass shall still be said,</l>
+            <l xml:id="A21136-e108250">Every sister drop a bead. </l>
+            <l xml:id="A21136-e108260">And those again succeeding them</l>
+            <l xml:id="A21136-e108270">For you shall sing a requiem. </l>
+          </sp>
+          <sp xml:id="A21136-e108280" who="A21136-frank">
+            <speaker>Frank.</speaker>
+            <p xml:id="A21136-e108290">The wench is gone Harry, she is no more a woman of this world, mark her well, she looks like a nun already, what thinkst on her?</p>
+          </sp>
+          <sp xml:id="A21136-e108300" who="A21136-harry">
+            <speaker>Har,</speaker>
+            <l xml:id="A21136-e108310">By my faith her face comes handsomely to't</l>
+            <l xml:id="A21136-e108320"><pb facs="12"/> but peace let's hear the rest. </l>
+          </sp>
+          <sp xml:id="A21136-e108330" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e108340">Madam for a twelvemonth's approbation,</l>
+            <l xml:id="A21136-e108350">We mean to make this trial of our child. </l>
+            <l xml:id="A21136-e108360">Your care and our dear blessing in mean time,</l>
+            <l xml:id="A21136-e108370">We pray may prosper this intended work. </l>
+          </sp>
+          <sp xml:id="A21136-e108380" who="A21136-prioress">
+            <speaker>Prioress</speaker>
+            <l xml:id="A21136-e108390">May your happy soul be blithe,</l>
+            <l xml:id="A21136-e108400">That so truly pay your tithe. </l>
+            <l xml:id="A21136-e108410">He who many children gave,</l>
+            <l xml:id="A21136-e108420">'Tis fit that he one child should have. </l>
+            <l xml:id="A21136-e108430">Then fair virgin hear my spell,</l>
+            <l xml:id="A21136-e108440">For I must your duty tell. </l>
+          </sp>
+          <sp xml:id="A21136-e108450" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e108460">Good men and true, stand together and hear your charge. </l>
+          </sp>
+          <sp xml:id="A21136-e108470" who="A21136-prioress">
+            <speaker>Prioress</speaker>
+            <l xml:id="A21136-e108480">First a mornings take your book</l>
+            <l xml:id="A21136-e108490">The glass wherein yourself must look,</l>
+            <l xml:id="A21136-e108500">Your young thoughts so proud and jolly</l>
+            <l xml:id="A21136-e108510">Must be turned to motions holy:</l>
+            <l xml:id="A21136-e108520">For your busk, attires and toys,</l>
+            <l xml:id="A21136-e108530">Have your thoughts on heavenly joys:</l>
+            <l xml:id="A21136-e108540">And for all your follies past,</l>
+            <l xml:id="A21136-e108550">You must do penance, pray and fast. </l>
+          </sp>
+          <sp xml:id="A21136-e108560" who="A21136-bilbo">
+            <speaker>Bil.</speaker>
+            <p xml:id="A21136-e108570">Let her take heed of fasting, and if ever she hurt herself with praying, I'll ne'er trust beast.</p>
+          </sp>
+          <sp xml:id="A21136-e108580" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e108590">This goes hard by’r lady. </l>
+          </sp>
+          <sp xml:id="A21136-e108600" who="A21136-prioress">
+            <speaker>Prioress</speaker>
+            <l xml:id="A21136-e108610">You shall ring the sacring bell,</l>
+            <l xml:id="A21136-e108620">Keep your hours and tell your knell,</l>
+            <l xml:id="A21136-e108630">Rise at midnight to your matins. </l>
+            <l xml:id="A21136-e108640">Read your psalter, sing your Latins,</l>
+            <l xml:id="A21136-e108650">And when your blood shall kindle pleasure,</l>
+            <l xml:id="A21136-e108660">Scourge yourself in plenteous measure. </l>
+          </sp>
+          <sp xml:id="A21136-e108670" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e108680">Worse and worse by saint Mary. </l>
+          </sp>
+          <sp xml:id="A21136-e108690" who="A21136-frank">
+            <speaker>Fr.</speaker>
+            <p xml:id="A21136-e108700">Sirrah Hal, how does she hold her countenance? well, go thy ways, if ever thou prove a nun, I'll build an abbey.</p>
+          </sp>
+          <sp xml:id="A21136-e108710" who="A21136-harry">
+            <speaker>Har.</speaker>
+            <p xml:id="A21136-e108720">She may be a nun, but if ever she prove an anchoress, I'll dig her grave with my nails.</p>
+          </sp>
+          <sp xml:id="A21136-e108730" who="A21136-frank">
+            <speaker>Fra.</speaker>
+            <l xml:id="A21136-e108740">To her again mother. </l>
+          </sp>
+          <sp xml:id="A21136-e108750" who="A21136-harry">
+            <speaker>Har.</speaker>
+            <l xml:id="A21136-e108760">Hold thine own wench. </l>
+          </sp>
+          <sp xml:id="A21136-e108770" who="A21136-prioress">
+            <pb facs="13"/>
+            <speaker>Prioress</speaker>
+            <l xml:id="A21136-e108780">You must read the morning's mass,</l>
+            <l xml:id="A21136-e108790">You must creep unto the cross. </l>
+            <l xml:id="A21136-e108800">Put cold ashes on your head,</l>
+            <l xml:id="A21136-e108810">Have a hair cloth for your bed. </l>
+          </sp>
+          <sp xml:id="A21136-e108820" who="A21136-bilbo">
+            <speaker>Bil.</speaker>
+            <l xml:id="A21136-e108830">She had rather have a man in her bed. </l>
+          </sp>
+          <sp xml:id="A21136-e108840" who="A21136-prioress">
+            <speaker>Prioress</speaker>
+            <l xml:id="A21136-e108850">Bind your beads and tell your needs,</l>
+            <l xml:id="A21136-e108860">Your holy aves and your creeds,</l>
+            <l xml:id="A21136-e108870">Holy maid this must be done,</l>
+            <l xml:id="A21136-e108880">If you mean to live a nun. </l>
+          </sp>
+          <sp xml:id="A21136-e108890" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e108900">The holy maid will be no nun. </l>
+          </sp>
+          <sp xml:id="A21136-e108910" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e108920">Madam we have some business of import,</l>
+            <l xml:id="A21136-e108930">And must be gone. </l>
+            <l xml:id="A21136-e108940">Will't please you take my wife into your closet,</l>
+            <l xml:id="A21136-e108950">Who further will acquaint you with my mind,</l>
+            <l xml:id="A21136-e108960">And so good madam for this time adieu. </l>
+            <stage xml:id="A21136-e108970">Exeunt women.</stage>
+          </sp>
+          <sp xml:id="A21136-e108980" who="A21136-raphe">
+            <speaker>Sir Ra.</speaker>
+            <l xml:id="A21136-e108990">Well now Frank Clare, how sayest thou? to be brief,</l>
+            <l xml:id="A21136-e109000">What wilt thou say for all this, if we two,</l>
+            <l xml:id="A21136-e109010">Thy father and myself, can bring about,</l>
+            <l xml:id="A21136-e109020">That we convert this nun to be a wife,</l>
+            <l xml:id="A21136-e109030">And thou the husband to this pretty nun,</l>
+            <l xml:id="A21136-e109040">How then my lad? ha Frank, it may be done. </l>
+          </sp>
+          <sp xml:id="A21136-e109050" who="A21136-harry">
+            <speaker>Har.</speaker>
+            <l xml:id="A21136-e109060">I now it works. </l>
+          </sp>
+          <sp xml:id="A21136-e109070" who="A21136-frank">
+            <speaker>Fra.</speaker>
+            <l xml:id="A21136-e109080">O god sir, you amaze me at your words,</l>
+            <l xml:id="A21136-e109090">Think with yourself sir what a thing it were,</l>
+            <l xml:id="A21136-e109100">To cause a recluse to remove her vow,</l>
+            <l xml:id="A21136-e109110">A maimed contrite, and repentant soul,</l>
+            <l xml:id="A21136-e109120">Ever mortified with fasting and with prayer,</l>
+            <l xml:id="A21136-e109130">Whose thoughts even as her eyes are fixed on heaven,</l>
+            <l xml:id="A21136-e109140">To draw a virgin thus devoured with zeal,</l>
+            <l xml:id="A21136-e109150">Back to the world! O impious deed</l>
+            <l xml:id="A21136-e109160">Nor by the canon law can it be done,</l>
+            <l xml:id="A21136-e109170">Without a dispensation from the church:</l>
+            <l xml:id="A21136-e109180">Besides she is so prone unto this life,</l>
+            <l xml:id="A21136-e109190">As she'll even shriek to hear a husband named. </l>
+          </sp>
+          <sp xml:id="A21136-e109200" who="A21136-bilbo">
+            <speaker>Bil.</speaker>
+            <l xml:id="A21136-e109210">I a poor innocent she, well, here's no knavery, he flouts the old fools to their teeth. </l>
+          </sp>
+          <sp xml:id="A21136-e109220" who="A21136-raphe">
+            <pb facs="13"/>
+            <speaker>Sir Raph.</speaker>
+            <l xml:id="A21136-e109230">Boy I am glad to hear</l>
+            <l xml:id="A21136-e109240">Thou mak'st such scruple of that conscience,</l>
+            <l xml:id="A21136-e109250">And in a man so young as is yourself,</l>
+            <l xml:id="A21136-e109260">I promise you 'tis very seldom seen. </l>
+            <l xml:id="A21136-e109270">But Frank this is a trick, a mere device,</l>
+            <l xml:id="A21136-e109280">A sleight plotted betwixt her father and myself,</l>
+            <l xml:id="A21136-e109290">To thrust Mounchensey's nose besides the cushion,</l>
+            <l xml:id="A21136-e109300">That being thus debarred of all access,</l>
+            <l xml:id="A21136-e109310">Time yet may work him from her thoughts,</l>
+            <l xml:id="A21136-e109320">And give thee ample scope to thy desires. </l>
+          </sp>
+          <sp xml:id="A21136-e109330" who="A21136-bilbo">
+            <speaker>Bil.</speaker>
+            <l xml:id="A21136-e109340">A plague on you both for a couple of Jews. </l>
+          </sp>
+          <sp xml:id="A21136-e109350" who="A21136-harry">
+            <speaker>Har.</speaker>
+            <l xml:id="A21136-e109360">How now Frank, what say you to that? </l>
+          </sp>
+          <sp xml:id="A21136-e109370" who="A21136-frank">
+            <speaker>Fran.</speaker>
+            <l xml:id="A21136-e109380">Let me alone, I warrant thee:</l>
+            <l xml:id="A21136-e109390">Sir assured that this motion doth proceed,</l>
+            <l xml:id="A21136-e109400">From your most kind and fatherly affection,</l>
+            <l xml:id="A21136-e109410">I do dispose my liking to your pleasure,</l>
+            <l xml:id="A21136-e109420">But for it is a matter of such moment</l>
+            <l xml:id="A21136-e109430">As holy marriage, I must crave thus much,</l>
+            <l xml:id="A21136-e109440">To have some conference with my ghostly father,</l>
+            <l xml:id="A21136-e109450">Friar Hildersham here by, at Waltham abby,</l>
+            <l xml:id="A21136-e109460">To be absolved of things that it is fit</l>
+            <l xml:id="A21136-e109470">None only but my confessor should know. </l>
+          </sp>
+          <sp xml:id="A21136-e109480" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <p xml:id="A21136-e109490">With all my heart, he is a reverend man, and tomorrow morning we will meet all at the abbey, whereby th'opinion of that reverend man</p>
+            <l xml:id="A21136-e109500">We will proceed, I like it passing well:</l>
+            <l xml:id="A21136-e109510">Till then we part, boy I think of it, farewell:</l>
+            <l xml:id="A21136-e109520">A parent's care no mortal tongue can tell. </l>
+            <stage xml:id="A21136-e109530">Exeunt.</stage>
+          </sp>
+          <stage xml:id="A21136-e109540">Enter sir Arthur Clare, and Raymond Mounchensey like a friar.</stage>
+          <sp xml:id="A21136-e109550" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e109560">Holy young novice I have told you now,</l>
+            <l xml:id="A21136-e109570">My full intent, and do refer the rest</l>
+            <l xml:id="A21136-e109580">To your professed secrecy and care:</l>
+            <l xml:id="A21136-e109590">And see,</l>
+            <l xml:id="A21136-e109600">Our serious speech hath stolen upon the way,</l>
+            <l xml:id="A21136-e109610">That we are come unto the abbey gate,</l>
+            <l xml:id="A21136-e109620"><pb facs="14"/> because I know Mountchensey is a fox,</l>
+            <l xml:id="A21136-e109630">That craftily doth overlook my doings,</l>
+            <l xml:id="A21136-e109640">I'll not be seen, not I; tush I have done;</l>
+            <l xml:id="A21136-e109650">I had a daughter, but she's now a nun:</l>
+            <l xml:id="A21136-e109660">Farewell dear son, farewell. </l>
+            <stage xml:id="A21136-e109670">Exit.</stage>
+          </sp>
+          <sp xml:id="A21136-e109680" who="A21136-mounchensey">
+            <speaker>Moun,</speaker>
+            <l xml:id="A21136-e109690">Fare you well, I you have done,</l>
+            <l xml:id="A21136-e109700">Your daughter sir, shall not be long a nun! </l>
+            <l xml:id="A21136-e109710">O my rare tutor, never mortal brain,</l>
+            <l xml:id="A21136-e109720">Plotted out such a mass of policy;</l>
+            <l xml:id="A21136-e109730">And my dear bosom is so great with laughter,</l>
+            <l xml:id="A21136-e109740">Begotten by his simplicity and error</l>
+            <l xml:id="A21136-e109750">My soul is fallen in labour with her joy</l>
+            <l xml:id="A21136-e109760">Oh my true friends Frank Jerningham and Clare,</l>
+            <l xml:id="A21136-e109770">Did you now know but how this jest takes fire,</l>
+            <l xml:id="A21136-e109780">That good sir Arthur thinking me a novice,</l>
+            <l xml:id="A21136-e109790">Hath even poured himself into my bosom;</l>
+            <l xml:id="A21136-e109800">Oh you would vent your spleens with tickling mirth. </l>
+            <l xml:id="A21136-e109810">But Raymond peace, and have an eye about,</l>
+            <l xml:id="A21136-e109820">For fear perhaps some of the nuns look out. </l>
+            <l xml:id="A21136-e109830">Peace and charity within,</l>
+            <l xml:id="A21136-e109840">Never touched with deadly sin:</l>
+            <l xml:id="A21136-e109850">I cast my holy water poor,</l>
+            <l xml:id="A21136-e109860">On this wall and on this door,</l>
+            <l xml:id="A21136-e109870">That from evil shall defend,</l>
+            <l xml:id="A21136-e109880">And keep you from the ugly fiend:</l>
+            <l xml:id="A21136-e109890">Evil spirit by night nor day,</l>
+            <l xml:id="A21136-e109900">Shall approach or come this way;</l>
+            <l xml:id="A21136-e109910">Elf nor fairy by this grace,</l>
+            <l xml:id="A21136-e109920">Day nor night shall haunt this place. </l>
+            <l xml:id="A21136-e109930">Who's that which knocks? ha, who's there? </l>
+            <stage xml:id="A21136-e109940">Holy maidens knock.</stage>
+            <stage xml:id="A21136-e109950">Answer within.</stage>
+          </sp>
+          <sp xml:id="A21136-e109960" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e109970">Gentle nun here is a friar. </l>
+          </sp>
+          <sp xml:id="A21136-e109980" who="A21136-nun">
+            <speaker>Nun</speaker>
+            <l xml:id="A21136-e109990">A friar without, now Christ us save,</l>
+            <stage xml:id="A21136-e110000">Enter Nun.</stage>
+            <l xml:id="A21136-e110010">Holy man, what wouldst thou have? </l>
+          </sp>
+          <sp xml:id="A21136-e110020" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e110030">Holy maid I hither come,</l>
+            <l xml:id="A21136-e110040">From friar and father Hildersham. </l>
+            <l xml:id="A21136-e110050">By the favour and the grace</l>
+            <l xml:id="A21136-e110060">Of the prioress of this place:</l>
+            <l xml:id="A21136-e110070"><pb facs="14"/> amongst you all to visit one,</l>
+            <l xml:id="A21136-e110080">That's come for approbation,</l>
+            <l xml:id="A21136-e110090">Before she was as now you are,</l>
+            <l xml:id="A21136-e110100">The daughter of sir Arthur Clare:</l>
+            <l xml:id="A21136-e110110">But since she now became a nun,</l>
+            <l xml:id="A21136-e110120">Called Milliscent of Edmonton. </l>
+          </sp>
+          <sp xml:id="A21136-e110130" who="A21136-nun">
+            <speaker>Nun</speaker>
+            <l xml:id="A21136-e110140">Holy man, repose you there,</l>
+            <l xml:id="A21136-e110150">This news I'll to our abbess bear:</l>
+            <l xml:id="A21136-e110160">To tell what a man is sent,</l>
+            <l xml:id="A21136-e110170">And your message and intent. </l>
+          </sp>
+          <sp xml:id="A21136-e110180" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e110190">Benedicite. </l>
+          </sp>
+          <sp xml:id="A21136-e110200" who="A21136-nun">
+            <speaker>Nun</speaker>
+            <l xml:id="A21136-e110210">Benedicite. </l>
+            <stage xml:id="A21136-e110220">Exit.</stage>
+          </sp>
+          <sp xml:id="A21136-e110230" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e110240">Do my good plump wench, if all fall right,</l>
+            <l xml:id="A21136-e110250">I'll make your sisterhood one less by night:</l>
+            <l xml:id="A21136-e110260">Now happy fortune speed this merry drift,</l>
+            <l xml:id="A21136-e110270">I like a wench comes roundly to her shrift. </l>
+          </sp>
+          <stage xml:id="A21136-e110280">Enter lady, Milliscent.</stage>
+          <sp xml:id="A21136-e110290" who="A21136-lady">
+            <speaker>Lady</speaker>
+            <l xml:id="A21136-e110300">Have friars recourse then to the house of nuns? </l>
+          </sp>
+          <sp xml:id="A21136-e110310" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e110320">Madam it is the order of this place,</l>
+            <l xml:id="A21136-e110330">When any virgin comes for approbation,</l>
+            <l xml:id="A21136-e110340">Lest that for fear or such sinister practice,</l>
+            <l xml:id="A21136-e110350">She should be forced to undergo this veil,</l>
+            <l xml:id="A21136-e110360">Which should proceed from conscience and devotion:</l>
+            <l xml:id="A21136-e110370">A visitor is sent from Waltham house,</l>
+            <l xml:id="A21136-e110380">To take the true confession of the maid. </l>
+          </sp>
+          <sp xml:id="A21136-e110390" who="A21136-lady">
+            <speaker>Lady.</speaker>
+            <l xml:id="A21136-e110400">Is that the order? I commend it well,</l>
+            <l xml:id="A21136-e110410">You to your shrift, I'll back unto the cell. </l>
+            <stage xml:id="A21136-e110420">Exit.</stage>
+          </sp>
+          <sp xml:id="A21136-e110430" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e110440">Life of my soul, bright angel. </l>
+          </sp>
+          <sp xml:id="A21136-e110450" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e110460">What means the friar? </l>
+          </sp>
+          <sp xml:id="A21136-e110470" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e110480">O Milliscent, 'tis I. </l>
+          </sp>
+          <sp xml:id="A21136-e110490" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e110500">My heart misgives me, I should know that voice,</l>
+            <l xml:id="A21136-e110510">You, who are you? The holy virgin bless me,</l>
+            <l xml:id="A21136-e110520">Tell me your name, you shall ere you confess me. </l>
+          </sp>
+          <sp xml:id="A21136-e110530" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e110540">Mountchensey thy true friend. </l>
+          </sp>
+          <sp xml:id="A21136-e110550" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e110560">My Raymond, my dear heart,</l>
+            <l xml:id="A21136-e110570">Sweet life give leave to my distracted soul,</l>
+            <l xml:id="A21136-e110580"><pb facs="15"/> to wake a little from this swoon of joy,</l>
+            <l xml:id="A21136-e110590">By what means camest thou to assume this shape? </l>
+          </sp>
+          <sp xml:id="A21136-e110600" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e110610">By means of Peter Fabell my kind tutor,</l>
+            <l xml:id="A21136-e110620">Who in the habit of friar Hildersham,</l>
+            <l xml:id="A21136-e110630">Frank Jerningham's old friend and confessor,</l>
+            <l xml:id="A21136-e110640">Plotted by Frank, by Fabell and myself,</l>
+            <l xml:id="A21136-e110650">And so delivered to sir Arthur Clare,</l>
+            <l xml:id="A21136-e110660">Who brought me here unto the abbey gate,</l>
+            <l xml:id="A21136-e110670">To be his nun-made daughter's visitor. </l>
+          </sp>
+          <sp xml:id="A21136-e110680" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e110690">You are all sweet traitors to my poor old father,</l>
+            <l xml:id="A21136-e110700">Oh my dear life, I was a-dream'd tonight ,</l>
+            <l xml:id="A21136-e110710">That as I was a praying in mine psalter,</l>
+            <l xml:id="A21136-e110720">There came a spirit unto me as I kneeled,</l>
+            <l xml:id="A21136-e110730">And by his strong persuasions tempted me</l>
+            <l xml:id="A21136-e110740">To leave this nunnery; and methought ,</l>
+            <l xml:id="A21136-e110750">He came in the most glorious angel shape,</l>
+            <l xml:id="A21136-e110760">That mortal eye did ever look upon:</l>
+            <l xml:id="A21136-e110770">Ha, thou art sure that spirit, for there's no form,</l>
+            <l xml:id="A21136-e110780">Is in mine eye so glorious as thine own. </l>
+          </sp>
+          <sp xml:id="A21136-e110790" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e110800">O thou idolatress that dost this worship,</l>
+            <l xml:id="A21136-e110810">To him whose likeness is but praise of thee,</l>
+            <l xml:id="A21136-e110820">Thou bright unsetting star which through this veil,</l>
+            <l xml:id="A21136-e110830">For very envy mak'st the sun look pale. </l>
+          </sp>
+          <sp xml:id="A21136-e110840" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e110850">Well visitor, lest that perhaps my mother</l>
+            <l xml:id="A21136-e110860">Should think the friar too strict in his decrees,</l>
+            <l xml:id="A21136-e110870">I this confess to my sweet ghostly father,</l>
+            <l xml:id="A21136-e110880">If chaste pure love be sin I must confess,</l>
+            <l xml:id="A21136-e110890">I have offended three years now with thee. </l>
+          </sp>
+          <sp xml:id="A21136-e110900" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <l xml:id="A21136-e110910">But do you yet repent you of the same? </l>
+          </sp>
+          <sp xml:id="A21136-e110920" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e110930">I'faith I cannot. </l>
+          </sp>
+          <sp xml:id="A21136-e110940" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <l xml:id="A21136-e110950">Nor will I absolve thee,</l>
+            <l xml:id="A21136-e110960">Of that sweet sin, though it be venial,</l>
+            <l xml:id="A21136-e110970">Yet have the penance of a thousand kisses,</l>
+            <l xml:id="A21136-e110980">And I enjoin you to this pilgrimage,</l>
+            <l xml:id="A21136-e110990">That in the evening you bestow yourself</l>
+            <l xml:id="A21136-e111000">Here in the walk near to the willow ground,</l>
+            <l xml:id="A21136-e111010">Where I'll be ready both with men and horse,</l>
+            <l xml:id="A21136-e111020"><pb facs="15"/> to wait your coming and convey you hence,</l>
+            <l xml:id="A21136-e111030">Unto a lodge I have in Enfield chase:</l>
+            <l xml:id="A21136-e111040">No more reply if that you yield consent,</l>
+            <l xml:id="A21136-e111050">I see more eyes upon our stay are bent. </l>
+          </sp>
+          <sp xml:id="A21136-e111060" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e111070">Sweet life farewell; 'tis done, let that suffice,</l>
+            <l xml:id="A21136-e111080">What my tongue fails I send thee by mine eyes. </l>
+            <stage xml:id="A21136-e111090">Exit.</stage>
+          </sp>
+          <stage xml:id="A21136-e111100">Enter Fabell, Clare, and Jerningham.</stage>
+          <sp xml:id="A21136-e111110" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e111120">Now visitor how does this new made nun? </l>
+          </sp>
+          <sp xml:id="A21136-e111130" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e111140">Come, come how does she noble capuchin? </l>
+          </sp>
+          <sp xml:id="A21136-e111150" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <p xml:id="A21136-e111160">She may be poor in spirit, but for the flesh 'tis fat and plump boys:</p>
+            <p xml:id="A21136-e111170">Ah rogues, there is a company of girls would turn you all friars.</p>
+          </sp>
+          <sp xml:id="A21136-e111180" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e111190">But how Mountchensey? how lad for the wench? </l>
+          </sp>
+          <sp xml:id="A21136-e111200" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <l xml:id="A21136-e111210">Sound lads i'faith; I thank my holy habit,</l>
+            <p xml:id="A21136-e111220">I have confessed her and the lady prioress hath given me ghostly counsel with her blessing.</p>
+            <l xml:id="A21136-e111230">And how say ye boys,</l>
+            <l xml:id="A21136-e111240">If I be chose the weekly visitor? </l>
+          </sp>
+          <sp xml:id="A21136-e111250" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <p xml:id="A21136-e111260">'Sblood she'll have never a nun unbagged to sing mass then.</p>
+          </sp>
+          <sp xml:id="A21136-e111270" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <p xml:id="A21136-e111280">The abbot of Waltham will have as many children, to put to nurse, as he has calves in the marsh.</p>
+          </sp>
+          <sp xml:id="A21136-e111290" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <p xml:id="A21136-e111300">Well to be brief, the nun will soon at night turn tippet; if I can but devise to quit her cleanly of the nunnery, she is mine own.</p>
+          </sp>
+          <sp xml:id="A21136-e111310" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <p xml:id="A21136-e111320">But sirrah Raymond, what news of Peter Fabel at the house?</p>
+          </sp>
+          <sp xml:id="A21136-e111330" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <p xml:id="A21136-e111340">Tush he's the only man; a necromancer, and a conjurer that works for young Mountchensey altogether; and if it be not for friar Benedick, that he can cross him by his learned skill, the wench is gone.</p>
+            <l xml:id="A21136-e111350">Fabell will fetch her out by very magic. </l>
+          </sp>
+          <sp xml:id="A21136-e111360" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e111370">Stands the wind there boy, keep them in that key. </l>
+            <l xml:id="A21136-e111380">The wench is ours before tomorrow day,</l>
+            <p xml:id="A21136-e111390"><pb facs="16"/>Well Raph and Frank, as ye are gentlemen, stick to us close this once; you know your father's have men and horse lie ready still at Cheshunt, to watch the coast be clear, to scout about, and have an eye unto Mountchensey walks: therefore you two may hover thereabouts, and no man will suspect you for the matters be ready but to take her at our hands, leave us to scamble for her getting out.</p>
+          </sp>
+          <sp xml:id="A21136-e111400" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <p xml:id="A21136-e111410">'Sblood if all Herfordshire were at our heels, we'll carry her away in spite of them.</p>
+          </sp>
+          <sp xml:id="A21136-e111420" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e111430">But whither Raymond? </l>
+          </sp>
+          <sp xml:id="A21136-e111440" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <p xml:id="A21136-e111450">To Brian's upper lodge in Enfield chase, he is mine honest friend and a tall keeper, I'll send my man unto him presently t'acquaint him with your coming and intent.</p>
+          </sp>
+          <sp xml:id="A21136-e111460" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e111470">Be brief and secret. </l>
+          </sp>
+          <sp xml:id="A21136-e111480" who="A21136-mounchensey">
+            <speaker>Moun.</speaker>
+            <l xml:id="A21136-e111490">Soon at night remember</l>
+            <l xml:id="A21136-e111500">You bring your horses to the willow ground. </l>
+          </sp>
+          <sp xml:id="A21136-e111510" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e111520">'Tis done, no more. </l>
+          </sp>
+          <sp xml:id="A21136-e111530" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e111540">We will not fail the hour,</l>
+            <l xml:id="A21136-e111550">My life and fortune, now lies in your power. </l>
+          </sp>
+          <sp xml:id="A21136-e111560" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e111570">About our business, Raymond let's away,</l>
+            <l xml:id="A21136-e111580">Think of your hour, it draws well of the day. </l>
+            <stage xml:id="A21136-e111590">Exit.</stage>
+          </sp>
+          <stage xml:id="A21136-e111600">Enter Blague, banks, Smug, and sir John.</stage>
+          <sp xml:id="A21136-e111610" who="A21136-blague">
+            <speaker>Bla.</speaker>
+            <p xml:id="A21136-e111620">Come ye Hungarian pilchers, we are once more come under the zona torrida of the forest, let's be resolute, let's fly to and again; and if the devil come, we'll put him to his interrogatories, and not budge a foot, what; 'sfoot I'll put fire into you, ye shall all three serve the good Duke of Norfolk.</p>
+          </sp>
+          <sp xml:id="A21136-e111630" who="A21136-smug">
+            <speaker>Smu.</speaker>
+            <p xml:id="A21136-e111640">Mine host, my bully, my precious consul, my noble Holofernes, I have been drunk i'thy house, twenty times and ten, all's one for that, I was last night in the third heavens, my brain was poor, it had yeast in't; but now I am a man of action, is't not so lad?</p>
+          </sp>
+          <sp xml:id="A21136-e111650" who="A21136-bilbo">
+            <speaker>Bil.</speaker>
+            <p xml:id="A21136-e111660">Why now thou hast two of the liberal sciences about thee, wit and reason, thou mayst serve the Duke of Europe.</p>
+          </sp>
+          <sp xml:id="A21136-e111670" who="A21136-smug">
+            <speaker>Smu.</speaker>
+            <p xml:id="A21136-e111680">I will serve the Duke of Christendom, and do him more credit in his cellar than all the plate in his buttery, is't not so lad?</p>
+          </sp>
+          <sp xml:id="A21136-e111690" who="A21136-john">
+            <pb facs="16"/>
+            <speaker>Sir Joh.</speaker>
+            <p xml:id="A21136-e111700">Mine host and Smug, stand there banks, you and your horse keep together; but lie close, show no tricks for fear of the keeper. If we be scared we'll meet in the church-porch at Enfield.</p>
+          </sp>
+          <sp xml:id="A21136-e111710" who="A21136-smug">
+            <speaker>Smug.</speaker>
+            <l xml:id="A21136-e111720">Content sir John. </l>
+          </sp>
+          <sp xml:id="A21136-e111730" who="A21136-banks">
+            <speaker>Banks.</speaker>
+            <p xml:id="A21136-e111740">Smug, dost not thou remember the tree thou fellst out of last night?</p>
+          </sp>
+          <sp xml:id="A21136-e111750" who="A21136-smug">
+            <speaker>Smug.</speaker>
+            <p xml:id="A21136-e111760">Tush, an't had been as high as the abbey, I should ne'er have hurt myself I have fallen into the river coming home from Waltham, and scaped drowning.</p>
+          </sp>
+          <sp xml:id="A21136-e111770" who="A21136-john">
+            <speaker>Sir Io.</speaker>
+            <p xml:id="A21136-e111780">Come sever, fear no spirits, we'll have a buck presently, we have watched later than this for a doe, mine host.</p>
+          </sp>
+          <sp xml:id="A21136-e111790" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e111800">Thou speakst as true as velvet. </l>
+          </sp>
+          <sp xml:id="A21136-e111810" who="A21136-john">
+            <speaker>Sir Io.</speaker>
+            <l xml:id="A21136-e111820">Why then come, grass and hay, etc. </l>
+            <stage xml:id="A21136-e111830">Exeunt.</stage>
+          </sp>
+          <stage xml:id="A21136-e111840">Enter Clare, Jerningham, and Milliscent.</stage>
+          <sp xml:id="A21136-e111850" who="A21136-clare">
+            <speaker>Clar.</speaker>
+            <l xml:id="A21136-e111860">Frank Jerningham? </l>
+          </sp>
+          <sp xml:id="A21136-e111870" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e111880">Speak softly rogue, how now? </l>
+          </sp>
+          <sp xml:id="A21136-e111890" who="A21136-clare">
+            <speaker>Clar.</speaker>
+            <p xml:id="A21136-e111900">'Sfoot we shall lose our way, it's so dark, whereabouts are we?</p>
+          </sp>
+          <sp xml:id="A21136-e111910" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e111920">Why man, at potter's gate,</l>
+            <p xml:id="A21136-e111930">The way lies right, hark the clock strikes at Enfield; what's the hour?</p>
+          </sp>
+          <sp xml:id="A21136-e111940" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e111950">Ten the bell says. </l>
+          </sp>
+          <sp xml:id="A21136-e111960" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <p xml:id="A21136-e111970">'A lies in's throat, it was but eight when we set out of Cheshunt, sir John and his sexton are at ale tonight , the clock runs at random.</p>
+          </sp>
+          <sp xml:id="A21136-e111980" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <p xml:id="A21136-e111990">Nay, as sure as thou liv'st the villainous vicar is abroad in the chase this dark night: the stone priest steals more venison than half the country.</p>
+          </sp>
+          <sp xml:id="A21136-e112000" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e112010">Milliscent, how dost thou? </l>
+          </sp>
+          <sp xml:id="A21136-e112020" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e112030">Sir, very well,</l>
+            <l xml:id="A21136-e112040">I would to God we were at Brian's lodge. </l>
+          </sp>
+          <sp xml:id="A21136-e112050" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e112060">We shall anon, 'zounds hark,</l>
+            <l xml:id="A21136-e112070">What means this noise? </l>
+          </sp>
+          <sp xml:id="A21136-e112080" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e112090">Stay, I hear horsemen. </l>
+          </sp>
+          <sp xml:id="A21136-e112100" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e112110">I hear footmen too. </l>
+          </sp>
+          <sp xml:id="A21136-e112120" who="A21136-jerningham">
+            <pb facs="17"/>
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e112130">Nay then I have it, we have been discovered,</l>
+            <l xml:id="A21136-e112140">And we are followed by our father's men. </l>
+          </sp>
+          <sp xml:id="A21136-e112150" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e112160">Brother and friend, alas what shall we do? </l>
+          </sp>
+          <sp xml:id="A21136-e112170" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e112180">Sister speak softly or we are descried,</l>
+            <l xml:id="A21136-e112190">They are hard upon us whatsoe'er they be,</l>
+            <l xml:id="A21136-e112200">Shadow yourself behind this brake of fern,</l>
+            <l xml:id="A21136-e112210">We'll get into the wood and let them pass. </l>
+          </sp>
+          <stage xml:id="A21136-e112220">Enter sir John, Blague, Smug, and banks, one after another.</stage>
+          <sp xml:id="A21136-e112230" who="A21136-john">
+            <speaker>Sir Io.</speaker>
+            <p xml:id="A21136-e112240">Grass and hay, we are all mortal, the keepers abroad, and there's an end.</p>
+          </sp>
+          <sp xml:id="A21136-e112250" who="A21136-banks">
+            <speaker>Ban.</speaker>
+            <l xml:id="A21136-e112260">Sir John. </l>
+          </sp>
+          <sp xml:id="A21136-e112270" who="A21136-john">
+            <speaker>Sir Io.</speaker>
+            <l xml:id="A21136-e112280">Neighbour banks what news? </l>
+          </sp>
+          <sp xml:id="A21136-e112290" who="A21136-banks">
+            <speaker>Ban.</speaker>
+            <p xml:id="A21136-e112300">'Zounds sir John the keepers are abroad; I was hard by 'em.</p>
+          </sp>
+          <sp xml:id="A21136-e112310" who="A21136-john">
+            <speaker>Sir Io.</speaker>
+            <l xml:id="A21136-e112320">Grass and hay, where's mine host Blague? </l>
+          </sp>
+          <sp xml:id="A21136-e112330" who="A21136-blague">
+            <speaker>Bla.</speaker>
+            <p xml:id="A21136-e112340">Here metropolitan, the Philistines are upon us, be silent, let us serve the good Duke of Norfolk; but where is Smug. </p>
+          </sp>
+          <sp xml:id="A21136-e112350" who="A21136-smug">
+            <speaker>Smu.</speaker>
+            <p xml:id="A21136-e112360">Here, a pox on ye all dogs; I have killed the greatest buck in Brian's walk, shift for yourselves, all the keepers are up, let's meet in Enfield church porch, away we are all taken else.</p>
+            <stage xml:id="A21136-e112370">Exeunt.</stage>
+          </sp>
+          <stage xml:id="A21136-e112380">Enter Brian with his man, and his hound.</stage>
+          <sp xml:id="A21136-e112390" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e112400">Raph hearst thou any stirring. </l>
+          </sp>
+          <sp xml:id="A21136-e112410" who="A21136-raphe">
+            <speaker>Raph.</speaker>
+            <p xml:id="A21136-e112420">I heard one speak here hard by in the bottom; peace master, speak low, zounds if I did not hear a bow go off, and the buck bray, I never heard dear in my life.</p>
+          </sp>
+          <sp xml:id="A21136-e112430" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e112440">When went your fellows out into their walks? </l>
+          </sp>
+          <sp xml:id="A21136-e112450" who="A21136-raphe">
+            <speaker>Ra.</speaker>
+            <l xml:id="A21136-e112460">An hour ago . </l>
+          </sp>
+          <sp xml:id="A21136-e112470" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e112480">'Slife is there stealers abroad, and they cannot hear of them! where the devil are my men tonight ! sirrah go up the wind towards Buckley's lodge.</p>
+            <p xml:id="A21136-e112490">I'll cast about the bottom with my hound, and I will meet thee under Conyocke.</p>
+          </sp>
+          <sp xml:id="A21136-e112500" who="A21136-raphe">
+            <speaker>Ra.</speaker>
+            <l xml:id="A21136-e112510">I will sir. </l>
+            <stage xml:id="A21136-e112520">Exit.</stage>
+          </sp>
+          <sp xml:id="A21136-e112530" who="A21136-brian">
+            <pb facs="17"/>
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e112540">How now? by the mass my hound stays upon something, hark, hark, Bowman, hark, hark there.</p>
+          </sp>
+          <sp xml:id="A21136-e112550" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e112560">Brother Frank Jerningham, brother Clare. </l>
+          </sp>
+          <sp xml:id="A21136-e112570" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e112580">Peace, that's a woman's voice, stand, who's there, stand or I'll shoot.</p>
+          </sp>
+          <sp xml:id="A21136-e112590" who="A21136-millicent">
+            <speaker>Milli.</speaker>
+            <l xml:id="A21136-e112600">O lord, hold your hands, I mean no harm sir. </l>
+          </sp>
+          <sp xml:id="A21136-e112610" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e112620">Speak, who are you? </l>
+          </sp>
+          <sp xml:id="A21136-e112630" who="A21136-millicent">
+            <speaker>Milli.</speaker>
+            <l xml:id="A21136-e112640">I am a maid sir, who? M. Brian? </l>
+          </sp>
+          <sp xml:id="A21136-e112650" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e112660">The very same, sure I should know her voice, mistress Milliscent. </p>
+          </sp>
+          <sp xml:id="A21136-e112670" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e112680">Ay, it is I sir. </l>
+          </sp>
+          <sp xml:id="A21136-e112690" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e112700">God for his passion, what make you here alone, I looked for you at my lodge an hour ago, what means your company to leave you thus? who brought you hither?</p>
+          </sp>
+          <sp xml:id="A21136-e112710" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <p xml:id="A21136-e112720">My brother sir, and m. Jerningham, who hearing folks about us in the chase, feared it had been sir Arthur and my father, who had pursued us, thus dispersed ourselves till they were passed us.</p>
+          </sp>
+          <sp xml:id="A21136-e112730" who="A21136-brian">
+            <speaker>Bri</speaker>
+            <l xml:id="A21136-e112740">But where be they? </l>
+          </sp>
+          <sp xml:id="A21136-e112750" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e112760">They be not far off, here about the grove. </l>
+          </sp>
+          <stage xml:id="A21136-e112770">Enter Clare and Jerningham.</stage>
+          <sp xml:id="A21136-e112780" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e112790">Be not afraid man, I heard Brian's tongue, that's certain. </l>
+          </sp>
+          <sp xml:id="A21136-e112800" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e112810">Call softly for your sister.</l>
+          </sp>
+          <sp xml:id="A21136-e112820" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e112830">Milliscent. </l>
+          </sp>
+          <sp xml:id="A21136-e112840" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e112850">I brother, here. </l>
+          </sp>
+          <sp xml:id="A21136-e112860" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e112870">M. Clare. </l>
+          </sp>
+          <sp xml:id="A21136-e112880" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e112890">I told you it was Brian. </l>
+          </sp>
+          <sp xml:id="A21136-e112900" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e112910">Who's that? M. Jerningham, you are a couple of hotshots, does a man commit his wench to you, to put her to grass at this time of night?</p>
+          </sp>
+          <sp xml:id="A21136-e112920" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e112930">We heard a noise about her in the chase,</l>
+            <p xml:id="A21136-e112940">And fearing that our fathers had pursued us, severed ourselves.</p>
+          </sp>
+          <sp xml:id="A21136-e112950" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e112960">Brian how happedst thou on her? </l>
+          </sp>
+          <sp xml:id="A21136-e112970" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e112980">Seeking for stealers are abroad tonight ,</l>
+            <l xml:id="A21136-e112990">My hound stayed on her, and so found her out. </l>
+          </sp>
+          <sp xml:id="A21136-e113000" who="A21136-clare">
+            <pb facs="18"/>
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e113010">They were these stealers that affrighted us,</l>
+            <l xml:id="A21136-e113020">I was hard upon them, when they horsed their deer,</l>
+            <l xml:id="A21136-e113030">And I perceive they took me for a keeper. </l>
+          </sp>
+          <sp xml:id="A21136-e113040" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e113050">Which way took they? </l>
+          </sp>
+          <sp xml:id="A21136-e113060" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e113070">Towards Enfield. </l>
+          </sp>
+          <sp xml:id="A21136-e113080" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e113090">A plague upon't, that's that damned priest, and Blague of the George, he that serves the good Duke of Norfolk.</p>
+            <stage xml:id="A21136-e113100">A noise within, follow, follow, follow.</stage>
+          </sp>
+          <sp xml:id="A21136-e113110" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e113120">Peace, that's my father's voice. </l>
+          </sp>
+          <sp xml:id="A21136-e113130" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e113140">'Zounds you suspected them, and now they are here indeed.</p>
+          </sp>
+          <sp xml:id="A21136-e113150" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e113160">Alas, what shall we do? </l>
+          </sp>
+          <sp xml:id="A21136-e113170" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e113180">If you go to the lodge you are surely taken,</l>
+            <l xml:id="A21136-e113190">Strike down the wood to Enfield presently,</l>
+            <l xml:id="A21136-e113200">And if Mounchensey come, I'll send him t'ye:</l>
+            <l xml:id="A21136-e113210">Let me alone to bustle with your father,</l>
+            <l xml:id="A21136-e113220">I warrant you that I will keep them play,</l>
+            <l xml:id="A21136-e113230">Till you have quit the chase: away, away. </l>
+            <l xml:id="A21136-e113240">Who's there? </l>
+          </sp>
+          <stage xml:id="A21136-e113250">Enter the knights.</stage>
+          <sp xml:id="A21136-e113260" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <l xml:id="A21136-e113270">In the King's name pursue the ravisher. </l>
+          </sp>
+          <sp xml:id="A21136-e113280" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e113290">Stand or I'll shoot. </l>
+          </sp>
+          <sp xml:id="A21136-e113300" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e113310">Who's there? </l>
+          </sp>
+          <sp xml:id="A21136-e113320" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e113330">I am the keeper that do charge you stand,</l>
+            <l xml:id="A21136-e113340">You have stolen my deer.</l>
+          </sp>
+          <sp xml:id="A21136-e113350" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e113360">We stolen thy deer? we do pursue a thief. </l>
+          </sp>
+          <sp xml:id="A21136-e113370" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e113380">You are arrant thieves, and ye have stolen my deer. </l>
+          </sp>
+          <sp xml:id="A21136-e113390" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <p xml:id="A21136-e113400">We are knights, sir Arthur Clare and sir Raph Jerningham. </p>
+          </sp>
+          <sp xml:id="A21136-e113410" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e113420">The more your shame that knights should be such thieves.</p>
+          </sp>
+          <sp xml:id="A21136-e113430" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e113440">Who? or what art thou? </l>
+          </sp>
+          <sp xml:id="A21136-e113450" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e113460">My name is Brian, keeper of this walk. </l>
+          </sp>
+          <sp xml:id="A21136-e113470" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <l xml:id="A21136-e113480">O Brian a villain,</l>
+            <l xml:id="A21136-e113490">Thou hast received my daughter to thy lodge. </l>
+          </sp>
+          <sp xml:id="A21136-e113500" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e113510">You have stolen the best deer in my walk tonight , my deer.</p>
+          </sp>
+          <sp xml:id="A21136-e113520" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e113530">My daughter,</l>
+            <l xml:id="A21136-e113540"><pb facs="18"/> stop not my way. </l>
+          </sp>
+          <sp xml:id="A21136-e113550" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e113560">What make you in my walk? you have stolen the best buck in my walk tonight .</p>
+          </sp>
+          <sp xml:id="A21136-e113570" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e113580">My daughter. </l>
+          </sp>
+          <sp xml:id="A21136-e113590" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e113600">My dear. </l>
+          </sp>
+          <sp xml:id="A21136-e113610" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <l xml:id="A21136-e113620">Where is Mountchensey? </l>
+          </sp>
+          <sp xml:id="A21136-e113630" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <l xml:id="A21136-e113640">Where's my buck. </l>
+          </sp>
+          <sp xml:id="A21136-e113650" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e113660">I will complain me of thee to the King. </l>
+          </sp>
+          <sp xml:id="A21136-e113670" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e113680">I'll complain unto the King you spoil his game: 'tis strange that men of your account and calling, will offer it, I tell you true, sir Arthur and sir Raph, that none but you have only spoilt my game.</p>
+          </sp>
+          <sp xml:id="A21136-e113690" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e113700">I charge you stop us not. </l>
+          </sp>
+          <sp xml:id="A21136-e113710" who="A21136-brian">
+            <speaker>Bri.</speaker>
+            <p xml:id="A21136-e113720">I charge you both ye get out of my ground. Is this a time for such as you, men of place and of your gravity, to be abroad a thieving! 'tis a shame, and a fore God if I had shot at you, I had served you well enough.</p>
+          </sp>
+          <stage xml:id="A21136-e113730">Enter banks the miller wet on his legs.</stage>
+          <sp xml:id="A21136-e113740" who="A21136-banks">
+            <speaker>Ban.</speaker>
+            <p xml:id="A21136-e113750">'Sfoot here's a dark night indeed, I think I have been in fifteen ditches between this and the forest: soft, here's Enfield church: I am so wet with climbing over into an orchard for to steal some filberts: well, here I'll sit in the church porch and wait for the rest of my consort.</p>
+          </sp>
+          <stage xml:id="A21136-e113760">Enter the sexton.</stage>
+          <sp xml:id="A21136-e113770" who="A21136-sexton">
+            <speaker>Sex.</speaker>
+            <p xml:id="A21136-e113780">Here's a sky as black as Lucifer, God bless us, here was goodman Theophilus buried, he was the best nutcracker that ever dwelled in Enfield: well, 'tis 9. o'clock , 'tis time to ring curfew. Lord bless us, what a white thing is that in the church porch; oh lord my legs are too weak for my body, my hair is too stiff for my nightcap, my heart fails; this is the ghost of Theophilus, oh lord it follows me, I cannot say my prayers and one would give me a thousand pound: good spirit, I have bowled and drunk and followed the hounds with you a thousand times, though I have not the spirit now to deal with you; oh lord.</p>
+          </sp>
+          <stage xml:id="A21136-e113790"><pb facs="19"/>Enter priest.</stage>
+          <sp xml:id="A21136-e113800" who="A21136-priest">
+            <speaker>Priest</speaker>
+            <l xml:id="A21136-e113810">Grass and hay, we are all mortal, who's there? </l>
+          </sp>
+          <sp xml:id="A21136-e113820" who="A21136-sexton">
+            <speaker>Sex.</speaker>
+            <p xml:id="A21136-e113830">We are grass and hay indeed; I know you to be master parson by your phrase.</p>
+          </sp>
+          <sp xml:id="A21136-e113840" who="A21136-priest">
+            <speaker>Priest</speaker>
+            <l xml:id="A21136-e113850">Sexton. </l>
+          </sp>
+          <sp xml:id="A21136-e113860" who="A21136-sexton">
+            <speaker>Sex.</speaker>
+            <l xml:id="A21136-e113870">Ay sir. </l>
+          </sp>
+          <sp xml:id="A21136-e113880" who="A21136-priest">
+            <speaker>Priest</speaker>
+            <l xml:id="A21136-e113890">For mortality's sake, what's the matter? </l>
+          </sp>
+          <sp xml:id="A21136-e113900" who="A21136-sexton">
+            <speaker>Sex.</speaker>
+            <p xml:id="A21136-e113910">O lord I am a man of another element; master Theophilus' ghost is in the church porch, there was a hundred cats all fire dancing here even now; and they are climbed up to the top of the steeple, I'll not into the belfry for a world.</p>
+          </sp>
+          <sp xml:id="A21136-e113920" who="A21136-priest">
+            <speaker>Priest</speaker>
+            <p xml:id="A21136-e113930">O good Salomon; I have been about a deed of darkness tonight : oh lord I saw fifteen spirits in the forest, like white bulls, if I lie I am an arrant thief: mortality haunts us; grass and hay the devils at our heels, and let's hence to the parsonages.</p>
+            <stage xml:id="A21136-e113940">Exeunt.</stage>
+          </sp>
+          <stage xml:id="A21136-e113950">The miller comes out very softly.</stage>
+          <sp xml:id="A21136-e113960" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <p xml:id="A21136-e113970">What noise was that? 'tis the watch, sure that villainous unlucky rogue Smug is ta'ne upon my life, and then all our villainy comes out, I heard one cry sure.</p>
+          </sp>
+          <stage xml:id="A21136-e113980">Enter host Blague.</stage>
+          <sp xml:id="A21136-e113990" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e114000">If I go steal any more venison, I am a paradox, 'sfoot I can scarce bear the sin of my flesh in the day, 'tis so heavy, if I turn not honest, and serve the good Duke of Norfolk, as true mareterraneum skinker should do, let me never look higher than the element of a constable.</p>
+          </sp>
+          <sp xml:id="A21136-e114010" who="A21136-millicent">
+            <speaker>Milla.</speaker>
+            <p xml:id="A21136-e114020">By the lord there are some watchmen; I hear them name master Constable, I would to God my mill were an eunuch and wanted her stones, so I were hence.</p>
+          </sp>
+          <sp xml:id="A21136-e114030" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e114040">Who's there? </l>
+          </sp>
+          <sp xml:id="A21136-e114050" who="A21136-millicent">
+            <speaker>Mille.</speaker>
+            <p xml:id="A21136-e114060">'Tis the constable by this light, I'll steal hence, and if I can meet mine host Blague, I'll tell him how Smug is ta'ne, and will him to look to himself.</p>
+            <stage xml:id="A21136-e114070">Exit.</stage>
+          </sp>
+          <sp xml:id="A21136-e114080" who="A21136-host">
+            <pb facs="19"/>
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e114090">What the devil is that white thing? this same is a churchyard, and I have heard that ghosts, and villainous goblins have been seen here.</p>
+          </sp>
+          <stage xml:id="A21136-e114100">Enter sexton and priest.</stage>
+          <sp xml:id="A21136-e114110" who="A21136-prioress">
+            <speaker>Prioress</speaker>
+            <p xml:id="A21136-e114120">Grass and hay, oh that I could conjure, we saw a spirit here in the churchyard; and in the fallow field there's the devil, with a man's body upon his back in a white sheet.</p>
+          </sp>
+          <sp xml:id="A21136-e114130" who="A21136-sexton">
+            <speaker>Sex.</speaker>
+            <l xml:id="A21136-e114140">It may be a woman's body sir John. </l>
+          </sp>
+          <sp xml:id="A21136-e114150" who="A21136-prioress">
+            <speaker>Prioress</speaker>
+            <l xml:id="A21136-e114160">If she be a woman, the sheets damn her,</l>
+            <l xml:id="A21136-e114170">Lord bless us, what a night of mortality is this. </l>
+          </sp>
+          <sp xml:id="A21136-e114180" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e114190">Priest. </l>
+          </sp>
+          <sp xml:id="A21136-e114200" who="A21136-prioress">
+            <speaker>Prioress</speaker>
+            <l xml:id="A21136-e114210">Mine host. </l>
+          </sp>
+          <sp xml:id="A21136-e114220" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e114230">Did you not see a spirit all in white, cross you at the style?</p>
+          </sp>
+          <sp xml:id="A21136-e114240" who="A21136-priest">
+            <speaker>Priest.</speaker>
+            <p xml:id="A21136-e114250">O no mine host, but there sat one in the porch, I have not breath enough left to bless me from the devil.</p>
+          </sp>
+          <sp xml:id="A21136-e114260" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e114270">Who's that? </l>
+          </sp>
+          <sp xml:id="A21136-e114280" who="A21136-prioress">
+            <speaker>Prioress</speaker>
+            <l xml:id="A21136-e114290">The sexton almost frighted out of his wits,</l>
+            <l xml:id="A21136-e114300">Did you see banks, or Smug. </l>
+          </sp>
+          <sp xml:id="A21136-e114310" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e114320">No they are gone to Waltham, sure I would feign hence, come, let's to my house, I'll ne'er serve the Duke of Norfolk in this fashion again whilst I breathe. If the devil be amongst us, 'tis time to hoist sail, and cry roomer: keep together sexton, thou art secret, what? let's be comfortable one to another.</p>
+          </sp>
+          <sp xml:id="A21136-e114330" who="A21136-prioress">
+            <speaker>Prioress</speaker>
+            <l xml:id="A21136-e114340">We are all mortal mine host. </l>
+          </sp>
+          <sp xml:id="A21136-e114350" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e114360">True, and I'll serve God in the night hereafter, afore the Duke of Norfolk.</p>
+            <stage xml:id="A21136-e114370">Exeunt.</stage>
+          </sp>
+          <stage xml:id="A21136-e114380">Enter sir Raph Clare, and sir Arthur Jerningham, trussing their points as new up.</stage>
+          <sp xml:id="A21136-e114390" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <l xml:id="A21136-e114400">Good morrow gentle knight,</l>
+            <l xml:id="A21136-e114410">A happy day after your short night's rest,</l>
+          </sp>
+          <sp xml:id="A21136-e114420" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e114430">Ha, ha, sir Raph stirring so soon indeed,</l>
+            <l xml:id="A21136-e114440">By’r lady sir rest would have done right well,</l>
+            <l xml:id="A21136-e114450"><pb facs="20"/> our riding late last night, has made me drowsy,</l>
+            <l xml:id="A21136-e114460">Go to go to those days are gone with us. </l>
+          </sp>
+          <sp xml:id="A21136-e114470" who="A21136-raphe">
+            <speaker>Sir Ra.</speaker>
+            <l xml:id="A21136-e114480">Sir Arthur, sir Arthur, care go with those days,</l>
+            <l xml:id="A21136-e114490">Let 'em even go together, let 'em go. </l>
+            <l xml:id="A21136-e114500">'Tis time i'faith that we were in our graves</l>
+            <l xml:id="A21136-e114510">When children leave obedience to their parents,</l>
+            <l xml:id="A21136-e114520">When there's no fear of God, no care, no duty. </l>
+            <l xml:id="A21136-e114530">Well, well, nay nay, it shall not do, it shall not,</l>
+            <l xml:id="A21136-e114540">No Mountchensey, thoust hear on't, thou shalt,</l>
+            <l xml:id="A21136-e114550">Thou shalt i'faith, I'll hang thy son if there be law in England:</l>
+            <l xml:id="A21136-e114560">A man's child ravished from a nunnery! </l>
+            <l xml:id="A21136-e114570">This is rare; well well, there's one gone for friar Hildersham. </l>
+          </sp>
+          <sp xml:id="A21136-e114580" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e114590">Nay gentle knight do not vex thus,</l>
+            <l xml:id="A21136-e114600">It will but hurt your health. </l>
+            <p xml:id="A21136-e114610">You cannot grieve more than I do, but to what end; but hark you sir Raph, I was about to say something; it makes no matter,</p>
+            <p xml:id="A21136-e114620">But hark you in your ear; the friar's a knave, but God forgive me, a man cannot tell neither, 'sfoot I am so out of patience,</p>
+            <l xml:id="A21136-e114630">I know not what to say. </l>
+          </sp>
+          <sp xml:id="A21136-e114640" who="A21136-raphe">
+            <speaker>Sir Ra.</speaker>
+            <l xml:id="A21136-e114650">There's one went for the friar an hour ago;</l>
+            <p xml:id="A21136-e114660">Comes he not yet! 'sfoot if I do find knavery under's cowl; ay! tickle him: I'll firk him; here here he's here, he's here.</p>
+            <l xml:id="A21136-e114670">Good morrow friar, good morrow gentle friar. </l>
+          </sp>
+          <stage xml:id="A21136-e114680">Enter Hildersham.</stage>
+          <sp xml:id="A21136-e114690" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e114700">Good morrow father Hildersham good morrow. </l>
+          </sp>
+          <sp xml:id="A21136-e114710" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <l xml:id="A21136-e114720">Good morrow reverend knights unto you both. </l>
+          </sp>
+          <sp xml:id="A21136-e114730" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e114740">Father, how now? you hear how matters go,</l>
+            <l xml:id="A21136-e114750">I am undone, my child is cast away,</l>
+            <l xml:id="A21136-e114760">You did your best; at least I think the best,</l>
+            <l xml:id="A21136-e114770">But we are all crossed, flatly all is dashed. </l>
+          </sp>
+          <sp xml:id="A21136-e114780" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <l xml:id="A21136-e114790">Alas good knights, how might the matter be? </l>
+            <l xml:id="A21136-e114800">Let me understand your grief for charity. </l>
+          </sp>
+          <sp xml:id="A21136-e114810" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e114820">Who does not understand my griefs? alas alas! </l>
+            <l xml:id="A21136-e114830">And yet ye do not, will the church permit,</l>
+            <l xml:id="A21136-e114840">A nun in approbation of her habit,</l>
+            <l xml:id="A21136-e114850"><pb facs="20"/> to be ravished. </l>
+          </sp>
+          <sp xml:id="A21136-e114860" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <p xml:id="A21136-e114870">A holy woman, benedicite; now God forfend that any should presume to touch the sister of a holy house.</p>
+          </sp>
+          <sp xml:id="A21136-e114880" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e114890">Thesus deliver me. </l>
+          </sp>
+          <sp xml:id="A21136-e114900" who="A21136-raphe">
+            <speaker>Sir Ra.</speaker>
+            <l xml:id="A21136-e114910">Why Millisent the daughter of this knight,</l>
+            <l xml:id="A21136-e114920">Is out of Cheshunt taken the last night. </l>
+          </sp>
+          <sp xml:id="A21136-e114930" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <l xml:id="A21136-e114940">Was that fair maiden late become a nun! </l>
+          </sp>
+          <sp xml:id="A21136-e114950" who="A21136-raphe">
+            <speaker>Sir Ra.</speaker>
+            <p xml:id="A21136-e114960">Was she quotha? knavery, knavery, knavery; I smell it, I smell it i'faith; is the wind in that door? is it even so! dost thou ask me that now!</p>
+          </sp>
+          <sp xml:id="A21136-e114970" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <l xml:id="A21136-e114980">It is the first time that I ere heard of it. </l>
+          </sp>
+          <sp xml:id="A21136-e114990" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e115000">That's very strange. </l>
+          </sp>
+          <sp xml:id="A21136-e115010" who="A21136-raphe">
+            <speaker>Sir Ra.</speaker>
+            <p xml:id="A21136-e115020">Why tell me friar; tell me, thou art counted a holy man, do not play the hypocrite with me, nor bear with me, I cannot dissemble; did I ought but by thy own consent? by thy allowance? nay further by thy warrant?</p>
+          </sp>
+          <sp xml:id="A21136-e115030" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <l xml:id="A21136-e115040">Why reverend knight? </l>
+          </sp>
+          <sp xml:id="A21136-e115050" who="A21136-raphe">
+            <speaker>Sir Ra.</speaker>
+            <l xml:id="A21136-e115060">Unreverend friar. </l>
+          </sp>
+          <sp xml:id="A21136-e115070" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <p xml:id="A21136-e115080">Nay then give me leave sir to depart in quiet, I had hoped you had sent for me to some other end.</p>
+          </sp>
+          <sp xml:id="A21136-e115090" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e115100">Nay stay good friar, if any thing hath happed,</l>
+            <l xml:id="A21136-e115110">About this matter in thy Jove to us;</l>
+            <l xml:id="A21136-e115120">That thy strict order cannot justify,</l>
+            <l xml:id="A21136-e115130">Admit it be so, we will cover it,</l>
+            <l xml:id="A21136-e115140">Take no care man;</l>
+            <l xml:id="A21136-e115150">Disclaim me not thy counsel and advice,</l>
+            <l xml:id="A21136-e115160">The wisest man that is may be o'erreached. </l>
+          </sp>
+          <sp xml:id="A21136-e115170" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <l xml:id="A21136-e115180">Sir Arthur, by my order and my faith,</l>
+            <l xml:id="A21136-e115190">I know not what you mean. </l>
+          </sp>
+          <sp xml:id="A21136-e115200" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e115210">By your order, and your faith? this is most strange of all:</l>
+            <l xml:id="A21136-e115220">Why tell me friar; are not you confessor to my son Francke? </l>
+          </sp>
+          <sp xml:id="A21136-e115230" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <l xml:id="A21136-e115240">Yes that I am:</l>
+          </sp>
+          <sp xml:id="A21136-e115250" who="A21136-raphe">
+            <speaker>Sir Ra.</speaker>
+            <l xml:id="A21136-e115260">And did not this good knight here and myself,</l>
+            <l xml:id="A21136-e115270">Confess, with you being his ghostly father,</l>
+            <l xml:id="A21136-e115280">To deal with him about th'unbanded marriage,</l>
+            <l xml:id="A21136-e115290">Betwixt him and that fair young Millisent? </l>
+          </sp>
+          <sp xml:id="A21136-e115300" who="A21136-hildersham">
+            <pb facs="21"/>
+            <speaker>Hild.</speaker>
+            <l xml:id="A21136-e115310">I never heard of any match intended. </l>
+          </sp>
+          <sp xml:id="A21136-e115320" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e115330">Did not we break our minds that very time,</l>
+            <l xml:id="A21136-e115340">That our device of making her a nun,</l>
+            <l xml:id="A21136-e115350">Was but a colour and a very plot,</l>
+            <l xml:id="A21136-e115360">To put by young Mountchensey; is't not true? </l>
+          </sp>
+          <sp xml:id="A21136-e115370" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <p xml:id="A21136-e115380">The more I strive to know what you should mean, the less I understand you.</p>
+          </sp>
+          <sp xml:id="A21136-e115390" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <p xml:id="A21136-e115400">Did not you tell us still how Peter Fabell at length would cross us if we took not heed?</p>
+          </sp>
+          <sp xml:id="A21136-e115410" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <l xml:id="A21136-e115420">I have heard of one that is a great magician,</l>
+            <l xml:id="A21136-e115430">But he's about the university. </l>
+          </sp>
+          <sp xml:id="A21136-e115440" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <l xml:id="A21136-e115450">Did not you send your novice Benedic,</l>
+            <l xml:id="A21136-e115460">To persuade the girl to leave Mountchensey's love,</l>
+            <l xml:id="A21136-e115470">To cross that Peter Fabell in his art,</l>
+            <l xml:id="A21136-e115480">And to that purpose made him visitor? </l>
+          </sp>
+          <sp xml:id="A21136-e115490" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <l xml:id="A21136-e115500">I never sent my novice from the house,</l>
+            <l xml:id="A21136-e115510">Nor have we made our visitation yet. </l>
+          </sp>
+          <sp xml:id="A21136-e115520" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <p xml:id="A21136-e115530">Never sent him? nay, did he not go? and did not I direct him to the house, and confer with him by the way? and did he not tell me what charge he had received from you? word by word, as I requested at your hands?</p>
+          </sp>
+          <sp xml:id="A21136-e115540" who="A21136-hildersham">
+            <speaker>Hild.</speaker>
+            <p xml:id="A21136-e115550">That you shall know, he came along with me, and stays without come hither Benedic.</p>
+            <stage xml:id="A21136-e115560">Enter Benedic.</stage>
+            <p xml:id="A21136-e115570">Young Benedic, were you ere sent by me to Cheshunt nunnery for a visitor?</p>
+          </sp>
+          <sp xml:id="A21136-e115580" who="A21136-benedick">
+            <speaker>Ben.</speaker>
+            <l xml:id="A21136-e115590">Never sir, truly. </l>
+          </sp>
+          <sp xml:id="A21136-e115600" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e115610">Stranger than all the rest. </l>
+          </sp>
+          <sp xml:id="A21136-e115620" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <l xml:id="A21136-e115630">Did not I direct you to the house? </l>
+            <l xml:id="A21136-e115640">Confer with you from Waltham abby</l>
+            <l xml:id="A21136-e115650">Unto Cheshunt wall? </l>
+          </sp>
+          <sp xml:id="A21136-e115660" who="A21136-benedick">
+            <speaker>Ben.</speaker>
+            <l xml:id="A21136-e115670">I never saw you sir before this hour. </l>
+          </sp>
+          <sp xml:id="A21136-e115680" who="A21136-raphe">
+            <speaker>Sir Raph.</speaker>
+            <l xml:id="A21136-e115690">The devil thou didst not, hoc chamberlain. </l>
+          </sp>
+          <sp xml:id="A21136-e115700" who="A21136-chamberlain">
+            <speaker>Chamberlain</speaker>
+            <l xml:id="A21136-e115710">Anon, anon. </l>
+          </sp>
+          <sp xml:id="A21136-e115720" who="A21136-raphe">
+            <speaker>Sir Ra.</speaker>
+            <l xml:id="A21136-e115730">Call mine host Blague hither. </l>
+          </sp>
+          <sp xml:id="A21136-e115740" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <p xml:id="A21136-e115750">I will send one over to see if he be up, I think he be scarce stirring yet.</p>
+          </sp>
+          <sp xml:id="A21136-e115760" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <p xml:id="A21136-e115770">Why knave, didst thou not tell me an hour ago<pb facs="21"/> mine host was up?</p>
+          </sp>
+          <sp xml:id="A21136-e115780" who="A21136-chamberlain">
+            <speaker>Cham.</speaker>
+            <l xml:id="A21136-e115790">Ay sir, my master's up. </l>
+          </sp>
+          <sp xml:id="A21136-e115800" who="A21136-raphe">
+            <speaker>Sir Ra.</speaker>
+            <l xml:id="A21136-e115810">You knave, is a up, and is a not up? </l>
+            <l xml:id="A21136-e115820">Dost thou mock me? </l>
+          </sp>
+          <sp xml:id="A21136-e115830" who="A21136-chamberlain">
+            <speaker>Cham.</speaker>
+            <p xml:id="A21136-e115840">Ay sir, my m. is up, but I think m. Blague indeed be not stirring?</p>
+          </sp>
+          <sp xml:id="A21136-e115850" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <p xml:id="A21136-e115860">Why, who's thy master? is not the master of the house thy master?</p>
+          </sp>
+          <sp xml:id="A21136-e115870" who="A21136-chamberlain">
+            <speaker>Cham.</speaker>
+            <l xml:id="A21136-e115880">Yes sir, but m. Blague dwells over the way. </l>
+          </sp>
+          <sp xml:id="A21136-e115890" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <p xml:id="A21136-e115900">Is not this the George? before God there's some villainy in this.</p>
+          </sp>
+          <sp xml:id="A21136-e115910" who="A21136-chamberlain">
+            <speaker>Cham.</speaker>
+            <l xml:id="A21136-e115920">S foot our signs removed, this is strange. </l>
+          </sp>
+          <stage xml:id="A21136-e115930">Enter Blague trussing his points.</stage>
+          <sp xml:id="A21136-e115940" who="A21136-blague">
+            <speaker>Bla.</speaker>
+            <l xml:id="A21136-e115950">Chamberlain, speak up to the new lodgings,</l>
+            <l xml:id="A21136-e115960">Bid Nell look well to the baked meats,</l>
+            <l xml:id="A21136-e115970">How now my old jennet's bank, my horse,</l>
+            <p xml:id="A21136-e115980">My castle, lie in Waltham all night, and not under the canopy of your host Blague's house.</p>
+          </sp>
+          <sp xml:id="A21136-e115990" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <p xml:id="A21136-e116000">Mine host, mine host, we lay all night at the George in Waltham, but whether the George be your fee-simple or no, 'tis a doubtful question, look upon your sign.</p>
+          </sp>
+          <sp xml:id="A21136-e116010" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e116020">Body of saint George, this is mine overthwart neighbour hath done this to seduce my blind customers, I'll tickle his catastrophe for this; if I do not indite him at next assizes for burglary, let me die of the yellows, for I see 'tis no boot in these days to serve the good Duke of Norfolk, the villainous world is turned manger, one jade deceives another, and your ostler plays his part commonly for the fourth share, have we comedies in hand, you whoreson villainous male London lecher.</p>
+          </sp>
+          <sp xml:id="A21136-e116030" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <p xml:id="A21136-e116040">Mine host, we have had the moylingst night of it that ever we had in our lives.</p>
+          </sp>
+          <sp xml:id="A21136-e116050" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e116060">Is't certain? </l>
+          </sp>
+          <sp xml:id="A21136-e116070" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <l xml:id="A21136-e116080">We have been in the forest all night almost. </l>
+          </sp>
+          <sp xml:id="A21136-e116090" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e116100">'Sfoot how did I miss you? heart I was a stealing a<pb facs="22"/> buck there.</p>
+          </sp>
+          <sp xml:id="A21136-e116110" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e116120">A plague on you, we were stayed for you. </l>
+          </sp>
+          <sp xml:id="A21136-e116130" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e116140">Were you my noble Romans? why you shall share, the venison is a footing, sine cerere et baccho friget Venus: that is, there's a good breakfast provided for a marriage, that's in my house this morning.</p>
+          </sp>
+          <sp xml:id="A21136-e116150" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e116160">A marriage mine host? </l>
+          </sp>
+          <sp xml:id="A21136-e116170" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e116180">A conjunction copulative, a gallant match between your daughter, and m. Raymond Mountchensey, young iwensus.</p>
+          </sp>
+          <sp xml:id="A21136-e116190" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e116200">How? </l>
+          </sp>
+          <sp xml:id="A21136-e116210" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e116220">'Tis firm, 'tis done,</l>
+            <l xml:id="A21136-e116230">We'll show you a precedent i'th' civil law fort. </l>
+          </sp>
+          <sp xml:id="A21136-e116240" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <l xml:id="A21136-e116250">How I married! </l>
+          </sp>
+          <sp xml:id="A21136-e116260" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e116270">Leave tricks, and admiration, there's a cleanly pair of sheets in the bed in orchard chamber, and they shall lie there, what? I'll do it, I'll serve the good Duke of Norfolk.</p>
+          </sp>
+          <sp xml:id="A21136-e116280" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e116290">Thou shalt repent this Blague. </l>
+          </sp>
+          <sp xml:id="A21136-e116300" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <p xml:id="A21136-e116310">If any law in England will make thee smart for this, expect it with all severity.</p>
+          </sp>
+          <sp xml:id="A21136-e116320" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e116330">I renounce your defiance, if you parley so roughly, I'll barracado my gates against you: stand fair bully; priest come off from the rearward; what can you say now? 'twas done in my house, I have shelter i'th' court for't, d'ye see your bay window? I serve the good Duke of Norfolk, and 'tis his lodging, storm I care not serving the good Duke of Norfolk: thou art an actor in this, and thou shalt carry fire in thy face eternally.</p>
+          </sp>
+          <stage xml:id="A21136-e116340">Enter Smug, Mountchensey, Harry Clare and Milliscent.</stage>
+          <sp xml:id="A21136-e116350" who="A21136-smug">
+            <speaker>Smug.</speaker>
+            <p xml:id="A21136-e116360">Fire, 'sblood there's no fire in England like your Trinidado sack; is any man here humorous? we stole the venison, and we'll justify it: say you now.</p>
+          </sp>
+          <sp xml:id="A21136-e116370" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e116380">In good sooth Smug there's more sack on the fire Smug. </l>
+          </sp>
+          <sp xml:id="A21136-e116390" who="A21136-smug">
+            <speaker>Smu.</speaker>
+            <p xml:id="A21136-e116400">I do not take any exceptions against your sack, but if you'll lend me a pick staff, I'll cudgel them all hence by this hand.</p>
+          </sp>
+          <sp xml:id="A21136-e116410" who="A21136-host">
+            <pb facs="22"/>
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e116420">I say thou shalt into the cellar. </l>
+          </sp>
+          <sp xml:id="A21136-e116430" who="A21136-smith">
+            <speaker>Sm.</speaker>
+            <l xml:id="A21136-e116440">'Sfoot mine host, shall's not grapple? </l>
+            <p xml:id="A21136-e116450">Pray pray you; I could fight now for all the world like a cockatrice's egg; shall's not serve the Duke of Norfolk?</p>
+            <stage xml:id="A21136-e116460">Exit.</stage>
+          </sp>
+          <sp xml:id="A21136-e116470" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e116480">In skipper in. </l>
+          </sp>
+          <sp xml:id="A21136-e116490" who="A21136-arthur">
+            <speaker>Sir Arth.</speaker>
+            <l xml:id="A21136-e116500">Sirrah, hath young Mountchensey married your sister? </l>
+          </sp>
+          <sp xml:id="A21136-e116510" who="A21136-unassigned">
+            <speaker>Ha. Cla.</speaker>
+            <p xml:id="A21136-e116520">'Tis certain sir; here's the priest that coupled them; the parties joined, and the honest witness that cried, amen.</p>
+          </sp>
+          <sp xml:id="A21136-e116530" who="A21136-mounchensey">
+            <speaker>Mount.</speaker>
+            <p xml:id="A21136-e116540">Sir Arthur Clare, my new created father, I beseech you hear me.</p>
+          </sp>
+          <sp xml:id="A21136-e116550" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <p xml:id="A21136-e116560">Sir sir, you are a foolish boy, you have done that you cannot answer; I dare be bold to cease her from you, for she's a professed nun.</p>
+          </sp>
+          <sp xml:id="A21136-e116570" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e116580">With pardon sir, that name is quite undone,</l>
+            <l xml:id="A21136-e116590">This true-love knot cancels both maid and nun. </l>
+            <l xml:id="A21136-e116600">When first you told me I should act that part,</l>
+            <l xml:id="A21136-e116610">How cold and bloody it crept o'er my heart! </l>
+            <l xml:id="A21136-e116620">To Cheshunt with a smiling brow I went,</l>
+            <l xml:id="A21136-e116630">But yet, dear sir, it was to this intent,</l>
+            <l xml:id="A21136-e116640">That my sweet Raymond might find better means,</l>
+            <l xml:id="A21136-e116650">To steal me thence: in brief disguised he came,</l>
+            <l xml:id="A21136-e116660">Like novice to old father Hildersham. </l>
+            <l xml:id="A21136-e116670">His tutor here did act that cunning part,</l>
+            <l xml:id="A21136-e116680">And in our love hath joined much wit to art. </l>
+          </sp>
+          <sp xml:id="A21136-e116690" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e116700">Is't even so! </l>
+          </sp>
+          <sp xml:id="A21136-e116710" who="A21136-millicent">
+            <speaker>Mill.</speaker>
+            <l xml:id="A21136-e116720">With pardon therefore we entreat your smiles,</l>
+            <l xml:id="A21136-e116730">Love thwarted turns itself to thousand wiles. </l>
+          </sp>
+          <sp xml:id="A21136-e116740" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e116750">Young master Jerningham, were you an actor, in your own love's abuse? </l>
+          </sp>
+          <sp xml:id="A21136-e116760" who="A21136-jerningham">
+            <speaker>Jer.</speaker>
+            <l xml:id="A21136-e116770">My thoughts, good sir,</l>
+            <l xml:id="A21136-e116780">Did labour seriously unto this end,</l>
+            <l xml:id="A21136-e116790">To wrong myself ere I'd abuse my friend. </l>
+          </sp>
+          <sp xml:id="A21136-e116800" who="A21136-host">
+            <speaker>Host.</speaker>
+            <p xml:id="A21136-e116810">He speaks like a bachelor of music all in numbers; knights if I had known you would have let this covy of partridges sit thus long upon their knees under my sign post,<pb facs="23"/> I would have spread my door with old coverlids.</p>
+          </sp>
+          <sp xml:id="A21136-e116820" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e116830">Well sir, for this your sign was removed, was it? </l>
+          </sp>
+          <sp xml:id="A21136-e116840" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e116850">Faith we followed the directions of the devil,</l>
+            <p xml:id="A21136-e116860">Master Peter Fabell and Smug, lord bless us, could never stand upright since.</p>
+          </sp>
+          <sp xml:id="A21136-e116870" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e116880">You sir, 'twas you was his minister that married them. </l>
+          </sp>
+          <sp xml:id="A21136-e116890" who="A21136-john">
+            <speaker>Sir Io.</speaker>
+            <p xml:id="A21136-e116900">Sir to prove myself an honest man, being that I was last night in the forest stealing venison; now sir to have you stand my friend, if that matter should be called in question, I married you daughter to this worthy gentleman.</p>
+          </sp>
+          <sp xml:id="A21136-e116910" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <p xml:id="A21136-e116920">I may chance to requite you, and make your neck crack for't.</p>
+          </sp>
+          <sp xml:id="A21136-e116930" who="A21136-john">
+            <speaker>Sir Io.</speaker>
+            <l xml:id="A21136-e116940">If you do, I am as resolute as my</l>
+            <l xml:id="A21136-e116950">Neighbour vicar of Waltham abby: ahem ,</l>
+            <l xml:id="A21136-e116960">Grass and hay, we are all mortal,</l>
+            <l xml:id="A21136-e116970">Let's live till we be hanged mine host,</l>
+            <l xml:id="A21136-e116980">And be merry and there's an end. </l>
+          </sp>
+          <sp xml:id="A21136-e116990" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e117000">Now knights I enter, now my part begins. </l>
+            <l xml:id="A21136-e117010">To end this difference, know, at first I knew</l>
+            <l xml:id="A21136-e117020">What you intended, ere your love took flight,</l>
+            <l xml:id="A21136-e117030">From old Mountchensey: you sir Arthur Clare,</l>
+            <l xml:id="A21136-e117040">Were minded to have married this sweet beauty,</l>
+            <l xml:id="A21136-e117050">To young Frank Jerningham; to cross which match,</l>
+            <l xml:id="A21136-e117060">I used some pretty sleights, but I protest</l>
+            <l xml:id="A21136-e117070">Such as but sat upon the skirts of art,</l>
+            <l xml:id="A21136-e117080">No conjurations, nor such weighty spells,</l>
+            <l xml:id="A21136-e117090">As tie the soul to their performancy:</l>
+            <l xml:id="A21136-e117100">These for his love who once was my dear pupil,</l>
+            <l xml:id="A21136-e117110">Have I effected: now methinks 'tis strange,</l>
+            <l xml:id="A21136-e117120">That you being old in wisdom should thus knit,</l>
+            <l xml:id="A21136-e117130">Your forehead on this match; since reason fails,</l>
+            <l xml:id="A21136-e117140">No law can curb the lover's rash attempt,</l>
+            <l xml:id="A21136-e117150">Years in resisting this are sadly spent:</l>
+            <l xml:id="A21136-e117160">Smile then upon your daughter and kind son,</l>
+            <l xml:id="A21136-e117170">And let our toil to future ages prove,</l>
+            <l xml:id="A21136-e117180">The devil of Edmonton did good in love. </l>
+          </sp>
+          <sp xml:id="A21136-e117190" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e117200">Well 'tis in vain to cross the providence:</l>
+            <l xml:id="A21136-e117210"><pb facs="23"/> dear son, I take thee up into my heart,</l>
+            <l xml:id="A21136-e117220">Rise daughter, this is a kind father's part. </l>
+          </sp>
+          <sp xml:id="A21136-e117230" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e117240">Why sir George send for spindle's noise, presently,</l>
+            <l xml:id="A21136-e117250">Ha, oer t be night, I'll serve the good Duke of Norfolk. </l>
+          </sp>
+          <sp xml:id="A21136-e117260" who="A21136-prioress">
+            <speaker>Prioress</speaker>
+            <p xml:id="A21136-e117270">Grass and hay, mine host, let's live till we die, and be merry and there's an end.</p>
+          </sp>
+          <sp xml:id="A21136-e117280" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e117290">What, is breakfast ready mine host? </l>
+          </sp>
+          <sp xml:id="A21136-e117300" who="A21136-host">
+            <speaker>Host.</speaker>
+            <l xml:id="A21136-e117310">'Tis my little hebrew. </l>
+          </sp>
+          <sp xml:id="A21136-e117320" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e117330">Sirrah ride straight to Cheshunt nunnery. </l>
+            <l xml:id="A21136-e117340">Fetch thence my lady, the house I know,</l>
+            <l xml:id="A21136-e117350">By this time misses their young votary:</l>
+            <l xml:id="A21136-e117360">Come knights let's in. </l>
+          </sp>
+          <sp xml:id="A21136-e117370" who="A21136-bilbo">
+            <speaker>Bil.</speaker>
+            <p xml:id="A21136-e117380">I will to horse presently sir; a plague a my lady, I shall miss a good breakfast. Smug how chance you cut so plaguely behind Smug? </p>
+          </sp>
+          <sp xml:id="A21136-e117390" who="A21136-smug">
+            <speaker>Smu.</speaker>
+            <l xml:id="A21136-e117400">Stand away; I'll founder you else. </l>
+          </sp>
+          <sp xml:id="A21136-e117410" who="A21136-bilbo">
+            <speaker>Bil.</speaker>
+            <l xml:id="A21136-e117420">Farewell Smug, thou art in another element. </l>
+          </sp>
+          <sp xml:id="A21136-e117430" who="A21136-smug">
+            <speaker>Smu.</speaker>
+            <l xml:id="A21136-e117440">I will be by and by, I will be sir George again,</l>
+          </sp>
+          <sp xml:id="A21136-e117450" who="A21136-arthur">
+            <speaker>Sir Ar.</speaker>
+            <l xml:id="A21136-e117460">Take heed the fellow do not hurt himself. </l>
+          </sp>
+          <sp xml:id="A21136-e117470" who="A21136-raphe">
+            <speaker>Sir rap</speaker>
+            <l xml:id="A21136-e117480">Did we not last night find two s. George's here. </l>
+          </sp>
+          <sp xml:id="A21136-e117490" who="A21136-fabell">
+            <speaker>Fab.</speaker>
+            <l xml:id="A21136-e117500">Yes knights, this martialist was one of them. </l>
+          </sp>
+          <sp xml:id="A21136-e117510" who="A21136-clare">
+            <speaker>Cla.</speaker>
+            <l xml:id="A21136-e117520">Then thus conclude your night of merriment. </l>
+            <stage xml:id="A21136-e117530">Exeunt omnes.</stage>
+          </sp>
+        </div>
+        <trailer xml:id="A21136-e117540">Finis.</trailer>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A21136"><item xml:id="A21136-clare" n="50">
+    <seg type="character_name">A21136-clare</seg>
+    <seg type="speech_count">50</seg>
+  </item>
+  <item xml:id="A21136-millicent" n="41">
+    <seg type="character_name">A21136-millicent</seg>
+    <seg type="speech_count">41</seg>
+  </item>
+  <item xml:id="A21136-arthur" n="39">
+    <seg type="character_name">A21136-arthur</seg>
+    <seg type="speech_count">39</seg>
+  </item>
+  <item xml:id="A21136-host" n="37">
+    <seg type="character_name">A21136-host</seg>
+    <seg type="speech_count">37</seg>
+  </item>
+  <item xml:id="A21136-fabell" n="37">
+    <seg type="character_name">A21136-fabell</seg>
+    <seg type="speech_count">37</seg>
+  </item>
+  <item xml:id="A21136-mounchensey" n="36">
+    <seg type="character_name">A21136-mounchensey</seg>
+    <seg type="speech_count">36</seg>
+  </item>
+  <item xml:id="A21136-raphe" n="29">
+    <seg type="character_name">A21136-raphe</seg>
+    <seg type="speech_count">29</seg>
+  </item>
+  <item xml:id="A21136-brian" n="27">
+    <seg type="character_name">A21136-brian</seg>
+    <seg type="speech_count">27</seg>
+  </item>
+  <item xml:id="A21136-jerningham" n="23">
+    <seg type="character_name">A21136-jerningham</seg>
+    <seg type="speech_count">23</seg>
+  </item>
+  <item xml:id="A21136-smug" n="16">
+    <seg type="character_name">A21136-smug</seg>
+    <seg type="speech_count">16</seg>
+  </item>
+<item xml:id="A21136-coreb" n="15">
+    <seg type="character_name">A21136-coreb</seg>
+    <seg type="speech_count">15</seg>
+  </item>
+  <item xml:id="A21136-hildersham" n="14">
+    <seg type="character_name">A21136-hildersham</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A21136-john" n="13">
+    <seg type="character_name">A21136-john</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+  <item xml:id="A21136-bilbo" n="12">
+    <seg type="character_name">A21136-bilbo</seg>
+    <seg type="speech_count">12</seg>
+  </item>
+  <item xml:id="A21136-prioress" n="12">
+    <seg type="character_name">A21136-prioress</seg>
+    <seg type="speech_count">12</seg>
+  </item>
+  <item xml:id="A21136-banks" n="10">
+    <seg type="character_name">A21136-banks</seg>
+    <seg type="speech_count">10</seg>
+  </item>
+  <item xml:id="A21136-harry" n="7">
+    <seg type="character_name">A21136-harry</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A21136-dorcas" n="6">
+    <seg type="character_name">A21136-dorcas</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A21136-chamberlain" n="5">
+    <seg type="character_name">A21136-chamberlain</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A21136-priest" n="5">
+    <seg type="character_name">A21136-priest</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A21136-unassigned" n="5">
+    <seg type="character_name">A21136-unassigned</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A21136-sexton" n="5">
+    <seg type="character_name">A21136-sexton</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A21136-frank" n="5">
+    <seg type="character_name">A21136-frank</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A21136-raymond" n="4">
+    <seg type="character_name">A21136-raymond</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A21136-lady" n="4">
+    <seg type="character_name">A21136-lady</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A21136-blague" n="3">
+    <seg type="character_name">A21136-blague</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A21136-old_mounchensey" n="3">
+    <seg type="character_name">A21136-old_mounchensey</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A21136-nun" n="3">
+    <seg type="character_name">A21136-nun</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A21136-smith" n="2">
+    <seg type="character_name">A21136-smith</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A21136-benedick" n="2">
+    <seg type="character_name">A21136-benedick</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A21136-young_jerningham" n="1">
+    <seg type="character_name">A21136-young_jerningham</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A21136-conjuror" n="1">
+    <seg type="character_name">A21136-conjuror</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

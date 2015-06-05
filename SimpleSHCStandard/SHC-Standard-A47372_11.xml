@@ -1,0 +1,2233 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Prisoners<date type="creation_date">1635</date></title>
+        <author>Killigrew, Thomas</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Nayoon Ahn</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A47372_11.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">Comedies and tragedies written by Thomas Killigrew ...</title>
+            <author>Killigrew, Thomas, 1612-1683.</author>
+          </titleStmt>
+          <extent>325 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2004 November (TCP phase 1)</date>
+            <idno type="marc">12417588</idno>
+            <idno type="stc">Wing K450.</idno>
+            <idno type="vid">61734</idno>
+            <idno type="DLPS">A47372</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">Comedies and tragedies written by Thomas Killigrew ...</title>
+            <title type="alt">Works. 1664</title>
+            <author>Killigrew, Thomas, 1612-1683.</author>
+          </titleStmt>
+          <extent>[9], 8 [i.e. 5]-576, 80 p. : port.</extent>
+          <publicationStmt>
+            <publisher>Printed for Henry Herringman ...,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1664.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Each play has special t.p. and is dated 1663.</p>
+            </note>
+            <note>
+              <p>Reproduction of original in Huntington Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A47372_11-e100010">
+    <front xml:id="A47372_11-e100020">
+      <div type="dramatis_personae" xml:id="A47372_11-e100030">
+        <list xml:id="A47372_11-e100040">
+          <pb facs="309"/>
+          <head>The names of the actors:</head>
+          <item xml:id="A47372_11-e100050">The Kings of Sicily. </item>
+          <item xml:id="A47372_11-e100060">Eumenes, the Sicilian general.</item>
+          <item xml:id="A47372_11-e100070">Sortanes and Cleon two Sicilian lords.</item>
+          <item xml:id="A47372_11-e100080">Philon, a Sicilian lord, kinsman to the King.</item>
+          <item xml:id="A47372_11-e100090">Theagines, judge of Sardinia. </item>
+          <item xml:id="A47372_11-e100100">Memnon, chief priest of Sardinia. </item>
+          <item xml:id="A47372_11-e100110">Hipparchus and Pausanes now prisoners, the lost sons of Memnon and Theagines. </item>
+          <item xml:id="A47372_11-e100120">Gallippus, a banished Sicilian lord, now a pirate.</item>
+          <item xml:id="A47372_11-e100130">Zenon, alias Pelius, a disguised lord of Sardinia, in love with Zenonia, a lady of Eucratia's, who was abused by Eumenes, the Sicilian general.</item>
+          <item xml:id="A47372_11-e100140">Dyon and Cremnofield two Sardinian commanders.</item>
+          <item xml:id="A47372_11-e100150">Procles, an old common soldier.</item>
+          <item xml:id="A47372_11-e100160">Boatswain.</item>
+          <item xml:id="A47372_11-e100170">Sailors.</item>
+          <item xml:id="A47372_11-e100180">Slaves.</item>
+          <item xml:id="A47372_11-e100190">Lysimella, sister to the King of Sicily. </item>
+          <item xml:id="A47372_11-e100200">Leucanthe, daughter to Theagines. </item>
+          <item xml:id="A47372_11-e100210">Eucratia, daughter to Memnon, beloved of the King of Sicily. </item>
+          <item xml:id="A47372_11-e100220">Eugene, Lysimella's woman.</item>
+        </list>
+        <p xml:id="A47372_11-e100230">The scene Sardinia. </p>
+      </div>
+    </front>
+    <body xml:id="A47372_11-e100240">
+      <div n="1" type="act" xml:id="A47372_11-e100250">
+        <pb facs="309" n="49"/>
+        <head>The prisoners, a tragicomedy.</head>
+        <div n="1" type="scene" xml:id="A47372_11-e100260">
+          <head>Act. i. scen. i.</head>
+          <stage xml:id="A47372_11-e100270">Enter the King of Sicily, Sortanes, Eumenes, and Cleon.</stage>
+          <sp xml:id="A47372_11-e100280" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e100290">Are the galleys come from Rhodes? </p>
+          </sp>
+          <sp xml:id="A47372_11-e100300" who="A47372_11-eumenes">
+            <speaker>Eumenes.</speaker>
+            <p xml:id="A47372_11-e100310">Yes, sir; they arrived this evening.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100320" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e100330">Then we're all in readiness; and if the gods smile upon us, those proud sisters shall find they have pulled down fire by playing with my anger; thus to pretend a vow to peace, and feign a law by which they're bound not to arm but in their own defence: come, 'twas treacherously designed; and since in our greatest danger they could leave us to that sudden ruin that then threatened all our nation with a foreign yoke, they shall find (Now our virtues have wrought through that storm) what enemies we can be, whose friendship they have despised; till in their bosoms I have thrown all those miseries of war, whose single name was such a terror to them; but where's our sister? did you call her, Cleon? </p>
+          </sp>
+          <sp xml:id="A47372_11-e100340" who="A47372_11-boatswain">
+            <speaker>Boatswain</speaker>
+            <p xml:id="A47372_11-e100350">She went this evening, in her galley, to take the air.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100360" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e100370">When she returns tell her, I must speak with her. — and (D'ye hear?) Eumenes! let all things be in readiness to put to sea, with the morning tide. The wind stands fair still?</p>
+          </sp>
+          <sp xml:id="A47372_11-e100380" who="A47372_11-eumenes">
+            <speaker>Eumen.</speaker>
+            <p xml:id="A47372_11-e100390">Yes, sir; the wind's South.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100400" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e100410">What said the captain of the galley that you took, had they notice of our intent?</p>
+          </sp>
+          <sp xml:id="A47372_11-e100420" who="A47372_11-eumenes">
+            <speaker>Eumen.</speaker>
+            <p xml:id="A47372_11-e100430">Yes, sir; he says they had intelligence, but they are so unprepared for war that the knowledge was no advantage; they received it as men stabbed in their sleep, that wake only to find their dangers certain.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100440" who="A47372_11-king">
+            <pb facs="310" n="50"/>
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e100450">Their falsehoods have begotten their fears, and now like cowards they fall upon their own swords. Eumenes, let the slaves be well fed tonight .</p>
+          </sp>
+        </div>
+        <div n="2" type="scene" xml:id="A47372_11-e100460">
+          <head>Act. i. scen. ii.</head>
+          <stage xml:id="A47372_11-e100470">Enter Lysimella, Philon, Eugene, and three soldiers, being chased ashore by pirates. </stage>
+          <sp xml:id="A47372_11-e100480" who="A47372_11-philon">
+            <speaker>Philon.</speaker>
+            <p xml:id="A47372_11-e100490">Fly madam, save yourself while we with our faiths oppose the pursuers; for know, Philon will lay his body a willing sacrifice to intercept your danger.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100500" who="A47372_11-lysimella">
+            <speaker>Lysimel.</speaker>
+            <p xml:id="A47372_11-e100510">O cousin, which way shall we take? I know not where we are; why did you land here? he durst not have pursued us to the harbour; my brother's fleet, now in readiness to depart, would have protected us.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100520" who="A47372_11-eugene">
+            <speaker>Eugene.</speaker>
+            <p xml:id="A47372_11-e100530">This way the slave ran that went to call for aid. <stage xml:id="A47372_11-e100540">Pirates within cry follow, follow.</stage></p>
+          </sp>
+          <sp xml:id="A47372_11-e100550" who="A47372_11-philon">
+            <speaker>Philon.</speaker>
+            <p xml:id="A47372_11-e100560">Hark, madam, we're pursued; 'tis now no time to talk, upon my life, it is Gillippus, and the bold pirate I fear knows the value of the prize he hunts.</p>
+          </sp>
+          <stage xml:id="A47372_11-e100570">[within follow, follow.</stage>
+          <sp xml:id="A47372_11-e100580" who="A47372_11-lysimella">
+            <speaker>Lysimel.</speaker>
+            <p xml:id="A47372_11-e100590">They come, take some other way, and try if you can divert their chase whilst we take covert in these woods.</p>
+          </sp>
+          <stage xml:id="A47372_11-e100600">[exeunt omnes.</stage>
+        </div>
+        <div n="3" type="scene" xml:id="A47372_11-e100610">
+          <head>Act. i. scen. iii.</head>
+          <stage xml:id="A47372_11-e100620">Enter Gillippus, Hipparchus, and soldiers of their party. </stage>
+          <sp xml:id="A47372_11-e100630" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e100640">Follow mates, for we have in chase the wealth of kingdoms; one whose maiden mine the gods would dig in, nor has her virgin earth been wounded yet for that precious metal, but keeps her Indies still unconquered; if we gain her, we need sail no more to find uncertain fates; she's prize enough.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100650" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e100660">Slip not this opportunity then; you know not how long fortune will court us; which path took she?</p>
+          </sp>
+          <sp xml:id="A47372_11-e100670" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e100680">I know not; let us divide ourselves; I'll take this.</p>
+          </sp>
+          <stage xml:id="A47372_11-e100690">[exit Gillippus.</stage>
+          <stage xml:id="A47372_11-e100700">Enter Pausanes, and meets Hipparchus.</stage>
+          <sp xml:id="A47372_11-e100710" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e100720">Hipparchus, Hipparchus; what glorious things were those that fled us, as if we durst hurt 'em?</p>
+          </sp>
+          <sp xml:id="A47372_11-e100730" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e100740">They were handsome women, man.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100750" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e100760">Were they but women?</p>
+          </sp>
+          <sp xml:id="A47372_11-e100770" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e100780">But women! no, but women. — what ailest thou?</p>
+          </sp>
+          <stage xml:id="A47372_11-e100790">[Pausanes stands with his eyes fixed on the ground. </stage>
+          <sp xml:id="A47372_11-e100800" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e100810">I'm sure they are more than man; for I never saw any of that sex that made me tremble, yet these did; and with a cold fear the memory dwells in my breast still.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100820" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e100830">What? thunderstruck by a woman! courage, man. <pb facs="310" n="51"/>Black eyes though they lighten yet they do not use to shrink our<stage xml:id="A47372_11-e100840">He shakes him.</stage>hearts in the scabbard.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100850" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e100860">These do not use to fight, do they? — if they do, by all<stage xml:id="A47372_11-e100870">Hipparchus laughs. </stage>the gods, they'll conquer me; o Hipparchus, do not mock my misery; but tell me, hast thou seen many such? are such forms usual amongst 'em? this has Medusa's power, in a beauteous form, and I am changed to weeping marble.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100880" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e100890">By this good day, he's in love; could I be so, how happy should I be; for I have been pretty lucky in the sex; and could I have loved all that I have lain with, what a share of heaven should I have had? — look how he stands now! Pausanes! what dost mean, let fall thy weapon when thou pursuest a wench?</p>
+          </sp>
+          <sp xml:id="A47372_11-e100900" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e100910">A wench! what's that? I thought of none.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100920" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e100930">What is a wench? why, the greater part, and the handsomest; and that they are not the better part of woman, is yet to be disputed.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100940" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e100950">How canst thou distinguish 'em? how dost thou know a wench?</p>
+          </sp>
+          <sp xml:id="A47372_11-e100960" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e100970">How do I know 'em? several ways, but the best and certainest, is by feeling 'em.</p>
+          </sp>
+          <sp xml:id="A47372_11-e100980" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e100990">But that I know from our rocking in the cradle it still has been so, I should wonder how we two came to be friends; there's such contrarieties even in our natures, that both looking on one and the same heavenly form, we should thus from the same subject draw such different thoughts; for whilst I was philosophizing upon her diviner part, and preparing how to worship her, thou wert casting to pollute her; but, prithee tell me, were it not better to find those beauties that adorn her, the clothing of a perfect goddess, than such a falling image?</p>
+          </sp>
+          <sp xml:id="A47372_11-e101000" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e101010">Faith, in serious thoughts (Which handsome women ought not to be mingled with) worship is a good thing; but to have them worship me I should think were better. — but, prithee put off this serious discourse now; this is no time to talk when we have such prey in chase.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101020" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101030">Fare thee well; but that I know thee stout, faithful to thy friend, and one that speaks worse of himself then any other dares, I'd tear thee from my bosom; but when I know this, and how strictly thou wilt pay thy vows to honour, thou shalt dwell for ever here.</p>
+          </sp>
+        </div>
+        <div n="4" type="scene" xml:id="A47372_11-e101040">
+          <head>Act. i. scen. iv.</head>
+          <stage xml:id="A47372_11-e101050">Enter Gillippus, following Lysimella.</stage>
+          <sp xml:id="A47372_11-e101060" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e101070">You are very fair; let that remove your wonder, how I dare again gaze upon that excellence. — why do you frown? is it your innocence, or your beauty, that you mistrust? <stage xml:id="A47372_11-e101080">She frowns.</stage>that thus you arm yourself with anger to defend you: pray leave to be an enemy, you see that could not protect you.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101090" who="A47372_11-lysimella">
+            <pb facs="311" n="52"/>
+            <speaker>Lysimel.</speaker>
+            <p xml:id="A47372_11-e101100">No, monster; 'tis not to see thee play thy part that troubles me; but to think that heaven fails in hers, thus to leave virtue without a guard, while lust and rapine grow strong in mischief; as if the innocent were created white, only to be fit to take the murderer's purple.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101110" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e101120">As you have mercy remove that threatening danger;<stage xml:id="A47372_11-e101130">He kneels.</stage>that ruin in your curled brow, and in justice (Which your anger cannot know) weigh my action and cross fate together; then call to mind how severely I was punished for a single fault, a fault that my love pleaded for, but did not excuse; and when you have found that blot in my story, if you are equal you must confess all my life, to that hour, paid you an humble and a faithful service, and to the King my master a ready hand, and a loyal heart; nor could he urge any thing against my pretence, but that I was born his subject; yet that I could willingly have undergone, and all things else but your scorn, which still left me to my despairs, I had else waited my fortune, and not by force attempted to have gained my wishes. — o madam, had you not bowed me that way, but tried what I could have suffered for you, not from you, 'twould have started your soft soul to have seen me suffer that would through a thousand hazards have courted your favour till I had fallen your beauty's martyr.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101140" who="A47372_11-lysimella">
+            <speaker>Lysimel,</speaker>
+            <p xml:id="A47372_11-e101150">Away; thy oily tongue, nor bloody hand can prevail, thy flattery and thy force; I am by my resolutions above both, for love and his soft fire thou never feltst it, nor knowest that god but by the name: these thy false stoopings conclude thou canst not worship, that thus durst again by force attempt me; that heart that truly loves nobly suffers; and knows that god of passion is to the longing soul both the hunger and the food; and if his heaven be not reached by knees, their hands dare not, nay cannot; yet mayest thou live to love, and me, I wish it not to glory in, but to punish thee.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101160" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e101170">Are you so resolved? then I'll kneel no more; but frowning gather all thy sweets; begging lovers teach women a way to deny,<stage xml:id="A47372_11-e101180">He rises up.</stage>which else they durst not know — (A slave there) Hipparchus, take to your charge this fair folly, and as your eyes look to<stage xml:id="A47372_11-e101190">Enter a slave and Hipparchus.</stage>her; let not her face betray your faith; away, I say, convey her to the galley, there my empire will begin.</p>
+          </sp>
+          <stage xml:id="A47372_11-e101200">[the slave binds her.</stage>
+          <sp xml:id="A47372_11-e101210" who="A47372_11-lysimella">
+            <speaker>Lysimel.</speaker>
+            <p xml:id="A47372_11-e101220">Thinkest thou thy threats can fright me? no, I cannot so much doubt the care of heaven, as to think that power, whose providence considers the fall of every little bird, will sleep now, and o'ersee the ruin of a kingdom; no, monster, I defy thee.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101230" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e101240">Away to the galley; there, when we have got the booty, I'll meet you.</p>
+          </sp>
+          <stage xml:id="A47372_11-e101250">[exit.</stage>
+          <sp xml:id="A47372_11-e101260" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e101270">'Tis a lovely form; with what a scorn she bears her fortune!</p>
+          </sp>
+          <sp xml:id="A47372_11-e101280" who="A47372_11-lysimella">
+            <speaker>Lysimel.</speaker>
+            <p xml:id="A47372_11-e101290">Sir, I am but a stranger to you; yet if you durst disobey this bad man, and give me freedom, I will not say I can reward such a benefit; but I am certain I can be grateful; can you do it?</p>
+          </sp>
+          <sp xml:id="A47372_11-e101300" who="A47372_11-hipparches">
+            <pb facs="311" n="53"/>
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e101310">If I durst be dishonest, madam, I think I could.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101320" who="A47372_11-lysimella">
+            <speaker>Lysimel.</speaker>
+            <p xml:id="A47372_11-e101330">Dishonest, sir! if it were not mine own cause I would dispute the act; but since 'tis for myself, I'll urge no more; for know I can with less pain be a prisoner then twice beg my freedom; obey him, sir.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101340" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e101350">With pain and blushes, madam, I shall.</p>
+          </sp>
+          <stage xml:id="A47372_11-e101360">[they meet Paus.</stage>
+          <sp xml:id="A47372_11-e101370" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101380">Ha! 'tis she, and bound, Hipparchus! whither dost thou lead that innocence?</p>
+          </sp>
+          <sp xml:id="A47372_11-e101390" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e101400">Our captain delivered her to me, with command to carry her to the galley.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101410" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101420">Hold, Hipparchus, at what price hast thou accepted this unbecoming office? 'tis not like thyself; the brave hunter dotes not upon the quarry; nor had Hipparchus wont to fight for spoil.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101430" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e101440">Nor does he now; nor ever shall so faulty a conquest hang upon my name as to make me blush the victory: she was delivered me a prisoner by our captain, as the jewel of his soul; and she can witness that to my faith he left the securing her to the galley; and Pausanes knows Hipparchus dares not break a trust.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101450" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101460">Alas! thou mistakest this service; for to do this act is breaking trust with heaven; thou breakest with the gods, thou breakest with them that gave thee credit for thy courage, and thine honour, and sent thee forth their soldier to fight for them; and this is their day of battle; here's the virtue on whose side thou ought'st to bleed, the innocence in whose cause they bid thee die to live a conqueror with them; now thou fliest, now thou runnest away; Hipparchus flies, meanly vanquished, as if by a panic fear terror-struck, for he is beaten by a mistake, and conquers for his enemy, while he loses his fame at home.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101470" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e101480">Hold, what means Pausanes thus with injurious words to wound his friend?</p>
+          </sp>
+          <sp xml:id="A47372_11-e101490" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101500">I injure thee! I wound Hipparchus! I throw a scandal upon my friend! ye gods strangely punish Pausanes when he does so.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101510" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e101520">What do you less, when you upbraid me for my faith, and with art of words labour to make me appear faulty? as if you did not know the law by which we are bound is not alike with freemen; we are his slaves, and for our loyalty have been rewarded with these privileges above our fellows; wouldst have me kill the cause of his bounty, and in justice, for my treachery, become a slave, and make that which was my fate my punishment? I tell thee, Pausanes, I could not be free here, should I do this act.</p>
+          </sp>
+          <stage xml:id="A47372_11-e101530">[lays his hand upon his breast.</stage>
+          <sp xml:id="A47372_11-e101540" who="A47372_11-lysimella">
+            <speaker>Lysimel.</speaker>
+            <p xml:id="A47372_11-e101550">Defend me, ye powers, from this youth; his honour brings greater dangers than the traitor's bands. Sir, pray plead<stage xml:id="A47372_11-e101560">She looks on Pausanes.</stage>no more for me.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101570" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101580">Thou seest how tamely I have pleaded, and in calmness urged my reasons; once again, by our wounds and blood so oft together shed that their mixtures have in their fall upon the earth<stage xml:id="A47372_11-e101590">Hipparchus offers to go. </stage>begotten a kind of kindred, by all our miseries which still have been allied, by our friendship I conjure thee, give me her freedom.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101600" who="A47372_11-hipparches">
+            <pb facs="312" n="54"/>
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e101610">I see thou hatest me, else my reasons would prevail, and thou wouldst leave to prefer a prisoner or a face before thy friend, and his faith given; and therefore know, though your friendship do plead, when 'tis thus wilfully against mine honour, I can be deaf.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101620" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101630">Thou canst be any thing, and I can weep to find it: ye gods! would I have used Hipparchus thus? — oh heavens! that ever I should call thee friend! — Hipparchus, stay; I have one<stage xml:id="A47372_11-e101640">Hip. offers to go away: Paus. draws. </stage>argument still left, unbind her or guard yourself.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101650" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e101660">Pausanes! </p>
+          </sp>
+          <sp xml:id="A47372_11-e101670" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101680">Your sword.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101690" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e101700">Hear me speak.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101710" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101720">No words, her freedom or your sword.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101730" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e101740">Why then I draw; and Pausanes knows I will not be beaten into an opinion; and since thou hast drawn thy sword I will not yield her, my honour forbids me. Thou art injurious to think thy force can prevail beyond thy reason and thy friendship; for I tell thee, Pausanes, thy anger should not start me if I could make thee an enemy.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101750" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101760">Defend yourself.</p>
+          </sp>
+          <stage xml:id="A47372_11-e101770">[they fight, and are both wounded.</stage>
+          <sp xml:id="A47372_11-e101780" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e101790">Will you yet give me leave to be faithful?</p>
+          </sp>
+          <sp xml:id="A47372_11-e101800" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101810">No, Hipparchus hunts his will, not his faith.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101820" who="A47372_11-lysimella">
+            <speaker>Lis.</speaker>
+            <p xml:id="A47372_11-e101830">As you have honour hold, and let a virgin's tears that shall fall to seas divide your anger but till my prayers can confirm your friendship.</p>
+          </sp>
+          <stage xml:id="A47372_11-e101840">[here Hipparchus gets Pausanes down. </stage>
+          <sp xml:id="A47372_11-e101850" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101860">Look upon her tears and these wounds, whose anguish thy friendship not thy sword brings, and then weigh the act: I would thou hadst been ten enemies rather than one friend, to have disputed this cause.</p>
+          </sp>
+          <stage xml:id="A47372_11-e101870">[Hipparchus disarms him. </stage>
+        </div>
+        <div n="5" type="scene" xml:id="A47372_11-e101880">
+          <head>Act. i. scen. v.</head>
+          <stage xml:id="A47372_11-e101890">Enter Gillippus, Zenon, and soldiers. </stage>
+          <sp xml:id="A47372_11-e101900" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e101910">Make all possible speed aboard with the booty, they pursue us close — command Hipparchus and Pausanes ashore to guard us; tell 'em our scouts are beaten in, and the King's party presseth upon us — ha! what means this? What makes she ashore?</p>
+          </sp>
+          <sp xml:id="A47372_11-e101920" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e101930">That which thou canst not make aboard; she has made an honest man; and if thou dar'st make another she may have two friends.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101940" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e101950">Hipparchus, resolve this riddle.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101960" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e101970">This woman whom you gave to my trust Pausanes would have released; and when his arguments, as friend, could not prevail, meanly, he threw off his faith, and by force attempted to take her from me.</p>
+          </sp>
+          <sp xml:id="A47372_11-e101980" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e101990">Slave, did I for this prefer thee when at the sack of Tunis thou becamest my prisoner, and by thine own confession wert a thing without a name, and couldst neither from men nor country<pb facs="312" n="55"/> claim a being? now thy treachery shall make thee as dark an exit as thy base soul had entrance.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102000" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e102010">I scorn thy threats, from this death I shall begin to live; till now I lay wrapped in rust, and the canker fed upon my fame; from this act I shall adopt a name which till this minute I despaired of since that fatal day in which old Perseus fell, in whom only lived that knowledge we so hunt for; and Hipparchus, if thou continuest thou'lt be ashamed to find. For the bounties thou urgest, Gillippus, what were they but making us a better kind of slaves, commanded commanders, empaling our free souls so that we could employ but one virtue, our courage, since we served thee; and that has thrown us into dangers honour would be ashamed to own, and brought wounds that leave these blushing scars. This, when Hipparchus has let fall his passion, will make him tremble to find he could not fear but bleed for a traitor, and struck against a virgin's honour, and in his rage sold his friend to buy his will: then, then, Hipparchus, the wounds thou now art proud of will<stage xml:id="A47372_11-e102020">He turns to Lisimelia.</stage>hang upon thee with more dishonour than thy chains; for me, I smile at the chance; for though I have missed my first freedom yet I have found my last wounds.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102030" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e102040">Ha!</p>
+          </sp>
+          <sp xml:id="A47372_11-e102050" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e102060">Villain, hast thou not yet enough laid open thy treacherous soul? Art not satisfied to be false thyself, that thus thou labourest to shake his tried faith? Hipparchus, kill him, kill e'en his memory, that the ingrateful slave may fall like a dog, and leave no name behind him — yet hold, he shall not die so nobly, nor find such<stage xml:id="A47372_11-e102070">The slaves offer to kill him</stage>mercy in his fall: Hipparchus, strip the slave, and upon a tree stretch the traitor's body; there let him hang alive like the condemned fruit to the fruitless tree, doomed thither to live a death; and would count that murder that threw him there mercy, if it would come and break the snare.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102080" who="A47372_11-lysimella">
+            <speaker>Lis.</speaker>
+            <p xml:id="A47372_11-e102090">Bloody villain, dar'st thou command this with a belief thou shouldst be obeyed? What is he that has so much hell about him, that dares execute what thy bloody rage imposes?</p>
+          </sp>
+          <sp xml:id="A47372_11-e102100" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e102110">Gentle soul, plead not for Pausanes, nor grudge him this glorious end; for now I fall, what I could not have lived with him, honour's servant.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102120" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e102130">Away with him, and see it done; or by the gods he pulls his own fate down that disputes it.</p>
+          </sp>
+          <stage xml:id="A47372_11-e102140">[the slaves seize Pausanes, Hipparchus stays 'em. </stage>
+          <sp xml:id="A47372_11-e102150" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e102160">He that trembles at death let him die; 'tis just. Hold — sir, witness my wounds, I dare be loyal; and when my faith was given I swom through the straits of friendship to serve you; yet though I did this, because my faith was given, and honour told me I was in the right; do not think I will be so faulty to my friend as to start at your frown more than his sword, or be frighted to the murder of my brother.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102170" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e102180">Ha! what's this?</p>
+          </sp>
+          <sp xml:id="A47372_11-e102190" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e102200">No, Gillippus, I have no such aguey courage, nor comes my honour so by fits. Know, though I durst not break my trust, yet. I<pb facs="313" n="56"/> dare disobey your impious commands: nor can you call it treachery when to your face I disavow it: frown not, for whilst I have mine old guide, honour, there's no act brings so dark a hazard but Hipparchus will strike a fire from it shall light him through.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102210" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e102220">My rage, whither wilt thou hurl me? Draw, mates. — villains, though my anger has lost her tongue, yet her hands are<stage xml:id="A47372_11-e102230">Gill. Zenon and the slaves draw. </stage>left still; and those in wounds shall print on your wretched bodies my revenge.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102240" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e102250">There, defend thyself; fear not, madam, these are our enemies.</p>
+          </sp>
+          <stage xml:id="A47372_11-e102260">[Hip. returns Paus. his sword, they defend themselves. </stage>
+          <sp xml:id="A47372_11-e102270" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e102280">Now I have my wish.</p>
+          </sp>
+          <stage xml:id="A47372_11-e102290">[Paus. steps to lys. and unbinds her, Gil. wounds him. </stage>
+          <sp xml:id="A47372_11-e102300" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e102310">At this rate take it.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102320" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e102330">Thinkest thou I would not buy her freedom when my blood could purchase it? Have I lived as if I feared wounds? thou canst scarce be mine enemy after this favour. O that I could kiss it, thou shouldst kill me ere I would take my lips from it.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102340" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e102350">For what fate I am reserved I know not, but I am resolved to shun this if it be possible — help, rape, murder, murder.</p>
+          </sp>
+          <stage xml:id="A47372_11-e102360">[she runs out, and meets the King her brother.</stage>
+          <stage xml:id="A47372_11-e102370">Enter the King, and soldiers, they beat off Gillippus and Zenon, and take Hipparchus and Pausanes.</stage>
+          <sp xml:id="A47372_11-e102380" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e102390">Bind these, and pursue the rest. Sister, well met, come you along with me.</p>
+          </sp>
+          <stage xml:id="A47372_11-e102400">[exeunt omnes</stage>
+        </div>
+      </div>
+      <div n="2" type="act" xml:id="A47372_11-e102410">
+        <div n="1" type="scene" xml:id="A47372_11-e102420">
+          <head>Act. ii. scen. i.</head>
+          <stage xml:id="A47372_11-e102430">Enter the King, Lysimella, Philon, Sortanes, Cleon, Hipparchus, and Pausanes bound, with a guard. </stage>
+          <sp xml:id="A47372_11-e102440" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e102450">You are my sister, but I beg you will urge me no more; thy softness was betrayed, and because they were penitent thou thoughtest them innocent; I tell thee, Lysimella, if they could have hoped to have born thee hence thou shouldst have seen lust and pride flow naturally in them; 'twas their fear made them fawn; away with them to the galley.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102460" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e102470">Our fears?</p>
+          </sp>
+          <sp xml:id="A47372_11-e102480" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e102490">Had we scaped misfortunes till we met fears, thy army, King, might have found a grave ere they had seen us bound; and to let thee see we have no shaking souls, this threatened misery shall not make us or fear or fawn on thee.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102500" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e102510">Peace, Hipparchus, let him see us die ere touch an oar; 'twill resolve him what we dare do.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102520" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e102530">Has my brother lost all his nature? Then I shall not wonder that I have lost the interest of a sister. Can you be a King and have<stage xml:id="A47372_11-e102540">They offer to lead hip. and Paus. away. </stage>neither mercy nor justice? Farewell; henceforth I may obey but never approve your acts — hold, Sortanes; sir, look upon their<pb facs="313" n="57"/> wounds; ye gods! ought any thing that chance owns make men fall so low that we esteem 'em less than beasts? See, they bleed still; can you leave 'em like dogs to lick these wounds, whose every drop of blood, I can witness, fell a sacrifice to honour: oh 'tis a fault, a fault (I fear) the gods will punish; as if men in misery had no souls, or slaves did not upwards look.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102550" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e102560">Hold, Sortanes, unbind 'em. Sister, they are your prisoners, and as you please dispose of 'em, and think not my nature cruel, or that I frowned upon them, for Kings do often so upon the fault when they pity the man; yet if I get the head of this serpent, Gillippus, he shall find our justice with its full weight but we'll crush him.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102570" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e102580">Now I kneel to you, sir.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102590" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e102600">What means my sister? Rise, my occasions give me leave only to say farewell; this accident has retarded me some hours beyond my resolution. Till my return my power I leave with thee, my sister — and Philon, obey her as myself.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102610" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e102620">The god's guide and bless the King.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102630" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e102640">Sortanes, command the officers aboard, and give order the galleys be all loose with the next tide.</p>
+          </sp>
+          <stage xml:id="A47372_11-e102650">[exit King.</stage>
+          <sp xml:id="A47372_11-e102660" who="A47372_11-lysimella">
+            <speaker>Lysimel.</speaker>
+            <p xml:id="A47372_11-e102670">Cousin Philon, pray let your care provide for those men.</p>
+          </sp>
+          <stage xml:id="A47372_11-e102680">[she looks back as she goes out. Exit.</stage>
+          <sp xml:id="A47372_11-e102690" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e102700">O Hipparchus, I am lost ere I have found myself, and have fought for bonds; come my friend.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102710" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e102720">That title confirms my life; for now I find my rage did not destroy myself, and through thy wounds let out thy friendship, with joy I live to redeem my fault.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102730" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e102740">O Hipparchus! This be my witness, thy friendship grows here, nor wert thou faulty at all to me, nor do I want an argument<stage xml:id="A47372_11-e102750">They embrace</stage>for what I did; thou hadst reason, and I had love to plead; love whose power yet thou never feltst; but when thou shalt find he is undiscerned got in, and in thy bosom displays his fiery wings, then like me with all that light thou'lt find thou art i'th'dark, and thus stoop to a willing yoke, sighing for what thou wouldst not part with. These, these, Hipparchus, are the wounds I fear; those the sword makes are remedies, and if deep enough bring a certain cure.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102760" who="A47372_11-philon">
+            <speaker>Phil.</speaker>
+            <p xml:id="A47372_11-e102770">This way, gentlemen.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102780" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e102790">We shall follow, sir.</p>
+          </sp>
+          <stage xml:id="A47372_11-e102800">[exeunt omnes.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A47372_11-e102810">
+          <head>Act. ii. scen. ii.</head>
+          <stage xml:id="A47372_11-e102820">Enter Eucracia, Leucanthe, Dion, Gillippus, Cremnofield, and Zenon.</stage>
+          <sp xml:id="A47372_11-e102830" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e102840">Noble Gillippus, thus to venture yourself and fortunes in our hazard is an obligation we know not how to pay; for the preparation you speak of brings our certain ruin, if by treaty we cannot appease his fury.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102850" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e102860">Pray, madam, from whence springs his anger?</p>
+          </sp>
+          <sp xml:id="A47372_11-e102870" who="A47372_11-eucratia">
+            <pb facs="314" n="58"/>
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e102880">'Tis just you know the cause of this war that thus venture yourself into the dangers of it: this island blessed beyond our neighbours with a fruitful peace drew us into a consideration how we came to be so happy; and in the search we found ambition had no dwelling here: for our custom admits no one man chief, which kept all from that sin: our government is here in the hand of a priest and judge, which are chosen by lot, not faction; and their power remains to them during life, if they obey our laws; the breach of one of which laws has begotten this danger; for when our predecessors made their vow to peace, a law was then enacted to prohibit our taking arms but in our own defence.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102890" who="A47372_11-unassigned">
+            <speaker>Leu●..</speaker>
+            <p xml:id="A47372_11-e102900">This law the King credits not; for when we returned it as the reason that forbade us to yield that aid to him he then implored, he says we urged it but to hide our treachery, and concludes we assisted his enemy because we would not fight for him; so that now having laboured through that storm that threatened Sicily his rage bends this way.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102910" who="A47372_11-dyon">
+            <speaker>Dion.</speaker>
+            <p xml:id="A47372_11-e102920">And at a time when we have neither arms nor counsel to defend us: now, madam, the punishments your father's have called down pursue us banished for abusing the oracle and trust reposed in them. Theagines being chief judge and Memnon chief priest of this island, their counsel and your brother's swords were aids, which we shall best find when to our despairs we feel the want.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102930" who="A47372_11-cremnofield">
+            <speaker>Cremn.</speaker>
+            <p xml:id="A47372_11-e102940">Yet let us not quit ourselves when we must fall; the dearer we sell our lives the greater fame will wait us; nor have our men forgotten to fight, though we have left to invade.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102950" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e102960">Spoken like a soldier: how is the town fortified towards the harbour? for there your danger will begin.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102970" who="A47372_11-cremnofield">
+            <speaker>Cremn.</speaker>
+            <p xml:id="A47372_11-e102980">'Tis no regular fortification, yet 'tis in defence.</p>
+          </sp>
+          <sp xml:id="A47372_11-e102990" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e103000">Madam, I beseech you remove your fears, they are ill omens here: speak, courage, you know not what miracles we may act; the night comes on apace, pray retire to your rest, while Cremnofeld, Dion and myself, go set the watch, and provide for the entertainment of these strangers that come so rudely without inviting.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103010" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e103020">We'll go and join our strength of prayer with our arms, which I hope will protect us, though they fail to conquer them.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103030" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e103040">I'll but order my galleys to join with yours, and be ready in the harbour to board 'em as they come straggling in, then I'll meet you upon the guard.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103050" who="A47372_11-dyon">
+            <speaker>Dion.</speaker>
+            <p xml:id="A47372_11-e103060">Eucratia is the word tonight , farewell.</p>
+          </sp>
+          <stage xml:id="A47372_11-e103070">[ex. all but Gil.</stage>
+          <sp xml:id="A47372_11-e103080" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e103090">Farewell, shallow fools. Think ye Gillippus will sell his blood for airy honour? No, 'tis revenge or the satisfying some other lust engages; me therefore, I'll to my galley, and while this dark protects us command Zenon to launch from the harbour, and in a little creek lie loose and undiscovered with his galley, 'tis wisdom to secure a retreat; nor will I again put my happiness in the power of slaves whose treachery wracked my soul, and deprived<pb facs="314" n="59"/> me of the pleasures I had promised to myself, in the embraces of the fair Lysimella: but these faces have removed that pain; for he that like me loves beauty, where'er he meets it sows his love, and when he enjoys it reaps his mistress.</p>
+          </sp>
+        </div>
+        <div n="3" type="scene" xml:id="A47372_11-e103100">
+          <head>Act. ii. scen. iii.</head>
+          <stage xml:id="A47372_11-e103110">Enter Lysimella, and Philon.</stage>
+          <sp xml:id="A47372_11-e103120" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e103130">Was the fleet within sight of land this morning?</p>
+          </sp>
+          <sp xml:id="A47372_11-e103140" who="A47372_11-philon">
+            <speaker>Phil.</speaker>
+            <p xml:id="A47372_11-e103150">Yes, madam, they hung about the isle of asmarae these four days, kept back by contrary winds.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103160" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e103170">When returns the galley that came from my brother?</p>
+          </sp>
+          <sp xml:id="A47372_11-e103180" who="A47372_11-philon">
+            <speaker>Phil.</speaker>
+            <p xml:id="A47372_11-e103190">This tide she puts off.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103200" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e103210">This opportunity then will advance my design. Have you fitted those prisoners with a disguise?</p>
+          </sp>
+          <sp xml:id="A47372_11-e103220" who="A47372_11-philon">
+            <speaker>Phil.</speaker>
+            <p xml:id="A47372_11-e103230">Yes, madam.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103240" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e103250">Hark, what's that, a lute? Are they musical?</p>
+          </sp>
+          <sp xml:id="A47372_11-e103260" who="A47372_11-philon">
+            <speaker>Phil.</speaker>
+            <p xml:id="A47372_11-e103270">One of 'em plays and sings.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103280" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e103290">Prithee, let's hear.</p>
+          </sp>
+          <lg xml:id="A47372_11-e103300">
+            <head>A song.</head>
+            <lg xml:id="A47372_11-e103310">
+              <l xml:id="A47372_11-e103320">Fond Pausanes, let not thy love aspire</l>
+              <l xml:id="A47372_11-e103330">To a hope of coming higher:</l>
+              <l xml:id="A47372_11-e103340">But let thy faith grow under a cloud</l>
+              <l xml:id="A47372_11-e103350">Of being not allowed. </l>
+            </lg>
+            <lg xml:id="A47372_11-e103360">
+              <l xml:id="A47372_11-e103370">And still pursue thy love till she like well</l>
+              <l xml:id="A47372_11-e103380">To know it, but thou not tell:</l>
+              <l xml:id="A47372_11-e103390">Next thy care must be, she not perceive</l>
+              <l xml:id="A47372_11-e103400">Thou believest she's given leave:</l>
+            </lg>
+            <lg xml:id="A47372_11-e103410">
+              <l xml:id="A47372_11-e103420">Thy love and sufferings thus being humbly told,</l>
+              <l xml:id="A47372_11-e103430">And not a sigh too bold,</l>
+              <l xml:id="A47372_11-e103440">Nor with a look speak, or let a fear be proud</l>
+              <l xml:id="A47372_11-e103450">To be discerned, lest thou love too loud. </l>
+            </lg>
+            <lg xml:id="A47372_11-e103460">
+              <l xml:id="A47372_11-e103470">Whilst fairly thus thou dost thy love pursue,</l>
+              <l xml:id="A47372_11-e103480">Pretending nothing due:</l>
+              <l xml:id="A47372_11-e103490">Who knows but that in time her heart may grow</l>
+              <l xml:id="A47372_11-e103500">To wish thee well whether she will or no? </l>
+            </lg>
+            <lg xml:id="A47372_11-e103510">
+              <l xml:id="A47372_11-e103520">By such soft steps as these and slow degrees,</l>
+              <l xml:id="A47372_11-e103530">And ever on his knees,</l>
+              <l xml:id="A47372_11-e103540">Pausanes still shall approach his bliss,</l>
+              <l xml:id="A47372_11-e103550">But not come near enough to miss:</l>
+            </lg>
+            <lg xml:id="A47372_11-e103560">
+              <l xml:id="A47372_11-e103570">But at a distance look and love;</l>
+              <l xml:id="A47372_11-e103580">And see Lysimella far above:</l>
+              <l xml:id="A47372_11-e103590">Yet not wish her descending to my sense,</l>
+              <l xml:id="A47372_11-e103600">Or hope of meeting but by influence. </l>
+            </lg>
+          </lg>
+          <sp xml:id="A47372_11-e103610" who="A47372_11-lysimella">
+            <pb facs="315" n="60"/>
+            <speaker>Lysimel.</speaker>
+            <p xml:id="A47372_11-e103620">Call him hither. — now, Lysimella, arm thyself with<stage xml:id="A47372_11-e103630">Exit Philon.</stage>resolution, that thy sex may not still be called weak, nor thou yield to thy passion, lest this god in a cloud deceive thee, and force thee with his yieldings; he sings his actions, and acts his opinions, which makes him a dangerous friend here; he's one that boldly dares, yet humbly loves; he struck his master, and bowed to me; and when his rage had filled his eyes with fire, he sighing turned, and looking this way, in languishing streams quenched their rising flames. — o power of honour! that makes this gallant in him, and honour in me not to return his love; it starts me to find honour pleased still to confound our reason; and impose upon us an obedience to her laws, when nature and reason plead against it; but see, they come.</p>
+          </sp>
+        </div>
+        <div n="4" type="scene" xml:id="A47372_11-e103640">
+          <head>Act. ii. scen. iv.</head>
+          <stage xml:id="A47372_11-e103650">Enter Philon, with Hipparchus and Pausanes, like common soldiers. </stage>
+          <sp xml:id="A47372_11-e103660" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e103670">Do thou speak, while I collect myself; yet do not, why should I refuse by my disorder to speak her power? if<stage xml:id="A47372_11-e103680">He sees Lysimella and her woman. </stage>she deserve my love, I'm certain she may command my fears; nor is it a dishonour to shake here, 'tis not, I tell thee, Hipparchus, it is not; these are valiant fears, and I'll speak to her even what my heart sends out; for by my life, all that I resolved of I have quite forgotten.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103690" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e103700">But do not rashly tempt her to a scorn.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103710" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e103720">Scorn! O no, Hipparchus! if ever her softness hath felt loves power she knows his proper language is free prose, and their distractions wrap the powerfullest truth; confined verse tells us they are too much themselves, nor is he afflicted who can compose his sufferings. — see where she stands.</p>
+          </sp>
+          <stage xml:id="A47372_11-e103730">[they kneel.</stage>
+          <sp xml:id="A47372_11-e103740" who="A47372_11-lysimella">
+            <speaker>Lysimel.</speaker>
+            <p xml:id="A47372_11-e103750">Rise, your freedom is the bounty of another, and the thanks not due to me; I sent for you to tell you my brother is now upon a design for Sardinia, but has been stayed by cross winds, so that you may o'ertake him ere he lands, in a galley which this morning is bound for him, and in this disguise striking on his party unknown, pay his bounty.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103760" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e103770">Arm us, madam, and you shall hear how deep we'll blow, how thick we'll sow their wounds too, but we'll reap the honour, my mistake has lost me in striking against your virtue; and now we are friends so that Pausanes and Hipparchus undivided draw, I think we shall not easily be o'ercome; for give me leave to say we are not often conquered but by ourselves: and then though Pausanes be victor, Hipparchus triumphs.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103780" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e103790">We can be grateful, madam, though not fortunate.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103800" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e103810">That's my q. pray, let me be thankful too, lest you think I can only counsel it: within this cabinet I believe is in value as much<stage xml:id="A47372_11-e103820">She fetches a cabinet and offers it to Hipparchus.</stage>as my person would have yielded at a mart, if it be less, 'tis the modest opinion I ought to have of mine own worth makes me faulty<pb facs="315" n="61"/> in the sum; for any other consideration take this too. <stage xml:id="A47372_11-e103830">She gives him a chain,</stage></p>
+          </sp>
+          <sp xml:id="A47372_11-e103840" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e103850">'Tis just, madam, that you throw this scorn on me; for I confess the fault looked as if I had fought for money: which opinion my refusal now I hope will remove.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103860" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e103870">Pray take it; why should you receive wounds for me?</p>
+          </sp>
+          <sp xml:id="A47372_11-e103880" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e103890">I do not let myself out to dangers, nor is it my trade to fight: wounds and blood are neither my daily labour nor the sweat of my brow; they are honours and pay themselves: if I have courage, 'tis a gift the gods sent me freely, and as their blessing freely I'll dispense it.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103900" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e103910">Your pardon, sir, I meant no injurious upbraiding, for by my life I do not think you faulty: if you will not be rewarded, yet give me leave to supply your wants.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103920" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e103930">I kiss your charity.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103940" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e103950">What to give him I know not; o unequal law, that binds us women, and forces me to let him perish, because I know how to save him! I must not stay, I know you're friends, and what the one has is but the others store, I wish ye may be fortunate. My last words, ere I knew what you were.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103960" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e103970">O stay! unbind me ere you go; and hear my soul laboured with admiration of your beauties; but since I was blessed with knowledge of your diviner part, all your acts from honour sprung have collected those sparks your eyes kindled; and they're blown to a flame here, here it burns, and though this altar (Divinest) be built upon the meanest earth, scorn it not; for my offering shall be of the purest love; and my sighs shall constant incense breathe.</p>
+          </sp>
+          <sp xml:id="A47372_11-e103980" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e103990">What thou mightst have done I know not; but I'm sure thou canst not now, thou hast said too much: go fight, fight, for thou knowest not how to love. O woman, woman, woman still!</p>
+          </sp>
+          <stage xml:id="A47372_11-e104000">[speaks aside.</stage>
+          <sp xml:id="A47372_11-e104010" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e104020">Not love! what stranger then is this that's got in here, and wanders so to seek; not love! 'tis he or cowardice crept in, no third cause can beget the fears, the tremblings I labour with; oh! teach me how to know him.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104030" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e104040">That stranger when thou meetest him at the eye thou wilt find he is conceived in fire, and in an instant grows to perfect form; thence in fullness of time he takes his birth into the heart which is his world; there if he prove a healthy love he lives in silence, the tongue has no part ith' birth of gallant loves; nor are they long lived that make their exits that way; the true births of love know no delivery. But where they took their life through the eye, this is love: thine a short-lived passion, I fear.</p>
+          </sp>
+          <stage xml:id="A47372_11-e104050">(I fear spoke aside.</stage>
+          <sp xml:id="A47372_11-e104060" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e104070">My passions are no faults, madam, when I master 'em; when we do not serve them we command admiration; or should I yield to 'em, could any passion be unbecoming that has so beautiful a cause as the fair Lysimella, who (I fear) has been used to such hecatombs of hearts, that my single one being but a slave's might well be scorned at your shrine; yet if you be that power that my thoughts have worshipped, you must confess he that offers all, though a beggar, sacrifices equal to a King. O turn not from me, but be<stage xml:id="A47372_11-e104080">She turns away.</stage><pb facs="316" n="62"/>Like those gods you bow to, which though they give and guard<stage xml:id="A47372_11-e104090">She turns away.</stage>our flocks, yet accept a lamb.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104100" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e104110">Plead no more, if thou lovest thou wilt prefer me; I must not, dare not understand, I am too much a party to hear him<stage xml:id="A47372_11-e104120">Aside.</stage>plead.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104130" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e104140">O do not show the several ways you have to wound: may the fire for ever inhabit in those eyes, but do not in frowns dart it this way.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104150" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e104160">Be gone then. And consider what thou suest for, a slave by his passion crowned, and a Princess by her enthroned.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104170" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e104180">Do but believe I love, 'tis all I beg; strike me heaven, if I have so faulty a wish as to attempt the unshrining such a power, or would live to see your beauty fall from this vast national adored condition, to make them my petty household god. O say! do you believe I love?</p>
+          </sp>
+          <sp xml:id="A47372_11-e104190" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e104200">Yes, yes; I believe and fear.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104210" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e104220">O continue that friendly faith; I'll at a distance kneel, for 'tis a wealth I'll pray for, fight to keep, and weep to part with: and if that way of obtaining, that way of keeping, and this sense of<stage xml:id="A47372_11-e104230">Here he reverences and kneels.</stage>loss asked with a whole heart, and with a whole heart defended, but parted from with a broken one, can confirm it, all joys.</p>
+          </sp>
+          <stage xml:id="A47372_11-e104240">[she in passion interrupts him, and in disdain speaks, and leaves him.</stage>
+          <sp xml:id="A47372_11-e104250" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e104260">Peace, be gone. Lysimella collect thyself, for thou art lost. O ye gods, would ye had given more, or that I had known less of honour.</p>
+          </sp>
+          <stage xml:id="A47372_11-e104270">[Pausanes starts again. </stage>
+          <sp xml:id="A47372_11-e104280" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e104290">Hipparchus, my friend, I find my misery, and conjure thee that if thou outlive us, steal some of my ashes into her urn, that in our earth being become equal we may become one.</p>
+          </sp>
+          <stage xml:id="A47372_11-e104300">[exit.</stage>
+          <sp xml:id="A47372_11-e104310" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e104320">This is strange, yet 'tis the best kind of anger; and the storm is to friend, if I can judge a woman.</p>
+          </sp>
+          <stage xml:id="A47372_11-e104330">[exit.</stage>
+        </div>
+      </div>
+      <div n="3" type="act" xml:id="A47372_11-e104340">
+        <div n="1" type="scene" xml:id="A47372_11-e104350">
+          <head>Act. iii. Scen. i.</head>
+          <stage xml:id="A47372_11-e104360">Enter the King, and Eumenes, Sortanes, Pausanes and Hipparchus, with their swords drawn. </stage>
+          <sp xml:id="A47372_11-e104370" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e104380">Eumenes, now the soldiers are landed let 'em be drawn<stage xml:id="A47372_11-e104390">Alarm.</stage>into battalions; we'll charge this instant, and not give 'em leave at land to collect their loss at sea.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104400" who="A47372_11-eumenes">
+            <speaker>Eum.</speaker>
+            <p xml:id="A47372_11-e104410">They were Gillippus's galleys that boarded us; yet I saw not the Pluto there; her brazen prow had wont with the earliest to bathe in blood her Proserpine. </p>
+          </sp>
+          <sp xml:id="A47372_11-e104420" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e104430">That injury hath brought some fuel to my rage, to see they have given harbour to that traitor, that twice has attempted the rape of my sister; and in advowance of his fault, in his prow he wears the hellish precedent for that black deed.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104440" who="A47372_11-eumenes">
+            <speaker>Eum.</speaker>
+            <p xml:id="A47372_11-e104450">Lose no time then, but while they're scattered with their<pb facs="316" n="63"/> dangers, and their fears strike for us, let us bring that justice their treacheries have called down.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104460" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e104470">Away, every man to his charge.</p>
+          </sp>
+          <stage xml:id="A47372_11-e104480">[exeunt all but Hipparchus and Pausanes.</stage>
+          <sp xml:id="A47372_11-e104490" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e104500">O Hipparchus, the joy to find Gillippus here has dispersed all my sad thoughts. Ye powers that rule our fates! if Pausanes have any of you to friend, give me Gillippus, this day, within my swords reach.</p>
+          </sp>
+          <stage xml:id="A47372_11-e104510">[alarm.</stage>
+          <sp xml:id="A47372_11-e104520" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e104530">So, now my friend speaks like himself; and when thou strikest not at thyself, thou standest safe; but hark we must away. <stage xml:id="A47372_11-e104540">Alarm still.</stage></p>
+          </sp>
+          <stage xml:id="A47372_11-e104550">[exeunt.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A47372_11-e104560">
+          <head>Act. iii. Scen. ii.</head>
+          <stage xml:id="A47372_11-e104570">Enter Gillippus, Eucratia, Leucanthe, Dion, and Cremnofield.</stage>
+          <sp xml:id="A47372_11-e104580" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e104590">This is no time to talk now; they have begirt the town, and will instantly attempt to storm it, the immediate danger calls for resistance, not counsel; Dion, go you to the gate that's next the harbour; and, Cremnofield, take you the charge of the Princess's persons; I'll to that port against which the King's standard is advanced; if we must fall, let us not go out faintly.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104600" who="A47372_11-unassigned">
+            <speaker>Eucratia and Leucanthe. </speaker>
+            <p xml:id="A47372_11-e104610">The gods protect us.</p>
+          </sp>
+          <stage xml:id="A47372_11-e104620">[exeunt omnes.</stage>
+        </div>
+        <div n="3" type="scene" xml:id="A47372_11-e104630">
+          <head>Act. iii. Scen. iii.</head>
+          <stage xml:id="A47372_11-e104640">Enter Pausanes and Hipparchus, Pausanes wounded. </stage>
+          <sp xml:id="A47372_11-e104650" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e104660">'Twas Gillippus; he fled, and left me to the multitude; o Hipparchus, pursue the chase, and if thou overtakest him, thou'lt find the coward embossed with running from me; if thou canst set him up, bay him till I come; and as thou lovest me, let me not lose the honour of his fall.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104670" who="A47372_11-hipparches">
+            <speaker>Hippar.</speaker>
+            <p xml:id="A47372_11-e104680">Are you sure he's this way?</p>
+          </sp>
+          <sp xml:id="A47372_11-e104690" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e104700">Yes, yes; I'm certain 'twas he.</p>
+          </sp>
+          <stage xml:id="A47372_11-e104710">[exeunt.</stage>
+        </div>
+        <div n="4" type="scene" xml:id="A47372_11-e104720">
+          <head>Act. iii. Scen. iv.</head>
+          <stage xml:id="A47372_11-e104730">Enter Gillippus alone. </stage>
+          <sp xml:id="A47372_11-e104740" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e104750">They have forced the town, and there's no hope of safety, unless I can recover my galley, 'sdeath; I am accursed of late; I hunt nothing but unprofitable wounds. —<stage xml:id="A47372_11-e104760">Enter Leucanthe and Zenon.</stage>ha! Leucanthe, the Princess! as I could wish; yet if fortune would smile, here were a prize would heal all my unlucky wounds.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104770" who="A47372_11-leucanthe">
+            <speaker>Leucan.</speaker>
+            <p xml:id="A47372_11-e104780">O Gillippus, we're lost, our lives, our honours and our gods, subject to the rage of the common soldier.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104790" who="A47372_11-gallipus">
+            <pb facs="317" n="64"/>
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e104800">Will you venture then to follow me? if we can gain the port I have a galley may secure you.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104810" who="A47372_11-leucanthe">
+            <speaker>Leucan.</speaker>
+            <p xml:id="A47372_11-e104820">O guide me; which way, noble Gillippus? </p>
+          </sp>
+          <sp xml:id="A47372_11-e104830" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e104840">Come Zenon, follow, for there's no abiding here; hell I think fights on their side, for 'twas nothing less than a devil that forced, and then pursued me through our guards; by day itself, he struck as sure as if he had been the fate he brought; my flight could scarce outstrip his conquest.</p>
+          </sp>
+          <stage xml:id="A47372_11-e104850">[A noise within, follow, follow.</stage>
+          <sp xml:id="A47372_11-e104860" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e104870">They pursue us still; away, lose no time.</p>
+          </sp>
+          <stage xml:id="A47372_11-e104880">[ex. omnes.</stage>
+        </div>
+        <div n="5" type="scene" xml:id="A47372_11-e104890">
+          <head>Act. iii. Scen. v.</head>
+          <stage xml:id="A47372_11-e104900">Enter King, and Eumenes.</stage>
+          <sp xml:id="A47372_11-e104910" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e104920">This way, this way, Eumenes, the gallant reapers went; sure by this their sickles are dulled, and their hands weary with griping such full victory; when the word was given they charged through their fellows, and like lightning scaled and leaped the wall, where once entered, cowards lose not faster than they gained ground; I was amazed to see their charge, 'twas as if they had flown, not fought for conquest.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104930" who="A47372_11-eumenes">
+            <speaker>Eum.</speaker>
+            <p xml:id="A47372_11-e104940">They are not clothed proper for the parts they act; either their honour or condition is misplaced.</p>
+          </sp>
+          <sp xml:id="A47372_11-e104950" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e104960">If they survive, this day, inquire 'em out, and then, when we can reward we'll admire, now we'll assist the work.</p>
+          </sp>
+          <stage xml:id="A47372_11-e104970">[as the King and Eumenes go off, they meet Leucanthe, Gillippus, and Zenon.</stage>
+          <sp xml:id="A47372_11-e104980" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e104990">Ha! the King! fly madam, haste to my galley and save yourself.</p>
+          </sp>
+          <stage xml:id="A47372_11-e105000">[the King and Gillippus fight, and Eumenes and Zenon, Gillippus wounded, Zenon quits the stage, Gillippus throws his sword at the King, and counterfeiting falls, the King leaves him, and pursues Leucanthe.</stage>
+          <sp xml:id="A47372_11-e105010" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e105020">Thou shalt not long impeach my stay; do you stare?</p>
+          </sp>
+          <sp xml:id="A47372_11-e105030" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e105040">Hell take thee.</p>
+          </sp>
+          <stage xml:id="A47372_11-e105050">[exit the King.</stage>
+          <stage xml:id="A47372_11-e105060">Enter Eumenes and Zenon.</stage>
+          <sp xml:id="A47372_11-e105070" who="A47372_11-eumenes">
+            <speaker>Eum.</speaker>
+            <p xml:id="A47372_11-e105080">What have you, at length, found daring to look upon the dangers? is the dead-doing Zenon, so famed for his bold deeds?</p>
+          </sp>
+          <sp xml:id="A47372_11-e105090" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e105100">Yes Evad, Pelius dares, though Zenon durst not; does the name of Pelius start thee? know, false man, all thy darings cannot protect thee from the justice this brings, for the injuries<stage xml:id="A47372_11-e105110">Zenon discovers himself. </stage>thou didst me during the treaty here, when thou soughtest aid for thy ambitious master.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105120" who="A47372_11-eumenes">
+            <speaker>Eum.</speaker>
+            <p xml:id="A47372_11-e105130">What act of mine during that time were you concerned in.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105140" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e105150">Hast thou forgotten the fair Zenonia? methinks the half I borrow, for my disguise, from that name, should prompt thy soul to a remembrance of the vows, the false vows thou madest her.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105160" who="A47372_11-eumenes">
+            <pb facs="317" n="65"/>
+            <speaker>Eum.</speaker>
+            <p xml:id="A47372_11-e105170">False vows?</p>
+          </sp>
+          <sp xml:id="A47372_11-e105180" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e105190">Yes, boasting her the conquest of thy vanity; when with thy perjured breath thou beg'st for that thou valuedst not, merely to affront my passion which pursued her with all those truths of love, thou feignedst; yet never reaped a harvest for all my pains. But this is not the injury that wakes my anger; 'tis thy scorn, not thy love of her engages me to think it should be in any mortals power to scorn that deity which I sacrifice to.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105200" who="A47372_11-eumenes">
+            <speaker>Eum.</speaker>
+            <p xml:id="A47372_11-e105210">How do you know I scorn her?</p>
+          </sp>
+          <sp xml:id="A47372_11-e105220" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e105230">Say thou dost not; say thou wilt return and pay those vows of love, and by all our gods I'll kneel to thee; for if thou'lt love again (Although my rival) her love shall guard thee, and from henceforth thou shalt be my friend; but if thou proceed thus to triumph in her miseries (Whose pains I feel, though she be insensible of mine) thou shalt find, though I cannot entreat her love, yet I can force revenge from her darkest caves.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105240" who="A47372_11-eumenes">
+            <speaker>Eum.</speaker>
+            <p xml:id="A47372_11-e105250">What does Pelius see about Eumenes, that he should take him for a fool or coward; thus to think I would trust a rival, or fear an enemy? and now I know the reason of thy hate, if thou shouldst swear thou art my friend, I'd tell thee thou liest; if mine enemy, why, I do not care.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105260" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e105270">Do you sleight my proffered friendship? do you believe this language?</p>
+          </sp>
+          <stage xml:id="A47372_11-e105280">[they fight.</stage>
+          <sp xml:id="A47372_11-e105290" who="A47372_11-eumenes">
+            <speaker>Eum.</speaker>
+            <p xml:id="A47372_11-e105300">Yes, I understand it, and you shall find it by the answer I'll make.</p>
+          </sp>
+          <stage xml:id="A47372_11-e105310">[Eumenes wounded falls. </stage>
+          <sp xml:id="A47372_11-e105320" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e105330">This ring was hers, and shall witness I have punished his falsehood. — Gillippus wounded!</p>
+          </sp>
+          <stage xml:id="A47372_11-e105340">[enter Gillippus.</stage>
+          <sp xml:id="A47372_11-e105350" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e105360">Yes, Zenon, but not slain, and yet the King struck home; I found 'twas folly to resist his force, unless I could have conquered his whole army; and therefore wisely I preserved myself for better days. — sawest thou the Princess Leucanthe since?</p>
+          </sp>
+          <sp xml:id="A47372_11-e105370" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e105380">Yes, she's fled towards the Westport.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105390" who="A47372_11-gallipus">
+            <speaker>Gillip.</speaker>
+            <p xml:id="A47372_11-e105400">Who's this? Eumenes fallen! well, pursue Leucanthe, gentle Zenon; and if thou findst her tell her of my escape, say thou leftest me aboard the galley; and if she know not where her sister Eucratia is, tell her she's with me, who negligent of her own danger impatiently expects her coming to the galley, where I'll go and wait your coming.</p>
+          </sp>
+          <stage xml:id="A47372_11-e105410">[exit.</stage>
+          <sp xml:id="A47372_11-e105420" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e105430">Yes, I'll go, but not to assist thy treachery, yet I'll bring her if I can; she has an interest in Zenonia; and if I can thus bring her into dangers, my protection of her honour will endear me to her; and so engage her to be my friend to Zenonia, the thoughts of whom my soul will ever labour with.</p>
+          </sp>
+          <stage xml:id="A47372_11-e105440">[exit.</stage>
+        </div>
+        <div n="6" type="scene" xml:id="A47372_11-e105450">
+          <head>Act. iii. Scen. vi.</head>
+          <stage xml:id="A47372_11-e105460">Enter Pausanes and Procles, having both hold on Eucratia.</stage>
+          <sp xml:id="A47372_11-e105470" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e105480">Unhand her.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105490" who="A47372_11-procles">
+            <speaker>Procles.</speaker>
+            <p xml:id="A47372_11-e105500">She's my prisoner, and I will not lose her.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105510" who="A47372_11-pausanes">
+            <pb facs="318" n="66"/>
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e105520">Darest thou be a soldier and speak that falsehood?</p>
+          </sp>
+          <sp xml:id="A47372_11-e105530" who="A47372_11-procles">
+            <speaker>Proc.</speaker>
+            <p xml:id="A47372_11-e105540">I first seized her, and I'll keep her.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105550" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e105560">Had thine age been able to have kept flight with me, thou shouldst have seen me hunt her through the straits of a thousand wounds, and mow down all the weeds that grew about her; yet then, than this laurel protected by her own virtue stood safe in the midst of all that lightning; and let me tell thee, the same cause that kept me from laying violent hands upon her makes me spare thee; 'tis a reverence that in some measure thy silver hairs command.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105570" who="A47372_11-procles">
+            <speaker>Proc.</speaker>
+            <p xml:id="A47372_11-e105580">I defy thee and thy naked chin, talker; this plead for me, nor shalt thou find a grey coward here; bind her, and then we'll dispute whose she is.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105590" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e105600">Bind her! Look upon her, and then tell me on which part of that divine form thou dar'st hang a chain.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105610" who="A47372_11-procles">
+            <speaker>Proc.</speaker>
+            <p xml:id="A47372_11-e105620">I'll dispute no more, unhand her, she's my prisoner or but earth.</p>
+          </sp>
+          <stage xml:id="A47372_11-e105630">[he offers to stab her.</stage>
+          <sp xml:id="A47372_11-e105640" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e105650">Remove from her breast that threatened danger, or by our gods thou art earth.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105660" who="A47372_11-procles">
+            <speaker>Proc.</speaker>
+            <p xml:id="A47372_11-e105670">Thinkest thou Procles will quit his aged honours for fear of a boy proud in his first wounds?</p>
+          </sp>
+          <sp xml:id="A47372_11-e105680" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e105690">Boy, nay then defend thee.</p>
+          </sp>
+          <stage xml:id="A47372_11-e105700">[they fight.</stage>
+          <sp xml:id="A47372_11-e105710" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e105720">I know not too which is guiltiest, but I can ill preserve mine own.</p>
+          </sp>
+          <stage xml:id="A47372_11-e105730">[exit Euc.</stage>
+          <sp xml:id="A47372_11-e105740" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e105750">She's gone, there's something whispers to me, protect her; I'll follow her — there, take thy sword, I will not rob thy age in<stage xml:id="A47372_11-e105760">Paus disarms Hroc.</stage>thy fall.</p>
+          </sp>
+          <stage xml:id="A47372_11-e105770">[exit Paus.</stage>
+          <sp xml:id="A47372_11-e105780" who="A47372_11-procles">
+            <speaker>Proc.</speaker>
+            <p xml:id="A47372_11-e105790">I thank thee, and may thine be no less fortunate than this has been, and thou buy thy honours at a cheaper rate.</p>
+          </sp>
+          <stage xml:id="A47372_11-e105800">[dies.</stage>
+          <stage xml:id="A47372_11-e105810">Enter Pausanes hanging about Hipparchus' neck, wounded and fainting. </stage>
+          <sp xml:id="A47372_11-e105820" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e105830">Had I lived to have finished my revenge on that traitor Gillippus, and from his bosom torn the knowledge of ourselves, which in a golden relic the tyrant wears about his neck, and still with threatened loss would a we us to our faith, then, Hipparchus, I could have died in peace.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105840" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e105850">Whither did you go to find these wounds?</p>
+          </sp>
+          <sp xml:id="A47372_11-e105860" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e105870">In pursuit of the fair Eucratia, I followed her through all her miseries, but not with intent to add to them, but to guard her from the raging lust of the common soldier, till at length some of her party met us, and to them I owe these wounds.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105880" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e105890">This disorderly possessing the town will ruin us; the wounds we received since the conquest are more than we got in the attempt; the coward's fears have in their despair struck deeper wounds than their courage knew how to deal. <stage xml:id="A47372_11-e105900">Enter Zen. and Leuc.</stage></p>
+          </sp>
+          <sp xml:id="A47372_11-e105910" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e105920">This way, madam.</p>
+          </sp>
+          <sp xml:id="A47372_11-e105930" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e105940">O Zenon, haste, I know not which I fly to with greater zeal, my sister or my safety; is it far?</p>
+          </sp>
+          <sp xml:id="A47372_11-e105950" who="A47372_11-zenon">
+            <pb facs="318" n="67"/>
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e105960">If you can pass the port you're safe. Ha!</p>
+          </sp>
+          <sp xml:id="A47372_11-e105970" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e105980">Stand, the word?</p>
+          </sp>
+          <sp xml:id="A47372_11-e105990" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e106000">The word! Death, if thou refuse us passage.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106010" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e106020">Or a virgin's thine for ever, if thou dar'st let my innocence escape this ruin. O speak, death and dishonour pursue us close. O speak, sir; shall I pass?</p>
+          </sp>
+          <stage xml:id="A47372_11-e106030">[Hip. is surprised with Leucanthes beauty, and stands amazed. </stage>
+          <sp xml:id="A47372_11-e106040" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106050">Pass! Yes, fair one, I dare let you pass, and through all hazards serve you; oh Pausanes, live to counsel me; something like thy description I feel here.</p>
+          </sp>
+          <stage xml:id="A47372_11-e106060">[speaks aside to Pausanes.</stage>
+          <sp xml:id="A47372_11-e106070" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e106080">Shall we pass, or no?</p>
+          </sp>
+          <sp xml:id="A47372_11-e106090" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106100">Smooth your brow, your frowns will make no way here.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106110" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e106120">My sword shall then.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106130" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106140">No, Zenon, thou knowest it never could when Hipparchus denied thee passage.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106150" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e106160">Ha! Hipparchus! </p>
+          </sp>
+          <sp xml:id="A47372_11-e106170" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106180">Yes, Zenon, Hipparchus; who to let this lady see how much he dares do in her cause, he will not only give her a passage, but with it all his peace of mind, and do thou thank her for this sanctuary; for were it not that thou hadst taken hold on that altar the murder of Eumenes here I would have punished; but such is the power of that deity that I can defer my hate, nay, forgive thee, if she'll confess thy sword or faith hath sacrificed ought to her deliverance.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106190" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e106200">He has, he has, and he only can guide me to a hope of safety. Gentle youth, the god's reward thee — hark, I am pursued, if thou hast power divert their rage.</p>
+          </sp>
+          <stage xml:id="A47372_11-e106210">[within follow, follow.</stage>
+          <sp xml:id="A47372_11-e106220" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106230">Your name, leave but that to call upon in my danger, and then I'll plant myself here an enemy to all that dare pursue your softness. O do not hide your name from me, nor leave me to bow to a power I know not.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106240" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e106250">My name's Leucanthe, the unfortunate Leucanthe; gentle youth, may all thy wishes fall upon thy head. Away Zenon. </p>
+          </sp>
+          <stage xml:id="A47372_11-e106260">[exeunt Leuc. and Zen.</stage>
+          <sp xml:id="A47372_11-e106270" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e106280">Now, Hipparchus, had I reason once?</p>
+          </sp>
+          <sp xml:id="A47372_11-e106290" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106300">Leucanthe, the Princess Leucanthe, is it not?</p>
+          </sp>
+          <sp xml:id="A47372_11-e106310" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106320">Yes, soldier, Leucanthe, the Princess Leucanthe, which way went she?</p>
+          </sp>
+          <sp xml:id="A47372_11-e106330" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106340">This way she went, sir; but I must beg you'll not pursue her.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106350" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106360">These are the soldiers I so much admired. Is it your ignorance, or do you wilfully strike out the reward your daring youth has this day merited?</p>
+          </sp>
+          <sp xml:id="A47372_11-e106370" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106380">If we are faulty 'tis wilful; but this act (We hope) owns no guilt.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106390" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106400">Is it not a fault thus to blot the conquest, whose greatest beauties are gifts of your own hands?</p>
+          </sp>
+          <sp xml:id="A47372_11-e106410" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106420">My soul has vowed, and I see it written yonder, not to suffer any one to pass this way whilst my sword and I can impeach their stay.</p>
+          </sp>
+          <stage xml:id="A47372_11-e106430">[Paus. offers to rise, but cannot. </stage>
+          <sp xml:id="A47372_11-e106440" who="A47372_11-pausanes">
+            <pb facs="319" n="68"/>
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e106450">And I, though weak in body, am strong in friendship; my friends vows shall ever be my cause.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106460" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106470">You see our resolution, sir, and we dare die.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106480" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106490">And I dare fight, and thus force my passage. <stage xml:id="A47372_11-e106500">The King charges, Hip. only defends himself. </stage></p>
+          </sp>
+          <sp xml:id="A47372_11-e106510" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106520">O! hold, sir, and hear me speak.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106530" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106540">Shall I pass?</p>
+          </sp>
+          <sp xml:id="A47372_11-e106550" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106560">Yourself can witness what faith I brought to your cause; my charge ushered pale death about the field; and when I found him lazy and waiting upon fate I leaped from his lean side, and with my sword dealt more deaths than he.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106570" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106580">Pursue that act still, and let me hunt this scornful lady till with miseries I have made her wild heart tame, the conquest will be perfect then.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106590" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106600">All's done already; I fought to conquest, and cowards only strike afterwards. A foe that flies is your slave, and no longer deserves the name of enemy.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106610" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106620">Shall I pass?</p>
+          </sp>
+          <sp xml:id="A47372_11-e106630" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106640">'Tis slaughter you pursue, and will stain all those honoured wounds your conquest gave; but for this Princess, whose virtue I bow to, oh, sir, can you be so blinded with your rage as to avow a war with her?</p>
+          </sp>
+          <sp xml:id="A47372_11-e106650" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106660">Leave counsel and obey; mercy and justice are specious shows, but to obey is your best sacrifice, which if thou offer'st not, by mine anger I'll offer thee.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106670" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106680">Obey! Yes; the gods I'll obey, and strike against all that strike at them; know, you command a freeman, one that chose your party, and none of that number that was born under you; and yet I beseech you, sir, attempt not your passage here; for I must not betray her safety as to defend her cause weakly .</p>
+          </sp>
+          <sp xml:id="A47372_11-e106690" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106700">Are you so resolute?</p>
+          </sp>
+          <stage xml:id="A47372_11-e106710">[they fight.</stage>
+          <sp xml:id="A47372_11-e106720" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e106730">O Hipparchus! hold; remember 'tis the King, lift not thy hand against him; this victory will be full of curses. O for strength enough to part them!</p>
+          </sp>
+          <stage xml:id="A47372_11-e106740">[Euc. pursued by the King's party lays hold on the King's sword, and yields herself prisoner, who amazed in passion speaks. </stage>
+          <sp xml:id="A47372_11-e106750" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e106760">This by his habit should be a commander to him, (Since I must feel the misery of bonds) I'll yield myself. Defend me, sir, I am your prisoner, my name's Eucratia. </p>
+          </sp>
+          <sp xml:id="A47372_11-e106770" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106780">Hold your swords; he that adds another stroke to war shall feel the weight of this.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106790" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106800">Blessed chance.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106810" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106820">Eucratia! Are you Eucratia? </p>
+          </sp>
+          <sp xml:id="A47372_11-e106830" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e106840">Yes, and a Princess, till thy ambitions (King) hunted me to my ruin.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106850" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106860">O Eucratia! Soul of sweetness, that wretched King see prostrate at thy feet; and if thou canst not pardon, tread upon my neck, and let thy virtues sink me to my grave: there's something divine about thee which in an instant has from my temples torn the laurel reward of all my bleeding wounds, and from a conquering King made me all thy slave — command me something.</p>
+          </sp>
+          <pb facs="319" n="69"/>
+          <stage xml:id="A47372_11-e106870">Enter a soldier.</stage>
+          <sp xml:id="A47372_11-e106880" who="A47372_11-soldier">
+            <speaker>Soldier</speaker>
+            <p xml:id="A47372_11-e106890">Help, sir, to save the Princess Leucanthe that's lost, sold to lust and rape, if you redeem her not suddenly,</p>
+          </sp>
+          <sp xml:id="A47372_11-e106900" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e106910">Unfortunate Leucanthe, I foresaw this danger, sad fate! O my sister!</p>
+          </sp>
+          <sp xml:id="A47372_11-e106920" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106930">Leucanthe! Which way went the ravisher? O sir, your pardon.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106940" who="A47372_11-soldier">
+            <speaker>Soldier</speaker>
+            <p xml:id="A47372_11-e106950">I saw Gillippus, i'th' Pluto, bear her from the shore.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106960" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e106970">Gillippus! 'tis false, pray (Madam) remove your fears, myself slew him in the battle.</p>
+          </sp>
+          <sp xml:id="A47372_11-e106980" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e106990">O sir, he has abused you by some wile; for on my life I saw him since your encounter.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107000" who="A47372_11-soldier">
+            <speaker>Soldier</speaker>
+            <p xml:id="A47372_11-e107010">Let me die, if this be false.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107020" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e107030">O sir! now I claim your offer, and beg, not command, you will not complete your conquest, and pursue this ravisher.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107040" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e107050">Soldier, thy faith in her cause has been already tried, do thou provide one of the swiftest galleys for this expedition. Come, madam, we'll all go to save this innocent: some one help this wounded youth aboard, and see he want for no care; such virtue shines not everywhere .</p>
+          </sp>
+          <sp xml:id="A47372_11-e107060" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e107070">Sir, his courage has obliged me, and he shall be my care; he found me when I was fallen into the rage of the common people.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107080" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e107090">I kiss your hands, madam; and 'tis happiness enough that I have lived to serve such a virtue as is seated in the fair Eucratia. </p>
+          </sp>
+          <sp xml:id="A47372_11-e107100" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e107110">Command a cessation of arms, and let all acts of war cease here; for the fair Eucratia is now the conqueror.</p>
+          </sp>
+        </div>
+      </div>
+      <div n="4" type="act" xml:id="A47372_11-e107120">
+        <div n="1" type="scene" xml:id="A47372_11-e107130">
+          <head>Act. iv. scen. i.</head>
+          <stage xml:id="A47372_11-e107140">Enter Lysimella, and Philon; Lysimella in boys habit. </stage>
+          <sp xml:id="A47372_11-e107150" who="A47372_11-lysimella">
+            <speaker>Lysimella.</speaker>
+            <p xml:id="A47372_11-e107160">Urge not his condition, I must not so mistrust the justice of those powers I bow to as to fear they would leave me to such a scorn; a common slave? No, Philon, if there were not chance in his condition, their tongues would have doubled under such a load, as love. A slave's heart would have had too many hungry wants upon it to have found leisure to have begged for love.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107170" who="A47372_11-philon">
+            <speaker>Phil.</speaker>
+            <p xml:id="A47372_11-e107180">This, under favour, is no argument; and though I fear a want in their blood, yet I believe they have wit enough, and their craft perhaps took hold of some pity which your highness showed 'em; for under favour, madam, your mercies were even to weakness, and but that I fear to displease you, I could say, he but returns love. — this will move her; and as my faith and duty thus low bows<stage xml:id="A47372_11-e107190">Aside. He kneels.</stage><pb facs="320" n="70"/>So my honour bids me defend you, especially when you have so dangerous an enemy as your passion to engage my faith against: look but upon your habit, examine the nature of this act, and you shall find you walk blinded to your honour's ruin; have you not thrown off your sex, the honour of a Queen, and now appear clothed in blushes, and disguised with faults? but this were nothing if my fears were false, which tell me, this habit is lined with as faulty resolutions; nor can you condemn those that know you not, if they conclude you have, with your sex, thrown off your modesty too.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107200" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e107210">Oh! I am lost for ever.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107220" who="A47372_11-philon">
+            <speaker>Phil.</speaker>
+            <p xml:id="A47372_11-e107230">No madam, if you stay, you're safer for this attempt, by having found your error; I confess, to this journey I carry nothing but obedience; had you fled to meet a plighted faith, through darkest hazards I would have waited on you; but when you fly to follow one you know not, a slave too, that perhaps flies from you. Nay grant him a prince, can your honour be safe when you pursue? O, madam, when you were yourself, and from your reason collected truth, and from that rock would in arguments give law to love; I have heard your powerful reasons conclude, that a Queen is safer that is pursued by a slave, if he keep the path of love, than the greatest monarch of the earth could be, should she pursue a god; and now upon my knees I beg you would not at this rate reward the ambition of a wretch.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107240" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e107250">O Philon, Philon, thou art cruelly faithful, and unsensible of my sufferings; canst prescribe an abstinence! but hadst thou my fever upon thee thou wouldst drink (Ambition) why? say he has that giant fault; yet 'tis a glorious sin, and without it not one among all the synod of the gods had filled his seat, and 'twas their fears that made it sin in us; yet, in love's religion 'tis meritorious still to aspire to a mistress; and that love that gives, but will take no laws, has called it gentleness, not savage nature, for a servant to leap even at the heart of his mistress: yet thus much I'll satisfy thy faith; by the honour of my mother's ashes, he wooed first, and in such words as my resolution only could deny; and for his nature, how stout, how gentle, how full of honour, judge you that were witness of his actions.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107260" who="A47372_11-philon">
+            <speaker>Phil.</speaker>
+            <p xml:id="A47372_11-e107270">Madam, I see you are resolved, and then I know you will not want an argument; and now I know not whether 'twere a blessing, or no, their protection brought, since you believe they love.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107280" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e107290">If thou'lt turn away I'll blush, and tell thee why I believe he loves; thou sawest his friendship could not divide him from me; it made his virtues faulty passions, searching with blushing wounds an enemy in his friend's breast. O my cousin! when I think on this, and call to mind how for my freedom he stood as if he'd been immortal, and intending only that, let the false Gillippus wound his stout breast, which when he will defend, none, save the thunderer, or a friend can hit; o Philon, Philon, when I consider these miracles, why should I be so wicked as to conclude him less than a god that acts 'em? and now take a secret from me (For<pb facs="320" n="71"/> I will satisfy thee even with a faulty act) which may look like vanity; but turn thy face, and hear me; I know my cousin is full of honour; and I know, with all that honour; he loves me, this confession I would have died with e'er it should have been forced from me, but to confute thee, for it makes thee a party here, and thy love as unfit to give counsel, as mine uncapable to take it; and now I conjure thee follow and obey me, that will obey my fate; nor shall the winds that now begin in storms to plead against me, prevail; I am resolved; and this night I'll to sea, and in her greatest<stage xml:id="A47372_11-e107300">The storm begins in the scene.</stage>depths dive to find this rich pearl, which the wise value not the less for having a rugged shell.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107310" who="A47372_11-philon">
+            <speaker>Phil.</speaker>
+            <p xml:id="A47372_11-e107320">O madam, to be born your kinsman was one blessing, but to find I have a friend's place in your thoughts, two; and that you know I love, and not I tell it, is a joy beyond all but what your love brings; forgive me, and henceforth I'll obey not counsel. Your galley shall instantly be ready; thus I have gained all my ends in love, by having no unworthy ends upon her I love.</p>
+          </sp>
+          <stage xml:id="A47372_11-e107330">[exit.</stage>
+          <sp xml:id="A47372_11-e107340" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e107350">O love, do thou prosper my intent, and a virgin shall thy priest become; and these great truths in all thy temples shall be sung how in thy infant hand thou gripest a bow larger than Jove's; so that, when thou thy darts lettest fly immortality is no guard, for oft they have through his lightning shot and struck the thunderer: thy religion's easy, thy law light; for thy tables hold but one act one commandment; obey, and we cannot miss the way; let none then say this youthful god or cruel is, or blind, since from disobedience grows all the strange crosses and dangers that we find.</p>
+          </sp>
+          <stage xml:id="A47372_11-e107360">[exit.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A47372_11-e107370">
+          <head>Act. iv. scen. ii.</head>
+          <stage xml:id="A47372_11-e107380">Enter a hermit and his son, with the body of an old man.</stage>
+          <sp xml:id="A47372_11-e107390" who="A47372_11-hermit">
+            <speaker>Hermit</speaker>
+            <p xml:id="A47372_11-e107400">Gently son; lay him down, and bow him forward; more<stage xml:id="A47372_11-e107410">Storm.</stage>of those waters, he stirs; so, so, chafe him still while I dry his snowy hair which the sea could not melt, 'tis he, strange accident! but I'll not be discovered yet.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107420" who="A47372_11-son">
+            <speaker>Son.</speaker>
+            <p xml:id="A47372_11-e107430">He sighs, there's some comfort in that.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107440" who="A47372_11-hermit">
+            <speaker>Hermit</speaker>
+            <p xml:id="A47372_11-e107450">Sad condition for his age, when 'tis a joy to hear him sigh.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107460" who="A47372_11-son">
+            <speaker>Son.</speaker>
+            <p xml:id="A47372_11-e107470">Good heaven! what does age abroad at this time of his life?</p>
+          </sp>
+          <sp xml:id="A47372_11-e107480" who="A47372_11-hermit">
+            <speaker>Hermit</speaker>
+            <p xml:id="A47372_11-e107490">Sure he has wandered far that has missed a resting place in his evening; and to be pitied when he's forced to seek his inn thus late at night.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107500" who="A47372_11-son">
+            <speaker>Son.</speaker>
+            <p xml:id="A47372_11-e107510">Sure he was of some religious order, by his habit.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107520" who="A47372_11-hermit">
+            <speaker>Hermit</speaker>
+            <p xml:id="A47372_11-e107530">No matter for his habit, pull it off, and fetch him my grey coat; dry now is better than rich.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107540" who="A47372_11-son">
+            <speaker>Son.</speaker>
+            <p xml:id="A47372_11-e107550">Which opinion if he had held, perhaps his had been dry now. <stage xml:id="A47372_11-e107560">Storm blows high.</stage></p>
+          </sp>
+          <sp xml:id="A47372_11-e107570" who="A47372_11-hermit">
+            <speaker>Hermit</speaker>
+            <p xml:id="A47372_11-e107580">Good heaven, what a night's here! this evening promised dangers, but not like this; sure this bark was one of that<pb facs="321" n="72"/> fleet that we saw off the point last night, if we can recall life, he may inform us who they were.</p>
+          </sp>
+          <stage xml:id="A47372_11-e107590">[he stirs.</stage>
+          <sp xml:id="A47372_11-e107600" who="A47372_11-son">
+            <speaker>Son.</speaker>
+            <p xml:id="A47372_11-e107610">He stirs, and sighs still.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107620" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e107630">Wretched, wretched Theagines; what mercy is this at length has found thee? was myself only saved of all this wrack?</p>
+          </sp>
+          <sp xml:id="A47372_11-e107640" who="A47372_11-hermit">
+            <speaker>Hermit</speaker>
+            <p xml:id="A47372_11-e107650">All else perished.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107660" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e107670">Oh! that I had missed this charity too! my friend, aged Perseus, my brother, brave Memnon, and my son, the hopeful Pausanes, all these my former losses have robbed me of my griefs, which else these poor men would have required of me; oh equal heaven! thy abused oracle, and breach of vows, thou now but beginnest to punish. Father, by thy habit thou art vowed unto the gods; if then like me thou'lt not be punished for perjury, again deliver me to the doom they appointed, and in the watery womb of the sea entomb me.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107680" who="A47372_11-hermit">
+            <speaker>Hermit</speaker>
+            <p xml:id="A47372_11-e107690">O, sir; despair not; they appoint us better than we can choose, and in our greatest fears surprise us with their mercies.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107700" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e107710">Hear but what I am, and thou'lt be afraid to harbour me; for where ere I go, there vengeance pursues me; my name's Theagines, once judge of Sardinia, and blessed with all that men call happiness; children, wealth, and power to save or destroy where I lived, and though our state forbade Kings, all but that name I possessed; my brother too, whom they have punished, reigned chief priest when I ruled as judge, equal in our births, equal in our blessings, in our power equal, and in our faults too alike guilty, but not alike punished; for he I fear is lost for ever; but the fault which now they are busy in punishing, is this; 'twas enjoined by our predecessors, as a grateful offering to peace, under whose protection we found such benefits as all our neighbouring countries wanted; that it should not be lawful for any to take up arms but in their own defence, nor upon pain of perpetual banishment send their sons abroad, lest they might bring home the dangerous customs of other countries; this law was made, and with it vows of the strictest ties; this vow we vowed, and to this law with oaths were bound.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107720" who="A47372_11-hermit">
+            <speaker>Hermit</speaker>
+            <p xml:id="A47372_11-e107730">What danger could that bring you?</p>
+          </sp>
+          <sp xml:id="A47372_11-e107740" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e107750">O father, this law we broke; and the curse of this vow pursues us; for know, we had each of us a son and daughter; which blessings made us covetous to have our sons succeed us in our honours; and therefore thought to breed them abroad, where they might learn to rule: thus by ambition blinded we abused the oracle, and told the people 'twas the will of the gods our sons should be sent abroad; and I affirmed if they commanded, the law assented. Then to the charge of a faithful friend we gave our children, who were so young they knew not themselves what they were, with a command to breed 'em fit to be princes; but neither to the world nor themselves discover that they were so. Long this fault lay not hid, for the abused oracle unasked complains, and to the incensed people tells our falsehood; by them we were banished, never to return till we had found our<pb facs="321" n="73"/> sons, which was some mercy; but alas! Fate was juster than the people; for our sons are lost, my friend dead, and my brother in our pilgrimage by a strange accident divided from me. Now ought I to hope for mercy, or wish to outlive these losses?</p>
+          </sp>
+          <sp xml:id="A47372_11-e107760" who="A47372_11-hermit">
+            <speaker>Hermit</speaker>
+            <p xml:id="A47372_11-e107770">As yet you are not secured that these are losses; nor has any assured you they are dead; therefore defer this sadness, and let me lead you into my cabin.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107780" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e107790">O let me lean upon thy aged shoulder; for I have a load will sink me.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107800" who="A47372_11-hermit">
+            <speaker>Hermit</speaker>
+            <p xml:id="A47372_11-e107810">Do, do; sad time when I can be a stay to a prince! Son<stage xml:id="A47372_11-e107820">The son makes a fire on the stage.</stage>make a fire upon the shore, that if any wretch unfortunate be cast upon this loan place, they may see it and repair hither; 'twill be some comfort to find we have charity.</p>
+          </sp>
+        </div>
+        <div n="3" type="scene" xml:id="A47372_11-e107830">
+          <head>Act. iv. scen. iii.</head>
+          <stage xml:id="A47372_11-e107840">Enter three slaves.</stage>
+          <sp xml:id="A47372_11-e107850" who="A47372_11-slave">
+            <speaker>Slave</speaker>
+            <p xml:id="A47372_11-e107860">The gods protect us, and recall this judgement,<stage xml:id="A47372_11-e107870">Storm.</stage></p>
+          </sp>
+          <stage xml:id="A47372_11-e107880">[ent. Gil.</stage>
+          <sp xml:id="A47372_11-e107890" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e107900">Hence, ye dogs, leave your howling; 'sdeath, have we lived as if we hoped for mercy, or expected protection from our prayers? be gone, and endeavour; every wise man rules his stars, and may defer that fate which prayer cannot alter, see if I have not lost my power? why stay ye? who plies the pump now, she'll founder through the slave's negligence.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107910" who="A47372_11-slave">
+            <speaker>Slave.</speaker>
+            <p xml:id="A47372_11-e107920">Why should we labour against heaven that has decreed our ruin? there's no hope, we are all lost, the sea already is our grave.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107930" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e107940">Villain, thou shalt not die by water, I'll be thy fate. — and yours if you stay.</p>
+          </sp>
+          <stage xml:id="A47372_11-e107950">[he stabs one, and the other slaves go off. Enter Zenon and Leucanthe.</stage>
+          <sp xml:id="A47372_11-e107960" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e107970">See if the storm has not wrought in her element of water too, and blown it in tears from her eyes.</p>
+          </sp>
+          <sp xml:id="A47372_11-e107980" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e107990">Would it had blown the fire thence too, the earthy part would not wound me; my danger and their beauty in those active elements lie; for in her living jeat the fire bears sway.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108000" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e108010">I know his resolution, but I'll watch him.</p>
+          </sp>
+          <stage xml:id="A47372_11-e108020">[steps aside.</stage>
+          <sp xml:id="A47372_11-e108030" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e108040">We are alone; I must not lose this opportunity; will you yet grant my suit, and yield me love? or must I follow the examples of the gods, and in a storm compass my will? say, will you give, or shall I force?</p>
+          </sp>
+          <sp xml:id="A47372_11-e108050" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e108060">Is this a time for love, when the raging storm drowns thy words? O thou abused power! who thus enraged pursues us even to the last of all our name; and for abused sacrifice will the priest in judgement offer? if thou hast decreed my fall, take it while I am fit for sacrifice, while I am pure, and my virgin snow unsoiled. Protect me from this ravisher, whose impious heat burns his hated<stage xml:id="A47372_11-e108070">Gillippus lays hold on her and pulls her. </stage>breast, even in the bosom of the sea.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108080" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e108090">Cease to call, and yield me love; thou seest all the ship is busy with apprehension of our danger, which my love will not give leave to fear; thoughts of thee so take up all the room here, that care of myself cannot get in.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108100" who="A47372_11-leucanthe">
+            <pb facs="322" n="74"/>
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e108110">Away, unhand me; consider the dangers and misery thou<stage xml:id="A47372_11-e108120">He offers to take hold of her.</stage>art in.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108130" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e108140">Dangers! 'tis but noise only; and to me no new thing to see the elements thus at war, and strive to run again to their first chaos. Thousands of times have I naked stood their rage, when the element of fire has shot his angry flame into the yielding main, as if he had meant to wound her god with his forked lightning; this I have seen, and felt the mischiefs the unruly winds beget when they break prison, and force from the entrails of the earth a dangerous birth; and still their dangers were but noise.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108150" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e108160">O impious man! hast thou seen their power, and felt a mercy above it, and dost thou sleight it?</p>
+          </sp>
+          <sp xml:id="A47372_11-e108170" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e108180">Slight it? no, nor fear it; nor would you apprehend it were you acquainted with the uncertainty of this element, and with me had seen these dangers grow from nothing. A thousand times I have looked upon her smoothest brow, and heard the false winds whisper to her, till their flatteries have wrought into her bosom, and there filled with ambition the covetous element that would aspire at heaven, being thus seduced, discovering even to the eyes of men the secrets of her womb; this I have seen too, and wrought through these dangers; nor will I believe any thing can save me when I cannot save myself: will you yield? or you'll find other dangers.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108190" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e108200">O strange daring! O heaven! quench his saucy flames, or<stage xml:id="A47372_11-e108210">He pulls her.</stage>add your fires to 'em, and hide your lightning in his lustful breast: fool and villain I never met before, though wise and wicked seldom join; dost tempt me now with all my fears about me? if I were a common prostitute acquainted with sin I durst not, when thunder speaks, listen to thy wickedness; it shakes even my reason; rather fall upon thy knees, and no longer tempt the gods thus to our destruction.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108220" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e108230">Away, I'm deaf.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108240" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e108250">Villain, wilt thou sin while their plagues hang over thee; and add to thy faults while they are punishing? O ye winds, take<stage xml:id="A47372_11-e108260">Still he pulls her, and she resists.</stage>my tears upon your wings, and through this storm convey 'em to that youth whose honour took me even in the midst of my dangers; and tell him his faith unfortunately has betrayed me to this misery. Hipparchus, unknown name of honour, guilty by chance, by fate only faulty; o! that thy sword were here to defend us both.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108270" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e108280">Ha! is there another that you love? nay then the earth<stage xml:id="A47372_11-e108290">He takes her in his arms and sets her down again. Enter zenon.</stage>shall not save you.</p>
+          </sp>
+          <stage xml:id="A47372_11-e108300">[enter Zenon.</stage>
+          <sp xml:id="A47372_11-e108310" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e108320">But it shall, veer more sheet, hale, tack aboard; who's at helm? Master, set a yare man to the helm, steer thus, thus.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108330" who="A47372_11-helm-man">
+            <speaker>Helm-man.</speaker>
+            <p xml:id="A47372_11-e108340">Done 'tis.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108350" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e108360">Peace.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108370" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e108380">Hell take thee for thy interruption.</p>
+          </sp>
+          <stage xml:id="A47372_11-e108390">[exit Leucanthe.</stage>
+          <sp xml:id="A47372_11-e108400" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e108410">Lower your mainsail, 'twas your fault we laod our bonnet to; full, full.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108420" who="A47372_11-helm-man">
+            <speaker>Helm-man.</speaker>
+            <p xml:id="A47372_11-e108430">Done 'tis.</p>
+          </sp>
+          <stage xml:id="A47372_11-e108440">Enter master.</stage>
+          <sp xml:id="A47372_11-e108450" who="A47372_11-master">
+            <speaker>Mast.</speaker>
+            <p xml:id="A47372_11-e108460">Strike her foresail, here's a gust will bear our mast by the board else.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108470" who="A47372_11-gallipus">
+            <pb facs="322" n="75"/>
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e108480">How now, master, is she tight?</p>
+          </sp>
+          <sp xml:id="A47372_11-e108490" who="A47372_11-master">
+            <speaker>Mast.</speaker>
+            <p xml:id="A47372_11-e108500">No, a pox on her for a whore, she leaks, but we have girt her: port, port hard.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108510" who="A47372_11-helm-man">
+            <speaker>Helm-man.</speaker>
+            <p xml:id="A47372_11-e108520">Done 'tis.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108530" who="A47372_11-master">
+            <speaker>Mast.</speaker>
+            <p xml:id="A47372_11-e108540">What galleys are those that chase us? the admiral's one.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108550" who="A47372_11-zenon">
+            <speaker>Zen.</speaker>
+            <p xml:id="A47372_11-e108560">I believe the king's aboard, she has stood with us all this day.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108570" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e108580">No matter what they are; would we had no worse enemies to deal with; who keeps the lead there?</p>
+          </sp>
+          <sp xml:id="A47372_11-e108590" who="A47372_11-within">
+            <speaker>Within.</speaker>
+            <p xml:id="A47372_11-e108600">O dem a deep, fifteen fathom and a half, o!</p>
+          </sp>
+          <stage xml:id="A47372_11-e108610">[within.</stage>
+          <sp xml:id="A47372_11-e108620" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e108630">What ground ha' you?</p>
+          </sp>
+          <sp xml:id="A47372_11-e108640" who="A47372_11-within">
+            <speaker>Within.</speaker>
+            <p xml:id="A47372_11-e108650">Coral. </p>
+          </sp>
+          <stage xml:id="A47372_11-e108660">[within.</stage>
+          <sp xml:id="A47372_11-e108670" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e108680">Coral, hell and confusion; we are upon the rocks of Asmara, luff, luff-hard, and veer, tack, hale your sheet aboard; boatswain, brace your foresail, bring her i'th wind, be yare mates, clap the helm a lee, bring her upon her stays, we're lost else.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108690" who="A47372_11-zenon">
+            <speaker>Zenon.</speaker>
+            <p xml:id="A47372_11-e108700">Keep the lead going.</p>
+          </sp>
+          <stage xml:id="A47372_11-e108710">[exeunt Zenon and master.</stage>
+          <sp xml:id="A47372_11-e108720" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e108730">They're howling already, what's my fate's my fate, and it may conquer; but I'll never yield to it, nor sink while these oars<stage xml:id="A47372_11-e108740">They cry within.</stage>can bear me through.</p>
+          </sp>
+          <stage xml:id="A47372_11-e108750">[exit.</stage>
+        </div>
+        <div n="4" type="scene" xml:id="A47372_11-e108760">
+          <head>Act. iv. scen. iv.</head>
+          <stage xml:id="A47372_11-e108770">Enter Hipparchus and Pausanes.</stage>
+          <sp xml:id="A47372_11-e108780" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e108790">Lose the slaves, we want men to trim our sails.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108800" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e108810">O Hipparchus, that we had but the Pluto here to bustle with this storm; this is a painted whore, her back's too weak to bear her burden.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108820" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e108830">Look out, Pausanes, the galley that we chased is sinking.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108840" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e108850">The gods protect the Princess; see, see, she has scaped that gust, and now they bear up with the land.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108860" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e108870">Let us steer with 'em, we may save some; port, port hard.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108880" who="A47372_11-helm-man">
+            <speaker>Helm-man.</speaker>
+            <p xml:id="A47372_11-e108890">Done 'tis.</p>
+          </sp>
+          <stage xml:id="A47372_11-e108900">[enter boatswain.</stage>
+          <sp xml:id="A47372_11-e108910" who="A47372_11-unassigned">
+            <speaker>Boats.</speaker>
+            <p xml:id="A47372_11-e108920">Who's at the helm? slaves, we'll bring our sails into the wind, veer more sheet there; for heaven's sake, gentlemen, to your cabins and pray.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108930" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e108940">We have changed our course to bear up with the galley that's in distress.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108950" who="A47372_11-unassigned">
+            <speaker>Boats.</speaker>
+            <p xml:id="A47372_11-e108960">Is the Princess in that galley?</p>
+          </sp>
+          <sp xml:id="A47372_11-e108970" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e108980">Ay, she's there, and her virtue interceding a safety against all their hopes or merits.</p>
+          </sp>
+          <sp xml:id="A47372_11-e108990" who="A47372_11-unassigned">
+            <speaker>Boats.</speaker>
+            <p xml:id="A47372_11-e109000">In with the lead there: ho, the cunnery, due West, West,<stage xml:id="A47372_11-e109010">Enter the King and Eucratia.</stage>steer due West; we're so far upon the lee-shore we shall never weather the land, if we fall to the southward we're lost, the westward has a safe bay; courage, madam, we a tight ship, and a stout ging.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109020" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e109030">Mates, clear an anchor to drop, ere she strikes; heave out the longboat there.</p>
+          </sp>
+          <stage xml:id="A47372_11-e109040">[exeunt all but the King and Eucratia.</stage>
+          <sp xml:id="A47372_11-e109050" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e109060">O ignorance of man! 'tis best seen in divers ways that knowledge runs in; this their art and wise directions is to me distractions. O madam! let me add to these dangerous multitude of waters my tears, that my repentance may wash off this stain. 'tis not the sea I sink under, but my faults to you. Can you forgive<pb facs="323" n="76"/> my blindness that have led you into these dangers? Accursed be that traitor villain that brought 'em into this extremity. That on land I could have redeemed, but this all these waters cannot expiate.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109070" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e109080">They are not dangers fright me, though yours be joined to them, for which heaven knows I have a pain; you have proved such a friendly enemy, my griefs concern not myself now, for I am only in the power of heaven, and the gods are no less strong at sea than land; for though their wonders dwell in the deep, yet their mercies wait there too.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109090" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e109100">O divine Eucratia! let me kneel to thee, and in this storm call upon thy name to save me.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109110" who="A47372_11-eucratia">
+            <speaker>Euc</speaker>
+            <p xml:id="A47372_11-e109120">Tempt not those powers which must protect us, but join with me for my lost sister, poor Leucanthe, who is not only subject to this storm, but the dangers too with which a traitor's lust begirts her. O sir! I know to die spotless is now her prayer and all her wishes but what we pray against, a wrack.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109130" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e109140">'Twas her galley that we chased, the villain was forced to run ashore; nor will we fail with our endeavours to seek her safety: but o! she strikes: o! we're lost, she strikes: o!<stage xml:id="A47372_11-e109150">Within o! o? o? enter Paus. and Hip.</stage></p>
+          </sp>
+          <sp xml:id="A47372_11-e109160" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e109170">Man the longboat, not a man enter till the King and Queen be in: sir, descend, the ship strikes, but we are near the shore, the longboat now is all our hopes.</p>
+          </sp>
+        </div>
+      </div>
+      <div n="5" type="act" xml:id="A47372_11-e109180">
+        <div n="1" type="scene" xml:id="A47372_11-e109190">
+          <head>Act. v. scen. i.</head>
+          <stage xml:id="A47372_11-e109200">Enter Gillippus with Leucanthe tied at his back, and the knot in his mouth. </stage>
+          <sp xml:id="A47372_11-e109210" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e109220">The fire of lust, and warmth which that heat Lent gave me strength to resist the coldness of the water, and to my appetite and longings the powers that saved me: if I can call back her life I'll sacrifice this lamb; I made Zenon bind her, that she might not have her will ere I had mine; the knot in my teeth I held that when I could keep her no longer she might slip; for my love 'tis vowed to the living not to the dead; and when I cannot what I would I will what I can; to yonder fire which guided me to this safety I'll bear my load, when she begins to live I'll seem to die; and so I'll handle the chance, and in oily words cloth this service, faintly pleading pardon for my past faults, as if I had only life enough to tell her the obligation she owes me: then if I find her melt, by degrees I'll let her charity prevail, and slowly seem to recover: but if she seem to rejoice in my fall, and my prayers fail, by all the gods hers than shall not prevail.</p>
+          </sp>
+        </div>
+        <div n="2" type="scene" xml:id="A47372_11-e109230">
+          <head>Act. v. scen. ii.</head>
+          <stage xml:id="A47372_11-e109240">Enter the King, Eucratia, Hipparchus, and Pausanes, all above. </stage>
+          <sp xml:id="A47372_11-e109250" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e109260">The storm begins to cease, and this our miraculous deliverance calls for a hearty and speedy sacrifice; let the longboat immediately search the wrack for the Princess Leucanthe. </p>
+          </sp>
+          <sp xml:id="A47372_11-e109270" who="A47372_11-hipparches">
+            <pb facs="323" n="77"/>
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e109280">What other vessel's that? Some of the wrack swims still.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109290" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e109300">'Tis a Sicilian galley by her flag.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109310" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e109320">O sir! look, they swim still in charity as a sacrifice for our deliverance, if't be possible save 'em; the youth strikes the waters with unskilful oars: oh save, save the innocent.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109330" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e109340">Be at peace, madam, if it be in man I'll save 'em.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109350" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e109360">What do you mean?</p>
+          </sp>
+          <sp xml:id="A47372_11-e109370" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e109380">To leap in.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109390" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e109400">'Tis desperate.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109410" who="A47372_11-pausanes">
+            <speaker>Paus.</speaker>
+            <p xml:id="A47372_11-e109420">'Tis honest, nay 'tis honourable; and when can a young man die better, or hope to have his end waited on with braver mourners? Thou seest I have hunted from danger to danger all my life but to find a name, or one to own me, and cannot compass it; therefore to choose I'll leap into this danger; for from this glorious end I may in story force one; and therefore leave to counsel, and leap in with me; and let us through this as a thousand other dangers together labour; then if I faint, Hipparchus may be by; and if Hipparchus faint, am not I there? Farewell, if thou wilt not follow, farewell for ever.</p>
+          </sp>
+          <stage xml:id="A47372_11-e109430">[he leaps in.</stage>
+          <sp xml:id="A47372_11-e109440" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e109450">He's gone, Pausanes, friend, steer thy course to yonder fire, there I'll meet thee, and if't be possible, assist thy brave resolution.</p>
+          </sp>
+          <stage xml:id="A47372_11-e109460">[exit.</stage>
+          <sp xml:id="A47372_11-e109470" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e109480">Ye gods! What strange kind of men are these?</p>
+          </sp>
+        </div>
+        <div n="3" type="scene" xml:id="A47372_11-e109490">
+          <head>Act. v. scen. iii.</head>
+          <stage xml:id="A47372_11-e109500">Enter Gillippus with Leucanthe in his arms. </stage>
+          <sp xml:id="A47372_11-e109510" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e109520">So, here I'll rest my burden; she begins to recover her strength, and reason works apace; she called for help, but<stage xml:id="A47372_11-e109530">He arries her to the fire.</stage>named nobody , but at large, gentle soldier help.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109540" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e109550">O save me, save me, gentle youth, I am betrayed.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109560" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e109570">Hark! again.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109580" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e109590">Ha! where am I? What place is this?</p>
+          </sp>
+          <sp xml:id="A47372_11-e109600" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e109610">Now Gillippus, hide thy snares cunningly, and than thou mayst catch this bird.</p>
+          </sp>
+          <stage xml:id="A47372_11-e109620">[Gil. counterfeits himself dead, and lies by her. </stage>
+          <sp xml:id="A47372_11-e109630" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e109640">Ha! wet? — good heaven! now my fears return with my reason, and I remember the danger I was in by a storm at sea. — ha! what's this? A man laid by my side? Sleeps he, or is he dead? Good heaven protect me, how came I here? — who's this? Gillippus? Bless me! he's so wicked, methinks his ashes should be dangerous. Hark! he groans. O! that faithful stranger, little does his soul fear what miseries his bounty has brought me. Hipparchus the traitor called him, or my busy mind deceived me.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109650" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e109660">Yonder's the fire which my friend, will steer his desperate course to. Ha! what do I see? Leucanthe, and Gillippus dead by her? <stage xml:id="A47372_11-e109670">Enter Hip.</stage></p>
+          </sp>
+          <sp xml:id="A47372_11-e109680" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e109690">Who's that named Gillippus, Zenon? </p>
+          </sp>
+          <sp xml:id="A47372_11-e109700" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e109710">What, alive?</p>
+          </sp>
+          <stage xml:id="A47372_11-e109720">[Gil. seeing Hip. rises. </stage>
+          <sp xml:id="A47372_11-e109730" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e109740">Hipparchus! Nay, than I see my fate pursu es me.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109750" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e109760">Art alive? — ye gods, take this in sacrifice while I offer that —</p>
+          </sp>
+          <stage xml:id="A47372_11-e109770">[kneels and kisses her hand, then points to Gil.</stage>
+          <sp xml:id="A47372_11-e109780" who="A47372_11-leucanthe">
+            <pb facs="324" n="78"/>
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e109790">'Tis he, 'tis the youth that saved me — oh sir, protect me from this ravisher.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109800" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e109810">If he scape me now I'm strangely cursed; do you stare, sir?</p>
+          </sp>
+          <stage xml:id="A47372_11-e109820">[they fight.</stage>
+          <sp xml:id="A47372_11-e109830" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e109840">I bleed apace.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109850" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e109860">I'm wounded.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109870" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e109880">Nay, it has a mouth, would it had this tongue in't.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109890" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e109900">You can fall when you are not dead; if thou jest now take that in earnest.</p>
+          </sp>
+          <stage xml:id="A47372_11-e109910">[Gil. falls. </stage>
+          <sp xml:id="A47372_11-e109920" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e109930">Hold, I'm unfit for such a sudden exit; oh she's lost, she's lost, for ever lost.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109940" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e109950">O sir! Spare him a little time to throw off that load that sinks him.</p>
+          </sp>
+          <sp xml:id="A47372_11-e109960" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e109970">O madam! to what danger has my mistake of service brought you? Are you not at war with all our sex for the treacheries of this villain?</p>
+          </sp>
+          <stage xml:id="A47372_11-e109980">[Hip. as he speaks faints. </stage>
+          <sp xml:id="A47372_11-e109990" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e110000">How do you, sir? Alas, he faints!</p>
+          </sp>
+          <sp xml:id="A47372_11-e110010" who="A47372_11-hipparches">
+            <speaker>Hip.</speaker>
+            <p xml:id="A47372_11-e110020">I bleed apace, and I fear my wounds are deeper than I apprehended; for I feel a darkness now begin to close mine eyes. O madam! Madam!</p>
+          </sp>
+          <stage xml:id="A47372_11-e110030">[he falls.</stage>
+          <sp xml:id="A47372_11-e110040" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e110050">O! I fear he's lost; good gods, send some aid and counsel to a wretched maid whom ye have pursued with change of cruel fates. O that I had died ere I had seen this youth; unfortunate Leucanthe, to see thy love thus in the cradle bloody, born only to add another cause of grief.</p>
+          </sp>
+          <stage xml:id="A47372_11-e110060">[enter judge,</stage>
+          <sp xml:id="A47372_11-e110070" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e110080">This way I heard somebody cry for help, and 'twas mingled with the noise of swords; what's here, a man wet and wounded? Good heaven! last night thou little expected'st such a land fate: more misery! Whence are they? A woman too? 'tis some murder sure. I'll take my sword, those that could so destroy their youth will not spare my age.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110090" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e110100">What art thou, father, that pitiest our sad fates? Come hither and I'll teach thee how to mourn.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110110" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e110120">Is he dead thou mournest thus? Let me see his wounds, hold up's head, he breathes, bow him forward while I fetch a balsam, whose sovereign power (If the vital parts be not perished) will restore his health.</p>
+          </sp>
+          <stage xml:id="A47372_11-e110130">[exit judge.</stage>
+          <sp xml:id="A47372_11-e110140" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e110150">Run, run; oh my joy! if thou diest, upon thy tomb I'll lay marble rough as thy fortune, and on it set fixed a living statue till with my tears I have polished it.</p>
+          </sp>
+          <stage xml:id="A47372_11-e110160">[enter judge.</stage>
+          <sp xml:id="A47372_11-e110170" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e110180">So, pour this balsam into his wounds, and bind them up, and stay his head while I go find the hermit's son, he shall help to bear him to my cabin.</p>
+          </sp>
+          <stage xml:id="A47372_11-e110190">[exit judge.</stage>
+          <stage xml:id="A47372_11-e110200">Enter King, Eucratia, Sortanes, hermit and his son, with the bodies of Lysimella and Pausanes.</stage>
+          <sp xml:id="A47372_11-e110210" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e110220">Bring 'em to yonder fire; and while Eucratia applies her charity to the youth I'll assist Pausanes. </p>
+          </sp>
+          <sp xml:id="A47372_11-e110230" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e110240">Eucratia! Who named Eucratia? </p>
+          </sp>
+          <sp xml:id="A47372_11-e110250" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e110260">Why, dost thou know Eucratia? </p>
+          </sp>
+          <sp xml:id="A47372_11-e110270" who="A47372_11-judge">
+            <pb facs="324" n="79"/>
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e110280">Know her! Yes, Leucanthe. </p>
+          </sp>
+          <sp xml:id="A47372_11-e110290" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e110300">Father!</p>
+          </sp>
+          <sp xml:id="A47372_11-e110310" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e110320">'Tis she.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110330" who="A47372_11-leucanthe">
+            <speaker>Leuc.</speaker>
+            <p xml:id="A47372_11-e110340">O ye gods! your hands are visible through all this change.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110350" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e110360">Who are those about the fire?</p>
+          </sp>
+          <sp xml:id="A47372_11-e110370" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e110380">Leucanthe and Theagines. O sir! we're blessed beyond our<stage xml:id="A47372_11-e110390">Euc. goes to the fire and knows them. </stage>hopes.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110400" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e110410">Eucratia here too! O remove my doubts, by what fate are we met thus strangely?</p>
+          </sp>
+          <sp xml:id="A47372_11-e110420" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e110430">'Twill ask a longer time, sir, than her charity now can spare to tell. <stage xml:id="A47372_11-e110440">In this time the hermit is busy about Lysimella.</stage></p>
+          </sp>
+          <sp xml:id="A47372_11-e110450" who="A47372_11-son">
+            <speaker>Son.</speaker>
+            <p xml:id="A47372_11-e110460">Father, they are all acquainted, and yet in my conscience they never appointed this meeting.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110470" who="A47372_11-hermit">
+            <speaker>Hermit.</speaker>
+            <p xml:id="A47372_11-e110480">What's here? A woman's breast in a doublet? Ladies, some of your hands will be more proper here, this habit belongs not to the sex it clothes.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110490" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e110500">A woman!</p>
+          </sp>
+          <sp xml:id="A47372_11-e110510" who="A47372_11-hermit">
+            <speaker>Hermit.</speaker>
+            <p xml:id="A47372_11-e110520">Yes.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110530" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e110540">Sortanes, have you never seen that face? <stage xml:id="A47372_11-e110550">The King knows her.</stage></p>
+          </sp>
+          <sp xml:id="A47372_11-e110560" who="A47372_11-sortanes">
+            <speaker>Sor.</speaker>
+            <p xml:id="A47372_11-e110570">Yes, on my life.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110580" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e110590">'Tis Lysimella. </p>
+          </sp>
+          <sp xml:id="A47372_11-e110600" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e110610">Here, oh here! Who called wretched Lysimella? </p>
+          </sp>
+          <sp xml:id="A47372_11-e110620" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e110630">Madam, your charity has found my sister, my friend, all that I call dear; and see if a cross fate has not attempted to snatch her hence: oh persist in your charity, and a little dispense with your joy, and try to save her.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110640" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e110650">If my blood could save her, to every vein I would a passage give, and through those thousand streams pursue her safety.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110660" who="A47372_11-hermit">
+            <speaker>Hermit.</speaker>
+            <p xml:id="A47372_11-e110670">More of that strong-water, and give him leave to breathe.</p>
+          </sp>
+          <stage xml:id="A47372_11-e110680">[hermit busy to save Paus.</stage>
+          <sp xml:id="A47372_11-e110690" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e110700">Here, put on this loose roll, and hide her disguise.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110710" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e110720">Some charitable hand convey me to Hipparchus, that from my dying lips I may breathe him comfort. About my neck you'll<stage xml:id="A47372_11-e110730">They turn to Gillippus.</stage>find two golden medals which I took from him and Pausanes bosom, in which (I heard one Perseus tell, who that day fell in battle) was writ in characters their names and country, which yet they know not.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110740" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e110750">Perseus! Who can tell tidings of the aged Perseus? </p>
+          </sp>
+          <sp xml:id="A47372_11-e110760" who="A47372_11-gallipus">
+            <speaker>Gil.</speaker>
+            <p xml:id="A47372_11-e110770">That can I — at the sack of Tunis he fell by my hands, when I took those youths prisoners, they called him father — o! I feel I'm sinking, but whither, oh whither, mercy, mercy, heaven.</p>
+          </sp>
+          <stage xml:id="A47372_11-e110780">[he dies.</stage>
+          <sp xml:id="A47372_11-e110790" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e110800">I am wrapped in amazement at these things; these are<stage xml:id="A47372_11-e110810">He takes the medals from Gil. bosom. </stage>the medals we hung about our children's necks; which of these two was called Pausanes? </p>
+          </sp>
+          <sp xml:id="A47372_11-e110820" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e110830">This.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110840" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e110850">On thee then fall a blessing; but on thee my son a thousand, thousand blessings; all that a weeping father can with penitent<stage xml:id="A47372_11-e110860">He turns to Hip.</stage>tears call down fill thy days.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110870" who="A47372_11-unassigned">
+            <speaker>Hermit,</speaker>
+            <stage xml:id="A47372_11-e110880">Aside.</stage>
+            <p xml:id="A47372_11-e110890">What have I lived to see?</p>
+          </sp>
+          <sp xml:id="A47372_11-e110900" who="A47372_11-judge">
+            <pb facs="325" n="80"/>
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e110910">O, Leucanthe and Eucratia, see your long lost brothers.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110920" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e110930">Though my part be strange; yet these wonders make it seem nothing, there's such providence i'th chances; how fares my Lysimella? </p>
+          </sp>
+          <sp xml:id="A47372_11-e110940" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e110950">O brother, can you forgive this fault? I heard somebody name Pausanes, where is he?</p>
+          </sp>
+          <sp xml:id="A47372_11-e110960" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e110970">Here.</p>
+          </sp>
+          <sp xml:id="A47372_11-e110980" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e110990">There! and not come to Lysimella? o! my fears will end this wrack, speak; by all the honours of thy youth, I conjure thee, is he dead, or no?</p>
+          </sp>
+          <sp xml:id="A47372_11-e111000" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e111010">No, upon my life, he lives and is found a prince.</p>
+          </sp>
+          <sp xml:id="A47372_11-e111020" who="A47372_11-lysimella">
+            <speaker>Lys.</speaker>
+            <p xml:id="A47372_11-e111030">A prince! and will not my brother then —</p>
+          </sp>
+          <sp xml:id="A47372_11-e111040" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e111050">Why dost thou hide thy blushes in my bosom, think'st thou I can be cruel to Lysimella? no, no; since I saw thee I have felt thy pain, and now can love too, but dare not promise I shall be fortunate.</p>
+          </sp>
+          <sp xml:id="A47372_11-e111060" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e111070">Can I add to your joys? if I can, sir, let this priest witness my vows to the King.</p>
+          </sp>
+          <sp xml:id="A47372_11-e111080" who="A47372_11-hermit">
+            <speaker>Hermit</speaker>
+            <p xml:id="A47372_11-e111090">Will it please the King to retire to my homely cell, 'tis free from storms, unless you bring 'em with you; I have lived long there, but never felt any save what my sins brought. Some skill too I have in herbs, and fortunate (I thank the gods) I have been in my attempts in surgery; and hope they'll smile upon these patients too, I find no danger of death amongst 'em: and when I have my salvatory laid by, then I'll take up my beads; for the priest, I see, must complete the joys of these happy pairs, my interest in which I'll no longer hide. — o speak Eucratia, think'st thou the gods will accept an offering from aged Memnon's hand again, that<stage xml:id="A47372_11-e111100">Puts off his disguise.</stage>once abused their altars by giving false oracles, which thus they have revenged? if thou think'st they will, here I throw off my disguise, and from a father and priest, sir, receive her.</p>
+          </sp>
+          <sp xml:id="A47372_11-e111110" who="A47372_11-eucratia">
+            <speaker>Euc.</speaker>
+            <p xml:id="A47372_11-e111120">My father!</p>
+          </sp>
+          <sp xml:id="A47372_11-e111130" who="A47372_11-judge">
+            <speaker>Judge.</speaker>
+            <p xml:id="A47372_11-e111140">Memnon, my brother! o welcome!</p>
+          </sp>
+          <sp xml:id="A47372_11-e111150" who="A47372_11-king">
+            <speaker>King.</speaker>
+            <p xml:id="A47372_11-e111160">Let me interrupt your joys, lest their excess prove dangerous; and to the gods that have wrought this blessing, let us pass on to sacrifice.</p>
+          </sp>
+          <sp xml:id="A47372_11-e111170" who="A47372_11-hermit">
+            <speaker>Hermit</speaker>
+            <p xml:id="A47372_11-e111180">Lead on, Theagines, while we these young men bear off, on each of which a virgin shall like their good genius wait; the story, how we came to be thus happy, we'll defer to a fitter time, when health and Hymen shall wait on these princes, to set their prisoners free, and prove loves fetters liberty.</p>
+          </sp>
+          <stage xml:id="A47372_11-e111190">[exeunt omnes.</stage>
+        </div>
+        <trailer xml:id="A47372_11-e111200">Finis.</trailer>
+        <pb facs="325"/>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A47372_11"><item xml:id="A47372_11-hipparches" n="73">
+    <seg type="character_name">A47372_11-hipparches</seg>
+    <seg type="speech_count">73</seg>
+  </item>
+  <item xml:id="A47372_11-pausanes" n="61">
+    <seg type="character_name">A47372_11-pausanes</seg>
+    <seg type="speech_count">61</seg>
+  </item>
+  <item xml:id="A47372_11-gallipus" n="53">
+    <seg type="character_name">A47372_11-gallipus</seg>
+    <seg type="speech_count">53</seg>
+  </item>
+  <item xml:id="A47372_11-king" n="48">
+    <seg type="character_name">A47372_11-king</seg>
+    <seg type="speech_count">48</seg>
+  </item>
+  <item xml:id="A47372_11-lysimella" n="41">
+    <seg type="character_name">A47372_11-lysimella</seg>
+    <seg type="speech_count">41</seg>
+  </item>
+  <item xml:id="A47372_11-leucanthe" n="25">
+    <seg type="character_name">A47372_11-leucanthe</seg>
+    <seg type="speech_count">25</seg>
+  </item>
+  <item xml:id="A47372_11-zenon" n="22">
+    <seg type="character_name">A47372_11-zenon</seg>
+    <seg type="speech_count">22</seg>
+  </item>
+  <item xml:id="A47372_11-eucratia" n="18">
+    <seg type="character_name">A47372_11-eucratia</seg>
+    <seg type="speech_count">18</seg>
+  </item>
+  <item xml:id="A47372_11-judge" n="17">
+    <seg type="character_name">A47372_11-judge</seg>
+    <seg type="speech_count">17</seg>
+  </item>
+  <item xml:id="A47372_11-hermit" n="15">
+    <seg type="character_name">A47372_11-hermit</seg>
+    <seg type="speech_count">15</seg>
+  </item>
+  <item xml:id="A47372_11-eumenes" n="12">
+    <seg type="character_name">A47372_11-eumenes</seg>
+    <seg type="speech_count">12</seg>
+  </item>
+  <item xml:id="A47372_11-philon" n="11">
+    <seg type="character_name">A47372_11-philon</seg>
+    <seg type="speech_count">11</seg>
+  </item>
+  <item xml:id="A47372_11-unassigned" n="6">
+    <seg type="character_name">A47372_11-unassigned</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A47372_11-son" n="6">
+    <seg type="character_name">A47372_11-son</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A47372_11-procles" n="6">
+    <seg type="character_name">A47372_11-procles</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A47372_11-helm-man" n="4">
+    <seg type="character_name">A47372_11-helm-man</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A47372_11-master" n="3">
+    <seg type="character_name">A47372_11-master</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A47372_11-soldier" n="3">
+    <seg type="character_name">A47372_11-soldier</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A47372_11-dyon" n="2">
+    <seg type="character_name">A47372_11-dyon</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A47372_11-slave" n="2">
+    <seg type="character_name">A47372_11-slave</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A47372_11-cremnofield" n="2">
+    <seg type="character_name">A47372_11-cremnofield</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A47372_11-within" n="2">
+    <seg type="character_name">A47372_11-within</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+<item xml:id="A47372_11-sortanes" n="1">
+    <seg type="character_name">A47372_11-sortanes</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A47372_11-boatswain" n="1">
+    <seg type="character_name">A47372_11-boatswain</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A47372_11-eugene" n="1">
+    <seg type="character_name">A47372_11-eugene</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

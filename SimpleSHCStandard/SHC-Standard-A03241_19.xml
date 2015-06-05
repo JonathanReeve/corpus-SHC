@@ -1,0 +1,1434 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Jupiter and Io<date type="creation_date">1637</date></title>
+        <author>Heywood, Thomas</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Hannah Bredar</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A03241_19.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">Pleasant dialogues and dramma's, selected out of Lucian, Erasmus, Textor, Ovid, &amp;c. With sundry emblems extracted from the most elegant Iacobus Catsius. As also certaine elegies, epitaphs, and epithalamions or nuptiall songs; anagrams and acrosticks; with divers speeches (upon severall occasions) spoken to their most excellent Majesties, King Charles, and Queene Mary. With other fancies translated from Beza, Bucanan, and sundry Italian poets. By Thomas Heywood.</title>
+            <author>Heywood, Thomas, d. 1641.</author>
+          </titleStmt>
+          <extent>160 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2006 June (TCP phase 1)</date>
+            <idno type="marc">99839810</idno>
+            <idno type="stc">STC (2nd ed.) 13358.</idno>
+            <idno type="stc">Pforzheimer, II, 482.</idno>
+            <idno type="vid">4265</idno>
+            <idno type="DLPS">A03241</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">Pleasant dialogues and dramma's, selected out of Lucian, Erasmus, Textor, Ovid, &amp;c. With sundry emblems extracted from the most elegant Iacobus Catsius. As also certaine elegies, epitaphs, and epithalamions or nuptiall songs; anagrams and acrosticks; with divers speeches (upon severall occasions) spoken to their most excellent Majesties, King Charles, and Queene Mary. With other fancies translated from Beza, Bucanan, and sundry Italian poets. By Thomas Heywood.</title>
+            <author>Heywood, Thomas, d. 1641.</author>
+            <author>Cats, Jacob, 1577-1660.</author>
+            <author>Erasmus, Desiderius, d. 1536.</author>
+            <author>Lucian,</author>
+            <author>Ovid, 43 B.C.-17 or 18 A.D.</author>
+            <author>Ravisius Textor, Joannes, ca. 1480-1524.</author>
+          </titleStmt>
+          <extent>[16], 284, [20] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by R. O[ulton] for R. H[earne] and are to be sold by Thomas Slater at the Swan in Duck-lane,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1637.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Printer's and publisher's names from STC.</p>
+            </note>
+            <note>
+              <p>The first leaf is blank.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Folger Shakespeare Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:id="A03241_19-e100010">
+    <body xml:id="A03241_19-e100020">
+      <div n="19" type="dialogue" xml:id="A03241_19-e100030">
+        <pb facs="85" n="155"/>
+        <head>Jupiter and Io.</head>
+        <div type="argument" xml:id="A03241_19-e100040">
+          <head>The argument.</head>
+          <l xml:id="A03241_19-e100050">Io, of whom we next discuss,</l>
+          <l xml:id="A03241_19-e100060">Daughter toth' river Inachus,</l>
+          <l xml:id="A03241_19-e100070">(The fairest nymph that lived that time,</l>
+          <l xml:id="A03241_19-e100080">As being in her youth and prime)</l>
+          <l xml:id="A03241_19-e100090">Was seen by Jove loved, and compressed. </l>
+          <l xml:id="A03241_19-e100100">Queen Juno, her, as of the rest,</l>
+          <l xml:id="A03241_19-e100110">Grown jealous o'er, doth project lay,</l>
+          <l xml:id="A03241_19-e100120">How in their sports them to betray. </l>
+          <l xml:id="A03241_19-e100130">Whom to prevent (I know not how)</l>
+          <l xml:id="A03241_19-e100140">But Jove transhapes her to a cow. </l>
+          <l xml:id="A03241_19-e100150">The goddess knowing how endeared</l>
+          <l xml:id="A03241_19-e100160">She was to him, comes to the herd,</l>
+          <l xml:id="A03241_19-e100170">And begs this heifer. He not dared</l>
+          <l xml:id="A03241_19-e100180">(However the request seemed hard)</l>
+          <l xml:id="A03241_19-e100190">Her to deny. She's now her charge,</l>
+          <l xml:id="A03241_19-e100200">And naught her freedom can enlarge. </l>
+          <l xml:id="A03241_19-e100210">The passages that hence may grow,</l>
+          <l xml:id="A03241_19-e100220">The sequel will hereafter show. </l>
+        </div>
+        <div type="body_of_dialogue" xml:id="A03241_19-e100230">
+          <stage xml:id="A03241_19-e100240">Enter 16, Daphne, with other nymphs called Naiades, the daughters of the rivers near adjacent.</stage>
+          <sp xml:id="A03241_19-e100250" who="A03241_19-io">
+            <speaker>Io.</speaker>
+            <l xml:id="A03241_19-e100260">Here, Daphne, by your father Peneus streams</l>
+            <l xml:id="A03241_19-e100270">(Which falling from the top of Pindus' mount,</l>
+            <l xml:id="A03241_19-e100280">Waters Hemonian Tempe) let us sit,</l>
+            <l xml:id="A03241_19-e100290"><pb facs="86" n="156"/> all daughters to the rivers flowing near:</l>
+            <l xml:id="A03241_19-e100300">There old Apidanus steals (Murmuring) by;</l>
+            <l xml:id="A03241_19-e100310">Next, poplar-shadowed Enipeus glides:</l>
+            <l xml:id="A03241_19-e100320">Not far, Amphrisus', Aeas, and 'mongst these,</l>
+            <l xml:id="A03241_19-e100330">(Not least) my father, good old Inachus</l>
+            <l xml:id="A03241_19-e100340">Lifts up his reverend head, with fresh flowers crowned,</l>
+            <l xml:id="A03241_19-e100350">Prescribing laws and limits to his streams,</l>
+            <l xml:id="A03241_19-e100360">To bound them in their channels, curb their torrent,</l>
+            <l xml:id="A03241_19-e100370">Lest in their pride they should o'erswell their banks;</l>
+            <l xml:id="A03241_19-e100380">Commanding them, through thousand strange indents</l>
+            <l xml:id="A03241_19-e100390">To pay his plenteous tribute to the seas. </l>
+          </sp>
+          <sp xml:id="A03241_19-e100400" who="A03241_19-daphne">
+            <speaker>Daphne.</speaker>
+            <l xml:id="A03241_19-e100410">And how much are we bound unto the gods,</l>
+            <l xml:id="A03241_19-e100420">(Fair Io) to be nymphs, not generated</l>
+            <l xml:id="A03241_19-e100430">From marish meres, nor yet from standing lakes,</l>
+            <l xml:id="A03241_19-e100440">From sedgy brooks, thick pools, or shallow fords,</l>
+            <l xml:id="A03241_19-e100450">Nor yet from violent and robustuous seas. </l>
+            <l xml:id="A03241_19-e100460">Their waters keep a smooth and gentle course,</l>
+            <l xml:id="A03241_19-e100470">Not moved to fury by the warring winds;</l>
+            <l xml:id="A03241_19-e100480">Nor when loud fluxes fall to swell their bounds,</l>
+            <l xml:id="A03241_19-e100490">And make deep inundations on the meads:</l>
+            <l xml:id="A03241_19-e100500">Nor can the parching drought so dry their springs,</l>
+            <l xml:id="A03241_19-e100510">But that their channels keep a temperature:</l>
+            <l xml:id="A03241_19-e100520">Their modest shallows serve us for cool baths</l>
+            <l xml:id="A03241_19-e100530">In summer time to play and wanton in:</l>
+            <l xml:id="A03241_19-e100540">Their depths, to bate our hooks with worms and flies</l>
+            <l xml:id="A03241_19-e100550">Fastened to lines made of small twisted silk,</l>
+            <l xml:id="A03241_19-e100560">And so betray the creatures of the flood. </l>
+            <l xml:id="A03241_19-e100570">Their crystal waves are mirrors, in the which</l>
+            <l xml:id="A03241_19-e100580">We dress our heads, and put these curls in form,</l>
+            <l xml:id="A03241_19-e100590">Sometimes so cunningly, as if that art</l>
+            <l xml:id="A03241_19-e100600">Had power to exceed nature: and again,</l>
+            <l xml:id="A03241_19-e100610">With careless, but so curious a neglect,</l>
+            <l xml:id="A03241_19-e100620">As if mere chance did antecede them both. </l>
+            <l xml:id="A03241_19-e100630">This makes us of the satyrs so admired,</l>
+            <l xml:id="A03241_19-e100640">And of the fauns and swains so much beloved. </l>
+          </sp>
+          <sp xml:id="A03241_19-e100650" who="A03241_19-io">
+            <speaker>Io.</speaker>
+            <l xml:id="A03241_19-e100660">Why, have you suitors, Daphne? </l>
+          </sp>
+          <sp xml:id="A03241_19-e100670" who="A03241_19-daphne">
+            <pb facs="86" n="157"/>
+            <speaker>Daphne.</speaker>
+            <l xml:id="A03241_19-e100680">Besides such,</l>
+            <l xml:id="A03241_19-e100690">For these my father, by whose will I am swayed)</l>
+            <l xml:id="A03241_19-e100700">Accounts as mean) of gallants I have change;</l>
+            <l xml:id="A03241_19-e100710">Both city and the court. </l>
+          </sp>
+          <sp xml:id="A03241_19-e100720" who="A03241_19-unassigned">
+            <speaker>〈◊〉.</speaker>
+            <l xml:id="A03241_19-e100730">But I may claim</l>
+            <l xml:id="A03241_19-e100740">Priority above all water nymphs,</l>
+            <l xml:id="A03241_19-e100750">Nor can the Naiades compare with me;</l>
+            <l xml:id="A03241_19-e100760">No, Daphne, not yourself. The rural swains,</l>
+            <l xml:id="A03241_19-e100770">They gather from these banks mellifluous flowers,</l>
+            <l xml:id="A03241_19-e100780">And make you chaplets to adorn your brows,</l>
+            <l xml:id="A03241_19-e100790">And shadow your choice beauty from the sun,</l>
+            <l xml:id="A03241_19-e100800">May think them costly presents: but I'm one</l>
+            <l xml:id="A03241_19-e100810">To whom the gods themselves have offered gifts. </l>
+            <l xml:id="A03241_19-e100820">Then before all the daughters of these floods</l>
+            <l xml:id="A03241_19-e100830">● claim a just precedence. </l>
+          </sp>
+          <sp xml:id="A03241_19-e100840" who="A03241_19-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_19-e100850">By what dream,</l>
+            <l xml:id="A03241_19-e100860">Or rather by what brainsick fantasy</l>
+            <l xml:id="A03241_19-e100870">Hath Io been deluded? </l>
+          </sp>
+          <sp xml:id="A03241_19-e100880" who="A03241_19-unassigned">
+            <speaker>〈◊〉.</speaker>
+            <l xml:id="A03241_19-e100890">My apprehensions</l>
+            <l xml:id="A03241_19-e100900">Are no weak phantoms to beguile the sense,</l>
+            <l xml:id="A03241_19-e100910">But real, and in action; with their form</l>
+            <l xml:id="A03241_19-e100920">They bear a being substance. </l>
+          </sp>
+          <sp xml:id="A03241_19-e100930" who="A03241_19-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_19-e100940">Hath your beauty</l>
+            <l xml:id="A03241_19-e100950">Had amongst men such long and strange neglect,</l>
+            <l xml:id="A03241_19-e100960">That Io would to colour such disgrace,</l>
+            <l xml:id="A03241_19-e100970">Accuse the gods of weakness? </l>
+          </sp>
+          <sp xml:id="A03241_19-e100980" who="A03241_19-unassigned">
+            <speaker>〈◊〉</speaker>
+            <l xml:id="A03241_19-e100990">Let earth's beauties</l>
+            <l xml:id="A03241_19-e101000">Censure of earth, mere terren as yours be,</l>
+            <l xml:id="A03241_19-e101010">And aim no further: the while this of mine</l>
+            <l xml:id="A03241_19-e101020">Shall be new questioned by the powers divine. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101030" who="A03241_19-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_19-e101040">Now by what gods, for heavens sake? </l>
+          </sp>
+          <sp xml:id="A03241_19-e101050" who="A03241_19-unassigned">
+            <speaker>〈◊〉</speaker>
+            <l xml:id="A03241_19-e101060">Not the meanest,</l>
+            <l xml:id="A03241_19-e101070">But such as we call under-deities,</l>
+            <l xml:id="A03241_19-e101080">The melancholy Saturn, (By his son</l>
+            <l xml:id="A03241_19-e101090">Reviled and banished from the supreme rule)</l>
+            <l xml:id="A03241_19-e101100">Phoebus, a mere vassal to the earth,</l>
+            <l xml:id="A03241_19-e101110"><pb facs="87" n="158"/> and forced each natural day to measure heaven;</l>
+            <l xml:id="A03241_19-e101120">As Neptune, sovereign o'er the seas, to whom</l>
+            <l xml:id="A03241_19-e101130">Our tributary rivers hourly pay:</l>
+            <l xml:id="A03241_19-e101140">As Mercury, though son to Jove himself,</l>
+            <l xml:id="A03241_19-e101150">No better than his footboy or his page,</l>
+            <l xml:id="A03241_19-e101160">Compelled at every summons to his speed:</l>
+            <l xml:id="A03241_19-e101170">But of the potent thunderer. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101180" who="A03241_19-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_19-e101190">He of whom</l>
+            <l xml:id="A03241_19-e101200">You have learned to thunder these impossible braves. </l>
+            <l xml:id="A03241_19-e101210">Io, I am ashamed. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101220" who="A03241_19-io">
+            <speaker>Io.</speaker>
+            <l xml:id="A03241_19-e101230">Yes, that your beauty's</l>
+            <l xml:id="A03241_19-e101240">Composed of the grosser elements,</l>
+            <l xml:id="A03241_19-e101250">Want that attraction to call Jove himself</l>
+            <l xml:id="A03241_19-e101260">Down from his heavenly fabric, to behold</l>
+            <l xml:id="A03241_19-e101270">Us in our eminence. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101280" who="A03241_19-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_19-e101290">Strange wonder sure,</l>
+            <l xml:id="A03241_19-e101300">To look upon that face in which we mortals,</l>
+            <l xml:id="A03241_19-e101310">And value it at best, can nothing spy,</l>
+            <l xml:id="A03241_19-e101320">Breed admiration in a deity! </l>
+            <stage xml:id="A03241_19-e101330">A noise of thunder. Enter Jupiter in his glory, his trisulc in his hand burning; at sight of whom they stand affrighted. </stage>
+          </sp>
+          <sp xml:id="A03241_19-e101340" who="A03241_19-io">
+            <speaker>Io.</speaker>
+            <l xml:id="A03241_19-e101350">Appear, Jove, in thy glory, let them know</l>
+            <l xml:id="A03241_19-e101360">Ei, shamed confess their fond surmises vain,</l>
+            <l xml:id="A03241_19-e101370">And what it is, thy godhead to profane. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101380" who="A03241_19-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_19-e101390">Fly, fly, lest we be thunderstruck, away;</l>
+            <l xml:id="A03241_19-e101400">Let's seek our safety, danger's in our stay. </l>
+            <stage xml:id="A03241_19-e101410">Exit</stage>
+          </sp>
+          <sp xml:id="A03241_19-e101420" who="A03241_19-jupiter">
+            <speaker>Iup.</speaker>
+            <l xml:id="A03241_19-e101430">Thou Daphne, who Jove's presence now dost shun,</l>
+            <l xml:id="A03241_19-e101440">Swifter ere long shalt from, Apollo run. </l>
+            <l xml:id="A03241_19-e101450">But there lie that which makes us terrible,</l>
+            <l xml:id="A03241_19-e101460">Affrighting gods and men. Io to thee</l>
+            <l xml:id="A03241_19-e101470">In calms I come, and fair one make me proud,</l>
+            <l xml:id="A03241_19-e101480">To seal the love which I so long have vowed. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101490" who="A03241_19-io">
+            <speaker>Io.</speaker>
+            <l xml:id="A03241_19-e101500">What steel? what vow? </l>
+          </sp>
+          <sp xml:id="A03241_19-e101510" who="A03241_19-jupiter">
+            <pb facs="87" n="159"/>
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e101520">Both thou shalt find impressed</l>
+            <l xml:id="A03241_19-e101530">On thy smooth cheek, soft lip, and ivory breast,</l>
+          </sp>
+          <sp xml:id="A03241_19-e101540" who="A03241_19-io">
+            <speaker>Io.</speaker>
+            <l xml:id="A03241_19-e101550">Forbear to handle; yet I never knew</l>
+            <l xml:id="A03241_19-e101560">A man so bold and rude: can gods dispense,</l>
+            <l xml:id="A03241_19-e101570">To teach us women unknown impudence? </l>
+          </sp>
+          <sp xml:id="A03241_19-e101580" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e101590">Nay rather we solicit you to prove</l>
+            <l xml:id="A03241_19-e101600">What yet you have not tried, the sweets of love. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101610" who="A03241_19-io">
+            <speaker>Io.</speaker>
+            <l xml:id="A03241_19-e101620">Things that I would not learn. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101630" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e101640">A truant still? </l>
+            <l xml:id="A03241_19-e101650">If you want art, io, I can teach you skill:</l>
+            <l xml:id="A03241_19-e101660">Give me your hand, your lip: why these but are</l>
+            <l xml:id="A03241_19-e101670">The prologue to a pastime much more rare. </l>
+            <l xml:id="A03241_19-e101680">Women by nature are ambitious, and</l>
+            <l xml:id="A03241_19-e101690">Long to know what they do not understand. </l>
+            <l xml:id="A03241_19-e101700">I'll practise you in that which you before</l>
+            <l xml:id="A03241_19-e101710">Never knew. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101720" who="A03241_19-io">
+            <speaker>Io.</speaker>
+            <l xml:id="A03241_19-e101730">In all this lip-sport? or what more</l>
+            <l xml:id="A03241_19-e101740">Is in these kisses meant? I am so dull, —</l>
+          </sp>
+          <sp xml:id="A03241_19-e101750" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e101760">All these my comment shall explain at full. </l>
+            <l xml:id="A03241_19-e101770">In vain you strive. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101780" who="A03241_19-io">
+            <speaker>Io.</speaker>
+            <l xml:id="A03241_19-e101790">Should I do ought save well,</l>
+            <l xml:id="A03241_19-e101800">I were undone, my father's floods would tell;</l>
+            <l xml:id="A03241_19-e101810">These are his banks, they'll blab: what mean you? fie;</l>
+            <l xml:id="A03241_19-e101820">They swell above their bounds, only to spy</l>
+            <l xml:id="A03241_19-e101830">And see what we are doing. Pish, away,</l>
+            <l xml:id="A03241_19-e101840">Such deeds of darkness can you do by day? </l>
+            <l xml:id="A03241_19-e101850">Besides, shall I consent to what you mean,</l>
+            <l xml:id="A03241_19-e101860">Not all these silver drops can wash me clean. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101870" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e101880">Where I do stain I can again make pure:</l>
+            <l xml:id="A03241_19-e101890">And that day shall not hinder us, be sure:</l>
+            <l xml:id="A03241_19-e101900">Arise you fogs and damps, your vapours gather,</l>
+            <l xml:id="A03241_19-e101910">To shroud us both from Juno and thy father. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101920" who="A03241_19-io">
+            <speaker>Io.</speaker>
+            <l xml:id="A03241_19-e101930">You make me blush. </l>
+            <stage xml:id="A03241_19-e101940">A great damp ariseth.</stage>
+          </sp>
+          <sp xml:id="A03241_19-e101950" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e101960">These blushes none shall see;</l>
+            <l xml:id="A03241_19-e101970">Behold these mists, to curtain us and thee. </l>
+          </sp>
+          <sp xml:id="A03241_19-e101980" who="A03241_19-io">
+            <speaker>Io.</speaker>
+            <l xml:id="A03241_19-e101990">Well, when what most you sue for, you have won,</l>
+            <l xml:id="A03241_19-e102000"><pb facs="88" n="160"/> my comfort is, I see not what is done,</l>
+          </sp>
+          <sp xml:id="A03241_19-e102010" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e102020">And Io now I'll teach thee sports untried,</l>
+            <l xml:id="A03241_19-e102030">In darkness best a virgin's blush to hide. </l>
+            <stage xml:id="A03241_19-e102040">Exeunt</stage>
+            <stage xml:id="A03241_19-e102050">Enter Juno.</stage>
+          </sp>
+          <sp xml:id="A03241_19-e102060" who="A03241_19-juno">
+            <speaker>Juno.</speaker>
+            <l xml:id="A03241_19-e102070">Not in the heavens? where then? In vain it were</l>
+            <l xml:id="A03241_19-e102080">To search the seas; the blue veined Nereaae,</l>
+            <l xml:id="A03241_19-e102090">And green haired Dorides with all their brats,</l>
+            <l xml:id="A03241_19-e102100">Styled by the names of water goddesses,</l>
+            <l xml:id="A03241_19-e102110">(Though prostitutes to Neptune) 'mongst them all</l>
+            <l xml:id="A03241_19-e102120">Yield not a face to please his curious eye. </l>
+            <l xml:id="A03241_19-e102130">Where then? The earth? I that, if any place,</l>
+            <l xml:id="A03241_19-e102140">Yields choice of tempting beauties: Argos bred</l>
+            <l xml:id="A03241_19-e102150">A golden Danaë, Thebes afforded an</l>
+            <l xml:id="A03241_19-e102160">Alcmena and a wanton Semele;</l>
+            <l xml:id="A03241_19-e102170">Pelagia, a Calisto; Sparta nursed</l>
+            <l xml:id="A03241_19-e102180">A swan-like Leda, (Strumpets) of all which</l>
+            <l xml:id="A03241_19-e102190">I sought a sure, but found a vain revenge. </l>
+            <l xml:id="A03241_19-e102200">Why may not then Thessalian Tempe yield</l>
+            <l xml:id="A03241_19-e102210">Like fascination, since their impudence</l>
+            <l xml:id="A03241_19-e102220">Is more and more encouraged by my wrongs:</l>
+            <l xml:id="A03241_19-e102230">Here then I make inquiry. The day's clear;</l>
+            <l xml:id="A03241_19-e102240">Whence come these foggy mists that choke the air,</l>
+            <l xml:id="A03241_19-e102250">In so serene and bright an hemisphere? </l>
+            <l xml:id="A03241_19-e102260">Aut ego fallor, aut ego ledar. </l>
+            <l xml:id="A03241_19-e102270">If from the earth, this sudden overcast</l>
+            <l xml:id="A03241_19-e102280">Would smell of thick and suffocating damps:</l>
+            <l xml:id="A03241_19-e102290">If from the air, or any sulphurous fire,</l>
+            <l xml:id="A03241_19-e102300">It would be found by their calidity. </l>
+            <l xml:id="A03241_19-e102310">If from the rivers, or these moorish fens,</l>
+            <l xml:id="A03241_19-e102320">Humidity would tell us whence they were. </l>
+            <l xml:id="A03241_19-e102330">No, these are forced, and by some godlike power,</l>
+            <l xml:id="A03241_19-e102340">Created for a more peculiar use:</l>
+            <l xml:id="A03241_19-e102350">And now my jealousy most truly prompts me. </l>
+            <l xml:id="A03241_19-e102360">'Tis some illusion, made to blind mine eyes</l>
+            <l xml:id="A03241_19-e102370">From a new injury; which if I find,</l>
+            <l xml:id="A03241_19-e102380">On this one strumpet I will study more,</l>
+            <l xml:id="A03241_19-e102390"><pb facs="88" n="161"/> than all that have my vengeance scaped before. </l>
+            <stage xml:id="A03241_19-e102400">Exit.</stage>
+            <stage xml:id="A03241_19-e102410">Enter Jupiter, and Io transformed into a Cow.</stage>
+          </sp>
+          <sp xml:id="A03241_19-e102420" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e102430">The clamorous queen's descended from the spheres,</l>
+            <l xml:id="A03241_19-e102440">To find the cause of this illusive fog:</l>
+            <l xml:id="A03241_19-e102450">But io I have so transhaped thee now,</l>
+            <l xml:id="A03241_19-e102460">That she by no means can discover thee;</l>
+            <l xml:id="A03241_19-e102470">And in that confidence I'll front her boldly. </l>
+          </sp>
+          <sp xml:id="A03241_19-e102480" who="A03241_19-juno">
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e102490">Jove hear? my jealousies are then not vain,</l>
+            <l xml:id="A03241_19-e102500">Howe'er I'll give him gentle entertain,</l>
+            <l xml:id="A03241_19-e102510">Concealing what's within. </l>
+          </sp>
+          <sp xml:id="A03241_19-e102520" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e102530">My lovely Juno? </l>
+          </sp>
+          <sp xml:id="A03241_19-e102540" who="A03241_19-juno">
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e102550">My brother and my husband Jupiter? </l>
+          </sp>
+          <sp xml:id="A03241_19-e102560" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e102570">What make you here on earth? </l>
+          </sp>
+          <sp xml:id="A03241_19-e102580" who="A03241_19-juno">
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e102590">What other reason,</l>
+            <l xml:id="A03241_19-e102600">But that I missed my sovereign lord in heaven;</l>
+            <l xml:id="A03241_19-e102610">And than I yoked my peacocks, to their bills</l>
+            <l xml:id="A03241_19-e102620">Tied silken bridles, and in my light chariot</l>
+            <l xml:id="A03241_19-e102630">Made of fine gold, and decked with ostrich plumes,</l>
+            <l xml:id="A03241_19-e102640">Descended as you see. But what affair</l>
+            <l xml:id="A03241_19-e102650">Might Juno be so bold to ask her lord)</l>
+            <l xml:id="A03241_19-e102660">Detains you now in Tempe? </l>
+          </sp>
+          <sp xml:id="A03241_19-e102670" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e102680">Though it fits not</l>
+            <l xml:id="A03241_19-e102690">Your sex to ask a thing that ill beseems,</l>
+            <l xml:id="A03241_19-e102700">Or pry into the counsels of the gods;</l>
+            <l xml:id="A03241_19-e102710">Yet thus much I'll resolve you? I came down</l>
+            <l xml:id="A03241_19-e102720">To censure here some causes amongst men,</l>
+            <l xml:id="A03241_19-e102730">And set things crooked upright. </l>
+          </sp>
+          <sp xml:id="A03241_19-e102740" who="A03241_19-juno">
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e102750">Now I spy</l>
+            <l xml:id="A03241_19-e102760">That which hath drawn him headlong from the sky,</l>
+            <l xml:id="A03241_19-e102770">And I will make th' adulterer himself</l>
+            <l xml:id="A03241_19-e102780">Author of my just vengeance. </l>
+          </sp>
+          <sp xml:id="A03241_19-e102790" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e102800">Thou once gone,</l>
+            <stage xml:id="A03241_19-e102810">Spoken aside.</stage>
+            <l xml:id="A03241_19-e102820">We were again transhaped, and we both one. </l>
+            <l xml:id="A03241_19-e102830">Sweet Juno will you once more mount your chariot,</l>
+            <l xml:id="A03241_19-e102840">And keep your state above my designs ended,</l>
+            <l xml:id="A03241_19-e102850">I will not long be from you. </l>
+          </sp>
+          <sp xml:id="A03241_19-e102860" who="A03241_19-juno">
+            <pb facs="89" n="162"/>
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e102870">My craft now</l>
+            <l xml:id="A03241_19-e102880">Shall match his cunning; if there be in me</l>
+            <l xml:id="A03241_19-e102890">A godhead, I have cast her destiny. </l>
+            <l xml:id="A03241_19-e102900">Dear loving lord, since 'twas my kindness drew me</l>
+            <l xml:id="A03241_19-e102910">To see unto your safety (Though I know</l>
+            <l xml:id="A03241_19-e102920">The deities in every place secure)</l>
+            <l xml:id="A03241_19-e102930">Give me some gift on earth, that I in heaven</l>
+            <l xml:id="A03241_19-e102940">May applaud your royal bounty. </l>
+          </sp>
+          <sp xml:id="A03241_19-e102950" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e102960">Be it bred</l>
+            <l xml:id="A03241_19-e102970">Beneath the moon, 'tis my Saturnia's. </l>
+          </sp>
+          <sp xml:id="A03241_19-e102980" who="A03241_19-juno">
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e102990">I have not seen so sweet and lovely a beast</l>
+            <l xml:id="A03241_19-e103000">White without spot or stain; is she of the herd</l>
+            <l xml:id="A03241_19-e103010">Belonging to these meadows? </l>
+          </sp>
+          <sp xml:id="A03241_19-e103020" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e103030">She is, no doubt. </l>
+            <l xml:id="A03241_19-e103040">Why doth my Juno ask? </l>
+          </sp>
+          <sp xml:id="A03241_19-e103050" who="A03241_19-juno">
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e103060">To make her mine. </l>
+          </sp>
+          <sp xml:id="A03241_19-e103070" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e103080">A gift too small for Juno to entreat,</l>
+            <l xml:id="A03241_19-e103090">Or Jove to grant; demand some greater boon. </l>
+          </sp>
+          <sp xml:id="A03241_19-e103100" who="A03241_19-juno">
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e103110">This cow or nothing. </l>
+          </sp>
+          <sp xml:id="A03241_19-e103120" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e103130">She's not for thy use;</l>
+            <l xml:id="A03241_19-e103140">What would my love do with her? </l>
+          </sp>
+          <sp xml:id="A03241_19-e103150" who="A03241_19-juno">
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e103160">Only this,</l>
+            <l xml:id="A03241_19-e103170">(Being above the rest most beautiful)</l>
+            <l xml:id="A03241_19-e103180">To sacrifice her to your deity. </l>
+            <stage xml:id="A03241_19-e103190">(Jupiter starts.)</stage>
+          </sp>
+          <sp xml:id="A03241_19-e103200" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e103210">Not for the triple world: what was it, sweet,</l>
+            <l xml:id="A03241_19-e103220">That you of me demanded? </l>
+          </sp>
+          <sp xml:id="A03241_19-e103230" who="A03241_19-juno">
+            <speaker>Juno.</speaker>
+            <l xml:id="A03241_19-e103240">Now to know</l>
+            <stage xml:id="A03241_19-e103250">(Aside)</stage>
+            <l xml:id="A03241_19-e103260">What put you in this fear? Nay I have begged,</l>
+            <l xml:id="A03241_19-e103270">And must not be denied. And have I found you? </l>
+          </sp>
+          <sp xml:id="A03241_19-e103280" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e103290">In what a straight am I? her to betray,</l>
+            <l xml:id="A03241_19-e103300">And give her up into her enemy's hand,</l>
+            <l xml:id="A03241_19-e103310">In man would prove a savage cruelty,</l>
+            <l xml:id="A03241_19-e103320">Much more in us: and to deny a gift</l>
+            <l xml:id="A03241_19-e103330">Appearing of so small a consequence,</l>
+            <l xml:id="A03241_19-e103340">Would but augment her too much jealousy,</l>
+            <l xml:id="A03241_19-e103350">And open that which is as yet concealed. </l>
+          </sp>
+          <sp xml:id="A03241_19-e103360" who="A03241_19-juno">
+            <pb facs="89" n="163"/>
+            <speaker>Juno.</speaker>
+            <l xml:id="A03241_19-e103370">What hope have I to enjoy greater things,</l>
+            <l xml:id="A03241_19-e103380">That am denied a trifle? </l>
+          </sp>
+          <sp xml:id="A03241_19-e103390" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e103400">Say I will not,</l>
+            <stage xml:id="A03241_19-e103410">(Aside)</stage>
+            <l xml:id="A03241_19-e103420">And give no reason; it may then appear,</l>
+            <l xml:id="A03241_19-e103430">This heifer to be no such as she seems. </l>
+            <l xml:id="A03241_19-e103440">Well, she is yours; but how will you dispose her? </l>
+          </sp>
+          <sp xml:id="A03241_19-e103450" who="A03241_19-juno">
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e103460">So carefully, because she is your gift,</l>
+            <l xml:id="A03241_19-e103470">My servant Argus with a hundred eyes</l>
+            <l xml:id="A03241_19-e103480">Shall guard her from all dangers. </l>
+          </sp>
+          <sp xml:id="A03241_19-e103490" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e103500">'Tis enough,</l>
+            <l xml:id="A03241_19-e103510">In that, to us you shall express your love. </l>
+            <l xml:id="A03241_19-e103520">But prove he to her churlish or unkind,</l>
+            <stage xml:id="A03241_19-e103530">(Aside.</stage>
+            <l xml:id="A03241_19-e103540">There's one, at once his hundred eyes shall blind. </l>
+            <l xml:id="A03241_19-e103550">So, she is now your charge. </l>
+            <stage xml:id="A03241_19-e103560">Exit.</stage>
+          </sp>
+          <sp xml:id="A03241_19-e103570" who="A03241_19-juno">
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e103580">And being mine,</l>
+            <l xml:id="A03241_19-e103590">I'll teach base earth to injure what's divine. </l>
+            <l xml:id="A03241_19-e103600">Where is my servant Argus? </l>
+            <stage xml:id="A03241_19-e103610">Enter Argus with a hundred eyes.</stage>
+          </sp>
+          <sp xml:id="A03241_19-e103620" who="A03241_19-argus">
+            <speaker>Argus.</speaker>
+            <l xml:id="A03241_19-e103630">Who's that calls? </l>
+            <l xml:id="A03241_19-e103640">The sacred goddess Juno? What new service</l>
+            <l xml:id="A03241_19-e103650">Will you command your vassal? </l>
+          </sp>
+          <sp xml:id="A03241_19-e103660" who="A03241_19-juno">
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e103670">Take't in brief;</l>
+            <l xml:id="A03241_19-e103680">Beholdest thou this? This? This no matter what,</l>
+            <l xml:id="A03241_19-e103690">Not worth a name; only a thing I loathe;</l>
+            <l xml:id="A03241_19-e103700">Out on thee: but I'll spare my railing words,</l>
+            <l xml:id="A03241_19-e103710">To express my hate in action. </l>
+          </sp>
+          <sp xml:id="A03241_19-e103720" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e103730">What's the cause</l>
+            <l xml:id="A03241_19-e103740">The poor beast trembles that? </l>
+          </sp>
+          <sp xml:id="A03241_19-e103750" who="A03241_19-juno">
+            <speaker>Jun.</speaker>
+            <l xml:id="A03241_19-e103760">A beast indeed:</l>
+            <l xml:id="A03241_19-e103770">Like such she shall be used; behold her, Argus;</l>
+            <l xml:id="A03241_19-e103780">Are these lips fitting for a god to kiss? </l>
+            <l xml:id="A03241_19-e103790">These hooves apt palms to gripe? these tears fit pillows? </l>
+            <l xml:id="A03241_19-e103800">On which a deity should breast himself? </l>
+            <l xml:id="A03241_19-e103810">These, eyes to tempt? or this an hide to touch? </l>
+            <l xml:id="A03241_19-e103820"><pb facs="90" n="164"/>These horns? (O me) in mine own heraldry</l>
+            <l xml:id="A03241_19-e103830">She mocks me without blushing. </l>
+          </sp>
+          <sp xml:id="A03241_19-e103840" who="A03241_19-argus">
+            <speaker>Argus.</speaker>
+            <l xml:id="A03241_19-e103850">In all this</l>
+            <l xml:id="A03241_19-e103860">How will you use my service? </l>
+          </sp>
+          <sp xml:id="A03241_19-e103870" who="A03241_19-juno">
+            <speaker>Juno.</speaker>
+            <l xml:id="A03241_19-e103880">As a spy:</l>
+            <l xml:id="A03241_19-e103890">An hundred eyes thou hast, of all which number</l>
+            <l xml:id="A03241_19-e103900">I will allow thee two to sleep by turns;</l>
+            <l xml:id="A03241_19-e103910">The rest to watch this strumpet; and of all,</l>
+            <l xml:id="A03241_19-e103920">But two to wink, the rest to gaze at full:</l>
+            <l xml:id="A03241_19-e103930">Behind thee thou hast eyes, both sides, before;</l>
+            <l xml:id="A03241_19-e103940">Which way soe'er thou turnst she's in thy view. </l>
+            <l xml:id="A03241_19-e103950">"A thousand he had need, all piercing bright,</l>
+            <l xml:id="A03241_19-e103960">" to watch a lover from his choice delight. </l>
+          </sp>
+          <sp xml:id="A03241_19-e103970" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e103980">And is this all? </l>
+          </sp>
+          <sp xml:id="A03241_19-e103990" who="A03241_19-juno">
+            <speaker>Juno.</speaker>
+            <l xml:id="A03241_19-e104000">Something I had forgotten:</l>
+            <l xml:id="A03241_19-e104010">Thou art an herdsman, Argus, and thou knowest</l>
+            <l xml:id="A03241_19-e104020">To tame unruly cattle; she is such:</l>
+            <l xml:id="A03241_19-e104030">In some unworthy halter bind her neck,</l>
+            <l xml:id="A03241_19-e104040">For such a beauty the first carcanet. </l>
+            <l xml:id="A03241_19-e104050">Her browsing be the brakes and bitter couch,</l>
+            <l xml:id="A03241_19-e104060">For dainties feed her with the sourest herbs;</l>
+            <l xml:id="A03241_19-e104070">Lead her through briers and brambles, which may scratch</l>
+            <l xml:id="A03241_19-e104080">Her itching skin even till her soft sides bleed,</l>
+            <l xml:id="A03241_19-e104090">Raise up the mud in clear springs when she drinks,</l>
+            <l xml:id="A03241_19-e104100">Keep her from shadow, in the parching sun,</l>
+            <l xml:id="A03241_19-e104110">Till she be stung with horse flies, and the breeze:</l>
+            <l xml:id="A03241_19-e104120">Let her not rest but where the ground's still bare;</l>
+            <l xml:id="A03241_19-e104130">Feather her bed with thistles and sharp thorns;</l>
+            <l xml:id="A03241_19-e104140">And for her footing choose the barren paths</l>
+            <l xml:id="A03241_19-e104150">Strowed with loose pointed flints to gall her hooves. </l>
+            <l xml:id="A03241_19-e104160">Argus' farewell, I leave her to thy trust,</l>
+            <l xml:id="A03241_19-e104170">A sweet revenge for her insatiate lust. </l>
+            <stage xml:id="A03241_19-e104180">Exit.</stage>
+          </sp>
+          <sp xml:id="A03241_19-e104190" who="A03241_19-argus">
+            <speaker>Argus.</speaker>
+            <l xml:id="A03241_19-e104200">Drawing this piece of beast's flesh thus along,</l>
+            <l xml:id="A03241_19-e104210">Methinks I look like Lybian Hercules</l>
+            <l xml:id="A03241_19-e104220">Leading the dog of hell: nay I shall fit her</l>
+            <l xml:id="A03241_19-e104230">According to my charge, and I will keep thee</l>
+            <l xml:id="A03241_19-e104240"><pb facs="90" n="165"/> (Calf with the white face) safe enough from bulling,</l>
+            <l xml:id="A03241_19-e104250">The longest day that I have eye to see. </l>
+            <l xml:id="A03241_19-e104260">What do you hang an arse? Ptrow, come along,</l>
+            <l xml:id="A03241_19-e104270">I'll lead you to bare feeding, and find salads</l>
+            <l xml:id="A03241_19-e104280">To take down your full flanks and these plump cheeks. </l>
+            <l xml:id="A03241_19-e104290">Along, I'll watch thee well enough from shrinking</l>
+            <l xml:id="A03241_19-e104300">Neck out of collar. Nay, on; thou shalt find,</l>
+            <l xml:id="A03241_19-e104310">Though my face from thee, I have eyes behind. </l>
+            <stage xml:id="A03241_19-e104320">Exit.</stage>
+            <stage xml:id="A03241_19-e104330">Enter Inachus the father of Io, Peneus, appidanus, Amphrisus', (All rivers) Daphne, and the other nymphs, etc. </stage>
+          </sp>
+          <sp xml:id="A03241_19-e104340" who="A03241_19-inachus">
+            <speaker>Inachus.</speaker>
+            <l xml:id="A03241_19-e104350">Speak not to me of comfort, jo's lost! </l>
+            <l xml:id="A03241_19-e104360">Had she miscarried on the earth, her body</l>
+            <l xml:id="A03241_19-e104370">Would have given instance of her timeless fate:</l>
+            <l xml:id="A03241_19-e104380">Or had she been by savage beasts devoured,</l>
+            <l xml:id="A03241_19-e104390">Her garments stained with blood would tell her death. </l>
+            <l xml:id="A03241_19-e104400">Had she in mine or these my neighbour floods</l>
+            <l xml:id="A03241_19-e104410">Perished, they would have born her gently up,</l>
+            <l xml:id="A03241_19-e104420">And cast her on some bank for burial. </l>
+          </sp>
+          <sp xml:id="A03241_19-e104430" who="A03241_19-peneus">
+            <speaker>Peneus.</speaker>
+            <l xml:id="A03241_19-e104440">Dear Inachus do not torment yourself,</l>
+            <l xml:id="A03241_19-e104450">Nothing so lost, but may be found at length:</l>
+            <l xml:id="A03241_19-e104460">For having seen no token of her death,</l>
+            <l xml:id="A03241_19-e104470">There's of her life some hope. </l>
+          </sp>
+          <sp xml:id="A03241_19-e104480" who="A03241_19-amphrisus">
+            <speaker>Amphr.</speaker>
+            <l xml:id="A03241_19-e104490">Behold, Amphrisus</l>
+            <l xml:id="A03241_19-e104500">With this your ancient neighbour Appidan,</l>
+            <l xml:id="A03241_19-e104510">Peneus and others, as we moan your loss,</l>
+            <l xml:id="A03241_19-e104520">So in our pity come to comfort you. </l>
+          </sp>
+          <sp xml:id="A03241_19-e104530" who="A03241_19-appidanus">
+            <speaker>Appid.</speaker>
+            <l xml:id="A03241_19-e104540">O, brackish not your waters with your tears,</l>
+            <l xml:id="A03241_19-e104550">That yet run pure and fresh; but be of comfort. </l>
+          </sp>
+          <sp xml:id="A03241_19-e104560" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e104570">In vain you speak of what you cannot give,</l>
+            <l xml:id="A03241_19-e104580">As I in vain lament mine Io's loss. </l>
+            <stage xml:id="A03241_19-e104590">Enter Argus leading in Io.</stage>
+          </sp>
+          <sp xml:id="A03241_19-e104600" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e104610">How now, cursed cow? What, start you at that name? </l>
+            <l xml:id="A03241_19-e104620">I'll make your long horns shorter. </l>
+          </sp>
+          <sp xml:id="A03241_19-e104630" who="A03241_19-juno">
+            <speaker>Jnac.</speaker>
+            <l xml:id="A03241_19-e104640">Io, where? </l>
+            <l xml:id="A03241_19-e104650">If under earth, I'll send my springs in search</l>
+            <l xml:id="A03241_19-e104660">As low as to the centre, io, where? </l>
+            <l xml:id="A03241_19-e104670">If snatched up in the air, like dew exhaled,</l>
+            <l xml:id="A03241_19-e104680"><pb facs="91" n="166"/> with eyes fixed upward I will still thus gaze,</l>
+            <l xml:id="A03241_19-e104690">Till from the bosom of some gentle cloud,</l>
+            <l xml:id="A03241_19-e104700">Thou drop into mine arms. Fair Io, where? </l>
+          </sp>
+          <sp xml:id="A03241_19-e104710" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e104720">I think the beast hath breezes in her tail,</l>
+            <l xml:id="A03241_19-e104730">She cannot keep her still. </l>
+          </sp>
+          <sp xml:id="A03241_19-e104740" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e104750">But stay, what's he</l>
+            <l xml:id="A03241_19-e104760">That leads the fairest heifer tethered fast,</l>
+            <l xml:id="A03241_19-e104770">That e'er drunk of my streams; for Io's sake</l>
+            <l xml:id="A03241_19-e104780">I love all creatures that are beautiful. </l>
+          </sp>
+          <sp xml:id="A03241_19-e104790" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e104800">How now you harlotry? </l>
+          </sp>
+          <sp xml:id="A03241_19-e104810" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e104820">Thou churlish herdsman,</l>
+            <l xml:id="A03241_19-e104830">I know thee, Argus, jealous Juno's spy,</l>
+            <l xml:id="A03241_19-e104840">Why canst thou be so fierce to one so fair? </l>
+          </sp>
+          <sp xml:id="A03241_19-e104850" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e104860">What's that to thee, or any of you all. </l>
+          </sp>
+          <sp xml:id="A03241_19-e104870" who="A03241_19-peneus">
+            <speaker>Pen.</speaker>
+            <l xml:id="A03241_19-e104880">Amongst all creatures nature ever made,</l>
+            <l xml:id="A03241_19-e104890">Some to have native beauty above the rest,</l>
+            <l xml:id="A03241_19-e104900">Commanding soft affection, this is such. </l>
+          </sp>
+          <sp xml:id="A03241_19-e104910" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e104920">With all mine eyes I spy no difference,</l>
+            <l xml:id="A03241_19-e104930">But love all beasts as beasts. </l>
+          </sp>
+          <sp xml:id="A03241_19-e104940" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e104950">The more beast thou. </l>
+          </sp>
+          <sp xml:id="A03241_19-e104960" who="A03241_19-peneus">
+            <speaker>Pen.</speaker>
+            <l xml:id="A03241_19-e104970">But why should this, the fairest of all herds,</l>
+            <l xml:id="A03241_19-e104980">Cast such a piteous moving eye on you,</l>
+            <l xml:id="A03241_19-e104990">As wooing your acquaintance? </l>
+          </sp>
+          <sp xml:id="A03241_19-e105000" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e105010">And 'tis true,</l>
+            <l xml:id="A03241_19-e105020">Where ere I go, her sad eye follows me,</l>
+            <l xml:id="A03241_19-e105030">So she too, did not Argus keep her back:</l>
+            <l xml:id="A03241_19-e105040">See, see, how gently she endures my touch,</l>
+            <l xml:id="A03241_19-e105050">And makes an offer (Had she power) to speak. </l>
+            <l xml:id="A03241_19-e105060">Hear, take these flowers, and now she kissed mine hand,</l>
+            <l xml:id="A03241_19-e105070">Whilst piteous tears drop down her tender cheeks. </l>
+            <l xml:id="A03241_19-e105080">What should I say? poor beast I pity thee,</l>
+            <l xml:id="A03241_19-e105090">And all the good I can do is to grieve,</l>
+            <l xml:id="A03241_19-e105100">Th' haste such a churlish keeper. </l>
+          </sp>
+          <sp xml:id="A03241_19-e105110" who="A03241_19-peneus">
+            <speaker>Pen.</speaker>
+            <l xml:id="A03241_19-e105120">Inachus, I fear</l>
+            <l xml:id="A03241_19-e105130">There's something greater in't. </l>
+          </sp>
+          <sp xml:id="A03241_19-e105140" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e105150">What greater can be,</l>
+            <l xml:id="A03241_19-e105160"><pb facs="91" n="167"/> unless there live some understanding spirit</l>
+            <l xml:id="A03241_19-e105170">In this irrational and savage shape:</l>
+            <l xml:id="A03241_19-e105180">What wouldst thou have, that in this bestial figure</l>
+            <l xml:id="A03241_19-e105190">Beg'st humane pity? what intends she, think you,</l>
+            <l xml:id="A03241_19-e105200">By pawing on the ground? Observe her, brothers,</l>
+            <l xml:id="A03241_19-e105210">It seems she hath writ something in the dust,</l>
+            <l xml:id="A03241_19-e105220">And see, two letters are imprinted fair,</l>
+            <l xml:id="A03241_19-e105230">As if it were my Io's character, and here I read io. </l>
+          </sp>
+          <sp xml:id="A03241_19-e105240" who="A03241_19-peneus">
+            <speaker>Pen.</speaker>
+            <l xml:id="A03241_19-e105250">Io: and see, in every step she hath trod,</l>
+            <l xml:id="A03241_19-e105260">That word impressed. </l>
+          </sp>
+          <sp xml:id="A03241_19-e105270" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e105280">This she? whom I so long in vain have sought,</l>
+            <l xml:id="A03241_19-e105290">Through forests, groves, and mountains, fields and floods? </l>
+            <l xml:id="A03241_19-e105300">This she, whom I in finding shall most lose? </l>
+            <l xml:id="A03241_19-e105310">O miserable wretched Inachus,</l>
+            <l xml:id="A03241_19-e105320">More miserable Io, thus transformed:</l>
+            <l xml:id="A03241_19-e105330">I term thee lovely, till I knew thee such;</l>
+            <l xml:id="A03241_19-e105340">But when thy former beauty I record,</l>
+            <l xml:id="A03241_19-e105350">Thou ugly art, misshaped, and terrible. </l>
+            <l xml:id="A03241_19-e105360">Can the gods suffer this? </l>
+          </sp>
+          <sp xml:id="A03241_19-e105370" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e105380">Leave this your howling. </l>
+            <l xml:id="A03241_19-e105390">Forbear, or in this cord I lead her forth,</l>
+            <l xml:id="A03241_19-e105400">I'll strangle her. Dare not to follow me,</l>
+            <l xml:id="A03241_19-e105410">There's danger in me both ways; she shall perish,</l>
+            <l xml:id="A03241_19-e105420">And you must bleed. Come, minion we will climb</l>
+            <l xml:id="A03241_19-e105430">You craggy mountain top, a prospect fit</l>
+            <l xml:id="A03241_19-e105440">For Argus only, who (Not moving) can</l>
+            <l xml:id="A03241_19-e105450">Behold at once from whence the four winds blow,</l>
+            <l xml:id="A03241_19-e105460">And there with her I'll like a beacon stand,</l>
+            <l xml:id="A03241_19-e105470">To watch and to give warning. Will you drive? </l>
+            <l xml:id="A03241_19-e105480">I say pursue me not, for if you do,</l>
+            <l xml:id="A03241_19-e105490">I'll make her sure, and you repent it too. </l>
+            <l xml:id="A03241_19-e105500">Why ptrow there. </l>
+            <stage xml:id="A03241_19-e105510">(Exeunt Argus and Io.</stage>
+          </sp>
+          <sp xml:id="A03241_19-e105520" who="A03241_19-amphrisus">
+            <speaker>Amph.</speaker>
+            <l xml:id="A03241_19-e105530">With what a piteous action, wailing tongue,</l>
+            <l xml:id="A03241_19-e105540">She gave a loving, but a loath farewell. </l>
+          </sp>
+          <sp xml:id="A03241_19-e105550" who="A03241_19-appidanus">
+            <speaker>Apid.</speaker>
+            <l xml:id="A03241_19-e105560">But that the high powers are not limitable,</l>
+            <l xml:id="A03241_19-e105570">Who would believe this wonder possible. </l>
+          </sp>
+          <sp xml:id="A03241_19-e105580" who="A03241_19-peneus">
+            <pb facs="92" n="168"/>
+            <speaker>Pen.</speaker>
+            <l xml:id="A03241_19-e105590">We must not question what the gods can do,</l>
+            <l xml:id="A03241_19-e105600">Yet in th' extremity of all extremes,</l>
+            <l xml:id="A03241_19-e105610">And worst of bads, despair not, Inachus. </l>
+          </sp>
+          <sp xml:id="A03241_19-e105620" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e105630">How easy 'tis for those that taste not grief,</l>
+            <l xml:id="A03241_19-e105640">Bid others be of comfort. </l>
+          </sp>
+          <sp xml:id="A03241_19-e105650" who="A03241_19-amphrisus">
+            <speaker>Amph.</speaker>
+            <l xml:id="A03241_19-e105660">Reverend sir, —</l>
+          </sp>
+          <sp xml:id="A03241_19-e105670" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e105680">There is no reverence due: not to the gods,</l>
+            <l xml:id="A03241_19-e105690">If this be seen and suffered: oh my Io. </l>
+            <l xml:id="A03241_19-e105700">With acclamations I will fill the meads:</l>
+            <l xml:id="A03241_19-e105710">In stead of prayers, I'll execrate and curse,</l>
+            <l xml:id="A03241_19-e105720">And to the burden of mine untuned shrieks</l>
+            <l xml:id="A03241_19-e105730">The rocks and caves shall echo to thy name. </l>
+          </sp>
+          <sp xml:id="A03241_19-e105740" who="A03241_19-peneus">
+            <speaker>Pen.</speaker>
+            <l xml:id="A03241_19-e105750">But Inachus. —</l>
+          </sp>
+          <sp xml:id="A03241_19-e105760" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e105770">But when your channels swell,</l>
+            <l xml:id="A03241_19-e105780">You can have dams and sluices to discharge</l>
+            <l xml:id="A03241_19-e105790">Superfluous waters, lest your torrents rage;</l>
+            <l xml:id="A03241_19-e105800">And will you bar the conduits of mine eyes</l>
+            <l xml:id="A03241_19-e105810">To ease the flux of my surcharged heart? </l>
+            <l xml:id="A03241_19-e105820">My care was, io, to provide a man</l>
+            <l xml:id="A03241_19-e105830">To be thine husband; but I now must find</l>
+            <l xml:id="A03241_19-e105840">One of the bellowing heard to call me son:</l>
+            <l xml:id="A03241_19-e105850">To have some pretty infant draw thy breast,</l>
+            <l xml:id="A03241_19-e105860">But now must some pied urchin suck thy teats. </l>
+            <l xml:id="A03241_19-e105870">But that I am immortal, and the doors</l>
+            <l xml:id="A03241_19-e105880">And gate to death against me are debarred,</l>
+            <l xml:id="A03241_19-e105890">I'd weep myself to nothing, and this being</l>
+            <l xml:id="A03241_19-e105900">Scatter amongst my floods, that mixed with them,</l>
+            <l xml:id="A03241_19-e105910">They might (In less than drops) amongst their waves,</l>
+            <l xml:id="A03241_19-e105920">Convey me to the all-devouring seas,</l>
+            <l xml:id="A03241_19-e105930">To mix my brine with his, and be so lost;</l>
+            <l xml:id="A03241_19-e105940">And lost, forgotten: but I am still the same,</l>
+            <l xml:id="A03241_19-e105950">And Io, I'll still call upon thy name. </l>
+            <stage xml:id="A03241_19-e105960">Exeunt .</stage>
+            <stage xml:id="A03241_19-e105970">Enter Jupiter and Mercury.</stage>
+          </sp>
+          <sp xml:id="A03241_19-e105980" who="A03241_19-jupiter">
+            <speaker>Iupit.</speaker>
+            <l xml:id="A03241_19-e105990">How am I moved with Inachus exclaims? </l>
+            <l xml:id="A03241_19-e106000">Why are the ears of gods kept open still,</l>
+            <l xml:id="A03241_19-e106010">But first to hear, than pity? hast thou not, Mercury,</l>
+            <l xml:id="A03241_19-e106020"><pb facs="92" n="169"/> seen Io's tears? Perceived her scalding sighs,</l>
+            <l xml:id="A03241_19-e106030">And even thus far heard her suspires and groans,</l>
+            <l xml:id="A03241_19-e106040">Tortured beneath that neatherd churlish groom,</l>
+            <l xml:id="A03241_19-e106050">More savage than the beasts he feeds? </l>
+          </sp>
+          <sp xml:id="A03241_19-e106060" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e106070">I have. </l>
+          </sp>
+          <sp xml:id="A03241_19-e106080" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e106090">How oft hath she, thinking to heave her hands</l>
+            <l xml:id="A03241_19-e106100">For divine pity; when she spied her hooves</l>
+            <l xml:id="A03241_19-e106110">Cast them to th' earth, with them her head with shame,</l>
+            <l xml:id="A03241_19-e106120">And bellowing when she would complain her grief,</l>
+            <l xml:id="A03241_19-e106130">Started at her own sound? </l>
+            <l xml:id="A03241_19-e106140">How oft, when grazing on her father's banks,</l>
+            <l xml:id="A03241_19-e106150">(These fruitful banks on which she used to sport)</l>
+            <l xml:id="A03241_19-e106160">Offering to drink, when in his crystal streams,</l>
+            <l xml:id="A03241_19-e106170">In which so often she with pride hath looked,</l>
+            <l xml:id="A03241_19-e106180">On her white brow, red cheek, and golden curls:</l>
+            <l xml:id="A03241_19-e106190">Now when she spies those lips a god hath kissed,</l>
+            <l xml:id="A03241_19-e106200">Stretched to so vast a wideness, penthoused o'er</l>
+            <l xml:id="A03241_19-e106210">With enlarged nostrils; looking on those eyes,</l>
+            <l xml:id="A03241_19-e106220">(In which 'twas once my sole delight to look)</l>
+            <l xml:id="A03241_19-e106230">To see them broad and glaring; her clear brow</l>
+            <l xml:id="A03241_19-e106240">Late decked with shining jewels, pressed with horns. </l>
+            <l xml:id="A03241_19-e106250">How oft hath she (More frighted than ashamed)</l>
+            <l xml:id="A03241_19-e106260">Thought, from herself, in vain, to hide herself? </l>
+          </sp>
+          <sp xml:id="A03241_19-e106270" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e106280">This can you see? not study how to help? </l>
+          </sp>
+          <sp xml:id="A03241_19-e106290" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e106300">I do, and will, by thine aid, Mercury;</l>
+            <l xml:id="A03241_19-e106310">Hie therefore to the top of Pindus' mount,</l>
+            <l xml:id="A03241_19-e106320">(There Argus keeps his watch) in some disguise;</l>
+            <l xml:id="A03241_19-e106330">Thy caduceus and thy wings laid by,</l>
+            <l xml:id="A03241_19-e106340">Find with the slave some conference, till by cunning</l>
+            <l xml:id="A03241_19-e106350">Thou charmest his waking eyes, and being fast,</l>
+            <l xml:id="A03241_19-e106360">Cut off his head, and with one blow extinguish</l>
+            <l xml:id="A03241_19-e106370">So many lights at once. </l>
+          </sp>
+          <sp xml:id="A03241_19-e106380" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e106390">Great Jove I will:</l>
+            <l xml:id="A03241_19-e106400">But thus conditioned, you will interpose</l>
+            <l xml:id="A03241_19-e106410">Your awful power 'twixt me and Juno's hate. </l>
+          </sp>
+          <sp xml:id="A03241_19-e106420" who="A03241_19-jupiter">
+            <speaker>Iupit.</speaker>
+            <l xml:id="A03241_19-e106430">Presume th' art safe in us. </l>
+          </sp>
+          <sp xml:id="A03241_19-e106440" who="A03241_19-mercury">
+            <pb facs="93" n="170"/>
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e106450">Then Argus dies;</l>
+            <l xml:id="A03241_19-e106460">One fatal stroke shall shut an hundred eyes. </l>
+            <stage xml:id="A03241_19-e106470">Exit</stage>
+            <stage xml:id="A03241_19-e106480">Enter Argus leading Io in an halter. </stage>
+          </sp>
+          <sp xml:id="A03241_19-e106490" who="A03241_19-argus">
+            <speaker>Argus.</speaker>
+            <l xml:id="A03241_19-e106500">How dost thou like thine usage, madam cow? </l>
+            <l xml:id="A03241_19-e106510">Your lodging and your diet? How dost think</l>
+            <l xml:id="A03241_19-e106520">This hempen chain becomes thee? Will you see</l>
+            <l xml:id="A03241_19-e106530">Your sweet face in the river once again? </l>
+            <l xml:id="A03241_19-e106540">Or how doth your fair beastship feel yourself? </l>
+            <l xml:id="A03241_19-e106550">Wouldst thou not have some bulchin from the herd</l>
+            <l xml:id="A03241_19-e106560">To physic thee of this venereal itch? </l>
+            <l xml:id="A03241_19-e106570">If not, I'll see what nettles muddy streams,</l>
+            <l xml:id="A03241_19-e106580">Couchgrass and weeds, thorns, briers, and flints can d●</l>
+            <l xml:id="A03241_19-e106590">These failing, here's a goad to prick your sides. </l>
+            <l xml:id="A03241_19-e106600">If all these medicines will not tame your lust,</l>
+            <l xml:id="A03241_19-e106610">I'll muster new inventions. Nay, I know</l>
+            <l xml:id="A03241_19-e106620">You look for pity, but it lives not here. </l>
+            <l xml:id="A03241_19-e106630">In this high watchtower stand I sentinel,</l>
+            <l xml:id="A03241_19-e106640">To spy who comes and goes. I am made thy guardian,</l>
+            <l xml:id="A03241_19-e106650">I'll guard thee both from danger and from rest;</l>
+            <l xml:id="A03241_19-e106660">'Twas in thy hearing, Juno's late behest. </l>
+            <stage xml:id="A03241_19-e106670">Enter Mercury like a young formal shepherd. </stage>
+          </sp>
+          <sp xml:id="A03241_19-e106680" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e106690">This shape may prove suspectless, and the fittest</l>
+            <l xml:id="A03241_19-e106700">To cloud a godhead in; my plumed hat</l>
+            <l xml:id="A03241_19-e106710">And feathered sandals, by the which I am known,</l>
+            <l xml:id="A03241_19-e106720">I have left at foot of this descending hill:</l>
+            <l xml:id="A03241_19-e106730">My snaky rod I have to this sheephook turned. </l>
+            <l xml:id="A03241_19-e106740">Accommodated thus, to Argus now,</l>
+            <l xml:id="A03241_19-e106750">Aristor's son: behooves him keep good watch,</l>
+            <l xml:id="A03241_19-e106760">Whom Mercury (Jove's son) intends to catch. </l>
+            <l xml:id="A03241_19-e106770">But many-eyes have spied me. </l>
+          </sp>
+          <sp xml:id="A03241_19-e106780" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e106790">How now shepherd,</l>
+            <l xml:id="A03241_19-e106800">There's none who in that simple shape or name</l>
+            <l xml:id="A03241_19-e106810">Needs treason fear. Should any come prepared</l>
+            <l xml:id="A03241_19-e106820">For mischief, I have lights about me shine</l>
+            <l xml:id="A03241_19-e106830">Sufficient to prevent it: but thou seemest</l>
+            <l xml:id="A03241_19-e106840">None of such rank. Come sit by me and talk. </l>
+          </sp>
+          <sp xml:id="A03241_19-e106850" who="A03241_19-mercury">
+            <pb facs="93" n="171"/>
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e106860">The servant to the great Saturnia</l>
+            <l xml:id="A03241_19-e106870">Doth me no common grace. </l>
+          </sp>
+          <sp xml:id="A03241_19-e106880" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e106890">Thou knowest me then? </l>
+          </sp>
+          <sp xml:id="A03241_19-e106900" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e106910">What shepherd but not only knows your name,</l>
+            <l xml:id="A03241_19-e106920">But fears your strength? </l>
+          </sp>
+          <sp xml:id="A03241_19-e106930" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e106940">Nay sit (By me thou'rt safe)</l>
+            <l xml:id="A03241_19-e106950">And tell some pretty tales to make me laugh:</l>
+            <l xml:id="A03241_19-e106960">I have not long been merry. </l>
+          </sp>
+          <sp xml:id="A03241_19-e106970" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e106980">First resolve me;</l>
+            <l xml:id="A03241_19-e106990">Is that fair heifer of some neighbour herd,</l>
+            <l xml:id="A03241_19-e107000">You drag thus in an halter? </l>
+          </sp>
+          <sp xml:id="A03241_19-e107010" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e107020">She's my charge,</l>
+            <l xml:id="A03241_19-e107030">A witty Brute, a most ingenious beast,</l>
+            <l xml:id="A03241_19-e107040">A very apprehensive animal,</l>
+            <l xml:id="A03241_19-e107050">That can do tricks: she hath been taught, I tell thee,</l>
+            <l xml:id="A03241_19-e107060">To write and read. </l>
+          </sp>
+          <sp xml:id="A03241_19-e107070" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e107080">Argus, not possible. </l>
+          </sp>
+          <sp xml:id="A03241_19-e107090" who="A03241_19-argus">
+            <speaker>Argus.</speaker>
+            <l xml:id="A03241_19-e107100">'Tis as I said before: but having her,</l>
+            <l xml:id="A03241_19-e107110">Some pretty tale, I prithee. </l>
+          </sp>
+          <sp xml:id="A03241_19-e107120" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e107130">But what if</l>
+            <l xml:id="A03241_19-e107140">Some goddess should live in this shape disguised,</l>
+            <l xml:id="A03241_19-e107150">To whom you are so churlish. I could tell you</l>
+            <l xml:id="A03241_19-e107160">A story to that end. </l>
+          </sp>
+          <sp xml:id="A03241_19-e107170" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e107180">Such toys I love. </l>
+          </sp>
+          <sp xml:id="A03241_19-e107190" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e107200">Thus the Pierides report: the giants</l>
+            <l xml:id="A03241_19-e107210">Assembled and made war against the gods,</l>
+            <l xml:id="A03241_19-e107220">Heap Ossa upon Pelion, Caucasus</l>
+            <l xml:id="A03241_19-e107230">Upon Parnassus, Pindus above them;</l>
+            <l xml:id="A03241_19-e107240">Hill upon mountain, mountain upon hill,</l>
+            <l xml:id="A03241_19-e107250">Till they had made a scale that reach to heaven. </l>
+            <l xml:id="A03241_19-e107260">The conflict then began: the monstrous Typhon</l>
+            <l xml:id="A03241_19-e107270">Was captain of the giants: of the gods</l>
+            <l xml:id="A03241_19-e107280">Great Jove, archduke. The generals met and fought. </l>
+            <l xml:id="A03241_19-e107290">In brief (To cut off circumstance) the earth</l>
+            <l xml:id="A03241_19-e107300">Prevailed 'gainst heaven. The gods are forced to fly:</l>
+            <l xml:id="A03241_19-e107310">Jove, chased by Typhon into Egypt, changed</l>
+            <l xml:id="A03241_19-e107320"><pb facs="94" n="172"/> himself into a ram: Apollo, frighted,</l>
+            <l xml:id="A03241_19-e107330">Turns to a crow, Bacchus into a goat,</l>
+            <l xml:id="A03241_19-e107340">Juno a cow, Diana to a cat;</l>
+            <l xml:id="A03241_19-e107350">Venus into a fish, and took the sea;</l>
+            <l xml:id="A03241_19-e107360">Mars to a pigmy, lest he should be known:</l>
+            <l xml:id="A03241_19-e107370">And Mercury, surnamed the crafty god,</l>
+            <l xml:id="A03241_19-e107380">Into a fox. </l>
+          </sp>
+          <sp xml:id="A03241_19-e107390" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e107400">A fox? But I would meet</l>
+            <l xml:id="A03241_19-e107410">That craft which could beguile Argus bright eyes. </l>
+            <l xml:id="A03241_19-e107420">Proceed, proceed, good shepherd. </l>
+          </sp>
+          <sp xml:id="A03241_19-e107430" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e107440">Why may not then</l>
+            <l xml:id="A03241_19-e107450">Some goddess be included in this shape? </l>
+          </sp>
+          <sp xml:id="A03241_19-e107460" who="A03241_19-argus">
+            <speaker>Arg</speaker>
+            <l xml:id="A03241_19-e107470">A goddess, sayest thou? think me equal then</l>
+            <l xml:id="A03241_19-e107480">With one of these huge giants, if not greater,</l>
+            <l xml:id="A03241_19-e107490">That have the power and potency to lead</l>
+            <l xml:id="A03241_19-e107500">A godhead in a string. But ha, what music</l>
+            <stage xml:id="A03241_19-e107510">(Music</stage>
+            <l xml:id="A03241_19-e107520">Was that struck up? 'twas sweet and delicate,</l>
+            <l xml:id="A03241_19-e107530">Nor have I heard the like. </l>
+          </sp>
+          <sp xml:id="A03241_19-e107540" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e107550">My fellow shepherds</l>
+            <l xml:id="A03241_19-e107560">Behind that rock (From whence an echo grows)</l>
+            <l xml:id="A03241_19-e107570">For the more grace have chused that place as fittest,</l>
+            <l xml:id="A03241_19-e107580">Pressed to bestow their cunning upon you,</l>
+            <l xml:id="A03241_19-e107590">Whom they have heard, much tired with watching long</l>
+          </sp>
+          <sp xml:id="A03241_19-e107600" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e107610">And shall we have some merry Madrigal</l>
+            <l xml:id="A03241_19-e107620">To pass away the time with? </l>
+          </sp>
+          <sp xml:id="A03241_19-e107630" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e107640">What you please. </l>
+          </sp>
+          <sp xml:id="A03241_19-e107650" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e107660">I fame would know how first these pipes came up</l>
+            <l xml:id="A03241_19-e107670">That make this dainty music? </l>
+          </sp>
+          <sp xml:id="A03241_19-e107680" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e107690">First from pan</l>
+            <l xml:id="A03241_19-e107700">The god of shepherds. In the memory</l>
+            <l xml:id="A03241_19-e107710">Of the nymph Syrinz, music strike and tell,</l>
+            <l xml:id="A03241_19-e107720">How in th' Arcadian plains it once befell. </l>
+            <lg type="song" xml:id="A03241_19-e107730">
+              <head>Mercury's song.</head>
+              <l xml:id="A03241_19-e107740">Syrinx, one of Dian's train,</l>
+              <l xml:id="A03241_19-e107750">Hunting with her on the plain,</l>
+              <l xml:id="A03241_19-e107760">Armed alike with shafts and bow;</l>
+              <l xml:id="A03241_19-e107770"><pb facs="94" n="173"/> each from other would you know? </l>
+              <l xml:id="A03241_19-e107780">Which from which could not be told,</l>
+              <l xml:id="A03241_19-e107790">Save ones was horn, the others gold. </l>
+            </lg>
+          </sp>
+          <sp xml:id="A03241_19-e107800" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e107810">Hey ho; very fine music I promise you. </l>
+          </sp>
+          <sp xml:id="A03241_19-e107820" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e107830">Now it begins to work. </l>
+            <l xml:id="A03241_19-e107840">Pan he sees himself makes fine,</l>
+            <l xml:id="A03241_19-e107850">In his cap he pricks a pine:</l>
+            <l xml:id="A03241_19-e107860">Now grows careless of his herd,</l>
+            <l xml:id="A03241_19-e107870">Sits by brooks to prune his beard,</l>
+            <l xml:id="A03241_19-e107880">Meets her, and hath mind to woo,</l>
+            <l xml:id="A03241_19-e107890">Much he speaks, and more would do. </l>
+          </sp>
+          <sp xml:id="A03241_19-e107900" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e107910">'Tis pleasing, but it makes me melancholy,</l>
+            <l xml:id="A03241_19-e107920">And drowsy too withal. </l>
+          </sp>
+          <sp xml:id="A03241_19-e107930" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e107940">'Twill do anon. </l>
+            <stage xml:id="A03241_19-e107950">( aside .</stage>
+            <l xml:id="A03241_19-e107960">Still he proffers, she denies;</l>
+            <l xml:id="A03241_19-e107970">He pursues (For Syrinx flies.) </l>
+            <l xml:id="A03241_19-e107980">Passed her knees her coats up flew,</l>
+            <l xml:id="A03241_19-e107990">He would fain see something new:</l>
+            <l xml:id="A03241_19-e108000">By the leg and thigh he guessed</l>
+            <l xml:id="A03241_19-e108010">(It seems) the virtue of the rest. </l>
+          </sp>
+          <sp xml:id="A03241_19-e108020" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e108030">Were it not for my charge I'd take a nap. </l>
+          </sp>
+          <sp xml:id="A03241_19-e108040" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e108050">This adds wings unto his pace,</l>
+            <l xml:id="A03241_19-e108060">The goal for which he is in chase. </l>
+            <l xml:id="A03241_19-e108070">She adds feathers to her speed;</l>
+            <l xml:id="A03241_19-e108080">Now it was no more than need. </l>
+            <l xml:id="A03241_19-e108090">Almost caught, alas she cries,</l>
+            <l xml:id="A03241_19-e108100">Some chaste god my shape disguise. </l>
+          </sp>
+          <sp xml:id="A03241_19-e108110" who="A03241_19-argus">
+            <speaker>Arg.</speaker>
+            <l xml:id="A03241_19-e108120">The rest may sleep secure, so I can keep</l>
+            <l xml:id="A03241_19-e108130">But two eyes waking. </l>
+          </sp>
+          <sp xml:id="A03241_19-e108140" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e108150">Here's a charm for them. </l>
+            <l xml:id="A03241_19-e108160">Laedon hears, and girts her round,</l>
+            <l xml:id="A03241_19-e108170">Spies a reed that makes sweet sound:</l>
+            <l xml:id="A03241_19-e108180">Such is Syrinx. Wondering pan</l>
+            <l xml:id="A03241_19-e108190">Puts it to his mouth anon:</l>
+            <l xml:id="A03241_19-e108200">Yet Syrinx thou art mine he said,</l>
+            <l xml:id="A03241_19-e108210">And so of her his first pipe made. </l>
+            <l xml:id="A03241_19-e108220"><pb facs="95" n="174"/>My charm hath taken effect; with these thine eyes</l>
+            <l xml:id="A03241_19-e108230">Take thy last sleep, thou hast not one to see;</l>
+            <l xml:id="A03241_19-e108240">My task is done, and Jo thou now free. </l>
+            <stage xml:id="A03241_19-e108250">(Cuts off his head. Exit.</stage>
+            <stage xml:id="A03241_19-e108260">Enter Juno.</stage>
+          </sp>
+          <sp xml:id="A03241_19-e108270" who="A03241_19-juno">
+            <speaker>Juno.</speaker>
+            <l xml:id="A03241_19-e108280">The dying groans of Argus called down,</l>
+            <l xml:id="A03241_19-e108290">To know what of his lustre is become. </l>
+            <l xml:id="A03241_19-e108300">What, all extinct? and is no memory</l>
+            <l xml:id="A03241_19-e108310">Extant of their known brightness? hath one night</l>
+            <l xml:id="A03241_19-e108320">(Whose nature should be to be proud of stars)</l>
+            <l xml:id="A03241_19-e108330">Shut at one time an hundred? nay at once? </l>
+            <l xml:id="A03241_19-e108340">Should every piece of time deprive so many,</l>
+            <l xml:id="A03241_19-e108350">How shortly would these lights innumerable</l>
+            <l xml:id="A03241_19-e108360">Be vanished into nothing? But dear Argus,</l>
+            <l xml:id="A03241_19-e108370">That all may know thou hadst a loving mistress,</l>
+            <l xml:id="A03241_19-e108380">Grieving thou shouldst thus perish for her sake;</l>
+            <l xml:id="A03241_19-e108390">And that these eyes (Now blind) in after-times</l>
+            <l xml:id="A03241_19-e108400">May give a light to perpetuity,</l>
+            <l xml:id="A03241_19-e108410">And memorize thy name, thy faith and fall,</l>
+            <l xml:id="A03241_19-e108420">Thy hundred eyes (Who waste for Juno slain)</l>
+            <l xml:id="A03241_19-e108430">I will transport into my peacock's train;</l>
+            <l xml:id="A03241_19-e108440">Whilst such a bird hath breeding, and can be,</l>
+            <l xml:id="A03241_19-e108450">Her painted feathers shall remember thee. </l>
+            <stage xml:id="A03241_19-e108460">Enter Jupiter and Mercury.</stage>
+          </sp>
+          <sp xml:id="A03241_19-e108470" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e108480">And whilst an heifer grazeth on the plain,</l>
+            <l xml:id="A03241_19-e108490">Io, her hoof shall still imprint thy name. </l>
+            <l xml:id="A03241_19-e108500">My Juno are we friends? Let her long divorce,</l>
+            <l xml:id="A03241_19-e108510">My fair entreats, with Inachus exclaims</l>
+            <l xml:id="A03241_19-e108520">Invoke thy love and pity, by my life. </l>
+          </sp>
+          <sp xml:id="A03241_19-e108530" who="A03241_19-juno">
+            <speaker>Juno.</speaker>
+            <l xml:id="A03241_19-e108540">You use me like a sister, not a wife,</l>
+            <l xml:id="A03241_19-e108550">My bed is still so empty. </l>
+          </sp>
+          <sp xml:id="A03241_19-e108560" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e108570">Now by Styx,</l>
+            <l xml:id="A03241_19-e108580">An oath no god was ever known to break,</l>
+            <l xml:id="A03241_19-e108590">Sign her release, she shall hereafter be</l>
+            <l xml:id="A03241_19-e108600">To Jove as a mere stranger. </l>
+          </sp>
+          <sp xml:id="A03241_19-e108610" who="A03241_19-juno">
+            <speaker>Juno.</speaker>
+            <l xml:id="A03241_19-e108620">Since by that you swear,</l>
+            <l xml:id="A03241_19-e108630">What's past is lost, it cuts off future fear,</l>
+            <l xml:id="A03241_19-e108640">Saving my quarrel, Mercury, to you. </l>
+          </sp>
+          <sp xml:id="A03241_19-e108650" who="A03241_19-mercury">
+            <pb facs="95" n="175"/>
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e108660">Madam, I did your servant no great wrong,</l>
+            <l xml:id="A03241_19-e108670">Save teaching him to relish a new song. </l>
+          </sp>
+          <sp xml:id="A03241_19-e108680" who="A03241_19-juno">
+            <speaker>Juno</speaker>
+            <l xml:id="A03241_19-e108690">Where jars are mediated, vain it were</l>
+            <l xml:id="A03241_19-e108700">Call injuries in question. As with Jupiter,</l>
+            <l xml:id="A03241_19-e108710">With you we are atoned. </l>
+          </sp>
+          <sp xml:id="A03241_19-e108720" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e108730">Now Mercury,</l>
+            <l xml:id="A03241_19-e108740">Since Juno is appeased, fetch Io hither,</l>
+            <l xml:id="A03241_19-e108750">In her own native beauty, whom we will</l>
+            <l xml:id="A03241_19-e108760">Restore unto her father. </l>
+          </sp>
+          <sp xml:id="A03241_19-e108770" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e108780">Sir I shall. </l>
+            <stage xml:id="A03241_19-e108790">Enter Inachus with the other rivers, etc. </stage>
+          </sp>
+          <sp xml:id="A03241_19-e108800" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e108810">O Jupiter! O Juno! </l>
+          </sp>
+          <sp xml:id="A03241_19-e108820" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e108830">Inachus,</l>
+            <l xml:id="A03241_19-e108840">Surcease exclaims, thy prayers have had access,</l>
+            <l xml:id="A03241_19-e108850">Thy tears been pitied, and thy loss bemoaned;</l>
+            <l xml:id="A03241_19-e108860">Argus is slain, and fair Saturnia pleased,</l>
+            <l xml:id="A03241_19-e108870">And Io to her pristine shape restored. </l>
+            <stage xml:id="A03241_19-e108880">Enter Mercury with Io.</stage>
+          </sp>
+          <sp xml:id="A03241_19-e108890" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e108900">Thanks you immortal gods. </l>
+          </sp>
+          <sp xml:id="A03241_19-e108910" who="A03241_19-mercury">
+            <speaker>Merc.</speaker>
+            <l xml:id="A03241_19-e108920">No sooner was this mighty Queen appeased,</l>
+            <l xml:id="A03241_19-e108930">●t the rough hair dropped from her tender skin,</l>
+            <l xml:id="A03241_19-e108940">Her horns fell off, her eyes appeared to shine</l>
+            <l xml:id="A03241_19-e108950">● a less orb, her mouth and lips contracted</l>
+            <l xml:id="A03241_19-e108960">Both into compass, and their native sweetness,</l>
+            <l xml:id="A03241_19-e108970">Her shoulders are restored, fingers and hands;</l>
+            <l xml:id="A03241_19-e108980">Her parted hoof divided into five,</l>
+            <l xml:id="A03241_19-e108990">Now with two feet contented, for on them</l>
+            <l xml:id="A03241_19-e109000">She straightway stood erect, and of a cow,</l>
+            <l xml:id="A03241_19-e109010">●●ve whiteness, naught retaining, and even yet</l>
+            <l xml:id="A03241_19-e109020">She fears to speak, lest she in stead of words</l>
+            <l xml:id="A03241_19-e109030">Should bellow forth her mind. </l>
+          </sp>
+          <sp xml:id="A03241_19-e109040" who="A03241_19-unassigned">
+            <speaker>〈◊〉.</speaker>
+            <l xml:id="A03241_19-e109050">Yet will I dare</l>
+            <l xml:id="A03241_19-e109060">To give my father greeting. </l>
+          </sp>
+          <sp xml:id="A03241_19-e109070" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e109080">O my child. </l>
+          </sp>
+          <sp xml:id="A03241_19-e109090" who="A03241_19-unassigned">
+            <speaker>〈◊〉.</speaker>
+            <l xml:id="A03241_19-e109100">I am still jealous of that face: what's he</l>
+            <l xml:id="A03241_19-e109110">That makes but a mean sport of wedlock's breach,</l>
+            <l xml:id="A03241_19-e109120"><pb facs="96" n="176"/> but thinks to violate an oath no sin,</l>
+            <l xml:id="A03241_19-e109130">Though calling testates all the Stygian gods? </l>
+            <l xml:id="A03241_19-e109140">Great King and lord, brother and husband too,</l>
+            <l xml:id="A03241_19-e109150">If I be worthy of those attributes</l>
+            <l xml:id="A03241_19-e109160">Yourself have deigned, and all the gods approve,</l>
+            <l xml:id="A03241_19-e109170">Grant me a second boon. </l>
+          </sp>
+          <sp xml:id="A03241_19-e109180" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e109190">For thy remissness</l>
+            <l xml:id="A03241_19-e109200">In Io's late affliction, speak, 'tis granted. </l>
+          </sp>
+          <sp xml:id="A03241_19-e109210" who="A03241_19-juno">
+            <speaker>Juno.</speaker>
+            <l xml:id="A03241_19-e109220">Then from these fields of Tempe banish her,</l>
+            <l xml:id="A03241_19-e109230">As far as into Egypt. </l>
+          </sp>
+          <sp xml:id="A03241_19-e109240" who="A03241_19-inachus">
+            <speaker>Inach.</speaker>
+            <l xml:id="A03241_19-e109250">From her father? </l>
+          </sp>
+          <sp xml:id="A03241_19-e109260" who="A03241_19-jupiter">
+            <speaker>Jup.</speaker>
+            <l xml:id="A03241_19-e109270">Be you pleased,</l>
+            <l xml:id="A03241_19-e109280">And Juno shall, I hope, be satisfied. </l>
+            <l xml:id="A03241_19-e109290">Io, you shall to Egypt be confined,</l>
+            <l xml:id="A03241_19-e109300">Be that your punishment for Juno's hate:</l>
+            <l xml:id="A03241_19-e109310">Which executed you shall taste our love. </l>
+            <l xml:id="A03241_19-e109320">In Egypt held a goddess thou shalt be,</l>
+            <l xml:id="A03241_19-e109330">Adored and worshipped in thine heifers shape;</l>
+            <l xml:id="A03241_19-e109340">Oblations shall be daily offered thee,</l>
+            <l xml:id="A03241_19-e109350">And incense burned to thy divinity,</l>
+            <l xml:id="A03241_19-e109360">And this for ever. Juno, in vain you sorrow,</l>
+            <l xml:id="A03241_19-e109370">Jove's word is past, and cannot be revoked. </l>
+            <l xml:id="A03241_19-e109380">And now with this one maxim we conclude;</l>
+            <l xml:id="A03241_19-e109390">Where lust is punished, though the blood be tainted,</l>
+            <l xml:id="A03241_19-e109400">It (After such long penance) may be sainted. </l>
+            <stage xml:id="A03241_19-e109410">Exeunt</stage>
+          </sp>
+          <trailer xml:id="A03241_19-e109420">Finis.</trailer>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A03241_19"><item xml:id="A03241_19-jupiter" n="31">
+    <seg type="character_name">A03241_19-jupiter</seg>
+    <seg type="speech_count">31</seg>
+  </item>
+  <item xml:id="A03241_19-argus" n="26">
+    <seg type="character_name">A03241_19-argus</seg>
+    <seg type="speech_count">26</seg>
+  </item>
+  <item xml:id="A03241_19-juno" n="24">
+    <seg type="character_name">A03241_19-juno</seg>
+    <seg type="speech_count">24</seg>
+  </item>
+  <item xml:id="A03241_19-mercury" n="22">
+    <seg type="character_name">A03241_19-mercury</seg>
+    <seg type="speech_count">22</seg>
+  </item>
+  <item xml:id="A03241_19-inachus" n="15">
+    <seg type="character_name">A03241_19-inachus</seg>
+    <seg type="speech_count">15</seg>
+  </item>
+  <item xml:id="A03241_19-io" n="11">
+    <seg type="character_name">A03241_19-io</seg>
+    <seg type="speech_count">11</seg>
+  </item>
+  <item xml:id="A03241_19-daphne" n="8">
+    <seg type="character_name">A03241_19-daphne</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A03241_19-peneus" n="7">
+    <seg type="character_name">A03241_19-peneus</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A03241_19-unassigned" n="6">
+    <seg type="character_name">A03241_19-unassigned</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A03241_19-amphrisus" n="3">
+    <seg type="character_name">A03241_19-amphrisus</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+<item xml:id="A03241_19-appidanus" n="2">
+    <seg type="character_name">A03241_19-appidanus</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

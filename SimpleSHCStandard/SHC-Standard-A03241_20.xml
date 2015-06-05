@@ -1,0 +1,991 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Apollo and Daphne<date type="creation_date">1635</date></title>
+        <author>Heywood, Thomas</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A03241_20.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">Pleasant dialogues and dramma's, selected out of Lucian, Erasmus, Textor, Ovid, &amp;c. With sundry emblems extracted from the most elegant Iacobus Catsius. As also certaine elegies, epitaphs, and epithalamions or nuptiall songs; anagrams and acrosticks; with divers speeches (upon severall occasions) spoken to their most excellent Majesties, King Charles, and Queene Mary. With other fancies translated from Beza, Bucanan, and sundry Italian poets. By Thomas Heywood.</title>
+            <author>Heywood, Thomas, d. 1641.</author>
+          </titleStmt>
+          <extent>160 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2006 June (TCP phase 1)</date>
+            <idno type="marc">99839810</idno>
+            <idno type="stc">STC (2nd ed.) 13358.</idno>
+            <idno type="stc">Pforzheimer, II, 482.</idno>
+            <idno type="vid">4265</idno>
+            <idno type="DLPS">A03241</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">Pleasant dialogues and dramma's, selected out of Lucian, Erasmus, Textor, Ovid, &amp;c. With sundry emblems extracted from the most elegant Iacobus Catsius. As also certaine elegies, epitaphs, and epithalamions or nuptiall songs; anagrams and acrosticks; with divers speeches (upon severall occasions) spoken to their most excellent Majesties, King Charles, and Queene Mary. With other fancies translated from Beza, Bucanan, and sundry Italian poets. By Thomas Heywood.</title>
+            <author>Heywood, Thomas, d. 1641.</author>
+            <author>Cats, Jacob, 1577-1660.</author>
+            <author>Erasmus, Desiderius, d. 1536.</author>
+            <author>Lucian,</author>
+            <author>Ovid, 43 B.C.-17 or 18 A.D.</author>
+            <author>Ravisius Textor, Joannes, ca. 1480-1524.</author>
+          </titleStmt>
+          <extent>[16], 284, [20] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by R. O[ulton] for R. H[earne] and are to be sold by Thomas Slater at the Swan in Duck-lane,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1637.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Printer's and publisher's names from STC.</p>
+            </note>
+            <note>
+              <p>The first leaf is blank.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Folger Shakespeare Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:id="A03241_20-e100010">
+    <body xml:id="A03241_20-e100020">
+      <div n="20" type="dialogue" xml:id="A03241_20-e100030">
+        <pb facs="96" n="177"/>
+        <head>Apollo and Daphne.</head>
+        <div type="argument" xml:id="A03241_20-e100040">
+          <head>The argument.</head>
+          <lg xml:id="A03241_20-e100050">
+            <l xml:id="A03241_20-e100060">After many a loving greeting,</l>
+            <l xml:id="A03241_20-e100070">Mars and Venus' point a meeting;</l>
+            <l xml:id="A03241_20-e100080">And that Vulcan might not have</l>
+            <l xml:id="A03241_20-e100090">Least note thereof, they choose a cave</l>
+            <l xml:id="A03241_20-e100100">Obscure and dark, to which they trust,</l>
+            <l xml:id="A03241_20-e100110">Intending there to sate their lust. </l>
+            <l xml:id="A03241_20-e100120">But when themselves most safe they think,</l>
+            <l xml:id="A03241_20-e100130">The rising sun pries through a chink,</l>
+            <l xml:id="A03241_20-e100140">Sees all, and what he sees discovers</l>
+            <l xml:id="A03241_20-e100150">To Vulcan, touching these two lovers. </l>
+          </lg>
+          <lg xml:id="A03241_20-e100160">
+            <l xml:id="A03241_20-e100170">Th' enraged smith taking foul scorn</l>
+            <l xml:id="A03241_20-e100180">To be affronted with the horn,</l>
+            <l xml:id="A03241_20-e100190">Provides for them a subtle gin,</l>
+            <l xml:id="A03241_20-e100200">In hope to take them both therein. </l>
+            <l xml:id="A03241_20-e100210">His plot prevailed, and now being fiery</l>
+            <l xml:id="A03241_20-e100220">In just revenge, by strict inquiry,</l>
+            <l xml:id="A03241_20-e100230">To find where these by custom met,</l>
+            <l xml:id="A03241_20-e100240">He by his art contrives a net,</l>
+            <l xml:id="A03241_20-e100250">More fine than is the spider's thread,</l>
+            <l xml:id="A03241_20-e100260">And yet of wire; which he so spread</l>
+            <l xml:id="A03241_20-e100270">About the place, all things compact</l>
+            <l xml:id="A03241_20-e100280">So well, he took them in the act:</l>
+            <l xml:id="A03241_20-e100290">And then doth all the gods invite,</l>
+            <l xml:id="A03241_20-e100300">Who came at once to view that sight. </l>
+            <l xml:id="A03241_20-e100310"><pb facs="97" n="178"/>Some jeered, some pitied their disgrace,</l>
+            <l xml:id="A03241_20-e100320">One wished himself in Mars his place. </l>
+            <l xml:id="A03241_20-e100330">Tet for all this, the churlish sir</l>
+            <l xml:id="A03241_20-e100340">So kept them that they could not stir. </l>
+            <l xml:id="A03241_20-e100350">Mars chafes and threats, and struggling keeps:</l>
+            <l xml:id="A03241_20-e100360">But Venus' blushes first, then weeps. </l>
+            <l xml:id="A03241_20-e100370">And when the gods could laugh no more,</l>
+            <l xml:id="A03241_20-e100380">Than Vulcan freed them, not before. </l>
+          </lg>
+          <lg xml:id="A03241_20-e100390">
+            <l xml:id="A03241_20-e100400">Now Venus knowing all this done</l>
+            <l xml:id="A03241_20-e100410">Was first discovered by the sun;</l>
+            <l xml:id="A03241_20-e100420">Against him open war proclaims,</l>
+            <l xml:id="A03241_20-e100430">And at him her revenge she aims:</l>
+            <l xml:id="A03241_20-e100440">Cupid she useth as her instrument. </l>
+            <l xml:id="A03241_20-e100450">And that's of our scene the sole argument. </l>
+          </lg>
+        </div>
+        <div type="body_of_dialogue" xml:id="A03241_20-e100460">
+          <stage xml:id="A03241_20-e100470">Enter the river Peneus the father of Daphne, Daphne, Amphrisus and Apidanus two rivers that were suitors un● her; two nymphs attendants on Daphne. </stage>
+          <sp xml:id="A03241_20-e100480" who="A03241_20-peneus">
+            <speaker>Peneus.</speaker>
+            <l xml:id="A03241_20-e100490">Why lovely Daphne, will you lose your youth,</l>
+            <l xml:id="A03241_20-e100500">And let your best hours pass you well you know,</l>
+            <l xml:id="A03241_20-e100510">Beauty's a flower, which not being cropped in time,</l>
+            <l xml:id="A03241_20-e100520">Soon withers on the stalk, and then (Alas)</l>
+            <l xml:id="A03241_20-e100530">Will neither serve for use nor ornament. </l>
+            <l xml:id="A03241_20-e100540">You owe me sweet grandchildren, pretty babes,</l>
+            <l xml:id="A03241_20-e100550">Even for your birth you do: it is a debt</l>
+            <l xml:id="A03241_20-e100560">That I would see discharged: I to my parents</l>
+            <l xml:id="A03241_20-e100570">Paid it in thee; it is a bond stands firm,</l>
+            <l xml:id="A03241_20-e100580">Till cancelled in thy sweet posterity. </l>
+            <l xml:id="A03241_20-e100590">See, I have brought thee suitors, choice ones too,</l>
+            <l xml:id="A03241_20-e100600">Two noble rivers, both residing near,</l>
+            <l xml:id="A03241_20-e100610">Amphrisus, and still-flowing Appidans,</l>
+            <l xml:id="A03241_20-e100620">Young, and of means, both active and of strength</l>
+            <l xml:id="A03241_20-e100630">To wrestle against barrenness, and give</l>
+            <l xml:id="A03241_20-e100640"><pb facs="97" n="179"/> the hug the foil. Being dead, I live in thee:</l>
+            <l xml:id="A03241_20-e100650">Live thou too in thine issue; so successively</l>
+            <l xml:id="A03241_20-e100660">Our line and memory shall never perish,</l>
+            <l xml:id="A03241_20-e100670">But last as long as time. </l>
+          </sp>
+          <sp xml:id="A03241_20-e100680" who="A03241_20-amphrisus">
+            <speaker>Amph.</speaker>
+            <l xml:id="A03241_20-e100690">Your father (Daphne)</l>
+            <l xml:id="A03241_20-e100700">Counsels with judgement, and this argument</l>
+            <l xml:id="A03241_20-e100710">I could by many reasons amplify. </l>
+            <l xml:id="A03241_20-e100720">As, that without succession (One age passed)</l>
+            <l xml:id="A03241_20-e100730">Mankind should cease to be. O what a punishment</l>
+            <l xml:id="A03241_20-e100740">Deserve they from the gods, that would destroy</l>
+            <l xml:id="A03241_20-e100750">So glorious a creation, and to leave</l>
+            <l xml:id="A03241_20-e100760">So wonderful a fabric as the world is,</l>
+            <l xml:id="A03241_20-e100770">To no admirers? </l>
+          </sp>
+          <sp xml:id="A03241_20-e100780" who="A03241_20-appidanus">
+            <speaker>Appid.</speaker>
+            <l xml:id="A03241_20-e100790">Save the plants and beasts;</l>
+            <l xml:id="A03241_20-e100800">And what can they distinguish? </l>
+          </sp>
+          <sp xml:id="A03241_20-e100810" who="A03241_20-unassigned">
+            <speaker>〈◊〉.</speaker>
+            <l xml:id="A03241_20-e100820">Therefore, daughter</l>
+            <l xml:id="A03241_20-e100830">Make use of time: a season being passed,</l>
+            <l xml:id="A03241_20-e100840">Can never be recalled, no, not a month. </l>
+            <l xml:id="A03241_20-e100850">A month? no day, no hour, no minute can:</l>
+            <l xml:id="A03241_20-e100860">Therefore make use of opportunity</l>
+            <l xml:id="A03241_20-e100870">Which throws itself upon thee: but being straightened,</l>
+            <l xml:id="A03241_20-e100880">Will after prove a stranger; the least instant</l>
+            <l xml:id="A03241_20-e100890">By long repentance cannot be redeemed. </l>
+          </sp>
+          <sp xml:id="A03241_20-e100900" who="A03241_20-daphne">
+            <speaker>Daphne.</speaker>
+            <l xml:id="A03241_20-e100910">To you I bow in duty, as to a father;</l>
+            <l xml:id="A03241_20-e100920">And these affront in noble courtesy,</l>
+            <l xml:id="A03241_20-e100930">Not wronging him, to show my breeding base,</l>
+            <l xml:id="A03241_20-e100940">Scoffing your proffered love with womanish scorn. </l>
+            <l xml:id="A03241_20-e100950">His counsels, your persuasions, I commend,</l>
+            <l xml:id="A03241_20-e100960">Knowing both fitting, were they seasonable. </l>
+            <l xml:id="A03241_20-e100970">That maids should love men I am not ignorant,</l>
+            <l xml:id="A03241_20-e100980">Or that the breeding world should still increase;</l>
+            <l xml:id="A03241_20-e100990">What progeny should reach from age to age,</l>
+            <l xml:id="A03241_20-e101000">And that the gods make't a necessity,</l>
+            <l xml:id="A03241_20-e101010">To have all their miraculous works admired:</l>
+            <l xml:id="A03241_20-e101020">All this I know; but</l>
+          </sp>
+          <sp xml:id="A03241_20-e101030" who="A03241_20-unassigned">
+            <speaker>Amph</speaker>
+            <l xml:id="A03241_20-e101040">I'll proceed: but what</l>
+            <l xml:id="A03241_20-e101050"><pb facs="98" n="180"/> can you produce against this? </l>
+          </sp>
+          <sp xml:id="A03241_20-e101060" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e101070">Hear me out:</l>
+            <l xml:id="A03241_20-e101080">But when I in my best considerate thoughts</l>
+            <l xml:id="A03241_20-e101090">Ponder my youth, and what it is to love;</l>
+            <l xml:id="A03241_20-e101100">That vows are ties not easy to be loosed,</l>
+            <l xml:id="A03241_20-e101110">And that the smallest finger can pluck on</l>
+            <l xml:id="A03241_20-e101120">What not the hand and arm can well put off:</l>
+            <l xml:id="A03241_20-e101130">That marriage is a maze, which entered in,</l>
+            <l xml:id="A03241_20-e101140">The line is snatched thence which should guide us out. </l>
+            <l xml:id="A03241_20-e101150">Ere hazard then that unknown labyrinth,</l>
+            <l xml:id="A03241_20-e101160">Much blame me not to pause. </l>
+          </sp>
+          <sp xml:id="A03241_20-e101170" who="A03241_20-peneus">
+            <speaker>Pen.</speaker>
+            <l xml:id="A03241_20-e101180">What needst thou fear? </l>
+            <l xml:id="A03241_20-e101190">Fond timorous girl, did not thy mother this</l>
+            <l xml:id="A03241_20-e101200">Long time before thee? </l>
+          </sp>
+          <sp xml:id="A03241_20-e101210" who="A03241_20-appidanus">
+            <speaker>Appid.</speaker>
+            <l xml:id="A03241_20-e101220">Nay, hereafter too</l>
+            <l xml:id="A03241_20-e101230">May not your daughter do so? </l>
+          </sp>
+          <sp xml:id="A03241_20-e101240" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e101250">I'll resolve you</l>
+            <l xml:id="A03241_20-e101260">That, when I have a daughter of my years,</l>
+            <l xml:id="A03241_20-e101270">And tutored by her mother. </l>
+          </sp>
+          <sp xml:id="A03241_20-e101280" who="A03241_20-amphrisus">
+            <speaker>Amph.</speaker>
+            <l xml:id="A03241_20-e101290">Excellent nymph,</l>
+            <l xml:id="A03241_20-e101300">These are evasions mere unnecessary;</l>
+            <l xml:id="A03241_20-e101310">We know you to be ripe, and ourselves grown,</l>
+            <l xml:id="A03241_20-e101320">Betwixt us is equality in state,</l>
+            <l xml:id="A03241_20-e101330">And parity in years: nor is our course</l>
+            <l xml:id="A03241_20-e101340">Irregular or indirect, we come</l>
+            <l xml:id="A03241_20-e101350">Admitted by your father, as a way</l>
+            <l xml:id="A03241_20-e101360">Plain, and not interdicted: nor is our suit</l>
+            <l xml:id="A03241_20-e101370">So far with cradle it may childish seem;</l>
+            <l xml:id="A03241_20-e101380">Nor so old, to appear decrepit: we are two</l>
+            <l xml:id="A03241_20-e101390">Rivals, yet friends; so you choose one of either,</l>
+            <l xml:id="A03241_20-e101400">Even he that is despised rests satisfied,</l>
+            <l xml:id="A03241_20-e101410">Nor is our love divided. </l>
+          </sp>
+          <sp xml:id="A03241_20-e101420" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e101430">I commend you:</l>
+            <l xml:id="A03241_20-e101440">There is of you less danger, and least fear</l>
+            <l xml:id="A03241_20-e101450">That you should die of love; when both of you</l>
+            <l xml:id="A03241_20-e101460">Come with like premeditation to digest</l>
+            <l xml:id="A03241_20-e101470"><pb facs="98" n="181"/> a rigorous answer. </l>
+          </sp>
+          <sp xml:id="A03241_20-e101480" who="A03241_20-appidanus">
+            <speaker>Appid.</speaker>
+            <l xml:id="A03241_20-e101490">Pray what should we do? </l>
+            <l xml:id="A03241_20-e101500">Our service we have offered equally:</l>
+            <l xml:id="A03241_20-e101510">The world is wide, and if we speed not here,</l>
+            <l xml:id="A03241_20-e101520">We must provide us elsewhere. </l>
+          </sp>
+          <sp xml:id="A03241_20-e101530" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e101540">Worthy friends. </l>
+            <l xml:id="A03241_20-e101550">To be most plain, to me most pleasing is:</l>
+            <l xml:id="A03241_20-e101560">Then take as plain an answer; I confess me</l>
+            <l xml:id="A03241_20-e101570">Weak as I am) unworthy of your love. </l>
+            <l xml:id="A03241_20-e101580">And yet not so low prized, but have been courted</l>
+            <l xml:id="A03241_20-e101590">Both by as great and good. Nor can you blame me,</l>
+            <l xml:id="A03241_20-e101600">If I in adding to your worths, shall spare</l>
+            <l xml:id="A03241_20-e101610">From mine, in the least kind to derogate. </l>
+            <l xml:id="A03241_20-e101620">To you then, as my equals, I entreat;</l>
+            <l xml:id="A03241_20-e101630">Or if you shall deny me, Daphne then</l>
+            <l xml:id="A03241_20-e101640">Proclaims it as her will. I must retire me</l>
+            <l xml:id="A03241_20-e101650">For some few months, in them to meditate</l>
+            <l xml:id="A03241_20-e101660">What marriage is, and truly study man,</l>
+            <l xml:id="A03241_20-e101670">(A book in which I yet have truanted.) </l>
+            <l xml:id="A03241_20-e101680">Now, if I in my more maturity,</l>
+            <l xml:id="A03241_20-e101690">And after some cessation of your suits,</l>
+            <l xml:id="A03241_20-e101700">Can ground this maxim, man is worthy us,</l>
+            <l xml:id="A03241_20-e101710">And we of him; we'll breviate your long motions</l>
+            <l xml:id="A03241_20-e101720">Within a few short terms. </l>
+          </sp>
+          <sp xml:id="A03241_20-e101730" who="A03241_20-amphrisus">
+            <speaker>Amph.</speaker>
+            <l xml:id="A03241_20-e101740">You speak but reason:</l>
+            <l xml:id="A03241_20-e101750">And so long we'll attend you. </l>
+          </sp>
+          <sp xml:id="A03241_20-e101760" who="A03241_20-appidanus">
+            <speaker>Appid.</speaker>
+            <l xml:id="A03241_20-e101770">Most fit, that such as bargain for their lives,</l>
+            <l xml:id="A03241_20-e101780">Should read us o'er and o'er, before they set</l>
+            <l xml:id="A03241_20-e101790">Their hands to that indenture. We are pleased. </l>
+          </sp>
+          <sp xml:id="A03241_20-e101800" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e101810">And I that you are so. Nor can my father</l>
+            <l xml:id="A03241_20-e101820">At this be discontented. </l>
+          </sp>
+          <sp xml:id="A03241_20-e101830" who="A03241_20-unassigned">
+            <speaker>●nach</speaker>
+            <l xml:id="A03241_20-e101840">Not I, child;</l>
+            <l xml:id="A03241_20-e101850">I would not hurry on my joys too fast,</l>
+            <l xml:id="A03241_20-e101860">Having such hope of them. And yet, sweet Daphne,</l>
+            <l xml:id="A03241_20-e101870">The more thou hasts their harvest, the ripe crop</l>
+            <l xml:id="A03241_20-e101880">Shall be to them more welcome. For this time</l>
+            <l xml:id="A03241_20-e101890"><pb facs="99" n="182"/> 'tis best to leave her to her privacy:</l>
+            <l xml:id="A03241_20-e101900">More leisure that she hath to meditate,</l>
+            <l xml:id="A03241_20-e101910">Less time you have in which to be resolved,</l>
+            <l xml:id="A03241_20-e101920">'Twill shorten expectation. </l>
+          </sp>
+          <sp xml:id="A03241_20-e101930" who="A03241_20-amphrisus">
+            <speaker>Amph.</speaker>
+            <l xml:id="A03241_20-e101940">May these hours</l>
+            <l xml:id="A03241_20-e101950">That add unto your years, still as you grow,</l>
+            <l xml:id="A03241_20-e101960">Increase towards us your love. </l>
+          </sp>
+          <sp xml:id="A03241_20-e101970" who="A03241_20-appidanus">
+            <speaker>Appid.</speaker>
+            <l xml:id="A03241_20-e101980">Friend you pray well,</l>
+            <l xml:id="A03241_20-e101990">And in that hope I take a loving leave,</l>
+            <l xml:id="A03241_20-e102000">By kissing your fair hand. </l>
+            <stage xml:id="A03241_20-e102010">Exit.</stage>
+          </sp>
+          <sp xml:id="A03241_20-e102020" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e102030">You understand a courtesy as well,</l>
+            <l xml:id="A03241_20-e102040">Once being done, as she that knows to do't. </l>
+            <l xml:id="A03241_20-e102050">Farewell. Where be my maids? </l>
+          </sp>
+          <sp xml:id="A03241_20-e102060" who="A03241_20-nymph_1">
+            <speaker>1 nymph. </speaker>
+            <l xml:id="A03241_20-e102070">My lady, at hand. </l>
+            <l xml:id="A03241_20-e102080">Daph. Doth either of you know what this love is,</l>
+            <l xml:id="A03241_20-e102090">That men so much affect it? </l>
+          </sp>
+          <sp xml:id="A03241_20-e102100" who="A03241_20-nymph_2">
+            <speaker>2 nymph. </speaker>
+            <l xml:id="A03241_20-e102110">Trust me, not I: I never looked so far into man</l>
+            <l xml:id="A03241_20-e102120">And most sure I am, man never yet entered so far into</l>
+            <l xml:id="A03241_20-e102130">Me, that I should know how to define it. But can you</l>
+            <l xml:id="A03241_20-e102140">Tell the reason why this little god is still portrayed like</l>
+            <l xml:id="A03241_20-e102150">Child? </l>
+          </sp>
+          <sp xml:id="A03241_20-e102160" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e102170">I think, because that dotage which he breeds</l>
+            <l xml:id="A03241_20-e102180">Only belongs to children. 1 nymph. But why naked</l>
+          </sp>
+          <sp xml:id="A03241_20-e102190" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e102200">Either to affright the modest; or to such</l>
+            <l xml:id="A03241_20-e102210">As vow to him, to express their impudence. </l>
+          </sp>
+          <sp xml:id="A03241_20-e102220" who="A03241_20-nymph_2">
+            <speaker>2 nymph. </speaker>
+            <l xml:id="A03241_20-e102230">But why with bow and arrows? </l>
+          </sp>
+          <sp xml:id="A03241_20-e102240" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e102250">That denotes</l>
+            <l xml:id="A03241_20-e102260">Inconstancy, because the shafts of love</l>
+            <l xml:id="A03241_20-e102270">Are ever shot at random. </l>
+          </sp>
+          <sp xml:id="A03241_20-e102280" who="A03241_20-nymph_1">
+            <speaker>1 nymph. </speaker>
+            <l xml:id="A03241_20-e102290">Wherefore hood winked? </l>
+          </sp>
+          <sp xml:id="A03241_20-e102300" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e102310">Howe'er his shafts are aimed, it shows his kind</l>
+            <l xml:id="A03241_20-e102320">Because they strike the eyes of reason blind. </l>
+          </sp>
+          <sp xml:id="A03241_20-e102330" who="A03241_20-nymph_2">
+            <speaker>2 Nymp. </speaker>
+            <l xml:id="A03241_20-e102340">Then am I with love quite out of love, because</l>
+            <l xml:id="A03241_20-e102350">At these years I should be loath to have one to lead ●●</l>
+          </sp>
+          <sp xml:id="A03241_20-e102360" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e102370">Yet do I love the beauty of the spring,</l>
+            <l xml:id="A03241_20-e102380">To listen to the birds, with various lays</l>
+            <l xml:id="A03241_20-e102390"><pb facs="99" n="183"/> to welcome in his coming. I affect</l>
+            <l xml:id="A03241_20-e102400">The pride and warmth of summer, to behold</l>
+            <l xml:id="A03241_20-e102410">Abundant autumn pour his harvest forth</l>
+            <l xml:id="A03241_20-e102420">In plenteous sheaves; to see the presses bleed</l>
+            <l xml:id="A03241_20-e102430">A flowing vintage. But I most admire</l>
+            <l xml:id="A03241_20-e102440">The glory of the sun who comforts these:</l>
+            <l xml:id="A03241_20-e102450">For without him, what were the earth? what heaven? </l>
+            <l xml:id="A03241_20-e102460">If all were darkness, who should then discern</l>
+            <l xml:id="A03241_20-e102470">The lustre of the one or of the other,</l>
+            <l xml:id="A03241_20-e102480">The fresh fertility proudly adorned</l>
+            <l xml:id="A03241_20-e102490">With choice and change of all discoloured flowers? </l>
+            <l xml:id="A03241_20-e102500">More than a cased up jewel, what were beauty,</l>
+            <l xml:id="A03241_20-e102510">Without the sun to give a brightness to 't? </l>
+            <l xml:id="A03241_20-e102520">What's ornament, without the sun to judge it? </l>
+            <l xml:id="A03241_20-e102530">What to be fair or foul, without the sun,</l>
+            <l xml:id="A03241_20-e102540">To censure and distinguish which is best? </l>
+            <l xml:id="A03241_20-e102550">The sun's the deity which I adore. </l>
+            <l xml:id="A03241_20-e102560">Here then upon this verdure cast yourselves,</l>
+            <l xml:id="A03241_20-e102570">And rest a while; not long 'tis ere he will</l>
+            <l xml:id="A03241_20-e102580">In all his glory mount the Eastern hill. </l>
+            <stage xml:id="A03241_20-e102590">They lay themselves down, then enter Venus and Cupid.</stage>
+          </sp>
+          <sp xml:id="A03241_20-e102600" who="A03241_20-venus">
+            <speaker>Venus.</speaker>
+            <l xml:id="A03241_20-e102610">Here on the top of the mount Ericine</l>
+            <l xml:id="A03241_20-e102620">Ambush thyself, (A place sacred to me)</l>
+            <l xml:id="A03241_20-e102630">Where thou mayst boldly front the god of light,</l>
+            <l xml:id="A03241_20-e102640">Who hath by this already chased hence night. </l>
+            <l xml:id="A03241_20-e102650">I'll leave thee now: strike, but strike home, my son,</l>
+            <l xml:id="A03241_20-e102660">I'll in these shades absent me whilst 'tis done. </l>
+          </sp>
+          <sp xml:id="A03241_20-e102670" who="A03241_20-cupid">
+            <speaker>Cupid.</speaker>
+            <l xml:id="A03241_20-e102680">He mocks my bow, but Phoebus soon shall find</l>
+            <l xml:id="A03241_20-e102690">Cupid hath power to strike the sun-god blind. </l>
+            <stage xml:id="A03241_20-e102700">Enter Apollo with his glittering beams. </stage>
+          </sp>
+          <sp xml:id="A03241_20-e102710" who="A03241_20-apollo">
+            <speaker>Apollo.</speaker>
+            <l xml:id="A03241_20-e102720">The stars are frighted from the firmament,</l>
+            <l xml:id="A03241_20-e102730">And at the sight of our illustrious beams</l>
+            <l xml:id="A03241_20-e102740">Darkness unto the black<ref target="s13368.note10.a" xml:id="A03241_20-e102750">Cymmerians</ref> fled. </l>
+            <l xml:id="A03241_20-e102760">Now to our daily progress through the signs. </l>
+            <l xml:id="A03241_20-e102770">But stay, what's he that with our honours, armed,</l>
+            <l xml:id="A03241_20-e102780">(The bow and quiver, proper sole to us)</l>
+            <l xml:id="A03241_20-e102790"><pb facs="100" n="184"/> braves us upon high<ref target="s13368.note10.b" xml:id="A03241_20-e102800">Erix promontory</ref>? </l>
+            <l xml:id="A03241_20-e102810">I know him now, 'tis Paphian Venus' son,</l>
+            <l xml:id="A03241_20-e102820">To whom some fools have vowed a deity. </l>
+            <l xml:id="A03241_20-e102830">I'll know the reason why the bastard brat</l>
+            <l xml:id="A03241_20-e102840">Dares thus assume my trophies. 'morrow Cupid. </l>
+          </sp>
+          <sp xml:id="A03241_20-e102850" who="A03241_20-cupid">
+            <speaker>Cupid.</speaker>
+            <l xml:id="A03241_20-e102860">As much to Phoebus. </l>
+          </sp>
+          <sp xml:id="A03241_20-e102870" who="A03241_20-phoebus">
+            <speaker>Phoeb.</speaker>
+            <l xml:id="A03241_20-e102880">Weak brat resolve me,</l>
+            <l xml:id="A03241_20-e102890">By whose enticement thou hast been so bold</l>
+            <l xml:id="A03241_20-e102900">To take to thee the emblem of my power? </l>
+            <l xml:id="A03241_20-e102910">Is't not sufficient, thou with brainsick toys</l>
+            <l xml:id="A03241_20-e102920">Canst fill the heads of mad men and of fools,</l>
+            <l xml:id="A03241_20-e102930">Who ascribe to thee a godhead, merely usurped? </l>
+            <l xml:id="A03241_20-e102940">But thou must wear my due impresa insculpted,</l>
+            <l xml:id="A03241_20-e102950">And (About thy shoulders) those known ornaments,</l>
+            <l xml:id="A03241_20-e102960">Apollinis insignia? (Apollo's ensigns) </l>
+          </sp>
+          <sp xml:id="A03241_20-e102970" who="A03241_20-cupid">
+            <speaker>Cupid.</speaker>
+            <l xml:id="A03241_20-e102980">And why thine? </l>
+          </sp>
+          <sp xml:id="A03241_20-e102990" who="A03241_20-apollo">
+            <speaker>Apoll.</speaker>
+            <l xml:id="A03241_20-e103000">Because I am styled the god of archery;</l>
+            <l xml:id="A03241_20-e103010">And where I aim I hit, my prey or enemy,</l>
+            <l xml:id="A03241_20-e103020">Kill near or far. The monstrous serpent<ref target="s13368.note10.c" xml:id="A03241_20-e103030">Python</ref></l>
+            <l xml:id="A03241_20-e103040">(Whose bulk being slain, an hundred acres spread)</l>
+            <l xml:id="A03241_20-e103050">Had from this bow his wounds, and I my honours:</l>
+            <l xml:id="A03241_20-e103060">And shall a child boast eminence with me? </l>
+          </sp>
+          <sp xml:id="A03241_20-e103070" who="A03241_20-cupid">
+            <speaker>Cup.</speaker>
+            <l xml:id="A03241_20-e103080">Phoebus, thy bow hath monsters struck to ground,</l>
+            <l xml:id="A03241_20-e103090">But mine hath power the gods themselves to wound,</l>
+            <l xml:id="A03241_20-e103100">Of which thou art not least. Mother he's sped, he shoot</l>
+            <l xml:id="A03241_20-e103110">I have pierced him home with my shafts golden head. </l>
+          </sp>
+          <sp xml:id="A03241_20-e103120" who="A03241_20-venus">
+            <speaker>Ven.</speaker>
+            <l xml:id="A03241_20-e103130">Thou art mine own sweet boy, thy darts never fail</l>
+            <l xml:id="A03241_20-e103140">And now Apollo languish and look pale,</l>
+            <l xml:id="A03241_20-e103150">More wan than did thy sister moon once prove,</l>
+            <l xml:id="A03241_20-e103160">When for<ref target="s13368.note10.d" xml:id="A03241_20-e103170">Endymion</ref> she was sick of love,</l>
+            <l xml:id="A03241_20-e103180">Whilst I laugh and rejoice. Now make all sure,</l>
+            <l xml:id="A03241_20-e103190">And strike fair Daphne whilst she sleeps secure,</l>
+            <l xml:id="A03241_20-e103200">But with contempt and hate. </l>
+          </sp>
+          <sp xml:id="A03241_20-e103210" who="A03241_20-cupid">
+            <speaker>Cup.</speaker>
+            <l xml:id="A03241_20-e103220">My arrow flies,</l>
+            <l xml:id="A03241_20-e103230">And as it hits, sick of disdain she lies. </l>
+            <l xml:id="A03241_20-e103240">Now mother let's away. </l>
+          </sp>
+          <sp xml:id="A03241_20-e103250" who="A03241_20-venus">
+            <pb facs="100" n="185"/>
+            <speaker>Ven.</speaker>
+            <l xml:id="A03241_20-e103260">Phoebus, I divine,</l>
+            <l xml:id="A03241_20-e103270">Thou'it say his shafts can wound as deep as thine. </l>
+            <stage xml:id="A03241_20-e103280">Exit.</stage>
+          </sp>
+          <sp xml:id="A03241_20-e103290" who="A03241_20-apollo">
+            <speaker>Apoll.</speaker>
+            <l xml:id="A03241_20-e103300">What alteration's this I feel? A heat</l>
+            <l xml:id="A03241_20-e103310">Beyond mine own fire, kindled at mine eye. </l>
+            <stage xml:id="A03241_20-e103320">Daphne starts up. </stage>
+          </sp>
+          <sp xml:id="A03241_20-e103330" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e103340">All sleep is still in darkness, yet our souls</l>
+            <l xml:id="A03241_20-e103350">See when our eyes are shut. My breast's in uproar;</l>
+            <l xml:id="A03241_20-e103360">And yet a dream tells me, the morning grey</l>
+            <l xml:id="A03241_20-e103370">Says the sun's up, I shame to look on day. </l>
+          </sp>
+          <sp xml:id="A03241_20-e103380" who="A03241_20-apollo">
+            <speaker>Apoll.</speaker>
+            <l xml:id="A03241_20-e103390">What beauty's this on earth, transpiercing more,</l>
+            <l xml:id="A03241_20-e103400">Than can the beams from my celestial orb? </l>
+          </sp>
+          <sp xml:id="A03241_20-e103410" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e103420">The sun is up; awake: what, shame you not</l>
+            <l xml:id="A03241_20-e103430">That he should find you sleeping? </l>
+          </sp>
+          <sp xml:id="A03241_20-e103440" who="A03241_20-apollo">
+            <speaker>Apol.</speaker>
+            <l xml:id="A03241_20-e103450">Sweet nymph stay. </l>
+          </sp>
+          <sp xml:id="A03241_20-e103460" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e103470">The shades best please me, I in them will play;</l>
+            <l xml:id="A03241_20-e103480">The sun's too hot and sultry. </l>
+          </sp>
+          <sp xml:id="A03241_20-e103490" who="A03241_20-apollo">
+            <speaker>Apol.</speaker>
+            <l xml:id="A03241_20-e103500">I am he</l>
+            <l xml:id="A03241_20-e103510">That measures out the year; and shun you me</l>
+            <l xml:id="A03241_20-e103520">Fairest of thy sex, behold the sun's bright eye,</l>
+            <l xml:id="A03241_20-e103530">That all things sees, by whom you all things spy. </l>
+            <l xml:id="A03241_20-e103540">Will you in everlasting darkness dwell? </l>
+            <l xml:id="A03241_20-e103550">Light is heaven's emblem, and becomes it well:</l>
+            <l xml:id="A03241_20-e103560">Where I appear, I comfort and make glad;</l>
+            <l xml:id="A03241_20-e103570">Be comforted in me, why are you sad? </l>
+            <l xml:id="A03241_20-e103580">Would you in blindness live? these rays of mine</l>
+            <l xml:id="A03241_20-e103590">Give that reflect by which your beauties shine,</l>
+            <l xml:id="A03241_20-e103600">For what are artificial lights? when I</l>
+            <l xml:id="A03241_20-e103610">Appear in fullness they soon faint and die. </l>
+            <l xml:id="A03241_20-e103620">They only put on counterfeits: my rays</l>
+            <l xml:id="A03241_20-e103630">False colours find, and give the true the praise. </l>
+            <l xml:id="A03241_20-e103640">If yours be such, then prove them by my light,</l>
+            <l xml:id="A03241_20-e103650">The world will censure they are pure and right. </l>
+          </sp>
+          <sp xml:id="A03241_20-e103660" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e103670">His piercing beams I never shall endure,</l>
+            <l xml:id="A03241_20-e103680">They sick me of a fatal calenture. </l>
+          </sp>
+          <sp xml:id="A03241_20-e103690" who="A03241_20-apollo">
+            <speaker>Apol.</speaker>
+            <l xml:id="A03241_20-e103700">What are you better to be lovely born,</l>
+            <l xml:id="A03241_20-e103710">If not beheld? What's state, if not observed? </l>
+            <l xml:id="A03241_20-e103720"><pb facs="101" n="186"/>Or wherefore before cottages do we</l>
+            <l xml:id="A03241_20-e103730">Prefer the stately palace, and the sumptuous roof? </l>
+            <l xml:id="A03241_20-e103740">What virtue were in jewels without me? </l>
+            <l xml:id="A03241_20-e103750">Else should they be with pebbles equal prized. </l>
+            <l xml:id="A03241_20-e103760">Wherefore did nature make you with bright eyes,</l>
+            <l xml:id="A03241_20-e103770">Which profit not in night without my beams? </l>
+            <l xml:id="A03241_20-e103780">Why should the rose be red? the lily white? </l>
+            <l xml:id="A03241_20-e103790">The violet purple? and the holly green? </l>
+            <l xml:id="A03241_20-e103800">All these my creatures. But when I decline,</l>
+            <l xml:id="A03241_20-e103810">And night usurps upon the universe,</l>
+            <l xml:id="A03241_20-e103820">Their tincture's not discerned: but white and red</l>
+            <l xml:id="A03241_20-e103830">Which in your peerless cheeks exceed all flowers,</l>
+            <l xml:id="A03241_20-e103840">What lustre bear they? When my beams are gone,</l>
+            <l xml:id="A03241_20-e103850">The fair and foul in darkness seem all one. </l>
+          </sp>
+          <sp xml:id="A03241_20-e103860" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e103870">That darkness doth best please me: let's away,</l>
+            <l xml:id="A03241_20-e103880">My beauty will be sun burned if I stay,</l>
+            <l xml:id="A03241_20-e103890">He'll blast me like an Aethiop. </l>
+            <stage xml:id="A03241_20-e103900">Exit running.</stage>
+          </sp>
+          <sp xml:id="A03241_20-e103910" who="A03241_20-apollo">
+            <speaker>Apol.</speaker>
+            <l xml:id="A03241_20-e103920">Dost thou fly me? </l>
+            <l xml:id="A03241_20-e103930">Love bids me follow, and I must pursue:</l>
+            <l xml:id="A03241_20-e103940">No vault, no cave or cavern so obscure,</l>
+            <l xml:id="A03241_20-e103950">Through which I will not pierce, to find thee out,</l>
+            <l xml:id="A03241_20-e103960">Th' antipodes for ever want my rays:</l>
+            <l xml:id="A03241_20-e103970">To gaze on her, I'll this meridian keep,</l>
+            <l xml:id="A03241_20-e103980">And till attain the saint that I adore,</l>
+            <l xml:id="A03241_20-e103990">Here ever shine, where night shall be no more. </l>
+            <stage xml:id="A03241_20-e104000">Exit.</stage>
+            <stage xml:id="A03241_20-e104010">Enter Venus and Cupid.</stage>
+          </sp>
+          <sp xml:id="A03241_20-e104020" who="A03241_20-venus">
+            <speaker>Venus.</speaker>
+            <l xml:id="A03241_20-e104030">Laugh Cupid, laugh, for I am half revenged,</l>
+            <l xml:id="A03241_20-e104040">And shall ere long be fully, when this blab</l>
+            <l xml:id="A03241_20-e104050">Shall in his course, or too much lag or speed</l>
+            <l xml:id="A03241_20-e104060">Post sometimes, and again run retrograde. </l>
+            <l xml:id="A03241_20-e104070">Where by his too long presence th' earth is scorched,</l>
+            <l xml:id="A03241_20-e104080">Or by his absence th' other world shall freeze:</l>
+            <l xml:id="A03241_20-e104090">And all that lies beneath the moon complain:</l>
+            <l xml:id="A03241_20-e104100">And that the gods at man's request shall call</l>
+            <l xml:id="A03241_20-e104110">Disorder into question. What can then</l>
+            <l xml:id="A03241_20-e104120">Both heaven and earth conclude when this is done,</l>
+            <l xml:id="A03241_20-e104130"><pb facs="101" n="187"/> but this thou didst to avenge me of the sun. </l>
+          </sp>
+          <sp xml:id="A03241_20-e104140" who="A03241_20-cupid">
+            <speaker>Cup.</speaker>
+            <l xml:id="A03241_20-e104150">Will not Mars thank me for't? </l>
+          </sp>
+          <sp xml:id="A03241_20-e104160" who="A03241_20-venus">
+            <speaker>Uen.</speaker>
+            <l xml:id="A03241_20-e104170">And kiss thee too. </l>
+            <l xml:id="A03241_20-e104180">O still by his example punish those</l>
+            <l xml:id="A03241_20-e104190">That shall our sweet adulterate sports disclose. </l>
+            <stage xml:id="A03241_20-e104200">Exeunt.</stage>
+            <stage xml:id="A03241_20-e104210">Enter Daphne flying, and Apollo pursuing her. </stage>
+          </sp>
+          <sp xml:id="A03241_20-e104220" who="A03241_20-apollo">
+            <speaker>Apollo.</speaker>
+            <l xml:id="A03241_20-e104230">Why flies my Daphne, knowing 'tis in vain:</l>
+            <l xml:id="A03241_20-e104240">Love makes me swifter than thy fear can thee. </l>
+          </sp>
+          <sp xml:id="A03241_20-e104250" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e104260">O me, I am so tortured with the sun,</l>
+            <l xml:id="A03241_20-e104270">I hate my very shadow. </l>
+          </sp>
+          <sp xml:id="A03241_20-e104280" who="A03241_20-apollo">
+            <speaker>Apol.</speaker>
+            <l xml:id="A03241_20-e104290">I pursue not</l>
+            <l xml:id="A03241_20-e104300">As eagles, doves do; or the lions, hearts;</l>
+            <l xml:id="A03241_20-e104310">Or wolves, the lamb. Love is my cause of haste:</l>
+            <l xml:id="A03241_20-e104320">Run not so fast, lest thou shouldst trip perhaps,</l>
+            <l xml:id="A03241_20-e104330">And do thyself some damage: the ground's rough,</l>
+            <l xml:id="A03241_20-e104340">Shouldst thou but slide, and I the author on't,</l>
+            <l xml:id="A03241_20-e104350">How much would it offend me? To prevent which,</l>
+            <l xml:id="A03241_20-e104360">Stay but thy haste, and I will slack my speed. </l>
+          </sp>
+          <sp xml:id="A03241_20-e104370" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e104380">I am almost breathless. </l>
+          </sp>
+          <sp xml:id="A03241_20-e104390" who="A03241_20-apollo">
+            <speaker>Apoll.</speaker>
+            <l xml:id="A03241_20-e104400">See, I am no satire,</l>
+            <l xml:id="A03241_20-e104410">Shepherd, or such as live by grazing herds,</l>
+            <l xml:id="A03241_20-e104420">Delphos is mine, Pharos, and Tenedos:</l>
+            <l xml:id="A03241_20-e104430">Thou knowest not who thou fliest, I am Apollo,</l>
+            <l xml:id="A03241_20-e104440">The only god that speaks by oracle:</l>
+            <l xml:id="A03241_20-e104450">Jove is my father, and the Muses nine</l>
+            <l xml:id="A03241_20-e104460">Are all my daughters: I am patron held</l>
+            <l xml:id="A03241_20-e104470">Of numbers, raptures, and sweet poesy. </l>
+            <l xml:id="A03241_20-e104480">My shafts are ever certain where they aim,</l>
+            <l xml:id="A03241_20-e104490">(Yet one more certain, which hath pierced me deep)</l>
+            <l xml:id="A03241_20-e104500">Physic is mine, I first devised that art,</l>
+            <l xml:id="A03241_20-e104510">And could it help me, I were then assured:</l>
+            <l xml:id="A03241_20-e104520">But love is by no simples to be cured. </l>
+          </sp>
+          <sp xml:id="A03241_20-e104530" who="A03241_20-daphne">
+            <speaker>Daph.</speaker>
+            <l xml:id="A03241_20-e104540">O now I am quite spent; help, goddess Juno,</l>
+            <l xml:id="A03241_20-e104550">(Queen of chaste marriage) bright Diana, help</l>
+            <l xml:id="A03241_20-e104560">One of thy true vowed virgins: change my shape,</l>
+            <l xml:id="A03241_20-e104570">That I this hot adulterous sun may scape. </l>
+            <stage xml:id="A03241_20-e104580"><pb facs="102" n="188"/>Sudden music, and she is turned into a laurel tree.</stage>
+            <l xml:id="A03241_20-e104590">Thanks, o ye powers divine: the spheres assent</l>
+            <l xml:id="A03241_20-e104600">To my chaste prayer: your heavenly dooms are just. </l>
+            <l xml:id="A03241_20-e104610">Here grow I fixed against all powers of lust. </l>
+          </sp>
+          <sp xml:id="A03241_20-e104620" who="A03241_20-apollo">
+            <speaker>Apoll.</speaker>
+            <l xml:id="A03241_20-e104630">Strange prodigy! Less hope is in her stay,</l>
+            <l xml:id="A03241_20-e104640">Than in her speed: her body's round encompassed</l>
+            <l xml:id="A03241_20-e104650">With a rough rind, in which her warm heart beats. </l>
+            <l xml:id="A03241_20-e104660">Her hair is all grown upward into boughs,</l>
+            <l xml:id="A03241_20-e104670">Here milk white fingers and her arms advanced</l>
+            <l xml:id="A03241_20-e104680">To great and lesser branches: her fair feet</l>
+            <l xml:id="A03241_20-e104690">But late so swift, fast rooted in the earth:</l>
+            <l xml:id="A03241_20-e104700">And I, whom love late blinded, now may see</l>
+            <l xml:id="A03241_20-e104710">My Daphne turned into a laurel tree. </l>
+            <l xml:id="A03241_20-e104720">Her life still struggles in the churlish bark,</l>
+            <l xml:id="A03241_20-e104730">And from her lips I feel her breath still flow. </l>
+            <l xml:id="A03241_20-e104740">One blessed kiss at parting, but in vain,</l>
+            <l xml:id="A03241_20-e104750">The very tree shrinks from me in disdain. </l>
+            <l xml:id="A03241_20-e104760">And yet in lasting memory of thee</l>
+            <l xml:id="A03241_20-e104770">And of my love, thou shalt be ever mine:</l>
+            <l xml:id="A03241_20-e104780">In all ovations triumphs and rich shows</l>
+            <l xml:id="A03241_20-e104790">The laurel shall engird the conqueror's brows. </l>
+            <l xml:id="A03241_20-e104800">All eminence shall think it graced in thee. </l>
+            <l xml:id="A03241_20-e104810">Poets, the muse's darlings, shall from thee</l>
+            <l xml:id="A03241_20-e104820">Receive their honour, and the best esteemed</l>
+            <l xml:id="A03241_20-e104830">Be crowned laureate, and no excellence</l>
+            <l xml:id="A03241_20-e104840">But have it's noble estimate from hence. </l>
+            <l xml:id="A03241_20-e104850">Emperor's shall prize thy leaves above pure gold:</l>
+            <l xml:id="A03241_20-e104860">For thou shalt ever wait on victory;</l>
+            <l xml:id="A03241_20-e104870">And as my youthful and still unshear hairs</l>
+            <l xml:id="A03241_20-e104880">(Unchanging) of this golden hue are seen,</l>
+            <l xml:id="A03241_20-e104890">So shall the boughs and branches still be green,</l>
+            <l xml:id="A03241_20-e104900">And arm against Jove's lightning. And all these</l>
+            <l xml:id="A03241_20-e104910">Shall be for our sake by the gods approved,</l>
+            <l xml:id="A03241_20-e104920">In memory that Daphne we once loved. </l>
+            <stage xml:id="A03241_20-e104930">Exit.</stage>
+            <stage xml:id="A03241_20-e104940">Enter Aurora attended by the hours.</stage>
+          </sp>
+          <sp xml:id="A03241_20-e104950" who="A03241_20-hour_1">
+            <speaker>1 hour. </speaker>
+            <l xml:id="A03241_20-e104960">How comes it, fair Aurora, we the hours</l>
+            <l xml:id="A03241_20-e104970"><pb facs="102" n="189"/> are thus disturbed? </l>
+          </sp>
+          <sp xml:id="A03241_20-e104980" who="A03241_20-hour_2">
+            <speaker>2 hour. </speaker>
+            <l xml:id="A03241_20-e104990">One halts, whilst th' other runs;</l>
+            <l xml:id="A03241_20-e105000">Sometimes made longer by a many minutes,</l>
+            <l xml:id="A03241_20-e105010">Sometimes not full three quarters? </l>
+          </sp>
+          <sp xml:id="A03241_20-e105020" who="A03241_20-aurora">
+            <speaker>Aurora.</speaker>
+            <l xml:id="A03241_20-e105030">Am not I</l>
+            <l xml:id="A03241_20-e105040">As much distempered, being forced to rise</l>
+            <l xml:id="A03241_20-e105050">So oft before my time? which makes my husband</l>
+            <l xml:id="A03241_20-e105060">Old Tithon jealous (For he bedrid lies)</l>
+            <l xml:id="A03241_20-e105070">I have light on some new love. </l>
+          </sp>
+          <sp xml:id="A03241_20-e105080" who="A03241_20-hour_1">
+            <speaker>1 hour. </speaker>
+            <l xml:id="A03241_20-e105090">All's out of order. </l>
+            <stage xml:id="A03241_20-e105100">Enter the four seasons, spring, summer, autumn, winter.</stage>
+          </sp>
+          <sp xml:id="A03241_20-e105110" who="A03241_20-spring">
+            <speaker>Spring.</speaker>
+            <l xml:id="A03241_20-e105120">How comes this strange confusion rise of late? </l>
+            <l xml:id="A03241_20-e105130">My spring to grow so forward by the sun? </l>
+            <l xml:id="A03241_20-e105140">Summer complains that I usurp on her. </l>
+          </sp>
+          <sp xml:id="A03241_20-e105150" who="A03241_20-summer">
+            <speaker>Summer</speaker>
+            <l xml:id="A03241_20-e105160">As much as I on thee, autumn on me,</l>
+            <l xml:id="A03241_20-e105170">And saith, that in my ripening I include</l>
+            <l xml:id="A03241_20-e105180">His harvest, and so rob him of his due. </l>
+          </sp>
+          <sp xml:id="A03241_20-e105190" who="A03241_20-autumn">
+            <speaker>Autumn</speaker>
+            <l xml:id="A03241_20-e105200">Have I not cause? when thou not only claimest</l>
+            <l xml:id="A03241_20-e105210">The honour of my crop: but frozen winter,</l>
+            <l xml:id="A03241_20-e105220">He keeps a coil too, swearing, I intrude</l>
+            <l xml:id="A03241_20-e105230">Into his bounded limits. </l>
+          </sp>
+          <sp xml:id="A03241_20-e105240" who="A03241_20-winter">
+            <speaker>Winter</speaker>
+            <l xml:id="A03241_20-e105250">This I am sure</l>
+            <l xml:id="A03241_20-e105260">I am curtailed of my right; my snow is melted,</l>
+            <l xml:id="A03241_20-e105270">And hath not time to clothe the mountain tops:</l>
+            <l xml:id="A03241_20-e105280">September is like may, January as June:</l>
+            <l xml:id="A03241_20-e105290">And all my bright and precious icicles</l>
+            <l xml:id="A03241_20-e105300">Melting to nothing: what's the reason trow we? </l>
+          </sp>
+          <sp xml:id="A03241_20-e105310" who="A03241_20-hour_2">
+            <speaker>2 hour. </speaker>
+            <l xml:id="A03241_20-e105320">'Tis the sun's slackness, or his too much speed,</l>
+            <l xml:id="A03241_20-e105330">That breeds all this distraction. </l>
+          </sp>
+          <sp xml:id="A03241_20-e105340" who="A03241_20-hour_1">
+            <speaker>1 hour. </speaker>
+            <l xml:id="A03241_20-e105350">The sun, say you? </l>
+            <l xml:id="A03241_20-e105360">Break he, or not directly keep his day,</l>
+            <l xml:id="A03241_20-e105370">Seasons and hours all out of order stray. </l>
+            <stage xml:id="A03241_20-e105380">Enter day.</stage>
+          </sp>
+          <sp xml:id="A03241_20-e105390" who="A03241_20-summer">
+            <speaker>Som.</speaker>
+            <l xml:id="A03241_20-e105400">Behold her whom you speak of, day, whence come ye? </l>
+          </sp>
+          <sp xml:id="A03241_20-e105410" who="A03241_20-day">
+            <speaker>Day.</speaker>
+            <l xml:id="A03241_20-e105420">I parted now with night, who had been here,</l>
+            <l xml:id="A03241_20-e105430">But that both must not in one place appear. </l>
+          </sp>
+          <sp xml:id="A03241_20-e105440" who="A03241_20-aurora">
+            <pb facs="103" n="190"/>
+            <speaker>Auror.</speaker>
+            <l xml:id="A03241_20-e105450">And what saith she? </l>
+          </sp>
+          <sp xml:id="A03241_20-e105460" who="A03241_20-day">
+            <speaker>Day.</speaker>
+            <l xml:id="A03241_20-e105470">Like you, rails on the sun,</l>
+            <l xml:id="A03241_20-e105480">And saith he doth her wrong: nor blame her, when</l>
+            <l xml:id="A03241_20-e105490">Being full twelve hours, he scarce affords her ten. </l>
+          </sp>
+          <sp xml:id="A03241_20-e105500" who="A03241_20-autumn">
+            <speaker>Autumn.</speaker>
+            <l xml:id="A03241_20-e105510">Day, you are the sun's mistress, hath he not</l>
+            <l xml:id="A03241_20-e105520">Revealed the cause to you? </l>
+          </sp>
+          <sp xml:id="A03241_20-e105530" who="A03241_20-day">
+            <speaker>Day.</speaker>
+            <l xml:id="A03241_20-e105540">No, his known brightness</l>
+            <l xml:id="A03241_20-e105550">Hath unto me been only dark in that. </l>
+            <l xml:id="A03241_20-e105560">Nor am I of his counsel. </l>
+          </sp>
+          <sp xml:id="A03241_20-e105570" who="A03241_20-winter">
+            <speaker>Winter.</speaker>
+            <l xml:id="A03241_20-e105580">Fine world grown,</l>
+            <l xml:id="A03241_20-e105590">When every drunken sexton hath the skill</l>
+            <l xml:id="A03241_20-e105600">To make his giddy clock go truer far</l>
+            <l xml:id="A03241_20-e105610">Than can the best sun dial. </l>
+            <stage xml:id="A03241_20-e105620">Enter Apollo.</stage>
+          </sp>
+          <sp xml:id="A03241_20-e105630" who="A03241_20-apollo">
+            <speaker>Apollo.</speaker>
+            <l xml:id="A03241_20-e105640">What are you</l>
+            <l xml:id="A03241_20-e105650">That murmur thus against our deity? </l>
+            <l xml:id="A03241_20-e105660">Are you not all our creatures? though we give you</l>
+            <l xml:id="A03241_20-e105670">Full sails on earth, do not we steer the helm? </l>
+            <l xml:id="A03241_20-e105680">Disposing you both where and how we please;</l>
+            <l xml:id="A03241_20-e105690">And dare you thus rebel? </l>
+          </sp>
+          <sp xml:id="A03241_20-e105700" who="A03241_20-omnes">
+            <speaker>Omnes.</speaker>
+            <l xml:id="A03241_20-e105710">The god of light</l>
+            <l xml:id="A03241_20-e105720">Is our great lord and sovereign. </l>
+          </sp>
+          <sp xml:id="A03241_20-e105730" who="A03241_20-apollo">
+            <speaker>Apoll.</speaker>
+            <l xml:id="A03241_20-e105740">This submission</l>
+            <l xml:id="A03241_20-e105750">Hath somewhat calmed us: had you still stood out,</l>
+            <l xml:id="A03241_20-e105760">Disorder, we had to confusion turned,</l>
+            <l xml:id="A03241_20-e105770">And so you all been ruined. But henceforth</l>
+            <l xml:id="A03241_20-e105780">Morning shall keep her hour, hours measure day,</l>
+            <l xml:id="A03241_20-e105790">In a true scope the day proportion weeks,</l>
+            <l xml:id="A03241_20-e105800">Weeks, months; months, seasons; to sum up the year. </l>
+            <l xml:id="A03241_20-e105810">And we our course in that, perfecting time:</l>
+            <l xml:id="A03241_20-e105820">That nothing in this concordance appear</l>
+            <l xml:id="A03241_20-e105830">Either preposterous or unseasonable. </l>
+            <l xml:id="A03241_20-e105840">For which our grace, wherever you shall find</l>
+            <l xml:id="A03241_20-e105850">This new sprung laurel, you Aurora I charge,</l>
+            <l xml:id="A03241_20-e105860">With your moist tears bathe her green tender boughs:</l>
+            <l xml:id="A03241_20-e105870">From whence I will exhale them with my beams. </l>
+            <l xml:id="A03241_20-e105880"><pb facs="103" n="191"/>Hours, do you wait upon her gentle growth. </l>
+            <l xml:id="A03241_20-e105890">Day comfort her: Ver cheer her with thy spring. </l>
+            <l xml:id="A03241_20-e105900">Thou summer give her warmth: and autumn, thou</l>
+            <l xml:id="A03241_20-e105910">Dare not to spoil her of her plenteous leaves:</l>
+            <l xml:id="A03241_20-e105920">Nor winter thou with thy robustuous gusts,</l>
+            <l xml:id="A03241_20-e105930">To blast her lasting verdure. These observed,</l>
+            <l xml:id="A03241_20-e105940">Still flourish under us. And that this unity</l>
+            <l xml:id="A03241_20-e105950">May last amongst you many fortunate years,</l>
+            <l xml:id="A03241_20-e105960">End in a hymn tuned to the chiming spheres. </l>
+            <lg type="song" xml:id="A03241_20-e105970">
+              <head>The song.</head>
+              <lg xml:id="A03241_20-e105980">
+                <l xml:id="A03241_20-e105990">Howsoe'er the minutes go,</l>
+                <l xml:id="A03241_20-e106000">Run the hours or swift or slow:</l>
+                <l xml:id="A03241_20-e106010">Seem the months or short or long,</l>
+                <l xml:id="A03241_20-e106020">Pass the seasons right or wrong:</l>
+                <l xml:id="A03241_20-e106030">All we sing that Phoebus follow,</l>
+                <l xml:id="A03241_20-e106040">Semel in anno ridet Apollo. </l>
+              </lg>
+              <lg xml:id="A03241_20-e106050">
+                <l xml:id="A03241_20-e106060">Early fall the spring or not,</l>
+                <l xml:id="A03241_20-e106070">Prove the summer cold or hot:</l>
+                <l xml:id="A03241_20-e106080">Autumn be it fair or foul,</l>
+                <l xml:id="A03241_20-e106090">Let the winter smile or scowl:</l>
+                <l xml:id="A03241_20-e106100">Still we sing, that Phoebus follow,</l>
+                <l xml:id="A03241_20-e106110">Semel in anno ridet Apollo. </l>
+              </lg>
+            </lg>
+          </sp>
+          <trailer xml:id="A03241_20-e106120">Finis.</trailer>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A03241_20"><item xml:id="A03241_20-daphne" n="20">
+    <seg type="character_name">A03241_20-daphne</seg>
+    <seg type="speech_count">20</seg>
+  </item>
+  <item xml:id="A03241_20-apollo" n="14">
+    <seg type="character_name">A03241_20-apollo</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A03241_20-cupid" n="6">
+    <seg type="character_name">A03241_20-cupid</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A03241_20-venus" n="5">
+    <seg type="character_name">A03241_20-venus</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A03241_20-appidanus" n="5">
+    <seg type="character_name">A03241_20-appidanus</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A03241_20-amphrisus" n="4">
+    <seg type="character_name">A03241_20-amphrisus</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A03241_20-nymph_2" n="3">
+    <seg type="character_name">A03241_20-nymph_2</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A03241_20-day" n="3">
+    <seg type="character_name">A03241_20-day</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A03241_20-unassigned" n="3">
+    <seg type="character_name">A03241_20-unassigned</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A03241_20-hour_1" n="3">
+    <seg type="character_name">A03241_20-hour_1</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A03241_20-winter" n="2">
+    <seg type="character_name">A03241_20-winter</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A03241_20-aurora" n="2">
+    <seg type="character_name">A03241_20-aurora</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A03241_20-peneus" n="2">
+    <seg type="character_name">A03241_20-peneus</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A03241_20-hour_2" n="2">
+    <seg type="character_name">A03241_20-hour_2</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A03241_20-nymph_1" n="2">
+    <seg type="character_name">A03241_20-nymph_1</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A03241_20-autumn" n="2">
+    <seg type="character_name">A03241_20-autumn</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A03241_20-summer" n="2">
+    <seg type="character_name">A03241_20-summer</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A03241_20-phoebus" n="1">
+    <seg type="character_name">A03241_20-phoebus</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A03241_20-omnes" n="1">
+    <seg type="character_name">A03241_20-omnes</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A03241_20-spring" n="1">
+    <seg type="character_name">A03241_20-spring</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+</list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

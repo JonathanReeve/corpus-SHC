@@ -1,0 +1,2711 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A07009">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dr. Faustus<date type="creation_date">1588</date></title>
+        <author>Marlowe, Christopher</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A07009.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The tragicall history of D. Faustus. As it hath bene acted by the right honorable the Earle of Nottingham his seruants. Written by Ch. Marl.</title>
+            <author>Marlowe, Christopher, 1564-1593.</author>
+          </titleStmt>
+          <extent>23 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2004 November (TCP phase 1)</date>
+            <idno type="marc">99855372</idno>
+            <idno type="stc">STC (2nd ed.) 17429.</idno>
+            <idno type="stc">Greg, I, 205(a).</idno>
+            <idno type="vid">20862</idno>
+            <idno type="DLPS">A07009</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The tragicall history of D. Faustus. As it hath bene acted by the right honorable the Earle of Nottingham his seruants. Written by Ch. Marl.</title>
+            <title type="alt">Doctor Faustus</title>
+            <title type="alt">Doctor Faustus.</title>
+            <title type="alt">Tragicall history of Doctor Faustus.</title>
+            <author>Marlowe, Christopher, 1564-1593.</author>
+          </titleStmt>
+          <extent>[46] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by V. S[immes] for Thomas Bushell,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1604.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Ch. Marl. = Christopher Marlowe.</p>
+            </note>
+            <note>
+              <p>Printer's name from STC.</p>
+            </note>
+            <note>
+              <p>Signatures: A-F4 (-F4).</p>
+            </note>
+            <note>
+              <p>Running title reads: The tragicall history of Doctor Faustus.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Bodleian Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A07009-e100010">
+    <front xml:id="A07009-e100020">
+      <div type="title_page" xml:id="A07009-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A07009-e100040">The tragical history of D. Faustus.</p>
+        <p xml:id="A07009-e100050">As it hath been acted by the right honourable the Earl of Nottingham his servants.</p>
+        <p xml:id="A07009-e100060">Written by Ch. Marl</p>
+        <p xml:id="A07009-e100070">London printed by v. s. for Thomas bushel. 1604.</p>
+      </div>
+    </front>
+    <body xml:id="A07009-e100080">
+      <div type="play" xml:id="A07009-e100090">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The tragical history of doctor Faustus.</head>
+        <stage xml:id="A07009-e100100">Enter</stage>
+        <sp xml:id="A07009-e100110" who="A07009-chorus">
+          <speaker>Chorus.</speaker>
+          <l xml:id="A07009-e100120">Not marching now in fields of Thrasimene,</l>
+          <l xml:id="A07009-e100130">Where Mars did mate the Carthaginians,</l>
+          <l xml:id="A07009-e100140">Nor sporting in the dalliance of love,</l>
+          <l xml:id="A07009-e100150">In courts of Kings where state is overturned,</l>
+          <l xml:id="A07009-e100160">Nor in the pomp of proud audacious deeds,</l>
+          <l xml:id="A07009-e100170">Intends our muse to daunt his heavenly verse:</l>
+          <l xml:id="A07009-e100180">Only this (Gentlemen) we must perform,</l>
+          <l xml:id="A07009-e100190">The form of Faustus fortunes good or bad. </l>
+          <l xml:id="A07009-e100200">To patient judgements we appeal our plaude,</l>
+          <l xml:id="A07009-e100210">And speak for Faustus in his infancy:</l>
+          <l xml:id="A07009-e100220">Now is he born, his parents base of stock,</l>
+          <l xml:id="A07009-e100230">In Germany, within a town called Rhodes:</l>
+          <l xml:id="A07009-e100240">Of riper years to Wertenberg he went,</l>
+          <l xml:id="A07009-e100250">Whereas his kinsmen chiefly brought him up,</l>
+          <l xml:id="A07009-e100260">So soon he profits in divinity,</l>
+          <l xml:id="A07009-e100270">The fruitful plot of scholarism graced,</l>
+          <l xml:id="A07009-e100280">That shortly he was graced with doctor's name,</l>
+          <l xml:id="A07009-e100290">Excelling all, whose sweet delight disputes</l>
+          <l xml:id="A07009-e100300">In heavenly matters of theology,</l>
+          <l xml:id="A07009-e100310">Till swollen with cunning of a self conceit,</l>
+          <l xml:id="A07009-e100320">His waxen wings did mount above his reach,</l>
+          <l xml:id="A07009-e100330">And melting heavens conspire his overthrow. </l>
+          <l xml:id="A07009-e100340">For falling to a devilish exercise,</l>
+          <l xml:id="A07009-e100350">And glutted more with learning's golden gifts,</l>
+          <l xml:id="A07009-e100360"><pb facs="3"/> he surfeits upon cursed negromancy ▪</l>
+          <l xml:id="A07009-e100370">Nothing so sweet as magic is to him</l>
+          <l xml:id="A07009-e100380">Which he prefers before his chiefest bliss,</l>
+          <l xml:id="A07009-e100390">And this the man that in his study sits. </l>
+        </sp>
+        <stage xml:id="A07009-e100400">Exit.</stage>
+        <stage xml:id="A07009-e100410">Enter Faustus in his study.</stage>
+        <sp xml:id="A07009-e100420" who="A07009-faustus">
+          <speaker>Faustus</speaker>
+          <l xml:id="A07009-e100430">Settle thy studies Faustus, and begin</l>
+          <l xml:id="A07009-e100440">To sound the depth of that thou wilt profess:</l>
+          <l xml:id="A07009-e100450">Having commenced, be a divine in show,</l>
+          <l xml:id="A07009-e100460">Yet level at the end of every art,</l>
+          <l xml:id="A07009-e100470">And live and die in Aristotle's works:</l>
+          <l xml:id="A07009-e100480">Sweet anulatikes 'tis thou hast ravished me,</l>
+          <l xml:id="A07009-e100490">Bene disserere est finis logicis ▪</l>
+          <l xml:id="A07009-e100500">Is, to dispute well, logic's chiefest end</l>
+          <l xml:id="A07009-e100510">Affords this art no greater miracle:</l>
+          <l xml:id="A07009-e100520">Then read no more, thou hast attained the end:</l>
+          <l xml:id="A07009-e100530">A greater subject fitteth Faustus' wit,</l>
+          <l xml:id="A07009-e100540">Bid Oncaymaeon farewell, Galen come:</l>
+          <l xml:id="A07009-e100550">Seeing, ubi desinit philosophus, ibi incipit medicus. </l>
+          <l xml:id="A07009-e100560">Be a physician Faustus, heap up gold,</l>
+          <l xml:id="A07009-e100570">And be eternized for some wondrous cure,</l>
+          <l xml:id="A07009-e100580">Summum bonum medicinae sanitas,</l>
+          <l xml:id="A07009-e100590">The end of physic is our body's health:</l>
+          <l xml:id="A07009-e100600">Why Faustus, hast thou not attained that end? </l>
+          <l xml:id="A07009-e100610">Is not thy common talk sound aphorisms? </l>
+          <l xml:id="A07009-e100620">Are not thy bills hung up as monuments,</l>
+          <l xml:id="A07009-e100630">Whereby whole cities have escaped the plague,</l>
+          <l xml:id="A07009-e100640">And thousand desperate maladies been eased,</l>
+          <l xml:id="A07009-e100650">Yet art thou still but Faustus, and a man.</l>
+          <l xml:id="A07009-e100660">Wouldst thou make man to live eternally? </l>
+          <l xml:id="A07009-e100670">Or being dead, raise them to life again? </l>
+          <l xml:id="A07009-e100680">Then this profession were to be esteemed. </l>
+          <l xml:id="A07009-e100690">Physic farewell, where is Justinian? </l>
+          <l xml:id="A07009-e100700">Si 〈…〉 res legatus dvobus,</l>
+          <l xml:id="A07009-e100710">Alter remembering alter valorem rei, etc. </l>
+          <l xml:id="A07009-e100720">A pretty case of paltry legacies:</l>
+          <l xml:id="A07009-e100730">Ex 〈…〉 nisi:</l>
+          <l xml:id="A07009-e100740">Such is the subject of the institute</l>
+          <l xml:id="A07009-e100750"><pb facs="3"/> and universal body of the church:</l>
+          <l xml:id="A07009-e100760">His study fits a mercenary drudge,</l>
+          <l xml:id="A07009-e100770">Who aims at nothing but external trash,</l>
+          <l xml:id="A07009-e100780">The devil and illiberal for me:</l>
+          <l xml:id="A07009-e100790">When all is done, divinity is best. </l>
+          <l xml:id="A07009-e100800">Jerome's bible, Faustus, view it well. </l>
+          <l xml:id="A07009-e100810">Stipendium peccati mors est: ha, stipendium, etc. </l>
+          <l xml:id="A07009-e100820">The reward of sin is death: that's hard. </l>
+          <l xml:id="A07009-e100830">Si peccasse negamus, fallimur, et nulla est in nobis veritas. </l>
+          <l xml:id="A07009-e100840">If we say that we have no sin,</l>
+          <l xml:id="A07009-e100850">We deceive ourselves, and there's no truth in us.</l>
+          <l xml:id="A07009-e100860">Why then belike we must sin,</l>
+          <l xml:id="A07009-e100870">And so consequently die. </l>
+          <l xml:id="A07009-e100880">Ay, we must die an everlasting death:</l>
+          <l xml:id="A07009-e100890">What doctrine call you this, che sera, sera,</l>
+          <l xml:id="A07009-e100900">What will be, shall be? Divinity, adieu,</l>
+          <l xml:id="A07009-e100910">These metaphysics of magicians,</l>
+          <l xml:id="A07009-e100920">And necromantic books are heavenly</l>
+          <l xml:id="A07009-e100930">Lines, circles, scenes, letters and characters:</l>
+          <l xml:id="A07009-e100940">Ay, these are those that Faustus most desires. </l>
+          <l xml:id="A07009-e100950">O what a world of profit and delight,</l>
+          <l xml:id="A07009-e100960">Of power, of honour, of omnipotence</l>
+          <l xml:id="A07009-e100970">Is promised to the studious artisan? </l>
+          <l xml:id="A07009-e100980">All things that move between the quiet poles</l>
+          <l xml:id="A07009-e100990">Shall be at my command. Emperors and Kings,</l>
+          <l xml:id="A07009-e101000">Are but obeyed in their several provinces:</l>
+          <l xml:id="A07009-e101010">Nor can they raise the wind, or rend the clouds:</l>
+          <l xml:id="A07009-e101020">But his dominion that exceeds in this,</l>
+          <l xml:id="A07009-e101030">Stretcheth as far as doth the mind of man. </l>
+          <l xml:id="A07009-e101040">A sound magician is a mighty god:</l>
+          <l xml:id="A07009-e101050">Here Faustus try thy brains to gain a deity. </l>
+          <stage xml:id="A07009-e101060">Enter Wagner.</stage>
+          <l xml:id="A07009-e101070">Wagner, commend me to my dearest friends,</l>
+          <l xml:id="A07009-e101080">The German Valdes, and Cornelius,</l>
+          <l xml:id="A07009-e101090">Request them earnestly to visit me. </l>
+        </sp>
+        <sp xml:id="A07009-e101100" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <l xml:id="A07009-e101110">I will sir. </l>
+        </sp>
+        <stage xml:id="A07009-e101120">Exit.</stage>
+        <sp xml:id="A07009-e101130" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e101140">Their conference will be a greater help to me,</l>
+          <l xml:id="A07009-e101150"><pb facs="4"/> than all my labours, plod I ne'er so fast. </l>
+        </sp>
+        <stage xml:id="A07009-e101160">Enter the good angel and the evil angel.</stage>
+        <sp xml:id="A07009-e101170" who="A07009-good_angel">
+          <speaker>Good A.</speaker>
+          <l xml:id="A07009-e101180">O Faustus, lay that damned book aside,</l>
+          <l xml:id="A07009-e101190">And gaze not on it, lest it tempt thy soul,</l>
+          <l xml:id="A07009-e101200">And heap gods heavy wrath upon thy head,</l>
+          <l xml:id="A07009-e101210">Read, read the scriptures, that is blasphemy. </l>
+        </sp>
+        <sp xml:id="A07009-e101220" who="A07009-evil_angel">
+          <speaker>Evil An.</speaker>
+          <l xml:id="A07009-e101230">Go forward Faustus in that famous art,</l>
+          <l xml:id="A07009-e101240">Wherein all nature's treasury is contained:</l>
+          <l xml:id="A07009-e101250">Be thou on earth as Jove is in the sky,</l>
+          <l xml:id="A07009-e101260">Lord and commander of these elements. </l>
+        </sp>
+        <stage xml:id="A07009-e101270">Exeunt.</stage>
+        <sp xml:id="A07009-e101280" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e101290">How am I glutted with conceit of this? </l>
+          <l xml:id="A07009-e101300">Shall I make spirits fetch me what I please,</l>
+          <l xml:id="A07009-e101310">Resolve me of all ambiguities,</l>
+          <l xml:id="A07009-e101320">Perform what desperate enterprise I will? </l>
+          <l xml:id="A07009-e101330">I'll have them fly to India for gold,</l>
+          <l xml:id="A07009-e101340">Ransack the ocean for orient pearl,</l>
+          <l xml:id="A07009-e101350">And search all corners of the new found world</l>
+          <l xml:id="A07009-e101360">For pleasant fruits and princely delicates:</l>
+          <l xml:id="A07009-e101370">I'll have them read me strange philosophy,</l>
+          <l xml:id="A07009-e101380">And tell the secrets of all foreign Kings,</l>
+          <l xml:id="A07009-e101390">I'll have them wall all Jermany with brass,</l>
+          <l xml:id="A07009-e101400">And make swift Rhine circle fair Wertenberg,</l>
+          <l xml:id="A07009-e101410">I'll have them fill the public schools with skill. </l>
+          <l xml:id="A07009-e101420">Wherewith the students shall be bravely clad:</l>
+          <l xml:id="A07009-e101430">I'll levy soldiers with the coin they bring,</l>
+          <l xml:id="A07009-e101440">And chase the prince of Parma from our land,</l>
+          <l xml:id="A07009-e101450">And reign sole King of all our provinces:</l>
+          <l xml:id="A07009-e101460">Yea stranger engines for the brunt of war,</l>
+          <l xml:id="A07009-e101470">Then was the fiery keel at Antwerps bridge,</l>
+          <l xml:id="A07009-e101480">I'll make my servile spirits to invent:</l>
+          <l xml:id="A07009-e101490">Come German Valdes and Cornelius,</l>
+          <l xml:id="A07009-e101500">And make me blessed with your sage conference,</l>
+          <l xml:id="A07009-e101510">Valdes, sweet Valdes, and Cornelius,</l>
+          <stage xml:id="A07009-e101520">Enter Valdes and Cornelius.</stage>
+          <l xml:id="A07009-e101530">Know that your words have won me at the last,</l>
+          <l xml:id="A07009-e101540"><pb facs="4"/> to practise magic and concealed arts:</l>
+          <l xml:id="A07009-e101550">Yet not your words only, but mine own fantasy,</l>
+          <l xml:id="A07009-e101560">That will receive no object for my head,</l>
+          <l xml:id="A07009-e101570">But ruminates on negromatic skill,</l>
+          <l xml:id="A07009-e101580">Philosophy is odious and obscure,</l>
+          <l xml:id="A07009-e101590">Both law and physic are for petty wit,</l>
+          <l xml:id="A07009-e101600">Divinity is basest of the thrée,</l>
+          <l xml:id="A07009-e101610">Unpleasant, harsh, contemptible and vild,</l>
+          <l xml:id="A07009-e101620">'Tis magic, magic that hath ravished me,</l>
+          <l xml:id="A07009-e101630">Then gentle friends aid me in this attempt,</l>
+          <l xml:id="A07009-e101640">And I that have with consissylogismes</l>
+          <l xml:id="A07009-e101650">Gravelled the pastors of the German church,</l>
+          <l xml:id="A07009-e101660">And made the flowering pride of Wertenberg</l>
+          <l xml:id="A07009-e101670">Swarm to my problems as the infernal spirits</l>
+          <l xml:id="A07009-e101680">On sweet Musaeus when he came to hell,</l>
+          <l xml:id="A07009-e101690">Will be as cunning as Agrippa was,</l>
+          <l xml:id="A07009-e101700">Whose shadows made all Europe honour him. </l>
+        </sp>
+        <sp xml:id="A07009-e101710" who="A07009-valdes">
+          <speaker>Vald.</speaker>
+          <l xml:id="A07009-e101720">Faustus ▪ these books thy wit and our experience</l>
+          <l xml:id="A07009-e101730">Shall make all nations to canonize us,</l>
+          <l xml:id="A07009-e101740">As Indian Moors obey their Spanish lords,</l>
+          <l xml:id="A07009-e101750">So shall the subjects of every element</l>
+          <l xml:id="A07009-e101760">Be always serviceable to us thrée,</l>
+          <l xml:id="A07009-e101770">Like lions shall they guard us when we please,</l>
+          <l xml:id="A07009-e101780">Like almain rutters with their horsemen's staves,</l>
+          <l xml:id="A07009-e101790">Or Lapland giants trotting by our sides,</l>
+          <l xml:id="A07009-e101800">Sometimes like women, or unwedded maids,</l>
+          <l xml:id="A07009-e101810">Shadowing more beauty in their airy brows,</l>
+          <l xml:id="A07009-e101820">Then in their white breasts of the Queen of love:</l>
+          <l xml:id="A07009-e101830">For Venice shall they drag huge argosies,</l>
+          <l xml:id="A07009-e101840">And from America the golden fleece,</l>
+          <l xml:id="A07009-e101850">That yearly stuffs old Philip's treasury</l>
+          <l xml:id="A07009-e101860">If learned Faustus will be resolute. </l>
+        </sp>
+        <sp xml:id="A07009-e101870" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e101880">Valdes as resolute am I in this</l>
+          <l xml:id="A07009-e101890">As thou to live, therefore object it not. </l>
+        </sp>
+        <sp xml:id="A07009-e101900" who="A07009-cornelius">
+          <speaker>Corn.</speaker>
+          <l xml:id="A07009-e101910">The miracles that magic will perform,</l>
+          <l xml:id="A07009-e101920">Will make thee vow to study nothing else,</l>
+          <l xml:id="A07009-e101930">He that is grounded in astrology,</l>
+          <l xml:id="A07009-e101940"><pb facs="5"/> enriched with tongues well seen minerals,</l>
+          <l xml:id="A07009-e101950">Hath all the principles magic doth require,</l>
+          <l xml:id="A07009-e101960">Then doubt not (Faustus) but to be renowned,</l>
+          <l xml:id="A07009-e101970">And more frequented for this mystery,</l>
+          <l xml:id="A07009-e101980">Then heretofore the Dolphian oracle. </l>
+          <l xml:id="A07009-e101990">The spirits tell me they can dry the sea,</l>
+          <l xml:id="A07009-e102000">And fetch the treasure of all foreign wracks,</l>
+          <l xml:id="A07009-e102010">Ay, all the wealth that our forefathers hid</l>
+          <l xml:id="A07009-e102020">Within the massy entrails of the earth. </l>
+          <l xml:id="A07009-e102030">Then tell me Faustus, what shall we three want? </l>
+        </sp>
+        <sp xml:id="A07009-e102040" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e102050">Nothing Cornelius, oh this cheers my soul,</l>
+          <l xml:id="A07009-e102060">Come show me some demonstrations magical,</l>
+          <l xml:id="A07009-e102070">That I may conjure in some lusty grove,</l>
+          <l xml:id="A07009-e102080">And have these joys in full possession. </l>
+        </sp>
+        <sp xml:id="A07009-e102090" who="A07009-valdes">
+          <speaker>Val.</speaker>
+          <l xml:id="A07009-e102100">Then haste thee to some solitary grove,</l>
+          <l xml:id="A07009-e102110">And bear wise bacons and Albanus works,</l>
+          <l xml:id="A07009-e102120">The hebrew psalter, and new testament,</l>
+          <l xml:id="A07009-e102130">And whatsoever else is requisite</l>
+          <l xml:id="A07009-e102140">We will inform thee ere our conference cease. </l>
+        </sp>
+        <sp xml:id="A07009-e102150" who="A07009-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07009-e102160">Valdes, first let him know the words of art,</l>
+          <l xml:id="A07009-e102170">And then all other ceremonies learned,</l>
+          <l xml:id="A07009-e102180">Faustus may try his cunning by himself. </l>
+        </sp>
+        <sp xml:id="A07009-e102190" who="A07009-valdes">
+          <speaker>Val.</speaker>
+          <l xml:id="A07009-e102200">First I'll instruct thee in the rudiments,</l>
+          <l xml:id="A07009-e102210">And then wilt thou be perfecter than I. </l>
+        </sp>
+        <sp xml:id="A07009-e102220" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e102230">Then come and dine with me, and after meat</l>
+          <l xml:id="A07009-e102240">We'll canvas every quiddity thereof:</l>
+          <l xml:id="A07009-e102250">For ere I sleep I'll try what I can do,</l>
+          <l xml:id="A07009-e102260">This night I'll conjure though I die therefore. </l>
+        </sp>
+        <stage xml:id="A07009-e102270">Exeunt.</stage>
+        <stage xml:id="A07009-e102280">Enter two scholars.</stage>
+        <sp xml:id="A07009-e102290" who="A07009-1_scholar">
+          <speaker>1 Sch.</speaker>
+          <p xml:id="A07009-e102300">I wonder what's become of Faustus, that was wont to make our schools ring with, sic probo. </p>
+        </sp>
+        <sp xml:id="A07009-e102310" who="A07009-2_scholar">
+          <speaker>2 Sch.</speaker>
+          <p xml:id="A07009-e102320">That shall we know, for see here comes his boy.</p>
+        </sp>
+        <stage xml:id="A07009-e102330">Enter Wagner.</stage>
+        <sp xml:id="A07009-e102340" who="A07009-1_scholar">
+          <speaker>1. Sch.</speaker>
+          <p xml:id="A07009-e102350">How now sirrah, where's thy master?</p>
+        </sp>
+        <sp xml:id="A07009-e102360" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e102370">God in heaven knows.</p>
+        </sp>
+        <sp xml:id="A07009-e102380" who="A07009-xxxx_2">
+          <speaker>2.</speaker>
+          <p xml:id="A07009-e102390">Why, dost not thou know?</p>
+        </sp>
+        <sp xml:id="A07009-e102400" who="A07009-wagner">
+          <pb facs="5"/>
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e102410">Yes I know, but that follows not.</p>
+        </sp>
+        <sp xml:id="A07009-e102420" who="A07009-xxxx_1">
+          <speaker>1.</speaker>
+          <p xml:id="A07009-e102430">Go too sirrah, leave your jesting, and tell us where he is.</p>
+        </sp>
+        <sp xml:id="A07009-e102440" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e102450">That follows not necessary by force of argument, that you being licentiate should stand upon't, therefore acknowledge your error, and be attentive.</p>
+        </sp>
+        <sp xml:id="A07009-e102460" who="A07009-xxxx_2">
+          <speaker>2.</speaker>
+          <p xml:id="A07009-e102470">Why, didst thou not say thou knewest?</p>
+        </sp>
+        <sp xml:id="A07009-e102480" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e102490">Have you any witness on't?</p>
+        </sp>
+        <sp xml:id="A07009-e102500" who="A07009-xxxx_1">
+          <speaker>1.</speaker>
+          <p xml:id="A07009-e102510">Yes sirrah, I heard you.</p>
+        </sp>
+        <sp xml:id="A07009-e102520" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e102530">Ask my fellow if I be a thief.</p>
+        </sp>
+        <sp xml:id="A07009-e102540" who="A07009-xxxx_2">
+          <speaker>2.</speaker>
+          <p xml:id="A07009-e102550">Well, you will not tell us.</p>
+        </sp>
+        <sp xml:id="A07009-e102560" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e102570">Yes sir, I will tell you, yet if you were not dunces you would never ask me such a question, for is not he corpus naturale, and is not that mobile, then wherefore should you ask me such a question: but that I am by nature phlegmatic, slow to wrath, and prone to lechery, (To love I would say) it were not for you to come within forty foot of the place of execution, although I do not doubt to see you both hanged the next sessions. Thus having triumphed over you, I will set my countenance like a precisian, and begin to speak thus: truly my dear brothers, my master is within at dinner with Valdes and Cornelius, as this wine if it could speak, it would inform your worships, and so the lord bless you, preserve you, and keep you my dear brothers, my dear brothers.</p>
+          <stage xml:id="A07009-e102580">Exit.</stage>
+        </sp>
+        <sp xml:id="A07009-e102590" who="A07009-xxxx_1">
+          <speaker>1.</speaker>
+          <p xml:id="A07009-e102600">Nay then I fear he is fallen into that damned art, for which they two are infamous through the world.</p>
+        </sp>
+        <sp xml:id="A07009-e102610" who="A07009-xxxx_2">
+          <speaker>2.</speaker>
+          <p xml:id="A07009-e102620">Were he a stranger, and not allied to me, yet should I grieve for him: but come let us go and inform the rector, and see if he by his grave counsel can reclaim him.</p>
+        </sp>
+        <sp xml:id="A07009-e102630" who="A07009-xxxx_1">
+          <speaker>1.</speaker>
+          <p xml:id="A07009-e102640">O but I fear me nothing can reclaim him.</p>
+        </sp>
+        <sp xml:id="A07009-e102650" who="A07009-xxxx_2">
+          <speaker>2.</speaker>
+          <p xml:id="A07009-e102660">Yet let us try what we can do.</p>
+        </sp>
+        <stage xml:id="A07009-e102670">Exeunt.</stage>
+        <stage xml:id="A07009-e102680">Enter Faustus to conjure.</stage>
+        <sp xml:id="A07009-e102690" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e102700">Now that the gloomy shadow of the earth,</l>
+          <l xml:id="A07009-e102710">Longing to view Orion's drizzling look,</l>
+          <l xml:id="A07009-e102720"><pb facs="6"/> leaps from th'antarctic world unto the sky,</l>
+          <l xml:id="A07009-e102730">And dims the welkin with her pitchy breath:</l>
+          <l xml:id="A07009-e102740">Faustus, begin thine incantations,</l>
+          <l xml:id="A07009-e102750">And trio if devils will obey thy hest,</l>
+          <l xml:id="A07009-e102760">Seeing thou hast prayed and sacrified to them. </l>
+          <l xml:id="A07009-e102770">Within this circle is Jehovah's name,</l>
+          <l xml:id="A07009-e102780">Forward and backward, and Agramithist,</l>
+          <l xml:id="A07009-e102790">〈…〉 names of holy saints,</l>
+          <l xml:id="A07009-e102800">Figures of every adjunct to the heavens,</l>
+          <l xml:id="A07009-e102810">And characters of signs and erring stars. </l>
+          <l xml:id="A07009-e102820">By which the spirits are enforced to rise,</l>
+          <l xml:id="A07009-e102830">Then fear not Faustus, but be resolute. </l>
+          <l xml:id="A07009-e102840">And try the uttermost magic can perform. </l>
+          <p xml:id="A07009-e102850">Sint mihi dei acherontis propitij, valeat numen triplex jehovae, ignei, aerij, aquatani spiritus salvete, orientis princeps Belsabub, inferni Arden's monarcha et demigorgon, propitiamus vos, ut apariat et surgat Mephastophilis, quòd tumeraris, per iehouam gehennam et consecratam aquam quam nunc spargo, signúmque crucis quodnunc facio, et per vota nostra ipse nunc surgat nobis dicatis Mephastophilis.</p>
+          <stage xml:id="A07009-e102860">Enter a devil.</stage>
+          <l xml:id="A07009-e102870">I charge thee to return and change thy shape,</l>
+          <l xml:id="A07009-e102880">Thou art too ugly to attend on me,</l>
+          <l xml:id="A07009-e102890">Go and return an old Franciscan friar,</l>
+          <l xml:id="A07009-e102900">That holy shape becomes a devil best. </l>
+          <stage xml:id="A07009-e102910">Exit devil.</stage>
+          <l xml:id="A07009-e102920">I see there's virtue in my heavenly words,</l>
+          <l xml:id="A07009-e102930">Who would not be proficient in this art? </l>
+          <l xml:id="A07009-e102940">How pliant is this Mephastophilis? </l>
+          <l xml:id="A07009-e102950">Full of obedience and humility,</l>
+          <l xml:id="A07009-e102960">Such is the force of magic and my spells,</l>
+          <l xml:id="A07009-e102970">No Faustus, thou art conjurer laureate</l>
+          <l xml:id="A07009-e102980">That canst command great Mephastophilis,</l>
+          <l xml:id="A07009-e102990">Quin regis mephastophilis fratris imagine. </l>
+        </sp>
+        <stage xml:id="A07009-e103000">Enter Mephostophilis.</stage>
+        <sp xml:id="A07009-e103010" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e103020">Now Faustus, what wouldst thou have me do? </l>
+        </sp>
+        <sp xml:id="A07009-e103030" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e103040">I charge thee wait upon me whilst I live,</l>
+          <l xml:id="A07009-e103050"><pb facs="6"/> to do whatever Faustus shall command,</l>
+          <l xml:id="A07009-e103060">Be it to make the moon drop from her sphere,</l>
+          <l xml:id="A07009-e103070">Or the ocean to overwhelm the world. </l>
+        </sp>
+        <sp xml:id="A07009-e103080" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e103090">I am a servant to great Lucifer,</l>
+          <l xml:id="A07009-e103100">And may not follow thee without his leave,</l>
+          <l xml:id="A07009-e103110">No more than he commands must we perform. </l>
+        </sp>
+        <sp xml:id="A07009-e103120" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e103130">Did not he charge thee to appear to me? </l>
+        </sp>
+        <sp xml:id="A07009-e103140" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e103150">No, I came now hither of mine own accord. </l>
+        </sp>
+        <sp xml:id="A07009-e103160" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e103170">Did not my coniuring speeches raise thee? speak. </l>
+        </sp>
+        <sp xml:id="A07009-e103180" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e103190">That was the cause, but yet per accident,</l>
+          <l xml:id="A07009-e103200">For when we hear one rack the name of God,</l>
+          <l xml:id="A07009-e103210">Abjure the scriptures, and his saviour Christ,</l>
+          <l xml:id="A07009-e103220">We fly, in hope to get his glorious soul,</l>
+          <l xml:id="A07009-e103230">Nor will we come, unless he use such means</l>
+          <l xml:id="A07009-e103240">Whereby he is in danger to be damned:</l>
+          <l xml:id="A07009-e103250">Therefore the shortest cut for conjuring</l>
+          <l xml:id="A07009-e103260">Is stoutly to abjure the trinity,</l>
+          <l xml:id="A07009-e103270">And pray devoutly to the prince of hell. </l>
+        </sp>
+        <sp xml:id="A07009-e103280" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e103290">So Faustus hath already done, and holds this principle</l>
+          <l xml:id="A07009-e103300">There is no chief but only Belsabub,</l>
+          <l xml:id="A07009-e103310">To whom Faustus doth dedicate himself,</l>
+          <l xml:id="A07009-e103320">This word damnation terrifies not him,</l>
+          <l xml:id="A07009-e103330">For he confounds hell in Elysium,</l>
+          <l xml:id="A07009-e103340">His ghost be with the old philosophers,</l>
+          <l xml:id="A07009-e103350">But leaving these vain trifles of men's souls,</l>
+          <l xml:id="A07009-e103360">Tell me what is that Lucifer thy lord? </l>
+        </sp>
+        <sp xml:id="A07009-e103370" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e103380">Arch-regent and commander of all spirits. </l>
+        </sp>
+        <sp xml:id="A07009-e103390" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e103400">Was not that Lucifer an angel once? </l>
+        </sp>
+        <sp xml:id="A07009-e103410" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e103420">Yes Faustus, and most dear loved of God. </l>
+        </sp>
+        <sp xml:id="A07009-e103430" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e103440">How comes it then that he is prince of devils? </l>
+        </sp>
+        <sp xml:id="A07009-e103450" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e103460">O by aspiring pride and insolence,</l>
+          <l xml:id="A07009-e103470">For which God threw him from the face of heaven. </l>
+        </sp>
+        <sp xml:id="A07009-e103480" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e103490">And what are you that live with Lucifer? </l>
+        </sp>
+        <sp xml:id="A07009-e103500" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e103510">Unhappy spirits that fell with Lucifer,</l>
+          <l xml:id="A07009-e103520">Conspired against our god with Lucifer,</l>
+          <l xml:id="A07009-e103530">And are for ever damned with Lucifer. </l>
+        </sp>
+        <sp xml:id="A07009-e103540" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e103550">Where are you damned? </l>
+        </sp>
+        <sp xml:id="A07009-e103560" who="A07009-mephistophilis">
+          <pb facs="7"/>
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e103570">In hell. </l>
+        </sp>
+        <sp xml:id="A07009-e103580" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e103590">How comes it then that thou art out of hell? </l>
+        </sp>
+        <sp xml:id="A07009-e103600" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e103610">Why this is hell, nor am I out of it:</l>
+          <l xml:id="A07009-e103620">Thinkst thou that I who saw the face of God,</l>
+          <l xml:id="A07009-e103630">And tasted the eternal joys of heaven,</l>
+          <l xml:id="A07009-e103640">Am not tormented with ten thousand hells,</l>
+          <l xml:id="A07009-e103650">In being deprived of everlasting bliss:</l>
+          <l xml:id="A07009-e103660">Oh Faustus, leave these frivolous demands,</l>
+          <l xml:id="A07009-e103670">Which strike a terror to my fainting soul. </l>
+        </sp>
+        <sp xml:id="A07009-e103680" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e103690">What, is great Mephastophilis so passionate,</l>
+          <l xml:id="A07009-e103700">For being deprived of the joys of heaven? </l>
+          <l xml:id="A07009-e103710">Learn thou of Faustus manly fortitude,</l>
+          <l xml:id="A07009-e103720">And scorn those joys thou never shalt possess. </l>
+          <l xml:id="A07009-e103730">Go bear those tidings to Lucifer,</l>
+          <l xml:id="A07009-e103740">Seeing Faustus hath incurred eternal death,</l>
+          <l xml:id="A07009-e103750">By desperate thoughts against Jove's deity:</l>
+          <l xml:id="A07009-e103760">Say, he surrenders up to him his soul,</l>
+          <l xml:id="A07009-e103770">So he will spare him 24. years,</l>
+          <l xml:id="A07009-e103780">Letting him live in all voluptuousness,</l>
+          <l xml:id="A07009-e103790">Having thee ever to attend on me,</l>
+          <l xml:id="A07009-e103800">To give me whatsoever I shall ask,</l>
+          <l xml:id="A07009-e103810">To tell me whatsoever I demand,</l>
+          <l xml:id="A07009-e103820">To slay mine enemies, and aid my friends,</l>
+          <l xml:id="A07009-e103830">And always be obedient to my will:</l>
+          <l xml:id="A07009-e103840">Go and return to mighty Lucifer,</l>
+          <l xml:id="A07009-e103850">And meet me in my study at midnight,</l>
+          <l xml:id="A07009-e103860">And then resolve me of thy master's mind. </l>
+        </sp>
+        <sp xml:id="A07009-e103870" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e103880">I will Faustus. </l>
+          <stage xml:id="A07009-e103890">Exit.</stage>
+        </sp>
+        <sp xml:id="A07009-e103900" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e103910">Had I as many souls as there be stars,</l>
+          <l xml:id="A07009-e103920">I'd give them all for Mephastophilis:</l>
+          <l xml:id="A07009-e103930">By him I'll be great emperor of the world,</l>
+          <l xml:id="A07009-e103940">And make a bridge through the moving air,</l>
+          <l xml:id="A07009-e103950">To pass the ocean with a band of men,</l>
+          <l xml:id="A07009-e103960">I'll join the hills that bind the Afric shore,</l>
+          <l xml:id="A07009-e103970">And make that land continent to Spain,</l>
+          <l xml:id="A07009-e103980">And both contributory to my crown:</l>
+          <l xml:id="A07009-e103990">The emperor shall bot live but by my leave,</l>
+          <l xml:id="A07009-e104000"><pb facs="7"/> nor any potentate of Germany:</l>
+          <l xml:id="A07009-e104010">Now that I have obtained what I desire,</l>
+          <l xml:id="A07009-e104020">I'll live in speculation of this art,</l>
+          <l xml:id="A07009-e104030">Till Mephastophilis return again. </l>
+          <stage xml:id="A07009-e104040">Exit.</stage>
+        </sp>
+        <stage xml:id="A07009-e104050">Enter Wagner and the clown.</stage>
+        <sp xml:id="A07009-e104060" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104070">Sirrah boy, come hither.</p>
+        </sp>
+        <sp xml:id="A07009-e104080" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104090">How, boy? 'swounds boy, I hope you have seen many boys with such pickadevaunts as I have. Boy quotha?</p>
+        </sp>
+        <sp xml:id="A07009-e104100" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104110">Tell me sirrah, hast thou any comings in?</p>
+        </sp>
+        <sp xml:id="A07009-e104120" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104130">Ay, and goings out too, you may see else.</p>
+        </sp>
+        <sp xml:id="A07009-e104140" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104150">Alas poor slave, see how poverty jesteth in his nakedness, the villain is bare, and out of service, and so hungry, that I know he would give his soul to the devil for a shoulder of mutton, though it were blood raw.</p>
+        </sp>
+        <sp xml:id="A07009-e104160" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104170">How, my soul to the devil for a shoulder of mutton though 'twere blood raw? not so good friend, by’r lady I had need have it well roasted, and good sauce to it, if I pay so dear.</p>
+        </sp>
+        <sp xml:id="A07009-e104180" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104190">Well, wilt thou serve me, and I'll make thee go like qui mihi discipulus? </p>
+        </sp>
+        <sp xml:id="A07009-e104200" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104210">How, in verse?</p>
+        </sp>
+        <sp xml:id="A07009-e104220" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104230">No sirrah, in beaten silk and staff's acre.</p>
+        </sp>
+        <sp xml:id="A07009-e104240" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104250">How, how, knave's acre? Ay, I thought that was all the land his father left him: do ye hear, I would be sorry to rob you of your living.</p>
+        </sp>
+        <sp xml:id="A07009-e104260" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104270">Sirrah, I say in staff's acre.</p>
+        </sp>
+        <sp xml:id="A07009-e104280" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104290">Oho, oho, staff's acre, why then belike, if I were your man, I should be full of vermin.</p>
+        </sp>
+        <sp xml:id="A07009-e104300" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104310">So thou shalt, whether thou beest with me, or no: but sirrah, leave your jesting, and bind yourself presently unto me for seven years, or I'll turn all the lice about thee into familiars, and they shall tear thee in pieces.</p>
+        </sp>
+        <sp xml:id="A07009-e104320" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104330">Do you hear sir? you may save that labour, they are too familiar with me already, 'swounds they are as bold with my flesh, as if they had paid for my meat and drink.</p>
+        </sp>
+        <sp xml:id="A07009-e104340" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104350">Well, do you hear sirrah? hold, take these gilders.</p>
+        </sp>
+        <sp xml:id="A07009-e104360" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104370">Gridirons, what be they?</p>
+        </sp>
+        <sp xml:id="A07009-e104380" who="A07009-wagner">
+          <pb facs="8"/>
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104390">Why French crowns.</p>
+        </sp>
+        <sp xml:id="A07009-e104400" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104410">Mass but for the name of French crowns a man were as good have as many English counters, and what should I do with these?</p>
+        </sp>
+        <sp xml:id="A07009-e104420" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104430">Why now sirrah thou art at an hours warning whensoever or wheresoever the devil shall fetch them.</p>
+        </sp>
+        <sp xml:id="A07009-e104440" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104450">No, no, here take your gridirons again.</p>
+        </sp>
+        <sp xml:id="A07009-e104460" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104470">Truly I'll none of them.</p>
+        </sp>
+        <sp xml:id="A07009-e104480" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104490">Truly but you shall.</p>
+        </sp>
+        <sp xml:id="A07009-e104500" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104510">Bear witness I gave them him.</p>
+        </sp>
+        <sp xml:id="A07009-e104520" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104530">Bear witness I give them you again.</p>
+        </sp>
+        <sp xml:id="A07009-e104540" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104550">Well, I will cause two devils presently to fetch thee away Balliol and Belcher. </p>
+        </sp>
+        <sp xml:id="A07009-e104560" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104570">Let your Balliol and your Belcher come here, and I'll knock them, they were never so knocked since they were devils, say I should kill one of them ▪ what would folks say? do ye see yonder tall fellow in the round flop, he has killed the devil, so I should be called kill devil all the parish over.</p>
+        </sp>
+        <stage xml:id="A07009-e104580">Enter two devils, and the clown runs up and down crying.</stage>
+        <sp xml:id="A07009-e104590" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104600">Balliol and Belcher, spirits away.</p>
+        </sp>
+        <stage xml:id="A07009-e104610">Exeunt.</stage>
+        <sp xml:id="A07009-e104620" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104630">What, are they gone? A vengeance on them, they have vild long nails, there was a he devil and a she devil, I'll tell you how you shall know them, all he devils has horns, and all she devils had cliffs and cloven feet.</p>
+        </sp>
+        <sp xml:id="A07009-e104640" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104650">Well sirrah follow me.</p>
+        </sp>
+        <sp xml:id="A07009-e104660" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104670">But do you hear? if I should serve you, would you 〈…〉 up Banios and Belcheos? </p>
+        </sp>
+        <sp xml:id="A07009-e104680" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104690">
+            <gap extent="1 paragraph" xml:id="A07009-e104700" n="8-a-2960"/>
+          </p>
+        </sp>
+        <sp xml:id="A07009-e104710" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104720">〈◊〉? A Christian fellow to a dog or a cat, a 〈…〉 no, no sir, if you turn me into any thing, 〈…〉 of a little pretty frisking flea, that I 〈…〉 and there and everywhere , oh I'll tickle the 〈…〉 be amongst them i'faith.</p>
+        </sp>
+        <sp xml:id="A07009-e104730" who="A07009-wagner">
+          <pb facs="8"/>
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104740">Well sirrah, come.</p>
+        </sp>
+        <sp xml:id="A07009-e104750" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104760">But do you hear Wagner? </p>
+        </sp>
+        <sp xml:id="A07009-e104770" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104780">How Balliol and Belcher. </p>
+        </sp>
+        <sp xml:id="A07009-e104790" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104800">O lord I pray sir, let Banio and Belcher go sleep.</p>
+        </sp>
+        <sp xml:id="A07009-e104810" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e104820">〈…〉</p>
+          <stage xml:id="A07009-e104830">Exit</stage>
+        </sp>
+        <sp xml:id="A07009-e104840" who="A07009-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A07009-e104850">God forgive me, he speaks Dutch fustian: well, I'll follow him, I'll serve him, that's flat.</p>
+          <stage xml:id="A07009-e104860">Exit</stage>
+        </sp>
+        <stage xml:id="A07009-e104870">Enter Faustus in his study.</stage>
+        <sp xml:id="A07009-e104880" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e104890">Now Faustus must thou needs be damned,</l>
+          <l xml:id="A07009-e104900">And canst thou not be saved?</l>
+          <l xml:id="A07009-e104910">What boots it then to think of God or heaven? </l>
+          <l xml:id="A07009-e104920">Away with such vain fancies and despair,</l>
+          <l xml:id="A07009-e104930">Despair in God, and trust in Belsabub:</l>
+          <l xml:id="A07009-e104940">Now go not backward: no Faustus, be resolute,</l>
+          <l xml:id="A07009-e104950">Why waverest thou? O something soundeth in mine ears:</l>
+          <l xml:id="A07009-e104960">Abjure this magic, turn to God again,</l>
+          <l xml:id="A07009-e104970">I and Faustus will turn to God again. </l>
+          <l xml:id="A07009-e104980">To God? he loves thee not,</l>
+          <l xml:id="A07009-e104990">The god thou servest is thine own appetite,</l>
+          <l xml:id="A07009-e105000">Wherein is fixed the love of Belsabub,</l>
+          <l xml:id="A07009-e105010">To him I'll build an altar and a church,</l>
+          <l xml:id="A07009-e105020">And offer luke warm blood of new born babes. </l>
+        </sp>
+        <stage xml:id="A07009-e105030">Enter good angel, and Euill.</stage>
+        <sp xml:id="A07009-e105040" who="A07009-good_angel">
+          <speaker>Good angel</speaker>
+          <l xml:id="A07009-e105050">Sweet Faustus, leave that execrable art. </l>
+        </sp>
+        <sp xml:id="A07009-e105060" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e105070">Contrition, prayer, repentance: what of them? </l>
+        </sp>
+        <sp xml:id="A07009-e105080" who="A07009-good_angel">
+          <speaker>Good angel</speaker>
+          <l xml:id="A07009-e105090">O they are means to bring thee unto heaven. </l>
+        </sp>
+        <sp xml:id="A07009-e105100" who="A07009-evil_angel">
+          <speaker>Evil angel</speaker>
+          <l xml:id="A07009-e105110">Rather illusions fruits of lunacy,</l>
+          <l xml:id="A07009-e105120">That makes men foolish that do trust them most. </l>
+        </sp>
+        <sp xml:id="A07009-e105130" who="A07009-good_angel">
+          <speaker>Good angel</speaker>
+          <l xml:id="A07009-e105140">Sweet Faustus think of heaven, and heavenly things. </l>
+        </sp>
+        <sp xml:id="A07009-e105150" who="A07009-evil_angel">
+          <speaker>Evil angel</speaker>
+          <l xml:id="A07009-e105160">No Faustus, think of honour and wealth. </l>
+        </sp>
+        <sp xml:id="A07009-e105170" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e105180">Of wealth,</l>
+          <stage xml:id="A07009-e105190">Exeunt.</stage>
+          <l xml:id="A07009-e105200">Why the signory of Emden shall be mine,</l>
+          <l xml:id="A07009-e105210">When Mephastophilis shall stand by me,</l>
+          <l xml:id="A07009-e105220"><pb facs="9"/> what God can hurt thee Faustus? thou art safe,</l>
+          <l xml:id="A07009-e105230">Cast no more doubts, come Mephastophilis,</l>
+          <l xml:id="A07009-e105240">And bring glad tidings from great Lucifer:</l>
+          <l xml:id="A07009-e105250">Is't not midnight? come Mephastophilis,</l>
+          <l xml:id="A07009-e105260">Veni veni mephastophile</l>
+          <stage xml:id="A07009-e105270">Enter Meph:</stage>
+          <l xml:id="A07009-e105280">Now tell, what says Lucifer thy lord? </l>
+        </sp>
+        <sp xml:id="A07009-e105290" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <l xml:id="A07009-e105300">That I shall wait on Faustus whilst I live,</l>
+          <l xml:id="A07009-e105310">So he will buy my service with his soul. </l>
+        </sp>
+        <sp xml:id="A07009-e105320" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e105330">Already Faustus hath hazarded that for thee. </l>
+        </sp>
+        <sp xml:id="A07009-e105340" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <l xml:id="A07009-e105350">But Faustus, thou must bequeathe it solemnly,</l>
+          <l xml:id="A07009-e105360">And write a deed of gift with thine own blood,</l>
+          <l xml:id="A07009-e105370">For that security craves great Lucifer:</l>
+          <l xml:id="A07009-e105380">If thou deny it, I will back to hell. </l>
+        </sp>
+        <sp xml:id="A07009-e105390" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e105400">Stay Mephastophilis, and tell me, what good will my soul do thy lord?</p>
+        </sp>
+        <sp xml:id="A07009-e105410" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <l xml:id="A07009-e105420">Enlarge his kingdom. </l>
+        </sp>
+        <sp xml:id="A07009-e105430" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e105440">Is that the reason he tempts us thus? </l>
+        </sp>
+        <sp xml:id="A07009-e105450" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <l xml:id="A07009-e105460">Solamen miseris socios habuisse doloris. </l>
+        </sp>
+        <sp xml:id="A07009-e105470" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e105480">Have you any pain that tortures others? </l>
+        </sp>
+        <sp xml:id="A07009-e105490" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <l xml:id="A07009-e105500">As great as have the humane souls of men:</l>
+          <l xml:id="A07009-e105510">But tell me Faustus, shall I have thy soul,</l>
+          <l xml:id="A07009-e105520">And I will be thy slave, and wait on thee,</l>
+          <l xml:id="A07009-e105530">And give thee more than thou hast wit to ask. </l>
+        </sp>
+        <sp xml:id="A07009-e105540" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e105550">Ay Mephastophilis, I give it thee. </l>
+        </sp>
+        <sp xml:id="A07009-e105560" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <l xml:id="A07009-e105570">Then stab thine arm courageously,</l>
+          <l xml:id="A07009-e105580">And bind thy soul, that at some certain day</l>
+          <l xml:id="A07009-e105590">Great Lucifer may claim it as his own,</l>
+          <l xml:id="A07009-e105600">And then be thou as great as Lucifer. </l>
+        </sp>
+        <sp xml:id="A07009-e105610" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e105620">Lo Mephastophilis, for love of thee,</l>
+          <l xml:id="A07009-e105630">I cut mine arm, and with my proper blood</l>
+          <l xml:id="A07009-e105640">Assure my soul to be great Lucifer's,</l>
+          <l xml:id="A07009-e105650">Chief lord and regent of perpetual night,</l>
+          <l xml:id="A07009-e105660">View here the blood that trickles from mine arm,</l>
+          <l xml:id="A07009-e105670">And let it be propitious for my wish. </l>
+        </sp>
+        <sp xml:id="A07009-e105680" who="A07009-mephistophilis">
+          <speaker>Meph:</speaker>
+          <l xml:id="A07009-e105690">But Faustus, thou must write it in manner of a deed of gift. </l>
+        </sp>
+        <sp xml:id="A07009-e105700" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e105710">I so I will, but Mephastophilis my blood congeals<pb facs="9"/> and I can write no more.</p>
+        </sp>
+        <sp xml:id="A07009-e105720" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e105730">I'll fetch thee fire to dissolve it straight. </l>
+          <stage xml:id="A07009-e105740">Exit.</stage>
+        </sp>
+        <sp xml:id="A07009-e105750" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e105760">What might the staying of my blood portend? </l>
+          <l xml:id="A07009-e105770">Is it unwilling I should write this bill? </l>
+          <l xml:id="A07009-e105780">Why streams it not, that I may write afresh? </l>
+          <l xml:id="A07009-e105790">Faustus gives to thee his soul: ah there it stayed,</l>
+          <l xml:id="A07009-e105800">Why shouldst thou not? is not thy soul thine own? </l>
+          <l xml:id="A07009-e105810">Then write again, Faustus gives to thee his soul. </l>
+        </sp>
+        <stage xml:id="A07009-e105820">Enter Mephastophilis with a chaffer of coals.</stage>
+        <sp xml:id="A07009-e105830" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e105840">Here's fire, come Faustus, set it on. </l>
+        </sp>
+        <sp xml:id="A07009-e105850" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e105860">So now the blood begins to clear again,</l>
+          <l xml:id="A07009-e105870">Now will I make an end immediately. </l>
+        </sp>
+        <sp xml:id="A07009-e105880" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e105890">O what will not I do to obtain his soul? </l>
+        </sp>
+        <sp xml:id="A07009-e105900" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e105910">Consummatum est, this bill is ended,</l>
+          <l xml:id="A07009-e105920">And Faustus hath bequeathed his soul to Lucifer. </l>
+          <l xml:id="A07009-e105930">But what is this inscription on mine arm? </l>
+          <l xml:id="A07009-e105940">Homo fuge, whither should I fly? </l>
+          <l xml:id="A07009-e105950">If unto god he'll throw thee down to hell,</l>
+          <l xml:id="A07009-e105960">My senses are deceived, here's nothing writ,</l>
+          <l xml:id="A07009-e105970">I see it plain, here in this place is writ,</l>
+          <l xml:id="A07009-e105980">Homo fuge, yet shall not Faustus fly. </l>
+        </sp>
+        <sp xml:id="A07009-e105990" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e106000">I'll fetch him somewhat to delight his mind. </l>
+          <stage xml:id="A07009-e106010">Exit.</stage>
+        </sp>
+        <stage xml:id="A07009-e106020">Enter with devils, giving crowns and rich apparel to Faustus, and dance, and then depart.</stage>
+        <sp xml:id="A07009-e106030" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e106040">Speak Mephastophilis, what means this show? </l>
+        </sp>
+        <sp xml:id="A07009-e106050" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e106060">Nothing Faustus, but to delight thy mind withal,</l>
+          <l xml:id="A07009-e106070">And to show thee what magic can perform. </l>
+        </sp>
+        <sp xml:id="A07009-e106080" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e106090">But may I raise up spirits when I please? </l>
+        </sp>
+        <sp xml:id="A07009-e106100" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e106110">Ay Faustus, and do greater things than these. </l>
+        </sp>
+        <sp xml:id="A07009-e106120" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e106130">Then there's enough for a thousand souls,</l>
+          <l xml:id="A07009-e106140">Here Mephastophilis receive this scroll,</l>
+          <l xml:id="A07009-e106150">A deed of gift of body and of soul:</l>
+          <l xml:id="A07009-e106160">But yet conditionally, that thou perform</l>
+          <l xml:id="A07009-e106170">All articles prescribed between us both. </l>
+        </sp>
+        <sp xml:id="A07009-e106180" who="A07009-mephistophilis">
+          <pb facs="10"/>
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e106190">Faustus, I swear by hell and Lucifer</l>
+          <l xml:id="A07009-e106200">To effect all promises between us made. </l>
+        </sp>
+        <sp xml:id="A07009-e106210" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e106220">Then hear me read them: on these conditions following.</p>
+          <p xml:id="A07009-e106230">First, that Faustus may be a spirit in form and substance.</p>
+          <p xml:id="A07009-e106240">Secondly, that Mephastophilis shall be his servant, and at his command.</p>
+          <p xml:id="A07009-e106250">Thirdly, that Mephastophilis shall do for him, and bring him whatsoever.</p>
+          <p xml:id="A07009-e106260">Fourthly, that he shall be in his chamber or house invisible.</p>
+          <p xml:id="A07009-e106270">Last, that he shall appear to the said John Faustus at all times, in what form or shape soever he please.</p>
+          <p xml:id="A07009-e106280">I John Faustus of Wertenberg, doctor, by these presents, do give both body and soul to Lucifer prince of the East, and his minister Mephastophilis, and furthermore grant unto them, that 24. years being expired, the articles above written inviolate, full power to fetch or carry the said John Faustus body and soul, flesh, blood, or goods, into their habitation wheresoever.</p>
+        </sp>
+        <stage xml:id="A07009-e106290">By me John Faustus.</stage>
+        <sp xml:id="A07009-e106300" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e106310">Speak Faustus, do you deliver this as your deed? </l>
+        </sp>
+        <sp xml:id="A07009-e106320" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e106330">Ay, take it, and the devil give thee good on't. </l>
+        </sp>
+        <sp xml:id="A07009-e106340" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e106350">Now Faustus ask what thou wilt. </l>
+        </sp>
+        <sp xml:id="A07009-e106360" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e106370">First will I question with thee about hell,</l>
+          <l xml:id="A07009-e106380">Tell me, where is the place that men call hell? </l>
+        </sp>
+        <sp xml:id="A07009-e106390" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e106400">Under the heavens. </l>
+        </sp>
+        <sp xml:id="A07009-e106410" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e106420">Ay, but where about? </l>
+        </sp>
+        <sp xml:id="A07009-e106430" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e106440">Within the bowels of these elements,</l>
+          <l xml:id="A07009-e106450">Where we are tortured and remain for ever,</l>
+          <l xml:id="A07009-e106460">Hell hath no limits, nor is circumscribed</l>
+          <l xml:id="A07009-e106470">In one self place, for where we are is hell,</l>
+          <l xml:id="A07009-e106480">And where hell is, must we ever be:</l>
+          <l xml:id="A07009-e106490">And to conclude, when all the world dissolves,</l>
+          <l xml:id="A07009-e106500">And every creature shall be purified,</l>
+          <l xml:id="A07009-e106510">All places shall be hell that is not heaven. </l>
+        </sp>
+        <sp xml:id="A07009-e106520" who="A07009-faustus">
+          <pb facs="10"/>
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e106530">Come, I think hell's a fable. </l>
+        </sp>
+        <sp xml:id="A07009-e106540" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e106550">Ay, think so still, till experience change thy mind. </l>
+        </sp>
+        <sp xml:id="A07009-e106560" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e106570">Why? thinkst thou then that Faustus shall been damned?</p>
+        </sp>
+        <sp xml:id="A07009-e106580" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e106590">Ay of necessity, for here's the scroll,</l>
+          <l xml:id="A07009-e106600">Wherein thou hast given thy soul to Lucifer. </l>
+        </sp>
+        <sp xml:id="A07009-e106610" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e106620">Ay, and body too, but what of that? </l>
+          <l xml:id="A07009-e106630">Thinkst thou that Faustus is so fond,</l>
+          <l xml:id="A07009-e106640">To imagine, that after this life there is any pain? </l>
+          <l xml:id="A07009-e106650">Tush these are trifles and mere old wife's tales. </l>
+        </sp>
+        <sp xml:id="A07009-e106660" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e106670">But Faustus I am an instance to prove the contrary for I am damned, and am now in hell.</p>
+        </sp>
+        <sp xml:id="A07009-e106680" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e106690">How? now in hell? nay and this be hell, I'll willingly be damned here: what walking, disputing, etc. But leaving off this, let me have a wife, the fairest maid in Germany, for I am wanton and lascivious, and can not live without a wife.</p>
+        </sp>
+        <sp xml:id="A07009-e106700" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e106710">How, a wife? I prithee Faustus talk not of a wife.</p>
+        </sp>
+        <sp xml:id="A07009-e106720" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e106730">Nay sweet Mephastophilis fetch me one, for I will have one.</p>
+        </sp>
+        <sp xml:id="A07009-e106740" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e106750">Well thou wilt have one, sit there till I come, I'll fetch thee a wife in the devil's name.</p>
+        </sp>
+        <stage xml:id="A07009-e106760">Enter with a devil dressed like a woman, with fire works.</stage>
+        <sp xml:id="A07009-e106770" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <p xml:id="A07009-e106780">Tell Faustus, how dost thou like thy wife?</p>
+        </sp>
+        <sp xml:id="A07009-e106790" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e106800">A plague on her for a hot whore.</p>
+        </sp>
+        <sp xml:id="A07009-e106810" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <p xml:id="A07009-e106820">Tut Faustus, marriage is but a ceremonial toy, if thou lovest me, think more of it.</p>
+          <l xml:id="A07009-e106830">I'll cull thee out the fairest courtesans,</l>
+          <l xml:id="A07009-e106840">And bring them every morning to thy bed,</l>
+          <l xml:id="A07009-e106850">She whom thine eye shall like, thy heart shall have,</l>
+          <l xml:id="A07009-e106860">Be she as chaste as was Penelope,</l>
+          <l xml:id="A07009-e106870">As wise as Saba, or as beautiful</l>
+          <l xml:id="A07009-e106880">As was bright Lucifer before his fall. </l>
+          <l xml:id="A07009-e106890">Hold, take this book, peruse it thoroughly,</l>
+          <l xml:id="A07009-e106900">The iterating of these lines brings gold,</l>
+          <l xml:id="A07009-e106910"><pb facs="11"/> the framing of this circle on the ground,</l>
+          <l xml:id="A07009-e106920">Brings whirlwinds, tempests, thunder and lightning. </l>
+          <l xml:id="A07009-e106930">Pronounce this thrice devoutly to thyself,</l>
+          <l xml:id="A07009-e106940">And men in armour shall appear to thee,</l>
+          <l xml:id="A07009-e106950">Ready to execute what thou desirest. </l>
+        </sp>
+        <sp xml:id="A07009-e106960" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e106970">Thanks Mephastophilis, yet fain would I have a book wherein I might behold all spells and incantations, that I might raise up spirits when I please.</p>
+        </sp>
+        <sp xml:id="A07009-e106980" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <p xml:id="A07009-e106990">Here they are in this book.</p>
+        </sp>
+        <stage xml:id="A07009-e107000">There turn to them</stage>
+        <sp xml:id="A07009-e107010" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e107020">Now would I have a book where I might see all characters and planets of the heavens, that I might know their motions and dispositions.</p>
+        </sp>
+        <sp xml:id="A07009-e107030" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <p xml:id="A07009-e107040">Here they are too. Turn to them</p>
+        </sp>
+        <sp xml:id="A07009-e107050" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e107060">Nay let me have one book more, and then I have done, wherein I might see all plants, herbs and trees that grow upon the earth.</p>
+        </sp>
+        <sp xml:id="A07009-e107070" who="A07009-mephistophilis">
+          <speaker>Me,</speaker>
+          <p xml:id="A07009-e107080">Here they be.</p>
+        </sp>
+        <sp xml:id="A07009-e107090" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e107100">O thou art deceived.</p>
+        </sp>
+        <sp xml:id="A07009-e107110" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <p xml:id="A07009-e107120">Tut I warrant thee.</p>
+        </sp>
+        <stage xml:id="A07009-e107130">Turn to them</stage>
+        <sp xml:id="A07009-e107140" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e107150">When I behold the heavens, than I repent,</l>
+          <l xml:id="A07009-e107160">And curse thee wicked Mephastophilis,</l>
+          <l xml:id="A07009-e107170">Because thou hast deprived me of those joys. </l>
+        </sp>
+        <sp xml:id="A07009-e107180" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <l xml:id="A07009-e107190">Why Faustus,</l>
+          <l xml:id="A07009-e107200">Thinkst thou heaven is such a glorious thing? </l>
+          <l xml:id="A07009-e107210">I tell thee 'tis not half so fair as thou,</l>
+          <l xml:id="A07009-e107220">Or any man that breathes on earth. </l>
+        </sp>
+        <sp xml:id="A07009-e107230" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e107240">How provest thou that? </l>
+        </sp>
+        <sp xml:id="A07009-e107250" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <l xml:id="A07009-e107260">It was made for man, therefore is man more excellent. </l>
+        </sp>
+        <sp xml:id="A07009-e107270" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e107280">If it were made for man, 'twas made for me:</l>
+          <l xml:id="A07009-e107290">I will renounce this magic, and repent. </l>
+        </sp>
+        <stage xml:id="A07009-e107300">Enter good angel, and evil angel.</stage>
+        <sp xml:id="A07009-e107310" who="A07009-good_angel">
+          <speaker>Good an:</speaker>
+          <p xml:id="A07009-e107320">Faustus, repent yet, God will pity thee.</p>
+        </sp>
+        <sp xml:id="A07009-e107330" who="A07009-evil_angel">
+          <speaker>Angel an:</speaker>
+          <p xml:id="A07009-e107340">Thou art a spirit, God cannot pity thee.</p>
+        </sp>
+        <sp xml:id="A07009-e107350" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e107360">Who buzzeth in mine ears I am a spirit? </l>
+          <l xml:id="A07009-e107370">Be i a devil, yet God may pity me,</l>
+          <l xml:id="A07009-e107380">I God will pity me, if I repent. </l>
+        </sp>
+        <sp xml:id="A07009-e107390" who="A07009-evil_angel">
+          <pb facs="11"/>
+          <speaker>Angel an:</speaker>
+          <p xml:id="A07009-e107400">I but Faustus never shall repent.</p>
+        </sp>
+        <stage xml:id="A07009-e107410">Exeunt</stage>
+        <sp xml:id="A07009-e107420" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e107430">My hearts so hardened I cannot repent,</l>
+          <l xml:id="A07009-e107440">Scarce can I name salvation, faith, or heaven,</l>
+          <l xml:id="A07009-e107450">But fearful echoes thunders in mine ears,</l>
+          <l xml:id="A07009-e107460">Faustus, thou art damned, than swords and knives,</l>
+          <l xml:id="A07009-e107470">Poison, guns, halters, and invenomd steel</l>
+          <l xml:id="A07009-e107480">Are laid before me to dispatch myself,</l>
+          <l xml:id="A07009-e107490">And long ere this I should have slain myself,</l>
+          <l xml:id="A07009-e107500">Had not sweet pleasure conquered deep despair. </l>
+          <l xml:id="A07009-e107510">Have not I made blind Homer sing to me,</l>
+          <l xml:id="A07009-e107520">Of Alexander's love, and Oenone's death,</l>
+          <l xml:id="A07009-e107530">And hath not he that built the walls of Thebes,</l>
+          <l xml:id="A07009-e107540">With ravishing sound of his melodious harp</l>
+          <l xml:id="A07009-e107550">Made music with my Mephastophilis,</l>
+          <l xml:id="A07009-e107560">Why should I die then, or basely despair? </l>
+          <l xml:id="A07009-e107570">I am resolved Faustus shall ne'er repent,</l>
+          <l xml:id="A07009-e107580">Come Mephastophilis, let us dispute again,</l>
+          <l xml:id="A07009-e107590">And argue of divine astrology,</l>
+          <l xml:id="A07009-e107600">Tell me, are there many heavens above the moon? </l>
+          <l xml:id="A07009-e107610">Are all celestial bodies but one globe,</l>
+          <l xml:id="A07009-e107620">As is the substance of this centric earth? </l>
+        </sp>
+        <sp xml:id="A07009-e107630" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <l xml:id="A07009-e107640">As are the elements, such are the spheres,</l>
+          <l xml:id="A07009-e107650">Mutually folded in each others orb,</l>
+          <l xml:id="A07009-e107660">And Faustus all jointly move upon one axletree,</l>
+          <l xml:id="A07009-e107670">Whose terminine is termed the world's wide pole,</l>
+          <l xml:id="A07009-e107680">Nor are the names of Saturn, Mars, or Jupiter</l>
+          <l xml:id="A07009-e107690">Feigned, but are erring stars. </l>
+        </sp>
+        <sp xml:id="A07009-e107700" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e107710">But tell me, have they all one motion? both situ et tempore. </p>
+        </sp>
+        <sp xml:id="A07009-e107720" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e107730">All jointly move from East to West in 24. hours upon the poles of the world, but differ in their motion upon the poles of the zodiac.</p>
+        </sp>
+        <sp xml:id="A07009-e107740" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e107750">Tush, these slender trifles Wagner can decide,</l>
+          <l xml:id="A07009-e107760">Hath Mephastophilis no greater skill? </l>
+          <l xml:id="A07009-e107770">Who knows not the double motion of the planets? </l>
+          <l xml:id="A07009-e107780">The first is finished in a natural day,</l>
+          <p xml:id="A07009-e107790">The second thus, as Saturn in 30. years, Jupiter in 12. <pb facs="12"/>Mars in 4. the sun, Venus, and Mercury in a year: the moon in 28. days. Tush these are fresh men's suppositions, but tell me, hath every sphere a dominion or intelligentij? </p>
+        </sp>
+        <sp xml:id="A07009-e107800" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e107810">I.</p>
+        </sp>
+        <sp xml:id="A07009-e107820" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e107830">How many heavens or spheres are there?</p>
+        </sp>
+        <sp xml:id="A07009-e107840" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e107850">Nine, the seven planets, the firmament, and the imperial heaven.</p>
+        </sp>
+        <sp xml:id="A07009-e107860" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e107870">Well, resolve me in this question, why have we not conjunctions, oppositions, aspects, ellipsis, all at one time, but in some years we have more, in some less?</p>
+        </sp>
+        <sp xml:id="A07009-e107880" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e107890">Per inaequalem motum respectu totius.</p>
+        </sp>
+        <sp xml:id="A07009-e107900" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e107910">Well, I am answered, tell me who made the world?</p>
+        </sp>
+        <sp xml:id="A07009-e107920" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e107930">I will not.</p>
+        </sp>
+        <sp xml:id="A07009-e107940" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e107950">Sweet Mephastophilis tell me.</p>
+        </sp>
+        <sp xml:id="A07009-e107960" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e107970">Move me not, for I will not tell thee.</p>
+        </sp>
+        <sp xml:id="A07009-e107980" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e107990">Villain, have I not bound thee to tell me any thing?</p>
+        </sp>
+        <sp xml:id="A07009-e108000" who="A07009-mephistophilis">
+          <speaker>M●.</speaker>
+          <l xml:id="A07009-e108010">Ay, that is not against our kingdom, but this is,</l>
+          <l xml:id="A07009-e108020">Think thou on hell Faustus, for thou art damned. </l>
+        </sp>
+        <sp xml:id="A07009-e108030" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e108040">Think Faustus upon God that made the world. </l>
+        </sp>
+        <sp xml:id="A07009-e108050" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e108060">Remember this. </l>
+          <stage xml:id="A07009-e108070">Exit.</stage>
+        </sp>
+        <sp xml:id="A07009-e108080" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e108090">Ay, go accursed spirit to ugly hell,</l>
+          <l xml:id="A07009-e108100">'Tis thou hast damned distressed Faustus' soul:</l>
+          <l xml:id="A07009-e108110">Is't not too late? </l>
+        </sp>
+        <stage xml:id="A07009-e108120">Enter good angel and evil.</stage>
+        <sp xml:id="A07009-e108130" who="A07009-evil_angel">
+          <speaker>Evil A.</speaker>
+          <p xml:id="A07009-e108140">Too late.</p>
+        </sp>
+        <sp xml:id="A07009-e108150" who="A07009-good_angel">
+          <speaker>Good A.</speaker>
+          <p xml:id="A07009-e108160">Never too late, if Faustus can repent.</p>
+        </sp>
+        <sp xml:id="A07009-e108170" who="A07009-evil_angel">
+          <speaker>Evil A.</speaker>
+          <p xml:id="A07009-e108180">If thou repent devils shall tear thee in pieces.</p>
+        </sp>
+        <sp xml:id="A07009-e108190" who="A07009-good_angel">
+          <speaker>Good A.</speaker>
+          <p xml:id="A07009-e108200">Repent, and they shall never raze thy skin.</p>
+        </sp>
+        <stage xml:id="A07009-e108210">Exeunt.</stage>
+        <sp xml:id="A07009-e108220" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e108230">Ah Christ my saviour, seek to save distressed Faustus' soul.</p>
+        </sp>
+        <stage xml:id="A07009-e108240">Enter Lucifer, Belsabub, and Mephastophilus.</stage>
+        <sp xml:id="A07009-e108250" who="A07009-lucifer">
+          <speaker>Lu.</speaker>
+          <l xml:id="A07009-e108260">Christ cannot save thy soul, for he is just,</l>
+          <l xml:id="A07009-e108270">There's none but I have interest in the same. </l>
+        </sp>
+        <sp xml:id="A07009-e108280" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e108290">O who art thou that lookest so terrible?</p>
+        </sp>
+        <sp xml:id="A07009-e108300" who="A07009-lucifer">
+          <speaker>Lu:</speaker>
+          <p xml:id="A07009-e108310">I am Lucifer, and this is my companion prince in hell.</p>
+        </sp>
+        <sp xml:id="A07009-e108320" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e108330">O Faustus, they are come to fetch away thy soul.</p>
+        </sp>
+        <sp xml:id="A07009-e108340" who="A07009-lucifer">
+          <pb facs="12"/>
+          <speaker>Lu:</speaker>
+          <l xml:id="A07009-e108350">We come to tell thee thou dost injure us,</l>
+          <l xml:id="A07009-e108360">Thou talkest of Christ, contrary to thy promise</l>
+          <l xml:id="A07009-e108370">Thou shouldst not think of God, think of the devil,</l>
+          <l xml:id="A07009-e108380">And of his dame too. </l>
+        </sp>
+        <sp xml:id="A07009-e108390" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e108400">Nor will I henceforth: pardon me in this,</l>
+          <l xml:id="A07009-e108410">And Faustus vows never to look so heaven,</l>
+          <l xml:id="A07009-e108420">Never to name God, or to pray to him,</l>
+          <l xml:id="A07009-e108430">To burn his scriptures, slay his ministers,</l>
+          <l xml:id="A07009-e108440">And make my spirits pull his churches down. </l>
+        </sp>
+        <sp xml:id="A07009-e108450" who="A07009-lucifer">
+          <speaker>Lu:</speaker>
+          <l xml:id="A07009-e108460">Do so, and we will highly gratify thee:</l>
+          <p xml:id="A07009-e108470">Faustus, we are come from hell to show thee some pastime: sit down, and thou shalt see all the seven deadly sins appear in their proper shapes.</p>
+        </sp>
+        <sp xml:id="A07009-e108480" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e108490">That sight will be as pleasing unto me, as paradise was to Adam, the first day of his creation.</p>
+        </sp>
+        <sp xml:id="A07009-e108500" who="A07009-lucifer">
+          <speaker>Lu:</speaker>
+          <p xml:id="A07009-e108510">Talk not of paradise, nor creation, but mark this show, talk of the devil, and nothing else: come away.</p>
+          <stage xml:id="A07009-e108520">Enter the seven deadly sins.</stage>
+          <p xml:id="A07009-e108530">Now Faustus, examine them of their several names and dispositions.</p>
+        </sp>
+        <sp xml:id="A07009-e108540" who="A07009-unidentified">
+          <speaker>Eau:</speaker>
+          <p xml:id="A07009-e108550">What art thou? the first.</p>
+        </sp>
+        <sp xml:id="A07009-e108560" who="A07009-pride">
+          <speaker>Pride</speaker>
+          <p xml:id="A07009-e108570">I am pride, I disdain to have any parents, I am like to Ovid's flea, I can creep into every corner of a wench, sometimes like a periwig, I sit upon her brow, or like a fan of feathers, I kiss her lips, indeed I do, what do I not? but fie, what a scent is here? I'll not speak another word, except the ground were perfumed and covered with cloth of arras.</p>
+        </sp>
+        <sp xml:id="A07009-e108580" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e108590">What art thou? the second.</p>
+        </sp>
+        <sp xml:id="A07009-e108600" who="A07009-unidentified">
+          <speaker>Coue:</speaker>
+          <p xml:id="A07009-e108610">I am covetousness, begotten of an old churl, in an old leathern bag: and might I have my wish, I would desire, that this house, and all the people in it were turned to gold, that I might lock you up in my good chest, oh my sweet gold</p>
+        </sp>
+        <sp xml:id="A07009-e108620" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e108630">What art thou? the third.</p>
+        </sp>
+        <sp xml:id="A07009-e108640" who="A07009-wrath">
+          <speaker>Wrath</speaker>
+          <p xml:id="A07009-e108650">I am wrath, I had neither father nor mother, I leapt out of a lion's mouth, when I was scarce half an hour<pb facs="13"/> old, and ever since I have run up and down the world, with this case of rapiers wounding myself, when I had nobody to fight withal: I was born in hell, and look to it, for some of you shall be my father.</p>
+        </sp>
+        <sp xml:id="A07009-e108660" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e108670">What art thou? the fourth.</p>
+        </sp>
+        <sp xml:id="A07009-e108680" who="A07009-envy">
+          <speaker>Envy</speaker>
+          <p xml:id="A07009-e108690">I am envy, begotten of a chimney-swéeper, and an oyster wife, I cannot read, and therefore wish all books were burned: I am lean with seeing others eat, oh that there would come a famine through all the world, that all might die, and I live alone, than thou shouldst see how fat I would be: but must thou sit and I stand? come down with a vengeance.</p>
+        </sp>
+        <sp xml:id="A07009-e108700" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e108710">Away envious rascal: what art thou? the fifth.</p>
+        </sp>
+        <sp xml:id="A07009-e108720" who="A07009-gluttony">
+          <speaker>Glut:</speaker>
+          <p xml:id="A07009-e108730">Who I sir, I am gluttony, my parents are all dead, and the devil a penny they have left me, but a bare pension, and that is 30. meals a day, and ten beavers, a small trifle to suffice nature, oh I come of a royal parentage, my grandfather was a gammon of bacon, my grandmother a hog's head of claret-wine: my godfathers were these, Peter pickle-herring, and Martin Martlemas beef, oh but my godmother she was a jolly gentlewoman, and well-beloved in every good town and city, her name was mistress Margery March-beer: now Faustus, thou hast heard all my progeny, wilt thou bid me to supper?</p>
+        </sp>
+        <sp xml:id="A07009-e108740" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e108750">No, I'll see thee hanged, thou wilt eat up all my victuals.</p>
+        </sp>
+        <sp xml:id="A07009-e108760" who="A07009-gluttony">
+          <speaker>Glut.</speaker>
+          <p xml:id="A07009-e108770">Then the devil choke thee.</p>
+        </sp>
+        <sp xml:id="A07009-e108780" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e108790">Choke thyself glutton: what art thou? the sixth.</p>
+        </sp>
+        <sp xml:id="A07009-e108800" who="A07009-sloth">
+          <speaker>Sloath.</speaker>
+          <p xml:id="A07009-e108810">I am sloth, I was begotten on a sunny bank, where I have lain ever since, and you have done me great injury to bring me from thence, let me be carried thither again by gluttony and lechery, I'll not speak another word for a King's ransom.</p>
+        </sp>
+        <sp xml:id="A07009-e108820" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e108830">What are you mistress minks? the seventh and last.</p>
+        </sp>
+        <sp xml:id="A07009-e108840" who="A07009-lechery">
+          <speaker>Lechery</speaker>
+          <p xml:id="A07009-e108850">Who I sir? I am one that loves an inch of raw mutton better than an ell of fried stock-fish, and the first<pb facs="13"/> letter of my name begins with lechery.</p>
+          <l xml:id="A07009-e108860">Away, to hell, to hell. </l>
+        </sp>
+        <stage xml:id="A07009-e108870">Exeunt the sins.</stage>
+        <sp xml:id="A07009-e108880" who="A07009-lucifer">
+          <speaker>Lu.</speaker>
+          <p xml:id="A07009-e108890">Now Faustus, how dost thou like this?</p>
+        </sp>
+        <sp xml:id="A07009-e108900" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e108910">O this feeds my soul.</p>
+        </sp>
+        <sp xml:id="A07009-e108920" who="A07009-lucifer">
+          <speaker>Lu.</speaker>
+          <p xml:id="A07009-e108930">But Faustus, in hell is all manner of delight.</p>
+        </sp>
+        <sp xml:id="A07009-e108940" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e108950">O might I see hell, and return again, how happy were I then?</p>
+        </sp>
+        <sp xml:id="A07009-e108960" who="A07009-lucifer">
+          <speaker>Lu:</speaker>
+          <p xml:id="A07009-e108970">Thou shalt, I will send for thee at midnight, in mean time take this book, peruse it throughly, and thou shalt turn thyself into what shape thou wilt.</p>
+        </sp>
+        <sp xml:id="A07009-e108980" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e108990">Great thanks mighty Lucifer, this will I keep as chary as my life.</p>
+        </sp>
+        <sp xml:id="A07009-e109000" who="A07009-lucifer">
+          <speaker>Lu.</speaker>
+          <p xml:id="A07009-e109010">Farewell Faustus, and think on the devil.</p>
+        </sp>
+        <sp xml:id="A07009-e109020" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e109030">Farewell great Lucifer, come Mephastophilis. </p>
+        </sp>
+        <stage xml:id="A07009-e109040">Exeunt omnes.</stage>
+        <stage xml:id="A07009-e109050">Enter Wagner solus.</stage>
+        <sp xml:id="A07009-e109060" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <l xml:id="A07009-e109070">Learned Faustus,</l>
+          <l xml:id="A07009-e109080">To know the secrets of astronomy,</l>
+          <l xml:id="A07009-e109090">Graven in the book of joves high firmament,</l>
+          <l xml:id="A07009-e109100">Did mount himself to scale Olympus' top,</l>
+          <l xml:id="A07009-e109110">Being seated in a chariot burning bright,</l>
+          <l xml:id="A07009-e109120">Drawn by the strength of yoky dragons necks,</l>
+          <l xml:id="A07009-e109130">He now is gone to prove cosmography,</l>
+          <l xml:id="A07009-e109140">And as I guess, will first arrive at Rome,</l>
+          <l xml:id="A07009-e109150">To see the Pope, and manner of his court,</l>
+          <l xml:id="A07009-e109160">And take some part of holy Peter's feast,</l>
+          <l xml:id="A07009-e109170">That to this day is highly solemnised. </l>
+          <stage xml:id="A07009-e109180">Exit Wagner</stage>
+        </sp>
+        <stage xml:id="A07009-e109190">Enter Faustus and Mephastophilis.</stage>
+        <sp xml:id="A07009-e109200" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e109210">Having now, my good Mephastophilis,</l>
+          <l xml:id="A07009-e109220">Passed with delight the stately town of trier,</l>
+          <l xml:id="A07009-e109230">Environed round with airy mountain tops,</l>
+          <l xml:id="A07009-e109240">With walls of flint, and deep entrenched lakes,</l>
+          <l xml:id="A07009-e109250">Not to be won by any conquering prince,</l>
+          <l xml:id="A07009-e109260">From Paris next coasting the realm of France,</l>
+          <l xml:id="A07009-e109270">We saw the river main fall into Rhine,</l>
+          <l xml:id="A07009-e109280">Whose banks are set with groves of fruitful vines. </l>
+          <l xml:id="A07009-e109290">Then up to Naples, rich Campania,</l>
+          <l xml:id="A07009-e109300"><pb facs="14"/> whose buildings fair and gorgeous to the eye,</l>
+          <l xml:id="A07009-e109310">The streets straight forth, and paved with finest brick,</l>
+          <l xml:id="A07009-e109320">Quarters the town in four equivalence. </l>
+          <l xml:id="A07009-e109330">There saw we learned Maro's golden tomb,</l>
+          <l xml:id="A07009-e109340">The way he cut an English mile in length,</l>
+          <l xml:id="A07009-e109350">Through a rock of stone in one night's space. </l>
+          <l xml:id="A07009-e109360">From thence to Venice, Padua ▪ and the rest,</l>
+          <l xml:id="A07009-e109370">In midst of which a sumptuous temple stands,</l>
+          <l xml:id="A07009-e109380">That threats the stars with her aspiring top. </l>
+          <l xml:id="A07009-e109390">Thus hitherto hath Faustus spent his time,</l>
+          <l xml:id="A07009-e109400">But tell me now, what resting place is this? </l>
+          <l xml:id="A07009-e109410">Hast thou as erst I did command,</l>
+          <l xml:id="A07009-e109420">Conducted me within the walls of Rome? </l>
+        </sp>
+        <sp xml:id="A07009-e109430" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e109440">Faustus I have, and because we will not be unprovided, I have taken up his holiness' privy chamber for our use.</p>
+        </sp>
+        <sp xml:id="A07009-e109450" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e109460">I hope his holiness will bid us welcome.</p>
+        </sp>
+        <sp xml:id="A07009-e109470" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e109480">Tut, 'tis no matter man, we'll be bold with his good cheer,</l>
+          <l xml:id="A07009-e109490">And now my Faustus, that thou mayst perceive</l>
+          <l xml:id="A07009-e109500">What Rome containeth to delight thee with,</l>
+          <l xml:id="A07009-e109510">Know that this city stands upon seven hills</l>
+          <l xml:id="A07009-e109520">That underprops the groundwork of the same,</l>
+          <l xml:id="A07009-e109530">Over the which four stately bridges lean,</l>
+          <l xml:id="A07009-e109540">That makes safe passage to each part of Rome. </l>
+          <l xml:id="A07009-e109550">Upon the bridge called Ponto Angelo,</l>
+          <l xml:id="A07009-e109560">Erected is a castle passing strong,</l>
+          <l xml:id="A07009-e109570">Within whose walls such store of ordnance are,</l>
+          <l xml:id="A07009-e109580">And double canons, framed of carved brass,</l>
+          <l xml:id="A07009-e109590">As match the days within one complete year,</l>
+          <l xml:id="A07009-e109600">Besides the gates and high pyramids,</l>
+          <l xml:id="A07009-e109610">Which Julius Caesar brought from Africa. </l>
+        </sp>
+        <sp xml:id="A07009-e109620" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e109630">Now by the kingdoms of infernal rule,</l>
+          <l xml:id="A07009-e109640">Of Styx, Acheron ▪ and the fiery lake</l>
+          <l xml:id="A07009-e109650">Of ever burning phlegeton I swear,</l>
+          <l xml:id="A07009-e109660">That I do long to see the monuments</l>
+          <l xml:id="A07009-e109670">And situation of bright splendent Rome,</l>
+          <l xml:id="A07009-e109680">Come therefore let's away. </l>
+        </sp>
+        <sp xml:id="A07009-e109690" who="A07009-mephistophilis">
+          <pb facs="14"/>
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e109700">Nay Faustus stay, I know you'd fain see the Pope,</l>
+          <l xml:id="A07009-e109710">And take some part of holy Peter's feast,</l>
+          <l xml:id="A07009-e109720">Where thou shalt see a troop of baldpate friars,</l>
+          <l xml:id="A07009-e109730">Whose summum bonum is in belly-cheer. </l>
+        </sp>
+        <sp xml:id="A07009-e109740" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e109750">Well, I am content, to compass then some sport,</l>
+          <l xml:id="A07009-e109760">And by their folly make us merriment,</l>
+          <p xml:id="A07009-e109770">Then charm me that I may be invisible, to do what I please unseen of any whilst I stay in Rome.</p>
+        </sp>
+        <sp xml:id="A07009-e109780" who="A07009-mephistophilis">
+          <speaker>Me</speaker>
+          <p xml:id="A07009-e109790">So Faustus, now do what thou wilt, thou shalt not be discerned.</p>
+        </sp>
+        <stage xml:id="A07009-e109800">Sound a sonnet, enter the Pope and the Cardinal of Lorraine to the banquet, with friars attending.</stage>
+        <sp xml:id="A07009-e109810" who="A07009-pope">
+          <speaker>Pope</speaker>
+          <p xml:id="A07009-e109820">My lord of Lorraine, wilt please you draw near.</p>
+        </sp>
+        <sp xml:id="A07009-e109830" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e109840">Fall too, and the devil choke you and you spare.</p>
+        </sp>
+        <sp xml:id="A07009-e109850" who="A07009-pope">
+          <speaker>Pope</speaker>
+          <p xml:id="A07009-e109860">How now, who's that which spoke? Friars look about.</p>
+        </sp>
+        <sp xml:id="A07009-e109870" who="A07009-friar">
+          <speaker>Fri.</speaker>
+          <p xml:id="A07009-e109880">Here's nobody , if it like your holiness.</p>
+        </sp>
+        <sp xml:id="A07009-e109890" who="A07009-pope">
+          <speaker>Pope.</speaker>
+          <p xml:id="A07009-e109900">My lord, here is a dainty dish was sent me from the Bishop of Milan. </p>
+        </sp>
+        <sp xml:id="A07009-e109910" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e109920">I thank you sir.</p>
+        </sp>
+        <stage xml:id="A07009-e109930">Snatch it.</stage>
+        <sp xml:id="A07009-e109940" who="A07009-pope">
+          <speaker>Pope.</speaker>
+          <p xml:id="A07009-e109950">How now, who's that which snatched the meat from me? will no man look?</p>
+          <p xml:id="A07009-e109960">My lord, this dish was sent me from the Cardinal of Florence.</p>
+        </sp>
+        <sp xml:id="A07009-e109970" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e109980">You say true, I'll hate.</p>
+        </sp>
+        <sp xml:id="A07009-e109990" who="A07009-pope">
+          <speaker>Pope.</speaker>
+          <p xml:id="A07009-e110000">What again? my lord I'll drink to your grace</p>
+        </sp>
+        <sp xml:id="A07009-e110010" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e110020">I'll pledge your grace.</p>
+        </sp>
+        <sp xml:id="A07009-e110030" who="A07009-lorraine">
+          <speaker>Lor.</speaker>
+          <p xml:id="A07009-e110040">My lord, it may be some ghost newly crept out of purgatory come to beg a pardon of your holiness.</p>
+        </sp>
+        <sp xml:id="A07009-e110050" who="A07009-pope">
+          <speaker>Pope</speaker>
+          <p xml:id="A07009-e110060">It may be so, friars prepare a dirge to lay the fury of this ghost, once again my lord fall too.</p>
+        </sp>
+        <stage xml:id="A07009-e110070">The Pope crosseth himself.</stage>
+        <sp xml:id="A07009-e110080" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e110090">What, are you crossing of yourself? </l>
+          <l xml:id="A07009-e110100">Well use that trick no more, I would advise you. </l>
+        </sp>
+        <stage xml:id="A07009-e110110">Cross again.</stage>
+        <sp xml:id="A07009-e110120" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e110130">Well, there's the second time, aware the third,</l>
+          <l xml:id="A07009-e110140">I give you fair warning. </l>
+        </sp>
+        <stage xml:id="A07009-e110150"><pb facs="15"/>Cross again, and Faustus hits him a box of the ear, and they all run away.</stage>
+        <sp xml:id="A07009-e110160" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e110170">Come on Mephastophilis, what shall we do?</p>
+        </sp>
+        <sp xml:id="A07009-e110180" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e110190">Nay I know not, we shall be cursed with bell, book, and candle.</p>
+        </sp>
+        <sp xml:id="A07009-e110200" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e110210">How? bell, book, and candle, candle, book, and bell,</l>
+          <l xml:id="A07009-e110220">Forward and backward, to curse Faustus to hell. </l>
+          <l xml:id="A07009-e110230">Anon you shall hear a hog grunt, a calf bleat, and an ass bray,</l>
+          <l xml:id="A07009-e110240">Because it is s. Peter's holy day. </l>
+        </sp>
+        <stage xml:id="A07009-e110250">Enter all the friars to sing the dirge.</stage>
+        <sp xml:id="A07009-e110260" who="A07009-friar">
+          <speaker>Friar.</speaker>
+          <p xml:id="A07009-e110270">Come brothers, let's about our business with good devotion.</p>
+        </sp>
+        <sp xml:id="A07009-e110280" who="A07009-friars">
+          <stage xml:id="A07009-e110290">Sing this.</stage>
+          <p xml:id="A07009-e110300">Cursed be he that stole away his holiness meat from the table.<lb xml:id="A07009-e110310"/> maledicat dominus. <lb xml:id="A07009-e110320"/>cursed be he that struck his holiness a blow on the face.<lb xml:id="A07009-e110330"/> maledicat dominus. <lb xml:id="A07009-e110340"/>cursed be he that took friar Sandelo a blow on the pate.<lb xml:id="A07009-e110350"/> male, etc. <lb xml:id="A07009-e110360"/>cursed be he that disturbeth our holy dirge.<lb xml:id="A07009-e110370"/> male, etc. <lb xml:id="A07009-e110380"/>cursed be he that took away his holiness' wine.<lb xml:id="A07009-e110390"/> maledicat dominus. <lb xml:id="A07009-e110400"/>et omnes sancti. Amen. </p>
+        </sp>
+        <stage xml:id="A07009-e110410">Beat the friars, and fling fireworks among them, and so exeunt.</stage>
+        <stage xml:id="A07009-e110420">Enter</stage>
+        <sp xml:id="A07009-e110430" who="A07009-chorus">
+          <speaker>Chorus.</speaker>
+          <l xml:id="A07009-e110440">When Faustus had with pleasure ta'en the view</l>
+          <l xml:id="A07009-e110450">Of rarest things, and royal courts of Kings,</l>
+          <l xml:id="A07009-e110460">He stayed his course, and so returned home,</l>
+          <l xml:id="A07009-e110470">Where such as bear his absence, but with grief,</l>
+          <l xml:id="A07009-e110480">I mean his friends and nearest companions,</l>
+          <l xml:id="A07009-e110490">Did gratulate his safety with kind words,</l>
+          <l xml:id="A07009-e110500">And in their conference of what befell,</l>
+          <l xml:id="A07009-e110510">Touching his journey through the world and air,</l>
+          <l xml:id="A07009-e110520">They put forth questions of astrology,</l>
+          <l xml:id="A07009-e110530"><pb facs="15"/> which Faustus answered with such learned skill,</l>
+          <l xml:id="A07009-e110540">As they admire and wondered at his wit. </l>
+          <l xml:id="A07009-e110550">Now is his fame spread forth in every land,</l>
+          <l xml:id="A07009-e110560">Amongst the rest the emperor is one,</l>
+          <l xml:id="A07009-e110570">Carolus the fifth, at whose palace now</l>
+          <l xml:id="A07009-e110580">Faustus is feasted amongst his noble men. </l>
+          <l xml:id="A07009-e110590">What there he did in trial of his art,</l>
+          <l xml:id="A07009-e110600">I leave untold, your eyes shall see performed. </l>
+          <stage xml:id="A07009-e110610">Exit.</stage>
+        </sp>
+        <stage xml:id="A07009-e110620">Enter Robin the ostler with a book in his hand</stage>
+        <sp xml:id="A07009-e110630" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e110640">O this is admirable! here I ha' stolen one of doctor Faustus conjuring books, and i'faith I mean to 〈◊〉 some circles for my own use ▪ now will I make all the 〈◊〉 in our parish dance at my pleasure stark naked before me, and so by that means I shall see more than ere I felt, or saw yet.</p>
+        </sp>
+        <stage xml:id="A07009-e110650">Enter Rafe calling Robin.</stage>
+        <sp xml:id="A07009-e110660" who="A07009-rafe">
+          <speaker>Rafe</speaker>
+          <p xml:id="A07009-e110670">Robin, prithee come away, there's a gentleman tarries to have his horse, and he would have his things rubbed and made clean: he keeps such a chase with my mistress about it, and she has sent me to look thee out, prithee come away.</p>
+        </sp>
+        <sp xml:id="A07009-e110680" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e110690">Keep out, keep out, or else you are blown up, you are dismembered Rafe, keep out, for I am about a roaring piece of work.</p>
+        </sp>
+        <sp xml:id="A07009-e110700" who="A07009-rafe">
+          <speaker>Rafe</speaker>
+          <p xml:id="A07009-e110710">Come, what dost thou with that same book thou canst not read?</p>
+        </sp>
+        <sp xml:id="A07009-e110720" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e110730">Yes, my master and mistress shall find that I can read, he for his forehead, she for her private study, she's born to bear with me, or else my art fails.</p>
+        </sp>
+        <sp xml:id="A07009-e110740" who="A07009-rafe">
+          <speaker>Rafe </speaker>
+          <p xml:id="A07009-e110750">Why Robin what book is that?</p>
+        </sp>
+        <sp xml:id="A07009-e110760" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e110770">What book? why the most intolerable book for conjuring that ere was invented by any brimstone devil.</p>
+        </sp>
+        <sp xml:id="A07009-e110780" who="A07009-rafe">
+          <speaker>Rafe</speaker>
+          <p xml:id="A07009-e110790">Canst thou conjure with it?</p>
+        </sp>
+        <sp xml:id="A07009-e110800" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e110810">I can do all these things easily with it: first, I can make thee drunk with hippocrase at any tavern in Europe for nothing, that's one of my coniuring works.</p>
+        </sp>
+        <sp xml:id="A07009-e110820" who="A07009-rafe">
+          <speaker>Rafe</speaker>
+          <p xml:id="A07009-e110830">Our master parson says that's nothing.</p>
+        </sp>
+        <sp xml:id="A07009-e110840" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e110850">True Rafe, and more Rafe, if thou hast any mind<pb facs="16"/> to Nan spit our kitchen maid, then turn her and wind her to thy own use, as often as thou wilt, and at midnight.</p>
+        </sp>
+        <sp xml:id="A07009-e110860" who="A07009-rafe">
+          <speaker>Rafe</speaker>
+          <p xml:id="A07009-e110870">O brave robin; shall I have Nan spit, and to mine own use? On that condition I'll feed thy devil with horsebread as long as he lives, of free cost.</p>
+        </sp>
+        <sp xml:id="A07009-e110880" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e110890">No more sweet Rafe, let's go and make clean our boots which lie foul upon our hands, and then to our conjuring in the devil's name.</p>
+        </sp>
+        <stage xml:id="A07009-e110900">Exeunt.</stage>
+        <stage xml:id="A07009-e110910">Enter Robin and Rafe with a silver goblet.</stage>
+        <sp xml:id="A07009-e110920" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e110930">Come Rafe, did not I tell thee, we were for ever made by this doctor Faustus' book? ecce signum, here's a simple purchase for horsekeepers, our horses shall eat no hay as long as this lasts.</p>
+        </sp>
+        <stage xml:id="A07009-e110940">Enter the vintner.</stage>
+        <sp xml:id="A07009-e110950" who="A07009-rafe">
+          <speaker>Rafe</speaker>
+          <p xml:id="A07009-e110960">But Robin, here comes the vintner.</p>
+        </sp>
+        <sp xml:id="A07009-e110970" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e110980">Hush, I'll gull him supernaturally: drawer, I hope all is paid, God be with you, come Rafe. </p>
+        </sp>
+        <sp xml:id="A07009-e110990" who="A07009-vintner">
+          <speaker>Vintner</speaker>
+          <p xml:id="A07009-e111000">Soft sir, a word with you, I must yet have a goblet paid from you ere you go.</p>
+        </sp>
+        <sp xml:id="A07009-e111010" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e111020">I a goblet Rafe, I a goblet? I scorn you: and you are but a etc. I a goblet? search me.</p>
+        </sp>
+        <sp xml:id="A07009-e111030" who="A07009-vintner">
+          <speaker>Vintner</speaker>
+          <p xml:id="A07009-e111040">I mean so sir with your favour.</p>
+        </sp>
+        <sp xml:id="A07009-e111050" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e111060">How say you now?</p>
+        </sp>
+        <sp xml:id="A07009-e111070" who="A07009-vintner">
+          <speaker>Vintner</speaker>
+          <p xml:id="A07009-e111080">I must say somewhat to your fellow, you sir.</p>
+        </sp>
+        <sp xml:id="A07009-e111090" who="A07009-rafe">
+          <speaker>Rafe</speaker>
+          <p xml:id="A07009-e111100">Me sir, me sir, search your fill: now sir, you may be ashamed to burden honest men with a matter of truth.</p>
+        </sp>
+        <sp xml:id="A07009-e111110" who="A07009-vintner">
+          <speaker>Vintner</speaker>
+          <p xml:id="A07009-e111120">Well, tone of you hath this goblet about you.</p>
+        </sp>
+        <sp xml:id="A07009-e111130" who="A07009-robin">
+          <speaker>Ro.</speaker>
+          <p xml:id="A07009-e111140">You lie drawer, 'tis afore me: sirrah you, I'll teach ye to impeach honest men▪ stand by, I'll scour you for a goblet, stand aside you had best, I charge you in the name of Belsabub: look to the goblet Rafe. </p>
+        </sp>
+        <sp xml:id="A07009-e111150" who="A07009-vintner">
+          <speaker>Vintner</speaker>
+          <p xml:id="A07009-e111160">What mean you sirrah?</p>
+        </sp>
+        <sp xml:id="A07009-e111170" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e111180">I'll tell you what I mean.</p>
+          <stage xml:id="A07009-e111190">He reads.</stage>
+          <p xml:id="A07009-e111200">Sanctobulorum periphrasticon: nay I'll tickle you vintner, look to the goblet Rafe, polypragmos belyeborams framanto pacostiphos tostu Mephastophilis, etc. </p>
+        </sp>
+        <stage xml:id="A07009-e111210">Enter Mephostophilis: sets squibs at their backs: they run about.</stage>
+        <sp xml:id="A07009-e111220" who="A07009-vintner">
+          <pb facs="16"/>
+          <speaker>Vintner</speaker>
+          <p xml:id="A07009-e111230">O nomine dominae, what meanst thou robin thou hast no goblet.</p>
+        </sp>
+        <sp xml:id="A07009-e111240" who="A07009-rafe">
+          <speaker>Rafe</speaker>
+          <p xml:id="A07009-e111250">Peccatum peccatorum, here's thy goblet, good vintner.</p>
+        </sp>
+        <sp xml:id="A07009-e111260" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e111270">Misericordia pro nobis ▪ what shall I do? good devil forgive me now, and I'll never rob thy library more.</p>
+        </sp>
+        <stage xml:id="A07009-e111280">Enter to them Meph.</stage>
+        <sp xml:id="A07009-e111290" who="A07009-mephistophilis">
+          <speaker>Meph.</speaker>
+          <p xml:id="A07009-e111300">Vanish villains, th' one like an ape, another like a bear, the third an ass, for doing this enterprise.</p>
+          <l xml:id="A07009-e111310">Monarch of hell, under whose black survey</l>
+          <l xml:id="A07009-e111320">Great potentates do kneel with awful fear,</l>
+          <l xml:id="A07009-e111330">Upon whose altars thousand fowls 〈…〉,</l>
+          <l xml:id="A07009-e111340">How am I vexed with these villain's charms? </l>
+          <l xml:id="A07009-e111350">From Constantinople am I hither come,</l>
+          <l xml:id="A07009-e111360">Only for pleasure of these damned slaves. </l>
+        </sp>
+        <sp xml:id="A07009-e111370" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e111380">How, from Constantinople? you have had a great journey, will you take six pence in your purse to pay for your supper, and be gone?</p>
+        </sp>
+        <sp xml:id="A07009-e111390" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e111400">Well villains, for your presumption, I transform thee into an ape, and thee into a dog, and so be gone.</p>
+          <stage xml:id="A07009-e111410">Exit.</stage>
+        </sp>
+        <sp xml:id="A07009-e111420" who="A07009-robin">
+          <speaker>Rob.</speaker>
+          <p xml:id="A07009-e111430">How, into an ape? that's brave, I'll have fine sport with the boys, I'll get nuts and apples enough.</p>
+        </sp>
+        <sp xml:id="A07009-e111440" who="A07009-rafe">
+          <speaker>Rafe</speaker>
+          <p xml:id="A07009-e111450">And I must be a dog.</p>
+        </sp>
+        <stage xml:id="A07009-e111460">Exeunt.</stage>
+        <sp xml:id="A07009-e111470" who="A07009-robin">
+          <speaker>Robin</speaker>
+          <p xml:id="A07009-e111480"> i'faith thy head will never be out of the pottage pot.</p>
+        </sp>
+        <stage xml:id="A07009-e111490">Enter emperor, Faustus, and a knight, with attendants.</stage>
+        <sp xml:id="A07009-e111500" who="A07009-emperor">
+          <speaker>Emperor</speaker>
+          <p xml:id="A07009-e111510">Master doctor Faustus, I have heard strange report of thy knowledge in the black art, how that none in my empire, nor in the whole world can compare with thee, for the rare effects of magic: they say thou hast a familiar spirit, by whom thou canst accomplish what thou list, this therefore is my request that thou let me see some proof of the skill, that mine eyes may be witnesses to confirm what mine ears have heard reported, and here I swear to thee, by the honour of mine imperial crown, that whatever thou dost, thou shalt be no ways prejudiced or endamaged.</p>
+        </sp>
+        <sp xml:id="A07009-e111520" who="A07009-knight">
+          <speaker>Knight</speaker>
+          <p xml:id="A07009-e111530"> i'faith he looks much like a conjurer ▪.</p>
+          <stage xml:id="A07009-e111540">Aside.</stage>
+        </sp>
+        <sp xml:id="A07009-e111550" who="A07009-faustus">
+          <pb facs="17"/>
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e111560">My gracious sovereign, though I must confess myself far inferior to the report men have published, and nothing answerable to the honour of your imperial majesty, yet for that love and duty binds me thereunto, I am content to do whatsoever your majesty shall command me.</p>
+        </sp>
+        <sp xml:id="A07009-e111570" who="A07009-emperor">
+          <speaker>Emperor</speaker>
+          <p xml:id="A07009-e111580">Then doctor Faustus, mark what I shall say, as I was sometime solitary set, within my closet, sundry thoughts arose, about the honour of mine ancestors, how they had won by prowess such exploits, goat such riches, subdued so many kingdoms, as we that do succeed, or they that shall hereafter possess our throne, shall (I fear me) never attain to that degree of high renown and great authority, amongst which Kings is Alexander the great, chief spectacle of the world's pre-eminence,</p>
+          <l xml:id="A07009-e111590">The bright shining of whose glorious acts</l>
+          <l xml:id="A07009-e111600">Lightens the world with his reflecting beams,</l>
+          <l xml:id="A07009-e111610">As when I hear but motion made of him,</l>
+          <l xml:id="A07009-e111620">It grieves my soul I never saw the man:</l>
+          <l xml:id="A07009-e111630">If therefore thou, by cunning of thine art,</l>
+          <l xml:id="A07009-e111640">Canst raise this man from hollow vaults below,</l>
+          <l xml:id="A07009-e111650">Where lies entombed this famous conqueror,</l>
+          <l xml:id="A07009-e111660">And bring with him his beauteous paramour,</l>
+          <l xml:id="A07009-e111670">Both in their right shapes, gesture, and attire</l>
+          <l xml:id="A07009-e111680">They used to wear during their time of life,</l>
+          <l xml:id="A07009-e111690">Thou shalt both satisfy my just desire,</l>
+          <l xml:id="A07009-e111700">And give me cause to praise thee whilst I live. </l>
+        </sp>
+        <sp xml:id="A07009-e111710" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e111720">My gracious lord, I am ready to accomplish your request, so far forth as by art and power of my spirit I am able to perform.</p>
+        </sp>
+        <sp xml:id="A07009-e111730" who="A07009-knight">
+          <speaker>Knight</speaker>
+          <p xml:id="A07009-e111740">Ifaith that's just nothing at all.</p>
+          <stage xml:id="A07009-e111750">Aside.</stage>
+        </sp>
+        <sp xml:id="A07009-e111760" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e111770">But if it like your grace, it is not in my ability to present before your eyes, the true substantial bodies of those two deceased princes which long since are consumed to dust.</p>
+        </sp>
+        <sp xml:id="A07009-e111780" who="A07009-knight">
+          <speaker>Knight</speaker>
+          <p xml:id="A07009-e111790">I marry master doctor, now there's a sign of grace in you, when you will confess the truth.</p>
+          <stage xml:id="A07009-e111800">Aside.</stage>
+        </sp>
+        <sp xml:id="A07009-e111810" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e111820">But such spirits as can lively resemble Alexander and his paramour, shall appear before your grace, in that<pb facs="17"/> manner that they best lived in, in their most flourishing estate, which I doubt not shall sufficiently content your imperial majesty.</p>
+        </sp>
+        <sp xml:id="A07009-e111830" who="A07009-emperor">
+          <speaker>Emperor</speaker>
+          <p xml:id="A07009-e111840">Go to master doctor, let me see them presently.</p>
+        </sp>
+        <sp xml:id="A07009-e111850" who="A07009-knight">
+          <speaker>Knight</speaker>
+          <p xml:id="A07009-e111860">Do you hear master doctor? you bring Alexander and his paramour before the emperor?</p>
+        </sp>
+        <sp xml:id="A07009-e111870" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e111880">How then sir?</p>
+        </sp>
+        <sp xml:id="A07009-e111890" who="A07009-knight">
+          <speaker>Knight</speaker>
+          <p xml:id="A07009-e111900"> i'faith that's as true as Diana turned me to a stag.</p>
+        </sp>
+        <sp xml:id="A07009-e111910" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e111920">No sir but when Actaeon died, he left the horns for you: Mephastophilis be gone.</p>
+        </sp>
+        <stage xml:id="A07009-e111930">Exit Meph.</stage>
+        <sp xml:id="A07009-e111940" who="A07009-knight">
+          <speaker>Knight</speaker>
+          <p xml:id="A07009-e111950">Nay, and you go to conjuring, I'll be gone.</p>
+          <stage xml:id="A07009-e111960">Exit Kn ▪</stage>
+        </sp>
+        <sp xml:id="A07009-e111970" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e111980">I'll meet with you anon for interrupting me so: here they are my gracious lord.</p>
+        </sp>
+        <stage xml:id="A07009-e111990">Enter Meph: with Alexander and his paramour.</stage>
+        <sp xml:id="A07009-e112000" who="A07009-emperor">
+          <speaker>Emperor</speaker>
+          <p xml:id="A07009-e112010">Master doctor, I heard this lady while she lived had a wart or mole in her neck, how shall I know whether it be so or no?</p>
+        </sp>
+        <sp xml:id="A07009-e112020" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e112030">Your highness may boldly go and see.</p>
+        </sp>
+        <stage xml:id="A07009-e112040">Exit Alex:</stage>
+        <sp xml:id="A07009-e112050" who="A07009-emperor">
+          <speaker>Emperor</speaker>
+          <p xml:id="A07009-e112060">Sure these are no spirits, but the true substantial bodies of those two deceased princes.</p>
+        </sp>
+        <sp xml:id="A07009-e112070" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e112080">Wilt please your highness now to send for the knight that was so pleasant with me here of late?</p>
+        </sp>
+        <sp xml:id="A07009-e112090" who="A07009-emperor">
+          <speaker>Emperor</speaker>
+          <p xml:id="A07009-e112100">One of you call him forth.</p>
+        </sp>
+        <stage xml:id="A07009-e112110">Enter the knight with a pair of horns on his head.</stage>
+        <sp xml:id="A07009-e112120" who="A07009-emperor">
+          <speaker>Emperor</speaker>
+          <p xml:id="A07009-e112130">How now sir knight? why I had thought thou hadst been a bachelor, but now I see thou hast a wife, that not only gives thee horns, but makes thee wear them, feel on thy head.</p>
+        </sp>
+        <sp xml:id="A07009-e112140" who="A07009-knight">
+          <speaker>Knight</speaker>
+          <l xml:id="A07009-e112150">Thou damned wretch, and execrable dog,</l>
+          <l xml:id="A07009-e112160">Bred in the concave of some monstrous rock:</l>
+          <l xml:id="A07009-e112170">How dar'st thou thus abuse a gentleman? </l>
+          <l xml:id="A07009-e112180">Villain I say, undo what thou hast done. </l>
+        </sp>
+        <sp xml:id="A07009-e112190" who="A07009-faustus">
+          <pb facs="18"/>
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e112200">O not so fast sir, there's no haste but good, are you remembered how you crossed me in my conference with the emperor? I think I have met with you for it.</p>
+        </sp>
+        <sp xml:id="A07009-e112210" who="A07009-emperor">
+          <speaker>Emperor</speaker>
+          <p xml:id="A07009-e112220">Good master doctor, at my entreaty release him, he hath done penance sufficient.</p>
+        </sp>
+        <sp xml:id="A07009-e112230" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e112240">My gracious lord, not so much for the injury he offered me here in your presence, as to delight you with some mirth, hath Faustus worthily requited this injurious knight, which being all I desire, I am content to release him of his horns: and sir knight, hereafter speak well of scholars: Mephastophilis, transform him straight. Now my good lord having done my duty, I humbly take my leave.</p>
+        </sp>
+        <sp xml:id="A07009-e112250" who="A07009-emperor">
+          <speaker>Emperor</speaker>
+          <p xml:id="A07009-e112260">Farewell master doctor, yet ere you go, expect from me a bounteous reward.</p>
+          <stage xml:id="A07009-e112270">Exit emperor.</stage>
+        </sp>
+        <sp xml:id="A07009-e112280" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e112290">Now Mephastophilis, the restless course that time doth run with calm and silent foot,</p>
+          <l xml:id="A07009-e112300">Shortening my days and thread of vital life,</l>
+          <l xml:id="A07009-e112310">Calls for the payment of my latest years,</l>
+          <l xml:id="A07009-e112320">Therefore sweet Mephastophilis, let us make haste to Wertenberg. </l>
+        </sp>
+        <sp xml:id="A07009-e112330" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <p xml:id="A07009-e112340">What, will you go on horse back, or on foot?</p>
+        </sp>
+        <sp xml:id="A07009-e112350" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e112360">Nay, till I am passed this fair and pleasant green, I'll walk on foot.</p>
+        </sp>
+        <stage xml:id="A07009-e112370">Enter a horse-courser</stage>
+        <sp xml:id="A07009-e112380" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e112390">I have been all this day seeking one master fustian: mass see where he is, God save you master doctor.</p>
+        </sp>
+        <sp xml:id="A07009-e112400" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e112410">What horse-courser, you are well met.</p>
+        </sp>
+        <sp xml:id="A07009-e112420" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e112430">Do you hear sir? I have brought you forty dollars for your horse.</p>
+        </sp>
+        <sp xml:id="A07009-e112440" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e112450">I cannot sell him so: if thou lik'st him for fifty, take him.</p>
+        </sp>
+        <sp xml:id="A07009-e112460" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e112470">Alas sir, I have no more, I pray you speak for me.</p>
+        </sp>
+        <sp xml:id="A07009-e112480" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <p xml:id="A07009-e112490">I pray you let him have him, he is an honest fellow, and he has a great charge, neither wife nor child.</p>
+        </sp>
+        <sp xml:id="A07009-e112500" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e112510">Well, come give me your money, my boy will deliver him to you: but I must tell you one thing before you have<pb facs="18"/> him, ride him not into the water at any hand.</p>
+        </sp>
+        <sp xml:id="A07009-e112520" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e112530">Why sir, will he not drink of all waters?</p>
+        </sp>
+        <sp xml:id="A07009-e112540" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e112550">O yes, he will drink of all waters, but ride him not into the water, ride him over hedge or ditch, or where thou wilt, but not into the water.</p>
+        </sp>
+        <sp xml:id="A07009-e112560" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e112570">Well sir, now am I made man for ever, I'll not leave my horse for forty: if he had but the quality of heigh ding, ding, heigh, ding, ding, I'd make a brave living on him; he has a buttock as slick as an eel: well god buy sir, your boy will deliver him me: but hark ye sir, if my horse he sick, or ill at ease, if I bring his water to you you'll tell me what it is?</p>
+          <stage xml:id="A07009-e112580">Exit horse-courser.</stage>
+        </sp>
+        <sp xml:id="A07009-e112590" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e112600">Away you villain: what, dost think I am a horse-doctor? what art thou Faustus but a man condemned to die?</p>
+          <l xml:id="A07009-e112610">Thy fatal time doth draw to final end,</l>
+          <l xml:id="A07009-e112620">Despair doth drive distrust unto my thoughts,</l>
+          <l xml:id="A07009-e112630">Confound these passions with a quiet sleep:</l>
+          <l xml:id="A07009-e112640">Tush, Christ did call the thief upon the cross,</l>
+          <l xml:id="A07009-e112650">Then rest thee Faustus quiet in conceit. </l>
+        </sp>
+        <stage xml:id="A07009-e112660">Sleep in his chair.</stage>
+        <stage xml:id="A07009-e112670">Enter horse-courser all wet, crying.</stage>
+        <sp xml:id="A07009-e112680" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e112690">Alas, alas, doctor fustian quoth 'a, mas. doctor Lopus was never such a doctor, has given me a purgation, has purged me of forty dollars, I shall never see them more: but yet like an ass as I was, I would not be ruled by him, for he bade me I should ride him into no water; now, I thinking my horse had had some rare quality that he would not have had me known of, I like a venturous youth, rid him into the deep pond at the town's end, I was no sooner in the middle of the pond, but my horse vanished away, and I sat upon a bottle of hay, never so near drowning in my life: but I'll seek out my doctor, and have my forty dollars again, or I'll make it the dearest horse: oh yonder is his snipper-snapper , do you hear? you, heigh, pass, where's your master?</p>
+        </sp>
+        <sp xml:id="A07009-e112700" who="A07009-mephistophilis">
+          <pb facs="19"/>
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e112710">Why sir, what would you? you cannot speak with him.</p>
+        </sp>
+        <sp xml:id="A07009-e112720" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e112730">But I will speak with him.</p>
+        </sp>
+        <sp xml:id="A07009-e112740" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e112750">Why he's fast asleep, come some other time.</p>
+        </sp>
+        <sp xml:id="A07009-e112760" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e112770">I'll speak with him now, or I'll break his glass-windows about his ears.</p>
+        </sp>
+        <sp xml:id="A07009-e112780" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e112790">I tell thee he has not slept this eight nights.</p>
+        </sp>
+        <sp xml:id="A07009-e112800" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e112810">And he have not slept this eight weeks I'll speak with him.</p>
+        </sp>
+        <sp xml:id="A07009-e112820" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e112830">See where he is fast asleep.</p>
+        </sp>
+        <sp xml:id="A07009-e112840" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e112850">Ay, this is he, God save ye master doctor, master doctor, master doctor fustian, forty dollars, forty dollars for a bottle of hay.</p>
+        </sp>
+        <sp xml:id="A07009-e112860" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e112870">Why, thou seest he hears thee not.</p>
+        </sp>
+        <sp xml:id="A07009-e112880" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e112890">So, ho, ho: so, ho, ho.</p>
+          <stage xml:id="A07009-e112900">Hallow in his ear.</stage>
+          <p xml:id="A07009-e112910">No, will you not wake? I'll make you wake ere I go.</p>
+        </sp>
+        <stage xml:id="A07009-e112920">Pull him by the leg, and pull it away.</stage>
+        <p xml:id="A07009-e112930">Alas, I am undone, what shall I do:</p>
+        <sp xml:id="A07009-e112940" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e112950">O my leg, my leg, help Mephastophilis, call the officers, my leg, my leg.</p>
+        </sp>
+        <sp xml:id="A07009-e112960" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e112970">Come villain to the constable.</p>
+        </sp>
+        <sp xml:id="A07009-e112980" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e112990">O lord sir, let me go, and I'll give you forty dollars more.</p>
+        </sp>
+        <sp xml:id="A07009-e113000" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e113010">Where be they?</p>
+        </sp>
+        <sp xml:id="A07009-e113020" who="A07009-horse-corser">
+          <speaker>Horse-corser</speaker>
+          <p xml:id="A07009-e113030">I have none about me, come to my oastrie and I'll give them you.</p>
+        </sp>
+        <sp xml:id="A07009-e113040" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <p xml:id="A07009-e113050">Be gone quickly.</p>
+        </sp>
+        <stage xml:id="A07009-e113060">Horse-courser runs away.</stage>
+        <sp xml:id="A07009-e113070" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e113080">What is he gone? farewell he, Faustus has his leg again, and the horse-courser I take it, a bottle of hay for his labour; well, this trick shall cost him forty dollars more.</p>
+        </sp>
+        <stage xml:id="A07009-e113090">Enter Wagner.</stage>
+        <p xml:id="A07009-e113100">How now Wagner, what's the news with thee?</p>
+        <sp xml:id="A07009-e113110" who="A07009-wagner">
+          <pb facs="19"/>
+          <speaker>Wag.</speaker>
+          <p xml:id="A07009-e113120">Sir, the Duke of Vanholt doth earnestly entreat your company.</p>
+        </sp>
+        <sp xml:id="A07009-e113130" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e113140">The Duke of Vanholt! an honourable gentleman, to whom I must be no niggard of my cunning, come Mephastophilis, let's away to him.</p>
+        </sp>
+        <stage xml:id="A07009-e113150">Exeunt.</stage>
+        <stage xml:id="A07009-e113160">Enter to them the Duke, and the Duchess, the Duke speaks.</stage>
+        <sp xml:id="A07009-e113170" who="A07009-duchess">
+          <speaker>Duchess</speaker>
+          <p xml:id="A07009-e113180">Believe me master doctor, this merriment hath much pleased me.</p>
+        </sp>
+        <sp xml:id="A07009-e113190" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e113200">My gracious lord, I am glad if contents you so well: but it may be madam, you take no delight in this, I have heard that great bellied women do long for some dainties or other, what is it madam? tell me, and you shall have it.</p>
+        </sp>
+        <sp xml:id="A07009-e113210" who="A07009-duchess">
+          <speaker>Duchess</speaker>
+          <p xml:id="A07009-e113220">Thanks, good master doctor, and for I see your courteous intent to pleasure me, I will not hide from you the thing my heart desires, and were it now summer, as it is January, and the dead time of the winter, I would desire no better meat than a dish of ripe grapes.</p>
+        </sp>
+        <sp xml:id="A07009-e113230" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e113240">Alas madam, that's nothing, Mephastophilis, be gone:<stage xml:id="A07009-e113250">Exit Meph.</stage>were it a greater thing than this, so it would content you, you should have it<stage xml:id="A07009-e113260">Enter Mephasto: with the grapes.</stage>here they be madam, wilt please you taste on them.</p>
+        </sp>
+        <sp xml:id="A07009-e113270" who="A07009-duchess">
+          <speaker>Duchess</speaker>
+          <p xml:id="A07009-e113280">Believe me master doctor, this makes me wonder above the rest, that being in the dead time of winter, and in the month of January, how you should come by these grapes.</p>
+        </sp>
+        <sp xml:id="A07009-e113290" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e113300">If it like your grace, the year is divided into two circles over the whole world, that when it is here winter with us, in the contrary circle it is summer with them, as in India, Saba, and farther countries in the East, and by means of a swift spirit that I have, I had them brought hither, as ye see, how do you like them madam, be they good?</p>
+        </sp>
+        <sp xml:id="A07009-e113310" who="A07009-duchess">
+          <speaker>Duchess</speaker>
+          <p xml:id="A07009-e113320">Believe me master doctor, they be the best grapes<pb facs="20"/> that e'er I tasted in my life before.</p>
+        </sp>
+        <sp xml:id="A07009-e113330" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e113340">I am glad they content you so madam.</p>
+        </sp>
+        <sp xml:id="A07009-e113350" who="A07009-duchess">
+          <speaker>Duchess</speaker>
+          <p xml:id="A07009-e113360">Come madam, let us in, where you must well reward this learned man for the great kindness he hath showed to you.</p>
+        </sp>
+        <sp xml:id="A07009-e113370" who="A07009-duchess">
+          <speaker>Duchess</speaker>
+          <l xml:id="A07009-e113380">And so I will my lord, and whilst I live,</l>
+          <l xml:id="A07009-e113390">Rest beholding for this courtesy. </l>
+        </sp>
+        <sp xml:id="A07009-e113400" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e113410">I humbly thank your grace.</p>
+        </sp>
+        <sp xml:id="A07009-e113420" who="A07009-duchess">
+          <speaker>Duchess</speaker>
+          <p xml:id="A07009-e113430">Come, master doctor follow us, and receive your reward.</p>
+        </sp>
+        <stage xml:id="A07009-e113440">Exeunt.</stage>
+        <stage xml:id="A07009-e113450">Enter Wagner solus.</stage>
+        <sp xml:id="A07009-e113460" who="A07009-wagner">
+          <speaker>Wag.</speaker>
+          <l xml:id="A07009-e113470">I think my master means to die shortly,</l>
+          <l xml:id="A07009-e113480">For he hath given to me all his goods,</l>
+          <l xml:id="A07009-e113490">And yet methinks , if that death were near,</l>
+          <l xml:id="A07009-e113500">He would not banquet, and carouse, and swill</l>
+          <l xml:id="A07009-e113510">Amongst the students, as even now he doth,</l>
+          <l xml:id="A07009-e113520">Who are at supper with such belly-cheer,</l>
+          <l xml:id="A07009-e113530">As Wagner never beheld in all his life. </l>
+          <l xml:id="A07009-e113540">See where they come: belike the least is ended. </l>
+        </sp>
+        <stage xml:id="A07009-e113550">Enter Faustus with two or three scholars</stage>
+        <sp xml:id="A07009-e113560" who="A07009-1_scholar">
+          <speaker>1. Sch.</speaker>
+          <p xml:id="A07009-e113570">Master doctor Faustus, since our conference about fair ladies, which was the beutifulst in all the world, we have determined with ourselves, that Helen of Greece was the admirablest lady that ever lived: therefore master doctor, if you will do us that favour, as to let us see that peerless dame of Greece, whom all the world admires for majesty, we should think ourselves much beholding unto you.</p>
+        </sp>
+        <sp xml:id="A07009-e113580" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e113590">Gentlemen, for that I know your friendship is unfeigned, and Faustus' custom is not to defy the just requests of those that wish him well, you shall behold that peerless dame of Greece, no otherways for pomp and majesty, then when sir Paris crossed the seas with her, and brought the spoils to rich Dardama. Be silent then, for danger is in words.</p>
+        </sp>
+        <stage xml:id="A07009-e113600"><pb facs="20"/>Music sounds, and Helen passeth over the stage.</stage>
+        <sp xml:id="A07009-e113610" who="A07009-2_scholar">
+          <speaker>2. Sch.</speaker>
+          <l xml:id="A07009-e113620">Too simple is my wit to tell her praise,</l>
+          <l xml:id="A07009-e113630">Whom all the world admires so majesty. </l>
+        </sp>
+        <sp xml:id="A07009-e113640" who="A07009-3_scholar">
+          <speaker>3. Sch.</speaker>
+          <l xml:id="A07009-e113650">No marvel though the angry Greeks pursued</l>
+          <l xml:id="A07009-e113660">With ten years war the rape of such a Queen,</l>
+          <l xml:id="A07009-e113670">Whose heavenly beauty passeth all compare. </l>
+        </sp>
+        <l xml:id="A07009-e113680">1. Since we have seen the pride of nature's works,</l>
+        <l xml:id="A07009-e113690">And only paragon of excellence,</l>
+        <stage xml:id="A07009-e113700">Enter an old man.</stage>
+        <l xml:id="A07009-e113710">Let us depart, and for this glorious deed</l>
+        <l xml:id="A07009-e113720">Happy and blessed be Faustus evermore. </l>
+        <sp xml:id="A07009-e113730" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e113740">Gentlemen farewell, the same I wish to you.</p>
+        </sp>
+        <stage xml:id="A07009-e113750">Exeunt scholars.</stage>
+        <sp xml:id="A07009-e113760" who="A07009-oldman">
+          <speaker>Old.</speaker>
+          <l xml:id="A07009-e113770">Ah doctor Faustus, that I might prevail,</l>
+          <l xml:id="A07009-e113780">To guide thy steps unto the way of life,</l>
+          <l xml:id="A07009-e113790">By which sweet path thou mayst attain the goal</l>
+          <l xml:id="A07009-e113800">That shall conduct thee to celestial rest. </l>
+          <l xml:id="A07009-e113810">Break heart, drop blood, and mingle it with tears,</l>
+          <l xml:id="A07009-e113820">Tears falling from repentant heaviness</l>
+          <l xml:id="A07009-e113830">Of thy most vild and loathsome filthiness,</l>
+          <l xml:id="A07009-e113840">The stench whereof corrupts the inward soul</l>
+          <l xml:id="A07009-e113850">With such flagitious crimes of heinous sins,</l>
+          <l xml:id="A07009-e113860">As no commiseration may expel,</l>
+          <l xml:id="A07009-e113870">But mercy Faustus of thy saviour sweet,</l>
+          <l xml:id="A07009-e113880">Whose blood alone must wash away thy guilt. </l>
+        </sp>
+        <sp xml:id="A07009-e113890" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e113900">Where art thou Faustus? wretch what hast thou done? </l>
+          <l xml:id="A07009-e113910">Damned art thou Faustus, damned, despair and die,</l>
+          <l xml:id="A07009-e113920">Hell calls for right, and with a roaring voice</l>
+          <l xml:id="A07009-e113930">Says, Faustus come, thine hour is come,</l>
+          <stage xml:id="A07009-e113940">Mepha. gives him a dagger.</stage>
+          <l xml:id="A07009-e113950">And Faustus will come to do thee right. </l>
+        </sp>
+        <sp xml:id="A07009-e113960" who="A07009-oldman">
+          <speaker>.</speaker>
+          <l xml:id="A07009-e113970">Ah stay good Faustus, stay thy desperate steps,</l>
+          <l xml:id="A07009-e113980">I see an angel hovers o'er thy head,</l>
+          <l xml:id="A07009-e113990">And with a viol full of precious grace,</l>
+          <l xml:id="A07009-e114000">Offers to pour the same into thy soul,</l>
+          <l xml:id="A07009-e114010">Then call for mercy and avoid despair. </l>
+        </sp>
+        <sp xml:id="A07009-e114020" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e114030">Ah my sweet friend, I feel thy words</l>
+          <l xml:id="A07009-e114040"><pb facs="21"/> to comfort my distressed soul,</l>
+          <l xml:id="A07009-e114050">Leave me a while to ponder on my sins. </l>
+        </sp>
+        <sp xml:id="A07009-e114060" who="A07009-oldman">
+          <speaker>.</speaker>
+          <p xml:id="A07009-e114070">I go sweet Faustus, but with heavy cheer, fearing the ruin of thy hopeless soul.</p>
+        </sp>
+        <sp xml:id="A07009-e114080" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e114090">Accursed Faustus, where is mercy now? </l>
+          <l xml:id="A07009-e114100">I do repent, and yet I do despair:</l>
+          <l xml:id="A07009-e114110">Hell strives with grace for conquest in my breast,</l>
+          <l xml:id="A07009-e114120">What shall I do to shun the snares of death? </l>
+        </sp>
+        <sp xml:id="A07009-e114130" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e114140">Thou traitor Faustus, I arrest thy soul</l>
+          <l xml:id="A07009-e114150">For disobedience to my sovereign lord,</l>
+          <l xml:id="A07009-e114160">Revolt, or I'll in piecemeal tear thy flesh. </l>
+        </sp>
+        <sp xml:id="A07009-e114170" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e114180">Sweet Mephastophilis, entreat thy lord</l>
+          <l xml:id="A07009-e114190">To pardon my unjust presumption,</l>
+          <l xml:id="A07009-e114200">And with my blood again I will confirm</l>
+          <l xml:id="A07009-e114210">My former vow I made to Lucifer. </l>
+        </sp>
+        <sp xml:id="A07009-e114220" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e114230">Do it then quickly, with unfeigned heart,</l>
+          <l xml:id="A07009-e114240">Lest greater danger do attend thy drift. </l>
+        </sp>
+        <sp xml:id="A07009-e114250" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e114260">Torment sweet friend, that base and crooked age,</l>
+          <l xml:id="A07009-e114270">That durst dissuade me from thy Lucifer,</l>
+          <l xml:id="A07009-e114280">With greatest torments that our hell affords. </l>
+        </sp>
+        <sp xml:id="A07009-e114290" who="A07009-mephistophilis">
+          <speaker>Me:</speaker>
+          <l xml:id="A07009-e114300">His faith is great, I cannot touch his soul,</l>
+          <l xml:id="A07009-e114310">But what I may afflict his body with,</l>
+          <l xml:id="A07009-e114320">I will attempt, which is but little worth. </l>
+        </sp>
+        <sp xml:id="A07009-e114330" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e114340">One thing, good servant, let me crave of thee</l>
+          <l xml:id="A07009-e114350">To glut the longing of my heart's desire,</l>
+          <l xml:id="A07009-e114360">That I might have unto my paramour,</l>
+          <l xml:id="A07009-e114370">That heavenly Helen which I saw of late,</l>
+          <l xml:id="A07009-e114380">Whose sweet embracings may extinguish clean</l>
+          <l xml:id="A07009-e114390">These thoughts s that do dissuade me from my vow,</l>
+          <l xml:id="A07009-e114400">And keep mine oath I made to Lucifer. </l>
+        </sp>
+        <sp xml:id="A07009-e114410" who="A07009-mephistophilis">
+          <speaker>Me.</speaker>
+          <l xml:id="A07009-e114420">Faustus, this, or what else thou shalt desire,</l>
+          <l xml:id="A07009-e114430">Shall be performed in twinkling of an eye. </l>
+        </sp>
+        <stage xml:id="A07009-e114440">Enter Helen.</stage>
+        <sp xml:id="A07009-e114450" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <l xml:id="A07009-e114460">Was this the face that launched a thousand ships? </l>
+          <l xml:id="A07009-e114470">And burned the topless towers of Ilium? </l>
+          <l xml:id="A07009-e114480">Sweet Helen, make me immortal with a kiss:</l>
+          <l xml:id="A07009-e114490">Her lips sucks forth my soul, see where it flies:</l>
+          <l xml:id="A07009-e114500"><pb facs="21"/> come Helen, come give me my soul again. </l>
+          <l xml:id="A07009-e114510">Here will I dwell, for heaven be in these lips,</l>
+          <l xml:id="A07009-e114520">And all is dross that is not Helena:</l>
+          <stage xml:id="A07009-e114530">Enter old man</stage>
+          <l xml:id="A07009-e114540">I will be pacis, and for love of thee,</l>
+          <l xml:id="A07009-e114550">Instead of Troy shall Wertenberg be sacked,</l>
+          <l xml:id="A07009-e114560">And I will combat with weak Menelaus,</l>
+          <l xml:id="A07009-e114570">And wear thy colours on my plumed crest:</l>
+          <l xml:id="A07009-e114580">Yea I will wound Achilles in the heel,</l>
+          <l xml:id="A07009-e114590">And then return to Helen for a kiss. </l>
+          <l xml:id="A07009-e114600">O thou art fairer then the evening air,</l>
+          <l xml:id="A07009-e114610">Claded in the beauty of a thousand stars,</l>
+          <l xml:id="A07009-e114620">Brighter art thou then flaming Jupiter,</l>
+          <l xml:id="A07009-e114630">When he appeared to hapless Semele,</l>
+          <l xml:id="A07009-e114640">More lovely than the monarch of the sky</l>
+          <l xml:id="A07009-e114650">〈…〉,</l>
+          <l xml:id="A07009-e114660">And none but thou shalt be my paramour. </l>
+        </sp>
+        <stage xml:id="A07009-e114670">Exeunt.</stage>
+        <sp xml:id="A07009-e114680" who="A07009-old_man">
+          <speaker>Old man</speaker>
+          <l xml:id="A07009-e114690">Accursed Faustus, miserable man,</l>
+          <l xml:id="A07009-e114700">That from thy soul exclud'st the grace of heaven,</l>
+          <l xml:id="A07009-e114710">And fliest the throne of his tribunal seat,</l>
+          <stage xml:id="A07009-e114720">Enter the devils.</stage>
+          <l xml:id="A07009-e114730">Sathan an begins to sift me with his pride,</l>
+          <l xml:id="A07009-e114740">As in this furnace God shall try my faith,</l>
+          <l xml:id="A07009-e114750">My faith, vile hell, shall triumph over thee,</l>
+          <l xml:id="A07009-e114760">Ambitious fiends, see how the heavens smiled</l>
+          <l xml:id="A07009-e114770">At your repulse, and laughs your state to scorn,</l>
+          <l xml:id="A07009-e114780">Hence hell, for hence I fly unto my god. </l>
+        </sp>
+        <stage xml:id="A07009-e114790">Exeunt.</stage>
+        <stage xml:id="A07009-e114800">Enter Faustus with the scholars.</stage>
+        <sp xml:id="A07009-e114810" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e114820">Ah gentlemen!</p>
+        </sp>
+        <sp xml:id="A07009-e114830" who="A07009-xxxx_1">
+          <speaker>1. Sch ▪</speaker>
+          <p xml:id="A07009-e114840">What ails Faustus?</p>
+        </sp>
+        <sp xml:id="A07009-e114850" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e114860">Ah my sweet chamber-fellow! had I lived with thee, then had I lived still, but now I die eternally: look, comes he not? comes he not?</p>
+        </sp>
+        <sp xml:id="A07009-e114870" who="A07009-2_scholar">
+          <speaker>2. Sch:</speaker>
+          <p xml:id="A07009-e114880">What means Faustus?</p>
+        </sp>
+        <sp xml:id="A07009-e114890" who="A07009-3_scholar">
+          <speaker>3. scholar</speaker>
+          <p xml:id="A07009-e114900">Belike he is grown into 〈◊〉 sickness, by<pb facs="22"/> being ever solitary.</p>
+        </sp>
+        <sp xml:id="A07009-e114910" who="A07009-1_scholar">
+          <speaker>1. Sch:</speaker>
+          <p xml:id="A07009-e114920">If it be so, we'll have physicians to cure him, 'tis but a surfeit, never fear man.</p>
+        </sp>
+        <sp xml:id="A07009-e114930" who="A07009-faustus">
+          <speaker>Fau:</speaker>
+          <p xml:id="A07009-e114940">A surfeit of deadly sin that hath damned both body and soul.</p>
+        </sp>
+        <sp xml:id="A07009-e114950" who="A07009-2_scholar">
+          <speaker>2. Sch.</speaker>
+          <p xml:id="A07009-e114960">Yet Faustus look up to heaven, remember gods mercies are infinite.</p>
+        </sp>
+        <sp xml:id="A07009-e114970" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e114980">But Faustus' offence can ne'er be pardoned,</l>
+          <l xml:id="A07009-e114990">The serpent that tempted Eve may be saved,</l>
+          <p xml:id="A07009-e115000">But not Faustus: ah gentlemen, he 〈◊〉 with patience, and tremble not at my speeches, though my heart pants and quivers to remember that I have been a student here these thirty years, oh would I had never seen Wertenberg, never read book: and what wonders I have done, all Germany can witness, heaven yea all the world, for which 〈…〉 both Germany, and the world, yea heaven itself, 〈◊〉 the seat of God, the throne of the blessed, the kingdom of joy, and must remain in hell for ever, hell ah hell for ever, 〈◊〉 friends, what shall become of Faustus, being in hell for forever?</p>
+        </sp>
+        <sp xml:id="A07009-e115010" who="A07009-3_scholar">
+          <speaker>3. Sch.</speaker>
+          <p xml:id="A07009-e115020">Yet Faustus call on God.</p>
+        </sp>
+        <sp xml:id="A07009-e115030" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e115040">〈…〉</p>
+        </sp>
+        <sp xml:id="A07009-e115050" who="A07009-all">
+          <speaker>All</speaker>
+          <p xml:id="A07009-e115060">Who Faustus?</p>
+        </sp>
+        <sp xml:id="A07009-e115070" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e115080">Lucifer and Mephastophilis. </l>
+          <l xml:id="A07009-e115090">Ah gentlemen! I gave them my soul for my cunning. </l>
+        </sp>
+        <sp xml:id="A07009-e115100" who="A07009-all">
+          <speaker>All</speaker>
+          <p xml:id="A07009-e115110">God forbid.</p>
+        </sp>
+        <sp xml:id="A07009-e115120" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e115130">God forbade it indeed ▪ but Faustus hath done it: for vain pleasure of 〈◊〉 years, hath Faustus 〈◊〉 eternal joy and felicity, I writ them a bill with mine own blood, the date is expired, the time wil come, and he will fetch me.</p>
+        </sp>
+        <sp xml:id="A07009-e115140" who="A07009-scholar">
+          <speaker>●. Schol.</speaker>
+          <p xml:id="A07009-e115150">Why did not Faustus tell us of this before, that divines might have prayed for thee?</p>
+        </sp>
+        <sp xml:id="A07009-e115160" who="A07009-faustus">
+          <pb facs="22"/>
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e115170">Oft have I thought to have done so, but the devil threatened to tear me in pieces, if I named God, to fetch both body and soul, if I once gave ear to divinity: and now 'tis too late: gentlemen away, lest you perish with me.</p>
+        </sp>
+        <sp xml:id="A07009-e115180" who="A07009-2_scholar">
+          <speaker>2. Sch.</speaker>
+          <p xml:id="A07009-e115190">O what shall we do to Faustus?</p>
+        </sp>
+        <sp xml:id="A07009-e115200" who="A07009-faustus">
+          <speaker>Faustus</speaker>
+          <p xml:id="A07009-e115210">Talk not of me, but save yourselves, and depart.</p>
+        </sp>
+        <sp xml:id="A07009-e115220" who="A07009-3_scholar">
+          <speaker>3. Sch.</speaker>
+          <p xml:id="A07009-e115230">God will strengthen me, I will stay with Faustus.</p>
+        </sp>
+        <sp xml:id="A07009-e115240" who="A07009-1_scholar">
+          <speaker>1. Sch.</speaker>
+          <p xml:id="A07009-e115250">Tempt not God, sweet friend, but let us into the next room, and there pray for him.</p>
+        </sp>
+        <sp xml:id="A07009-e115260" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e115270">I pray for me, pray for me, and what noise soever ye hear, come not unto me, for nothing can rescue me.</p>
+        </sp>
+        <sp xml:id="A07009-e115280" who="A07009-2_scholar">
+          <speaker>2. Sch.</speaker>
+          <p xml:id="A07009-e115290">Pray thou, and we will pray that God may have mercy upon thee.</p>
+        </sp>
+        <sp xml:id="A07009-e115300" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <p xml:id="A07009-e115310">Gentlemen farewell, if I live till morning, I'll visit you: if not, Faustus is gone to hell.</p>
+        </sp>
+        <sp xml:id="A07009-e115320" who="A07009-all">
+          <speaker>All</speaker>
+          <p xml:id="A07009-e115330">Faustus, farewell.</p>
+        </sp>
+        <stage xml:id="A07009-e115340">Exeunt Sch.</stage>
+        <stage xml:id="A07009-e115350">The clock strikes eleveb.</stage>
+        <sp xml:id="A07009-e115360" who="A07009-faustus">
+          <speaker>Fau.</speaker>
+          <l xml:id="A07009-e115370">Ah Faustus,</l>
+          <l xml:id="A07009-e115380">Now hast thou but one bare hour to live,</l>
+          <l xml:id="A07009-e115390">And than thou must be damned perpetually:</l>
+          <l xml:id="A07009-e115400">Stand still you ever moving spheres of heaven,</l>
+          <l xml:id="A07009-e115410">That time may cease, and midnight never come:</l>
+          <l xml:id="A07009-e115420">Fair nature's eye, rise rise, again, and make</l>
+          <l xml:id="A07009-e115430">Perpetual day, or let this hour be but a year,</l>
+          <l xml:id="A07009-e115440">A month, a week, a natural day,</l>
+          <l xml:id="A07009-e115450">That Faustus may repent and save his soul,</l>
+          <l xml:id="A07009-e115460">Oh lent lent curite noctis equi:</l>
+          <l xml:id="A07009-e115470">The stars move still, time runs, the clock will strike,</l>
+          <l xml:id="A07009-e115480">The devil will come, and Faustus must be damned. </l>
+          <l xml:id="A07009-e115490">O I'll leap up to my god: who pulls me down? </l>
+          <l xml:id="A07009-e115500">See see where Christ's blood streams in the firmament,</l>
+          <l xml:id="A07009-e115510">One drop would save my soul, half a drop, ah my Christ,</l>
+          <l xml:id="A07009-e115520">Ah rend not my heart for naming of my Christ,</l>
+          <l xml:id="A07009-e115530">Yet will I call on him, o spare me Lucifer! </l>
+          <l xml:id="A07009-e115540"><pb facs="23"/>Where is it now? 'tis gone:</l>
+          <l xml:id="A07009-e115550">And see where God stretcheth out his arm,</l>
+          <l xml:id="A07009-e115560">And bends his ireful brows:</l>
+          <l xml:id="A07009-e115570">Mountains and hills, come come, and fall on me,</l>
+          <l xml:id="A07009-e115580">And hide me from the heavy wrath of God. </l>
+          <l xml:id="A07009-e115590">No no, then will I headlong run into the earth:</l>
+          <l xml:id="A07009-e115600">Earth gape, oh no, it will not harbour me:</l>
+          <l xml:id="A07009-e115610">You stars that reigned at my nativity,</l>
+          <l xml:id="A07009-e115620">Whose influence hath allotted death and hell,</l>
+          <l xml:id="A07009-e115630">Now draw up Faustus like a foggy mist,</l>
+          <l xml:id="A07009-e115640">Into the entrails of yond labouring cloud,</l>
+          <l xml:id="A07009-e115650">That when you vomit forth into the air,</l>
+          <l xml:id="A07009-e115660">My limbs may issue from your smoky mouths,</l>
+          <l xml:id="A07009-e115670">So that my soul may but ascend to heaven:</l>
+          <l xml:id="A07009-e115680">Ah, half the hour is past:</l>
+          <stage xml:id="A07009-e115690">The watch strikes.</stage>
+          <l xml:id="A07009-e115700">'Twill all be passed anon:</l>
+          <l xml:id="A07009-e115710">O God, if thou wilt not have mercy on my soul,</l>
+          <l xml:id="A07009-e115720">Yet for Christ's sake, whose blood hath ransomed me,</l>
+          <l xml:id="A07009-e115730">Impose some end to my incessant pain,</l>
+          <l xml:id="A07009-e115740">Let Faustus live in hell a thousand years,</l>
+          <l xml:id="A07009-e115750">A hundred thousand, and at last be saved. </l>
+          <l xml:id="A07009-e115760">O no end is limited to damned souls,</l>
+          <l xml:id="A07009-e115770">Why wert thou not a creature wanting soul? </l>
+          <l xml:id="A07009-e115780">Or, why is this immortal that thou hast? </l>
+          <l xml:id="A07009-e115790">Ah Pythagoras  metempsychosis were that true,</l>
+          <l xml:id="A07009-e115800">This soul should fly from me, and I be changed</l>
+          <l xml:id="A07009-e115810">Unto some brutish beast: all beasts are happy, for when they die,</l>
+          <l xml:id="A07009-e115820">Their souls are soon dissolved in elements,</l>
+          <l xml:id="A07009-e115830">But mine must live still to be plagued in hell:</l>
+          <l xml:id="A07009-e115840">Cursed be the parents that engendered me:</l>
+          <l xml:id="A07009-e115850">No Faustus, curse thyself, curse Lucifer,</l>
+          <l xml:id="A07009-e115860">That hath deprived thee of the joys of heaven:</l>
+          <stage xml:id="A07009-e115870">The clock striketh twelve.</stage>
+          <l xml:id="A07009-e115880">O it strikes, it strikes, now body turn to air,</l>
+          <l xml:id="A07009-e115890">Or Lucifer will bear thee quick to hell:</l>
+          <stage xml:id="A07009-e115900">Thunder and lightning.</stage>
+          <l xml:id="A07009-e115910"><pb facs="23"/>O soul, be changed into little water drops,</l>
+          <l xml:id="A07009-e115920">And fall into the ocean, ne'er be found:</l>
+          <l xml:id="A07009-e115930">My god, my God, look not so fierce on me:</l>
+          <stage xml:id="A07009-e115940">Enter devils.</stage>
+          <l xml:id="A07009-e115950">Adders, and serpents, let me breathe a while:</l>
+          <l xml:id="A07009-e115960">Ugly hell gape not, come not Lucifer,</l>
+          <l xml:id="A07009-e115970">I'll burn my books, ah Mephastophilis. </l>
+        </sp>
+        <stage xml:id="A07009-e115980">Exeunt with him</stage>
+        <stage xml:id="A07009-e115990">Enter</stage>
+        <sp xml:id="A07009-e116000" who="A07009-chorus">
+          <speaker>Chorus.</speaker>
+          <l xml:id="A07009-e116010">Cut is the branch that might have grown full straight,</l>
+          <l xml:id="A07009-e116020">And burned is Apollo's laurel bough,</l>
+          <l xml:id="A07009-e116030">That sometime grew within this learned man:</l>
+          <l xml:id="A07009-e116040">Faustus is gone, regard his hellish fall,</l>
+          <l xml:id="A07009-e116050">Whose fiendful fortune may exhort the wise,</l>
+          <l xml:id="A07009-e116060">Only to wonder at unlawful things,</l>
+          <l xml:id="A07009-e116070">Whose deepness doth entice such forward wits,</l>
+          <l xml:id="A07009-e116080">To practise more than heavenly power permits. </l>
+        </sp>
+        <closer xml:id="A07009-e116090">Terminat hora diem, terminat author opus.</closer>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A07009"><item xml:id="A07009-faustus" n="137">
+    <seg type="character_name">A07009-faustus</seg>
+    <seg type="speech_count">137</seg>
+  </item>
+  <item xml:id="A07009-mephistophilis" n="72">
+    <seg type="character_name">A07009-mephistophilis</seg>
+    <seg type="speech_count">72</seg>
+  </item>
+  <item xml:id="A07009-wagner" n="29">
+    <seg type="character_name">A07009-wagner</seg>
+    <seg type="speech_count">29</seg>
+  </item>
+  <item xml:id="A07009-clown" n="19">
+    <seg type="character_name">A07009-clown</seg>
+    <seg type="speech_count">19</seg>
+  </item>
+  <item xml:id="A07009-robin" n="17">
+    <seg type="character_name">A07009-robin</seg>
+    <seg type="speech_count">17</seg>
+  </item>
+  <item xml:id="A07009-horse-corser" n="13">
+    <seg type="character_name">A07009-horse-corser</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+  <item xml:id="A07009-rafe" n="10">
+    <seg type="character_name">A07009-rafe</seg>
+    <seg type="speech_count">10</seg>
+  </item>
+  <item xml:id="A07009-lucifer" n="9">
+    <seg type="character_name">A07009-lucifer</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A07009-emperor" n="9">
+    <seg type="character_name">A07009-emperor</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A07009-knight" n="7">
+    <seg type="character_name">A07009-knight</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A07009-duchess" n="7">
+    <seg type="character_name">A07009-duchess</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A07009-evil_angel" n="7">
+    <seg type="character_name">A07009-evil_angel</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A07009-good_angel" n="7">
+    <seg type="character_name">A07009-good_angel</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A07009-pope" n="6">
+    <seg type="character_name">A07009-pope</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A07009-vintner" n="6">
+    <seg type="character_name">A07009-vintner</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A07009-2_scholar" n="6">
+    <seg type="character_name">A07009-2_scholar</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A07009-1_scholar" n="5">
+    <seg type="character_name">A07009-1_scholar</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A07009-xxxx_2" n="5">
+    <seg type="character_name">A07009-xxxx_2</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A07009-xxxx_1" n="5">
+    <seg type="character_name">A07009-xxxx_1</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A07009-3_scholar" n="4">
+    <seg type="character_name">A07009-3_scholar</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A07009-chorus" n="3">
+    <seg type="character_name">A07009-chorus</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07009-all" n="3">
+    <seg type="character_name">A07009-all</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07009-oldman" n="3">
+    <seg type="character_name">A07009-oldman</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07009-valdes" n="3">
+    <seg type="character_name">A07009-valdes</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07009-gluttony" n="2">
+    <seg type="character_name">A07009-gluttony</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07009-unidentified" n="2">
+    <seg type="character_name">A07009-unidentified</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07009-friar" n="2">
+    <seg type="character_name">A07009-friar</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07009-cornelius" n="2">
+    <seg type="character_name">A07009-cornelius</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07009-wrath" n="1">
+    <seg type="character_name">A07009-wrath</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07009-lechery" n="1">
+    <seg type="character_name">A07009-lechery</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07009-pride" n="1">
+    <seg type="character_name">A07009-pride</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07009-friars" n="1">
+    <seg type="character_name">A07009-friars</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07009-lorraine" n="1">
+    <seg type="character_name">A07009-lorraine</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07009-scholar" n="1">
+    <seg type="character_name">A07009-scholar</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07009-envy" n="1">
+    <seg type="character_name">A07009-envy</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07009-sloth" n="1">
+    <seg type="character_name">A07009-sloth</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07009-old_man" n="1">
+    <seg type="character_name">A07009-old_man</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+</list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

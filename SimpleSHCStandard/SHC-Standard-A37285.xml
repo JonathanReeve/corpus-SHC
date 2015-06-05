@@ -1,0 +1,2685 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A37285">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Parliament of Bees <date type="creation_date">1641</date></title>
+        <author>Day,  John</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Madeline Burg</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A37285.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The parliament of bees, with their proper characters. Or a bee-hive furnisht with twelve hony-combes, as pleasant as profitable. Being an allegoricall description of the actions of good and bad men in these our daies. By John Daye, sometimes student of Caius Colledge in Cambridge.</title>
+            <author>Day, John, 1574-1640?</author>
+          </titleStmt>
+          <extent>28 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2007 October (TCP phase 1)</date>
+            <idno type="marc">99832773</idno>
+            <idno type="stc">Wing (2nd ed., 1944) D466.</idno>
+            <idno type="vid">37247</idno>
+            <idno type="DLPS">A37285</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The parliament of bees, with their proper characters. Or a bee-hive furnisht with twelve hony-combes, as pleasant as profitable. Being an allegoricall description of the actions of good and bad men in these our daies. By John Daye, sometimes student of Caius Colledge in Cambridge.</title>
+            <title type="alt">Parliament of bees</title>
+            <title type="alt">Parliament of bees with their proper characters</title>
+            <title type="alt">Bee-hive furnisht with twelve hony-combes, as pleasant as profitable</title>
+            <author>Day, John, 1574-1640?</author>
+          </titleStmt>
+          <extent>[64] p. : ill. (woodcut)</extent>
+          <publicationStmt>
+            <publisher>printed for William Lee, and are to be sold at his shop in Pauls Church-yard neere Pauls Chaine,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1641.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Signatures: [A]2 B-G4 H2.</p>
+            </note>
+            <note>
+              <p>In verse.</p>
+            </note>
+            <note>
+              <p>Annotation in MS. on title page: "First edition".</p>
+            </note>
+            <note>
+              <p>Copy cropped, stained, inlaid, with heavy print show-through.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Great Britain -- Politics and government -- 1625-1649 -- Humor -- Early works to 1800.</term>
+          <term>Great Britain -- Politics and government -- 16256-1649 -- Poetry -- Early works to 1800.</term>
+          <term>England and Wales -- Parliament -- Humor -- Early works to 1800.</term>
+          <term>England and Wales -- Parliament -- Poetry -- Early works to 1800.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A37285-e100010">
+    <front xml:id="A37285-e100020">
+      <div type="frontispiece" xml:id="A37285-e100030">
+        <pb facs="1"/>
+        <p xml:id="A37285-e100040">
+          <figure xml:id="A37285-e100050"/>
+        </p>
+        <l xml:id="A37285-e100060">The parliament is held, bills and complaints</l>
+        <l xml:id="A37285-e100070">Heard and reformed, with several restraints</l>
+        <l xml:id="A37285-e100080">Of usurped freedom; instituted law</l>
+        <l xml:id="A37285-e100090">To keep the commonwealth of bees in awe. </l>
+      </div>
+      <div type="title_page" xml:id="A37285-e100100">
+        <pb facs="1"/>
+        <p xml:id="A37285-e100110">The parliament of bees, with their proper characters.</p>
+        <p xml:id="A37285-e100120">Or a beehive furnished with twelve honeycombs, as pleasant as profitable. </p>
+        <p xml:id="A37285-e100130">Being an allegorical description of the actions of good and bad men in these our days. </p>
+        <p xml:id="A37285-e100140">By John day, sometimes student of Caius' college in Cambridge. </p>
+        <quote xml:id="A37285-e100150">
+          <bibl xml:id="A37285-e100160">Ovidius.</bibl>
+          <p xml:id="A37285-e100170">— Mihi Flavus Apollo pocula castaliae plena ministret aquae. </p>
+        </quote>
+        <p xml:id="A37285-e100180">London: printed for William Lee, and are to be sold at his shop in Paul's churchyard near Paul's chain. 1641.</p>
+      </div>
+      <div type="dedication" xml:id="A37285-e100190">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>To the worthy gentleman Mr. George Butler professor of the arts liberal, and true patron to neglected poesy, all health and happiness.</head>
+        <opener xml:id="A37285-e100200">
+          <salute xml:id="A37285-e100210">Worthy sir,</salute>
+        </opener>
+        <p xml:id="A37285-e100220">I may be thought bold, if not impudent, (Upon so little acquaintance) to make this saucy trespass upon your patience; but fame, whose office, (Like the nomenclators at Rome) is to to take notice and proclaim the name and virtues of every noble personage, has given you out for so ingenuous a professor of the arts, and so bountiful a patron of poor scholars it has emboldened me, to present my hive of bees to your favourable protection; and when I remember how Lewis the eleventh (Of that name) King of France took notice, and bountifully rewarded a decayed gardener, who presented him with a bunch of carrots, I doubt not of their kind and generous entertainment; upon which assurance I rest ever.</p>
+        <closer xml:id="A37285-e100230">
+          <signed xml:id="A37285-e100240">Yours in all service devote. John Clay.</signed>
+        </closer>
+      </div>
+      <div type="list_of_arguments" xml:id="A37285-e100250">
+        <pb facs="3"/>
+        <head>The arguments of the 12. Characters or colloquies.</head>
+        <div n="1" type="character" xml:id="A37285-e100260">
+          <head>Prorex. Character 1. Or the Mr. bee. </head>
+          <l xml:id="A37285-e100270">The parliament is held, bills and complaints</l>
+          <l xml:id="A37285-e100280">Heard and reformed, with several restraints</l>
+          <l xml:id="A37285-e100290">Of usurped freedom, instituted law,</l>
+          <l xml:id="A37285-e100300">To keep the commonwealth of bees in awe. </l>
+        </div>
+        <div n="2" type="character" xml:id="A37285-e100310">
+          <head>Elimozinas. Char. 2. Or the hospitable bee. </head>
+          <l xml:id="A37285-e100320">The author in his russet bee,</l>
+          <l xml:id="A37285-e100330">Characters hospitality,</l>
+          <l xml:id="A37285-e100340">Describes his hive, and for his feasts</l>
+          <l xml:id="A37285-e100350">Appoints fit days, and names his guests. </l>
+        </div>
+        <div n="3" type="character" xml:id="A37285-e100360">
+          <head>Thraso. Char. 3. Or the plush bee. </head>
+          <l xml:id="A37285-e100370">Invention here doth character</l>
+          <l xml:id="A37285-e100380">A near vainglorious reveller:</l>
+          <l xml:id="A37285-e100390">Who scorns his kindred, grinds the poor,</l>
+          <l xml:id="A37285-e100400">Hunts only riot and his (Why not). </l>
+        </div>
+        <div n="4" type="character" xml:id="A37285-e100410">
+          <pb facs="3"/>
+          <head>Armiger. Char. 4. Or the field bee. </head>
+          <l xml:id="A37285-e100420">The poet under Armiger,</l>
+          <l xml:id="A37285-e100430">Shadows a soldier's character,</l>
+          <l xml:id="A37285-e100440">His worth, the courteous coy neglect,</l>
+          <l xml:id="A37285-e100450">His pen doth sparingly detect. </l>
+        </div>
+        <div n="5" type="character" xml:id="A37285-e100460">
+          <head>Rivales. Char. 5.</head>
+          <l xml:id="A37285-e100470">Two rival bees do here express,</l>
+          <l xml:id="A37285-e100480">Good things grow loathsome through excess:</l>
+          <l xml:id="A37285-e100490">Flowers, in the spring trod under feet,</l>
+          <l xml:id="A37285-e100500">In winter would be counted sweet. </l>
+        </div>
+        <div n="6" type="character" xml:id="A37285-e100510">
+          <head>Poetaster, Char. 6.</head>
+          <l xml:id="A37285-e100520">Here invention aims his drift,</l>
+          <l xml:id="A37285-e100530">At poet's wants, and patron's thrift:</l>
+          <l xml:id="A37285-e100540">Servile scorn, and ignorant pride</l>
+          <l xml:id="A37285-e100550">He spurns and justly doth deride. </l>
+        </div>
+        <div n="7" type="character" xml:id="A37285-e100560">
+          <head>Parsimonious. Char. 7. The thrifty bee. </head>
+          <l xml:id="A37285-e100570">The thrifty bee, that hoards up wax,</l>
+          <l xml:id="A37285-e100580">The idle Loiterer here doth tax:</l>
+          <l xml:id="A37285-e100590">Who toils not whilst his strength doth serve,</l>
+          <l xml:id="A37285-e100600">May with * cicada sing, yet starve — the grasshopper. </l>
+        </div>
+        <div n="8" type="character" xml:id="A37285-e100610">
+          <head>Foenerator. Char. 8. The broking bee. </head>
+          <l xml:id="A37285-e100620">In this the poet lineats forth,</l>
+          <l xml:id="A37285-e100630">That bounty feeds desert and worth:</l>
+          <l xml:id="A37285-e100640"><pb facs="4"/> brands usury, inveighs 'gainst bribes,</l>
+          <l xml:id="A37285-e100650">And fenerators hive describes. </l>
+        </div>
+        <div n="9" type="character" xml:id="A37285-e100660">
+          <head>Pharmacopolis. Char. 9. The quacksalver</head>
+          <l xml:id="A37285-e100670">This colloquy is characters</l>
+          <l xml:id="A37285-e100680">Of an impetuous quacksalver:</l>
+          <l xml:id="A37285-e100690">Who, to steal practice, and to vent</l>
+          <l xml:id="A37285-e100700">His drugs would buy a patient. </l>
+        </div>
+        <div n="10" type="character" xml:id="A37285-e100710">
+          <head>Inamorato. Char. 10. The passionate bee. </head>
+          <l xml:id="A37285-e100720">In this the poet spends some art,</l>
+          <l xml:id="A37285-e100730">To character a lover's smart:</l>
+          <l xml:id="A37285-e100740">Who for a sigh his love let fall,</l>
+          <l xml:id="A37285-e100750">Prepares a solemn funeral. </l>
+        </div>
+        <div n="11" type="character" xml:id="A37285-e100760">
+          <head>Obron in progresse. Char. 11. Obron in progress.</head>
+          <l xml:id="A37285-e100770">Oberon his royal progress makes,</l>
+          <l xml:id="A37285-e100780">To Hybla where he gives and takes</l>
+          <l xml:id="A37285-e100790">Presents, and privileges, bees</l>
+          <l xml:id="A37285-e100800">Of worth he crowns with offices. </l>
+        </div>
+        <div n="12" type="character" xml:id="A37285-e100810">
+          <head>Rexacillium Char. 12. The King's bench bar.</head>
+          <l xml:id="A37285-e100820">Oberon in his starchamber sits,</l>
+          <l xml:id="A37285-e100830">Sends out subpoenas, high court writs:</l>
+          <l xml:id="A37285-e100840">For the swarm of bees, degradeth some,</l>
+          <l xml:id="A37285-e100850">Frees others, all share legal sum. </l>
+        </div>
+      </div>
+      <div type="poem" xml:id="A37285-e100860">
+        <pb facs="4"/>
+        <head>The author's commission to his bees.</head>
+        <l xml:id="A37285-e100870">Abroad my pretty bees: I hope you'll find</l>
+        <l xml:id="A37285-e100880">Neither rough tempest, nor commanding wind</l>
+        <l xml:id="A37285-e100890">To check your flight, carry an humble wing,</l>
+        <l xml:id="A37285-e100900">Buzz boldly what I bid, but do not sting</l>
+        <l xml:id="A37285-e100910">Your generous patron: wheresoever you come</l>
+        <l xml:id="A37285-e100920">Feed you on wax, leave them the honeycomb:</l>
+        <l xml:id="A37285-e100930">Yet if you meet a tart antagonist,</l>
+        <l xml:id="A37285-e100940">(Or discontented rugged satirist)</l>
+        <l xml:id="A37285-e100950">That sleights your errant, or his art that pendit,</l>
+        <l xml:id="A37285-e100960">Cry, tanti: bid him kiss his muse — and mend it:</l>
+        <l xml:id="A37285-e100970">If then they meawe, reply not you, but bring</l>
+        <l xml:id="A37285-e100980">Their names to me, I'll send out wasps shall sting</l>
+        <l xml:id="A37285-e100990">Their malice to the quick; if they cap words,</l>
+        <l xml:id="A37285-e101000">Tell 'em your master is a twisting cords</l>
+        <l xml:id="A37285-e101010">Shall make pride skip; if I must needs take pains,</l>
+        <l xml:id="A37285-e101020">'T shall be to draw blood from detractions veins,</l>
+        <l xml:id="A37285-e101030">Though dishevelled like parchment, art can make 'em bleed,</l>
+        <l xml:id="A37285-e101040">And what I vow, Apollo has decreed:</l>
+        <l xml:id="A37285-e101050">Your whole commission in one line's enroll,</l>
+        <l xml:id="A37285-e101060">Be valiantly free, but not too bold. </l>
+        <closer xml:id="A37285-e101070">
+          <signed xml:id="A37285-e101080">John day.</signed>
+        </closer>
+      </div>
+      <div type="book_to_the_reader" xml:id="A37285-e101090">
+        <pb facs="5"/>
+        <head>The book to the reader.</head>
+        <l xml:id="A37285-e101100">In my commission I am charged to greet</l>
+        <l xml:id="A37285-e101110">And mildly kiss the hands of all I meet,</l>
+        <l xml:id="A37285-e101120">Which I must do, or never more be seen</l>
+        <l xml:id="A37285-e101130">About the fount of sacred Hippocrene. </l>
+        <l xml:id="A37285-e101140">Smooth socked Thalia takes delight to dance</l>
+        <l xml:id="A37285-e101150">Ith' schools of art, the door of ignorance</l>
+        <l xml:id="A37285-e101160">She sets a cross on; detractors she doth scorn,</l>
+        <l xml:id="A37285-e101170">Yet kneels to censure, (So it be true born)</l>
+        <l xml:id="A37285-e101180">I had rather fall into a beadle's hands</l>
+        <l xml:id="A37285-e101190">That reads, and with his reading understands,</l>
+        <l xml:id="A37285-e101200">Than some Plush-midas, that can read no further</l>
+        <l xml:id="A37285-e101210">But bees? whose penning? mew, this man doth murder</l>
+        <l xml:id="A37285-e101220">A writer's credit and wronged poesy</l>
+        <l xml:id="A37285-e101230">(Like a rich diamond dropped into the sea)</l>
+        <l xml:id="A37285-e101240">Is by him lost for ever, quite through read me,</l>
+        <l xml:id="A37285-e101250">Or 'mongst waste paper into pasteboard knead me,</l>
+        <l xml:id="A37285-e101260">Press me to death, so though your churlish hands</l>
+        <l xml:id="A37285-e101270">Rob me of life, I'll save my paper lands</l>
+        <l xml:id="A37285-e101280">For my next heir, who with poetic breath</l>
+        <l xml:id="A37285-e101290">May in sad elegy record my death. </l>
+        <l xml:id="A37285-e101300">If so: I wish my epitaph may be</l>
+        <l xml:id="A37285-e101310">Only three words, opinion murdered me. </l>
+        <trailer xml:id="A37285-e101320">Liber lectori Candido.</trailer>
+      </div>
+    </front>
+    <body xml:id="A37285-e101330">
+      <div type="text" xml:id="A37285-e101340">
+        <pb facs="5"/>
+        <head>The parliament of bees.</head>
+        <div n="1" type="character" xml:id="A37285-e101350">
+          <head>Character 1: prorex, or the master Bee's character.</head>
+          <argument xml:id="A37285-e101360">
+            <l xml:id="A37285-e101370">A parliament is held, bills and complaints</l>
+            <l xml:id="A37285-e101380">Referred and heard, with several restraints</l>
+            <l xml:id="A37285-e101390">Of usurped freedom, instituted law,</l>
+            <l xml:id="A37285-e101400">To keep the common wealth of bees in awe. </l>
+          </argument>
+          <stage xml:id="A37285-e101410">Speakers. <list xml:id="A37285-e101420"><item xml:id="A37285-e101430">Prorex,</item><item xml:id="A37285-e101440">Aulicus,</item><item xml:id="A37285-e101450">Oeconomicus,</item><item xml:id="A37285-e101460">Dicastes,</item><item xml:id="A37285-e101470">Speaker:</item></list></stage>
+          <sp xml:id="A37285-e101480" who="A37285-prorex">
+            <speaker>Prorex.</speaker>
+            <l xml:id="A37285-e101490">To us, who warranted by Oberon's love,</l>
+            <l xml:id="A37285-e101500">Write ourself Mr. Bee, both field and grove,</l>
+            <l xml:id="A37285-e101510">Garden and orchard, lawns and flowery meads,</l>
+            <l xml:id="A37285-e101520">Where th'amorous wind plays with the golden heads</l>
+            <l xml:id="A37285-e101530">Of wanton cowslips, daisies in their prime,</l>
+            <l xml:id="A37285-e101540">Some loving marigolds, the blossomed thyme,</l>
+            <l xml:id="A37285-e101550">The blue-veined violets, and the damask rose,</l>
+            <l xml:id="A37285-e101560">The stately lily, mistress of all those,</l>
+            <l xml:id="A37285-e101570">Are allowed and given by Oberon's free aread,</l>
+            <l xml:id="A37285-e101580">Pasture for me and all my swarms to feed. </l>
+            <l xml:id="A37285-e101590"><pb facs="6"/>Now that our will and sovereign intent,</l>
+            <l xml:id="A37285-e101600">May be made known, we call this parliament,</l>
+            <l xml:id="A37285-e101610">And as the wise determiner of power,</l>
+            <l xml:id="A37285-e101620">Proportion, time to moments, minutes, hours,</l>
+            <l xml:id="A37285-e101630">Weeks, months, years, ages, distinguished day from night</l>
+            <l xml:id="A37285-e101640">Winter from summer, profundity from height</l>
+            <l xml:id="A37285-e101650">In sublunaries, as in the course of heaven</l>
+            <l xml:id="A37285-e101660">The bodies metaphysical run even,</l>
+            <l xml:id="A37285-e101670">Zeniths and zones have their apt stations,</l>
+            <l xml:id="A37285-e101680">Planets and stars their constellations,</l>
+            <l xml:id="A37285-e101690">With orbs to move in, so divinely made</l>
+            <l xml:id="A37285-e101700">Some spherically move, some retrograde,</l>
+            <l xml:id="A37285-e101710">Yet all keep course; so shall it be our care</l>
+            <l xml:id="A37285-e101720">That every family have his proper sphere. </l>
+            <l xml:id="A37285-e101730">And to that purpose, auticus be groom</l>
+            <l xml:id="A37285-e101740">O fall our lodgings, and provide fit room</l>
+            <l xml:id="A37285-e101750">To lay in wax and honey, both for us</l>
+            <l xml:id="A37285-e101760">And all our household: Oeconomicus,</l>
+            <l xml:id="A37285-e101770">Be you our steward, carefully to fit</l>
+            <l xml:id="A37285-e101780">Quotidian diet, and so order it,</l>
+            <l xml:id="A37285-e101790">Each may have equall portion: and beside</l>
+            <l xml:id="A37285-e101800">Needful provision, carefully provide</l>
+            <l xml:id="A37285-e101810">Store against war and famine: Martio thee</l>
+            <l xml:id="A37285-e101820">I have found valiant, thy authority</l>
+            <l xml:id="A37285-e101830">(Being approved for discipline in arms)</l>
+            <l xml:id="A37285-e101840">Shall be to muster up our warlike swarms</l>
+            <l xml:id="A37285-e101850">Of winged lances, for like a peaceful King,</l>
+            <l xml:id="A37285-e101860">Although we were, we are loath to use our sting. </l>
+            <l xml:id="A37285-e101870">Speaker, inform us what petitions</l>
+            <l xml:id="A37285-e101880">Our commons put up at these sessions. </l>
+          </sp>
+          <pb facs="6"/>
+          <p xml:id="A37285-e101890">A bill preferred against the humble bee. </p>
+          <sp xml:id="A37285-e101900" who="A37285-speaker">
+            <speaker>Speaker.</speaker>
+            <l xml:id="A37285-e101910">A bill preferred, against a public wrong:</l>
+            <l xml:id="A37285-e101920">The surly humble bee, who hath too long</l>
+            <l xml:id="A37285-e101930">Lived like an outlaw, and will neither pay</l>
+            <l xml:id="A37285-e101940">Honey nor wax, do service, nor obey)</l>
+            <l xml:id="A37285-e101950">But like a felon couched under a weed</l>
+            <l xml:id="A37285-e101960">Watches advantage to make boot and feed</l>
+            <l xml:id="A37285-e101970">Upon the top-branch blossoms, and by stealth</l>
+            <l xml:id="A37285-e101980">Makes dangerous inroads on your commonwealth,</l>
+            <l xml:id="A37285-e101990">Robs the day-labourer of his golden prize</l>
+            <l xml:id="A37285-e102000">And sends him weeping home, with empty thighs. </l>
+            <l xml:id="A37285-e102010">Thus like a thief, he flies o'er hill and down</l>
+            <l xml:id="A37285-e102020">And outlaw-like doth challenge as his own</l>
+            <l xml:id="A37285-e102030">Your highness due, nay piratic detains</l>
+            <l xml:id="A37285-e102040">The waxen fleet sailing upon your plains. </l>
+          </sp>
+          <sp xml:id="A37285-e102050" who="A37285-prorex">
+            <speaker>Prorex.</speaker>
+            <l xml:id="A37285-e102060">A great abuse, which we must have redressed</l>
+            <l xml:id="A37285-e102070">Before it grows too high: on too the rest. </l>
+          </sp>
+          <p xml:id="A37285-e102080">A bill preferred against the wasp. </p>
+          <sp xml:id="A37285-e102090" who="A37285-speaker">
+            <speaker>Speaker.</speaker>
+            <l xml:id="A37285-e102100">A bill preferred against the wasp; a fly</l>
+            <l xml:id="A37285-e102110">Who merchant-like under pretence to buy</l>
+            <l xml:id="A37285-e102120">Makes bold to borrow, and pays too. </l>
+          </sp>
+          <sp xml:id="A37285-e102130" who="A37285-prodigal">
+            <speaker>Prodigal</speaker>
+            <l xml:id="A37285-e102140">But when? </l>
+          </sp>
+          <sp xml:id="A37285-e102150" who="A37285-speaker">
+            <speaker>Speaker.</speaker>
+            <l xml:id="A37285-e102160">Why ad kalendas graecas, never then. </l>
+          </sp>
+          <p xml:id="A37285-e102170">A bill against the hornet. </p>
+          <sp xml:id="A37285-e102180" who="A37285-speaker">
+            <speaker>Speaker.</speaker>
+            <l xml:id="A37285-e102190">There's the strange Hornet, who doth ever wear</l>
+            <l xml:id="A37285-e102200">A scaly armour, and a double spear,</l>
+            <l xml:id="A37285-e102210"><pb facs="7"/> couched in his front, rifles the merchants packs</l>
+            <l xml:id="A37285-e102220">Upon the rhode, your honey and your wax</l>
+            <l xml:id="A37285-e102230">He doth by stealth transport to some strange shore,</l>
+            <l xml:id="A37285-e102240">Makes rich their hives, and keeps your own groves poor. </l>
+          </sp>
+          <sp xml:id="A37285-e102250" who="A37285-prorex">
+            <speaker>Prorex.</speaker>
+            <l xml:id="A37285-e102260">I thank your industry, but we'll devise</l>
+            <l xml:id="A37285-e102270">A statute that no such outlandish flies</l>
+            <l xml:id="A37285-e102280">Shall carry such high wing:</l>
+          </sp>
+          <p xml:id="A37285-e102290">A bill preferred against the drone:</p>
+          <sp xml:id="A37285-e102300" who="A37285-speaker">
+            <speaker>Speaker.</speaker>
+            <l xml:id="A37285-e102310">Yet these alone</l>
+            <l xml:id="A37285-e102320">Do not afflict us, but the lazy drone</l>
+            <l xml:id="A37285-e102330">Our native country bee, who like the snail</l>
+            <l xml:id="A37285-e102340">(That bankrout-like makes his own shell his jail</l>
+            <l xml:id="A37285-e102350">All the day long) ith' evening plays the thief,</l>
+            <l xml:id="A37285-e102360">And when the labouring bees have ta'en relief,</l>
+            <l xml:id="A37285-e102370">Be gone to rest, against all right and law</l>
+            <l xml:id="A37285-e102380">Acts burglary, breaks ope their house of straw,</l>
+            <l xml:id="A37285-e102390">And not alone makes pillage of their hives;</l>
+            <l xml:id="A37285-e102400">But (Butcherlike) bereaves them of their lives. </l>
+          </sp>
+          <sp xml:id="A37285-e102410" who="A37285-prorex">
+            <speaker>Prorex.</speaker>
+            <l xml:id="A37285-e102420">'Gainst all these outlaws. Martio be thou</l>
+            <l xml:id="A37285-e102430">Lieutenant general, thou knowest well how</l>
+            <l xml:id="A37285-e102440">To hamper such delinquents. Dicastes thee</l>
+            <l xml:id="A37285-e102450">We make our advocate, thy office be</l>
+            <l xml:id="A37285-e102460">To moderate each difference and jar</l>
+            <l xml:id="A37285-e102470">In this our civil oeconomic war,</l>
+            <l xml:id="A37285-e102480">And let both plaintiff, and defendant be</l>
+            <l xml:id="A37285-e102490">Heard and dispatched for conscionable fee</l>
+            <l xml:id="A37285-e102500">And more to keep our anomoi in awe</l>
+            <l xml:id="A37285-e102510">Ourself (The chief) will live under a law. <note anchored="true" place="margin" xml:id="A37285-e102520">(sine leges viventes)</note></l>
+          </sp>
+          <sp xml:id="A37285-e102530" who="A37285-dicastes">
+            <speaker>Dicast.</speaker>
+            <l xml:id="A37285-e102540">To each desert I'll render lawful weight,</l>
+            <l xml:id="A37285-e102550">The scale of justice shall use no deceit:</l>
+          </sp>
+          <sp xml:id="A37285-e102560" who="A37285-prorex">
+            <pb facs="7"/>
+            <speaker>Prorex.</speaker>
+            <l xml:id="A37285-e102570">It loses name and nature, if it should,</l>
+            <l xml:id="A37285-e102580">Next villicus, thou that frequent'st the wood</l>
+            <l xml:id="A37285-e102590">Our painful russet bee, we create thee</l>
+            <l xml:id="A37285-e102600">Chief bailiff both of fallow-field and lee? </l>
+            <l xml:id="A37285-e102610">Appoint each bee his walk, the meadow-bee</l>
+            <l xml:id="A37285-e102620">Shall not encroach upon the upland lee,</l>
+            <l xml:id="A37285-e102630">But keep his bound, if any with intent</l>
+            <l xml:id="A37285-e102640">To wrong our state fly from our government,</l>
+            <l xml:id="A37285-e102650">Hoarding their honey up in rocks or trees,</l>
+            <l xml:id="A37285-e102660">Sell or transport it to our enemies,</l>
+            <l xml:id="A37285-e102670">Break down their garners, seize upon their store,</l>
+            <l xml:id="A37285-e102680">And in our name divide it 'mongst the poor,</l>
+            <l xml:id="A37285-e102690">Only to us reserve our royalties,</l>
+            <l xml:id="A37285-e102700">High ways and wastes, all other specialities</l>
+            <l xml:id="A37285-e102710">We make thee ruler of vill: and I'll impart</l>
+            <l xml:id="A37285-e102720">To all with a free hand and faithful heart:</l>
+          </sp>
+          <sp xml:id="A37285-e102730" who="A37285-prodigal">
+            <speaker>Prodigal</speaker>
+            <l xml:id="A37285-e102740">Now break up court, and each one to his toil,</l>
+            <l xml:id="A37285-e102750">Thrive by your labours, drones live a'the spoil,</l>
+            <l xml:id="A37285-e102760">Fear neither wasp, nor Hornet, foreigners</l>
+            <l xml:id="A37285-e102770">Be barred from being intercommoners,</l>
+            <l xml:id="A37285-e102780">And having laboured hard from light to light,</l>
+            <l xml:id="A37285-e102790">With golden thighs, come singing home at night,</l>
+            <l xml:id="A37285-e102800">For neither drone, wasp, fly nor humblebee,</l>
+            <l xml:id="A37285-e102810">Shall dare to rob you of your treasury. </l>
+            <l xml:id="A37285-e102820">So to your summer harvest, work and thrive</l>
+            <l xml:id="A37285-e102830">Bounty's the blessing of the labourers hive. </l>
+          </sp>
+        </div>
+        <div n="2" type="character" xml:id="A37285-e102840">
+          <pb facs="8"/>
+          <head>Eleemozynus. Character. 2. The hospitable bee. </head>
+          <argument xml:id="A37285-e102850">
+            <l xml:id="A37285-e102860">The author in his russet bee,</l>
+            <l xml:id="A37285-e102870">Characters hospitality,</l>
+            <l xml:id="A37285-e102880">Describes his hive; and for his feasts</l>
+            <l xml:id="A37285-e102890">Appoints fit days, and names his guests. </l>
+          </argument>
+          <stage xml:id="A37285-e102900">Speakers. <list xml:id="A37285-e102910"><item xml:id="A37285-e102920">Eleemozynus.</item><item xml:id="A37285-e102930">Cordato.</item></list></stage>
+          <sp xml:id="A37285-e102940" who="A37285-cordato">
+            <speaker>Cordato:</speaker>
+            <l xml:id="A37285-e102950">Your hive's a rare one, Rome did never raise</l>
+            <l xml:id="A37285-e102960">A work of greater wonder. </l>
+          </sp>
+          <sp xml:id="A37285-e102970" who="A37285-eleemozynus">
+            <speaker>Eleemozynus.</speaker>
+            <l xml:id="A37285-e102980">Spare your praise,</l>
+            <l xml:id="A37285-e102990">'Tis finished, and the cost stands on no score,</l>
+            <l xml:id="A37285-e103000">None can for want of payment, at my door</l>
+            <l xml:id="A37285-e103010">Curse my foundation; seeing the smoke go</l>
+            <l xml:id="A37285-e103020">Out of those lovers, for whose straw I owe. </l>
+          </sp>
+          <sp xml:id="A37285-e103030" who="A37285-cordato">
+            <speaker>Cordato.</speaker>
+            <l xml:id="A37285-e103040">Why to your hive have ye so many ways? </l>
+          </sp>
+          <sp xml:id="A37285-e103050" who="A37285-eleemozynus">
+            <speaker>Elemozynus.</speaker>
+            <l xml:id="A37285-e103060">They answer just the number of seven days,</l>
+            <l xml:id="A37285-e103070">On Mondayes such, whose fortunes are sunk low,</l>
+            <l xml:id="A37285-e103080">By good housekeeping, I'll my alms bestow. </l>
+            <l xml:id="A37285-e103090">On Tuesdays such as all their lifetimes wrought</l>
+            <l xml:id="A37285-e103100">Their country's freedom, and her battles fought;</l>
+            <l xml:id="A37285-e103110">On Wednesdays, such as with painful wit</l>
+            <l xml:id="A37285-e103120">Have dived for knowledge in the sacred writ;</l>
+            <l xml:id="A37285-e103130">On Thursdays such as proved unfortunate</l>
+            <l xml:id="A37285-e103140">In counsel, and high offices of state;</l>
+            <l xml:id="A37285-e103150">On Fridayes such as for their conscience' sake</l>
+            <l xml:id="A37285-e103160">Are kept in bonds; on Saturdays I'll make</l>
+            <l xml:id="A37285-e103170"><pb facs="8"/> feasts for poor bees passed labour, orphan fry</l>
+            <l xml:id="A37285-e103180">And widow's ground in mills of usury. </l>
+            <l xml:id="A37285-e103190">And Sundays for my tenants and all swains</l>
+            <l xml:id="A37285-e103200">That labour for me on the groves and plains. </l>
+            <l xml:id="A37285-e103210">The windows of my hive, with blossoms dight</l>
+            <l xml:id="A37285-e103220">Are porters to let in (Our comfort) light,</l>
+            <l xml:id="A37285-e103230">In number just six hundred, sixty five,</l>
+            <l xml:id="A37285-e103240">'Cause in so many days the sun doth drive</l>
+            <l xml:id="A37285-e103250">His chariot (Stuck with beams of burnished gold,)</l>
+            <l xml:id="A37285-e103260">About the world by spherical motion rolled,</l>
+            <l xml:id="A37285-e103270">For my alms shall diurnal progress make</l>
+            <l xml:id="A37285-e103280">With the free sun in his bright zodiac. </l>
+          </sp>
+          <sp xml:id="A37285-e103290" who="A37285-cordato">
+            <speaker>Cordato:</speaker>
+            <l xml:id="A37285-e103300">Some bees set all their tenants on the rack</l>
+            <l xml:id="A37285-e103310">Not to feed bellies, but to clothe the back. </l>
+          </sp>
+          <sp xml:id="A37285-e103320" who="A37285-eleemozynus">
+            <speaker>Eleemo.</speaker>
+            <l xml:id="A37285-e103330">I with their actions hold no sympathy,</l>
+            <l xml:id="A37285-e103340">Such eat the poor up, but the poor eat me. </l>
+          </sp>
+          <sp xml:id="A37285-e103350" who="A37285-cordato">
+            <speaker>Cor.</speaker>
+            <l xml:id="A37285-e103360">And you'll perform all this? </l>
+          </sp>
+          <sp xml:id="A37285-e103370" who="A37285-eleemozynus">
+            <speaker>Eleem.</speaker>
+            <l xml:id="A37285-e103380">Fair and upright</l>
+            <l xml:id="A37285-e103390">As are the strict vows of an anchorite,</l>
+            <l xml:id="A37285-e103400">An alms that by a niggard's hand is served</l>
+            <l xml:id="A37285-e103410">Is mould and gravelly bread, the hunger-starved</l>
+            <l xml:id="A37285-e103420">May take, but cannot eat: I'll deal none such</l>
+            <l xml:id="A37285-e103430">Who with free hand shakes out but crumbs, gives much. </l>
+          </sp>
+          <sp xml:id="A37285-e103440" who="A37285-cordato">
+            <speaker>Cordato.</speaker>
+            <l xml:id="A37285-e103450">You'll have bad helps in this good course of life,</l>
+            <l xml:id="A37285-e103460">You might do therefore well to take a wife. </l>
+          </sp>
+          <sp xml:id="A37285-e103470" who="A37285-eleemozynus">
+            <speaker>Eleemo.</speaker>
+            <l xml:id="A37285-e103480">A wife? when I should have one hand in heaven</l>
+            <l xml:id="A37285-e103490">To write my happiness (In leaves as even</l>
+            <l xml:id="A37285-e103500">And smooth as Porphyry) she'd by the other</l>
+            <l xml:id="A37285-e103510">Pluck me quite down, virtue scarce knows a mother. </l>
+            <l xml:id="A37285-e103520">Pardon sweet females, I your sex admire,</l>
+            <l xml:id="A37285-e103530">But dare not sit too near your wanton fire,</l>
+            <l xml:id="A37285-e103540"><pb facs="9"/> fearing your fairer beauties tempting flame</l>
+            <l xml:id="A37285-e103550">My sound affections might put out of frame. </l>
+            <p xml:id="A37285-e103560">In like manner said Alexander by the daughters of Drius. </p>
+            <p xml:id="A37285-e103570">
+              <quote xml:id="A37285-e103580">Nescio quid latentis veneni habet caro foeminea, ut prudentiores Citius corrumpat.</quote>
+            </p>
+          </sp>
+          <sp xml:id="A37285-e103590" who="A37285-unassigned">
+            <speaker>Card.</speaker>
+            <l xml:id="A37285-e103600">Who then shall reap the golden crop you sow? </l>
+            <l xml:id="A37285-e103610">'Tis half a curse t'have wealth, and not to know</l>
+            <l xml:id="A37285-e103620">Whom to call heir. </l>
+          </sp>
+          <sp xml:id="A37285-e103630" who="A37285-eleemozynus">
+            <speaker>Eleemo:</speaker>
+            <l xml:id="A37285-e103640">My heirs shall be the poor</l>
+            <l xml:id="A37285-e103650">Bees wanting limbs, such as in days of yore</l>
+            <l xml:id="A37285-e103660">Penned learned Canzons, for no other meed,</l>
+            <l xml:id="A37285-e103670">But that in them unlettered bees might read,</l>
+            <l xml:id="A37285-e103680">And reading lay up knowledge, being alive</l>
+            <l xml:id="A37285-e103690">Such I'll maintain, and being dead my hive</l>
+            <l xml:id="A37285-e103700">Honey and wax I will bequeath to build</l>
+            <l xml:id="A37285-e103710">A skep where weekly meetings may be held</l>
+            <l xml:id="A37285-e103720">To read and hear such ancient moral saws</l>
+            <l xml:id="A37285-e103730">As may teach ignorance the use of laws;</l>
+            <l xml:id="A37285-e103740">And these will be a true inheritance,</l>
+            <l xml:id="A37285-e103750">Not to decay, neither sword, fire, nor chance,</l>
+            <l xml:id="A37285-e103760">Thunder of Jove, nor mundane casualties</l>
+            <l xml:id="A37285-e103770">Can ruin the succession of these:</l>
+            <l xml:id="A37285-e103780">Manors, parks, towns, nay kingdoms may be sold,</l>
+            <l xml:id="A37285-e103790">But still the poor stand like a lord's freehold</l>
+            <l xml:id="A37285-e103800">Unforfeited; of all law-tricks not one</l>
+            <l xml:id="A37285-e103810">Can throw the poor out of possession:</l>
+            <l xml:id="A37285-e103820">Should I lose all my hives and waxen wealth,</l>
+            <l xml:id="A37285-e103830">Out of the poor man's dish I should drink health,</l>
+            <l xml:id="A37285-e103840">Comfort and blessings, therefore keep aloof</l>
+            <l xml:id="A37285-e103850">And tempt no further, whilst I live my roof</l>
+            <l xml:id="A37285-e103860"><pb facs="9"/> shall cover naked wretches, when I die</l>
+            <l xml:id="A37285-e103870">I'll dedicate it to saint charity. </l>
+          </sp>
+        </div>
+        <div n="3" type="character" xml:id="A37285-e103880">
+          <head>Character 3.</head>
+          <head type="sub">Thraso or Polypragmus. The plush bee. </head>
+          <argument xml:id="A37285-e103890">
+            <l xml:id="A37285-e103900">Invention here doth character</l>
+            <l xml:id="A37285-e103910">A mere vainglorious reveller,</l>
+            <l xml:id="A37285-e103920">Who scorns his equals, grinds the poor</l>
+            <l xml:id="A37285-e103930">Hunt's only riots, and his (::) </l>
+          </argument>
+          <stage xml:id="A37285-e103940">Speakers. <list xml:id="A37285-e103950"><item xml:id="A37285-e103960">Polypragmus.</item><item xml:id="A37285-e103970">Servant.</item></list></stage>
+          <sp xml:id="A37285-e103980" who="A37285-polypragmus">
+            <speaker>Poly.</speaker>
+            <l xml:id="A37285-e103990">The room smells: foh, stand off, yet stay dee hear,</l>
+            <l xml:id="A37285-e104000">O'th saucy sun, which mounted in our sphere,</l>
+            <l xml:id="A37285-e104010">Strives to outshine us? </l>
+          </sp>
+          <sp xml:id="A37285-e104020" who="A37285-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A37285-e104030">So the poor bees hum. </l>
+          </sp>
+          <sp xml:id="A37285-e104040" who="A37285-polypragmus">
+            <speaker>Pol:</speaker>
+            <l xml:id="A37285-e104050">Poor bees? potguns, illegitimate scum</l>
+            <l xml:id="A37285-e104060">And bastard flies, taking adulterate shape</l>
+            <l xml:id="A37285-e104070">From reeking dunghills, if that meddling ape</l>
+            <l xml:id="A37285-e104080">Zanying my greatness, dares but once presume</l>
+            <l xml:id="A37285-e104090">To vie expense with me, I will consume</l>
+            <l xml:id="A37285-e104100">His whole hive in a month. Say you that saw</l>
+            <l xml:id="A37285-e104110">His new-raised frame, how is it built? </l>
+          </sp>
+          <sp xml:id="A37285-e104120" who="A37285-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A37285-e104130">Of straw</l>
+            <l xml:id="A37285-e104140">Died in quaint colours, here and there a row</l>
+            <l xml:id="A37285-e104150">Of Indian bents, which make a handsome show. </l>
+          </sp>
+          <sp xml:id="A37285-e104160" who="A37285-polypragmus">
+            <speaker>Poly.</speaker>
+            <l xml:id="A37285-e104170">How, straw and bents, sayest? I will have one built</l>
+            <l xml:id="A37285-e104180">Like Pompey's theatre, the ceiling guilt</l>
+            <l xml:id="A37285-e104190"><pb facs="10"/> and interseamed with pearl, to make it shine</l>
+            <l xml:id="A37285-e104200">Like high Jove's palace, my descents divine. </l>
+            <l xml:id="A37285-e104210">My great hall I have paved with clouds, which done</l>
+            <l xml:id="A37285-e104220">(By wondrous skill) an artificial sun</l>
+            <l xml:id="A37285-e104230">Shall roll about, reflecting golden beams,</l>
+            <l xml:id="A37285-e104240">Like Phoebus dancing on the wanton streams,</l>
+            <l xml:id="A37285-e104250">And when 'tis night, just as that sun goes down</l>
+            <l xml:id="A37285-e104260">I'll have the stars draw up a silver moon,</l>
+            <l xml:id="A37285-e104270">In her full height of glory, over head</l>
+            <l xml:id="A37285-e104280">A roof of woods, and forests I'll have spread. </l>
+            <l xml:id="A37285-e104290">Trees growing downwards, full of fallow-deer,</l>
+            <l xml:id="A37285-e104300">When of the sudden (Listening) you shall hear</l>
+            <l xml:id="A37285-e104310">A noise of horns, and hunting, which shall bring</l>
+            <l xml:id="A37285-e104320">Actaeon to Diana in the spring,</l>
+            <l xml:id="A37285-e104330">Where all shall see her naked skin: and there</l>
+            <l xml:id="A37285-e104340">Actaeon's hounds shall their own master tear,</l>
+            <l xml:id="A37285-e104350">As emblem of his folly that will keep</l>
+            <l xml:id="A37285-e104360">Hounds to devour and eat him up asleep. </l>
+            <l xml:id="A37285-e104370">All this I'll do, that men with praise may crown</l>
+            <l xml:id="A37285-e104380">My fame for turning the world upside-down,</l>
+            <l xml:id="A37285-e104390">And what plush bees sit at this flesh-flies table. </l>
+          </sp>
+          <sp xml:id="A37285-e104400" who="A37285-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A37285-e104410">None but poor lame ones and the ragged rabble. </l>
+          </sp>
+          <sp xml:id="A37285-e104420" who="A37285-polypragmus">
+            <speaker>Poly:</speaker>
+            <l xml:id="A37285-e104430">My board shall be no manger for scabbed jades,</l>
+            <l xml:id="A37285-e104440">To lick up provender, no bee that trades</l>
+            <l xml:id="A37285-e104450">Sucks honey there. </l>
+          </sp>
+          <sp xml:id="A37285-e104460" who="A37285-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A37285-e104470">Poor scholars. </l>
+          </sp>
+          <sp xml:id="A37285-e104480" who="A37285-polypragmus">
+            <speaker>Poly:</speaker>
+            <l xml:id="A37285-e104490">Beg and starve,</l>
+            <l xml:id="A37285-e104500">Or steal and hang, what can such rogues deserve? </l>
+            <l xml:id="A37285-e104510">Gallows and gibbets, hang 'em: give me lutes</l>
+            <l xml:id="A37285-e104520">Vials and clarions, such music suits</l>
+            <l xml:id="A37285-e104530">Scholars like common beadles, lash the times,</l>
+            <l xml:id="A37285-e104540">Whip our abuse, and fetch blood of our crimes,</l>
+            <l xml:id="A37285-e104550"><pb facs="10"/> let him feed hungry scholars, fetch me whores,</l>
+            <l xml:id="A37285-e104560">They are man's bliss, the other kingdom's sores:</l>
+            <l xml:id="A37285-e104570">We gave in charge to seek the grove for bees</l>
+            <l xml:id="A37285-e104580">Coming in cookery, and rare qualities</l>
+            <l xml:id="A37285-e104590">And wanton females, that sell sin for gold. </l>
+          </sp>
+          <sp xml:id="A37285-e104600" who="A37285-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A37285-e104610">Some of all sorts you have. </l>
+          </sp>
+          <sp xml:id="A37285-e104620" who="A37285-polypragmus">
+            <speaker>Pol.</speaker>
+            <l xml:id="A37285-e104630">They are stale and old</l>
+            <l xml:id="A37285-e104640">I have seen 'em twice. </l>
+          </sp>
+          <sp xml:id="A37285-e104650" who="A37285-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A37285-e104660">We have multiplied your store</l>
+            <l xml:id="A37285-e104670">Unto a thousand. </l>
+          </sp>
+          <sp xml:id="A37285-e104680" who="A37285-polypragmus">
+            <speaker>Pol.</speaker>
+            <l xml:id="A37285-e104690">More, let me have more</l>
+            <l xml:id="A37285-e104700">Than the grand signior. And my change as rare</l>
+            <l xml:id="A37285-e104710">Tall, low, and middlesized, the brown and fair. </l>
+            <l xml:id="A37285-e104720">I'd give a prince his ransom now to taste</l>
+            <l xml:id="A37285-e104730">Black Cleopatra's cheek, only to waste</l>
+            <l xml:id="A37285-e104740">A richer pearl than that of Anthony's,</l>
+            <l xml:id="A37285-e104750">That fame might write up my name and raze his. </l>
+            <l xml:id="A37285-e104760">O that my mother had been Paris whore,</l>
+            <l xml:id="A37285-e104770">And I might live to burn down Troy once more,</l>
+            <l xml:id="A37285-e104780">So that by that brave light I might have run</l>
+            <l xml:id="A37285-e104790">At barley-brake with my sleek courtesan. </l>
+            <l xml:id="A37285-e104800">Yet talkest of scholars? see my face no more. </l>
+            <l xml:id="A37285-e104810">Let the portcullis down and bolt the door. </l>
+            <l xml:id="A37285-e104820">But one such tattered ensign here being spread</l>
+            <l xml:id="A37285-e104830">Would draw in numbers, here shall my rogues be fed;</l>
+            <l xml:id="A37285-e104840">Charge our mechanic bees to make things meet</l>
+            <l xml:id="A37285-e104850">To manacle base beggars hands and feet,</l>
+            <l xml:id="A37285-e104860">And call it Polypragmus whipping post</l>
+            <l xml:id="A37285-e104870">Or th'beggars ordinary, they shall taste my roast. </l>
+            <l xml:id="A37285-e104880">And if ye spy a bee that has a look,</l>
+            <l xml:id="A37285-e104890">Stigmatical, drawn out like a black book,</l>
+            <l xml:id="A37285-e104900">Full of Greek<seg xml:lang="unk" xml:id="A37285-e104910"> 〈◊〉 〈◊〉 〈◊〉</seg>; to such I'll give large pay,</l>
+            <l xml:id="A37285-e104920">To watch and ward for poor bees night and day,</l>
+            <l xml:id="A37285-e104930"><pb facs="11"/> and lash 'em soundly if they approach my gate,</l>
+            <l xml:id="A37285-e104940">Whipcord's my bounty, and the rogues shall have't. </l>
+            <l xml:id="A37285-e104950">The poor are but the earth's dung fit to lie</l>
+            <l xml:id="A37285-e104960">Covered in muck-heaps, not offend our eye. </l>
+            <l xml:id="A37285-e104970">Thus in your bosoms Jove his bounty flings</l>
+            <l xml:id="A37285-e104980">What are gold mines, but a rich dust for Kings</l>
+            <l xml:id="A37285-e104990">To scatter with their breath, as chaff with wind. </l>
+            <l xml:id="A37285-e105000">Let me then that have gold, bear a King's mind</l>
+            <l xml:id="A37285-e105010">And give till my arm aches, who bravely powers</l>
+            <l xml:id="A37285-e105020">But into a wench's lap such golden showers,</l>
+            <l xml:id="A37285-e105030">May be Jove's equal, there his ambition ends</l>
+            <l xml:id="A37285-e105040">In obscure rivalship, but he that spends</l>
+            <l xml:id="A37285-e105050">A world of wealth, makes a whole world his debtor,</l>
+            <l xml:id="A37285-e105060">And such a noble spender is Jove's better:</l>
+            <l xml:id="A37285-e105070">That man I'll be, I'm Alexander's heir</l>
+            <l xml:id="A37285-e105080">To one part of his mind, I wish there were</l>
+            <l xml:id="A37285-e105090">Ten worlds,</l>
+          </sp>
+          <sp xml:id="A37285-e105100" who="A37285-unassigned">
+            <speaker>Sir.</speaker>
+            <l xml:id="A37285-e105110">How for to conquer? </l>
+          </sp>
+          <sp xml:id="A37285-e105120" who="A37285-polypragmus">
+            <speaker>Pol.</speaker>
+            <l xml:id="A37285-e105130">No to sell</l>
+            <l xml:id="A37285-e105140">For Alpine hills of silver, I could well</l>
+            <l xml:id="A37285-e105150">Husband that merchandise, provided I</l>
+            <l xml:id="A37285-e105160">Might at one feast draw all that treasure dry. </l>
+            <l xml:id="A37285-e105170">Who hoards up wealth is base, who spends it brave. </l>
+            <l xml:id="A37285-e105180">Earth breeds gold, so I tread but on my slave</l>
+          </sp>
+          <sp xml:id="A37285-e105190" who="A37285-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A37285-e105200">O wonderful! yet let all wonder pass</l>
+            <l xml:id="A37285-e105210">He's a great bee, and a vainglorious ass. </l>
+          </sp>
+        </div>
+        <div n="4" type="character" xml:id="A37285-e105220">
+          <head>Character 4.</head>
+          <head type="sub">Armiger. The field bee. </head>
+          <argument xml:id="A37285-e105230">
+            <l xml:id="A37285-e105240">The poet under Armiger</l>
+            <l xml:id="A37285-e105250">Shadows a soldier's character</l>
+            <l xml:id="A37285-e105260"><pb facs="11"/> his worth, the courtiers coy neglect</l>
+            <l xml:id="A37285-e105270">His pen doth sparingly detect. </l>
+          </argument>
+          <stage xml:id="A37285-e105280">Speakers. <list xml:id="A37285-e105290"><item xml:id="A37285-e105300">Armiger.</item><item xml:id="A37285-e105310">Donne.</item><item xml:id="A37285-e105320">Cocadillio.</item><item xml:id="A37285-e105330">Prorex.</item></list></stage>
+          <sp xml:id="A37285-e105340" who="A37285-armiger">
+            <speaker>Arm:</speaker>
+            <l xml:id="A37285-e105350">Is master Bee at leisure to speak Spanish</l>
+            <l xml:id="A37285-e105360">With a bee of service? </l>
+          </sp>
+          <sp xml:id="A37285-e105370" who="A37285-donne">
+            <speaker>Don.</speaker>
+            <l xml:id="A37285-e105380">No. </l>
+          </sp>
+          <sp xml:id="A37285-e105390" who="A37285-armiger">
+            <speaker>Arm.</speaker>
+            <l xml:id="A37285-e105400">Smoaked Pilcher vanish:</l>
+            <l xml:id="A37285-e105410">Proud don with th'ochre face, I'd but desire</l>
+            <l xml:id="A37285-e105420">To meet thee on a breach midst smoke and fire,</l>
+            <l xml:id="A37285-e105430">And for tobacco, whiffing gunpowder</l>
+            <l xml:id="A37285-e105440">Out of a brazen pipe, that should puff louder</l>
+            <l xml:id="A37285-e105450">Than thunder roars, there (Though illiterate Daw)</l>
+            <l xml:id="A37285-e105460">Thou ne'er couldst spell, thou shouldst read canon law. </l>
+            <l xml:id="A37285-e105470">How the jades prance in golden trappings, ho? </l>
+            <l xml:id="A37285-e105480">Is master Bee at leisure. </l>
+          </sp>
+          <sp xml:id="A37285-e105490" who="A37285-donne">
+            <speaker>Don:</speaker>
+            <l xml:id="A37285-e105500">What to do? </l>
+          </sp>
+          <sp xml:id="A37285-e105510" who="A37285-armiger">
+            <speaker>Arm:</speaker>
+            <l xml:id="A37285-e105520">To hear a soldier speak. </l>
+          </sp>
+          <sp xml:id="A37285-e105530" who="A37285-donne">
+            <speaker>Don:</speaker>
+            <l xml:id="A37285-e105540">I cannot tell,</l>
+            <l xml:id="A37285-e105550">I am no earpicker. </l>
+          </sp>
+          <sp xml:id="A37285-e105560" who="A37285-arethusa">
+            <speaker>Are:</speaker>
+            <l xml:id="A37285-e105570">Yet you hear well,</l>
+            <l xml:id="A37285-e105580">You're of the court? </l>
+          </sp>
+          <sp xml:id="A37285-e105590" who="A37285-donne">
+            <speaker>Don:</speaker>
+            <l xml:id="A37285-e105600">The Mr. bees chief barber. </l>
+          </sp>
+          <sp xml:id="A37285-e105610" who="A37285-armiger">
+            <speaker>Arm.</speaker>
+            <l xml:id="A37285-e105620">Then done you lied, you are an earpicker. </l>
+          </sp>
+          <sp xml:id="A37285-e105630" who="A37285-donne">
+            <speaker>Don.</speaker>
+            <l xml:id="A37285-e105640">Well, if thou comest to beg a suit at court,</l>
+            <l xml:id="A37285-e105650">I shall descend so low, as to report</l>
+            <l xml:id="A37285-e105660">Thy paper business:</l>
+          </sp>
+          <sp xml:id="A37285-e105670" who="A37285-armiger">
+            <speaker>Arm.</speaker>
+            <l xml:id="A37285-e105680">I beg proud don,</l>
+            <l xml:id="A37285-e105690">I scorn to scribble: my petition</l>
+            <l xml:id="A37285-e105700">Is written on my bosom in red wounds. </l>
+          </sp>
+          <sp xml:id="A37285-e105710" who="A37285-donne">
+            <speaker>Don.</speaker>
+            <l xml:id="A37285-e105720">I am no surgeon sir: alloone. </l>
+          </sp>
+          <sp xml:id="A37285-e105730" who="A37285-armiger">
+            <speaker>Arm.</speaker>
+            <l xml:id="A37285-e105740">Base hounds! </l>
+            <l xml:id="A37285-e105750">Thou god of gay apparel, what strange looks</l>
+            <l xml:id="A37285-e105760">Make suit to do thee service? Mercer's books</l>
+            <l xml:id="A37285-e105770">Show men's devotions to thee, hell cannot hold</l>
+            <l xml:id="A37285-e105780">A fiend more stately: my acquaintance sold,</l>
+            <l xml:id="A37285-e105790"><pb facs="12"/> cause poor? stood now my beaten tailor by me,</l>
+            <l xml:id="A37285-e105800">Pleating of my rich hose, my silke-mannye me,</l>
+            <l xml:id="A37285-e105810">Drawing upon my lordships courtly calf</l>
+            <l xml:id="A37285-e105820">Payers of embroidered stockings, or but half</l>
+            <l xml:id="A37285-e105830">A dozen things called creditors, had my barber</l>
+            <l xml:id="A37285-e105840">Perfumed my lousy thatch (This nitty harbour)</l>
+            <l xml:id="A37285-e105850">These pied-winged butterflies would know me then,</l>
+            <l xml:id="A37285-e105860">But they never landed in the I'll of man. </l>
+            <l xml:id="A37285-e105870">That such a thing as this, a decoy fly</l>
+            <l xml:id="A37285-e105880">Should buzz about the ear of royalty,</l>
+            <l xml:id="A37285-e105890">Such whale-boned bodied rascals, that owe more</l>
+            <l xml:id="A37285-e105900">To linendrapers, to new vamp a whore,</l>
+            <l xml:id="A37285-e105910">Than all their race from their grand beldame forth</l>
+            <l xml:id="A37285-e105920">To this their reign in clothes were ever worth,</l>
+            <l xml:id="A37285-e105930">That such should tickle a commander's ear</l>
+            <l xml:id="A37285-e105940">With flattery, when we must not come near,</l>
+            <l xml:id="A37285-e105950">But stand (For want of clothes) though we win towns</l>
+            <l xml:id="A37285-e105960">Amongst almsbasket men, such silken clowns</l>
+            <l xml:id="A37285-e105970">When we with blood deserve, share our reward</l>
+            <l xml:id="A37285-e105980">We held scarce fellow-mates to the black guard;</l>
+            <l xml:id="A37285-e105990">Why should a soldier being the world's right arm</l>
+            <l xml:id="A37285-e106000">Be cut off by the left? (Infernal charm)</l>
+            <l xml:id="A37285-e106010">Is the world all ruff and feather? is desert</l>
+            <l xml:id="A37285-e106020">Bastard? doth custom cut of his child's part</l>
+            <l xml:id="A37285-e106030">No difference twixt a wild goose and a swan,</l>
+            <l xml:id="A37285-e106040">A tailor and a true born gentleman? </l>
+            <l xml:id="A37285-e106050">So the world thinks, but search the herald's notes,</l>
+            <l xml:id="A37285-e106060">And you shall find much difference in their coats. </l>
+          </sp>
+          <sp xml:id="A37285-e106070" who="A37285-prodigal">
+            <speaker>Prodigal</speaker>
+            <l xml:id="A37285-e106080">A field bee speak with me? bold Armiger,</l>
+            <l xml:id="A37285-e106090">Welcome, thy bosom is a register</l>
+            <l xml:id="A37285-e106100"><pb facs="12"/> of thy bold acts: virtue's still poor I see. </l>
+          </sp>
+          <sp xml:id="A37285-e106110" who="A37285-armiger">
+            <speaker>Armi.</speaker>
+            <l xml:id="A37285-e106120">Poor? rich:</l>
+          </sp>
+          <sp xml:id="A37285-e106130" who="A37285-prodigal">
+            <speaker>Prodigal</speaker>
+            <l xml:id="A37285-e106140">In scars:</l>
+          </sp>
+          <sp xml:id="A37285-e106150" who="A37285-armiger">
+            <speaker>Arm.</speaker>
+            <l xml:id="A37285-e106160">In wealth, in honesty. </l>
+            <l xml:id="A37285-e106170">Since I first read my abc of war,</l>
+            <l xml:id="A37285-e106180">In nine set fields I sailed by that bright star,</l>
+            <l xml:id="A37285-e106190">Ere I was truncheon high, I had the style</l>
+            <l xml:id="A37285-e106200">Of beardless captain, and I all this while</l>
+            <l xml:id="A37285-e106210">Drilled under honesty, near pursed dead pay,</l>
+            <l xml:id="A37285-e106220">Never made week the longer by a day. </l>
+            <l xml:id="A37285-e106230">A soldier dead, his pay did likewise die,</l>
+            <l xml:id="A37285-e106240">And still I served one general honesty. </l>
+            <l xml:id="A37285-e106250">From his own trencher I was daily fed</l>
+            <l xml:id="A37285-e106260">With cannon bullets, taught to chew steel and lead,</l>
+            <l xml:id="A37285-e106270">Nay digest iron, and when ere I die</l>
+            <l xml:id="A37285-e106280">I'll have no epitaph but honesty</l>
+            <l xml:id="A37285-e106290">Writ over me. </l>
+          </sp>
+          <sp xml:id="A37285-e106300" who="A37285-prodigal">
+            <speaker>Prodigal</speaker>
+            <l xml:id="A37285-e106310">I know it, thou black swan,</l>
+            <l xml:id="A37285-e106320">I have seen this bee, (In his fate more than man)</l>
+            <l xml:id="A37285-e106330">Write in the field such storeys with his sting,</l>
+            <l xml:id="A37285-e106340">That our best leaders reading o'er his writing</l>
+            <l xml:id="A37285-e106350">Swore 'twas a new philosophy of fighting,</l>
+            <l xml:id="A37285-e106360">His acts were so remarkable in one field</l>
+            <l xml:id="A37285-e106370">Fought 'gainst the surly wasp, (I needs must yield</l>
+            <l xml:id="A37285-e106380">Desert his due,) having bruised my filmy wing,</l>
+            <l xml:id="A37285-e106390">And in fierce combat blunted my keen sting</l>
+            <l xml:id="A37285-e106400">(Beaten into a tuft of rosemary)</l>
+            <l xml:id="A37285-e106410">This manly bee (Armed with true honesty)</l>
+            <l xml:id="A37285-e106420">Three times that day redeemed me, and bestrid</l>
+            <l xml:id="A37285-e106430">My body with colossus thighs, he did,</l>
+            <l xml:id="A37285-e106440">Whilst all the thunderbolts that war could throw</l>
+            <l xml:id="A37285-e106450">At me, fell on his head he cannot now</l>
+            <l xml:id="A37285-e106460">Choose but be honest still, and valiant: still</l>
+            <l xml:id="A37285-e106470">His hive with wax and honeycombs I'll fill,</l>
+            <l xml:id="A37285-e106480"><pb facs="13"/> and in reward of thy bold chivalry</l>
+            <l xml:id="A37285-e106490">Make thee commander of a colony,</l>
+            <l xml:id="A37285-e106500">Wishing all such as honour discipline</l>
+            <l xml:id="A37285-e106510">To serve him, and make honesty their shrine. </l>
+          </sp>
+        </div>
+        <div n="5" type="character" xml:id="A37285-e106520">
+          <head>Character 5.</head>
+          <head type="sub">Poetaster. Poetical bee.</head>
+          <argument xml:id="A37285-e106530">
+            <l xml:id="A37285-e106540">Here invention aims his drift</l>
+            <l xml:id="A37285-e106550">At poet's wants and patrons thrift,</l>
+            <l xml:id="A37285-e106560">Servile scorn and ignorant pride</l>
+            <l xml:id="A37285-e106570">Free judgement slightly doth deride. </l>
+          </argument>
+          <stage xml:id="A37285-e106580">Speakers. <list xml:id="A37285-e106590"><item xml:id="A37285-e106600">Gnatho.</item><item xml:id="A37285-e106610">Iltriste.</item><item xml:id="A37285-e106620">Poetaster.</item></list></stage>
+          <sp xml:id="A37285-e106630" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e106640">A scholar speak with me? </l>
+          </sp>
+          <sp xml:id="A37285-e106650" who="A37285-gnatto">
+            <speaker>Gn:</speaker>
+            <l xml:id="A37285-e106660">He says a poet,</l>
+            <l xml:id="A37285-e106670">I think no less for his apparel show it,</l>
+            <l xml:id="A37285-e106680">He's of some standing, his cloth cloak is worn</l>
+            <l xml:id="A37285-e106690">To a serge. </l>
+          </sp>
+          <sp xml:id="A37285-e106700" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e106710">He's poor, that proves his high things scorn</l>
+            <l xml:id="A37285-e106720">Mundane felicity, disdains to flatter</l>
+            <l xml:id="A37285-e106730">For empty air, or like crow poets chatter</l>
+            <l xml:id="A37285-e106740">For great men's crumbs. But what's his suit to me. </l>
+          </sp>
+          <sp xml:id="A37285-e106750" who="A37285-gnatto">
+            <speaker>Gn:</speaker>
+            <l xml:id="A37285-e106760">To beg a dinner, old dame charity</l>
+            <l xml:id="A37285-e106770">Lame of all four limps out, and sounds a call</l>
+            <l xml:id="A37285-e106780">For all the rogues. </l>
+          </sp>
+          <sp xml:id="A37285-e106790" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e106800">Out senseless animal,</l>
+            <l xml:id="A37285-e106810">Hearing of my retirement, and the hate</l>
+            <l xml:id="A37285-e106820">I bear to court attendance, and high state,</l>
+            <l xml:id="A37285-e106830">He's come perhaps to write my epitaph. </l>
+          </sp>
+          <sp xml:id="A37285-e106840" who="A37285-gnatto">
+            <speaker>Gn:</speaker>
+            <l xml:id="A37285-e106850">Some lousy ballad? I cannot choose but laugh</l>
+            <l xml:id="A37285-e106860">At these poor squitter pulps. </l>
+          </sp>
+          <sp xml:id="A37285-e106870" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e106880">Thou ignorant elf</l>
+            <l xml:id="A37285-e106890">Should he know this, he'd make thee hang thyself</l>
+            <l xml:id="A37285-e106900"><pb facs="13"/> in strong iambics:</l>
+          </sp>
+          <sp xml:id="A37285-e106910" who="A37285-gnatto">
+            <speaker>G:</speaker>
+            <l xml:id="A37285-e106920">What's that hemp? or flax? </l>
+          </sp>
+          <sp xml:id="A37285-e106930" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e106940">A halter stretch thee, such ill-tutored jacks</l>
+            <l xml:id="A37285-e106950">Poison the fame of patrons, I shall I doubt me,</l>
+            <l xml:id="A37285-e106960">Be thought jobs wife, I keep such scabs about me. </l>
+            <l xml:id="A37285-e106970">Seal up thy lips, and if thou needs must sin,</l>
+            <l xml:id="A37285-e106980">Do't privately, out spaniel, bring him in. </l>
+          </sp>
+          <sp xml:id="A37285-e106990" who="A37285-gnatto">
+            <speaker>Gn:</speaker>
+            <l xml:id="A37285-e107000">He's come: poet: to you my love presents this book. </l>
+          </sp>
+          <sp xml:id="A37285-e107010" who="A37285-iltriste">
+            <speaker>Ilt.</speaker>
+            <l xml:id="A37285-e107020">I am unworthy on't. Except a hook</l>
+            <l xml:id="A37285-e107030">Hung at each line to choke me, stay what name</l>
+            <l xml:id="A37285-e107040">Hast given thy brat? To the most honoured dame. </l>
+            <l xml:id="A37285-e107050">Com'st lying into th'world? be thy leaves torn,</l>
+            <l xml:id="A37285-e107060">Rent, and used basely, as thy title's born? </l>
+          </sp>
+          <sp xml:id="A37285-e107070" who="A37285-gnatto">
+            <speaker>Gn.</speaker>
+            <l xml:id="A37285-e107080">Rare sport: no marvel if this poet begs</l>
+            <l xml:id="A37285-e107090">For his lame verses, they've nor feet nor legs. </l>
+          </sp>
+          <sp xml:id="A37285-e107100" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e107110">Nor thou humanity. </l>
+          </sp>
+          <sp xml:id="A37285-e107120" who="A37285-iltriste">
+            <speaker>Ilt.</speaker>
+            <l xml:id="A37285-e107130">Go burn this paper spright. </l>
+          </sp>
+          <sp xml:id="A37285-e107140" who="A37285-gnatto">
+            <speaker>Gn.</speaker>
+            <l xml:id="A37285-e107150">Sir your dark poetry will come to light:</l>
+          </sp>
+          <sp xml:id="A37285-e107160" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e107170">You are not noble, thus to wound the heart,</l>
+            <l xml:id="A37285-e107180">Tear and make martyrs of the limbs of art,</l>
+            <l xml:id="A37285-e107190">Before examination: Caesar taught</l>
+            <l xml:id="A37285-e107200">No such court doctrine, Alexander thought</l>
+            <l xml:id="A37285-e107210">Better of Homer's lofty Iliades,</l>
+            <l xml:id="A37285-e107220">And huged their Mr. though this, and such galled jades</l>
+            <l xml:id="A37285-e107230">Were spur-gald-hackneyes, kick at their betters, though</l>
+            <l xml:id="A37285-e107240">Some hidebound worldlings neither give, nor show</l>
+            <l xml:id="A37285-e107250">Countenance to poets: yet the noble spirit</l>
+            <l xml:id="A37285-e107260">Loves virtue for it own sake, and rewards merit</l>
+            <l xml:id="A37285-e107270">Though never so meanly habited, nor bee</l>
+            <l xml:id="A37285-e107280">That frequents Hibla, takes more pains than we</l>
+            <l xml:id="A37285-e107290">Do in our canzons, yet they live and thrive</l>
+            <l xml:id="A37285-e107300">Richly, when we want wax to store our hive. </l>
+          </sp>
+          <sp xml:id="A37285-e107310" who="A37285-iltriste">
+            <pb facs="14"/>
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e107320">I honour poesy, nor dislike I thee,</l>
+            <l xml:id="A37285-e107330">Only thy fawning title troubled me,</l>
+            <l xml:id="A37285-e107340">I love your groves, and in your libraries,</l>
+            <l xml:id="A37285-e107350">(Amongst quaint odes, and passionate elegies)</l>
+            <l xml:id="A37285-e107360">Have read whole volumes, of much injured dames</l>
+            <l xml:id="A37285-e107370">Righted by poets; assume thy brightest flames,</l>
+            <l xml:id="A37285-e107380">And dip thy pen in worm wood-juice for me,</l>
+            <l xml:id="A37285-e107390">Canst write a satire? Tart authority</l>
+            <l xml:id="A37285-e107400">Do call 'em libels: canst write such a one? </l>
+          </sp>
+          <sp xml:id="A37285-e107410" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e107420">I can mix ink, and copperas. </l>
+          </sp>
+          <sp xml:id="A37285-e107430" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e107440">So go on. </l>
+          </sp>
+          <sp xml:id="A37285-e107450" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e107460">Dare mingle poison with 'em. </l>
+          </sp>
+          <sp xml:id="A37285-e107470" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e107480">Do't for me,</l>
+            <l xml:id="A37285-e107490">Thou hast the theory. </l>
+          </sp>
+          <sp xml:id="A37285-e107500" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e107510">Yes each line must be</l>
+            <l xml:id="A37285-e107520">A cord to draw blood. </l>
+          </sp>
+          <sp xml:id="A37285-e107530" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e107540">Good. </l>
+          </sp>
+          <sp xml:id="A37285-e107550" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e107560">A lie to dare</l>
+            <l xml:id="A37285-e107570">The stab from him it touches. </l>
+          </sp>
+          <sp xml:id="A37285-e107580" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e107590">Better, rare. </l>
+          </sp>
+          <sp xml:id="A37285-e107600" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e107610">Such satyrs, as you call 'em, must lance wide</l>
+            <l xml:id="A37285-e107620">The wounds of men's corruptions, open the side</l>
+            <l xml:id="A37285-e107630">Of vice, search deep for dead flesh and rank coars. </l>
+            <l xml:id="A37285-e107640">A poet's ink can better cure some soars</l>
+            <l xml:id="A37285-e107650">Then surgeons balsum. </l>
+          </sp>
+          <sp xml:id="A37285-e107660" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e107670">Undertake this cure,</l>
+            <l xml:id="A37285-e107680">I'll crown thy pains with gold. </l>
+          </sp>
+          <sp xml:id="A37285-e107690" who="A37285-unassigned">
+            <speaker>Boet:</speaker>
+            <l xml:id="A37285-e107700">I'll do't be sure,</l>
+            <l xml:id="A37285-e107710">But I must have the party's character. </l>
+          </sp>
+          <sp xml:id="A37285-e107720" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e107730">The Mr.: Bee. </l>
+          </sp>
+          <sp xml:id="A37285-e107740" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e107750">That thunder doth deter</l>
+            <l xml:id="A37285-e107760">And fright my muse, I will not wade in ills</l>
+            <l xml:id="A37285-e107770">Beyond my depth, nor dare I pluck the quills</l>
+            <l xml:id="A37285-e107780">Of which I make pens, out of the eagles claw. </l>
+            <l xml:id="A37285-e107790">Know I am a loyal subject. </l>
+          </sp>
+          <sp xml:id="A37285-e107800" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e107810">A jackdaw. </l>
+            <l xml:id="A37285-e107820">This baseness follows your profession,</l>
+            <l xml:id="A37285-e107830">You are like common beadles, easily won,</l>
+            <l xml:id="A37285-e107840">To whip poor bees to death (Scarce worth the striking,</l>
+            <l xml:id="A37285-e107850">But fawn with slavish flattery, and throw liking</l>
+            <l xml:id="A37285-e107860"><pb facs="14"/> on great drones vices, you clap hands at those</l>
+            <l xml:id="A37285-e107870">Which proves your vices friends and virtue's foes,</l>
+            <l xml:id="A37285-e107880">Where the true poet indeed doth scorn to guild</l>
+            <l xml:id="A37285-e107890">A coward's tomb with glories or to build</l>
+            <l xml:id="A37285-e107900">A sumptuous pyramid of golden verse</l>
+            <l xml:id="A37285-e107910">Over the ruins of an ignoble hearse. </l>
+            <l xml:id="A37285-e107920">His lines like his invention are born free,</l>
+            <l xml:id="A37285-e107930">And both live blameless to eternity. </l>
+            <l xml:id="A37285-e107940">He holds his reputation so dear,</l>
+            <l xml:id="A37285-e107950">As neither flattering hope, nor servile fear</l>
+            <l xml:id="A37285-e107960">Can bribe his pen to temporize with Kings,</l>
+            <l xml:id="A37285-e107970">The blacker are his crimes, the louder sings,</l>
+            <l xml:id="A37285-e107980">Go, go thou dar'st not, canst not write, let me</l>
+            <l xml:id="A37285-e107990">Invoke the help of sacred poesy. </l>
+            <l xml:id="A37285-e108000">May not a woman be a poet? </l>
+          </sp>
+          <sp xml:id="A37285-e108010" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e108020">Yes</l>
+            <l xml:id="A37285-e108030">And learn the art with far more easiness</l>
+            <l xml:id="A37285-e108040">Than any man can do, for poesy</l>
+            <l xml:id="A37285-e108050">Is but a feigning, feigning is to lie,</l>
+            <l xml:id="A37285-e108060">And women study that art more than men. </l>
+          </sp>
+          <sp xml:id="A37285-e108070" who="A37285-iltriste">
+            <speaker>Ilt.</speaker>
+            <l xml:id="A37285-e108080">I am not fit to be a poet then;</l>
+            <l xml:id="A37285-e108090">For I should leave off feigning and speak true. </l>
+          </sp>
+          <sp xml:id="A37285-e108100" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e108110">You'll ne'er then make good poet. </l>
+          </sp>
+          <sp xml:id="A37285-e108120" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e108130">Very few,</l>
+            <l xml:id="A37285-e108140">I think be good. </l>
+          </sp>
+          <sp xml:id="A37285-e108150" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e108160">I think so too. </l>
+          </sp>
+          <sp xml:id="A37285-e108170" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e108180">Be plain. </l>
+            <l xml:id="A37285-e108190">How might I do to hit the Mr. vain</l>
+            <l xml:id="A37285-e108200">Of poesy? </l>
+          </sp>
+          <sp xml:id="A37285-e108210" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e108220">I descend from Persius,</l>
+            <l xml:id="A37285-e108230">He taught his pupils to breed poets thus,</l>
+            <l xml:id="A37285-e108240">To have their temples girt and swaddled up</l>
+            <l xml:id="A37285-e108250">With nightcaps: to steal juice from Hebe's cup,</l>
+            <l xml:id="A37285-e108260">To steep their barren crowns in, pilfer clouds</l>
+            <l xml:id="A37285-e108270">From off Parnassus' top. To build them shrowds</l>
+            <l xml:id="A37285-e108280"><pb facs="15"/> of laurel boughs to keep invention green,</l>
+            <l xml:id="A37285-e108290">Then drink nine healths of sacred Hippocrene</l>
+            <l xml:id="A37285-e108300">To the nine muses, this says Perseus,</l>
+            <l xml:id="A37285-e108310">Will make a poet, I think cheaper thus,</l>
+            <l xml:id="A37285-e108320">Gold, music, wine, tobacco, and good cheer</l>
+            <l xml:id="A37285-e108330">Make poets soar aloft, and sing out clear. </l>
+          </sp>
+          <sp xml:id="A37285-e108340" who="A37285-iltriste">
+            <speaker>Ilt.</speaker>
+            <l xml:id="A37285-e108350">Are you born poets? </l>
+          </sp>
+          <sp xml:id="A37285-e108360" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e108370">Yes. </l>
+          </sp>
+          <sp xml:id="A37285-e108380" who="A37285-iltriste">
+            <speaker>Ilt.</speaker>
+            <l xml:id="A37285-e108390">So die. </l>
+          </sp>
+          <sp xml:id="A37285-e108400" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e108410">Die never. </l>
+          </sp>
+          <sp xml:id="A37285-e108420" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e108430">My misery's than a poet, that lives ever,</l>
+            <l xml:id="A37285-e108440">For time has lent it such eternity;</l>
+            <l xml:id="A37285-e108450">And full succession it can never die,</l>
+            <l xml:id="A37285-e108460">How many sorts of poets are there? </l>
+          </sp>
+          <sp xml:id="A37285-e108470" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e108480">Two,</l>
+            <l xml:id="A37285-e108490">Great and small poets:</l>
+          </sp>
+          <sp xml:id="A37285-e108500" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e108510">Great and small ones? so</l>
+            <l xml:id="A37285-e108520">Which do you call the great? the fat ones? </l>
+          </sp>
+          <sp xml:id="A37285-e108530" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e108540">No,</l>
+            <l xml:id="A37285-e108550">But such as have great heads which emptied forth</l>
+            <l xml:id="A37285-e108560">Fill all the world with wonder at their worth. </l>
+            <l xml:id="A37285-e108570">Proud flies, swollen big with breath and windy praise,</l>
+            <l xml:id="A37285-e108580">Yet merit brakes, and nettles stead of bays. </l>
+            <l xml:id="A37285-e108590">Such, title cods, and lobsters of arts sea;</l>
+            <l xml:id="A37285-e108600">The small ones, call the shrimps of poesy,</l>
+            <l xml:id="A37285-e108610">The greater number of spawn feathered bees</l>
+            <l xml:id="A37285-e108620">Fly low like kites, the other mount on trees,</l>
+            <l xml:id="A37285-e108630">Those peck up dunghill garbage, these drink wine</l>
+            <l xml:id="A37285-e108640">Out of Jove's cup: those mortal, these divine. </l>
+          </sp>
+          <sp xml:id="A37285-e108650" who="A37285-iltriste">
+            <speaker>Ilt:</speaker>
+            <l xml:id="A37285-e108660">Who is the best poet. </l>
+          </sp>
+          <sp xml:id="A37285-e108670" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e108680">Emulation,</l>
+            <l xml:id="A37285-e108690">The next necessity; but detraction</l>
+            <l xml:id="A37285-e108700">The worst of all. </l>
+          </sp>
+          <sp xml:id="A37285-e108710" who="A37285-iltriste">
+            <speaker>Ilt.</speaker>
+            <l xml:id="A37285-e108720">Imagine I were one,</l>
+            <l xml:id="A37285-e108730">What should I get by't? </l>
+          </sp>
+          <sp xml:id="A37285-e108740" who="A37285-poetaster">
+            <speaker>Poetaster</speaker>
+            <l xml:id="A37285-e108750">Why opinion. </l>
+          </sp>
+          <sp xml:id="A37285-e108760" who="A37285-iltriste">
+            <speaker>Ilt.</speaker>
+            <l xml:id="A37285-e108770">I've too much of that already, for 'tis known</l>
+            <l xml:id="A37285-e108780">That in opinion I am overthrown,</l>
+            <l xml:id="A37285-e108790">Opinion is my evidence, judge and jury,</l>
+            <l xml:id="A37285-e108800"><pb facs="15"/> opinion has betrayed me to the fury</l>
+            <l xml:id="A37285-e108810">Of vulgar scandal, partial opinion</l>
+            <l xml:id="A37285-e108820">Gapes like a sheriff for execution. </l>
+            <l xml:id="A37285-e108830">I wondered still how scholars came undone,</l>
+            <l xml:id="A37285-e108840">And now I see 'tis by opinion;</l>
+            <l xml:id="A37285-e108850">That foe to worth, sworn enemy to art,</l>
+            <l xml:id="A37285-e108860">Patron of ignorance, hang man of desert,</l>
+            <l xml:id="A37285-e108870">Ask any man what can betray a poet</l>
+            <l xml:id="A37285-e108880">To scandal? base opinion shall do it. </l>
+            <l xml:id="A37285-e108890">I'll therefore be no poet, no nor make</l>
+            <l xml:id="A37285-e108900">Ten muses of your nine, my reason take. </l>
+            <l xml:id="A37285-e108910">Verses (Though freemen born,) are bought and sold</l>
+            <l xml:id="A37285-e108920">Like slaves; their makers too, (That merit gold)</l>
+            <l xml:id="A37285-e108930">Are fed with shalls: whence grows this slight regard? </l>
+            <l xml:id="A37285-e108940">From hence opinion gives their reward. </l>
+          </sp>
+        </div>
+        <div n="6" type="character" xml:id="A37285-e108950">
+          <head>Character 6.</head>
+          <head type="sub">Rivales.</head>
+          <argument xml:id="A37285-e108960">
+            <l xml:id="A37285-e108970">Invention labours to discover</l>
+            <l xml:id="A37285-e108980">The pretty passions of a lover,</l>
+            <l xml:id="A37285-e108990">Showing how in amorous fits,</l>
+            <l xml:id="A37285-e109000">Long lost, a bee may find her wits. </l>
+          </argument>
+          <stage xml:id="A37285-e109010">Speakers. <list xml:id="A37285-e109020"><item xml:id="A37285-e109030">Arethusa.</item><item xml:id="A37285-e109040">Vlania.</item></list></stage>
+          <l xml:id="A37285-e109050">Well met fair beauty, pray you can you tell</l>
+          <l xml:id="A37285-e109060">News of Meletus? </l>
+          <sp xml:id="A37285-e109070" who="A37285-ulania">
+            <speaker>Vl.</speaker>
+            <l xml:id="A37285-e109080">Such a bee doth dwell,</l>
+            <l xml:id="A37285-e109090"><pb facs="16"/> in my father's hive, but ask you as a friend? </l>
+          </sp>
+          <sp xml:id="A37285-e109100" who="A37285-arethusa">
+            <speaker>Areth.</speaker>
+            <l xml:id="A37285-e109110">Yes, and as one who for his good would spend</l>
+            <l xml:id="A37285-e109120">Living and life. </l>
+          </sp>
+          <sp xml:id="A37285-e109130" who="A37285-ulania">
+            <speaker>Vla.</speaker>
+            <l xml:id="A37285-e109140">Yet not so much as I. </l>
+          </sp>
+          <sp xml:id="A37285-e109150" who="A37285-arethusa">
+            <speaker>Areth:</speaker>
+            <l xml:id="A37285-e109160">Why do you love him? </l>
+          </sp>
+          <sp xml:id="A37285-e109170" who="A37285-ulania">
+            <speaker>Vla.</speaker>
+            <l xml:id="A37285-e109180">I'm mine own echo, ay,</l>
+          </sp>
+          <sp xml:id="A37285-e109190" who="A37285-arethusa">
+            <speaker>Areth:</speaker>
+            <l xml:id="A37285-e109200">Wherefore? </l>
+          </sp>
+          <sp xml:id="A37285-e109210" who="A37285-ulania">
+            <speaker>Vla.</speaker>
+            <l xml:id="A37285-e109220">I know not, there's some fallacy,</l>
+            <l xml:id="A37285-e109230">For not a village fly, nor meadow bee</l>
+            <l xml:id="A37285-e109240">That traficks daily on the neighbour plain,</l>
+            <l xml:id="A37285-e109250">But will report how all the winged train</l>
+            <l xml:id="A37285-e109260">Have sued to me for love, when we have flown,</l>
+            <l xml:id="A37285-e109270">In swarms out to discover fields new blown,</l>
+            <l xml:id="A37285-e109280">Happy was he could find the forwardst tree</l>
+            <l xml:id="A37285-e109290">And cull the choicest blossoms out for me:</l>
+            <l xml:id="A37285-e109300">Of all their labours they allowed me some</l>
+            <l xml:id="A37285-e109310">And like my champions manned me out, and home,</l>
+            <l xml:id="A37285-e109320">Yet I loud none of them, Philon a bee</l>
+            <l xml:id="A37285-e109330">Well skilled in verse and amorous poesy,</l>
+            <l xml:id="A37285-e109340">As we have sat at work, both of one rose</l>
+            <l xml:id="A37285-e109350">Has hummed sweet canzons both in verse and prose,</l>
+            <l xml:id="A37285-e109360">Which I ne'er minded, Astrophel a bee</l>
+            <l xml:id="A37285-e109370">(Although not so poetical as he)</l>
+            <l xml:id="A37285-e109380">Yet in his full invention quick and ripe,</l>
+            <l xml:id="A37285-e109390">In summer evenings on his well-tuned pipe</l>
+            <l xml:id="A37285-e109400">Upon a woodbine blossom in the sun</l>
+            <l xml:id="A37285-e109410">(Our hive being clean swept and our day's work done)</l>
+            <l xml:id="A37285-e109420">Would play me twenty several tunes, yet I</l>
+            <l xml:id="A37285-e109430">Nor minded Astrophil, nor his melody. </l>
+            <l xml:id="A37285-e109440">Then there's Amniter, for whose love fair lead</l>
+            <l xml:id="A37285-e109450">(That pretty bee) flies up and down the mead</l>
+            <l xml:id="A37285-e109460">With rivers in her eyes, without deserving</l>
+            <l xml:id="A37285-e109470">Sent me trim Akron boughs of his own carving,</l>
+            <l xml:id="A37285-e109480"><pb facs="16"/> to drink may dew and mead in; yet none of these</l>
+            <l xml:id="A37285-e109490">My hive-born play fellows and neighbour bees</l>
+            <l xml:id="A37285-e109500">Could I affect, until this strange bee came,</l>
+            <l xml:id="A37285-e109510">And him I love with such an ardent flame</l>
+            <l xml:id="A37285-e109520">Discretion cannot quench. </l>
+          </sp>
+          <sp xml:id="A37285-e109530" who="A37285-arethusa">
+            <speaker>Areth:</speaker>
+            <l xml:id="A37285-e109540">Now I begin</l>
+            <l xml:id="A37285-e109550">To love him, fresh examples ushers sin,</l>
+            <l xml:id="A37285-e109560">How doth he spend his time? </l>
+          </sp>
+          <sp xml:id="A37285-e109570" who="A37285-ulania">
+            <speaker>Vla.</speaker>
+            <l xml:id="A37285-e109580">Labours and toils,</l>
+            <l xml:id="A37285-e109590">Extracts more honey out of barren soils</l>
+            <l xml:id="A37285-e109600">Then twenty lazy drones, I have heard my father</l>
+            <l xml:id="A37285-e109610">Steward of the hive profess, that he had rather</l>
+            <l xml:id="A37285-e109620">Lose half the swarm than him; if 'a bee poor or weak</l>
+            <l xml:id="A37285-e109630">Grow faint on's way, or by misfortune break</l>
+            <l xml:id="A37285-e109640">A wing or leg against a twig; alive</l>
+            <l xml:id="A37285-e109650">Or dead, he'll bring into the Mrs. hive</l>
+            <l xml:id="A37285-e109660">Him and his burden; but the other day</l>
+            <l xml:id="A37285-e109670">On the next plain, there grew a mortal fray</l>
+            <l xml:id="A37285-e109680">Betwixt the wasps and us, the wind grew high,</l>
+            <l xml:id="A37285-e109690">And a rough storm raged so impetously,</l>
+            <l xml:id="A37285-e109700">Our bees could scarce keep wing, then fell such rain,</l>
+            <l xml:id="A37285-e109710">It made our colony forsake the plain,</l>
+            <l xml:id="A37285-e109720">And fly to garrison, yet still he stood</l>
+            <l xml:id="A37285-e109730">And 'gainst the whole swarm made his party good,</l>
+            <l xml:id="A37285-e109740">And at each blow he gave, cried out his vow,</l>
+            <l xml:id="A37285-e109750">His vow and Arethusa, on each bough</l>
+            <l xml:id="A37285-e109760">And tender blossom he engraves her name,</l>
+            <l xml:id="A37285-e109770">With his sharp sting, to Arethusa's fame</l>
+            <l xml:id="A37285-e109780">He consecrates his actions, all his worth</l>
+            <l xml:id="A37285-e109790">Is only spent to character her forth. </l>
+            <l xml:id="A37285-e109800">On damask roses and the leaves of pines</l>
+            <l xml:id="A37285-e109810">I have seen him write such amorous moving lines,</l>
+            <l xml:id="A37285-e109820"><pb facs="17"/> in Arethusa's praise, as my poor heart</l>
+            <l xml:id="A37285-e109830">Have when I read them, envied her desert,</l>
+            <l xml:id="A37285-e109840">And wept and sighed to think that he should be</l>
+            <l xml:id="A37285-e109850">To her so constant, yet not pity me. </l>
+          </sp>
+          <sp xml:id="A37285-e109860" who="A37285-arethusa">
+            <speaker>Areth.</speaker>
+            <l xml:id="A37285-e109870">Oh. </l>
+          </sp>
+          <sp xml:id="A37285-e109880" who="A37285-ulania">
+            <speaker>Vla.</speaker>
+            <l xml:id="A37285-e109890">Wherefore sigh you? </l>
+          </sp>
+          <sp xml:id="A37285-e109900" who="A37285-arethusa">
+            <speaker>Areth.</speaker>
+            <l xml:id="A37285-e109910">Amoratho. O</l>
+            <l xml:id="A37285-e109920">My marble heart melts. </l>
+          </sp>
+          <sp xml:id="A37285-e109930" who="A37285-ulania">
+            <speaker>Vla.</speaker>
+            <l xml:id="A37285-e109940">What sigh and weep you too? </l>
+          </sp>
+          <sp xml:id="A37285-e109950" who="A37285-arethusa">
+            <speaker>Areth.</speaker>
+            <l xml:id="A37285-e109960">Yes in mere pity that your churlish fate</l>
+            <l xml:id="A37285-e109970">Should for true love make you unfortunate. </l>
+          </sp>
+          <sp xml:id="A37285-e109980" who="A37285-ulania">
+            <speaker>Vla.</speaker>
+            <l xml:id="A37285-e109990">I thank you, what this Arethusa is</l>
+            <l xml:id="A37285-e110000">I do not know, only my suit is this,</l>
+            <l xml:id="A37285-e110010">If you do know this bee, when you next meet him</l>
+            <l xml:id="A37285-e110020">(He's labouring in that mead,) in my name greet him,</l>
+            <l xml:id="A37285-e110030">And tell him that I love him more, far more</l>
+            <l xml:id="A37285-e110040">Than Arethusa can, nay I adore</l>
+            <l xml:id="A37285-e110050">His memory so, that he shall be my saint;</l>
+            <l xml:id="A37285-e110060">And when his tender limbs grow weak and faint,</l>
+            <l xml:id="A37285-e110070">I'll do his labour and mine own, the spring</l>
+            <l xml:id="A37285-e110080">Being dry grows much unfit for labouring. </l>
+            <l xml:id="A37285-e110090">To prevent famine and a sudden dearth,</l>
+            <l xml:id="A37285-e110100">For his sake I'll befriend the barren earth</l>
+            <l xml:id="A37285-e110110">And make it fruitful with a shower of tears,</l>
+            <l xml:id="A37285-e110120">In which I'll drown his scorn and mine own fears. </l>
+          </sp>
+          <sp xml:id="A37285-e110130" who="A37285-arethusa">
+            <speaker>Areth.</speaker>
+            <l xml:id="A37285-e110140">What have I heard? Amoratho pardon me,</l>
+            <l xml:id="A37285-e110150">For I have been (By much) too cruel to thee,</l>
+            <l xml:id="A37285-e110160">Yet (If as she reports) I find thy heart</l>
+            <l xml:id="A37285-e110170">Bequeathed to Arethusa's weak desert</l>
+            <l xml:id="A37285-e110180">Nature shall work a miracle so strange,</l>
+            <l xml:id="A37285-e110190">All amorous bees shall wonder at my change. </l>
+          </sp>
+        </div>
+        <div n="7" type="character" xml:id="A37285-e110200">
+          <pb facs="17"/>
+          <head>Character 7.</head>
+          <head type="sub">Parsimonious. — the gathering bee.</head>
+          <argument xml:id="A37285-e110210">
+            <l xml:id="A37285-e110220">The thrifty bee doth tauntingly deride</l>
+            <l xml:id="A37285-e110230">The prodigal, inveighing 'gainst his pride. </l>
+          </argument>
+          <stage xml:id="A37285-e110240">Speakers. <list xml:id="A37285-e110250"><item xml:id="A37285-e110260">Parsimonious.</item><item xml:id="A37285-e110270">Acolastes.</item></list></stage>
+          <sp xml:id="A37285-e110280" who="A37285-parliament">
+            <speaker>Par.</speaker>
+            <l xml:id="A37285-e110290">Thou art my kinsman, yet had not thy mother</l>
+            <l xml:id="A37285-e110300">Been constant to thy father, and none other,</l>
+            <l xml:id="A37285-e110310">I would have sworn some emperor had got thee. </l>
+          </sp>
+          <sp xml:id="A37285-e110320" who="A37285-acolastes">
+            <speaker>Acol.</speaker>
+            <l xml:id="A37285-e110330">Why so he might, let not opinion sot thee. </l>
+          </sp>
+          <sp xml:id="A37285-e110340" who="A37285-parliament">
+            <speaker>Par.</speaker>
+            <l xml:id="A37285-e110350">Suppose all kingdoms in the world were balls</l>
+            <l xml:id="A37285-e110360">And stood'st with a racket twixt four walls</l>
+            <l xml:id="A37285-e110370">To toss ad placitum, how wouldst thou play? </l>
+          </sp>
+          <sp xml:id="A37285-e110380" who="A37285-acolastes">
+            <speaker>Acol.</speaker>
+            <l xml:id="A37285-e110390">Why as with balls, bandy 'em all away,</l>
+            <l xml:id="A37285-e110400">They gone play twice as many of the score. </l>
+          </sp>
+          <sp xml:id="A37285-e110410" who="A37285-parliament">
+            <speaker>Par:</speaker>
+            <l xml:id="A37285-e110420">A tennis court of Kings could do no more</l>
+            <l xml:id="A37285-e110430">But (Faith) what dost thou think that I now think</l>
+            <l xml:id="A37285-e110440">Of thy this day's expenses? </l>
+          </sp>
+          <sp xml:id="A37285-e110450" who="A37285-acolastes">
+            <speaker>Acol:</speaker>
+            <l xml:id="A37285-e110460">How in drink,</l>
+            <l xml:id="A37285-e110470">Dice, drabs, and music? why that it was brave. </l>
+          </sp>
+          <sp xml:id="A37285-e110480" who="A37285-parliament">
+            <speaker>Par.</speaker>
+            <l xml:id="A37285-e110490">No, that thou art a proud vainglorious knave,</l>
+            <l xml:id="A37285-e110500">That teeming womb thy father left so full</l>
+            <l xml:id="A37285-e110510">Of golden issue, thou like a brainless gull,</l>
+            <l xml:id="A37285-e110520">Hast viperlike eat through: o here's trim stuff,</l>
+            <l xml:id="A37285-e110530">A good man's state in garters, rose, and ruff. </l>
+          </sp>
+          <sp xml:id="A37285-e110540" who="A37285-acolastes">
+            <pb facs="18"/>
+            <speaker>Acol.</speaker>
+            <l xml:id="A37285-e110550">How one man's state? that beggar's wretched poor</l>
+            <l xml:id="A37285-e110560">That wears but one man's portion, I'll do more,</l>
+            <l xml:id="A37285-e110570">Had I my will, betwixt my knee and toe</l>
+            <l xml:id="A37285-e110580">I'd hang more pearl and diamonds then grow</l>
+            <l xml:id="A37285-e110590">In both the Indies, poor fucus musk my hose,</l>
+            <l xml:id="A37285-e110600">Match your old greasy codpiece. </l>
+          </sp>
+          <sp xml:id="A37285-e110610" who="A37285-parsimonious">
+            <speaker>Parc.</speaker>
+            <l xml:id="A37285-e110620">Let's not part foes:</l>
+            <l xml:id="A37285-e110630">I'd have thee live in compass. </l>
+          </sp>
+          <sp xml:id="A37285-e110640" who="A37285-acolastes">
+            <speaker>Acol.</speaker>
+            <l xml:id="A37285-e110650">Fool I'll be,</l>
+            <l xml:id="A37285-e110660">Like Phoebus in the zodiac, I am he</l>
+            <l xml:id="A37285-e110670">That would take Phaeton's fall, though I set fire</l>
+            <l xml:id="A37285-e110680">On the whole world, to be heaven's charioteer. </l>
+          </sp>
+          <sp xml:id="A37285-e110690" who="A37285-parliament">
+            <speaker>Par.</speaker>
+            <l xml:id="A37285-e110700">Thou'st fired too much already, parks and chases</l>
+            <l xml:id="A37285-e110710">Have no part left of 'em save names of places. </l>
+            <l xml:id="A37285-e110720">Thou'st burned so much, thou'st not one tree to fell,</l>
+            <l xml:id="A37285-e110730">To make a fire to warm thee by in hell. </l>
+          </sp>
+          <sp xml:id="A37285-e110740" who="A37285-acolastes">
+            <speaker>Acol.</speaker>
+            <l xml:id="A37285-e110750">I'll warm me by thy bones then. </l>
+          </sp>
+          <sp xml:id="A37285-e110760" who="A37285-parliament">
+            <speaker>Par.</speaker>
+            <l xml:id="A37285-e110770">Say and hold;</l>
+            <l xml:id="A37285-e110780">Want fire till then; thy lust will starve with cold:</l>
+            <l xml:id="A37285-e110790">'Tis voiced abroad too, that thy lands are sold. </l>
+          </sp>
+          <sp xml:id="A37285-e110800" who="A37285-acolastes">
+            <speaker>Acol.</speaker>
+            <l xml:id="A37285-e110810">They are: what then? </l>
+          </sp>
+          <sp xml:id="A37285-e110820" who="A37285-parliament">
+            <speaker>Par.</speaker>
+            <l xml:id="A37285-e110830">And that the money went</l>
+            <l xml:id="A37285-e110840">Towards great last proud entertainment. </l>
+          </sp>
+          <sp xml:id="A37285-e110850" who="A37285-acolastes">
+            <speaker>Acol.</speaker>
+            <l xml:id="A37285-e110860">It's a lie. </l>
+          </sp>
+          <sp xml:id="A37285-e110870" who="A37285-parliament">
+            <speaker>Par.</speaker>
+            <l xml:id="A37285-e110880">I thank you. </l>
+          </sp>
+          <sp xml:id="A37285-e110890" who="A37285-acolastes">
+            <speaker>Acol.</speaker>
+            <l xml:id="A37285-e110900">But suppose it true</l>
+            <l xml:id="A37285-e110910">That I spent millions, what's all that to you? </l>
+            <l xml:id="A37285-e110920">Had I for every day ith' year a friend,</l>
+            <l xml:id="A37285-e110930">For each hour in that year a mine to spend,</l>
+            <l xml:id="A37285-e110940">I'd waste both Indies but I'd feast 'em all. </l>
+          </sp>
+          <sp xml:id="A37285-e110950" who="A37285-parsimonious">
+            <speaker>Parsi.</speaker>
+            <l xml:id="A37285-e110960">And starve thyself, still a true prodigal:</l>
+            <l xml:id="A37285-e110970">What should thy stews have then? </l>
+          </sp>
+          <sp xml:id="A37285-e110980" who="A37285-acolastes">
+            <speaker>Acol.</speaker>
+            <l xml:id="A37285-e110990">Out lazy drone,</l>
+            <l xml:id="A37285-e111000">Thou enviest bees with stings, 'cause thine is gone. </l>
+            <l xml:id="A37285-e111010">Plate, jewels, treasure, all shall fly. </l>
+          </sp>
+          <sp xml:id="A37285-e111020" who="A37285-parsimonious">
+            <speaker>Parsi.</speaker>
+            <l xml:id="A37285-e111030">They shall,</l>
+            <l xml:id="A37285-e111040">And then some dunghill give the burial. </l>
+          </sp>
+          <sp xml:id="A37285-e111050" who="A37285-acolastes">
+            <speaker>Acol.</speaker>
+            <l xml:id="A37285-e111060">No I'll turn pickled thief. </l>
+          </sp>
+          <sp xml:id="A37285-e111070" who="A37285-parliament">
+            <speaker>Par.</speaker>
+            <l xml:id="A37285-e111080">What's that? </l>
+          </sp>
+          <sp xml:id="A37285-e111090" who="A37285-unassigned">
+            <speaker>A.</speaker>
+            <l xml:id="A37285-e111100">A pitcate. </l>
+            <l xml:id="A37285-e111110">If gold keep house, a sea or land I'll hate,</l>
+            <l xml:id="A37285-e111120"><pb facs="18"/> as to feed riot I the land did brave. </l>
+            <l xml:id="A37285-e111130">So scorning land, water shall be my grave. </l>
+            <l xml:id="A37285-e111140">Meanwhile the circle I've begun I'll run,</l>
+            <l xml:id="A37285-e111150">Should the devil stand ith' centre, like the sun</l>
+            <l xml:id="A37285-e111160">In his meridian, my ascent's divine. </l>
+            <l xml:id="A37285-e111170">The vanity of all mankind is mine. </l>
+            <l xml:id="A37285-e111180">In me all prodigals looseness fresh shall flow</l>
+            <l xml:id="A37285-e111190">Borrow and spend, ne'er look back what I owe,</l>
+            <l xml:id="A37285-e111200">Wine, harlots, surfeits, rich embroidered clothes,</l>
+            <l xml:id="A37285-e111210">Strange fashions, all sins sensual, new coined oaths</l>
+            <l xml:id="A37285-e111220">Shall feed and fill me, I'll feast every sense. </l>
+            <l xml:id="A37285-e111230">Naught shall become me ill but innocence. </l>
+          </sp>
+          <sp xml:id="A37285-e111240" who="A37285-parsimonious">
+            <speaker>Parce.</speaker>
+            <l xml:id="A37285-e111250">Farewell, I spy a wallet at thy back. </l>
+            <l xml:id="A37285-e111260">Who spends all young, ere age comes, all shall lack. </l>
+          </sp>
+        </div>
+        <div n="8" type="chapter" xml:id="A37285-e111270">
+          <head>Character 8.</head>
+          <head type="sub">Inamoratho. The passionate bee.</head>
+          <argument xml:id="A37285-e111280">
+            <l xml:id="A37285-e111290">In this, the poet spends some art,</l>
+            <l xml:id="A37285-e111300">To character a lover's heart:</l>
+            <l xml:id="A37285-e111310">And for a sigh, his love let fall,</l>
+            <l xml:id="A37285-e111320">Prepares a solemn funeral. </l>
+          </argument>
+          <stage xml:id="A37285-e111330">Speakers. <list xml:id="A37285-e111340"><item xml:id="A37285-e111350">Chariolus.</item><item xml:id="A37285-e111360">Arethusa.</item></list></stage>
+          <sp xml:id="A37285-e111370" who="A37285-chariolus">
+            <speaker>Char.</speaker>
+            <l xml:id="A37285-e111380">O Arethusa, cause of my souls moving,</l>
+            <l xml:id="A37285-e111390">Nature, save thee, hath no work worth the loving</l>
+            <l xml:id="A37285-e111400"><pb facs="19"/> for when she fashioned thee, she summoned all</l>
+            <l xml:id="A37285-e111410">The graces, and the virtue's Cardinal;</l>
+            <l xml:id="A37285-e111420">Nay the whole swarm of bees came loaden home,</l>
+            <l xml:id="A37285-e111430">Each bringing thee a rich perfection;</l>
+            <l xml:id="A37285-e111440">And laid them up with such art in the hive,</l>
+            <l xml:id="A37285-e111450">Thy brain, as since that, all thy beauties thrive;</l>
+            <l xml:id="A37285-e111460">For being mixed at thy creation,</l>
+            <l xml:id="A37285-e111470">They made thee fair, past art or imitation. </l>
+          </sp>
+          <sp xml:id="A37285-e111480" who="A37285-arethusa">
+            <speaker>Aret.</speaker>
+            <l xml:id="A37285-e111490">'Tis he, is not your name Chariolus? </l>
+            <l xml:id="A37285-e111500">Son to our Mr. bee? </l>
+          </sp>
+          <sp xml:id="A37285-e111510" who="A37285-chariolus">
+            <speaker>Char.</speaker>
+            <l xml:id="A37285-e111520">What art that thus</l>
+            <l xml:id="A37285-e111530">Bluntly salute me? </l>
+          </sp>
+          <sp xml:id="A37285-e111540" who="A37285-arethusa">
+            <speaker>Aret.</speaker>
+            <l xml:id="A37285-e111550">One that has to say</l>
+            <l xml:id="A37285-e111560">Somewhat to you from lovely Arethusa. </l>
+          </sp>
+          <sp xml:id="A37285-e111570" who="A37285-chariolus">
+            <speaker>Cha.</speaker>
+            <l xml:id="A37285-e111580">How doth she? </l>
+          </sp>
+          <sp xml:id="A37285-e111590" who="A37285-arethusa">
+            <speaker>Ar.</speaker>
+            <l xml:id="A37285-e111600">Well. </l>
+          </sp>
+          <sp xml:id="A37285-e111610" who="A37285-chariolus">
+            <speaker>Cha.</speaker>
+            <l xml:id="A37285-e111620">Ill tutored bee, but well? </l>
+            <l xml:id="A37285-e111630">The word's too sparing for her, more than well;</l>
+            <l xml:id="A37285-e111640">Nay, more than excellent's an epithet</l>
+            <l xml:id="A37285-e111650">Too poor for Arethusa. </l>
+          </sp>
+          <sp xml:id="A37285-e111660" who="A37285-arethusa">
+            <speaker>Aret.</speaker>
+            <l xml:id="A37285-e111670">This is right</l>
+            <l xml:id="A37285-e111680">As the bee told me, can she better well</l>
+            <l xml:id="A37285-e111690">Than with the gods? </l>
+          </sp>
+          <sp xml:id="A37285-e111700" who="A37285-chariolus">
+            <speaker>Cha.</speaker>
+            <l xml:id="A37285-e111710">The gods? </l>
+          </sp>
+          <sp xml:id="A37285-e111720" who="A37285-arethusa">
+            <speaker>Aret.</speaker>
+            <l xml:id="A37285-e111730">A passing bell</l>
+            <l xml:id="A37285-e111740">Proclaimed her death, and the whole swarm of bees</l>
+            <l xml:id="A37285-e111750">Mourned at her hearse in sable liveries:</l>
+            <l xml:id="A37285-e111760">Long she lay sick, yet would not send, till death</l>
+            <l xml:id="A37285-e111770">Knocked at life's gate to fetch away her breath:</l>
+            <l xml:id="A37285-e111780">But just as he came in, go thou (Quoth she)</l>
+            <l xml:id="A37285-e111790">Seek out Chariolus, greet him from me,</l>
+            <l xml:id="A37285-e111800">And pray him that he would no longer shroud</l>
+            <l xml:id="A37285-e111810">His fair illustrate splendour in a cloud,</l>
+            <l xml:id="A37285-e111820">For I am gone from the world's vanities</l>
+            <l xml:id="A37285-e111830">Unto the gods (A pleasing sacrifice)</l>
+            <l xml:id="A37285-e111840">Yet there I'll wish him well, and say, good youth,</l>
+            <l xml:id="A37285-e111850">I bequeath nothing to him, but my truth. </l>
+            <l xml:id="A37285-e111860"><pb facs="19"/>And even as death arrested her, she cried,</l>
+            <l xml:id="A37285-e111870">O my Chariolus; so with a sigh she died. </l>
+          </sp>
+          <sp xml:id="A37285-e111880" who="A37285-chariolus">
+            <speaker>Cha.</speaker>
+            <l xml:id="A37285-e111890">So with a sigh she died. </l>
+          </sp>
+          <sp xml:id="A37285-e111900" who="A37285-arethusa">
+            <speaker>Ar.</speaker>
+            <l xml:id="A37285-e111910">What mean you, sir? </l>
+            <l xml:id="A37285-e111920">I have told him like a foolish messenger,</l>
+            <l xml:id="A37285-e111930">What I shall first repent. </l>
+          </sp>
+          <sp xml:id="A37285-e111940" who="A37285-chariolus">
+            <speaker>Cha.</speaker>
+            <l xml:id="A37285-e111950">Come, let us divide</l>
+            <l xml:id="A37285-e111960">Sorrows and tears, for with a sigh she died. </l>
+          </sp>
+          <sp xml:id="A37285-e111970" who="A37285-arethusa">
+            <speaker>Aret.</speaker>
+            <l xml:id="A37285-e111980">Nay then she lives. </l>
+          </sp>
+          <sp xml:id="A37285-e111990" who="A37285-chariolus">
+            <speaker>Cha.</speaker>
+            <l xml:id="A37285-e112000">'Tis false, believe it not,</l>
+            <l xml:id="A37285-e112010">I'll have that sigh drawn on a chariot</l>
+            <l xml:id="A37285-e112020">(Made of the bones of lovers, who have cried,</l>
+            <l xml:id="A37285-e112030">Beaten their breasts, sighed for their loves and died)</l>
+            <l xml:id="A37285-e112040">Covered with azure-coloured velvet; where</l>
+            <l xml:id="A37285-e112050">The sun of her affections shall shine clear,</l>
+            <l xml:id="A37285-e112060">In careless manner, about the canopy</l>
+            <l xml:id="A37285-e112070">Upon the blue (In quaint embroidery)</l>
+            <l xml:id="A37285-e112080">Arethusa and Chariolus shall stand</l>
+            <l xml:id="A37285-e112090">As newly married, joined hand in hand. </l>
+            <l xml:id="A37285-e112100">The chariot shall be drawn by milk-white swans,</l>
+            <l xml:id="A37285-e112110">About whose comely necks (As straight as wands,</l>
+            <l xml:id="A37285-e112120">In stead of reins, there shall hang chains of pearl</l>
+            <l xml:id="A37285-e112130">As precious as her faith was: the prime girl</l>
+            <l xml:id="A37285-e112140">That shall attend this chariot shall be truth,</l>
+            <l xml:id="A37285-e112150">Who in a robe, composed of ruined youth,</l>
+            <l xml:id="A37285-e112160">Shall follow weeping, hanging down the head,</l>
+            <l xml:id="A37285-e112170">As who should say, my sweet companion's dead. </l>
+            <l xml:id="A37285-e112180">Next shall the graces march, clad in rich sables,</l>
+            <l xml:id="A37285-e112190">With correspondent hoods, about which large tables</l>
+            <l xml:id="A37285-e112200">Of pearl and gold (In rich embroidery)</l>
+            <l xml:id="A37285-e112210">Shall hang sad mottoes of my misery. </l>
+          </sp>
+          <sp xml:id="A37285-e112220" who="A37285-arethusa">
+            <speaker>Aret.</speaker>
+            <l xml:id="A37285-e112230">O no, my misery. </l>
+          </sp>
+          <sp xml:id="A37285-e112240" who="A37285-chariolus">
+            <speaker>Cha.</speaker>
+            <l xml:id="A37285-e112250">Next these shall go</l>
+            <l xml:id="A37285-e112260">All Arethusa's virtues in a row:</l>
+            <l xml:id="A37285-e112270"><pb facs="20"/> her wisdom first in plain abiliments</l>
+            <l xml:id="A37285-e112280">(As not affecting gawdy ornaments)</l>
+            <l xml:id="A37285-e112290">Next them her chastity attired in white</l>
+            <l xml:id="A37285-e112300">(Whose chaste eye shall her epitaph indite)</l>
+            <l xml:id="A37285-e112310">Looking as if it meant to check desire</l>
+            <l xml:id="A37285-e112320">And quell th'ascension of the Paphian fire,</l>
+            <l xml:id="A37285-e112330">Next these her beauty, (That immortal thing)</l>
+            <l xml:id="A37285-e112340">Decked in a robe that signifies the spring,</l>
+            <l xml:id="A37285-e112350">The loveliest season of the quartered year,</l>
+            <l xml:id="A37285-e112360">Last shall her virgin modesty appear,</l>
+            <l xml:id="A37285-e112370">And that a robe, nor white nor red shall wear</l>
+            <l xml:id="A37285-e112380">But equally participating both,</l>
+            <l xml:id="A37285-e112390">Call it a maiden blush, and so the cloth</l>
+            <l xml:id="A37285-e112400">Shall be her hieroglyphic, on her eye</l>
+            <l xml:id="A37285-e112410">Shall sit discretion , who when any spy</l>
+            <l xml:id="A37285-e112420">Would at that casement, (Like a thief) steal in</l>
+            <l xml:id="A37285-e112430">Shall like her hearts true porter keep out sin:</l>
+            <l xml:id="A37285-e112440">These shall be all chief mourners, and because</l>
+            <l xml:id="A37285-e112450">This sigh killed Arethusa, here we'll pause</l>
+            <l xml:id="A37285-e112460">And drop a tear, the tribute of her love,</l>
+            <l xml:id="A37285-e112470">Next this because a sigh did kill my dove</l>
+            <l xml:id="A37285-e112480">(A good conceit, I pray forget it not)</l>
+            <l xml:id="A37285-e112490">At the four corners of this chariot</l>
+            <l xml:id="A37285-e112500">I'll have the four winds statued, which shall blow</l>
+            <l xml:id="A37285-e112510">And sigh my sorrows out, above, below,</l>
+            <l xml:id="A37285-e112520">Into each quarter, than sir, on the top</l>
+            <l xml:id="A37285-e112530">Over all these gawdy trim things, I'll set up</l>
+            <l xml:id="A37285-e112540">My statue in jet, my posture this</l>
+            <l xml:id="A37285-e112550">Catching at Arethusa; my lost bliss:</l>
+            <l xml:id="A37285-e112560">For over me by geometric pins</l>
+            <l xml:id="A37285-e112570">I'll have her hang betwixt two cherubins,</l>
+            <l xml:id="A37285-e112580"><pb facs="20"/> as if they had snatched her up from me and earth</l>
+            <l xml:id="A37285-e112590">(In heaven to give her a more glorious birth)</l>
+            <l xml:id="A37285-e112600">The word this what should virtue do on earth? </l>
+            <l xml:id="A37285-e112610">This I'll have done, and when 'tis finished: all</l>
+            <l xml:id="A37285-e112620">That love come to my poor sighs funeral. </l>
+            <l xml:id="A37285-e112630">Swell gall, break heart, flow tears like a full tide,</l>
+            <l xml:id="A37285-e112640">For with a sigh fair Arethusa died. </l>
+          </sp>
+          <sp xml:id="A37285-e112650" who="A37285-arethusa">
+            <speaker>Areth.</speaker>
+            <l xml:id="A37285-e112660">Rather than thus, your youthful flames should smother,</l>
+            <l xml:id="A37285-e112670">Forget her thought and entertain another. </l>
+          </sp>
+          <sp xml:id="A37285-e112680" who="A37285-chariolus">
+            <speaker>Char.</speaker>
+            <l xml:id="A37285-e112690">O never never with the turtle dove</l>
+            <l xml:id="A37285-e112700">A sigh shall bear my soul up to my love. </l>
+          </sp>
+        </div>
+        <div n="9" type="character" xml:id="A37285-e112710">
+          <head>Character 9.</head>
+          <head type="sub">Pharmacopolis. The quacksalving bee.</head>
+          <argument xml:id="A37285-e112720">
+            <l xml:id="A37285-e112730">This satire is the character</l>
+            <l xml:id="A37285-e112740">Of an imposterous quacksalver,</l>
+            <l xml:id="A37285-e112750">Who to steal practice and to vent</l>
+            <l xml:id="A37285-e112760">His drugs would buy a patient. </l>
+          </argument>
+          <stage xml:id="A37285-e112770">Speakers. <list xml:id="A37285-e112780"><item xml:id="A37285-e112790">Senilis.</item><item xml:id="A37285-e112800">Stewart.</item><item xml:id="A37285-e112810">Pharmacopolis.</item></list></stage>
+          <sp xml:id="A37285-e112820" who="A37285-senilus">
+            <speaker>Sen.</speaker>
+            <l xml:id="A37285-e112830">What's he? </l>
+          </sp>
+          <sp xml:id="A37285-e112840" who="A37285-steward">
+            <speaker>St.</speaker>
+            <l xml:id="A37285-e112850">The party. </l>
+          </sp>
+          <sp xml:id="A37285-e112860" who="A37285-senilus">
+            <speaker>Sen.</speaker>
+            <l xml:id="A37285-e112870">How? what party sir? </l>
+          </sp>
+          <sp xml:id="A37285-e112880" who="A37285-steward">
+            <speaker>Steward</speaker>
+            <l xml:id="A37285-e112890">A most sweet rogue, an honest quacksalver:</l>
+            <l xml:id="A37285-e112900">That sues to be your household apothecary,</l>
+          </sp>
+          <sp xml:id="A37285-e112910" who="A37285-senilus">
+            <speaker>Sen.</speaker>
+            <l xml:id="A37285-e112920">What sees he in my face that I should buy</l>
+            <l xml:id="A37285-e112930"><pb facs="21"/> his drugs and drenches? my cheek wears a colour</l>
+            <l xml:id="A37285-e112940">As fresh as his, and my veins channel's fuller</l>
+            <l xml:id="A37285-e112950">Of crimson blood than his; my well-knit joints</l>
+            <l xml:id="A37285-e112960">Are all trussed round, and need no physical points. </l>
+            <l xml:id="A37285-e112970">Read the whole alphabet of all my age,</l>
+            <l xml:id="A37285-e112980">'Mongst sixty letters shalt not find one ache:</l>
+            <l xml:id="A37285-e112990">My blood's not boiled with fevers, nor (Though old)</l>
+            <l xml:id="A37285-e113000">Is't icicled with cramps, or dropsy cold:</l>
+            <l xml:id="A37285-e113010">I am healthful both in body and in wits,</l>
+            <l xml:id="A37285-e113020">Coughs, rheums, catarrhs, gouts, apoplectic fits:</l>
+            <l xml:id="A37285-e113030">The common sores of age on me never ran,</l>
+            <l xml:id="A37285-e113040">No Galenist, nor Paracelsian,</l>
+            <l xml:id="A37285-e113050">Shall ere read physic lecture out of me,</l>
+            <l xml:id="A37285-e113060">I'll be no subject for anatomy. </l>
+          </sp>
+          <sp xml:id="A37285-e113070" who="A37285-pharmacoplis">
+            <speaker>Phar.</speaker>
+            <l xml:id="A37285-e113080">They are two good artists, sir. </l>
+          </sp>
+          <sp xml:id="A37285-e113090" who="A37285-senilus">
+            <speaker>Sen.</speaker>
+            <l xml:id="A37285-e113100">All that I know,</l>
+            <l xml:id="A37285-e113110">What the creator did, they in part do,</l>
+            <l xml:id="A37285-e113120">A true physician's a man-maker too. </l>
+            <l xml:id="A37285-e113130">My kitchen is my doctor, and my garden,</l>
+            <l xml:id="A37285-e113140">My college, master, chief assistant, warden,</l>
+            <l xml:id="A37285-e113150">And pothecary, when they give me pills,</l>
+            <l xml:id="A37285-e113160">They work so gently, I'm not choked with bills,</l>
+            <l xml:id="A37285-e113170">Ounce, drachma, dram, the mildest of all these</l>
+            <l xml:id="A37285-e113180">Is a far stronger grief than the disease. </l>
+          </sp>
+          <sp xml:id="A37285-e113190" who="A37285-pharmacoplis">
+            <speaker>Phar.</speaker>
+            <l xml:id="A37285-e113200">Were't not for bills, physicians might go make</l>
+            <l xml:id="A37285-e113210">Mustard. </l>
+          </sp>
+          <sp xml:id="A37285-e113220" who="A37285-senilus">
+            <speaker>Sen.</speaker>
+            <l xml:id="A37285-e113230">I know't, nor bills, nor pills I'll take;</l>
+            <l xml:id="A37285-e113240">I stand on sickness shore, and see men tossed</l>
+            <l xml:id="A37285-e113250">From one disease to another, at last quite lost:</l>
+            <l xml:id="A37285-e113260">But on that sea of surfeits where they're drowned,</l>
+            <l xml:id="A37285-e113270">I never hoisting sail am ever sound. </l>
+          </sp>
+          <sp xml:id="A37285-e113280" who="A37285-pharmacoplis">
+            <speaker>Phar.</speaker>
+            <l xml:id="A37285-e113290">How, ever sound? were all our gallants so,</l>
+            <l xml:id="A37285-e113300">Doctors and pothecaries might go sow</l>
+            <l xml:id="A37285-e113310"><pb facs="21"/> dowlass for saffron-bags, take leave of silk,</l>
+            <l xml:id="A37285-e113320">And eat green chibbals, and sour buttermilk,</l>
+            <l xml:id="A37285-e113330">Would you know how all physic to confound? </l>
+            <l xml:id="A37285-e113340">Why 'tis done thus, keep but your gallants sound. </l>
+          </sp>
+          <sp xml:id="A37285-e113350" who="A37285-senilus">
+            <speaker>Sen.</speaker>
+            <l xml:id="A37285-e113360">'Tis their own faults, if they 'fore springs or falls,</l>
+            <l xml:id="A37285-e113370">Emptying wineglasses fill up urinals. </l>
+            <l xml:id="A37285-e113380">Man was made sound at first; if he grows ill,</l>
+            <l xml:id="A37285-e113390">'Tis not by course of nature, but free will:</l>
+            <l xml:id="A37285-e113400">Distempers are not ours; there should be then,</l>
+            <l xml:id="A37285-e113410">Were we ourselves, no physic, men to men</l>
+            <l xml:id="A37285-e113420">Are both diseases cause, and the disease. </l>
+            <l xml:id="A37285-e113430">Thank fate I'm sound, and free from both of these. </l>
+          </sp>
+          <sp xml:id="A37285-e113440" who="A37285-pharmacoplis">
+            <speaker>Phar.</speaker>
+            <l xml:id="A37285-e113450">Steward, my fifty crowns, red. </l>
+          </sp>
+          <sp xml:id="A37285-e113460" who="A37285-steward">
+            <speaker>St.</speaker>
+            <l xml:id="A37285-e113470">Not I. </l>
+          </sp>
+          <sp xml:id="A37285-e113480" who="A37285-pharmacoplis">
+            <speaker>Phar.</speaker>
+            <l xml:id="A37285-e113490">I'll give you then a glister. </l>
+          </sp>
+          <sp xml:id="A37285-e113500" who="A37285-steward">
+            <speaker>St.</speaker>
+            <l xml:id="A37285-e113510">Me sir, why? </l>
+          </sp>
+          <sp xml:id="A37285-e113520" who="A37285-pharmacoplis">
+            <speaker>Phar.</speaker>
+            <l xml:id="A37285-e113530">I'll tell your master, sir, though you'll take none,</l>
+            <l xml:id="A37285-e113540">Let me give your steward a purgation. </l>
+          </sp>
+          <sp xml:id="A37285-e113550" who="A37285-steward">
+            <speaker>St.</speaker>
+            <l xml:id="A37285-e113560">Why, I am well. </l>
+          </sp>
+          <sp xml:id="A37285-e113570" who="A37285-pharmacoplis">
+            <speaker>Phar.</speaker>
+            <l xml:id="A37285-e113580">No, you are too hard bound,</l>
+            <l xml:id="A37285-e113590">And you must cast me up the fifty pound</l>
+            <l xml:id="A37285-e113600">I gave you in bribe-powder. </l>
+          </sp>
+          <sp xml:id="A37285-e113610" who="A37285-steward">
+            <speaker>St.</speaker>
+            <l xml:id="A37285-e113620">Be patient. </l>
+          </sp>
+          <sp xml:id="A37285-e113630" who="A37285-pharmacoplis">
+            <speaker>Phar.</speaker>
+            <l xml:id="A37285-e113640">You'll practise on me then. </l>
+          </sp>
+          <sp xml:id="A37285-e113650" who="A37285-senilus">
+            <speaker>Sen.</speaker>
+            <l xml:id="A37285-e113660">If this be true,</l>
+            <l xml:id="A37285-e113670">My health I see is bought and sold by you:</l>
+            <l xml:id="A37285-e113680">A doctor buys me next, whose mess of potions,</l>
+            <l xml:id="A37285-e113690">Striking me full of ulcers; oils and lotions</l>
+            <l xml:id="A37285-e113700">Bequeath me to a surgeon; last of all</l>
+            <l xml:id="A37285-e113710">He gives me diet in an hospital. </l>
+            <l xml:id="A37285-e113720">Then comes the scrivener, and he draws my will,</l>
+            <l xml:id="A37285-e113730">Thus slaves for gold their Mrs. sell and kill,</l>
+            <l xml:id="A37285-e113740">Nay nay, so got so keep it, for thy fifty</l>
+            <l xml:id="A37285-e113750">Take here a hundred, we'll not now be thrifty,</l>
+            <l xml:id="A37285-e113760">But of such artless empirics I'll beware,</l>
+            <l xml:id="A37285-e113770">And learn both when to spend and, when to spare. </l>
+          </sp>
+        </div>
+        <div n="10" type="character" xml:id="A37285-e113780">
+          <pb facs="22"/>
+          <head>Character 10.</head>
+          <head type="sub">Fenerator. Or the usuring bee.</head>
+          <argument xml:id="A37285-e113790">
+            <l xml:id="A37285-e113800">In which the poet lineats forth,</l>
+            <l xml:id="A37285-e113810">That bounty feeds desert and worth:</l>
+            <l xml:id="A37285-e113820">Checks counterfeits, inveighs 'gainst bribes,</l>
+            <l xml:id="A37285-e113830">And foenerators nest describes. </l>
+          </argument>
+          <stage xml:id="A37285-e113840">Speakers. <list xml:id="A37285-e113850"><item xml:id="A37285-e113860">Dicastes.</item><item xml:id="A37285-e113870">Servitor.</item><item xml:id="A37285-e113880">Fenerator.</item><item xml:id="A37285-e113890">Impotens.</item></list></stage>
+          <sp xml:id="A37285-e113900" who="A37285-dicastes">
+            <speaker>Dicastes.</speaker>
+            <l xml:id="A37285-e113910">What rings this bell so loud for? </l>
+          </sp>
+          <sp xml:id="A37285-e113920" who="A37285-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A37285-e113930">Suitors great bee</l>
+            <l xml:id="A37285-e113940">Cal for dispatch of business. </l>
+          </sp>
+          <sp xml:id="A37285-e113950" who="A37285-unassigned">
+            <speaker>D.</speaker>
+            <l xml:id="A37285-e113960">Say what they be. </l>
+          </sp>
+          <sp xml:id="A37285-e113970" who="A37285-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A37285-e113980">Wracked fen-bees, aged, lame, and such as gasp,</l>
+            <l xml:id="A37285-e113990">Under late bondage of the cruel wasp. </l>
+          </sp>
+          <sp xml:id="A37285-e114000" who="A37285-dicastes">
+            <speaker>Dicast.</speaker>
+            <l xml:id="A37285-e114010">Cheer them with hearty welcomes, in my chair</l>
+            <l xml:id="A37285-e114020">Seat the bee most in years, let no one dare</l>
+            <l xml:id="A37285-e114030">To send 'em sad hence, will our janitors</l>
+            <l xml:id="A37285-e114040">Observe them nobly, for the mariners</l>
+            <stage xml:id="A37285-e114050">Mariners character</stage>
+            <l xml:id="A37285-e114060">Are clocks of danger, that do ne'er stand still,</l>
+            <l xml:id="A37285-e114070">But move from one, unto another ill,</l>
+            <l xml:id="A37285-e114080">There dial's hand still points to th'line of death,</l>
+            <l xml:id="A37285-e114090">And though they have wind at will, they oft loose breath. </l>
+            <l xml:id="A37285-e114100">Of all our bees that labour in the mead</l>
+            <l xml:id="A37285-e114110">I love them, for they earn the dearest bread</l>
+            <l xml:id="A37285-e114120">That life can buy; when th'elements make war</l>
+            <l xml:id="A37285-e114130">To ruin all, they're saved by their good star. </l>
+            <l xml:id="A37285-e114140"><pb facs="22"/>And for the galley-slaves, o love that bee,</l>
+            <l xml:id="A37285-e114150">Who suffers only for pure constancy,</l>
+            <l xml:id="A37285-e114160">What suitors that? </l>
+          </sp>
+          <sp xml:id="A37285-e114170" who="A37285-fenerator">
+            <speaker>Fen.</speaker>
+            <l xml:id="A37285-e114180">A very sorry one. </l>
+          </sp>
+          <sp xml:id="A37285-e114190" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e114200">What makes thee sorry? </l>
+          </sp>
+          <sp xml:id="A37285-e114210" who="A37285-fenerator">
+            <speaker>Fene.</speaker>
+            <l xml:id="A37285-e114220">Pale affliction:</l>
+            <l xml:id="A37285-e114230">My hive is burned. </l>
+          </sp>
+          <sp xml:id="A37285-e114240" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e114250">And why to me dost come? </l>
+          </sp>
+          <sp xml:id="A37285-e114260" who="A37285-fenerator">
+            <speaker>Fen.</speaker>
+            <l xml:id="A37285-e114270">To beg a 100. pound:</l>
+          </sp>
+          <sp xml:id="A37285-e114280" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e114290">Give him the sum. </l>
+          </sp>
+          <sp xml:id="A37285-e114300" who="A37285-fenerator">
+            <speaker>Fen.</speaker>
+            <l xml:id="A37285-e114310">Now the gods:</l>
+          </sp>
+          <sp xml:id="A37285-e114320" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e114330">Nay nay, kneel not nor be mistook:</l>
+            <l xml:id="A37285-e114340">Faces are speaking pictures, thine's a book,</l>
+            <l xml:id="A37285-e114350">Which if the proof be truly printed, shows. </l>
+            <l xml:id="A37285-e114360">A page of close dissembling:</l>
+          </sp>
+          <sp xml:id="A37285-e114370" who="A37285-fenerator">
+            <speaker>Fen.</speaker>
+            <l xml:id="A37285-e114380">High heaven knows. </l>
+          </sp>
+          <sp xml:id="A37285-e114390" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e114400">Nay though thou beest one, yet the money's thine</l>
+            <l xml:id="A37285-e114410">Which I bestow on charity, not her shrine. </l>
+            <l xml:id="A37285-e114420">If thou cheatest me; thou art cheated, and hast got</l>
+            <l xml:id="A37285-e114430">(Being liquorish) poison from my galley-pot</l>
+            <l xml:id="A37285-e114440">In stead of honey, thou art not my debtor:</l>
+            <l xml:id="A37285-e114450">I'm ne'er the worse, nor thou (I fear) much better. </l>
+            <l xml:id="A37285-e114460">Who's next? </l>
+          </sp>
+          <sp xml:id="A37285-e114470" who="A37285-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A37285-e114480">A one legged bee. </l>
+          </sp>
+          <sp xml:id="A37285-e114490" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e114500">O use him well. </l>
+          </sp>
+          <sp xml:id="A37285-e114510" who="A37285-impotens">
+            <speaker>Impotens</speaker>
+            <l xml:id="A37285-e114520">Cannons defend me, gunpowder of hell! </l>
+            <l xml:id="A37285-e114530">Whom hast thou blown up here? </l>
+          </sp>
+          <sp xml:id="A37285-e114540" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e114550">Dost know him friend? </l>
+          </sp>
+          <sp xml:id="A37285-e114560" who="A37285-impotens">
+            <speaker>Impotens</speaker>
+            <l xml:id="A37285-e114570">Yes for the kingdom's pestilence, a fiend,</l>
+            <l xml:id="A37285-e114580">A moth takes up all petticoats he meets,</l>
+            <l xml:id="A37285-e114590">Eats featherbeds, bolsters, pillows, blankets, sheets,</l>
+            <l xml:id="A37285-e114600">And with sale bills, lays shirts and smocks a-bed,</l>
+            <l xml:id="A37285-e114610">In linen close adultery, and (Instead</l>
+            <stage xml:id="A37285-e114620">(A brokers</stage>
+            <l xml:id="A37285-e114630">Of clothes, strews lavender so strongly on 'em</l>
+            <stage xml:id="A37285-e114640">(Character</stage>
+            <l xml:id="A37285-e114650">The owners never more can smell upon 'em. </l>
+            <l xml:id="A37285-e114660">This bee sucks honey from the blooms of sin. </l>
+            <l xml:id="A37285-e114670">Be't ne'er so rank or foul, he crams it in,</l>
+            <l xml:id="A37285-e114680">Most of the timber, that his state repairs,</l>
+            <l xml:id="A37285-e114690">He hews out o'the bones of foundered players,</l>
+            <l xml:id="A37285-e114700"><pb facs="23"/> they feed on poet's brains, he eats their breath. </l>
+          </sp>
+          <sp xml:id="A37285-e114710" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e114720">Most strange conception, life begotten on death? </l>
+          </sp>
+          <sp xml:id="A37285-e114730" who="A37285-impotens">
+            <speaker>Impotens</speaker>
+            <l xml:id="A37285-e114740">He's a male polecat; a mere heartblood soaker,</l>
+            <l xml:id="A37285-e114750">'Mongst bees the Hornet, but with men a broker. </l>
+          </sp>
+          <sp xml:id="A37285-e114760" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e114770">Well charactered, what scathe has he done thee? </l>
+          </sp>
+          <sp xml:id="A37285-e114780" who="A37285-impotens">
+            <speaker>Impotens</speaker>
+            <l xml:id="A37285-e114790">More than my legs loss: in one month eat three</l>
+            <l xml:id="A37285-e114800">Of my poor fry, besides my wife; this Jew</l>
+            <l xml:id="A37285-e114810">Though he will eat no pork, eats bees, 'tis true. </l>
+          </sp>
+          <sp xml:id="A37285-e114820" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e114830">He told me, when I asked him why he mourned,</l>
+            <l xml:id="A37285-e114840">His hive, (And all he could call his) was burned. </l>
+          </sp>
+          <sp xml:id="A37285-e114850" who="A37285-impotens">
+            <speaker>Impotens</speaker>
+            <l xml:id="A37285-e114860">He's burned himself (Perhaps) but that's no news,</l>
+            <l xml:id="A37285-e114870">For he both keeps, and is maintained by th' stews,</l>
+            <l xml:id="A37285-e114880">He buys their sins, and they pay him large rends</l>
+            <l xml:id="A37285-e114890">For a long-lane of lousy tenements. </l>
+            <l xml:id="A37285-e114900">Built up in stead of mortar, straw, and stones</l>
+            <l xml:id="A37285-e114910">With poor-pawn-plaster, and starved debtors bones,</l>
+            <l xml:id="A37285-e114920">He may be fired, his rotten hives are not</l>
+            <l xml:id="A37285-e114930">To this autumn woodsear, alias kingdoms rot</l>
+            <l xml:id="A37285-e114940">I pawned my weapons, to buy course brown bread,</l>
+            <l xml:id="A37285-e114950">To feed my fry and me, being forfeited,</l>
+            <l xml:id="A37285-e114960">Twice so much money as he lent I gave,</l>
+            <l xml:id="A37285-e114970">To have mine arms again, the griping slave</l>
+            <l xml:id="A37285-e114980">Swore not to save my soul, unless I could,</l>
+            <l xml:id="A37285-e114990">Lay down my stump here, my poor leg of wood</l>
+            <l xml:id="A37285-e115000">And so hop home. </l>
+          </sp>
+          <sp xml:id="A37285-e115010" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e115020">Unheard of villainy. </l>
+          </sp>
+          <sp xml:id="A37285-e115030" who="A37285-servant">
+            <speaker>Servant</speaker>
+            <l xml:id="A37285-e115040">Is this true? </l>
+          </sp>
+          <sp xml:id="A37285-e115050" who="A37285-fenerator">
+            <speaker>Fen.</speaker>
+            <l xml:id="A37285-e115060">I dare not say it's a lie. </l>
+          </sp>
+          <sp xml:id="A37285-e115070" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e115080">And what sayest thou to this? </l>
+          </sp>
+          <sp xml:id="A37285-e115090" who="A37285-impotens">
+            <speaker>Impotens</speaker>
+            <l xml:id="A37285-e115100">Nothing but crave</l>
+            <l xml:id="A37285-e115110">Justice against this hypocritical knave,</l>
+            <l xml:id="A37285-e115120">This three-pile-velvet rascal, widow's decayer,</l>
+            <l xml:id="A37285-e115130">The poor fry's beggerer and rich bees betrayer. </l>
+            <l xml:id="A37285-e115140"><pb facs="23"/>Let him have Russian law for all his sins. </l>
+          </sp>
+          <sp xml:id="A37285-e115150" who="A37285-dicastes">
+            <speaker>Di.</speaker>
+            <l xml:id="A37285-e115160">What's that? </l>
+          </sp>
+          <sp xml:id="A37285-e115170" who="A37285-impotens">
+            <speaker>Impotens</speaker>
+            <l xml:id="A37285-e115180">A 100. blows on his bare shins:</l>
+          </sp>
+          <sp xml:id="A37285-e115190" who="A37285-fenerator">
+            <speaker>Fen.</speaker>
+            <l xml:id="A37285-e115200">Come home and take thine arms. </l>
+          </sp>
+          <sp xml:id="A37285-e115210" who="A37285-impotens">
+            <speaker>Impotens</speaker>
+            <l xml:id="A37285-e115220">I'll ha' thy legs:</l>
+            <l xml:id="A37285-e115230">Justice great bee, 'tis a wronged cripple begs. </l>
+          </sp>
+          <sp xml:id="A37285-e115240" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e115250">And thou shalt have't: I told thee goods ill got</l>
+            <l xml:id="A37285-e115260">Would as ill thrive, my gift I alter not,</l>
+            <l xml:id="A37285-e115270">That's yours. But cunning bee, you played the knave</l>
+            <l xml:id="A37285-e115280">To crave not needing, this poor bee must have</l>
+            <l xml:id="A37285-e115290">His request too, else justice lose her chair:</l>
+            <l xml:id="A37285-e115300">Go take him in, and one his shins stripped bare</l>
+            <l xml:id="A37285-e115310">In ready payment, give him a 100. strokes:</l>
+          </sp>
+          <sp xml:id="A37285-e115320" who="A37285-impotens">
+            <speaker>Impotens</speaker>
+            <l xml:id="A37285-e115330">Hew down his shanks, as carpenters fell Oakes. </l>
+          </sp>
+          <sp xml:id="A37285-e115340" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e115350">Nor think me partial, for I offer thee</l>
+            <l xml:id="A37285-e115360">A hundred for a hundred. </l>
+          </sp>
+          <sp xml:id="A37285-e115370" who="A37285-impotens">
+            <speaker>Impotens</speaker>
+            <l xml:id="A37285-e115380">Just his usury. </l>
+          </sp>
+          <sp xml:id="A37285-e115390" who="A37285-dicastes">
+            <speaker>Dic.</speaker>
+            <l xml:id="A37285-e115400">A hundred pound, or else a hundred blows</l>
+            <l xml:id="A37285-e115410">Give him the gold, he shall release you those. </l>
+          </sp>
+          <sp xml:id="A37285-e115420" who="A37285-fenerator">
+            <speaker>Fen.</speaker>
+            <l xml:id="A37285-e115430">Take it and rot with't. </l>
+          </sp>
+          <sp xml:id="A37285-e115440" who="A37285-impotens">
+            <speaker>Impotens</speaker>
+            <l xml:id="A37285-e115450">Follow thee thy curse:</l>
+            <l xml:id="A37285-e115460">Would blows might make all brokers thus disburse. </l>
+          </sp>
+        </div>
+        <div n="11" type="character" xml:id="A37285-e115470">
+          <pb facs="24"/>
+          <head>Character 11.</head>
+          <head type="sub">Obron in progresse. Obron in progress.</head>
+          <argument xml:id="A37285-e115480">
+            <l xml:id="A37285-e115490">Oberon his royal progress makes,</l>
+            <l xml:id="A37285-e115500">To Hibla, where he gives, and takes</l>
+            <l xml:id="A37285-e115510">Presents, and privileges, bees</l>
+            <l xml:id="A37285-e115520">Of worth he crowns with offices. </l>
+          </argument>
+          <stage xml:id="A37285-e115530">Speakers. <list xml:id="A37285-e115540"><item xml:id="A37285-e115550">Obron.</item><item xml:id="A37285-e115560">Agricola.</item><item xml:id="A37285-e115570">Pastoralis.</item><item xml:id="A37285-e115580">Flora.</item></list></stage>
+          <sp xml:id="A37285-e115590" who="A37285-oberon">
+            <speaker>Obron.</speaker>
+            <l xml:id="A37285-e115600">The sessions full to avoid the heat,</l>
+            <l xml:id="A37285-e115610">In this cool shade each take his seat. </l>
+          </sp>
+          <sp xml:id="A37285-e115620" who="A37285-agricola">
+            <speaker>Agr.</speaker>
+            <l xml:id="A37285-e115630">The winged tenants of these lawns,</l>
+            <l xml:id="A37285-e115640">Decked with blooms, and downy pawns,</l>
+            <l xml:id="A37285-e115650">Like subjects faithful just and true,</l>
+            <l xml:id="A37285-e115660">Bring Obron tribute. </l>
+          </sp>
+          <sp xml:id="A37285-e115670" who="A37285-oberon">
+            <speaker>Ob.</speaker>
+            <l xml:id="A37285-e115680">What are you? </l>
+          </sp>
+          <sp xml:id="A37285-e115690" who="A37285-agricola">
+            <speaker>Agr.</speaker>
+            <l xml:id="A37285-e115700">A poor bee that by Oberon's will,</l>
+            <l xml:id="A37285-e115710">First invented how to till</l>
+            <l xml:id="A37285-e115720">The barren earth, and in it throw</l>
+            <l xml:id="A37285-e115730">Seeds that die, before they grow,</l>
+            <l xml:id="A37285-e115740">And being well read in nature's book,</l>
+            <l xml:id="A37285-e115750">Devised blow, sickle, scythe and hook,</l>
+            <l xml:id="A37285-e115760">To weed the thistles, and rank brakes,</l>
+            <l xml:id="A37285-e115770">From the good corn: his voyage makes,</l>
+            <l xml:id="A37285-e115780">From Thessaly, my native shrine,</l>
+            <l xml:id="A37285-e115790">And to great Obron all divine</l>
+            <l xml:id="A37285-e115800"><pb facs="24"/> submit myself. This wreath of wheat</l>
+            <l xml:id="A37285-e115810">(Ripened by Apollo's heat)</l>
+            <l xml:id="A37285-e115820">My bosom filled with ears of corn,</l>
+            <l xml:id="A37285-e115830">To thee that wert before time born</l>
+            <l xml:id="A37285-e115840">I freely offer. </l>
+          </sp>
+          <sp xml:id="A37285-e115850" who="A37285-oberon">
+            <speaker>Ob.</speaker>
+            <l xml:id="A37285-e115860">May thy field,</l>
+            <l xml:id="A37285-e115870">Loaden with bounty, profit yield,</l>
+            <l xml:id="A37285-e115880">May the root prosper, and each ear,</l>
+            <l xml:id="A37285-e115890">Like a teeming female, bear</l>
+            <l xml:id="A37285-e115900">April deluge, and may frosts,</l>
+            <l xml:id="A37285-e115910">Lightnings and mildews fly thy coasts;</l>
+            <l xml:id="A37285-e115920">As thou in service true shalt be</l>
+            <l xml:id="A37285-e115930">To Obrons crown and royalty:</l>
+            <l xml:id="A37285-e115940">True bailiff of our husbandry</l>
+            <l xml:id="A37285-e115950">Keep thy place still; the next:</l>
+          </sp>
+          <sp xml:id="A37285-e115960" who="A37285-pastoralis">
+            <speaker>Past.</speaker>
+            <l xml:id="A37285-e115970">A bee,</l>
+            <l xml:id="A37285-e115980">That's keeper of King Oberon's groves,</l>
+            <l xml:id="A37285-e115990">Sheep-reeve of his flocks and droves,</l>
+            <l xml:id="A37285-e116000">His goats, his kids, his ewes, and lambs,</l>
+            <l xml:id="A37285-e116010">Steers and heifers, sires, and dams,</l>
+            <l xml:id="A37285-e116020">To express homage at the full,</l>
+            <l xml:id="A37285-e116030">Greets Obron with this fleece of wool. </l>
+          </sp>
+          <sp xml:id="A37285-e116040" who="A37285-oberon">
+            <speaker>Ob.</speaker>
+            <l xml:id="A37285-e116050">May thy ewes in yeaning thrive,</l>
+            <l xml:id="A37285-e116060">Stock and increase, stand and survive,</l>
+            <l xml:id="A37285-e116070">May the woodsear, cough and rot</l>
+            <l xml:id="A37285-e116080">Die, or living, hurt thee not,</l>
+            <l xml:id="A37285-e116090">May the wolf and wily fox</l>
+            <l xml:id="A37285-e116100">Live exiled from thy herds and flocks;</l>
+            <l xml:id="A37285-e116110">Last, not least, prosper thy grove,</l>
+            <l xml:id="A37285-e116120">And live thou blessed in Oberon's love,</l>
+            <l xml:id="A37285-e116130">As thou in service true shalt be</l>
+            <l xml:id="A37285-e116140">To us and our high royalty:</l>
+            <l xml:id="A37285-e116150"><pb facs="25"/> the next. </l>
+          </sp>
+          <sp xml:id="A37285-e116160" who="A37285-vintager">
+            <speaker>Vint.</speaker>
+            <l xml:id="A37285-e116170">High steward of thy vines,</l>
+            <l xml:id="A37285-e116180">Taster both of grapes and wines,</l>
+            <l xml:id="A37285-e116190">In these ripe clusters that present</l>
+            <l xml:id="A37285-e116200">Full bounty, on his knees low bent,</l>
+            <l xml:id="A37285-e116210">Pays Obron homage, and in this bowl</l>
+            <l xml:id="A37285-e116220">Brimmed with grape blood, tender toll</l>
+            <l xml:id="A37285-e116230">Of all thy vintage. </l>
+          </sp>
+          <sp xml:id="A37285-e116240" who="A37285-oberon">
+            <speaker>Obr.</speaker>
+            <l xml:id="A37285-e116250">May thy grapes thrive</l>
+            <l xml:id="A37285-e116260">In autumn, and the roots survive</l>
+            <l xml:id="A37285-e116270">In churlish winter, may thy fence</l>
+            <l xml:id="A37285-e116280">Be proof 'gainst wild boar's violence:</l>
+            <l xml:id="A37285-e116290">As thou in service true shalt be</l>
+            <l xml:id="A37285-e116300">To us and our high royalty:</l>
+            <l xml:id="A37285-e116310">A female bee thy character? </l>
+          </sp>
+          <sp xml:id="A37285-e116320" who="A37285-flora">
+            <speaker>Flo.</speaker>
+            <l xml:id="A37285-e116330">Flora, Oberon's gardener,</l>
+            <l xml:id="A37285-e116340">Housewife both of herbs and flowers,</l>
+            <l xml:id="A37285-e116350">To strew thy shrine, and trim thy bowers,</l>
+            <l xml:id="A37285-e116360">With violets, roses, eglantine,</l>
+            <l xml:id="A37285-e116370">Daffadown , and blue columbine,</l>
+            <l xml:id="A37285-e116380">Hath forth the bosom of the spring</l>
+            <l xml:id="A37285-e116390">Plucked this nosegay, which I bring</l>
+            <l xml:id="A37285-e116400">From Eleusis mine own shrine. <note anchored="true" place="margin" xml:id="A37285-e116410">(ita Scaliger.)</note></l>
+            <l xml:id="A37285-e116420">To thee a monarch all divine;</l>
+            <l xml:id="A37285-e116430">And as true impost of my grove,</l>
+            <l xml:id="A37285-e116440">Present it to great Oberon's love. </l>
+          </sp>
+          <sp xml:id="A37285-e116450" who="A37285-oberon">
+            <speaker>Obr.</speaker>
+            <l xml:id="A37285-e116460">Honey dews refresh thy meads,</l>
+            <l xml:id="A37285-e116470">Cowslips spring with golden heads,</l>
+            <l xml:id="A37285-e116480">July-flowers, and carnations wear</l>
+            <l xml:id="A37285-e116490">Leaves double streaked with maiden hair,</l>
+            <l xml:id="A37285-e116500">May thy lilies taller grow,</l>
+            <l xml:id="A37285-e116510">Thy violets fuller sweetness owe;</l>
+            <l xml:id="A37285-e116520"><pb facs="25"/> and last of all may Phoebus love</l>
+            <l xml:id="A37285-e116530">To kiss thee, and frequent thy grove,</l>
+            <l xml:id="A37285-e116540">As thou in service true shalt be</l>
+            <l xml:id="A37285-e116550">Unto our crown and royalty,</l>
+            <l xml:id="A37285-e116560">Keep all your places, well we know</l>
+            <l xml:id="A37285-e116570">Your loves, and will reward 'em too. </l>
+          </sp>
+          <sp xml:id="A37285-e116580" who="A37285-agricola">
+            <speaker>Agric.</speaker>
+            <l xml:id="A37285-e116590">In sign that we thy words believe,</l>
+            <l xml:id="A37285-e116600">As well the birthday as the eve</l>
+            <l xml:id="A37285-e116610">We will keep holy; our winged swains,</l>
+            <l xml:id="A37285-e116620">Neither for pleasure, nor for gains,</l>
+            <l xml:id="A37285-e116630">Shall dare profane't, so lead away</l>
+            <l xml:id="A37285-e116640">To solemnize this holy day. </l>
+          </sp>
+        </div>
+        <div n="12" type="character" xml:id="A37285-e116650">
+          <head>Character 11.</head>
+          <head type="sub">Rexacillium. The high bench Bar.</head>
+          <argument xml:id="A37285-e116660">
+            <l xml:id="A37285-e116670">Oberon in his star-chamber sits,</l>
+            <l xml:id="A37285-e116680">Sends out Subpoena's, high court writs,</l>
+            <l xml:id="A37285-e116690">To th' Mr. bee, degradeth some,</l>
+            <l xml:id="A37285-e116700">Frees others, all share legal doom. </l>
+          </argument>
+          <stage xml:id="A37285-e116710">Speakers. <list xml:id="A37285-e116720"><item xml:id="A37285-e116730">Obron,</item><item xml:id="A37285-e116740">Fairies,</item><item xml:id="A37285-e116750">Mr. bee,</item><item xml:id="A37285-e116760">Prorex,</item><item xml:id="A37285-e116770">Vespa,</item><item xml:id="A37285-e116780">Hornet,</item><item xml:id="A37285-e116790">Humble bee,</item><item xml:id="A37285-e116800">Fucus or drone.</item></list></stage>
+          <sp xml:id="A37285-e116810" who="A37285-oberon">
+            <speaker>Obr.</speaker>
+            <l xml:id="A37285-e116820">Now summon in our Mr. bee,</l>
+            <l xml:id="A37285-e116830">With all his swarm, and tell him we</l>
+            <l xml:id="A37285-e116840">Command our homage. </l>
+          </sp>
+          <sp xml:id="A37285-e116850" who="A37285-fairy">
+            <speaker>Fai.</speaker>
+            <l xml:id="A37285-e116860">He is come,</l>
+            <l xml:id="A37285-e116870">Room for great prorex there, make room. </l>
+          </sp>
+          <sp xml:id="A37285-e116880" who="A37285-oberon">
+            <pb facs="26"/>
+            <speaker>Obr.</speaker>
+            <l xml:id="A37285-e116890">What means this slackness? </l>
+          </sp>
+          <sp xml:id="A37285-e116900" who="A37285-prodigal">
+            <speaker>Prodigal</speaker>
+            <l xml:id="A37285-e116910">Royal sir,</l>
+            <l xml:id="A37285-e116920">My care made me a loiterer,</l>
+            <l xml:id="A37285-e116930">To bring in these transgressing bees,</l>
+            <l xml:id="A37285-e116940">Who by deceits and fallacies</l>
+            <l xml:id="A37285-e116950">Clothed with a smooth and fair intent,</l>
+            <l xml:id="A37285-e116960">Have wronged me in my government. </l>
+          </sp>
+          <sp xml:id="A37285-e116970" who="A37285-oberon">
+            <speaker>Obr.</speaker>
+            <l xml:id="A37285-e116980">The manner how? </l>
+          </sp>
+          <sp xml:id="A37285-e116990" who="A37285-prodigal">
+            <speaker>Prodigal</speaker>
+            <l xml:id="A37285-e117000">These wicked three,</l>
+            <l xml:id="A37285-e117010">The wasp, the drone, and humble bee,</l>
+            <l xml:id="A37285-e117020">Conspired like traitors, first the wasp,</l>
+            <l xml:id="A37285-e117030">Sought in his covetous paw to grasp</l>
+            <l xml:id="A37285-e117040">All he could finger, made the sea</l>
+            <l xml:id="A37285-e117050">Not only his monopoly;</l>
+            <l xml:id="A37285-e117060">But with his winged swarms scoured the plains,</l>
+            <l xml:id="A37285-e117070">Robbed and slew our weary swains</l>
+            <l xml:id="A37285-e117080">Coming from work: the humble bee</l>
+            <l xml:id="A37285-e117090">(A fly as tyrannous as he)</l>
+            <l xml:id="A37285-e117100">By a strange yet legal stealth,</l>
+            <l xml:id="A37285-e117110">Nonsuited bees of all their wealth. </l>
+            <l xml:id="A37285-e117120">The drone, a bee more merciless,</l>
+            <l xml:id="A37285-e117130">Our needy commons so oppress,</l>
+            <l xml:id="A37285-e117140">By hoarding up, and poisoning th'earth,</l>
+            <l xml:id="A37285-e117150">Once in three years he'd make a dearth,</l>
+            <l xml:id="A37285-e117160">A needless one, transporting more</l>
+            <l xml:id="A37285-e117170">To strangers then would feed our poor,</l>
+            <l xml:id="A37285-e117180">At quarter day, if any lacks</l>
+            <l xml:id="A37285-e117190">His rent, he cease both honey and wax,</l>
+            <l xml:id="A37285-e117200">Throwing him out to beg and starve</l>
+            <l xml:id="A37285-e117210">For which. </l>
+          </sp>
+          <sp xml:id="A37285-e117220" who="A37285-oberon">
+            <speaker>Obr.</speaker>
+            <l xml:id="A37285-e117230">As they yourself deserve</l>
+            <l xml:id="A37285-e117240">Due punishment, for servants sins</l>
+            <l xml:id="A37285-e117250">We commit their masters, justice wins</l>
+            <l xml:id="A37285-e117260"><pb facs="26"/> more honour, and shines more complete</l>
+            <l xml:id="A37285-e117270">In virtue, by suppressing great,</l>
+            <l xml:id="A37285-e117280">Than hanging poor ones; yet because</l>
+            <l xml:id="A37285-e117290">You have been zealous in our laws,</l>
+            <l xml:id="A37285-e117300">Your fault we pardon; for delinquents</l>
+            <l xml:id="A37285-e117310">We have legal punishments:</l>
+            <l xml:id="A37285-e117320">Vespa that pillaged sea and land,</l>
+            <l xml:id="A37285-e117330">Engrossing all into his hand,</l>
+            <l xml:id="A37285-e117340">From all we banish, dead or alive,</l>
+            <l xml:id="A37285-e117350">Never shall Vespa come in hive;</l>
+            <l xml:id="A37285-e117360">But like a pirate and a thief,</l>
+            <l xml:id="A37285-e117370">Steal and pilfer his relief:</l>
+            <l xml:id="A37285-e117380">Thou hast fed riots, lusts, and rapes,</l>
+            <l xml:id="A37285-e117390">And drawn vice in such horrid shapes,</l>
+            <l xml:id="A37285-e117400">As very horseflies, had they known 'em,</l>
+            <l xml:id="A37285-e117410">For credit's cause, yet would not own 'em:</l>
+            <l xml:id="A37285-e117420">Thou'st made thy hive a brothel, acted sin</l>
+            <l xml:id="A37285-e117430">'Gainst nature, and the royalty of kin,</l>
+            <l xml:id="A37285-e117440">So base, as but thyself none could invent:</l>
+            <l xml:id="A37285-e117450">They are all thine own, and thou their precedent:</l>
+            <l xml:id="A37285-e117460">For which, as thou thy fame hast lost,</l>
+            <l xml:id="A37285-e117470">So be thine arms and titles crossed</l>
+            <l xml:id="A37285-e117480">From forth the roll of heraldry,</l>
+            <l xml:id="A37285-e117490">That blazons out true gentry,</l>
+            <l xml:id="A37285-e117500">Live ever exiled: Fucus, you</l>
+            <l xml:id="A37285-e117510">That engrossed our honey dew,</l>
+            <l xml:id="A37285-e117520">Bought wax and honey up by th' great,</l>
+            <l xml:id="A37285-e117530">(Transporting it as slaves do wheat)</l>
+            <l xml:id="A37285-e117540">Your hive (With honey hid in trees</l>
+            <l xml:id="A37285-e117550">And hollow banks) our poor lame bees</l>
+            <l xml:id="A37285-e117560"><pb facs="27"/> shall share, and even as Vespa so</l>
+            <l xml:id="A37285-e117570">Unpatronised live banished too. </l>
+            <l xml:id="A37285-e117580">Last, you that by your surly hum,</l>
+            <l xml:id="A37285-e117590">Would needs usurp a praetor's room,</l>
+            <l xml:id="A37285-e117600">Your chamlet gown, your purple hood,</l>
+            <l xml:id="A37285-e117610">And stately phrase scarce understood,</l>
+            <l xml:id="A37285-e117620">Or known from this our Mr. bee,</l>
+            <l xml:id="A37285-e117630">Made th'ignorant think that you were he,</l>
+            <l xml:id="A37285-e117640">And pay you reverence, for your hate</l>
+            <l xml:id="A37285-e117650">To th'poor, and envy to our state,</l>
+            <l xml:id="A37285-e117660">We here degrade and let you fall</l>
+            <l xml:id="A37285-e117670">To th' dunghill, your original;</l>
+            <l xml:id="A37285-e117680">From nettles, hemlocks, docks and weeds,</l>
+            <l xml:id="A37285-e117690">(On which your peasant-lineage feeds)</l>
+            <l xml:id="A37285-e117700">Suck your diet: to be short,</l>
+            <l xml:id="A37285-e117710">Never see our face, nor haunt our court. </l>
+          </sp>
+          <sp xml:id="A37285-e117720" who="A37285-prodigal">
+            <speaker>Prodigal</speaker>
+            <l xml:id="A37285-e117730">And whither must these flies be sent? </l>
+          </sp>
+          <sp xml:id="A37285-e117740" who="A37285-oberon">
+            <speaker>Obr.</speaker>
+            <l xml:id="A37285-e117750">To everlasting banishment,</l>
+            <l xml:id="A37285-e117760">Underneath two hanging rocks,<note anchored="true" place="margin" xml:id="A37285-e117770">Charact. gehennae.</note></l>
+            <l xml:id="A37285-e117780">(Where babbling echo sits and mocks</l>
+            <l xml:id="A37285-e117790">Poor travellers) there lies a grove,</l>
+            <l xml:id="A37285-e117800">With whom the sun's so out of love,</l>
+            <l xml:id="A37285-e117810">He never smiles on't, (Pale despair</l>
+            <l xml:id="A37285-e117820">Calls it his monarchal chair)</l>
+            <l xml:id="A37285-e117830">Fruit half ripe, hang riveled and shrunk</l>
+            <l xml:id="A37285-e117840">On broken arms, torn from the trunk:</l>
+            <l xml:id="A37285-e117850">The moorish pools stand empty, left</l>
+            <l xml:id="A37285-e117860">By water, stolen by cunning theft</l>
+            <l xml:id="A37285-e117870">To hollow banks, driven out by snakes,</l>
+            <l xml:id="A37285-e117880">Adders, and newts, that man these lakes:</l>
+            <l xml:id="A37285-e117890"><pb facs="27"/> the mossy weeds half sweltered, served</l>
+            <l xml:id="A37285-e117900">As beds for vermin hunger-starved:</l>
+            <l xml:id="A37285-e117910">The woods are yew-trees, rent and broke</l>
+            <l xml:id="A37285-e117920">By whirlwinds, here and there an oak</l>
+            <l xml:id="A37285-e117930">Half cleft with thunder, to this grove</l>
+            <l xml:id="A37285-e117940">We banish them. </l>
+          </sp>
+          <sp xml:id="A37285-e117950" who="A37285-all">
+            <speaker>All.</speaker>
+            <l xml:id="A37285-e117960">Some mercy, Jove. </l>
+          </sp>
+          <sp xml:id="A37285-e117970" who="A37285-oberon">
+            <speaker>Obr.</speaker>
+            <l xml:id="A37285-e117980">You should have cried so in your youth,</l>
+            <l xml:id="A37285-e117990">When Chronos<note anchored="true" place="margin" xml:id="A37285-e118000">tempus.</note> and his daughter truth</l>
+            <l xml:id="A37285-e118010">Sojourned amongst you, when you spent</l>
+            <l xml:id="A37285-e118020">Whole years in riotous merriment,</l>
+            <l xml:id="A37285-e118030">Thrusting poor bees out of their hives,</l>
+            <l xml:id="A37285-e118040">Seizing both honey, wax, and lives,</l>
+            <l xml:id="A37285-e118050">You should have called for mercy, when</l>
+            <l xml:id="A37285-e118060">You impaled common blossoms, when</l>
+            <l xml:id="A37285-e118070">In stead of giving poor bees food,</l>
+            <l xml:id="A37285-e118080">You eat their flesh and drunk their blood. </l>
+          </sp>
+          <sp xml:id="A37285-e118090" who="A37285-all">
+            <speaker>All.</speaker>
+            <l xml:id="A37285-e118100">Be this our warning. </l>
+          </sp>
+          <sp xml:id="A37285-e118110" who="A37285-oberon">
+            <speaker>Obr.</speaker>
+            <l xml:id="A37285-e118120">'Tis too late,</l>
+            <l xml:id="A37285-e118130">Fairies thrust them to their fate:</l>
+            <l xml:id="A37285-e118140">Now prorex our chief Mr. bee,</l>
+            <l xml:id="A37285-e118150">And viceroy, thus we lesson thee,</l>
+            <l xml:id="A37285-e118160">Thy preterite errors we forgive,</l>
+            <l xml:id="A37285-e118170">Provided you hereafter live</l>
+            <l xml:id="A37285-e118180">In compass, take again your crown,</l>
+            <l xml:id="A37285-e118190">But make your subjects so your own,</l>
+            <l xml:id="A37285-e118200">As you for them may answer. </l>
+          </sp>
+          <sp xml:id="A37285-e118210" who="A37285-prodigal">
+            <speaker>Prodigal</speaker>
+            <l xml:id="A37285-e118220">Sir,</l>
+            <l xml:id="A37285-e118230">(For this high favour you confer)</l>
+            <l xml:id="A37285-e118240">True loyalty (Upon my knee)</l>
+            <l xml:id="A37285-e118250">I promise both for them and me. </l>
+          </sp>
+          <sp xml:id="A37285-e118260" who="A37285-oberon">
+            <speaker>Obr.</speaker>
+            <l xml:id="A37285-e118270">Rise in our love then, and that you,</l>
+            <l xml:id="A37285-e118280">What you have promised may pursue,</l>
+            <l xml:id="A37285-e118290"><pb facs="28"/> chaste Latria I bestow</l>
+            <l xml:id="A37285-e118300">On you in marriage, she'll teach you how</l>
+            <l xml:id="A37285-e118310">〈◊〉 〈◊〉 yourself; fair truth and time,</l>
+            <l xml:id="A37285-e118320">Boulvatch, and constant chime,</l>
+            <l xml:id="A37285-e118330">To all your actions: now adieu,</l>
+            <l xml:id="A37285-e118340">Prorex shall again renew</l>
+            <l xml:id="A37285-e118350">His potent reign: the massy world</l>
+            <l xml:id="A37285-e118360">Which in glittering orbs is hurled</l>
+            <l xml:id="A37285-e118370">About the poles, be lord of: we</l>
+            <l xml:id="A37285-e118380">Only reserve our royalty,</l>
+            <l xml:id="A37285-e118390">Field-music? Obron must away</l>
+            <l xml:id="A37285-e118400">For us our gentle fairies stay,</l>
+            <l xml:id="A37285-e118410">In the mountains and the rocks</l>
+            <l xml:id="A37285-e118420">We'll hunt the grey, and little fox,</l>
+            <l xml:id="A37285-e118430">Who destroy our lambs at feed,</l>
+            <l xml:id="A37285-e118440">And spoil the nests, where turtles breed,</l>
+            <l xml:id="A37285-e118450">If Vespa, Fucus, or proud error</l>
+            <l xml:id="A37285-e118460">Fright thy bees, and be a terror</l>
+            <l xml:id="A37285-e118470">To thy groves, 'tis Oberon's will</l>
+            <l xml:id="A37285-e118480">As outlaws you them seize and kill,</l>
+            <l xml:id="A37285-e118490">Apollo, and the muse's dance,</l>
+            <l xml:id="A37285-e118500">Art has banished ignorance,</l>
+            <l xml:id="A37285-e118510">And chased all flies of rape and stealth</l>
+            <l xml:id="A37285-e118520">From forth our winged commonwealth. </l>
+          </sp>
+          <trailer xml:id="A37285-e118530">Finis.</trailer>
+          <pb facs="28"/>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A37285"><item xml:id="A37285-iltriste" n="25">
+    <seg type="character_name">A37285-iltriste</seg>
+    <seg type="speech_count">25</seg>
+  </item>
+  <item xml:id="A37285-dicastes" n="19">
+    <seg type="character_name">A37285-dicastes</seg>
+    <seg type="speech_count">19</seg>
+  </item>
+  <item xml:id="A37285-arethusa" n="18">
+    <seg type="character_name">A37285-arethusa</seg>
+    <seg type="speech_count">18</seg>
+  </item>
+  <item xml:id="A37285-poetaster" n="18">
+    <seg type="character_name">A37285-poetaster</seg>
+    <seg type="speech_count">18</seg>
+  </item>
+  <item xml:id="A37285-oberon" n="14">
+    <seg type="character_name">A37285-oberon</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A37285-impotens" n="11">
+    <seg type="character_name">A37285-impotens</seg>
+    <seg type="speech_count">11</seg>
+  </item>
+  <item xml:id="A37285-servant" n="11">
+    <seg type="character_name">A37285-servant</seg>
+    <seg type="speech_count">11</seg>
+  </item>
+  <item xml:id="A37285-acolastes" n="11">
+    <seg type="character_name">A37285-acolastes</seg>
+    <seg type="speech_count">11</seg>
+  </item>
+  <item xml:id="A37285-chariolus" n="10">
+    <seg type="character_name">A37285-chariolus</seg>
+    <seg type="speech_count">10</seg>
+  </item>
+  <item xml:id="A37285-prodigal" n="9">
+    <seg type="character_name">A37285-prodigal</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A37285-parliament" n="9">
+    <seg type="character_name">A37285-parliament</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A37285-armiger" n="8">
+    <seg type="character_name">A37285-armiger</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A37285-polypragmus" n="8">
+    <seg type="character_name">A37285-polypragmus</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A37285-ulania" n="8">
+    <seg type="character_name">A37285-ulania</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A37285-fenerator" n="8">
+    <seg type="character_name">A37285-fenerator</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A37285-pharmacoplis" n="8">
+    <seg type="character_name">A37285-pharmacoplis</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A37285-senilus" n="7">
+    <seg type="character_name">A37285-senilus</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A37285-gnatto" n="7">
+    <seg type="character_name">A37285-gnatto</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A37285-donne" n="6">
+    <seg type="character_name">A37285-donne</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A37285-eleemozynus" n="6">
+    <seg type="character_name">A37285-eleemozynus</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A37285-steward" n="6">
+    <seg type="character_name">A37285-steward</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A37285-cordato" n="5">
+    <seg type="character_name">A37285-cordato</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A37285-speaker" n="5">
+    <seg type="character_name">A37285-speaker</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A37285-prorex" n="5">
+    <seg type="character_name">A37285-prorex</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A37285-unassigned" n="5">
+    <seg type="character_name">A37285-unassigned</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A37285-parsimonious" n="4">
+    <seg type="character_name">A37285-parsimonious</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A37285-agricola" n="3">
+    <seg type="character_name">A37285-agricola</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A37285-all" n="2">
+    <seg type="character_name">A37285-all</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A37285-fairy" n="1">
+    <seg type="character_name">A37285-fairy</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A37285-flora" n="1">
+    <seg type="character_name">A37285-flora</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A37285-pastoralis" n="1">
+    <seg type="character_name">A37285-pastoralis</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A37285-vintager" n="1">
+    <seg type="character_name">A37285-vintager</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+</list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

@@ -1,0 +1,798 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A13846">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Albion's Triumph <date type="creation_date">1632</date></title>
+        <author>Townshend, Aurelian</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A13846.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">Albions triumph. Personated in a maske at court. By the Kings Maiestie and his lords. The Sunday after Twelfe Night. 1631.</title>
+            <author>Townshend, Aurelian, fl. 1601-1643.</author>
+          </titleStmt>
+          <extent>13 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 January (TCP phase 1)</date>
+            <idno type="marc">99857100</idno>
+            <idno type="stc">STC (2nd ed.) 24155.</idno>
+            <idno type="stc">Greg, II, 453(A).</idno>
+            <idno type="vid">22772</idno>
+            <idno type="DLPS">A13846</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">Albions triumph. Personated in a maske at court. By the Kings Maiestie and his lords. The Sunday after Twelfe Night. 1631.</title>
+            <author>Townshend, Aurelian, fl. 1601-1643.</author>
+          </titleStmt>
+          <extent>[2], 22 p.</extent>
+          <publicationStmt>
+            <publisher>Printed by Aug: Mathewes for Robert Allet [i.e. Allot] at the Blacke Beare in Pauls Church-yard,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1631 [i.e. 1632]</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Signed at end: Aurelian Tounshend.</p>
+            </note>
+            <note>
+              <p>In verse.</p>
+            </note>
+            <note>
+              <p>The play was performed on 8 Jan. 1632.</p>
+            </note>
+            <note>
+              <p>A variant, probably earlier (STC 24155a), is anonymous.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Folger Shakespeare Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Masques -- Early works to 1800.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A13846-e100010">
+    <front xml:id="A13846-e100020">
+      <div type="title_page" xml:id="A13846-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A13846-e100040">Albion's triumph.</p>
+        <p xml:id="A13846-e100050">Personated in a mask at court.</p>
+        <p xml:id="A13846-e100060">By the King's majesty and his lords.</p>
+        <p xml:id="A13846-e100070">The Sunday after twelve night. 1631.</p>
+        <p xml:id="A13846-e100080">
+          <figure xml:id="A13846-e100090"/>
+        </p>
+        <p xml:id="A13846-e100100">London, printed by Aug. Mathewes for Robert Allet at the black bear in Paul's churchyard. 1631.</p>
+      </div>
+    </front>
+    <body xml:id="A13846-e100110">
+      <head><pb facs="2"/><pb facs="2" n="1"/><figure xml:id="A13846-e100120"/>Albion's triumph.</head>
+      <argument xml:id="A13846-e100130">
+        <p xml:id="A13846-e100140">The King and Queen's majesty having signified their pleasure to have a new mask this new year, master Inigo Jones and I were employed in the invention and we agreed the subject of it should be a triumph in Albipolis the chief city of Albion. The triumpher, Albanactus, and Alba this lands goddess. Names not improper, either for the place, or for the persons: Albion being (As it once was) taken for England; Albanactus, for the King, quasi in Albania natus: born in Scotland. And Alba, for the Queen whose native beauties have a great affinity with all purity and whiteness. The Kings<pb facs="3" n="2"/> devoting himself to this goddess, is but the seeking of that happy union which was preordained by the greatest of the gods. Jove therefore sends down Mercury to Alba, to acquaint her that he had decreed a triumph, which ( afar off) she might behold: concealing his further counsels, until Albanactus were subdued to love and chastity, by Cupid and Diana, who descend, and having conquered the conqueror, they show him the Queen. The King, yields, and presents himself a suppliant, to the goddess Alba. She embraces him, and makes him copartner of her deity.</p>
+      </argument>
+      <div type="scene" xml:id="A13846-e100150">
+        <div type="description_of_scene" xml:id="A13846-e100160">
+          <head>The description of the scene. </head>
+          <p xml:id="A13846-e100170">The first thing that presented itself to the eye, was the ornament that went about the scene: in the midst of which, was placed a great arms of the Kings, with angels holding an imperial crown, from which hung a drapery, of crimson velvet, fringed with gold, tacked in several knots, that on each-side, with many folds, was wound about a pilaster; in the<pb facs="3" n="3"/> freeze, were festoons of several fruits in their natural colours, on which, in gracious postures lay children sleeping; at each end was a double shield, with a Gorgon's head, and at the foot of the pilasters, on each side, stood two women, the one young, in a watchet robe looking onwards, and on her head, a pair of compasses of gold, the points standing towards heaven: the other more ancient, and of a venerable aspect, apparelled in tawny, looking downwards; in the one hand a long ruler, and in the other, a great pair of iron compasses, one point whereof, stood on the ground, and the other touched part of the ruler. Above their heads, were fixed, compartments of a new composition, and in that over the first, was written theorica, and over the second practica, showing that by these two, all works of architecture, and engining have their perfection. The curtain being suddenly drawn up, the first scene appeared, which represented a Roman atrium, with high columns of white marble, and ornaments of architecture of a composed manner of great projecture, enriched with carving, and between every return of these columns, stood statues of gold on round pedestals, and beyond these, were other pieces of architecture of a palace royal.</p>
+          <p xml:id="A13846-e100180"><pb facs="4" n="6"/>Over all was a serene sky, out of which a cloud began to break forth, and as it descended, a person was discovered, sitting in it, which by his petasus and caduceus, was known to be Mercury, the messenger of Jove. </p>
+        </div>
+        <div type="scene_proper" xml:id="A13846-e100190">
+          <lg xml:id="A13846-e100200">
+            <head>The first song.</head>
+            <l xml:id="A13846-e100210">Behold! I come not from above,</l>
+            <l xml:id="A13846-e100220">To hide, or hunt out wanton love,</l>
+            <l xml:id="A13846-e100230">Or do what man can do:</l>
+            <l xml:id="A13846-e100240">But to spread all my nimble wings,</l>
+            <l xml:id="A13846-e100250">And like a god, do godlike things</l>
+            <l xml:id="A13846-e100260">Grateful, and gracious too. </l>
+            <l xml:id="A13846-e100270">Observe! But see ye be not nice,</l>
+            <l xml:id="A13846-e100280">Prepare to give, and take advice,</l>
+            <l xml:id="A13846-e100290">As wise-men ought to do:</l>
+            <l xml:id="A13846-e100300">Lest when your subtle wits have done,</l>
+            <l xml:id="A13846-e100310">Your notes, like motes, thought in the sun</l>
+            <l xml:id="A13846-e100320">Prove far beneath us too. </l>
+            <l xml:id="A13846-e100330">Admire! but censure not their powers,</l>
+            <l xml:id="A13846-e100340">That sink not with times sandy hours,</l>
+            <l xml:id="A13846-e100350">As mortal creatures do. </l>
+            <l xml:id="A13846-e100360">And since the shaft that is addressed,</l>
+            <l xml:id="A13846-e100370">At heaven may hurt the shooter's breast,</l>
+            <l xml:id="A13846-e100380">Be pleased and please us too. </l>
+          </lg>
+          <stage xml:id="A13846-e100390"><pb facs="4" n="7"/>Orpheus, Amphion, Arion and three old poets and musicians more, railed by his charming rod, reply from earth.</stage>
+          <lg xml:id="A13846-e100400">
+            <head>The first chorus.</head>
+            <l xml:id="A13846-e100410">Happy, thrice happy is that hour</l>
+            <l xml:id="A13846-e100420">Wherein a God descends,</l>
+            <l xml:id="A13846-e100430">Either in person, or in power</l>
+            <l xml:id="A13846-e100440">And man's poor state befriends. </l>
+          </lg>
+          <stage xml:id="A13846-e100450">Mercury descend to earth, and attended by Orpheus, and the rest walks up, and drawing near the person of the goddess Alba, to a soft sweet music that plays hehind him. In voce Recitativa, he declares the substance of his commission.</stage>
+          <lg xml:id="A13846-e100460">
+            <head>The second song.</head>
+            <l xml:id="A13846-e100470">Olympian Jove to the bright Alba sends</l>
+            <l xml:id="A13846-e100480">No vulgar God to bear his dear commends. </l>
+            <l xml:id="A13846-e100490">And with pure eyes, and a paternal hand,</l>
+            <l xml:id="A13846-e100500">This universe having surveyed, and spanned,</l>
+            <l xml:id="A13846-e100510">In council with himself, he hath decreed,</l>
+            <l xml:id="A13846-e100520">From fair Albipolis shall soon proceed</l>
+            <l xml:id="A13846-e100530"><pb facs="5" n="6"/> a triumph: mighty, as the man designed</l>
+            <l xml:id="A13846-e100540">To wear those bays; heroic, as his mind;</l>
+            <l xml:id="A13846-e100550">Just, as his actions; glorious, as his reign. </l>
+            <l xml:id="A13846-e100560">And like his virtues, infinite in train. </l>
+            <l xml:id="A13846-e100570">Th' immortal swans, contending for his name,</l>
+            <l xml:id="A13846-e100580">Shall bear it singing, to the house of fame. </l>
+            <l xml:id="A13846-e100590">And though at distance yet high Jove is pleaed</l>
+            <l xml:id="A13846-e100600">Your laboring eyes shall with his sight be eased,</l>
+            <l xml:id="A13846-e100610">This from a god, unto a goddess sent,</l>
+            <l xml:id="A13846-e100620">A God relates, that could use compliment:</l>
+            <l xml:id="A13846-e100630">But when such states, negotiate by such means</l>
+            <l xml:id="A13846-e100640">We speak in acts, and scorn words trifling scenes. </l>
+          </lg>
+          <stage xml:id="A13846-e100650">Having delivered his embassage Mercury gently retiring, Orpheus and his poetic choir inspired with divination sing.</stage>
+          <lg xml:id="A13846-e100660">
+            <head>The second chorus.</head>
+            <l xml:id="A13846-e100670">Ye powers divine make room, prepare a seat</l>
+            <l xml:id="A13846-e100680">On the northside, for Albanact the great,</l>
+            <l xml:id="A13846-e100690">Earth is not fruitless: nor your numbers full,</l>
+            <l xml:id="A13846-e100700">There's one to come will make some stars look dull. </l>
+          </lg>
+          <stage xml:id="A13846-e100710">Arrived at the scene again and meaning to reascend, Mercury finding some impediment<pb facs="5" n="7"/> by the way of question adresses himself to the company.</stage>
+          <floatingText xml:id="A13846-e100720">
+            <body xml:id="A13846-e100730">
+              <div type="song" xml:id="A13846-e100740">
+                <head>The third song.</head>
+                <sp xml:id="A13846-e100750" who="A13846-mercury">
+                  <speaker>Mercury.</speaker>
+                  <l xml:id="A13846-e100760">What makes me so unnimbly rise,</l>
+                  <l xml:id="A13846-e100770">That did descend so fleet? </l>
+                  <l xml:id="A13846-e100780">There is no uphill in the skies;</l>
+                  <l xml:id="A13846-e100790">Clouds stay not feathered feet. </l>
+                </sp>
+                <sp xml:id="A13846-e100800" who="A13846-chorus">
+                  <speaker>Chorus.</speaker>
+                  <l xml:id="A13846-e100810">Thy wings are singed: and thou canst fly</l>
+                  <l xml:id="A13846-e100820">But slowly now, swift Mercury. </l>
+                </sp>
+                <sp xml:id="A13846-e100830" who="A13846-mercury">
+                  <speaker>Mercury.</speaker>
+                  <l xml:id="A13846-e100840">Some lady here, is sure too blame</l>
+                  <l xml:id="A13846-e100850">That from love's starry skies,</l>
+                  <l xml:id="A13846-e100860">Hath shot some beam, or sent some flame,</l>
+                  <l xml:id="A13846-e100870">Like lightning, from her eyes. </l>
+                </sp>
+                <sp xml:id="A13846-e100880" who="A13846-chorus">
+                  <speaker>Chorus.</speaker>
+                  <l xml:id="A13846-e100890">Tax not the stars, with what the sun,</l>
+                  <l xml:id="A13846-e100900">Too near approached (Incensed) hath done. </l>
+                </sp>
+                <sp xml:id="A13846-e100910" who="A13846-mercury">
+                  <speaker>Mercury.</speaker>
+                  <l xml:id="A13846-e100920">I'll roll me in Aurora's dew,</l>
+                  <l xml:id="A13846-e100930">Or lie in Tethis bed;</l>
+                  <l xml:id="A13846-e100940">Or from cool Iris beg a few,</l>
+                  <l xml:id="A13846-e100950">Pure opal showers new shed. </l>
+                </sp>
+                <sp xml:id="A13846-e100960" who="A13846-chorus">
+                  <pb facs="6" n="8"/>
+                  <speaker>Chorus.</speaker>
+                  <l xml:id="A13846-e100970">Nor dew, nor showers, nor sea can slake</l>
+                  <l xml:id="A13846-e100980">Thy quenchless heat, but Lethe's lake. </l>
+                </sp>
+              </div>
+            </body>
+          </floatingText>
+        </div>
+      </div>
+      <div type="scene" xml:id="A13846-e100990">
+        <div type="description_of_scene" xml:id="A13846-e101000">
+          <p xml:id="A13846-e101010">When Mercury is reassumed into heaven in pomp. Here the scene is changed into the forum of the city of Albipolis, and Albanactus triumphing, attended like a Roman emperor is seen afar off to pass in pomp.</p>
+          <p xml:id="A13846-e101020">The scene is turned into an amphitheatre, with people sitting in it, a patrician and a plebeian come forth, etc.</p>
+        </div>
+        <div type="scene_proper" xml:id="A13846-e101030">
+          <stage xml:id="A13846-e101040">Enter Platonicus and Publius.</stage>
+          <sp xml:id="A13846-e101050" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <p xml:id="A13846-e101060">Though I have earned it with the sweat of my brows in January, yet I am glad I saw it, for there never was such a sight seen.</p>
+          </sp>
+          <sp xml:id="A13846-e101070" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101080">What sight Publius? </l>
+          </sp>
+          <sp xml:id="A13846-e101090" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e101100">The triumph. </l>
+          </sp>
+          <sp xml:id="A13846-e101110" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101120">Whose triumph? </l>
+          </sp>
+          <sp xml:id="A13846-e101130" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e101140">The triumph of Albanactus. </l>
+          </sp>
+          <sp xml:id="A13846-e101150" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101160">Didst thou see it? </l>
+          </sp>
+          <sp xml:id="A13846-e101170" who="A13846-publius">
+            <speaker>Pub</speaker>
+            <p xml:id="A13846-e101180">See it, yes, and feel it too. Every one there (I can assure you) went not upon his own feet.</p>
+          </sp>
+          <sp xml:id="A13846-e101190" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101200">No, I think, some rid. </l>
+          </sp>
+          <sp xml:id="A13846-e101210" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <p xml:id="A13846-e101220">They did so, for some rid me. Some trodden on my toes. Some cried, some kept it in; for my part, I confessed all, for fear I should have been pressed to death.</p>
+          </sp>
+          <sp xml:id="A13846-e101230" who="A13846-platonicus">
+            <pb facs="6" n="9"/>
+            <speaker>Pla.</speaker>
+            <p xml:id="A13846-e101240">Though thy body was pinched, thine eyes were feasted.</p>
+          </sp>
+          <sp xml:id="A13846-e101250" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e101260">Were not yours so too? </l>
+          </sp>
+          <sp xml:id="A13846-e101270" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101280">Yes. </l>
+          </sp>
+          <sp xml:id="A13846-e101290" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e101300">Where stood you? </l>
+          </sp>
+          <sp xml:id="A13846-e101310" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101320">I stood not,</l>
+          </sp>
+          <sp xml:id="A13846-e101330" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <p xml:id="A13846-e101340">You had the better friend's sir, I pray where sat you?</p>
+          </sp>
+          <sp xml:id="A13846-e101350" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101360">In my study. </l>
+          </sp>
+          <sp xml:id="A13846-e101370" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <p xml:id="A13846-e101380">Is not your study backward? with a shop-light in it, where one can see nothing but the sky?</p>
+          </sp>
+          <sp xml:id="A13846-e101390" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101400">I confess it, what of that? </l>
+          </sp>
+          <sp xml:id="A13846-e101410" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e101420">Why then you saw no triumph. </l>
+          </sp>
+          <sp xml:id="A13846-e101430" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101440">But I did, and a true one, thine was but a show. </l>
+          </sp>
+          <sp xml:id="A13846-e101450" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <p xml:id="A13846-e101460">If what I saw was but a show, what you saw was but a shadow, or at the most a vision. For it seems your body kept home, though your spirit walked.</p>
+          </sp>
+          <sp xml:id="A13846-e101470" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <p xml:id="A13846-e101480">It did so. And travelled to better purpose than most men do, that go, and see, and say, but know nothing.</p>
+          </sp>
+          <sp xml:id="A13846-e101490" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <p xml:id="A13846-e101500">To confute that heresy of yours, I have gone, and seen, and know, but I will say nothing.</p>
+          </sp>
+          <sp xml:id="A13846-e101510" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <p xml:id="A13846-e101520">That's impossible; the meat thou hast lately fed upon, is so windy, out it must, thou wilt burst else.</p>
+          </sp>
+          <sp xml:id="A13846-e101530" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e101540">Faith sir, I am very full indeed. </l>
+          </sp>
+          <sp xml:id="A13846-e101550" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101560">Purge then, and tell thy doctor all. </l>
+          </sp>
+          <sp xml:id="A13846-e101570" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <p xml:id="A13846-e101580">Albanactus Caesar from his sumptuous palace, through the high-streets of Albipolis rid triumphing, on a chariot, made —</p>
+          </sp>
+          <sp xml:id="A13846-e101590" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <p xml:id="A13846-e101600">Of wood, perhaps guilt, perhaps gold. But I will save you all those charges, if you will go on to the persons, and let the pageants alone.</p>
+          </sp>
+          <sp xml:id="A13846-e101610" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <p xml:id="A13846-e101620">Sir I saw him not as he was born, naked, but since you affect such brevity, I saw the King and a great deal more, and so I turned my back, and went away.</p>
+          </sp>
+          <sp xml:id="A13846-e101630" who="A13846-platonicus">
+            <pb facs="7" n="10"/>
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101640">Nay good Publius, now thou art too brief. </l>
+          </sp>
+          <sp xml:id="A13846-e101650" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <p xml:id="A13846-e101660">When you begin to tell your dreams, I'll not jog you, till you wake of yourself.</p>
+          </sp>
+          <sp xml:id="A13846-e101670" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101680">Nay prithee be not angry. </l>
+          </sp>
+          <sp xml:id="A13846-e101690" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <p xml:id="A13846-e101700">I am not angry, but a little short-winded upon occasion. Yet to give you some satisfaction because you have done me wrong. Before Caesar marched captive Kings, with their hands bound. And ladies, with their arms across, furious wild beasts, great giants, and little dwarves with lictors, and pictors, and a number of priests that were as you would have them, in their shirts. These with certain princes that were behind him: made up a triumph too great to come out of any mortal man's mouth.</p>
+          </sp>
+          <sp xml:id="A13846-e101710" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101720">That's most certain. </l>
+          </sp>
+          <sp xml:id="A13846-e101730" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <p xml:id="A13846-e101740">I mean in words. But as you hunt me you would hunt a hare off her legs.</p>
+          </sp>
+          <sp xml:id="A13846-e101750" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <p xml:id="A13846-e101760">I confess thou hast made more haste, then good speed: but for a supplement to thy lame story, know, I have seen this brave Albanacius Caesar, seen him with the eyes of understanding, viewed all his actions; looked into his mind: which I find armed with so many moral virtues that he daily conquers a world of vices, which are wild beasts indeed.</p>
+            <p xml:id="A13846-e101770">For example ambition, is a lion; cruelty, a bear; avarice, a wolf. Yet he subdues them all. To be short, no vice is so small, to scape him: nor so great, but he overcomes it: and in that fashion he triumphs over all the Kings, and Queens that went before him. All his passions, are his true subjects: and knowledge, judgement, merit, bounty and the like, are fit comma dear, for such a general, these triumph with him, and these are the princes you saw about him. And this Publius, is more than you can find in the street.</p>
+          </sp>
+          <sp xml:id="A13846-e101780" who="A13846-publius">
+            <pb facs="7" n="11"/>
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e101790">I grant it, but yet grant me one request dear</l>
+            <l xml:id="A13846-e101800">Platonicus? </l>
+          </sp>
+          <sp xml:id="A13846-e101810" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101820">What's that? </l>
+          </sp>
+          <sp xml:id="A13846-e101830" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e101840">Go but with me to the amphitheatre. </l>
+          </sp>
+          <sp xml:id="A13846-e101850" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101860">To gaze. </l>
+          </sp>
+          <sp xml:id="A13846-e101870" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e101880">Yes. </l>
+          </sp>
+          <sp xml:id="A13846-e101890" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <p xml:id="A13846-e101900">Why beforehand I know there will be gladiators, saltators, and sights to please the people. Wert not thou better stay here, and see Caesar present himself to this fair goddess, seeking sweet rest, after all his labours.</p>
+          </sp>
+          <sp xml:id="A13846-e101910" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e101920">I should sleep at such a sight. </l>
+          </sp>
+          <sp xml:id="A13846-e101930" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e101940">Then after a play, thou art all for a prize. </l>
+          </sp>
+          <sp xml:id="A13846-e101950" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e101960">All together, and so (I hope) are you</l>
+          </sp>
+          <sp xml:id="A13846-e101970" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <p xml:id="A13846-e101980">At this time, I am. For I will go with thee, if it be but to teach thee to read in thy own book. Outsides, have insides, shells, have kernels in them. And under every fable, nay (Almost) under every thing, lies a moral.</p>
+            <stage xml:id="A13846-e101990">Publius stumbles at a stone, and stoops to take it up.</stage>
+            <p xml:id="A13846-e102000">What art thou doing Publius. </p>
+          </sp>
+          <sp xml:id="A13846-e102010" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e102020">Lifting up the stone I stumbled at. </l>
+          </sp>
+          <sp xml:id="A13846-e102030" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e102040">To what end? </l>
+          </sp>
+          <sp xml:id="A13846-e102050" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <l xml:id="A13846-e102060">To see what lies under it. </l>
+          </sp>
+          <sp xml:id="A13846-e102070" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <l xml:id="A13846-e102080">What should lie under a stone, but a worm, or a</l>
+            <l xml:id="A13846-e102090">Hoglouse. </l>
+          </sp>
+          <sp xml:id="A13846-e102100" who="A13846-publius">
+            <speaker>Pub.</speaker>
+            <p xml:id="A13846-e102110">If there lie not a moral under it, then have you taught me false doctrine.</p>
+          </sp>
+          <sp xml:id="A13846-e102120" who="A13846-platonicus">
+            <speaker>Pla.</speaker>
+            <p xml:id="A13846-e102130">Such thanks have they that teach such scholars. Come away fool, they begin to throng to the theater.</p>
+          </sp>
+          <p xml:id="A13846-e102140">Such kind of pastimes as victorious emperors were wont to present as spectacles to the people, are here produced for antimasques upon the stage.</p>
+          <list xml:id="A13846-e102150">
+            <pb facs="8" n="12"/>
+            <head>The antimasques enter.</head>
+            <item xml:id="A13846-e102160">First, fools 6</item>
+            <item xml:id="A13846-e102170">Secondly, saltaters or tumblers. 7</item>
+            <item xml:id="A13846-e102180">Thirdly, pugili or buffeters 3</item>
+            <item xml:id="A13846-e102190">Fourthly, satyrslike dancers 2</item>
+            <item xml:id="A13846-e102200">Fiftly, one giant, and pigmies 5</item>
+            <item xml:id="A13846-e102210">Sixtly, gladiators or fencers 4</item>
+            <item xml:id="A13846-e102220">Seventhly, mimioks or morescoes 7</item>
+          </list>
+          <stage xml:id="A13846-e102230">This interlude being passed, Cupid emulating the glory of an invict conqueror, descends; invokes Diana: and invites her to set upon these yet unconquered conquerors. She appears in her chariot, and he in a cloud.</stage>
+        </div>
+      </div>
+      <div type="scene" xml:id="A13846-e102240">
+        <div type="description_of_scene" xml:id="A13846-e102250">
+          <head>The description of the maskers and the place.</head>
+          <p xml:id="A13846-e102260">The scene is changed into a pleasant grove of straight trees, which rising by degrees to a high place, openeth itself to discover the aspect of a stately temple; all which, was sacred to Jove; in this grove, sat the emperor Albanactus, attended by fourteen consuls,<pb facs="8" n="13"/> who stood about him, not set in ranks, but in several gracious postures, attending his commands: his habit, like a Roman emperor in a cuirass of yellow satin embroidered with silver, his gorget clincant, cut round, and on his breast an angel's head embossed of gold, the labels of the sleeves, and short bases of watchet embroidered with the same, the under sleeves, and long stockings of white, on his head a burgonet richly enchased with silver, turned up before in a scroll, with an artificial wreath of laurel, out of which, sprang rays like a piked crown, the habit of the consuls were after the same manner, excepting the rays of gold, issuing from his laurel wreath.</p>
+        </div>
+        <div type="scene_proper" xml:id="A13846-e102270">
+          <head>The dialogue between Cupid and Diana.</head>
+          <sp xml:id="A13846-e102280" who="A13846-cupid">
+            <speaker>Cupid.</speaker>
+            <l xml:id="A13846-e102290">Sit not secure, nor think in ease</l>
+            <l xml:id="A13846-e102300">Still undispleased, yourselves to please:</l>
+            <l xml:id="A13846-e102310">Diana, chaste Diana stoop,</l>
+            <l xml:id="A13846-e102320">And help to wound this war like troop. </l>
+          </sp>
+          <sp xml:id="A13846-e102330" who="A13846-diana">
+            <speaker>Diana.</speaker>
+            <l xml:id="A13846-e102340">Wants love a bow, or shaft of mine? </l>
+            <l xml:id="A13846-e102350">This suit will make my crescent shine. </l>
+          </sp>
+          <sp xml:id="A13846-e102360" who="A13846-cupid">
+            <pb facs="9" n="14"/>
+            <speaker>Cupid.</speaker>
+            <l xml:id="A13846-e102370">Love is grown wise, and means to bring</l>
+            <l xml:id="A13846-e102380">To his smart bow, a double string. </l>
+            <l xml:id="A13846-e102390">Behold our mark? took thou not pride</l>
+            <l xml:id="A13846-e102400">In such a glory to divide? </l>
+          </sp>
+          <sp xml:id="A13846-e102410" who="A13846-diana">
+            <speaker>Diana.</speaker>
+            <l xml:id="A13846-e102420">I do, I do, since I am sure,</l>
+            <l xml:id="A13846-e102430">When we two join, our flames are pure. </l>
+          </sp>
+          <sp xml:id="A13846-e102440" who="A13846-UNASSIGNED">
+            <speaker>Cupid and Diana.</speaker>
+            <l xml:id="A13846-e102450">As pure, and clear, as Alba's skin,</l>
+            <l xml:id="A13846-e102460">As her fair fame, or thoughts within:</l>
+            <l xml:id="A13846-e102470">Pure as myself; nay pure like thee,</l>
+            <l xml:id="A13846-e102480">Now love is that which love should be. </l>
+          </sp>
+          <stage xml:id="A13846-e102490">They come upon the scene, and the cloud and chariot go up.</stage>
+          <lg xml:id="A13846-e102500">
+            <head>The chorus below sing.</head>
+            <l xml:id="A13846-e102510">Bow bearing gods, shoot, shoot, and hit,</l>
+            <l xml:id="A13846-e102520">And make our Caesar greater yet:</l>
+            <l xml:id="A13846-e102530">Yet leave him with us, let him shine</l>
+            <l xml:id="A13846-e102540">Still here; and make him all divine</l>
+          </lg>
+          <stage xml:id="A13846-e102550"><pb facs="9" n="15"/>Cupid and Diana shoot at the maskers, and Albanactus yielding to the gods, moves down the steps in a stately pace to music made by the chorus of sacrificers, that sing as the maskers descend.</stage>
+          <lg xml:id="A13846-e102560">
+            <head>The fourth song.</head>
+            <lg xml:id="A13846-e102570">
+              <l xml:id="A13846-e102580">Ye worthies of this I'll,</l>
+              <l xml:id="A13846-e102590">That led by your brave chief,</l>
+              <l xml:id="A13846-e102600">In an heroic style,</l>
+              <l xml:id="A13846-e102610">Have over done belief:</l>
+              <l xml:id="A13846-e102620">Subdued by Alba's eyes</l>
+              <l xml:id="A13846-e102630">Come down, loves sacrifice! </l>
+            </lg>
+            <lg xml:id="A13846-e102640">
+              <l xml:id="A13846-e102650">It is no shame to yield,</l>
+              <l xml:id="A13846-e102660">Where 'tis in vein to strive:</l>
+              <l xml:id="A13846-e102670">The gods would quit the field,</l>
+              <l xml:id="A13846-e102680">Should they these wars revive</l>
+              <l xml:id="A13846-e102690">Or conquered, by her eyes,</l>
+              <l xml:id="A13846-e102700">Come down loves sacrifice. </l>
+            </lg>
+            <lg xml:id="A13846-e102710">
+              <l xml:id="A13846-e102720">Straight cedar, that hast stood,</l>
+              <l xml:id="A13846-e102730">The shock of many a wind:</l>
+              <l xml:id="A13846-e102740">The top of this tall wood,</l>
+              <l xml:id="A13846-e102750">By a high hand designed</l>
+              <l xml:id="A13846-e102760">Subdued by Alba's eyes,</l>
+              <l xml:id="A13846-e102770">Come down loves sacrifice! </l>
+            </lg>
+          </lg>
+          <stage xml:id="A13846-e102780">When the maskers are all come down the steps, the high priests and sacrificers, treading a<pb facs="10" n="16"/> grave measure walk up towards the Queen singing.</stage>
+          <lg xml:id="A13846-e102790">
+            <head>The fifth song.</head>
+            <l xml:id="A13846-e102800">Great Alba though each grandee here,</l>
+            <l xml:id="A13846-e102810">At this high court of thine,</l>
+            <l xml:id="A13846-e102820">Like a true liege man doth appear,</l>
+            <l xml:id="A13846-e102830">And offers at thy shrine:</l>
+            <l xml:id="A13846-e102840">It is no conquest for thine eyes,</l>
+            <l xml:id="A13846-e102850">When petty princes fall,</l>
+            <l xml:id="A13846-e102860">That are some single beauty's prize,</l>
+            <l xml:id="A13846-e102870">Or a lone virtue's thrall:</l>
+            <l xml:id="A13846-e102880">Here comes the trophy of thy praise,</l>
+            <l xml:id="A13846-e102890">The monarch of these isles,</l>
+            <l xml:id="A13846-e102900">The mirror of thy cheerful rays,</l>
+            <l xml:id="A13846-e102910">And glory of thy smiles:</l>
+            <l xml:id="A13846-e102920">The virtues and the graces all,</l>
+            <l xml:id="A13846-e102930">Must meet in one, when such stars full. </l>
+          </lg>
+        </div>
+      </div>
+      <div type="scene" xml:id="A13846-e102940">
+        <div type="description_of_scene" xml:id="A13846-e102950">
+          <head>The King and the maskers dance the main mask.</head>
+          <p xml:id="A13846-e102960">Afterwards taking his seat by the Queen. The scene is varied into a landscape, in which was a prospect of the King's palace of Whitehall, and part of the city of London, seen afar off, and presently the whole heaven opened,<pb facs="10" n="17"/> and in a bright cloud were seen sitting five persons, representing innocency, justice, religion, affection to the country, and concord, being all companions of peace, and thus attired. Innocency, a woman in a pure white robe, with a garland of flowers on her head: justice, a woman in a yellow garment richly adorned, her mantle white, and on her head golden rays, in her right hand a sword, and in the midst thereof an imperial crown: religion, a woman in a short surplus of lawn full gathered about the neck, and under it a garment of watchet, with a short vale of silver and about her head, beams of gold like the sun, and in her left hand, she held a book open: affection to the country, a young man in a coat armour of yellow, with a purple mantle, his buskins adorned, his plumed helm of silver, and in his hand a garland of long grass: concord, a man in a sky coloured robe, and a yellow mantle; on his head a garland of wheat, and in his hand a bunch of arrows tied together with a white band, these moving towards the earth sing together as followeth. Praising their piety, and wishing they may perpetuate themselves by a royal posterity, present them with several gifts.</p>
+        </div>
+        <div type="scene_proper" xml:id="A13846-e102970">
+          <lg xml:id="A13846-e102980">
+            <pb facs="11" n="18"/>
+            <head>The sixth song sung by the five deities.</head>
+            <l xml:id="A13846-e102990">Blessed pair whose prayers like incense rise,</l>
+            <l xml:id="A13846-e103000">Opening, and pulling down the skies</l>
+            <l xml:id="A13846-e103010">Take your reward! Just as ye met,</l>
+            <l xml:id="A13846-e103020">So hand in hand live many a day,</l>
+            <l xml:id="A13846-e103030">And may your virtuous minds beget</l>
+            <l xml:id="A13846-e103040">Issue that never shall decay,</l>
+            <l xml:id="A13846-e103050">And so be fruitful every way. </l>
+            <l xml:id="A13846-e103060">May plenty Proteus like appear,</l>
+            <l xml:id="A13846-e103070">Varying your pleasures every year:</l>
+            <l xml:id="A13846-e103080">We five come freely to impart,</l>
+            <l xml:id="A13846-e103090">Such favours as we can afford:<note anchored="true" place="margin" xml:id="A13846-e103100">concord. Affection to the country. Innocence. Justice. religion.</note></l>
+            <l xml:id="A13846-e103110">One gives hisa hand, the next hisb heart,</l>
+            <l xml:id="A13846-e103120">The third her c robe, the fourth herd sword,</l>
+            <l xml:id="A13846-e103130">The fifth full many a suppliant word. </l>
+            <l xml:id="A13846-e103140">And to fulfil your future bliss,</l>
+            <l xml:id="A13846-e103150">Sweet peace salutes you with a kiss. </l>
+          </lg>
+          <stage xml:id="A13846-e103160">Then from the upper part of the heaven, was seen to follow this: another more beautiful cloud, in which alone triumphant sat peace, a woman in a carnation robe richly adorned, a vale of silver, and on it a garland of olive, and in her hand a branch of palm, proclaiming her large benefits, and the world's ingratitude. </stage>
+          <sp xml:id="A13846-e103170" who="A13846-peace">
+            <pb facs="11" n="19"/>
+            <speaker>Peace</speaker>
+            <stage xml:id="A13846-e103180">Sings alone</stage>
+            <lg xml:id="A13846-e103190">
+              <head>The seventh song.</head>
+              <l xml:id="A13846-e103200">Frighted by day; and in the night diseased,</l>
+              <l xml:id="A13846-e103210">I fled to heaven, and left the world displeased. </l>
+              <l xml:id="A13846-e103220">Find men that strive more for a province there,</l>
+              <l xml:id="A13846-e103230">Then looking upward to possess a sphere. </l>
+              <l xml:id="A13846-e103240">Yet vanquished and victorious, both at last,</l>
+              <l xml:id="A13846-e103250">Their weary limbs, on my soft bed would cast. </l>
+            </lg>
+          </sp>
+          <stage xml:id="A13846-e103260">The five in the lower cloud confessing her great bounty, answer.</stage>
+          <stage xml:id="A13846-e103270">The five.</stage>
+          <sp xml:id="A13846-e103280" who="A13846-unassigned">
+            <speaker>Two 2</speaker>
+            <l xml:id="A13846-e103290">Lions, and lambs together lie,</l>
+            <l xml:id="A13846-e103300">When lovely peace stands smiling by</l>
+          </sp>
+          <sp xml:id="A13846-e103310" who="A13846-unassigned">
+            <speaker>Two 2</speaker>
+            <l xml:id="A13846-e103320">Temples and towns by thy staid hand,</l>
+            <l xml:id="A13846-e103330">First learn to rise, and then to stand. </l>
+          </sp>
+          <sp xml:id="A13846-e103340" who="A13846-all">
+            <speaker>All 5</speaker>
+            <l xml:id="A13846-e103350">'Tis not the laurel tree that brings,</l>
+            <l xml:id="A13846-e103360">Anointing oil for sacred Kings:</l>
+            <l xml:id="A13846-e103370">Those princes see the happiest days,</l>
+            <l xml:id="A13846-e103380">Whose olive branches stand for bays. </l>
+          </sp>
+          <stage xml:id="A13846-e103390">When the five persons which first descended were come to the earth, the cloud that bore them, was in an instant turned into a richly adorned throne. And out of the four corners of the<pb facs="12" n="20"/> scene proceed 4. Gods, Neptune, Plutus, Bellona, and Cebele, complaining of ease and plenty</stage>
+          <lg xml:id="A13846-e103400">
+            <head>The eighth song.</head>
+            <l xml:id="A13846-e103410">Arms are laid by: early and late,</l>
+            <l xml:id="A13846-e103420">The traveller goes safe to bed:</l>
+            <l xml:id="A13846-e103430">Men eat and drink in massy plate,</l>
+            <l xml:id="A13846-e103440">And are with dainties daily fed. </l>
+            <l xml:id="A13846-e103450">Why should this I'll above the rest,</l>
+            <l xml:id="A13846-e103460">Be made (Great gods) the halcyon's nest? </l>
+          </lg>
+          <sp xml:id="A13846-e103470" who="A13846-multiple">
+            <speaker>The 5. Deities thus resolve them</speaker>
+            <l xml:id="A13846-e103480">Imperious peace herself descends</l>
+          </sp>
+          <sp xml:id="A13846-e103490" who="A13846-multiple">
+            <speaker>The four gods.</speaker>
+            <l xml:id="A13846-e103500">Then here our search, and wonder ends,</l>
+            <l xml:id="A13846-e103510">We'll steal away</l>
+          </sp>
+          <sp xml:id="A13846-e103520" who="A13846-peace">
+            <speaker>Peace.</speaker>
+            <l xml:id="A13846-e103530">Earth's rulers, stay! </l>
+          </sp>
+          <sp xml:id="A13846-e103540" who="A13846-multiple">
+            <speaker>The four gods.</speaker>
+            <l xml:id="A13846-e103550">Doth soft peace call? </l>
+          </sp>
+          <sp xml:id="A13846-e103560" who="A13846-peace">
+            <speaker>Peace.</speaker>
+            <l xml:id="A13846-e103570">Yes: and will straight employ ye all. </l>
+          </sp>
+          <sp xml:id="A13846-e103580" who="A13846-multiple">
+            <speaker>The four gods</speaker>
+            <l xml:id="A13846-e103590">How, and wherein? </l>
+          </sp>
+          <sp xml:id="A13846-e103600" who="A13846-multiple">
+            <speaker>The 5. in the lower cloud.</speaker>
+            <l xml:id="A13846-e103610">Give ear, your charge doth now begin. </l>
+          </sp>
+          <sp xml:id="A13846-e103620" who="A13846-UNASSIGNED">
+            <pb facs="12" n="21"/>
+            <speaker>Peace gives them their charge.</speaker>
+            <l xml:id="A13846-e103630">Neptune to sea, and let no sail,</l>
+            <l xml:id="A13846-e103640">Meet Albion's fleet, but make it veil. </l>
+            <l xml:id="A13846-e103650">Bellona arm, that foes may see,</l>
+            <l xml:id="A13846-e103660">Their lilies kept by lions be. </l>
+            <l xml:id="A13846-e103670">Their fruitful fields (Cebele) make</l>
+            <l xml:id="A13846-e103680">Pay centuple for all they take. </l>
+            <l xml:id="A13846-e103690">And let both Indies (Pluto) meet,</l>
+            <l xml:id="A13846-e103700">And lay their wealth at Alba's feet. </l>
+          </sp>
+          <sp xml:id="A13846-e103710" who="A13846-multiple">
+            <speaker>The four God;</speaker>
+            <stage xml:id="A13846-e103720">Reply</stage>
+            <l xml:id="A13846-e103730">When peace commands such pleasing things,</l>
+            <l xml:id="A13846-e103740">From love and time we'll steal their wings. </l>
+          </sp>
+          <stage xml:id="A13846-e103750">For a conclusion, the gods, poets, and priests join, and sing a valediction to Hymen's twin the Mary-charles. </stage>
+          <lg xml:id="A13846-e103760">
+            <head>The last general chorus. </head>
+            <l xml:id="A13846-e103770">Loaden with wealth and honour may,</l>
+            <l xml:id="A13846-e103780">These god's return to crown this day,</l>
+            <l xml:id="A13846-e103790">And Mary-charles whose minds within,</l>
+            <l xml:id="A13846-e103800">And bodies make but Hymen's twin,</l>
+            <l xml:id="A13846-e103810">Long live they so, and breast, to breast,</l>
+            <l xml:id="A13846-e103820">May angels sing them to their rest. </l>
+          </lg>
+        </div>
+      </div>
+    </body>
+    <back xml:id="A13846-e103830">
+      <div type="author_to_the_reader" xml:id="A13846-e103840">
+        <pb facs="13" n="22"/>
+        <p xml:id="A13846-e103850">Those that will praise the structure and changes of the scene. The sweetness and variety of the music. Or the beauty of the figures, and paces, I think may do it with cause enough.</p>
+        <p xml:id="A13846-e103860">But for the invention and writing of the mask, I was as loath to be brought upon the stage as an unhandsome man is to see himself in a great glass. But my excuse, and glory is, the King commanded, and I obeyed.</p>
+        <closer xml:id="A13846-e103870">
+          <signed xml:id="A13846-e103880">Aurelian Tounshend.</signed>
+        </closer>
+      </div>
+      <div type="list_of_players" xml:id="A13846-e103890">
+        <head>The maskers names.</head>
+        <head type="sub">The King</head>
+        <list xml:id="A13846-e103900">
+          <item xml:id="A13846-e103910">1 E. Holland</item>
+          <item xml:id="A13846-e103920">2 E. Newport</item>
+          <item xml:id="A13846-e103930">3 lo. Doncaster</item>
+          <item xml:id="A13846-e103940">4 l. Donluce</item>
+          <item xml:id="A13846-e103950">5 l. wharton</item>
+          <item xml:id="A13846-e103960">6 l. Paget</item>
+          <item xml:id="A13846-e103970">7 l. Bruce</item>
+          <item xml:id="A13846-e103980">8 sir. Rob. Stanley</item>
+          <item xml:id="A13846-e103990">9 mr. Goringe.</item>
+          <item xml:id="A13846-e104000">10 sir: Brooke</item>
+          <item xml:id="A13846-e104010">11 sir John Mainard</item>
+          <item xml:id="A13846-e104020">12 mr. Dimmock</item>
+          <item xml:id="A13846-e104030">13 mr. Abercromy</item>
+          <item xml:id="A13846-e104040">14 mr. Murrey</item>
+        </list>
+        <trailer xml:id="A13846-e104050">Finis.</trailer>
+        <pb facs="13"/>
+      </div>
+      <div type="machine-generated_castlist"><list n="A13846"><item xml:id="A13846-publius" n="26">
+    <seg type="character_name">A13846-publius</seg>
+    <seg type="speech_count">26</seg>
+  </item>
+  <item xml:id="A13846-platonicus" n="26">
+    <seg type="character_name">A13846-platonicus</seg>
+    <seg type="speech_count">26</seg>
+  </item>
+  <item xml:id="A13846-multiple" n="6">
+    <seg type="character_name">A13846-multiple</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A13846-mercury" n="3">
+    <seg type="character_name">A13846-mercury</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A13846-peace" n="3">
+    <seg type="character_name">A13846-peace</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A13846-chorus" n="3">
+    <seg type="character_name">A13846-chorus</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A13846-diana" n="2">
+    <seg type="character_name">A13846-diana</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A13846-UNASSIGNED" n="2">
+    <seg type="character_name">A13846-UNASSIGNED</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A13846-unassigned" n="2">
+    <seg type="character_name">A13846-unassigned</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A13846-cupid" n="2">
+    <seg type="character_name">A13846-cupid</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A13846-all" n="1">
+    <seg type="character_name">A13846-all</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+</list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

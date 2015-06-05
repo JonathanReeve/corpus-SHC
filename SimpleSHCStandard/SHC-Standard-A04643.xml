@@ -1,0 +1,850 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A04643">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Characters of Two Royal Masques <date type="creation_date">1608</date></title>
+        <author>Jonson, Ben</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Martin Mueller</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A04643.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The characters of two royall masques. The one of blacknesse, the other of beautie. personated by the most magnificent of queenes Anne Queene of great Britaine, &amp;c. With her honorable ladyes, 1605. and 1608. at White-hall: and inuented by Ben: Ionson.</title>
+            <author>Jonson, Ben, 1573?-1637.</author>
+          </titleStmt>
+          <extent>19 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 January (TCP phase 1)</date>
+            <idno type="marc">99844883</idno>
+            <idno type="stc">STC (2nd ed.) 14761.</idno>
+            <idno type="stc">Greg, I, 269-71(a).</idno>
+            <idno type="vid">9733</idno>
+            <idno type="DLPS">A04643</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The characters of two royall masques. The one of blacknesse, the other of beautie. personated by the most magnificent of queenes Anne Queene of great Britaine, &amp;c. With her honorable ladyes, 1605. and 1608. at White-hall: and inuented by Ben: Ionson.</title>
+            <title type="alt">Queenes masques.</title>
+            <title type="alt">Description of the masque.</title>
+            <author>Jonson, Ben, 1573?-1637.</author>
+          </titleStmt>
+          <extent>[56] p.</extent>
+          <publicationStmt>
+            <publisher>[by G. Eld] for Thomas Thorp, and are to be sold [by L. Lisle] at the signe of the Tigers head in Paules Church-yard,</publisher>
+            <pubPlace>Imprinted at London :</pubPlace>
+            <date>[1608]</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Printer's and publisher's names and publication date from STC.</p>
+            </note>
+            <note>
+              <p>Signatures: A-G4.</p>
+            </note>
+            <note>
+              <p>"The description of the masque" has divisional title page; register is continuous.</p>
+            </note>
+            <note>
+              <p>Running title reads: The Queenes masques.</p>
+            </note>
+            <note>
+              <p>"The description of the masque" identified as STC 14770 on UMI microfilm (reel 757, position 10).</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the British Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Masques -- Early works to 1800.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="A04643-e100010">
+    <front xml:id="A04643-e100020">
+      <div type="title_page" xml:id="A04643-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A04643-e100040">The characters of two royal masques. The one of blackness, the other of beauty. personated by the most magnificent of Queens Anne Queen of great Britain, etc. With her honourable ladies, 1605. and 1608. at white hall: and invented by Ben: Jonson.</p>
+        <quote xml:id="A04643-e100050">
+          <bibl xml:id="A04643-e100060">Ovid.</bibl>
+          <l xml:id="A04643-e100070">— Salve festa dies, meliorque revertere semper. </l>
+        </quote>
+        <p xml:id="A04643-e100080">Imprinted at London for Thomas Thorp, and are to be sold at the sign of the tiger's head in Paul's churchyard.</p>
+      </div>
+    </front>
+    <body xml:id="A04643-e100090">
+      <div type="masque" xml:id="A04643-e100100">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The queen's masques. The first, of blackness: personated at the court, at white-hall, on the twelfth night. 1605.</head>
+        <p xml:id="A04643-e100110">The honour, and splendour of these spectacles was such in the performance, as could those hours have lasted, this of mine, now, had been a most unprofitable work: but (When it is the fate, even of the greatest, and most absolute births, to need, and borrow a life of posterity) little had been done to the study of magnificence in these, if presently with the rage of the people, who (As a part of greatness) are privileged by custom, to deface their carcases, the spirits had also perished. In duty, therefore, to that majesty, who gave them their authority, and grace; and, no less than the most royal of predecessors, deserves eminent celebration for these solemnities: I add this later hand, to redeem them as well from ignorance, as envy, two common evils, the one of censure, the other of oblivion. </p>
+        <p xml:id="A04643-e100120"><pb facs="3"/><note anchored="true" n="a" place="margin" xml:id="A04643-e100130">natu Hist. lib. 5 cap 8.</note>Pliny,<note anchored="true" n="b" place="margin" xml:id="A04643-e100140">Poly hist. cap. 40. And 43.</note> Solinus,<note anchored="true" n="c" place="margin" xml:id="A04643-e100150">lib 4. cap. 5</note> Ptolemy, and of late Leo<note anchored="true" n="d" place="margin" xml:id="A04643-e100160">Descrip. Afric </note>the African, remember unto us a river in Aethiopia, famous by the name of Niger; of which the people were called nigritae, now negroes: and are the blackest nation of the world. This<note anchored="true" n="e" place="margin" xml:id="A04643-e100170">some take it to be the same with Nilus, which is by Lucan called Melas, signifying Niger. Howsoever, Pliny, in the place above noted, hath this: nigri flwio cadem natura, quae n●lo, calamum, papyrum, et casdem gigni● an. mantes. See Solin. above mentioned.</note> river taketh spring out of a certain lake, eastward; and after a long race, falleth into the western ocean. Hence (Because it was her majesty's will, to have them blackamoors at first) the invention was derived by me, and presented thus.</p>
+        <p xml:id="A04643-e100180">First, for the scene, was drawn a landscape, consisting of small woods, and here and there a void place filled with huntings; which falling, an artificial sea was seen to shoot forth, as if it flowed to the land, raised with waves, which seemed to move, and in some places the billow to break, as imitating that orderly disorder, which is common in nature. In front of this sea were placed six<note anchored="true" n="f" place="margin" xml:id="A04643-e100190">the form of these 〈◊〉, with their trumpets, you may read lively described, in Ovid. met●m. lib. 1. Caeruleum Tritona vocat. Etc. and in Virgil, A●ne●d lib. 10. Hunc 〈◊〉 immunis 〈◊〉. And se●●●nt. </note>Tritons, in moving, and sprightly actions, their upper parts humane, save that their hairs were blue, as partaking of the sea-colour: their desinent parts, fish, mounted above their heads, and all varied in disposition. From their backs were born out certain light pieces of taffeta, as if carried by the wind, and their music made out of wreathed shells. Behind these, a pair of sea-maids, for song, were as conspicuously seated; between which, two great sea-horses (As big as the life) put forth themselves; the one mounting aloft, and writhing his head from the other, which seemed to sink forwards; so intended for variation, and that the<pb facs="3"/> figure behind, might come of better:<note anchored="true" n="g" place="margin" xml:id="A04643-e100200">Li●ian in Phγo●. <seg xml:lang="unk" xml:id="A04643-e100210">〈◊〉 〈◊〉 〈◊〉</seg> presents Nilus so. Equa fli●●●atili insia●ntem. And Statius Neptune, in The●. </note>upon their backs, Oceanus and Niger were advanced.</p>
+        <p xml:id="A04643-e100220">Oceanus, presented in a humane form, the colour of his flesh, blew; and shadowed with a robe of seagreen; his head grey, and<note anchored="true" n="h" place="margin" xml:id="A04643-e100230">the ancients induced Oceanus always with a buss he●di propter ●●m ventorum, a quibus incitatur, et impellit●r: vel quia Tauris 〈◊〉 fremitum emittat, vel quia tanquam Taurus suribundus, in littera seratur. Euriped. in oreste .. <seg xml:lang="unk" xml:id="A04643-e100240">〈◊〉 〈◊〉 〈◊〉</seg> and r●uers sometimes were so called. Look Virg. de tib●ri, et Eridan●. Geor. 4. A●n●id. 8. Hor. car. lib. 4. Ode ●4. and Eurip. in jore. </note>horned; as he is described by the ancients: his beard of the like mixed colour ▪ he was gyrlonded with alga, or sea-grass; and in his hand a trident. </p>
+        <p xml:id="A04643-e100250">Niger, in form and colour of an Aethiop; his hair, and rare beard curled, shadowed with a blue, and bright mantle: his front, neck, and wrists adorned with pearl, and crowned, with an artificial wreath of cane, and paper-rush.</p>
+        <p xml:id="A04643-e100260">These induced the masquers, which were twelve nymphs, negroes; and the daughters of Niger; attended by so many of the<note anchored="true" n="i" place="margin" xml:id="A04643-e100270">the daughters of Oceanus, and tethys. See Hesiod in Theago ▪ Jointonext. in Hym. and Virgil in Georgic. </note>Oceaniae which were their light-bearers. </p>
+        <p xml:id="A04643-e100280">The masquers were placed in a great concave shell, like mother of pearl, curiously made to move on those waters, and rise with the billow; the top thereof was stuck with a cheveron of lights, which, indented to the proportion of the shell, struck a glorious beam upon them, as they were seated, one above another: so that they were all seen, but in an extravagant order.</p>
+        <p xml:id="A04643-e100290">On sides of the shell, did swim six huge sea-monsters, varied in their shapes, and dispositions, bearing on their backs the twelve torch bearers; who were planted there in several graces; so as the backs of some were seen; some in purfle, or side; others in face; and all having their lights burning out of whelks, or murex shells.</p>
+        <p xml:id="A04643-e100300"><pb facs="4"/>The attire of the masquers was alike, in all, without difference: the colours, azure, and silver; but returned on the top with a scroll and antique dressing of feathers, and jewels interlaced with ropes of pearl. And, for the front, ear, neck, and wrists, the ornament was of the most choice and orient pearl; best setting of from the black.</p>
+        <p xml:id="A04643-e100310">For the light bearers, seagreen, moved about the skirts with gold and silver their hair loose, and flowing, girlanded with sea-grass, and that stuck with branches of coral.</p>
+        <p xml:id="A04643-e100320">These thus presented, the scene behind, seemed a vast sea (And united with this that flowed forth) from the termination, or horizon of which (Being the level of the state, which was placed in the upper end of the hall) was drawn, by the lines of prospective, the whole work shooting downwards, from the eye; which decorum made it more conspicuous, and caught the eye afar off with a wandering beauty. To which was added an obscure and cloudy night-piece, that made the whole set of. So much for the bodily part. Which was of master Inigo Jones his design, and act.</p>
+        <p xml:id="A04643-e100330">By this, one of the Tritons, with the two sea-maids, began to sing to the others loud music, their voices being a tenor, and two trebles. </p>
+        <lg xml:id="A04643-e100340">
+          <pb facs="4"/>
+          <head>Song.</head>
+          <l xml:id="A04643-e100350">Sound, sound aloud</l>
+          <l xml:id="A04643-e100360">The welcome of the orient flood,</l>
+          <l xml:id="A04643-e100370">Into the West;</l>
+          <l xml:id="A04643-e100380">Fair, Niger,<note anchored="true" n="k" place="margin" xml:id="A04643-e100390">all rivers are said to be the sons of the ocean: for, as the ancients thought, out of the vapours, exhaled by the heat of the sun, rivers, and fountains were begotten. And both by Orph. in hymn ▪ and Homer Iliad. <seg xml:lang="unk" xml:id="A04643-e100400">〈◊〉 〈◊〉 〈◊〉</seg> Oceanus is celebrated tanquam pater, et origo dijs, et rebus, quia nihil sine humec●atione nascitur, aut pvirescit. </note>son to great Oceanus,</l>
+          <l xml:id="A04643-e100410">Now honoured, thus,</l>
+          <l xml:id="A04643-e100420">With all his beauteous race:</l>
+          <l xml:id="A04643-e100430">〈◊〉 though but black in face,</l>
+          <l xml:id="A04643-e100440">Yet, are they bright,</l>
+          <l xml:id="A04643-e100450">And full of life, and light. </l>
+          <l xml:id="A04643-e100460">To prove that beauty best,</l>
+          <l xml:id="A04643-e100470">Which not the colour, but the feature</l>
+          <l xml:id="A04643-e100480">Assures unto the creature. </l>
+        </lg>
+        <sp xml:id="A04643-e100490" who="A04643-oceanus">
+          <speaker>Oceanus.</speaker>
+          <l xml:id="A04643-e100500">Be silent, now the ceremonies done. </l>
+          <l xml:id="A04643-e100510">And Niger, say, how comes it, lovely son,</l>
+          <l xml:id="A04643-e100520">That thou, the Aethiopes river, so far East,</l>
+          <l xml:id="A04643-e100530">Art seen to fall into th' extremest West</l>
+          <l xml:id="A04643-e100540">Of me, the King of floods, Oceanus,</l>
+          <l xml:id="A04643-e100550">And, in mine empire's heart, salute me, thus? </l>
+          <l xml:id="A04643-e100560">My ceaseless current, now amazed stands! </l>
+          <l xml:id="A04643-e100570">To see thy labour, through so many lands,</l>
+          <l xml:id="A04643-e100580"><note anchored="true" n="l" place="margin" xml:id="A04643-e100590">there wants not enough, in nature, to authorise this part of our fiction, in separating Niger, from the ocean, (beside the fable of Alph●us, and that, to which Virgil alludes of Arethusa in his 10. Eclog. sic tibi, cum fluctus subterlabere Sicanos, Doris amara svam non intermisicat undam) examples of Nilus, Jordan, and others, whereof see Nican. lib. 1. de flumin. and Plut. in vita syllae. even of this our river (as some think) by the name of Melas. </note>mix thy fresh billow, with my brackish stream;</l>
+          <l xml:id="A04643-e100600">And, in thy sweetness, stretch thy diadem,</l>
+          <l xml:id="A04643-e100610">To these far distant, and unequalled skies</l>
+          <l xml:id="A04643-e100620">This squared circle of celestial bodies:</l>
+        </sp>
+        <sp xml:id="A04643-e100630" who="A04643-niger">
+          <pb facs="5"/>
+          <speaker>Nigre.</speaker>
+          <l xml:id="A04643-e100640">Divine Oceanus, 'tis not strange at all,</l>
+          <l xml:id="A04643-e100650">That (Since the immortal souls of creatures mortal,</l>
+          <l xml:id="A04643-e100660">Mix with their bodies, yet reserve for ever</l>
+          <l xml:id="A04643-e100670">A power of separation) I should sever</l>
+          <l xml:id="A04643-e100680">My fresh streams, from thy brackish (Like things fixed)</l>
+          <l xml:id="A04643-e100690">Though, with thy powerful saltness, thus far mixed. </l>
+          <l xml:id="A04643-e100700">"Virtue, though chained to earth, will still live free;</l>
+          <l xml:id="A04643-e100710">" and hell itself must yield to industry. </l>
+        </sp>
+        <sp xml:id="A04643-e100720" who="A04643-oceanus">
+          <speaker>Oceanus.</speaker>
+          <l xml:id="A04643-e100730">But, what's the end of thy Herculean labours,</l>
+          <l xml:id="A04643-e100740">Extended to these calm, and blessed shores? </l>
+        </sp>
+        <sp xml:id="A04643-e100750" who="A04643-niger">
+          <speaker>Nigre.</speaker>
+          <lg xml:id="A04643-e100760">
+            <l xml:id="A04643-e100770">To do a kind, and careful father's part,</l>
+            <l xml:id="A04643-e100780">In satisfying every pensive heart</l>
+            <l xml:id="A04643-e100790">Of these my daughters, my most loved birth:</l>
+            <l xml:id="A04643-e100800">Who though they were the<note anchored="true" n="k" place="margin" xml:id="A04643-e100810">read Diod. Sicul. lib. 3. It is a conjecture of the old ethnics, that they, which dwell under the South, were the first begotten of the earth. </note>first formed dames of earth,</l>
+            <l xml:id="A04643-e100820">And in whose sparkling, and refulgent eyes,</l>
+            <l xml:id="A04643-e100830">The glorious sun did still delight to rise;</l>
+            <l xml:id="A04643-e100840">Though he (The best judge, and most formal cause</l>
+            <l xml:id="A04643-e100850">Of all dames beauties) in their firm hues, draws</l>
+            <l xml:id="A04643-e100860">Signs of his ferventest love; and thereby shows</l>
+            <l xml:id="A04643-e100870">That, in their black, the perfectest beauty grows;</l>
+            <l xml:id="A04643-e100880">Since the fix't colour of their curled hair,</l>
+            <l xml:id="A04643-e100890">(Which is the highest grace of dames most fair)</l>
+            <l xml:id="A04643-e100900"><pb facs="5"/> no cares, no age can change; or there display</l>
+            <l xml:id="A04643-e100910">The fearful tincture of abhorred grey;</l>
+            <l xml:id="A04643-e100920">Since death herself (Her self being pale and blue)</l>
+            <l xml:id="A04643-e100930">Can never alter their most faithful hue;</l>
+            <l xml:id="A04643-e100940">All which are arguments, to prove, how far</l>
+            <l xml:id="A04643-e100950">Their beauties conquer, in great beauty's war;</l>
+            <l xml:id="A04643-e100960">And more, how near divinity they be,</l>
+            <l xml:id="A04643-e100970">That stand from passion, or decay so free. </l>
+            <l xml:id="A04643-e100980">Yet, since the fabulous voices of some few</l>
+            <l xml:id="A04643-e100990">Poor brainsick men, styled poets, here with you,</l>
+            <l xml:id="A04643-e101000">Have, with such envy of their graces, sung</l>
+            <l xml:id="A04643-e101010">The painted beauties, other empires sprung;</l>
+            <l xml:id="A04643-e101020">Letting their loose, and winged fictions fly</l>
+            <l xml:id="A04643-e101030">To infect all climates, yea our purity;</l>
+            <l xml:id="A04643-e101040">As of one<note anchored="true" n="n" place="margin" xml:id="A04643-e101050">notissima fabula. Ovid. Met. lib. 2. </note>Phaeton, that fired the world</l>
+            <l xml:id="A04643-e101060">And, that, before his heedless flames were hurled</l>
+            <l xml:id="A04643-e101070">About the globe, the Aethiopes were as fair,</l>
+            <l xml:id="A04643-e101080">As other dames; now black, with black despair:</l>
+            <l xml:id="A04643-e101090">And in respect of their complexions changed,</l>
+            <l xml:id="A04643-e101100">Are each where, since, for<note anchored="true" n="o" place="margin" xml:id="A04643-e101110">alluding to that of Juvenal, satir 5. Et cvi per m●diam nolis occurrerenoctem.</note> luckless creatures ranged. </l>
+            <l xml:id="A04643-e101120">Which, when my daughters heard, (As women are</l>
+            <l xml:id="A04643-e101130">Most jealous of their beauties) fear, and care</l>
+            <l xml:id="A04643-e101140">Possessed them whole; yea, and believing<note anchored="true" n="p" place="margin" xml:id="A04643-e101150">the poets.</note> them,</l>
+            <l xml:id="A04643-e101160">They wept such ceaseless tears, into my stream,</l>
+            <l xml:id="A04643-e101170">That it hath, thus far, overflowed his shore</l>
+            <l xml:id="A04643-e101180">To seek them patience: who have since, ere more</l>
+            <l xml:id="A04643-e101190">As the sun riseth,<note anchored="true" n="q" place="margin" xml:id="A04643-e101200">a custom of the Aethiopes, notable in Herod and Diod ▪ Sic. see Pliny. Nat. Hist. lib. 5. cap. 8. </note>charged his burning throne</l>
+            <l xml:id="A04643-e101210">With volleys of revilings; cause he shone</l>
+            <l xml:id="A04643-e101220">On their scorched cheeks, with such intemperate fires,</l>
+            <l xml:id="A04643-e101230">And other dames, made Queens of all desires. </l>
+            <l xml:id="A04643-e101240"><pb facs="6"/>To frustrate which strange error, oft, I sought,</l>
+            <l xml:id="A04643-e101250">(Though most in vain, against a settled thought</l>
+            <l xml:id="A04643-e101260">As women's are) till they confirmed at length</l>
+            <l xml:id="A04643-e101270">By miracle, what I, with so much strength</l>
+            <l xml:id="A04643-e101280">Of argument resisted; else they feigned:</l>
+            <l xml:id="A04643-e101290">For in the lake, where their first spring they gained,</l>
+            <l xml:id="A04643-e101300">As they sat, cooling their soft limbs, one night,</l>
+            <l xml:id="A04643-e101310">Appeared a face, all circumfused with light;</l>
+            <l xml:id="A04643-e101320">(And sure they saw't, for Aethiopes<note anchored="true" n="r" place="margin" xml:id="A04643-e101330">Plin. ibid.</note> never dream) </l>
+            <l xml:id="A04643-e101340">Wherein they might decipher through the stream,</l>
+            <l xml:id="A04643-e101350">These words. </l>
+          </lg>
+          <lg xml:id="A04643-e101360">
+            <l xml:id="A04643-e101370">That they a land must forthwith seek,</l>
+            <l xml:id="A04643-e101380">Whose termination (Of the Greek)</l>
+            <l xml:id="A04643-e101390">Sounds Tania; where bright sol, that heat</l>
+            <l xml:id="A04643-e101400">Their bloods, doth never<note anchored="true" n="s" place="margin" xml:id="A04643-e101410">consult with Tacitus. in vita agric. and the paneg ad Constant.</note> rise, or set,</l>
+            <l xml:id="A04643-e101420">But in his journey passeth by,</l>
+            <l xml:id="A04643-e101430">And leaves that climate of the sky,</l>
+            <l xml:id="A04643-e101440">To comfort of a greater light,</l>
+            <l xml:id="A04643-e101450">Who forms all beauty, with his sight. </l>
+          </lg>
+          <lg xml:id="A04643-e101460">
+            <l xml:id="A04643-e101470">In search of this, have we three princedoms past,</l>
+            <l xml:id="A04643-e101480">That speak out Tania, in their accents last;</l>
+            <l xml:id="A04643-e101490">Black Mauritania, first; and secondly,</l>
+            <l xml:id="A04643-e101500">Swarth Lusitania; next, we did descry</l>
+            <l xml:id="A04643-e101510">Rich Aquitania: and, yet, cannot find</l>
+            <l xml:id="A04643-e101520">The place unto these longing nymphs designed. </l>
+            <l xml:id="A04643-e101530">Instruct, and aid me, great Oceanus,</l>
+            <l xml:id="A04643-e101540">What land is this, that now appears to us? </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04643-e101550" who="A04643-oceanus">
+          <pb facs="6"/>
+          <speaker>Oceanus.</speaker>
+          <l xml:id="A04643-e101560">This land, that lifts into the temperate air</l>
+          <l xml:id="A04643-e101570">His snowy cliff, is<note anchored="true" n="t" place="margin" xml:id="A04643-e101580">Orpheus in his Argonaut. calls it<seg xml:lang="unk" xml:id="A04643-e101590"> 〈◊〉 〈◊〉 〈◊〉</seg>.</note> Albion the fair;</l>
+          <l xml:id="A04643-e101600">So called of<note anchored="true" n="u" place="margin" xml:id="A04643-e101610">alluding to that rite of styling princes, after the name of their princedoms: so is he still Albion, and Neptune's son that governs. As also his being dear to Neptune, in being so embraced by him. </note>Neptune's son, who ruleth here:</l>
+          <l xml:id="A04643-e101620">For whose dear guard, myself, (Four thousand year)</l>
+          <l xml:id="A04643-e101630">Since old Deucalion's days, have walked the round</l>
+          <l xml:id="A04643-e101640">About his empire, proud, to see him crowned</l>
+          <l xml:id="A04643-e101650">Above my waves. </l>
+        </sp>
+        <p xml:id="A04643-e101660">At this, the moon was discovered in the upper part of the house, triumphant in a silver throne, made in figure of a pyramis. Her garments white, and silver, the dressing of her head antique; and crowned with a luminary, or sphere of light: which striking on the clouds, and heightened with silver, reflected as natural clouds do by the splendour of the moon. The heaven, about her, was vaulted with blue silk, and set with stars of silver which had in them their several lights burning. The sudden sight of which, made Niger to interrupt Oceanus, with this present passion. <note anchored="true" place="margin" xml:id="A04643-e101670">the Aethiopians worshipped the moon, by that surname. See Stepha. <seg xml:lang="unk" xml:id="A04643-e101680">〈◊〉 〈◊〉 〈◊〉</seg>. in voce<seg xml:lang="unk" xml:id="A04643-e101690"> 〈◊〉 〈◊〉 〈◊〉</seg> and his reasons.</note></p>
+        <sp xml:id="A04643-e101700" who="A04643-niger">
+          <speaker>Nigre.</speaker>
+          <l xml:id="A04643-e101710">— O see, our silver star! </l>
+          <l xml:id="A04643-e101720">Whose pure, auspicious light greets us, thus far! </l>
+          <l xml:id="A04643-e101730">Great Aethiopia, goddess of our shore,</l>
+          <l xml:id="A04643-e101740">Since, with particular worship we adore</l>
+          <l xml:id="A04643-e101750">Thy general brightness, let particular grace</l>
+          <l xml:id="A04643-e101760">Shine on my zealous daughters: show the place,</l>
+          <l xml:id="A04643-e101770"><pb facs="7"/> which, long, their longings urged their eyes to see. </l>
+          <l xml:id="A04643-e101780">Beautify them, which long have deified thee. </l>
+        </sp>
+        <sp xml:id="A04643-e101790" who="A04643-aethiopia">
+          <speaker>Aethiopia.</speaker>
+          <l xml:id="A04643-e101800">Niger, be glad: resume thy native cheer. </l>
+          <l xml:id="A04643-e101810">Thy daughter's labours have their period here,</l>
+          <l xml:id="A04643-e101820">And so thy errors. I was that bright face</l>
+          <l xml:id="A04643-e101830">Reflected by the lake, in which thy race</l>
+          <l xml:id="A04643-e101840">Read mystic lines; (Which skill Pythagoras</l>
+          <l xml:id="A04643-e101850">First taught to men, by a reverberate glass)</l>
+          <l xml:id="A04643-e101860">This blessed isle doth with that Tania end,</l>
+          <l xml:id="A04643-e101870">Which there they saw inscribed, and shall extend</l>
+          <l xml:id="A04643-e101880">Wished satisfaction to their best desires. </l>
+          <l xml:id="A04643-e101890">Britannia, which the triple world admires,</l>
+          <l xml:id="A04643-e101900">This isle hath now recovered for her name;</l>
+          <l xml:id="A04643-e101910">Where reign those beauties, that with so much fame</l>
+          <l xml:id="A04643-e101920">The sacred muses sons have honoured,</l>
+          <l xml:id="A04643-e101930">And from bright Hesperus to eous spread. </l>
+          <l xml:id="A04643-e101940">With that great name Britannia, this blessed isle</l>
+          <l xml:id="A04643-e101950">Hath won her ancient dignity, and style,</l>
+          <l xml:id="A04643-e101960">A world, divided from the world: and tried</l>
+          <l xml:id="A04643-e101970">The abstract of it, in his general pride. </l>
+          <l xml:id="A04643-e101980">For were the world, with all his wealth, a ring,</l>
+          <l xml:id="A04643-e101990">Britannia (Whose new name makes all tongues sing)</l>
+          <l xml:id="A04643-e102000">Might be a diamant worthy to enchase it,</l>
+          <l xml:id="A04643-e102010">Ruled by a sun, that to this height doth grace it:</l>
+          <l xml:id="A04643-e102020">Whose beams shine day, and night, and are of force</l>
+          <l xml:id="A04643-e102030">To blanch an Aethiope, and revive a corpse. </l>
+          <l xml:id="A04643-e102040">His light sciential is, and (Passed mere nature)</l>
+          <l xml:id="A04643-e102050"><pb facs="7"/> can salve the rude defects of every creature. </l>
+          <l xml:id="A04643-e102060">Call forth thy honoured daughters, then;</l>
+          <l xml:id="A04643-e102070">And let them, 'fore the Britain men,</l>
+          <l xml:id="A04643-e102080">Indent the land, with those pure traces</l>
+          <l xml:id="A04643-e102090">They flow with, in their native graces. </l>
+          <l xml:id="A04643-e102100">Invite them, boldly, to the shore,</l>
+          <l xml:id="A04643-e102110">Their beauties shall be scorched no more:</l>
+          <l xml:id="A04643-e102120">This sun is temperate, and refines</l>
+          <l xml:id="A04643-e102130">All things, on which his radiance shines. </l>
+        </sp>
+        <p xml:id="A04643-e102140">Here the Tritons sounded, and they danced on shore, every couple (As they advanced) severally presenting their fans: in one of which were inscribed their mixed names, in the other a mute hieroglyphic, expressing their mixed qualities. Which manner of symbol I rather chose, than impreze, as well for strangeness, as relishing of antiquity, and more applying to that original doctrine of sculpture,<note anchored="true" place="margin" xml:id="A04643-e102150">Diod. Sicul Herod. </note>which the Egyptians are said, first, to have brought from the Aethiopians. </p>
+        <p xml:id="A04643-e102160">
+          <table xml:id="A04643-e102170">
+            <row role="data" xml:id="A04643-e102180">
+              <cell cols="1" role="data" rows="1"> </cell>
+              <cell cols="1" role="data" rows="1">The names. </cell>
+              <cell cols="1" role="data" rows="1">The symbols. </cell>
+            </row>
+            <row role="data" xml:id="A04643-e102190">
+              <cell cols="1" role="data" rows="1">The Queen. </cell>
+              <cell cols="1" role="data" rows="1">1 Euphoris.</cell>
+              <cell cols="1" role="data" rows="2">1 a golden tree, laden with fruit.</cell>
+            </row>
+            <row role="data" xml:id="A04643-e102200">
+              <cell cols="1" role="data" rows="1">Co of Bedford. </cell>
+              <cell cols="1" role="data" rows="1">1 Aglaia.</cell>
+              <cell cols="1" role="data" rows="1"> </cell>
+            </row>
+            <row role="data" xml:id="A04643-e102210">
+              <cell cols="1" role="data" rows="1">La: Herbert. </cell>
+              <cell cols="1" role="data" rows="1">2 Diaphane.</cell>
+              <cell cols="1" role="data" rows="2">2 the figure Isocaedron of crystal.</cell>
+            </row>
+            <row role="data" xml:id="A04643-e102220">
+              <cell cols="1" role="data" rows="1">Co of Derby. </cell>
+              <cell cols="1" role="data" rows="1">2 Eucampse.</cell>
+              <cell cols="1" role="data" rows="1"> </cell>
+            </row>
+            <row role="data" xml:id="A04643-e102230">
+              <cell cols="1" role="data" rows="1">La: rich. </cell>
+              <cell cols="1" role="data" rows="1">3 Ocyte.</cell>
+              <cell cols="1" role="data" rows="2">3 a pair of naked feet, in a river.</cell>
+            </row>
+            <row role="data" xml:id="A04643-e102240">
+              <cell cols="1" role="data" rows="1">Co of Suffolk</cell>
+              <cell cols="1" role="data" rows="1">3 Kathare.</cell>
+              <cell cols="1" role="data" rows="1"> </cell>
+            </row>
+            <pb facs="8"/>
+            <row role="data" xml:id="A04643-e102250">
+              <cell cols="1" role="data" rows="1">La: Bevill. </cell>
+              <cell cols="1" role="data" rows="1">4 Notis.</cell>
+              <cell cols="1" role="data" rows="2">4 the salamander simple.</cell>
+            </row>
+            <row role="data" xml:id="A04643-e102260">
+              <cell cols="1" role="data" rows="1">La: Effingham. </cell>
+              <cell cols="1" role="data" rows="1">4 Psychrote.</cell>
+              <cell cols="1" role="data" rows="1"> </cell>
+            </row>
+            <row role="data" xml:id="A04643-e102270">
+              <cell cols="1" role="data" rows="1">La: el: Howard. </cell>
+              <cell cols="1" role="data" rows="1">5 Glycyte.</cell>
+              <cell cols="1" role="data" rows="2">5 a cloud full of rain, dropping.</cell>
+            </row>
+            <row role="data" xml:id="A04643-e102280">
+              <cell cols="1" role="data" rows="1">La: Sus: Vere. </cell>
+              <cell cols="1" role="data" rows="1">5 malacia.</cell>
+              <cell cols="1" role="data" rows="1"> </cell>
+            </row>
+            <row role="data" xml:id="A04643-e102290">
+              <cell cols="1" role="data" rows="1">La: wroth. </cell>
+              <cell cols="1" role="data" rows="1">6 Baryte.</cell>
+              <cell cols="1" role="data" rows="2">6 an urn 'Sphered with wine.</cell>
+            </row>
+            <row role="data" xml:id="A04643-e102300">
+              <cell cols="1" role="data" rows="1">La: Walsingham</cell>
+              <cell cols="1" role="data" rows="1">6 Periphere.</cell>
+              <cell cols="1" role="data" rows="1"> </cell>
+            </row>
+          </table>
+        </p>
+        <list xml:id="A04643-e102310">
+          <head>The names of the Oceaniae were.</head>
+          <item xml:id="A04643-e102320"><note anchored="true" place="margin" xml:id="A04643-e102330">Hesiod. in. Theog </note>Doris.</item>
+          <item xml:id="A04643-e102340">Petraea.</item>
+          <item xml:id="A04643-e102350">Ocyrhoe.</item>
+          <item xml:id="A04643-e102360">Cydippe.</item>
+          <item xml:id="A04643-e102370">Glauce.</item>
+          <item xml:id="A04643-e102380">Tyche.</item>
+          <item xml:id="A04643-e102390">Beroe.</item>
+          <item xml:id="A04643-e102400">Acaste.</item>
+          <item xml:id="A04643-e102410">Clytia.</item>
+          <item xml:id="A04643-e102420">Janthe.</item>
+          <item xml:id="A04643-e102430">Lycorys.</item>
+          <item xml:id="A04643-e102440">Plexaure.</item>
+        </list>
+        <p xml:id="A04643-e102450">Their own single dance ended, as they were about to make choice of their men: one, from the sea, was heard to call 'em with this charm, sung by a tenor voice.</p>
+        <lg type="song" xml:id="A04643-e102460">
+          <head>Song.</head>
+          <l xml:id="A04643-e102470">Come away, come away,</l>
+          <l xml:id="A04643-e102480">We grow jealous of your stay:</l>
+          <l xml:id="A04643-e102490">If you do not stop your ear,</l>
+          <l xml:id="A04643-e102500">We shall have more cause to fear</l>
+          <l xml:id="A04643-e102510">Syrens of the land, than they</l>
+          <l xml:id="A04643-e102520">To doubt the Syrens of the sea. </l>
+        </lg>
+        <p xml:id="A04643-e102530">Here they danced with their men, several measures, and corantoes. All which ended, they<pb facs="8"/> were again accited to sea, with a song of two trebles, whose cadences were iterated by a double echo, from several parts of the land.</p>
+        <lg type="song" xml:id="A04643-e102540">
+          <head>Song.</head>
+          <lg xml:id="A04643-e102550">
+            <l xml:id="A04643-e102560">Daughters of the subtle flood,</l>
+            <l xml:id="A04643-e102570">Do not let earth longer entertain you;</l>
+            <l xml:id="A04643-e102580"><stage xml:id="A04643-e102590">I. Ecch.</stage>let earth longer entertain you. </l>
+            <l xml:id="A04643-e102600"><stage xml:id="A04643-e102610">2. Echo,</stage>longer entertain you. </l>
+          </lg>
+          <lg xml:id="A04643-e102620">
+            <l xml:id="A04643-e102630">'Tis to them, enough of good,</l>
+            <l xml:id="A04643-e102640">That you give this little hope, to gain you</l>
+            <l xml:id="A04643-e102650"><stage xml:id="A04643-e102660">1. Ecch.</stage>give this little, hope to gain you. </l>
+            <l xml:id="A04643-e102670"><stage xml:id="A04643-e102680">2. Ecch.</stage>little hope, to gain you. </l>
+          </lg>
+          <lg xml:id="A04643-e102690">
+            <l xml:id="A04643-e102700">If they love,</l>
+            <l xml:id="A04643-e102710">You shall quickly see;</l>
+            <l xml:id="A04643-e102720">For when to flight you move,</l>
+            <l xml:id="A04643-e102730">They'll follow you, the more you flee</l>
+            <l xml:id="A04643-e102740"><stage xml:id="A04643-e102750">1. Ecch.</stage>follow you, the more you flee. </l>
+            <l xml:id="A04643-e102760"><stage xml:id="A04643-e102770">2. Ecch.</stage>the more you flee. </l>
+          </lg>
+          <lg xml:id="A04643-e102780">
+            <l xml:id="A04643-e102790">If not, impute it each to others matter;</l>
+            <l xml:id="A04643-e102800">They are but earth, and what you vowed was water. </l>
+            <l xml:id="A04643-e102810"><stage xml:id="A04643-e102820">1. Echo:</stage>but earth and what you vowed was water. </l>
+            <l xml:id="A04643-e102830"><stage xml:id="A04643-e102840">2. Echo:</stage>earth and what you vowed was water. </l>
+            <l xml:id="A04643-e102850"><stage xml:id="A04643-e102860">1. Ecch.</stage>and what you vowed was water. </l>
+            <l xml:id="A04643-e102870"><stage xml:id="A04643-e102880">2. Ecc:</stage>you vowed was water. </l>
+          </lg>
+        </lg>
+        <sp xml:id="A04643-e102890" who="A04643-aethiopia">
+          <pb facs="9"/>
+          <speaker>Aethiopia.</speaker>
+          <l xml:id="A04643-e102900">I nough, bright nymphs, the night grows old,</l>
+          <l xml:id="A04643-e102910">And we are grieved, we can not hold</l>
+          <l xml:id="A04643-e102920">You longer light: but comfort take. </l>
+          <l xml:id="A04643-e102930">Your father, only, to the lake</l>
+          <l xml:id="A04643-e102940">Shall make return: yourselves with feasts,</l>
+          <l xml:id="A04643-e102950">Must here remain the ocean's guests. </l>
+          <l xml:id="A04643-e102960">Nor shall this veil, the sun hath cast</l>
+          <l xml:id="A04643-e102970">Above your blood, more summers last. </l>
+          <l xml:id="A04643-e102980">For which, you shall observe these rites. </l>
+          <l xml:id="A04643-e102990">Thirteen times thrice, on thirteen nights,</l>
+          <l xml:id="A04643-e103000">(So often as I fill my sphere</l>
+          <l xml:id="A04643-e103010">With glorious light, throughout the year)</l>
+          <l xml:id="A04643-e103020">You shall (When all things else do sleep</l>
+          <l xml:id="A04643-e103030">Save your chaste thoughts) with reverence, steep</l>
+          <l xml:id="A04643-e103040">Your bodies in that purer brine,</l>
+          <l xml:id="A04643-e103050">And wholesome dew called rosemary:</l>
+          <l xml:id="A04643-e103060">Then with that soft, and gentler foam,</l>
+          <l xml:id="A04643-e103070">Of which the ocean, yet, yields some,</l>
+          <l xml:id="A04643-e103080">Whereof bright Venus, beauty's Queen,</l>
+          <l xml:id="A04643-e103090">Is said to have begotten been,</l>
+          <l xml:id="A04643-e103100">You shall your gentler limbs o'erlave,</l>
+          <l xml:id="A04643-e103110">And for your pains, perfection have. </l>
+          <l xml:id="A04643-e103120">So that, this night, the year gone round,</l>
+          <l xml:id="A04643-e103130">You do again salute this ground;</l>
+          <l xml:id="A04643-e103140">And, in the beams of yond bright sun,</l>
+          <l xml:id="A04643-e103150">Your faces dry, and all is done. </l>
+        </sp>
+        <p xml:id="A04643-e103160">At which in a dance they returned to the sea, where they took their shell; and, with this full song, went out.</p>
+        <lg type="song" xml:id="A04643-e103170">
+          <pb facs="9"/>
+          <head>Song.</head>
+          <l xml:id="A04643-e103180">Now Dian, with her burning face,</l>
+          <l xml:id="A04643-e103190">Declines apace:</l>
+          <l xml:id="A04643-e103200">By which our waters know</l>
+          <l xml:id="A04643-e103210">To ebb, that late did flow. </l>
+          <l xml:id="A04643-e103220">Back seas, back nymphs; but, with a forward grace,</l>
+          <l xml:id="A04643-e103230">Keep, still, your reverence to the place:</l>
+          <l xml:id="A04643-e103240">And shout with joy of favour, you have won,</l>
+          <l xml:id="A04643-e103250">In sight of Albion, Neptune's son. </l>
+        </lg>
+        <p xml:id="A04643-e103260">So ended the first masque, which (Beside the singular grace of music and dances) had that success in the nobility of performance; as nothing needs to the illustration, but the memory by whom it was personated.</p>
+      </div>
+      <div type="masque" xml:id="A04643-e103270">
+        <pb facs="10"/>
+        <head>The second masqve. Which was of beauty; was presented in the same court, at white-hall, on the Sunday night, after the twelfth night. 1608. </head>
+        <p xml:id="A04643-e103280">Two years being now past, that her majesty had intermitted these delights, and the third almost come; it was her highness' pleasure again to glorify the court, and command that I should think on some fit presentment, which should answer the former, still keeping them the same persons, the daughters of Niger, but their beauties varied, according to promise, and their time of absence excused, with four more added to their number.</p>
+        <p xml:id="A04643-e103290">To which limits, when I had apted my invention, and being to bring news of them, from the sea, I induced Boreas, one of the winds, as my fittest messenger; presenting him thus.</p>
+        <p xml:id="A04643-e103300">In a robe of russet, and white mixed, full, and bagged: his hair, and beard rough: and horrid; his wings grey, and full of snow, and icicles. His mantle born from him with wires, and in several puffs; his feet<note anchored="true" n="a" place="margin" xml:id="A04643-e103310">so Paus. in Eliacis reports him to have, as he was carved in ar●● Cips●lli. </note>ending in serpent's tails; and in his hand a leafless branch, laden with icicles.</p>
+        <p xml:id="A04643-e103320">But before, in midst of the hall; to keep the state of the feast, and season; I had placed<note anchored="true" n="b" place="margin" xml:id="A04643-e103330">see, iconolog. di Cesare Ripa. </note>January, in a throne of silver; his robe of aschcolour<pb facs="10"/> long, fringed with silver; a white mantle: his wings white, and his buskins: in his hand a laurel bough, upon his head an anademe of laurel, fronted with the sign Aquarius, and the character. Who as Boreas blustered forth, discovered himself.</p>
+        <sp xml:id="A04643-e103340" who="A04643-boreas">
+          <speaker>Boreas.</speaker>
+          <l xml:id="A04643-e103350">Which, among these is Albion, Neptune's son? </l>
+        </sp>
+        <sp xml:id="A04643-e103360" who="A04643-januarius">
+          <speaker>Ianvarivs.</speaker>
+          <l xml:id="A04643-e103370">What ignorance dares make that question? </l>
+          <l xml:id="A04643-e103380">Would any ask, who Mars were, in the wars? </l>
+          <l xml:id="A04643-e103390">Or, which is Hesperus, among the stars? </l>
+          <l xml:id="A04643-e103400">Of the bright planets, which is Sol? Or can</l>
+          <l xml:id="A04643-e103410">A doubt arise, among creatures, which is man? </l>
+          <l xml:id="A04643-e103420">Behold, whose eyes do dart Promethean fire</l>
+          <l xml:id="A04643-e103430">Throughout this all; whose precepts do inspire</l>
+          <l xml:id="A04643-e103440">The rest with duty; yet commanding, cheer:</l>
+          <l xml:id="A04643-e103450">And are obeyed, more with love, than fear. </l>
+        </sp>
+        <sp xml:id="A04643-e103460" who="A04643-boreas">
+          <speaker>Boreas.</speaker>
+          <l xml:id="A04643-e103470">What power art thou, that thus informest me? </l>
+        </sp>
+        <sp xml:id="A04643-e103480" who="A04643-januarius">
+          <speaker>Ianvarivs.</speaker>
+          <l xml:id="A04643-e103490">Dost thou not know me? Ay, to well, know thee</l>
+          <l xml:id="A04643-e103500"><pb facs="11"/> by thy<note anchored="true" n="a" place="margin" xml:id="A04643-e103510">Ovid metam: lib. 6. near the end see. — horridas i●â, quae soli●a est ●lli, nimiu●que domestica, vento, etc.</note> rude voice, that doth so hoarsely blow,</l>
+          <l xml:id="A04643-e103520">Thy hair, thy beard, thy wings, o'erhilled with snow,</l>
+          <l xml:id="A04643-e103530">Thy serpent feet, to be that rough northwind,</l>
+          <l xml:id="A04643-e103540">Boreas, that, to my reign, art still unkind. </l>
+          <l xml:id="A04643-e103550">I am the prince of months, called January;</l>
+          <l xml:id="A04643-e103560">Because by me<note anchored="true" n="b" place="margin" xml:id="A04643-e103570">see the offices, and power of Janus. Ovid. fast. 1. </note>Janus the year doth vary,</l>
+          <l xml:id="A04643-e103580">Shutting up wars, proclaiming peace, and feasts,</l>
+          <l xml:id="A04643-e103590">Freedom, and triumphs: making Kings his guests. </l>
+        </sp>
+        <sp xml:id="A04643-e103600" who="A04643-boreas">
+          <speaker>Boreas.</speaker>
+          <l xml:id="A04643-e103610">To thee then, thus, and by thee, to that King,</l>
+          <l xml:id="A04643-e103620">That doth thee present honours, do I bring</l>
+          <l xml:id="A04643-e103630">Present remembrance of twelve Aethiop dames:</l>
+          <l xml:id="A04643-e103640">Who, guided hither by the moon's bright flames,</l>
+          <l xml:id="A04643-e103650">To see his brighter light, were to the sea</l>
+          <l xml:id="A04643-e103660">Enjoined again, and (Thence assigned a day</l>
+          <l xml:id="A04643-e103670">For their return) were in the waves to leave</l>
+          <l xml:id="A04643-e103680">Their blackness, and true beauty to receive. </l>
+        </sp>
+        <sp xml:id="A04643-e103690" who="A04643-januarius">
+          <speaker>Ianvarivs.</speaker>
+          <l xml:id="A04643-e103700">Which they received, but broke their day: and yet</l>
+          <l xml:id="A04643-e103710">Have not returned a look of grace for it,</l>
+          <l xml:id="A04643-e103720">Showing a course, and most unfit neglect. </l>
+          <l xml:id="A04643-e103730">Twice have I come, in pomp here, to expect</l>
+          <l xml:id="A04643-e103740">Their presence; twice deluded, have been fain</l>
+          <l xml:id="A04643-e103750">With<note anchored="true" n="c" place="margin" xml:id="A04643-e103760">two marriages; the one of the Earl of Essex. 1606. the other of the lord hay. 1607. </note>other rites my feasts to entertain:</l>
+          <l xml:id="A04643-e103770">And, now the third time, turned about the year</l>
+          <l xml:id="A04643-e103780"><pb facs="11"/> since they were looked for; and, yet, are not here. </l>
+        </sp>
+        <sp xml:id="A04643-e103790" who="A04643-boreas">
+          <speaker>Boreas.</speaker>
+          <l xml:id="A04643-e103800">It was nor will, nor sloth, that caused their stay;</l>
+          <l xml:id="A04643-e103810">For they were all prepared by their day,</l>
+          <l xml:id="A04643-e103820">And, with religion, forward on their way:</l>
+          <l xml:id="A04643-e103830">When Proteus,<note anchored="true" n="d" place="margin" xml:id="A04643-e103840">read his description, with Virg. Geor. 4. Est in Carpathio neptuni gurgite vates, caeruleus Proteus.</note> the grey prophet of the sea,</l>
+          <l xml:id="A04643-e103850">Met them, and made report, how other four</l>
+          <l xml:id="A04643-e103860">Of their black kind, (Whereof their sire had store)</l>
+          <l xml:id="A04643-e103870">Faithful to that great wonder, so late done</l>
+          <l xml:id="A04643-e103880">Upon their sisters, by bright Albion,</l>
+          <l xml:id="A04643-e103890">Had followed them to seek Britannia forth,</l>
+          <l xml:id="A04643-e103900">And there, to hope like favour, as like worth. </l>
+          <l xml:id="A04643-e103910">Which night envied, as done<note anchored="true" n="e" place="margin" xml:id="A04643-e103920">because they were before of her complexion. </note>in her despite,</l>
+          <l xml:id="A04643-e103930">And (Mad to see an Aethiop washed white)</l>
+          <l xml:id="A04643-e103940">Thought to prevent in these; lest men should deem</l>
+          <l xml:id="A04643-e103950">Her colour, if thus changed, of small esteem. </l>
+          <l xml:id="A04643-e103960">And so, by malice, and her magic, tossed</l>
+          <l xml:id="A04643-e103970">The nymphs at sea, as they were almost lost,</l>
+          <l xml:id="A04643-e103980">Till, on an island, they by chance arrived,</l>
+          <l xml:id="A04643-e103990">That<note anchored="true" n="f" place="margin" xml:id="A04643-e104000">to give authority to this part of our fiction. Pliny hath a Chap. 95. of his 2. book. Nat. Hist. de insulis fluctuantib●● ▪ and, Card. lib. 1 de rerum varin. et. Cap. vii. reports one, to be in his time known, in the lake of Loumond, in Scotland. to let pass that of Delos. Etc.</note> floated in the main; where, yet, she 'Had gived sight. </l>
+          <l xml:id="A04643-e104010">Them so, in charms of darkness, as no might)</l>
+          <l xml:id="A04643-e104020">Should lose them thence, but their changed sisters</l>
+          <l xml:id="A04643-e104030">Whereat the twelve (In piety moved, and kind)</l>
+          <l xml:id="A04643-e104040">Straight, put themselves in act, the place to find;</l>
+          <l xml:id="A04643-e104050">Which was the night's sole trust they so will do,</l>
+          <l xml:id="A04643-e104060">That she, with labour, might confound them too. </l>
+          <l xml:id="A04643-e104070">For, ever since, with error hath she held</l>
+          <l xml:id="A04643-e104080"><pb facs="12"/> them wand'ring in the ocean, and so quelled</l>
+          <l xml:id="A04643-e104090">Their hopes beneath their toil, as (Desperate now</l>
+          <l xml:id="A04643-e104100">Of any least success unto their vow;</l>
+          <l xml:id="A04643-e104110">Nor knowing to return to express the grace,</l>
+          <l xml:id="A04643-e104120">Wherewith they labour to this prince, and place)</l>
+          <l xml:id="A04643-e104130">One of them, meeting me at sea, did pray,</l>
+          <l xml:id="A04643-e104140">That for the love of my<note anchored="true" n="a" place="margin" xml:id="A04643-e104150">the daughter of Erectheus, King of Athens, whom Boreas ravished a way, into Thrace, as she was playing with other virgins by the flood Ilissus: or (as some will) by the fountain Cephisus.</note> Orythyia,</l>
+          <l xml:id="A04643-e104160">(Whose very name did heat my frosty breast,</l>
+          <l xml:id="A04643-e104170">And make me shake my snow-filled wings, and crest)</l>
+          <l xml:id="A04643-e104180">To bear this sad report I would be won,</l>
+          <l xml:id="A04643-e104190">And frame their just excuse: which here I have done. </l>
+        </sp>
+        <sp xml:id="A04643-e104200" who="A04643-januarius">
+          <speaker>Ianvarivs.</speaker>
+          <l xml:id="A04643-e104210">Would thou hadst not begun, unlucky wind,</l>
+          <l xml:id="A04643-e104220">That never yet blewest goodness to mankind;</l>
+          <l xml:id="A04643-e104230">But with thy bitter, and too piercing breath,</l>
+          <l xml:id="A04643-e104240">Strikest<note anchored="true" n="b" place="margin" xml:id="A04643-e104250"><p xml:id="A04643-e104260">The violence of Boreas Ovid excellently describes in the place above quoted. </p><p xml:id="A04643-e104270">Hác nubila pello, hác freta concutio, nodosaque robora verto, induroque. nives, et terras grandine pulso.</p></note> horrors through the air, as sharp as death. </l>
+        </sp>
+        <p xml:id="A04643-e104280">Here a second wind came in, Wlturnus, in a blue coloured robe and mantle, puffed as the former, but somewhat sweeter; his face black, and on his<note anchored="true" n="c" place="margin" xml:id="A04643-e104290">according to that of Vir. denuntiat igneus Eu●●●. </note>head a red sun, showing he came from the East: his wings of several colours; his buskins white, and wrought with gold. </p>
+        <sp xml:id="A04643-e104300" who="A04643-vulturnus">
+          <speaker>Vvltvrnvs.</speaker>
+          <l xml:id="A04643-e104310">All horrors vanish, and all name of death,</l>
+          <l xml:id="A04643-e104320">Be all things here as calm as is my breath. </l>
+          <l xml:id="A04643-e104330"><pb facs="12"/>A gentler wind, Vulturnus, brings you news</l>
+          <l xml:id="A04643-e104340">The I'll is found, and that the nymphs now use</l>
+          <l xml:id="A04643-e104350">Their rest, and joy. The night's black charms are flown. </l>
+          <l xml:id="A04643-e104360">For, being made unto their goddess known,</l>
+          <l xml:id="A04643-e104370">Bright Aethiopia, the silver moon,</l>
+          <l xml:id="A04643-e104380">As she was<note anchored="true" n="a" place="margin" xml:id="A04643-e104390">she is called<seg xml:lang="unk" xml:id="A04643-e104400"> 〈◊〉 〈◊〉 〈◊〉</seg>, by Eurip. in Helena. which is Lucifera, to which name we here presently allude. </note>Hecate, she broke them soon:</l>
+          <l xml:id="A04643-e104410">And now by virtue of their light, and grace,</l>
+          <l xml:id="A04643-e104420">The glorious isle, wherein they rest, takes place</l>
+          <l xml:id="A04643-e104430">Of all the earth for beauty. <note anchored="true" n="b" place="margin" xml:id="A04643-e104440">for the more full and clear understanding of that which follows, have recourse to the succeeding pages; where the scene presents itself. </note>there, their Queen</l>
+          <l xml:id="A04643-e104450">Hath raised them a throne, that still is seen</l>
+          <l xml:id="A04643-e104460">To turn unto the motion of the world;</l>
+          <l xml:id="A04643-e104470">Wherein they sit, and are, like heaven, whirled</l>
+          <l xml:id="A04643-e104480">About the earth; whilst, to them contrary,</l>
+          <l xml:id="A04643-e104490">(Following those nobler torches of the sky)</l>
+          <l xml:id="A04643-e104500">A world of little loves, and chaste desires,</l>
+          <l xml:id="A04643-e104510">Do light their beauties, with still moving fires. </l>
+          <l xml:id="A04643-e104520">And who to heaven's consent can better move,</l>
+          <l xml:id="A04643-e104530">Than those that are so like it, beauty and love? </l>
+          <l xml:id="A04643-e104540">Hither, as to their new Elysium,</l>
+          <l xml:id="A04643-e104550">The spirits of the antique Greeks are come,</l>
+          <l xml:id="A04643-e104560">Poets, and singers, Linus, Orpheus, all</l>
+          <l xml:id="A04643-e104570">That have excelled in<note anchored="true" n="c" place="margin" xml:id="A04643-e104580">so Terence. and the ancients called poesy, artem musicam.</note> knowledge musical;</l>
+          <l xml:id="A04643-e104590">Where, set in arbours made of myrtle, and gold,</l>
+          <l xml:id="A04643-e104600">They live, again, these beauties to behold. </l>
+          <l xml:id="A04643-e104610">And thence, in flowery mazes walking forth</l>
+          <l xml:id="A04643-e104620">Sing hymns in celebration of their worth. </l>
+          <l xml:id="A04643-e104630">Whilst, to their songs, two fountains flow, one height</l>
+          <l xml:id="A04643-e104640">Of lasting youth, the other chaste delight,</l>
+          <l xml:id="A04643-e104650">That at the closes, from their bottoms spring,</l>
+          <l xml:id="A04643-e104660">And strike the air to echo what they sing. </l>
+          <pb facs="13"/>
+          <pb facs="13"/>
+          <l xml:id="A04643-e104670"><pb facs="14"/>But, why do I describe what all must see? </l>
+          <l xml:id="A04643-e104680">By this time, ne'er thy coast, they floating be;</l>
+          <l xml:id="A04643-e104690">For, so their virtuous goddess, the chaste moon,</l>
+          <l xml:id="A04643-e104700">Told them, the fate of th' island should, and soon</l>
+          <l xml:id="A04643-e104710">Would fix itself unto thy continent,</l>
+          <l xml:id="A04643-e104720">As being the place, by destiny foremeant,</l>
+          <l xml:id="A04643-e104730">Where they should slow forth, dressed in her attires:</l>
+          <l xml:id="A04643-e104740">And, that the influence of those holy fires,</l>
+          <l xml:id="A04643-e104750">(First rapt from hence) being multiplied upon</l>
+          <l xml:id="A04643-e104760">The other four, should make their beauties one. </l>
+          <l xml:id="A04643-e104770">Which now expect to see, great Neptune's son,</l>
+          <l xml:id="A04643-e104780">And love the miracle, which thyself hast done. </l>
+        </sp>
+        <p xml:id="A04643-e104790">Here, a curtain was drawn (In which the night was painted. ) and the scene discovered. which (Because the former was marine, and these, yet of necessity, to come from the sea) I devised, should be an island, floating on a calm water. In the midst thereof was a seat of state, called the throne of beauty, erected: divided into eight squares, and distinguished by so many Ionic pilasters. In these squares the sixteen masquers were placed by couples: behind them, in the centre of the throne was a tralucent pillar, shining with several coloured lights, that reflected on their backs. From the top of which pillar went several arches to the pilasters, that sustained the roof of the throne, which was likewise adorned with lights, and girlands; and between the pilasters, in front, little Cupids in<pb facs="14"/> flying posture, waving of wreaths, and lights, bore up the coronice: over which were placed eight figures, representing the elements of beauty; which advanced upon the Ionic, and being females, had the Corinthian order. The first was<list xml:id="A04643-e104800"><label xml:id="A04643-e104810">splendour.</label><item xml:id="A04643-e104820">In a robe of flame colour,<note anchored="true" n="a" place="margin" xml:id="A04643-e104830">the rose is called, elegantly, by Achil. Tat. lib. 2.<seg xml:lang="unk" xml:id="A04643-e104840"> 〈◊〉 〈◊〉 〈◊〉</seg>, the splendour of plants, and is everywhere taken for the hieroglyphic of splendour.</note> naked breasted; her bright hair loose flowing: she was drawn in a circle of clouds, her face, and body breaking through; and in her hand a branch, with two roses, a white, and a red. The next to her was</item><label xml:id="A04643-e104850">serenitas.</label><item xml:id="A04643-e104860">In a garment of bright skye-colour, a long tress, and waved with a veil of divers colours, such as the golden sky sometimes shows: upon her head a clear, and fair sun shining, with rays of gold striking down to the feet of the figure. In her hand a<note anchored="true" n="b" place="margin" xml:id="A04643-e104870">as this of serenity., applying to the optics reason of the rainbow ▪ and the mythologists making her the daughter of Electra. </note>crystal, cut with several angles, and shadowed with divers colours, as caused by refraction. The third</item><label xml:id="A04643-e104880">germinatio.</label><item xml:id="A04643-e104890">In green; with a zone of gold about<pb facs="15"/> her wast, crowned with myrtle, her hair likewise flowing, but not of so bright a colour: in her hand, a branch of<note anchored="true" n="r" place="margin" xml:id="A04643-e104900">so Hor. lib. 1. Od. 4. makes it the ensign of the spring. Nunc decet ●ut viridi nitidum caput impedire myrto, aut sl●re, terrae quem ferunt solutae. Etc.</note> myrtle. Her socks of green, and gold. The fourth was</item><label xml:id="A04643-e104910">Laetitia.</label><item xml:id="A04643-e104920">In a vesture of divers colours, and all sorts of flowers embroidered thereon. Her socks so fitted. A<note anchored="true" n="s" place="margin" xml:id="A04643-e104930">they are everywhere the tokens of gladness, at all feasts, sports.</note> garland of flowers in her hand; her eyes turning up, and smiling, her hair flowing, and stuck with flowers. The fifth</item><label xml:id="A04643-e104940">temperies.</label><item xml:id="A04643-e104950">In a garment of gold, silver, and colours woven: in one hand she held a<note anchored="true" n="t" place="margin" xml:id="A04643-e104960">the sign of temperature, as also her garland mixed of the four seasons. </note>burning steel, in the other, an urn with water. On her head a garland of flowers, corn, vine-leaves, and olive branches, interwoven. Her socks, as her garment. The sixth</item><label xml:id="A04643-e104970">Venustas.</label><item xml:id="A04643-e104980">In a silver robe, with a thin subtle veil over her hair, and it:<note anchored="true" n="u" place="margin" xml:id="A04643-e104990">pearls, with the ancients, were the special hieroglyphics of loveliness, in quibus nitor tantum et levor expetebantur. </note>pearl about her neck, and forehead. Her socks wrought with pearl. In her hand she bore several coloured<note anchored="true" n="x" place="margin" xml:id="A04643-e105000">so was the lily, of which the most delicate city of the Persians was called Susa: signifying that kind of flower, in their tongue.</note> lilies. The seventh was</item><label xml:id="A04643-e105010"><pb facs="15"/>dignitas.</label><item xml:id="A04643-e105020">In a dressing of state, the hair bound up with fillets of gold, the garments rich, and set with jewels, and gold; likewise her buskins, and in her hand a<note anchored="true" n="y" place="margin" xml:id="A04643-e105030">the sign, of honour, and dignity.</note> golden rod. The eight</item><label xml:id="A04643-e105040">perfectio.</label><item xml:id="A04643-e105050"><p xml:id="A04643-e105060">In a vesture of pure gold, a wreath of gold upon her head. About her body the<note anchored="true" n="z" place="margin" xml:id="A04643-e105070">both that, and the compass are known ensigns of perfection. </note>zodiac, with the signs: in her hand a compass of gold, drawing a circle. </p><p xml:id="A04643-e105080">On the top of all the throne, (As being made out of all these) stood</p></item><label xml:id="A04643-e105090">Harmonia.</label><item xml:id="A04643-e105100"><p xml:id="A04643-e105110">A personage, whose dressing had something of all the others, and had her robe painted full of figures. Her head was compassed with a crown of gold, having in it<note anchored="true" n="a" place="margin" xml:id="A04643-e105120">she is so described in iconolog. di Cesare Ripa, his reason of 7. jewels, in the crown, alludes to Pythagoras his comment, with Mac. lib. 2. Som. Sci. of the seven planets and their spheres. </note>seven jewels equally set. In her hand a lyra, whereon she rested.</p><p xml:id="A04643-e105130">This was the ornament of the throne. The ascent to which, consisting of six steps, was covered with a<note anchored="true" n="b" place="margin" xml:id="A04643-e105140">the inducing of many Cupid's wnts not defence, with the best and most received of the ancients, besides Prop. stati. Claud. sido: Apoll especially Phil. in icon. amor. whom I have particularly followed, in this description.</note> multitude of Cupids (Chosen out of the best, and most ingenuous youth of the kingdom, noble, and others) that were the<pb facs="16"/> torch-bearers; and all armed, with bows, quivers, wings, and other ensigns of love. On the sides of the throne, were curious, and elegant arbours appointed: and behind, in the back part of the I'll, a grove, of grown trees laden with golden fruit, which other little Cupids plucked, and threw each at other, whilst on the ground<note anchored="true" n="c" place="margin" xml:id="A04643-e105150">they were the notes of loveliness and sacred to Venus. See Phil. in that place, mentioned.</note> leverets picked up the bruised apples, and left them half eaten. The ground-plot of the whole was a subtle indented maze: and, in the two foremost angles, were two fountains, that ran continually, the one<note anchored="true" n="d" place="margin" xml:id="A04643-e105160">of youth.</note> Hebe's, the other<note anchored="true" n="e" place="margin" xml:id="A04643-e105170">of pleasure.</note> Hedone's: in the arbours, were placed the musicians, who represented the shades of the old poets, and were attired in a priest-like habit of crimson, and purple, with laurel girlands.</p></item></list></p>
+        <p xml:id="A04643-e105180">The colours of the masquers were varied; the one half in orange-tawny, and silver: the other in seagreen, and silver. The bodies and short skirts of white, and gold, to both.</p>
+        <p xml:id="A04643-e105190">The habit, and dressing (For the fashion) was most curious, and so exceeding in riches, as the throne whereon they sat, seemed to be a mine of light, stroke from their jewels, and their garments.</p>
+        <p xml:id="A04643-e105200">This throne, (As the whole island moved forward, on the water,) had a circular motion of it own, imitating that which we call motum mundi, from the East to the West, or the right to the left side. For so Hom. Ilia m. understands by<seg xml:lang="unk" xml:id="A04643-e105210"> 〈◊〉 〈◊〉 〈◊〉</seg>, orientalia mundi: by<seg xml:lang="unk" xml:id="A04643-e105220"> 〈◊〉 〈◊〉 〈◊〉</seg>, occidentalia. The<pb facs="16"/> steps, whereon the Cupids sat, had a motion contrary, with analogy, ad motum planetarum, from the West to the East: both which turned with their several lights. And with these three varied motions, at once, the whole scene shot itself to the land.</p>
+        <p xml:id="A04643-e105230">Above which, the moon was seen in a silver chariot, drawn by virgins, to ride in the clouds, and hold them greater light: with the sign Scorpio, and the character, placed before her.</p>
+        <p xml:id="A04643-e105240">The order of this scene was carefully, and ingeniously disposed; and as happily put in act (For the motions) by the King's master carpenter. The painters, I must needs say, (Not to belie them) lent small colour to any, to attribute much of the spirit of these things to their pencils. But that must not be imputed a crime either to the invention, or design.</p>
+        <p xml:id="A04643-e105250">Here the loud music ceased; and the musicians, which were placed in the arbours, came forth through the mazes, to the other land: singing this full song, iterated in the closes by two echoes, rising out of the fountains.</p>
+        <lg type="song" xml:id="A04643-e105260">
+          <head>Song.</head>
+          <l xml:id="A04643-e105270">When love, at first, did move</l>
+          <l xml:id="A04643-e105280">From<note anchored="true" n="f" place="margin" xml:id="A04643-e105290">so is he feigned by Orpheus, to have appeared first of all the gods: awakened by Clotho, and is therefore called Phanes, both by him, and Lactantius.</note> out of chaos, brightened</l>
+          <l xml:id="A04643-e105300">So was the world, and lightened,</l>
+          <l xml:id="A04643-e105310"><pb facs="17"/> as now! <stage xml:id="A04643-e105320">Ecch.</stage>as now! <stage xml:id="A04643-e105330">Ecch.</stage>as now! </l>
+          <l xml:id="A04643-e105340">Yield night, then, to the light,</l>
+          <l xml:id="A04643-e105350">As blackness hath to beauty;</l>
+          <l xml:id="A04643-e105360">Which is but the same duty. </l>
+          <l xml:id="A04643-e105370">It was<note anchored="true" n="g" place="margin" xml:id="A04643-e105380">an agreeing opinion, both with divines and philosophers, that the great artificer in love with his own idea, did, therefore, frame the world. </note>for beauty, that the world was made,</l>
+          <l xml:id="A04643-e105390">And where she reigns,<note anchored="true" n="h" place="margin" xml:id="A04643-e105400">alluding to his name of Himerus, and his signification in the name, which is desiderium posta spectum: and more than Erisychthon, which is only cupido, ex aspectu amare.</note> loves lights admit no shade. </l>
+          <l xml:id="A04643-e105410"><stage xml:id="A04643-e105420">Ecch.</stage>love's lights admit no shade. </l>
+          <l xml:id="A04643-e105430"><stage xml:id="A04643-e105440">Ecch.</stage>admit no shade. </l>
+        </lg>
+        <p xml:id="A04643-e105450">Which ended, Vulturnus the wind, spoke to the river Thamesis that lay along between the shores, leaning upon his urn (That flowed with water,) and crowned with flowers; with a blue cloth of silver robe about him: and was personated by master Thomas Giles, who made the dances. </p>
+        <sp xml:id="A04643-e105460" who="A04643-vulturnus">
+          <speaker>Vvltvrnvs.</speaker>
+          <l xml:id="A04643-e105470">Rise aged Thames, and by the hand</l>
+          <l xml:id="A04643-e105480">Receive these nymphs, within the land:</l>
+          <l xml:id="A04643-e105490">And, in those curious squares, and rounds,</l>
+          <l xml:id="A04643-e105500">Wherewith thou flowest betwixt the grounds</l>
+          <l xml:id="A04643-e105510">Of fruitful Kent, and Essex fair,</l>
+          <l xml:id="A04643-e105520">That lend thee garlands for thy hair;</l>
+          <l xml:id="A04643-e105530">Instruct their silver feet to tread,</l>
+          <l xml:id="A04643-e105540">Whilst we, again to sea, are fled. </l>
+        </sp>
+        <p xml:id="A04643-e105550">With which the winds departed; and the river received them into the land, by couples and fours, their Cupids coming before them.</p>
+        <list xml:id="A04643-e105560">
+          <pb facs="17"/>
+          <head>Their persons were.</head>
+          <item xml:id="A04643-e105570">The Queen.</item>
+          <item xml:id="A04643-e105580">La. Arabella.</item>
+          <item xml:id="A04643-e105590">Co. of Arundel.</item>
+          <item xml:id="A04643-e105600">Co. of Derby.</item>
+          <item xml:id="A04643-e105610">Co. of Bedford.</item>
+          <item xml:id="A04643-e105620">Co. of Montgomery.</item>
+          <item xml:id="A04643-e105630">La. Eliz. Gilford.</item>
+          <item xml:id="A04643-e105640">La. Kat. Peter.</item>
+          <item xml:id="A04643-e105650">La. Anne winter.</item>
+          <item xml:id="A04643-e105660">La. Winsore.</item>
+          <item xml:id="A04643-e105670">La. Anne Clifford.</item>
+          <item xml:id="A04643-e105680">La. Mary Nevill.</item>
+          <item xml:id="A04643-e105690">La. Eliz. Hatton.</item>
+          <item xml:id="A04643-e105700">La. Eliz. Garrard.</item>
+          <item xml:id="A04643-e105710">La. Chichester.</item>
+          <item xml:id="A04643-e105720">La. Walsingham.</item>
+        </list>
+        <p xml:id="A04643-e105730">The dancing forth a most curious dance, full of excellent device, and change, ended it in the figure of a diamant, and so, standing still, were by the musicians, with a second song (Sung by a loud tenor) celebrated.</p>
+        <lg type="song" xml:id="A04643-e105740">
+          <head>Song.</head>
+          <l xml:id="A04643-e105750">So beauty on the waters stood,</l>
+          <l xml:id="A04643-e105760">(When love had<note anchored="true" n="i" place="margin" xml:id="A04643-e105770">as, in the creation, he is said, by the ancients, to have done. </note>severed earth, from flood! </l>
+          <l xml:id="A04643-e105780">So when he parted air, from fire,</l>
+          <l xml:id="A04643-e105790">He did with concord all inspire! </l>
+          <l xml:id="A04643-e105800">And then a motion he them taught,</l>
+          <l xml:id="A04643-e105810">That elder than himself was thought. </l>
+          <l xml:id="A04643-e105820">Which thought was, yet,<note anchored="true" n="k" place="margin" xml:id="A04643-e105830">that is, born since the world, and, out of those duller apprehensions that did not think he was before. </note>the child of earth,</l>
+          <l xml:id="A04643-e105840">For love is elder than his birth. </l>
+        </lg>
+        <p xml:id="A04643-e105850">The song ended; they danced forth their second dance, more subtle, and full of change, than the former; and so exquisitely performed;<pb facs="18"/> as the King's majesty incited first (By his own liking, to that which all others, there present, wished) required them both again, after some time of dancing with the lords. Which time, to give them respite, was intermitted with song; first by a treble voice, in this manner.</p>
+        <lg type="song" xml:id="A04643-e105860">
+          <head>Song</head>
+          <l xml:id="A04643-e105870">If all these Cupids, now, were blind</l>
+          <l xml:id="A04643-e105880">As is<note anchored="true" n="a" place="margin" xml:id="A04643-e105890">I make these different from him, which they feign caecum cupidinem, or petulantem. as I express beneath in the third song. these being chaste loves, that attend a more divine beauty, than that of love's common parent.</note> their wanton brother;</l>
+          <l xml:id="A04643-e105900">Or play should put it in their mind</l>
+          <l xml:id="A04643-e105910">To shoot at one another:</l>
+          <l xml:id="A04643-e105920">What pretty battle they would make</l>
+          <l xml:id="A04643-e105930">If they their objects should mistake</l>
+          <l xml:id="A04643-e105940">And each one wound his mother! </l>
+        </lg>
+        <p xml:id="A04643-e105950">Which was seconded by another treble; thus.</p>
+        <lg type="song" xml:id="A04643-e105960">
+          <head>Song.</head>
+          <l xml:id="A04643-e105970">It was no polity of court,</l>
+          <l xml:id="A04643-e105980">Albe 'The place were charmed,</l>
+          <l xml:id="A04643-e105990">To let in earnest, or in sport,</l>
+          <l xml:id="A04643-e106000">So many loves in, armed. </l>
+          <l xml:id="A04643-e106010">For say, the dames should ▪ with their eyes,</l>
+          <l xml:id="A04643-e106020">Upon the hearts, here, mean surprise;</l>
+          <l xml:id="A04643-e106030">Were not the men like harmed? </l>
+        </lg>
+        <p xml:id="A04643-e106040">To which a tenor answered.</p>
+        <lg type="song" xml:id="A04643-e106050">
+          <head>Song.</head>
+          <l xml:id="A04643-e106060">Yes, were the loves or false, or straying;</l>
+          <l xml:id="A04643-e106070">Or beauties not their beauty weighing:</l>
+          <l xml:id="A04643-e106080"><pb facs="18"/> but here, no such deceit is mixed,</l>
+          <l xml:id="A04643-e106090">Their flames are pure, their eyes are fixed:</l>
+          <l xml:id="A04643-e106100">They do not war, with different darts,</l>
+          <l xml:id="A04643-e106110">But strike a music of like hearts. </l>
+        </lg>
+        <p xml:id="A04643-e106120">After which songs, they danced galliards, and corantoes; and with those excellent graces, that the music, appointed to celebrate them, showed it could be silent no longer: but by the first tenor, admitted them thus.</p>
+        <lg type="song" xml:id="A04643-e106130">
+          <head>Song.</head>
+          <l xml:id="A04643-e106140">Had those, that dwell in error foul,</l>
+          <l xml:id="A04643-e106150">And hold<note anchored="true" n="b" place="margin" xml:id="A04643-e106160">there hath been such a profane paradox published. </note>that women have no soul,</l>
+          <l xml:id="A04643-e106170">But seen these move; they would have, then</l>
+          <l xml:id="A04643-e106180">Said, women were the souls of men. </l>
+          <l xml:id="A04643-e106190">So they do move each heart, and eye</l>
+          <l xml:id="A04643-e106200">With the<note anchored="true" n="c" place="margin" xml:id="A04643-e106210">the platonics' opinion. See also Mac. lib. 1. and 2. Som. scip.</note> world's soul, true harmony. </l>
+        </lg>
+        <p xml:id="A04643-e106220">Here, they danced a third most elegant, and curious dance, and not to be described again, by any art, but that of their own footing: which, ending in the figure, that was to produce the fourth, January from his state saluted them, thus,</p>
+        <sp xml:id="A04643-e106230" who="A04643-januarius">
+          <speaker>Ianvarivs.</speaker>
+          <l xml:id="A04643-e106240">Your grace is great, as is your beauty, dames;</l>
+          <l xml:id="A04643-e106250">Enough my feasts have proved your thankful flames. </l>
+          <l xml:id="A04643-e106260">Now use your seat: that seat which was, before,</l>
+          <l xml:id="A04643-e106270">Thought straying, uncertain, floating to each shore,</l>
+          <l xml:id="A04643-e106280">And to whose having<note anchored="true" place="margin" xml:id="A04643-e106290">for what country is it thinks not her own beauty fairest, yet? </note>every clime laid claim,</l>
+          <l xml:id="A04643-e106300">Each land, and nation urged as the aim</l>
+          <l xml:id="A04643-e106310"><pb facs="19"/> of their ambition, beauties perfect throne,</l>
+          <l xml:id="A04643-e106320">Now made peculiar, to this place, alone;</l>
+          <l xml:id="A04643-e106330">And that, by impulsion of your destinies,</l>
+          <l xml:id="A04643-e106340">And his attractive beams, that lights these skies:</l>
+          <l xml:id="A04643-e106350">Who (Though with th'ocean compassed) never wets</l>
+          <l xml:id="A04643-e106360">His hair therein, nor wears a beam that sets. </l>
+          <l xml:id="A04643-e106370">Long may his light adorn these happy rites</l>
+          <l xml:id="A04643-e106380">As I renew them; and your gracious sights</l>
+          <l xml:id="A04643-e106390">Enjoy that happiness, e'en to envy, 'As when</l>
+          <l xml:id="A04643-e106400">Beauty, at large, broke forth, and conquered men. </l>
+        </sp>
+        <p xml:id="A04643-e106410">At which they danced their last dance, into their throne again: and that turning, the scene closed with this full song. </p>
+        <lg type="song" xml:id="A04643-e106420">
+          <head>Song.</head>
+          <l xml:id="A04643-e106430">Still turn, and imitate the heaven</l>
+          <l xml:id="A04643-e106440">In motion swift and even;</l>
+          <l xml:id="A04643-e106450">And as his planets go,</l>
+          <l xml:id="A04643-e106460">Your brighter lights do so:</l>
+          <l xml:id="A04643-e106470">May youth and pleasure ever flow. </l>
+          <l xml:id="A04643-e106480">But let your state, the while,</l>
+          <l xml:id="A04643-e106490">Be fixed as the isle. </l>
+          <l xml:id="A04643-e106500"><stage xml:id="A04643-e106510">Cho</stage>so all that see your beauty's sphere</l>
+          <l xml:id="A04643-e106520"><stage xml:id="A04643-e106530">Cho</stage>may know the Elysian fields are here. </l>
+          <l xml:id="A04643-e106540"><stage xml:id="A04643-e106550">Echo.</stage>th'elysian fields are here. </l>
+          <l xml:id="A04643-e106560"><stage xml:id="A04643-e106570">Echo.</stage>Elysian fields are here. </l>
+        </lg>
+        <trailer xml:id="A04643-e106580">The end.</trailer>
+        <pb facs="19"/>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A04643"><item xml:id="A04643-januarius" n="5">
+    <seg type="character_name">A04643-januarius</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A04643-boreas" n="4">
+    <seg type="character_name">A04643-boreas</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A04643-niger" n="3">
+    <seg type="character_name">A04643-niger</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A04643-oceanus" n="3">
+    <seg type="character_name">A04643-oceanus</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A04643-aethiopia" n="2">
+    <seg type="character_name">A04643-aethiopia</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A04643-vulturnus" n="2">
+    <seg type="character_name">A04643-vulturnus</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+</list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

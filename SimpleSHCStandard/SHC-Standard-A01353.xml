@@ -1,0 +1,2555 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A01353">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Like Will to Like <date type="creation_date">1568</date></title>
+        <author>Fulwell, Ulpian</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Madeline Burg</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A01353.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">A pleasant enterlude, intituled, Like will to like quoth the Deuill to the collier. Wherin is declared what punishments followe those that will rather liue licentiously: then esteeme and followe good councell. And what benefits they receiue that apply them selues to vertuous liuing and good exercises. Made by Vlpian Fulwel. Fiue may easily play this enterlude. ...</title>
+            <author>Fulwell, Ulpian, fl. 1586.</author>
+          </titleStmt>
+          <extent>22 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2004 May (TCP phase 1)</date>
+            <idno type="marc">99841389</idno>
+            <idno type="stc">STC (2nd ed.) 11474.</idno>
+            <idno type="stc">Greg, I, 50(c).</idno>
+            <idno type="vid">5970</idno>
+            <idno type="DLPS">A01353</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">A pleasant enterlude, intituled, Like will to like quoth the Deuill to the collier. Wherin is declared what punishments followe those that will rather liue licentiously: then esteeme and followe good councell. And what benefits they receiue that apply them selues to vertuous liuing and good exercises. Made by Vlpian Fulwel. Fiue may easily play this enterlude. ...</title>
+            <title type="alt">Like will to like</title>
+            <title type="alt">Like wil to like quod the Devel to the colier.</title>
+            <title type="alt">Pleasant enterlude, intituled, Like will to like quoth the Devill to the collier.</title>
+            <author>Fulwell, Ulpian, fl. 1586.</author>
+          </titleStmt>
+          <extent>[44] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by Edward Allde, and are to be solde at the Long Shop adioyning vnto Sainte Mildreds Church in the Pultrie,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1587.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>In verse.</p>
+            </note>
+            <note>
+              <p>Signatures: A-E4 F2.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A01353-e100010">
+    <front xml:id="A01353-e100020">
+      <div type="title_page" xml:id="A01353-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A01353-e100040">A pleasant interlude, entitled, like will to like quoth the devil to the collier. Wherein is declared what punishments follow those that will rather live licentiously: then esteem and follow good council. And what benefits they receive that apply themselves to virtuous living and good exercises. Made by Ulpian Fulwel.</p>
+        <p xml:id="A01353-e100050">Five may easily play this interlude. </p>
+        <p xml:id="A01353-e100060">
+          <list xml:id="A01353-e100070">
+            <head>For one.</head>
+            <item xml:id="A01353-e100080">The prologue.</item>
+            <item xml:id="A01353-e100090">Tom Tospot.</item>
+            <item xml:id="A01353-e100100">Hankin hangman.</item>
+            <item xml:id="A01353-e100110">Tom collier.</item>
+          </list>
+          <list xml:id="A01353-e100120">
+            <head>For one.</head>
+            <item xml:id="A01353-e100130">Lucifer.</item>
+            <item xml:id="A01353-e100140">Rafe Roister.</item>
+            <item xml:id="A01353-e100150">Good fame.</item>
+            <item xml:id="A01353-e100160">Severity.</item>
+          </list>
+          <list xml:id="A01353-e100170">
+            <head>For one.</head>
+            <item xml:id="A01353-e100180">Haunce.</item>
+            <item xml:id="A01353-e100190">Virtuous life.</item>
+            <item xml:id="A01353-e100200">God's promise.</item>
+            <item xml:id="A01353-e100210">Cutbert cutpurs</item>
+          </list>
+          <list xml:id="A01353-e100220">
+            <head>For one.</head>
+            <item xml:id="A01353-e100230">Philip fleming.</item>
+            <item xml:id="A01353-e100240">Pierce Pickpurs</item>
+            <item xml:id="A01353-e100250">Honour.</item>
+          </list>
+        </p>
+        <p xml:id="A01353-e100260">Nichol newfangle the vice.</p>
+        <p xml:id="A01353-e100270">London printed by Edward Allde, and are to be sold at the long shop adjoining unto saint Mildred's church in the Pultrie. 1587.</p>
+      </div>
+      <div type="prologue" xml:id="A01353-e100280">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The prologue.</head>
+        <l xml:id="A01353-e100290">Cicero in his book de amicitia these words doth express,</l>
+        <l xml:id="A01353-e100300">Saying nothing is more desirous than like is unto like:</l>
+        <l xml:id="A01353-e100310">Whose words are most true and of a certainty doubtless,</l>
+        <l xml:id="A01353-e100320">For the virtuous do not the virtuous company mislike. </l>
+        <l xml:id="A01353-e100330">But the vicious doth the virtuous company eschew:</l>
+        <l xml:id="A01353-e100340">And like will unto like this is most true. </l>
+        <l xml:id="A01353-e100350">It is not my meaning your ears for too weary,</l>
+        <l xml:id="A01353-e100360">With harkening what is the effect of our matter:</l>
+        <l xml:id="A01353-e100370">But our pretence is to move you to be merry,</l>
+        <l xml:id="A01353-e100380">Merrily to speak meaning no man to flatter. </l>
+        <l xml:id="A01353-e100390">The name of this matter as I said while ere,</l>
+        <l xml:id="A01353-e100400">Is like will to like quod the devil to the collier. </l>
+        <l xml:id="A01353-e100410">Sith pithy proverbs in our English sung do abound,</l>
+        <l xml:id="A01353-e100420">Our author thought good such a one for to choose:</l>
+        <l xml:id="A01353-e100430">As may show good example and mirth may eke be found,</l>
+        <l xml:id="A01353-e100440">But no lascivious toys he purposeth to use,</l>
+        <l xml:id="A01353-e100450">Herein as it were in a glass see you may:</l>
+        <l xml:id="A01353-e100460">The advancement of virtue and of vice the decay,</l>
+        <l xml:id="A01353-e100470">To what ruin ruffians and roisters are brought,</l>
+        <l xml:id="A01353-e100480">You may here see of them the final end:</l>
+        <l xml:id="A01353-e100490">Begging is the best though that end be naught. </l>
+        <l xml:id="A01353-e100500">But hanging is worse if they do not amend. </l>
+        <l xml:id="A01353-e100510">The virtuous life is brought to honour and dignity:</l>
+        <l xml:id="A01353-e100520">And at the last to everlasting eternity. </l>
+        <l xml:id="A01353-e100530">And because divers men of divers minds be,</l>
+        <l xml:id="A01353-e100540">Some do matters of mirth and pastime require:</l>
+        <l xml:id="A01353-e100550">Other some are delighted with matters of gravity.</l>
+        <l xml:id="A01353-e100560">To please all men is our authors chief desire. </l>
+        <l xml:id="A01353-e100570">Wherefore mirth with measure to sadness is annexed,</l>
+        <l xml:id="A01353-e100580">Desiring that none here at our matter will be perplexed. </l>
+        <l xml:id="A01353-e100590">Thus as I said I will be short and brief,</l>
+        <l xml:id="A01353-e100600">Because that from this dump you shall relieved be:</l>
+        <l xml:id="A01353-e100610"><pb facs="3"/> and the devil with the Colier, the thief that seeks the thief,</l>
+        <l xml:id="A01353-e100620">Shall soon make you merry as shortly you shall see. </l>
+        <l xml:id="A01353-e100630">And sith mirth for sadness is a sauce most sweet:</l>
+        <l xml:id="A01353-e100640">Take mirth then with measure that best sauceth it. </l>
+        <trailer xml:id="A01353-e100650">Finis.</trailer>
+      </div>
+    </front>
+    <body xml:id="A01353-e100660">
+      <div type="text" xml:id="A01353-e100670">
+        <stage xml:id="A01353-e100680">Heer entereth Nichol Newfangle the vice laughing, and hath a knave of clubs in his hand which as soon as he speaketh: he offereth unto one of the men or boys standing by.</stage>
+        <sp xml:id="A01353-e100690" who="A01353-newfangle">
+          <speaker>Newfan </speaker>
+          <l xml:id="A01353-e100700">¶ Ha, ha, ha, ha, now like unto like it will be none other,</l>
+          <l xml:id="A01353-e100710">Stoop gentle knave and take up your brother. </l>
+          <l xml:id="A01353-e100720">Why is it so? and is it even so indeed? </l>
+          <l xml:id="A01353-e100730">Why then may I say God send us good speed,</l>
+          <l xml:id="A01353-e100740">And is every one here so greatly unkind,</l>
+          <l xml:id="A01353-e100750">That I am no sooner out of sight but quite out of mind. </l>
+          <l xml:id="A01353-e100760">Marry this will make a man even weep for woe,</l>
+          <l xml:id="A01353-e100770">That on such a sudden no man will him know. </l>
+          <l xml:id="A01353-e100780">Though men be so dangerous now at this day,</l>
+          <l xml:id="A01353-e100790">Yet are women kind worms I dare well say. </l>
+          <l xml:id="A01353-e100800">How say you woman you that stand in the angle,</l>
+          <l xml:id="A01353-e100810">Were you never acquainted with Nichol Newfangle? </l>
+          <l xml:id="A01353-e100820">Then I see Nichol newfangle is quite forgotten,</l>
+          <l xml:id="A01353-e100830">Yet you will know me anon, I dare jeopard a groat. </l>
+          <l xml:id="A01353-e100840">Nichol newfangle is my name, do you me not know?</l>
+          <l xml:id="A01353-e100850">My whole education to you I will show,</l>
+          <l xml:id="A01353-e100860">For first before I was born I remember very well,</l>
+          <l xml:id="A01353-e100870">That my gransier and I made a journey into hell. </l>
+          <l xml:id="A01353-e100880">Where I was bound prentice before my nativity,</l>
+          <l xml:id="A01353-e100890">To Lucifer himself such was mine agility. </l>
+          <l xml:id="A01353-e100900">All kind of sciences he taught unto me,</l>
+          <l xml:id="A01353-e100910">That to the maintenance of pride might best agree. </l>
+          <l xml:id="A01353-e100920">I learned to make gowns with long sleeves and wings:</l>
+          <l xml:id="A01353-e100930">I learned to make ruffs like calves chitterlings. </l>
+          <l xml:id="A01353-e100940">Caps, hats, coats, and all kind of apparels,</l>
+          <l xml:id="A01353-e100950"><pb facs="3"/> and especially breathes as big as good barrels. </l>
+          <l xml:id="A01353-e100960">Shoes, boots, buskins, with many pretty toys,</l>
+          <l xml:id="A01353-e100970">All kind of garments for men, women and boys. </l>
+          <l xml:id="A01353-e100980">Know ye me not now I thought that at the last,</l>
+          <l xml:id="A01353-e100990">All acquaintance from Nichol newfangle is not past. </l>
+          <l xml:id="A01353-e101000">Nichol newfangle was and is and ever shall be,</l>
+          <l xml:id="A01353-e101010">And there are but few that are not acquainted with me. </l>
+          <l xml:id="A01353-e101020">For so soon as my prenticehood was once come out,</l>
+          <l xml:id="A01353-e101030">I went by and by the whole world about. </l>
+          <stage xml:id="A01353-e101040">Heer the devil entereth but speaketh not yet.</stage>
+          <l xml:id="A01353-e101050">Sancte benedicite, who have we here? </l>
+          <l xml:id="A01353-e101060">Tom tumbler or else some dancing bear,</l>
+          <l xml:id="A01353-e101070">Body of me it were best go no near,</l>
+          <l xml:id="A01353-e101080">For ought that I see it is my godfather Lucifer. </l>
+          <l xml:id="A01353-e101090">Whose prentice I have been this many a day,</l>
+          <l xml:id="A01353-e101100">But no more words but mum, you shall hear what he will say</l>
+        </sp>
+        <stage xml:id="A01353-e101110">This name Lucifer, must be written on his back and on his breast.</stage>
+        <sp xml:id="A01353-e101120" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e101130">¶ How mine own boy I am glad that thou art here,</p>
+        </sp>
+        <sp xml:id="A01353-e101140" who="A01353-unassigned">
+          <speaker>〈◊〉</speaker>
+          <p xml:id="A01353-e101150">‡ he speaketh to you sir, I pray you come near.<stage xml:id="A01353-e101160">Pointing to one standing by.</stage></p>
+        </sp>
+        <sp xml:id="A01353-e101170" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e101180">‡ nay thou art even he of whom I am well apaid.</p>
+        </sp>
+        <sp xml:id="A01353-e101190" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <p xml:id="A01353-e101200">¶ Then speak aloof of, to come nigh I am afraid.</p>
+        </sp>
+        <sp xml:id="A01353-e101210" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e101220">¶ Why so my boy as though thou didst never see me?</p>
+        </sp>
+        <sp xml:id="A01353-e101230" who="A01353-newfangle">
+          <speaker>New●●●. </speaker>
+          <l xml:id="A01353-e101240">¶ Yes godfather but I am afraid it is now as often times it is with thee</l>
+          <l xml:id="A01353-e101250">For if my dame and thou hast been tumbling by the ears,</l>
+          <l xml:id="A01353-e101260">As oftentimes you do like a couple of great bears. </l>
+          <l xml:id="A01353-e101270">Thou carest not whom thou killest in thy raging mind,</l>
+          <l xml:id="A01353-e101280">Dost not thou remember since thou bruisedst me behind? </l>
+          <l xml:id="A01353-e101290">This hole in thy fury didst thou disclose:</l>
+          <l xml:id="A01353-e101300">That now may a tent be put in as big as thy nose.</l>
+          <l xml:id="A01353-e101310">This was when my dame called thee bottle nosed knave:</l>
+          <l xml:id="A01353-e101320"><pb facs="4"/> but I am like to carry the mark to my grave,</l>
+        </sp>
+        <sp xml:id="A01353-e101330" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <l xml:id="A01353-e101340">¶ O my good boy he not afraid,</l>
+          <l xml:id="A01353-e101350">For no such thing hath happened as thou hast said. </l>
+          <l xml:id="A01353-e101360">But come to me my boy and bless thee I will,</l>
+          <l xml:id="A01353-e101370">And see that my precepts thou do fulfil. </l>
+        </sp>
+        <sp xml:id="A01353-e101380" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <l xml:id="A01353-e101390">‡ well godfather if you will say ought to me in this case,</l>
+          <l xml:id="A01353-e101400">Speak for in faith I mean not to kneel to that ill face. </l>
+          <l xml:id="A01353-e101410">If our lady Walsingham had no fairer face and visage,</l>
+          <l xml:id="A01353-e101420">By the mass they were fools that would go to her on pilgrimage</l>
+        </sp>
+        <sp xml:id="A01353-e101430" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <l xml:id="A01353-e101440">¶ Well boy it shall not greatly skill:</l>
+          <l xml:id="A01353-e101450">Whether thou stand or whether thou kneel.</l>
+          <l xml:id="A01353-e101460">Thou knowest what sciences I have thee taught,</l>
+          <l xml:id="A01353-e101470">Which are able to bring the world to naught,</l>
+          <l xml:id="A01353-e101480">For thou knowest that through pride from heaven I was cast:</l>
+          <l xml:id="A01353-e101490">Even unto hell wherefore see thou make haste. </l>
+          <l xml:id="A01353-e101500">Such pride through new fashions in men's hearts for to sow.</l>
+          <l xml:id="A01353-e101510">That those that use it may have the like overthrow. </l>
+          <l xml:id="A01353-e101520">From virtue procure men to set their minds aside:</l>
+          <l xml:id="A01353-e101530">And wholly employ it to all sin and pride. </l>
+          <l xml:id="A01353-e101540">Let thy new fangled fashions bear such a sway:</l>
+          <l xml:id="A01353-e101550">That a rascal be as proud as he that best may. </l>
+        </sp>
+        <sp xml:id="A01353-e101560" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <l xml:id="A01353-e101570">¶ Tush, tush, that is already brought to pass,</l>
+          <l xml:id="A01353-e101580">For a very skip jack is prouder I swear by the mass,</l>
+          <l xml:id="A01353-e101590">And seeketh to go more gayer and brave:</l>
+          <l xml:id="A01353-e101600">Then doth a lord though himself be a knave. </l>
+        </sp>
+        <sp xml:id="A01353-e101610" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <l xml:id="A01353-e101620">† I can thee thank that so well thou hast played thy part,</l>
+          <l xml:id="A01353-e101630">Such as do so shall soon feel the smart. </l>
+          <l xml:id="A01353-e101640">Sith that thou hast thus done, there remaineth behind,</l>
+          <l xml:id="A01353-e101650">That thou in another thing show thy right kind. </l>
+        </sp>
+        <sp xml:id="A01353-e101660" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e101670">¶ Then good godfather let me hear thy mind.</p>
+        </sp>
+        <sp xml:id="A01353-e101680" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <l xml:id="A01353-e101690">¶ Thou knowest that I am both proud and arrogant,</l>
+          <l xml:id="A01353-e101700">And with the proud I will ever be conversant. </l>
+          <l xml:id="A01353-e101710">I cannot abide to see men that are vicious,</l>
+          <l xml:id="A01353-e101720"><pb facs="4"/> accompany themselves with such as be virtuous. </l>
+          <l xml:id="A01353-e101730">Wherefore my mind is sith thou thy part canst play,</l>
+          <l xml:id="A01353-e101740">That thou adjoin like to like always. </l>
+        </sp>
+        <sp xml:id="A01353-e101750" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <p xml:id="A01353-e101760">¶ I never loved that well I swear by this day,</p>
+        </sp>
+        <sp xml:id="A01353-e101770" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e101780">¶ What my boy?</p>
+        </sp>
+        <sp xml:id="A01353-e101790" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <l xml:id="A01353-e101800">¶ Your mind is sith I fast three meals every good Friday.</l>
+          <l xml:id="A01353-e101810">That I eat nothing but onions and leeks always. </l>
+        </sp>
+        <sp xml:id="A01353-e101820" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <l xml:id="A01353-e101830">¶ Nay my mind is sith thou thy part canst play:</l>
+          <l xml:id="A01353-e101840">That thou adjoin like to like always. </l>
+        </sp>
+        <sp xml:id="A01353-e101850" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <l xml:id="A01353-e101860">¶ Tush, tush godfather devil for that have thou no care,</l>
+          <l xml:id="A01353-e101870">Thou knowest that like will to like quod the devil to the Colier. </l>
+          <l xml:id="A01353-e101880">And thou shalt see that such a match I shall make anon:</l>
+          <l xml:id="A01353-e101890">That thou shalt say I am thy good good sweet sweet godson. </l>
+        </sp>
+        <sp xml:id="A01353-e101900" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e101910">¶ I will give thee thanks when thou hast so done.</p>
+        </sp>
+        <stage xml:id="A01353-e101920">Heer entereth the Colier.</stage>
+        <sp xml:id="A01353-e101930" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <l xml:id="A01353-e101940">¶ Well godfather no more words but mum,</l>
+          <l xml:id="A01353-e101950">For yonder comes the collier as seemeth me,</l>
+          <l xml:id="A01353-e101960">By the mass he will make a good mate for thee.</l>
+          <l xml:id="A01353-e101970">What old acquaintance small remembrance,</l>
+          <l xml:id="A01353-e101980">Welcome to town with? very vengeance. </l>
+          <l xml:id="A01353-e101990">Now welcome Tom Colier give me thy hand:</l>
+          <l xml:id="A01353-e102000">As very a knave as any in england. </l>
+        </sp>
+        <sp xml:id="A01353-e102010" who="A01353-collier">
+          <speaker>T. Collier</speaker>
+          <p xml:id="A01353-e102020">¶ By mass god amarcy my vreend Nichol,</p>
+        </sp>
+        <sp xml:id="A01353-e102030" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <p xml:id="A01353-e102040">¶ By God and welcome gentle Tom lick hole,</p>
+        </sp>
+        <sp xml:id="A01353-e102050" who="A01353-collier">
+          <speaker>T. Collier</speaker>
+          <l xml:id="A01353-e102060">¶ Cham glad to zee thee merry my vreend Nickol,</l>
+          <l xml:id="A01353-e102070">And how dost thou nowadays good nickole. </l>
+        </sp>
+        <sp xml:id="A01353-e102080" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <p xml:id="A01353-e102090">¶ And nothing else but even plain Nichol?</p>
+        </sp>
+        <sp xml:id="A01353-e102100" who="A01353-collier">
+          <speaker>T. Collier</speaker>
+          <p xml:id="A01353-e102110">‡ I pray thee tell me how dost good vreend lick hole.</p>
+        </sp>
+        <sp xml:id="A01353-e102120" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <l xml:id="A01353-e102130">‡ it is turned from Nichol to lick hole with Tom Colier</l>
+          <l xml:id="A01353-e102140">I say no more Tom but hold thy nose there. </l>
+        </sp>
+        <sp xml:id="A01353-e102150" who="A01353-collier">
+          <speaker>T. Collier</speaker>
+          <l xml:id="A01353-e102160">¶ Nay hold thy tongue Nichol till my nose doth come:</l>
+          <l xml:id="A01353-e102170">So thou shalt take part and I shall take zome. </l>
+        </sp>
+        <sp xml:id="A01353-e102180" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <l xml:id="A01353-e102190">‡ well tom Colier let these things pass away,</l>
+          <l xml:id="A01353-e102200"><pb facs="5"/> tell me what market thou hast made of thy coals today,</l>
+        </sp>
+        <sp xml:id="A01353-e102210" who="A01353-colliar">
+          <speaker>T. Collier.</speaker>
+          <l xml:id="A01353-e102220">¶ To every bushel Cha solded three pack,</l>
+          <l xml:id="A01353-e102230">Lo here be the empty sacks on my neck. </l>
+          <l xml:id="A01353-e102240">Cha begide the whoresons that of me ha bought,</l>
+          <l xml:id="A01353-e102250">But to beguile me was their whole thought</l>
+        </sp>
+        <sp xml:id="A01353-e102260" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <p xml:id="A01353-e102270">¶ But hast thou no conscience to beguile thy poor neighbour.</p>
+        </sp>
+        <sp xml:id="A01353-e102280" who="A01353-collier">
+          <speaker>T. Collier</speaker>
+          <l xml:id="A01353-e102290">¶ No marry zo I may gain vor my labour. </l>
+          <l xml:id="A01353-e102300">It is a common trade nowadays this is plain.</l>
+          <l xml:id="A01353-e102310">To cut one another's throat vor lucre and gain. </l>
+          <l xml:id="A01353-e102320">A small vault as the world is now brought to pass</l>
+        </sp>
+        <sp xml:id="A01353-e102330" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <l xml:id="A01353-e102340">¶ Thou art a good fellow I swear by the mass. </l>
+          <l xml:id="A01353-e102350">As fit a companion for the devil as may be,</l>
+          <l xml:id="A01353-e102360">Lo good father devil this fellow will I match with thee. </l>
+        </sp>
+        <sp xml:id="A01353-e102370" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e102380">¶ And good Tom collier thou art welcome to me,<stage xml:id="A01353-e102390">He taketh him by the hand</stage></p>
+        </sp>
+        <sp xml:id="A01353-e102400" who="A01353-colliar">
+          <speaker>T. Colliar.</speaker>
+          <p xml:id="A01353-e102410">‡ god a mercy good devil cham glad of thy company.</p>
+        </sp>
+        <sp xml:id="A01353-e102420" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e102430">¶ Like will to like I see very well,</p>
+        </sp>
+        <sp xml:id="A01353-e102440" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <p xml:id="A01353-e102450">‡ god father wilt thou dance a little before thou go home to hell</p>
+        </sp>
+        <sp xml:id="A01353-e102460" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e102470">¶ I am content so that tom colier do agree,</p>
+        </sp>
+        <sp xml:id="A01353-e102480" who="A01353-collier">
+          <speaker>T. Collier</speaker>
+          <p xml:id="A01353-e102490">¶ I will never refuse devil to dance with thee.</p>
+        </sp>
+        <sp xml:id="A01353-e102500" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e102510">¶ Then godfather name what the dance shall be.</p>
+        </sp>
+        <sp xml:id="A01353-e102520" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e102530">¶ Tom Colier of Croidon hath sold his coal,</p>
+        </sp>
+        <sp xml:id="A01353-e102540" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <p xml:id="A01353-e102550">¶ Why then have at it by my father's soul.</p>
+        </sp>
+        <stage xml:id="A01353-e102560">Nichol Newfangle must have a gittern or some other instrument (If he may) but if they have none: they must dance about the place all three, and sing this song that followeth, which must be done though they have an instrument.</stage>
+        <floatingText xml:id="A01353-e102570">
+          <body xml:id="A01353-e102580">
+            <div type="song" xml:id="A01353-e102590">
+              <head>The song,</head>
+              <l xml:id="A01353-e102600">Tom Colier of Croidon hath sold his coals,</l>
+              <l xml:id="A01353-e102610">And made his market today:</l>
+              <l xml:id="A01353-e102620">And now he danceth with the devil,</l>
+              <l xml:id="A01353-e102630">For like will to like always. </l>
+              <l xml:id="A01353-e102640">¶ Wherefore let us rejoice and sing,</l>
+              <l xml:id="A01353-e102650">Let us be merry and glad,</l>
+              <l xml:id="A01353-e102660"><pb facs="5"/> sith that the Colier and the devil,</l>
+              <l xml:id="A01353-e102670">This match and baunce hath made. </l>
+              <l xml:id="A01353-e102680">¶ Now of this dance we make an and,</l>
+              <l xml:id="A01353-e102690">With mirth and eke with joy:</l>
+              <l xml:id="A01353-e102700">The Colier and the devil will be,</l>
+              <l xml:id="A01353-e102710">Much like to like always. </l>
+              <trailer xml:id="A01353-e102720">Finis.</trailer>
+            </div>
+          </body>
+        </floatingText>
+        <sp xml:id="A01353-e102730" who="A01353-newfangle">
+          <speaker>Ni. Newfang</speaker>
+          <l xml:id="A01353-e102740">¶ Aha, marry this is trini singing,</l>
+          <l xml:id="A01353-e102750">I had not thought the devil to be so cunning. </l>
+          <l xml:id="A01353-e102760">And by the mass Tom Colier is as good as he,</l>
+          <l xml:id="A01353-e102770">I see that like with like will ever agree. </l>
+        </sp>
+        <sp xml:id="A01353-e102780" who="A01353-collier">
+          <speaker>T. Colier</speaker>
+          <p xml:id="A01353-e102790">¶ Var well master devil vorich must be gone,<stage xml:id="A01353-e102800">Exit</stage></p>
+        </sp>
+        <sp xml:id="A01353-e102810" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e102820">¶ Why then farewell my gentle friend Tom.</p>
+        </sp>
+        <sp xml:id="A01353-e102830" who="A01353-newfangle">
+          <speaker>Ni. Newfang</speaker>
+          <l xml:id="A01353-e102840">¶ Farewell tour Colier a knave be thy comfort,</l>
+          <l xml:id="A01353-e102850">How sayest thou godfather, is not this trim sport ▪</l>
+        </sp>
+        <sp xml:id="A01353-e102860" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e102870">¶ Thou art mine own boy, my blessing thou shalt have,</p>
+        </sp>
+        <sp xml:id="A01353-e102880" who="A01353-newfangle">
+          <speaker>Ni. Newfang</speaker>
+          <l xml:id="A01353-e102890">¶ By my troth godfather that blessing I do not crave. </l>
+          <l xml:id="A01353-e102900">But if you go your way I will do my diligence,</l>
+          <l xml:id="A01353-e102910">As well in your absence as in your presence. </l>
+        </sp>
+        <sp xml:id="A01353-e102920" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <l xml:id="A01353-e102930">¶ But thou shalt salute me or I go doubtless,</l>
+          <l xml:id="A01353-e102940">That in thy doings thou mayst have the better success. </l>
+          <l xml:id="A01353-e102950">Wherefore kneel down and say after me,</l>
+        </sp>
+        <sp xml:id="A01353-e102960" who="A01353-newfangle">
+          <speaker>Ni. Newfang</speaker>
+          <l xml:id="A01353-e102970">¶ When thedevil will have it so: it must needs so be.<stage xml:id="A01353-e102980">He kneeleth down.</stage></l>
+          <l xml:id="A01353-e102990">What shall I say bottle nosed godfather canst thou tell? </l>
+        </sp>
+        <sp xml:id="A01353-e103000" who="A01353-lucifer">
+          <speaker>Lucifer</speaker>
+          <p xml:id="A01353-e103010">¶ All hail o noble prince of hell,</p>
+        </sp>
+        <sp xml:id="A01353-e103020" who="A01353-newfangle">
+          <speaker>N. Newfang</speaker>
+          <p xml:id="A01353-e103030">¶ All my dame's cow tails fell down into the well.</p>
+        </sp>
+        <sp xml:id="A01353-e103040" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e103050">¶ I will exalt thee above the clouds,</p>
+        </sp>
+        <sp xml:id="A01353-e103060" who="A01353-newfangle">
+          <speaker>Ni. Newfang</speaker>
+          <p xml:id="A01353-e103070">¶ I will salt thee and hang thee in the shrowds.</p>
+        </sp>
+        <sp xml:id="A01353-e103080" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e103090">¶ Thou art the enhancer of my renown,</p>
+        </sp>
+        <sp xml:id="A01353-e103100" who="A01353-newfangle">
+          <speaker>Newfang</speaker>
+          <p xml:id="A01353-e103110">¶ Thou art Haunce the hangman of Callis town,</p>
+        </sp>
+        <sp xml:id="A01353-e103120" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e103130">¶ To thee be honour alone,</p>
+        </sp>
+        <sp xml:id="A01353-e103140" who="A01353-newfangle">
+          <speaker>Newfang</speaker>
+          <p xml:id="A01353-e103150">¶ To thee shall come our hobbling Joan.</p>
+        </sp>
+        <sp xml:id="A01353-e103160" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e103170">* amen.</p>
+        </sp>
+        <sp xml:id="A01353-e103180" who="A01353-newfangle">
+          <speaker>Newfang</speaker>
+          <p xml:id="A01353-e103190">¶ Amen.</p>
+        </sp>
+        <sp xml:id="A01353-e103200" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <p xml:id="A01353-e103210">¶ Now farewell my boy, farewell heartily,</p>
+        </sp>
+        <sp xml:id="A01353-e103220" who="A01353-newfangle">
+          <pb facs="6"/>
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e103230">¶ Is there never a knave here will keep the devil company? </l>
+          <l xml:id="A01353-e103240">Farewell godfather for thou must go alone:</l>
+          <l xml:id="A01353-e103250">I pray thee come hither again anon. <stage xml:id="A01353-e103260">Exit Lucifer.</stage></l>
+          <l xml:id="A01353-e103270">Marry here was a benediction of the devil's good grace,</l>
+          <l xml:id="A01353-e103280">Body of me I was so afraid I was like to bestench the place. </l>
+          <l xml:id="A01353-e103290">My buttocks made buttons of the new fashion. </l>
+          <l xml:id="A01353-e103300">While the whoreson devil was making his salutation. </l>
+          <l xml:id="A01353-e103310">But by the mass I am as glad as ever was madge mare:</l>
+          <l xml:id="A01353-e103320">That the whoreson devil is joined with the knave coliar. </l>
+          <l xml:id="A01353-e103330">As fit a match as ever could be picked out:</l>
+          <l xml:id="A01353-e103340">What sayest thou Joan with the long snout. </l>
+          <stage xml:id="A01353-e103350">Tom to spot cometh in with a feather in his hat.</stage>
+          <l xml:id="A01353-e103360">But who comes yonder puffing as hot as a black pudding,</l>
+          <l xml:id="A01353-e103370">I hold xx. li. it is a ruffian, if a goose go a gooding. </l>
+        </sp>
+        <sp xml:id="A01353-e103380" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e103390">‡ gog's heart and his guts is not this too bad? </l>
+          <l xml:id="A01353-e103400">Blood, wounds and nails, it will make a man mad</l>
+        </sp>
+        <sp xml:id="A01353-e103410" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e103420">¶ I warrant you here is a lusty one very brave:</l>
+          <l xml:id="A01353-e103430">I think anon he will swear himself a knave. </l>
+        </sp>
+        <sp xml:id="A01353-e103440" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e103450">‡ many a mile have I ridden and many a mile have I gone:</l>
+          <l xml:id="A01353-e103460">Yet can I not find for me a fit companion. </l>
+          <l xml:id="A01353-e103470">Many there be which my company would frequent,</l>
+          <l xml:id="A01353-e103480">If to do as they do I would be content. </l>
+          <l xml:id="A01353-e103490">They would have me leave off my pride and swearing,</l>
+          <l xml:id="A01353-e103500">My new fangled fashions and leave of this wearing. </l>
+          <l xml:id="A01353-e103510">But rather than I such companions will have:</l>
+          <l xml:id="A01353-e103520">I will see a thousand of them laid in their grave. </l>
+          <l xml:id="A01353-e103530">Similis similem sibi quaerit, such a one do I seek</l>
+          <l xml:id="A01353-e103540">As unto myself in every condition is like. </l>
+        </sp>
+        <sp xml:id="A01353-e103550" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e103560">¶ Sir you are welcome ye seem to be an honest man:</l>
+          <l xml:id="A01353-e103570">And I will help you in this matter as much as I can. </l>
+          <l xml:id="A01353-e103580">If you tarry here a while I tell you in good sooth,</l>
+          <l xml:id="A01353-e103590">I will find one as fit for you as a pudding for a friar's mouth. </l>
+        </sp>
+        <sp xml:id="A01353-e103600" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e103610">‡ I thank you my friend for your gentle offer to me. </l>
+          <l xml:id="A01353-e103620"><pb facs="6"/>I pray you tell me what your name may be. </l>
+        </sp>
+        <sp xml:id="A01353-e103630" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e103640">‡ methink by your apparel you have had me in regard:</l>
+          <l xml:id="A01353-e103650">I pray you of Nichol newfangle have you never heard? </l>
+        </sp>
+        <sp xml:id="A01353-e103660" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e103670">‡ Nichol Newfangle? why we are of old acquaintance,</p>
+        </sp>
+        <sp xml:id="A01353-e103680" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e103690">‡ by my troth your name is quite out of my remembrance.</p>
+        </sp>
+        <sp xml:id="A01353-e103700" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e103710">‡ at your first coming into England well I wot,</l>
+          <l xml:id="A01353-e103720">You were very well acquainted with Tom Tospot. </l>
+        </sp>
+        <sp xml:id="A01353-e103730" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <p xml:id="A01353-e103740">‡ tom Tospot? Sancti amen, how you were out of my mind:</p>
+        </sp>
+        <sp xml:id="A01353-e103750" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e103760">¶ You know when you brought into England this new fangled kind</l>
+          <l xml:id="A01353-e103770">That tosspots and ruffians with you were first acquainted,</l>
+        </sp>
+        <sp xml:id="A01353-e103780" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <p xml:id="A01353-e103790">‡ it is even so Tom Tospot as thou hast said.</p>
+        </sp>
+        <sp xml:id="A01353-e103800" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e103810">¶ It is an old saying, that mountains and hills never meet,</l>
+          <l xml:id="A01353-e103820">But I see that men shall meet, though they do not seek. </l>
+          <l xml:id="A01353-e103830">And I promise you more joy in my heart I have found:</l>
+          <l xml:id="A01353-e103840">Then if I had gained an hundred pound. </l>
+        </sp>
+        <sp xml:id="A01353-e103850" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <l xml:id="A01353-e103860">‡ and I am as glad as one had given me a groat:</l>
+          <l xml:id="A01353-e103870">That I have met with thee Tom tosspot,</l>
+          <l xml:id="A01353-e103880">And seeing a mate thou wouldst so fain have,</l>
+          <l xml:id="A01353-e103890">I will join thee with one that shall be as very a knave.</l>
+          <l xml:id="A01353-e103900">As thou art thyself you may believe me:</l>
+          <l xml:id="A01353-e103910">Thou shalt see anon what I will do for thee. </l>
+          <l xml:id="A01353-e103920">For you seek as very a knave as you yourself are:</l>
+          <l xml:id="A01353-e103930">For like will to like quod the devil to the collier. </l>
+        </sp>
+        <sp xml:id="A01353-e103940" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e103950">‡ indeed Nichol newfangle ye say the verity,<stage xml:id="A01353-e103960">Here entereth Rafe Roister.</stage></l>
+          <l xml:id="A01353-e103970">For like will to like it will none otherwise be. </l>
+        </sp>
+        <sp xml:id="A01353-e103980" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e103990">‡ behold tom tosspot even in pudding time:</l>
+          <l xml:id="A01353-e104000">Yonder cometh Rafe Roister an old friend of mine,</l>
+          <l xml:id="A01353-e104010">By the mass for thee he is so fit a mate</l>
+          <l xml:id="A01353-e104020">As Tom and Tib for Kit and Kate. </l>
+          <l xml:id="A01353-e104030">Now welcome my friend Rafe roister by the mass,</l>
+        </sp>
+        <sp xml:id="A01353-e104040" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <p xml:id="A01353-e104050">‡ and I am glad to see you here in this place.</p>
+        </sp>
+        <sp xml:id="A01353-e104060" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e104070">‡ bid him welcome, hark he can play a knave's part:</p>
+        </sp>
+        <sp xml:id="A01353-e104080" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e104090">‡ my friend you are welcome with all my heart.</p>
+        </sp>
+        <sp xml:id="A01353-e104100" who="A01353-roister">
+          <pb facs="7"/>
+          <speaker>R. Roister.</speaker>
+          <p xml:id="A01353-e104110">¶ God a mercy good fellow, tell me what thou art.</p>
+        </sp>
+        <sp xml:id="A01353-e104120" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e104130">¶ As very a knave as thou, though the best be too bad,</p>
+        </sp>
+        <sp xml:id="A01353-e104140" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e104150">¶ I am one, which of thy company would be very glad.</p>
+        </sp>
+        <sp xml:id="A01353-e104160" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <l xml:id="A01353-e104170">¶ And I will not your company refuse of a certainty. </l>
+          <l xml:id="A01353-e104180">So that to my conditions your manners do agree. </l>
+        </sp>
+        <sp xml:id="A01353-e104190" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e104200">¶ It should appear by your sayings that we are of one mind,</l>
+          <l xml:id="A01353-e104210">For I know that roisters and tosspots come of one kind. </l>
+          <l xml:id="A01353-e104220">And as our names be much of one accord and much like,</l>
+          <l xml:id="A01353-e104230">So I think our conditions be not far unlike. </l>
+        </sp>
+        <sp xml:id="A01353-e104240" who="A01353-roister">
+          <speaker>R. Roister.</speaker>
+          <l xml:id="A01353-e104250">¶ If your name to me you will declare and show:</l>
+          <l xml:id="A01353-e104260">You may in this matter my mind the sooner know. </l>
+        </sp>
+        <sp xml:id="A01353-e104270" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e104280">¶ Few words are best among friends this is true,</l>
+          <l xml:id="A01353-e104290">Wherefore I shall briefly show my name unto you. </l>
+          <l xml:id="A01353-e104300">Tom tosspot it is, it need not be painted,</l>
+          <l xml:id="A01353-e104310">Wherefore with Rafe Roister I must needs be acquainted. </l>
+        </sp>
+        <sp xml:id="A01353-e104320" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e104330">¶ In faith Rafe Roister if thou wilt be ruled by me,</l>
+          <l xml:id="A01353-e104340">We will dance hand in hand like knaves all three. </l>
+          <l xml:id="A01353-e104350">It is as unpossible for thee his company to deny:</l>
+          <l xml:id="A01353-e104360">As it is for a camel to creep through a needle's eye.</l>
+          <l xml:id="A01353-e104370">Therefore did him welcome like a knave as thou art,</l>
+        </sp>
+        <sp xml:id="A01353-e104380" who="A01353-roister">
+          <speaker>R. Roister.</speaker>
+          <p xml:id="A01353-e104390">¶ By my troth Tom Tospot you are welcome with all my heart,</p>
+        </sp>
+        <sp xml:id="A01353-e104400" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e104410">¶ I thank you that mine acquaintance you will take in good part. </l>
+          <l xml:id="A01353-e104420">And by my troth I will be your sworn brother:</l>
+        </sp>
+        <sp xml:id="A01353-e104430" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e104440">¶ Tush like will to like it will be none other. </l>
+          <l xml:id="A01353-e104450">For the virtuous will always the virtuous company seek out:</l>
+          <l xml:id="A01353-e104460">A gentleman never seeketh the company of a lout. </l>
+          <l xml:id="A01353-e104470">And roisters and ruffians do sober company eschew:</l>
+          <l xml:id="A01353-e104480">For like will ever to like this is most true. </l>
+        </sp>
+        <sp xml:id="A01353-e104490" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <l xml:id="A01353-e104500">¶ Now friend tom tosspot seeing that we are brethren sworn:</l>
+          <l xml:id="A01353-e104510">And neither of our companies from other may be forborn.</l>
+          <l xml:id="A01353-e104520">The whole trade of my life to thee I will declare:</l>
+        </sp>
+        <sp xml:id="A01353-e104530" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e104540">¶ And to tell you my properties also I shall not spare.</p>
+        </sp>
+        <sp xml:id="A01353-e104550" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e104560">¶ Then my masters if you will a while abide it:</l>
+          <l xml:id="A01353-e104570"><pb facs="7"/> ye shall see two such knaves so lively described</l>
+          <l xml:id="A01353-e104580">That if hell should be raked even by and by indeed:</l>
+          <l xml:id="A01353-e104590">Such another couple cannot be found I swear by my creed. </l>
+          <l xml:id="A01353-e104600">Go to sirs say on your whole minds:</l>
+          <l xml:id="A01353-e104610">And I shall paint you out in your right kinds. </l>
+          <l xml:id="A01353-e104620">First tom tosspot plead thou thy cause and thy name:</l>
+          <l xml:id="A01353-e104630">And I will sit in this chair and give sentence on the same. </l>
+          <l xml:id="A01353-e104640">I will play the judge and in this matter give judgement:</l>
+          <l xml:id="A01353-e104650">How say you my masters are you so content? </l>
+        </sp>
+        <sp xml:id="A01353-e104660" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <p xml:id="A01353-e104670">¶ By my truth for my part thereto I do agree,</p>
+        </sp>
+        <sp xml:id="A01353-e104680" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e104690">¶ I were to blame if any fault should be in me.</p>
+        </sp>
+        <sp xml:id="A01353-e104700" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e104710">¶ Then that I be in office neither of you do grudge?</p>
+        </sp>
+        <sp xml:id="A01353-e104720" who="A01353-both">
+          <speaker>Both.</speaker>
+          <p xml:id="A01353-e104730">¶ No indeed:</p>
+        </sp>
+        <sp xml:id="A01353-e104740" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e104750">¶ Where learned you to stand capped before a judge? </l>
+          <l xml:id="A01353-e104760">You sowterly knaves, show you all your manners at once. </l>
+        </sp>
+        <sp xml:id="A01353-e104770" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <p xml:id="A01353-e104780">¶ Why Nichol all we are content:</p>
+        </sp>
+        <sp xml:id="A01353-e104790" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e104800">¶ And am I plain Nichol? and yet it is in my arbitrement?</l>
+          <l xml:id="A01353-e104810">To judge which of you two is the veriest knave:</l>
+          <l xml:id="A01353-e104820">I am master Nichol Newfangle both gay and brave. </l>
+          <l xml:id="A01353-e104830">For seeing you make me your judge I crow:</l>
+          <l xml:id="A01353-e104840">I shall teach you both your lirripoop to know. <stage xml:id="A01353-e104850">He fighteth.</stage></l>
+        </sp>
+        <sp xml:id="A01353-e104860" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e104870">* stay yourself I pray you heartily.</p>
+        </sp>
+        <sp xml:id="A01353-e104880" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <p xml:id="A01353-e104890">¶ I pray you be content and we will be more mannerly.</p>
+        </sp>
+        <sp xml:id="A01353-e104900" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e104910">¶ Nay I cannot put up such an injury. </l>
+          <l xml:id="A01353-e104920">For sing I am in office I will be known therefore,<stage xml:id="A01353-e104930">He fighteth again.</stage></l>
+          <l xml:id="A01353-e104940">Fend your heads sirs for for I will fight once more,</l>
+        </sp>
+        <sp xml:id="A01353-e104950" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <p xml:id="A01353-e104960">¶ I pray you be content good gentle master Nichol,</p>
+        </sp>
+        <sp xml:id="A01353-e104970" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e104980">¶ I never saw the like by gog's soul.</p>
+        </sp>
+        <sp xml:id="A01353-e104990" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e105000">¶ Well my masters because you do intend:</l>
+          <l xml:id="A01353-e105010">To learn good manners and your conditions to amend. </l>
+          <l xml:id="A01353-e105020">I will have but one fit more and so make an end. <stage xml:id="A01353-e105030">He fighteth again.</stage></l>
+        </sp>
+        <sp xml:id="A01353-e105040" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <p xml:id="A01353-e105050">¶ I pray you sir let us no more contend.</p>
+        </sp>
+        <sp xml:id="A01353-e105060" who="A01353-newfangle">
+          <speaker>Newfan</speaker>
+          <l xml:id="A01353-e105070">¶ Marry this hath breathed me very well:</l>
+          <l xml:id="A01353-e105080"><pb facs="8"/> now let me hear how you your tales can tell. </l>
+          <l xml:id="A01353-e105090">And I master judge wit so bring to pass:</l>
+          <l xml:id="A01353-e105100">That I will judge who shall be knave of clubs at Christmas</l>
+        </sp>
+        <sp xml:id="A01353-e105110" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e105120">‡ gog's wounds I am like Phalaris thatmade a bull of brass,</p>
+        </sp>
+        <sp xml:id="A01353-e105130" who="A01353-newfangle">
+          <speaker>N. New.</speaker>
+          <p xml:id="A01353-e105140">‡ thou art like a false knave now and ever more was.</p>
+        </sp>
+        <sp xml:id="A01353-e105150" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e105160">‡ nay I am like Phalaris that made a bull of brass,</l>
+          <l xml:id="A01353-e105170">As a cruel torment for such as did offend:</l>
+          <l xml:id="A01353-e105180">And he himself first therein put was:</l>
+          <l xml:id="A01353-e105190">Even so are we brought to this end. </l>
+          <l xml:id="A01353-e105200">In ordaining him a judge who will be honoured as a God:</l>
+          <l xml:id="A01353-e105210">So for our own tails we have made a rod. </l>
+        </sp>
+        <sp xml:id="A01353-e105220" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <p xml:id="A01353-e105230">‡ and I am served as Hamao that prepared,</p>
+        </sp>
+        <sp xml:id="A01353-e105240" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <p xml:id="A01353-e105250">‡ how was he served I pray thee do me tell,</p>
+        </sp>
+        <sp xml:id="A01353-e105260" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <p xml:id="A01353-e105270">‡ whom I speak of thou knowest not well.</p>
+        </sp>
+        <sp xml:id="A01353-e105280" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <p xml:id="A01353-e105290">‡ thou art served a● Harry hangman captain of the black guard,</p>
+        </sp>
+        <sp xml:id="A01353-e105300" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <l xml:id="A01353-e105310">‡ nay I am served as Haman that prepared. </l>
+          <l xml:id="A01353-e105320">A high pair of gallows for Mardocheus the Jew,</l>
+          <l xml:id="A01353-e105330">And was the first that theron was hanged:</l>
+          <l xml:id="A01353-e105340">So I feel the smart at mine own too this is true. </l>
+          <l xml:id="A01353-e105350">But hereafter I will learn to be wise,</l>
+          <l xml:id="A01353-e105360">And ere I leap once I will look twice. </l>
+        </sp>
+        <sp xml:id="A01353-e105370" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <l xml:id="A01353-e105380">‡ well tom tosspot first let me hear thee,</l>
+          <l xml:id="A01353-e105390">How canst thou prove thyself a verier knave than he</l>
+        </sp>
+        <sp xml:id="A01353-e105400" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e105410">‡ you know that Tom tosspot men do me call,</p>
+        </sp>
+        <sp xml:id="A01353-e105420" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e105430">‡ a knave thou hast always been and ever shall.</p>
+        </sp>
+        <sp xml:id="A01353-e105440" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e105450">‡ my conditions I am sure ye know as well as I,</p>
+        </sp>
+        <sp xml:id="A01353-e105460" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e105470">‡ a knave thou wast born and so shalt thou die.</p>
+        </sp>
+        <sp xml:id="A01353-e105480" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e105490">‡ but that you are a judge. I would say unto you,</l>
+          <l xml:id="A01353-e105500">Knaves are Christen men else you are a Jew. </l>
+        </sp>
+        <sp xml:id="A01353-e105510" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e105520">‡ he calleth me knave by craft, do you not see? </l>
+          <l xml:id="A01353-e105530">Sirrah I will remember it when you think not on me. </l>
+          <l xml:id="A01353-e105540">Well say what thou canst for thine own behoof:</l>
+          <l xml:id="A01353-e105550">If thou prove thyself the verier knave by good proof. </l>
+          <l xml:id="A01353-e105560"><pb facs="8"/>Thou must be the elder brother and have the patrimony,</l>
+          <l xml:id="A01353-e105570">And when he hath said then do thou reply</l>
+          <l xml:id="A01353-e105580">Even Thomas a watrings, or Tyburn hill:</l>
+          <l xml:id="A01353-e105590">To the falsest thief of you both by my father's will. </l>
+        </sp>
+        <sp xml:id="A01353-e105600" who="A01353-roister">
+          <speaker>R. Roister.</speaker>
+          <p xml:id="A01353-e105610">‡ I pray you sir what is that patrimony?</p>
+        </sp>
+        <sp xml:id="A01353-e105620" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e105630">‡ I pray you leave your courtesy and I will tell you by and by.</l>
+          <l xml:id="A01353-e105640">If he be the more knave the patrimony he must have,</l>
+          <l xml:id="A01353-e105650">But thou shalt have it if thou prove thyself the verier knave. </l>
+          <l xml:id="A01353-e105660">A piece of ground it is that on beggars manner doth hold:</l>
+          <l xml:id="A01353-e105670">And who so deserves it shall have it ye may be bold. </l>
+          <l xml:id="A01353-e105680">Called saint Thomas a waterings or else Tyburn hill:</l>
+          <l xml:id="A01353-e105690">Given and so bequeathed to the faliest knave by will. </l>
+        </sp>
+        <sp xml:id="A01353-e105700" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e105710">¶ Then I trow I am he that this patrimony shall possess,</l>
+          <l xml:id="A01353-e105720">For I am Tom tosspot to use this trade doubtless. </l>
+          <l xml:id="A01353-e105730">From morning till night I sit tossing the black hole:</l>
+          <l xml:id="A01353-e105740">Then come I home and pray for my father's soul. </l>
+          <l xml:id="A01353-e105750">Saying my prayers with wounds, blood guts and heart,</l>
+          <l xml:id="A01353-e105760">Swearing and staring thus play I my parts. </l>
+          <l xml:id="A01353-e105770">If any poor man have in a whole week earned a groat:</l>
+          <l xml:id="A01353-e105780">He shall spend it in one hour in tossing the pot. </l>
+          <l xml:id="A01353-e105790">I use to call servants and poor men to my company,</l>
+          <l xml:id="A01353-e105800">And make them spend all they have unthriftily. </l>
+          <l xml:id="A01353-e105810">So that my company they think to be so good:</l>
+          <l xml:id="A01353-e105820">That in short space their hair grows through their hood. </l>
+        </sp>
+        <sp xml:id="A01353-e105830" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e105840">¶ But will no gossips keep thee company now and than?</p>
+        </sp>
+        <sp xml:id="A01353-e105850" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e105860">¶ Tush I am acquainted with many a woman. </l>
+          <l xml:id="A01353-e105870">That with me will sit in every house and place:</l>
+          <l xml:id="A01353-e105880">But then their husbands had need to fend their face. </l>
+          <l xml:id="A01353-e105890">For when they come home they will not be a feared:</l>
+          <l xml:id="A01353-e105900">To shake the goodman, and sometime shave his beard. </l>
+          <l xml:id="A01353-e105910">And as for Flemish servants I have such a train:</l>
+          <l xml:id="A01353-e105920">That will quaff and carouse, and therein spend their gain. </l>
+          <l xml:id="A01353-e105930">From week to week I have this company,</l>
+          <l xml:id="A01353-e105940"><pb facs="9"/> wherefore I am worthy to have the patrimony. </l>
+        </sp>
+        <sp xml:id="A01353-e105950" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e105960">¶ Thus thou mayst be called a knave in grain,</l>
+          <l xml:id="A01353-e105970">And where knaves be scant thou mayst go for twain. </l>
+          <l xml:id="A01353-e105980">But now Rafe Roister let me hear what thou canst say</l>
+        </sp>
+        <sp xml:id="A01353-e105990" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <l xml:id="A01353-e106000">* you know that rate roister I am called always,</l>
+          <l xml:id="A01353-e106010">And my conditions in knavery so far do surmount:</l>
+          <l xml:id="A01353-e106020">That to have this patrimony I make mine account. </l>
+          <l xml:id="A01353-e106030">For I entice young gentle men all virtue to eschew</l>
+          <l xml:id="A01353-e106040">And to give them to riotousness, this is true,</l>
+          <l xml:id="A01353-e106050">Serving men by me are also seduced:</l>
+          <l xml:id="A01353-e106060">That all in bravery their minds are confused.</l>
+          <l xml:id="A01353-e106070">Then if they have not themselves to maintain,</l>
+          <l xml:id="A01353-e106080">To pick and to steal they must be fain. </l>
+          <l xml:id="A01353-e106090">And I may say to you I have such a train:</l>
+          <l xml:id="A01353-e106100">That some time I pitch a field on Salisbury plain. </l>
+          <l xml:id="A01353-e106110">And much more if need were I could say verily,</l>
+          <l xml:id="A01353-e106120">Wherefore I am worthy to have the patrimony. </l>
+        </sp>
+        <sp xml:id="A01353-e106130" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e106140">¶ He that should judge this manner had ●erd have more wit than I</l>
+          <l xml:id="A01353-e106150">But seeing you have referred it unto my arbitrement:</l>
+          <l xml:id="A01353-e106160">In faith I will give such equal judgement,</l>
+          <l xml:id="A01353-e106170">That both of you shall be well pleased and content. </l>
+        </sp>
+        <sp xml:id="A01353-e106180" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <p xml:id="A01353-e106190">¶ Nay I have not done for I can say much more,</p>
+        </sp>
+        <sp xml:id="A01353-e106200" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e106210">¶ Well I will not have you contend any more. </l>
+          <l xml:id="A01353-e106220">But this farm which to beggar's manner doth appertain</l>
+          <l xml:id="A01353-e106230">I will equally divide between you twain. </l>
+          <l xml:id="A01353-e106240">Are you not content that so it shall be? </l>
+        </sp>
+        <sp xml:id="A01353-e106250" who="A01353-both">
+          <speaker>Both.</speaker>
+          <p xml:id="A01353-e106260">¶ As it pleaseth you so shall we agree.</p>
+        </sp>
+        <sp xml:id="A01353-e106270" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e106280">¶ Then see that anon you come both unto me</p>
+        </sp>
+        <sp xml:id="A01353-e106290" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <l xml:id="A01353-e106300">¶ Sir for my part I thank you heartily. </l>
+          <l xml:id="A01353-e106310">I promised of fate to come unto a company. </l>
+          <l xml:id="A01353-e106320">Which at Hob filchers for me do remain:</l>
+          <l xml:id="A01353-e106330">God be with you and anon I will come again,</l>
+        </sp>
+        <sp xml:id="A01353-e106340" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e106350">¶ Farewell brother ray I will come to you anon.</p>
+        </sp>
+        <sp xml:id="A01353-e106360" who="A01353-newfangle">
+          <pb facs="9"/>
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e106370">‡ come again for you shall not so suddenly be gone. <stage xml:id="A01353-e106380">Heer entereth hance with a pot and singeth as followeth.</stage></l>
+          <l xml:id="A01353-e106390">See you not who comes yonder an old friend of yours</l>
+          <l xml:id="A01353-e106400">One that is ready to quaff at all hours. </l>
+          <stage xml:id="A01353-e106410">He singeth the first two lines and speaketh the rest as stammering as may be.</stage>
+          <lg xml:id="A01353-e106420">
+            <l xml:id="A01353-e106430">Quas in heart and quas again, and quas about the house a:</l>
+            <l xml:id="A01353-e106440">And toss the black bowl to and fro, and I brinks them all carouse a. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A01353-e106450" who="A01353-haunce">
+          <speaker>Haunce.</speaker>
+          <l xml:id="A01353-e106460">¶ Be go go gog's nouns Cha Cha drunk zo zo much today:</l>
+          <l xml:id="A01353-e106470">That be be be mass I cham a most drunk ich da da dare zay. </l>
+          <l xml:id="A01353-e106480">Chud spe spe spend a goo goo good groat:</l>
+          <l xml:id="A01353-e106490">Than that ich cud vi vinde my ca ca captain to to Tom Tospot. </l>
+        </sp>
+        <sp xml:id="A01353-e106500" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e106510">¶ Sit down good Haunce lest thou lie on theground.<stage xml:id="A01353-e106520">He seateth him in the chair.</stage></l>
+          <l xml:id="A01353-e106530">He knoweth not Tom tosspot I dare jeopard xx l. </l>
+        </sp>
+        <sp xml:id="A01353-e106540" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e106550">¶ He will know me by and by I hold you a crown.</l>
+          <l xml:id="A01353-e106560">How dost thou servant Haunce? how cometh this to pass? </l>
+        </sp>
+        <sp xml:id="A01353-e106570" who="A01353-haunce">
+          <speaker>Haunce.</speaker>
+          <l xml:id="A01353-e106580">¶ Ma ma master to to tom cha Cha Cham glad by mass. </l>
+          <l xml:id="A01353-e106590">Ca ca carouse to to thee goo goo good Tom,<stage xml:id="A01353-e106600">He drinketh.</stage></l>
+        </sp>
+        <sp xml:id="A01353-e106610" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e106620">¶ Hold up Haunce I will pledge thee anon.</p>
+        </sp>
+        <sp xml:id="A01353-e106630" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <p xml:id="A01353-e106640">¶ Well there is no remedy but I must be gone.</p>
+        </sp>
+        <sp xml:id="A01353-e106650" who="A01353-haunce">
+          <speaker>Haunce.</speaker>
+          <l xml:id="A01353-e106660">¶ Ta ta tarry good velow, a woe woe word or twain:</l>
+          <l xml:id="A01353-e106670">If though though thou thyself do do do not come again,</l>
+          <l xml:id="A01353-e106680">By by bid Philip Fleming cum cum come hither to me,</l>
+          <l xml:id="A01353-e106690">Vo vo vor he must lead me home now ich do zee. </l>
+        </sp>
+        <sp xml:id="A01353-e106700" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <l xml:id="A01353-e106710">¶ Then farewell Haunce I will remember thy errant,</l>
+          <l xml:id="A01353-e106720">He will be here by and by I dare be his warrant. <stage xml:id="A01353-e106730">Exit R. Roister.</stage></l>
+        </sp>
+        <sp xml:id="A01353-e106740" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e106750">¶ Farewell Rafe roister with all my heart,</l>
+          <l xml:id="A01353-e106760">Come anon and I will deliver thee thy part. </l>
+        </sp>
+        <sp xml:id="A01353-e106770" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e106780">¶ Now Haunce right now thou drankst to me,</l>
+          <l xml:id="A01353-e106790">Drink again and I will pledge thee. </l>
+        </sp>
+        <sp xml:id="A01353-e106800" who="A01353-haunce">
+          <speaker>Haunce.</speaker>
+          <p xml:id="A01353-e106810">¶ Omni po po potenti, all the po po pot is empty.</p>
+        </sp>
+        <sp xml:id="A01353-e106820" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e106830">¶ Why Haunce thou hast latin in thy belly methink ,</l>
+          <l xml:id="A01353-e106840">I thought there was no room for Latin, there is so much drink. </l>
+        </sp>
+        <sp xml:id="A01353-e106850" who="A01353-haunce">
+          <pb facs="10"/>
+          <speaker>Haunce.</speaker>
+          <l xml:id="A01353-e106860">¶ Ich le le lernd zome la la Latin when ich was a la la lad,</l>
+          <l xml:id="A01353-e106870">Ith' ca ca can zay tu es nebulo ich learned of my dad. </l>
+          <l xml:id="A01353-e106880">And ich did once he he help the pre pre priest to zay mass,</l>
+          <l xml:id="A01353-e106890">By gis ma man ich ha' been cunning when 'twas. </l>
+        </sp>
+        <sp xml:id="A01353-e106900" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e106910">¶ I knew Haunce when he was as he saith,</l>
+          <l xml:id="A01353-e106920">For he was once a scholar in good faith. </l>
+          <l xml:id="A01353-e106930">But through my company he was with drawn from thence,</l>
+          <l xml:id="A01353-e106940">Through his riot and excessive expense. </l>
+          <l xml:id="A01353-e106950">Unto this trade which now you do in him see:</l>
+          <l xml:id="A01353-e106960">So that now he is wholly addicted to follow me. </l>
+          <l xml:id="A01353-e106970">And one of my guard he is now become:</l>
+          <l xml:id="A01353-e106980">Well Haunce well, thou wast once a white son. </l>
+        </sp>
+        <sp xml:id="A01353-e106990" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e107000">¶ Now so God help me thou art a pretty fellow Haunce,</l>
+          <l xml:id="A01353-e107010">A clean legged gentleman, and as proper a prance. </l>
+          <l xml:id="A01353-e107020">As any I know between this and France. </l>
+        </sp>
+        <sp xml:id="A01353-e107030" who="A01353-haunce">
+          <speaker>Haunce.</speaker>
+          <p xml:id="A01353-e107040">‡ yes by by God ich cud once dance,</p>
+        </sp>
+        <sp xml:id="A01353-e107050" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <l xml:id="A01353-e107060">‡ I speak of no dancing little belied Haunce:</l>
+          <l xml:id="A01353-e107070">But sing thou sayest thou canst so well dance. </l>
+          <l xml:id="A01353-e107080">Let me see where thou canst dance lively:</l>
+        </sp>
+        <sp xml:id="A01353-e107090" who="A01353-haunce">
+          <speaker>Haunce.</speaker>
+          <p xml:id="A01353-e107100">‡ than than that ca ca can ich do full trimly.</p>
+        </sp>
+        <stage xml:id="A01353-e107110">He danceth as evil favoured as may be devised, and in the dancing he falleth down, and when he riseth he must groan.</stage>
+        <sp xml:id="A01353-e107120" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e107130">¶ Rise again Haunce thou hadst almost got a fall:</l>
+          <l xml:id="A01353-e107140">But thou dancest trimly legs and all. </l>
+          <l xml:id="A01353-e107150">Body of me Haunce how doth thy belly canst thou tell? </l>
+          <l xml:id="A01353-e107160">By the mass he hath be arrayed his breeches methink by thesmell. </l>
+        </sp>
+        <sp xml:id="A01353-e107170" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e107180">‡ I will help thee up Haunce give me thy hand,<stage xml:id="A01353-e107190">He riseth.</stage></p>
+        </sp>
+        <sp xml:id="A01353-e107200" who="A01353-haunce">
+          <speaker>Haunce.</speaker>
+          <p xml:id="A01353-e107210">‡ by by mass ch ch ch was almost down I think verily,</p>
+        </sp>
+        <sp xml:id="A01353-e107220" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e107230">‡ wast thou almost down Haunce? so think I. </l>
+          <l xml:id="A01353-e107240">But thou art sick methink by thy groaning,</l>
+          <l xml:id="A01353-e107250">He groans like a bear when he is a moaning. </l>
+          <l xml:id="A01353-e107260">Hark how his head aches and his pulses do beat:</l>
+          <l xml:id="A01353-e107270"><pb facs="10"/> I think he will be hanged his belly is so great. </l>
+        </sp>
+        <sp xml:id="A01353-e107280" who="A01353-haunce">
+          <speaker>Haunce</speaker>
+          <p xml:id="A01353-e107290">‡ go go God a mercy Tom with all my heart:</p>
+        </sp>
+        <sp xml:id="A01353-e107300" who="A01353-newfangle">
+          <speaker>Newfan</speaker>
+          <l xml:id="A01353-e107310">‡ if thou canst not leap Haunce, let me see thee drink a quart. </l>
+          <l xml:id="A01353-e107320">And get thee out abroad into the air:</l>
+        </sp>
+        <sp xml:id="A01353-e107330" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e107340">‡ tush he had more need to keep his chair. </l>
+          <l xml:id="A01353-e107350">Sit down Haunce and thou shalt see anon:</l>
+          <l xml:id="A01353-e107360">Philip Fleming will come and fetch thee home. </l>
+        </sp>
+        <stage xml:id="A01353-e107370">Haunce sitteth in the chair, and snorteth as though he were fast asleep .</stage>
+        <sp xml:id="A01353-e107380" who="A01353-newfangle">
+          <speaker>Newfan</speaker>
+          <p xml:id="A01353-e107390">‡ I pray thee Tom tosspot is this one of thy men?</p>
+        </sp>
+        <sp xml:id="A01353-e107400" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e107410">‡ he is a companion of mine now and then.</p>
+        </sp>
+        <sp xml:id="A01353-e107420" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e107430">‡ by the faith of my body such carpenter such chips,</l>
+          <l xml:id="A01353-e107440">And as the wise man saith, such letice such lips. </l>
+          <l xml:id="A01353-e107450">For like master like men, like tutor like scholar,</l>
+          <l xml:id="A01353-e107460">And like will to like, quoth the devil to the colier. </l>
+        </sp>
+        <sp xml:id="A01353-e107470" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e107480">‡ there is no remedy for it must needs so be,</l>
+          <l xml:id="A01353-e107490">Like will to like you may believe me. </l>
+        </sp>
+        <stage xml:id="A01353-e107500">Philip fleming entereth with a pot in his hand.</stage>
+        <sp xml:id="A01353-e107510" who="A01353-newfangle">
+          <speaker>Newfan</speaker>
+          <p xml:id="A01353-e107520">¶ Lo where Philip fleming cometh even in pudding time:</p>
+        </sp>
+        <sp xml:id="A01353-e107530" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e107540">‡ he bringeth in his hand either good ale or else good wine.</p>
+        </sp>
+        <stage xml:id="A01353-e107550">Phillip fleming singeth these four lines following.</stage>
+        <sp xml:id="A01353-e107560" who="A01353-fleming">
+          <lg xml:id="A01353-e107570">
+            <l xml:id="A01353-e107580">Troll the bowl and drink to me, and troll the bowl again a:</l>
+            <l xml:id="A01353-e107590">And put a brown tossed in the pot, for Philip Flemming/s brain a. </l>
+            <l xml:id="A01353-e107600">And I shall toss it to and fro, even round about the house a:</l>
+            <l xml:id="A01353-e107610">Good hostess now let it be so I brinks them all carouse a. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A01353-e107620" who="A01353-fleming">
+          <speaker>Phi. Flem.</speaker>
+          <l xml:id="A01353-e107630">‡ marry here is a pot of nappy good ale,</l>
+          <l xml:id="A01353-e107640">As pure as crystal pure and stale. </l>
+          <l xml:id="A01353-e107650">Now a crab in the fire were worth a good groat:</l>
+          <l xml:id="A01353-e107660">That I might quaff with my captain Tom Tospot. </l>
+          <l xml:id="A01353-e107670">What? I can no sooner wish, but by and by have:</l>
+          <l xml:id="A01353-e107680">God save mine eye sight methink I see a knave.</l>
+          <l xml:id="A01353-e107690"><pb facs="11"/> what captain how goeth the world with you? </l>
+        </sp>
+        <sp xml:id="A01353-e107700" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <l xml:id="A01353-e107710">¶ Why now I see the old proverb to be true:</l>
+          <l xml:id="A01353-e107720">Like will to like both with Christian turk and jew. </l>
+        </sp>
+        <sp xml:id="A01353-e107730" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e107740">¶ Marry Philip even as I was wont to do.</p>
+        </sp>
+        <sp xml:id="A01353-e107750" who="A01353-fleming">
+          <speaker>Phi. Flem.</speaker>
+          <l xml:id="A01353-e107760">¶ Rafe Roister told me I should find Haunce here,</l>
+          <l xml:id="A01353-e107770">Where is he that he doth not appear? </l>
+        </sp>
+        <sp xml:id="A01353-e107780" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <l xml:id="A01353-e107790">¶ I hold twenty pound the knave is blind,</l>
+          <l xml:id="A01353-e107800">Turn about Philip Fleming and look behind. </l>
+          <l xml:id="A01353-e107810">Hast thou drunk so much that thine eyes be out? </l>
+          <l xml:id="A01353-e107820">Lo how he snorteth like a lazy lout. </l>
+          <l xml:id="A01353-e107830">Go to him for he sleepeth sound.</l>
+          <l xml:id="A01353-e107840">Two such paunches in all England can scant be found. </l>
+        </sp>
+        <sp xml:id="A01353-e107850" who="A01353-fleming">
+          <speaker>Phi. Flem.</speaker>
+          <l xml:id="A01353-e107860">¶ Why Haunce art thou in thy prayers so devoutly?</l>
+          <l xml:id="A01353-e107870">Awake man and we two will quaff together stoutly. </l>
+        </sp>
+        <sp xml:id="A01353-e107880" who="A01353-haunce">
+          <speaker>Haunce.</speaker>
+          <l xml:id="A01353-e107890">* dominae dominus noster:</l>
+          <l xml:id="A01353-e107900">Methink I cha spied three knaves in a cluster. </l>
+        </sp>
+        <sp xml:id="A01353-e107910" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <p xml:id="A01353-e107920">¶ Stay a while for he saith his pater noster,</p>
+        </sp>
+        <sp xml:id="A01353-e107930" who="A01353-haunce">
+          <speaker>Haunce.</speaker>
+          <l xml:id="A01353-e107940">Sanctum benedicitum what have I dreamt? </l>
+          <l xml:id="A01353-e107950">By gog's nouns Chad thought Ich had been in my bed. </l>
+          <l xml:id="A01353-e107960">Cha dreamed such a dream that thou wilt marvel to here,</l>
+          <l xml:id="A01353-e107970">Methought ich was drowned in a barrel of beer. </l>
+          <l xml:id="A01353-e107980">And by and by the barrel was turned to a ship:</l>
+          <l xml:id="A01353-e107990">Which methought the wind made lively to skip. </l>
+          <l xml:id="A01353-e108000">And ich did sail therein from Flanders to France:</l>
+          <l xml:id="A01353-e108010">At last ich was brought hither among a sort of knaves by chance</l>
+        </sp>
+        <sp xml:id="A01353-e108020" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e108030">¶ Lo Haunce here is Philip Fleming come now,</l>
+          <l xml:id="A01353-e108040">We will go drink together now, how sayest thou? </l>
+        </sp>
+        <sp xml:id="A01353-e108050" who="A01353-haunce">
+          <speaker>Haunce.</speaker>
+          <p xml:id="A01353-e108060">¶ I pray thee good Vilip lead me away,</p>
+        </sp>
+        <sp xml:id="A01353-e108070" who="A01353-fleming">
+          <speaker>Phi. Flem.</speaker>
+          <p xml:id="A01353-e108080">¶ Give me thy hand and I will thee stay.</p>
+        </sp>
+        <sp xml:id="A01353-e108090" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e108100">¶ How say you master Nichol will you keep us company?</p>
+        </sp>
+        <sp xml:id="A01353-e108110" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e108120">¶ Go before master Lickhole and I wil come by and by. </l>
+          <l xml:id="A01353-e108130">Mates matched together depart you three,</l>
+          <l xml:id="A01353-e108140">I will come after you may believe me. </l>
+        </sp>
+        <stage xml:id="A01353-e108150"><pb facs="11"/>They three are gone together, and Nichole Newfangle remaineth behind, but he must not speak till they be within. </stage>
+        <sp xml:id="A01353-e108160" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e108170">* ha ha, ha, ha, ha, ha, ha, ha,</l>
+          <l xml:id="A01353-e108180">Now three knaves are gone, and I am left alone:</l>
+          <l xml:id="A01353-e108190">Myself here to solace:</l>
+          <l xml:id="A01353-e108200">Well done gentle Joan, why begin you to moan?</l>
+          <l xml:id="A01353-e108210">Though they be gone I am in place. </l>
+          <l xml:id="A01353-e108220">And now I will dance, now will I prance,</l>
+          <l xml:id="A01353-e108230">For why I have none other work:</l>
+          <l xml:id="A01353-e108240">Snip snap butter is no bone meat:</l>
+          <l xml:id="A01353-e108250">Knaves flesh is no pork. </l>
+          <l xml:id="A01353-e108260">Hey tisty tosty an owl is a bird,</l>
+          <l xml:id="A01353-e108270">Jackanapes hath an old face:</l>
+          <l xml:id="A01353-e108280">You may believe me at one bare word,</l>
+          <l xml:id="A01353-e108290">How like you this merry case? </l>
+          <l xml:id="A01353-e108300">A piece of ground, they think they have found,</l>
+          <l xml:id="A01353-e108310">I will tell you what it is:</l>
+          <l xml:id="A01353-e108320">For I them told that of beggar's manner it hid hold,</l>
+          <l xml:id="A01353-e108330">A staff and a wallet I wis. </l>
+          <l xml:id="A01353-e108340">Which in short space, even in this place,</l>
+          <l xml:id="A01353-e108350">Of me they shall receive:</l>
+          <l xml:id="A01353-e108360">For when that their drift, hath spent all their thrift,</l>
+          <l xml:id="A01353-e108370">Their minds I shall deceive. </l>
+          <l xml:id="A01353-e108380">I trow you shall see more knaves come to me,</l>
+          <l xml:id="A01353-e108390">Which whensoever they do:</l>
+          <l xml:id="A01353-e108400">They shall have their meed, as they deserve indeed.</l>
+          <l xml:id="A01353-e108410">As you shall shortly see these two. </l>
+          <l xml:id="A01353-e108420">When they do pretend to have a good end,</l>
+          <l xml:id="A01353-e108430">Mark well then what shall ensue:</l>
+          <l xml:id="A01353-e108440">A bag and a bottle, or else a rope knottle,</l>
+          <l xml:id="A01353-e108450">This shall they prove too true. </l>
+          <l xml:id="A01353-e108460">But mark well this game, I see this gear frame. </l>
+          <l xml:id="A01353-e108470"><pb facs="12"/>Lo who cometh now in such haste? </l>
+          <l xml:id="A01353-e108480">It is Cutbert cutpurse and pierce pickpurse,</l>
+          <l xml:id="A01353-e108490">Give room now a little cast. </l>
+        </sp>
+        <stage xml:id="A01353-e108500">Here entereth Cutbert cutpurse and Pierce pickpurse, Cutbert cutpurse must have in his hand a purse of money or counters in it, and a knife in one hand and a whetstone in the other, and Pierce must have money or counters in his hand and jingle it as he cometh in.</stage>
+        <sp xml:id="A01353-e108510" who="A01353-cutpurse">
+          <speaker>Cutpurse Cutpursse.</speaker>
+          <l xml:id="A01353-e108520">¶ By gog's wounds it doth me good to the heart:</l>
+          <l xml:id="A01353-e108530">To see how cleanly I played this part. </l>
+          <l xml:id="A01353-e108540">While they stood thrusting together in the throng:</l>
+          <l xml:id="A01353-e108550">I began to go them among. </l>
+          <l xml:id="A01353-e108560">And with this knife which here you do see:</l>
+          <l xml:id="A01353-e108570">I cut away his purse cleanly. </l>
+        </sp>
+        <sp xml:id="A01353-e108580" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e108590">‡ see to your purses my masters be ruled by me. </l>
+          <l xml:id="A01353-e108600">For knaves are abroad therefore beware:</l>
+          <l xml:id="A01353-e108610">You are warned and ye take not heed I do not care. </l>
+        </sp>
+        <sp xml:id="A01353-e108620" who="A01353-pickpurse">
+          <speaker>P. Pick.</speaker>
+          <l xml:id="A01353-e108630">‡ and also so soon as I had espied,</l>
+          <l xml:id="A01353-e108640">A woman in the throng whose purse was fat:</l>
+          <l xml:id="A01353-e108650">I took it by the strings and cleanly it untied,</l>
+          <l xml:id="A01353-e108660">She knew no more of it, than Gib our cat. </l>
+          <l xml:id="A01353-e108670">Yet at the last she hied apace,</l>
+          <l xml:id="A01353-e108680">And said the money in my hand she saw:</l>
+          <l xml:id="A01353-e108690">Thou whore said I, I will have an action of the case,</l>
+          <l xml:id="A01353-e108700">And sing thou sayest so I will try the law. </l>
+        </sp>
+        <sp xml:id="A01353-e108710" who="A01353-cutpurse">
+          <speaker>Cutbert.</speaker>
+          <l xml:id="A01353-e108720">‡ how sayest thou pierce pickpurse art thou not agreed?</l>
+          <l xml:id="A01353-e108730">These two booties equally to divide. </l>
+        </sp>
+        <sp xml:id="A01353-e108740" who="A01353-pickpurse">
+          <speaker>P. pick</speaker>
+          <l xml:id="A01353-e108750">‡ then let us count the total sum,</l>
+          <l xml:id="A01353-e108760">And divide it equally when we have done. </l>
+        </sp>
+        <sp xml:id="A01353-e108770" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e108780">‡ my masters here is a good fellow that would fain have some.</p>
+        </sp>
+        <sp xml:id="A01353-e108790" who="A01353-cutpurse">
+          <speaker>C. Cutpurs.</speaker>
+          <l xml:id="A01353-e108800">‡ what Nichol newfangle be you here? </l>
+          <l xml:id="A01353-e108810">So God help me I am glad with all my heart:</l>
+        </sp>
+        <sp xml:id="A01353-e108820" who="A01353-pickpurse">
+          <pb facs="12"/>
+          <speaker>Pierce Pickpurs.</speaker>
+          <l xml:id="A01353-e108830">¶ Then ere we depart we will have some cheer. </l>
+          <l xml:id="A01353-e108840">And of this booty you shall have your part. </l>
+        </sp>
+        <sp xml:id="A01353-e108850" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e108860">¶ I thank you both heartily. </l>
+          <l xml:id="A01353-e108870">And I will do somewhat for you by and by:</l>
+          <l xml:id="A01353-e108880">Are not you two sworn brothers in every booty? </l>
+        </sp>
+        <sp xml:id="A01353-e108890" who="A01353-both">
+          <speaker>Both.</speaker>
+          <p xml:id="A01353-e108900">‡ yes that we are truly.</p>
+        </sp>
+        <sp xml:id="A01353-e108910" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <l xml:id="A01353-e108920">‡ then will I tell you news which you do not know:</l>
+          <l xml:id="A01353-e108930">Such news as will make you glad I trow. </l>
+          <l xml:id="A01353-e108940">But first tell me this Pierce pickpurse,</l>
+          <l xml:id="A01353-e108950">Whether is the elder thou or Cutbert cutpurse,</l>
+        </sp>
+        <sp xml:id="A01353-e108960" who="A01353-pickpurse">
+          <speaker>P. Pick.</speaker>
+          <p xml:id="A01353-e108970">¶ In faith I think we are both of one age well nigh.</p>
+        </sp>
+        <sp xml:id="A01353-e108980" who="A01353-cutpurse">
+          <speaker>C. Cutpurs</speaker>
+          <l xml:id="A01353-e108990">¶ I suppose there is no great difference truly. </l>
+          <l xml:id="A01353-e109000">But wherefore ask you? I pray thee tell me why,</l>
+        </sp>
+        <sp xml:id="A01353-e109010" who="A01353-newfangle">
+          <speaker>N. New.</speaker>
+          <l xml:id="A01353-e109020">¶ I will tell you the cause without delay,</l>
+          <l xml:id="A01353-e109030">For a piece of land is fallen as I hear say. </l>
+          <l xml:id="A01353-e109040">A proper plot it is this is most true.</l>
+          <l xml:id="A01353-e109050">Which by succession must come to one of you. </l>
+          <l xml:id="A01353-e109060">For thou Cutbert cutpurse, wast Cutbert cutthroats son,</l>
+          <l xml:id="A01353-e109070">And thou pierce pickpurse, by that time thou hast done,</l>
+          <l xml:id="A01353-e109080">Canst derive thy pedigree from an ancient house:</l>
+          <l xml:id="A01353-e109090">Thy father was Tom thief, thy mother tib louce. </l>
+          <l xml:id="A01353-e109100">This piece of land whereto you inheritors are,</l>
+          <l xml:id="A01353-e109110">Is called the land of the two legged mare. </l>
+          <l xml:id="A01353-e109120">In this piece of ground there is a mare in deed:</l>
+          <l xml:id="A01353-e109130">Which is the quickest mare in England for speed. </l>
+          <l xml:id="A01353-e109140">Therefore if you will come anon unto me:</l>
+          <l xml:id="A01353-e109150">I will put you in possession and that you shall see. </l>
+        </sp>
+        <sp xml:id="A01353-e109160" who="A01353-cutpurse">
+          <speaker>C. Cutpurs</speaker>
+          <p xml:id="A01353-e109170">¶ I cannot believe that such luck is happened unto us.</p>
+        </sp>
+        <sp xml:id="A01353-e109180" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <p xml:id="A01353-e109190">‡ it is true that I to you do discuss.</p>
+        </sp>
+        <sp xml:id="A01353-e109200" who="A01353-pickpurse">
+          <speaker>P. Pick.</speaker>
+          <l xml:id="A01353-e109210">¶ If you will help us to this piece of ground:</l>
+          <l xml:id="A01353-e109220">Both of us to you shall think ourselves bound. </l>
+        </sp>
+        <sp xml:id="A01353-e109230" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e109240">¶ Yes in faith you shall have it, you may believe me,</l>
+          <l xml:id="A01353-e109250">I will be as good as my word, as shortly you shall see. </l>
+        </sp>
+        <sp xml:id="A01353-e109260" who="A01353-cutpurse">
+          <pb facs="13"/>
+          <speaker>Cutpurse Cutpursse.</speaker>
+          <l xml:id="A01353-e109270">Then brother pierce we may think ourselves happy,</l>
+          <l xml:id="A01353-e109280">That ever we were with him acquainted:</l>
+        </sp>
+        <sp xml:id="A01353-e109290" who="A01353-pickpurse">
+          <speaker>Pierce Pickpurs.</speaker>
+          <l xml:id="A01353-e109300">¶ Even so we may of certainty,</l>
+          <l xml:id="A01353-e109310">That such good luck unto us hath happened. </l>
+          <l xml:id="A01353-e109320">But brother Cutbert is it not best,</l>
+          <l xml:id="A01353-e109330">To go in for a while and distribute this booty?</l>
+          <l xml:id="A01353-e109340">Where we three will make some feast. </l>
+          <l xml:id="A01353-e109350">And quaff together and be merry. </l>
+        </sp>
+        <sp xml:id="A01353-e109360" who="A01353-cutpurse">
+          <speaker>Cutbert.</speaker>
+          <p xml:id="A01353-e109370">¶ What say you Nichol? I do agree,</p>
+        </sp>
+        <stage xml:id="A01353-e109380">Here entereth virtuous living.</stage>
+        <sp xml:id="A01353-e109390" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e109400">¶ But soft a while be ruled by me,</l>
+          <l xml:id="A01353-e109410">Look yonder a little do you not see. </l>
+          <l xml:id="A01353-e109420">Who cometh yonder? A while we will abide,</l>
+          <l xml:id="A01353-e109430">Let him say his pleasure and we will stand aside. </l>
+        </sp>
+        <sp xml:id="A01353-e109440" who="A01353-ver_life">
+          <speaker>Ver. life.</speaker>
+          <l xml:id="A01353-e109450">¶ O gracious God how wonderful are thy works?</l>
+          <l xml:id="A01353-e109460">How highly art thou of all men to be praised? </l>
+          <l xml:id="A01353-e109470">Of Christians, saracens, Jews and also Turks,</l>
+          <l xml:id="A01353-e109480">Thy glory ought to be erected and raised</l>
+          <l xml:id="A01353-e109490">What joys hast thou prepared for the virtuous life,</l>
+          <l xml:id="A01353-e109500">And such as have thy name in love and awe?</l>
+          <l xml:id="A01353-e109510">Thou hast promised salvation to man, child and wife,</l>
+          <l xml:id="A01353-e109520">That thy precepts observe and keep well thy law. </l>
+          <l xml:id="A01353-e109530">And to the virtuous life what doth ensue? </l>
+          <l xml:id="A01353-e109540">Vertutis premium honour Tully doth say:</l>
+          <l xml:id="A01353-e109550">Honour is the guerdon for virtue due,</l>
+          <l xml:id="A01353-e109560">And eternal salvation at the latter day. </l>
+          <l xml:id="A01353-e109570">How clear in conscience is the virtuous life?</l>
+          <l xml:id="A01353-e109580">The vicious hath consciences so heavy as lead:</l>
+          <l xml:id="A01353-e109590">Their conscience and their doings is always at strife:</l>
+          <l xml:id="A01353-e109600">And although they live: yet in sin they are dead. </l>
+        </sp>
+        <sp xml:id="A01353-e109610" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <p xml:id="A01353-e109620">¶ God give you good morrow sir, how do you today?</p>
+        </sp>
+        <sp xml:id="A01353-e109630" who="A01353-ver_life">
+          <speaker>Ver. life.</speaker>
+          <l xml:id="A01353-e109640">¶ God bless you also both now and always. </l>
+          <l xml:id="A01353-e109650">I pray you with me have you any acquaintance? </l>
+        </sp>
+        <sp xml:id="A01353-e109660" who="A01353-newfangle">
+          <pb facs="13"/>
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e109670">¶ Yea marry I am an old friend of yours perchance.</p>
+        </sp>
+        <sp xml:id="A01353-e109680" who="A01353-ver_life">
+          <speaker>Ver. life.</speaker>
+          <l xml:id="A01353-e109690">¶ I fit be so I marvel very much,</l>
+          <l xml:id="A01353-e109700">That the dulness of my wit should be such. </l>
+          <l xml:id="A01353-e109710">That you should be altogether out of my memory,</l>
+          <l xml:id="A01353-e109720">Tell me your name I pray you heartily. </l>
+        </sp>
+        <sp xml:id="A01353-e109730" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e109740">¶ By the faith of my body you will appose me by and by. </l>
+          <l xml:id="A01353-e109750">But indeed I was but little when I was first born,</l>
+          <l xml:id="A01353-e109760">And my mother to tell me my name thought it scorn. </l>
+        </sp>
+        <sp xml:id="A01353-e109770" who="A01353-ver_life">
+          <speaker>Ver. life.</speaker>
+          <l xml:id="A01353-e109780">¶ I will never acquaint me with such in any place,</l>
+          <l xml:id="A01353-e109790">As are ashamed of their names by God's grace. </l>
+        </sp>
+        <sp xml:id="A01353-e109800" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e109810">¶ I remember my name now it is come to mind,</l>
+          <l xml:id="A01353-e109820">I have mused much before I could it find. </l>
+          <l xml:id="A01353-e109830">Nichol newfangle it is, I am your old friend. </l>
+        </sp>
+        <sp xml:id="A01353-e109840" who="A01353-ver_life">
+          <speaker>Ver. life.</speaker>
+          <l xml:id="A01353-e109850">¶ My friend marry I do thee defy,</l>
+          <l xml:id="A01353-e109860">And all such company I do deny. </l>
+          <l xml:id="A01353-e109870">For thou art a companion for roisters and ruffians,</l>
+          <l xml:id="A01353-e109880">And not fit for any virtuous companions. </l>
+        </sp>
+        <sp xml:id="A01353-e109890" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e109900">¶ And in faith art thou at plain defiance?</l>
+          <l xml:id="A01353-e109910">Than I see I must go to mine old acquaintance. </l>
+          <l xml:id="A01353-e109920">Well Cutbert cutpurse and pierce pickpurse, we must go together</l>
+          <l xml:id="A01353-e109930">For like will to like quoth the devil to the colier. </l>
+        </sp>
+        <sp xml:id="A01353-e109940" who="A01353-ver_life">
+          <speaker>Ver. life.</speaker>
+          <l xml:id="A01353-e109950">¶ Indeed thou sayest true it must needs be so,</l>
+          <l xml:id="A01353-e109960">For like will ever to like go. </l>
+          <l xml:id="A01353-e109970">And my conditions and thine so far do disagree,</l>
+          <l xml:id="A01353-e109980">That no familiarity between us may be. </l>
+          <l xml:id="A01353-e109990">For thou nourishest vice both day and night,</l>
+          <l xml:id="A01353-e110000">My name is virtuous life and in virtue is my delight. </l>
+          <l xml:id="A01353-e110010">So vice and virtue cannot together be united,</l>
+          <l xml:id="A01353-e110020">But the one the other hath always spighted. </l>
+          <l xml:id="A01353-e110030">For as water quencheth fire and the flame doth suppress,</l>
+          <l xml:id="A01353-e110040">So virtue hateth vice and seeketh a redress. </l>
+        </sp>
+        <sp xml:id="A01353-e110050" who="A01353-pickpurse">
+          <speaker>P. Pick.</speaker>
+          <l xml:id="A01353-e110060">¶ Tush if he be so dangerous let us not him esteem. </l>
+          <l xml:id="A01353-e110070">And he is not for our company I see very well:</l>
+          <l xml:id="A01353-e110080"><pb facs="14"/> for if he be so holy as he doth seen.</l>
+          <l xml:id="A01353-e110090">We and he differ as much as heaven and hell. </l>
+        </sp>
+        <sp xml:id="A01353-e110100" who="A01353-cutpurse">
+          <speaker>C. Cutpurs</speaker>
+          <l xml:id="A01353-e110110">¶ You know that like will to like always. </l>
+          <l xml:id="A01353-e110120">And you see how holily he is now bent:</l>
+          <l xml:id="A01353-e110130">To seek his company why do we assay? </l>
+          <l xml:id="A01353-e110140">I promise you, do you what you will, I will not consent. </l>
+          <l xml:id="A01353-e110150">For I pass not for him be he better or be he worse,</l>
+        </sp>
+        <sp xml:id="A01353-e110160" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e110170">¶ Friend if you be wise be ware of your purse. </l>
+          <l xml:id="A01353-e110180">For this fellow may do you good when all comes to all,</l>
+          <l xml:id="A01353-e110190">If you chance to lose your purse in cutpurse hall. </l>
+          <l xml:id="A01353-e110200">But in faith fare ye well sith of our company you be weary:</l>
+          <l xml:id="A01353-e110210">We will go to a place where we will make merry. </l>
+          <l xml:id="A01353-e110220">For I see your company and ours do far differ,</l>
+          <l xml:id="A01353-e110230">For like will to like quoth the devil to the colier. </l>
+        </sp>
+        <sp xml:id="A01353-e110240" who="A01353-pickpurse">
+          <speaker>P. pick</speaker>
+          <l xml:id="A01353-e110250">¶ Well let us be gone and did him adieu:</l>
+          <l xml:id="A01353-e110260">For I see this proverb proveth very true. </l>
+        </sp>
+        <sp xml:id="A01353-e110270" who="A01353-cutpurse">
+          <speaker>C. Cutpurs</speaker>
+          <l xml:id="A01353-e110280">¶ Then let us go to Hob filchers house,</l>
+          <l xml:id="A01353-e110290">Where we will be merry and quaff carouse. </l>
+          <l xml:id="A01353-e110300">And there shall we find tom tosspot with other more,</l>
+          <l xml:id="A01353-e110310">Meet mates for us therefore let us go. </l>
+        </sp>
+        <sp xml:id="A01353-e110320" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e110330">¶ Then seeing we are all of one mind:</l>
+          <l xml:id="A01353-e110340">Let us three go and leave a knave here behind,<stage xml:id="A01353-e110350">Exeunt they iv.</stage></l>
+        </sp>
+        <stage xml:id="A01353-e110360">They sing this song as they go out from the place.</stage>
+        <sp xml:id="A01353-e110370" who="A01353-cutpurse">
+          <speaker>Cutpurse</speaker>
+          <l xml:id="A01353-e110380">¶ Good hosts lay a crab in the fire, end broil a mess of sous a:</l>
+          <l xml:id="A01353-e110390">That we may toss the hole so and fro, and brinks them all carouse a</l>
+        </sp>
+        <sp xml:id="A01353-e110400" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e110410">¶ And I will pledge Tom to spot till I be as drunk as a mouse a:</l>
+          <l xml:id="A01353-e110420">Who so will drink to me all day, I will pledge them all carouse a. </l>
+        </sp>
+        <sp xml:id="A01353-e110430" who="A01353-pickpurse">
+          <speaker>P. Pick.</speaker>
+          <l xml:id="A01353-e110440">¶ Then we will not spare for any cost, so long as we be in a house a:</l>
+          <l xml:id="A01353-e110450">Then hosts filthe●●of again, for I pledge them all carouse a.<stage xml:id="A01353-e110460">Finis.</stage></l>
+        </sp>
+        <sp xml:id="A01353-e110470" who="A01353-ver_life">
+          <speaker>Ver. life.</speaker>
+          <l xml:id="A01353-e110480">¶ O wicked muses that have such delight,</l>
+          <l xml:id="A01353-e110490">In evil conversation wicked and 〈…〉</l>
+          <l xml:id="A01353-e110500">And from virtue's love withdraw yourselves quite,</l>
+          <l xml:id="A01353-e110510">And lean to vice most base and detestable. </l>
+          <l xml:id="A01353-e110520">How prone and 〈…〉 to ensue,</l>
+          <l xml:id="A01353-e110530"><pb facs="14"/> how deaf we be good 〈◊〉 to hear? </l>
+          <l xml:id="A01353-e110540">How strange we make it our hearts to be near? </l>
+          <l xml:id="A01353-e110550">How little we have gods threats in fear? </l>
+          <stage xml:id="A01353-e110560">When this is spoken he must pause and then say as followeth.</stage>
+          <l xml:id="A01353-e110570">Saint Augustine saith in his 5. book de civitate dei,</l>
+          <l xml:id="A01353-e110580">Coniuncta sunt edes vertutis et honoris (Saith he)</l>
+          <l xml:id="A01353-e110590">The house of virtue and honour joined together be. </l>
+          <l xml:id="A01353-e110600">And so the way to honour's house is disposed,</l>
+          <l xml:id="A01353-e110610">That through virtue's house he must needs pass:</l>
+          <l xml:id="A01353-e110620">Or else from honour he shall soon be deposed,</l>
+          <l xml:id="A01353-e110630">And brought to that point that he before was. </l>
+          <l xml:id="A01353-e110640">But if through virtue honour be attained:</l>
+          <l xml:id="A01353-e110650">The path to salvation may soon be gained. </l>
+          <l xml:id="A01353-e110660">Some there be that do fortune prefer,</l>
+          <l xml:id="A01353-e110670">Some esteem pleasure more than virtuous life:</l>
+          <l xml:id="A01353-e110680">But in mine opinion all such do err,</l>
+          <l xml:id="A01353-e110690">For virtue and fortune be not at strife. </l>
+          <l xml:id="A01353-e110700">Where virtue is, fortune must needs grow:</l>
+          <l xml:id="A01353-e110710">But fortune without virtue hath soon the overthrow. </l>
+          <l xml:id="A01353-e110720">Thrice happy are they that do virtue embrace,</l>
+          <l xml:id="A01353-e110730">For a crown of glory shall be their reward:</l>
+          <l xml:id="A01353-e110740">Sathan at no time may him any thing deface,</l>
+          <l xml:id="A01353-e110750">For God over him will have such regard. </l>
+          <l xml:id="A01353-e110760">That his foes he shall soon tread under his foot:</l>
+          <l xml:id="A01353-e110770">And by God's permission, pluck them up by the root. </l>
+          <l xml:id="A01353-e110780">It booteth not vice against virtue to stir,</l>
+          <l xml:id="A01353-e110790">For why vice is feeble and of no force:</l>
+          <l xml:id="A01353-e110800">But victus eterna preclaraque habentur.</l>
+          <l xml:id="A01353-e110810">Wherefore I would all men would have a remorse. </l>
+          <l xml:id="A01353-e110820">And eschew evil company vile and pernicious. </l>
+          <l xml:id="A01353-e110830">And as the end of virtue is honour and felicity,</l>
+          <l xml:id="A01353-e110840">So mark well the end of wickedness and vice:</l>
+          <l xml:id="A01353-e110850">Shame in this world and pain eternally,</l>
+          <l xml:id="A01353-e110860"><pb facs="15"/> wherefore you that are here learn to be wise. </l>
+          <l xml:id="A01353-e110870">And the end of the one, with the other way:</l>
+          <l xml:id="A01353-e110880">By that tune you have heard the end of this play. </l>
+          <l xml:id="A01353-e110890">But why do I thus much say in the praise of virtue? </l>
+          <l xml:id="A01353-e110900">Sith the thing praise worthy need no praise at all:</l>
+          <l xml:id="A01353-e110910">It praiseth itself sufficiently this is true,</l>
+          <l xml:id="A01353-e110920">Which chaseth away sin as bitter as gall. </l>
+          <l xml:id="A01353-e110930">And where virtue is, it need not to be praised:</l>
+          <l xml:id="A01353-e110940">For the renown thereof shall soon be raised. <stage xml:id="A01353-e110950">Intrat good fame</stage></l>
+        </sp>
+        <sp xml:id="A01353-e110960" who="A01353-good_fame">
+          <speaker>Good fame.</speaker>
+          <l xml:id="A01353-e110970">¶ O virtuous life God rest you merry,</l>
+          <l xml:id="A01353-e110980">To you I am come to attend,</l>
+        </sp>
+        <sp xml:id="A01353-e110990" who="A01353-ver_life">
+          <speaker>Ver. life.</speaker>
+          <l xml:id="A01353-e111000">¶ Good fame you are welcome heartily,</l>
+          <l xml:id="A01353-e111010">I pray you who did you hither send? </l>
+        </sp>
+        <sp xml:id="A01353-e111020" who="A01353-good-fame">
+          <speaker>G. fame.</speaker>
+          <l xml:id="A01353-e111030">¶ Even god's promise hath sent me unto you,</l>
+          <l xml:id="A01353-e111040">Willing me not from you to depart:</l>
+          <l xml:id="A01353-e111050">But always to give attendance due,</l>
+          <l xml:id="A01353-e111060">And in no wise from you to start. </l>
+          <l xml:id="A01353-e111070">For god of his promise hath most liberally,</l>
+          <l xml:id="A01353-e111080">Sent me good fame to you virtuous life:</l>
+          <l xml:id="A01353-e111090">Whereby it may be seen manifestly,</l>
+          <l xml:id="A01353-e111100">God's great zeal to virtue both in man and wife. </l>
+          <l xml:id="A01353-e111110">For why they may be sure that I good fame,</l>
+          <l xml:id="A01353-e111120">From the virtuous life will stray:</l>
+          <l xml:id="A01353-e111130">Whereby honour and renown may grow to their name,</l>
+          <l xml:id="A01353-e111140">And eternal salvation at the latter day. </l>
+        </sp>
+        <sp xml:id="A01353-e111150" who="A01353-ver_life">
+          <speaker>Ver. life.</speaker>
+          <l xml:id="A01353-e111160">¶ God is gracious and full of great mercy,</l>
+          <l xml:id="A01353-e111170">To such as in virtue set their whole delight:</l>
+          <l xml:id="A01353-e111180">Pouring his benefits upon them abundantly:</l>
+          <l xml:id="A01353-e111190">O man what meanest thou with saviour to fight? </l>
+          <l xml:id="A01353-e111200">Come unto him for he is full of mercy. </l>
+          <l xml:id="A01353-e111210">The fountain of virtue and of godliness the spring,</l>
+          <l xml:id="A01353-e111220">Come unto me and thou shalt live everlastingly:</l>
+          <l xml:id="A01353-e111230">He doth not require thee any price to bring,</l>
+          <stage xml:id="A01353-e111240"><pb facs="15"/>Venite ad me omnes qui laboratis onerati estis et ego reficiam vos. </stage>
+          <l xml:id="A01353-e111250">Come unto me ye that travail (Saith he,</l>
+          <l xml:id="A01353-e111260">And such as with sin are heavily laden:</l>
+          <l xml:id="A01353-e111270">And of myself refreshed you shall be. </l>
+          <l xml:id="A01353-e111280">Repent, repent, your deeds shall be down trodden,</l>
+          <l xml:id="A01353-e111290">Well good fame sith God of his goodness,</l>
+          <l xml:id="A01353-e111300">Hath hither sent you on me to attend:</l>
+          <l xml:id="A01353-e111310">Let us give thanks to him with humbleness,</l>
+          <l xml:id="A01353-e111320">And persuade with all men their lives to amend. </l>
+        </sp>
+        <sp xml:id="A01353-e111330" who="A01353-good_fame">
+          <speaker>Good fame.</speaker>
+          <l xml:id="A01353-e111340">¶ Virtuous life thereto I do agree,</l>
+          <l xml:id="A01353-e111350">For it becometh all men to do so:</l>
+          <l xml:id="A01353-e111360">But behold yonder cometh God's promise as seemeth to me,</l>
+          <l xml:id="A01353-e111370">And honour with him cometh also. <stage xml:id="A01353-e111380">Enter gods promises and honour with him.</stage></l>
+        </sp>
+        <sp xml:id="A01353-e111390" who="A01353-ver_life">
+          <speaker>Ver. life.</speaker>
+          <l xml:id="A01353-e111400">¶ Such godly company liketh me very well:</l>
+          <l xml:id="A01353-e111410">For vicious men from our company we would expel</l>
+        </sp>
+        <sp xml:id="A01353-e111420" who="A01353-gods_promise">
+          <speaker>God's promise</speaker>
+          <p xml:id="A01353-e111430">¶ God rest you merry both, and God be your good guide:</p>
+        </sp>
+        <sp xml:id="A01353-e111440" who="A01353-honour">
+          <speaker>Honour.</speaker>
+          <l xml:id="A01353-e111450">¶ We are now come to the place where we must abide,</l>
+          <l xml:id="A01353-e111460">For from you virtuous life, I honour may not slide. </l>
+        </sp>
+        <sp xml:id="A01353-e111470" who="A01353-gods_promise">
+          <speaker>God's promise</speaker>
+          <l xml:id="A01353-e111480">¶ I am god's promise which is a thing etern. </l>
+          <l xml:id="A01353-e111490">And nothing more surer than his promises may be:</l>
+          <l xml:id="A01353-e111500">A sure foundation to such as will learn,</l>
+          <l xml:id="A01353-e111510">God's precepts to observe then must they needs see. </l>
+          <l xml:id="A01353-e111520">Honour in this world, and at last a crown of glory,</l>
+          <l xml:id="A01353-e111530">Ever in joy and mirth, and never to be sorry. </l>
+          <l xml:id="A01353-e111540">Wherefore o virtuous life to thee we do repair,</l>
+          <l xml:id="A01353-e111550">As messengers from God, his promise to fulfil:</l>
+          <l xml:id="A01353-e111560">And therefore sit you down in this chair,</l>
+          <l xml:id="A01353-e111570">For to endue you with honour it is god's promise and will. </l>
+        </sp>
+        <stage xml:id="A01353-e111580">Virtuous living sitteth down in the chair.</stage>
+        <sp xml:id="A01353-e111590" who="A01353-honour">
+          <speaker>Honour,</speaker>
+          <l xml:id="A01353-e111600">¶ Now take this sword in hand as a token of victory,</l>
+          <l xml:id="A01353-e111610">This crown from my head to you I shall give? </l>
+          <l xml:id="A01353-e111620">I crown you with it as one most worthy,</l>
+          <l xml:id="A01353-e111630"><pb facs="16"/> and see that all vice ye do punish and grieve. </l>
+          <l xml:id="A01353-e111640">For in this world I honour with you shall remain. </l>
+          <l xml:id="A01353-e111650">And good fame from you cannot refrain? </l>
+          <l xml:id="A01353-e111660">And after this life a greater crown you shall attain. </l>
+        </sp>
+        <sp xml:id="A01353-e111670" who="A01353-ver_life">
+          <speaker>Ver. life,</speaker>
+          <l xml:id="A01353-e111680">¶ What heart can think: or what tongue can express? </l>
+          <l xml:id="A01353-e111690">The great goodness of God which is almighty:</l>
+          <l xml:id="A01353-e111700">Who seeth this, and seeketh not vice to suppress,</l>
+          <l xml:id="A01353-e111710">Honour, good fame, yea and life everlastingly. </l>
+          <l xml:id="A01353-e111720">Thy name be praised o lord therefore:</l>
+          <l xml:id="A01353-e111730">And to thee only be glory and honour. </l>
+        </sp>
+        <sp xml:id="A01353-e111740" who="A01353-good_fame">
+          <speaker>Good fame</speaker>
+          <l xml:id="A01353-e111750">¶ S'th God's promise hath brought honour in to this place,</l>
+          <l xml:id="A01353-e111760">I will for a while leave you three alone:</l>
+          <l xml:id="A01353-e111770">For I must depart now for a little space,</l>
+          <l xml:id="A01353-e111780">But I shall come to you again anon. <stage xml:id="A01353-e111790">Exit good fame.</stage></l>
+        </sp>
+        <sp xml:id="A01353-e111800" who="A01353-gods_promise">
+          <speaker>God's promise</speaker>
+          <l xml:id="A01353-e111810">¶ God's promise is infallible, his word is most true,</l>
+          <l xml:id="A01353-e111820">And to ground theron a man may be bold:</l>
+          <l xml:id="A01353-e111830">As scripture doth testify and declare unto you,</l>
+          <l xml:id="A01353-e111840">On which foundation your building you may behold. </l>
+          <l xml:id="A01353-e111850">For virtuous rulers the fruit of felicity do reap:</l>
+          <l xml:id="A01353-e111860">And the reward of fame, and honour to themselves they heap. </l>
+        </sp>
+        <sp xml:id="A01353-e111870" who="A01353-honour">
+          <speaker>Honour.</speaker>
+          <l xml:id="A01353-e111880">¶ Sing we have now endued him with thecrown and sword,</l>
+          <l xml:id="A01353-e111890">Which is due unto him by god's promise and word:</l>
+          <l xml:id="A01353-e111900">Let us three sing unto God with one accord. </l>
+        </sp>
+        <sp xml:id="A01353-e111910" who="A01353-gods_promise">
+          <speaker>God's promise</speaker>
+          <p xml:id="A01353-e111920">¶ To sing praises unto God it liketh well me:</p>
+        </sp>
+        <sp xml:id="A01353-e111930" who="A01353-ver_life">
+          <speaker>Ver. life.</speaker>
+          <l xml:id="A01353-e111940">¶ And I also with you thereto do agree. </l>
+          <l xml:id="A01353-e111950">A pleasant noise to God's ears it must needs bring:</l>
+          <l xml:id="A01353-e111960">That god's promise, honour, and virtuous life do sing. </l>
+        </sp>
+        <stage xml:id="A01353-e111970">They sing this song following.</stage>
+        <floatingText xml:id="A01353-e111980">
+          <body xml:id="A01353-e111990">
+            <div type="song" xml:id="A01353-e112000">
+              <head>This must be sung after every verse.</head>
+              <lg xml:id="A01353-e112010">
+                <l xml:id="A01353-e112020">Life is but short hope not therein:</l>
+                <l xml:id="A01353-e112030">Virtue immortal seek for to win. </l>
+                <l xml:id="A01353-e112040"><pb facs="16"/>Who so to virtue doth apply,</l>
+                <l xml:id="A01353-e112050">Good fame and honour must obtain:</l>
+                <l xml:id="A01353-e112060">And also live eternally,</l>
+                <l xml:id="A01353-e112070">For virtuous life this is the gain. </l>
+                <l xml:id="A01353-e112080">Life is but short, etc. </l>
+              </lg>
+              <lg xml:id="A01353-e112090">
+                <l xml:id="A01353-e112100">God's promise sure will never fail,</l>
+                <l xml:id="A01353-e112110">His holy word is a perfect ground,</l>
+                <l xml:id="A01353-e112120">The fort of virtue o man assail,</l>
+                <l xml:id="A01353-e112130">Where treasure always doth abound. </l>
+                <l xml:id="A01353-e112140">Life is but short, etc. </l>
+              </lg>
+              <lg xml:id="A01353-e112150">
+                <l xml:id="A01353-e112160">To thee alone be laud and praise,</l>
+                <l xml:id="A01353-e112170">O lord thou art so merciful:</l>
+                <l xml:id="A01353-e112180">Who never failed at all assays,</l>
+                <l xml:id="A01353-e112190">To aid and help the pitiful. </l>
+                <l xml:id="A01353-e112200">Life is but short hope not therein:</l>
+              </lg>
+              <trailer xml:id="A01353-e112210">Finis.</trailer>
+            </div>
+          </body>
+        </floatingText>
+        <stage xml:id="A01353-e112220">Exeunt omnes.</stage>
+        <stage xml:id="A01353-e112230">Here entereth Nichole Newfangle, and bringeth in with him a bag, a staff, a bottle, and two halters, going about the place showing it to the audience, and singing this.</stage>
+        <sp xml:id="A01353-e112240" who="A01353-newfangle">
+          <l xml:id="A01353-e112250">Trim merchandise trim trim, trim merchandise trim trim,</l>
+          <l xml:id="A01353-e112260">He may sing this as oft as he thinketh good. </l>
+        </sp>
+        <sp xml:id="A01353-e112270" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e112280">¶ Marry here is merchandise who list for to buy any,</l>
+          <l xml:id="A01353-e112290">Come see for your love and buy for your money. </l>
+          <l xml:id="A01353-e112300">This is the land which I must distribute anon:</l>
+          <l xml:id="A01353-e112310">According to my promise or I beg on. </l>
+          <l xml:id="A01353-e112320">For why Tom Tospot since he went hence:</l>
+          <l xml:id="A01353-e112330">Hath increased a noble just unto nine pence. </l>
+          <l xml:id="A01353-e112340">And rate roister, it may none otherwise be chosen:</l>
+          <l xml:id="A01353-e112350">Hath brought a pack of wool to a saite pair of hosen. </l>
+          <l xml:id="A01353-e112360">This is good thrift learn it who shall:</l>
+          <l xml:id="A01353-e112370">And now a couple of fellows, are come from cutpurse hall. </l>
+          <l xml:id="A01353-e112380">And there have they brought many a purse to wrack:</l>
+          <l xml:id="A01353-e112390">Lo hearts gear that will make their necks to crack. </l>
+          <l xml:id="A01353-e112400"><pb facs="17"/>For I promised Tom Tospot and Rafe roister a piece of land,</l>
+          <l xml:id="A01353-e112410">Lo here it is ready in my right hand. </l>
+          <l xml:id="A01353-e112420">A wallet and bottle, but it is not to be sold:</l>
+          <l xml:id="A01353-e112430">I told them before that of beggar's manner it did hold. </l>
+          <l xml:id="A01353-e112440">And for Cutbert cutpurse, and pierce pickpurse here is good fare,</l>
+          <l xml:id="A01353-e112450">This is the land of the two legged mare. </l>
+          <l xml:id="A01353-e112460">Which I to them promised and divide it with discretion:</l>
+          <l xml:id="A01353-e112470">Shortly you shall see I will put them in possession. </l>
+          <l xml:id="A01353-e112480">How like you this merchandise my master? is not this trim? </l>
+          <l xml:id="A01353-e112490">A wallet, a bottle, a staff and a string. </l>
+          <l xml:id="A01353-e112500">In faith Rafe roister is in good case as I suppose,</l>
+          <l xml:id="A01353-e112510">For he hath lost all that he hath, save his doublet and his hose,</l>
+          <l xml:id="A01353-e112520">And Tom Tospot is even at the same point:</l>
+          <l xml:id="A01353-e112530">For he would lose a lim or jeopard a joint. </l>
+          <l xml:id="A01353-e112540">But behold yonder they come both, now all is gone and spent,</l>
+          <l xml:id="A01353-e112550">I know their errand and what is their intent. </l>
+        </sp>
+        <stage xml:id="A01353-e112560">Here entereth Rafe Roister and Tom Tospot in their doublet and their hose, and no cap nor hat on their head, saving a night cap because the strings of the beards may not be seen, and Rafe Roister must curse and ban as he cometh in.</stage>
+        <sp xml:id="A01353-e112570" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e112580">¶ Well, be as be may is no banning,</l>
+          <l xml:id="A01353-e112590">But I fear that when this gear shall come to scanning. </l>
+          <l xml:id="A01353-e112600">The land to the which we did wholly trust:</l>
+          <l xml:id="A01353-e112610">Shall be gone from us and we cast in the dust. </l>
+        </sp>
+        <sp xml:id="A01353-e112620" who="A01353-roister">
+          <speaker>R. Roister.</speaker>
+          <l xml:id="A01353-e112630">¶ Gog's blood if Nichol newfangle serve us so:</l>
+          <l xml:id="A01353-e112640">We may say that we have had a shrewd blow. </l>
+          <l xml:id="A01353-e112650">For all that I had is now lost at dice,</l>
+          <l xml:id="A01353-e112660">My sword, my buckler and all at sink and since,</l>
+          <l xml:id="A01353-e112670">My coat, my cloak, and my hat also,</l>
+          <l xml:id="A01353-e112680">And now in my doublet and my hose I am fain to go. </l>
+          <l xml:id="A01353-e112690">Therefore if Nichol newfangle help not now at a pinch:</l>
+          <l xml:id="A01353-e112700"><pb facs="17"/> I am undone for land I have not an inch. </l>
+        </sp>
+        <sp xml:id="A01353-e112710" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e112720">¶ By gog's wounds even so it is with me:</l>
+          <l xml:id="A01353-e112730">I am in my doublet and my hose as ye see. </l>
+          <l xml:id="A01353-e112740">For all that I had doth lie at pledge for ale:</l>
+          <l xml:id="A01353-e112750">By the mass I am as bare as my nail. </l>
+          <l xml:id="A01353-e112760">Not a cross of money to bless me have I,</l>
+          <l xml:id="A01353-e112770">But I trow we shall meet with Nichol Newfangle by and by. </l>
+        </sp>
+        <sp xml:id="A01353-e112780" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e112790">¶ Turn hither turn hither, I say sir knave:</l>
+          <l xml:id="A01353-e112800">For I am even he that you so fain would have. </l>
+        </sp>
+        <sp xml:id="A01353-e112810" who="A01353-roister">
+          <speaker>R. Roister.</speaker>
+          <p xml:id="A01353-e112820">¶ What? Master Nichol are you here all this while ▪</p>
+        </sp>
+        <sp xml:id="A01353-e112830" who="A01353-newfangle">
+          <speaker>N. New.</speaker>
+          <p xml:id="A01353-e112840">¶ I think I am here or else I do thee beguile.</p>
+        </sp>
+        <sp xml:id="A01353-e112850" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e112860">¶ So God help me I am glad that you be in sight:</l>
+          <l xml:id="A01353-e112870">For in faith your presence hath made my heart light. </l>
+        </sp>
+        <sp xml:id="A01353-e112880" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <l xml:id="A01353-e112890">¶ I will make it lighter anon I trow:</l>
+          <l xml:id="A01353-e112900">My masters I have a piece of land for you, do you not know? </l>
+        </sp>
+        <sp xml:id="A01353-e112910" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <l xml:id="A01353-e112920">¶ Marry that is the cause of our hither resort:</l>
+          <l xml:id="A01353-e112930">For now we are void of all joy and comfort. </l>
+        </sp>
+        <sp xml:id="A01353-e112940" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e112950">¶ You see in what care we now stand in,</l>
+          <l xml:id="A01353-e112960">And you heard us also even now I ween. </l>
+          <l xml:id="A01353-e112970">Wh 〈…〉 good master Nichol let us have this land now:</l>
+          <l xml:id="A01353-e112980">And 〈…〉 ourselves much bound unto you. </l>
+        </sp>
+        <sp xml:id="A01353-e112990" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e113000">¶ You know that I this land must divide. </l>
+          <l xml:id="A01353-e113010">Which I shall do but a while abide. </l>
+          <l xml:id="A01353-e113020">All 〈…〉 at pledge be:</l>
+          <l xml:id="A01353-e113030">And 〈…〉 a part of dice hath made thee free. </l>
+          <l xml:id="A01353-e113040">〈…〉 come thou unto me. <stage xml:id="A01353-e113050">He giveth the bag to R. roister and the bottle to T. Tospot</stage></l>
+          <l xml:id="A01353-e113060">Because 〈◊〉 hast lost every whit at dice,</l>
+          <l xml:id="A01353-e113070">Take thou this bag to carry bread and cheese. </l>
+          <l xml:id="A01353-e113080">And take thou this bottle and mark what I shall say:</l>
+          <l xml:id="A01353-e113090">If he chance to eat the bread and cheese by the way. </l>
+          <l xml:id="A01353-e113100">Do thou in this matter follow my council:</l>
+          <l xml:id="A01353-e113110">Drink by the drink and knock him about the head with the bottle</l>
+          <l xml:id="A01353-e113120">And because that raze is the elder knave:</l>
+          <l xml:id="A01353-e113130"><pb facs="18"/> this staff also of me thou shalt have? </l>
+        </sp>
+        <sp xml:id="A01353-e113140" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <p xml:id="A01353-e113150">¶ But where is the land that to us you promised:</p>
+        </sp>
+        <sp xml:id="A01353-e113160" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e113170">¶ In faith good fellows my promise is performed.</p>
+        </sp>
+        <sp xml:id="A01353-e113180" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e113190">¶ By gog's blood I thought that it would be so,</p>
+        </sp>
+        <sp xml:id="A01353-e113200" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e113210">¶ This must you have whether you will or no. </l>
+          <l xml:id="A01353-e113220">Or else fall to work with shovel and with spade:</l>
+          <l xml:id="A01353-e113230">For begging now must be your chiefest trade. </l>
+        </sp>
+        <sp xml:id="A01353-e113240" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <l xml:id="A01353-e113250">¶ God's heart can I away with this life? </l>
+          <l xml:id="A01353-e113260">To beg my bread from door to door? </l>
+          <l xml:id="A01353-e113270">I will rather cut my throat with a knife,</l>
+          <l xml:id="A01353-e113280">Than I will live thus beggarly and poor. </l>
+          <l xml:id="A01353-e113290">By gog's blood rather than I will it assay:</l>
+          <l xml:id="A01353-e113300">I will rob and steal, and keep the high way. </l>
+        </sp>
+        <sp xml:id="A01353-e113310" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e113320">¶ Well Rafe roister seeing we be in this misery,</l>
+          <l xml:id="A01353-e113330">And labour we cannot and to beg it is a shame:</l>
+          <l xml:id="A01353-e113340">Yet better it is to beg most shamefully,</l>
+          <l xml:id="A01353-e113350">Than to be hanged and to thievery ourselves to frame. </l>
+        </sp>
+        <sp xml:id="A01353-e113360" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <l xml:id="A01353-e113370">¶ Now my masters learn to beware:</l>
+          <l xml:id="A01353-e113380">But like will to like quod the devil to the collier. </l>
+        </sp>
+        <sp xml:id="A01353-e113390" who="A01353-roister">
+          <speaker>R. Roister.</speaker>
+          <l xml:id="A01353-e113400">¶ O lord why did not I consider this before,</l>
+          <l xml:id="A01353-e113410">What should of roisting be the final end? </l>
+          <l xml:id="A01353-e113420">Now the house is stolen I shut the stable door,</l>
+          <l xml:id="A01353-e113430">Alas that I had time my life to amend. </l>
+          <l xml:id="A01353-e113440">Time I have I must needs confess,</l>
+          <l xml:id="A01353-e113450">But yet in misery that time must be spent:</l>
+          <l xml:id="A01353-e113460">Seeing that my life I would not redress,</l>
+          <l xml:id="A01353-e113470">But wholly in riot I have it all spent. </l>
+          <l xml:id="A01353-e113480">Wherefore I am now brought to this exigent. </l>
+          <l xml:id="A01353-e113490">But the time passed cannot be called again this is no nay,</l>
+          <l xml:id="A01353-e113500">Wherefore all you here take example by me:</l>
+          <l xml:id="A01353-e113510">Time tarrieth no man but passeth still away,</l>
+          <l xml:id="A01353-e113520">Take time while time is for time doth flee:</l>
+          <l xml:id="A01353-e113530">Use well your youthful years and to virtues lore agree. </l>
+          <l xml:id="A01353-e113540"><pb facs="18"/>For if I to virtue had any respect,</l>
+          <l xml:id="A01353-e113550">This misfortune to me could not have chanced:</l>
+          <l xml:id="A01353-e113560">But because unto vice I was a subject;</l>
+          <l xml:id="A01353-e113570">To no good fame may I now be advanced. </l>
+          <l xml:id="A01353-e113580">My credit also is now quite staunched. </l>
+          <l xml:id="A01353-e113590">Wherefore I would all men my woeful case might see:</l>
+          <l xml:id="A01353-e113600">That I to them a mirror might be. </l>
+        </sp>
+        <sp xml:id="A01353-e113610" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e113620">¶ O all ye parents to you I do say,</l>
+          <l xml:id="A01353-e113630">Have respect to your children and for their education:</l>
+          <l xml:id="A01353-e113640">Lest you answer therefore at the latter day,</l>
+          <l xml:id="A01353-e113650">And your meed shall be eternal damnation. </l>
+          <l xml:id="A01353-e113660">If my parents had brought me up in virtue and learning,</l>
+          <l xml:id="A01353-e113670">I should not have had this shameful end:</l>
+          <l xml:id="A01353-e113680">But all licentiously was my up bringing,</l>
+          <l xml:id="A01353-e113690">Wherefore learn by me your faults to amend. </l>
+          <l xml:id="A01353-e113700">But neither in virtue, learning, nor yet honest trade ▪</l>
+          <l xml:id="A01353-e113710">Was I bred up my living for to get:</l>
+          <l xml:id="A01353-e113720">Therefore in misery my life away must fade,</l>
+          <l xml:id="A01353-e113730">For vicious persons behold not the net. </l>
+          <l xml:id="A01353-e113740">I am in the snare I am caught with the gin:</l>
+          <l xml:id="A01353-e113750">And now it is too late, I cannot again begin. </l>
+        </sp>
+        <sp xml:id="A01353-e113760" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e113770">¶ This gear would have been looked too before:</l>
+          <l xml:id="A01353-e113780">But now my masters you are upon the score. </l>
+          <l xml:id="A01353-e113790">Be packing I say and get you hence:</l>
+          <l xml:id="A01353-e113800">Learn to say I pray good master give me nine pence. </l>
+        </sp>
+        <sp xml:id="A01353-e113810" who="A01353-roister">
+          <speaker>R. Roister.</speaker>
+          <l xml:id="A01353-e113820">¶ Thou villain art only the causer of this woe:</l>
+          <l xml:id="A01353-e113830">Therefore thou shalt have some thing of mere I go. </l>
+        </sp>
+        <sp xml:id="A01353-e113840" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <l xml:id="A01353-e113850">¶ Thou hast given me a bottle here:</l>
+          <l xml:id="A01353-e113860">But thou shalt drink first of it be it ale or beer. </l>
+        </sp>
+        <stage xml:id="A01353-e113870">Raze roister beateth him with the staff, and Tom Tospot with the bottle ▪</stage>
+        <sp xml:id="A01353-e113880" who="A01353-roister">
+          <speaker>R. Roister.</speaker>
+          <p xml:id="A01353-e113890">¶ Take this of me before I go hence,</p>
+        </sp>
+        <sp xml:id="A01353-e113900" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e113910">¶ Take this of me in part of recompense.</p>
+        </sp>
+        <sp xml:id="A01353-e113920" who="A01353-newfangle">
+          <pb facs="19"/>
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e113930">¶ Now am I driven to play the master of fence. </l>
+          <l xml:id="A01353-e113940">Come no near me you knaves for your ine:</l>
+          <l xml:id="A01353-e113950">Lest I stick you both with this wood knife. <stage xml:id="A01353-e113960">They have him down and beat him be crieth for help</stage></l>
+          <l xml:id="A01353-e113970">Back I say back thou sturdy beggar:</l>
+          <l xml:id="A01353-e113980">Body of me they have ta'en away my dagger</l>
+        </sp>
+        <sp xml:id="A01353-e113990" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <l xml:id="A01353-e114000">¶ Now in faith you whoreson take heed I you acurse:</l>
+          <l xml:id="A01353-e114010">How you do any more young men entice. </l>
+        </sp>
+        <sp xml:id="A01353-e114020" who="A01353-tos">
+          <speaker>T. Tos.</speaker>
+          <p xml:id="A01353-e114030">¶ Now farewell thou hast thy just meed:</p>
+        </sp>
+        <sp xml:id="A01353-e114040" who="A01353-roister">
+          <speaker>R. Roister</speaker>
+          <p xml:id="A01353-e114050">¶ Now we go a-begging god send us good speed.</p>
+        </sp>
+        <stage xml:id="A01353-e114060">Rafe roister and Tom Tospot goeth out, and severity the judge entereth, and Nichol Newfangle lieth on the ground groaning.</stage>
+        <sp xml:id="A01353-e114070" who="A01353-severity">
+          <speaker>Severity.</speaker>
+          <l xml:id="A01353-e114080">¶ That upright judgement without partiality,</l>
+          <l xml:id="A01353-e114090">Be ministered duly to ill doers and offenders:</l>
+          <l xml:id="A01353-e114100">I am one whose name is severity,</l>
+          <l xml:id="A01353-e114110">Appointed a judge to suppress evil doers. </l>
+          <l xml:id="A01353-e114120">Not for hatred nor yet for malice:</l>
+          <l xml:id="A01353-e114130">But to advance virtue and suppress vice. </l>
+          <l xml:id="A01353-e114140">Wherefore Isidorus these words doth say:</l>
+          <l xml:id="A01353-e114150">Non est judex si in eo non est justicia. </l>
+          <l xml:id="A01353-e114160">He is not a judge that justice doth want:</l>
+          <l xml:id="A01353-e114170">But he that truth and equity doth plant. </l>
+          <l xml:id="A01353-e114180">Tully all these words doth express:</l>
+          <l xml:id="A01353-e114190">Which words are very true doubtless. </l>
+          <l xml:id="A01353-e114200">Semper iniquus est, qui aut invidet aut favet,</l>
+          <l xml:id="A01353-e114210">They are unrightful judges all:</l>
+          <l xml:id="A01353-e114220">That are either, envious or else partial. </l>
+        </sp>
+        <sp xml:id="A01353-e114230" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e114240">¶ 〈…〉 up good sir for I have got a fall.</p>
+        </sp>
+        <sp xml:id="A01353-e114250" who="A01353-unassigned">
+          <speaker>〈◊〉</speaker>
+          <p xml:id="A01353-e114260">〈…〉 ●au●e have you my friend thus heavily to groan</p>
+        </sp>
+        <sp xml:id="A01353-e114270" who="A01353-unassigned">
+          <speaker>〈◊〉</speaker>
+          <l xml:id="A01353-e114280">¶ O sir I have good cause to make great moan. </l>
+          <l xml:id="A01353-e114290">Here 〈◊〉 too fellows but right now:</l>
+          <l xml:id="A01353-e114300">What ● think have killed me I make God a vow. </l>
+          <l xml:id="A01353-e114310">〈…〉 alive or am I dead? </l>
+        </sp>
+        <sp xml:id="A01353-e114320" who="A01353-severity">
+          <pb facs="19"/>
+          <speaker>Severity.</speaker>
+          <l xml:id="A01353-e114330">¶ Fellow it is more need for thee to be in thy bed. </l>
+          <l xml:id="A01353-e114340">Then to lie here in such so●● as thou dost:</l>
+        </sp>
+        <sp xml:id="A01353-e114350" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e114360">¶ In faith I should have laid some of the knaves in the dust. </l>
+          <l xml:id="A01353-e114370">If I had your sword right now in presence:</l>
+          <l xml:id="A01353-e114380">I would have had a leg or an arm ere they had gone hence. </l>
+        </sp>
+        <sp xml:id="A01353-e114390" who="A01353-severity">
+          <speaker>Severity.</speaker>
+          <p xml:id="A01353-e114400">¶ Who is it that hath done thee this injury?</p>
+        </sp>
+        <sp xml:id="A01353-e114410" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e114420">¶ A couple of beggars have done me this villainy.</p>
+        </sp>
+        <sp xml:id="A01353-e114430" who="A01353-severity">
+          <speaker>Severity.</speaker>
+          <l xml:id="A01353-e114440">¶ I see if severity should not be executed,</l>
+          <l xml:id="A01353-e114450">One man should not live by another:</l>
+          <l xml:id="A01353-e114460">If such injuries should not be confuted. </l>
+          <l xml:id="A01353-e114470">The child would not regard father nor mother. </l>
+          <l xml:id="A01353-e114480">Give me thy hand and I will help thee,</l>
+        </sp>
+        <sp xml:id="A01353-e114490" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e114500">¶ Hold fast your sword than I pray you heartily. <stage xml:id="A01353-e114510">He riseth.</stage></p>
+        </sp>
+        <sp xml:id="A01353-e114520" who="A01353-severity">
+          <speaker>Severity.</speaker>
+          <l xml:id="A01353-e114530">¶ Now friend it appeareth unto me:</l>
+          <l xml:id="A01353-e114540">That you have been a traveler of the country. </l>
+          <l xml:id="A01353-e114550">And such as do travail do hear of things done:</l>
+          <l xml:id="A01353-e114560">As well in the country as in the city of London. </l>
+          <l xml:id="A01353-e114570">How say you my friend can you tell any news? </l>
+        </sp>
+        <sp xml:id="A01353-e114580" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e114590">¶ That can I, for I came lately from the stews. </l>
+          <l xml:id="A01353-e114600">There are knaves abroad you may believe me. </l>
+          <l xml:id="A01353-e114610">As in this place shortly you shall see. </l>
+          <l xml:id="A01353-e114620">No more words but mum and stand a while aside:</l>
+          <l xml:id="A01353-e114630">Yonder cometh two knaves therefore abide. </l>
+        </sp>
+        <stage xml:id="A01353-e114640">Enter Cutbert cutpurse and Pierce pickpurse.</stage>
+        <sp xml:id="A01353-e114650" who="A01353-cutpurse">
+          <speaker>C. Cutpurs.</speaker>
+          <l xml:id="A01353-e114660">¶ By gog's wounds if he help not now we are undone,</l>
+          <l xml:id="A01353-e114670">By the mass for my part I wot not where to run. </l>
+          <l xml:id="A01353-e114680">We be so pursued on every side:</l>
+          <l xml:id="A01353-e114690">That by gog's heart I wot not where to abide. </l>
+          <l xml:id="A01353-e114700">Every constable is charged to make privy search:</l>
+          <l xml:id="A01353-e114710">So that if we may be got, we shall be thrown over the perch. </l>
+        </sp>
+        <sp xml:id="A01353-e114720" who="A01353-pickpurse">
+          <speaker>P. pick</speaker>
+          <l xml:id="A01353-e114730">¶ If Nichol newfangle help not now in our need:</l>
+          <l xml:id="A01353-e114740">We are like in our business full evil to speed.</l>
+          <l xml:id="A01353-e114750">Therefore let us make no more delay,</l>
+          <l xml:id="A01353-e114760"><pb facs="20"/> but seek him out of hand and be gone away,</l>
+        </sp>
+        <sp xml:id="A01353-e114770" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e114780">¶ Soft my masters a while I you pray,</l>
+          <l xml:id="A01353-e114790">For I am here for whom you do seek:</l>
+          <l xml:id="A01353-e114800">For you know that like will never from like. </l>
+          <l xml:id="A01353-e114810">I promised you of late a piece of land:</l>
+          <l xml:id="A01353-e114820">Which by and by shall fall into your hand. </l>
+        </sp>
+        <sp xml:id="A01353-e114830" who="A01353-cutpurse">
+          <speaker>C. Cutpurs</speaker>
+          <p xml:id="A01353-e114840">¶ What master Nichol, how do you today?</p>
+        </sp>
+        <sp xml:id="A01353-e114850" who="A01353-pickpurse">
+          <speaker>P. pick</speaker>
+          <l xml:id="A01353-e114860">‡ for the passion of God master Nichol help to rid us away,</l>
+          <l xml:id="A01353-e114870">And help us to the land whereof you did say.</l>
+          <l xml:id="A01353-e114880">That we might make money of it by and by:</l>
+          <l xml:id="A01353-e114890">For out of the realm we purpose to flee. </l>
+        </sp>
+        <sp xml:id="A01353-e114900" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e114910">‡ marry I will help you I swear by Allhallowes:</l>
+          <l xml:id="A01353-e114920">I will not part from you till you come to the gallows. </l>
+          <l xml:id="A01353-e114930">Lo noble severity these be they without doubt,</l>
+          <l xml:id="A01353-e114940">On whom this rumor of the every is gone about. </l>
+          <l xml:id="A01353-e114950">Therefore my masters here is the snare:</l>
+          <l xml:id="A01353-e114960">That shall lead you to the land called the two legged mare. </l>
+        </sp>
+        <stage xml:id="A01353-e114970">He putteth about each of their necks an halter.</stage>
+        <sp xml:id="A01353-e114980" who="A01353-severity">
+          <speaker>Severity.</speaker>
+          <p xml:id="A01353-e114990">¶ My friend hold them fast in that plight:</p>
+        </sp>
+        <sp xml:id="A01353-e115000" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <p xml:id="A01353-e115010">‡ then come and help me with your sword, for I fear they will fight.</p>
+        </sp>
+        <sp xml:id="A01353-e115020" who="A01353-severity">
+          <speaker>Severity.</speaker>
+          <l xml:id="A01353-e115030">‡ strive not my masters for it shall not avail:</l>
+          <l xml:id="A01353-e115040">But a while give care unto my counsel. </l>
+          <l xml:id="A01353-e115050">Your own words have condemned you for to die:</l>
+          <l xml:id="A01353-e115060">Therefore to God make you yourselves ready. </l>
+          <l xml:id="A01353-e115070">And by and by I will send one which for your abusion,</l>
+          <l xml:id="A01353-e115080">Shall lead you to the place of execution. </l>
+        </sp>
+        <sp xml:id="A01353-e115090" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e115100">‡ help to tie their hands before ye be gone. <stage xml:id="A01353-e115110">He helpeth to tie them</stage></p>
+        </sp>
+        <sp xml:id="A01353-e115120" who="A01353-severity">
+          <speaker>Severity.</speaker>
+          <p xml:id="A01353-e115130">‡ now they are bound I will send one to you anon.<stage xml:id="A01353-e115140">Exit</stage></p>
+        </sp>
+        <sp xml:id="A01353-e115150" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e115160">‡ ah my masters how like you this play? </l>
+          <l xml:id="A01353-e115170">You shall take possession of your land today. </l>
+          <l xml:id="A01353-e115180">I will help to bridle the two legged mare,</l>
+          <l xml:id="A01353-e115190">And both you for to ride need not to spare. </l>
+          <l xml:id="A01353-e115200"><pb facs="20"/>Now so God help me I swear by this bread,</l>
+          <l xml:id="A01353-e115210">I marvel who shall play the knave when you twain be dead. </l>
+        </sp>
+        <sp xml:id="A01353-e115220" who="A01353-cutpurse">
+          <speaker>C. Cutpurs</speaker>
+          <l xml:id="A01353-e115230">¶ O cursed caitiff born in an ill hour,</l>
+          <l xml:id="A01353-e115240">Woe unto me that ever I did thee know:</l>
+          <l xml:id="A01353-e115250">For of all iniquity thou art the bower,</l>
+          <l xml:id="A01353-e115260">The seed of Sathan thou dost always sow.</l>
+          <l xml:id="A01353-e115270">Thou only hast given me the overthrow. </l>
+          <l xml:id="A01353-e115280">Woe worth the house wherein I was born,</l>
+          <l xml:id="A01353-e115290">Woe worth the time that ever I knew thee,</l>
+          <l xml:id="A01353-e115300">For now in misery I am forlorn. </l>
+          <l xml:id="A01353-e115310">O all youth take example by me. </l>
+          <l xml:id="A01353-e115320">Flee from evil company as from serpent ye would flee:</l>
+          <l xml:id="A01353-e115330">For I to you all a mirror may be. </l>
+          <l xml:id="A01353-e115340">I have been daintily and delicately bred,</l>
+          <l xml:id="A01353-e115350">But nothing at all in virtue's lore:</l>
+          <l xml:id="A01353-e115360">And now I am but a man dead,</l>
+          <l xml:id="A01353-e115370">Hanged I must be which grieveth me full sore. </l>
+          <l xml:id="A01353-e115380">Note well the end of me therefore. </l>
+          <l xml:id="A01353-e115390">And you that fathers and mothers be:</l>
+          <l xml:id="A01353-e115400">Bring not up your children in to much liberty,</l>
+        </sp>
+        <sp xml:id="A01353-e115410" who="A01353-pickpurse">
+          <speaker>P. Pick.</speaker>
+          <l xml:id="A01353-e115420">¶ Sith that by the law we are condemned,</l>
+          <l xml:id="A01353-e115430">Let us call to God for his mercy and grace:</l>
+          <l xml:id="A01353-e115440">And exhort that all vice may be amended,</l>
+          <l xml:id="A01353-e115450">While we in this world have time and space. </l>
+          <l xml:id="A01353-e115460">And though our lives have licentiously been spent,</l>
+          <l xml:id="A01353-e115470">Yet at the last to God let us call:</l>
+          <l xml:id="A01353-e115480">For he heareth such as are ready to repent,</l>
+          <l xml:id="A01353-e115490">And desireth not that sinners should fall. </l>
+          <l xml:id="A01353-e115500">Now are we ready to suffer, come when it shall. </l>
+        </sp>
+        <stage xml:id="A01353-e115510">Heer entereth Hankin hangman.</stage>
+        <sp xml:id="A01353-e115520" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <l xml:id="A01353-e115530">¶ Come Hankin hangman let us two cast lots,</l>
+          <l xml:id="A01353-e115540">And between us divide a couple of coats.</l>
+          <l xml:id="A01353-e115550">Take thou the one and the other shall be mine:</l>
+          <l xml:id="A01353-e115560"><pb facs="21"/> come Hankin hangman thou cam'st in good time. </l>
+        </sp>
+        <stage xml:id="A01353-e115570">They take off their coats and divide them.</stage>
+        <sp xml:id="A01353-e115580" who="A01353-haunce">
+          <speaker>H. hangman</speaker>
+          <l xml:id="A01353-e115590">¶ Thou shouldst have one (Nichol) I swear by the mass:</l>
+          <l xml:id="A01353-e115600">For thou bringest work for me daily to pass. </l>
+          <l xml:id="A01353-e115610">And through thy means I get more coats in a year:</l>
+          <l xml:id="A01353-e115620">Than all my living is worth beside, I swear. </l>
+          <l xml:id="A01353-e115630">Therefore Nichol newfangle we depart never,</l>
+          <l xml:id="A01353-e115640">For like will to like quoth the devil to the collier. </l>
+        </sp>
+        <sp xml:id="A01353-e115650" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e115660">¶ Now farewell Hankin hangman, farewell to thee:</p>
+        </sp>
+        <sp xml:id="A01353-e115670" who="A01353-haunce">
+          <speaker>H. hangman</speaker>
+          <p xml:id="A01353-e115680">¶ Farewell Nichol newfangle come you two with me.</p>
+        </sp>
+        <stage xml:id="A01353-e115690">Hankin goeth out and leadeth the one in his right hand, and the other in his left, having halters about their necks.</stage>
+        <sp xml:id="A01353-e115700" who="A01353-newfangle">
+          <speaker>Newfang.</speaker>
+          <l xml:id="A01353-e115710">¶ Ha, ha, ha, there is a brace of hounds well worth a dozen crowns</l>
+          <l xml:id="A01353-e115720">Behold the huntsman leadeth away:</l>
+          <l xml:id="A01353-e115730">I think in twenty towns, on hills and eke on downs,</l>
+          <l xml:id="A01353-e115740">They taken have their prey. </l>
+          <l xml:id="A01353-e115750">So well liked was their hunting on hill and eke on mountain.</l>
+          <l xml:id="A01353-e115760">That now they be up in a leace:</l>
+          <l xml:id="A01353-e115770">To keep within a string it is now a gay thing,</l>
+          <l xml:id="A01353-e115780">Do all you hold your peace. </l>
+          <l xml:id="A01353-e115790">Why then good gentle boy, how likest thou this play?</l>
+          <l xml:id="A01353-e115800">No more but say thy mind:</l>
+          <l xml:id="A01353-e115810">I swear by this day, if thou wilt this assay,</l>
+          <l xml:id="A01353-e115820">I will to thee be kind. </l>
+          <l xml:id="A01353-e115830">This is well brought to pass of me I swear by the mass,</l>
+          <l xml:id="A01353-e115840">Some to hang and other some to beg:</l>
+          <l xml:id="A01353-e115850">I would I had Balams ass to carry me where I was,</l>
+          <l xml:id="A01353-e115860">How say you little Mec. </l>
+          <l xml:id="A01353-e115870">Rafe roister and Tom tosspot are not now worth a groat,</l>
+          <l xml:id="A01353-e115880">So well with them it is:</l>
+          <l xml:id="A01353-e115890">I would I had a pot for now I am so hot,</l>
+          <l xml:id="A01353-e115900">By the mass I must go piss. </l>
+          <l xml:id="A01353-e115910">Philip Fleming and Haunce hath danced a pretty dance,</l>
+          <l xml:id="A01353-e115920"><pb facs="21"/> that all is now spent out:</l>
+          <l xml:id="A01353-e115930">And now a great mischance came on while they did prance,</l>
+          <l xml:id="A01353-e115940">They lie sick of the gout. </l>
+          <l xml:id="A01353-e115950">And in a spittle house, with little Laurence louse,</l>
+          <l xml:id="A01353-e115960">They be fame to dwell:</l>
+          <l xml:id="A01353-e115970">If they eat a morsel of souse, or else a rosted mouse,</l>
+          <l xml:id="A01353-e115980">They think they do fare well. </l>
+          <l xml:id="A01353-e115990">But as for pierce pickpurse, and Cutbert cutpurse,</l>
+          <l xml:id="A01353-e116000">You saw them both right now:</l>
+          <l xml:id="A01353-e116010">With them it is much worse, for they do ban and curse,</l>
+          <l xml:id="A01353-e116020">For the halter shall them bow. </l>
+          <l xml:id="A01353-e116030">Now if I had my nag, to see the world wag. </l>
+          <l xml:id="A01353-e116040">I would straight ride about:</l>
+          <l xml:id="A01353-e116050">Ginks do fill the bag, I would not pass a rag,</l>
+          <l xml:id="A01353-e116060">To hit you on the snout. </l>
+        </sp>
+        <stage xml:id="A01353-e116070">Heer entereth the devil.</stage>
+        <sp xml:id="A01353-e116080" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <l xml:id="A01353-e116090">¶ Ho, ho, ho, mine own boy make no more delay,</l>
+          <l xml:id="A01353-e116100">But leap upon my back straight way. </l>
+        </sp>
+        <sp xml:id="A01353-e116110" who="A01353-newfangle">
+          <speaker>Newfan.</speaker>
+          <p xml:id="A01353-e116120">¶ Then who shall hold my stirrup while I go to horse?</p>
+        </sp>
+        <sp xml:id="A01353-e116130" who="A01353-lucifer">
+          <speaker>Lucifer.</speaker>
+          <l xml:id="A01353-e116140">¶ Tush for that do thou not force,</l>
+          <l xml:id="A01353-e116150">Leap up I say, leap up quickly. </l>
+        </sp>
+        <sp xml:id="A01353-e116160" who="A01353-newfangle">
+          <speaker>Ni. New.</speaker>
+          <l xml:id="A01353-e116170">¶ Who ball who, and I will come by and by. </l>
+          <l xml:id="A01353-e116180">Now for a pair of spurs I would give a good groat:</l>
+          <l xml:id="A01353-e116190">To try whether the jade doth amble or trot. </l>
+          <l xml:id="A01353-e116200">Farewell my masters till I come again:</l>
+          <l xml:id="A01353-e116210">For now I must make a journey into Spain. </l>
+        </sp>
+        <stage xml:id="A01353-e116220">He rideth away on the devils back.</stage>
+        <stage xml:id="A01353-e116230">Heer entereth virtuous life and honour.</stage>
+        <sp xml:id="A01353-e116240" who="A01353-ver_life">
+          <speaker>Ver. life.</speaker>
+          <l xml:id="A01353-e116250">‡ o worthy diadem ▪ o jewel most precious. </l>
+          <l xml:id="A01353-e116260">O virtue which doth all worldly things excel:</l>
+          <l xml:id="A01353-e116270">How worthy a treasure thou art to the virtuous</l>
+          <l xml:id="A01353-e116280">Thy praise no pen can write ne tongue tel. </l>
+          <l xml:id="A01353-e116290"><pb facs="22"/>For I who am called virtuous life,</l>
+          <l xml:id="A01353-e116300">Have in this world both honour and dignity:</l>
+          <l xml:id="A01353-e116310">Immortal fame of man, child and wife,</l>
+          <l xml:id="A01353-e116320">Daily waiteth and attendeth on me. </l>
+          <l xml:id="A01353-e116330">The commodity of virtue in me you may behold,</l>
+          <l xml:id="A01353-e116340">The enormities of vice you have also seen:</l>
+          <l xml:id="A01353-e116350">Therefore to make an end we may be bold,</l>
+          <l xml:id="A01353-e116360">And pray for our noble and virtuous Queen. </l>
+        </sp>
+        <sp xml:id="A01353-e116370" who="A01353-honour">
+          <speaker>Honour.</speaker>
+          <l xml:id="A01353-e116380">‡ to do so virtuous life it is our bounden duty,</l>
+          <l xml:id="A01353-e116390">And because we must do so before we do end,</l>
+          <l xml:id="A01353-e116400">To aid us therein good fame cometh verily,</l>
+          <l xml:id="A01353-e116410">Which daily and hourly on you doth attend. </l>
+        </sp>
+        <stage xml:id="A01353-e116420">Heer entereth good fame.</stage>
+        <sp xml:id="A01353-e116430" who="A01353-good_fame">
+          <speaker>Good fame</speaker>
+          <l xml:id="A01353-e116440">¶ Virtuous life do what you list.</l>
+          <l xml:id="A01353-e116450">To pray or to sing I will you assist. </l>
+        </sp>
+        <sp xml:id="A01353-e116460" who="A01353-ver_life">
+          <speaker>Ver. life,</speaker>
+          <l xml:id="A01353-e116470">¶ O lord of hosts, o King almighty,</l>
+          <l xml:id="A01353-e116480">Pour down thy grace upon our noble Queen:</l>
+          <l xml:id="A01353-e116490">Vanquish her foe's lord that daily and nightly,</l>
+          <l xml:id="A01353-e116500">Through her thy laws may be sincerely seen. </l>
+        </sp>
+        <sp xml:id="A01353-e116510" who="A01353-honour">
+          <speaker>Honour.</speaker>
+          <l xml:id="A01353-e116520">‡ the honourable counsel also oh lord preserve,</l>
+          <l xml:id="A01353-e116530">The lords both of the clergy and of the temporality:</l>
+          <l xml:id="A01353-e116540">Grant that with meekness they may thee serve,</l>
+          <l xml:id="A01353-e116550">Submitting to thee with all humility. </l>
+        </sp>
+        <sp xml:id="A01353-e116560" who="A01353-good-fame">
+          <speaker>Good ●ame </speaker>
+          <l xml:id="A01353-e116570">¶ O lord preserve the commons of this realm also,</l>
+          <l xml:id="A01353-e116580">Pour upon them thy heavenly grace:</l>
+          <l xml:id="A01353-e116590">To advance virtue and vice to overthrow,</l>
+          <l xml:id="A01353-e116600">That at the last in heaven with thee they may have a place. </l>
+        </sp>
+        <closer xml:id="A01353-e116610">Amen.</closer>
+      </div>
+    </body>
+    <back xml:id="A01353-e116620">
+      <div type="song" xml:id="A01353-e116630">
+        <pb facs="22"/>
+        <head>A song.</head>
+        <lg xml:id="A01353-e116640">
+          <l xml:id="A01353-e116650">Where like to like is matched so,</l>
+          <l xml:id="A01353-e116660">That virtue must of force decay:</l>
+          <l xml:id="A01353-e116670">There God with vengeance, plagues and woe,</l>
+          <l xml:id="A01353-e116680">By judgement just must needs repay. </l>
+          <l xml:id="A01353-e116690">For like to like the worldlings cry:</l>
+          <l xml:id="A01353-e116700">Although both like do grace defy. </l>
+        </lg>
+        <lg xml:id="A01353-e116710">
+          <l xml:id="A01353-e116720">¶ And where as Sathan planted hath,</l>
+          <l xml:id="A01353-e116730">In vicious minds a sinful trade:</l>
+          <l xml:id="A01353-e116740">There like to like doth walk this path,</l>
+          <l xml:id="A01353-e116750">By which to him, like they are made. </l>
+          <l xml:id="A01353-e116760">So like with like reward obtain:</l>
+          <l xml:id="A01353-e116770">To have their meed in endless pain. </l>
+        </lg>
+        <lg xml:id="A01353-e116780">
+          <l xml:id="A01353-e116790">¶ Likewise in faith where matched be,</l>
+          <l xml:id="A01353-e116800">And where as God hath planted grace:</l>
+          <l xml:id="A01353-e116810">There do his children still agree,</l>
+          <l xml:id="A01353-e116820">And like to like do run their race. </l>
+          <l xml:id="A01353-e116830">Like Christ like hearts of Christian men:</l>
+          <l xml:id="A01353-e116840">As like to like well coupled then. </l>
+        </lg>
+        <lg xml:id="A01353-e116850">
+          <l xml:id="A01353-e116860">¶ Therefore like grace, like faith and love,</l>
+          <l xml:id="A01353-e116870">Like virtue springs of each degree:</l>
+          <l xml:id="A01353-e116880">Where like assistance from above,</l>
+          <l xml:id="A01353-e116890">Doth make them like so right agree. </l>
+          <l xml:id="A01353-e116900">A holy God, a Christ most just:</l>
+          <l xml:id="A01353-e116910">And so like souls in him to trust. </l>
+        </lg>
+        <lg xml:id="A01353-e116920">
+          <l xml:id="A01353-e116930">¶ Then like as Christ above doth reign,</l>
+          <l xml:id="A01353-e116940">In heaven high our saviour best:</l>
+          <l xml:id="A01353-e116950">So like with him shall be our gain,</l>
+          <l xml:id="A01353-e116960">In peace, and joy, and endless rest. </l>
+          <l xml:id="A01353-e116970">If we ourselves like him do frame:</l>
+          <l xml:id="A01353-e116980">In fear of his most holy hame. </l>
+        </lg>
+        <lg xml:id="A01353-e116990">
+          <l xml:id="A01353-e117000">¶ To him be praise that grace doth give,</l>
+          <l xml:id="A01353-e117010">Whereby he fashioneth us a new:</l>
+          <l xml:id="A01353-e117020">And make us holily to live,</l>
+          <l xml:id="A01353-e117030">Like to himself in faith most true. </l>
+          <l xml:id="A01353-e117040">Which our redemption sure hath wrought:</l>
+          <l xml:id="A01353-e117050">Like him to be most dear bought. </l>
+        </lg>
+        <trailer xml:id="A01353-e117060">Finis.</trailer>
+      </div>
+      <div type="machine-generated_castlist"><list n="A01353"><item xml:id="A01353-newfangle" n="120">
+    <seg type="character_name">A01353-newfangle</seg>
+    <seg type="speech_count">120</seg>
+  </item>
+  <item xml:id="A01353-tos" n="47">
+    <seg type="character_name">A01353-tos</seg>
+    <seg type="speech_count">47</seg>
+  </item>
+  <item xml:id="A01353-roister" n="30">
+    <seg type="character_name">A01353-roister</seg>
+    <seg type="speech_count">30</seg>
+  </item>
+  <item xml:id="A01353-lucifer" n="25">
+    <seg type="character_name">A01353-lucifer</seg>
+    <seg type="speech_count">25</seg>
+  </item>
+  <item xml:id="A01353-ver_life" n="14">
+    <seg type="character_name">A01353-ver_life</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A01353-haunce" n="14">
+    <seg type="character_name">A01353-haunce</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A01353-cutpurse" n="13">
+    <seg type="character_name">A01353-cutpurse</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+  <item xml:id="A01353-pickpurse" n="12">
+    <seg type="character_name">A01353-pickpurse</seg>
+    <seg type="speech_count">12</seg>
+  </item>
+  <item xml:id="A01353-severity" n="8">
+    <seg type="character_name">A01353-severity</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A01353-collier" n="7">
+    <seg type="character_name">A01353-collier</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A01353-honour" n="5">
+    <seg type="character_name">A01353-honour</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A01353-fleming" n="5">
+    <seg type="character_name">A01353-fleming</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A01353-gods_promise" n="4">
+    <seg type="character_name">A01353-gods_promise</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A01353-good_fame" n="4">
+    <seg type="character_name">A01353-good_fame</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A01353-unassigned" n="3">
+    <seg type="character_name">A01353-unassigned</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A01353-both" n="3">
+    <seg type="character_name">A01353-both</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+<item xml:id="A01353-good-fame" n="2">
+    <seg type="character_name">A01353-good-fame</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A01353-colliar" n="2">
+    <seg type="character_name">A01353-colliar</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

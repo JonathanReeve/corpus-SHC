@@ -1,0 +1,1506 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A00456">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Appius and Virginia<date type="creation_date">1575</date></title>
+        <author>Bower, Richard</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Martin Mueller</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A00456.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">A new tragicall comedie of Apius and Virginia wherein is liuely expressed a rare example of the vertue of chastitie, by Virginias constancy, in wishing rather to be slaine at her owne fathers handes, then to be deflowered of the wicked iudge Apius. By R.B. The players names. ...</title>
+            <author>R. B.</author>
+          </titleStmt>
+          <extent>17 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2011 December (TCP phase 2)</date>
+            <idno type="marc">99840184</idno>
+            <idno type="stc">STC (2nd ed.) 1059.</idno>
+            <idno type="stc">Greg, I, 65.</idno>
+            <idno type="vid">4660</idno>
+            <idno type="DLPS">A00456</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">A new tragicall comedie of Apius and Virginia wherein is liuely expressed a rare example of the vertue of chastitie, by Virginias constancy, in wishing rather to be slaine at her owne fathers handes, then to be deflowered of the wicked iudge Apius. By R.B. The players names. ...</title>
+            <title type="alt">Apius and Virginia</title>
+            <title type="alt">Apius and Virginia.</title>
+            <author>R. B.</author>
+            <author>Bower, Richard, d. 1561,</author>
+          </titleStmt>
+          <extent>[40] p.</extent>
+          <publicationStmt>
+            <publisher>By William How, for Richart Ihones,</publisher>
+            <pubPlace>Imprinted at London :</pubPlace>
+            <date>1575.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Sometimes attributed to Richard Bower.</p>
+            </note>
+            <note>
+              <p>Signatures: A-E4.</p>
+            </note>
+            <note>
+              <p>The last leaf is blank.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A00456-e100010">
+    <front xml:id="A00456-e100020">
+      <div type="title_page" xml:id="A00456-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A00456-e100040">A new tragical comedy of Apius and Virginia, wherein is lively expressed a rare example of the virtue of chastity, by Virginia's constancy, in wishing rather to be slain at her be slain at her own father's hands, than to be deflowered of the wicked judge Apius.</p>
+        <p xml:id="A00456-e100050">By R. b.</p>
+        <list xml:id="A00456-e100060">
+          <head>The player's names.</head>
+          <item xml:id="A00456-e100070">Virginius,</item>
+          <item xml:id="A00456-e100080">Mater.</item>
+          <item xml:id="A00456-e100090">Virgina.</item>
+          <item xml:id="A00456-e100100">Haphazard.</item>
+          <item xml:id="A00456-e100110">Mansipulus.</item>
+          <item xml:id="A00456-e100120">Mansipula.</item>
+          <item xml:id="A00456-e100130">Subservus.</item>
+          <item xml:id="A00456-e100140">Apius.</item>
+          <item xml:id="A00456-e100150">Conscience.</item>
+          <item xml:id="A00456-e100160">Justice.</item>
+          <item xml:id="A00456-e100170">Claudius.</item>
+          <item xml:id="A00456-e100180">Rumour.</item>
+          <item xml:id="A00456-e100190">Comfort.</item>
+          <item xml:id="A00456-e100200">Reward.</item>
+          <item xml:id="A00456-e100210">Doctrina.</item>
+          <item xml:id="A00456-e100220">Memory.</item>
+        </list>
+        <p xml:id="A00456-e100230">Imprinted at London, by William how, for Richard Jones. 1575.</p>
+      </div>
+      <div type="prologue" xml:id="A00456-e100240">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The prologue.</head>
+        <lg xml:id="A00456-e100250">
+          <l xml:id="A00456-e100260">Qui cupis aethereas et summas scandere sedes</l>
+          <l xml:id="A00456-e100270">Vim simul ac fraudem discute chare tibi. </l>
+          <l xml:id="A00456-e100280">●rau● hic nulla 〈◊〉, 〈◊〉 forti● facta i●●●b●●,</l>
+          <l xml:id="A00456-e100290">Sola dei tua te trahat, terse fides. </l>
+          <l xml:id="A00456-e100300">Qui placet in terris intactae palludis instar,</l>
+          <l xml:id="A00456-e100310">Vivere virgini●m nitore virgo sequi,</l>
+          <l xml:id="A00456-e100320">Quo● tulit et luctus, discas gaudia magna</l>
+          <l xml:id="A00456-e100330">Vitae, dum p●r●●●ci●de● fila pareot. </l>
+          <l xml:id="A00456-e100340">Huc a●●● o virgo, paritere moritura sepulchre,</l>
+          <l xml:id="A00456-e100350">Sic ai● et faciem pallida morte mutat. </l>
+        </lg>
+        <lg xml:id="A00456-e100360">
+          <l xml:id="A00456-e100370">Who doth desire the trump of same, to sound unto the skies,</l>
+          <l xml:id="A00456-e100380">Or else who seeks the holy place, where mighty Jove he lies,</l>
+          <l xml:id="A00456-e100390">He must not by deceitful mind, nor yet by puissant strength,</l>
+          <l xml:id="A00456-e100400">But by the faith and sacred life, he must it win a length,</l>
+          <l xml:id="A00456-e100410">And what she be that virgin's life, on earth would gladly lead,</l>
+          <l xml:id="A00456-e100420">The sluds that Virginia did fall, I wish her read,</l>
+          <l xml:id="A00456-e100430">Her dolor and vir doleful loss, and yet her wyes at death,</l>
+          <l xml:id="A00456-e100440">Come virgins pure to grave with me, quoth she with latest breath,</l>
+          <l xml:id="A00456-e100450">You lordings all that present be, this tragidie to hear,</l>
+          <l xml:id="A00456-e100460">Note well what zeal and love, herein doth well appear,</l>
+          <l xml:id="A00456-e100470">And ladies you that linked are, in wedlock bands for ever,</l>
+          <l xml:id="A00456-e100480">Do imitate the life you see, whose fame will perish never,</l>
+          <l xml:id="A00456-e100490">But virgins you, o ladies fair, for honour of your name. </l>
+          <l xml:id="A00456-e100500">Do lead the life apparent here, to win immortal same,</l>
+          <l xml:id="A00456-e100510">Let not the blinded god of love, as poets term him so,</l>
+          <l xml:id="A00456-e100520">Nor Venus with her venery, nor leehors cause of woe</l>
+          <l xml:id="A00456-e100530">Your virgin's name to spot or file: dear dames observe the like,</l>
+          <l xml:id="A00456-e100540">That fair Virginia did observe, who rather wish the knife,</l>
+          <l xml:id="A00456-e100550">Of father's hand her life to end, than spot her chastity:</l>
+          <l xml:id="A00456-e100560">As she did wail, wail you her want you maids of courtesy. </l>
+          <l xml:id="A00456-e100570">If any by example here, would shun that great annoy,</l>
+          <l xml:id="A00456-e100580">Our author would rejoice in heart, and we would leap for joy,</l>
+          <l xml:id="A00456-e100590">Would God's that our endeavour may, as well to please your ears,</l>
+          <l xml:id="A00456-e100600">As is our author's meaning here, then were we void of fears:</l>
+          <l xml:id="A00456-e100610">But patiently we wish you bear with this our first attempt. </l>
+          <l xml:id="A00456-e100620">Which surely will to do our best, then yield us no contempt,</l>
+          <l xml:id="A00456-e100630">And as you please in patient wise, our first for to receive,</l>
+          <l xml:id="A00456-e100640">Ere long a better shall you win, if god do grant us leave. </l>
+        </lg>
+        <bibl xml:id="A00456-e100650">A.y.</bibl>
+        <trailer xml:id="A00456-e100660">Finis.</trailer>
+      </div>
+    </front>
+    <body xml:id="A00456-e100670">
+      <div type="play" xml:id="A00456-e100680">
+        <pb facs="3"/>
+        <sp xml:id="A00456-e100690" who="A00456-virginius">
+          <stage xml:id="A00456-e100700">Enter Virginius.</stage>
+          <l xml:id="A00456-e100710">Before the time that fortune's lot, did show each fate his dome,</l>
+          <l xml:id="A00456-e100720">Or bird, or beast, or fish, or foul, or earth had taken room</l>
+          <l xml:id="A00456-e100730">The gods they did decree to frame, the thing is ended now,</l>
+          <l xml:id="A00456-e100740">The heavens, and the planets eke, and moist from air to bow. </l>
+          <l xml:id="A00456-e100750">Then framed they the man of mould and clay, and gave him time to reign,</l>
+          <l xml:id="A00456-e100760">As seemed best their sacred minds, to run and turn again:</l>
+          <l xml:id="A00456-e100770">They framed also after this, out of his tender side,</l>
+          <l xml:id="A00456-e100780">A piece of much formosity, with him for to abide:</l>
+          <l xml:id="A00456-e100790">From infancy to lusty you, and so to reign a while,</l>
+          <l xml:id="A00456-e100800">And well to live, till Etas he unwares, do him beguile. </l>
+          <l xml:id="A00456-e100810">And sith to see these gifts of them, no grounded cave to view,</l>
+          <l xml:id="A00456-e100820">Not daintily to deck them up, which after they may rue:</l>
+          <l xml:id="A00456-e100830">Wherefore I thank the gods above, that yield to me such fate,</l>
+          <l xml:id="A00456-e100840">To link to ée so just a spouse, and eke so loving mate. </l>
+          <l xml:id="A00456-e100850">Ey her I have a virgin pure, an imp of heavenly race,</l>
+          <l xml:id="A00456-e100860">Both sober, meek, and modest too, and virtuous in like raze:</l>
+          <l xml:id="A00456-e100870">To temple will I wend therefore, to yield the gods their praise,</l>
+          <l xml:id="A00456-e100880">For that they have thus luckily, annexed with my days. </l>
+          <l xml:id="A00456-e100890">But stay, behold the peerless sparks whereof my tongue did talk,</l>
+          <l xml:id="A00456-e100900">Approach in presence of my sight, to church I deem they walk,</l>
+          <l xml:id="A00456-e100910">But stay I will, and shroud me secretly a while. </l>
+          <l xml:id="A00456-e100920">To see what wit or counsel grave, proceedeth from their style. </l>
+        </sp>
+        <sp xml:id="A00456-e100930" who="A00456-mater">
+          <stage xml:id="A00456-e100940">¶ Here entereth Mater and Virginia. </stage>
+          <l xml:id="A00456-e100950">The pert and pricking prime of youth, ought chastisement to have,</l>
+          <l xml:id="A00456-e100960">But thou dear daughter needest not, thyself doth show thee grave:</l>
+          <l xml:id="A00456-e100970">To see who Phoebus with his beams, hath youth so much infected,</l>
+          <l xml:id="A00456-e100980">It doth me we to see them crave the thing stould be detected. </l>
+          <l xml:id="A00456-e100990">I draw to grave, and naught can leave of thee to be desired,</l>
+          <l xml:id="A00456-e101000">As much as duty to thy dear, as reason hath required:</l>
+          <l xml:id="A00456-e101010">Thy sovereign lord and friendly fear, Virginius father thine,</l>
+          <l xml:id="A00456-e101020">To nurse as doth become child, when bones are buried mine. </l>
+        </sp>
+        <sp xml:id="A00456-e101030" who="A00456-virginius">
+          <speaker>Virginius,</speaker>
+          <l xml:id="A00456-e101040">Refel your mind of mournig plaints, dear mother rest your mind</l>
+          <l xml:id="A00456-e101050"><pb facs="3"/> for though that duty dainty were, dame nature will me bind,</l>
+          <l xml:id="A00456-e101060">So much to do, and further force, of gods that rule the skies,</l>
+          <l xml:id="A00456-e101070">The glope and eke the clement, they would me else despise. </l>
+        </sp>
+        <sp xml:id="A00456-e101080" who="A00456-mater">
+          <speaker>Mater.</speaker>
+          <l xml:id="A00456-e101090">Then if the gods have granted thee, such grace to love thy sire,</l>
+          <l xml:id="A00456-e101100">When time shall choose thee out a make be constant I require:</l>
+          <l xml:id="A00456-e101110">Love, live, and like him well, before you grant him grace or faith,</l>
+          <l xml:id="A00456-e101120">So shall your love continue long, experience thus he saith. </l>
+        </sp>
+        <sp xml:id="A00456-e101130" who="A00456-virginia">
+          <speaker>Virginia.</speaker>
+          <l xml:id="A00456-e101140">I grant dear dame I do agree,</l>
+          <l xml:id="A00456-e101150">When time shall so provide:</l>
+          <l xml:id="A00456-e101160">But tender youth and infancy,</l>
+          <l xml:id="A00456-e101170">Doth rather wish me bide,</l>
+          <l xml:id="A00456-e101180">What should I lose Diana's gift,</l>
+          <l xml:id="A00456-e101190">And eke the spring to shun:</l>
+          <l xml:id="A00456-e101200">By which Actaeon fatally,</l>
+          <l xml:id="A00456-e101210">His final race did run:</l>
+          <l xml:id="A00456-e101220">Should I as abject be esteemed,</l>
+          <l xml:id="A00456-e101230">Throughout Parnassus hill,</l>
+          <l xml:id="A00456-e101240">Or should my virgin's name be filled,</l>
+          <l xml:id="A00456-e101250">It were too great a skill:</l>
+          <l xml:id="A00456-e101260">But yet it is unspotted lo,</l>
+          <l xml:id="A00456-e101270">Right well I do conceive,</l>
+          <l xml:id="A00456-e101280">When wedlock doth require the same,</l>
+          <l xml:id="A00456-e101290">With parent's love and leave:</l>
+          <l xml:id="A00456-e101300">Yet obstinate I will not be,</l>
+          <l xml:id="A00456-e101310">But willing will me yield:</l>
+          <l xml:id="A00456-e101320">When you command and not before</l>
+          <l xml:id="A00456-e101330">Then duty shall me shield. </l>
+        </sp>
+        <sp xml:id="A00456-e101340" who="A00456-virginius">
+          <speaker>Virginius.</speaker>
+          <l xml:id="A00456-e101350">Ah gods that rule and rain, in heavens, in seas, in floods and lands,</l>
+          <l xml:id="A00456-e101360">Two couple such I surely dee me, you never made with hands,</l>
+          <l xml:id="A00456-e101370">A gods why do ye not compel each dame the like to show? </l>
+          <l xml:id="A00456-e101380">And every imp of her again, her duty thus to know,</l>
+          <l xml:id="A00456-e101390">I cannot stay my tongue from talk, I needs must call my dear,</l>
+          <l xml:id="A00456-e101400">O spouse well met and daughter to, what news how do you cheer? </l>
+        </sp>
+        <sp xml:id="A00456-e101410" who="A00456-mater">
+          <pb facs="4"/>
+          <speaker>Mater</speaker>
+          <l xml:id="A00456-e101420">O dear Virginius joy to me, o peerless spouse and mate,</l>
+          <l xml:id="A00456-e101430">In health I praise the gods I am and joyful for thy state,</l>
+        </sp>
+        <sp xml:id="A00456-e101440" who="A00456-virginius">
+          <speaker>Virginius.</speaker>
+          <l xml:id="A00456-e101450">Virginia my daughter dear</l>
+          <l xml:id="A00456-e101460">How standeth all with thee? </l>
+        </sp>
+        <sp xml:id="A00456-e101470" who="A00456-virginia">
+          <speaker>Virginia.</speaker>
+          <l xml:id="A00456-e101480">Like happy state as mother told,</l>
+          <l xml:id="A00456-e101490">Like joyful sight to me. </l>
+        </sp>
+        <sp xml:id="A00456-e101500" who="A00456-virginius">
+          <speaker>Virginius.</speaker>
+          <l xml:id="A00456-e101510">By the god's wife I joy me, that have such a treasure,</l>
+          <l xml:id="A00456-e101520">Such gem and such jewel, surmounting all measure:</l>
+          <l xml:id="A00456-e101530">Such a happy spouse, such a fortunate dame,</l>
+          <l xml:id="A00456-e101540">That no blot or stain, can impair her fame,</l>
+          <l xml:id="A00456-e101550">Against such an imp, and graft of my tree,</l>
+          <l xml:id="A00456-e101560">As clear doth surmount all others that be. </l>
+        </sp>
+        <sp xml:id="A00456-e101570" who="A00456-mater">
+          <speaker>Mater.</speaker>
+          <l xml:id="A00456-e101580">Nay rather dear spouse how much is my case,</l>
+          <l xml:id="A00456-e101590">To be now advanced by such happy grace:</l>
+          <l xml:id="A00456-e101600">Doth daily distil, my husband so loving,</l>
+          <l xml:id="A00456-e101610">Granting and giving to all thing behoving,</l>
+          <l xml:id="A00456-e101620">Joying in me, and in the fruit of my womb. </l>
+          <l xml:id="A00456-e101630">Who would not requite it, the gods yield their dome</l>
+          <l xml:id="A00456-e101640">And if it be I, the gods do destroy me,</l>
+          <l xml:id="A00456-e101650">Rather than sin, so sore should annoy me. </l>
+        </sp>
+        <sp xml:id="A00456-e101660" who="A00456-virginius">
+          <speaker>Virginius.</speaker>
+          <l xml:id="A00456-e101670">O wife refel thy wishing for woe,</l>
+          <l xml:id="A00456-e101680">Myself thy fault right well do know:</l>
+          <l xml:id="A00456-e101690">And rather I wish myself to be slain,</l>
+          <l xml:id="A00456-e101700">Than thou or thy daughter ought woe should sustain. </l>
+        </sp>
+        <sp xml:id="A00456-e101710" who="A00456-virginia">
+          <speaker>Virginia.</speaker>
+          <l xml:id="A00456-e101720">O father my comfort, o mother my joy,</l>
+          <l xml:id="A00456-e101730">O dear, and o sovereign, do cease to employ</l>
+          <l xml:id="A00456-e101740">Such dolorous talking, where dangers are none,</l>
+          <l xml:id="A00456-e101750">Where joys are attendant, what needeth this moan,</l>
+          <l xml:id="A00456-e101760"><pb facs="4"/> you matron, you spouse, you nurse, and you wife,</l>
+          <l xml:id="A00456-e101770">You comfort, you only the some of his life:</l>
+          <l xml:id="A00456-e101780">You husband, you heart, you joy, and you pleasure,</l>
+          <l xml:id="A00456-e101790">You King, and you keyser, to her only treasure,</l>
+          <l xml:id="A00456-e101800">You father, you mother, my life doth sustain,</l>
+          <l xml:id="A00456-e101810">I babe and I bliss, your health am again,</l>
+          <l xml:id="A00456-e101820">Forbear then your dolour, let mirth be frequented</l>
+          <l xml:id="A00456-e101830">Let sorrow depart, and be not attempted. </l>
+        </sp>
+        <sp xml:id="A00456-e101840" who="A00456-virginius">
+          <speaker>Virginius.</speaker>
+          <l xml:id="A00456-e101850">O wife, o spouse, I am content. </l>
+        </sp>
+        <sp xml:id="A00456-e101860" who="A00456-mater">
+          <speaker>Mater.</speaker>
+          <l xml:id="A00456-e101870">O husband. </l>
+        </sp>
+        <sp xml:id="A00456-e101880" who="A00456-virginia">
+          <speaker>Virginia.</speaker>
+          <l xml:id="A00456-e101890">O father we do consent. </l>
+        </sp>
+        <floatingText xml:id="A00456-e101900">
+          <body xml:id="A00456-e101910">
+            <div type="song" xml:id="A00456-e101920">
+              <head>Sing here.</head>
+              <sp xml:id="A00456-e101930" who="A00456-all">
+                <stage xml:id="A00456-e101940">¶ All sing this.</stage>
+                <l xml:id="A00456-e101950">The trustiest treasure in earth earth as we see,</l>
+                <l xml:id="A00456-e101960">Is man, wife and children in one to agree,</l>
+                <l xml:id="A00456-e101970">Then friendly, and kindly, let measure be mixed</l>
+                <l xml:id="A00456-e101980">With reason, in season, where friendship is fixed. </l>
+              </sp>
+              <sp xml:id="A00456-e101990" who="A00456-virginius">
+                <speaker>Virginius.</speaker>
+                <l xml:id="A00456-e102000">When nature nursed first of all, young Alexander learned,</l>
+                <l xml:id="A00456-e102010">Of whom the poet's mention make, in judgement so discerned,</l>
+                <l xml:id="A00456-e102020">O what did want that love procured his vital end well near,</l>
+                <l xml:id="A00456-e102030">This is the hope where parents love, their children do not fear,</l>
+              </sp>
+              <sp xml:id="A00456-e102040" who="A00456-all">
+                <stage xml:id="A00456-e102050">All sing this.</stage>
+                <l xml:id="A00456-e102060">The trustiest treasure in earth as we see,</l>
+                <l xml:id="A00456-e102070">Is man wife and children etc. </l>
+              </sp>
+              <sp xml:id="A00456-e102080" who="A00456-mater">
+                <speaker>Mater.</speaker>
+                <l xml:id="A00456-e102090">When time King Nisus would not let, his daughter to be taught,</l>
+                <l xml:id="A00456-e102100">Of any one correcting hand to nurture to be brought:</l>
+                <l xml:id="A00456-e102110">She void of duty cut his locks, and golden tresses clear,</l>
+                <l xml:id="A00456-e102120">Whereby his realm was overrun, and she was paid her hisr,</l>
+              </sp>
+              <sp xml:id="A00456-e102130" who="A00456-all">
+                <pb facs="5"/>
+                <stage xml:id="A00456-e102140">All sing this.</stage>
+                <l xml:id="A00456-e102150">The trustiest treasure in earth as we see,</l>
+                <l xml:id="A00456-e102160">Is man wife and children. Etc. </l>
+              </sp>
+              <sp xml:id="A00456-e102170" who="A00456-virginia">
+                <speaker>Virginia.</speaker>
+                <l xml:id="A00456-e102180">When Dedalus from Crete did fly,</l>
+                <l xml:id="A00456-e102190">With Icarus, his joy:</l>
+                <l xml:id="A00456-e102200">He naught regarding father's words,</l>
+                <l xml:id="A00456-e102210">Did seek his own annoy:</l>
+                <l xml:id="A00456-e102220">He mounted up into the skies,</l>
+                <l xml:id="A00456-e102230">Whereat the gods did frown,</l>
+                <l xml:id="A00456-e102240">And Phoebus sore his wings did fry,</l>
+                <l xml:id="A00456-e102250">And headlong flings him down. </l>
+              </sp>
+              <sp xml:id="A00456-e102260" who="A00456-all">
+                <stage xml:id="A00456-e102270">All sing this.</stage>
+                <l xml:id="A00456-e102280">The trustiest treasure in earth as we see. </l>
+                <l xml:id="A00456-e102290">Is man wife and children etc. </l>
+              </sp>
+              <sp xml:id="A00456-e102300" who="A00456-virginius">
+                <speaker>Virginius.</speaker>
+                <l xml:id="A00456-e102310">Then sith that persuality, doth partly discord moan,</l>
+                <l xml:id="A00456-e102320">And hatred often times doth creep where overmuch we love:</l>
+                <l xml:id="A00456-e102330">And if we love no whit at all, the faming trump will sound,</l>
+                <l xml:id="A00456-e102340">Come wife, come spouse, come daughter dear, let measure bear ye ground. </l>
+              </sp>
+              <sp xml:id="A00456-e102350" who="A00456-all">
+                <stage xml:id="A00456-e102360">All sing this.</stage>
+                <l xml:id="A00456-e102370">The trustiest treasure in earth as we see</l>
+                <l xml:id="A00456-e102380">Is man wife and children in one to agree,</l>
+                <l xml:id="A00456-e102390">Then friendly, and kindly, let measure be mixed,<stage xml:id="A00456-e102400">Exit.</stage></l>
+                <l xml:id="A00456-e102410">With reason, in season, where friendship is fixed. </l>
+              </sp>
+            </div>
+          </body>
+        </floatingText>
+        <sp xml:id="A00456-e102420" who="A00456-haphazard">
+          <stage xml:id="A00456-e102430">¶ Here entereth haphazard the vice. </stage>
+          <l xml:id="A00456-e102440">Very well sir, very well sir, it shall be done,</l>
+          <l xml:id="A00456-e102450">As fast as ever I can prepare,</l>
+          <l xml:id="A00456-e102460">Who dips with the devil, he had need have a long spoon. </l>
+          <l xml:id="A00456-e102470">Or else full small will be his fare:</l>
+          <l xml:id="A00456-e102480">Yet a proper gentleman I am of truth</l>
+          <l xml:id="A00456-e102490">Yea that may ye see by my long side gown. </l>
+          <l xml:id="A00456-e102500"><pb facs="5"/>Yea but what am I, a scholar, or a schoolmaster, or else some youth. </l>
+          <l xml:id="A00456-e102510">A lawyer, a student or else a country cloune</l>
+          <l xml:id="A00456-e102520">A Brumman, a basket maker, or a baker of pies,</l>
+          <l xml:id="A00456-e102530">A flesh or a fishmonger , or a sour of lies:</l>
+          <l xml:id="A00456-e102540">A louse or a louser, a leek or a lark:</l>
+          <l xml:id="A00456-e102550">A dreamer a drommell, a fire or a spark;</l>
+          <l xml:id="A00456-e102560">A caitiff, a cuthroat, a creeper in corners,</l>
+          <l xml:id="A00456-e102570">A harebrain, a hangman, or a grafter of horners:</l>
+          <l xml:id="A00456-e102580">By the gods, I know not how best to devise,</l>
+          <l xml:id="A00456-e102590">My name or my property, well to disguise:</l>
+          <l xml:id="A00456-e102600">A merchant, 'a may pool, a man or a mackerel:</l>
+          <l xml:id="A00456-e102610">A crab or a crevice, a crane or a cockerel:</l>
+          <l xml:id="A00456-e102620">Most of all these my nature doth enjoy,</l>
+          <l xml:id="A00456-e102630">Sometime I advance them, sometime I destroy,</l>
+          <l xml:id="A00456-e102640">A maid or a mussel boat, a wife or a wild duck,</l>
+          <l xml:id="A00456-e102650">As bold as blind bayard, as wise as a wood cock. </l>
+          <l xml:id="A00456-e102660">As fine as fivepence, as proud as a peacock,</l>
+          <l xml:id="A00456-e102670">As stout as a stockfish, as meek as a mecock,</l>
+          <l xml:id="A00456-e102680">As big as a beggar, as fat as a fool,</l>
+          <l xml:id="A00456-e102690">As true as a tinker, as rich as an owl,</l>
+          <l xml:id="A00456-e102700">With heigh trick, how troll, trey trip, and trey trace,</l>
+          <l xml:id="A00456-e102710">Troll hazard in a vengeance I beshrew his knave's face</l>
+          <l xml:id="A00456-e102720">For trow, and troll hazard, keep such a range</l>
+          <l xml:id="A00456-e102730">That poor haphazard, was never so strange,</l>
+          <l xml:id="A00456-e102740">But yet haphazard, be of good cheer,</l>
+          <l xml:id="A00456-e102750">Go play and repast thee man, be merry to year:</l>
+          <l xml:id="A00456-e102760">Though victual be dainty and hard for to get. </l>
+          <l xml:id="A00456-e102770">Yet perhaps a number will die of the sweat,</l>
+          <l xml:id="A00456-e102780">Though it be in hazard, yet happily I may,</l>
+          <l xml:id="A00456-e102790">Though money be lacking, yet one day go gay. </l>
+        </sp>
+        <sp xml:id="A00456-e102800" who="A00456-mansipulus">
+          <stage xml:id="A00456-e102810">¶ Enter Mansipulus.</stage>
+          <l xml:id="A00456-e102820">When Maud, with a pestilence, what makest thou no haste? </l>
+          <l xml:id="A00456-e102830">Of Baybery incense belike thou wouldst taste,</l>
+          <l xml:id="A00456-e102840">By the gods I have stayed a full great while,</l>
+          <l xml:id="A00456-e102850">My lord he is near hand by this at the church stile,</l>
+          <l xml:id="A00456-e102860">And all for Maud mumble turd, that mampodding madge</l>
+          <l xml:id="A00456-e102870">By the gods if she hie not, I'll give her my badge. </l>
+        </sp>
+        <sp xml:id="A00456-e102880" who="A00456-mansipula">
+          <pb facs="6"/>
+          <speaker>Mansipula.</speaker>
+          <l xml:id="A00456-e102890">What drake nosed drivel, begin you to flout. </l>
+          <l xml:id="A00456-e102900">Zle fry you in a faggot stick, by cock goodman lout</l>
+          <l xml:id="A00456-e102910">You boaster you bragger, you brawling knave:</l>
+          <l xml:id="A00456-e102920">Zle pay thee thy fortypence, thou brawling slave:</l>
+          <l xml:id="A00456-e102930">My lady's great business belike is at end,</l>
+          <l xml:id="A00456-e102940">When you goodman Dawcocke, lust for to wend,</l>
+          <l xml:id="A00456-e102950">You, codshead you crackrope, you chattering pie,</l>
+          <l xml:id="A00456-e102960">Have with ye, have at ye, your manhood to try. </l>
+        </sp>
+        <sp xml:id="A00456-e102970" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e102980">What hold your hands masters, what? fie for shame fie,</l>
+          <l xml:id="A00456-e102990">What culling? What lulling? What stir have we here? </l>
+          <l xml:id="A00456-e103000">What tugging? What lugging? What pugging by the ear,</l>
+          <l xml:id="A00456-e103010">What part and be friends, and end all this strife,</l>
+        </sp>
+        <sp xml:id="A00456-e103020" who="A00456-mansipulus">
+          <speaker>Mansipulus.</speaker>
+          <l xml:id="A00456-e103030">Nay rather I wish her, the end of my knife:</l>
+        </sp>
+        <sp xml:id="A00456-e103040" who="A00456-mansipula">
+          <speaker>Mansipula.</speaker>
+          <l xml:id="A00456-e103050">Draw it, give me it, I will it receive,</l>
+          <l xml:id="A00456-e103060">So that for the place it, I might have good leave,</l>
+          <l xml:id="A00456-e103070">By the gods: but for losing my land, life, and living,</l>
+          <l xml:id="A00456-e103080">It should be so placed, he should have ill thriuinge:</l>
+        </sp>
+        <sp xml:id="A00456-e103090" who="A00456-mansipulus">
+          <speaker>Mansipilus.</speaker>
+          <l xml:id="A00456-e103100">By the gods how ungraciously the vixen she chatteth,</l>
+        </sp>
+        <sp xml:id="A00456-e103110" who="A00456-mansipula">
+          <speaker>Mansipula.</speaker>
+          <l xml:id="A00456-e103120">And he even as knavishly, my answer he patteth,</l>
+        </sp>
+        <sp xml:id="A00456-e103130" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e103140">Here is naught else, but railing of words out of reason,</l>
+          <l xml:id="A00456-e103150">Now tugging, now tattling, now muzzling in season,</l>
+          <l xml:id="A00456-e103160">For shame be contented and leave of this brawling,</l>
+        </sp>
+        <sp xml:id="A00456-e103170" who="A00456-mansipulus">
+          <speaker>Mansipulus.</speaker>
+          <l xml:id="A00456-e103180">Content, for I shall repent it, for this my tongue wralling:</l>
+        </sp>
+        <sp xml:id="A00456-e103190" who="A00456-mansipula">
+          <speaker>Mansipula.</speaker>
+          <l xml:id="A00456-e103200">Thou knave, but for thee, ere this time of day,</l>
+          <l xml:id="A00456-e103210">My lady's fair Pew, had been strawed full gay:</l>
+          <l xml:id="A00456-e103220">With primroses, cowslips, and violets sweet:</l>
+          <l xml:id="A00456-e103230">With mints, and with marigolds, and Marjoram meet,</l>
+          <l xml:id="A00456-e103240"><pb facs="6"/> which now lieth uncleanly and all long of thee,</l>
+          <l xml:id="A00456-e103250">That a shame recompense thee, for hindering me,</l>
+        </sp>
+        <sp xml:id="A00456-e103260" who="A00456-mansipulus">
+          <speaker>Mansipulus.</speaker>
+          <l xml:id="A00456-e103270">Ah pretty prank parnel, the cushion and book,</l>
+          <l xml:id="A00456-e103280">Whereon he should read and kneel, are present here look:</l>
+          <l xml:id="A00456-e103290">My lord when he seeth me, he will cast such an eye,</l>
+          <l xml:id="A00456-e103300">As pinch will my heart near ready to die:</l>
+          <l xml:id="A00456-e103310">And thus wise, and thus wise, his hand will be walking</l>
+          <l xml:id="A00456-e103320">With thou precious knave, away get thee packing ¶ Here let him fight. </l>
+        </sp>
+        <sp xml:id="A00456-e103330" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e103340">Nay then by the mass, its time to be knacking,</l>
+          <l xml:id="A00456-e103350">No words at all but to me he is pointing:</l>
+          <l xml:id="A00456-e103360">Nay have at you again, you shall have your anointing,</l>
+        </sp>
+        <sp xml:id="A00456-e103370" who="A00456-mansipula">
+          <speaker>Mansipula.</speaker>
+          <l xml:id="A00456-e103380">Body of me, hold if ye can,</l>
+          <l xml:id="A00456-e103390">What will you kill such a proper man? </l>
+        </sp>
+        <sp xml:id="A00456-e103400" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e103410">Nay sure I have done when women do speak,</l>
+          <l xml:id="A00456-e103420">Why would the knave my patience so break? </l>
+        </sp>
+        <sp xml:id="A00456-e103430" who="A00456-mansipulus">
+          <speaker>Mansipulus.</speaker>
+          <l xml:id="A00456-e103440">Well I must begone, there is no remedy</l>
+          <l xml:id="A00456-e103450">For fear my tile makes buttons, by mine honesty. </l>
+        </sp>
+        <sp xml:id="A00456-e103460" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e103470">For reverence on your face, your nose and your chin:</l>
+          <l xml:id="A00456-e103480">By the gods have ye heard such an unmannerly villain. </l>
+        </sp>
+        <sp xml:id="A00456-e103490" who="A00456-mansipula">
+          <speaker>Mansipula.</speaker>
+          <l xml:id="A00456-e103500">I never heard one so rank of rudeness,</l>
+        </sp>
+        <sp xml:id="A00456-e103510" who="A00456-mansipulus">
+          <speaker>Mansipulus.</speaker>
+          <l xml:id="A00456-e103520">In faith it is but for sack of lewdness:</l>
+          <l xml:id="A00456-e103530">But here I burn day light, while thus I am talking</l>
+          <l xml:id="A00456-e103540">A way come Mansipula, let us be walking,</l>
+        </sp>
+        <sp xml:id="A00456-e103550" who="A00456-mansipula">
+          <speaker>Mansipula</speaker>
+          <l xml:id="A00456-e103560">Contented Mansipulus, have with thee with speed,</l>
+        </sp>
+        <sp xml:id="A00456-e103570" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e103580">Nay stay yet my friends I am not agreed. </l>
+        </sp>
+        <sp xml:id="A00456-e103590" who="A00456-mansipula">
+          <pb facs="7"/>
+          <speaker>Mansipula.</speaker>
+          <l xml:id="A00456-e103600">We dare not tarry, by God we swear. </l>
+        </sp>
+        <sp xml:id="A00456-e103610" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e103620">Nay tarry take comfort with you for to bear,</l>
+          <l xml:id="A00456-e103630">It is but in hazard and if you be missed,</l>
+          <l xml:id="A00456-e103640">And so it may happen you feel not his first:</l>
+          <l xml:id="A00456-e103650">Perhaps he is stayed by talk with some friend</l>
+          <l xml:id="A00456-e103660">It is but in hazard, then sing or you wend</l>
+          <l xml:id="A00456-e103670">Let hope be your helper, your care to defend. </l>
+        </sp>
+        <sp xml:id="A00456-e103680" who="A00456-mansipulus">
+          <speaker>Mansipulus.</speaker>
+          <l xml:id="A00456-e103690">By hap or by hazard, we sing or we cry,</l>
+          <l xml:id="A00456-e103700">Then sing let us say so, let sorrow go by. </l>
+        </sp>
+        <sp xml:id="A00456-e103710" who="A00456-mansipula">
+          <speaker>Mansipula.</speaker>
+          <l xml:id="A00456-e103720">We can be but beaten that is the worst,</l>
+        </sp>
+        <sp xml:id="A00456-e103730" who="A00456-subservus">
+          <stage xml:id="A00456-e103740">¶ Enter Subseruus. </stage>
+          <l xml:id="A00456-e103750">What how Mansipulus, thou knave art thou cursed</l>
+          <l xml:id="A00456-e103760">My lord standeth talking and I gape for thee,</l>
+          <l xml:id="A00456-e103770">Come away with a wannion, run haste and hie,</l>
+        </sp>
+        <sp xml:id="A00456-e103780" who="A00456-mansipulus">
+          <speaker>Mansipulus.</speaker>
+          <l xml:id="A00456-e103790">Nay harken Subservus, stay I pray thee,</l>
+          <l xml:id="A00456-e103800">Let us have a song and then have with thee:</l>
+        </sp>
+        <sp xml:id="A00456-e103810" who="A00456-subservus">
+          <speaker>Subseruus.</speaker>
+          <l xml:id="A00456-e103820">Content if thou hie thee. </l>
+        </sp>
+        <floatingText xml:id="A00456-e103830">
+          <body xml:id="A00456-e103840">
+            <div type="song" xml:id="A00456-e103850">
+              <sp xml:id="A00456-e103860" who="A00456-all">
+                <stage xml:id="A00456-e103870">¶ Sing here all.</stage>
+                <l xml:id="A00456-e103880">Hope so, and hap so, in hazard of threfninge,</l>
+                <l xml:id="A00456-e103890">The worst that can hap le, in end is but beating. </l>
+              </sp>
+              <sp xml:id="A00456-e103900" who="A00456-mansipulus">
+                <speaker>Mansipulus.</speaker>
+                <l xml:id="A00456-e103910">What if my lording, do chance for to miss me,</l>
+                <l xml:id="A00456-e103920">The worst that can happen, is Cudgell will kiss me,</l>
+                <l xml:id="A00456-e103930">In such kind of sweetness, I swear by god's mother,</l>
+                <l xml:id="A00456-e103940">It will please me better, it were on some other,</l>
+                <l xml:id="A00456-e103950">With thwick-thwack , with thump thump,</l>
+                <l xml:id="A00456-e103960">With bobbing and bum,</l>
+                <l xml:id="A00456-e103970">Our side saddle shoulders shall shield that doth come? </l>
+                <l xml:id="A00456-e103980">Hope so, and hay so, in hazard etc. </l>
+              </sp>
+              <sp xml:id="A00456-e103990" who="A00456-mansipula">
+                <pb facs="7"/>
+                <speaker>Mansipula.</speaker>
+                <l xml:id="A00456-e104000">¶ If case that my lady, do threaten my case,</l>
+                <l xml:id="A00456-e104010">No cause too contrary, but bear her a space,</l>
+                <l xml:id="A00456-e104020">Until she draw home lo, where so she will use me,</l>
+                <l xml:id="A00456-e104030">As doctors doth doubt it, how I should excuse me,</l>
+                <l xml:id="A00456-e104040">With thwick-thwack , with thump thump,</l>
+                <l xml:id="A00456-e104050">With bobbing and bum,</l>
+                <l xml:id="A00456-e104060">Our side saddle shoulders shall shield that doth come. </l>
+                <l xml:id="A00456-e104070">Hope so, and hap so, in hazard etc. </l>
+              </sp>
+              <sp xml:id="A00456-e104080" who="A00456-subservus">
+                <speaker>Subseruus.</speaker>
+                <l xml:id="A00456-e104090">¶ What if your company cause me have woo,</l>
+                <l xml:id="A00456-e104100">I mind not companions so soon to forgo:</l>
+                <l xml:id="A00456-e104110">Let hope hold the helmet, till brunt it be past,</l>
+                <l xml:id="A00456-e104120">For blows are but buffets and words but a blast,</l>
+                <l xml:id="A00456-e104130">With thwick-thwack , with thump thump,</l>
+                <l xml:id="A00456-e104140">With bobbing and bum,</l>
+                <l xml:id="A00456-e104150">Our side saddle shoulders shall shield that doth come,</l>
+                <l xml:id="A00456-e104160">Hope so, and hap so, in hazard etc. </l>
+              </sp>
+              <sp xml:id="A00456-e104170" who="A00456-haphazard">
+                <speaker>Haphazard.</speaker>
+                <l xml:id="A00456-e104180">¶ Then let us be merry, it is but by hap,</l>
+                <l xml:id="A00456-e104190">A hazardly thaunce may harbour a clap,</l>
+                <l xml:id="A00456-e104200">Bestir ye, be merry, be glad and be joying,</l>
+                <l xml:id="A00456-e104210">For blows are but buffets and small time annoying,</l>
+                <l xml:id="A00456-e104220">With thwick-thwack , with thump thump,</l>
+                <l xml:id="A00456-e104230">With bobbing and bum,</l>
+                <l xml:id="A00456-e104240">Our side saddle shoulders shall shield that doth come. </l>
+                <l xml:id="A00456-e104250">Hope so, and hap so, in hazard etc. </l>
+              </sp>
+              <trailer xml:id="A00456-e104260">¶ The end of the song.</trailer>
+            </div>
+          </body>
+        </floatingText>
+        <sp xml:id="A00456-e104270" who="A00456-all">
+          <stage xml:id="A00456-e104280">All speaketh this.</stage>
+          <l xml:id="A00456-e104290">Haphazard farewell, the gods do thank thee. <stage xml:id="A00456-e104300">Exiunt</stage></l>
+        </sp>
+        <sp xml:id="A00456-e104310" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e104320">Farewell my friends, farewell gee pracke ye:</l>
+          <l xml:id="A00456-e104330">By the god's haphazard, these men have tried thee,</l>
+          <l xml:id="A00456-e104340"><pb facs="8"/> who said thou wast no man, sure he belied thee,</l>
+          <l xml:id="A00456-e104350">By love master merchant by sea or by land,</l>
+          <l xml:id="A00456-e104360">Would get but small argent, if I did not stand,</l>
+          <l xml:id="A00456-e104370">His very good master, I may say to you,</l>
+          <l xml:id="A00456-e104380">When he hazards in hope, what hap will ensue:</l>
+          <l xml:id="A00456-e104390">In court I am no man, by cock sir ye lie,</l>
+          <l xml:id="A00456-e104400">A ploughman perhaps or ere that he die,</l>
+          <l xml:id="A00456-e104410">May hap be a gentleman, a courtier or captain,</l>
+          <l xml:id="A00456-e104420">And hap may so hazard, he may go a-begging :</l>
+          <l xml:id="A00456-e104430">Perhaps that a gentleman, heir to great land,</l>
+          <l xml:id="A00456-e104440">Which selleth his living, for money in hand,</l>
+          <l xml:id="A00456-e104450">In hazard it is the buying of more,</l>
+          <l xml:id="A00456-e104460">Perhaps he may ride when spent is the store:</l>
+          <l xml:id="A00456-e104470">Hap may so hazard the moon may so change. </l>
+          <l xml:id="A00456-e104480">That men may be masters, and wives will not range:</l>
+          <l xml:id="A00456-e104490">But in hazard it is in many a grange,</l>
+          <l xml:id="A00456-e104500">Lest wives were the codpiece, and maidens coy strange:</l>
+          <l xml:id="A00456-e104510">As peacocks sit perking, by chance in the plumtree,</l>
+          <l xml:id="A00456-e104520">So maids would be masters, by the guise of this country</l>
+          <l xml:id="A00456-e104530">Haphazard each state full well that he marks,</l>
+          <l xml:id="A00456-e104540">If hap the sky fall, we hap may have larks:</l>
+          <l xml:id="A00456-e104550">Well, fare ye well now, for better or worse,</l>
+          <l xml:id="A00456-e104560">Put hands to your pockets, have mind to your purse. </l>
+        </sp>
+        <sp xml:id="A00456-e104570" who="A00456-appius">
+          <stage xml:id="A00456-e104580">¶ Enter judge Apius. </stage>
+          <l xml:id="A00456-e104590">The sorowed face of fortune's force, my pinching pain doth move</l>
+          <l xml:id="A00456-e104600">I settled ruler of my realm enforced am to love:</l>
+          <l xml:id="A00456-e104610">Judge Apius I the princeliest judge, that reigneth under son,</l>
+          <l xml:id="A00456-e104620">And have been so esteemed long, but now my force is done:</l>
+          <l xml:id="A00456-e104630">I rule no more, but ruled am, I do not judge, but am judged,</l>
+          <l xml:id="A00456-e104640">By beauty of Virginia, my wisdom all is trudged,</l>
+          <l xml:id="A00456-e104650">O peerless dame, o passing piece, o face of such a feature,</l>
+          <l xml:id="A00456-e104660">That never e●st with bower such, matched was by nature:</l>
+          <l xml:id="A00456-e104670">O fond Apelles prattling fool, why boastest thou so much? </l>
+          <l xml:id="A00456-e104680">The famost peace thou mad'st in Greece, whose ●●ments were</l>
+          <l xml:id="A00456-e104690">Or why oldst thou dec●ued man, for beauty of thy work? </l>
+          <l xml:id="A00456-e104700"><pb facs="8"/>In such a sort with fond desire, where no kind life did lurk,</l>
+          <l xml:id="A00456-e104710">With raging fits thou fool ran mad, o fond Pygmalion,</l>
+          <l xml:id="A00456-e104720">Yet sure if that thou sawest my dear, the like ye couldst make none,</l>
+          <l xml:id="A00456-e104730">Then what may I, o gods above, bend down to hear my cry,</l>
+          <l xml:id="A00456-e104740">As once he did to Salmasis, in pond hard Lyzia by:</l>
+          <l xml:id="A00456-e104750">O that Virginia were in case as sometime Salmasis,</l>
+          <l xml:id="A00456-e104760">And in Hermafroditus' steed, myself might seek my bliss,</l>
+          <l xml:id="A00456-e104770">Ah gods, would I unfold her arms, complecting of my neck? </l>
+          <l xml:id="A00456-e104780">Or would I hurt her nimble hand, or yield her such a check? </l>
+          <l xml:id="A00456-e104790">Would I gainsay her tender skin, to bathe where I do wash? </l>
+          <l xml:id="A00456-e104800">Or else refuse her soft sweet lips, to touch my naked flesh? </l>
+          <l xml:id="A00456-e104810">Nay, o the gods do know my mind, I rather would require,</l>
+          <l xml:id="A00456-e104820">To sue, to serve, to crouch, to kneel, to crave for my desire. </l>
+          <l xml:id="A00456-e104830">But out ye gods, ye bend your brows, and frown to see me fare,</l>
+          <l xml:id="A00456-e104840">Ye do not force my fickle fate, ye do not way my care,</l>
+          <l xml:id="A00456-e104850">Unrighteous, and unequal gods, unjust, and eke unsure,</l>
+          <l xml:id="A00456-e104860">Woe worth the time ye made me live, to see this hapless hour:</l>
+          <l xml:id="A00456-e104870">Did Iphis hang himself for love, of lady not so fair? </l>
+          <l xml:id="A00456-e104880">Or else did Jove the cloudy mists, bend down from lightsome air:</l>
+          <l xml:id="A00456-e104890">Or as the poet's mention make, of Inach's daughter meek,</l>
+          <l xml:id="A00456-e104900">For love did he to make a cow, whom Inach long did seek:</l>
+          <l xml:id="A00456-e104910">Is love so great, to cause the quick, to enter into hell,</l>
+          <l xml:id="A00456-e104920">As stout Orpheus did attempt, as histories do tell? </l>
+          <l xml:id="A00456-e104930">Then what is it that love cannot? Why love did pierce the skies:</l>
+          <l xml:id="A00456-e104940">Why Pheb. and famous Marcury, with love had blinded eyes? </l>
+          <l xml:id="A00456-e104950">But I a judge of grounded years, shall reap to me such name,</l>
+          <l xml:id="A00456-e104960">As shall resound dishonour great, with trump of careless fame:</l>
+          <l xml:id="A00456-e104970">O that my years were youthful yet, or that I were unwedded. </l>
+        </sp>
+        <sp xml:id="A00456-e104980" who="A00456-haphazard">
+          <stage xml:id="A00456-e104990">¶ Here entereth haphazard. </stage>
+          <l xml:id="A00456-e105000">Why cease sir knight, for why perhaps, of you she shall be bedded:</l>
+          <l xml:id="A00456-e105010">For follow my counsel, so may you me please,</l>
+          <l xml:id="A00456-e105020">That of careful resurging, your heart shall have ease. </l>
+        </sp>
+        <sp xml:id="A00456-e105030" who="A00456-appius">
+          <speaker>Apius.</speaker>
+          <l xml:id="A00456-e105040">O thundering gods that threaten ire,</l>
+          <l xml:id="A00456-e105050">And plague for each offence:</l>
+          <l xml:id="A00456-e105060"><pb facs="9"/> yourselves I deem would counsel crave,</l>
+          <l xml:id="A00456-e105070">In this so fit pretence:</l>
+          <l xml:id="A00456-e105080">And eke your nimble stretched arms,</l>
+          <l xml:id="A00456-e105090">With great rewards would she,</l>
+          <l xml:id="A00456-e105100">To purchase fairy Virginia,</l>
+          <l xml:id="A00456-e105110">So dear a wight to me:</l>
+          <l xml:id="A00456-e105120">And friend, I swear by Jupiter,</l>
+          <l xml:id="A00456-e105130">And eke by Juno's seat:</l>
+          <l xml:id="A00456-e105140">And eke by all the mysteries,</l>
+          <l xml:id="A00456-e105150">Where on thou canst entreat:</l>
+          <l xml:id="A00456-e105160">Thou shalt possess and have,</l>
+          <l xml:id="A00456-e105170">I will thee grant and give,</l>
+          <l xml:id="A00456-e105180">The greatest part of all my realm,</l>
+          <l xml:id="A00456-e105190">For aye thee to relieve. </l>
+        </sp>
+        <sp xml:id="A00456-e105200" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e105210">Well then, this is my counsel, thus standard the case,</l>
+          <l xml:id="A00456-e105220">Perhaps such a fetch, as may please your grace:</l>
+          <l xml:id="A00456-e105230">There is no more ways, but hap or hap not,</l>
+          <l xml:id="A00456-e105240">Either hap, or else hapless, to knit up the knot:</l>
+          <l xml:id="A00456-e105250">And if you will hazard, to venture what falls,</l>
+          <l xml:id="A00456-e105260">Perhaps, that haphazard, will end all your thralls. </l>
+        </sp>
+        <sp xml:id="A00456-e105270" who="A00456-appius">
+          <speaker>Apius.</speaker>
+          <l xml:id="A00456-e105280">I mean so. I will so, if thou do persuade me,</l>
+          <l xml:id="A00456-e105290">To hap or to hazard, what thing shall invade me:</l>
+          <l xml:id="A00456-e105300">I King and I keyser, I rule and overwhelm:</l>
+          <l xml:id="A00456-e105310">I do what it please me, with in this my realm:</l>
+          <l xml:id="A00456-e105320">Wherefore in thy judgement, see that thou do enter,</l>
+          <l xml:id="A00456-e105330">Hap life or hap death, I surely will venture. </l>
+        </sp>
+        <sp xml:id="A00456-e105340" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e105350">Then this, and in this sort, standeth the matter,</l>
+          <l xml:id="A00456-e105360">What need many words, unless I should flatter,</l>
+          <l xml:id="A00456-e105370">Full many there be, will hazard their life,</l>
+          <l xml:id="A00456-e105380">Happily to case your grace of all your strife,</l>
+          <l xml:id="A00456-e105390">Of this kind of conspiracy now let us common,</l>
+          <l xml:id="A00456-e105400">Some man, Virginius, before you must summon,</l>
+          <l xml:id="A00456-e105410">And say that Virginia is none of his daughter. </l>
+          <l xml:id="A00456-e105420"><pb facs="9"/>But that Virginius by night away caught her:</l>
+          <l xml:id="A00456-e105430">Then charge you the father his daughter to bring,</l>
+          <l xml:id="A00456-e105440">Then do you detain her, till proved be the thing:</l>
+          <l xml:id="A00456-e105450">Which well you may win her, she present in house,</l>
+          <l xml:id="A00456-e105460">It is but haphazarde, a man or a mouse</l>
+        </sp>
+        <sp xml:id="A00456-e105470" who="A00456-appius">
+          <speaker>Apius.</speaker>
+          <l xml:id="A00456-e105480">I find it, I mind it, I swear that I will,</l>
+          <l xml:id="A00456-e105490">Though shame, or defame, do happen no skill,<note anchored="true" place="margin" xml:id="A00456-e105500">here let him make at though he went out and let conscience and justice come out of him, and let conscience hold in his hand a lamp burning and let justice have a sword and hold it before Apius</note></l>
+          <l xml:id="A00456-e105510">But out I am wounded, how am I divided? </l>
+          <l xml:id="A00456-e105520">Two states of my life, from me are now glided,</l>
+          <l xml:id="A00456-e105530">For conscience he pricketh me contemned,</l>
+          <l xml:id="A00456-e105540">And justice saith, judgement would have me condemn ned:</l>
+          <l xml:id="A00456-e105550">Conscience saith cruelty sure will detest me:</l>
+          <l xml:id="A00456-e105560">And justice saith, death in th'end will molest me,</l>
+          <l xml:id="A00456-e105570">And both in one sodden methinks they do cry,</l>
+          <l xml:id="A00456-e105580">That fire eternal, my soul shall destroy. </l>
+        </sp>
+        <sp xml:id="A00456-e105590" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e105600">Why these are but thoughts man? why fie for shame fie</l>
+          <l xml:id="A00456-e105610">For conscience was careless, and sailing by seas,</l>
+          <l xml:id="A00456-e105620">Was browned in a basket and had a disease,</l>
+          <l xml:id="A00456-e105630">Sore moved for pity, when he would grant none,</l>
+          <l xml:id="A00456-e105640">For being hard hearted, was turned to a stone:</l>
+          <l xml:id="A00456-e105650">And sailing by Sandwich he sunk for his sin,</l>
+          <l xml:id="A00456-e105660">Then care not for conscience, the worth of a pin:</l>
+          <l xml:id="A00456-e105670">And judgement judge justice to have a reward,</l>
+          <l xml:id="A00456-e105680">For judging still justly, but all is now marred,</l>
+          <l xml:id="A00456-e105690">For gifts they are given, where judgement is none,</l>
+          <l xml:id="A00456-e105700">Thus judgement and justice a wrong way hath gone:</l>
+          <l xml:id="A00456-e105710">Then care not for conscience the worth of a fable,</l>
+          <l xml:id="A00456-e105720">Justice is no man, nor naught to do able. </l>
+        </sp>
+        <sp xml:id="A00456-e105730" who="A00456-appius">
+          <speaker>Apius.</speaker>
+          <l xml:id="A00456-e105740">And sayest thou so my sured friend, than hap as hap shall hit,</l>
+          <l xml:id="A00456-e105750">Let constance grope, and judgement crave, I will not shrink one whit</l>
+          <l xml:id="A00456-e105760">I well persever in my thought, I will deflower her youth,</l>
+          <l xml:id="A00456-e105770">I will not sure reverted be, my heart shall have no ruth,</l>
+          <l xml:id="A00456-e105780">Come on proceed and wait on me, I will hap woe or wealth,</l>
+          <l xml:id="A00456-e105790"><pb facs="10"/> hap blunt, hap sharp, hap life, hap death, though haphazard be of health</l>
+        </sp>
+        <sp xml:id="A00456-e105800" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e105810">At hand (Quoth pick purse) here ready am I,</l>
+          <l xml:id="A00456-e105820">See well to the cutpurse , be ruled by me. </l>
+          <stage xml:id="A00456-e105830">Exit. Go out here.</stage>
+        </sp>
+        <sp xml:id="A00456-e105840" who="A00456-conscience">
+          <speaker>Conscience</speaker>
+          <l xml:id="A00456-e105850">O clear unspotted gifts of love,</l>
+          <l xml:id="A00456-e105860">How haps thou art refused? </l>
+          <l xml:id="A00456-e105870">O conscience clear, what cruel mind</l>
+          <l xml:id="A00456-e105880">Thy truth hath thus misused? </l>
+          <l xml:id="A00456-e105890">I spotted am by wilful will,</l>
+          <l xml:id="A00456-e105900">By lawless love and lust</l>
+          <l xml:id="A00456-e105910">By dreadful danger of the life. </l>
+          <l xml:id="A00456-e105920">By faith that is unjust. </l>
+        </sp>
+        <sp xml:id="A00456-e105930" who="A00456-justice">
+          <speaker>Justice.</speaker>
+          <l xml:id="A00456-e105940">Ah gift of Jove, ah fortune's face,</l>
+          <l xml:id="A00456-e105950">Ah state of steady life:</l>
+          <l xml:id="A00456-e105960">I justice am and prime of peers,</l>
+          <l xml:id="A00456-e105970">The end of laws and strife:</l>
+          <l xml:id="A00456-e105980">A guider of the common weal,</l>
+          <l xml:id="A00456-e105990">A guerdon to the poor:</l>
+          <l xml:id="A00456-e106000">And yet hath filthy lust suppressed,</l>
+          <l xml:id="A00456-e106010">My virtues in one hour,</l>
+          <l xml:id="A00456-e106020">Well well this is the most to trust,</l>
+          <l xml:id="A00456-e106030">In end we shall espire:</l>
+          <l xml:id="A00456-e106040">To see the end of these our foes</l>
+          <l xml:id="A00456-e106050">With sword and eke with fire. </l>
+        </sp>
+        <sp xml:id="A00456-e106060" who="A00456-conscience">
+          <speaker>Conscience.</speaker>
+          <l xml:id="A00456-e106070">O help ye gods, we members require. </l>
+          <stage xml:id="A00456-e106080">Exit.</stage>
+        </sp>
+        <sp xml:id="A00456-e106090" who="A00456-haphazard">
+          <stage xml:id="A00456-e106100">¶ Enter haphazard. </stage>
+          <l xml:id="A00456-e106110">When gain is no gransier,</l>
+          <l xml:id="A00456-e106120">And gauds naught set by:</l>
+          <l xml:id="A00456-e106130">Nor puddings, nor pie meat,</l>
+          <l xml:id="A00456-e106140">Poor knaves will come nigh:</l>
+          <l xml:id="A00456-e106150">Then hap and haphazard,</l>
+          <l xml:id="A00456-e106160">Shall have a new coat:</l>
+          <l xml:id="A00456-e106170">And so it may happen. </l>
+          <l xml:id="A00456-e106180"><pb facs="10"/>To cut covetousness throat:</l>
+          <l xml:id="A00456-e106190">Yea then shall judge Apius. </l>
+          <l xml:id="A00456-e106200">Virginia obtain:</l>
+          <l xml:id="A00456-e106210">And geese shall crack mussels,</l>
+          <l xml:id="A00456-e106220">Perhaps in the rain:</l>
+          <l xml:id="A00456-e106230">Larks shall be leverets,</l>
+          <l xml:id="A00456-e106240">And skip to and fro:</l>
+          <l xml:id="A00456-e106250">And chourls shall be codsheads,</l>
+          <l xml:id="A00456-e106260">Perhaps and also:</l>
+          <l xml:id="A00456-e106270">But peace for man's body,</l>
+          <l xml:id="A00456-e106280">Haphazard be mum,</l>
+          <l xml:id="A00456-e106290">Fie prattling noddy,</l>
+          <l xml:id="A00456-e106300">Judge Apius is come. </l>
+        </sp>
+        <sp xml:id="A00456-e106310" who="A00456-appius">
+          <stage xml:id="A00456-e106320">¶ Here entereth judge Apius and Claudius. </stage>
+          <l xml:id="A00456-e106330">The furies fell of limbo lake.</l>
+          <l xml:id="A00456-e106340">My princely days do short:</l>
+          <l xml:id="A00456-e106350">All drowned in deadly woes I live,</l>
+          <l xml:id="A00456-e106360">That once did joy in sport,</l>
+          <l xml:id="A00456-e106370">I live and languish in my life,</l>
+          <l xml:id="A00456-e106380">As doth the wounded deer:</l>
+          <l xml:id="A00456-e106390">I thirst, I crave, I call and cry,</l>
+          <l xml:id="A00456-e106400">And yet am naught the mere:</l>
+          <l xml:id="A00456-e106410">And yet I have that me so match,</l>
+          <l xml:id="A00456-e106420">But Tantalus amids my care,</l>
+          <l xml:id="A00456-e106430">I hunger starve and pine:</l>
+          <l xml:id="A00456-e106440">As Sisyphus I roll the stone,</l>
+          <l xml:id="A00456-e106450">In vain to top of hill:</l>
+          <l xml:id="A00456-e106460">That evermore uncertainly,</l>
+          <l xml:id="A00456-e106470">Revolving slideth still:</l>
+          <l xml:id="A00456-e106480">O, as if to her it were to me,</l>
+          <l xml:id="A00456-e106490">What labours would I fly? </l>
+          <l xml:id="A00456-e106500">What raging seas would I not blow,</l>
+          <l xml:id="A00456-e106510">To her commodity? </l>
+          <l xml:id="A00456-e106520"><pb facs="11"/>But out alas I doubt it sore,</l>
+          <l xml:id="A00456-e106530">Lest drowsy Morpheus:</l>
+          <l xml:id="A00456-e106540">His slumbery kingdoms granted hath,</l>
+          <l xml:id="A00456-e106550">With dews and beauteous:</l>
+          <l xml:id="A00456-e106560">O gods above that rule the skies,</l>
+          <l xml:id="A00456-e106570">Ye babes that brag in bliss:</l>
+          <l xml:id="A00456-e106580">Ye goddesses, ye graces you,</l>
+          <l xml:id="A00456-e106590">What burning brunt is this? </l>
+          <l xml:id="A00456-e106600">Bend down your ire, destroy me quick:</l>
+          <l xml:id="A00456-e106610">Or else to grant me grace,</l>
+          <l xml:id="A00456-e106620">No more but that my burning breast,</l>
+          <l xml:id="A00456-e106630">Virginia may embrace:</l>
+          <l xml:id="A00456-e106640">If case your ears be dead and deaf,</l>
+          <l xml:id="A00456-e106650">The fiend and sprites below:</l>
+          <l xml:id="A00456-e106660">You careless ●arl● of limbo lake,</l>
+          <l xml:id="A00456-e106670">Your forced mights do show. </l>
+          <l xml:id="A00456-e106680">Thou caitiff King of darksome den,</l>
+          <l xml:id="A00456-e106690">Thou Pluto plagued knave:</l>
+          <l xml:id="A00456-e106700">Send forth thy sacred vengeance straight,</l>
+          <l xml:id="A00456-e106710">Consume them to the grave:</l>
+          <l xml:id="A00456-e106720">That will not aid my case,</l>
+        </sp>
+        <sp xml:id="A00456-e106730" who="A00456-claudius">
+          <speaker>Claudius.</speaker>
+          <l xml:id="A00456-e106740">Content and if it like your grace,</l>
+          <l xml:id="A00456-e106750">I will attempt the deed:</l>
+          <l xml:id="A00456-e106760">I summon will Virginius,</l>
+          <l xml:id="A00456-e106770">Before your seat with speed,</l>
+        </sp>
+        <sp xml:id="A00456-e106780" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e106790">Do so, my lord be you not afraid,</l>
+          <l xml:id="A00456-e106800">And so you may happen to hazard the maid:</l>
+          <l xml:id="A00456-e106810">It is but in hazard, and may come by hap,</l>
+          <l xml:id="A00456-e106820">Win her, or lose her, try you the trap. </l>
+        </sp>
+        <sp xml:id="A00456-e106830" who="A00456-appius">
+          <speaker>Apius.</speaker>
+          <l xml:id="A00456-e106840">By the gods, I consent to thee Claudius now</l>
+          <l xml:id="A00456-e106850">Prepare thee in haste Virginius unto,</l>
+          <l xml:id="A00456-e106860">Charge him, command him, upon his allegiance</l>
+          <l xml:id="A00456-e106870"><pb facs="11"/> with all kind of speed, to yield his obeisance,</l>
+          <l xml:id="A00456-e106880">Before my seat in my consistory</l>
+          <l xml:id="A00456-e106890">Subpene of land, life and treasury. </l>
+        </sp>
+        <sp xml:id="A00456-e106900" who="A00456-claudius">
+          <stage xml:id="A00456-e106910">Here let Claudius go out with haphazard.</stage>
+          <l xml:id="A00456-e106920">No let, no stay, nor ought perturbrance,</l>
+          <l xml:id="A00456-e106930">Shall cause me to omit the furtherance,</l>
+          <l xml:id="A00456-e106940">Of this my weighty charge:<stage xml:id="A00456-e106950">Exit.</stage></l>
+        </sp>
+        <sp xml:id="A00456-e106960" who="A00456-appius">
+          <speaker>Apius,</speaker>
+          <l xml:id="A00456-e106970">Well now I range at large my will for to express,</l>
+          <l xml:id="A00456-e106980">For look how Tarquin, Lucrece fair, by force did once oppress,</l>
+          <l xml:id="A00456-e106990">Even so will I Virginia use:</l>
+        </sp>
+        <sp xml:id="A00456-e107000" who="A00456-conscience">
+          <stage xml:id="A00456-e107010">Here let conscience speak within.</stage>
+          <l xml:id="A00456-e107020">Judge Apius prince, o stay refuse,</l>
+          <l xml:id="A00456-e107030">Be ruled by thy friend:</l>
+          <l xml:id="A00456-e107040">What bloody death with open shame,</l>
+          <l xml:id="A00456-e107050">Did Tarquin gain in end? </l>
+        </sp>
+        <sp xml:id="A00456-e107060" who="A00456-appius">
+          <speaker>Apius.</speaker>
+          <l xml:id="A00456-e107070">Whence doth this pinching sound defend? </l>
+        </sp>
+        <sp xml:id="A00456-e107080" who="A00456-conscience">
+          <speaker>Conscience.</speaker>
+          <l xml:id="A00456-e107090">From contrite conscience pricked on,</l>
+          <l xml:id="A00456-e107100">By member of thy life,</l>
+          <l xml:id="A00456-e107110">Enforced for to cry and call,</l>
+          <l xml:id="A00456-e107120">And all to end our strife. </l>
+        </sp>
+        <sp xml:id="A00456-e107130" who="A00456-appius">
+          <speaker>Apius.</speaker>
+          <l xml:id="A00456-e107140">What art thou then declare be brief? </l>
+        </sp>
+        <sp xml:id="A00456-e107150" who="A00456-conscience">
+          <speaker>Conscience.</speaker>
+          <l xml:id="A00456-e107160">Not flesh nor filthy lust I am:</l>
+          <l xml:id="A00456-e107170">But secret conscience I,</l>
+          <l xml:id="A00456-e107180">Compelled to cry with trembling soul,</l>
+          <l xml:id="A00456-e107190">At point ne'er hand to die. </l>
+        </sp>
+        <sp xml:id="A00456-e107200" who="A00456-appius">
+          <speaker>Apius.</speaker>
+          <l xml:id="A00456-e107210">Why no disease doth me approach, no grief doth make me grudge,</l>
+          <l xml:id="A00456-e107220">But want of fair Virginia, whose beauty is my judge:</l>
+          <l xml:id="A00456-e107230">By her I live, by her I die, for her I wy or woe,</l>
+          <l xml:id="A00456-e107240"><pb facs="12"/> for her my soul doth sink or swim, for her I swear I go. </l>
+        </sp>
+        <sp xml:id="A00456-e107250" who="A00456-conscience">
+          <speaker>Conscience.</speaker>
+          <l xml:id="A00456-e107260">Ah gods, what wits doth rame, and yet to you unknown? </l>
+          <l xml:id="A00456-e107270">I die the death, and soul doth sink, this filthy flesh hath sown. </l>
+        </sp>
+        <sp xml:id="A00456-e107280" who="A00456-appius">
+          <speaker>Apius.</speaker>
+          <l xml:id="A00456-e107290">I force it not, I will attempt, I stay for Claudius here,</l>
+          <l xml:id="A00456-e107300">Yet will I go to meet with him, to know what news and cheer. </l>
+        </sp>
+        <sp xml:id="A00456-e107310" who="A00456-haphazard">
+          <stage xml:id="A00456-e107320">¶ Here entereth haphazard. </stage>
+          <l xml:id="A00456-e107330">Hast for a hangman, in hazard of hemp</l>
+          <l xml:id="A00456-e107340">Run for a ridducke, there is no such imp:</l>
+          <l xml:id="A00456-e107350">Claudius is knocking, with hammer and stone,</l>
+          <l xml:id="A00456-e107360">At Virginius' gate, as hard as he can lay one:</l>
+          <l xml:id="A00456-e107370">By the gods my masters, haphazard is hardy,</l>
+          <l xml:id="A00456-e107380">For he will run rashly, be they never so many,</l>
+          <l xml:id="A00456-e107390">Yea he will sing sowsnout, and sknap with the best,</l>
+          <l xml:id="A00456-e107400">But peace, who comes yonder, what jolly good gest? </l>
+        </sp>
+        <floatingText xml:id="A00456-e107410">
+          <body xml:id="A00456-e107420">
+            <div type="song" xml:id="A00456-e107430">
+              <stage xml:id="A00456-e107440">¶ Here enter in with a song.</stage>
+              <sp xml:id="A00456-e107450" who="A00456-all">
+                <l xml:id="A00456-e107460">When men will seem misdoubtfully,</l>
+                <l xml:id="A00456-e107470">Without an why, to call and cry,</l>
+                <l xml:id="A00456-e107480">And fearing with temerity, its jeopardy, of liberty,</l>
+                <l xml:id="A00456-e107490">We wish him take to cheer his heart, haphazard,</l>
+                <l xml:id="A00456-e107500">Bold blind bayard,</l>
+                <l xml:id="A00456-e107510">A fig for his uncourtesy,</l>
+                <l xml:id="A00456-e107520">That seeks to shun good company. </l>
+              </sp>
+              <sp xml:id="A00456-e107530" who="A00456-mansipulus">
+                <speaker>Mansipulus.</speaker>
+                <l xml:id="A00456-e107540">What if case that cruelty, should bustle me, and justle me,</l>
+                <l xml:id="A00456-e107550">And Holywand should tickle me, for keeping of good company:</l>
+                <l xml:id="A00456-e107560">I'll follow by my honesty, hap haphazard, bold blind bayard,</l>
+                <l xml:id="A00456-e107570">A fig for his uncourtesy, that seeks to shun good company. </l>
+              </sp>
+              <sp xml:id="A00456-e107580" who="A00456-all">
+                <stage xml:id="A00456-e107590">All sing this.</stage>
+                <l xml:id="A00456-e107600">When men will seem misdoubtfully,</l>
+                <l xml:id="A00456-e107610">Without an why, to call and cry. Etc. </l>
+              </sp>
+              <sp xml:id="A00456-e107620" who="A00456-mansipula">
+                <pb facs="12"/>
+                <speaker>Mansipula.</speaker>
+                <l xml:id="A00456-e107630">Never was that ministers, so furious nor curious,</l>
+                <l xml:id="A00456-e107640">Nor yet her blows so boisterous, nor roisterous, nor dolorous,</l>
+                <l xml:id="A00456-e107650">But sure I would venturous, hap haphazard, bold blind bayard</l>
+                <l xml:id="A00456-e107660">A fig for his uncourtesy, that seeks to shun good company. </l>
+              </sp>
+              <sp xml:id="A00456-e107670" who="A00456-all">
+                <stage xml:id="A00456-e107680">All sing this.</stage>
+                <l xml:id="A00456-e107690">When men will seem misdoubtfully,</l>
+                <l xml:id="A00456-e107700">Without an why, to call and crew. Etc. </l>
+              </sp>
+              <sp xml:id="A00456-e107710" who="A00456-haphazard">
+                <speaker>Haphazard.</speaker>
+                <l xml:id="A00456-e107720">Then wend ye on and follow me, Mansipula, Mansipula. </l>
+                <l xml:id="A00456-e107730">Let cropping cares be cast away, come follow me, come follow me,</l>
+                <l xml:id="A00456-e107740">Subservus is a jolly lout, brace haphazard bold blind bayard,</l>
+                <l xml:id="A00456-e107750">A fig for his uncourtesy, that seeks to shun good company. </l>
+              </sp>
+              <sp xml:id="A00456-e107760" who="A00456-all">
+                <stage xml:id="A00456-e107770">All sing this.</stage>
+                <l xml:id="A00456-e107780">When men will seem misdoubtfully,</l>
+                <l xml:id="A00456-e107790">Without an why, to call and cry. Etc. </l>
+              </sp>
+              <trailer xml:id="A00456-e107800">The end of the song.</trailer>
+            </div>
+          </body>
+        </floatingText>
+        <sp xml:id="A00456-e107810" who="A00456-haphazard">
+          <stage xml:id="A00456-e107820">Here haphazard speaketh.</stage>
+          <l xml:id="A00456-e107830">I by the gods my masters, I told you plain,</l>
+          <l xml:id="A00456-e107840">Who companies with me, will desire me again:</l>
+          <l xml:id="A00456-e107850">But how did ye speed I pray ye show me,</l>
+          <l xml:id="A00456-e107860">Was all well agreed did nobody blow ye. </l>
+        </sp>
+        <sp xml:id="A00456-e107870" who="A00456-mansipulus">
+          <speaker>Mansipulus.</speaker>
+          <l xml:id="A00456-e107880">Mass sir, hap did so happen, that my lord and master,</l>
+          <l xml:id="A00456-e107890">Stayed in beholding and viewing the pasture. </l>
+          <l xml:id="A00456-e107900">Which when I perceived, what excuse did I make? </l>
+          <l xml:id="A00456-e107910">I came in the cross way, on the nerside the Forlake,</l>
+          <l xml:id="A00456-e107920">Hard by Hodge's half acre, at gaffers miller's stile. </l>
+          <l xml:id="A00456-e107930">The next way round about, by the space of a mile,</l>
+          <l xml:id="A00456-e107940">And at Symkin's side ridge, my lord stood talking,</l>
+          <l xml:id="A00456-e107950">And angrily to me (Quoth he) where hast thou been walking</l>
+          <l xml:id="A00456-e107960">Without any staggering, I had ready my lie,</l>
+          <l xml:id="A00456-e107970"><pb facs="13"/> out at Bridgenredow, and at Benol's lease (Quoth I)</l>
+          <l xml:id="A00456-e107980">Your fatlings are feeding well sir, the gods be praised,</l>
+          <l xml:id="A00456-e107990">A goodly loume of beef on them is all ready raised,</l>
+          <l xml:id="A00456-e108000">The outsteps on Francis fabulator that was never my friend,</l>
+          <l xml:id="A00456-e108010">How past you carters hay rock, at long meadow end</l>
+          <l xml:id="A00456-e108020">There might one (Quoth he) within this few days,</l>
+          <l xml:id="A00456-e108030">With a cast net had given, mi knaves great assays:</l>
+          <l xml:id="A00456-e108040">Under the hedge with a pair of new cards both rip and firdge,</l>
+          <l xml:id="A00456-e108050">Is it true quoth my lord, will this gear never be left,</l>
+          <l xml:id="A00456-e108060">This causes swearing, and staring, proling and theft:</l>
+          <l xml:id="A00456-e108070">Well (Quoth my lord) take heed lest I find it,</l>
+          <l xml:id="A00456-e108080">And so passed his way, and did no more mind it. </l>
+        </sp>
+        <sp xml:id="A00456-e108090" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e108100">By the gods that was sport, ye and sport alone,</l>
+        </sp>
+        <sp xml:id="A00456-e108110" who="A00456-mansipula">
+          <speaker>Mansipula.</speaker>
+          <l xml:id="A00456-e108120">Yea, but I was in worse case by saint John,</l>
+          <l xml:id="A00456-e108130">My lady in church was set full devout,</l>
+          <l xml:id="A00456-e108140">And hearing my coming she turned about:</l>
+          <l xml:id="A00456-e108150">But as soon as I heard her snappishly sound,</l>
+          <l xml:id="A00456-e108160">In this sort I crouched me down to the ground,</l>
+          <l xml:id="A00456-e108170">And mannerly maud, as though I were sad,</l>
+          <l xml:id="A00456-e108180">As soon as the Pew then strawed I had,</l>
+          <l xml:id="A00456-e108190">She gave me a wink, and frowardly frown,</l>
+          <l xml:id="A00456-e108200">Whereby I do judge, she would cudgel my gown:</l>
+          <l xml:id="A00456-e108210">Then I did devise, a pretty fine prank,</l>
+          <l xml:id="A00456-e108220">A mean whereby to pick me a thank:</l>
+          <l xml:id="A00456-e108230">Of Margery Mildon the maid of the milk house,</l>
+          <l xml:id="A00456-e108240">And stainer the stutter the guide of the store house,</l>
+          <l xml:id="A00456-e108250">Then was my lady's anger well gone,</l>
+          <l xml:id="A00456-e108260">And will be so still, and the truth be not known. </l>
+        </sp>
+        <sp xml:id="A00456-e108270" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e108280">Her lady, barefoot this bakes trimly,</l>
+        </sp>
+        <sp xml:id="A00456-e108290" who="A00456-subservus">
+          <speaker>Subseruus.</speaker>
+          <l xml:id="A00456-e108300">Nay but I escaped more finely,</l>
+          <l xml:id="A00456-e108310">For I under this hedge one while did stay,</l>
+          <l xml:id="A00456-e108320">Then in this bush, then in that way:</l>
+          <l xml:id="A00456-e108330"><pb facs="13"/> then slipped I behind them among all the rest,</l>
+          <l xml:id="A00456-e108340">And seemed too common to, of things with the best,</l>
+          <l xml:id="A00456-e108350">But so it did happen, that all things were well,</l>
+          <l xml:id="A00456-e108360">But hazard it is, lest time will truth tell. </l>
+        </sp>
+        <sp xml:id="A00456-e108370" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e108380">Tut, tut, that was but by hap, and if it be so,</l>
+          <l xml:id="A00456-e108390">Well sith it was in hazard then let it go. </l>
+        </sp>
+        <sp xml:id="A00456-e108400" who="A00456-subservus">
+          <speaker>Subseruus.</speaker>
+          <l xml:id="A00456-e108410">Content by my honesty, than farewell all woe. </l>
+        </sp>
+        <sp xml:id="A00456-e108420" who="A00456-mansipulus">
+          <speaker>Mansipulus.</speaker>
+          <l xml:id="A00456-e108430">Come out dog, ye speak happily of truth if it be so,</l>
+        </sp>
+        <sp xml:id="A00456-e108440" who="A00456-all">
+          <speaker>¶ All speak.</speaker>
+          <l xml:id="A00456-e108450">Now master haphazard, fare you well for a season,</l>
+        </sp>
+        <sp xml:id="A00456-e108460" who="A00456-haphazard">
+          <speaker>Haphazard,</speaker>
+          <l xml:id="A00456-e108470">Let my council at no time with you be geason. </l>
+        </sp>
+        <sp xml:id="A00456-e108480" who="A00456-all">
+          <speaker>¶ All speaketh.</speaker>
+          <l xml:id="A00456-e108490">No by the gods, be sure not so. </l>
+        </sp>
+        <sp xml:id="A00456-e108500" who="A00456-haphazard">
+          <speaker>Haphazard.</speaker>
+          <l xml:id="A00456-e108510">Well sith here is no company have with ye to Jericho. <stage xml:id="A00456-e108520">Exit.</stage></l>
+        </sp>
+        <sp xml:id="A00456-e108530" who="A00456-virginius">
+          <stage xml:id="A00456-e108540">Enter Virginius. </stage>
+          <l xml:id="A00456-e108550">What so the gods they have decreed to work and do by me? </l>
+          <l xml:id="A00456-e108560">I marvel why judge Apius he, such greetings lets me see:</l>
+          <l xml:id="A00456-e108570">I served have his seat, and state, I have maintained his weal,</l>
+          <l xml:id="A00456-e108580">I have suppressed the rebels stout, I bear to him such zeal,</l>
+          <l xml:id="A00456-e108590">And now he sends to me such charge, upon my life and lands,</l>
+          <l xml:id="A00456-e108600">Without demur, or further pause, or ere ought things be scanned,</l>
+          <l xml:id="A00456-e108610">That I in haste, with posting speed, to court I do repair,</l>
+          <l xml:id="A00456-e108620">To answer that alleged is, before his judgement chair,</l>
+          <l xml:id="A00456-e108630">Some histories they do express, when such mishaps do fall,</l>
+          <l xml:id="A00456-e108640">They should have tokens many a one, I have not one but all:</l>
+          <l xml:id="A00456-e108650">My jewels sometime precious, do vade and bear no hue,</l>
+          <l xml:id="A00456-e108660">My senses they do shun there course, my lights do burn as blue:</l>
+          <l xml:id="A00456-e108670">My willing wights are warred slow, that once were swift in speed</l>
+          <l xml:id="A00456-e108680">My heart it throbs in wondrous sort, my nose doth often bleed:</l>
+          <l xml:id="A00456-e108690"><pb facs="14"/> my dreadful dreams do draw my woe and hateful hazard hale,</l>
+          <l xml:id="A00456-e108700">These tokens be of evil hap, this is the old wife's tale:</l>
+          <l xml:id="A00456-e108710">But yet oh thou Virginius, whose hoary hairs are old,</l>
+          <l xml:id="A00456-e108720">Didst treason never yet commit, of this thou mayst be bold:</l>
+          <l xml:id="A00456-e108730">In Mars his games, in martial frates, thou wast his only aid,</l>
+          <l xml:id="A00456-e108740">The huge carrebd his hazards thou, for him was oft assayed:</l>
+          <l xml:id="A00456-e108750">Was Silla's force by thee oft shunned, or yet Adrice land,</l>
+          <l xml:id="A00456-e108760">Laceface child that Minotaur, did cause thee ever stand:</l>
+          <l xml:id="A00456-e108770">To pleasure him, to serve thy leech, to keep all things upright,</l>
+          <l xml:id="A00456-e108780">Thou god above, then what is it, that yieldeth me this spite? </l>
+          <l xml:id="A00456-e108790">Sith nothing need misdoubted be, where grounded cause is none,</l>
+          <l xml:id="A00456-e108800">I enter will judge Apius' gate, rejecting care and moan:</l>
+          <l xml:id="A00456-e108810">But stay Virginius, lo, thy prince doth enter into place,</l>
+          <l xml:id="A00456-e108820">O sovereign lord, and rightful judge, the gods do save thy grace,</l>
+        </sp>
+        <sp xml:id="A00456-e108830" who="A00456-appius">
+          <stage xml:id="A00456-e108840">¶ Here entereth judge Apius and Claudius. </stage>
+          <l xml:id="A00456-e108850">With tender heart Virginius, thou welcome art to me,</l>
+          <l xml:id="A00456-e108860">I sorry am to utter out, the things I hear of thee:</l>
+          <l xml:id="A00456-e108870">For Claudius a subject here, a man of mickle fame,</l>
+          <l xml:id="A00456-e108880">Appealeth thee before my court, in deed of open shame:</l>
+          <l xml:id="A00456-e108890">And though in deed I love thee so, as thy deserts desirer,</l>
+          <l xml:id="A00456-e108900">Yet not so but I must judgement give, as justice doth require. </l>
+        </sp>
+        <sp xml:id="A00456-e108910" who="A00456-virginius">
+          <speaker>Virginius.</speaker>
+          <l xml:id="A00456-e108920">My lord and reason good it is, your servant doth request,</l>
+          <l xml:id="A00456-e108930">No partial hand to aid his cause, no partial mind or breast:</l>
+          <l xml:id="A00456-e108940">If ought I have offended you, your court, or eke your crown,</l>
+          <l xml:id="A00456-e108950">From lofty top of turret high, precipitate me down:</l>
+          <l xml:id="A00456-e108960">If treason none by me be done, or any fault committed,</l>
+          <l xml:id="A00456-e108970">Let my accusers bear the blame, and let me be remitted. </l>
+        </sp>
+        <sp xml:id="A00456-e108980" who="A00456-appius">
+          <speaker>Apius.</speaker>
+          <l xml:id="A00456-e108990">Good reason to Virginius, come Claudius show thy mind,</l>
+          <l xml:id="A00456-e109000">Let justice here, if judgement may, virginus guilty find</l>
+        </sp>
+        <sp xml:id="A00456-e109010" who="A00456-claudius">
+          <speaker>Claudius.</speaker>
+          <l xml:id="A00456-e109020">Thou sovereign lord, and rightful judge, this standeth now the case,</l>
+          <l xml:id="A00456-e109030"><pb facs="14"/> in tender youth not long ago, near sixteen years of space,</l>
+          <l xml:id="A00456-e109040">Virginius a thrall of mine, a child and infant young,</l>
+          <l xml:id="A00456-e109050">From me did take by subtle mean, and keeps by arm full strong</l>
+          <l xml:id="A00456-e109060">And here before your grace I crave, that justice be extended,</l>
+          <l xml:id="A00456-e109070">That I may have my thrall again, and faults may be amended</l>
+        </sp>
+        <sp xml:id="A00456-e109080" who="A00456-virginius">
+          <speaker>Virginius.</speaker>
+          <l xml:id="A00456-e109090">Ah gods that guide the globe above what forged tales I hear,</l>
+          <l xml:id="A00456-e109100">O judge Apius, bend your ears, while this my crime I clear:</l>
+          <l xml:id="A00456-e109110">She is my child, and of my wife her tender corpses did spring,</l>
+          <l xml:id="A00456-e109120">Let all the country where I dwell, bear witness of the thing. </l>
+        </sp>
+        <sp xml:id="A00456-e109130" who="A00456-appius">
+          <stage xml:id="A00456-e109140">Apius and Claudius go forth, but Apius speaketh this.</stage>
+          <l xml:id="A00456-e109150">Nay by the gods not so my friend, I do not so decree,</l>
+          <l xml:id="A00456-e109160">I charge thee here in pain of death, thou bring the maid to me:</l>
+          <l xml:id="A00456-e109170">In chamber close, in prison sound, she secret shall abide,</l>
+          <l xml:id="A00456-e109180">And no kind of wight shall talk with her, until the truth be tried:</l>
+          <l xml:id="A00456-e109190">This do I charge, this I command, in pain of death let see,</l>
+          <l xml:id="A00456-e109200">Without any let, that she be brought, as prisoner unto me:</l>
+          <stage xml:id="A00456-e109210">Exit.</stage>
+        </sp>
+        <sp xml:id="A00456-e109220" who="A00456-virginius">
+          <stage xml:id="A00456-e109230">Here let Virginius go about the scaffold</stage>
+          <l xml:id="A00456-e109240">Ah fickle fall, unhappy dome, o most uncertain rate,</l>
+          <l xml:id="A00456-e109250">That ever chance so churlishly, that never stayed in state:</l>
+          <l xml:id="A00456-e109260">What judge is this: what cruel wretch? What faith doth Claudius</l>
+          <l xml:id="A00456-e109270">The gods do recompense with shame, his false and faithless mind:</l>
+          <l xml:id="A00456-e109280">Well home I must, no remedy, where shall my soaking tears,</l>
+          <l xml:id="A00456-e109290">Augment my woes, decrease my joys, while death do rid my fears</l>
+        </sp>
+        <sp xml:id="A00456-e109300" who="A00456-rumour">
+          <stage xml:id="A00456-e109310">¶ Here entereth rumour. </stage>
+          <l xml:id="A00456-e109320">Come ventus come, blow forth thy blast,</l>
+          <l xml:id="A00456-e109330">Prince Eol listen well,</l>
+          <l xml:id="A00456-e109340">The filthiest fact that ever was,</l>
+          <l xml:id="A00456-e109350">I rumor now shall tell:</l>
+          <l xml:id="A00456-e109360">You gods bend down to here my cry,</l>
+          <l xml:id="A00456-e109370"><pb facs="15"/> revengement duly show,</l>
+          <l xml:id="A00456-e109380">Thy rumor craves did Claudius lay,</l>
+          <l xml:id="A00456-e109390">And bring judge Apius lo? </l>
+          <l xml:id="A00456-e109400">That wicked man, that fleshly judge,</l>
+          <l xml:id="A00456-e109410">Hath hired Claudius,</l>
+          <l xml:id="A00456-e109420">To claim a child, the only heir,</l>
+          <l xml:id="A00456-e109430">Of old Virginius. </l>
+          <l xml:id="A00456-e109440">A virgin pure, a Queen in life,</l>
+          <l xml:id="A00456-e109450">Whose state may be deplored,</l>
+          <l xml:id="A00456-e109460">For why the Queen of chaste life,</l>
+          <l xml:id="A00456-e109470">Is like to be deflowered:</l>
+          <l xml:id="A00456-e109480">By false judge Apius cruel wretch,</l>
+          <l xml:id="A00456-e109490">Who straight hath commanded,</l>
+          <l xml:id="A00456-e109500">That she to keeping his be brought,</l>
+          <l xml:id="A00456-e109510">Prince Pluto this demanded:</l>
+          <l xml:id="A00456-e109520">To skies I fly to blaze abroad,</l>
+          <l xml:id="A00456-e109530">The trump of deep defame,</l>
+          <l xml:id="A00456-e109540">Revenge you gods this rumor craves,</l>
+          <l xml:id="A00456-e109550">This blood and bloody shame:</l>
+          <l xml:id="A00456-e109560">Have through the air, give place you airs.</l>
+          <l xml:id="A00456-e109570">This is my duty done,</l>
+          <l xml:id="A00456-e109580">The gods confound such lecherers,</l>
+          <l xml:id="A00456-e109590">Lo rumor this I run. </l>
+        </sp>
+        <sp xml:id="A00456-e109600" who="A00456-virginius">
+          <speaker>Virginius.</speaker>
+          <l xml:id="A00456-e109610">O man, oh mould, o muck, oh clay, oh hell, oh hellish hound,</l>
+          <l xml:id="A00456-e109620">Oh foul judge Apius wrablinge wretch, is this thy treason found:</l>
+          <l xml:id="A00456-e109630">Woe worth the man that gave the seed, whereby thefirst didst spring</l>
+          <l xml:id="A00456-e109640">Woe worth the womb that bore the babe, to mean this bloody thing:</l>
+          <l xml:id="A00456-e109650">Woe worth the paps that gave ye suck, woe worth the fosters eke</l>
+          <l xml:id="A00456-e109660">Woe worth all such as ever did, thy health or liking seek:</l>
+          <l xml:id="A00456-e109670">O that the graved years of mine, were covered in the clay</l>
+        </sp>
+        <sp xml:id="A00456-e109680" who="A00456-virginia">
+          <stage xml:id="A00456-e109690">¶ Here entereth Virginia. </stage>
+          <l xml:id="A00456-e109700">Let patience dear father mine, your rigor something stay,</l>
+          <l xml:id="A00456-e109710">Why do you wail in such a sort? why do you weep and moan? </l>
+        </sp>
+        <sp xml:id="A00456-e109720" who="A00456-virginius">
+          <pb facs="15"/>
+          <speaker>Virginius</speaker>
+          <l xml:id="A00456-e109730">O daughter dear and only heir, my life is near forgone,</l>
+          <l xml:id="A00456-e109740">And all for love of thee</l>
+        </sp>
+        <sp xml:id="A00456-e109750" who="A00456-virginia">
+          <speaker>Virginia.</speaker>
+          <l xml:id="A00456-e109760">A gods how may this be? </l>
+          <l xml:id="A00456-e109770">Dear father do withdraw your dread, and let me know the cause,</l>
+          <l xml:id="A00456-e109780">Myself will aid with life or death, without demur or pause:</l>
+          <l xml:id="A00456-e109790">Then tender your child, that craveth this bound. </l>
+        </sp>
+        <sp xml:id="A00456-e109800" who="A00456-virginius">
+          <speaker>Virginius</speaker>
+          <l xml:id="A00456-e109810">O harken dear daughter attend thou my sound:</l>
+          <l xml:id="A00456-e109820">Judge Apius pricked forth with filthy desire:</l>
+          <l xml:id="A00456-e109830">Thy person as Lemmon, doth greatly require:</l>
+          <l xml:id="A00456-e109840">And no kind of entreaty, no fear nor no shame,</l>
+          <l xml:id="A00456-e109850">Will he hear allege, defending the same:</l>
+          <l xml:id="A00456-e109860">And straight without staying in pain of my death,</l>
+          <l xml:id="A00456-e109870">I must bring thee thither, wherefore stop my breath,</l>
+          <l xml:id="A00456-e109880">Oh sisters, I search, I seek, and I crave,</l>
+          <l xml:id="A00456-e109890">No more at your hands, but death for to have,</l>
+          <l xml:id="A00456-e109900">Rather than see my daughter deflowered,</l>
+          <l xml:id="A00456-e109910">Or else in ill sort, so vildly devoured. </l>
+        </sp>
+        <sp xml:id="A00456-e109920" who="A00456-virginia">
+          <speaker>Virginia.</speaker>
+          <l xml:id="A00456-e109930">O father o friendship, o fatherly favour,</l>
+          <l xml:id="A00456-e109940">Whose dulcet words, so sweetly do savour,</l>
+          <l xml:id="A00456-e109950">On knees I beseech thee to grant my request,</l>
+          <l xml:id="A00456-e109960">In all things according, as liketh thee best:</l>
+          <l xml:id="A00456-e109970">Thou knowest, oh my father, if I be once spotted,</l>
+          <l xml:id="A00456-e109980">My name and my kindred, then forth will be blotted:</l>
+          <l xml:id="A00456-e109990">And if thou my father, should die for my cause,</l>
+          <l xml:id="A00456-e110000">The world would account me as guilty in cause:</l>
+          <l xml:id="A00456-e110010">Then rather dear father, if it be thy pleasure,</l>
+          <l xml:id="A00456-e110020">Grant me the death, then keep I my treasure? </l>
+          <l xml:id="A00456-e110030">My lamp, my light, my life undefiled,</l>
+          <l xml:id="A00456-e110040">And so may judge Apius, of flesh be beguiled:</l>
+          <l xml:id="A00456-e110050">This upon my knees with humble behest,</l>
+          <l xml:id="A00456-e110060">Grant me oh father my instant request. </l>
+        </sp>
+        <sp xml:id="A00456-e110070" who="A00456-virginius">
+          <pb facs="16"/>
+          <speaker>Virginus</speaker>
+          <l xml:id="A00456-e110080">Then rise up my daughter, my answer do note,</l>
+          <l xml:id="A00456-e110090">From mouth of thy father, whose eyes do now float:</l>
+          <l xml:id="A00456-e110100">Oh daughter, o dear, oh darling, o dame,</l>
+          <l xml:id="A00456-e110110">Dispatch me I pray thee, regard not my name:</l>
+          <l xml:id="A00456-e110120">But yet, as thou sattest sith remedy none,</l>
+          <l xml:id="A00456-e110130">But Lemmon thou must be, if I were gone,</l>
+          <l xml:id="A00456-e110140">And better it is to die with good fame,</l>
+          <l xml:id="A00456-e110150">Then longer to live to reap us but shame:</l>
+          <l xml:id="A00456-e110160">But if thou do die, no doubt is at all,</l>
+          <l xml:id="A00456-e110170">But presently after myself follow shall,</l>
+          <l xml:id="A00456-e110180">Then end without shame so let us persever,</l>
+          <l xml:id="A00456-e110190">With trump of good same so die shall we never. </l>
+        </sp>
+        <sp xml:id="A00456-e110200" who="A00456-virginia">
+          <stage xml:id="A00456-e110210">Virginia here kneeleth.</stage>
+          <l xml:id="A00456-e110220">Then tender arms complect the neck, do dry thy father's tears,</l>
+          <l xml:id="A00456-e110230">You nimble hands for woe whereof, my loving heart it wears:</l>
+          <l xml:id="A00456-e110240">O father mine, refrain no whit, your sharped knife to take,</l>
+          <l xml:id="A00456-e110250">From guiltless sheath, my shame to end, and body dead to make:</l>
+          <l xml:id="A00456-e110260">Let not the shameless bloody judge, defile my virgin's life,</l>
+          <l xml:id="A00456-e110270">Do take my head and send it him, upon your bloody knife:</l>
+          <l xml:id="A00456-e110280">Bid him imbrue his bloody hands, in guiltless blood of me:</l>
+          <l xml:id="A00456-e110290">I virgin die, he lecher lives, he was my end you see:</l>
+          <l xml:id="A00456-e110300">No more delays, so kiss me first, then stretch your strongest arm,</l>
+          <l xml:id="A00456-e110310">Do rid my woe, increase my joy, do ease your child of harm. </l>
+        </sp>
+        <sp xml:id="A00456-e110320" who="A00456-virginius">
+          <speaker>Virginius.</speaker>
+          <l xml:id="A00456-e110330">O weary wits of woe, or wealth, o feeble aged man,</l>
+          <l xml:id="A00456-e110340">How can thy arm give such a blow, thy death I wish thee then:</l>
+          <l xml:id="A00456-e110350">But sith that shame with endless trempe, will sound if case thou joy,</l>
+          <l xml:id="A00456-e110360">By means of false judge Apius he, myself will thee destroy:</l>
+          <l xml:id="A00456-e110370">Forgive me babe this bloody deed, a no meekly take thy end,</l>
+          <stage xml:id="A00456-e110380">Here let him proffer a blow,</stage>
+          <l xml:id="A00456-e110390">The good forgive thee father dear, farewell, thy blow do bend:</l>
+          <l xml:id="A00456-e110400">Yet stay a while, oh father dear, for flesh to death is frail,</l>
+          <l xml:id="A00456-e110410">Let first my wimple bind my eyes, and then thy blow assail. </l>
+          <l xml:id="A00456-e110420">Now father work thy will on me, that life I may enjoy. </l>
+          <stage xml:id="A00456-e110430"><pb facs="16"/>¶ Here tie a handkerchief about her eyes, and then strike of her head.</stage>
+          <l xml:id="A00456-e110440">Now stretch thy hand Virginius, that loath would flesh destroy. </l>
+          <l xml:id="A00456-e110450">O cruel hands, or bloody knife, oh man what hast thou done,</l>
+          <l xml:id="A00456-e110460">Thy daughter dear, and only heir, her vital end hath won:</l>
+          <l xml:id="A00456-e110470">Come fatal blade make like dispatch, come Atropos, come end,</l>
+          <l xml:id="A00456-e110480">Strike home thou careless arm with speed, of death be not afraid. </l>
+        </sp>
+        <sp xml:id="A00456-e110490" who="A00456-comfort">
+          <stage xml:id="A00456-e110500">Here entereth comfort. </stage>
+          <l xml:id="A00456-e110510">O noble knight Virginius, do stay, he not dismayed. </l>
+          <l xml:id="A00456-e110520">I curing comfort present am, your dolor to aid:</l>
+        </sp>
+        <sp xml:id="A00456-e110530" who="A00456-virginius">
+          <speaker>Virginius.</speaker>
+          <l xml:id="A00456-e110540">Sith joy is gone, sith life is dead:</l>
+          <l xml:id="A00456-e110550">What comfort can there be? </l>
+          <l xml:id="A00456-e110560">〈◊〉 there is but dee●e dis●●ire●</l>
+        </sp>
+        <sp xml:id="A00456-e110570" who="A00456-haphazard">
+          <pb facs="17"/>
+          <stage xml:id="A00456-e110580">Here entereth haphazard.</stage>
+          <l xml:id="A00456-e110590">I came from Caleed even the same hour,</l>
+          <l xml:id="A00456-e110600">And hap was hired to hackney in hempstrid,</l>
+          <l xml:id="A00456-e110610">In hazard he was of riding on beamestrid,</l>
+          <l xml:id="A00456-e110620">Then crow crop on thee top hoist up the sail,</l>
+          <l xml:id="A00456-e110630">Then groaned their necks, by the weight of their tail,</l>
+          <l xml:id="A00456-e110640">Then did c●●m●●x, put these three together,</l>
+          <l xml:id="A00456-e110650">Pays them their passport for ●lu●tring thither. </l>
+        </sp>
+        <sp xml:id="A00456-e110660" who="A00456-appius">
+          <speaker>Apius.</speaker>
+          <l xml:id="A00456-e110670">Why how now haphazard, of what dost thou speak? </l>
+          <l xml:id="A00456-e110680">Methinks in mad sort thy talk thou dost break,</l>
+          <l xml:id="A00456-e110690">〈…〉 all in one. </l>
+        </sp>
+        <pb facs="17"/>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A00456">
+    <item xml:id="A00456-haphazard" n="26">
+    <seg type="character_name">A00456-haphazard</seg>
+    <seg type="speech_count">26</seg>
+  </item>
+<item xml:id="A00456-virginius" n="19">
+    <seg type="character_name">A00456-virginius</seg>
+    <seg type="speech_count">19</seg>
+  </item>
+  <item xml:id="A00456-appius" n="16">
+    <seg type="character_name">A00456-appius</seg>
+    <seg type="speech_count">16</seg>
+  </item>
+  <item xml:id="A00456-mansipulus" n="13">
+    <seg type="character_name">A00456-mansipulus</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+  <item xml:id="A00456-all" n="13">
+    <seg type="character_name">A00456-all</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+  <item xml:id="A00456-mansipula" n="12">
+    <seg type="character_name">A00456-mansipula</seg>
+    <seg type="speech_count">12</seg>
+  </item>
+  <item xml:id="A00456-virginia" n="9">
+    <seg type="character_name">A00456-virginia</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A00456-mater" n="6">
+    <seg type="character_name">A00456-mater</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A00456-conscience" n="6">
+    <seg type="character_name">A00456-conscience</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A00456-subservus" n="5">
+    <seg type="character_name">A00456-subservus</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A00456-claudius" n="3">
+    <seg type="character_name">A00456-claudius</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A00456-justice" n="1">
+    <seg type="character_name">A00456-justice</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A00456-rumour" n="1">
+    <seg type="character_name">A00456-rumour</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A00456-comfort" n="1">
+    <seg type="character_name">A00456-comfort</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

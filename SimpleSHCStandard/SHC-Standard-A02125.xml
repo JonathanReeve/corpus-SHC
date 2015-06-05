@@ -1,0 +1,2764 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A02125">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Orlando Furioso <date type="creation_date">1591</date></title>
+        <author>Greene, Robert</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Madeline Burg</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A02125.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The historie of Orlando Furioso, one of the twelue pieres of France. As it was plaid before the Queenes Maiestie.</title>
+            <author>Greene, Robert, 1558?-1592.</author>
+          </titleStmt>
+          <extent>31 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 January (TCP phase 1)</date>
+            <idno type="marc">99841691</idno>
+            <idno type="stc">STC (2nd ed.) 12265.</idno>
+            <idno type="stc">Greg, I, 123(a).</idno>
+            <idno type="vid">6289</idno>
+            <idno type="DLPS">A02125</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The historie of Orlando Furioso, one of the twelue pieres of France. As it was plaid before the Queenes Maiestie.</title>
+            <title type="alt">History of Orlando Furioso</title>
+            <title type="alt">Historie of Orlando Furioso</title>
+            <title type="alt">Historie of Orlando Furioso, one of the twelve pieres of France.</title>
+            <author>Greene, Robert, 1558?-1592.</author>
+            <author>Ariosto, Lodovico, 1474-1533.</author>
+          </titleStmt>
+          <extent>[62] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by Iohn Danter for Cuthbert Burbie, and are to be sold at his shop nere the Royall Exchange,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1594.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Anonymous. By Robert Greene.</p>
+            </note>
+            <note>
+              <p>Based on a part of Ariosto's poem.</p>
+            </note>
+            <note>
+              <p>Partly in verse.</p>
+            </note>
+            <note>
+              <p>Signatures: A-H4 (-H4).</p>
+            </note>
+            <note>
+              <p>The first leaf is blank except for signature-mark "A" with ornaments.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A02125-e100010">
+    <front xml:id="A02125-e100020">
+      <div type="title_page" xml:id="A02125-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A02125-e100040">The history of Orlando Furioso one of the twelve peers of France. </p>
+        <p xml:id="A02125-e100050">As it was played before the Queen's majesty.</p>
+        <p xml:id="A02125-e100060">London, printed by John Danter for Cuthbert Burbie, and are to be sold at his shop near the royal exchange.</p>
+      </div>
+    </front>
+    <body xml:id="A02125-e100070">
+      <div type="play" xml:id="A02125-e100080">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The history of Orlando Furioso one of the twelve peers of France.</head>
+        <stage xml:id="A02125-e100090">Enter Marsillus the emperor of Africa, and Angelica his daughter, the soldan, the King of Cuba, Mandrecard Brandemart, Orlando, county Sacrepant, with others.</stage>
+        <sp xml:id="A02125-e100100" who="A02125-marsillus">
+          <speaker>Marsillus.</speaker>
+          <l xml:id="A02125-e100110">Victorious princes summoned to appear</l>
+          <l xml:id="A02125-e100120">Within the continent of Africa,</l>
+          <l xml:id="A02125-e100130">From sevenfold Nilus to Taprobany,</l>
+          <l xml:id="A02125-e100140">Where fair Apollo darting forth his light</l>
+          <l xml:id="A02125-e100150">Plays on the seas. </l>
+          <l xml:id="A02125-e100160">From Cadiz lands where stout Hercules,</l>
+          <l xml:id="A02125-e100170"><pb facs="3"/> emblazed his trophies on two posts of brass,</l>
+          <l xml:id="A02125-e100180">To Tanais whose swift declining floods,</l>
+          <l xml:id="A02125-e100190">Environs rich Europa to the North,</l>
+          <l xml:id="A02125-e100200">All fetched from out your courts by beauty to this coast,</l>
+          <l xml:id="A02125-e100210">To seek and sue for fair Angelica. </l>
+          <l xml:id="A02125-e100220">Sith none but one must have this happy prize,</l>
+          <l xml:id="A02125-e100230">At which you all have levelled long your thoughts;</l>
+          <l xml:id="A02125-e100240">Set each man forth his passions how he can,</l>
+          <l xml:id="A02125-e100250">And let her censure make the happiest man. </l>
+        </sp>
+        <sp xml:id="A02125-e100260" who="A02125-souldan">
+          <speaker>Sovldan.</speaker>
+          <l xml:id="A02125-e100270">The fairest flower that glories Africa,</l>
+          <l xml:id="A02125-e100280">Whose beauty Phoebus dares not dash with showers,</l>
+          <l xml:id="A02125-e100290">Over whose climate never hung a cloud,</l>
+          <l xml:id="A02125-e100300">But smiling Titan lights the horizon:</l>
+          <l xml:id="A02125-e100310">Egypt is mine and there I hold my state,</l>
+          <l xml:id="A02125-e100320">Seated in Cairye and in Babylon;</l>
+          <l xml:id="A02125-e100330">From thence the matchless beauty of Angelica,</l>
+          <l xml:id="A02125-e100340">Whose hue as bright as are those silver doves,</l>
+          <l xml:id="A02125-e100350">That wanton Venus manth upon her fist,</l>
+          <l xml:id="A02125-e100360">Forced me to cross and cut th'atlantic seas,</l>
+          <l xml:id="A02125-e100370">To oversearch the fearful ocean,</l>
+          <l xml:id="A02125-e100380">Where I arrived to eternize with my lance,</l>
+          <l xml:id="A02125-e100390">The matchless beauty of fair Angelica. </l>
+          <l xml:id="A02125-e100400">Nor tilt, nor tourney, but my spear and shield,</l>
+          <l xml:id="A02125-e100410">Resounding on their crests and sturdy helms</l>
+          <l xml:id="A02125-e100420">Topped high with plumes, like Mars his burgonet,</l>
+          <l xml:id="A02125-e100430">Enchasing on their curates with my blade,</l>
+          <l xml:id="A02125-e100440">That none so fair, as fair Angelica. </l>
+          <l xml:id="A02125-e100450"><pb facs="3"/>But leaving these such glories as they be,</l>
+          <l xml:id="A02125-e100460">I love my lord, let that suffice for me. </l>
+        </sp>
+        <sp xml:id="A02125-e100470" who="A02125-rodamant">
+          <speaker>Rodamant.</speaker>
+          <l xml:id="A02125-e100480">Cuba my seat, a region so enriched,</l>
+          <l xml:id="A02125-e100490">With favours sparkling from the smiling heavens,</l>
+          <l xml:id="A02125-e100500">As those that seeks for traffic to my coast,</l>
+          <l xml:id="A02125-e100510">Accounted like that wealthy paradise,</l>
+          <l xml:id="A02125-e100520">From whence floweth Gyhon and swift Euphrates:</l>
+          <l xml:id="A02125-e100530">The earth within her bowels hath enwrapped,</l>
+          <l xml:id="A02125-e100540">As in the massy storehouse of the world,</l>
+          <l xml:id="A02125-e100550">Millions of gold as bright as was the shower,</l>
+          <l xml:id="A02125-e100560">That wanton Jove sent down to Danae:</l>
+          <l xml:id="A02125-e100570">Marching from thence to manage arms abroad,</l>
+          <l xml:id="A02125-e100580">I passed the triple parted regiment,</l>
+          <l xml:id="A02125-e100590">That froward Saturn gave unto his sons,</l>
+          <l xml:id="A02125-e100600">Erecting statues of my chivalry,</l>
+          <l xml:id="A02125-e100610">Such and so brave as never Hercules,</l>
+          <l xml:id="A02125-e100620">Vowed for the love of lovely Iole:</l>
+          <l xml:id="A02125-e100630">But leaving these such glories as they be,</l>
+          <l xml:id="A02125-e100640">I love my lord, let that suffice for me. </l>
+        </sp>
+        <sp xml:id="A02125-e100650" who="A02125-mandrecard">
+          <speaker>Mandrecarde.</speaker>
+          <l xml:id="A02125-e100660">And I my lord am Mandricard of Mexico,</l>
+          <l xml:id="A02125-e100670">Whose climate fairer than Tiberius,</l>
+          <l xml:id="A02125-e100680">Seated beyond the sea of Tripoli,</l>
+          <l xml:id="A02125-e100690">And richer than the plot Hesperides,</l>
+          <l xml:id="A02125-e100700">Or that same I'll wherein Ulysses' love,</l>
+          <l xml:id="A02125-e100710"><pb facs="4"/> lulled in her lap the young Telegone,</l>
+          <l xml:id="A02125-e100720">That did but Venus tread a dainty step,</l>
+          <l xml:id="A02125-e100730">So would she like the land of Mexico,</l>
+          <l xml:id="A02125-e100740">As Paphos and brave cypress set aside,</l>
+          <l xml:id="A02125-e100750">With me sweet lovely Venus would abide. </l>
+          <l xml:id="A02125-e100760">From thence mounted upon a Spanish bark,</l>
+          <l xml:id="A02125-e100770">Such as transported Jason to the fleece:</l>
+          <l xml:id="A02125-e100780">Come from the South, I furrowed Neptune's seas,</l>
+          <l xml:id="A02125-e100790">Northeast as far as is the frozen Rhine,</l>
+          <l xml:id="A02125-e100800">Leaving fair Voya crossed up Danuby,</l>
+          <l xml:id="A02125-e100810">As high as Saba whose enhancing streams,</l>
+          <l xml:id="A02125-e100820">Cuts twixt the Tartares and the Russians:</l>
+          <l xml:id="A02125-e100830">There did I act as many brave attempts,</l>
+          <l xml:id="A02125-e100840">As did Pirothous for his Proserpine. </l>
+          <l xml:id="A02125-e100850">But leaving these such glories as they be,</l>
+          <l xml:id="A02125-e100860">I love my lord, let that suffice for me. </l>
+        </sp>
+        <sp xml:id="A02125-e100870" who="A02125-brandemart">
+          <speaker>Brandemart.</speaker>
+          <l xml:id="A02125-e100880">The bordering lands seated here in ken,</l>
+          <l xml:id="A02125-e100890">Whose shores are sprinkled with rich orient pearl,</l>
+          <l xml:id="A02125-e100900">More bright of hue than were the Margaret's,</l>
+          <l xml:id="A02125-e100910">That Caesar found in wealthy Albion,</l>
+          <l xml:id="A02125-e100920">The sands of Tagus all of burnished gold,</l>
+          <l xml:id="A02125-e100930">Made Thetis never prouder on the cliffs,</l>
+          <l xml:id="A02125-e100940">That overpeer the bright and golden shore,</l>
+          <l xml:id="A02125-e100950">Than do the rubbish of my country seas:</l>
+          <l xml:id="A02125-e100960">And what I dare, let say the Portingale,</l>
+          <l xml:id="A02125-e100970">And Spaniard tell, who manned with mighty fleets,</l>
+          <l xml:id="A02125-e100980">Came 〈…〉 to their King. </l>
+          <l xml:id="A02125-e100990"><pb facs="4"/>Filling our seas with stately argosies,</l>
+          <l xml:id="A02125-e101000">Calvars and magars hulks of burden great,</l>
+          <l xml:id="A02125-e101010">Which Brandemart rebated from his coast,</l>
+          <l xml:id="A02125-e101020">And sent them home ballast with little wealth</l>
+          <l xml:id="A02125-e101030">But leaving these such glories as they be,</l>
+          <l xml:id="A02125-e101040">I love (My lord) let that suffice for me. </l>
+        </sp>
+        <sp xml:id="A02125-e101050" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e101060">Lords of the South, and princes of esteem,</l>
+          <l xml:id="A02125-e101070">Viceroys unto the state of Africa:</l>
+          <l xml:id="A02125-e101080">I am no King, yet am I princely born,</l>
+          <l xml:id="A02125-e101090">Descended from the royal house of France,</l>
+          <l xml:id="A02125-e101100">And nephew to the mighty Charlemagne,</l>
+          <l xml:id="A02125-e101110">Surnamed Orlando the county Palatine. </l>
+          <l xml:id="A02125-e101120">Swift fame that sounded to our western seas</l>
+          <l xml:id="A02125-e101130">The matchless beauty of Angelica,</l>
+          <l xml:id="A02125-e101140">Fairer than was the nymph of Mercury,</l>
+          <l xml:id="A02125-e101150">Who when bright Phoebus mounteth up his coach</l>
+          <l xml:id="A02125-e101160">And tracts Aurora in her silver steps,</l>
+          <l xml:id="A02125-e101170">And sprinkles from the folding of her lap,</l>
+          <l xml:id="A02125-e101180">White lilies, roses and sweet violets. </l>
+          <l xml:id="A02125-e101190">Yet thus believe me, princes of the South,</l>
+          <l xml:id="A02125-e101200">Although my country's love dearer than pearl,</l>
+          <l xml:id="A02125-e101210">Or mines of gold might well have kept me back;</l>
+          <l xml:id="A02125-e101220">The sweet conversing with my King and friends,</l>
+          <l xml:id="A02125-e101230">(Left all for love) might well have kept me back;</l>
+          <l xml:id="A02125-e101240">The seas by Neptune hoist to the heavens,</l>
+          <l xml:id="A02125-e101250">Whose dangerous flaws might well have kept me back;</l>
+          <l xml:id="A02125-e101260">The savage Moors and anthropagi</l>
+          <l xml:id="A02125-e101270">Whose lands I passed might well have kept me back;</l>
+          <l xml:id="A02125-e101280">The doubt of entertainment in the court</l>
+          <l xml:id="A02125-e101290">When I arrived might well have kept me back:</l>
+          <l xml:id="A02125-e101300"><pb facs="5"/> but so the fame of fair Angelica,</l>
+          <l xml:id="A02125-e101310">Stamped in my thoughts the figure of her love,</l>
+          <l xml:id="A02125-e101320">As neither country, King, or seas, or cannibals,</l>
+          <l xml:id="A02125-e101330">Could by despairing keep Orlando back. </l>
+          <l xml:id="A02125-e101340">I list not boast in acts of chivalry,</l>
+          <l xml:id="A02125-e101350">(An humour never fitting with my mind)</l>
+          <l xml:id="A02125-e101360">But come there forth the proudest champion</l>
+          <l xml:id="A02125-e101370">That hath suspicion in the palatine,</l>
+          <l xml:id="A02125-e101380">And with my trusty sword Durandell</l>
+          <l xml:id="A02125-e101390">Single, I'll register upon his helm,</l>
+          <l xml:id="A02125-e101400">What I dare do for fair Angelica. </l>
+          <l xml:id="A02125-e101410">But leaving these, such glories as they be;</l>
+          <l xml:id="A02125-e101420">I love my lord. </l>
+          <l xml:id="A02125-e101430">Angelica herself shall speak for me. </l>
+        </sp>
+        <sp xml:id="A02125-e101440" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e101450">Daughter thou hearst what love hath here alleged,</l>
+          <l xml:id="A02125-e101460">How all these Kings by beauty summoned here,</l>
+          <l xml:id="A02125-e101470">Puts in their pleas for hope of diadem,</l>
+          <l xml:id="A02125-e101480">Of noble deeds, of wealth and chivalry,</l>
+          <l xml:id="A02125-e101490">All hoping to possess Angelica. </l>
+          <l xml:id="A02125-e101500">Sith father's will may hap to aim amiss,</l>
+          <l xml:id="A02125-e101510">(For parents' thoughts in love oft step awry)</l>
+          <l xml:id="A02125-e101520">Choose thou the man who best contenteth thee,</l>
+          <l xml:id="A02125-e101530">And he shall wear the Afric crown next me. </l>
+          <l xml:id="A02125-e101540">For trust me daughter, like of whom thou please,</l>
+          <l xml:id="A02125-e101550">Thou satisfied, my thoughts shall be at ease. </l>
+        </sp>
+        <sp xml:id="A02125-e101560" who="A02125-angelica">
+          <speaker>Ang:</speaker>
+          <l xml:id="A02125-e101570">Kings of the South, viceroys of Africa,</l>
+          <l xml:id="A02125-e101580">Sith fathers will hangs on his daughter's choice,</l>
+          <l xml:id="A02125-e101590">And I as erst Princess Andromache,</l>
+          <l xml:id="A02125-e101600">Seated amid the crew of Priam's sons,</l>
+          <l xml:id="A02125-e101610">Have liberty to choose where best I love;</l>
+          <l xml:id="A02125-e101620"><pb facs="5"/> must freely say, for fancy hath no fraud,</l>
+          <l xml:id="A02125-e101630">That far unworthies Angelica</l>
+          <l xml:id="A02125-e101640">Of such as deign to grace her with their loves. </l>
+          <l xml:id="A02125-e101650">The sultan with his seat in Babylon,</l>
+          <l xml:id="A02125-e101660">The prince of Cuba and of Mexico,</l>
+          <l xml:id="A02125-e101670">Whose wealthy crowns might win a woman's will;</l>
+          <l xml:id="A02125-e101680">Young Brandemard master of all the isles,</l>
+          <l xml:id="A02125-e101690">Where Neptune planted hath his treasury:</l>
+          <l xml:id="A02125-e101700">The worst of these men of so high import,</l>
+          <l xml:id="A02125-e101710">As may command a greater dame than I. </l>
+          <l xml:id="A02125-e101720">But fortune or some deep inspiring fate,</l>
+          <l xml:id="A02125-e101730">Venus or else the bastard brat of Mars,</l>
+          <l xml:id="A02125-e101740">Whose bow commands the motions of the mind,</l>
+          <l xml:id="A02125-e101750">Hath sent proud love to enter such a plea,</l>
+          <l xml:id="A02125-e101760">As nonsuits all your princely evidence,</l>
+          <l xml:id="A02125-e101770">And flat commands that maugre majesty,</l>
+          <l xml:id="A02125-e101780">I choose Orlando, county Palatine. </l>
+        </sp>
+        <sp xml:id="A02125-e101790" who="A02125-rodamont">
+          <speaker>Ro:</speaker>
+          <l xml:id="A02125-e101800">How likes Marsillus of his daughter's choice? </l>
+        </sp>
+        <sp xml:id="A02125-e101810" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e101820">As fits Marsillus of his daughter's spouse. </l>
+        </sp>
+        <sp xml:id="A02125-e101830" who="A02125-rodamont">
+          <speaker>Ro:</speaker>
+          <l xml:id="A02125-e101840">Highly thou wrongest us, King of Africa,</l>
+          <l xml:id="A02125-e101850">To brave thy neighbour princes with disgrace,</l>
+          <l xml:id="A02125-e101860">To tie thy honour to thy daughter's thoughts,</l>
+          <l xml:id="A02125-e101870">Whose choice is like that Greekish giglots love,</l>
+          <l xml:id="A02125-e101880">That left her lord prince Menelaus,</l>
+          <l xml:id="A02125-e101890">And with a swain made scape away to Troy. </l>
+          <l xml:id="A02125-e101900">What is Orlando but a straggling mate,</l>
+          <l xml:id="A02125-e101910">Banished for some offence by Charlemagne,</l>
+          <l xml:id="A02125-e101920">Skipped from his country as Anchises son,</l>
+          <l xml:id="A02125-e101930">And means as he did to the Carthage Queen,</l>
+          <l xml:id="A02125-e101940">To pay her ruth and ruin for her love. </l>
+        </sp>
+        <sp xml:id="A02125-e101950" who="A02125-orlando">
+          <pb facs="6"/>
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e101960">Injurious Cuba, ill it fits thy 'gree</l>
+          <l xml:id="A02125-e101970">To wrong a stranger with discourtesy. </l>
+          <l xml:id="A02125-e101980">Wert not the sacred presence of Angelica</l>
+          <l xml:id="A02125-e101990">Prevails with me (As Venus smiles with Mars)</l>
+          <l xml:id="A02125-e102000">To set a supersedeas of my wrath,</l>
+          <l xml:id="A02125-e102010">Soon should I teach thee what it were too brave. </l>
+        </sp>
+        <sp xml:id="A02125-e102020" who="A02125-mandrecard">
+          <speaker>Man:</speaker>
+          <l xml:id="A02125-e102030">And French man wert not 'gainst the law of arms</l>
+          <l xml:id="A02125-e102040">In place of parley for to draw a sword,</l>
+          <l xml:id="A02125-e102050">Untaught companion I would learn you know</l>
+          <l xml:id="A02125-e102060">What duty longs to such a prince as he. </l>
+        </sp>
+        <sp xml:id="A02125-e102070" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e102080">Then as did Hector fore Achilles' tent,</l>
+          <l xml:id="A02125-e102090">Trotting his courser softly on the plains,</l>
+          <l xml:id="A02125-e102100">Proudly dared forth the stoutest youth of Greece:</l>
+          <l xml:id="A02125-e102110">So who stands highest in his own conceit,</l>
+          <l xml:id="A02125-e102120">And thinks his courage can perform the most,</l>
+          <l xml:id="A02125-e102130">Let him but throw his gauntlet on the ground,</l>
+          <l xml:id="A02125-e102140">And I will pawn my honour to his gage,</l>
+          <l xml:id="A02125-e102150">He shall ere night be met and combated. </l>
+        </sp>
+        <sp xml:id="A02125-e102160" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e102170">Shame you not princes at this bad agree,</l>
+          <l xml:id="A02125-e102180">To wrong a stranger with discourtesy. </l>
+          <l xml:id="A02125-e102190">Believe me lords, my daughter hath made choice,</l>
+          <l xml:id="A02125-e102200">And maugre him that thinks him most aggrieved,</l>
+          <l xml:id="A02125-e102210">She shall enjoy the county Palatine. </l>
+        </sp>
+        <sp xml:id="A02125-e102220" who="A02125-brandemart">
+          <speaker>Bran:</speaker>
+          <l xml:id="A02125-e102230">But would these princes follow my advice</l>
+          <l xml:id="A02125-e102240">And enter arms as did the Greeks 'gainst Troy;</l>
+          <l xml:id="A02125-e102250">Nor he nor thou shouldst have Angelica. </l>
+        </sp>
+        <sp xml:id="A02125-e102260" who="A02125-rodamont">
+          <speaker>Rod:</speaker>
+          <l xml:id="A02125-e102270">Let him be thought a dastard to his death. </l>
+          <l xml:id="A02125-e102280">That will not sell the travels he hath passed,</l>
+          <l xml:id="A02125-e102290">Dearer than for a woman's fooleries. </l>
+          <l xml:id="A02125-e102300">What says the mighty Mandricard? </l>
+        </sp>
+        <sp xml:id="A02125-e102310" who="A02125-mandrecard">
+          <pb facs="6"/>
+          <speaker>Man:</speaker>
+          <l xml:id="A02125-e102320">I vow to hie me home to Mexico,</l>
+          <l xml:id="A02125-e102330">To troop myself with such a crew of men,</l>
+          <l xml:id="A02125-e102340">As shall so fill the downs of Africa</l>
+          <l xml:id="A02125-e102350">Like to the plains of watery Thessaly,</l>
+          <l xml:id="A02125-e102360">Whenas an eastern gale whistling aloft</l>
+          <l xml:id="A02125-e102370">Had overspread the ground with grasshoppers:</l>
+          <l xml:id="A02125-e102380">Then see Marsillus if the Palatine</l>
+          <l xml:id="A02125-e102390">Can keep his love from falling to our lots,</l>
+          <l xml:id="A02125-e102400">Or thou canst keep thy country free from spoil. </l>
+        </sp>
+        <sp xml:id="A02125-e102410" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e102420">Why think you lords with haughty menaces</l>
+          <l xml:id="A02125-e102430">To dare me out within my palace gates? </l>
+          <l xml:id="A02125-e102440">Or hope you to make conquest by constraint</l>
+          <l xml:id="A02125-e102450">Of that which never could be got by love? </l>
+          <l xml:id="A02125-e102460">Pass from my court, make haste out of my land</l>
+          <l xml:id="A02125-e102470">Stay not within the bounds Marsillus holds;</l>
+          <l xml:id="A02125-e102480">Lest little brooking these unfitting braves,</l>
+          <l xml:id="A02125-e102490">My choler overslip the law of arms,</l>
+          <l xml:id="A02125-e102500">And I inflict revenge on such abuse. </l>
+        </sp>
+        <sp xml:id="A02125-e102510" who="A02125-rodamont">
+          <speaker>Rod:</speaker>
+          <l xml:id="A02125-e102520">I'll beard and brave thee in thy proper town,</l>
+          <l xml:id="A02125-e102530">And here ensconce myself despite of thee,</l>
+          <l xml:id="A02125-e102540">And hold thee play till Mandricard return. </l>
+          <l xml:id="A02125-e102550">What says the mighty sultan of Egypt? </l>
+        </sp>
+        <sp xml:id="A02125-e102560" who="A02125-souldan">
+          <speaker>Sol:</speaker>
+          <l xml:id="A02125-e102570">That when prince Menelaus with all his mates,</l>
+          <l xml:id="A02125-e102580">Had ten years held their siege in Asia,</l>
+          <l xml:id="A02125-e102590">Folding their wraths in cinders of fair Troy:</l>
+          <l xml:id="A02125-e102600">Yet for their arms grew by conceit of love,</l>
+          <l xml:id="A02125-e102610">Their trophies was but conquest of a girl:</l>
+          <l xml:id="A02125-e102620">Then trust me lords I'll never manage arms,</l>
+          <l xml:id="A02125-e102630">For women's loves that are so quickly lost. </l>
+        </sp>
+        <sp xml:id="A02125-e102640" who="A02125-brandemart">
+          <speaker>Bran:</speaker>
+          <l xml:id="A02125-e102650">Tush my lords why stand you upon terms</l>
+          <l xml:id="A02125-e102660"><pb facs="7"/> let us to our sconce, and you my lord to Mexico. </l>
+        </sp>
+        <stage xml:id="A02125-e102670">Exeunt Kings.</stage>
+        <sp xml:id="A02125-e102680" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e102690">I sirs, ensconce ye how you can, see what we dare,</l>
+          <l xml:id="A02125-e102700">And thereon set your rest. </l>
+        </sp>
+        <stage xml:id="A02125-e102710">Exeunt omnes.</stage>
+        <stage xml:id="A02125-e102720">Manent Sacrepant and his man.</stage>
+        <sp xml:id="A02125-e102730" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e102740">Boast not too much Marsillus in thyself,</l>
+          <l xml:id="A02125-e102750">Nor of contentment in Angelica;</l>
+          <l xml:id="A02125-e102760">For Sacrepant must have Angelica,</l>
+          <l xml:id="A02125-e102770">And with her Sacrepant must have the crown:</l>
+          <l xml:id="A02125-e102780">By hook or crook I must and will have both. </l>
+          <l xml:id="A02125-e102790">Ah sweet revenge incense their angry minds,</l>
+          <l xml:id="A02125-e102800">Till all these princes weltering in their bloods,</l>
+          <l xml:id="A02125-e102810">The crown do fall to county Sacrepant. </l>
+          <l xml:id="A02125-e102820">Sweet are the thoughts that smother from conceit:</l>
+          <l xml:id="A02125-e102830">For when I come and set me down to rest,</l>
+          <l xml:id="A02125-e102840">My chair presents a throne of majesty:</l>
+          <l xml:id="A02125-e102850">And when I set my bonnet on my head,</l>
+          <l xml:id="A02125-e102860">Methinks I fit my forehead for a crown:</l>
+          <l xml:id="A02125-e102870">And when I take my truncheon in my fist,</l>
+          <l xml:id="A02125-e102880">A sceptre then comes tumbling in my thoughts. </l>
+          <l xml:id="A02125-e102890">My dreams are princely, all of diadems,</l>
+          <l xml:id="A02125-e102900">Honour: methinks the title is too base. </l>
+          <l xml:id="A02125-e102910">Mighty, glorious and excellent:</l>
+          <l xml:id="A02125-e102920">I these my glorious genius sound within my mouth</l>
+          <l xml:id="A02125-e102930">These please the care, and with a sweet applause,</l>
+          <l xml:id="A02125-e102940">Makes me in terms co-equal with the gods. </l>
+          <l xml:id="A02125-e102950">Then these Sacrepant, and none but these. </l>
+          <l xml:id="A02125-e102960"><pb facs="7"/>And these or else make hazard of thy life. </l>
+          <l xml:id="A02125-e102970">Let it suffice, I will conceal the rest. </l>
+          <l xml:id="A02125-e102980">Sirrah. </l>
+        </sp>
+        <sp xml:id="A02125-e102990" who="A02125-mandrecard">
+          <speaker>Man.</speaker>
+          <l xml:id="A02125-e103000">My lord. </l>
+        </sp>
+        <sp xml:id="A02125-e103010" who="A02125-sacrepant">
+          <speaker>Sacrep:</speaker>
+          <l xml:id="A02125-e103020">My lord. How basely was this slave brought up? </l>
+          <l xml:id="A02125-e103030">That knows no titles fit for dignity,</l>
+          <l xml:id="A02125-e103040">To grace his master with hyperboles. </l>
+          <l xml:id="A02125-e103050">My lord. Why the basest baron of fair Africa,</l>
+          <l xml:id="A02125-e103060">Deserves as much: yet county Sacrepant,</l>
+          <l xml:id="A02125-e103070">Must he a swain salute with name of lord. </l>
+          <l xml:id="A02125-e103080">Sirrah, what thinks the emperor of my colours,</l>
+          <l xml:id="A02125-e103090">Because in field I wear both blue and red at once? </l>
+        </sp>
+        <sp xml:id="A02125-e103100" who="A02125-mandrecard">
+          <speaker>Man.</speaker>
+          <l xml:id="A02125-e103110">They deem my lord, your honour lives at peace,</l>
+          <l xml:id="A02125-e103120">As one that's neuter in these mutinies,</l>
+          <l xml:id="A02125-e103130">And covets to rest equal friends to both:</l>
+          <l xml:id="A02125-e103140">Neither envious to prince Mandricard,</l>
+          <l xml:id="A02125-e103150">Nor wishing ill unto Marsillus,</l>
+          <l xml:id="A02125-e103160">That you may safely pass where ere you please,</l>
+          <l xml:id="A02125-e103170">With friendly salutations from them both. </l>
+        </sp>
+        <sp xml:id="A02125-e103180" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e103190">Ay, so they guess, but level far awry;</l>
+          <l xml:id="A02125-e103200">For if they knew the secrets of my thoughts,</l>
+          <l xml:id="A02125-e103210">Mine emblem sorteth to another sense. </l>
+          <l xml:id="A02125-e103220">I wear not these as one resolved to peace,</l>
+          <l xml:id="A02125-e103230">But blue and red as enemy to both. </l>
+          <l xml:id="A02125-e103240">Blue, as hating King Marsillus;</l>
+          <l xml:id="A02125-e103250">And red, as in revenge to Mandricard:</l>
+          <l xml:id="A02125-e103260">Foe unto both, friend only to myself,</l>
+          <l xml:id="A02125-e103270">And to the crown, for that's the golden mark,</l>
+          <l xml:id="A02125-e103280"><pb facs="8"/> which makes my thoughts dream on a diadem</l>
+          <l xml:id="A02125-e103290">〈…〉 all men presage I shall be King:</l>
+          <l xml:id="A02125-e103300">〈…〉 to me for peace,</l>
+          <l xml:id="A02125-e103310">〈…〉 of his cap ten mile of,</l>
+          <l xml:id="A02125-e103320">Two things more and then I cannot miss the crown. </l>
+        </sp>
+        <sp xml:id="A02125-e103330" who="A02125-mandrecard">
+          <speaker>Man:</speaker>
+          <l xml:id="A02125-e103340">O what be those my good lord. </l>
+        </sp>
+        <sp xml:id="A02125-e103350" who="A02125-sacrepant">
+          <speaker>Sacr:</speaker>
+          <l xml:id="A02125-e103360">First must I get the love of fair Angelica. </l>
+          <l xml:id="A02125-e103370">Now am I full of amorous conceits,</l>
+          <l xml:id="A02125-e103380">Not that I doubt to have what I desire,</l>
+          <l xml:id="A02125-e103390">But how I might best with mine honour woo,</l>
+          <l xml:id="A02125-e103400">Write, or entreat: fie that fitteth not,</l>
+          <l xml:id="A02125-e103410">Send by ambassadors: no that's too base. </l>
+          <l xml:id="A02125-e103420">Flatly command I that's for Sacrepant:</l>
+          <l xml:id="A02125-e103430">Say thou art Sacrepant and art in love</l>
+          <l xml:id="A02125-e103440">And who in Afric dare say the county nay. </l>
+          <l xml:id="A02125-e103450">O Angelica, fairer than Chloris when in all her pride</l>
+          <l xml:id="A02125-e103460">Bright Maia's son entrapped her in the net,</l>
+          <l xml:id="A02125-e103470">Wherewith Vulcan entangled the god of war. </l>
+        </sp>
+        <sp xml:id="A02125-e103480" who="A02125-mandrecard">
+          <speaker>Man:</speaker>
+          <l xml:id="A02125-e103490">Your honour is so far in contemplation of Angelica,</l>
+          <l xml:id="A02125-e103500">As you have forgotten the second in attaining to the crown. </l>
+        </sp>
+        <sp xml:id="A02125-e103510" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <p xml:id="A02125-e103520">That's to be done by poison, prowess, or any means of treachery to put to death the traitorous Orlando. But who is this comes here. Stand close.</p>
+        </sp>
+        <stage xml:id="A02125-e103530">Enter Orgalio Orlandos page.</stage>
+        <sp xml:id="A02125-e103540" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e103550">I am sent on embassage to the right mighty<pb facs="8"/> and magnificent: alias, the right proud and pontifical the county Sacrepant. For Marsillus and Orlando knowing him to be as full of prowess as policy, and fearing lest in leaning to the other faction, he might greatly prejudice them, they seek first to hold the candle before the devil: and knowing him to be a thrasonical madcap, they have sent me a Gnathonical companion, to give him lettuce fit for his lips. Now sir, knowing his astronomical humours, as one that gazeth so high at the stars, as he never looketh on the pavement in the streets. But whist, Lupus est in fabula.</p>
+        </sp>
+        <sp xml:id="A02125-e103560" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <p xml:id="A02125-e103570">Sirrah, thou that ruminatest to thyself a catalogue of privy conspiracies, what art thou?</p>
+        </sp>
+        <sp xml:id="A02125-e103580" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e103590">God save your majesty?</p>
+        </sp>
+        <sp xml:id="A02125-e103600" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <p xml:id="A02125-e103610">My majesty, come hither my well nutrimented knave, whom takest me to be?</p>
+        </sp>
+        <sp xml:id="A02125-e103620" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e103630">The mighty Mandricard of Mexico.</p>
+        </sp>
+        <sp xml:id="A02125-e103640" who="A02125-sacrepant">
+          <speaker>Sacr:</speaker>
+          <p xml:id="A02125-e103650">I hold these salutations as ominous, for saluting me by that which I am not, he presageth what I shall be; for so did the Lacedæmonians by Agathocles, who of a base potter, wore the kingly diadem, but why deemest thou me to be the mighty Mandricard of Mexico?</p>
+        </sp>
+        <sp xml:id="A02125-e103660" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e103670">Marry sir.</p>
+        </sp>
+        <sp xml:id="A02125-e103680" who="A02125-sacrepant">
+          <speaker>Sacr:</speaker>
+          <p xml:id="A02125-e103690">Stay there, wert thou never in France.</p>
+        </sp>
+        <sp xml:id="A02125-e103700" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e103710">Yes, if it please your majesty.</p>
+        </sp>
+        <sp xml:id="A02125-e103720" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <p xml:id="A02125-e103730">So it seems for there they salute their King by the name of sir, monsieur, but forward.</p>
+        </sp>
+        <sp xml:id="A02125-e103740" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <l xml:id="A02125-e103750">Such sparks of peerless majesty,</l>
+          <l xml:id="A02125-e103760"><pb facs="9"/> from those looks flames like lightning from the East</l>
+          <l xml:id="A02125-e103770">As either Mandricard, or else some greater prince. </l>
+        </sp>
+        <sp xml:id="A02125-e103780" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <p xml:id="A02125-e103790">Methinks these salutations makes my thoughts to be heroical. But say to whom art thou sent?</p>
+        </sp>
+        <sp xml:id="A02125-e103800" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e103810">To the county Sacrepant.</p>
+        </sp>
+        <sp xml:id="A02125-e103820" who="A02125-sacrepant">
+          <speaker>Sacr:</speaker>
+          <p xml:id="A02125-e103830">Why I am he.</p>
+        </sp>
+        <sp xml:id="A02125-e103840" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e103850">It pleaseth your majesty to jest.</p>
+        </sp>
+        <sp xml:id="A02125-e103860" who="A02125-sacrepant">
+          <speaker>Sacr:</speaker>
+          <p xml:id="A02125-e103870"> whate'er I seem, I tell thee I am he.</p>
+        </sp>
+        <sp xml:id="A02125-e103880" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e103890">Then may it please your honour: the emperor Marsillus together with his daughter Angelica and Orlando entreateth your excellency to dine with them.</p>
+        </sp>
+        <sp xml:id="A02125-e103900" who="A02125-sacrepant">
+          <speaker>Sacr:</speaker>
+          <p xml:id="A02125-e103910">Is Angelica there?</p>
+        </sp>
+        <sp xml:id="A02125-e103920" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e103930">There my good lord.</p>
+        </sp>
+        <sp xml:id="A02125-e103940" who="A02125-sacrepant">
+          <speaker>Sacr:</speaker>
+          <p xml:id="A02125-e103950">Sirrah.</p>
+        </sp>
+        <sp xml:id="A02125-e103960" who="A02125-mandrecard">
+          <speaker>Man:</speaker>
+          <p xml:id="A02125-e103970">My lord.</p>
+        </sp>
+        <sp xml:id="A02125-e103980" who="A02125-sacrepant">
+          <speaker>Sacr:</speaker>
+          <l xml:id="A02125-e103990">Villain, Angelica sends for me. </l>
+          <l xml:id="A02125-e104000">See that thou entertain that happy messenger. </l>
+          <l xml:id="A02125-e104010">And bring him in with thee. </l>
+        </sp>
+        <stage xml:id="A02125-e104020">Exeunt omnes.</stage>
+        <stage xml:id="A02125-e104030">Enter Orlando the Duke of Aquitaine, the county Rossilion with soldiers.</stage>
+        <sp xml:id="A02125-e104040" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e104050">Princes of France, the sparkling light of fame,</l>
+          <l xml:id="A02125-e104060">Whose glories brighter than the burnished gates,</l>
+          <l xml:id="A02125-e104070">From whence Latona's lordly son doth march,</l>
+          <l xml:id="A02125-e104080">When mounted on his coach tinseled with flames,</l>
+          <l xml:id="A02125-e104090">He triumphs in the beauty of the heavens. </l>
+          <l xml:id="A02125-e104100">This is the place where Rodamant lies hid:</l>
+          <l xml:id="A02125-e104110">Here lies he like the thief of Thessaly,</l>
+          <l xml:id="A02125-e104120"><pb facs="9"/> which scuds abroad, and searcheth for his prey;</l>
+          <l xml:id="A02125-e104130">And being gotten, straight he gallops home,</l>
+          <l xml:id="A02125-e104140">As one that dares not break a spear in field. </l>
+          <l xml:id="A02125-e104150">But trust me princes I have girt his fort,</l>
+          <l xml:id="A02125-e104160">And I will sack it, or on this castle wall,</l>
+          <l xml:id="A02125-e104170">I'll write my resolution with my blood. Therefore drum sound a parley. </l>
+        </sp>
+        <stage xml:id="A02125-e104180">Sound a parley, and one comes upon the walls.</stage>
+        <sp xml:id="A02125-e104190" who="A02125-souldan">
+          <speaker>Sol:</speaker>
+          <l xml:id="A02125-e104200">Who is that troubleth our sleeps? </l>
+        </sp>
+        <sp xml:id="A02125-e104210" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e104220">Why sluggard, seest thou not Lycaon's son</l>
+          <l xml:id="A02125-e104230">The hardy plough-swain unto mighty Jove,</l>
+          <l xml:id="A02125-e104240">Hath traced his silver furrows in the heavens,</l>
+          <l xml:id="A02125-e104250">And turning home his overwatched team,</l>
+          <l xml:id="A02125-e104260">Gives leave unto Apollo's chariot. </l>
+          <l xml:id="A02125-e104270">I tell thee sluggard, sleep is far unfit</l>
+          <l xml:id="A02125-e104280">For such as still have hammering in their heads,</l>
+          <l xml:id="A02125-e104290">But only hope of honour and revenge. </l>
+          <l xml:id="A02125-e104300">These called me forth to rouse thy master up. </l>
+          <l xml:id="A02125-e104310">Tell him from me, false coward as he is,</l>
+          <l xml:id="A02125-e104320">That Orlando the county Palatine,</l>
+          <l xml:id="A02125-e104330">Is come this morning with a band of French,</l>
+          <l xml:id="A02125-e104340">To play him hunts-up with a point of war. </l>
+          <l xml:id="A02125-e104350">I'll be his minstrel with my drum and fife:</l>
+          <l xml:id="A02125-e104360">Bid him come forth, and dance it if he dare,</l>
+          <l xml:id="A02125-e104370">Let fortune throw her favours where she list. </l>
+        </sp>
+        <sp xml:id="A02125-e104380" who="A02125-souldan">
+          <speaker>Sol:</speaker>
+          <l xml:id="A02125-e104390">Frenchman between half sleeping and awake</l>
+          <l xml:id="A02125-e104400">Although the misty veil strained over Cynthia,</l>
+          <l xml:id="A02125-e104410">Hinders my sight from nothing all thy crew:</l>
+          <l xml:id="A02125-e104420"><pb facs="10"/> yet for I know thee and thy straggling grooms</l>
+          <l xml:id="A02125-e104430">Can in conceit build castles in the sky:</l>
+          <l xml:id="A02125-e104440">But in your actions like the stammering Greek,</l>
+          <l xml:id="A02125-e104450">Which breathes his courage bootless in the air. </l>
+          <l xml:id="A02125-e104460">I wish thee well Orlando: get thee gone,</l>
+          <l xml:id="A02125-e104470">Say that a sentinel did suffer thee:</l>
+          <l xml:id="A02125-e104480">For if the round or court of guard should hear</l>
+          <l xml:id="A02125-e104490">Thou or thy men were braying at the walls,</l>
+          <l xml:id="A02125-e104500">Charles wealth the wealth of all his western mines,</l>
+          <l xml:id="A02125-e104510">Found in the mountains of transalpine France,</l>
+          <l xml:id="A02125-e104520">Might not pay ransom to the King for thee. </l>
+        </sp>
+        <sp xml:id="A02125-e104530" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e104540">Brave sentinel if nature hath enchased,</l>
+          <l xml:id="A02125-e104550">A sympathy of courage to thy tale,</l>
+          <l xml:id="A02125-e104560">And like the champion of Andromache,</l>
+          <l xml:id="A02125-e104570">Thou or thy master dare came out the gates,</l>
+          <l xml:id="A02125-e104580">Maugre the watch, the round, or court of guard,</l>
+          <l xml:id="A02125-e104590">I will attend to abide the coward here. </l>
+          <l xml:id="A02125-e104600">If not, but still the craven sleeps secure,</l>
+          <l xml:id="A02125-e104610">Pitching his guard within a trench of stones;</l>
+          <l xml:id="A02125-e104620">Tell him his walls shall serve him for no proof,</l>
+          <l xml:id="A02125-e104630">But as the son of Saturn in his wrath</l>
+          <l xml:id="A02125-e104640">Pashed all the mountains at Typheus' head,</l>
+          <l xml:id="A02125-e104650">And topsy turvy turned the bottom up,</l>
+          <l xml:id="A02125-e104660">So shall the castle of proud Rodamant:</l>
+          <l xml:id="A02125-e104670">And so brave lords of France, let's to the fight. </l>
+        </sp>
+        <stage xml:id="A02125-e104680">Exeunt omnes.</stage>
+        <stage xml:id="A02125-e104690">Alarms. Rodamant and Brandemart fly,</stage>
+        <stage xml:id="A02125-e104700">Enter Orlando with his coat.</stage>
+        <sp xml:id="A02125-e104710" who="A02125-orlando">
+          <pb facs="10"/>
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e104720">The fox is 'scaped, but here's his case:</l>
+          <l xml:id="A02125-e104730">I missed him near, 'twas time for him to trudge. </l>
+          <l xml:id="A02125-e104740">How now my lord of Aquitaine? </l>
+        </sp>
+        <sp xml:id="A02125-e104750" who="A02125-aquitaine">
+          <speaker>Aquit:</speaker>
+          <l xml:id="A02125-e104760">My lord, the court of guard is put unto the sword,</l>
+          <l xml:id="A02125-e104770">And all the watch that thought themselves so sure;</l>
+          <l xml:id="A02125-e104780">So that not one within the castle breathes. </l>
+        </sp>
+        <sp xml:id="A02125-e104790" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e104800">Come then, let's post amain to find out Rodamant,</l>
+          <l xml:id="A02125-e104810">And then in triumph march unto Marsillus. </l>
+        </sp>
+        <stage xml:id="A02125-e104820">Exeunt</stage>
+        <stage xml:id="A02125-e104830">Enter Medor and Angelica</stage>
+        <sp xml:id="A02125-e104840" who="A02125-angelica">
+          <speaker>An:</speaker>
+          <l xml:id="A02125-e104850">I marvel Medor what my 〈…〉</l>
+          <l xml:id="A02125-e104860">To enter league with county Sacrepant? </l>
+        </sp>
+        <sp xml:id="A02125-e104870" who="A02125-medor">
+          <speaker>Med:</speaker>
+          <l xml:id="A02125-e104880">Madam, the King your father's wise enough,</l>
+          <l xml:id="A02125-e104890">He knows the county (Like to Cassius)</l>
+          <l xml:id="A02125-e104900">Sits sadly dumping, aiming Caesar's death,</l>
+          <l xml:id="A02125-e104910">Yet crying ave to his majesty. </l>
+          <l xml:id="A02125-e104920">But madam mark a while, and you shall see,</l>
+          <l xml:id="A02125-e104930">Your father shake him off from secrecy. </l>
+        </sp>
+        <sp xml:id="A02125-e104940" who="A02125-angelica">
+          <speaker>Ang:</speaker>
+          <l xml:id="A02125-e104950">So much I guess, for when he willed I should</l>
+          <l xml:id="A02125-e104960">Give entertainment to the doting Earl,</l>
+          <l xml:id="A02125-e104970">His speech was ended with a frowning smile. </l>
+        </sp>
+        <sp xml:id="A02125-e104980" who="A02125-medor">
+          <speaker>Med:</speaker>
+          <l xml:id="A02125-e104990">Madam, see where he comes; I'll be gone. </l>
+          <stage xml:id="A02125-e105000">Exit Medor.</stage>
+        </sp>
+        <stage xml:id="A02125-e105010">Enter Sacrepant and his man.</stage>
+        <sp xml:id="A02125-e105020" who="A02125-sacrepant">
+          <speaker>Sacr:</speaker>
+          <l xml:id="A02125-e105030">How fares my fair Angelica? </l>
+        </sp>
+        <sp xml:id="A02125-e105040" who="A02125-angelica">
+          <pb facs="11"/>
+          <speaker>Ang:</speaker>
+          <p xml:id="A02125-e105050">Well that my lord so friendly is in league (As honour will him with Marsillus.</p>
+        </sp>
+        <sp xml:id="A02125-e105060" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e105070">Angelica shall I have a word or two with thee</l>
+        </sp>
+        <sp xml:id="A02125-e105080" who="A02125-angelica">
+          <speaker>Ang:</speaker>
+          <l xml:id="A02125-e105090">What pleaseth my lord for to command. </l>
+        </sp>
+        <sp xml:id="A02125-e105100" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e105110">Then know my love, I cannot paint my grief</l>
+          <l xml:id="A02125-e105120">Nor tell a tale of Venus and her son,</l>
+          <l xml:id="A02125-e105130">Reporting such a catalogue of toys. </l>
+          <l xml:id="A02125-e105140">It fits not Sacrepant to be effeminate,</l>
+          <l xml:id="A02125-e105150">Only give leave my fair Angelica,</l>
+          <l xml:id="A02125-e105160">To say the county is in love with thee. </l>
+        </sp>
+        <sp xml:id="A02125-e105170" who="A02125-angelica">
+          <speaker>Ang:</speaker>
+          <l xml:id="A02125-e105180">Pardon my lord, my loves are overpast,</l>
+          <l xml:id="A02125-e105190">So firmly is Orlando printed in my thoughts,</l>
+          <l xml:id="A02125-e105200">As 〈◊〉 〈◊〉 left no place for any else. </l>
+        </sp>
+        <sp xml:id="A02125-e105210" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e105220">Why overweening damsel, seest thou not,</l>
+          <l xml:id="A02125-e105230">Thy lawless love unto this straggling mate. </l>
+          <l xml:id="A02125-e105240">Hath filled our Afrique regions full of blood,</l>
+          <l xml:id="A02125-e105250">And wilt thou still persever in thy love? </l>
+          <l xml:id="A02125-e105260">Tush leave the palatine, and go with me. </l>
+        </sp>
+        <sp xml:id="A02125-e105270" who="A02125-angelica">
+          <speaker>Ang:</speaker>
+          <l xml:id="A02125-e105280">Brave county know where sacred love unites,</l>
+          <l xml:id="A02125-e105290">The knot of Gordian at the shrine of Jove,</l>
+          <l xml:id="A02125-e105300">Was never half so hard or intricate,</l>
+          <l xml:id="A02125-e105310">As be the bands which lovely Venus ties. </l>
+          <l xml:id="A02125-e105320">Sweet is my love: and for I love my lord,</l>
+          <l xml:id="A02125-e105330">Seek not unless as Alexander did,</l>
+          <l xml:id="A02125-e105340">To cut the plough-swains traces with thy sword,</l>
+          <l xml:id="A02125-e105350">Or slice the slender fillets of my life:</l>
+          <l xml:id="A02125-e105360">Or else my lord, Orlando must be mine. </l>
+        </sp>
+        <sp xml:id="A02125-e105370" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e105380">Stand I on love? Stoop I to Venus' lure,</l>
+          <l xml:id="A02125-e105390">That never yet did fear the god of war? </l>
+          <l xml:id="A02125-e105400">Shall men report that county Sacrepant</l>
+          <l xml:id="A02125-e105410"><pb facs="11"/> held lovers pains for pining passions? </l>
+          <l xml:id="A02125-e105420">Shall such a Siren offer me more wrong,</l>
+          <l xml:id="A02125-e105430">Than they did to the prince of Ithaca? </l>
+          <l xml:id="A02125-e105440">No: as he his cares, so county stop thine eye. </l>
+          <l xml:id="A02125-e105450">Go to your needle (Lady) and your clouts. </l>
+          <l xml:id="A02125-e105460">Go to such milksops as are fit for love:</l>
+          <l xml:id="A02125-e105470">I will employ my busy brains for war,</l>
+        </sp>
+        <sp xml:id="A02125-e105480" who="A02125-angelica">
+          <speaker>Ang:</speaker>
+          <l xml:id="A02125-e105490">Let not my lord's denial breed offence,</l>
+          <l xml:id="A02125-e105500">Love doth allow her favours but to one,</l>
+          <l xml:id="A02125-e105510">Nor can there sit within the sacred shrine</l>
+          <l xml:id="A02125-e105520">Of Venus, more than one installed heart. </l>
+          <l xml:id="A02125-e105530">Orlando is the gentleman I love,</l>
+          <l xml:id="A02125-e105540">And more than he may not enjoy my love. </l>
+        </sp>
+        <sp xml:id="A02125-e105550" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e105560">Damsel be gone, fancy hath taken leave;</l>
+          <l xml:id="A02125-e105570">Where I took hurt there have I healed myself,</l>
+          <l xml:id="A02125-e105580">As those that with Achilles' lance were wounded,</l>
+          <l xml:id="A02125-e105590">Fetched help at self same pointed spear. </l>
+          <l xml:id="A02125-e105600">Beauty 'gan brave, and beauty hath repulse:</l>
+          <l xml:id="A02125-e105610">And beauty get ye gone to your Orlando. </l>
+        </sp>
+        <stage xml:id="A02125-e105620">Exit Angelica.</stage>
+        <sp xml:id="A02125-e105630" who="A02125-mandrecard">
+          <speaker>Man.</speaker>
+          <l xml:id="A02125-e105640">My lord: hath love amated him whose thoughts</l>
+          <l xml:id="A02125-e105650">Have ever been heroical and brave? </l>
+          <l xml:id="A02125-e105660">Stand you in dumps like to the Myrmidon,</l>
+          <l xml:id="A02125-e105670">Trapped in the tresses of Polixena:</l>
+          <l xml:id="A02125-e105680">Who amid the glory of his chivalry,</l>
+          <l xml:id="A02125-e105690">Sat daunted with a maid of Asia. </l>
+        </sp>
+        <sp xml:id="A02125-e105700" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e105710">Thinkst thou my thoughts are lunacies of love? </l>
+          <l xml:id="A02125-e105720">No, they are brands fired in Pluto's forge,</l>
+          <l xml:id="A02125-e105730"><pb facs="12"/> where sits Tisiphone tempering in flames</l>
+          <l xml:id="A02125-e105740">Those torches that do set on fire revenge,</l>
+          <l xml:id="A02125-e105750">I loud the dame, but braved by her repulse,</l>
+          <l xml:id="A02125-e105760">Hate calls me on to quittance all my ills:</l>
+          <l xml:id="A02125-e105770">Which first must come by offering prejudice</l>
+          <l xml:id="A02125-e105780">Unto Orlando her beloved love. </l>
+        </sp>
+        <sp xml:id="A02125-e105790" who="A02125-mandrecard">
+          <speaker>Man:</speaker>
+          <l xml:id="A02125-e105800">O how may that be brought to pass my lord? </l>
+        </sp>
+        <sp xml:id="A02125-e105810" who="A02125-sacrepant">
+          <speaker>Sacr:</speaker>
+          <l xml:id="A02125-e105820">Thus. Thou seest that Medor and Angelica</l>
+          <l xml:id="A02125-e105830">Are still so secret in their private walks,</l>
+          <l xml:id="A02125-e105840">As that they trace the shady lawns,</l>
+          <l xml:id="A02125-e105850">And thickest shadowed groves;</l>
+          <l xml:id="A02125-e105860">Which well may breed suspicion of some love. </l>
+          <l xml:id="A02125-e105870">Now than the French no nation under heaven</l>
+          <l xml:id="A02125-e105880">Is sooner touched with stings of jealousy. </l>
+        </sp>
+        <sp xml:id="A02125-e105890" who="A02125-mandrecard">
+          <speaker>Man.</speaker>
+          <l xml:id="A02125-e105900">And what of that my lord? </l>
+        </sp>
+        <sp xml:id="A02125-e105910" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e105920">Hard by for solace in a secret grove,</l>
+          <l xml:id="A02125-e105930">The county once a day fails not to walk:</l>
+          <l xml:id="A02125-e105940">There solemnly he ruminates his love. </l>
+          <l xml:id="A02125-e105950">Upon those shrubs that compass in the spring,</l>
+          <l xml:id="A02125-e105960">And on those trees that border in those walks,</l>
+          <l xml:id="A02125-e105970">I'll slily have engraven on every bark</l>
+          <l xml:id="A02125-e105980">The names of Medor and Angelica. </l>
+          <l xml:id="A02125-e105990">Hard by I'll have some roundelays hung up. </l>
+          <l xml:id="A02125-e106000">Wherein shall be some posies of their loves,</l>
+          <l xml:id="A02125-e106010">Fraughted so full of fiery passions,</l>
+          <l xml:id="A02125-e106020">As that the county shall perceive by proof,</l>
+          <l xml:id="A02125-e106030">Medor hath won his fair Angelica. </l>
+        </sp>
+        <sp xml:id="A02125-e106040" who="A02125-mandrecard">
+          <speaker>Man.</speaker>
+          <l xml:id="A02125-e106050">Is this all my lord? </l>
+        </sp>
+        <sp xml:id="A02125-e106060" who="A02125-sacrepant">
+          <speaker>Sacr:</speaker>
+          <l xml:id="A02125-e106070">No. For thou like to a shepherd shalt be clothed,</l>
+          <l xml:id="A02125-e106080"><pb facs="12"/> with staff and bottle like some country swain,</l>
+          <l xml:id="A02125-e106090">That tends his flocks feeding upon these downs,</l>
+          <l xml:id="A02125-e106100">There see thou buzz into the counties eats,</l>
+          <l xml:id="A02125-e106110">That thou hast often seen within these woods</l>
+          <l xml:id="A02125-e106120">Base Medor sporting with Angelica. </l>
+          <l xml:id="A02125-e106130">And when he hears a shepherd's simple tale,</l>
+          <l xml:id="A02125-e106140">He will not think 'tis feigned. </l>
+          <l xml:id="A02125-e106150">Then either a madding mood will end his love,</l>
+          <l xml:id="A02125-e106160">Or worse betide him through fond jealousy. </l>
+        </sp>
+        <sp xml:id="A02125-e106170" who="A02125-mandrecard">
+          <speaker>Man.</speaker>
+          <l xml:id="A02125-e106180">Excellent. My lord, see how I will play the shepherd. </l>
+        </sp>
+        <sp xml:id="A02125-e106190" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e106200">And mark thou how I play the carver,</l>
+          <l xml:id="A02125-e106210">Therefore be gone, and make the ready straight. </l>
+        </sp>
+        <stage xml:id="A02125-e106220">Exit his man.</stage>
+        <stage xml:id="A02125-e106230">Sacrepant hangs up the roundelays on the trees, and then goes out, and his man enters like a shepherd.</stage>
+        <sp xml:id="A02125-e106240" who="A02125-shepherd">
+          <speaker>Shepherd</speaker>
+          <l xml:id="A02125-e106250">Thus all alone and like a shepherd's swain,</l>
+          <l xml:id="A02125-e106260">As Paris (When Oenon loud him well)</l>
+          <l xml:id="A02125-e106270">Forgot he was the son of Priamus,</l>
+          <l xml:id="A02125-e106280">All clad in grey sat piping on a reed;</l>
+          <l xml:id="A02125-e106290">So I transformed to this country shape,</l>
+          <l xml:id="A02125-e106300">Haunting these groves to work my master's will,</l>
+          <l xml:id="A02125-e106310">To plague the Palatine with jealousy,</l>
+          <l xml:id="A02125-e106320">And to conceit him with some deep extreme. </l>
+          <l xml:id="A02125-e106330">Here comes the man unto his wonted walk. </l>
+          <stage xml:id="A02125-e106340">Enter Orlando and his page Orgalio.</stage>
+        </sp>
+        <sp xml:id="A02125-e106350" who="A02125-orlando">
+          <pb facs="13"/>
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e106360">Orgalio, go see a sentinel be placed,</l>
+          <l xml:id="A02125-e106370">And bid the soldiers keep a court of guard,</l>
+          <l xml:id="A02125-e106380">So to hold watch till secret here alone,</l>
+          <l xml:id="A02125-e106390">I meditate upon the thoughts of love. </l>
+        </sp>
+        <sp xml:id="A02125-e106400" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <l xml:id="A02125-e106410">I will my lord. </l>
+          <stage xml:id="A02125-e106420">Exit Orgalio.</stage>
+        </sp>
+        <sp xml:id="A02125-e106430" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e106440">Fair Queen of love, thou mistress of delight,</l>
+          <l xml:id="A02125-e106450">Thou gladsome lamp that wait'st on Phoebe's train,</l>
+          <l xml:id="A02125-e106460">Spreading thy kindness through the jarring orbs,</l>
+          <l xml:id="A02125-e106470">That in their union praise thy lasting powers. </l>
+          <l xml:id="A02125-e106480">Thou that hast stayed the fiery Phlegon's course,</l>
+          <l xml:id="A02125-e106490">And madest the coachman of the glorious wain</l>
+          <l xml:id="A02125-e106500">To droop, in view of Daphne's excellence. </l>
+          <l xml:id="A02125-e106510">Fair pride of morn, sweet beauty of the even,</l>
+          <l xml:id="A02125-e106520">Look on Orlando languishing in love. </l>
+          <l xml:id="A02125-e106530">Sweet solitary groves, whereas the nymphs</l>
+          <l xml:id="A02125-e106540">With pleasance laugh to see the satyr's play;</l>
+          <l xml:id="A02125-e106550">Witness Orlando's faith unto his love. </l>
+          <l xml:id="A02125-e106560">Tread she these lands, kind Flora boast thy pride;</l>
+          <l xml:id="A02125-e106570">Seek she for shades, spread cedars for her sake,</l>
+          <l xml:id="A02125-e106580">Fair Flora make her couch amid thy flowers,</l>
+          <l xml:id="A02125-e106590">Sweet crystal springs, wash ye with roses,</l>
+          <l xml:id="A02125-e106600">When she longs to drink. Ah, thought my heaven;</l>
+          <l xml:id="A02125-e106610">Ah heaven that knows my thought. </l>
+          <l xml:id="A02125-e106620">Smile joy, in her that my content hath wrought. </l>
+        </sp>
+        <sp xml:id="A02125-e106630" who="A02125-shepherd">
+          <speaker>Shepherd</speaker>
+          <l xml:id="A02125-e106640">The heaven of love is but a pleasant hell,</l>
+          <l xml:id="A02125-e106650">Where none but foolish wife imprisoned dwell. </l>
+        </sp>
+        <sp xml:id="A02125-e106660" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e106670">Orlando, what contrarious thoughts be these,</l>
+          <l xml:id="A02125-e106680">That flock with doubtful motions in thy mind? </l>
+          <l xml:id="A02125-e106690">Heaven smiles, and trees do boast their summer's pride:</l>
+          <l xml:id="A02125-e106700">What? Venus writes her triumphs here beside. </l>
+        </sp>
+        <sp xml:id="A02125-e106710" who="A02125-shepherd">
+          <pb facs="13"/>
+          <speaker>Shepherd</speaker>
+          <l xml:id="A02125-e106720">Yet when thine eye hath seen, they heart shall rue</l>
+          <l xml:id="A02125-e106730">The tragic chance that shortly shall ensue. </l>
+        </sp>
+        <stage xml:id="A02125-e106740">Orlando readeth.</stage>
+        <sp xml:id="A02125-e106750" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e106760">Angelica. Ah sweet and heavenly name,</l>
+          <l xml:id="A02125-e106770">Life to my life, and essence to my joy. </l>
+          <l xml:id="A02125-e106780">But soft this Gordian knot together co-unites</l>
+          <l xml:id="A02125-e106790">A Medor partner in her peerless love. </l>
+          <l xml:id="A02125-e106800">Unkind: and will she bend her thoughts to change? </l>
+          <l xml:id="A02125-e106810">Her name, her writing? Ah foolish and unkind. </l>
+          <l xml:id="A02125-e106820">No name of hers; unless the brooks relent</l>
+          <l xml:id="A02125-e106830">To hear her name, and Rhodanus vouchsafe</l>
+          <l xml:id="A02125-e106840">To raise his moistened locks from out the reeds,</l>
+          <l xml:id="A02125-e106850">And flow with calm alongst his turning bounds:</l>
+          <l xml:id="A02125-e106860">No name of hers, unless Zephyrus blow</l>
+          <l xml:id="A02125-e106870">Her dignities alongst Ardenia woods;</l>
+          <l xml:id="A02125-e106880">Where all the world for wonders do await. </l>
+          <l xml:id="A02125-e106890">And yet her name; for why Angelica:</l>
+          <l xml:id="A02125-e106900">But mixed with Medor, not Angelica. </l>
+          <l xml:id="A02125-e106910">Only by me was loud Angelica,</l>
+          <l xml:id="A02125-e106920">Only for me must live Angelica. </l>
+          <l xml:id="A02125-e106930">I find her drift, perhaps the modest pledge</l>
+          <l xml:id="A02125-e106940">Of my content, hath with a secret smile</l>
+          <l xml:id="A02125-e106950">And sweet disguise restrained her fancy thus,</l>
+          <l xml:id="A02125-e106960">Figuring Orlando under Medor's name:</l>
+          <l xml:id="A02125-e106970">Fine drift (Fair nymph) Orlando hopes no less. </l>
+        </sp>
+        <stage xml:id="A02125-e106980">He spies the roundelays.</stage>
+        <l xml:id="A02125-e106990"><pb facs="14"/>Yet more are muses masking in these trees,</l>
+        <l xml:id="A02125-e107000">Framing their ditties in conceited lines,</l>
+        <l xml:id="A02125-e107010">Making a goddess in despite of me,</l>
+        <l xml:id="A02125-e107020">That have no other but Angelica. </l>
+        <sp xml:id="A02125-e107030" who="A02125-shepherd">
+          <speaker>Shepherd</speaker>
+          <p xml:id="A02125-e107040">Poor hapless man, these thoughts contain the hell,</p>
+        </sp>
+        <stage xml:id="A02125-e107050">Orlando reads this roundelay.</stage>
+        <l xml:id="A02125-e107060">Angelica is lady of his heart,</l>
+        <l xml:id="A02125-e107070">Angelica is substance of his joy,</l>
+        <l xml:id="A02125-e107080">Angelica is medicine of his smart,</l>
+        <l xml:id="A02125-e107090">Angelica hath healed his annoy. </l>
+        <sp xml:id="A02125-e107100" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e107110">Ah false Angelica. What have we more? </l>
+        </sp>
+        <stage xml:id="A02125-e107120">Another.</stage>
+        <l xml:id="A02125-e107130">Let groves, let rocks, let woods, let watery springs,</l>
+        <l xml:id="A02125-e107140">The cedar, cypress, laurel, and the pine,</l>
+        <l xml:id="A02125-e107150">Joy in the notes of love that Medor sings,</l>
+        <l xml:id="A02125-e107160">Of those sweet looks Angelica of thine. </l>
+        <l xml:id="A02125-e107170">Then Medor in Angelica take delight,</l>
+        <l xml:id="A02125-e107180">Early, at morn, at noon, at even and night. </l>
+        <sp xml:id="A02125-e107190" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e107200">What dares Medor court my Venus? </l>
+          <l xml:id="A02125-e107210">What may Orlando deem? </l>
+          <l xml:id="A02125-e107220">Aetna forsake the bounds of Sicily,</l>
+          <l xml:id="A02125-e107230">For now in me thy restless flames appear,</l>
+          <l xml:id="A02125-e107240">Refused, contemned, disdained: what worse than these? </l>
+          <l xml:id="A02125-e107250">Orgalio. </l>
+        </sp>
+        <sp xml:id="A02125-e107260" who="A02125-orgalio">
+          <pb facs="14"/>
+          <speaker>Org:</speaker>
+          <l xml:id="A02125-e107270">My lord. </l>
+        </sp>
+        <sp xml:id="A02125-e107280" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e107290">Boy, view these trees carved with true love knots,</l>
+          <l xml:id="A02125-e107300">The inscription Medor and Angelica:</l>
+          <l xml:id="A02125-e107310">And read these verses hung up of their loves. </l>
+          <l xml:id="A02125-e107320">Now tell me boy, what dost thou think? </l>
+        </sp>
+        <sp xml:id="A02125-e107330" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e107340">By my troth my lord, I think Angelica is a woman.</p>
+        </sp>
+        <sp xml:id="A02125-e107350" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e107360">And what of that?</p>
+        </sp>
+        <sp xml:id="A02125-e107370" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e107380">Therefore unconstant, mutable, having their loves hanging in their eyelids; that as they are got with a look, so they are lost again with a wink. But here's a shepherd, it may be he can tell us news.</p>
+        </sp>
+        <sp xml:id="A02125-e107390" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e107400">What messenger hath Ate sent abroad,</l>
+          <l xml:id="A02125-e107410">With idle looks to listen my laments. </l>
+          <l xml:id="A02125-e107420">Sirrah, who wronged happy nature so,</l>
+          <l xml:id="A02125-e107430">To spoil these trees with this Angelica? </l>
+          <l xml:id="A02125-e107440">Yet in her name (Orlando) they are blessed. </l>
+        </sp>
+        <sp xml:id="A02125-e107450" who="A02125-shepherd">
+          <speaker>Shepherd</speaker>
+          <l xml:id="A02125-e107460">I am a shepherd swain, thou wand'ring knight,</l>
+          <l xml:id="A02125-e107470">That watch my flocks, not one that follow love. </l>
+        </sp>
+        <sp xml:id="A02125-e107480" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e107490">As follow love? why darest thou dispraise my heaven,</l>
+          <l xml:id="A02125-e107500">Or once disgrace or prejudice her name? </l>
+          <l xml:id="A02125-e107510">Is not Angelica the Queen of love,</l>
+          <l xml:id="A02125-e107520">Decked with the compound wreath of Adon's flowers</l>
+          <l xml:id="A02125-e107530">She is. </l>
+          <l xml:id="A02125-e107540">Then speak thou peasant, what is he that dares</l>
+          <l xml:id="A02125-e107550">Attempt to court my Queen of love. </l>
+          <l xml:id="A02125-e107560">Or I shall send thy soul to Charon's charge. </l>
+        </sp>
+        <sp xml:id="A02125-e107570" who="A02125-shepherd">
+          <speaker>Shepherd</speaker>
+          <l xml:id="A02125-e107580">Brave knight since fear of death enforceth still</l>
+          <l xml:id="A02125-e107590"><pb facs="15"/> in greater minds submission and relent:</l>
+          <l xml:id="A02125-e107600">Know that this Medor whose unhappy name</l>
+          <l xml:id="A02125-e107610">Is mixed with the fair Angelica's,</l>
+          <l xml:id="A02125-e107620">Is even that Medor that enjoys her love. </l>
+          <l xml:id="A02125-e107630">You cave bears witness of their kind content,</l>
+          <l xml:id="A02125-e107640">Yond meadows talk the actions of their joy. </l>
+          <l xml:id="A02125-e107650">Our shepherds in their songs of solace sing,</l>
+          <l xml:id="A02125-e107660">Angelica doth none but Medor love. </l>
+        </sp>
+        <sp xml:id="A02125-e107670" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e107680">Angelica doth none but Medor love? </l>
+          <l xml:id="A02125-e107690">Shall Medor then possess Orlando's love? </l>
+          <l xml:id="A02125-e107700">Dainty and gladsome beams of my delight,</l>
+          <l xml:id="A02125-e107710">Delicious brows, why smiles your heaven for those</l>
+          <l xml:id="A02125-e107720">That wand'ring make you prove Orlando's foes:</l>
+          <l xml:id="A02125-e107730">Lend me your plaints, you sweet Arcadian nymphs,</l>
+          <l xml:id="A02125-e107740">That wont to wail your new departed loves:</l>
+          <l xml:id="A02125-e107750">Thou weeping flood, leave Orpheus wail for me,</l>
+          <l xml:id="A02125-e107760">And Titan's nieces gather all in one</l>
+          <l xml:id="A02125-e107770">Those fluent springs of your lamenting tears,</l>
+          <l xml:id="A02125-e107780">And let them flow alongst my faintful looks. </l>
+        </sp>
+        <sp xml:id="A02125-e107790" who="A02125-shepherd">
+          <speaker>Shepherd</speaker>
+          <l xml:id="A02125-e107800">Now is the fire late smothered in suspect,</l>
+          <l xml:id="A02125-e107810">Kindled and burns within his angry breast. </l>
+          <l xml:id="A02125-e107820">Now have I done the will of Sacrepant. </l>
+        </sp>
+        <sp xml:id="A02125-e107830" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e107840">Foemineum servile genus, crudele, superbum:</l>
+          <l xml:id="A02125-e107850">Discourteous women, nature's fairest ill,</l>
+          <l xml:id="A02125-e107860">The woe of man, that first created curse;</l>
+          <l xml:id="A02125-e107870">Base female sex, sprung from black Ate's loins,</l>
+          <l xml:id="A02125-e107880">Proud, disdainful, cruel and unjust:</l>
+          <l xml:id="A02125-e107890">Whose words are shaded with enchanting wills,</l>
+          <l xml:id="A02125-e107900">Worse than Medusa, mateth all our minds,</l>
+          <l xml:id="A02125-e107910">And in their hearts sits shameless treachery</l>
+          <l xml:id="A02125-e107920"><pb facs="15"/> turning a truthless vile circumference. </l>
+          <l xml:id="A02125-e107930">O could my fury paint their furies forth,</l>
+          <l xml:id="A02125-e107940">For hell's no hell compared to their hearts,</l>
+          <l xml:id="A02125-e107950">Too simple devils to conceal their arts. </l>
+          <l xml:id="A02125-e107960">Born to be plagues unto the thoughts of men,</l>
+          <l xml:id="A02125-e107970">Brought for eternal pestilence to the world. </l>
+          <l xml:id="A02125-e107980">O femmenelle in genio de toute malle sede,</l>
+          <l xml:id="A02125-e107990">Comet, vulge, mute, fachilment,</l>
+          <l xml:id="A02125-e108000">Contrario, zero, propria de la fede;</l>
+          <l xml:id="A02125-e108010">O infelice, miserate, crede,</l>
+          <l xml:id="A02125-e108020">Importuna, superbia, dispetoze:</l>
+          <l xml:id="A02125-e108030">Preva de more, de fede, de consilia,</l>
+          <l xml:id="A02125-e108040">Timmorare, crudele, ineque, ingrate,</l>
+          <l xml:id="A02125-e108050">Par pestelenze eternal monde nate. </l>
+          <l xml:id="A02125-e108060">Villain, what art thou that followest me? </l>
+        </sp>
+        <sp xml:id="A02125-e108070" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e108080">Alas my lord, I am your servant Orgalio</p>
+        </sp>
+        <sp xml:id="A02125-e108090" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e108100">〈…〉 thou art Medor that ranst away with Angelica.</p>
+        </sp>
+        <sp xml:id="A02125-e108110" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e108120">No by my troth my lord, I am Orgalio, ask all these people else.</p>
+        </sp>
+        <sp xml:id="A02125-e108130" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e108140">Art thou Orgalio? tell me where Medor is.</p>
+        </sp>
+        <sp xml:id="A02125-e108150" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e108160">My lord look where he sits.</p>
+        </sp>
+        <sp xml:id="A02125-e108170" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e108180">What, sits he here, and braves me too?</p>
+        </sp>
+        <sp xml:id="A02125-e108190" who="A02125-shepherd">
+          <speaker>Shepherd</speaker>
+          <p xml:id="A02125-e108200">No truly sir, I am not he.</p>
+        </sp>
+        <sp xml:id="A02125-e108210" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e108220">Yes villain.</p>
+        </sp>
+        <stage xml:id="A02125-e108230">He draws him in by the leg.</stage>
+        <sp xml:id="A02125-e108240" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e108250">Help, help, my lord of Aquitaine.</p>
+        </sp>
+        <stage xml:id="A02125-e108260"><pb facs="16"/>Enter Duke of Aquitaine, and soldiers.</stage>
+        <sp xml:id="A02125-e108270" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e108280">O my lord of Aquitaine the count Orlando is run mad, and taking of a shepherd by the heels, rends him as one would tear a lark. See where he comes with a leg on his neck.</p>
+        </sp>
+        <stage xml:id="A02125-e108290">Enter Orlando with a leg.</stage>
+        <sp xml:id="A02125-e108300" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e108310">Villain, provide me straight a lion's skin,</l>
+          <l xml:id="A02125-e108320">Thou seest I now am mighty Hercules:</l>
+          <l xml:id="A02125-e108330">Look where's my massy club upon my neck. </l>
+          <l xml:id="A02125-e108340">I must to hell, to seek for Medor and Angelica,</l>
+          <l xml:id="A02125-e108350">Or else I die. </l>
+          <l xml:id="A02125-e108360">You that are the rest, get you quickly away,</l>
+          <l xml:id="A02125-e108370">Provide ye horses all of burnished gold,</l>
+          <l xml:id="A02125-e108380">Saddles of cork because I'll have them light,</l>
+          <l xml:id="A02125-e108390">For Charlemagne the great is up in arms. </l>
+          <l xml:id="A02125-e108400">And Arthur with a crew of Britons comes</l>
+          <l xml:id="A02125-e108410">To seek for Medor and Angelica. </l>
+        </sp>
+        <stage xml:id="A02125-e108420">So he beateth them all in before him. Manet Orgalio</stage>
+        <stage xml:id="A02125-e108430">Enter Marsillus.</stage>
+        <sp xml:id="A02125-e108440" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e108450">Ah my lord Orlando.</p>
+        </sp>
+        <sp xml:id="A02125-e108460" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <p xml:id="A02125-e108470">Orlando, what of Orlando?</p>
+        </sp>
+        <sp xml:id="A02125-e108480" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e108490">He my lord runs madding through the woods, like mad Orestes in his greatest rage.</p>
+          <l xml:id="A02125-e108500"><pb facs="16"/>Step but aside into the bordering grove,</l>
+          <l xml:id="A02125-e108510">There shall you see engraven on every tree,</l>
+          <l xml:id="A02125-e108520">The lawless love of Medor and Angelica. </l>
+          <l xml:id="A02125-e108530">O see my lord, not any shrub but bears</l>
+          <l xml:id="A02125-e108540">The cursed stamp that wrought the counties rage</l>
+          <l xml:id="A02125-e108550">If thou beest mighty King Marsillus,</l>
+          <l xml:id="A02125-e108560">For whom the county would adventure life:</l>
+          <l xml:id="A02125-e108570">Revenge it on the false Angelica. </l>
+        </sp>
+        <sp xml:id="A02125-e108580" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e108590">Trust me Orgalio, Theseus in his rage,</l>
+          <l xml:id="A02125-e108600">Did never more revenge his wronged Hippolytus,</l>
+          <l xml:id="A02125-e108610">Than I will on the false Angelica. </l>
+          <l xml:id="A02125-e108620">Go to my court, and drag me Medor forth</l>
+          <l xml:id="A02125-e108630">Tear from his breast the daring villain's heart,</l>
+          <l xml:id="A02125-e108640">Next take that base and damned adulteress,</l>
+          <l xml:id="A02125-e108650">(I scorn to title her with daughter's name:)</l>
+          <l xml:id="A02125-e108660">Put her in rags, and like some shepherdess,</l>
+          <l xml:id="A02125-e108670">Exile her from my kingdom presently,</l>
+          <l xml:id="A02125-e108680">Delay not good Orgalio, see it done. </l>
+          <stage xml:id="A02125-e108690">Exit Orgalio.</stage>
+          <stage xml:id="A02125-e108700">Enter a soldier with Mandricard disguised</stage>
+          <l xml:id="A02125-e108710">How now my friend, what fellow hast thou there? </l>
+        </sp>
+        <sp xml:id="A02125-e108720" who="A02125-soldier">
+          <speaker>Soldier</speaker>
+          <l xml:id="A02125-e108730">He says my lord that he is servant unto Mandricard. </l>
+        </sp>
+        <sp xml:id="A02125-e108740" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e108750">To Mandricard? </l>
+          <l xml:id="A02125-e108760">It fits me not to sway the diadem,</l>
+          <l xml:id="A02125-e108770">Or rule the wealthy realms of Barbary,</l>
+          <l xml:id="A02125-e108780">To stain my thoughts with any cowardice. </l>
+          <l xml:id="A02125-e108790">Thy master braved me to my teeth,</l>
+          <l xml:id="A02125-e108800">He backed the prince of Cuba for my foe,</l>
+          <l xml:id="A02125-e108810"><pb facs="17"/> for which not he nor his shall scape my hands. </l>
+          <l xml:id="A02125-e108820">No soldier, think me resolute as he. </l>
+        </sp>
+        <sp xml:id="A02125-e108830" who="A02125-mandrecard">
+          <speaker>Man:</speaker>
+          <l xml:id="A02125-e108840">It grieves me much that princes disagree,</l>
+          <l xml:id="A02125-e108850">Sith black repentance followeth afterwards. </l>
+          <l xml:id="A02125-e108860">But leaving that, pardon me gracious lord. </l>
+        </sp>
+        <sp xml:id="A02125-e108870" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e108880">For thou entreat'st and newly bbe arrived,</l>
+          <l xml:id="A02125-e108890">And yet thy sword is not imbrued in blood,</l>
+          <l xml:id="A02125-e108900">Upon conditions I will pardon thee;</l>
+          <l xml:id="A02125-e108910">That thou shalt never tell thy master Mandricard,</l>
+          <l xml:id="A02125-e108920">Nor any fellow soldier of the camp,</l>
+          <l xml:id="A02125-e108930">That King Marsillus licensed thee depart:</l>
+          <l xml:id="A02125-e108940">He shall not think I am so much his friend,</l>
+          <l xml:id="A02125-e108950">That he or one of his shall scape my hand. </l>
+        </sp>
+        <sp xml:id="A02125-e108960" who="A02125-mandrecard">
+          <speaker>Man:</speaker>
+          <l xml:id="A02125-e108970">I swear my lord, and vow to keep my word. </l>
+        </sp>
+        <sp xml:id="A02125-e108980" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e108990">Then take my banderol of red,</l>
+          <l xml:id="A02125-e109000">Mine, and none but mine shall honour thee,</l>
+          <l xml:id="A02125-e109010">And safe conduct thee to port Carthagene. </l>
+        </sp>
+        <sp xml:id="A02125-e109020" who="A02125-mandrecard">
+          <speaker>Man:</speaker>
+          <l xml:id="A02125-e109030">But say my lord, if Mandricard were here</l>
+          <l xml:id="A02125-e109040">What favour should he find or life or death? </l>
+        </sp>
+        <sp xml:id="A02125-e109050" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e109060">I tell thee friend, it fits not for a King</l>
+          <l xml:id="A02125-e109070">To prize his wrath before his courtesy. </l>
+          <l xml:id="A02125-e109080">Were Mandricard the King of Mexico</l>
+          <l xml:id="A02125-e109090">In prison here, and craved but liberty;</l>
+          <l xml:id="A02125-e109100">So little hate hangs in Marsillus' breast,</l>
+          <l xml:id="A02125-e109110">As one entreaty should quite raze it out. </l>
+          <l xml:id="A02125-e109120">But this concerns not thee, therefore farewell. </l>
+          <stage xml:id="A02125-e109130">Exit Marsillus.</stage>
+        </sp>
+        <sp xml:id="A02125-e109140" who="A02125-mandrecard">
+          <speaker>Man:</speaker>
+          <l xml:id="A02125-e109150">Thanks and good fortune fall to such a King, thee</l>
+          <l xml:id="A02125-e109160">As covets to be counted courteous. </l>
+          <l xml:id="A02125-e109170">Blush Mandricard, the honour of thy foe disgraceth</l>
+          <l xml:id="A02125-e109180"><pb facs="17"/> thou wrongest him that wisheth thee but well</l>
+          <l xml:id="A02125-e109190">Thou bringest store of men from Mexico</l>
+          <l xml:id="A02125-e109200">To battle him that scorns to injure thee,</l>
+          <l xml:id="A02125-e109210">Pawning his colours for thy warrantise. </l>
+          <l xml:id="A02125-e109220">Back to thy ships, and hie thee to thy home,</l>
+          <l xml:id="A02125-e109230">Budge not a foot to aid prince Rodomant,</l>
+          <l xml:id="A02125-e109240">But friendly gratulate these favours found,</l>
+          <l xml:id="A02125-e109250">And mediate on naught but to be friends. </l>
+          <stage xml:id="A02125-e109260">Exit</stage>
+        </sp>
+        <stage xml:id="A02125-e109270">Enter Orlando attired like a madman.</stage>
+        <sp xml:id="A02125-e109280" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109290">Woods, trees, leaves; leaves, trees, woods: tria sequuntur tria. Ho Minerva, salve, good morrow how do you today? Tell me sweet goddess, will Jove send Mercury to Calipso to let me go. Will he? why then he's a gentleman every hair a the head on him. But ho Orgalio, where art thou boy?</p>
+        </sp>
+        <sp xml:id="A02125-e109300" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109310">Here my lord, did you call me?</p>
+        </sp>
+        <sp xml:id="A02125-e109320" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109330">No, nor name thee.</p>
+        </sp>
+        <sp xml:id="A02125-e109340" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109350">Then God be with you.</p>
+        </sp>
+        <stage xml:id="A02125-e109360">Orgalio proffers to go in.</stage>
+        <sp xml:id="A02125-e109370" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109380">Nay prithee good Orgalio stay, canst thou not tell me what to say?</p>
+        </sp>
+        <sp xml:id="A02125-e109390" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109400">No by my troth.</p>
+        </sp>
+        <sp xml:id="A02125-e109410" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109420">O this it is, Angelica is dead.</p>
+        </sp>
+        <sp xml:id="A02125-e109430" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109440">Why then she shall be buried.</p>
+        </sp>
+        <sp xml:id="A02125-e109450" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109460">But my Angelica is dead.</p>
+        </sp>
+        <sp xml:id="A02125-e109470" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109480">Why it may be so.</p>
+        </sp>
+        <sp xml:id="A02125-e109490" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109500">But she's dead and buried.</p>
+        </sp>
+        <sp xml:id="A02125-e109510" who="A02125-orgalio">
+          <pb facs="18"/>
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109520">Ay, I think so.</p>
+        </sp>
+        <sp xml:id="A02125-e109530" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109540">Nothing but I think so, and it may be so.</p>
+        </sp>
+        <stage xml:id="A02125-e109550">He beateth him.</stage>
+        <sp xml:id="A02125-e109560" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109570">What do ye mean my lord?</p>
+        </sp>
+        <sp xml:id="A02125-e109580" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109590">Why shall I tell you that my love is dead, and can ye not weep for her.</p>
+        </sp>
+        <sp xml:id="A02125-e109600" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109610">Yes yes my lord I will.</p>
+        </sp>
+        <sp xml:id="A02125-e109620" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109630">Well do so then. Orgalio.</p>
+        </sp>
+        <sp xml:id="A02125-e109640" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109650">My lord.</p>
+        </sp>
+        <sp xml:id="A02125-e109660" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109670">Angelica is dead. <stage xml:id="A02125-e109680">Orgalio cries.</stage>ah, poor slave, so, cry no more now.</p>
+        </sp>
+        <sp xml:id="A02125-e109690" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109700">Nay I have quickly done.</p>
+        </sp>
+        <sp xml:id="A02125-e109710" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109720">Orgalio.</p>
+        </sp>
+        <sp xml:id="A02125-e109730" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109740">My lord.</p>
+        </sp>
+        <sp xml:id="A02125-e109750" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109760">Medor's Angelica is dead.</p>
+        </sp>
+        <stage xml:id="A02125-e109770">Orgalio cries, and Orlando beats him again</stage>
+        <sp xml:id="A02125-e109780" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109790">Why do ye beat me my lord?</p>
+        </sp>
+        <sp xml:id="A02125-e109800" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109810">Why slave, wilt thou weep for Medor's anlica, thou must laugh for her.</p>
+        </sp>
+        <sp xml:id="A02125-e109820" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109830">Laugh? yes, I'll laugh all day and you will.</p>
+        </sp>
+        <sp xml:id="A02125-e109840" who="A02125-orlando">
+          <speaker>Orl.</speaker>
+          <p xml:id="A02125-e109850">Orgalio.</p>
+        </sp>
+        <sp xml:id="A02125-e109860" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109870">My lord.</p>
+        </sp>
+        <sp xml:id="A02125-e109880" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109890">Medor's Angelica is dead.</p>
+        </sp>
+        <sp xml:id="A02125-e109900" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109910">Ha ha ha ha.</p>
+        </sp>
+        <sp xml:id="A02125-e109920" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109930">So, 'tis well now.</p>
+        </sp>
+        <sp xml:id="A02125-e109940" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109950">Nay this is easier than the other was.</p>
+        </sp>
+        <sp xml:id="A02125-e109960" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e109970">Now away, seek the herb moly, for I must<pb facs="18"/> to hell, to seek for Medor and Angelica.</p>
+        </sp>
+        <sp xml:id="A02125-e109980" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e109990">I know not the herb moly i'faith.</p>
+        </sp>
+        <sp xml:id="A02125-e110000" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e110010">Come I'll lead ye to it by the ears.</p>
+        </sp>
+        <sp xml:id="A02125-e110020" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e110030">'Tis here my lord, 'tis here.</p>
+        </sp>
+        <sp xml:id="A02125-e110040" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e110050">'Tis indeed, now to Charon, bid him dress his boat, for he had never such a passenger.</p>
+        </sp>
+        <sp xml:id="A02125-e110060" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e110070">Shall I tell him your name?</p>
+          <stage xml:id="A02125-e110080">Exit.</stage>
+        </sp>
+        <sp xml:id="A02125-e110090" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e110100">No, than he will be afraid, and not be at home.</p>
+        </sp>
+        <stage xml:id="A02125-e110110">Enter two clowns.</stage>
+        <sp xml:id="A02125-e110120" who="A02125-tom">
+          <speaker>Tho.</speaker>
+          <p xml:id="A02125-e110130">Sirrah Rafe, and thou'lt go with me I'll let thee see the bravest mad man that ever thou sawest.</p>
+        </sp>
+        <sp xml:id="A02125-e110140" who="A02125-ralph">
+          <speaker>Rafe.</speaker>
+          <p xml:id="A02125-e110150">Sirrah Tom: I believe 'twas he that was at our town a Sunday, I'll tell thee what he did sirrah: he came to our house, when all our folks were gone to church, and there was nobody at home but I, and I was turning of the spit, and he comes in, and bade me fetch him some drink. Now I went and fetched him some, and ere I came again, by my troth he ran away with the roast-meat spit and all, and so we had nothing but porridge to dinner.</p>
+        </sp>
+        <sp xml:id="A02125-e110160" who="A02125-tom">
+          <speaker>Thomas.</speaker>
+          <p xml:id="A02125-e110170">By my troth that was brave, but sirrah he did so course the boys last Sunday: and if ye call him madman, he'll run after you, and tickle your ribs so with his flap of leather that he hath as it passeth.</p>
+        </sp>
+        <stage xml:id="A02125-e110180">They spy Orlando.</stage>
+        <sp xml:id="A02125-e110190" who="A02125-ralph">
+          <speaker>Rafe</speaker>
+          <p xml:id="A02125-e110200">O Tom look where he is, call him madman.</p>
+        </sp>
+        <sp xml:id="A02125-e110210" who="A02125-tom">
+          <speaker>Tom.</speaker>
+          <p xml:id="A02125-e110220">Madman, madman.</p>
+        </sp>
+        <sp xml:id="A02125-e110230" who="A02125-ralph">
+          <pb facs="19"/>
+          <speaker>Rafe:</speaker>
+          <p xml:id="A02125-e110240">Madman, madman.</p>
+        </sp>
+        <sp xml:id="A02125-e110250" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e110260">What sayest thou villain? <stage xml:id="A02125-e110270">He beateth them.</stage>so now you shall be both my soldiers.</p>
+        </sp>
+        <sp xml:id="A02125-e110280" who="A02125-tom">
+          <speaker>Tom:</speaker>
+          <p xml:id="A02125-e110290">Your soldiers, we shall have a mad captain then.</p>
+        </sp>
+        <sp xml:id="A02125-e110300" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e110310">You must fight against Medor.</p>
+        </sp>
+        <sp xml:id="A02125-e110320" who="A02125-ralph">
+          <speaker>Raf:</speaker>
+          <p xml:id="A02125-e110330">Yes let me alone with him for a bloody nose.</p>
+        </sp>
+        <sp xml:id="A02125-e110340" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e110350">Come then and I'll give you weapons straight,</p>
+        </sp>
+        <stage xml:id="A02125-e110360">Exeunt omnes.</stage>
+        <stage xml:id="A02125-e110370">Enter Angelica like a poor woman.</stage>
+        <sp xml:id="A02125-e110380" who="A02125-angelica">
+          <speaker>An:</speaker>
+          <l xml:id="A02125-e110390">Thus causeless banished from thy native home,</l>
+          <l xml:id="A02125-e110400">Here sit Angelica and rest a while,</l>
+          <l xml:id="A02125-e110410">For to bewail the fortunes of thy love. </l>
+        </sp>
+        <stage xml:id="A02125-e110420">Enter Rodamant and Brandemart with soldiers.</stage>
+        <sp xml:id="A02125-e110430" who="A02125-rodamont">
+          <speaker>Roda:</speaker>
+          <l xml:id="A02125-e110440">This way she went, and far she cannot be. </l>
+        </sp>
+        <sp xml:id="A02125-e110450" who="A02125-brandemart">
+          <speaker>Brand:</speaker>
+          <l xml:id="A02125-e110460">See where she is my lord, speak as if you knew her not. </l>
+        </sp>
+        <sp xml:id="A02125-e110470" who="A02125-rodamont">
+          <speaker>Ro:</speaker>
+          <l xml:id="A02125-e110480">Fair shepherdess for so thy fitting seems,</l>
+          <l xml:id="A02125-e110490">Or nymph for less thy beauty cannot be:</l>
+          <l xml:id="A02125-e110500">What feed you sheep upon these downs? </l>
+        </sp>
+        <sp xml:id="A02125-e110510" who="A02125-angelica">
+          <speaker>Ange:</speaker>
+          <l xml:id="A02125-e110520">Daughter I am unto a bordering swain,</l>
+          <l xml:id="A02125-e110530">That tend my flocks within these shady groves. </l>
+        </sp>
+        <sp xml:id="A02125-e110540" who="A02125-rodamont">
+          <speaker>Roda.</speaker>
+          <l xml:id="A02125-e110550">Fond girl thou liest, thou art Angelica. </l>
+        </sp>
+        <sp xml:id="A02125-e110560" who="A02125-brandemart">
+          <speaker>Brand:</speaker>
+          <l xml:id="A02125-e110570">I thou art she that wronged the palatine. </l>
+        </sp>
+        <sp xml:id="A02125-e110580" who="A02125-angelica">
+          <speaker>Ange:</speaker>
+          <l xml:id="A02125-e110590">For I am known albeit I am disguised,</l>
+          <l xml:id="A02125-e110600">Yet dare I turn the lie into thy throat,</l>
+          <l xml:id="A02125-e110610"><pb facs="19"/> sith thou reportest I wronged the Palatine. </l>
+        </sp>
+        <sp xml:id="A02125-e110620" who="A02125-brandemart">
+          <speaker>Brand:</speaker>
+          <p xml:id="A02125-e110630">Nay then thou shalt be used according to thy deserts, come bring her to our tents.</p>
+        </sp>
+        <sp xml:id="A02125-e110640" who="A02125-rodamont">
+          <speaker>Roda:</speaker>
+          <l xml:id="A02125-e110650">But stay what drum is this? </l>
+        </sp>
+        <stage xml:id="A02125-e110660">Enter Orlando with a drum, and soldiers with spits and dripping-pans.</stage>
+        <sp xml:id="A02125-e110670" who="A02125-brandemart">
+          <speaker>Br:</speaker>
+          <l xml:id="A02125-e110680">Now see Angelica the fruits of all your love. </l>
+        </sp>
+        <sp xml:id="A02125-e110690" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e110700">Soldiers, this is the city of great Babylon,</l>
+          <l xml:id="A02125-e110710">Where proud Darius was rebated from,</l>
+          <l xml:id="A02125-e110720">Play but the men and I will lay my head,</l>
+          <l xml:id="A02125-e110730">We'll sack and raze it ere the sun be set. </l>
+        </sp>
+        <sp xml:id="A02125-e110740" who="A02125-clown">
+          <speaker>Clown:</speaker>
+          <l xml:id="A02125-e110750">Yea and scratch it too,</l>
+          <l xml:id="A02125-e110760">March fair fellow frying-pan. </l>
+        </sp>
+        <sp xml:id="A02125-e110770" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e110780">Orgalio, knowest thou the cause of my laughter?</p>
+        </sp>
+        <sp xml:id="A02125-e110790" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e110800">No by my troth, nor no wiseman else.</p>
+        </sp>
+        <sp xml:id="A02125-e110810" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e110820">Why sirrah to think that if the enemy were fled ere we come, we'll not leave one of our own soldiers alive, for we two will kill them with our fists.</p>
+        </sp>
+        <sp xml:id="A02125-e110830" who="A02125-ralph">
+          <speaker>Rafe:</speaker>
+          <p xml:id="A02125-e110840">Foe come let's go home again, he'll set probatum est upon my headpiece anon.</p>
+        </sp>
+        <sp xml:id="A02125-e110850" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e110860">No, no, thou shalt not be hurt, nor thee, back soldiers, look where the enemy is.</p>
+        </sp>
+        <sp xml:id="A02125-e110870" who="A02125-tom">
+          <speaker>Tom:</speaker>
+          <p xml:id="A02125-e110880">Captain, they have a woman amongst them.</p>
+        </sp>
+        <sp xml:id="A02125-e110890" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e110900">And what of that?</p>
+        </sp>
+        <sp xml:id="A02125-e110910" who="A02125-tom">
+          <speaker>Tom:</speaker>
+          <p xml:id="A02125-e110920">Why strike you down the men, and then let me alone to thrust in the woman.</p>
+        </sp>
+        <sp xml:id="A02125-e110930" who="A02125-orlando">
+          <pb facs="20"/>
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e110940">No I am challenged the single fight,</l>
+          <l xml:id="A02125-e110950">Sirrah, is't you challenge me the combat. </l>
+        </sp>
+        <sp xml:id="A02125-e110960" who="A02125-brandemart">
+          <speaker>Brand:</speaker>
+          <l xml:id="A02125-e110970">Frantic companion, lunatic and wood,</l>
+          <l xml:id="A02125-e110980">Get thee hence, or else I vow by heaven,</l>
+          <l xml:id="A02125-e110990">Thy madness shall not privilege thy life. </l>
+        </sp>
+        <sp xml:id="A02125-e111000" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e111010">I tell thee villain Medor wronged me so,</l>
+          <l xml:id="A02125-e111020">Sith thou art come his champion to the field,</l>
+          <l xml:id="A02125-e111030">I'll learn thee know I am the Palatine. </l>
+        </sp>
+        <stage xml:id="A02125-e111040">Alarum: they fight, Orlando kills Brandemart, and all the rest fly but Angelica.</stage>
+        <sp xml:id="A02125-e111050" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e111060">Look my lord here's one killed.</p>
+        </sp>
+        <sp xml:id="A02125-e111070" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e111080">Who killed him?</p>
+        </sp>
+        <sp xml:id="A02125-e111090" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e111100">You my lord I think.</p>
+        </sp>
+        <sp xml:id="A02125-e111110" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e111120">I? No, no, I see who killed him.</p>
+          <stage xml:id="A02125-e111130">He goeth to Angelica and knows her not.</stage>
+          <p xml:id="A02125-e111140">Come hither gentle sir, whose prowess hath performed such an act, think not the courteous Palatine will hinder that thine honour hath achieved, Orgalio fetch me a sword, that presently this squire may be dubbed a knight.</p>
+        </sp>
+        <sp xml:id="A02125-e111150" who="A02125-angelica">
+          <speaker>Ange:</speaker>
+          <l xml:id="A02125-e111160">Thanks gentle fortune that sends me such good hap,</l>
+          <l xml:id="A02125-e111170">Rather to die by him I love so dear,</l>
+          <l xml:id="A02125-e111180">Than live and see my lord thus lunatic. </l>
+        </sp>
+        <sp xml:id="A02125-e111190" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e111200">Here my lord.</p>
+        </sp>
+        <sp xml:id="A02125-e111210" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e111220">If thou beest come of Lancelot's worthy line welcome thou art,</l>
+          <l xml:id="A02125-e111230">Kneel down sir knight, rise up sir knight,</l>
+          <l xml:id="A02125-e111240"><pb facs="20"/> here take this sword, and hie thee to the fight. </l>
+          <stage xml:id="A02125-e111250">Exit Angelica.</stage>
+          <l xml:id="A02125-e111260">Now tell me Orgalio, what dost thou think,</l>
+          <l xml:id="A02125-e111270">Will not his knight prove a valiant squire? </l>
+        </sp>
+        <sp xml:id="A02125-e111280" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e111290">He cannot choose being of your making</p>
+        </sp>
+        <sp xml:id="A02125-e111300" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e111310">But where's Angelica now?</p>
+        </sp>
+        <sp xml:id="A02125-e111320" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e111330">Faith I cannot tell.</p>
+        </sp>
+        <sp xml:id="A02125-e111340" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e111350">Villain find her out,</l>
+          <l xml:id="A02125-e111360">Or else the torments that Ixion feels,</l>
+          <l xml:id="A02125-e111370">The rolling stone, the tubs of the Belides,</l>
+          <l xml:id="A02125-e111380">Villain wilt thou find her out. </l>
+        </sp>
+        <sp xml:id="A02125-e111390" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <l xml:id="A02125-e111400">Alas my lord, I know not where she is. </l>
+        </sp>
+        <sp xml:id="A02125-e111410" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e111420">Run to Charlemagne, spare for no cost,</l>
+          <l xml:id="A02125-e111430">Tell him Orlando sent for Angelica. </l>
+        </sp>
+        <sp xml:id="A02125-e111440" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e111450">Faith I'll fetch you such an Angelica as you never saw before.</p>
+          <stage xml:id="A02125-e111460">Exit Orgalio.</stage>
+        </sp>
+        <sp xml:id="A02125-e111470" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e111480">As though that sagittarius in his pride,</l>
+          <l xml:id="A02125-e111490">Could take brave Leda from stout Jupiter? </l>
+          <l xml:id="A02125-e111500">And yet forsooth Medor, base Medor durst</l>
+          <l xml:id="A02125-e111510">Attempt to reave Orlando of his love. </l>
+          <l xml:id="A02125-e111520">Sirrah, you that are the messenger of Jove,</l>
+          <l xml:id="A02125-e111530">You that can sweep it through the milk white path</l>
+          <l xml:id="A02125-e111540">That leads unto the senate house of Mars. </l>
+          <l xml:id="A02125-e111550">Fetch me my shield tempered of purest steel,</l>
+          <l xml:id="A02125-e111560">My helm forged by the Cyclops for Anchises son,</l>
+          <l xml:id="A02125-e111570">And see if I dare not combat for Angelica. </l>
+        </sp>
+        <stage xml:id="A02125-e111580">Enter Orgalio with the clown dressed like Angelica.</stage>
+        <sp xml:id="A02125-e111590" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e111600">Come away, and take heed you laugh not.</p>
+        </sp>
+        <sp xml:id="A02125-e111610" who="A02125-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A02125-e111620">No I warrant you, but I think I had best go<pb facs="21"/> back and shave my beard.</p>
+        </sp>
+        <sp xml:id="A02125-e111630" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e111640">Tush, that will not be seen.</p>
+        </sp>
+        <sp xml:id="A02125-e111650" who="A02125-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A02125-e111660">Well you will give me the half crown ye promised me.</p>
+        </sp>
+        <sp xml:id="A02125-e111670" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e111680">Doubt not of that man.</p>
+        </sp>
+        <sp xml:id="A02125-e111690" who="A02125-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A02125-e111700">Sirrah, didst not see me serve the fellow a fine trick, when we came over the market place.</p>
+        </sp>
+        <sp xml:id="A02125-e111710" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e111720">Why, how was that?</p>
+        </sp>
+        <sp xml:id="A02125-e111730" who="A02125-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A02125-e111740">Why he comes to me, and said; gentlewoman, wilt please you take a pint or a quart. No gentlewoman said I, but your friend and Doritie.</p>
+        </sp>
+        <sp xml:id="A02125-e111750" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <l xml:id="A02125-e111760">Excellent: come see where my lord is. </l>
+          <l xml:id="A02125-e111770">My lord, here is Angelica. </l>
+        </sp>
+        <sp xml:id="A02125-e111780" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e111790">Mas thou sayest true, 'tis she indeed;</l>
+          <l xml:id="A02125-e111800">How fares the fair Angelica? </l>
+        </sp>
+        <sp xml:id="A02125-e111810" who="A02125-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A02125-e111820">Well I thank you heartily.</p>
+        </sp>
+        <sp xml:id="A02125-e111830" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e111840">Why art thou not that same Angelica,</l>
+          <l xml:id="A02125-e111850">Whose hue as bright as fair Erythea</l>
+          <l xml:id="A02125-e111860">That darks Canopus with her silver hue? </l>
+        </sp>
+        <sp xml:id="A02125-e111870" who="A02125-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A02125-e111880">Yes forsooth.</p>
+        </sp>
+        <sp xml:id="A02125-e111890" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e111900">Are not these the beauteous checks,</l>
+          <l xml:id="A02125-e111910">Wherein the lilies and the native rose</l>
+          <l xml:id="A02125-e111920">Sits equal suited with a blushing red? </l>
+        </sp>
+        <sp xml:id="A02125-e111930" who="A02125-clown">
+          <speaker>Clown</speaker>
+          <l xml:id="A02125-e111940">He makes a garden plot in my face. </l>
+        </sp>
+        <sp xml:id="A02125-e111950" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e111960">Are not my dear those radiant eyes,</l>
+          <l xml:id="A02125-e111970">Whereout proud Phoebus flasheth out his beams? </l>
+        </sp>
+        <sp xml:id="A02125-e111980" who="A02125-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A02125-e111990">Yes, yes, with squibs and crackers bravely.</p>
+        </sp>
+        <sp xml:id="A02125-e112000" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e112010">You are Angelica?</p>
+        </sp>
+        <sp xml:id="A02125-e112020" who="A02125-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A02125-e112030">Yes marry am I.</p>
+        </sp>
+        <sp xml:id="A02125-e112040" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e112050">Where's your sweet heart Medor?</p>
+        </sp>
+        <sp xml:id="A02125-e112060" who="A02125-clown">
+          <pb facs="21"/>
+          <speaker>Clown</speaker>
+          <p xml:id="A02125-e112070">Orgalio, give me eighteen pence, and let me go.</p>
+        </sp>
+        <sp xml:id="A02125-e112080" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e112090">Speak strumpet, speak.</p>
+        </sp>
+        <sp xml:id="A02125-e112100" who="A02125-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A02125-e112110">Marry sir he is drinking a pint or a quart.</p>
+        </sp>
+        <sp xml:id="A02125-e112120" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e112130">Why strumpet, worse than Mars his trothless love. </l>
+          <l xml:id="A02125-e112140">Falser than faithless Cressida: strumpet thou shalt not scape. </l>
+        </sp>
+        <sp xml:id="A02125-e112150" who="A02125-clown">
+          <speaker>Clown</speaker>
+          <p xml:id="A02125-e112160">Come, come, you do not use me like a gentlewoman; and if I be not for you I am for another.</p>
+        </sp>
+        <sp xml:id="A02125-e112170" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e112180">Are you, that will I try. </l>
+          <l xml:id="A02125-e112190">He beateth him out. </l>
+        </sp>
+        <stage xml:id="A02125-e112200">Exeunt omnes</stage>
+        <stage xml:id="A02125-e112210">Enter the twelve peers of France, with drum and trumpets.</stage>
+        <sp xml:id="A02125-e112220" who="A02125-ogier">
+          <speaker>Og:</speaker>
+          <l xml:id="A02125-e112230">Brave peers of France, sith we have passed the bounds,</l>
+          <l xml:id="A02125-e112240">Whereby the wrangling billows seeks for straits</l>
+          <l xml:id="A02125-e112250">To war with Tellus, and her fruitful mines:</l>
+          <l xml:id="A02125-e112260">Sith we have furrowed through those wand'ring tides</l>
+          <l xml:id="A02125-e112270">Of Tyrrhene seas, and made our galleys dance</l>
+          <l xml:id="A02125-e112280">Upon the Hyperborean billows crests,</l>
+          <l xml:id="A02125-e112290">That braves with streams the watery occident:</l>
+          <l xml:id="A02125-e112300">And found the rich and wealthy Indian clime,</l>
+          <l xml:id="A02125-e112310">Sought to by greedy minds for hurtful gold. </l>
+          <l xml:id="A02125-e112320">Now let us seek to venge the lamp of France,</l>
+          <l xml:id="A02125-e112330">That lately was eclipsed in Angelica. </l>
+          <l xml:id="A02125-e112340">Now let us seek Orlando forth our peer,</l>
+          <l xml:id="A02125-e112350">Though from his former wits lately estranged,</l>
+          <l xml:id="A02125-e112360">Yet famous in our favours as before. </l>
+          <l xml:id="A02125-e112370">And sith by chance we all encountered be</l>
+          <l xml:id="A02125-e112380"><pb facs="22"/> let seek revenge on her that wrought his wrong. </l>
+        </sp>
+        <sp xml:id="A02125-e112390" who="A02125-names">
+          <speaker>Names.</speaker>
+          <l xml:id="A02125-e112400">But being thus arrived in place unknown,</l>
+          <l xml:id="A02125-e112410">Who shall direct our course unto the court,</l>
+          <l xml:id="A02125-e112420">Where brave Marsillus keeps his royal state. </l>
+        </sp>
+        <stage xml:id="A02125-e112430">Enter Marsillus and Mandricard like palmers.</stage>
+        <sp xml:id="A02125-e112440" who="A02125-ogier">
+          <speaker>Og:</speaker>
+          <l xml:id="A02125-e112450">Lo here, two Indian palmers hard at hand</l>
+          <l xml:id="A02125-e112460">Who can perhaps resolve our hidden doubts. </l>
+          <l xml:id="A02125-e112470">Palmers, God speed. </l>
+        </sp>
+        <sp xml:id="A02125-e112480" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e112490">Lordings, we greet you well. </l>
+        </sp>
+        <sp xml:id="A02125-e112500" who="A02125-ogier">
+          <speaker>Og:</speaker>
+          <l xml:id="A02125-e112510">Where lies Marsillus' court, friend canst thou tell. </l>
+        </sp>
+        <sp xml:id="A02125-e112520" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e112530">His court is his camp, the prince is now</l>
+          <l xml:id="A02125-e112540">In arms. </l>
+        </sp>
+        <sp xml:id="A02125-e112550" who="A02125-turpin">
+          <speaker>Turpin.</speaker>
+          <l xml:id="A02125-e112560">In arms? What's he that dares annoy so great a King. </l>
+        </sp>
+        <sp xml:id="A02125-e112570" who="A02125-mandrecard">
+          <speaker>Man:</speaker>
+          <l xml:id="A02125-e112580">Such as both love and fury doth confound,</l>
+          <l xml:id="A02125-e112590">Fierce Sacrepant, incensed with strange desires,</l>
+          <l xml:id="A02125-e112600">Wars on Marsillus, and Rodamant being dead,</l>
+          <l xml:id="A02125-e112610">Hath levied all his men, and traitorlike</l>
+          <l xml:id="A02125-e112620">Assails his lord, and loving sovereign. </l>
+          <l xml:id="A02125-e112630">And Mandricard who late hath been in arms,</l>
+          <l xml:id="A02125-e112640">To prosecute revenge against Marsillus,</l>
+          <l xml:id="A02125-e112650">Is now through favours passed become his friend. </l>
+          <l xml:id="A02125-e112660">Thus stands the state of matchless India. </l>
+        </sp>
+        <sp xml:id="A02125-e112670" who="A02125-ogier">
+          <speaker>Og:</speaker>
+          <l xml:id="A02125-e112680">Palmer, I like thy brave and brief discourse,</l>
+          <l xml:id="A02125-e112690">And couldst thou bring us to the prince's camp,</l>
+          <l xml:id="A02125-e112700">We would acknowledge friendship at thy hands. </l>
+        </sp>
+        <sp xml:id="A02125-e112710" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e112720">Ye stranger lords, why seek ye out Marsillus? </l>
+        </sp>
+        <sp xml:id="A02125-e112730" who="A02125-ogier">
+          <speaker>Og:</speaker>
+          <l xml:id="A02125-e112740">In hope that he whose empire is so large,</l>
+          <l xml:id="A02125-e112750">Will make both mind and monarchy agree. </l>
+        </sp>
+        <sp xml:id="A02125-e112760" who="A02125-marsillus">
+          <pb facs="22"/>
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e112770">Whence are you lords, and what request you here? </l>
+        </sp>
+        <sp xml:id="A02125-e112780" who="A02125-names">
+          <speaker>Names.</speaker>
+          <l xml:id="A02125-e112790">A question over-haughty for thy weed,</l>
+          <l xml:id="A02125-e112800">Fit for the King himself for to propound. </l>
+        </sp>
+        <sp xml:id="A02125-e112810" who="A02125-mandrecard">
+          <speaker>Man:</speaker>
+          <l xml:id="A02125-e112820">O sir, know that under simple weeds</l>
+          <l xml:id="A02125-e112830">The gods have masked, then deem not with disdain</l>
+          <l xml:id="A02125-e112840">To answer to this palmer's question,</l>
+          <l xml:id="A02125-e112850">Whose coat includes perhaps as great as yours. </l>
+        </sp>
+        <sp xml:id="A02125-e112860" who="A02125-ogier">
+          <speaker>Og:</speaker>
+          <l xml:id="A02125-e112870">Haughty their words, their persons full of state,</l>
+          <l xml:id="A02125-e112880">Though habit be but mean, their minds excel. </l>
+          <l xml:id="A02125-e112890">Well palmers know that princes are in India arrived</l>
+          <l xml:id="A02125-e112900">Yea even those western princely peers of France,</l>
+          <l xml:id="A02125-e112910">That through the world adventures undertake,</l>
+          <l xml:id="A02125-e112920">To find Orlando late incensed with rage. </l>
+          <l xml:id="A02125-e112930">Then palmers sith you know our styles and state,</l>
+          <l xml:id="A02125-e112940">Advise us where your King Marsillus is. </l>
+        </sp>
+        <sp xml:id="A02125-e112950" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e112960">Lordings of France, here is Marsillus,</l>
+          <l xml:id="A02125-e112970">That bids you welcome into India,</l>
+          <l xml:id="A02125-e112980">And will in person bring you to his camp. </l>
+        </sp>
+        <sp xml:id="A02125-e112990" who="A02125-ogier">
+          <speaker>Og:</speaker>
+          <l xml:id="A02125-e113000">Marsillus, and thus disguised? </l>
+        </sp>
+        <sp xml:id="A02125-e113010" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e113020">Even Marsillus, and thus disguised. </l>
+          <l xml:id="A02125-e113030">But what request these princes at my hand? </l>
+        </sp>
+        <sp xml:id="A02125-e113040" who="A02125-turpin">
+          <speaker>Turpin.</speaker>
+          <l xml:id="A02125-e113050">We sue for law and justice at thy hand,</l>
+          <l xml:id="A02125-e113060">We seek Angelica thy daughter out;</l>
+          <l xml:id="A02125-e113070">That wanton maid, that hath eclipsed the joy</l>
+          <l xml:id="A02125-e113080">Of royal France, and made Orlando mad. </l>
+        </sp>
+        <sp xml:id="A02125-e113090" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e113100">My daughter lords, why she's exiled,</l>
+          <l xml:id="A02125-e113110">And her grieved father is content to lose</l>
+          <l xml:id="A02125-e113120">The pleasance of his age to countenance law. </l>
+        </sp>
+        <sp xml:id="A02125-e113130" who="A02125-oliver">
+          <speaker>Oli:</speaker>
+          <l xml:id="A02125-e113140">Not only exile shall await Angelica,</l>
+          <l xml:id="A02125-e113150"><pb facs="23"/> but death and bitter death shall follow her,</l>
+          <l xml:id="A02125-e113160">Then yield us right Marsillus, or our swords</l>
+          <l xml:id="A02125-e113170">Shall make thee fear to wrong the peers of France. </l>
+        </sp>
+        <sp xml:id="A02125-e113180" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e113190">Words cannot daunt me princes be as surde,</l>
+          <l xml:id="A02125-e113200">But law and justice shall overrule in this,</l>
+          <l xml:id="A02125-e113210">And I will bury father's name and love,</l>
+          <l xml:id="A02125-e113220">The hapless maid banished from out my land,</l>
+          <l xml:id="A02125-e113230">Wanders about in woods and ways unknown,</l>
+          <l xml:id="A02125-e113240">Her if ye find with fury persecute,</l>
+          <l xml:id="A02125-e113250">I now disdain the name to be her father,</l>
+          <l xml:id="A02125-e113260">Lords of France what would you more of me. </l>
+        </sp>
+        <sp xml:id="A02125-e113270" who="A02125-ogier">
+          <speaker>Oger:</speaker>
+          <l xml:id="A02125-e113280">Marsillus we commend thy princely mind,</l>
+          <l xml:id="A02125-e113290">And will report thy justice through the world,</l>
+          <l xml:id="A02125-e113300">Come peers of France let's seek Angelica,</l>
+          <l xml:id="A02125-e113310">Left for a spoil to our revenging thoughts. </l>
+        </sp>
+        <stage xml:id="A02125-e113320">Exeunt omnes.</stage>
+        <stage xml:id="A02125-e113330">Enter Orlando like a poet.</stage>
+        <sp xml:id="A02125-e113340" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e113350">Orgalio, is not my love like those purple coloured swans,</l>
+          <l xml:id="A02125-e113360">That gallop by the coach of Cynthia. </l>
+        </sp>
+        <sp xml:id="A02125-e113370" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <l xml:id="A02125-e113380">Yes marry is she my lord. </l>
+        </sp>
+        <sp xml:id="A02125-e113390" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e113400">Is not her face silvered like that milk-white shape,</l>
+          <l xml:id="A02125-e113410">When love came dancing down to Semele. </l>
+        </sp>
+        <sp xml:id="A02125-e113420" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <l xml:id="A02125-e113430">It is my lord. </l>
+          <l xml:id="A02125-e113440">Then go thy ways and climb up to the clouds,</l>
+          <l xml:id="A02125-e113450"><pb facs="23"/> and tell Apollo that Orlando sits,</l>
+          <l xml:id="A02125-e113460">Making of verses for Angelica. </l>
+          <l xml:id="A02125-e113470">And if he do deny to send me down</l>
+          <l xml:id="A02125-e113480">The shirt which Deianeira sent to Hercules,</l>
+          <l xml:id="A02125-e113490">To make me brave upon my wedding day;</l>
+          <l xml:id="A02125-e113500">Tell him I'll pass the Alps, and up to Meroe,</l>
+          <l xml:id="A02125-e113510">(I know he knows that watery lakish hill)</l>
+          <l xml:id="A02125-e113520">And pull the harp out of the minstrel's hands,</l>
+          <l xml:id="A02125-e113530">And pawn it unto lovely Proserpine,</l>
+          <l xml:id="A02125-e113540">That she may fetch the fair Angelica. </l>
+        </sp>
+        <sp xml:id="A02125-e113550" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <l xml:id="A02125-e113560">But my lord Apollo is asleep and will not hear me,</l>
+        </sp>
+        <sp xml:id="A02125-e113570" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e113580">Then tell him he is a sleepy knave:</p>
+          <p xml:id="A02125-e113590">But sirrah let nobody trouble me, for I must lie down a while and talk with the stars.</p>
+        </sp>
+        <stage xml:id="A02125-e113600">Enter fiddler.</stage>
+        <sp xml:id="A02125-e113610" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e113620">What old acquaintance well met.</p>
+        </sp>
+        <sp xml:id="A02125-e113630" who="A02125-fidler">
+          <speaker>Fidler.</speaker>
+          <p xml:id="A02125-e113640">Ho you would have me play Angelica again, would ye not?</p>
+        </sp>
+        <sp xml:id="A02125-e113650" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e113660">Not, but I can tell thee where thou mayest earn two or three shillings this morning, even with the turning of a hand.</p>
+        </sp>
+        <sp xml:id="A02125-e113670" who="A02125-fidler">
+          <speaker>Fidler:</speaker>
+          <p xml:id="A02125-e113680">Two or three shillings, tush thou wot cozen me thou, but and thou canst tell where I may earn a groat, I'll give thee six pence for thy pains.</p>
+        </sp>
+        <sp xml:id="A02125-e113690" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e113700">Then play a fit of mirth to my lord.</p>
+        </sp>
+        <sp xml:id="A02125-e113710" who="A02125-fiddler">
+          <speaker>Fiddler</speaker>
+          <p xml:id="A02125-e113720">Why he is mad still is he not.</p>
+        </sp>
+        <sp xml:id="A02125-e113730" who="A02125-orgalio">
+          <pb facs="24"/>
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e113740">No, no, come play.</p>
+        </sp>
+        <sp xml:id="A02125-e113750" who="A02125-fidler">
+          <speaker>Fidler.</speaker>
+          <p xml:id="A02125-e113760">At which side doth he use to give his reward.</p>
+        </sp>
+        <sp xml:id="A02125-e113770" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e113780">Why of any side.</p>
+        </sp>
+        <sp xml:id="A02125-e113790" who="A02125-fidler">
+          <speaker>Fidler.</speaker>
+          <p xml:id="A02125-e113800">Doth he not use to throw the chamber pot sometimes? 'twould grieve me he should wet my fiddle strings.</p>
+        </sp>
+        <sp xml:id="A02125-e113810" who="A02125-orgalio">
+          <speaker>Org:</speaker>
+          <p xml:id="A02125-e113820">Tush I warrant thee.</p>
+        </sp>
+        <stage xml:id="A02125-e113830">He plays and sings any odd toy, and Orlando wakes.</stage>
+        <sp xml:id="A02125-e113840" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e113850">Who is this, Shan Cuttelero? heartily welcome, Shan Cuttelero.</p>
+        </sp>
+        <sp xml:id="A02125-e113860" who="A02125-fidler">
+          <speaker>Fidler.</speaker>
+          <p xml:id="A02125-e113870">No sir, you should have said Shan the fidideldero.</p>
+        </sp>
+        <sp xml:id="A02125-e113880" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e113890">What, hast thou brought me my sword?</p>
+        </sp>
+        <stage xml:id="A02125-e113900">He takes away his fiddle.</stage>
+        <sp xml:id="A02125-e113910" who="A02125-fidler">
+          <speaker>Fidler.</speaker>
+          <p xml:id="A02125-e113920">A sword? No no sir, that's my fiddle.</p>
+        </sp>
+        <sp xml:id="A02125-e113930" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e113940">But dost thou think the temper to be good and will it hold, when thus and thus we Medor do assail?</p>
+        </sp>
+        <stage xml:id="A02125-e113950">He strikes and beats him with the fiddle.</stage>
+        <sp xml:id="A02125-e113960" who="A02125-fidler">
+          <speaker>Fidler.</speaker>
+          <l xml:id="A02125-e113970">Lord sir, you'll break my living. </l>
+          <l xml:id="A02125-e113980">You told me your master was not mad. </l>
+        </sp>
+        <sp xml:id="A02125-e113990" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e114000">Tell me, why hast thou marred my sword? </l>
+          <l xml:id="A02125-e114010">The pommels well, the blade is curtailed short. </l>
+          <l xml:id="A02125-e114020"><pb facs="24"/>Villain why hast thou made it so,</l>
+        </sp>
+        <sp xml:id="A02125-e114030" who="A02125-fidler">
+          <speaker>Fidler.</speaker>
+          <l xml:id="A02125-e114040">O lord sir, will you answer this? </l>
+        </sp>
+        <stage xml:id="A02125-e114050">He breaks it about his head.</stage>
+        <stage xml:id="A02125-e114060">Exit Fidler.</stage>
+        <stage xml:id="A02125-e114070">Enter Melissa with a glass of wine.</stage>
+        <sp xml:id="A02125-e114080" who="A02125-orlando">
+          <speaker>Orl.</speaker>
+          <p xml:id="A02125-e114090">Orgalio who is this?</p>
+        </sp>
+        <sp xml:id="A02125-e114100" who="A02125-orgalio">
+          <speaker>Orga.</speaker>
+          <p xml:id="A02125-e114110">Faith my lord some old witch I think.</p>
+        </sp>
+        <sp xml:id="A02125-e114120" who="A02125-melissa">
+          <speaker>Mel.</speaker>
+          <l xml:id="A02125-e114130">O that my lord would but conceit my tale. </l>
+          <l xml:id="A02125-e114140">Then would I speak and hope to find redress. </l>
+        </sp>
+        <sp xml:id="A02125-e114150" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e114160">Fair Polixena, the pride of Ilion,</l>
+          <l xml:id="A02125-e114170">Fear not Achilles over-madding boy,</l>
+          <l xml:id="A02125-e114180">Pyrrus shall not, etc. </l>
+          <l xml:id="A02125-e114190">'Zounds Orgalio, why sufferest thou this old trot to come so nigh me? </l>
+        </sp>
+        <sp xml:id="A02125-e114200" who="A02125-orgalio">
+          <speaker>Orga:</speaker>
+          <l xml:id="A02125-e114210">Come, come, stand by, your breath stinks. </l>
+        </sp>
+        <sp xml:id="A02125-e114220" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e114230">What, be all the Trogians fled,</l>
+          <l xml:id="A02125-e114240">Then give me some drink. </l>
+        </sp>
+        <sp xml:id="A02125-e114250" who="A02125-melissa">
+          <speaker>Mel:</speaker>
+          <l xml:id="A02125-e114260">Here Palatine drink, and ever be thou better for this draught. </l>
+        </sp>
+        <sp xml:id="A02125-e114270" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e114280">What here the paltry bottle that Darius quaffed,</l>
+          <stage xml:id="A02125-e114290">He drinks, and she charmes him with her wand, and lies down to sleep.</stage>
+          <l xml:id="A02125-e114300">Else would I set my mouth to tiger's streams,</l>
+          <l xml:id="A02125-e114310">And drink up overflowing Euphrates,</l>
+          <l xml:id="A02125-e114320">My eyes are heavy, and I needs must sleep. </l>
+          <p xml:id="A02125-e114330">Melissa striketh with her wand, and the satires<pb facs="25"/> enter with music and play round about him, which done, they stay, he awaketh and speaks.</p>
+          <l xml:id="A02125-e114340">What shows are these that fill mine eyes</l>
+          <l xml:id="A02125-e114350">With view of such regard as heaven admires,</l>
+          <l xml:id="A02125-e114360">To see my slumbering dreams,</l>
+          <l xml:id="A02125-e114370">Skies are fulfilled with lamps of lasting joy,</l>
+          <l xml:id="A02125-e114380">That boast the pride of haught Latona's son,</l>
+          <l xml:id="A02125-e114390">He lighteneth all the candles of the night. </l>
+          <l xml:id="A02125-e114400">Nymosene hath kissed the kingly Jove,</l>
+          <l xml:id="A02125-e114410">And entertained a feast within my brains,</l>
+          <l xml:id="A02125-e114420">Making her daughter solace on my brow,</l>
+          <l xml:id="A02125-e114430">Methinks I feel how Cinthia tunes conceits</l>
+          <l xml:id="A02125-e114440">Of sad repent, and meloweth those desires</l>
+          <l xml:id="A02125-e114450">Which frenzies scares had ripened in my head. </l>
+          <l xml:id="A02125-e114460">Ate I'll kiss thy restless cheek a while,</l>
+          <l xml:id="A02125-e114470">And suffer vile repent to bide control,</l>
+        </sp>
+        <stage xml:id="A02125-e114480">He lieth down again.</stage>
+        <sp xml:id="A02125-e114490" who="A02125-melissa">
+          <speaker>Mel:</speaker>
+          <l xml:id="A02125-e114500">O vos silvani, satyri, faunique, deaque,</l>
+          <l xml:id="A02125-e114510">Nymphae hamadriades, dryads, persaeque potentes,</l>
+          <l xml:id="A02125-e114520">O vos qui colttes lacusque laeosque profundos,</l>
+          <l xml:id="A02125-e114530">Infernasque domus, et nigra palatia ditis:</l>
+          <l xml:id="A02125-e114540">Tuque Demogorgon qui noctis fata gubernas,</l>
+          <l xml:id="A02125-e114550">Qui regis infernum, solemque, solumque, coelumque,</l>
+          <l xml:id="A02125-e114560">Exaudite preces, filiasque auferte micantes,</l>
+          <l xml:id="A02125-e114570">In caput orlandi coelestes spargite lympus,</l>
+          <l xml:id="A02125-e114580">Spargite, quis misere revocetur raptator umbras</l>
+          <l xml:id="A02125-e114590">Orlando infoelix anima. </l>
+        </sp>
+        <stage xml:id="A02125-e114600">Then let the music play before him, and so go forth.</stage>
+        <sp xml:id="A02125-e114610" who="A02125-orlando">
+          <pb facs="25"/>
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e114620">What sights, what shows, what fearful shapes are these? </l>
+          <l xml:id="A02125-e114630">More dreadful than appeared to Hecuba,</l>
+          <l xml:id="A02125-e114640">When fall of Troy was figured in her sleep. </l>
+          <l xml:id="A02125-e114650">Juno methought sent down from heaven by love. </l>
+          <l xml:id="A02125-e114660">Came swiftly sweeping through the gloomy air</l>
+          <l xml:id="A02125-e114670">And calling fame the satires and the nymphs,</l>
+          <l xml:id="A02125-e114680">She gave them viols full of heavenly dew,</l>
+          <l xml:id="A02125-e114690">With that mounted on her particoloured coach</l>
+          <l xml:id="A02125-e114700">Being drawn with peacocks proudly through the air,</l>
+          <l xml:id="A02125-e114710">She flew with Iris to the sphere of love. </l>
+          <l xml:id="A02125-e114720">What fearful thoughts arise upon this show? </l>
+          <l xml:id="A02125-e114730">What desert grove is this? How thus disguised? </l>
+          <l xml:id="A02125-e114740">Where is Orgalio? </l>
+        </sp>
+        <sp xml:id="A02125-e114750" who="A02125-orgalio">
+          <speaker>Orgal:</speaker>
+          <l xml:id="A02125-e114760">Here my lord. </l>
+        </sp>
+        <sp xml:id="A02125-e114770" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e114780">Sirrah, how came I thus disguised,</l>
+          <l xml:id="A02125-e114790">Like made Orestes quaintly thus disguised? </l>
+        </sp>
+        <sp xml:id="A02125-e114800" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e114810">Like mad Orestes, nay my lord, you may boldly justify the comparison, for Orestes was never so mad in his life as you were.</p>
+        </sp>
+        <sp xml:id="A02125-e114820" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e114830">What was I mad? What fury hath enchanted me? </l>
+        </sp>
+        <sp xml:id="A02125-e114840" who="A02125-melissa">
+          <speaker>Mel:</speaker>
+          <l xml:id="A02125-e114850">A fury sure worse than Megaera was,</l>
+          <l xml:id="A02125-e114860">That reft her son from trusty Pylades. </l>
+        </sp>
+        <sp xml:id="A02125-e114870" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e114880">Why, what art thou, some sibyl or some goddess, freely speak? </l>
+        </sp>
+        <sp xml:id="A02125-e114890" who="A02125-melissa">
+          <speaker>Mel:</speaker>
+          <l xml:id="A02125-e114900">Time not affords to tell each circumstance? </l>
+          <l xml:id="A02125-e114910"><pb facs="26"/>But thrice hath Cynthia changed her hue</l>
+          <l xml:id="A02125-e114920">Since thou infected with a lunacy,</l>
+          <l xml:id="A02125-e114930">Hast gadded up and down these lands and groves</l>
+          <l xml:id="A02125-e114940">Performing strange and ruthful stratagems,</l>
+          <l xml:id="A02125-e114950">All for the love of fair Angelica,</l>
+          <l xml:id="A02125-e114960">Whom thou with Medor didst suppose played false,</l>
+          <l xml:id="A02125-e114970">But Sacrepant had graven these roundelays,</l>
+          <l xml:id="A02125-e114980">To sting thee with infecting jealousy;</l>
+          <l xml:id="A02125-e114990">The swain that told thee of their oft converse,</l>
+          <l xml:id="A02125-e115000">Was servant unto county Sacrepant,</l>
+          <l xml:id="A02125-e115010">And trust me Orlando, Angelica though true to thee,</l>
+          <l xml:id="A02125-e115020">Is banished from the court,</l>
+          <l xml:id="A02125-e115030">And Sacrapant this day bids battle to Marsillius</l>
+          <l xml:id="A02125-e115040">The armies ready are to give assail,</l>
+          <l xml:id="A02125-e115050">And on a hill that overpeers them both,</l>
+          <l xml:id="A02125-e115060">Stands all the worthy matchless peers of France</l>
+          <l xml:id="A02125-e115070">Who are in quest to seek Orlando out. </l>
+          <l xml:id="A02125-e115080">Muse not at this, for I have told thee true,</l>
+          <l xml:id="A02125-e115090">I am she that cured thy disease,</l>
+          <l xml:id="A02125-e115100">Here take these weapons given thee by the fates,</l>
+          <l xml:id="A02125-e115110">And hie thee county to the battle straight. </l>
+        </sp>
+        <sp xml:id="A02125-e115120" who="A02125-orgalio">
+          <speaker>Or:</speaker>
+          <l xml:id="A02125-e115130">Thanks sacred gods for thy helping hand</l>
+          <l xml:id="A02125-e115140">Thither will I hie to be revenged. </l>
+          <l xml:id="A02125-e115150">Alarms. </l>
+          <stage xml:id="A02125-e115160">Exit.</stage>
+        </sp>
+        <stage xml:id="A02125-e115170">Enter Sacrepant crowned, and pursuing Marsillus and Mandrecard.</stage>
+        <sp xml:id="A02125-e115180" who="A02125-sacrepant">
+          <speaker>Sacre:</speaker>
+          <l xml:id="A02125-e115190">Viceroys you are dead,</l>
+          <l xml:id="A02125-e115200"><pb facs="26"/> for Sacrepant already crowned a King,</l>
+          <l xml:id="A02125-e115210">Heaves up his sword to have your diadems. </l>
+        </sp>
+        <sp xml:id="A02125-e115220" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e115230">Traitor, not dead, or any wit dismayed,</l>
+          <l xml:id="A02125-e115240">For dear we prize the smallest drop of blood. </l>
+        </sp>
+        <stage xml:id="A02125-e115250">Enter Orlando with a scarf before his face.</stage>
+        <sp xml:id="A02125-e115260" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e115270">Stay princes, base not yourselves to combat such a dog. </l>
+          <l xml:id="A02125-e115280">Mount on your coursers, follow those that fly,</l>
+          <l xml:id="A02125-e115290">And let your conquering swords be tainted in their bloods</l>
+          <l xml:id="A02125-e115300">Pass ye, for him he shall be combated. </l>
+        </sp>
+        <stage xml:id="A02125-e115310">Exit Kings.</stage>
+        <sp xml:id="A02125-e115320" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e115330">Why what art thou that bravest me thus? </l>
+        </sp>
+        <sp xml:id="A02125-e115340" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e115350">I am thou seest a mercenary soldier</l>
+          <l xml:id="A02125-e115360">Homely, yet of such haughty thoughts;</l>
+          <l xml:id="A02125-e115370">As naught can serve to quench th'aspiring thoughts</l>
+          <l xml:id="A02125-e115380">That burns as do the fires of Cicely,</l>
+          <l xml:id="A02125-e115390">Unless I win that princely diadem,</l>
+          <l xml:id="A02125-e115400">That seems so ill upon thy coward's head. </l>
+        </sp>
+        <sp xml:id="A02125-e115410" who="A02125-sacrepant">
+          <speaker>Sac.</speaker>
+          <l xml:id="A02125-e115420">Coward. To arms sir boy, I will not brook these braves,</l>
+          <l xml:id="A02125-e115430">If Mars himself even from his fiery throne,</l>
+          <l xml:id="A02125-e115440">Came armed with all his furnitures of war. </l>
+          <stage xml:id="A02125-e115450">They fight.</stage>
+          <l xml:id="A02125-e115460">O villain, thou hast slain a prince. </l>
+        </sp>
+        <sp xml:id="A02125-e115470" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e115480">Then mayst thou think that Mars himself</l>
+          <l xml:id="A02125-e115490">Came down to vail thy plumes, and heave thee<pb facs="27"/> from thy pomp. </l>
+          <l xml:id="A02125-e115500">Proud that thou art, I reck not of thy 'gree,</l>
+          <l xml:id="A02125-e115510">But I will have the conquest of my sword,</l>
+          <l xml:id="A02125-e115520">Which is the glory of thy diadem. </l>
+        </sp>
+        <sp xml:id="A02125-e115530" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e115540">These words bewray thou art no base born Moor,</l>
+          <l xml:id="A02125-e115550">But by descent sprung from some royal line,</l>
+          <l xml:id="A02125-e115560">Then freely tell me what's thy name. </l>
+        </sp>
+        <sp xml:id="A02125-e115570" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e115580">Nay first let me know thine? </l>
+        </sp>
+        <sp xml:id="A02125-e115590" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e115600">Then know that thou hast slain prince</l>
+          <l xml:id="A02125-e115610">Sacrepant. </l>
+        </sp>
+        <sp xml:id="A02125-e115620" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e115630">Sacrepant. Then let me at thy dying day entreat,</l>
+          <l xml:id="A02125-e115640">By that same sphere wherein thy soul shall rest,</l>
+          <l xml:id="A02125-e115650">If love deny not passage to thy ghost,</l>
+          <l xml:id="A02125-e115660">Thou tell me whether thou wrongdst Angelica or no. </l>
+        </sp>
+        <sp xml:id="A02125-e115670" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e115680">O that's the sting that pricks my conscience</l>
+          <l xml:id="A02125-e115690">O that's the hell my thoughts abhor to think,</l>
+          <l xml:id="A02125-e115700">I tell thee knight, for thou dost seem no less,</l>
+          <l xml:id="A02125-e115710">That I engraved the roundelays on the trees,</l>
+          <l xml:id="A02125-e115720">And hung the sedulet of poor Medor's love,</l>
+          <l xml:id="A02125-e115730">Intending so to breed debate,</l>
+          <l xml:id="A02125-e115740">Between Orlando and Angelica,</l>
+          <l xml:id="A02125-e115750">Oh thus I wronged Orlando and Angelica. </l>
+          <l xml:id="A02125-e115760">Now tell me what shall I call thy name. </l>
+        </sp>
+        <sp xml:id="A02125-e115770" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e115780">Then dead is the fatal author of my ill,</l>
+          <l xml:id="A02125-e115790">Base villain, vassal, unworthy of a crown,</l>
+          <l xml:id="A02125-e115800">Know that the man that struck the fatal stroke,</l>
+          <l xml:id="A02125-e115810">Is Orlando the county Palatine,</l>
+          <l xml:id="A02125-e115820"><pb facs="27"/> whom fortune sent to quittance all my wrongs</l>
+          <l xml:id="A02125-e115830">Thou foiled and slain, it now behoves me straight</l>
+          <l xml:id="A02125-e115840">To hie me fast to massacre thy men,</l>
+          <l xml:id="A02125-e115850">And so farewell thou devil in shape of man. </l>
+          <stage xml:id="A02125-e115860">Exit.</stage>
+        </sp>
+        <sp xml:id="A02125-e115870" who="A02125-sacrepant">
+          <speaker>Sac:</speaker>
+          <l xml:id="A02125-e115880">Hath Demogorgon ruler of the fates,</l>
+          <l xml:id="A02125-e115890">Set such a baleful period on my life,</l>
+          <l xml:id="A02125-e115900">As none might end the days of Sacrepant,</l>
+          <l xml:id="A02125-e115910">But mighty Orlando rival of my love,</l>
+          <l xml:id="A02125-e115920">Now holdeth the fatal murderers of men,</l>
+          <l xml:id="A02125-e115930">The sharpened knife ready to cut my thread,</l>
+          <l xml:id="A02125-e115940">Ending the scene of all my tragedy,</l>
+          <l xml:id="A02125-e115950">This day, this hour, this minute ends the days</l>
+          <l xml:id="A02125-e115960">Of him that lived worthy old Nestor's age. </l>
+          <l xml:id="A02125-e115970">Phoebus put on thy fable suted wreath,</l>
+          <l xml:id="A02125-e115980">Clad all thy spheres in dark and mourning weeds. </l>
+          <l xml:id="A02125-e115990">Parched be the earth to drink up every spring,</l>
+          <l xml:id="A02125-e116000">Let corn and trees be blasted from above,</l>
+          <l xml:id="A02125-e116010">Heaven turn to brass, and earth to wedge of steel</l>
+          <l xml:id="A02125-e116020">The world to cinders, Mars come thundering down,</l>
+          <l xml:id="A02125-e116030">And never sheathe thy swift revenging sword,</l>
+          <l xml:id="A02125-e116040">Till like the deluge in Deucalion's days,</l>
+          <l xml:id="A02125-e116050">The highest mountains swim in streams of blood. </l>
+          <l xml:id="A02125-e116060">Heaven, earth, men, beasts, and every living thing</l>
+          <l xml:id="A02125-e116070">Consume and end with county Sacrepant. </l>
+        </sp>
+        <stage xml:id="A02125-e116080">He dies.</stage>
+        <stage xml:id="A02125-e116090"><pb facs="28"/>Enter Marsillus, Mandrecard, and twelve peers with Angelica.</stage>
+        <sp xml:id="A02125-e116100" who="A02125-marsillus">
+          <speaker>Mar.</speaker>
+          <l xml:id="A02125-e116110">Fought is the field, and Sacrepant is slain,</l>
+          <l xml:id="A02125-e116120">With such a massacre of all his men,</l>
+          <l xml:id="A02125-e116130">As Mars descending in his purple robe,</l>
+          <l xml:id="A02125-e116140">Vows with Bellona in whole heaps of blood</l>
+          <l xml:id="A02125-e116150">To banquet all the demi gods of war. </l>
+        </sp>
+        <sp xml:id="A02125-e116160" who="A02125-mandrecard">
+          <speaker>Mandr.</speaker>
+          <l xml:id="A02125-e116170">See where he lies slaughtered without the camp,</l>
+          <l xml:id="A02125-e116180">And by a simple swain, a mercenary,</l>
+          <l xml:id="A02125-e116190">Who bravely took the combat to himself,</l>
+          <l xml:id="A02125-e116200">Might I but know the man that did the deed,</l>
+          <l xml:id="A02125-e116210">I would my lord eternize him with fame. </l>
+        </sp>
+        <sp xml:id="A02125-e116220" who="A02125-ogier">
+          <speaker>Oger:</speaker>
+          <l xml:id="A02125-e116230">Leaving the factious county to his death,</l>
+          <l xml:id="A02125-e116240">Command my lord his body be conveyed</l>
+          <l xml:id="A02125-e116250">Unto some place as likes your highness best,</l>
+          <l xml:id="A02125-e116260">See Marsillus posting through Africa,</l>
+          <l xml:id="A02125-e116270">We have found this straggling girl Angelica,</l>
+          <l xml:id="A02125-e116280">Who for she wronged her love Orlando</l>
+          <l xml:id="A02125-e116290">Chiefest of the western peers,</l>
+          <l xml:id="A02125-e116300">Conversing with so mean a man as Medor was,</l>
+          <l xml:id="A02125-e116310">We will have her punished by the laws of France,</l>
+          <l xml:id="A02125-e116320">To end her burning lust in flames of fire. </l>
+        </sp>
+        <sp xml:id="A02125-e116330" who="A02125-marsillus">
+          <speaker>Mar.</speaker>
+          <l xml:id="A02125-e116340">Beshrew you lordings but you do your worst. </l>
+          <l xml:id="A02125-e116350">Fire, famine, and as cruel death,</l>
+          <l xml:id="A02125-e116360">As fell to Nero's mother in his rage. </l>
+        </sp>
+        <sp xml:id="A02125-e116370" who="A02125-angelica">
+          <speaker>Angelica.</speaker>
+          <l xml:id="A02125-e116380">Father, if I may dare to call thee so,</l>
+          <l xml:id="A02125-e116390">And lords of France come from the western seas. </l>
+          <l xml:id="A02125-e116400"><pb facs="28"/>In quest to find mighty Orlando out,</l>
+          <l xml:id="A02125-e116410">Yet ere I die let me have leave to say,</l>
+          <l xml:id="A02125-e116420">Angelica held ever in her thoughts,</l>
+          <l xml:id="A02125-e116430">Most dear the love of county Palatine:</l>
+          <l xml:id="A02125-e116440">What wretch hath wronged us with suspect of love,</l>
+          <l xml:id="A02125-e116450">I know not I, nor can accuse the man:</l>
+          <l xml:id="A02125-e116460">But by the heavens whereto my soul shall fly,</l>
+          <l xml:id="A02125-e116470">Angelica did never wrong Orlando. </l>
+          <l xml:id="A02125-e116480">I speak not this as one that cares to live,</l>
+          <l xml:id="A02125-e116490">For why, my thoughts are fully malcontent,</l>
+          <l xml:id="A02125-e116500">And I conjure you by your chivalry,</l>
+          <l xml:id="A02125-e116510">You quit Orlando's wrong upon Angelica. </l>
+        </sp>
+        <stage xml:id="A02125-e116520">Enter Orlando with a scarf before his face.</stage>
+        <sp xml:id="A02125-e116530" who="A02125-oliver">
+          <speaker>Oliver:</speaker>
+          <l xml:id="A02125-e116540">Strumpet fear not, for by fair Maia's son,</l>
+          <l xml:id="A02125-e116550">This day thy soul shall vanish up in fire,</l>
+          <l xml:id="A02125-e116560">As Semele when Juno willed the trull,</l>
+          <l xml:id="A02125-e116570">To entertain the glory of her love. </l>
+        </sp>
+        <sp xml:id="A02125-e116580" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e116590">Frenchman, for so thy quaint array imports,</l>
+          <l xml:id="A02125-e116600">Be thou a Piere, or be thou Charlemagne,</l>
+          <l xml:id="A02125-e116610">Or hadst thou Hector or Achilles heart,</l>
+          <l xml:id="A02125-e116620">Or never daunted thoughts of Hercules,</l>
+          <l xml:id="A02125-e116630">That did in courage far surpass them all,</l>
+          <l xml:id="A02125-e116640">I tell thee sir, thou liest in thy throat,</l>
+          <l xml:id="A02125-e116650">The greatest brave transalpine France can brook,</l>
+          <l xml:id="A02125-e116660">In saying that sacred Angelica,</l>
+          <l xml:id="A02125-e116670">Did offer wrong unto the Palatine:</l>
+          <l xml:id="A02125-e116680">I am a common mercenary soldier,</l>
+          <l xml:id="A02125-e116690"><pb facs="29"/> yet for I see my Princess is abused</l>
+          <l xml:id="A02125-e116700">By new come stragglers from a foreign coast,</l>
+          <l xml:id="A02125-e116710">I dare the proudest of these western lords</l>
+          <l xml:id="A02125-e116720">To crack a blade in trial of her right. </l>
+        </sp>
+        <sp xml:id="A02125-e116730" who="A02125-mandrecard">
+          <speaker>Mam:</speaker>
+          <l xml:id="A02125-e116740">Why foolish hardy daring simple groom,</l>
+          <l xml:id="A02125-e116750">Follower of fond conceited Phaeton:</l>
+          <l xml:id="A02125-e116760">Knowest thou to whom thou speakst? </l>
+        </sp>
+        <sp xml:id="A02125-e116770" who="A02125-marsillus">
+          <speaker>Mar:</speaker>
+          <l xml:id="A02125-e116780">Brave soldier (For so much thy courage</l>
+          <l xml:id="A02125-e116790">These men are princes, dipped within the blood (Says)</l>
+          <l xml:id="A02125-e116800">Of Kings most royal, seated in the West,</l>
+          <l xml:id="A02125-e116810">Unfit to accept a challenge at your hand. </l>
+          <l xml:id="A02125-e116820">Yet thanks that thou wouldst in thy lords defence</l>
+          <l xml:id="A02125-e116830">Fight for my daughter, but her guilt is known. </l>
+        </sp>
+        <sp xml:id="A02125-e116840" who="A02125-angelica">
+          <speaker>Ang:</speaker>
+          <l xml:id="A02125-e116850">Ay, rest thee soldier, Angelica is false,</l>
+          <l xml:id="A02125-e116860">False, for she hath no trial of her right:</l>
+          <l xml:id="A02125-e116870">Soldier, let me die for the miss of all. </l>
+          <l xml:id="A02125-e116880">Wert thou as stout as is proud Theseus,</l>
+          <l xml:id="A02125-e116890">In vain thy blade should offer my defence:</l>
+          <l xml:id="A02125-e116900">For why, these be the champions of the world,</l>
+          <l xml:id="A02125-e116910">Twelve peers of France that never yet were foiled. </l>
+        </sp>
+        <sp xml:id="A02125-e116920" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e116930">How madam, the twelve peers of France? </l>
+          <l xml:id="A02125-e116940">Why let them be twelve devils of hell:</l>
+          <l xml:id="A02125-e116950">What I have said I'll pawn my sword</l>
+          <l xml:id="A02125-e116960">To seal it on the shield of him that dares</l>
+          <l xml:id="A02125-e116970">Malgrado of his honour combat me. </l>
+        </sp>
+        <sp xml:id="A02125-e116980" who="A02125-oliver">
+          <speaker>Oliver.</speaker>
+          <l xml:id="A02125-e116990">Marry sir, that dare I. </l>
+        </sp>
+        <sp xml:id="A02125-e117000" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e117010">You're a welcome man sir. </l>
+        </sp>
+        <sp xml:id="A02125-e117020" who="A02125-turpin">
+          <speaker>Turpin.</speaker>
+          <l xml:id="A02125-e117030">Chastise the groom (Oliver) and learn him know,</l>
+          <l xml:id="A02125-e117040">We are not like the boys of Africa. </l>
+        </sp>
+        <sp xml:id="A02125-e117050" who="A02125-orlando">
+          <pb facs="29"/>
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e117060">Hear you sir: you that so peremptorily bade him fight,</l>
+          <l xml:id="A02125-e117070">Prepare your weapons for your turn is next,</l>
+          <l xml:id="A02125-e117080">'Tis not one champion that can discourage me,</l>
+          <l xml:id="A02125-e117090">Come are ye ready. </l>
+          <stage xml:id="A02125-e117100">He fighteth first with one, and then with another, and overcomes them both.</stage>
+          <l xml:id="A02125-e117110">So stand aside, and madam if my fortune last it out,</l>
+          <l xml:id="A02125-e117120">I'll guard you 〈◊〉 with twelve peers of France. </l>
+        </sp>
+        <sp xml:id="A02125-e117130" who="A02125-ogier">
+          <speaker>Og:</speaker>
+          <l xml:id="A02125-e117140">O 〈◊〉 how canst thou stand and see a slave</l>
+          <l xml:id="A02125-e117150">Disgrace the house of France: sirrah prepare you,</l>
+          <l xml:id="A02125-e117160">For angry 〈◊〉 sits on my sword to be revenged. </l>
+        </sp>
+        <sp xml:id="A02125-e117170" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <p xml:id="A02125-e117180">Well said Frenchman, you have made a goodly oration: but you had best to use your sword better, lest I beswinge you.</p>
+        </sp>
+        <stage xml:id="A02125-e117190">They fight a good while and then breath.</stage>
+        <sp xml:id="A02125-e117200" who="A02125-ogier">
+          <speaker>Og:</speaker>
+          <l xml:id="A02125-e117210">How so ere disguised in base or Indian shape,</l>
+          <l xml:id="A02125-e117220">Oger can well discern thee by thy blows,</l>
+          <l xml:id="A02125-e117230">For either thou art Orlando or the devil. </l>
+        </sp>
+        <sp xml:id="A02125-e117240" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e117250">Then to assure you that I am no devil,</l>
+          <l xml:id="A02125-e117260">Here's your friend and companion Orlando. </l>
+        </sp>
+        <sp xml:id="A02125-e117270" who="A02125-ogier">
+          <speaker>Oger:</speaker>
+          <l xml:id="A02125-e117280">And none can be more glad than Oger is</l>
+          <l xml:id="A02125-e117290">That he hath found his cousin in his sense. </l>
+        </sp>
+        <sp xml:id="A02125-e117300" who="A02125-oliver">
+          <speaker>Oli:</speaker>
+          <l xml:id="A02125-e117310">Whenas I felt his blows upon my shield,</l>
+          <l xml:id="A02125-e117320">My teeth did chatter and my thoughts conceived,</l>
+          <l xml:id="A02125-e117330">Who might this be if not the palatine. </l>
+        </sp>
+        <sp xml:id="A02125-e117340" who="A02125-turpin">
+          <pb facs="30"/>
+          <speaker>Turpin:</speaker>
+          <l xml:id="A02125-e117350">So had I said, but that report did tell,</l>
+          <l xml:id="A02125-e117360">My lord was troubled with a lunacy. </l>
+        </sp>
+        <sp xml:id="A02125-e117370" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e117380">So was I lordings: but give me leave a while,</l>
+          <l xml:id="A02125-e117390">Humbly as Mars did to his paramour,</l>
+          <l xml:id="A02125-e117400">So to submit to fair Angelica. </l>
+          <l xml:id="A02125-e117410">Pardon thy lord, fair saint Angelica,</l>
+          <l xml:id="A02125-e117420">Whose love stealing by steps into extremes,</l>
+          <l xml:id="A02125-e117430">Grew by suspicion to a causeless lunacy. </l>
+        </sp>
+        <sp xml:id="A02125-e117440" who="A02125-angelica">
+          <speaker>Angelica:</speaker>
+          <l xml:id="A02125-e117450">O no my lord, but pardon my amiss,</l>
+          <l xml:id="A02125-e117460">For had not Orlando loved Angelica</l>
+          <l xml:id="A02125-e117470">Ne'er had my lord fallen into these extremes,</l>
+          <l xml:id="A02125-e117480">Which we will parley private to ourselves:</l>
+          <l xml:id="A02125-e117490">Ne'er was the Queen of cypress half so glad,</l>
+          <l xml:id="A02125-e117500">As is Angelica to see her lord,</l>
+          <l xml:id="A02125-e117510">Her dear Orlando settled in his sense. </l>
+        </sp>
+        <sp xml:id="A02125-e117520" who="A02125-orlando">
+          <speaker>Orlando:</speaker>
+          <l xml:id="A02125-e117530">Thanks my sweet love. </l>
+          <l xml:id="A02125-e117540">But why stands the prince of Africa,</l>
+          <l xml:id="A02125-e117550">And Mandricard the King of Mexico,</l>
+          <l xml:id="A02125-e117560">So deep in dumps when all rejoice beside:</l>
+          <l xml:id="A02125-e117570">First know my lord, I slaughtered Sacrepant,</l>
+          <l xml:id="A02125-e117580">I am the man that did the slave to death,</l>
+          <l xml:id="A02125-e117590">Who frankly there did make confession,</l>
+          <l xml:id="A02125-e117600">That he engraved the roundelays on the trees,</l>
+          <l xml:id="A02125-e117610">And hung the schedules of poor Medor's love,</l>
+          <l xml:id="A02125-e117620">Intending by suspect to breed debate,</l>
+          <l xml:id="A02125-e117630">Deeply twixt me and fair Angelica:</l>
+          <l xml:id="A02125-e117640">His hope had hap but we had all the harm,</l>
+          <l xml:id="A02125-e117650">And now revenge leaping from out the seat,</l>
+          <l xml:id="A02125-e117660">Of him that may command stern Nemesis,</l>
+          <l xml:id="A02125-e117670"><pb facs="30"/> hath powered those treasons justly on his head. </l>
+          <l xml:id="A02125-e117680">What saith my gracious lord to this? </l>
+        </sp>
+        <sp xml:id="A02125-e117690" who="A02125-marsillus">
+          <speaker>Marsillus:</speaker>
+          <l xml:id="A02125-e117700">I stand amazed, deep overdrenched with joy,</l>
+          <l xml:id="A02125-e117710">To hear and see this unexpected end,</l>
+          <l xml:id="A02125-e117720">So well I rest content ye peers of France,</l>
+          <l xml:id="A02125-e117730">Sith it is proved Angelica is clear,</l>
+          <l xml:id="A02125-e117740">Her and my crown I freely will bestow,</l>
+          <l xml:id="A02125-e117750">Upon Orlando the county palatine. </l>
+        </sp>
+        <sp xml:id="A02125-e117760" who="A02125-orlando">
+          <speaker>Orl:</speaker>
+          <l xml:id="A02125-e117770">Thanks my good lord, and now my friends of France,</l>
+          <l xml:id="A02125-e117780">From 〈◊〉, be merry, we will hasten home,</l>
+          <l xml:id="A02125-e117790">So soon as King 〈◊〉 will consent,</l>
+          <l xml:id="A02125-e117800">To let his daughter 〈◊〉 with us to France,</l>
+          <l xml:id="A02125-e117810">Meanwhile we'll richly rig up all our fleet,</l>
+          <l xml:id="A02125-e117820">More brave than was that gallant Grecian keel,</l>
+          <l xml:id="A02125-e117830">That brought away the Colchian fleece of gold. </l>
+          <l xml:id="A02125-e117840">Our sails of sendal spread into the wind,</l>
+          <l xml:id="A02125-e117850">Our ropes and tacklings all of finest silk,</l>
+          <l xml:id="A02125-e117860">Fetched from the native looms of labouring worms,</l>
+          <l xml:id="A02125-e117870">The pride of Barbary, and the glorious wealth,</l>
+          <l xml:id="A02125-e117880">That is transported by the western bounds:</l>
+          <l xml:id="A02125-e117890">Our stems cut out of gleming ivory,</l>
+          <l xml:id="A02125-e117900">Our planks and sides framed out of cypress wood,</l>
+          <l xml:id="A02125-e117910">That bears the name of Cyparissus' change,</l>
+          <l xml:id="A02125-e117920">To burst the billows of the ocean sea,</l>
+          <l xml:id="A02125-e117930">Where Phoebus dips his amber-tresses oft,</l>
+          <l xml:id="A02125-e117940">And kisses Thetis in the days decline,</l>
+          <l xml:id="A02125-e117950">That Neptune proud shall call his Trytons forth,</l>
+          <l xml:id="A02125-e117960">To cover all the ocean with a calm:</l>
+          <l xml:id="A02125-e117970"><pb facs="31"/> so rich shall be the rubbish of our barks,</l>
+          <l xml:id="A02125-e117980">Ta'en here for ballast to the ports of France,</l>
+          <l xml:id="A02125-e117990">That Charles himself shall wonder at the sight. </l>
+          <l xml:id="A02125-e118000">Thus lordings when our banquetings be done,</l>
+          <l xml:id="A02125-e118010">And Orlando espoused to Angelica,</l>
+          <l xml:id="A02125-e118020">We'll furrow through the moving ocean,</l>
+          <l xml:id="A02125-e118030">And cheerly frolic with great Charlemagne. </l>
+        </sp>
+        <trailer xml:id="A02125-e118040">Finis.</trailer>
+        <pb facs="31"/>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A02125"><item xml:id="A02125-orlando" n="103">
+    <seg type="character_name">A02125-orlando</seg>
+    <seg type="speech_count">103</seg>
+  </item>
+  <item xml:id="A02125-orgalio" n="66">
+    <seg type="character_name">A02125-orgalio</seg>
+    <seg type="speech_count">66</seg>
+  </item>
+  <item xml:id="A02125-sacrepant" n="34">
+    <seg type="character_name">A02125-sacrepant</seg>
+    <seg type="speech_count">34</seg>
+  </item>
+  <item xml:id="A02125-marsillus" n="24">
+    <seg type="character_name">A02125-marsillus</seg>
+    <seg type="speech_count">24</seg>
+  </item>
+  <item xml:id="A02125-mandrecard" n="21">
+    <seg type="character_name">A02125-mandrecard</seg>
+    <seg type="speech_count">21</seg>
+  </item>
+  <item xml:id="A02125-angelica" n="15">
+    <seg type="character_name">A02125-angelica</seg>
+    <seg type="speech_count">15</seg>
+  </item>
+  <item xml:id="A02125-clown" n="13">
+    <seg type="character_name">A02125-clown</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+  <item xml:id="A02125-ogier" n="12">
+    <seg type="character_name">A02125-ogier</seg>
+    <seg type="speech_count">12</seg>
+  </item>
+  <item xml:id="A02125-rodamont" n="8">
+    <seg type="character_name">A02125-rodamont</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A02125-brandemart" n="8">
+    <seg type="character_name">A02125-brandemart</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A02125-fidler" n="8">
+    <seg type="character_name">A02125-fidler</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A02125-shepherd" n="8">
+    <seg type="character_name">A02125-shepherd</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A02125-tom" n="6">
+    <seg type="character_name">A02125-tom</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A02125-ralph" n="5">
+    <seg type="character_name">A02125-ralph</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A02125-melissa" n="5">
+    <seg type="character_name">A02125-melissa</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A02125-souldan" n="4">
+    <seg type="character_name">A02125-souldan</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A02125-oliver" n="4">
+    <seg type="character_name">A02125-oliver</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A02125-turpin" n="4">
+    <seg type="character_name">A02125-turpin</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A02125-medor" n="2">
+    <seg type="character_name">A02125-medor</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A02125-names" n="2">
+    <seg type="character_name">A02125-names</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A02125-fiddler" n="1">
+    <seg type="character_name">A02125-fiddler</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A02125-soldier" n="1">
+    <seg type="character_name">A02125-soldier</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A02125-aquitaine" n="1">
+    <seg type="character_name">A02125-aquitaine</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A02125-rodamant" n="1">
+    <seg type="character_name">A02125-rodamant</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+</list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

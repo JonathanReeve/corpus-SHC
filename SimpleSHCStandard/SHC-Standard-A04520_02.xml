@@ -1,0 +1,2042 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>1 &amp; 2 The Troublesome Reign of King John <date type="creation_date">1589</date></title>
+        <author>anon.</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A04520_02.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The first and second part of the troublesome raigne of Iohn King of England. With the discouerie of King Richard Cordelions base sonne (vulgarly named, the bastard Fawconbridge:) Also, the death of King Iohn at Swinstead Abbey. As they were (sundry times) lately acted by the Queenes Maiesties Players. Written by W. Sh.</title>
+          </titleStmt>
+          <extent>46 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2006 June (TCP phase 1)</date>
+            <idno type="marc">99842112</idno>
+            <idno type="stc">STC (2nd ed.) 14646.</idno>
+            <idno type="stc">Greg, I, 101(b).</idno>
+            <idno type="vid">6741</idno>
+            <idno type="DLPS">A04520</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The first and second part of the troublesome raigne of Iohn King of England. With the discouerie of King Richard Cordelions base sonne (vulgarly named, the bastard Fawconbridge:) Also, the death of King Iohn at Swinstead Abbey. As they were (sundry times) lately acted by the Queenes Maiesties Players. Written by W. Sh.</title>
+            <title type="alt">Troublesome raigne of King Iohn.</title>
+            <title type="alt">Troublesome raigne of King John.</title>
+            <author>Shakespeare, William, 1564-1616,</author>
+            <author>Marlowe, Christopher, 1564-1593,</author>
+          </titleStmt>
+          <extent>[92] p.</extent>
+          <publicationStmt>
+            <publisher>By Valentine Simmes for Iohn Helme, and are to be sold at his shop in Saint Dunstons Churchyard in Fleetestreet,</publisher>
+            <pubPlace>Imprinted at London :</pubPlace>
+            <date>1611.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>The troublesome raigne of John King of England.</p>
+            </note>
+            <note>
+              <p>The attribution to Shakespeare is probably spurious; sometimes also attributed to Christopher Marlowe.</p>
+            </note>
+            <note>
+              <p>Signatures: A-L4 M2.</p>
+            </note>
+            <note>
+              <p>The last leaf is blank.</p>
+            </note>
+            <note>
+              <p>Running title reads: The troublesome raigne of King Iohn.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the British Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>John, -- King of England, -- 1167-1216 -- Drama.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:id="A04520_02-e100010">
+    <body xml:id="A04520_02-e100020">
+      <div type="to_the_reader" xml:id="A04520_02-e100030">
+        <pb facs="28"/>
+        <head>To the gentlemen readers.</head>
+        <l xml:id="A04520_02-e100040">The changeless purpose of determined fate</l>
+        <l xml:id="A04520_02-e100050">Gives period to our care, or hearts content,</l>
+        <l xml:id="A04520_02-e100060">When heavens fixed time for this or that hath end:</l>
+        <l xml:id="A04520_02-e100070">Nor can earth's pomp or policy prevent</l>
+        <l xml:id="A04520_02-e100080">The doom ordained in their secret will. </l>
+        <l xml:id="A04520_02-e100090">Gentles, we left King John replete with bliss</l>
+        <l xml:id="A04520_02-e100100">That Arthur lived, whom he supposed slain;</l>
+        <l xml:id="A04520_02-e100110">And Hubert posting to return those lords,</l>
+        <l xml:id="A04520_02-e100120">Who deemed him dead, and parted discontent:</l>
+        <l xml:id="A04520_02-e100130">Arthur himself begins our latter act,</l>
+        <l xml:id="A04520_02-e100140">Our act of outrage, desperate fury, death;</l>
+        <l xml:id="A04520_02-e100150">Wherein fond rashness murdereth first a prince,</l>
+        <l xml:id="A04520_02-e100160">And monkish falseness poisoneth last a King,</l>
+        <l xml:id="A04520_02-e100170">First scene shows Arthur's death in infancy,</l>
+        <l xml:id="A04520_02-e100180">And last concludes John's fatal tragedy. </l>
+      </div>
+      <div n="2" type="part" xml:id="A04520_02-e100190">
+        <pb facs="28"/>
+        <head>The second part of the troublesome reign of King John. Containing the entrance of Lewis the French King's son: with the poisoning of King John by a monk.</head>
+        <stage xml:id="A04520_02-e100200">Enter young Arthur on the walls.</stage>
+        <sp xml:id="A04520_02-e100210" who="A04520_02-arthur">
+          <l xml:id="A04520_02-e100220">Now help good hap to further mine intent,</l>
+          <l xml:id="A04520_02-e100230">Cross not my youth with any more extremes:</l>
+          <l xml:id="A04520_02-e100240">I venture life to gain my liberty,</l>
+          <l xml:id="A04520_02-e100250">And if I die, world's troubles have an end. </l>
+          <l xml:id="A04520_02-e100260">Fear gins dissuade the strength of my resolve,</l>
+          <l xml:id="A04520_02-e100270">My hold will fail, and then alas I fall,</l>
+          <l xml:id="A04520_02-e100280">And if I fall, no question death is next:</l>
+          <l xml:id="A04520_02-e100290">Better desist, and live in prison still. </l>
+          <l xml:id="A04520_02-e100300">Prison said I? nay, rather death than so:</l>
+          <l xml:id="A04520_02-e100310">Comfort and courage come again to me,</l>
+          <l xml:id="A04520_02-e100320">I'll venture sure: 'tis but a leap for life. </l>
+          <stage xml:id="A04520_02-e100330">He leaps, and bruising his bones, after he was from his trance, speaks thus;</stage>
+          <l xml:id="A04520_02-e100340">Ho, who is nigh? somebody take me up. </l>
+          <l xml:id="A04520_02-e100350">Where is my mother? let me speak with her. </l>
+          <l xml:id="A04520_02-e100360">Who hurts me thus? speak ho, where are you gone? </l>
+          <l xml:id="A04520_02-e100370">Ay me poor Arthur, I am here alone. </l>
+          <l xml:id="A04520_02-e100380">Why called I mother, how did I forget? </l>
+          <l xml:id="A04520_02-e100390">My fall, my fall, hath killed my mother's son. </l>
+          <l xml:id="A04520_02-e100400">How will she weep at tidings of my death? </l>
+          <l xml:id="A04520_02-e100410">My death indeed, oh God, my bones are burst. </l>
+          <l xml:id="A04520_02-e100420"><pb facs="29"/>Sweet Jesu save my soul, forgive my rash attempt,</l>
+          <l xml:id="A04520_02-e100430">Comfort my mother, shield her from despair,</l>
+          <l xml:id="A04520_02-e100440">When she shall hear my tragic overthrow. </l>
+          <l xml:id="A04520_02-e100450">My heart controls the office of my tongue,</l>
+          <l xml:id="A04520_02-e100460">My vital powers forsake my bruised trunk,</l>
+          <l xml:id="A04520_02-e100470">I die I die, heaven take my fleeting soul,</l>
+          <l xml:id="A04520_02-e100480">And lady mother all good hap to thee. </l>
+        </sp>
+        <stage xml:id="A04520_02-e100490">He dies.</stage>
+        <stage xml:id="A04520_02-e100500">Enter Pembroke, Salisbury, Essex.</stage>
+        <sp xml:id="A04520_02-e100510" who="A04520_02-essex">
+          <speaker>Essex.</speaker>
+          <l xml:id="A04520_02-e100520">My lords of Pembroke and of Salisbury,</l>
+          <l xml:id="A04520_02-e100530">We must be careful in our policy,</l>
+          <l xml:id="A04520_02-e100540">To undermine the keepers of this place,</l>
+          <l xml:id="A04520_02-e100550">Else shall we never find the prince's grave. </l>
+        </sp>
+        <sp xml:id="A04520_02-e100560" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <l xml:id="A04520_02-e100570">My lord of Essex, take no care for that,</l>
+          <l xml:id="A04520_02-e100580">I warrant you it was not closely done. </l>
+          <l xml:id="A04520_02-e100590">But who is this? lo lords the withered flower,</l>
+          <l xml:id="A04520_02-e100600">Who in his life shined like the morning's blush,</l>
+          <l xml:id="A04520_02-e100610">Cast out a door, denied his burial right,</l>
+          <l xml:id="A04520_02-e100620">A prey for birds and beasts to gorge upon. </l>
+        </sp>
+        <sp xml:id="A04520_02-e100630" who="A04520_02-salisbury">
+          <speaker>Salisb.</speaker>
+          <l xml:id="A04520_02-e100640">O ruthful spectacle! O damned deed! </l>
+          <l xml:id="A04520_02-e100650">My sinews shake, my very heart doth bleed. </l>
+        </sp>
+        <sp xml:id="A04520_02-e100660" who="A04520_02-essex">
+          <speaker>Essex.</speaker>
+          <l xml:id="A04520_02-e100670">Leave childish tears brave lords of England,</l>
+          <l xml:id="A04520_02-e100680">If water-floods could fetch his life again,</l>
+          <l xml:id="A04520_02-e100690">My eyes should conduit forth a sea of tears. </l>
+          <l xml:id="A04520_02-e100700">If sobs would help, or sorrows serve the turn,</l>
+          <l xml:id="A04520_02-e100710">My heart should volley out deep piercing plaints. </l>
+          <l xml:id="A04520_02-e100720">But bootless were't to breathe as many sighs</l>
+          <l xml:id="A04520_02-e100730">As might eclipse the brightest summer's sun,</l>
+          <l xml:id="A04520_02-e100740">Here rests the help, a service to his ghost. </l>
+          <l xml:id="A04520_02-e100750">Let not the tyrant causer of this dole,</l>
+          <l xml:id="A04520_02-e100760">Live to triumph in ruthful massacres,</l>
+          <l xml:id="A04520_02-e100770">Give hand and heart, and Englishmen to arms,</l>
+          <l xml:id="A04520_02-e100780">'Tis god's decree to wreak us of these harms. </l>
+        </sp>
+        <sp xml:id="A04520_02-e100790" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <l xml:id="A04520_02-e100800">The best advice: but who comes posting here? </l>
+          <stage xml:id="A04520_02-e100810"><pb facs="29"/>Enter Hubert. </stage>
+          <l xml:id="A04520_02-e100820">Right noble lords, I speak unto you all,</l>
+          <l xml:id="A04520_02-e100830">The King entreats your soonest speed</l>
+          <l xml:id="A04520_02-e100840">To visit him, who on your present want,</l>
+          <l xml:id="A04520_02-e100850">Did ban and curse his birth, himself and me,</l>
+          <l xml:id="A04520_02-e100860">For executing of his strict command. </l>
+          <l xml:id="A04520_02-e100870">I saw his passion, and at fittest time,</l>
+          <l xml:id="A04520_02-e100880">Assured him of his cousin's being safe,</l>
+          <l xml:id="A04520_02-e100890">Whom pity would not let me do to death:</l>
+          <l xml:id="A04520_02-e100900">He craves your company my lords in haste,</l>
+          <l xml:id="A04520_02-e100910">To whom I will conduct young Arthur straight,</l>
+          <l xml:id="A04520_02-e100920">Who is in health under my custody. </l>
+        </sp>
+        <sp xml:id="A04520_02-e100930" who="A04520_02-essex">
+          <speaker>Essex.</speaker>
+          <l xml:id="A04520_02-e100940">In health base villain, were't not I leave the crime</l>
+          <l xml:id="A04520_02-e100950">To god's revenge, to whom revenge belongs,</l>
+          <l xml:id="A04520_02-e100960">Here shouldst thou perish on my rapiers point. </l>
+          <l xml:id="A04520_02-e100970">Callest thou this health? such health betide thy friends,</l>
+          <l xml:id="A04520_02-e100980">And all that are of thy condition,</l>
+        </sp>
+        <sp xml:id="A04520_02-e100990" who="A04520_02-hubert">
+          <speaker>Hub.</speaker>
+          <l xml:id="A04520_02-e101000">My lords, but hear me speak, and kill me then,</l>
+          <l xml:id="A04520_02-e101010">If here I left not this young prince alive,</l>
+          <l xml:id="A04520_02-e101020">Maugre the hasty edict of the King,</l>
+          <l xml:id="A04520_02-e101030">Who gave me charge to put out both his eyes,</l>
+          <l xml:id="A04520_02-e101040">That God that gave me living to this hour,</l>
+          <l xml:id="A04520_02-e101050">Thunder revenge upon me in this place:</l>
+          <l xml:id="A04520_02-e101060">And as I tendered him with earnest love,</l>
+          <l xml:id="A04520_02-e101070">So God love me, and then I shall be well. </l>
+        </sp>
+        <sp xml:id="A04520_02-e101080" who="A04520_02-salisbury">
+          <speaker>Sals.</speaker>
+          <l xml:id="A04520_02-e101090">Hence traitor hence, thy counsel is herein. </l>
+          <stage xml:id="A04520_02-e101100">Exit. Hu.</stage>
+          <l xml:id="A04520_02-e101110">Some in this place appointed by the King,</l>
+          <l xml:id="A04520_02-e101120">Have thrown him from this lodging here above,</l>
+          <l xml:id="A04520_02-e101130">And sure the murder hath been newly done,</l>
+          <l xml:id="A04520_02-e101140">For yet the body is not fully cold. </l>
+        </sp>
+        <sp xml:id="A04520_02-e101150" who="A04520_02-essex">
+          <speaker>Essex.</speaker>
+          <l xml:id="A04520_02-e101160">How say you lords, shall we with speed dispatch</l>
+          <l xml:id="A04520_02-e101170">Under our hands a packet into France,</l>
+          <l xml:id="A04520_02-e101180">To bid the dolphin enter with his force,</l>
+          <l xml:id="A04520_02-e101190">To claim the kingdom for his proper right,</l>
+          <l xml:id="A04520_02-e101200">His title maketh lawful strength thereto. </l>
+          <l xml:id="A04520_02-e101210">Besides, the Pope, on peril of his curse,</l>
+          <l xml:id="A04520_02-e101220"><pb facs="30"/> hath barred us of obedience unto John,</l>
+          <l xml:id="A04520_02-e101230">This hateful murder, Lewis his true descent,</l>
+          <l xml:id="A04520_02-e101240">The holy charge that we received from Rome,</l>
+          <l xml:id="A04520_02-e101250">Are weighty reasons, if you like my reed,</l>
+          <l xml:id="A04520_02-e101260">To make us all persever in this deed. </l>
+        </sp>
+        <sp xml:id="A04520_02-e101270" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <l xml:id="A04520_02-e101280">My lord of Essex, well have you advised,</l>
+          <l xml:id="A04520_02-e101290">I will accord to further you in this. </l>
+        </sp>
+        <sp xml:id="A04520_02-e101300" who="A04520_02-salisbury">
+          <speaker>Salisb.</speaker>
+          <l xml:id="A04520_02-e101310">And Salisbury will not gainsay the same:</l>
+          <l xml:id="A04520_02-e101320">But aid that course as far forth as he can. </l>
+        </sp>
+        <sp xml:id="A04520_02-e101330" who="A04520_02-essex">
+          <speaker>Essex.</speaker>
+          <l xml:id="A04520_02-e101340">Then each of us send straight to his allies,</l>
+          <l xml:id="A04520_02-e101350">To win them to this famous enterprise:</l>
+          <l xml:id="A04520_02-e101360">And let us all clad in palmer's weed,</l>
+          <l xml:id="A04520_02-e101370">The tenth of April at s. Edmund's bury</l>
+          <l xml:id="A04520_02-e101380">Meet to confer, and on the altar there</l>
+          <l xml:id="A04520_02-e101390">Swear secrecy and aid to this advice. </l>
+          <l xml:id="A04520_02-e101400">Meanwhile , let us convey this body hence,</l>
+          <l xml:id="A04520_02-e101410">And give him burial, as befits his state,</l>
+          <l xml:id="A04520_02-e101420">Keeping his month's mind, and his obsequies</l>
+          <l xml:id="A04520_02-e101430">With solemn intercession for his soul. </l>
+          <l xml:id="A04520_02-e101440">How say you lordings, are you all agreed? </l>
+        </sp>
+        <sp xml:id="A04520_02-e101450" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <l xml:id="A04520_02-e101460">The tenth of April at s. Edmund's bury,</l>
+          <l xml:id="A04520_02-e101470">God letting not, I will not fail the time. </l>
+        </sp>
+        <sp xml:id="A04520_02-e101480" who="A04520_02-essex">
+          <speaker>Essex.</speaker>
+          <p xml:id="A04520_02-e101490">Then let us all convey the body hence.</p>
+        </sp>
+        <stage xml:id="A04520_02-e101500">Exeunt.</stage>
+        <stage xml:id="A04520_02-e101510">Enter K. John, with two or three, and the prophet.</stage>
+        <sp xml:id="A04520_02-e101520" who="A04520_02-john">
+          <speaker>Joh.</speaker>
+          <l xml:id="A04520_02-e101530">Disturbed thoughts, foredoomers of mine ill,</l>
+          <l xml:id="A04520_02-e101540">Distracted passions, signs of growing harms,</l>
+          <l xml:id="A04520_02-e101550">Strange prophecies of imminent mishaps,</l>
+          <l xml:id="A04520_02-e101560">Confound my wits, and dull my senses so,</l>
+          <l xml:id="A04520_02-e101570">That every object these mine eyes behold,</l>
+          <l xml:id="A04520_02-e101580">Seem instruments to bring me to my end. </l>
+          <l xml:id="A04520_02-e101590">Ascension day is come, John fear not then</l>
+          <l xml:id="A04520_02-e101600">The prodigies this prattling prophet threats. </l>
+          <l xml:id="A04520_02-e101610">'Tis come indeed: ah were it fully passed,</l>
+          <l xml:id="A04520_02-e101620">Then were I careless of a thousand fears. </l>
+          <l xml:id="A04520_02-e101630"><pb facs="30"/>The dial tells me, it is twelve at noon. </l>
+          <l xml:id="A04520_02-e101640">Were twelve at midnight past, then might I vaunt,</l>
+          <l xml:id="A04520_02-e101650">False seers prophecies of no import. </l>
+          <l xml:id="A04520_02-e101660">Could I as well with this right hand of mine</l>
+          <l xml:id="A04520_02-e101670">Remove the sun from our meridian,</l>
+          <l xml:id="A04520_02-e101680">Unto the moonested circle of th'antipodes,</l>
+          <l xml:id="A04520_02-e101690">As turn this steel from twelve to twelve again,</l>
+          <l xml:id="A04520_02-e101700">Than John, the date of fatal prophecies,</l>
+          <l xml:id="A04520_02-e101710">Should with the prophet's life together end. </l>
+          <l xml:id="A04520_02-e101720">But multa cadunt inter calicem supremaque labra. </l>
+          <l xml:id="A04520_02-e101730">Peter, unsay thy foolish doting dream,</l>
+          <l xml:id="A04520_02-e101740">And by the crown of England here I swear,</l>
+          <l xml:id="A04520_02-e101750">To make thee great, and greatest of thy kin. </l>
+        </sp>
+        <sp xml:id="A04520_02-e101760" who="A04520_02-peter">
+          <speaker>Peter.</speaker>
+          <l xml:id="A04520_02-e101770">King John, although the time I have prescribed</l>
+          <l xml:id="A04520_02-e101780">Be but twelve hours remaining yet behind,</l>
+          <l xml:id="A04520_02-e101790">Yet do I know by inspiration,</l>
+          <l xml:id="A04520_02-e101800">Ere that fixed time be fully come about,</l>
+          <l xml:id="A04520_02-e101810">King John shall not be King as heretofore. </l>
+        </sp>
+        <sp xml:id="A04520_02-e101820" who="A04520_02-john">
+          <speaker>John.</speaker>
+          <l xml:id="A04520_02-e101830">Vain buzzard, what mischance can chance so soon,</l>
+          <l xml:id="A04520_02-e101840">To set a King beside his regal seat? </l>
+          <l xml:id="A04520_02-e101850">My heart is good, my body passing strong,</l>
+          <l xml:id="A04520_02-e101860">My land in peace, my enemies subdued,</l>
+          <l xml:id="A04520_02-e101870">Only my barons storm at Arthur's death,</l>
+          <l xml:id="A04520_02-e101880">But Arthur lives, I there the challenge grows,</l>
+          <l xml:id="A04520_02-e101890">Were he dispatched unto his longest home,</l>
+          <l xml:id="A04520_02-e101900">Then were the King secure of thousand foes. </l>
+          <l xml:id="A04520_02-e101910">Hubert, what news with thee, where are my lords? </l>
+        </sp>
+        <sp xml:id="A04520_02-e101920" who="A04520_02-hubert">
+          <speaker>Hub.</speaker>
+          <l xml:id="A04520_02-e101930">Hard news my lord, Arthur the lovely prince,</l>
+          <l xml:id="A04520_02-e101940">Seeking to escape over the castle walls,</l>
+          <l xml:id="A04520_02-e101950">Fell headlong down, and in the cursed fall</l>
+          <l xml:id="A04520_02-e101960">He broke his bones, and there before the gate</l>
+          <l xml:id="A04520_02-e101970">Your barons found him dead, and breathless quite. </l>
+        </sp>
+        <sp xml:id="A04520_02-e101980" who="A04520_02-john">
+          <speaker>Joh.</speaker>
+          <l xml:id="A04520_02-e101990">Is Arthur dead? then Hubert without more words hang the prophet. </l>
+          <l xml:id="A04520_02-e102000">Away with Peter, villain out of my sight,</l>
+          <l xml:id="A04520_02-e102010">I am deaf, be gone, let him not speak a word. </l>
+          <l xml:id="A04520_02-e102020"><pb facs="31"/>Now John, thy fears are vanished into smoke,</l>
+          <l xml:id="A04520_02-e102030">Arthur is dead, thou guiltless of his death. </l>
+          <l xml:id="A04520_02-e102040">Sweet youth, but that I strived for a crown,</l>
+          <l xml:id="A04520_02-e102050">I could have well afforded to thine age,</l>
+          <l xml:id="A04520_02-e102060">Long life, and happiness to thy content. </l>
+        </sp>
+        <stage xml:id="A04520_02-e102070">Enter the bastard.</stage>
+        <sp xml:id="A04520_02-e102080" who="A04520_02-john">
+          <speaker>Joh.</speaker>
+          <p xml:id="A04520_02-e102090">Philip what news with thee?</p>
+        </sp>
+        <sp xml:id="A04520_02-e102100" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e102110">The news I heard was Peter's prayers,</l>
+          <l xml:id="A04520_02-e102120">Who wished like fortune to befall us all:</l>
+          <l xml:id="A04520_02-e102130">And with that word, the rope his latest friend,</l>
+          <l xml:id="A04520_02-e102140">Kept him from falling headlong to the ground. </l>
+        </sp>
+        <sp xml:id="A04520_02-e102150" who="A04520_02-john">
+          <speaker>Joh.</speaker>
+          <l xml:id="A04520_02-e102160">There let him hang, and be the raven's food,</l>
+          <l xml:id="A04520_02-e102170">While John triumphs in spite of prophecies. </l>
+          <l xml:id="A04520_02-e102180">But what's the tidings from the popelings now? </l>
+          <l xml:id="A04520_02-e102190">What say the monks and priests to our proceedings? </l>
+          <l xml:id="A04520_02-e102200">Or where's the barons that so suddenly</l>
+          <l xml:id="A04520_02-e102210">Did leave the King upon a false surmise? </l>
+        </sp>
+        <sp xml:id="A04520_02-e102220" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e102230">The prelates storm and thirst for sharp revenge:</l>
+          <l xml:id="A04520_02-e102240">But please your majesty, were that the worst,</l>
+          <l xml:id="A04520_02-e102250">It little skilled: a greater danger grows,</l>
+          <l xml:id="A04520_02-e102260">Which must be weeded out by careful speed,</l>
+          <l xml:id="A04520_02-e102270">Or all is lost, for all is levelled at. </l>
+        </sp>
+        <sp xml:id="A04520_02-e102280" who="A04520_02-john">
+          <speaker>Joh.</speaker>
+          <l xml:id="A04520_02-e102290">More frights and fears ▪ whate'er thy tidings be,</l>
+          <l xml:id="A04520_02-e102300">I am prepared: then Philip, quickly say,</l>
+          <l xml:id="A04520_02-e102310">Mean they to murder, or imprison me,</l>
+          <l xml:id="A04520_02-e102320">To give my crown away to Rome or France;</l>
+          <l xml:id="A04520_02-e102330">Or will they each of them become a King? </l>
+          <l xml:id="A04520_02-e102340">Worse than I think it is, it cannot be. </l>
+        </sp>
+        <sp xml:id="A04520_02-e102350" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e102360">Not worse my lord, but every whit as bad. </l>
+          <l xml:id="A04520_02-e102370">The nobles have elected Lewis King,</l>
+          <l xml:id="A04520_02-e102380">In right of lady Blanch, your niece, his wife:</l>
+          <l xml:id="A04520_02-e102390">His landing is expected every hour,</l>
+          <l xml:id="A04520_02-e102400">The nobles, commons, clergy, all estates,</l>
+          <l xml:id="A04520_02-e102410">Incited chiefly by the Cardinal,</l>
+          <l xml:id="A04520_02-e102420"><pb facs="31"/> Pandulph that lies here legate for the Pope,</l>
+          <l xml:id="A04520_02-e102430">Think long to see their new elected King. </l>
+          <l xml:id="A04520_02-e102440">And for undoubted proof, see here my liege,</l>
+          <l xml:id="A04520_02-e102450">Letters to me from your nobility,</l>
+          <l xml:id="A04520_02-e102460">To be a party in this action:</l>
+          <l xml:id="A04520_02-e102470">Who under show of feigned holiness,</l>
+          <l xml:id="A04520_02-e102480">Appoint their meeting at s. Edmund's bury,</l>
+          <l xml:id="A04520_02-e102490">There to consult, conspire, and conclude</l>
+          <l xml:id="A04520_02-e102500">The overthrow and downfall of your state. </l>
+        </sp>
+        <sp xml:id="A04520_02-e102510" who="A04520_02-john">
+          <speaker>Joh.</speaker>
+          <l xml:id="A04520_02-e102520">Why so it must be: one hour of content,</l>
+          <l xml:id="A04520_02-e102530">Matched with a month of passionate effects. </l>
+          <l xml:id="A04520_02-e102540">Why shines the sun to favour this consort? </l>
+          <l xml:id="A04520_02-e102550">Why do the winds not break their brazen gates,</l>
+          <l xml:id="A04520_02-e102560">And scatter all these perjured complices,</l>
+          <l xml:id="A04520_02-e102570">With all their counsels, and their damned drifts? </l>
+          <l xml:id="A04520_02-e102580">But see the welkin rolleth gently on,</l>
+          <l xml:id="A04520_02-e102590">There's not a lowering cloud to frown on them;</l>
+          <l xml:id="A04520_02-e102600">The heaven, the earth, the sun, the moon and all,</l>
+          <l xml:id="A04520_02-e102610">Conspire with those confederates my decay. </l>
+          <l xml:id="A04520_02-e102620">Then hell for me, if any power be there,</l>
+          <l xml:id="A04520_02-e102630">Forsake that place, and guide me step by step,</l>
+          <l xml:id="A04520_02-e102640">To poison, strangle, murder in their steps</l>
+          <l xml:id="A04520_02-e102650">These traitors: o that name is too good for them,</l>
+          <l xml:id="A04520_02-e102660">And death is easy: is there nothing worse,</l>
+          <l xml:id="A04520_02-e102670">To wreak me on this proud peacebreaking crew? </l>
+          <l xml:id="A04520_02-e102680">What sayest thou Philip? why assists thou not? </l>
+        </sp>
+        <sp xml:id="A04520_02-e102690" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e102700">These curses (Good my lord) fit not the season:</l>
+          <l xml:id="A04520_02-e102710">Help must descend from heaven against this treason? </l>
+        </sp>
+        <sp xml:id="A04520_02-e102720" who="A04520_02-john">
+          <speaker>Joh.</speaker>
+          <l xml:id="A04520_02-e102730">Nay thou wilt prove a traitor with the rest,</l>
+          <l xml:id="A04520_02-e102740">Go get thee to them, shame come to you all. </l>
+        </sp>
+        <sp xml:id="A04520_02-e102750" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e102760">I would be loath to leave your highness thus,</l>
+          <l xml:id="A04520_02-e102770">Yet you command, and I, though grieved, will go. </l>
+        </sp>
+        <sp xml:id="A04520_02-e102780" who="A04520_02-john">
+          <speaker>Joh.</speaker>
+          <p xml:id="A04520_02-e102790">Ah Philip, whither goest thou? come again.</p>
+        </sp>
+        <sp xml:id="A04520_02-e102800" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <p xml:id="A04520_02-e102810">My lord, these motions are as passions of a mad man.</p>
+        </sp>
+        <sp xml:id="A04520_02-e102820" who="A04520_02-john">
+          <speaker>Joh.</speaker>
+          <l xml:id="A04520_02-e102830">A mad man Philip, I am mad indeed,</l>
+          <l xml:id="A04520_02-e102840">My heart is mazed, my senses all foredone. </l>
+          <l xml:id="A04520_02-e102850"><pb facs="32"/>And John of England now is quite undone. </l>
+          <l xml:id="A04520_02-e102860">Was ever King as I oppressed with cares? </l>
+          <l xml:id="A04520_02-e102870">Dame Elianor my noble mother Queen,</l>
+          <l xml:id="A04520_02-e102880">My only hope and comfort in distress,</l>
+          <l xml:id="A04520_02-e102890">Is dead, and England excommunicate,</l>
+          <l xml:id="A04520_02-e102900">And I am interdicted by the Pope,</l>
+          <l xml:id="A04520_02-e102910">All churches cursed, their doors are sealed up,</l>
+          <l xml:id="A04520_02-e102920">And for the pleasure of the Romish priest,</l>
+          <l xml:id="A04520_02-e102930">The service of the highest is neglected,</l>
+          <l xml:id="A04520_02-e102940">The multitude (A beast of many heads)</l>
+          <l xml:id="A04520_02-e102950">Do wish confusion to their sovereign;</l>
+          <l xml:id="A04520_02-e102960">The nobles blinded with ambitions fumes,</l>
+          <l xml:id="A04520_02-e102970">Assemble powers to beat mine empire down,</l>
+          <l xml:id="A04520_02-e102980">And more than this, elect a foreign King. </l>
+          <l xml:id="A04520_02-e102990">O England, wert thou ever miserable,</l>
+          <l xml:id="A04520_02-e103000">King John of England sees thee miserable:</l>
+          <l xml:id="A04520_02-e103010">John, 'tis thy sin's that makes it miserable,</l>
+          <l xml:id="A04520_02-e103020">Quicquid delirunt reges, plectuntur achivi. </l>
+          <l xml:id="A04520_02-e103030">Philip, as thou hast ever loved thy King,</l>
+          <l xml:id="A04520_02-e103040">So show it now: post to s. Edmund's bury,</l>
+          <l xml:id="A04520_02-e103050">Dissemble with the nobles, know their drifts,</l>
+          <l xml:id="A04520_02-e103060">Confound their devilish plots, and damned devises. </l>
+          <l xml:id="A04520_02-e103070">Though John be faulty, yet let subjects bear,</l>
+          <l xml:id="A04520_02-e103080">He will amend, and right the people's wrongs. </l>
+          <l xml:id="A04520_02-e103090">A mother though she were unnatural,</l>
+          <l xml:id="A04520_02-e103100">Is better than the kindest stepdame is:</l>
+          <l xml:id="A04520_02-e103110">Let never Englishman trust foreign rule. </l>
+          <l xml:id="A04520_02-e103120">Then Philip show thy fealty to thy King,</l>
+          <l xml:id="A04520_02-e103130">And amongst the nobles plead thou for the King. </l>
+        </sp>
+        <sp xml:id="A04520_02-e103140" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e103150">I go my lord: see how he is distraught,</l>
+          <l xml:id="A04520_02-e103160">This is the cursed priest of Italy</l>
+          <l xml:id="A04520_02-e103170">Hath heaped these mischiefs on this hapless land. </l>
+          <l xml:id="A04520_02-e103180">Now Philip, hadst thou Tully's eloquence,</l>
+          <l xml:id="A04520_02-e103190">Then mightst thou hope to plead with good success. </l>
+        </sp>
+        <stage xml:id="A04520_02-e103200">Exit</stage>
+        <sp xml:id="A04520_02-e103210" who="A04520_02-john">
+          <speaker>Joh.</speaker>
+          <l xml:id="A04520_02-e103220">And art thou gone? success may follow thee:</l>
+          <l xml:id="A04520_02-e103230">Thus hast thou showed thy kindness to thy King. </l>
+          <l xml:id="A04520_02-e103240"><pb facs="32"/>Sirrah, in haste go greet the Cardinal,</l>
+          <l xml:id="A04520_02-e103250">Pandulph I mean, the legate from the Pope. </l>
+          <l xml:id="A04520_02-e103260">Say that the King desires to speak with him. </l>
+          <l xml:id="A04520_02-e103270">Now John bethink thee how thou mayst resolve:</l>
+          <l xml:id="A04520_02-e103280">And if thou wilt continue England's King,</l>
+          <l xml:id="A04520_02-e103290">Then cast about to keep thy diadem;</l>
+          <l xml:id="A04520_02-e103300">For life and land, and all is levelled at. </l>
+          <l xml:id="A04520_02-e103310">The Pope of Rome, 'tis he that is the cause,</l>
+          <l xml:id="A04520_02-e103320">He curseth thee, he sets thy subjects free</l>
+          <l xml:id="A04520_02-e103330">From due obedience to their sovereign:</l>
+          <l xml:id="A04520_02-e103340">He animates the nobles in their wars,</l>
+          <l xml:id="A04520_02-e103350">He gives away the crown to Philip's son,</l>
+          <l xml:id="A04520_02-e103360">And pardons all that seek to murder thee:</l>
+          <l xml:id="A04520_02-e103370">And thus blind zeal is still predominant. </l>
+          <l xml:id="A04520_02-e103380">Then John there is no way to keep thy crown,</l>
+          <l xml:id="A04520_02-e103390">But finely to dissemble with the Pope:</l>
+          <l xml:id="A04520_02-e103400">That hand that gave the wound must give the salve</l>
+          <l xml:id="A04520_02-e103410">To cure the hurt, else quite incurable. </l>
+          <l xml:id="A04520_02-e103420">Thy sins are far too great to be the man</l>
+          <l xml:id="A04520_02-e103430">T'abolish Pope, and popery from thy realm:</l>
+          <l xml:id="A04520_02-e103440">But in thy seat, if I may guess at all,</l>
+          <l xml:id="A04520_02-e103450">A King shall reign that shall suppress them all. </l>
+          <l xml:id="A04520_02-e103460">Peace John, here comes the legate of the Pope,</l>
+          <l xml:id="A04520_02-e103470">Dissemble thou, and whatsoever thou sayest,</l>
+          <l xml:id="A04520_02-e103480">Yet with thy heart wish their confusion. </l>
+        </sp>
+        <stage xml:id="A04520_02-e103490">Enter Pandulph.</stage>
+        <sp xml:id="A04520_02-e103500" who="A04520_02-pandulph">
+          <speaker>Pand.</speaker>
+          <l xml:id="A04520_02-e103510">Now John, unworthy man to breathe on earth,</l>
+          <l xml:id="A04520_02-e103520">That dost oppugn against thy mother church:</l>
+          <l xml:id="A04520_02-e103530">Why am I sent for to thy cursed self? </l>
+        </sp>
+        <sp xml:id="A04520_02-e103540" who="A04520_02-john">
+          <speaker>John.</speaker>
+          <l xml:id="A04520_02-e103550">Thou man of God, vicegerent for the Pope,</l>
+          <l xml:id="A04520_02-e103560">The holy vicar of s. Peter's church,</l>
+          <l xml:id="A04520_02-e103570">Upon my knees, I pardon crave of thee,</l>
+          <l xml:id="A04520_02-e103580">And do submit me to the see of Rome,</l>
+          <l xml:id="A04520_02-e103590">And vow for penance of my high offence,</l>
+          <l xml:id="A04520_02-e103600"><pb facs="33"/> to take on me the holy cross of Christ,</l>
+          <l xml:id="A04520_02-e103610">And carry arms in holy Christian wars. </l>
+        </sp>
+        <sp xml:id="A04520_02-e103620" who="A04520_02-pandulph">
+          <speaker>Pand.</speaker>
+          <l xml:id="A04520_02-e103630">No John, thy crouching and dissembling thus</l>
+          <l xml:id="A04520_02-e103640">Cannot deceive the legate of the Pope,</l>
+          <l xml:id="A04520_02-e103650">Say what thou wilt, I will not credit thee:</l>
+          <l xml:id="A04520_02-e103660">Thy crown and kingdom both are ta'en away,</l>
+          <l xml:id="A04520_02-e103670">And thou art cursed without redemption. </l>
+        </sp>
+        <sp xml:id="A04520_02-e103680" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e103690">Accursed indeed to kneel to such a drudge,</l>
+          <l xml:id="A04520_02-e103700">And get no help with thy submission,</l>
+          <l xml:id="A04520_02-e103710">Unsheathe thy sword, and slay the misproud priest</l>
+          <l xml:id="A04520_02-e103720">That thus triumphs o'er thee a mighty King:</l>
+          <l xml:id="A04520_02-e103730">No John, submit again, dissemble yet,</l>
+          <l xml:id="A04520_02-e103740">For priests and women must be flattered. </l>
+          <l xml:id="A04520_02-e103750">Yet holy father thou thyself dost know,</l>
+          <l xml:id="A04520_02-e103760">No time too late for sinners to repent,</l>
+          <l xml:id="A04520_02-e103770">Absolve me then, and John doth swear to do</l>
+          <l xml:id="A04520_02-e103780">The uttermost whatever thou demandest. </l>
+        </sp>
+        <sp xml:id="A04520_02-e103790" who="A04520_02-pandulph">
+          <speaker>Pandulph</speaker>
+          <l xml:id="A04520_02-e103800">John, now I see thy hearty penitence,</l>
+          <l xml:id="A04520_02-e103810">I rue and pity thy distressed estate,</l>
+          <l xml:id="A04520_02-e103820">One way is left to reconcile thyself,</l>
+          <l xml:id="A04520_02-e103830">And only one which I shall show to thee. </l>
+          <l xml:id="A04520_02-e103840">Thou must surrender to the see of Rome</l>
+          <l xml:id="A04520_02-e103850">Thy crown and diadem, then shall the Pope</l>
+          <l xml:id="A04520_02-e103860">Defend thee from th'invasion of thy foes. </l>
+          <l xml:id="A04520_02-e103870">And where his holiness hath kindled France,</l>
+          <l xml:id="A04520_02-e103880">And set thy subjects' hearts at war with thee,</l>
+          <l xml:id="A04520_02-e103890">Then shall he curse thy foes, and beat them down,</l>
+          <l xml:id="A04520_02-e103900">That seek the discontentment of the King. </l>
+        </sp>
+        <sp xml:id="A04520_02-e103910" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e103920">From bad to worse, or I must lose my realm,</l>
+          <l xml:id="A04520_02-e103930">Or give my crown for penance unto Rome:</l>
+          <l xml:id="A04520_02-e103940">A misery more piercing than the darts</l>
+          <l xml:id="A04520_02-e103950">That break from burning exhalations power. </l>
+          <l xml:id="A04520_02-e103960">What, shall I give my crown with this right hand? </l>
+          <l xml:id="A04520_02-e103970">No: with this hand defend thy crown and thee. </l>
+          <l xml:id="A04520_02-e103980">What news with thee? </l>
+        </sp>
+        <stage xml:id="A04520_02-e103990"><pb facs="33"/>Enter messenger.</stage>
+        <sp xml:id="A04520_02-e104000" who="A04520_02-messenger">
+          <p xml:id="A04520_02-e104010">Please it your majesty, there is descried on the coast of Kent an hundred sail of ships, which of all men is thought to be the French fleet, under the conduct of the dolphin, so that it puts the country in a mutiny, so they send to your grace for succour.</p>
+        </sp>
+        <sp xml:id="A04520_02-e104020" who="A04520_02-john">
+          <speaker>K. Joh.</speaker>
+          <l xml:id="A04520_02-e104030">How now lord Cardinal, what's your best advice? </l>
+          <l xml:id="A04520_02-e104040">These mutinies must be allayed in time,</l>
+          <l xml:id="A04520_02-e104050">By policy or headstrong rage at least. </l>
+          <l xml:id="A04520_02-e104060">O John, these troubles tire thy wearied soul,</l>
+          <l xml:id="A04520_02-e104070">And like to luna in a sad eclipse,</l>
+          <l xml:id="A04520_02-e104080">So are thy thoughts and passions for this news. </l>
+          <l xml:id="A04520_02-e104090">Well may it be, when Kings are grieved so,</l>
+          <l xml:id="A04520_02-e104100">The vulgar sort work princes overthrow. </l>
+        </sp>
+        <sp xml:id="A04520_02-e104110" who="A04520_02-cardinal">
+          <speaker>Cardinal</speaker>
+          <l xml:id="A04520_02-e104120">K. John, for not effecting of thy plighted vow,</l>
+          <l xml:id="A04520_02-e104130">This strange annoyance happens to thy land:</l>
+          <l xml:id="A04520_02-e104140">But yet be reconciled unto the church,</l>
+          <l xml:id="A04520_02-e104150">And nothing shall be grievous to thy state. </l>
+        </sp>
+        <sp xml:id="A04520_02-e104160" who="A04520_02-john">
+          <speaker>Joh.</speaker>
+          <l xml:id="A04520_02-e104170">On Pandulph, be it as thou hast decreed,</l>
+          <l xml:id="A04520_02-e104180">John will not spurn against thy sound advice,</l>
+          <l xml:id="A04520_02-e104190">Come let's away, and with thy help I trow,</l>
+          <l xml:id="A04520_02-e104200">My realm shall flourish, and my crown in peace. </l>
+        </sp>
+        <stage xml:id="A04520_02-e104210">Enter the nobles, Pembroke, Essex, Chester, Bewchampe, Clare, with others.</stage>
+        <sp xml:id="A04520_02-e104220" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <l xml:id="A04520_02-e104230">Now sweet s. Edmund holy saint in heaven,</l>
+          <l xml:id="A04520_02-e104240">Whose shrine is sacred, high esteemed on earth,</l>
+          <l xml:id="A04520_02-e104250">Infuse a constant zeal in all our hearts,</l>
+          <l xml:id="A04520_02-e104260">To prosecute this act of mickle weight,</l>
+          <l xml:id="A04520_02-e104270">Lord Bewchampe say, what friends have you procured. </l>
+        </sp>
+        <sp xml:id="A04520_02-e104280" who="A04520_02-beauchamp">
+          <speaker>Bewch.</speaker>
+          <l xml:id="A04520_02-e104290">The l. Fitz water, l. Percy, and L. Rosse,</l>
+          <l xml:id="A04520_02-e104300">Vowed meeting here this day the 'leventh hour. </l>
+        </sp>
+        <sp xml:id="A04520_02-e104310" who="A04520_02-essex">
+          <speaker>Essex.</speaker>
+          <l xml:id="A04520_02-e104320">Under the cloak of holy pilgrimage,</l>
+          <l xml:id="A04520_02-e104330"><pb facs="34"/> by that same hour on warrant of their faith,</l>
+          <l xml:id="A04520_02-e104340">Philip Plantagenet, a bird of swiftest wing,</l>
+          <l xml:id="A04520_02-e104350">Lord Eustauce, Vescy, lord Cressy, and lord Mowbrey,</l>
+          <l xml:id="A04520_02-e104360">Appointed meeting at s. Edmund's shrine. </l>
+        </sp>
+        <sp xml:id="A04520_02-e104370" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <l xml:id="A04520_02-e104380">Until their presence, I'll conceal my tale,</l>
+          <l xml:id="A04520_02-e104390">Sweet complices in holy Christian acts,</l>
+          <l xml:id="A04520_02-e104400">That venture for the purchase of renown,</l>
+          <l xml:id="A04520_02-e104410">Thrice welcome to the league of high resolve,</l>
+          <l xml:id="A04520_02-e104420">That pawn their bodies for their soul's regard. </l>
+        </sp>
+        <sp xml:id="A04520_02-e104430" who="A04520_02-essex">
+          <speaker>Essex.</speaker>
+          <l xml:id="A04520_02-e104440">Now wanteth but the rest to end this work,</l>
+          <l xml:id="A04520_02-e104450">In pilgrims habit comes our holy troop</l>
+          <l xml:id="A04520_02-e104460">A furlong hence, with swift unwonted pace,</l>
+          <l xml:id="A04520_02-e104470">May be they are the persons you expect. </l>
+        </sp>
+        <sp xml:id="A04520_02-e104480" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <l xml:id="A04520_02-e104490">With swift unwonted gate, see what a thing is zeal,</l>
+          <l xml:id="A04520_02-e104500">That spurs them on with fervence to this shrine,</l>
+          <l xml:id="A04520_02-e104510">Now joy come to them for their true intent:</l>
+          <l xml:id="A04520_02-e104520">And in good time, here come the war-men all,</l>
+          <l xml:id="A04520_02-e104530">That sweat in body by the mind's disease:</l>
+          <l xml:id="A04520_02-e104540">Hap and hearts-ease brave lordings be your lot. </l>
+          <stage xml:id="A04520_02-e104550">Enter the bastard Philip, etc.</stage>
+          <l xml:id="A04520_02-e104560">Amen my lords, the like betide your luck,</l>
+          <l xml:id="A04520_02-e104570">And all that travel in a Christian cause. </l>
+        </sp>
+        <sp xml:id="A04520_02-e104580" who="A04520_02-essex">
+          <speaker>Essex.</speaker>
+          <l xml:id="A04520_02-e104590">Cheerly replied brave branch of kingly stock,</l>
+          <l xml:id="A04520_02-e104600">A right Plantagenet should reason so. </l>
+          <l xml:id="A04520_02-e104610">But silence lords, attend our coming's cause:</l>
+          <l xml:id="A04520_02-e104620">The servile yoke that pained us with toil,</l>
+          <l xml:id="A04520_02-e104630">On strong instinct hath framed this conventicle,</l>
+          <l xml:id="A04520_02-e104640">To ease our necks of servitudes contempt. </l>
+          <l xml:id="A04520_02-e104650">Should I not name the foeman of our rest,</l>
+          <l xml:id="A04520_02-e104660">Which of you all so barren in conceit,</l>
+          <l xml:id="A04520_02-e104670">As cannot level at the man I mean? </l>
+          <l xml:id="A04520_02-e104680">But lest enigma's shadow shining truth,</l>
+          <l xml:id="A04520_02-e104690">Plainly to paint, as truth requires no art. </l>
+          <l xml:id="A04520_02-e104700">Th'effect of this resort importeth this,</l>
+          <l xml:id="A04520_02-e104710">To root and clean extirpate tyrant John,</l>
+          <l xml:id="A04520_02-e104720">Tyrant I say, appealing to the man,</l>
+          <l xml:id="A04520_02-e104730"><pb facs="34"/> if any here that loves him, and I ask,</l>
+          <l xml:id="A04520_02-e104740">What kindship, lenity, or Christian reign,</l>
+          <l xml:id="A04520_02-e104750">Rules in the man, to bar this soul impeach? </l>
+          <l xml:id="A04520_02-e104760">First I infer the Chester's banishment:</l>
+          <l xml:id="A04520_02-e104770">For reprehending him in most unchristian crimes ▪</l>
+          <l xml:id="A04520_02-e104780">Was special notice of a tyrant's will. </l>
+          <l xml:id="A04520_02-e104790">But were this all, the devil should be saved,</l>
+          <l xml:id="A04520_02-e104800">But this the least of many thousand faults,</l>
+          <l xml:id="A04520_02-e104810">That circumstance with leisure might display. </l>
+          <l xml:id="A04520_02-e104820">Our private wrongs, no parcel of my tale</l>
+          <l xml:id="A04520_02-e104830">Which now in presence, but for some great cause</l>
+          <l xml:id="A04520_02-e104840">Might wish to him as to a mortal foe. </l>
+          <l xml:id="A04520_02-e104850">But shall I close the period with an act</l>
+          <l xml:id="A04520_02-e104860">Abhorring in the ears of Christian men,</l>
+          <l xml:id="A04520_02-e104870">His cousin's death, that sweet unguilty child,</l>
+          <l xml:id="A04520_02-e104880">Untimely butchered by the tyrant's means,</l>
+          <l xml:id="A04520_02-e104890">Here are my proofs, as clear as gravel brook,</l>
+          <l xml:id="A04520_02-e104900">And on the same I further must infer,</l>
+          <l xml:id="A04520_02-e104910">That who upholds a tyrant in his course,</l>
+          <l xml:id="A04520_02-e104920">Is culpable of all his damned guilt. </l>
+          <l xml:id="A04520_02-e104930">To show the which, is yet to be described. </l>
+          <l xml:id="A04520_02-e104940">My lord of Pembroke, show what is behind,</l>
+          <l xml:id="A04520_02-e104950">Only I say, that were there nothing else</l>
+          <l xml:id="A04520_02-e104960">To move us, but the Pope's most dreadful curse,</l>
+          <l xml:id="A04520_02-e104970">Whereof we are assured, if we fail,</l>
+          <l xml:id="A04520_02-e104980">It were enough to instigate us all,</l>
+          <l xml:id="A04520_02-e104990">With earnestness of spirit, to seek a mean</l>
+          <l xml:id="A04520_02-e105000">To dispossess John of his regiment. </l>
+        </sp>
+        <sp xml:id="A04520_02-e105010" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <l xml:id="A04520_02-e105020">Well hath my lord of Essex told his tale,</l>
+          <l xml:id="A04520_02-e105030">Which I aver ▪ for most substantial truth,</l>
+          <l xml:id="A04520_02-e105040">And more to make the matter to our mind,</l>
+          <l xml:id="A04520_02-e105050">I say that Lewis in challenge of his wife,</l>
+          <l xml:id="A04520_02-e105060">Hath title of an uncontrolled plea,</l>
+          <l xml:id="A04520_02-e105070">To all that longeth to our English crown. </l>
+          <l xml:id="A04520_02-e105080">Short tale to make, the sea Apostolic,</l>
+          <l xml:id="A04520_02-e105090">Hath offered dispensation for the fault. </l>
+          <l xml:id="A04520_02-e105100"><pb facs="35"/>If any be, as trust me none I know,</l>
+          <l xml:id="A04520_02-e105110">By planting Lewis in the usurper's room:</l>
+          <l xml:id="A04520_02-e105120">This is the cause of all our presence here,</l>
+          <l xml:id="A04520_02-e105130">That on the holy altar we protest,</l>
+          <l xml:id="A04520_02-e105140">To aid the right of Lewis with goods and life,</l>
+          <l xml:id="A04520_02-e105150">Who on our knowledge is in arms for England. </l>
+          <l xml:id="A04520_02-e105160">What say you lords? </l>
+        </sp>
+        <sp xml:id="A04520_02-e105170" who="A04520_02-salisbury">
+          <speaker>Salis.</speaker>
+          <l xml:id="A04520_02-e105180">As Pembroke saith, affirmeth Salisbury:</l>
+          <l xml:id="A04520_02-e105190">Fair Lewis of France that spoused lady Blanch,</l>
+          <l xml:id="A04520_02-e105200">Hath title of an uncontrolled strength</l>
+          <l xml:id="A04520_02-e105210">To England, and what longeth to the crown:</l>
+          <l xml:id="A04520_02-e105220">In right whereof, as we are true informed,</l>
+          <l xml:id="A04520_02-e105230">The prince is marching hitherward in arms. </l>
+          <l xml:id="A04520_02-e105240">Our purpose, to conclude that with a word,</l>
+          <l xml:id="A04520_02-e105250">Is to invest him as we may devise,</l>
+          <l xml:id="A04520_02-e105260">King of our country, in the tyrant's stead:</l>
+          <l xml:id="A04520_02-e105270">And so the warrant on the altar sworn,</l>
+          <l xml:id="A04520_02-e105280">And so the intent for which we hither came. </l>
+        </sp>
+        <sp xml:id="A04520_02-e105290" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e105300">My lord of Salisbury, I cannot couch</l>
+          <l xml:id="A04520_02-e105310">My speeches with the needful words of art,</l>
+          <l xml:id="A04520_02-e105320">As doth beseem in such a weighty work,</l>
+          <l xml:id="A04520_02-e105330">But what my conscience and my duty will,</l>
+          <l xml:id="A04520_02-e105340">I purpose to impart. </l>
+          <l xml:id="A04520_02-e105350">For Chester's exile, blame his busy wit,</l>
+          <l xml:id="A04520_02-e105360">That meddled where his duty quite forbade:</l>
+          <l xml:id="A04520_02-e105370">For any private causes that you have,</l>
+          <l xml:id="A04520_02-e105380">Methink they should not mount to such a height,</l>
+          <l xml:id="A04520_02-e105390">As to depose a King in their revenge. </l>
+          <l xml:id="A04520_02-e105400">For Arthur's death, K. John was innocent,</l>
+          <l xml:id="A04520_02-e105410">He desperate was the deathsman to himself,</l>
+          <l xml:id="A04520_02-e105420">Which you, to make a colour to your crime, injustly do impute to his default,</l>
+          <l xml:id="A04520_02-e105430">But where fall traitorism hath residence,</l>
+          <l xml:id="A04520_02-e105440">There wants no words to set despite on work. </l>
+          <l xml:id="A04520_02-e105450">I say 'tis shame, and worthy all reproof,</l>
+          <l xml:id="A04520_02-e105460">To wrest such petty wrongs in terms of right,</l>
+          <l xml:id="A04520_02-e105470">Against a King anointed by the lord. </l>
+          <l xml:id="A04520_02-e105480"><pb facs="35"/>Why Salisbury, admit the wrongs are true,</l>
+          <l xml:id="A04520_02-e105490">Yet subjects may not take in hand revenge,</l>
+          <l xml:id="A04520_02-e105500">And rob the heavens of their proper power,</l>
+          <l xml:id="A04520_02-e105510">Where sitteth he to whom revenge belongs. </l>
+          <l xml:id="A04520_02-e105520">And doth a Pope, a priest, a man of pride,</l>
+          <l xml:id="A04520_02-e105530">Give charters for the lives of lawful Kings? </l>
+          <l xml:id="A04520_02-e105540">What can he bless, or who regards his curse,</l>
+          <l xml:id="A04520_02-e105550">But such as give to man, and take from God? </l>
+          <l xml:id="A04520_02-e105560">I speak it in the sight of God above,</l>
+          <l xml:id="A04520_02-e105570">There's not a man that dies in your belief,</l>
+          <l xml:id="A04520_02-e105580">But sells his soul perpetually to pain. </l>
+          <l xml:id="A04520_02-e105590">Aid Lewis, leave God, kill John, please hell,</l>
+          <l xml:id="A04520_02-e105600">Make havoc of the welfare of your souls,</l>
+          <l xml:id="A04520_02-e105610">For here I leave you in the sight of heaven,</l>
+          <l xml:id="A04520_02-e105620">A troop of traitors, food for hellish fiends;</l>
+          <l xml:id="A04520_02-e105630">If you desist, then follow me as friends,</l>
+          <l xml:id="A04520_02-e105640">If not, then do your worst, as hateful traitors. </l>
+          <l xml:id="A04520_02-e105650">For Lewis his right, alas 'tis too too lame,</l>
+          <l xml:id="A04520_02-e105660">A senseless claim, if truth be titles friend. </l>
+          <l xml:id="A04520_02-e105670">In brief, if this be cause of our resort,</l>
+          <l xml:id="A04520_02-e105680">Our pilgrimage is to the devil's shrine. </l>
+          <l xml:id="A04520_02-e105690">I came not lords, to troop as traitors do,</l>
+          <l xml:id="A04520_02-e105700">Nor will I counsel in so bad a cause:</l>
+          <l xml:id="A04520_02-e105710">Please you return, we go again as friends,</l>
+          <l xml:id="A04520_02-e105720">If not, I to my King, and you where traitors please. </l>
+        </sp>
+        <stage xml:id="A04520_02-e105730">Exit.</stage>
+        <sp xml:id="A04520_02-e105740" who="A04520_02-percy">
+          <speaker>Percy.</speaker>
+          <l xml:id="A04520_02-e105750">A hot young man, and so my lords proceed,</l>
+          <l xml:id="A04520_02-e105760">I let him go, and better lost than found. </l>
+        </sp>
+        <sp xml:id="A04520_02-e105770" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <l xml:id="A04520_02-e105780">What say you lords, will all the rest proceed,</l>
+          <l xml:id="A04520_02-e105790">Will you all with me swear upon the altar,</l>
+          <l xml:id="A04520_02-e105800">That you will to the death, be aid to le. And enemy to John? </l>
+          <l xml:id="A04520_02-e105810">Every man lay his hand by mine, in witness of his heart's accord. </l>
+          <l xml:id="A04520_02-e105820">Well then, every man to arms to meet the King,</l>
+          <l xml:id="A04520_02-e105830">Who is already before London. </l>
+        </sp>
+        <stage xml:id="A04520_02-e105840">Enter messenger.</stage>
+        <sp xml:id="A04520_02-e105850" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <p xml:id="A04520_02-e105860">What news herald?</p>
+          <p xml:id="A04520_02-e105870"><pb facs="36"/>The right Christian prince my master, Lewis of France, is at hand, coming to visit your honours, directed hither by the right honourable Richard Earl of Bigot, to confer with your honours.</p>
+        </sp>
+        <sp xml:id="A04520_02-e105880" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <p xml:id="A04520_02-e105890">How near is his highness?</p>
+        </sp>
+        <sp xml:id="A04520_02-e105900" who="A04520_02-messenger">
+          <speaker>Messenger</speaker>
+          <p xml:id="A04520_02-e105910">Ready to enter your presence.</p>
+        </sp>
+        <stage xml:id="A04520_02-e105920">Enter Lewis, Earl Bigot, with his troop.</stage>
+        <sp xml:id="A04520_02-e105930" who="A04520_02-lewis">
+          <speaker>Lew.</speaker>
+          <l xml:id="A04520_02-e105940">Fair lords of England, Lewis salutes you all</l>
+          <l xml:id="A04520_02-e105950">As friends, and firm well-willers of his weal,</l>
+          <l xml:id="A04520_02-e105960">At whose request, from plenty flowing France,</l>
+          <l xml:id="A04520_02-e105970">Crossing the ocean with a Southern gale,</l>
+          <l xml:id="A04520_02-e105980">He is in person come at your commands,</l>
+          <l xml:id="A04520_02-e105990">To undertake and gratify withal,</l>
+          <l xml:id="A04520_02-e106000">The fullness of your favours proffered him. </l>
+          <l xml:id="A04520_02-e106010">But world's brave men, omitting promises,</l>
+          <l xml:id="A04520_02-e106020">Till time be minister of more amends,</l>
+          <l xml:id="A04520_02-e106030">I must acquaint you with our fortune's course. </l>
+          <l xml:id="A04520_02-e106040">The heavens dewing favours on my head,</l>
+          <l xml:id="A04520_02-e106050">Have in their conduct safe with victory,</l>
+          <l xml:id="A04520_02-e106060">Brought me along your well manured bounds,</l>
+          <l xml:id="A04520_02-e106070">With small repulse, and little cross of chance,</l>
+          <l xml:id="A04520_02-e106080">Your city Rochester, with great applause,</l>
+          <l xml:id="A04520_02-e106090">By some divine instinct laid arms aside:</l>
+          <l xml:id="A04520_02-e106100">And from the hollow holes of Thamesis,</l>
+          <l xml:id="A04520_02-e106110">Echo apace replied, vive la roy. </l>
+          <l xml:id="A04520_02-e106120">From thence, along the wanton rolling glade</l>
+          <l xml:id="A04520_02-e106130">To Troynovant, your fair metropolis,</l>
+          <l xml:id="A04520_02-e106140">With luck came Lewis, to show his troops of France,</l>
+          <l xml:id="A04520_02-e106150">Waving our ensigns with the dallying winds,</l>
+          <l xml:id="A04520_02-e106160">The fearful object of fell frowning war;</l>
+          <l xml:id="A04520_02-e106170">Where after some assault, and small defence,</l>
+          <l xml:id="A04520_02-e106180">Heavens may I say, and not my warlike troop,</l>
+          <l xml:id="A04520_02-e106190">Tempered their hearts to take a friendly foe</l>
+          <l xml:id="A04520_02-e106200">Within the compass of their high built walls,</l>
+          <l xml:id="A04520_02-e106210">Giving me title, as it seemed they wish. </l>
+          <l xml:id="A04520_02-e106220"><pb facs="36"/>Thus fortune (Lords) acts to your forwardness,</l>
+          <l xml:id="A04520_02-e106230">Means of content, in lieu of former grief:</l>
+          <l xml:id="A04520_02-e106240">And may I live but to requite you all,</l>
+          <l xml:id="A04520_02-e106250">World's wish were mine, in dying noted yours. </l>
+        </sp>
+        <sp xml:id="A04520_02-e106260" who="A04520_02-salisbury">
+          <speaker>Salis.</speaker>
+          <l xml:id="A04520_02-e106270">Welcome the balm that closeth up our wounds,</l>
+          <l xml:id="A04520_02-e106280">The sovereign medicine for our quick recure,</l>
+          <l xml:id="A04520_02-e106290">The anchor of our hope, the only prop,</l>
+          <l xml:id="A04520_02-e106300">Whereon depends our lives, our lands, our weal,</l>
+          <l xml:id="A04520_02-e106310">Without the which, as sheep without their herd,</l>
+          <l xml:id="A04520_02-e106320">(Except a shepherd winking at the wolf)</l>
+          <l xml:id="A04520_02-e106330">We stray, we pine, we run to thousand harms. </l>
+          <l xml:id="A04520_02-e106340">No marvel then, though with unwonted joy,</l>
+          <l xml:id="A04520_02-e106350">We welcome him that beateth woes away. </l>
+        </sp>
+        <sp xml:id="A04520_02-e106360" who="A04520_02-lewis">
+          <speaker>Lew.</speaker>
+          <l xml:id="A04520_02-e106370">Thanks to you all of this religious league,</l>
+          <l xml:id="A04520_02-e106380">A holy knot of Catholic consent. </l>
+          <l xml:id="A04520_02-e106390">I cannot name you lordings, man by man,</l>
+          <l xml:id="A04520_02-e106400">But like a stranger unacquainted yet,</l>
+          <l xml:id="A04520_02-e106410">In general I promise faithful love:</l>
+          <l xml:id="A04520_02-e106420">Lord Bigot brought me to s. Edmund's shrine,</l>
+          <l xml:id="A04520_02-e106430">Giving me warrant of a Christian oath</l>
+          <l xml:id="A04520_02-e106440">That this assembly came 〈…〉</l>
+          <l xml:id="A04520_02-e106450">To swear according as your packets showed,</l>
+          <l xml:id="A04520_02-e106460">Homage and loyal service to ourself,</l>
+          <l xml:id="A04520_02-e106470">I need not doubt the surety of your wills,</l>
+          <l xml:id="A04520_02-e106480">Since well I know, for many of your sakes,</l>
+          <l xml:id="A04520_02-e106490">The towns have yielded on their own accords:</l>
+          <l xml:id="A04520_02-e106500">Yet for a fashion, not for misbelief,</l>
+          <l xml:id="A04520_02-e106510">My eyes must witness, and these ears must hear</l>
+          <l xml:id="A04520_02-e106520">Your oath upon the holy altar sworn,</l>
+          <l xml:id="A04520_02-e106530">And after march, to end our comings cause. </l>
+        </sp>
+        <sp xml:id="A04520_02-e106540" who="A04520_02-salisbury">
+          <speaker>Sals.</speaker>
+          <l xml:id="A04520_02-e106550">That we intend no other than good truth,</l>
+          <l xml:id="A04520_02-e106560">All that are present of this holy league,</l>
+          <l xml:id="A04520_02-e106570">For confirmation of our better trust,</l>
+          <l xml:id="A04520_02-e106580">In presence of his highness, swear with me,</l>
+          <l xml:id="A04520_02-e106590">The sequel that myself shall utter here. </l>
+          <p xml:id="A04520_02-e106600"><pb facs="37"/>I Thomas Plantagenet, Earl of Salisbury, swear upon the altar, and by the holy army of saints, homage and allegiance to the right Christian prince Lewis of France, as true and rightful King to England, Cornwall, and Wales, and to their territories: in the defence whereof, I upon the holy altar swear all forwardness. All the Eng. lo. swear. </p>
+          <p xml:id="A04520_02-e106610">As the noble Earl hath sworn, so swear we all.</p>
+        </sp>
+        <sp xml:id="A04520_02-e106620" who="A04520_02-lewis">
+          <speaker>Lew.</speaker>
+          <l xml:id="A04520_02-e106630">I rest assured on your holy oath,</l>
+          <l xml:id="A04520_02-e106640">And on this altar in like sort I swear</l>
+          <l xml:id="A04520_02-e106650">Love to you all, and princely recompense</l>
+          <l xml:id="A04520_02-e106660">To guerdon your good wills unto the full. </l>
+          <l xml:id="A04520_02-e106670">And since I am at this religious shrine,</l>
+          <l xml:id="A04520_02-e106680">My good well-willers give us leave awhile,</l>
+          <l xml:id="A04520_02-e106690">To use some orisons ourselves apart,</l>
+          <l xml:id="A04520_02-e106700">To all the holy company of heaven,</l>
+          <l xml:id="A04520_02-e106710">That they will smile upon our purposes,</l>
+          <l xml:id="A04520_02-e106720">And bring them to a fortunate event. </l>
+        </sp>
+        <sp xml:id="A04520_02-e106730" who="A04520_02-salisbury">
+          <speaker>Sal.</speaker>
+          <p xml:id="A04520_02-e106740">We leave your highness to your good intent.</p>
+        </sp>
+        <stage xml:id="A04520_02-e106750">Exeunt lords of England.</stage>
+        <sp xml:id="A04520_02-e106760" who="A04520_02-lewis">
+          <speaker>Lew.</speaker>
+          <l xml:id="A04520_02-e106770">Now viscount Meloun, what remains behind? </l>
+          <l xml:id="A04520_02-e106780">Trust me these traitors to their sovereign state,</l>
+          <l xml:id="A04520_02-e106790">Are not to be believed in any sort. </l>
+        </sp>
+        <sp xml:id="A04520_02-e106800" who="A04520_02-melun">
+          <speaker>Meloun.</speaker>
+          <l xml:id="A04520_02-e106810">Indeed my lord, they that infringe their oaths,</l>
+          <l xml:id="A04520_02-e106820">And play the rebels 'gainst their native King,</l>
+          <l xml:id="A04520_02-e106830">Will for as little cause revolt from you,</l>
+          <l xml:id="A04520_02-e106840">If ever opportunity incite them so:</l>
+          <l xml:id="A04520_02-e106850">For once forsworn, and never after sound,</l>
+          <l xml:id="A04520_02-e106860">There's no affiance after perjury. </l>
+        </sp>
+        <sp xml:id="A04520_02-e106870" who="A04520_02-lewis">
+          <speaker>Lew.</speaker>
+          <l xml:id="A04520_02-e106880">Well Meloun, well, let's smooth with them awhile,</l>
+          <l xml:id="A04520_02-e106890">Until we have as much as they can do:</l>
+          <l xml:id="A04520_02-e106900">And when their virtue is exhaled dry,</l>
+          <l xml:id="A04520_02-e106910">I'll hang them for the guerdon of their help:</l>
+          <l xml:id="A04520_02-e106920">Meanwhile we'll use them as a precious poison,</l>
+          <l xml:id="A04520_02-e106930">To undertake the issue of our hope. </l>
+        </sp>
+        <sp xml:id="A04520_02-e106940" who="A04520_02-french_lord">
+          <speaker>Fr. Lo.</speaker>
+          <l xml:id="A04520_02-e106950">'Tis policy (My lord) to bait our hooks</l>
+          <l xml:id="A04520_02-e106960">With merry smiles, and promise of much weight:</l>
+          <l xml:id="A04520_02-e106970"><pb facs="37"/> but when your highness needeth them no more. </l>
+          <l xml:id="A04520_02-e106980">'Tis good make sure work with them, lest indeed</l>
+          <l xml:id="A04520_02-e106990">They prove to you as to their natural King. </l>
+        </sp>
+        <sp xml:id="A04520_02-e107000" who="A04520_02-melun">
+          <speaker>Melun.</speaker>
+          <l xml:id="A04520_02-e107010">Trust me my lord, right well have you advised,</l>
+          <l xml:id="A04520_02-e107020">Venom for use, but never for a sport</l>
+          <l xml:id="A04520_02-e107030">Is to be dallied with, lest it infect. </l>
+          <l xml:id="A04520_02-e107040">Were you installed, as soon I hope you shall:</l>
+          <l xml:id="A04520_02-e107050">Be free from traitors, and dispatch them all. </l>
+        </sp>
+        <sp xml:id="A04520_02-e107060" who="A04520_02-lewis">
+          <speaker>Lewes</speaker>
+          <l xml:id="A04520_02-e107070">That so I mean, I swear before you all</l>
+          <l xml:id="A04520_02-e107080">On this same altar, and by heaven's power,</l>
+          <l xml:id="A04520_02-e107090">There's not an English traitor of them all,</l>
+          <l xml:id="A04520_02-e107100">John once dispatched, and I fair England's King,</l>
+          <l xml:id="A04520_02-e107110">Shall on his shoulders bear his head one day,</l>
+          <l xml:id="A04520_02-e107120">But I will crop it for their guilts desert:</l>
+          <l xml:id="A04520_02-e107130">Nor shall their heirs enjoy their signories,</l>
+          <l xml:id="A04520_02-e107140">But perish by their parents foul amiss. </l>
+          <l xml:id="A04520_02-e107150">This have I sworn, and this will I perform,</l>
+          <l xml:id="A04520_02-e107160">If ere I come unto the height I hope. </l>
+          <l xml:id="A04520_02-e107170">Lay down your hands, and swear the same with me. </l>
+          <stage xml:id="A04520_02-e107180">The French lords swear.</stage>
+          <l xml:id="A04520_02-e107190">Why so, now call them in, and speak them fair,</l>
+          <l xml:id="A04520_02-e107200">A smile of France will feed an English fool. </l>
+          <l xml:id="A04520_02-e107210">Bear them in hand as friends, for so they be:</l>
+          <l xml:id="A04520_02-e107220">But in the heart like traitors as they are. </l>
+          <stage xml:id="A04520_02-e107230">Enter the English lords.</stage>
+          <l xml:id="A04520_02-e107240">Now famous followers, chieftains of the world,</l>
+          <l xml:id="A04520_02-e107250">Have we solicited with hearty prayer</l>
+          <l xml:id="A04520_02-e107260">The heaven in favour of our high attempt. </l>
+          <l xml:id="A04520_02-e107270">Leave we this place, and march we with our power</l>
+          <l xml:id="A04520_02-e107280">To rouse the tyrant from his chiefest hold:</l>
+          <l xml:id="A04520_02-e107290">And when our labours have a prosperous end,</l>
+          <l xml:id="A04520_02-e107300">Each man shall reap the fruit of his desert. </l>
+          <l xml:id="A04520_02-e107310">And so resolved, brave followers let us hence. </l>
+          <stage xml:id="A04520_02-e107320"><pb facs="38"/>Enter K. John, bastard, Pandulph, and a many priests with them.</stage>
+          <l xml:id="A04520_02-e107330">Thus John, thou art absolved from all thy sins,</l>
+          <l xml:id="A04520_02-e107340">And freed by order from our father's curse. </l>
+          <l xml:id="A04520_02-e107350">Receive thy crown again, with this proviso,</l>
+          <l xml:id="A04520_02-e107360">That thou remain true liegeman to the Pope,</l>
+          <l xml:id="A04520_02-e107370">And carry arms in right of holy Rome. </l>
+        </sp>
+        <sp xml:id="A04520_02-e107380" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e107390">I hold the same as tenant to the Pope,</l>
+          <l xml:id="A04520_02-e107400">And thank your holiness for your kindness shown. </l>
+        </sp>
+        <sp xml:id="A04520_02-e107410" who="A04520_02-philip">
+          <speaker>Philip</speaker>
+          <l xml:id="A04520_02-e107420">A proper jest, when Kings must stoop to friars,</l>
+          <l xml:id="A04520_02-e107430">Need hath no law, when friars must be Kings. </l>
+        </sp>
+        <stage xml:id="A04520_02-e107440">Enter a messenger.</stage>
+        <sp xml:id="A04520_02-e107450" who="A04520_02-messenger">
+          <speaker>Messenger</speaker>
+          <l xml:id="A04520_02-e107460">Please it your majesty, the prince of France,</l>
+          <l xml:id="A04520_02-e107470">With all the nobles of your grace's land</l>
+          <l xml:id="A04520_02-e107480">Are marching hitherward in good array. </l>
+          <l xml:id="A04520_02-e107490">Where ere they set their foot, all places yield:</l>
+          <l xml:id="A04520_02-e107500">Thy land is theirs, and not a foot holds out</l>
+          <l xml:id="A04520_02-e107510">But Dover castle, which is hard besieged. </l>
+        </sp>
+        <sp xml:id="A04520_02-e107520" who="A04520_02-pandulph">
+          <speaker>Pan.</speaker>
+          <l xml:id="A04520_02-e107530">Fear not King John, thy kingdom is the Popes,</l>
+          <l xml:id="A04520_02-e107540">And they shall know his holiness hath power,</l>
+          <l xml:id="A04520_02-e107550">To beat them soon from whence he hath to do. </l>
+        </sp>
+        <stage xml:id="A04520_02-e107560">Drums and trumpets. Enter Lewes, Melun, Salisbury, Essex, Pembroke, and all the nobles from France, and England. </stage>
+        <sp xml:id="A04520_02-e107570" who="A04520_02-lewis">
+          <speaker>Lewes</speaker>
+          <l xml:id="A04520_02-e107580">Pandulph, as gave his holiness in charge,</l>
+          <l xml:id="A04520_02-e107590">So hath the dolphin mustered up his troops,</l>
+          <l xml:id="A04520_02-e107600">And won the greatest part of all this land. </l>
+          <l xml:id="A04520_02-e107610">But ill becomes your grace lord Cardinal,</l>
+          <l xml:id="A04520_02-e107620">Thus to converse with John that is accursed. </l>
+        </sp>
+        <sp xml:id="A04520_02-e107630" who="A04520_02-pandulph">
+          <pb facs="38"/>
+          <speaker>Pand.</speaker>
+          <l xml:id="A04520_02-e107640">Lewes of France, victorious conqueror,</l>
+          <l xml:id="A04520_02-e107650">Whose sword hath made this island quake for fear;</l>
+          <l xml:id="A04520_02-e107660">Thy forwardness to fight for holy Rome,</l>
+          <l xml:id="A04520_02-e107670">Shall be remunerated to the full:</l>
+          <l xml:id="A04520_02-e107680">But know my lord, K. John is now absolved,</l>
+          <l xml:id="A04520_02-e107690">The Pope is pleased, the land is blessed again,</l>
+          <l xml:id="A04520_02-e107700">And thou hast brought each thing to good effect. </l>
+          <l xml:id="A04520_02-e107710">It resteth then that thou withdraw thy powers,</l>
+          <l xml:id="A04520_02-e107720">And quietly return to France again:</l>
+          <l xml:id="A04520_02-e107730">For all is done the Pope would wish thee do. </l>
+        </sp>
+        <sp xml:id="A04520_02-e107740" who="A04520_02-lewis">
+          <speaker>Lewes</speaker>
+          <l xml:id="A04520_02-e107750">But all's not done that Lewes came to do. </l>
+          <l xml:id="A04520_02-e107760">Why Pandulph, hath King Philip sent his son</l>
+          <l xml:id="A04520_02-e107770">And been at such excessive charge in wars,</l>
+          <l xml:id="A04520_02-e107780">To be dismissed with words? King John shall know,</l>
+          <l xml:id="A04520_02-e107790">England is mine, and he usurps my right. </l>
+        </sp>
+        <sp xml:id="A04520_02-e107800" who="A04520_02-pandulph">
+          <speaker>Pand.</speaker>
+          <l xml:id="A04520_02-e107810">Lewes, I charge thee and thy complices</l>
+          <l xml:id="A04520_02-e107820">Upon the pain of Pandulph's holy curse,</l>
+          <l xml:id="A04520_02-e107830">That thou withdraw thy powers to France again,</l>
+          <l xml:id="A04520_02-e107840">And yield up London and the neighbour towns</l>
+          <l xml:id="A04520_02-e107850">That thou hast ta'en in England by the sword. </l>
+        </sp>
+        <sp xml:id="A04520_02-e107860" who="A04520_02-melun">
+          <speaker>Melun</speaker>
+          <l xml:id="A04520_02-e107870">Lord Cardinal, by Lewes' princely leave,</l>
+          <l xml:id="A04520_02-e107880">It can be naught but usurpation</l>
+          <l xml:id="A04520_02-e107890">In thee, the Pope, and all the church of Rome,</l>
+          <l xml:id="A04520_02-e107900">Thus to insult on Kings of Christendom,</l>
+          <l xml:id="A04520_02-e107910">Now with a word to make them carry arms,</l>
+          <l xml:id="A04520_02-e107920">Then with a word to make them leave their arms. </l>
+          <l xml:id="A04520_02-e107930">This must not be: prince Lewes keep thine own,</l>
+          <l xml:id="A04520_02-e107940">Let Pope and popelings curse their bellies full. </l>
+        </sp>
+        <sp xml:id="A04520_02-e107950" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e107960">My lord of Melun, what title had the prince</l>
+          <l xml:id="A04520_02-e107970">To England and the crown of Albion,</l>
+          <l xml:id="A04520_02-e107980">But such a title as the Pope confirmed:</l>
+          <l xml:id="A04520_02-e107990">The prelate now lets fall his feigned claim:</l>
+          <l xml:id="A04520_02-e108000">Lewes is but the agent for the Pope,</l>
+          <l xml:id="A04520_02-e108010">Then must the dolphin cease, sith he hath ceased:</l>
+          <l xml:id="A04520_02-e108020">But cease or no, it greatly matters not,</l>
+          <l xml:id="A04520_02-e108030">If you my lords and barons of the land</l>
+          <l xml:id="A04520_02-e108040"><pb facs="39"/> will leave the French, and cleave unto our King. </l>
+          <l xml:id="A04520_02-e108050">For shame ye peers of England suffer not</l>
+          <l xml:id="A04520_02-e108060">Yourselves, your honours, and your land to fall:</l>
+          <l xml:id="A04520_02-e108070">But with resolved thoughts beat back the French,</l>
+          <l xml:id="A04520_02-e108080">And free the land from yoke of servitude. </l>
+        </sp>
+        <sp xml:id="A04520_02-e108090" who="A04520_02-salisbury">
+          <speaker>Salisbury</speaker>
+          <l xml:id="A04520_02-e108100">Philip, not so, lord Lewes is our King,</l>
+          <l xml:id="A04520_02-e108110">And we will follow him unto the death. </l>
+        </sp>
+        <sp xml:id="A04520_02-e108120" who="A04520_02-pandulph">
+          <speaker>Pand.</speaker>
+          <l xml:id="A04520_02-e108130">Then in the name of innocent the Pope,</l>
+          <l xml:id="A04520_02-e108140">I curse the prince and all that take his part,</l>
+          <l xml:id="A04520_02-e108150">And excommunicate the rebel peers</l>
+          <l xml:id="A04520_02-e108160">As traitors to the King, and to the Pope. </l>
+        </sp>
+        <sp xml:id="A04520_02-e108170" who="A04520_02-lewis">
+          <speaker>Lew.</speaker>
+          <l xml:id="A04520_02-e108180">Pandulph, our swords shall bless ourselves again:</l>
+          <l xml:id="A04520_02-e108190">Prepare thee John, lords follow me your King. </l>
+        </sp>
+        <stage xml:id="A04520_02-e108200">Exeunt</stage>
+        <sp xml:id="A04520_02-e108210" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e108220">Accursed John, the devil owes thee shame,</l>
+          <l xml:id="A04520_02-e108230">Resisting Rome, or yielding to the Pope, all's one. </l>
+          <l xml:id="A04520_02-e108240">The devil take the Pope, the peers, and France:</l>
+          <l xml:id="A04520_02-e108250">Shame be my share for yielding to the priest. </l>
+        </sp>
+        <sp xml:id="A04520_02-e108260" who="A04520_02-pandulph">
+          <speaker>Pand.</speaker>
+          <l xml:id="A04520_02-e108270">Comfort thyself King John, the Cardinal goes</l>
+          <l xml:id="A04520_02-e108280">Upon his curse to make them leave their arms. </l>
+        </sp>
+        <stage xml:id="A04520_02-e108290">Exit.</stage>
+        <sp xml:id="A04520_02-e108300" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e108310">Comfort my lord, and curse the Cardinal,</l>
+          <l xml:id="A04520_02-e108320">Betake yourself to arms, my troops are pressed</l>
+          <l xml:id="A04520_02-e108330">To answer Lewes with a lusty shock:</l>
+          <l xml:id="A04520_02-e108340">The English archers have their quivers full,</l>
+          <l xml:id="A04520_02-e108350">Their bows are bent, the pikes are pressed to push:</l>
+          <l xml:id="A04520_02-e108360">Good cheer my lord, King Richard's fortune hangs</l>
+          <l xml:id="A04520_02-e108370">Upon the plume of warlike Philip's helm. </l>
+          <l xml:id="A04520_02-e108380">Then let them know his brother and his son</l>
+          <l xml:id="A04520_02-e108390">Are leaders of the Englishmen at arms. </l>
+        </sp>
+        <sp xml:id="A04520_02-e108400" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e108410">Philip I know not how to answer thee:</l>
+          <l xml:id="A04520_02-e108420">But let us hence, to answer Lewes' pride. </l>
+        </sp>
+        <stage xml:id="A04520_02-e108430">Excursions. Enter Meloun with English lords.</stage>
+        <sp xml:id="A04520_02-e108440" who="A04520_02-melun">
+          <speaker>Mel.</speaker>
+          <l xml:id="A04520_02-e108450">O I am slain, nobles, Salisbury, Pembroke,</l>
+          <l xml:id="A04520_02-e108460">My soul is charged, hear me: for what I say</l>
+          <l xml:id="A04520_02-e108470">Concerns the peers of England, and their state. </l>
+          <l xml:id="A04520_02-e108480"><pb facs="39"/>Listen, brave lords, a fearful mourning tale</l>
+          <l xml:id="A04520_02-e108490">To be delivered by a man of death. </l>
+          <l xml:id="A04520_02-e108500">Behold these scars, the dole of bloody Mars</l>
+          <l xml:id="A04520_02-e108510">Are harbingers from natures common foe,</l>
+          <l xml:id="A04520_02-e108520">Citing this trunk to tellus prison house;</l>
+          <l xml:id="A04520_02-e108530">Life's charter (Lordings) lasteth not an hour:</l>
+          <l xml:id="A04520_02-e108540">And fearful thoughts, forerunners of my end,</l>
+          <l xml:id="A04520_02-e108550">Bids me give physic to a sickly soul. </l>
+          <l xml:id="A04520_02-e108560">O peers of England, know you what you do? </l>
+          <l xml:id="A04520_02-e108570">There's but a hair that sunders you from harm,</l>
+          <l xml:id="A04520_02-e108580">The hook is baited, and the train is made,</l>
+          <l xml:id="A04520_02-e108590">And simply you run doting to your deaths. </l>
+          <l xml:id="A04520_02-e108600">But lest I die, and leave my tale untold,</l>
+          <l xml:id="A04520_02-e108610">With silence slaughtering so brave a crew. </l>
+          <l xml:id="A04520_02-e108620">This I aver, if Lewes win the day,</l>
+          <l xml:id="A04520_02-e108630">There's not an Englishman that lifts his hand</l>
+          <l xml:id="A04520_02-e108640">Against King John to plant the heir of France,</l>
+          <l xml:id="A04520_02-e108650">But is already damned to cruel death. </l>
+          <l xml:id="A04520_02-e108660">I heard it vowed; myself amongst the rest</l>
+          <l xml:id="A04520_02-e108670">Swore on the altar aid to this edict. </l>
+          <l xml:id="A04520_02-e108680">Two causes lords, makes me display this drift,</l>
+          <l xml:id="A04520_02-e108690">The greatest for the freedom of my soul,</l>
+          <l xml:id="A04520_02-e108700">That longs to leave this mansion free from guilt:</l>
+          <l xml:id="A04520_02-e108710">The other on a natural instinct,</l>
+          <l xml:id="A04520_02-e108720">For that my grandsire was an Englishman. </l>
+          <l xml:id="A04520_02-e108730">Misdoubt not lords the truth of my discourse,</l>
+          <l xml:id="A04520_02-e108740">No frenzy, nor no brainsick idle fit,</l>
+          <l xml:id="A04520_02-e108750">But well advised, and wotting what I say,</l>
+          <l xml:id="A04520_02-e108760">Pronounce I here before the face of heaven,</l>
+          <l xml:id="A04520_02-e108770">That nothing is discovered but a truth. </l>
+          <l xml:id="A04520_02-e108780">'Tis time to fly, submit yourselves to John,</l>
+          <l xml:id="A04520_02-e108790">The smiles of France shade in the frowns of death,</l>
+          <l xml:id="A04520_02-e108800">Lift up your swords, turn face against the French,</l>
+          <l xml:id="A04520_02-e108810">Expel the yoke that's framed for your necks. </l>
+          <l xml:id="A04520_02-e108820">Back warmen, back, embowel not the clime,</l>
+          <l xml:id="A04520_02-e108830">Your seat, your nurse, your birth days breathing place,</l>
+          <l xml:id="A04520_02-e108840"><pb facs="40"/> that bred you, bears you, brought you up in arms. </l>
+          <l xml:id="A04520_02-e108850">Ah! be not so ingrate to dig your mother's grave,</l>
+          <l xml:id="A04520_02-e108860">Preserve your lambs and beat away the wolf. </l>
+          <l xml:id="A04520_02-e108870">My soul hath said, contritions penitence</l>
+          <l xml:id="A04520_02-e108880">Lays hold on man's redemption for my sin. </l>
+          <l xml:id="A04520_02-e108890">Farewell my lords; witness my faith when we are met in heaven,</l>
+          <l xml:id="A04520_02-e108900">And for my kindness give me grave room here. </l>
+          <l xml:id="A04520_02-e108910">My soul doth fleet, world's vanities farewell. </l>
+        </sp>
+        <sp xml:id="A04520_02-e108920" who="A04520_02-salisbury">
+          <speaker>Sals.</speaker>
+          <l xml:id="A04520_02-e108930">Now joy betide thy soul well-meaning man,</l>
+          <l xml:id="A04520_02-e108940">How now my lords, what cooling card is this? </l>
+          <l xml:id="A04520_02-e108950">A greater grief grows now than erst hath been. </l>
+          <l xml:id="A04520_02-e108960">What counsel give you, shall we stay and die? </l>
+          <l xml:id="A04520_02-e108970">Or shall we home, and kneel unto the King. </l>
+        </sp>
+        <sp xml:id="A04520_02-e108980" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <l xml:id="A04520_02-e108990">My heart misgave this sad accursed news:</l>
+          <l xml:id="A04520_02-e109000">What have we done? fie lords, what frenzy moved</l>
+          <l xml:id="A04520_02-e109010">Our hearts to yield unto the pride of France? </l>
+          <l xml:id="A04520_02-e109020">If we persever, we are sure to die:</l>
+          <l xml:id="A04520_02-e109030">If we desist, small hope again of life. </l>
+        </sp>
+        <sp xml:id="A04520_02-e109040" who="A04520_02-salisbury">
+          <speaker>Salsb.</speaker>
+          <l xml:id="A04520_02-e109050">Bear hence the body of this wretched man,</l>
+          <l xml:id="A04520_02-e109060">That made us wretched with his dying tale,</l>
+          <l xml:id="A04520_02-e109070">And stand not wailing on our present harms,</l>
+          <l xml:id="A04520_02-e109080">As women wont: but seek our harms redress. </l>
+          <l xml:id="A04520_02-e109090">As for myself, I will in haste be gone:</l>
+          <l xml:id="A04520_02-e109100">And kneel for pardon to our sovereign John. </l>
+        </sp>
+        <sp xml:id="A04520_02-e109110" who="A04520_02-pembroke">
+          <speaker>Pemb.</speaker>
+          <l xml:id="A04520_02-e109120">Ay, there's the way, let's rather kneel to him,</l>
+          <l xml:id="A04520_02-e109130">Than to the French that would confound us all. </l>
+        </sp>
+        <stage xml:id="A04520_02-e109140">Exeunt</stage>
+        <stage xml:id="A04520_02-e109150">Enter King John carried between two lords.</stage>
+        <sp xml:id="A04520_02-e109160" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e109170">Set down, set down the load not worth your pain,</l>
+          <l xml:id="A04520_02-e109180">For done I am with deadly wounding grief:</l>
+          <l xml:id="A04520_02-e109190">Sickly and succourless, hopeless of any good,</l>
+          <l xml:id="A04520_02-e109200">The world hath wearied me, and I have wearied it:</l>
+          <l xml:id="A04520_02-e109210">It loathes I live, I live and loathe myself. </l>
+          <l xml:id="A04520_02-e109220">Who pities me? to whom have I been kind? </l>
+          <l xml:id="A04520_02-e109230">But to a few; a few will pity me. </l>
+          <l xml:id="A04520_02-e109240">Why die I not? Death scorns so vild a prey. </l>
+          <l xml:id="A04520_02-e109250"><pb facs="40"/>Why live I not, life hates so sad a prize. </l>
+          <l xml:id="A04520_02-e109260">I sue to both to be retained of either,</l>
+          <l xml:id="A04520_02-e109270">But both are deaf, I can be heard of neither. </l>
+          <l xml:id="A04520_02-e109280">Nor death nor life, yet life and near the near,</l>
+          <l xml:id="A04520_02-e109290">Ymixt with death, biding I wot not where. </l>
+        </sp>
+        <sp xml:id="A04520_02-e109300" who="A04520_02-philip">
+          <speaker>Phil.</speaker>
+          <l xml:id="A04520_02-e109310">How fares my lord, that he is carried thus? </l>
+          <l xml:id="A04520_02-e109320">Not all the awkward fortunes yet befallen,</l>
+          <l xml:id="A04520_02-e109330">Made such impression of lament in me. </l>
+          <l xml:id="A04520_02-e109340">Nor ever did my eye attaint my heart</l>
+          <l xml:id="A04520_02-e109350">With any object moving more remorse,</l>
+          <l xml:id="A04520_02-e109360">Than now beholding of a mighty King,</l>
+          <l xml:id="A04520_02-e109370">Born by his lords in such distressed state. </l>
+        </sp>
+        <sp xml:id="A04520_02-e109380" who="A04520_02-john">
+          <speaker>Joh.</speaker>
+          <l xml:id="A04520_02-e109390">What news with thee? if bad, report it straight ▪</l>
+          <l xml:id="A04520_02-e109400">If good, be mute, it doth but flatter me. </l>
+        </sp>
+        <sp xml:id="A04520_02-e109410" who="A04520_02-philip">
+          <speaker>Phil.</speaker>
+          <l xml:id="A04520_02-e109420">Such as it is, and heavy though it be,</l>
+          <l xml:id="A04520_02-e109430">To glut the world with tragic elegies,</l>
+          <l xml:id="A04520_02-e109440">Once will I breathe to aggravate the rest,</l>
+          <l xml:id="A04520_02-e109450">Another moan to make the measure full. </l>
+          <l xml:id="A04520_02-e109460">The bravest bowman had not yet sent forth</l>
+          <l xml:id="A04520_02-e109470">Two arrows from the quiver at his side,</l>
+          <l xml:id="A04520_02-e109480">But that a rumor went throughout our camp,</l>
+          <l xml:id="A04520_02-e109490">That John was fled, the King had left the field. </l>
+          <l xml:id="A04520_02-e109500">At last the rumor scaled these ears of mine,</l>
+          <l xml:id="A04520_02-e109510">Who rather chose as sacrifice for Mars,</l>
+          <l xml:id="A04520_02-e109520">Than ignominious scandal by retire. </l>
+          <l xml:id="A04520_02-e109530">I cheered the troops, as did the prince of Troy</l>
+          <l xml:id="A04520_02-e109540">His weary followers 'gainst the Myrmidons,</l>
+          <l xml:id="A04520_02-e109550">Crying aloud, s. George, the day is ours. </l>
+          <l xml:id="A04520_02-e109560">But fear had captivated courage quite,</l>
+          <l xml:id="A04520_02-e109570">And like the lamb before the greedy wolf,</l>
+          <l xml:id="A04520_02-e109580">So heartless fled our war-men from the field. </l>
+          <l xml:id="A04520_02-e109590">Short tale to make, myself amongst the rest,</l>
+          <l xml:id="A04520_02-e109600">Was fain to fly before the eager foe. </l>
+          <l xml:id="A04520_02-e109610">By this time night had shadowed all the earth,</l>
+          <l xml:id="A04520_02-e109620">With sable curtains of the blackest hue,</l>
+          <l xml:id="A04520_02-e109630">And fenced us from the fury of the French,</l>
+          <l xml:id="A04520_02-e109640"><pb facs="41"/> as Io from the jealous Juno's eye,</l>
+          <l xml:id="A04520_02-e109650">When in the morning our troops did gather head,</l>
+          <l xml:id="A04520_02-e109660">Passing the washes with our carriages,</l>
+          <l xml:id="A04520_02-e109670">The impartial tide deadly and inexorable,</l>
+          <l xml:id="A04520_02-e109680">Came raging in with billows threatening death,</l>
+          <l xml:id="A04520_02-e109690">And swallowed up the most of all our men,</l>
+          <l xml:id="A04520_02-e109700">Myself upon a Galloway right free, well paced,</l>
+          <l xml:id="A04520_02-e109710">Out stripped the floods that followed wave by wave,</l>
+          <l xml:id="A04520_02-e109720">I so escaped to tell this tragic tale. </l>
+        </sp>
+        <sp xml:id="A04520_02-e109730" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e109740">Grief upon grief, yet none so great a grief</l>
+          <l xml:id="A04520_02-e109750">To end this life, and thereby rid my grief. </l>
+          <l xml:id="A04520_02-e109760">Was ever any so infortunate,</l>
+          <l xml:id="A04520_02-e109770">The right idea of a cursed man,</l>
+          <l xml:id="A04520_02-e109780">As I, poor I, a triumph for despite,</l>
+          <l xml:id="A04520_02-e109790">My fever grows, what ague shakes me so? </l>
+          <l xml:id="A04520_02-e109800">How far to Swinstead, tell me, do you know? </l>
+          <l xml:id="A04520_02-e109810">Present unto the abbot word of my repair. </l>
+          <l xml:id="A04520_02-e109820">My sickness rages, to tyrannize upon me,</l>
+          <l xml:id="A04520_02-e109830">I cannot live unless this fever leave me. </l>
+        </sp>
+        <sp xml:id="A04520_02-e109840" who="A04520_02-philip">
+          <speaker>Philip</speaker>
+          <l xml:id="A04520_02-e109850">Good cheer my lord, the abbey is at hand,</l>
+          <l xml:id="A04520_02-e109860">Behold my lord, the churchmen come to meet you. </l>
+        </sp>
+        <stage xml:id="A04520_02-e109870">Enter the abbot and certain monks.</stage>
+        <sp xml:id="A04520_02-e109880" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <p xml:id="A04520_02-e109890">All health and happiness to our sovereign lord the King.</p>
+        </sp>
+        <sp xml:id="A04520_02-e109900" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e109910">Nor health nor happiness hath John at all. </l>
+          <l xml:id="A04520_02-e109920">Say abbot, am I welcome to thy house? </l>
+        </sp>
+        <sp xml:id="A04520_02-e109930" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <l xml:id="A04520_02-e109940">Such welcome as our abbey can afford,</l>
+          <l xml:id="A04520_02-e109950">Your majesty shall be assured of. </l>
+        </sp>
+        <sp xml:id="A04520_02-e109960" who="A04520_02-philip">
+          <speaker>Philip</speaker>
+          <l xml:id="A04520_02-e109970">The King thou seest is weak and very faint,</l>
+          <l xml:id="A04520_02-e109980">What victuals hast thou to refresh his grace? </l>
+        </sp>
+        <sp xml:id="A04520_02-e109990" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <l xml:id="A04520_02-e110000">Good stote my lord, of that you need not fear,</l>
+          <l xml:id="A04520_02-e110010">For Lincolnshire, and these our abbey grounds</l>
+          <l xml:id="A04520_02-e110020">Were never fatter, nor in better plight. </l>
+        </sp>
+        <sp xml:id="A04520_02-e110030" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e110040">Philip, thou never needst to doubt of cates,</l>
+          <l xml:id="A04520_02-e110050">Nor King nor lord is seated half so well,</l>
+          <l xml:id="A04520_02-e110060">As are the abbeys throughout all the land,</l>
+          <l xml:id="A04520_02-e110070">If any plot of ground do pass another,</l>
+          <l xml:id="A04520_02-e110080"><pb facs="41"/> the friars fasten on it straight:</l>
+          <l xml:id="A04520_02-e110090">But let us in to taste of their repast,</l>
+          <l xml:id="A04520_02-e110100">It goes against my heart to feed with them,</l>
+          <l xml:id="A04520_02-e110110">Or be beholding to such abbey grooms:</l>
+        </sp>
+        <stage xml:id="A04520_02-e110120">Exeunt.</stage>
+        <stage xml:id="A04520_02-e110130">Manet the monk. </stage>
+        <sp xml:id="A04520_02-e110140" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <l xml:id="A04520_02-e110150">Is this the King that never loved a friar? </l>
+          <l xml:id="A04520_02-e110160">Is this the man that doth contemn the Pope? </l>
+          <l xml:id="A04520_02-e110170">Is this the man that robbed the holy church,</l>
+          <l xml:id="A04520_02-e110180">And yet will fly unto a friory? </l>
+          <l xml:id="A04520_02-e110190">Is this the King that aims at abbeys lands? </l>
+          <l xml:id="A04520_02-e110200">Is this the man whom all the world abhors,</l>
+          <l xml:id="A04520_02-e110210">And yet will fly unto a friary? </l>
+          <l xml:id="A04520_02-e110220">Accursed be Swinstead abbey, abbot, friars,</l>
+          <l xml:id="A04520_02-e110230">Monks, nuns, and clarks, and all that dwells therein,</l>
+          <l xml:id="A04520_02-e110240">If wicked John escape alive away. </l>
+          <l xml:id="A04520_02-e110250">Now if that thou wilt look to merit heaven,</l>
+          <l xml:id="A04520_02-e110260">And be canonised for a holy saint:</l>
+          <l xml:id="A04520_02-e110270">To please the world with a deserving work,</l>
+          <l xml:id="A04520_02-e110280">Be thou the man to set thy country free,</l>
+          <l xml:id="A04520_02-e110290">And murder him that seeks to murder thee. </l>
+        </sp>
+        <stage xml:id="A04520_02-e110300">Enter the abbot.</stage>
+        <sp xml:id="A04520_02-e110310" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <l xml:id="A04520_02-e110320">Why are not you within to cheer the King? </l>
+          <l xml:id="A04520_02-e110330">He now begins to mend, and will to meat. </l>
+        </sp>
+        <sp xml:id="A04520_02-e110340" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <p xml:id="A04520_02-e110350">What if I say to strangle him in his sleep?</p>
+        </sp>
+        <sp xml:id="A04520_02-e110360" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <l xml:id="A04520_02-e110370">What, at thy Mumpsimus? away,</l>
+          <l xml:id="A04520_02-e110380">And seek some means for to pastime the King. </l>
+        </sp>
+        <sp xml:id="A04520_02-e110390" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <l xml:id="A04520_02-e110400">I'll set a dudgeon dagger at his heart,</l>
+          <l xml:id="A04520_02-e110410">And with a mallet knock him on the head. </l>
+        </sp>
+        <sp xml:id="A04520_02-e110420" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <l xml:id="A04520_02-e110430">Alas, what means this monk to murder me? </l>
+          <l xml:id="A04520_02-e110440">Dare lay my life he'll kill me for my place. </l>
+        </sp>
+        <sp xml:id="A04520_02-e110450" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <l xml:id="A04520_02-e110460">I'll poison him, and it shall ne'er be known,</l>
+          <l xml:id="A04520_02-e110470">And then shall I be chiefest of my house. </l>
+        </sp>
+        <sp xml:id="A04520_02-e110480" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <l xml:id="A04520_02-e110490">If I were dead indeed he is the next,</l>
+          <l xml:id="A04520_02-e110500">But I'll away, for why the monk is mad,</l>
+          <l xml:id="A04520_02-e110510">And in his madness he will murder me. </l>
+        </sp>
+        <sp xml:id="A04520_02-e110520" who="A04520_02-monk">
+          <pb facs="42"/>
+          <speaker>Monk</speaker>
+          <p xml:id="A04520_02-e110530">My l. I cry your lordship mercy, I saw you not.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110540" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <p xml:id="A04520_02-e110550">Alas good Thomas do not murder me, and thou shalt have my place with thousand thanks.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110560" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <p xml:id="A04520_02-e110570">I murder you! God shield from such a thought.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110580" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <p xml:id="A04520_02-e110590">If thou wilt needs, yet let me say my prayers.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110600" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <p xml:id="A04520_02-e110610">I will not hurt your lordship good my lord: but if you please, I will impart a thing that shall be beneficial to us all.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110620" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <p xml:id="A04520_02-e110630">Wilt thou not hurt me holy monk? say on.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110640" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <p xml:id="A04520_02-e110650">You know my lord, the King is in our house.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110660" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <p xml:id="A04520_02-e110670">True.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110680" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <p xml:id="A04520_02-e110690">You know likewise the King abhors a friar.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110700" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <p xml:id="A04520_02-e110710">True.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110720" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <p xml:id="A04520_02-e110730">And he that loves not a friar is our enemy.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110740" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <p xml:id="A04520_02-e110750">Thou sayest true.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110760" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <p xml:id="A04520_02-e110770">Then the King is our enemy.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110780" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <p xml:id="A04520_02-e110790">True.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110800" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <p xml:id="A04520_02-e110810">Why then should we not kill our enemy, and the King being our enemy, why then should we not kill the K.</p>
+        </sp>
+        <sp xml:id="A04520_02-e110820" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <l xml:id="A04520_02-e110830">O blessed monk! I see God moves thy mind</l>
+          <l xml:id="A04520_02-e110840">To free this land from tyrant's slavery. </l>
+          <l xml:id="A04520_02-e110850">But who dare venture for to do this deed? </l>
+        </sp>
+        <sp xml:id="A04520_02-e110860" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <l xml:id="A04520_02-e110870">Who dare? why I my lord dare do the deed,</l>
+          <l xml:id="A04520_02-e110880">I'll free my country and the church from foes,</l>
+          <l xml:id="A04520_02-e110890">And merit heaven by killing of a King. </l>
+        </sp>
+        <sp xml:id="A04520_02-e110900" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <l xml:id="A04520_02-e110910">Thomas kneel down, and if thou art resolved,</l>
+          <l xml:id="A04520_02-e110920">I will absolve thee here from all thy sins,</l>
+          <l xml:id="A04520_02-e110930">For why the deed is meritorious. </l>
+          <l xml:id="A04520_02-e110940">Forward, and fear not man, for every month,</l>
+          <l xml:id="A04520_02-e110950">Our friars shall sing a mass for Thomas soul. </l>
+        </sp>
+        <sp xml:id="A04520_02-e110960" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <l xml:id="A04520_02-e110970">God and s. Francis prosper my attempt,</l>
+          <l xml:id="A04520_02-e110980">For now my lord I go about my work. </l>
+        </sp>
+        <stage xml:id="A04520_02-e110990">Exeunt.</stage>
+        <stage xml:id="A04520_02-e111000">Enter Lewes and his army.</stage>
+        <sp xml:id="A04520_02-e111010" who="A04520_02-lewis">
+          <speaker>Lewes</speaker>
+          <l xml:id="A04520_02-e111020">Thus victory in bloody laurel clad,</l>
+          <l xml:id="A04520_02-e111030">Follows the fortune of young Lodowick,</l>
+          <l xml:id="A04520_02-e111040">The Englishmen as daunted at our sight,</l>
+          <l xml:id="A04520_02-e111050"><pb facs="42"/> fall as the fowl before the eagles eyes,</l>
+          <l xml:id="A04520_02-e111060">Only two crosses of contrary change</l>
+          <l xml:id="A04520_02-e111070">Do nip my heart, and vex me with unrest. </l>
+          <l xml:id="A04520_02-e111080">Lord Melun's death, the one part of my soul,</l>
+          <l xml:id="A04520_02-e111090">A braver man did never live in France. </l>
+          <l xml:id="A04520_02-e111100">The other grief, I that's a gall indeed,</l>
+          <l xml:id="A04520_02-e111110">To think that Dover castle should hold out</l>
+          <l xml:id="A04520_02-e111120">'Gainst all assaults, and rest impregnable. </l>
+          <l xml:id="A04520_02-e111130">Ye warlike race of Francus Hector's son,</l>
+          <l xml:id="A04520_02-e111140">Triumph in conquest of that tyrant John,</l>
+          <l xml:id="A04520_02-e111150">The better half of England is our own:</l>
+          <l xml:id="A04520_02-e111160">And towards the conquest of the other part,</l>
+          <l xml:id="A04520_02-e111170">We have the face of all the English lords,</l>
+          <l xml:id="A04520_02-e111180">What then remains but overrun the land? </l>
+          <l xml:id="A04520_02-e111190">Be resolute my warlike followers,</l>
+          <l xml:id="A04520_02-e111200">And if good fortune serve as she begins,</l>
+          <l xml:id="A04520_02-e111210">The poorest peasant of the realm of France</l>
+          <l xml:id="A04520_02-e111220">Shall be a master o'er an English lord. </l>
+        </sp>
+        <stage xml:id="A04520_02-e111230">Enter a messenger.</stage>
+        <sp xml:id="A04520_02-e111240" who="A04520_02-lewis">
+          <speaker>Lewes</speaker>
+          <p xml:id="A04520_02-e111250">Fellow, what news?</p>
+        </sp>
+        <sp xml:id="A04520_02-e111260" who="A04520_02-messenger">
+          <speaker>Messenger</speaker>
+          <p xml:id="A04520_02-e111270">Pleaseth your grace, the Earl of Salisbury, Pembroke, Essex, Clare, and Arundel, with all the barons that did fight for thee, are on a sudden fled with all their powers, to join with John, to drive thee back again.</p>
+        </sp>
+        <stage xml:id="A04520_02-e111280">Enter another messenger.</stage>
+        <sp xml:id="A04520_02-e111290" who="A04520_02-messenger">
+          <speaker>Messenger</speaker>
+          <l xml:id="A04520_02-e111300">Lewes my lord, why standst thou in a maze? </l>
+          <l xml:id="A04520_02-e111310">Gather thy troops, hope not of help from France,</l>
+          <l xml:id="A04520_02-e111320">For all thy forces being fifty sail,</l>
+          <l xml:id="A04520_02-e111330">Containing twenty thousand soldiers,</l>
+          <l xml:id="A04520_02-e111340">With victual and munition for the war,</l>
+          <l xml:id="A04520_02-e111350">Putting them from Callis in unlucky time,</l>
+          <l xml:id="A04520_02-e111360">Did cross the seas, and on the Goodwin sands,</l>
+          <l xml:id="A04520_02-e111370">The men, munition, and the ships are lost. </l>
+        </sp>
+        <stage xml:id="A04520_02-e111380">Enter another messenger.</stage>
+        <sp xml:id="A04520_02-e111390" who="A04520_02-lewis">
+          <speaker>Lewes</speaker>
+          <p xml:id="A04520_02-e111400">More news? say on.</p>
+        </sp>
+        <sp xml:id="A04520_02-e111410" who="A04520_02-messenger">
+          <speaker>Messenger</speaker>
+          <l xml:id="A04520_02-e111420">John (My lord with all his scattered troops,</l>
+          <l xml:id="A04520_02-e111430"><pb facs="43"/> flying the fury of your conquering sword,</l>
+          <l xml:id="A04520_02-e111440">As Pharaoh erst within the bloody sea,</l>
+          <l xml:id="A04520_02-e111450">So he and his environed with the tide,</l>
+          <l xml:id="A04520_02-e111460">On Lincoln washes all were overwhelmed,</l>
+          <l xml:id="A04520_02-e111470">The barons fled, our forces cast away. </l>
+        </sp>
+        <sp xml:id="A04520_02-e111480" who="A04520_02-lewis">
+          <speaker>Lewes</speaker>
+          <p xml:id="A04520_02-e111490">Was ever heard such unexpected news?</p>
+        </sp>
+        <sp xml:id="A04520_02-e111500" who="A04520_02-messenger">
+          <speaker>Messenger</speaker>
+          <l xml:id="A04520_02-e111510">Yet Lodowick revive thy dying heart,</l>
+          <l xml:id="A04520_02-e111520">King John and all his forces are consumed. </l>
+          <l xml:id="A04520_02-e111530">The less thou needst the aid of English Earls,</l>
+          <l xml:id="A04520_02-e111540">The less thou needst to grieve thy navies wrack,</l>
+          <l xml:id="A04520_02-e111550">And follow times advantage with success. </l>
+        </sp>
+        <sp xml:id="A04520_02-e111560" who="A04520_02-lewis">
+          <speaker>Lewes</speaker>
+          <l xml:id="A04520_02-e111570">Brave Frenchmen armed with magnanimity,</l>
+          <l xml:id="A04520_02-e111580">March after Lewes, who will lead you on</l>
+          <l xml:id="A04520_02-e111590">To chase the baron's power that wants a head,</l>
+          <l xml:id="A04520_02-e111600">For John is drowned, and I am England's King. </l>
+          <l xml:id="A04520_02-e111610">Though our munition and our men be lost,</l>
+          <l xml:id="A04520_02-e111620">Philip of France will send us fresh supplies. </l>
+        </sp>
+        <stage xml:id="A04520_02-e111630">Exeunt.</stage>
+        <stage xml:id="A04520_02-e111640">Enter two friars laying a cloth.</stage>
+        <sp xml:id="A04520_02-e111650" who="A04520_02-friar">
+          <speaker>Friar</speaker>
+          <l xml:id="A04520_02-e111660">Dispatch, dispatch, the King desires to eat,</l>
+          <l xml:id="A04520_02-e111670">Would a might eat his last for the love he bears to church men. </l>
+        </sp>
+        <sp xml:id="A04520_02-e111680" who="A04520_02-friar">
+          <speaker>Friar</speaker>
+          <p xml:id="A04520_02-e111690">I am of thy mind too, and so it should be and we might be our own carvers.</p>
+          <p xml:id="A04520_02-e111700">I marvel why they dine here in the orchard.</p>
+        </sp>
+        <sp xml:id="A04520_02-e111710" who="A04520_02-friar">
+          <speaker>Friar</speaker>
+          <p xml:id="A04520_02-e111720">I know not, nor I care not. The King comes.</p>
+        </sp>
+        <sp xml:id="A04520_02-e111730" who="A04520_02-john">
+          <speaker>John.</speaker>
+          <p xml:id="A04520_02-e111740">Come on lord abbot, shall we sit together?</p>
+        </sp>
+        <sp xml:id="A04520_02-e111750" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <p xml:id="A04520_02-e111760">Pleaseth your grace sit down.</p>
+        </sp>
+        <sp xml:id="A04520_02-e111770" who="A04520_02-john">
+          <speaker>John</speaker>
+          <p xml:id="A04520_02-e111780">Take your places sirs, no pomp in penury, all beggars and friends may come, where necessity keeps the house, courtesy is barred the table, sit down Philip. </p>
+        </sp>
+        <sp xml:id="A04520_02-e111790" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <p xml:id="A04520_02-e111800">My lord, I am loath to allude so much to the proverb, honours change manners: a King is a King, though fortune do her worst, and we as dutiful in despite of her frown, as if your highness were now in the highest type of dignity.</p>
+        </sp>
+        <sp xml:id="A04520_02-e111810" who="A04520_02-john">
+          <speaker>John</speaker>
+          <p xml:id="A04520_02-e111820">Come, no more ado, and you tell me much of dignity, you'll mar my appetite in a surfeit of sorrow. <pb facs="43"/>What cheer lord abbot, methinks ye frown like an host that knows his guest hath no money to pay the reckoning?</p>
+        </sp>
+        <sp xml:id="A04520_02-e111830" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <p xml:id="A04520_02-e111840">No my liege, if I frown at all, it is for I fear this cheer too homely to entertain so mighty a guest as your majesty.</p>
+        </sp>
+        <sp xml:id="A04520_02-e111850" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <p xml:id="A04520_02-e111860">I think rather, my lord abbot, you remember my last being here, when I went in progress for pouches, and the rancour of his heart breaks out in his countenance, to show he hath not forgotten me.</p>
+        </sp>
+        <sp xml:id="A04520_02-e111870" who="A04520_02-abbot">
+          <speaker>Abbot</speaker>
+          <p xml:id="A04520_02-e111880">Not so my lord, you, and the meanest follower of his majesty, are heartily welcome to me.</p>
+        </sp>
+        <sp xml:id="A04520_02-e111890" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <p xml:id="A04520_02-e111900">Wassell my liege, and as a poor monk may say, welcome to Swinstead. </p>
+        </sp>
+        <sp xml:id="A04520_02-e111910" who="A04520_02-john">
+          <speaker>John</speaker>
+          <p xml:id="A04520_02-e111920">Begin monk, and report hereafter thou wast taster to a King.</p>
+        </sp>
+        <sp xml:id="A04520_02-e111930" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <p xml:id="A04520_02-e111940">As much health to your highness as to mine own heart.</p>
+        </sp>
+        <sp xml:id="A04520_02-e111950" who="A04520_02-john">
+          <speaker>John</speaker>
+          <p xml:id="A04520_02-e111960">I pledge thee kind monk.</p>
+        </sp>
+        <sp xml:id="A04520_02-e111970" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <l xml:id="A04520_02-e111980">The merriest draught that ever was drunk in England. </l>
+          <l xml:id="A04520_02-e111990">Am I not too bold with your highness? </l>
+        </sp>
+        <sp xml:id="A04520_02-e112000" who="A04520_02-john">
+          <speaker>John</speaker>
+          <p xml:id="A04520_02-e112010">Not a whit, all friends and fellows for a time.</p>
+        </sp>
+        <sp xml:id="A04520_02-e112020" who="A04520_02-monk">
+          <speaker>Monk</speaker>
+          <p xml:id="A04520_02-e112030">If the innards of a toad be a compound of any proof: why so it works.</p>
+        </sp>
+        <sp xml:id="A04520_02-e112040" who="A04520_02-john">
+          <speaker>John</speaker>
+          <p xml:id="A04520_02-e112050">Stay Philip, where's the monk?</p>
+        </sp>
+        <sp xml:id="A04520_02-e112060" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <p xml:id="A04520_02-e112070">He is dead my lord.</p>
+        </sp>
+        <sp xml:id="A04520_02-e112080" who="A04520_02-john">
+          <speaker>John</speaker>
+          <p xml:id="A04520_02-e112090">Then drink not Philip for a world of wealth.</p>
+        </sp>
+        <sp xml:id="A04520_02-e112100" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <p xml:id="A04520_02-e112110">What cheer my liege? your colour begins to change.</p>
+        </sp>
+        <sp xml:id="A04520_02-e112120" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e112130">So doth my life: oh Philip, I am poisoned. </l>
+          <l xml:id="A04520_02-e112140">The monk, the devil, the poison begins to rage,</l>
+          <l xml:id="A04520_02-e112150">It will depose myself a King from reign. </l>
+        </sp>
+        <sp xml:id="A04520_02-e112160" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e112170">This abbot hath an interest in this act. </l>
+          <l xml:id="A04520_02-e112180">At all adventures take thou that from me. </l>
+          <l xml:id="A04520_02-e112190">There lie the abbot, abbey, lubber, devil. </l>
+          <l xml:id="A04520_02-e112200">March with the monk unto the gates of hell. </l>
+          <l xml:id="A04520_02-e112210">How fares my lord? </l>
+        </sp>
+        <sp xml:id="A04520_02-e112220" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e112230">Philip, some drink, o for the frozen Alps,</l>
+          <l xml:id="A04520_02-e112240">To tumble on and cool this inward heat,</l>
+          <l xml:id="A04520_02-e112250">That rageth as the furnace sevenfold hot. </l>
+          <l xml:id="A04520_02-e112260"><pb facs="44"/>To burn the holy tree in Babylon,</l>
+          <l xml:id="A04520_02-e112270">Power after power forsake their proper power,</l>
+          <l xml:id="A04520_02-e112280">Only the heart impugns with faint resist</l>
+          <l xml:id="A04520_02-e112290">The fierce invade of him that conquers Kings,</l>
+          <l xml:id="A04520_02-e112300">Help God, oh pain! die John, oh plague</l>
+          <l xml:id="A04520_02-e112310">Inflicted on thee for thy grievous sins. </l>
+          <l xml:id="A04520_02-e112320">Philip, a chair, and by and by a grave,</l>
+          <l xml:id="A04520_02-e112330">My legs disdain the carriage of a King. </l>
+        </sp>
+        <sp xml:id="A04520_02-e112340" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e112350">A good my liege, with patience conquer grief,</l>
+          <l xml:id="A04520_02-e112360">And bear this pain with kingly fortitude. </l>
+        </sp>
+        <sp xml:id="A04520_02-e112370" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e112380">Methinks I see a catalogue of sin,</l>
+          <l xml:id="A04520_02-e112390">Written by a fiend in marble characters,</l>
+          <l xml:id="A04520_02-e112400">The least enough to lose my part in heaven. </l>
+          <l xml:id="A04520_02-e112410">Methinks the devil whispers in mine ears,</l>
+          <l xml:id="A04520_02-e112420">And tells me, 'tis in vain to hope for grace,</l>
+          <l xml:id="A04520_02-e112430">I must be damned for Arthur's sudden death,</l>
+          <l xml:id="A04520_02-e112440">I see I see a thousand thousand men</l>
+          <l xml:id="A04520_02-e112450">Come to accuse me for my wrong on earth,</l>
+          <l xml:id="A04520_02-e112460">And there is none so merciful a god</l>
+          <l xml:id="A04520_02-e112470">That will forgive the number of my sins. </l>
+          <l xml:id="A04520_02-e112480">How have I lived, but by another's loss? </l>
+          <l xml:id="A04520_02-e112490">What have I loved, but wrack of others weal? </l>
+          <l xml:id="A04520_02-e112500">When have I vowed, and not infringed mine oath? </l>
+          <l xml:id="A04520_02-e112510">Where have I done a deed deserving well? </l>
+          <l xml:id="A04520_02-e112520">How, what, when, and where, have I bestowed a day,</l>
+          <l xml:id="A04520_02-e112530">That tended not to some notorious ill. </l>
+          <l xml:id="A04520_02-e112540">My life replete with rage and tyranny,</l>
+          <l xml:id="A04520_02-e112550">Craves little pity for so strange a death. </l>
+          <l xml:id="A04520_02-e112560">Or, who will say that John deceased too soon? </l>
+          <l xml:id="A04520_02-e112570">Who will not say, he rather lived too long. </l>
+          <l xml:id="A04520_02-e112580">Dishonour did attaint me in my life,</l>
+          <l xml:id="A04520_02-e112590">And shame attendeth John unto his death. </l>
+          <l xml:id="A04520_02-e112600">Why did I scape the fury of the French,</l>
+          <l xml:id="A04520_02-e112610">And died not by the temper of their swords? </l>
+          <l xml:id="A04520_02-e112620">Shameless my life, and shamefully it ends,</l>
+          <l xml:id="A04520_02-e112630">Scorned by my foes, disdained of my friends. </l>
+        </sp>
+        <sp xml:id="A04520_02-e112640" who="A04520_02-bastard">
+          <pb facs="44"/>
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e112650">Forgive the world and all your earthly foes,</l>
+          <l xml:id="A04520_02-e112660">And call on Christ, who is your latest friend. </l>
+        </sp>
+        <sp xml:id="A04520_02-e112670" who="A04520_02-john">
+          <speaker>John</speaker>
+          <l xml:id="A04520_02-e112680">My tongue doth falter: Philip, I tell thee man,</l>
+          <l xml:id="A04520_02-e112690">Since John did yield unto the priest of Rome,</l>
+          <l xml:id="A04520_02-e112700">Nor he nor his have prospered on the earth:</l>
+          <l xml:id="A04520_02-e112710">Cursed are his blessings, and his curse is bliss. </l>
+          <l xml:id="A04520_02-e112720">But in the spirit I cry unto my god,</l>
+          <l xml:id="A04520_02-e112730">As did the kingly prophet David cry,</l>
+          <l xml:id="A04520_02-e112740">(Whose hands, as mine, with murder were attaint)</l>
+          <l xml:id="A04520_02-e112750">I am not he shall build the lord a house,</l>
+          <l xml:id="A04520_02-e112760">Or root these locusts from the face of earth:</l>
+          <l xml:id="A04520_02-e112770">But if my dying heart deceive me not,</l>
+          <l xml:id="A04520_02-e112780">From out these loins shall spring a kingly branch</l>
+          <l xml:id="A04520_02-e112790">Whose arms shall reach unto the gates of Rome,</l>
+          <l xml:id="A04520_02-e112800">And with his feet treads down the strumpet's pride,</l>
+          <l xml:id="A04520_02-e112810">That sits upon the chair of Babylon. </l>
+          <l xml:id="A04520_02-e112820">Philip, my heart strings break, the poison's flame</l>
+          <l xml:id="A04520_02-e112830">Hath overcome in me weak nature's power,</l>
+          <l xml:id="A04520_02-e112840">And in the faith of Jesu John doth die. </l>
+        </sp>
+        <sp xml:id="A04520_02-e112850" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e112860">See how he strives for life, unhappy lord,</l>
+          <l xml:id="A04520_02-e112870">Whose bowels are divided in themselves. </l>
+          <l xml:id="A04520_02-e112880">This is the fruit of popery, when true Kings</l>
+          <l xml:id="A04520_02-e112890">Are slain and shouldered out by monks and friars. </l>
+        </sp>
+        <stage xml:id="A04520_02-e112900">Enter a messenger.</stage>
+        <sp xml:id="A04520_02-e112910" who="A04520_02-messenger">
+          <speaker>Messenger</speaker>
+          <l xml:id="A04520_02-e112920">Please it your grace, the barons of the land,</l>
+          <l xml:id="A04520_02-e112930">Which all this while bare arms against the King,</l>
+          <l xml:id="A04520_02-e112940">Conducted by the legate of the Pope,</l>
+          <l xml:id="A04520_02-e112950">Together with the prince his highness' son,</l>
+          <l xml:id="A04520_02-e112960">Do crave to be admitted to the presence of the King. </l>
+        </sp>
+        <sp xml:id="A04520_02-e112970" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e112980">Your son, my lord, young Henry craves to see</l>
+          <l xml:id="A04520_02-e112990">Your majesty, and brings with him beside</l>
+          <l xml:id="A04520_02-e113000">The barons that revolted from your grace. </l>
+          <l xml:id="A04520_02-e113010">O piercing sight, he fumbleth in the mouth,</l>
+          <l xml:id="A04520_02-e113020">His speech doth fail: lift up yourself my lord,</l>
+          <l xml:id="A04520_02-e113030">And see the prince to comfort you in death. </l>
+        </sp>
+        <stage xml:id="A04520_02-e113040"><pb facs="45"/>Enter Pandulph, young Henry, the barons with daggers in their hands.</stage>
+        <sp xml:id="A04520_02-e113050" who="A04520_02-prince">
+          <speaker>Prince</speaker>
+          <l xml:id="A04520_02-e113060">O let me see my father ere he die:</l>
+          <l xml:id="A04520_02-e113070">Oh uncle, were you here, and suffered him</l>
+          <l xml:id="A04520_02-e113080">To be thus poisoned by a damned monk? </l>
+          <l xml:id="A04520_02-e113090">Ah he is dead, father, sweet father speak. </l>
+        </sp>
+        <sp xml:id="A04520_02-e113100" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <p xml:id="A04520_02-e113110">His speech doth fail, he hasteth to his end.</p>
+        </sp>
+        <sp xml:id="A04520_02-e113120" who="A04520_02-pandulph">
+          <speaker>Pandulph</speaker>
+          <l xml:id="A04520_02-e113130">Lords, give me leave to joy the dying King,</l>
+          <l xml:id="A04520_02-e113140">With sight of these his nobles kneeling here</l>
+          <l xml:id="A04520_02-e113150">With daggers in their hands, who offer up</l>
+          <l xml:id="A04520_02-e113160">Their lives for ransom of their foul offence. </l>
+          <l xml:id="A04520_02-e113170">Then good my lord, if you forgive them all,</l>
+          <l xml:id="A04520_02-e113180">Lift up your hand in token you forgive. </l>
+        </sp>
+        <sp xml:id="A04520_02-e113190" who="A04520_02-salisbury">
+          <speaker>Salis.</speaker>
+          <l xml:id="A04520_02-e113200">We humbly thank your royal majesty,</l>
+          <l xml:id="A04520_02-e113210">And vow to fight for England and her King:</l>
+          <l xml:id="A04520_02-e113220">And in the sight of John our sovereign lord,</l>
+          <l xml:id="A04520_02-e113230">In spite of Lewes and the power of France,</l>
+          <l xml:id="A04520_02-e113240">Who hitherward are marching in all haste,</l>
+          <l xml:id="A04520_02-e113250">We crown young Henry in his father's stead. </l>
+        </sp>
+        <sp xml:id="A04520_02-e113260" who="A04520_02-henry">
+          <speaker>Henry</speaker>
+          <p xml:id="A04520_02-e113270">Help, help, he dies; ah father! look on me.</p>
+        </sp>
+        <sp xml:id="A04520_02-e113280" who="A04520_02-legate">
+          <speaker>Legate</speaker>
+          <l xml:id="A04520_02-e113290">K. John, farewell: in token of thy faith,</l>
+          <l xml:id="A04520_02-e113300">And sign thou diest the servant of the lord,</l>
+          <l xml:id="A04520_02-e113310">Lift up thy hand, that we may witness here,</l>
+          <l xml:id="A04520_02-e113320">Thou diedst the servant of our saviour Christ. </l>
+          <l xml:id="A04520_02-e113330">Now joy betide thy soul: what noise is this? </l>
+        </sp>
+        <stage xml:id="A04520_02-e113340">Enter a messenger.</stage>
+        <sp xml:id="A04520_02-e113350" who="A04520_02-messenger">
+          <speaker>Messenger</speaker>
+          <l xml:id="A04520_02-e113360">Help lords, the dolphin maketh hitherward</l>
+          <l xml:id="A04520_02-e113370">With ensigns of defiance in the wind,</l>
+          <l xml:id="A04520_02-e113380">And all our army standeth at a gaze,</l>
+          <l xml:id="A04520_02-e113390">Expecting what their leaders will command. </l>
+        </sp>
+        <sp xml:id="A04520_02-e113400" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e113410">Let's arm ourselves in young K. Henry's right,</l>
+          <l xml:id="A04520_02-e113420">And beat the power of France to sea again. </l>
+        </sp>
+        <sp xml:id="A04520_02-e113430" who="A04520_02-legate">
+          <pb facs="45"/>
+          <speaker>Legate</speaker>
+          <l xml:id="A04520_02-e113440">Philip not so, but I will to the prince,</l>
+          <l xml:id="A04520_02-e113450">And bring him face to face to parley with you. </l>
+        </sp>
+        <sp xml:id="A04520_02-e113460" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e113470">Lord Salisbury, yourself shall march with me. </l>
+          <l xml:id="A04520_02-e113480">So shall we bring these troubles to an end. </l>
+        </sp>
+        <sp xml:id="A04520_02-e113490" who="A04520_02-john">
+          <speaker>King</speaker>
+          <l xml:id="A04520_02-e113500">Sweet uncle, if thou love thy sovereign,</l>
+          <l xml:id="A04520_02-e113510">Let not a stone of Swinstead abbey stand,</l>
+          <l xml:id="A04520_02-e113520">But pull the house about the friar's ears:</l>
+          <l xml:id="A04520_02-e113530">For they have killed my father and my King. </l>
+        </sp>
+        <stage xml:id="A04520_02-e113540">Exeunt.</stage>
+        <stage xml:id="A04520_02-e113550">A parley sounded, Lewes, Pandulph, Salisbury etc.</stage>
+        <sp xml:id="A04520_02-e113560" who="A04520_02-pandulph">
+          <speaker>Pand.</speaker>
+          <l xml:id="A04520_02-e113570">Lewes of France, young Henry England's King</l>
+          <l xml:id="A04520_02-e113580">Requires to know the reason of the claim</l>
+          <l xml:id="A04520_02-e113590">That thou canst make to any thing of his. </l>
+          <l xml:id="A04520_02-e113600">King John that did offend, is dead and gone,</l>
+          <l xml:id="A04520_02-e113610">See where his breathless trunk in presence lies,</l>
+          <l xml:id="A04520_02-e113620">And he as heir apparent to the crown</l>
+          <l xml:id="A04520_02-e113630">Is now succeeded in his father's room. </l>
+        </sp>
+        <sp xml:id="A04520_02-e113640" who="A04520_02-henry">
+          <speaker>Henry</speaker>
+          <l xml:id="A04520_02-e113650">Lewes, what law of arms doth lead thee thus,</l>
+          <l xml:id="A04520_02-e113660">To keep possession of my lawful right? </l>
+          <l xml:id="A04520_02-e113670">Answer; in fine, if thou wilt take a peace,</l>
+          <l xml:id="A04520_02-e113680">And make surrender of my right again,</l>
+          <l xml:id="A04520_02-e113690">Or try thy title with the dint of sword:</l>
+          <l xml:id="A04520_02-e113700">I tell thee dolphin, Henry fears thee not. </l>
+          <l xml:id="A04520_02-e113710">For now the barons cleave unto their King,</l>
+          <l xml:id="A04520_02-e113720">And what thou hast in England they did get. </l>
+        </sp>
+        <sp xml:id="A04520_02-e113730" who="A04520_02-lewis">
+          <speaker>Lewes</speaker>
+          <l xml:id="A04520_02-e113740">Henry of England, now that John is dead,</l>
+          <l xml:id="A04520_02-e113750">That was the chiefest enemy to France,</l>
+          <l xml:id="A04520_02-e113760">I may the rather be induced to peace. </l>
+          <l xml:id="A04520_02-e113770">But Salisbury, and you barons of the realm,</l>
+          <l xml:id="A04520_02-e113780">This strange revolt agrees not with the oath</l>
+          <l xml:id="A04520_02-e113790">That you on bury altar lately sware. </l>
+        </sp>
+        <sp xml:id="A04520_02-e113800" who="A04520_02-salisbury">
+          <speaker>Sals.</speaker>
+          <l xml:id="A04520_02-e113810">Nor did the oath your highness there did take</l>
+          <l xml:id="A04520_02-e113820">Agree with honour of the prince of France. </l>
+        </sp>
+        <sp xml:id="A04520_02-e113830" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <p xml:id="A04520_02-e113840">My lord, what answer make you to the King?</p>
+        </sp>
+        <sp xml:id="A04520_02-e113850" who="A04520_02-lewis">
+          <speaker>Dolphin</speaker>
+          <l xml:id="A04520_02-e113860">Faith Philip this I say: it boots not me,</l>
+          <l xml:id="A04520_02-e113870"><pb facs="46"/> nor any prince, nor power of Christendom</l>
+          <l xml:id="A04520_02-e113880">To seek to win this island Albion,</l>
+          <l xml:id="A04520_02-e113890">Unless he have a party in the realm</l>
+          <l xml:id="A04520_02-e113900">By treason for to help him in his wars. </l>
+          <l xml:id="A04520_02-e113910">The peers which were the party on my side,</l>
+          <l xml:id="A04520_02-e113920">Are fled from me: then boots not me to fight,</l>
+          <l xml:id="A04520_02-e113930">But on conditions, as mine honour wills,</l>
+          <l xml:id="A04520_02-e113940">I am contented to depart the realm. </l>
+        </sp>
+        <sp xml:id="A04520_02-e113950" who="A04520_02-henry">
+          <speaker>Henry</speaker>
+          <p xml:id="A04520_02-e113960">On what conditions will your highness yield?</p>
+        </sp>
+        <sp xml:id="A04520_02-e113970" who="A04520_02-lewis">
+          <speaker>Lew.</speaker>
+          <p xml:id="A04520_02-e113980">That shall we think upon by more advice.</p>
+        </sp>
+        <sp xml:id="A04520_02-e113990" who="A04520_02-bastard">
+          <speaker>Bastard</speaker>
+          <l xml:id="A04520_02-e114000">Then Kings and princes, let these broils have end,</l>
+          <l xml:id="A04520_02-e114010">And at more leisure talk upon the league. </l>
+          <l xml:id="A04520_02-e114020">Meanwhile to Worster let us bear the King,</l>
+          <l xml:id="A04520_02-e114030">And there inter his body, as beseems. </l>
+          <l xml:id="A04520_02-e114040">But first, in sight of Lewes heir of France,</l>
+          <l xml:id="A04520_02-e114050">Lords take the crown, and set it on his head,</l>
+          <l xml:id="A04520_02-e114060">That by succession is our lawful King. </l>
+          <stage xml:id="A04520_02-e114070">They crown young Henry. </stage>
+          <l xml:id="A04520_02-e114080">Thus England's peace begins in Henry's reign,</l>
+          <l xml:id="A04520_02-e114090">And bloody wars are closed with happy league. </l>
+          <l xml:id="A04520_02-e114100">Let England live but true within itself,</l>
+          <l xml:id="A04520_02-e114110">And all the world can never wrong her state. </l>
+          <l xml:id="A04520_02-e114120">Lewes, thou shalt be bravely shipped to France,</l>
+          <l xml:id="A04520_02-e114130">For never Frenchman got of English ground</l>
+          <l xml:id="A04520_02-e114140">The twentieth part that thou hast conquered. </l>
+          <l xml:id="A04520_02-e114150">Dolphin, thy hand; to Worster we will march:</l>
+          <l xml:id="A04520_02-e114160">Lords all, lay hands to bear your sovereign</l>
+          <l xml:id="A04520_02-e114170">With obsequies of honour to his grave:</l>
+          <l xml:id="A04520_02-e114180">If England's peers and people join in one,</l>
+          <l xml:id="A04520_02-e114190">Nor Pope, nor France, nor Spain can do them wrong. </l>
+        </sp>
+        <trailer xml:id="A04520_02-e114200">Finis.</trailer>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A04520_02"><item xml:id="A04520_02-john" n="37">
+    <seg type="character_name">A04520_02-john</seg>
+    <seg type="speech_count">37</seg>
+  </item>
+  <item xml:id="A04520_02-bastard" n="24">
+    <seg type="character_name">A04520_02-bastard</seg>
+    <seg type="speech_count">24</seg>
+  </item>
+<item xml:id="A04520_02-abbot" n="19">
+    <seg type="character_name">A04520_02-abbot</seg>
+    <seg type="speech_count">19</seg>
+  </item>
+  <item xml:id="A04520_02-monk" n="18">
+    <seg type="character_name">A04520_02-monk</seg>
+    <seg type="speech_count">18</seg>
+  </item>
+  <item xml:id="A04520_02-lewis" n="17">
+    <seg type="character_name">A04520_02-lewis</seg>
+    <seg type="speech_count">17</seg>
+  </item>
+  <item xml:id="A04520_02-pembroke" n="13">
+    <seg type="character_name">A04520_02-pembroke</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+  <item xml:id="A04520_02-salisbury" n="12">
+    <seg type="character_name">A04520_02-salisbury</seg>
+    <seg type="speech_count">12</seg>
+  </item>
+  <item xml:id="A04520_02-pandulph" n="10">
+    <seg type="character_name">A04520_02-pandulph</seg>
+    <seg type="speech_count">10</seg>
+  </item>
+  <item xml:id="A04520_02-messenger" n="9">
+    <seg type="character_name">A04520_02-messenger</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A04520_02-essex" n="9">
+    <seg type="character_name">A04520_02-essex</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A04520_02-philip" n="5">
+    <seg type="character_name">A04520_02-philip</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A04520_02-melun" n="4">
+    <seg type="character_name">A04520_02-melun</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A04520_02-friar" n="3">
+    <seg type="character_name">A04520_02-friar</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A04520_02-henry" n="3">
+    <seg type="character_name">A04520_02-henry</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A04520_02-hubert" n="2">
+    <seg type="character_name">A04520_02-hubert</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A04520_02-legate" n="2">
+    <seg type="character_name">A04520_02-legate</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A04520_02-french_lord" n="1">
+    <seg type="character_name">A04520_02-french_lord</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04520_02-prince" n="1">
+    <seg type="character_name">A04520_02-prince</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04520_02-peter" n="1">
+    <seg type="character_name">A04520_02-peter</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04520_02-cardinal" n="1">
+    <seg type="character_name">A04520_02-cardinal</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04520_02-beauchamp" n="1">
+    <seg type="character_name">A04520_02-beauchamp</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04520_02-arthur" n="1">
+    <seg type="character_name">A04520_02-arthur</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04520_02-percy" n="1">
+    <seg type="character_name">A04520_02-percy</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

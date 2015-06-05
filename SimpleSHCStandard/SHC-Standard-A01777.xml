@@ -1,0 +1,2626 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A01777">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Albertus Wallenstein <date type="creation_date">1639</date></title>
+        <author>Glapthorne, Henry</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Madeline Burg</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A01777.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The tragedy of Albertus VVallenstein late Duke of Fridland, and generall to the Emperor Ferdinand the second. Written by Henry Glapthorne. The scene, Egers. And acted with good allowance at the Globe on the Banke-side, by his Majesties Servants.</title>
+            <author>Glapthorne, Henry.</author>
+          </titleStmt>
+          <extent>28 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 September (TCP phase 1)</date>
+            <idno type="marc">99838953</idno>
+            <idno type="stc">STC (2nd ed.) 11912.</idno>
+            <idno type="stc">Greg II: 564(*).</idno>
+            <idno type="vid">3346</idno>
+            <idno type="DLPS">A01777</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The tragedy of Albertus VVallenstein late Duke of Fridland, and generall to the Emperor Ferdinand the second. Written by Henry Glapthorne. The scene, Egers. And acted with good allowance at the Globe on the Banke-side, by his Majesties Servants.</title>
+            <title type="alt">Tragedy of Albertus Wallenstein</title>
+            <title type="alt">Tragedy of Albertus Wallenstein.</title>
+            <author>Glapthorne, Henry.</author>
+          </titleStmt>
+          <extent>[68] p.</extent>
+          <publicationStmt>
+            <publisher>By Tho. Paine, for George Hutton dwelling at the Turn-stile in Holborne,</publisher>
+            <pubPlace>Imprinted at London :</pubPlace>
+            <date>1639.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>In verse.</p>
+            </note>
+            <note>
+              <p>Signatures: A-H4 I2.</p>
+            </note>
+            <note>
+              <p>A variant of the edition dated 1640.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Wallenstein, Albrecht Wenzel Eusebius von, -- Herzog von Friedland, -- 1583-1634 -- Drama.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A01777-e100010">
+    <front xml:id="A01777-e100020">
+      <div type="title_page" xml:id="A01777-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A01777-e100040">The tragedy of Albertus Wallenstein, late Duke of Fridland, and general to the emperor Ferdinand the second.</p>
+        <p xml:id="A01777-e100050">Written by Henry Glapthorne.</p>
+        <quote xml:id="A01777-e100060">Cedant carminibus reges regumque triumphi.</quote>
+        <p xml:id="A01777-e100070">The scene, Egers. </p>
+        <p xml:id="A01777-e100080">And acted with good allowance at the globe on the Bankside, by his majesty's servants.</p>
+        <p xml:id="A01777-e100090">Imprinted at London by Tho. Pain, for George Hutton dwelling at the turnstile in Holborn, 1639.</p>
+      </div>
+      <div type="dedication" xml:id="A01777-e100100">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>To the great example of virtue and true Maecenas of liberal arts; Mr. William Murrey of his majesty's bedchamber.</head>
+        <opener xml:id="A01777-e100110">
+          <salute xml:id="A01777-e100120">Sir,</salute>
+        </opener>
+        <p xml:id="A01777-e100130">Gratitude is the best appendix to virtue: unthankfulness the worst add it on to vice. My endeavour to achieve the one, and avoid the other, invited me to this publication of my many engagements to your best self: and betrayed your noble name to the patronage of this poem. The native magnificence of your disposition is so replete with mercy, that it would be an error in<pb facs="3"/> the religion of my duty, should I question your remission of this audacious crime, the offence being only the acknowledgement of my respective service to you. Works of this nature have always assumed this privilege, to aspire the noblest for their protectors. Since then authorised by custom, worthiest sir, it cannot be a diminution to your fame, nor repugnant to the gravity of your most serious employments to have him by public profession known your servant, who hath long since by particular devotion been</p>
+        <closer xml:id="A01777-e100140">
+          <signed xml:id="A01777-e100150">The humblest of your honourers, Hen. Glapthorne.</signed>
+        </closer>
+      </div>
+      <div type="poem" xml:id="A01777-e100160">
+        <pb facs="3"/>
+        <head>In caedem alberti wallenstenii, ducis fridlandiae. 1634.</head>
+        <l xml:id="A01777-e100170">Tvus etiam superb Dux fridlandiae,</l>
+        <l xml:id="A01777-e100180">Dignus cothurno lugubri interitus meos</l>
+        <l xml:id="A01777-e100190">Elicit jambos? lugeant, quibus placet</l>
+        <l xml:id="A01777-e100200">Vacare lachrymis. Filiae ac viduae sat est</l>
+        <l xml:id="A01777-e100210">Laniare crines, plangere et manu sinus,</l>
+        <l xml:id="A01777-e100220">Non ego sepulchro (Si tamen quisquam tibi</l>
+        <l xml:id="A01777-e100230">Honour sepulchri detur) assideo gemens,</l>
+        <l xml:id="A01777-e100240">Non tibi Camaena funebrem panegyrin</l>
+        <l xml:id="A01777-e100250">Epice diúmve dedicat, potius sibi</l>
+        <l xml:id="A01777-e100260">Jam gratulatur, laeta Gustavo diu</l>
+        <l xml:id="A01777-e100270">Tui quodhaud te viderint superstitem;</l>
+        <l xml:id="A01777-e100280">Rependerit sed Egra<note anchored="true" n="(a)" place="margin" xml:id="A01777-e100290">rex sueciae in pugnâ ad lutzenum commissa; walstenius egrae interfectus. </note></l>
+        <l xml:id="A01777-e100300">Feralis Egra, dirus hospitii locus,</l>
+        <l xml:id="A01777-e100310">Splendore mensas quae Lycaonio struens,</l>
+        <l xml:id="A01777-e100320">Grandique cogens solvere pretio dapes,</l>
+        <l xml:id="A01777-e100330">Gladios, bipennes, tela, tormenta apparat. </l>
+        <l xml:id="A01777-e100340">Haec imperator ducibus, et walstenio</l>
+        <l xml:id="A01777-e100350">Gustanda cautus miserat bellaria. </l>
+        <l xml:id="A01777-e100360"><pb facs="4"/>Non ille tantum caede gaudet hostium,</l>
+        <l xml:id="A01777-e100370">Said et svorum sanguine imbleri iubet</l>
+        <l xml:id="A01777-e100380">Egrae penates . 〈…〉</l>
+        <l xml:id="A01777-e100390">Quantum cruoris austriaca superbia</l>
+        <l xml:id="A01777-e100400">Sibi litatum lambit! Et tamen sitit</l>
+        <l xml:id="A01777-e100410">Adhuc cruorem, saevior pelopis domo. </l>
+        <l xml:id="A01777-e100420">Nullúsne tandem caedibus aabitur modus? </l>
+        <l xml:id="A01777-e100430">Modum sed illa caedibus dedit tuis,</l>
+        <l xml:id="A01777-e100440">Albert; qui, dum Ferdinand copiis</l>
+        <l xml:id="A01777-e100450">Vexilla pandis, ferdinandi penfido</l>
+        <l xml:id="A01777-e100460">Jugulum daturus advenis satelliri</l>
+        <l xml:id="A01777-e100470">Ubi illa tandem gaza, quâ bohemiam,</l>
+        <l xml:id="A01777-e100480">Sil siámque, agrosque brandenburgicos</l>
+        <l xml:id="A01777-e100490">Fretus perambulasti ? ubi est exercitus,</l>
+        <l xml:id="A01777-e100500">Diro tuorum quo ministro facinorum,</l>
+        <l xml:id="A01777-e100510">Homicidia, stupra, furta, Pomeranta</l>
+        <l xml:id="A01777-e100520">Saepe execrata est, and mechlenbergi sinus</l>
+        <l xml:id="A01777-e100530">Dum tu crematas famulus austriacae domus,</l>
+        <l xml:id="A01777-e100540">Prosternis urbes, impotens violentiam</l>
+        <l xml:id="A01777-e100550">Marique fastum terminare baltico? </l>
+        <l xml:id="A01777-e100560">Hoc tot laborum praemium tuus tibi</l>
+        <l xml:id="A01777-e100570">Dedit imperater? Hoccine est stipendium,</l>
+        <l xml:id="A01777-e100580">Ut perduellis actus, et subito dolo</l>
+        <l xml:id="A01777-e100590">Captus cerebro spargeres caenacu umh? </l>
+        <l xml:id="A01777-e100600">Sic beat amicus gentis austrialae fides. </l>
+        <l xml:id="A01777-e100610"><pb facs="4"/>Quod si cruentâ morte pereundum fuit,</l>
+        <l xml:id="A01777-e100620">Cecidisse malles forsan hostili manu. </l>
+        <l xml:id="A01777-e100630">Nunc puto, videntur fata<note anchored="true" n="(b)" place="margin" xml:id="A01777-e100640">comes pappenhemius in pugna Lutzeniana a suedis occisus 6. Novem. 1632. </note>papenhemii</l>
+        <l xml:id="A01777-e100650">Tuisque<note anchored="true" n="(c)" place="margin" xml:id="A01777-e100660">generalis, Tullius in pugna angustanâ graviter saucius fugit Ingolstadium ibique exspiravit. </note>tillii invidenda manibus. </l>
+        <l xml:id="A01777-e100670">Quàm iustus ille Ferdinandus exstitit</l>
+        <l xml:id="A01777-e100680">Non quaero; verùm credo divina minime</l>
+        <l xml:id="A01777-e100690">Vindicta quòd dormitat. Ipse ut perfidas</l>
+        <l xml:id="A01777-e100700">Perfidiâ obires, lex inevitabilis</l>
+        <l xml:id="A01777-e100710">Fati volebat; quin et immanis diu</l>
+        <l xml:id="A01777-e100720">Crudelitatis artifex, crudeliter</l>
+        <l xml:id="A01777-e100730">Descenderes ad ima plutonis loca. </l>
+        <l xml:id="A01777-e100740">Ubi unicum futura sint solatium</l>
+        <l xml:id="A01777-e100750">Fraus capta fraud, scelere cumulatum scelus,</l>
+        <l xml:id="A01777-e100760">Excidia eorum, caedis authores tuae</l>
+        <l xml:id="A01777-e100770">Quos fama novit, siquidem alberti ducis</l>
+        <l xml:id="A01777-e100780">Celeri sequantur impios manes pede. </l>
+        <l xml:id="A01777-e100790">Et maximê si (Quoniam id haudsaepe accidit</l>
+        <l xml:id="A01777-e100800">Uti perirent morte siccâ principes)</l>
+        <l xml:id="A01777-e100810">Sanguinea multo sanguine exundet domus,</l>
+        <l xml:id="A01777-e100820">Tuique similem sortiatur exitum. </l>
+        <closer xml:id="A01777-e100830">
+          <signed xml:id="A01777-e100840">Alex. Gil.</signed>
+        </closer>
+      </div>
+      <div type="dramatis_personae" xml:id="A01777-e100850">
+        <pb facs="5"/>
+        <head>The persons.</head>
+        <list xml:id="A01777-e100860">
+          <item xml:id="A01777-e100870">Ferdinand the seconed emperor of Germany. </item>
+          <item xml:id="A01777-e100880">Ferdinand his son King of Hungary. </item>
+          <item xml:id="A01777-e100890">Albertus Wallenstein Duke of Fridland. </item>
+          <item xml:id="A01777-e100900">Marquess Brandenburg. </item>
+          <item xml:id="A01777-e100910">Duke Saxon Waymax. </item>
+          <item xml:id="A01777-e100920">Earl of Tertzki. </item>
+          <item xml:id="A01777-e100930">Earl of Kintzki. </item>
+          <item xml:id="A01777-e100940">Earl of Questenberg. </item>
+          <item xml:id="A01777-e100950">Matthias Gallas. </item>
+          <item xml:id="A01777-e100960">Colonel Newman. </item>
+          <item xml:id="A01777-e100970">Marshal Illawe. </item>
+          <item xml:id="A01777-e100980">Fredrick. Sons to Wallenstein. </item>
+          <item xml:id="A01777-e100990">Albertus. Sons to Wallenstein. </item>
+          <item xml:id="A01777-e101000">Colonel Gordon governor of Egers. </item>
+          <item xml:id="A01777-e101010">Colonel Lesle. </item>
+          <item xml:id="A01777-e101020">Captain Butler. </item>
+          <item xml:id="A01777-e101030">Page to Wallenstein .</item>
+          <item xml:id="A01777-e101040">Duchess to Wallenstein. </item>
+          <item xml:id="A01777-e101050">Emilia daughter to Saxon Weimar. </item>
+          <item xml:id="A01777-e101060">Isabella woman to the Duchess.</item>
+          <item xml:id="A01777-e101070">Dragoons : guard to the emperor.</item>
+          <item xml:id="A01777-e101080">Guard to Wallenstein. </item>
+          <item xml:id="A01777-e101090">Executioner.</item>
+          <item xml:id="A01777-e101100">Attendants.</item>
+        </list>
+      </div>
+    </front>
+    <body xml:id="A01777-e101110">
+      <div n="1" type="act" xml:id="A01777-e101120">
+        <pb facs="5"/>
+        <head>Actus primus:</head>
+        <div n="1" type="scene" xml:id="A01777-e101130">
+          <head>Scaena prima.</head>
+          <stage xml:id="A01777-e101140">Kintzki, Tertzki, Gordon, Butler, Less.</stage>
+          <sp xml:id="A01777-e101150" who="A01777-kintzki">
+            <speaker>Kint.</speaker>
+            <p xml:id="A01777-e101160">The rumour still continues.</p>
+          </sp>
+          <sp xml:id="A01777-e101170" who="A01777-tertzki">
+            <speaker>Tert.</speaker>
+            <l xml:id="A01777-e101180">Yes, my lord,</l>
+            <l xml:id="A01777-e101190">Ill fames though quick are certain,</l>
+            <l xml:id="A01777-e101200">'Tis concluded</l>
+            <l xml:id="A01777-e101210">Passed question or dispute, for these reports</l>
+            <l xml:id="A01777-e101220">Are grounded on too manifest a truth,</l>
+            <l xml:id="A01777-e101230">To carry doubt in them, it is confirmed this morning;</l>
+            <l xml:id="A01777-e101240">He must resign</l>
+          </sp>
+          <sp xml:id="A01777-e101250" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e101260">Though a stranger sir,</l>
+            <l xml:id="A01777-e101270">And so less interested in the general's cause</l>
+            <l xml:id="A01777-e101280">Then you his countryman: were you not my friend,</l>
+            <l xml:id="A01777-e101290">You lied to speak it. Must our general</l>
+            <l xml:id="A01777-e101300">That soul of valour Wallenstein; who has</l>
+            <l xml:id="A01777-e101310">(Like subtle lightning) purged the German air,</l>
+            <l xml:id="A01777-e101320">From all the hot infections, foreign war</l>
+            <l xml:id="A01777-e101330">Could threaten: sent the health-carousing Dane</l>
+            <l xml:id="A01777-e101340">Drunk with his own blood home: broke all the force,</l>
+            <l xml:id="A01777-e101350">With which the valiant Palatine and his aids. </l>
+            <l xml:id="A01777-e101360">Infested had the province: given to death</l>
+            <l xml:id="A01777-e101370">(That thunderbolt of war) whose very name</l>
+            <l xml:id="A01777-e101380">Was great as fate itself unto his foes,</l>
+            <l xml:id="A01777-e101390">The Swedish King: and must he now, his age</l>
+            <l xml:id="A01777-e101400">Is candid o'er with victories, be enforced</l>
+            <gap extent="2" unit="pages" xml:id="A01777-e101410" n="5-b-2050"/>
+            <l xml:id="A01777-e101420"><pb facs="6"/> to a base resignation Death he's damned</l>
+            <l xml:id="A01777-e101430">That dare but mutter it .</l>
+          </sp>
+          <sp xml:id="A01777-e101440" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <l xml:id="A01777-e101450">And they were so</l>
+            <l xml:id="A01777-e101460">Who first occasioned it, 'twould bring much comfort</l>
+            <l xml:id="A01777-e101470">To all true soldiers. </l>
+          </sp>
+          <sp xml:id="A01777-e101480" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e101490">'Tis concluded sir,</l>
+            <l xml:id="A01777-e101500">Passed all redemption, they are doubly damned</l>
+            <l xml:id="A01777-e101510">For their ingratitude, displace a man</l>
+            <l xml:id="A01777-e101520">To whom they owe their lives! one whom, my lords,</l>
+            <l xml:id="A01777-e101530">We have seen i'th heat and bravery of a fight,</l>
+            <l xml:id="A01777-e101540">Cheer up his fainting and disheartened troops,</l>
+            <l xml:id="A01777-e101550">Even when his body seemed but all one wound,</l>
+            <l xml:id="A01777-e101560">That it appeared a little island, circled</l>
+            <l xml:id="A01777-e101570">Round with the purple deluge of his blood;</l>
+            <l xml:id="A01777-e101580">Who when wars quiruters, the big-mouthed drums,</l>
+            <l xml:id="A01777-e101590">And surly trumpet sung his army's dirge,</l>
+            <l xml:id="A01777-e101600">That fatal music swelled his sprightly sense</l>
+            <l xml:id="A01777-e101610">More than soft hymns at nuptials. </l>
+          </sp>
+          <sp xml:id="A01777-e101620" who="A01777-tertzki">
+            <speaker>Tert.</speaker>
+            <l xml:id="A01777-e101630">Sir, his glories</l>
+            <l xml:id="A01777-e101640">Are so well known to us we need not urge</l>
+            <l xml:id="A01777-e101650">Their reputation, but 'tis passed my thoughts,</l>
+            <l xml:id="A01777-e101660">Why on the sudden he should be compelled</l>
+            <l xml:id="A01777-e101670">To give his charge up. </l>
+          </sp>
+          <sp xml:id="A01777-e101680" who="A01777-kintzki">
+            <speaker>Kintz.</speaker>
+            <l xml:id="A01777-e101690">When the world believed</l>
+            <l xml:id="A01777-e101700">He should have had a double triumph in</l>
+            <l xml:id="A01777-e101710">The honour of his victories. </l>
+          </sp>
+          <sp xml:id="A01777-e101720" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e101730">I'll tell you,</l>
+            <l xml:id="A01777-e101740">There is in princes courts a lean-faced monster,</l>
+            <l xml:id="A01777-e101750">Termed envy, reigning in unworthy breasts,</l>
+            <l xml:id="A01777-e101760">To fame's heroic sons, such as know to cringe</l>
+            <l xml:id="A01777-e101770">With subtle motion to their prince's smiles,</l>
+            <l xml:id="A01777-e101780">Adore his footsteps and his awful nods,</l>
+            <l xml:id="A01777-e101790">And can like asps instill into his ears,</l>
+            <l xml:id="A01777-e101800">A sweet yet killing venom: these thin souls</l>
+            <l xml:id="A01777-e101810">When the blunt soldier, has on piles of wounds</l>
+            <l xml:id="A01777-e101820">Built up his country's peace, whisper beware</l>
+            <l xml:id="A01777-e101830"><pb facs="6"/> in time my lord, lest he do grow too great:</l>
+            <l xml:id="A01777-e101840">This meeting with the jealous prince's fears,</l>
+            <l xml:id="A01777-e101850">(As princes still are fearful of the greatness</l>
+            <l xml:id="A01777-e101860">Of rising active subjects) breeds resolves to cut up</l>
+            <l xml:id="A01777-e101870">That prop, leaning on which themselves have stood,</l>
+            <l xml:id="A01777-e101880">Firm and unshaken on their base; and these</l>
+            <l xml:id="A01777-e101890">Court parasites, and th'emperors weak distrusts,</l>
+            <l xml:id="A01777-e101900">Pulls this disgrace on Fridland, which if he</l>
+            <l xml:id="A01777-e101910">With an effeminate patience do put up,</l>
+            <l xml:id="A01777-e101920">May all the laurels growing on his crest. </l>
+            <l xml:id="A01777-e101930">Be turned to Cypress, serving for no use</l>
+            <l xml:id="A01777-e101940">But to adorn his funerals. </l>
+          </sp>
+          <sp xml:id="A01777-e101950" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <l xml:id="A01777-e101960">Soft,</l>
+            <l xml:id="A01777-e101970">The general's here himself: my gracious lord</l>
+            <l xml:id="A01777-e101980">The Duke. </l>
+          </sp>
+          <sp xml:id="A01777-e101990" who="A01777-tertzki">
+            <speaker>Tert.</speaker>
+            <p xml:id="A01777-e102000">Our thrice redoubted general.</p>
+          </sp>
+          <stage xml:id="A01777-e102010">Enter Wallenstein, illawe.</stage>
+          <sp xml:id="A01777-e102020" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e102030">Ha! that sound</l>
+            <l xml:id="A01777-e102040">Awakes my drowsy soul, pray good my lords,</l>
+            <l xml:id="A01777-e102050">What do you behold degenerate in my looks,</l>
+            <l xml:id="A01777-e102060">Showing me unworthy still of that great title? </l>
+          </sp>
+          <sp xml:id="A01777-e102070" who="A01777-tertzki">
+            <speaker>Tert.</speaker>
+            <l xml:id="A01777-e102080">I would pull my eyes out,</l>
+            <l xml:id="A01777-e102090">Should they convey into my soul a thought</l>
+            <l xml:id="A01777-e102100">Tending to so much sacrilege to honour,</l>
+            <l xml:id="A01777-e102110">And perfect masculine virtue. </l>
+          </sp>
+          <sp xml:id="A01777-e102120" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e102130">Yet I must</l>
+            <l xml:id="A01777-e102140">Put off that glorious title, like a garment,</l>
+            <l xml:id="A01777-e102150">Old and unfit for wearing: oh my lords,</l>
+            <l xml:id="A01777-e102160">Our honours individual with our souls</l>
+            <l xml:id="A01777-e102170">Grows to that essence, as toth' hand or cheek</l>
+            <l xml:id="A01777-e102180">The native whiteness; and to have that torn,</l>
+            <l xml:id="A01777-e102190">Lugged off by violent torture, is a sufferance</l>
+            <l xml:id="A01777-e102200">Beyond the strength of patience: is't not, lords? </l>
+          </sp>
+          <sp xml:id="A01777-e102210" who="A01777-tertzki">
+            <speaker>Tert.</speaker>
+            <l xml:id="A01777-e102220">Yes, and look</l>
+            <l xml:id="A01777-e102230">How far the noble immaterial soul,</l>
+            <l xml:id="A01777-e102240">Transcends the duller body, so much torments</l>
+            <l xml:id="A01777-e102250"><pb facs="7"/> resemblance of a star, a comet fall</l>
+            <l xml:id="A01777-e102260">By my own fire consumed to earth forgotten. </l>
+          </sp>
+          <sp xml:id="A01777-e102270" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e102280">Great sir, though a stranger to you</l>
+            <l xml:id="A01777-e102290">By birth and nation, yet the strict alliance</l>
+            <l xml:id="A01777-e102300">I've to your princely nobleness, enjoins me</l>
+            <l xml:id="A01777-e102310">Under your pardon, and with the allowance</l>
+            <l xml:id="A01777-e102320">Of these brave counts, your followers, to deliver</l>
+            <l xml:id="A01777-e102330">My zealous counsel to you. </l>
+          </sp>
+          <sp xml:id="A01777-e102340" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e102350">Noble scot,</l>
+            <l xml:id="A01777-e102360">Use your discretion freely. </l>
+          </sp>
+          <sp xml:id="A01777-e102370" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e102380">Thus great sir then,</l>
+            <l xml:id="A01777-e102390">Though't be i'th power of princes to prescribe</l>
+            <l xml:id="A01777-e102400">Laws to their subjects, 'tis their subjects' wills</l>
+            <l xml:id="A01777-e102410">Must put those laws in act, 'tis their obedience,</l>
+            <l xml:id="A01777-e102420">Which are the ablest sinews of the state,</l>
+            <l xml:id="A01777-e102430">And 'twere a barbarous cruelty to employ</l>
+            <l xml:id="A01777-e102440">Their hands against themselves, a strange injustice,</l>
+            <l xml:id="A01777-e102450">To make their proper virtue instrument</l>
+            <l xml:id="A01777-e102460">Of their own ruin. </l>
+          </sp>
+          <sp xml:id="A01777-e102470" who="A01777-tertzki">
+            <speaker>Tert.</speaker>
+            <l xml:id="A01777-e102480">Colonel Lesle</l>
+            <l xml:id="A01777-e102490">Speaks home. </l>
+          </sp>
+          <sp xml:id="A01777-e102500" who="A01777-kintzki">
+            <speaker>Kint.</speaker>
+            <l xml:id="A01777-e102510">And to much purpose. </l>
+          </sp>
+          <sp xml:id="A01777-e102520" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e102530">Do not lords</l>
+            <l xml:id="A01777-e102540">Misunderstand my meaning, I speak not this,</l>
+            <l xml:id="A01777-e102550">That I contemn authority, or dislike</l>
+            <l xml:id="A01777-e102560">Order in every thing, without pre-eminence</l>
+            <l xml:id="A01777-e102570">In title of command our trade the warfare</l>
+            <l xml:id="A01777-e102580">Could not subsist, but to inform our general,</l>
+            <l xml:id="A01777-e102590">Our too much injured general, that it is</l>
+            <l xml:id="A01777-e102600">No such strange crime, to disobey a prince</l>
+            <l xml:id="A01777-e102610">In things injust; and can there be a greater,</l>
+            <l xml:id="A01777-e102620">Or shamefuller injustice than for Caesar,</l>
+            <l xml:id="A01777-e102630">By's mandate to enforce him to resign</l>
+            <l xml:id="A01777-e102640">His glorious charge up? </l>
+          </sp>
+          <sp xml:id="A01777-e102650" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <p xml:id="A01777-e102660">'Twere a shame.</p>
+          </sp>
+          <sp xml:id="A01777-e102670" who="A01777-illawe">
+            <speaker>Illawe.</speaker>
+            <l xml:id="A01777-e102680">An utter, an abominable disgrace</l>
+            <l xml:id="A01777-e102690"><pb facs="7"/> to all that honour virtue, should we suffer it? </l>
+          </sp>
+          <sp xml:id="A01777-e102700" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e102710">Here then</l>
+            <l xml:id="A01777-e102720">Ends what I would have uttered; of what force</l>
+            <l xml:id="A01777-e102730">Are Caesar's mandates, when their real loves</l>
+            <l xml:id="A01777-e102740">Has disannulled them? circled with these hearts,</l>
+            <l xml:id="A01777-e102750">These bulwarks of brave hearts, what need have you</l>
+            <l xml:id="A01777-e102760">To acknowledge any emperor but yourself? </l>
+            <l xml:id="A01777-e102770">Yourself great Duke, whose merit lays just claim</l>
+            <l xml:id="A01777-e102780">To that supremest title. </l>
+          </sp>
+          <sp xml:id="A01777-e102790" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e102800">Pray once more,</l>
+            <l xml:id="A01777-e102810">Give me your patience: rashness, gentlemen,</l>
+            <l xml:id="A01777-e102820">Gives the first onset fiercely, then recoils,</l>
+            <l xml:id="A01777-e102830">As wasps when they have lost their stings: affairs</l>
+            <l xml:id="A01777-e102840">Of this high consequence, do require mature</l>
+            <l xml:id="A01777-e102850">Deliberation: to confirm our own</l>
+            <l xml:id="A01777-e102860">Strength for the exploit, 'twere fit we did conjoin</l>
+            <l xml:id="A01777-e102870">With Saxon Weimar and Gustavus Horn,</l>
+            <l xml:id="A01777-e102880">And the other bold confederates: how likes</l>
+            <l xml:id="A01777-e102890">Your grace this project? </l>
+          </sp>
+          <sp xml:id="A01777-e102900" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e102910">The drum and fife,</l>
+            <l xml:id="A01777-e102920">Trumpet and cannon, when their loud voices sing,</l>
+            <l xml:id="A01777-e102930">Io's to victory, could ne'er beget</l>
+            <l xml:id="A01777-e102940">More music in my ravished sense: best friend,</l>
+            <l xml:id="A01777-e102950">I am so bankrupt grown in my extent</l>
+            <l xml:id="A01777-e102960">Of gratitude, that trust me I could weep,</l>
+            <l xml:id="A01777-e102970">To see myself so far outdone in friendship:</l>
+            <l xml:id="A01777-e102980">I am engaged in honour to go on,</l>
+            <l xml:id="A01777-e102990">That this insulting emperor by his fall,</l>
+            <l xml:id="A01777-e103000">To gain fit means to gratify your loves. </l>
+            <l xml:id="A01777-e103010">Thou aery name of loyalty, hence to heaven,</l>
+            <l xml:id="A01777-e103020">And find like smoke a burial in the clouds,</l>
+            <l xml:id="A01777-e103030">Thus I expire thy essence; henceforth I'll acknowledge</l>
+            <l xml:id="A01777-e103040">No other emperor but these worthies hearts. </l>
+          </sp>
+          <sp xml:id="A01777-e103050" who="A01777-tertzki">
+            <speaker>Tert.</speaker>
+            <l xml:id="A01777-e103060">And we (Great Duke) henceforth will ne'er submit,</l>
+            <l xml:id="A01777-e103070">To any rule but yours, which to confirm</l>
+            <l xml:id="A01777-e103080">As sure as fate had sealed it, on your sword</l>
+            <gap extent="2" unit="pages" xml:id="A01777-e103090" n="7-b-3090"/>
+            <l xml:id="A01777-e103100"><pb facs="8"/> my council always has had that success,</l>
+            <l xml:id="A01777-e103110">To be accounted faithful to my prince:</l>
+            <l xml:id="A01777-e103120">Fear it not, follow then my poor advice,</l>
+            <l xml:id="A01777-e103130">Meet treachery with policy, and try,</l>
+            <l xml:id="A01777-e103140">If you the ambitious traitor can surprise,</l>
+            <l xml:id="A01777-e103150">The head once off, the weak and fainting limbs,</l>
+            <l xml:id="A01777-e103160">Like seared dried boughs, by an impetuous wind,</l>
+            <l xml:id="A01777-e103170">Torn from an aged oak, will fall to earth,</l>
+            <l xml:id="A01777-e103180">And be consumed to ashes. </l>
+          </sp>
+          <sp xml:id="A01777-e103190" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <l xml:id="A01777-e103200">It shall be so,</l>
+            <l xml:id="A01777-e103210">Lord Questenberg, with all convenient speed,</l>
+            <l xml:id="A01777-e103220">Dispatch a trusty messenger unto</l>
+            <l xml:id="A01777-e103230">The King of Hungary, command his presence,</l>
+            <l xml:id="A01777-e103240">With his most able legions for the safeguard</l>
+            <l xml:id="A01777-e103250">Of our own person: in such like affairs,</l>
+            <l xml:id="A01777-e103260">Which do concern the uncertain rule of states,</l>
+            <l xml:id="A01777-e103270">Wise men should always be above their fates. <stage xml:id="A01777-e103280">Exeunt.</stage></l>
+          </sp>
+        </div>
+        <div n="3" type="scene" xml:id="A01777-e103290">
+          <head>Scaena tertia, Albertus, Newman.</head>
+          <sp xml:id="A01777-e103300" who="A01777-newman">
+            <speaker>Newm.</speaker>
+            <l xml:id="A01777-e103310">A pox upon her fir, and for her sake,</l>
+            <l xml:id="A01777-e103320">On all good faces; must you sigh and whine,</l>
+            <l xml:id="A01777-e103330">And make a face worse than a zealous drunkard</l>
+            <l xml:id="A01777-e103340">Does o'er dead musty wine, because she is beauteous:</l>
+            <l xml:id="A01777-e103350">We soldiers do not use to engender with</l>
+            <l xml:id="A01777-e103360">A phisnomy, nor as the learned term it,</l>
+            <l xml:id="A01777-e103370">Cohabit with a handsome nose or lip,</l>
+            <l xml:id="A01777-e103380">There are some parts beneath the waste I take it,</l>
+            <l xml:id="A01777-e103390">More useful for a man of arms. </l>
+          </sp>
+          <sp xml:id="A01777-e103400" who="A01777-albertus">
+            <speaker>Alber.</speaker>
+            <l xml:id="A01777-e103410">Good colonel,</l>
+            <l xml:id="A01777-e103420">No more of this. </l>
+          </sp>
+          <sp xml:id="A01777-e103430" who="A01777-newman">
+            <speaker>Newm.</speaker>
+            <l xml:id="A01777-e103440">Should I ask you</l>
+            <l xml:id="A01777-e103450">The reason why you love her, you must answer;</l>
+            <l xml:id="A01777-e103460">'Tis for the sport (As for what other reason</l>
+            <l xml:id="A01777-e103470">Women were made, unless to prick upon</l>
+            <l xml:id="A01777-e103480">A clout, or starch, transcends my best philosophy)</l>
+            <l xml:id="A01777-e103490"><pb facs="8"/> and for that purpose, a short coat frister,</l>
+            <l xml:id="A01777-e103500">That as she milks each morning,</l>
+            <l xml:id="A01777-e103510">Bedews the cool grass with her virgin moisture,</l>
+            <l xml:id="A01777-e103520">As useful is and active (Sounder far</l>
+            <l xml:id="A01777-e103530">That's certain granted) pray, my lord, remember</l>
+            <l xml:id="A01777-e103540">She's but your mother's gentlewoman, and whom perhaps</l>
+            <l xml:id="A01777-e103550">The butler has oftener folded up, then ere</l>
+            <l xml:id="A01777-e103560">He did his table lin one. </l>
+          </sp>
+          <sp xml:id="A01777-e103570" who="A01777-albertus">
+            <speaker>Alber.</speaker>
+            <p xml:id="A01777-e103580">No more, you'll anger me.</p>
+          </sp>
+          <sp xml:id="A01777-e103590" who="A01777-newman">
+            <speaker>Newm.</speaker>
+            <l xml:id="A01777-e103600">You'll anger me again then: we imps of Mars,</l>
+            <l xml:id="A01777-e103610">Should know no other mistresses, then what the camp contains,</l>
+            <l xml:id="A01777-e103620">I ne'er durst love ith' field (Marry in the city. </l>
+            <l xml:id="A01777-e103630">I've had copulation with all trades) but one poor sutlers wife, and</l>
+            <l xml:id="A01777-e103640">She as fair too, as was the kettle which she boiled her beef in,</l>
+            <l xml:id="A01777-e103650">Oh how the sweet smell of her amber grease</l>
+            <l xml:id="A01777-e103660">And kitchen-stuff perfumed my greedy nostrils,</l>
+            <l xml:id="A01777-e103670">Yet on this beauty doted I (Inspired by insurrection of the flesh)</l>
+            <l xml:id="A01777-e103680">And gave her to cuckold the good corporal her husband. </l>
+          </sp>
+          <sp xml:id="A01777-e103690" who="A01777-multiple">
+            <speaker>In't Isabella.</speaker>
+            <p xml:id="A01777-e103700">Ten comely dollars, and the devil take her, she paid me with a pox. But see, here comes the lady of the lake, for whom you good fir Lancelot make these lamentations; be not you bashful now, but fall on boldly heart, let me drill her for you, if her body be under musket proof, 'tis ten to one my morris pike shall enter. to her, to her. <stage xml:id="A01777-e103710">Exit Newm.</stage></p>
+          </sp>
+          <sp xml:id="A01777-e103720" who="A01777-isabella">
+            <speaker>Isabel.</speaker>
+            <p xml:id="A01777-e103730">Surprised by him alone, oh my just fears.</p>
+          </sp>
+          <sp xml:id="A01777-e103740" who="A01777-albertus">
+            <speaker>Albert.</speaker>
+            <l xml:id="A01777-e103750">Why, cruel fair one, should you shun his sight,</l>
+            <l xml:id="A01777-e103760">Whose very soul moves in your eyes, or why</l>
+            <l xml:id="A01777-e103770">Should your blessed voice, speak health to all the world,</l>
+            <l xml:id="A01777-e103780">Yet threaten death to me: look on my youth,</l>
+            <l xml:id="A01777-e103790">My hopeful youth, which in the active war,</l>
+            <l xml:id="A01777-e103800">Has taught old soldier's discipline: behold it</l>
+            <l xml:id="A01777-e103810">Nipped by the cold frost of your icy beauty,</l>
+            <l xml:id="A01777-e103820">As in a fever languishing to nothing,</l>
+            <l xml:id="A01777-e103830">Forgetful of the noble pride and strength,</l>
+            <l xml:id="A01777-e103840">It has so lately boasted, 'tis injust</l>
+            <l xml:id="A01777-e103850">To see me still over my foes victorious,</l>
+            <l xml:id="A01777-e103860"><pb facs="9"/> made by myself your captive, to insult</l>
+            <l xml:id="A01777-e103870">Over your suppliant vassal, would those eyes,</l>
+            <l xml:id="A01777-e103880">Which can contract lights orb into a glance,</l>
+            <l xml:id="A01777-e103890">Become impoverished by a smile, those cheeks</l>
+            <l xml:id="A01777-e103900">Sully their native tincture, should they blush</l>
+            <l xml:id="A01777-e103910">At your mind's cruelty, 'twould rather add</l>
+            <l xml:id="A01777-e103920">To the illustrious excellence. </l>
+          </sp>
+          <sp xml:id="A01777-e103930" who="A01777-isabella">
+            <speaker>Isabel.</speaker>
+            <p xml:id="A01777-e103940">My noble lord.</p>
+          </sp>
+          <sp xml:id="A01777-e103950" who="A01777-albertus">
+            <speaker>Albert.</speaker>
+            <l xml:id="A01777-e103960">Stay, you must not speak yet,</l>
+            <l xml:id="A01777-e103970">There's not an accent issuing from your lips,</l>
+            <l xml:id="A01777-e103980">But has the power, should thunder speak, to charm,</l>
+            <l xml:id="A01777-e103990">To peaceful quiet the affrighted, the world,</l>
+            <l xml:id="A01777-e104000">And would strike dumb my passion: best of virgins</l>
+            <l xml:id="A01777-e104010">There is not that disparity 'twixt our births,</l>
+            <l xml:id="A01777-e104020">As there's inequal difference 'twixt our hearts;</l>
+            <l xml:id="A01777-e104030">Mine's all on fire, dare combat with the sun</l>
+            <l xml:id="A01777-e104040">For heats priority, yours mountain snow,</l>
+            <l xml:id="A01777-e104050">Cold as the North, and cruel as my fortunes:</l>
+            <l xml:id="A01777-e104060">Yet you may make them equal as your eyes are,</l>
+            <l xml:id="A01777-e104070">By yielding up that fort, which will, when time</l>
+            <l xml:id="A01777-e104080">Has given it ceremonious privilege, be perhaps</l>
+            <l xml:id="A01777-e104090">By some unworthy groom, without resistance</l>
+            <l xml:id="A01777-e104100">Surprised and entered. </l>
+          </sp>
+          <sp xml:id="A01777-e104110" who="A01777-isabella">
+            <speaker>Isabel.</speaker>
+            <l xml:id="A01777-e104120">My lord, bad custom is become</l>
+            <l xml:id="A01777-e104130">In men a second nature to deceive</l>
+            <l xml:id="A01777-e104140">Poor virgins by their flatteries; noble youth,</l>
+            <l xml:id="A01777-e104150">That I do love you dear, may these tears,</l>
+            <l xml:id="A01777-e104160">Shed for your folly testify: look back</l>
+            <l xml:id="A01777-e104170">Into your princeless honour, call that up</l>
+            <l xml:id="A01777-e104180">To assist the fortress of your mind assailed</l>
+            <l xml:id="A01777-e104190">By foul unlawful passion: think how base 'tis,</l>
+            <l xml:id="A01777-e104200">To rob a silly orphan of her dowry;</l>
+            <l xml:id="A01777-e104210">I have no other but my virgin whiteness,</l>
+            <l xml:id="A01777-e104220">Left to uphold my fame, naught but my virtue</l>
+            <l xml:id="A01777-e104230">To my inheritance; should you despoil me</l>
+            <l xml:id="A01777-e104240">Of that fair portion by your lust, my memory,</l>
+            <l xml:id="A01777-e104250"><pb facs="9"/> would like an early rise bud by that tempest,</l>
+            <l xml:id="A01777-e104260">Die on its own stalk blasted. </l>
+          </sp>
+          <sp xml:id="A01777-e104270" who="A01777-albertus">
+            <speaker>Albert.</speaker>
+            <p xml:id="A01777-e104280">I do dream sure.</p>
+          </sp>
+          <sp xml:id="A01777-e104290" who="A01777-isabella">
+            <speaker>Isabel.</speaker>
+            <l xml:id="A01777-e104300">Women's fames sir,</l>
+            <l xml:id="A01777-e104310">Are like thin crystal glasses, by a breath</l>
+            <l xml:id="A01777-e104320">Blown into excellent form, and by a touch,</l>
+            <l xml:id="A01777-e104330">Cracked or quite broken: say I should consent</l>
+            <l xml:id="A01777-e104340">To your desires, your appetite once sated,</l>
+            <l xml:id="A01777-e104350">You would repent the fact, when you should see</l>
+            <l xml:id="A01777-e104360">Yourself surrounded in a mist of cares,</l>
+            <l xml:id="A01777-e104370">View bashful virgin's point at you, as at</l>
+            <l xml:id="A01777-e104380">Some hateful prodigy; hear matrons cry,</l>
+            <l xml:id="A01777-e104390">There goes the lustful thief, that glories in</l>
+            <l xml:id="A01777-e104400">The spoil of innocent virgins, that foul thief,</l>
+            <l xml:id="A01777-e104410">That has a hundred eyes to let lust in at,</l>
+            <l xml:id="A01777-e104420">As many tongues to give his wild thoughts utterance. </l>
+          </sp>
+          <sp xml:id="A01777-e104430" who="A01777-albertus">
+            <speaker>Albert.</speaker>
+            <l xml:id="A01777-e104440">Sure some angel inhabits here,</l>
+            <l xml:id="A01777-e104450">This cannot be a mansion</l>
+            <l xml:id="A01777-e104460">For mortal frailty: sweet farewell, good night,</l>
+            <l xml:id="A01777-e104470">I would not have my over-saucy love,</l>
+            <l xml:id="A01777-e104480">Commit a rude intrusion on thy peace,</l>
+            <l xml:id="A01777-e104490">Though parting with thee be more torment to me,</l>
+            <l xml:id="A01777-e104500">Than to forgo mine eyes; may all the joys</l>
+            <l xml:id="A01777-e104510">Of healthful slumbers crown thy bed, thy dreams</l>
+            <l xml:id="A01777-e104520">Be free from paraphrasing on my memory ,</l>
+            <l xml:id="A01777-e104530">Lest it affright you; once more, dear, good night,</l>
+            <l xml:id="A01777-e104540">While you with pleasing happy sleeps are blessed,</l>
+            <l xml:id="A01777-e104550">I'll seek some way to my eternal rest. </l>
+          </sp>
+          <stage xml:id="A01777-e104560">Exeunt.</stage>
+        </div>
+        <trailer xml:id="A01777-e104570">Explicit actus primus.</trailer>
+      </div>
+      <div n="2" type="act" xml:id="A01777-e104580">
+        <pb facs="10"/>
+        <head>Actus secundus:</head>
+        <div n="1" type="scene" xml:id="A01777-e104590">
+          <head>Scaena prima.</head>
+          <stage xml:id="A01777-e104600">Wallenstein, Waymar, Brandenburge, Tertzki, Kintzki, illawe, Newman, Gordon, Less, Butler.</stage>
+          <sp xml:id="A01777-e104610" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e104620">The honour you have done me mighty princes,</l>
+            <l xml:id="A01777-e104630">Electors of the sacred Roman empire,</l>
+            <l xml:id="A01777-e104640">By this your personal visit does engage</l>
+            <l xml:id="A01777-e104650">So much our gratitude, that what ourselves,</l>
+            <l xml:id="A01777-e104660">And the most able forces of our friends,</l>
+            <l xml:id="A01777-e104670">Can in requital act, shall be performed,</l>
+            <l xml:id="A01777-e104680">Mutual discourses often mingle souls ,</l>
+            <l xml:id="A01777-e104690">And as the arteries convey the blood,</l>
+            <l xml:id="A01777-e104700">Throughout the body, they from mind to mind</l>
+            <l xml:id="A01777-e104710">Convey affection: to this end we did</l>
+            <l xml:id="A01777-e104720">Entreat this meeting, that our conference might,</l>
+            <l xml:id="A01777-e104730">Join in an individual league our hearts. </l>
+          </sp>
+          <sp xml:id="A01777-e104740" who="A01777-brandenburgh">
+            <speaker>Bran.</speaker>
+            <l xml:id="A01777-e104750">This happy treaty, glorious Duke, shall bring</l>
+            <l xml:id="A01777-e104760">Blessed peace once more with turtles wings, to soar</l>
+            <l xml:id="A01777-e104770">Over the German provinces; shall dry</l>
+            <l xml:id="A01777-e104780">Tears from the eyes of mothers, while the virgins</l>
+            <l xml:id="A01777-e104790">Shall dedicate their hours to joyful hymns,</l>
+            <l xml:id="A01777-e104800">In honour of your merit. </l>
+          </sp>
+          <sp xml:id="A01777-e104810" who="A01777-waymar">
+            <speaker>Waym,</speaker>
+            <l xml:id="A01777-e104820">The sturdy boor</l>
+            <l xml:id="A01777-e104830">Shall plough his fields in safety, and ascribe</l>
+            <l xml:id="A01777-e104840">To you, great Duke, that happiness: 'twas you,</l>
+            <l xml:id="A01777-e104850">Who when Bellona thundered through the land,</l>
+            <l xml:id="A01777-e104860">Did stop the steel-winged goddess in her course,</l>
+            <l xml:id="A01777-e104870">Who when our armies, like a raging flood,</l>
+            <l xml:id="A01777-e104880">Did bear down all before them, did oppose,</l>
+            <l xml:id="A01777-e104890">The greedy torrent, boldly turned it back,</l>
+            <l xml:id="A01777-e104900">Into its native body, and conjoined</l>
+            <l xml:id="A01777-e104910"><pb facs="10"/> with you so enured to conquest, he were less</l>
+            <l xml:id="A01777-e104920">Than man, and more than coward, that could fear</l>
+            <l xml:id="A01777-e104930">Any ensuing dangers. </l>
+          </sp>
+          <sp xml:id="A01777-e104940" who="A01777-wallenstein">
+            <speaker>Wall.</speaker>
+            <l xml:id="A01777-e104950">You do me too much honour, mighty princes:</l>
+            <l xml:id="A01777-e104960">And now my brave confederates in arms,</l>
+            <l xml:id="A01777-e104970">Where business of import commands attendance,</l>
+            <l xml:id="A01777-e104980">That time's misspent, that's spent in useless words,</l>
+            <l xml:id="A01777-e104990">I shall so please you, therefore speak the cause,</l>
+            <l xml:id="A01777-e105000">(In brief) which urged me to desire this conference,</l>
+            <l xml:id="A01777-e105010">And give you reasons for my strange revolt,</l>
+            <l xml:id="A01777-e105020">From my so long loved master. </l>
+          </sp>
+          <sp xml:id="A01777-e105030" who="A01777-brandenburgh">
+            <speaker>Bran.</speaker>
+            <l xml:id="A01777-e105040">'Twas the end</l>
+            <l xml:id="A01777-e105050">We only came for. </l>
+          </sp>
+          <sp xml:id="A01777-e105060" who="A01777-waymar">
+            <speaker>Waym.</speaker>
+            <l xml:id="A01777-e105070">The sole reason</l>
+            <l xml:id="A01777-e105080">That drew us to this meeting. </l>
+          </sp>
+          <sp xml:id="A01777-e105090" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e105100">Thus in brief then,</l>
+            <l xml:id="A01777-e105110">How I have served this emperor, these wounds</l>
+            <l xml:id="A01777-e105120">That beautify my body (Cause the marks</l>
+            <l xml:id="A01777-e105130">Of my just loyalty) given by your swords,</l>
+            <l xml:id="A01777-e105140">Can bear me righteous witness; but good service</l>
+            <l xml:id="A01777-e105150">To a malicious and ingrateful prince,</l>
+            <l xml:id="A01777-e105160">Are rather causes of suspect, than love,</l>
+            <l xml:id="A01777-e105170">And when men's actions do transcend reward,</l>
+            <l xml:id="A01777-e105180">They then descend to punishment (My cause</l>
+            <l xml:id="A01777-e105190">Is rightly stated thus) for when myself,</l>
+            <l xml:id="A01777-e105200">(I well may speak it without partial boast)</l>
+            <l xml:id="A01777-e105210">Had like his eagle in my powerful gripe,</l>
+            <l xml:id="A01777-e105220">Snatched up his crown that lay despised on earth,</l>
+            <l xml:id="A01777-e105230">And heaved it up to heaven, born all the weight,</l>
+            <l xml:id="A01777-e105240">Which yours, the Danish and the Swedish force,</l>
+            <l xml:id="A01777-e105250">Could load these shoulders with; nay shook it off</l>
+            <l xml:id="A01777-e105260">Lightly, as winds in autumn do from trees,</l>
+            <l xml:id="A01777-e105270">Their withered summer garments: then, even then,</l>
+            <l xml:id="A01777-e105280">When my just hopes were pregnant with conceit</l>
+            <l xml:id="A01777-e105290">Of wreaths and triumphs (As a brave reward)</l>
+            <l xml:id="A01777-e105300">My soldiers by his mandates were forbid,</l>
+            <l xml:id="A01777-e105310"><pb facs="11"/> to obey me as their general, and myself</l>
+            <l xml:id="A01777-e105320">Commanded straightway to resign my charge,</l>
+            <l xml:id="A01777-e105330">All my great power which I had bought with blood,</l>
+            <l xml:id="A01777-e105340">Unto Matthias Gallas my field-marshal. </l>
+          </sp>
+          <sp xml:id="A01777-e105350" who="A01777-saxon-weimar">
+            <speaker>Saxon.</speaker>
+            <p xml:id="A01777-e105360">Insufferable injury!</p>
+          </sp>
+          <sp xml:id="A01777-e105370" who="A01777-brandenburgh">
+            <speaker>Bran.</speaker>
+            <p xml:id="A01777-e105380">Inhuman and unheard of ingratitude!</p>
+          </sp>
+          <sp xml:id="A01777-e105390" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e105400">Nay more,</l>
+            <l xml:id="A01777-e105410">As I had been a traitor then in fact,</l>
+            <l xml:id="A01777-e105420">He did endeavour my surprise, to bring me</l>
+            <l xml:id="A01777-e105430">A prisoner to Vienna: think then lords,</l>
+            <l xml:id="A01777-e105440">When both my priceless honour and my life</l>
+            <l xml:id="A01777-e105450">Were at one stake proposed, if I'd not cause</l>
+            <l xml:id="A01777-e105460">To play my game with cunning skill, when these</l>
+            <l xml:id="A01777-e105470">My brave commanders from their martial eyes,</l>
+            <l xml:id="A01777-e105480">Did for my wrongs shed tears of blood, called on me,</l>
+            <l xml:id="A01777-e105490">As on their friend, their father, not to leave</l>
+            <l xml:id="A01777-e105500">My sons my soldiers: if I their request</l>
+            <l xml:id="A01777-e105510">Performed, I saved my honour and my life,</l>
+            <l xml:id="A01777-e105520">But if the emperors, I gave up them both</l>
+            <l xml:id="A01777-e105530">To plain perspicuous ruin; yet in not</l>
+            <l xml:id="A01777-e105540">Accomplishing my masters harsh commands,</l>
+            <l xml:id="A01777-e105550">The name of treason brands me (But pass that,)</l>
+            <l xml:id="A01777-e105560">I of two evils choose to take the least,</l>
+            <l xml:id="A01777-e105570">Rather to draw upon me Caesar's hate,</l>
+            <l xml:id="A01777-e105580">Than to forsake my charge and soldiers loves:</l>
+            <l xml:id="A01777-e105590">And now being free in my own soul as thought</l>
+            <l xml:id="A01777-e105600">Unsought to (Lords) and unconstrained, I offer</l>
+            <l xml:id="A01777-e105610">T'assist against this emperor (This thing</l>
+            <l xml:id="A01777-e105620">Made only up of name and voice) whom we</l>
+            <l xml:id="A01777-e105630">Will break as showers do bubbles, which themselves</l>
+            <l xml:id="A01777-e105640">Of nothing had created. </l>
+          </sp>
+          <sp xml:id="A01777-e105650" who="A01777-saxon-weimar">
+            <speaker>Saxon.</speaker>
+            <l xml:id="A01777-e105660">So welcome</l>
+            <l xml:id="A01777-e105670">Is this your professed amity, no blessing</l>
+            <l xml:id="A01777-e105680">Heaven in its fullest bounty could have showered,</l>
+            <l xml:id="A01777-e105690">Could have arrived more pleasing, and to show</l>
+            <l xml:id="A01777-e105700">How much we prize your friendship, your the son,</l>
+            <l xml:id="A01777-e105710"><pb facs="11"/> young Frederick be affianced to my daughter,</l>
+            <l xml:id="A01777-e105720">The tie of nature to the tie of blood,</l>
+            <l xml:id="A01777-e105730">Will make the union perfect. </l>
+          </sp>
+          <sp xml:id="A01777-e105740" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e105750">'Tis an honour,</l>
+            <l xml:id="A01777-e105760">We are bound in duty to accept, my lords,</l>
+            <l xml:id="A01777-e105770">In noble souls no thought should once admit</l>
+            <l xml:id="A01777-e105780">Sullen delay, our progress should be swift,</l>
+            <l xml:id="A01777-e105790">As is the passage of unlimited fire</l>
+            <l xml:id="A01777-e105800">In populous cities; or as winds, whose force</l>
+            <l xml:id="A01777-e105810">Does at their birth send open the stubborn womb</l>
+            <l xml:id="A01777-e105820">Of the dull earth their mother; great designs</l>
+            <l xml:id="A01777-e105830">Should by great spirits only be pursued,</l>
+            <l xml:id="A01777-e105840">And our last business is our speedy conference</l>
+            <l xml:id="A01777-e105850">With chancellor Oxenstern, and the French ambassador. </l>
+            <l xml:id="A01777-e105860">Actions that carry an unusual weight,</l>
+            <l xml:id="A01777-e105870">Ought still to fly at an unusual height. </l>
+          </sp>
+          <stage xml:id="A01777-e105880">Exeunt Wallens. Bran. Waym. Tert. Kint. Illaw.</stage>
+          <sp xml:id="A01777-e105890" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e105900">So, let the dull</l>
+            <l xml:id="A01777-e105910">Half-spirited souls, who strive on reremice wings,</l>
+            <l xml:id="A01777-e105920">By that which fools term honesty, to climb</l>
+            <l xml:id="A01777-e105930">Toth' top of honour, in their silly virtue</l>
+            <l xml:id="A01777-e105940">Boast, while ingenious and more active spirits,</l>
+            <l xml:id="A01777-e105950">In a direct line without stop or hindrance,</l>
+            <l xml:id="A01777-e105960">Mount to their wishes, yet ith' worlds esteem,</l>
+            <l xml:id="A01777-e105970">Are held as real, and endued with goodness. </l>
+            <l xml:id="A01777-e105980">This Wallenstein, like a good easy mule,</l>
+            <l xml:id="A01777-e105990">Have I led on byth' nose to this rebellion,</l>
+            <l xml:id="A01777-e106000">Fired with such venom as will spread,</l>
+            <l xml:id="A01777-e106010">Like swift infection through his soul: these two</l>
+            <l xml:id="A01777-e106020">Shall be my agents to achieve my ends,</l>
+            <l xml:id="A01777-e106030">Factors in cunning to vent forth my intentions,</l>
+            <l xml:id="A01777-e106040">Lieutenant colonel Gordon, and my good</l>
+            <l xml:id="A01777-e106050">Captain Butler. </l>
+          </sp>
+          <sp xml:id="A01777-e106060" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <l xml:id="A01777-e106070">We were musing,</l>
+            <l xml:id="A01777-e106080">What serious thought it was, that could so long</l>
+            <l xml:id="A01777-e106090">Detain you from our conference. </l>
+          </sp>
+          <sp xml:id="A01777-e106100" who="A01777-lesle">
+            <pb facs="12"/>
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e106110">Faith I was studying</l>
+            <l xml:id="A01777-e106120">On our great generals fortunes, upon which</l>
+            <l xml:id="A01777-e106130">Our hopes and lives depend; what think you of them? </l>
+          </sp>
+          <sp xml:id="A01777-e106140" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <l xml:id="A01777-e106150">Well at least, we're bound</l>
+            <l xml:id="A01777-e106160">To hope the best, he's in himself so mighty,</l>
+            <l xml:id="A01777-e106170">He seems above his fate. </l>
+          </sp>
+          <sp xml:id="A01777-e106180" who="A01777-butler">
+            <speaker>Butler.</speaker>
+            <l xml:id="A01777-e106190">His plots do carry</l>
+            <l xml:id="A01777-e106200">A fair and specious out side. </l>
+          </sp>
+          <sp xml:id="A01777-e106210" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e106220">'Tis a sign,</l>
+            <l xml:id="A01777-e106230">Corruption is within them, noble friends,</l>
+            <l xml:id="A01777-e106240">You are my countrymen, and if my life</l>
+            <l xml:id="A01777-e106250">May preserve yours from ruin, I shall deem it</l>
+            <l xml:id="A01777-e106260">Religiously employed: if you discover</l>
+            <l xml:id="A01777-e106270">What I intend to utter, 'twill but send</l>
+            <l xml:id="A01777-e106280">My age some hours before it's destined minute,</l>
+            <l xml:id="A01777-e106290">Unto my grave, and I most willingly,</l>
+            <l xml:id="A01777-e106300">Shall die the causes martyr. </l>
+          </sp>
+          <sp xml:id="A01777-e106310" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <l xml:id="A01777-e106320">By our honours,</l>
+            <l xml:id="A01777-e106330">No syllable shall ever pass our lips,</l>
+            <l xml:id="A01777-e106340">What you in love reveal to us. </l>
+          </sp>
+          <sp xml:id="A01777-e106350" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e106360">Thus then friends,</l>
+            <l xml:id="A01777-e106370">Rebellion never yet could boast a happy</l>
+            <l xml:id="A01777-e106380">Or prosperous period, Wallenstein's designs</l>
+            <l xml:id="A01777-e106390">Are built on sand, and with the emperor's breath</l>
+            <l xml:id="A01777-e106400">Will be dispersed into the air; I speak not this,</l>
+            <l xml:id="A01777-e106410">That I do hate the man, heavens know I love</l>
+            <l xml:id="A01777-e106420">His person, but detest the cause he justifies. </l>
+          </sp>
+          <sp xml:id="A01777-e106430" who="A01777-gordon">
+            <speaker>Gord.</speaker>
+            <l xml:id="A01777-e106440">True, the dignity of princes,</l>
+            <l xml:id="A01777-e106450">Does make whatever quarrels subjects raise</l>
+            <l xml:id="A01777-e106460">Against their sovereigns, odious. </l>
+          </sp>
+          <sp xml:id="A01777-e106470" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e106480">Shall we then,</l>
+            <l xml:id="A01777-e106490">Here in a strange country, violate</l>
+            <l xml:id="A01777-e106500">The laws of hospitality, unmake the ancient faith</l>
+            <l xml:id="A01777-e106510">Ascribed unto our nation, by assisting</l>
+            <l xml:id="A01777-e106520">A traitor 'gainst his lawful prince, a general</l>
+            <l xml:id="A01777-e106530">Against that power which gave him that command,</l>
+            <l xml:id="A01777-e106540"><pb facs="12"/> betray that royal master, to whose bounty</l>
+            <l xml:id="A01777-e106550">We owe our lives: first rather let's resolve,</l>
+            <l xml:id="A01777-e106560">To open all his treasons, his proceedings,</l>
+            <l xml:id="A01777-e106570">Unto our lord the emperor. </l>
+          </sp>
+          <sp xml:id="A01777-e106580" who="A01777-gordon">
+            <speaker>Gord.</speaker>
+            <l xml:id="A01777-e106590">'Tis very just,</l>
+            <l xml:id="A01777-e106600">And in my judgement requisite. </l>
+          </sp>
+          <sp xml:id="A01777-e106610" who="A01777-butler">
+            <speaker>Butler.</speaker>
+            <p xml:id="A01777-e106620">I do approve it.</p>
+          </sp>
+          <sp xml:id="A01777-e106630" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e106640">'Twere mere madness,</l>
+            <l xml:id="A01777-e106650">And he that does mislike it, bears no brain,</l>
+            <l xml:id="A01777-e106660">No soul about him: instead of slight preferment,</l>
+            <l xml:id="A01777-e106670">Which (Should our general prosper) we at best,</l>
+            <l xml:id="A01777-e106680">Could but expect, we shall have</l>
+            <l xml:id="A01777-e106690">Castles, lordships, earldoms, nay provinces,</l>
+            <l xml:id="A01777-e106700">Be styled the saviours,</l>
+            <l xml:id="A01777-e106710">Preservers of the empire, have our names,</l>
+            <l xml:id="A01777-e106720">As 'twere in triumph sung about the streets,</l>
+            <l xml:id="A01777-e106730">In popular acclamations, think then friends,</l>
+            <l xml:id="A01777-e106740">How far these certain honours will surpass</l>
+            <l xml:id="A01777-e106750">Our aery expectations: come let's post</l>
+            <l xml:id="A01777-e106760">Straight to Vienna, and inform the emperor</l>
+            <l xml:id="A01777-e106770">Of all's proceedings, in this great affair,</l>
+            <l xml:id="A01777-e106780">We must not use our fortune, but our care. <stage xml:id="A01777-e106790">Exeunt.</stage></l>
+          </sp>
+        </div>
+        <div n="2" type="scene" xml:id="A01777-e106800">
+          <head>Scaena secunda, Frederick, Albertus, Newman.</head>
+          <sp xml:id="A01777-e106810" who="A01777-newman">
+            <speaker>Newm.</speaker>
+            <l xml:id="A01777-e106820">Pish, perish still in ignorance, am I,</l>
+            <l xml:id="A01777-e106830">Who am grand master in the art of love,</l>
+            <l xml:id="A01777-e106840">Not able to instruct a limber youth</l>
+            <l xml:id="A01777-e106850">Of the first growth, your brother here makes love</l>
+            <l xml:id="A01777-e106860">In all ill favoured tone, and screws his countenance,</l>
+            <l xml:id="A01777-e106870">As he were singing of lamentable ballads</l>
+            <l xml:id="A01777-e106880">Of Tilly's overthrow, but you for your part,</l>
+            <l xml:id="A01777-e106890">(I've known you of an urchin) are so fiery,</l>
+            <l xml:id="A01777-e106900">You speak all squibs and crackers, carry a cannon</l>
+            <l xml:id="A01777-e106910">In your mouth, you'll fright the lady, she'll imagine</l>
+            <l xml:id="A01777-e106920"><pb facs="13"/> you come to ravish her. </l>
+          </sp>
+          <sp xml:id="A01777-e106930" who="A01777-albertus">
+            <speaker>Albert.</speaker>
+            <l xml:id="A01777-e106940">The colonel</l>
+            <l xml:id="A01777-e106950">Tells you, your own, good brother. </l>
+          </sp>
+          <sp xml:id="A01777-e106960" who="A01777-newman">
+            <speaker>New.</speaker>
+            <l xml:id="A01777-e106970">I've told you yours too, or I'm much mistaken,</l>
+            <l xml:id="A01777-e106980">You love, 'tshould seem, the fair Emilia,</l>
+            <l xml:id="A01777-e106990">A pretty wench, they say, but that's no matter,</l>
+            <l xml:id="A01777-e107000">Your fathers are agreed on't, and you'd have me</l>
+            <l xml:id="A01777-e107010">Show you the readiest way, how to accost her</l>
+            <l xml:id="A01777-e107020">Negatively, I will demonstrate instantly. </l>
+          </sp>
+          <sp xml:id="A01777-e107030" who="A01777-frederick">
+            <speaker>Fred.</speaker>
+            <l xml:id="A01777-e107040">I shall observe your doctrine most exactly. </l>
+          </sp>
+          <sp xml:id="A01777-e107050" who="A01777-newman">
+            <speaker>Newm.</speaker>
+            <l xml:id="A01777-e107060">Pray observe,</l>
+            <l xml:id="A01777-e107070">You must not then accost her with a shrug,</l>
+            <l xml:id="A01777-e107080">As you were lousy, with your lady, sweet lady,</l>
+            <l xml:id="A01777-e107090">Or most superexcellent lady,</l>
+            <l xml:id="A01777-e107100">Nor in the Spanish garb, with a state face,</l>
+            <l xml:id="A01777-e107110">As you had new been eating of a radish,</l>
+            <l xml:id="A01777-e107120">And meant to swallow her for mutton to't:</l>
+            <l xml:id="A01777-e107130">Nor let your words, as that I'm most afraid of,</l>
+            <l xml:id="A01777-e107140">('cause 'tis your natural mood) come rumbling forth,</l>
+            <l xml:id="A01777-e107150">Ushered with a good full-mouthed oath, I love you:</l>
+            <l xml:id="A01777-e107160">But speak the language of an overcomming lover;</l>
+            <l xml:id="A01777-e107170">I do not mean that strange pedantic phrase,</l>
+            <l xml:id="A01777-e107180">Used by some gallants, who do aim at wit,</l>
+            <l xml:id="A01777-e107190">And make themselves stark asses by't, praise their mistresses</l>
+            <l xml:id="A01777-e107200">Byth' sun and stars, while the poor girls imagine,</l>
+            <l xml:id="A01777-e107210">They mean their signs, their mercers or perfumers</l>
+            <l xml:id="A01777-e107220">Inhabit at (For sure beyond those planets</l>
+            <l xml:id="A01777-e107230">They've studied no astrology) but you must</l>
+            <l xml:id="A01777-e107240">In gentle, free, and genuine phrase deliver</l>
+            <l xml:id="A01777-e107250">Your true affection, praise her eye, her lip,</l>
+            <l xml:id="A01777-e107260">Her nose, her cheek, her chin, her neck, her breast,</l>
+            <l xml:id="A01777-e107270">Her hand, her foot, her leg, her every thing,</l>
+            <l xml:id="A01777-e107280">And leave your roses and your lilies for</l>
+            <l xml:id="A01777-e107290">Your country froes, to make nosegays of:</l>
+            <l xml:id="A01777-e107300">But stay, here comes your mistress, her father too,</l>
+            <l xml:id="A01777-e107310">In conference; fall on my Myrmidon,</l>
+            <l xml:id="A01777-e107320"><pb facs="13"/> while we retreat. <stage xml:id="A01777-e107330">Int. Waymar, Emilia.</stage></l>
+          </sp>
+          <sp xml:id="A01777-e107340" who="A01777-albertus">
+            <speaker>Alber.</speaker>
+            <p xml:id="A01777-e107350">Speed your endeavours, brother. <stage xml:id="A01777-e107360">Ex. Newm. Alber</stage></p>
+          </sp>
+          <sp xml:id="A01777-e107370" who="A01777-waymar">
+            <speaker>Waym.</speaker>
+            <l xml:id="A01777-e107380">'Tis so concluded 'twixt me and her father,</l>
+            <l xml:id="A01777-e107390">For both our goods, be not you nice Emilia,</l>
+            <l xml:id="A01777-e107400">The noble youth's so furnished with all worth,</l>
+            <l xml:id="A01777-e107410">You needs must like him. </l>
+          </sp>
+          <sp xml:id="A01777-e107420" who="A01777-emilia">
+            <speaker>Emilia.</speaker>
+            <l xml:id="A01777-e107430">Good sir give me license,</l>
+            <l xml:id="A01777-e107440">To let my eye direct my heart to love,</l>
+            <l xml:id="A01777-e107450">And if young Frederick be the master of</l>
+            <l xml:id="A01777-e107460">Such absolute gifts, doubt not but I shall find them. </l>
+          </sp>
+          <sp xml:id="A01777-e107470" who="A01777-waymar">
+            <speaker>Waym.</speaker>
+            <l xml:id="A01777-e107480">My lord I'm glad</l>
+            <l xml:id="A01777-e107490">Of this fair interview I and my daughter</l>
+            <l xml:id="A01777-e107500">Were even conferring of you; sir as yet</l>
+            <l xml:id="A01777-e107510">She's something timorous, dreads a soldier's looks. </l>
+          </sp>
+          <sp xml:id="A01777-e107520" who="A01777-frederick">
+            <speaker>Fred.</speaker>
+            <l xml:id="A01777-e107530">She needs not sir. </l>
+            <l xml:id="A01777-e107540">She bears a spell about her that would charm</l>
+            <l xml:id="A01777-e107550">A Scythians native fierceness into softness,</l>
+            <l xml:id="A01777-e107560">Those spirit-breathing eyes, my lord, which can</l>
+            <l xml:id="A01777-e107570">Kill as they please, or quicken with a glance. </l>
+          </sp>
+          <sp xml:id="A01777-e107580" who="A01777-waymar">
+            <speaker>Waym.</speaker>
+            <l xml:id="A01777-e107590">Now they are entered,</l>
+            <l xml:id="A01777-e107600">I'll steal away and leave them. </l>
+          </sp>
+          <sp xml:id="A01777-e107610" who="A01777-frederick">
+            <speaker>Fred.</speaker>
+            <l xml:id="A01777-e107620">Gentle lady,</l>
+            <l xml:id="A01777-e107630">To make the addresses of my lovesick heart,</l>
+            <l xml:id="A01777-e107640">Plain and apparent to you, that you may,</l>
+            <l xml:id="A01777-e107650">Search through my soul, and find it all your creature,</l>
+            <l xml:id="A01777-e107660">Give me your patient hearing. </l>
+          </sp>
+          <sp xml:id="A01777-e107670" who="A01777-emilia">
+            <speaker>Emil.</speaker>
+            <l xml:id="A01777-e107680">'Tis a request,</l>
+            <l xml:id="A01777-e107690">Might tax my manners, should I deny it to</l>
+            <l xml:id="A01777-e107700">One of your noble quality; use your pleasure. </l>
+          </sp>
+          <sp xml:id="A01777-e107710" who="A01777-frederick">
+            <speaker>Fred.</speaker>
+            <l xml:id="A01777-e107720">Which consists</l>
+            <l xml:id="A01777-e107730">In viewing your bright beauty, the idea</l>
+            <l xml:id="A01777-e107740">Of all perfections, which the jealous heavens</l>
+            <l xml:id="A01777-e107750">Durst ever lend to earth divinest— lady,</l>
+            <l xml:id="A01777-e107760">The gentle air which circumscribes your cheek,</l>
+            <l xml:id="A01777-e107770">Leaving its panting kisses on the flowers,</l>
+            <l xml:id="A01777-e107780">That in that Tempe blossom, does not love</l>
+            <l xml:id="A01777-e107790"><pb facs="14"/> those fields of purity more than mine eyes do,</l>
+            <l xml:id="A01777-e107800">Mine, lady, is a holy,</l>
+            <l xml:id="A01777-e107810">An intellectual zeal, such as the angels</l>
+            <l xml:id="A01777-e107820">And saints, who know no sexes do affect by,</l>
+            <l xml:id="A01777-e107830">Passed imitation too, should they who strive</l>
+            <l xml:id="A01777-e107840">To trace me, take the constancy of swans,</l>
+            <l xml:id="A01777-e107850">Or never-changing turtles, as their patterns. </l>
+          </sp>
+          <sp xml:id="A01777-e107860" who="A01777-emilia">
+            <speaker>Emilia.</speaker>
+            <l xml:id="A01777-e107870">Sir, it seems</l>
+            <l xml:id="A01777-e107880">You've studied compliment as well as arms,</l>
+            <l xml:id="A01777-e107890">But he's a foolish lover, who to gain</l>
+            <l xml:id="A01777-e107900">His mistress, dare not promise what you have uttered, but I must</l>
+            <l xml:id="A01777-e107910">Have more than verbal assurance of your love. </l>
+          </sp>
+          <sp xml:id="A01777-e107920" who="A01777-frederick">
+            <speaker>Fred.</speaker>
+            <l xml:id="A01777-e107930">By your fair self I'm real, do intend,</l>
+            <l xml:id="A01777-e107940">What I've delivered with as much true zeal,</l>
+            <l xml:id="A01777-e107950">As anchorites do their prayers: I love your mind,</l>
+            <l xml:id="A01777-e107960">Your excellent mind, and for its sake, the pure</l>
+            <l xml:id="A01777-e107970">Shrine, which contains that blessing, this fair building,</l>
+            <l xml:id="A01777-e107980">This palace of all happiness, and entreat you,</l>
+            <l xml:id="A01777-e107990">As you have mercy in you, to take pity</l>
+            <l xml:id="A01777-e108000">Upon my love's stern sufferings, and redress them,</l>
+            <l xml:id="A01777-e108010">By your consent to take me for your husband. </l>
+          </sp>
+          <sp xml:id="A01777-e108020" who="A01777-emilia">
+            <speaker>Emilia.</speaker>
+            <l xml:id="A01777-e108030">Sir you are an overhasty lover, to imagine</l>
+            <l xml:id="A01777-e108040">I can at first sight of your person, be</l>
+            <l xml:id="A01777-e108050">Surprised and yield, they must be strong allurements,</l>
+            <l xml:id="A01777-e108060">Must tempt a bashful virgin still enured</l>
+            <l xml:id="A01777-e108070">To no companion but her fears and blushes,</l>
+            <l xml:id="A01777-e108080">To give her heart away, and live in thraldom,</l>
+            <l xml:id="A01777-e108090">Unto a stranger. </l>
+          </sp>
+          <sp xml:id="A01777-e108100" who="A01777-frederick">
+            <speaker>Fred.</speaker>
+            <l xml:id="A01777-e108110">Love, madam, has eagles eyes; it can beget acquaintance,</l>
+            <l xml:id="A01777-e108120">Even in a moment, suddenly as time,</l>
+            <l xml:id="A01777-e108130">The time that does succeed it. Farewell. </l>
+            <l xml:id="A01777-e108140">I will not have my overhasty zeal,</l>
+            <l xml:id="A01777-e108150">Urge your mild sufferance further, pray think on me</l>
+            <l xml:id="A01777-e108160">As one who've played my full extent of bliss,</l>
+            <l xml:id="A01777-e108170">In your enjoying, think you are the land wrack,</l>
+            <l xml:id="A01777-e108180">By which the brittle vessel of my hopes,</l>
+            <l xml:id="A01777-e108190"><pb facs="14"/> must through loves-swelling ocean be directed,</l>
+            <l xml:id="A01777-e108200">To a safe harbour, honour me to kiss</l>
+            <l xml:id="A01777-e108210">Your fair hand; lady now farewell, no bliss</l>
+            <l xml:id="A01777-e108220">Can be in love, till we know what it is. <stage xml:id="A01777-e108230">Exeunt.</stage></l>
+          </sp>
+        </div>
+        <div n="3" type="scene" xml:id="A01777-e108240">
+          <head>Scaena tertia: Ferdinand, King of Hungary, Gallas, Questenberg.</head>
+          <sp xml:id="A01777-e108250" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <l xml:id="A01777-e108260">Crowns are perpetual cares, and to their heads,</l>
+            <l xml:id="A01777-e108270">That wear the wreath imperial, are annexed. </l>
+            <l xml:id="A01777-e108280">Foreign invasions oft may shake a state,</l>
+            <l xml:id="A01777-e108290">But civil broils are the impetuous firebrands,</l>
+            <l xml:id="A01777-e108300">That burn up commonwealths; to quench</l>
+            <l xml:id="A01777-e108310">A flame domestic we are met, which will</l>
+            <l xml:id="A01777-e108320">Like fame increase, by going on; this late</l>
+            <l xml:id="A01777-e108330">Revolt of Wallenstein. </l>
+          </sp>
+          <sp xml:id="A01777-e108340" who="A01777-hungary">
+            <speaker>Hungar.</speaker>
+            <l xml:id="A01777-e108350">Perfidious slave! </l>
+            <l xml:id="A01777-e108360">On whom your plenteous bounties showered so fast,</l>
+            <l xml:id="A01777-e108370">They seemed to drown him ▪ he whose great commands,</l>
+            <l xml:id="A01777-e108380">Could not know ought above them, but yourself,</l>
+            <l xml:id="A01777-e108390">The general of your forces of Gloyawe,</l>
+            <l xml:id="A01777-e108400">Mechlenburg, Sagan, Fridland styled the Duke,</l>
+            <l xml:id="A01777-e108410">He to invert your own arms 'gainst yourself,</l>
+            <l xml:id="A01777-e108420">Swells my vexed soul to think on't. </l>
+          </sp>
+          <sp xml:id="A01777-e108430" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <l xml:id="A01777-e108440">'Tis not words,</l>
+            <l xml:id="A01777-e108450">Or aery threatenings will appease thy mischief,</l>
+            <l xml:id="A01777-e108460">It must be done by force; Matthias Gallas,</l>
+            <l xml:id="A01777-e108470">Have you according to our late commands,</l>
+            <l xml:id="A01777-e108480">Given order for the levying new forces,</l>
+            <l xml:id="A01777-e108490">To oppose this traitor. </l>
+          </sp>
+          <sp xml:id="A01777-e108500" who="A01777-gallas">
+            <speaker>Matth.</speaker>
+            <l xml:id="A01777-e108510">Mighty sir, I have,</l>
+            <l xml:id="A01777-e108520">And seen them mustered. </l>
+          </sp>
+          <sp xml:id="A01777-e108530" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <p xml:id="A01777-e108540">To what amounts their number.</p>
+          </sp>
+          <sp xml:id="A01777-e108550" who="A01777-gallas">
+            <speaker>Gall.</speaker>
+            <p xml:id="A01777-e108560">Threescore thousand</p>
+          </sp>
+          <sp xml:id="A01777-e108570" who="A01777-hungary">
+            <speaker>Hung.</speaker>
+            <l xml:id="A01777-e108580">A royal army, had they been trained</l>
+            <l xml:id="A01777-e108590">In military discipline, experience</l>
+            <l xml:id="A01777-e108600">Is half the soul of arms, we will take order,</l>
+            <l xml:id="A01777-e108610"><pb facs="15"/> to have them taught the exercise of arms,</l>
+            <l xml:id="A01777-e108620">By those Hungarians troops which we brought hither. </l>
+          </sp>
+          <sp xml:id="A01777-e108630" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <p xml:id="A01777-e108640">Now sir, your business. <stage xml:id="A01777-e108650">Int. a messenger.</stage></p>
+          </sp>
+          <sp xml:id="A01777-e108660" who="A01777-messenger">
+            <speaker>Messenger</speaker>
+            <l xml:id="A01777-e108670">Mighty sir,</l>
+            <l xml:id="A01777-e108680">The governor of Egers, colonel Gordon,</l>
+            <l xml:id="A01777-e108690">Attended by lieutenant colonel Butler,</l>
+            <l xml:id="A01777-e108700">And colonel Lesle do desire admittance</l>
+            <l xml:id="A01777-e108710">Into your presence. </l>
+          </sp>
+          <sp xml:id="A01777-e108720" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <l xml:id="A01777-e108730">Let them enter,</l>
+            <l xml:id="A01777-e108740">They are his friends, and may perhaps discover</l>
+            <l xml:id="A01777-e108750">Some of his treacheries: noble strangers welcome,<stage xml:id="A01777-e108760">Int. Less. Gordon, Butler.</stage></l>
+            <l xml:id="A01777-e108770">I do conceive 'tis business of importance</l>
+            <l xml:id="A01777-e108780">Has drawn you hither, in colonel Lesle's looks</l>
+            <l xml:id="A01777-e108790">I read affairs of consequence, with which</l>
+            <l xml:id="A01777-e108800">His active brain does teem, and fain would be</l>
+            <l xml:id="A01777-e108810">By's tongue delivered. </l>
+          </sp>
+          <sp xml:id="A01777-e108820" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e108830">Most mighty Caesar,</l>
+            <l xml:id="A01777-e108840">To endear the service to you, I shall do you,</l>
+            <l xml:id="A01777-e108850">By guilding o'er each circumstance, its weight</l>
+            <l xml:id="A01777-e108860">And consequence, since 'tis my bounden duty,</l>
+            <l xml:id="A01777-e108870">To you, my royal master, would but show,</l>
+            <l xml:id="A01777-e108880">Pride and arrogant love in me the author,</l>
+            <l xml:id="A01777-e108890">To my own act, and so 'twould rather lessen</l>
+            <l xml:id="A01777-e108900">Than amplify my merit; how I've served you</l>
+            <l xml:id="A01777-e108910">Under command of him, whom in due justice</l>
+            <l xml:id="A01777-e108920">I cannot mention now without foul curses,</l>
+            <l xml:id="A01777-e108930">Revolted Wallenstein is to these lords,</l>
+            <l xml:id="A01777-e108940">And your great self best known. </l>
+          </sp>
+          <sp xml:id="A01777-e108950" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <l xml:id="A01777-e108960">And our rewards</l>
+            <l xml:id="A01777-e108970">Shall strive to pay those services. </l>
+          </sp>
+          <sp xml:id="A01777-e108980" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e108990">But when I saw him</l>
+            <l xml:id="A01777-e109000">Put off his faith, abandon his allegiance,</l>
+            <l xml:id="A01777-e109010">Accounting all your bounteous favours trifles,</l>
+            <l xml:id="A01777-e109020">Unto the mountainous pile of his deservings,</l>
+            <l xml:id="A01777-e109030">And like a black cloud hung o'er all your empire,</l>
+            <l xml:id="A01777-e109040">Uncertain where to break and in's vast thoughts,</l>
+            <l xml:id="A01777-e109050"><pb facs="15"/> aspired your sacred dignity and life,</l>
+            <l xml:id="A01777-e109060">I like his genius screw into his counsels,</l>
+            <l xml:id="A01777-e109070">Explored his plots and treasons, and have found them</l>
+            <l xml:id="A01777-e109080">So full of eminent danger. </l>
+          </sp>
+          <sp xml:id="A01777-e109090" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <p xml:id="A01777-e109100">So malicious.</p>
+          </sp>
+          <sp xml:id="A01777-e109110" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e109120">Empty of worth and honour, it had been</l>
+            <l xml:id="A01777-e109130">A sin beyond the horridst punishments,</l>
+            <l xml:id="A01777-e109140">To have concealed them from you, and which most</l>
+            <l xml:id="A01777-e109150">Tortures my loyal thoughts, as't had not been</l>
+            <l xml:id="A01777-e109160">Sufficient for him to rebel himself,</l>
+            <l xml:id="A01777-e109170">He has firmed a league defensive and offensive,</l>
+            <l xml:id="A01777-e109180">With your most eager enemies, Saxon Weimar,</l>
+            <l xml:id="A01777-e109190">Brandenburg, Arheim, and Gustavus Horn,</l>
+            <l xml:id="A01777-e109200">And had a personal meeting for that purpose,</l>
+          </sp>
+          <sp xml:id="A01777-e109210" who="A01777-butler">
+            <speaker>Butler.</speaker>
+            <l xml:id="A01777-e109220">And 'tis to be feared,</l>
+            <l xml:id="A01777-e109230">That if sudden power stop not their progress,</l>
+            <l xml:id="A01777-e109240">They will with speedy violence invade you,</l>
+            <l xml:id="A01777-e109250">Here in your capital city. </l>
+          </sp>
+          <sp xml:id="A01777-e109260" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <l xml:id="A01777-e109270">Worthy strangers,</l>
+            <l xml:id="A01777-e109280">In this one act you've shown yourself more faithful ,</l>
+            <l xml:id="A01777-e109290">Than all my home-born subjects, but be sure</l>
+            <l xml:id="A01777-e109300">If gratitude can equal your deserts,</l>
+            <l xml:id="A01777-e109310">You shall enjoy that amply: noble Lesle,</l>
+            <l xml:id="A01777-e109320">The time is come now, and the dilemma cast,</l>
+            <l xml:id="A01777-e109330">That must conclude our empire, which we must</l>
+            <l xml:id="A01777-e109340">Unto thy care commit; to kill a traitor,</l>
+            <l xml:id="A01777-e109350">Is a deserving action, for thou strikest</l>
+            <l xml:id="A01777-e109360">Then with the sword of justice: wilt thou add</l>
+            <l xml:id="A01777-e109370">This one act to thy former high deservings,</l>
+            <l xml:id="A01777-e109380">Kill this arch-rebel. </l>
+          </sp>
+          <sp xml:id="A01777-e109390" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e109400">'Twas an office,</l>
+            <l xml:id="A01777-e109410">We should have begged, believe't he's dead already,</l>
+            <l xml:id="A01777-e109420">I'll kill him in his pride, in all his glories,</l>
+            <l xml:id="A01777-e109430">With such security, as I would sleep</l>
+            <l xml:id="A01777-e109440">After a tedious watching. </l>
+          </sp>
+          <sp xml:id="A01777-e109450" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <l xml:id="A01777-e109460">And expect,</l>
+            <gap extent="1" unit="pages" xml:id="A01777-e109470" n="15-b-2950"/>
+          </sp>
+        </div>
+      </div>
+      <div n="3" type="act" xml:id="A01777-e109480">
+        <div n="1" type="scene" xml:id="A01777-e109490">
+          <sp xml:id="A01777-e109500" who="A01777-missing">
+            <gap extent="1" unit="pages" xml:id="A01777-e109510" n="15-b-2960"/>
+            <l xml:id="A01777-e109520"><pb facs="16"/>Nature's choice pleasures, that same happiness</l>
+            <l xml:id="A01777-e109530">You were created for. </l>
+          </sp>
+          <sp xml:id="A01777-e109540" who="A01777-emilia">
+            <speaker>Emil</speaker>
+            <l xml:id="A01777-e109550">You have prevailed sir;</l>
+            <l xml:id="A01777-e109560">You who are still victorious o'er your foes,</l>
+            <l xml:id="A01777-e109570">Must needs remain a conqueror o'er your friends,</l>
+            <l xml:id="A01777-e109580">My lord, receive me freely, I am yours</l>
+            <l xml:id="A01777-e109590">For ever. </l>
+          </sp>
+          <sp xml:id="A01777-e109600" who="A01777-frederick">
+            <speaker>Fred.</speaker>
+            <l xml:id="A01777-e109610">This chaste kiss shall seal the contract. </l>
+            <l xml:id="A01777-e109620">Come my Emilia, love is such a wealth,</l>
+            <l xml:id="A01777-e109630">As must be gained by free consent, not stealth. </l>
+          </sp>
+        </div>
+        <div n="2" type="scene" xml:id="A01777-e109640">
+          <head>Scaena secunda: Wallenstein, Duchess, Newman, Terzki, Kintzki, Illawe.</head>
+          <sp xml:id="A01777-e109650" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <p xml:id="A01777-e109660">Are they agreed yet, Newman,</p>
+          </sp>
+          <sp xml:id="A01777-e109670" who="A01777-newman">
+            <speaker>Newm.</speaker>
+            <l xml:id="A01777-e109680">Faith my lord,</l>
+            <l xml:id="A01777-e109690">The virgin lady's something fearful, fears</l>
+            <l xml:id="A01777-e109700">A man of war should board her, lest his charge</l>
+            <l xml:id="A01777-e109710">Should make her keel split, my lord Fredrick</l>
+            <l xml:id="A01777-e109720">Is of that rough demeanour, spite of my</l>
+            <l xml:id="A01777-e109730">Instructions, he will never learn to woe</l>
+            <l xml:id="A01777-e109740">In the due phrase and garb. </l>
+          </sp>
+          <sp xml:id="A01777-e109750" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e109760">I do admire,</l>
+            <l xml:id="A01777-e109770">The fond base carriage of our giddy youth</l>
+            <l xml:id="A01777-e109780">In love affairs, and grieve to see my sons,</l>
+            <l xml:id="A01777-e109790">(Who should inherit from me my great spirit,</l>
+            <l xml:id="A01777-e109800">As well as fortune) so degenerate from</l>
+            <l xml:id="A01777-e109810">My masculine courage; when ith' blooming pride</l>
+            <l xml:id="A01777-e109820">Of my green youth I flourished, my desires</l>
+            <l xml:id="A01777-e109830">Aimed always rather in the tented field</l>
+            <l xml:id="A01777-e109840">To spend my hours, then on a downy couch,</l>
+            <l xml:id="A01777-e109850">To see the face of a stern enemy besmeared with blood,</l>
+            <l xml:id="A01777-e109860">Pleased me far better than a lady's looks. </l>
+          </sp>
+          <sp xml:id="A01777-e109870" who="A01777-duchess">
+            <speaker>Duchess</speaker>
+            <l xml:id="A01777-e109880">And yet you vowed,</l>
+            <l xml:id="A01777-e109890">Ere you won me, my lord , you never saw object,</l>
+            <l xml:id="A01777-e109900"><pb facs="16"/> that so much pleased your appetite. </l>
+          </sp>
+          <sp xml:id="A01777-e109910" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e109920">Perhaps I might,</l>
+            <l xml:id="A01777-e109930">For the obtaining of my ends, descend</l>
+            <l xml:id="A01777-e109940">From my great spirit so much, as to decline</l>
+            <l xml:id="A01777-e109950">To idle courtship, the birds and beasts will do it</l>
+            <l xml:id="A01777-e109960">To sate their appetites, the fiery steed,</l>
+            <l xml:id="A01777-e109970">(That in the fervour of a fight, oft times</l>
+            <l xml:id="A01777-e109980">Neighs courage to his rider) when provoked</l>
+            <l xml:id="A01777-e109990">With eager heat, will lick and bite his female</l>
+            <l xml:id="A01777-e110000">Into the same desire: the sparrows bill,</l>
+            <l xml:id="A01777-e110010">And with a chirping rhetoric, seem to court</l>
+            <l xml:id="A01777-e110020">Enjoyment of their wishes, which fulfilled</l>
+            <l xml:id="A01777-e110030">Dulls their heads, they couch beneath their wings,</l>
+            <l xml:id="A01777-e110040">And in a slumber, forfeit all remembrance</l>
+            <l xml:id="A01777-e110050">Of their past pleasures: yet insatiate man,</l>
+            <l xml:id="A01777-e110060">In his desire more hot than steeds or sparrows,</l>
+            <l xml:id="A01777-e110070">Will to obtain it, quite divest his soul</l>
+            <l xml:id="A01777-e110080">Of all that's masculine in him, and transform ▪</l>
+            <l xml:id="A01777-e110090">His very being into woman. </l>
+          </sp>
+          <sp xml:id="A01777-e110100" who="A01777-newman">
+            <speaker>Newm.</speaker>
+            <l xml:id="A01777-e110110">Sure,</l>
+            <l xml:id="A01777-e110120">My lord intends to write some proclamation,</l>
+            <l xml:id="A01777-e110130">'Gainst wearing holland smocks, some furious edict,</l>
+            <l xml:id="A01777-e110140">'Gainst charitable leaguerers: I've known him,</l>
+            <l xml:id="A01777-e110150">(And so have you my lords) for all this heat</l>
+            <l xml:id="A01777-e110160">'Gainst womanhood, pursue a sutler's usroe,</l>
+            <l xml:id="A01777-e110170">(And she had but one eye neither) with as much zeal,</l>
+            <l xml:id="A01777-e110180">As e'er knight-errant did his fair Linda brides,</l>
+            <l xml:id="A01777-e110190">Or Claridiana. <stage xml:id="A01777-e110200">Ent. Fredrick, Emilia.</stage></l>
+          </sp>
+          <sp xml:id="A01777-e110210" who="A01777-tertzki">
+            <speaker>Tert.</speaker>
+            <p xml:id="A01777-e110220">My lord, your son and fair Emilia. </p>
+          </sp>
+          <sp xml:id="A01777-e110230" who="A01777-newman">
+            <speaker>Newm.</speaker>
+            <p xml:id="A01777-e110240">The quarrel's reconciled, I'll lay my life on't.</p>
+          </sp>
+          <sp xml:id="A01777-e110250" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e110260">Beauteous lady,</l>
+            <l xml:id="A01777-e110270">The contract 'twixt me and your father, touching</l>
+            <l xml:id="A01777-e110280">The marriage 'twixt my son and your fair self, I hope</l>
+            <l xml:id="A01777-e110290">By your consent is ratified: my boy</l>
+            <l xml:id="A01777-e110300">Looks sprightly, as if he were new returned</l>
+            <l xml:id="A01777-e110310">From a triumphant victory. </l>
+            <gap extent="2" unit="pages" xml:id="A01777-e110320" n="16-b-3190"/>
+            <l xml:id="A01777-e110330"><pb facs="17"/>But pray divide my soul, my life and fortunes,</l>
+            <l xml:id="A01777-e110340">Are at your disposition: noble lords,</l>
+            <l xml:id="A01777-e110350">That this base emperor seeks to take my life</l>
+            <l xml:id="A01777-e110360">By treachery, is an apparent sign,</l>
+            <l xml:id="A01777-e110370">He fears that I should live, and half victorious</l>
+            <l xml:id="A01777-e110380">Ere blow be strucken, are they whom their foes</l>
+            <l xml:id="A01777-e110390">Dread, ere they do behold them: let's go on then,</l>
+            <l xml:id="A01777-e110400">Armed with our aides, backed with our causes justice,</l>
+            <l xml:id="A01777-e110410">'Gainst this insulting emperor, and resolve</l>
+            <l xml:id="A01777-e110420">To pull the tyrant from his throne, destroy</l>
+            <l xml:id="A01777-e110430">His very name, his memory, his ashes,</l>
+            <l xml:id="A01777-e110440">With as much easy freedom, as rough winds</l>
+            <l xml:id="A01777-e110450">Demolish crazy buildings. Colonel Gordon,</l>
+            <l xml:id="A01777-e110460">Some five days hence we shall arrive at egers,</l>
+            <l xml:id="A01777-e110470">There to make preparation for the nuptials,</l>
+            <l xml:id="A01777-e110480">Betwixt our some and fair Emilia. </l>
+            <l xml:id="A01777-e110490">Come lords, since we amongst ourselves are true,</l>
+            <l xml:id="A01777-e110500">Conquest is ours, which we'll with speed pursue. <stage xml:id="A01777-e110510">Exeunt.</stage></l>
+          </sp>
+        </div>
+        <div n="3" type="scene" xml:id="A01777-e110520">
+          <head>Scaena tertia: Albertus solus.</head>
+          <sp xml:id="A01777-e110530" who="A01777-albertus">
+            <speaker>Alber.</speaker>
+            <l xml:id="A01777-e110540">To be in love, nay to be so in love,</l>
+            <l xml:id="A01777-e110550">To put off all our reason and discourse,</l>
+            <l xml:id="A01777-e110560">Which does distinguish us from savage beasts,</l>
+            <l xml:id="A01777-e110570">To dote upon a face (Which like a mirror,</l>
+            <l xml:id="A01777-e110580">Sullied by any breath) by the least sickness,</l>
+            <l xml:id="A01777-e110590">Grows pale and ghastly: is not this mere madness,</l>
+            <l xml:id="A01777-e110600">Why vmd|pn inhabit here then: sure the soul,</l>
+            <l xml:id="A01777-e110610">As 'tis a spirit of a subtle essence,</l>
+            <l xml:id="A01777-e110620">A form as thin and pure, as is an angels,</l>
+            <l xml:id="A01777-e110630">Can never be author of these wild desires,</l>
+            <l xml:id="A01777-e110640">So opposite to its nature, they're all fleshly,</l>
+            <l xml:id="A01777-e110650">Sordid, as is the clay this frame's composed of. </l>
+            <l xml:id="A01777-e110660">Shall the soul,</l>
+            <l xml:id="A01777-e110670">The noble soul, be slave to these wild passions,</l>
+            <l xml:id="A01777-e110680"><pb facs="17"/> and bow beneath their weight: ha Isabella,<stage xml:id="A01777-e110690">Int. Isab.</stage></l>
+            <l xml:id="A01777-e110700">All reason, sense and soul are in her looks,</l>
+            <l xml:id="A01777-e110710">There's no discourse beyond them: cruel fair one,</l>
+            <l xml:id="A01777-e110720">Are you still resolute to persist in your</l>
+            <l xml:id="A01777-e110730">Strange tyranny , and scorn my constant love. </l>
+          </sp>
+          <sp xml:id="A01777-e110740" who="A01777-isabella">
+            <speaker>Isabel.</speaker>
+            <l xml:id="A01777-e110750">Do not sir</l>
+            <l xml:id="A01777-e110760">Abuse that sacred title which the saints,</l>
+            <l xml:id="A01777-e110770">And powers celestial glory in, by ascribing</l>
+            <l xml:id="A01777-e110780">It to your loose desires, pray rather clothe them</l>
+            <l xml:id="A01777-e110790">In their own attribute, term them your lust sir,</l>
+            <l xml:id="A01777-e110800">Your wild irregular lust, which like those fired rakes ,</l>
+            <l xml:id="A01777-e110810">Misguiding nighted travellers, will lead you</l>
+            <l xml:id="A01777-e110820">Forth of the fair path of your fame and virtue,</l>
+            <l xml:id="A01777-e110830">To unavoided ruin. </l>
+          </sp>
+          <sp xml:id="A01777-e110840" who="A01777-albertus">
+            <speaker>Alber.</speaker>
+            <l xml:id="A01777-e110850">This is coyness,</l>
+            <l xml:id="A01777-e110860">A cunning coyness, to make me esteem</l>
+            <l xml:id="A01777-e110870">At a high rate, that jewel which you seem</l>
+            <l xml:id="A01777-e110880">To part from so unwillingly (Merchants use it</l>
+            <l xml:id="A01777-e110890">To put bad wares away:) dear Isabella,</l>
+            <l xml:id="A01777-e110900">Think what excessive honour thou shalt reap,</l>
+            <l xml:id="A01777-e110910">In the exchange of one poor trivial gem,</l>
+            <l xml:id="A01777-e110920">And that but merely imaginary, a voice,</l>
+            <l xml:id="A01777-e110930">And unsubstantial essence, yet for that</l>
+            <l xml:id="A01777-e110940">Thou shalt have real pleasures, such as Queens,</l>
+            <l xml:id="A01777-e110950">Prone to delicious luxury, would covet</l>
+            <l xml:id="A01777-e110960">To sate their appetites: think Isabella,</l>
+            <l xml:id="A01777-e110970">That hardest marble, though not cut by force,</l>
+            <l xml:id="A01777-e110980">By oft diffusion of salt drops, is brought</l>
+            <l xml:id="A01777-e110990">Into whatever form the carvers fancy</l>
+            <l xml:id="A01777-e111000">Before had destined it: your heart's that substance,</l>
+            <l xml:id="A01777-e111010">And will by frequent oratory of tears,</l>
+            <l xml:id="A01777-e111020">Be brought to wear the perfect stamp, the figure</l>
+            <l xml:id="A01777-e111030">Of my affection on it. </l>
+          </sp>
+          <sp xml:id="A01777-e111040" who="A01777-isabella">
+            <speaker>Isabel.</speaker>
+            <l xml:id="A01777-e111050">Thus besieged,</l>
+            <l xml:id="A01777-e111060">It is high time, I summon up my virtue,</l>
+            <l xml:id="A01777-e111070">All that is good, about me, to assist</l>
+            <gap extent="1" unit="pages" xml:id="A01777-e111080" n="17-b-3120"/>
+          </sp>
+        </div>
+      </div>
+      <div n="4" type="act" xml:id="A01777-e111090">
+        <div n="2" type="scene" xml:id="A01777-e111100">
+          <sp xml:id="A01777-e111110" who="A01777-missing">
+            <gap extent="1" unit="pages" xml:id="A01777-e111120" n="17-b-3130"/>
+            <l xml:id="A01777-e111130"><pb facs="18"/>But never aspire your nuptials. </l>
+          </sp>
+          <sp xml:id="A01777-e111140" who="A01777-albertus">
+            <speaker>Alber.</speaker>
+            <l xml:id="A01777-e111150">You're too humble,</l>
+            <l xml:id="A01777-e111160">Impose too mean a value on a gem,</l>
+            <l xml:id="A01777-e111170">Kings would be proud to wear, dear Isabella,</l>
+            <l xml:id="A01777-e111180">Let not thy modest sweetness interpose</l>
+            <l xml:id="A01777-e111190">A new impediment 'twixt my lawful flames,</l>
+            <l xml:id="A01777-e111200">And thy own vestal chastity, let not fear,</l>
+            <l xml:id="A01777-e111210">(To thy sex incident) of my father's wrath</l>
+            <l xml:id="A01777-e111220">Stagger thy resolution; thou shalt be</l>
+            <l xml:id="A01777-e111230">To me, my father, mother, brother, friend,</l>
+            <l xml:id="A01777-e111240">My all of happiness; if we cannot here</l>
+            <l xml:id="A01777-e111250">In peace enjoy our wishes, we will love</l>
+            <l xml:id="A01777-e111260">Like turtles in a desert, only blessed</l>
+            <l xml:id="A01777-e111270">In one another's company. <stage xml:id="A01777-e111280">Enter Fred Newm.</stage></l>
+          </sp>
+          <sp xml:id="A01777-e111290" who="A01777-newman">
+            <speaker>New.</speaker>
+            <l xml:id="A01777-e111300">Why look you sir. yonder's the cock oth' game,</l>
+            <l xml:id="A01777-e111310">About to tread you ginny hen, they're billing;</l>
+            <l xml:id="A01777-e111320">Shall we retire, my lord, perhaps they are going to't,</l>
+            <l xml:id="A01777-e111330">And 'twould be a shame to spoil their sport. </l>
+          </sp>
+          <sp xml:id="A01777-e111340" who="A01777-frederick">
+            <speaker>Fred.</speaker>
+            <p xml:id="A01777-e111350">I am resolved, I'll speak to him.</p>
+          </sp>
+          <sp xml:id="A01777-e111360" who="A01777-newman">
+            <speaker>Newm.</speaker>
+            <l xml:id="A01777-e111370">Your pleasure must be accomplished,</l>
+            <l xml:id="A01777-e111380">But take heed we draw not the virgin's curses on us</l>
+            <l xml:id="A01777-e111390">Both, take heed on't, it will fall heavy. </l>
+          </sp>
+          <sp xml:id="A01777-e111400" who="A01777-albertus">
+            <speaker>Alber.</speaker>
+            <l xml:id="A01777-e111410">Surprised, and by my brother, prithee sweet</l>
+            <l xml:id="A01777-e111420">Withdraw, I would not have thy timorous ears,</l>
+            <l xml:id="A01777-e111430">Frighted with his loud anger. </l>
+          </sp>
+          <sp xml:id="A01777-e111440" who="A01777-frederick">
+            <speaker>Fred.</speaker>
+            <l xml:id="A01777-e111450">Save you brother, you've parted with your</l>
+            <l xml:id="A01777-e111460">Mistress, pray tell me, does she kiss well,</l>
+            <l xml:id="A01777-e111470">Has she a fragrant lip? </l>
+            <l xml:id="A01777-e111480">Are her demeanours courtly, apt to ravish? </l>
+            <l xml:id="A01777-e111490">Are you resolved to run away with her,</l>
+            <l xml:id="A01777-e111500">And stain the honour of our family, for her sweet sake? </l>
+          </sp>
+          <sp xml:id="A01777-e111510" who="A01777-albertus">
+            <speaker>Alber.</speaker>
+            <l xml:id="A01777-e111520">Gentle brother, you speak a language</l>
+            <l xml:id="A01777-e111530">I nor understand,</l>
+            <l xml:id="A01777-e111540">Nor value much the meaning. In your love</l>
+            <l xml:id="A01777-e111550">I meddled not, an't had been manners in you,</l>
+            <l xml:id="A01777-e111560">Not to have intruded upon mine, your presence</l>
+            <l xml:id="A01777-e111570"><pb facs="18"/> being unrequired. </l>
+          </sp>
+          <sp xml:id="A01777-e111580" who="A01777-frederick">
+            <speaker>Fred.</speaker>
+            <l xml:id="A01777-e111590">You're very confident, young gallant,</l>
+            <l xml:id="A01777-e111600">In defence of your brave mistress,</l>
+            <l xml:id="A01777-e111610">I know you are in love, bravely in love</l>
+            <l xml:id="A01777-e111620">With a trim chambermaid, a thing made up</l>
+            <l xml:id="A01777-e111630">Of a cast taffety gown of an old wardrobe:</l>
+            <l xml:id="A01777-e111640">Degenerate brother, were I not assured</l>
+            <l xml:id="A01777-e111650">Of your chaste mother's virtues, I should question,</l>
+            <l xml:id="A01777-e111660">Whither my father got you, but I'm come</l>
+            <l xml:id="A01777-e111670">To disenchant thy senses from the charms,</l>
+            <l xml:id="A01777-e111680">That hateful witch throws on them, but resolve</l>
+            <l xml:id="A01777-e111690">Quickly to quit her, or by heaven she'd better</l>
+            <l xml:id="A01777-e111700">Commix with lightning. </l>
+          </sp>
+          <sp xml:id="A01777-e111710" who="A01777-albertus">
+            <speaker>Alber.</speaker>
+            <l xml:id="A01777-e111720">Pray, good brother use</l>
+            <l xml:id="A01777-e111730">Your threats upon your corporals, or stamp</l>
+            <l xml:id="A01777-e111740">At your tame lancepresadoes, when they do not</l>
+            <l xml:id="A01777-e111750">Perform your charge; your rage upon your boys,</l>
+            <l xml:id="A01777-e111760">Were more becoming, then upon your brother:</l>
+            <l xml:id="A01777-e111770">If you will sit, and with attentive patience,</l>
+            <l xml:id="A01777-e111780">Mark what I shall deliver, I will give you</l>
+            <l xml:id="A01777-e111790">Reasons for my intentions, but if not,</l>
+            <l xml:id="A01777-e111800">You may depart unsatisfied. </l>
+          </sp>
+          <sp xml:id="A01777-e111810" who="A01777-frederick">
+            <speaker>Fred.</speaker>
+            <p xml:id="A01777-e111820">Well sir, be brief, I shall attend you.</p>
+          </sp>
+          <sp xml:id="A01777-e111830" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <l xml:id="A01777-e111840">In brief, I love fair Isabella, so as honour,</l>
+            <l xml:id="A01777-e111850">Not the vicious heat of youth,</l>
+            <l xml:id="A01777-e111860">Commands me to affect, I love her virtue,</l>
+            <l xml:id="A01777-e111870">And have in that as noble, rich a dowry,</l>
+            <l xml:id="A01777-e111880">As the addition of estate and blood,</l>
+            <l xml:id="A01777-e111890">Which you have acquired in your late happy match</l>
+            <l xml:id="A01777-e111900">With young Emilia. </l>
+          </sp>
+          <sp xml:id="A01777-e111910" who="A01777-frederick">
+            <speaker>Fred.</speaker>
+            <l xml:id="A01777-e111920">Dare you, boy, name her,</l>
+            <l xml:id="A01777-e111930">And my Emilia as parallels. </l>
+          </sp>
+          <sp xml:id="A01777-e111940" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <l xml:id="A01777-e111950">Why, good brother,</l>
+            <l xml:id="A01777-e111960">Though she transcends her in her birth and fortunes,</l>
+            <l xml:id="A01777-e111970">Yet in the rare endowments of her mind,</l>
+            <l xml:id="A01777-e111980">She is her equal, virtue has a soul as precious</l>
+            <gap extent="2" unit="pages" xml:id="A01777-e111990" n="18-b-3120"/>
+            <l xml:id="A01777-e112000"><pb facs="19"/> look on my face, and read my business there. </l>
+          </sp>
+          <sp xml:id="A01777-e112010" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <l xml:id="A01777-e112020">Alas my lord, your looks</l>
+            <l xml:id="A01777-e112030">Are discomposed with rage, your fiery eyes</l>
+            <l xml:id="A01777-e112040">Roll with the accustomed motion, they had wont</l>
+            <l xml:id="A01777-e112050">To dart upon your enemies, I am</l>
+            <l xml:id="A01777-e112060">Assured my innocence can no way merit</l>
+            <l xml:id="A01777-e112070">Your all-consuming anger. </l>
+          </sp>
+          <sp xml:id="A01777-e112080" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e112090">'Tis a lie,</l>
+            <l xml:id="A01777-e112100">A worthless lie, false as thy flattering hopes are,</l>
+            <l xml:id="A01777-e112110">You are in love, most gallantly in love</l>
+            <l xml:id="A01777-e112120">With Isabella, one who is composed</l>
+            <l xml:id="A01777-e112130">Of paint and plasters: thou degenerate monster,</l>
+            <l xml:id="A01777-e112140">Traitor to fame, and parricide to honour,</l>
+            <l xml:id="A01777-e112150">Abject in thy condition, as thy thoughts are;</l>
+            <l xml:id="A01777-e112160">Tear this vild strumpet from thy soul, do't quickly,</l>
+            <l xml:id="A01777-e112170">Renounce her with all binding ties can urge thee</l>
+            <l xml:id="A01777-e112180">To keep thy faith, or I will quite put off</l>
+            <l xml:id="A01777-e112190">The name of father, take as little notice</l>
+            <l xml:id="A01777-e112200">Thou art my offspring, as the surly North,</l>
+            <l xml:id="A01777-e112210">Does of the snow, which when it has engendered,</l>
+            <l xml:id="A01777-e112220">It's wild breath scatters through the earth forgotten. </l>
+          </sp>
+          <sp xml:id="A01777-e112230" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <l xml:id="A01777-e112240">This was the killing fever I still feared;</l>
+            <l xml:id="A01777-e112250">Sir I should be a stranger to your blood,</l>
+            <l xml:id="A01777-e112260">As well as noble worth, should I commit</l>
+            <l xml:id="A01777-e112270">Actions I shamed to justify: I confess</l>
+            <l xml:id="A01777-e112280">I love fair Isabella, and beseech you,</l>
+            <l xml:id="A01777-e112290">The meanness of her fortune and her birth</l>
+            <l xml:id="A01777-e112300">Omitted. she may be conferred upon me</l>
+            <l xml:id="A01777-e112310">In lawful marriage. </l>
+          </sp>
+          <sp xml:id="A01777-e112320" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e112330">Dare you boy,</l>
+            <l xml:id="A01777-e112340">Speak this to me. </l>
+          </sp>
+          <sp xml:id="A01777-e112350" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <l xml:id="A01777-e112360">I should sir be degenerate</l>
+            <l xml:id="A01777-e112370">From your great spirit, should I fear to utter</l>
+            <l xml:id="A01777-e112380">What I do wish effected, were you a god,</l>
+            <l xml:id="A01777-e112390">As being my father, you're but a degree</l>
+            <l xml:id="A01777-e112400">To me beneath one, in a cause so righteous,</l>
+            <l xml:id="A01777-e112410"><pb facs="19"/> I should not only boldly crave your licence,</l>
+            <l xml:id="A01777-e112420">But hope to have it granted. </l>
+          </sp>
+          <sp xml:id="A01777-e112430" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e112440">Hell and furies,</l>
+            <l xml:id="A01777-e112450">Durst any mortal fool, but my own issue,</l>
+            <l xml:id="A01777-e112460">Venture to brave my fury thus; resolve</l>
+            <l xml:id="A01777-e112470">Villain in full to satisfy my purpose,</l>
+            <l xml:id="A01777-e112480">Do it without regret, renounce this strumpet</l>
+            <l xml:id="A01777-e112490">Even from thy soul, abandon her remembrance. </l>
+            <l xml:id="A01777-e112500">Or by my own unwearied valour, better,</l>
+            <l xml:id="A01777-e112510">And with more safety thou mayst hug a wave,</l>
+            <l xml:id="A01777-e112520">When its white lips kiss heaven: young sir your honour</l>
+            <l xml:id="A01777-e112530">Is not your own, for it you're but my factor,</l>
+            <l xml:id="A01777-e112540">And must give me account, a strict account</l>
+            <l xml:id="A01777-e112550">Of the errors you run in: to the dust</l>
+            <l xml:id="A01777-e112560">Of my great ancestors, stand I accountant</l>
+            <l xml:id="A01777-e112570">For all my family, and their blessed ashes</l>
+            <l xml:id="A01777-e112580">Would break their marble lodgings, and come forth</l>
+            <l xml:id="A01777-e112590">To quarrel with me, should I permit this bar</l>
+            <l xml:id="A01777-e112600">To stain their glorious heraldry. </l>
+          </sp>
+          <sp xml:id="A01777-e112610" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <l xml:id="A01777-e112620">Great sir,</l>
+            <l xml:id="A01777-e112630">Can virtue be a blemish, or true worth</l>
+            <l xml:id="A01777-e112640">Disgrace nobility; 'twas that at first,</l>
+            <l xml:id="A01777-e112650">When nature made all equal, did distinguish</l>
+            <l xml:id="A01777-e112660">Betwixt man and man, and gave a just precedence</l>
+            <l xml:id="A01777-e112670">To the most worthy: honour is virtue's offspring,</l>
+            <l xml:id="A01777-e112680">Since then the angel, my affection's fixed on,</l>
+            <l xml:id="A01777-e112690">Is fair and virtuous, all the good that ever</l>
+            <l xml:id="A01777-e112700">Durst with frail flesh commix, or earth be proud of:</l>
+            <l xml:id="A01777-e112710">How to our family's honour can she bring</l>
+            <l xml:id="A01777-e112720">A diminution? Can sir the chaste ice,</l>
+            <l xml:id="A01777-e112730">Kissed by the sun, into its native substance,</l>
+            <l xml:id="A01777-e112740">Pollute a crystal river, surely rather</l>
+            <l xml:id="A01777-e112750">It adds fresh moisture to its stream. My lord,</l>
+            <l xml:id="A01777-e112760">I am your son, and have been still obedient</l>
+            <l xml:id="A01777-e112770">To your commands; oh by your love, your virtue,</l>
+            <l xml:id="A01777-e112780">Your never daunted virtue, I beseech you,</l>
+            <l xml:id="A01777-e112790"><pb facs="20"/> grant me this one request, were't for my life,</l>
+            <l xml:id="A01777-e112800">I should not be so abject, as to spend</l>
+            <l xml:id="A01777-e112810">This breath for its redemption. </l>
+          </sp>
+          <sp xml:id="A01777-e112820" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e112830">Well, thy prate</l>
+            <l xml:id="A01777-e112840">Has overcome me, I am pitiful,</l>
+            <l xml:id="A01777-e112850">Beyond my nature pitiful to thee,</l>
+            <l xml:id="A01777-e112860">Thou shalt enjoy thy wishes. </l>
+          </sp>
+          <sp xml:id="A01777-e112870" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <l xml:id="A01777-e112880">All the blessings,</l>
+            <l xml:id="A01777-e112890">Prayers can obtain from heaven, shower down upon you</l>
+            <l xml:id="A01777-e112900">For your superlative mercy. </l>
+          </sp>
+          <sp xml:id="A01777-e112910" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e112920">Stay and mark me,</l>
+            <l xml:id="A01777-e112930">'Tshall be with this condition, that as soon</l>
+            <l xml:id="A01777-e112940">As thou art wed, and hast enjoyed thy wishes,</l>
+            <l xml:id="A01777-e112950">Ere the next sun rise on you,</l>
+            <l xml:id="A01777-e112960">You resolve without remorse,</l>
+            <l xml:id="A01777-e112970">To kill your Isabella. </l>
+          </sp>
+          <sp xml:id="A01777-e112980" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <p xml:id="A01777-e112990">Heavens protect me!</p>
+          </sp>
+          <sp xml:id="A01777-e113000" who="A01777-wallenstein">
+            <speaker>Wall.</speaker>
+            <l xml:id="A01777-e113010">Nay thou shalt swear it too: alas gentle boy,</l>
+            <l xml:id="A01777-e113020">I know thy nature is too full of fire,</l>
+            <l xml:id="A01777-e113030">To mix with sordid earth, and though thy last,</l>
+            <l xml:id="A01777-e113040">(Which is but manhood in thee) prompt thee on,</l>
+            <l xml:id="A01777-e113050">To taste the sweets of Isabella's beauty,</l>
+            <l xml:id="A01777-e113060">I know thou scornest so much to unmake thy gentry,</l>
+            <l xml:id="A01777-e113070">To take her for thy wife, perhaps she will not</l>
+            <l xml:id="A01777-e113080">Give up her honour, till the church has sealed</l>
+            <l xml:id="A01777-e113090">That grant as lawful; freely I allow</l>
+            <l xml:id="A01777-e113100">Her brave ambition, if as a reward</l>
+            <l xml:id="A01777-e113110">Due to her haughty pride, thy own hands kill her,</l>
+            <l xml:id="A01777-e113120">And so wipe out the infamy. </l>
+          </sp>
+          <sp xml:id="A01777-e113130" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <l xml:id="A01777-e113140">Strange cruelty! so tyrants used to grant offenders life,</l>
+            <l xml:id="A01777-e113150">After their condemnation: to reserve them</l>
+            <l xml:id="A01777-e113160">To combat wild beasts in the spacious cirque,</l>
+            <l xml:id="A01777-e113170">Or bloody amphitheatre: my lord. </l>
+          </sp>
+          <sp xml:id="A01777-e113180" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e113190">Pish I am deaf, inexorable as seas</l>
+            <l xml:id="A01777-e113200">Toth' prayers of mariners, when their sinking keel</l>
+            <l xml:id="A01777-e113210">Is drunk with billows. <stage xml:id="A01777-e113220">Ent. Dutch. Isabel and page.</stage></l>
+          </sp>
+          <sp xml:id="A01777-e113230" who="A01777-duchess">
+            <pb facs="20"/>
+            <speaker>Duchess</speaker>
+            <l xml:id="A01777-e113240">O my lord,</l>
+            <l xml:id="A01777-e113250">Your justice on this cursed witch, this thief,</l>
+            <l xml:id="A01777-e113260">This morning I have lost out of my cabinet</l>
+            <l xml:id="A01777-e113270">The so much valued jewel, which your bounty</l>
+            <l xml:id="A01777-e113280">Bestowed upon me, none but she and I</l>
+            <l xml:id="A01777-e113290">Having been there since; she must be thief:</l>
+            <l xml:id="A01777-e113300">Force her to restitution. </l>
+          </sp>
+          <sp xml:id="A01777-e113310" who="A01777-wallenstein">
+            <speaker>Wall.</speaker>
+            <l xml:id="A01777-e113320">'Twas a gem, my mother gave me, which I did preserve</l>
+            <l xml:id="A01777-e113330">With as much care, as votaries do the relics</l>
+            <l xml:id="A01777-e113340">Of their protecting saints: I gave it you,</l>
+            <l xml:id="A01777-e113350">When in the eager fervour of my youth,</l>
+            <l xml:id="A01777-e113360">I destined you my wife: come hither minion,</l>
+            <l xml:id="A01777-e113370">You who can steal the jewels of men's hearts,</l>
+            <l xml:id="A01777-e113380">With your enchanting sorceries, will not fear</l>
+            <l xml:id="A01777-e113390">To make a venture upon pettier theft:</l>
+            <l xml:id="A01777-e113400">Sirrah go bid them wait me here. </l>
+          </sp>
+          <sp xml:id="A01777-e113410" who="A01777-isabella">
+            <speaker>Isab.</speaker>
+            <l xml:id="A01777-e113420">My lord,</l>
+            <l xml:id="A01777-e113430">I'm so secure in my own innocence,</l>
+            <l xml:id="A01777-e113440">That should your fury riot on my life,</l>
+            <l xml:id="A01777-e113450">'Twould not affright me, I should meet my death,</l>
+            <l xml:id="A01777-e113460">As willingly as I should do my rest,</l>
+            <l xml:id="A01777-e113470">After a tedious watching, there's no armour</l>
+            <l xml:id="A01777-e113480">Like that of innocence, with which I'm guarded,</l>
+            <l xml:id="A01777-e113490">And therefore laugh at punishment. </l>
+          </sp>
+          <sp xml:id="A01777-e113500" who="A01777-wallenstein">
+            <speaker>Wal</speaker>
+            <l xml:id="A01777-e113510">So brave I shall soon quell your insolence; lay hands<stage xml:id="A01777-e113520">Ent. a guard</stage></l>
+            <l xml:id="A01777-e113530">On this ignoble strumpet, hang her up, here in my presence. </l>
+          </sp>
+          <sp xml:id="A01777-e113540" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <p xml:id="A01777-e113550">Stay sir, I do beseech you hear me.</p>
+          </sp>
+          <sp xml:id="A01777-e113560" who="A01777-wallenstein">
+            <speaker>Wal.</speaker>
+            <l xml:id="A01777-e113570">Your entreaties are cast on me, as fools throw oil on fire,</l>
+            <l xml:id="A01777-e113580">Striving to extinguish it: hang her up,</l>
+            <l xml:id="A01777-e113590">I'll hang you all else. </l>
+          </sp>
+          <sp xml:id="A01777-e113600" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <l xml:id="A01777-e113610">Then sir I will speak,</l>
+            <l xml:id="A01777-e113620">Since you forget to be a father to me,</l>
+            <l xml:id="A01777-e113630">I will put off my duty; I'm resolved,</l>
+            <l xml:id="A01777-e113640">Since 'tis impossible that we should live,</l>
+            <l xml:id="A01777-e113650">To die together: nor do not slave presume,</l>
+            <l xml:id="A01777-e113660">To touch this mine of purity, 'tis a treasure</l>
+            <l xml:id="A01777-e113670"><pb facs="21"/> while I'm alive hell cannot ravish from me,</l>
+            <l xml:id="A01777-e113680">(For fiends would fear to touch it) if you murder</l>
+            <l xml:id="A01777-e113690">This spotless innocent virgin, you are such,</l>
+            <l xml:id="A01777-e113700">So merciless a tyrant, as do love</l>
+            <l xml:id="A01777-e113710">To feed on your own bowels, one whom nature</l>
+            <l xml:id="A01777-e113720">Created for a curse, and to get curses,</l>
+            <l xml:id="A01777-e113730">Such prodigies as I am, one whom all lovers</l>
+            <l xml:id="A01777-e113740">Shall tremble at, if mentioned; one. </l>
+          </sp>
+          <sp xml:id="A01777-e113750" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e113760">Death have I lost my command, is he or I</l>
+            <l xml:id="A01777-e113770">To be obeyed? hang her, if he resist,</l>
+            <l xml:id="A01777-e113780">Kill the unnatural traitor. </l>
+          </sp>
+          <sp xml:id="A01777-e113790" who="A01777-isabella">
+            <speaker>Isab.</speaker>
+            <l xml:id="A01777-e113800">Dear Albertus, draw not a ruin on thy pricelesses life,</l>
+            <l xml:id="A01777-e113810">For my despised sake I will go to death,</l>
+            <l xml:id="A01777-e113820">All peace as does an anchorite, that's assured of all his sin's forgiveness. </l>
+          </sp>
+          <sp xml:id="A01777-e113830" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <l xml:id="A01777-e113840">Saucy devil, carry that touch of her to hell, 'twill serve</l>
+            <l xml:id="A01777-e113850">To mitigate thy tortures. <stage xml:id="A01777-e113860">Is run through. Kills one of the guard.</stage></l>
+          </sp>
+          <sp xml:id="A01777-e113870" who="A01777-duchess">
+            <speaker>Duchess</speaker>
+            <l xml:id="A01777-e113880">O my lord, what has your fury acted,</l>
+            <l xml:id="A01777-e113890">Dear Albertus. </l>
+          </sp>
+          <sp xml:id="A01777-e113900" who="A01777-albertus">
+            <speaker>Alb.</speaker>
+            <l xml:id="A01777-e113910">'Twas a most friendly hand, and I could kiss it,</l>
+            <l xml:id="A01777-e113920">For the most welcome benefit; Isabella,</l>
+            <l xml:id="A01777-e113930">In death thou givest me life, thy innocence,</l>
+            <l xml:id="A01777-e113940">Will like my guardian angel, safely convey me</l>
+            <l xml:id="A01777-e113950">To yonder heavenly mansion: pray forgive me,</l>
+            <l xml:id="A01777-e113960">Dear sir, if in my overhasty zeal</l>
+            <l xml:id="A01777-e113970">In this poor innocents quarrel, my wild fury,</l>
+            <l xml:id="A01777-e113980">Transgressed my natural duty, and as the last</l>
+            <l xml:id="A01777-e113990">Request your dying son can ask, take pity</l>
+            <l xml:id="A01777-e114000">On this most innocent maid: thy hand, my fair one,</l>
+            <l xml:id="A01777-e114010">And now as willingly I do expire,</l>
+            <l xml:id="A01777-e114020">As a blessed martyr, who does court the fire. O Isabella dies. </l>
+          </sp>
+          <sp xml:id="A01777-e114030" who="A01777-duchess">
+            <speaker>Duchess</speaker>
+            <p xml:id="A01777-e114040">O my dear Albert. </p>
+          </sp>
+          <sp xml:id="A01777-e114050" who="A01777-wallenstein">
+            <speaker>Wall.</speaker>
+            <l xml:id="A01777-e114060">Death slave, dare you play with a flame</l>
+            <l xml:id="A01777-e114070">That shall consume you. </l>
+            <l xml:id="A01777-e114080">Hang her up, or torments shall pay your breach of duty. </l>
+          </sp>
+          <sp xml:id="A01777-e114090" who="A01777-isabella">
+            <speaker>Isab.</speaker>
+            <l xml:id="A01777-e114100">There friend, there's all the jewels I am mistress of,</l>
+            <l xml:id="A01777-e114110"><pb facs="21"/> and that thou merits, prithee be as speedy</l>
+            <l xml:id="A01777-e114120">In thy dispatch, as fate itself; there is</l>
+            <l xml:id="A01777-e114130">A pure white ghost in you same azure cloud,</l>
+            <l xml:id="A01777-e114140">Expects me straight, I come my dear Albertus. <stage xml:id="A01777-e114150">Is hanged.</stage></l>
+          </sp>
+          <sp xml:id="A01777-e114160" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e114170">Take hence their bodies, 'twas a hopeful boy,</l>
+            <l xml:id="A01777-e114180">And one I loved well, till his wild love</l>
+            <l xml:id="A01777-e114190">Made him forget his duty; and 'tis better</l>
+            <l xml:id="A01777-e114200">He died with fame, his sword in's hand, then that</l>
+            <l xml:id="A01777-e114210">He'd lived with foul dishonour: would he were</l>
+            <l xml:id="A01777-e114220">Alive again, I do begin to feel strange horrors here, and that</l>
+            <l xml:id="A01777-e114230">Big guest, my soul, is shaken as with a nipping frost, hence idle</l>
+            <l xml:id="A01777-e114240">Grief, I must be furnished with more spritely passions, thou art too</l>
+            <l xml:id="A01777-e114250">Heavy, fit for the society of none but pensive women. All must die,</l>
+            <l xml:id="A01777-e114260">Why should not he then, 'twas his destiny. <stage xml:id="A01777-e114270">Exeunt.</stage></l>
+          </sp>
+        </div>
+        <div n="2" type="scene" xml:id="A01777-e114280">
+          <head>Scaena secunda: Gordon, Lesle, Butler.</head>
+          <sp xml:id="A01777-e114290" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <p xml:id="A01777-e114300">Are all your horse in readiness.</p>
+          </sp>
+          <sp xml:id="A01777-e114310" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <l xml:id="A01777-e114320">Yes, 'tis time,</l>
+            <l xml:id="A01777-e114330">That we were mounted, 'tis four leagues at least</l>
+            <l xml:id="A01777-e114340">Unto the general's camp, and 'twill be late</l>
+            <l xml:id="A01777-e114350">Ere we arrive there, are you yet resolved</l>
+            <l xml:id="A01777-e114360">Upon the means, by which to put in practice</l>
+            <l xml:id="A01777-e114370">Our long intended purpose, our delay</l>
+            <l xml:id="A01777-e114380">Will make the emperor apt to call in question</l>
+            <l xml:id="A01777-e114390">Our faith's integrity,</l>
+          </sp>
+          <sp xml:id="A01777-e114400" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e114410">So great a business,</l>
+            <l xml:id="A01777-e114420">Is not with easy speed to be performed:</l>
+            <l xml:id="A01777-e114430">An eager haste oft-times o'erthrows the fortunes</l>
+            <l xml:id="A01777-e114440">Of such affairs, if we once get him hither,</l>
+            <l xml:id="A01777-e114450">Within our city walls, be confident,</l>
+            <l xml:id="A01777-e114460">He's in his grave; but have you given command,</l>
+            <l xml:id="A01777-e114470">That all your soldiers be in readiness,</l>
+            <l xml:id="A01777-e114480">To wait the general's entry. </l>
+          </sp>
+          <sp xml:id="A01777-e114490" who="A01777-butler">
+            <speaker>Butler.</speaker>
+            <l xml:id="A01777-e114500">They shall be</l>
+            <l xml:id="A01777-e114510">In their best furniture of arms, all drawn</l>
+            <l xml:id="A01777-e114520"><pb facs="22"/> into parada, he shall have all pomp,</l>
+            <l xml:id="A01777-e114530">And ornament of war, to bid him welcome. </l>
+          </sp>
+          <sp xml:id="A01777-e114540" who="A01777-lesle">
+            <speaker>Lesle</speaker>
+            <l xml:id="A01777-e114550">These triumphs</l>
+            <l xml:id="A01777-e114560">Shall be but funeral pomps before his death;</l>
+            <l xml:id="A01777-e114570">Gordon, you must, as governor of Egers,</l>
+            <l xml:id="A01777-e114580">Present the keys with all humility</l>
+            <l xml:id="A01777-e114590">To his dispose, 'twill make him be more careless,</l>
+            <l xml:id="A01777-e114600">And trust his very soul into our hands. </l>
+          </sp>
+          <sp xml:id="A01777-e114610" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <l xml:id="A01777-e114620">Doubt not me,</l>
+            <l xml:id="A01777-e114630">I shall perform with cunning skill, whate'er </l>
+            <l xml:id="A01777-e114640">Belongs to me; but do you intend the general</l>
+            <l xml:id="A01777-e114650">Alone shall fall, or his confederates</l>
+            <l xml:id="A01777-e114660">Shall perish with him,</l>
+          </sp>
+          <sp xml:id="A01777-e114670" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e114680">O by all means, Indian princes</l>
+            <l xml:id="A01777-e114690">Do carry slaves to wait on them into</l>
+            <l xml:id="A01777-e114700">The other world, and 'twere inglorious,</l>
+            <l xml:id="A01777-e114710">That our brave general should not have that privilege</l>
+            <l xml:id="A01777-e114720">Count Tertzki, Kintzki, Newman, marshal Illawe,</l>
+            <l xml:id="A01777-e114730">Shall be his harbingers, and i'th' shades below,</l>
+            <l xml:id="A01777-e114740">Provide fit entertainment for his ghost. </l>
+          </sp>
+          <sp xml:id="A01777-e114750" who="A01777-butler">
+            <speaker>Butl.</speaker>
+            <l xml:id="A01777-e114760">They are of power, their deaths will shrewdly weaken,</l>
+            <l xml:id="A01777-e114770">The strength of the conspiracy. </l>
+          </sp>
+          <sp xml:id="A01777-e114780" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e114790">Very true, I'll craftily instill into his ears,</l>
+            <l xml:id="A01777-e114800">New causes of distrust, so to beget</l>
+            <l xml:id="A01777-e114810">In him more confidence of my faith, so to</l>
+            <l xml:id="A01777-e114820">Allure him hither sooner, we must work</l>
+            <l xml:id="A01777-e114830">Surely, as does the mole, who digs</l>
+            <l xml:id="A01777-e114840">Her habitation in the earth, and scorns! </l>
+            <l xml:id="A01777-e114850">All the assaults of tempests; when he's in,</l>
+            <l xml:id="A01777-e114860">We must be prompt in action, sure of hand,</l>
+            <l xml:id="A01777-e114870">And sound of heart, and strike him with that violence,</l>
+            <l xml:id="A01777-e114880">From the supposed heavens,</l>
+            <l xml:id="A01777-e114890">His ambition climbs to, that the thin air</l>
+            <l xml:id="A01777-e114900">Does from its purer regions</l>
+            <l xml:id="A01777-e114910">Dull earthly meteors; come let's away,</l>
+            <l xml:id="A01777-e114920">Naught crosses actions like a dull delay. <stage xml:id="A01777-e114930">Exeunt.</stage></l>
+          </sp>
+        </div>
+        <div n="3" type="scene" xml:id="A01777-e114940">
+          <pb facs="22"/>
+          <head>Scaena tertia: Wallenstein solus.</head>
+          <sp xml:id="A01777-e114950" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e114960">To be diseased in mind, diseased passed cure</l>
+            <l xml:id="A01777-e114970">Of physic or sage counsel, is a madness,</l>
+            <l xml:id="A01777-e114980">The active soldiers, all whose ends are glory,</l>
+            <l xml:id="A01777-e114990">And that by virtue (Cowards term a sin)</l>
+            <l xml:id="A01777-e115000">Ambition, should not be acquainted with. </l>
+            <l xml:id="A01777-e115010">Although my cares do hang upon my soul,</l>
+            <l xml:id="A01777-e115020">Like mines of lead, the greatness of my spirit,</l>
+            <l xml:id="A01777-e115030">Shall shake the sullen weight off; natural rest,</l>
+            <l xml:id="A01777-e115040">(Is like a wholesome bath to limbs oppressed</l>
+            <l xml:id="A01777-e115050">With gouts and aches) to a troubled mind,</l>
+            <l xml:id="A01777-e115060">A most excelling medicine, and I feel</l>
+            <l xml:id="A01777-e115070">A strong propension in my brain, to court</l>
+            <l xml:id="A01777-e115080">Sleep for its mild physician: within there; boy. <stage xml:id="A01777-e115090">Ent a page.</stage></l>
+            <l xml:id="A01777-e115100">Sirrah be sure that none disturb my rest,</l>
+            <l xml:id="A01777-e115110">On no occasion, on your life I charge you. </l>
+          </sp>
+          <sp xml:id="A01777-e115120" who="A01777-page">
+            <speaker>Page.</speaker>
+            <p xml:id="A01777-e115130">Shall I sing sir.</p>
+          </sp>
+          <sp xml:id="A01777-e115140" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e115150">Yes, if the notes be heavy, apt to invite</l>
+            <l xml:id="A01777-e115160">The weary soul to slumbers. <stage xml:id="A01777-e115170">Song.</stage></l>
+          </sp>
+          <sp xml:id="A01777-e115180" who="A01777-page">
+            <speaker>Page.</speaker>
+            <p xml:id="A01777-e115190">Who's there? you must not enter.</p>
+          </sp>
+          <sp xml:id="A01777-e115200" who="A01777-duchess">
+            <speaker>Duchess</speaker>
+            <l xml:id="A01777-e115210">Must not sirrah,<stage xml:id="A01777-e115220">Ent. Dutch.</stage></l>
+            <l xml:id="A01777-e115230">Where is your lord? </l>
+          </sp>
+          <sp xml:id="A01777-e115240" who="A01777-page">
+            <speaker>Page.</speaker>
+            <l xml:id="A01777-e115250">Your pardon, gracious madam, he's laid down</l>
+            <l xml:id="A01777-e115260">To rest, and has upon my life commanded</l>
+            <l xml:id="A01777-e115270">Me, none should wake him. </l>
+          </sp>
+          <sp xml:id="A01777-e115280" who="A01777-duchess">
+            <speaker>Duchess</speaker>
+            <l xml:id="A01777-e115290">Thinkst thou he is</l>
+            <l xml:id="A01777-e115300">So much addicted to his ease, he will</l>
+            <l xml:id="A01777-e115310">Neglect his business, go in and tell him,</l>
+            <l xml:id="A01777-e115320">The governors of egers, colonel Gordon,</l>
+            <l xml:id="A01777-e115330">And colonel Lesle are without upon</l>
+            <l xml:id="A01777-e115340">Affairs of consequence. </l>
+          </sp>
+          <sp xml:id="A01777-e115350" who="A01777-page">
+            <speaker>Page.</speaker>
+            <l xml:id="A01777-e115360">Would your grace</l>
+            <l xml:id="A01777-e115370">Would pardon me, yourself with greater safety</l>
+            <l xml:id="A01777-e115380">Might do it, madam. </l>
+          </sp>
+          <sp xml:id="A01777-e115390" who="A01777-duchess">
+            <speaker>Duchess</speaker>
+            <p xml:id="A01777-e115400">Foolish boy, go in, I will be thy security.</p>
+          </sp>
+          <sp xml:id="A01777-e115410" who="A01777-page">
+            <speaker>Page.</speaker>
+            <l xml:id="A01777-e115420">I shall perform,</l>
+            <l xml:id="A01777-e115430"><pb facs="23"/> though most unwillingly your command; my lord,</l>
+            <l xml:id="A01777-e115440">Please you to rise, your Duchess. </l>
+          </sp>
+          <sp xml:id="A01777-e115450" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e115460">Ha, where's my sword,</l>
+            <l xml:id="A01777-e115470">Thou art a coward ghost, and not my sons,</l>
+            <l xml:id="A01777-e115480">To take me in my sleep unarmed, my poniard</l>
+            <l xml:id="A01777-e115490">Will still be faithful to me, if thou beest not</l>
+            <l xml:id="A01777-e115500">Thin air, its point will graze on thee. <stage xml:id="A01777-e115510">Stabs the page.</stage></l>
+          </sp>
+          <sp xml:id="A01777-e115520" who="A01777-duchess">
+            <speaker>Duchess</speaker>
+            <l xml:id="A01777-e115530">O my lord,</l>
+            <l xml:id="A01777-e115540">What has your fury acted? this your sudden</l>
+            <l xml:id="A01777-e115550">Murdering this innocent youth, doth add new horrors</l>
+            <l xml:id="A01777-e115560">To your strange cruelties. </l>
+          </sp>
+          <sp xml:id="A01777-e115570" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e115580">Ha, my page! his death</l>
+            <l xml:id="A01777-e115590">Was but due justice for his breach of duty,</l>
+            <l xml:id="A01777-e115600">For thus disturbing of my rest. </l>
+          </sp>
+          <sp xml:id="A01777-e115610" who="A01777-duchess">
+            <speaker>Duchess</speaker>
+            <l xml:id="A01777-e115620">My lord,</l>
+            <l xml:id="A01777-e115630">Your hands are purpled so in innocent blood,</l>
+            <l xml:id="A01777-e115640">Tears cannot wash the tincture of: myself</l>
+            <l xml:id="A01777-e115650">Am as deep guilty as you in the slaughter</l>
+            <l xml:id="A01777-e115660">Of Isabella, she was innocent,</l>
+            <l xml:id="A01777-e115670">The jewel I accused her of, this morning,</l>
+            <l xml:id="A01777-e115680">Grief to my soul, I've found, pray heaven, repentance</l>
+            <l xml:id="A01777-e115690">May expiate our offences. </l>
+          </sp>
+          <sp xml:id="A01777-e115700" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e115710">I begin</l>
+            <l xml:id="A01777-e115720">To feel strange horrors here, my marble soul,</l>
+            <l xml:id="A01777-e115730">Does strive to sweat itself into a tear,</l>
+            <l xml:id="A01777-e115740">At thought of these sad accidents. Noble friends,</l>
+            <stage xml:id="A01777-e115750">Ent. gord. Butl. Less, Newm. tert. Kint.</stage>
+            <l xml:id="A01777-e115760">You're opportunely welcome, I was oppressed</l>
+            <l xml:id="A01777-e115770">With sudden melancholy, but your loved presence</l>
+            <l xml:id="A01777-e115780">Expels all thought of it, and I'm grown</l>
+            <l xml:id="A01777-e115790">As full of sprightly mirth, as when my hopes</l>
+            <l xml:id="A01777-e115800">Aim at a glorious victory. </l>
+          </sp>
+          <sp xml:id="A01777-e115810" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <l xml:id="A01777-e115820">Mighty Duke,</l>
+            <l xml:id="A01777-e115830">According to my duty, I am come</l>
+            <l xml:id="A01777-e115840">Here to present you with the keys of egers,</l>
+            <l xml:id="A01777-e115850">My place of government, and with them my life,</l>
+            <l xml:id="A01777-e115860"><pb facs="23"/> to do you service. </l>
+          </sp>
+          <sp xml:id="A01777-e115870" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e115880">Noble Gordon,</l>
+            <l xml:id="A01777-e115890">You do so much endear me by your love,</l>
+            <l xml:id="A01777-e115900">I have no possibility to requite</l>
+            <l xml:id="A01777-e115910">Your overflow of courtesies, have you not</l>
+            <l xml:id="A01777-e115920">Received new intelligence of business,</l>
+            <l xml:id="A01777-e115930">Which does concern me. </l>
+          </sp>
+          <sp xml:id="A01777-e115940" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e115950">New temptations sir</l>
+            <l xml:id="A01777-e115960">Against your precious life, 'tis to be feared,</l>
+            <l xml:id="A01777-e115970">Lest seeing we do slack so in performance</l>
+            <l xml:id="A01777-e115980">Of what we've promised, he'll employ new agents</l>
+            <l xml:id="A01777-e115990">To attempt your ruin, and should treason,</l>
+            <l xml:id="A01777-e116000">As 'tis a subtle serpent, stings unseen sir,</l>
+            <l xml:id="A01777-e116010">Invade your life: to what a dire misfortune</l>
+            <l xml:id="A01777-e116020">Were we, whose lives have upon your dependence,</l>
+            <l xml:id="A01777-e116030">Betrayed, and therefore good my lord beware,</l>
+            <l xml:id="A01777-e116040">Lest your own courage, which contemns all dangers,</l>
+            <l xml:id="A01777-e116050">Do undo you. </l>
+          </sp>
+          <sp xml:id="A01777-e116060" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e116070">Never fear; how far</l>
+            <l xml:id="A01777-e116080">Is't hence to Egers. </l>
+          </sp>
+          <sp xml:id="A01777-e116090" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <p xml:id="A01777-e116100">Some three hours easy march.</p>
+          </sp>
+          <sp xml:id="A01777-e116110" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e116120">Set forward thither;</l>
+            <l xml:id="A01777-e116130">It were in vain my enemy's swords to fear,</l>
+            <l xml:id="A01777-e116140">When I do carry sharper poniards here. <stage xml:id="A01777-e116150">Exeunt.</stage></l>
+          </sp>
+        </div>
+        <trailer xml:id="A01777-e116160">Explicit actus quartus.</trailer>
+      </div>
+      <div n="5" type="act" xml:id="A01777-e116170">
+        <pb facs="24"/>
+        <head>Actus quintus:</head>
+        <div type="scene" xml:id="A01777-e116180">
+          <head>Scaena prima.</head>
+          <stage xml:id="A01777-e116190">Emperor, Hungary, Questenberg.</stage>
+          <sp xml:id="A01777-e116200" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <l xml:id="A01777-e116210">Vexed with so many cares, so many mischiefs,</l>
+            <l xml:id="A01777-e116220">That do like Hidra's dreadful heads increase,</l>
+            <l xml:id="A01777-e116230">By cutting off, as billows follow billows,</l>
+            <l xml:id="A01777-e116240">Succeed each other with that eager violence,</l>
+            <l xml:id="A01777-e116250">Our weary eagles know not where to perch,</l>
+            <l xml:id="A01777-e116260">But flag their sickly wings: were't not irreligious,</l>
+            <l xml:id="A01777-e116270">I should capitulate with the powers divine,</l>
+            <l xml:id="A01777-e116280">And tax them of injustice; my whole reign</l>
+            <l xml:id="A01777-e116290">Has been a long and one continued trouble;</l>
+            <l xml:id="A01777-e116300">And if blessed peace with her fair beams did e'er</l>
+            <l xml:id="A01777-e116310">Shine on our empire, 'twas but like a fair</l>
+            <l xml:id="A01777-e116320">Deceitful wind, courting the ships out of the harbour,</l>
+            <l xml:id="A01777-e116330">Into the main to drown them: but the mother</l>
+            <l xml:id="A01777-e116340">Of a more horrid warfare, that I fear as</l>
+            <l xml:id="A01777-e116350">I found the wreath imperial drowned in blood,</l>
+            <l xml:id="A01777-e116360">So I in blood must leave it. </l>
+          </sp>
+          <sp xml:id="A01777-e116370" who="A01777-questenberg">
+            <speaker>Quest.</speaker>
+            <l xml:id="A01777-e116380">Have good hope sir,</l>
+            <l xml:id="A01777-e116390">Tides then approach their full height, when their ebb</l>
+            <l xml:id="A01777-e116400">Has been at lowest; the most hideous tempests,</l>
+            <l xml:id="A01777-e116410">Which seemed to threat the ruin of the world,</l>
+            <l xml:id="A01777-e116420">Bing ushered in by thunder and hot lightning,</l>
+            <l xml:id="A01777-e116430">Are soonest passed, there's nothing violent</l>
+            <l xml:id="A01777-e116440">Can boast of perpetuity; our fortunes</l>
+            <l xml:id="A01777-e116450">Are not so desperate, as our fears present them:</l>
+            <l xml:id="A01777-e116460">We've hands and hearts left yet, that dare oppose</l>
+            <l xml:id="A01777-e116470">The inhumane traitor, and our causes justice</l>
+            <l xml:id="A01777-e116480"><pb facs="24"/> assures us, if we cannot live victorious,</l>
+            <l xml:id="A01777-e116490">We shall die nobly. </l>
+          </sp>
+          <sp xml:id="A01777-e116500" who="A01777-hungary">
+            <speaker>Hung.</speaker>
+            <l xml:id="A01777-e116510">Man, my royal father</l>
+            <l xml:id="A01777-e116520">Is not himself, when he beholds</l>
+            <l xml:id="A01777-e116530">Events through the quick perspective of fear,</l>
+            <l xml:id="A01777-e116540">Which shows him dangers at remotest distance,</l>
+            <l xml:id="A01777-e116550">As clearest and his most perspicuous objects. </l>
+            <l xml:id="A01777-e116560">Suppose this traitor in his giant-reach</l>
+            <l xml:id="A01777-e116570">Fathom e'en heaven itself, yet there are bolts</l>
+            <l xml:id="A01777-e116580">To strike him into earth for his ambition,</l>
+            <l xml:id="A01777-e116590">And make his memory and name, all, save his treason,</l>
+            <l xml:id="A01777-e116600">For ever to be forgotten. </l>
+          </sp>
+          <sp xml:id="A01777-e116610" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <l xml:id="A01777-e116620">That which most</l>
+            <l xml:id="A01777-e116630">Does drive my tortured soul into affrights,</l>
+            <l xml:id="A01777-e116640">Is, that I see we're false among ourselves:</l>
+            <l xml:id="A01777-e116650">The faithless soldiers daily do in troops,</l>
+            <l xml:id="A01777-e116660">Fly from our ensigns to the traitor's camp:</l>
+            <l xml:id="A01777-e116670">What cause have we then but t'expect sad ruin? </l>
+            <l xml:id="A01777-e116680">When those who should be our security,</l>
+            <l xml:id="A01777-e116690">Do prove our greatest enemies; our guard,</l>
+            <l xml:id="A01777-e116700">Our fear and terror, they all look</l>
+            <l xml:id="A01777-e116710">On him, as superstitious Indians on the sun,</l>
+            <l xml:id="A01777-e116720">With adoration; on me, with contempt,</l>
+            <l xml:id="A01777-e116730">Or (But at best) with pity. </l>
+          </sp>
+          <sp xml:id="A01777-e116740" who="A01777-questenberg">
+            <speaker>Quest.</speaker>
+            <l xml:id="A01777-e116750">Mighty Caesar,</l>
+            <l xml:id="A01777-e116760">To doubt an ill before it fall upon us,</l>
+            <l xml:id="A01777-e116770">Amongst valiant and resolved souls ▪ is counted</l>
+            <l xml:id="A01777-e116780">A point of cowardice: great spirits ever</l>
+            <l xml:id="A01777-e116790">Should be above their fates; good sir retreat</l>
+            <l xml:id="A01777-e116800">Into that fortress of your mind,</l>
+            <l xml:id="A01777-e116810">Your resolution, call it up to guard,</l>
+            <l xml:id="A01777-e116820">Your soul from timorous thoughts:</l>
+            <l xml:id="A01777-e116830">Are you the man have swayed</l>
+            <l xml:id="A01777-e116840">The Roman empire four and twenty years,</l>
+            <l xml:id="A01777-e116850">With that success against your foreign foes,</l>
+            <l xml:id="A01777-e116860">Your very name more than your forces vanquished,</l>
+            <l xml:id="A01777-e116870"><pb facs="25"/> to let a traitor fright you: good my lord</l>
+            <l xml:id="A01777-e116880">Let's draw forth new battalias to the field,</l>
+            <l xml:id="A01777-e116890">Awake the drum and trumpet, summon up</l>
+            <l xml:id="A01777-e116900">The very last hopes of our weakened strength,</l>
+            <l xml:id="A01777-e116910">'Gainst this insulting traitor; very infants</l>
+            <l xml:id="A01777-e116920">Will on the sudden grow up able men,</l>
+            <l xml:id="A01777-e116930">And fight in this brave quarrel. </l>
+          </sp>
+          <sp xml:id="A01777-e116940" who="A01777-hungary">
+            <speaker>Hung.</speaker>
+            <l xml:id="A01777-e116950">Heaven itself</l>
+            <l xml:id="A01777-e116960">Will arm on our side, and with certain vengeance,</l>
+            <l xml:id="A01777-e116970">Pursue the inhumane monster: why? to die,</l>
+            <l xml:id="A01777-e116980">(As that's the worst can happen) in this cause,</l>
+            <l xml:id="A01777-e116990">Were a religious martyrdom: I am your son sir,</l>
+            <l xml:id="A01777-e117000">And what your fortunes are, good or disastrous,</l>
+            <l xml:id="A01777-e117010">Mine has on them dependence; by my hopes, I do</l>
+            <l xml:id="A01777-e117020">So little weigh the glorious traitor's pride,</l>
+            <l xml:id="A01777-e117030">I think him worthy scarce my meanest thought,</l>
+            <l xml:id="A01777-e117040">And rest assured, ere long, I shall behold</l>
+            <l xml:id="A01777-e117050">This fearful meteor, that would be a star,</l>
+            <l xml:id="A01777-e117060">And does affright us with his hideous blaze,</l>
+            <l xml:id="A01777-e117070">Like a vain comet drop his fading rays. </l>
+          </sp>
+          <sp xml:id="A01777-e117080" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <l xml:id="A01777-e117090">Your comforts</l>
+            <l xml:id="A01777-e117100">Come as in droughts the elemental dew</l>
+            <l xml:id="A01777-e117110">Does on the earth, it wets, but leaves no moisture,</l>
+            <l xml:id="A01777-e117120">To give the seared plants growth: but yesternight</l>
+            <l xml:id="A01777-e117130">We'd certain information, that our forces</l>
+            <l xml:id="A01777-e117140">Led by Matthias Gallas, were o'erthrown</l>
+            <l xml:id="A01777-e117150">By Saxon Weimar, and his son young Fredricke:</l>
+            <l xml:id="A01777-e117160">Who had they known as well how to pursue,</l>
+            <l xml:id="A01777-e117170">As gain a victory, and made a sudden</l>
+            <l xml:id="A01777-e117180">Onslaught upon Vienna, their's; not ours</l>
+            <l xml:id="A01777-e117190">Had been the wreath imperial. Now your news sir. </l>
+          </sp>
+          <stage xml:id="A01777-e117200">In't messenger.</stage>
+          <sp xml:id="A01777-e117210" who="A01777-messenger">
+            <speaker>Messenger</speaker>
+            <p xml:id="A01777-e117220">Letters from colonel Lesle fir, from egers. </p>
+          </sp>
+          <sp xml:id="A01777-e117230" who="A01777-emperor">
+            <speaker>Emperor</speaker>
+            <l xml:id="A01777-e117240">This is our latest hope; he writes me word,</l>
+            <l xml:id="A01777-e117250">That the archtraitor, and his prime confederates,</l>
+            <l xml:id="A01777-e117260">Last night arrived at Egers,, and assures me</l>
+            <l xml:id="A01777-e117270"><pb facs="25"/> of their immediate ruin: well colossus,</l>
+            <l xml:id="A01777-e117280">You'd best stand firm, unshaken as a rock,</l>
+            <l xml:id="A01777-e117290">Whose feet the fierce waves striving to trip up,</l>
+            <l xml:id="A01777-e117300">Do 'gainst its hard hooves dash themselves to pieces,</l>
+            <l xml:id="A01777-e117310">Or thou wilt fall unpitied, fall to be</l>
+            <l xml:id="A01777-e117320">The scorn of story, the contempt and byword</l>
+            <l xml:id="A01777-e117330">To all posterity; let's in my lords:</l>
+            <l xml:id="A01777-e117340">This law the heavens inviolably keep,</l>
+            <l xml:id="A01777-e117350">Their justice well may slumber, but never sleep. </l>
+            <stage xml:id="A01777-e117360">Exeunt.</stage>
+          </sp>
+        </div>
+        <div type="scene" xml:id="A01777-e117370">
+          <head>Scaena ultima: Wallenstein, Tertzki, Kintzki, Illawe, Newman, Lesle, Butler, Gordon.</head>
+          <sp xml:id="A01777-e117380" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e117390">The honour you have done us mighty Duke,</l>
+            <l xml:id="A01777-e117400">By this your gracious presence, gives a period</l>
+            <l xml:id="A01777-e117410">To our ambition; Egers is grown proud,</l>
+            <l xml:id="A01777-e117420">Dares with Vienna stand in competition,</l>
+            <l xml:id="A01777-e117430">Which is the capital city, which does hold</l>
+            <l xml:id="A01777-e117440">The true and lawful Caesar. </l>
+          </sp>
+          <sp xml:id="A01777-e117450" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <l xml:id="A01777-e117460">Ferdinand,</l>
+            <l xml:id="A01777-e117470">Had he arrived here in his greatest glory,</l>
+            <l xml:id="A01777-e117480">Could not have been more welcome; while I am</l>
+            <l xml:id="A01777-e117490">Governor of this town, it and my life</l>
+            <l xml:id="A01777-e117500">Are at your service. </l>
+          </sp>
+          <sp xml:id="A01777-e117510" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e117520">Noble gentlemen,</l>
+            <l xml:id="A01777-e117530">You do so load me with new courtesies,</l>
+            <l xml:id="A01777-e117540">I know not first for which to give you thanks,</l>
+            <l xml:id="A01777-e117550">And did a sullen humour not possess</l>
+            <l xml:id="A01777-e117560">My much distempered faculties, my mirth</l>
+            <l xml:id="A01777-e117570">Should speak my gratitude; but on the sudden,</l>
+            <l xml:id="A01777-e117580">I am so overburdened with sad thoughts,</l>
+            <l xml:id="A01777-e117590">I cannot suit my mind (So much oppressed)</l>
+            <l xml:id="A01777-e117600">To jollity. </l>
+          </sp>
+          <sp xml:id="A01777-e117610" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e117620">'Tis our general grief,</l>
+            <gap extent="2" unit="pages" xml:id="A01777-e117630" n="25-b-2690"/>
+            <l xml:id="A01777-e117640"><pb facs="26"/> ought should disturb your quiet here, when we</l>
+            <l xml:id="A01777-e117650">Were all composed of triumph, for the joy</l>
+            <l xml:id="A01777-e117660">We do conceive for your arrival. My noble lord of</l>
+            <l xml:id="A01777-e117670">Tertzki, these are the welcomes</l>
+            <l xml:id="A01777-e117680">Full bowls of sprightly wine that soldiers use</l>
+            <l xml:id="A01777-e117690">In entertainment; to our general's health,</l>
+            <l xml:id="A01777-e117700">And to his good recovery from his melancholy. </l>
+          </sp>
+          <sp xml:id="A01777-e117710" who="A01777-tertzki">
+            <speaker>Tert.</speaker>
+            <l xml:id="A01777-e117720">Who shall refuse to pledge it with that zeal,</l>
+            <l xml:id="A01777-e117730">He would drink healthful potions, may it be</l>
+            <l xml:id="A01777-e117740">A deadly poison to him: colonel Gordon. </l>
+          </sp>
+          <sp xml:id="A01777-e117750" who="A01777-newman">
+            <speaker>New.</speaker>
+            <l xml:id="A01777-e117760">May he die for drought like a Westphalia big</l>
+            <l xml:id="A01777-e117770">I'th' dog days, or be choked with eating toasted cheese. </l>
+          </sp>
+          <sp xml:id="A01777-e117780" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <l xml:id="A01777-e117790">My lord of Kintzki,</l>
+            <l xml:id="A01777-e117800">This to our general's health, and welcome hither. </l>
+          </sp>
+          <sp xml:id="A01777-e117810" who="A01777-newman">
+            <speaker>New.</speaker>
+            <l xml:id="A01777-e117820">I'm like to faint for thirst,</l>
+            <l xml:id="A01777-e117830">Would 'twould arrive at me once, my mouth</l>
+            <l xml:id="A01777-e117840">Even waters at it. </l>
+          </sp>
+          <sp xml:id="A01777-e117850" who="A01777-kintzki">
+            <speaker>Kintz.</speaker>
+            <p xml:id="A01777-e117860">Noble butler. </p>
+          </sp>
+          <sp xml:id="A01777-e117870" who="A01777-butler">
+            <speaker>Butler.</speaker>
+            <p xml:id="A01777-e117880">Marshal Illawe. </p>
+          </sp>
+          <sp xml:id="A01777-e117890" who="A01777-newman">
+            <speaker>Newm.</speaker>
+            <l xml:id="A01777-e117900">I shall be last, I see,</l>
+            <l xml:id="A01777-e117910">But if the stoops hold out, 'tis ten to one</l>
+            <l xml:id="A01777-e117920">I'll have my share. </l>
+          </sp>
+          <sp xml:id="A01777-e117930" who="A01777-illawe">
+            <speaker>Illawe.</speaker>
+            <p xml:id="A01777-e117940">Here colonel Newman. </p>
+          </sp>
+          <sp xml:id="A01777-e117950" who="A01777-newman">
+            <speaker>New.</speaker>
+            <l xml:id="A01777-e117960">And 'twere the tun of Heidelberg, I'd drink it</l>
+            <l xml:id="A01777-e117970">Off with as much ease, as a leaguer can</l>
+            <l xml:id="A01777-e117980">In a grim sutlers house of thatch: my lord,</l>
+            <l xml:id="A01777-e117990">Under your gracious pardon, take me off</l>
+            <l xml:id="A01777-e118000">This lusty rouse to your own health, and after</l>
+            <l xml:id="A01777-e118010">Begin as much to each of ours, and if</l>
+            <l xml:id="A01777-e118020">It do not make you as merry as a corporal</l>
+            <l xml:id="A01777-e118030">Upon pay day, say I'm no Esculapius,</l>
+            <l xml:id="A01777-e118040">But a mere mountebank in the effects</l>
+            <l xml:id="A01777-e118050">Of sprightly wine. </l>
+          </sp>
+          <sp xml:id="A01777-e118060" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e118070">Kind gentlemen, my thanks</l>
+            <l xml:id="A01777-e118080">To all of you, and would my disposition</l>
+            <l xml:id="A01777-e118090">Afford me licence, I should not forget</l>
+            <l xml:id="A01777-e118100"><pb facs="26"/> the soldier's ceremony, to begin</l>
+            <l xml:id="A01777-e118110">Each of your happy wishes howsoever</l>
+            <l xml:id="A01777-e118120">I will trench so far on my melancholy,</l>
+            <l xml:id="A01777-e118130">To drink this cup. To all your healths. </l>
+          </sp>
+          <sp xml:id="A01777-e118140" who="A01777-omnes">
+            <speaker>Omnes.</speaker>
+            <l xml:id="A01777-e118150">Your grace hath shown us</l>
+            <l xml:id="A01777-e118160">A too excessive courtesy. </l>
+          </sp>
+          <sp xml:id="A01777-e118170" who="A01777-wallenstein">
+            <speaker>Wall.</speaker>
+            <l xml:id="A01777-e118180">I'll only</l>
+            <l xml:id="A01777-e118190">Repose a little, and if I find</l>
+            <l xml:id="A01777-e118200">My sad distemper alter, I'll return,</l>
+            <l xml:id="A01777-e118210">And frolic in your company. </l>
+          </sp>
+          <sp xml:id="A01777-e118220" who="A01777-newman">
+            <speaker>Newm.</speaker>
+            <l xml:id="A01777-e118230">I smell him:</l>
+            <l xml:id="A01777-e118240">He has a plot upon us, he'll steal hence,</l>
+            <l xml:id="A01777-e118250">And shift a score or two of cups, and then</l>
+            <l xml:id="A01777-e118260">Set fresh upon us, make us all as drunk,</l>
+            <l xml:id="A01777-e118270">As rats in the canaries. </l>
+          </sp>
+          <sp xml:id="A01777-e118280" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <p xml:id="A01777-e118290">We'll attend your grace.</p>
+          </sp>
+          <sp xml:id="A01777-e118300" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e118310">By no means,</l>
+            <l xml:id="A01777-e118320">Let not my melancholy discompose</l>
+            <l xml:id="A01777-e118330">Your thought of frolic mirth:</l>
+            <l xml:id="A01777-e118340">There's colonel Newman,</l>
+            <l xml:id="A01777-e118350">Will in my absence take a cup or two</l>
+            <l xml:id="A01777-e118360">For me: mean time be merry, 'tis my charge:</l>
+            <l xml:id="A01777-e118370">Remember to observe it. <stage xml:id="A01777-e118380">Ex. Wallens.</stage></l>
+          </sp>
+          <sp xml:id="A01777-e118390" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e118400">I'm sorry,</l>
+            <l xml:id="A01777-e118410">He should be thus distempered here. My lord</l>
+            <l xml:id="A01777-e118420">Let not our general's sadness rob us of</l>
+            <l xml:id="A01777-e118430">Our late intended jollity: colonel Newman</l>
+            <l xml:id="A01777-e118440">You'd wont to be all air: I hope, you are not</l>
+            <l xml:id="A01777-e118450">Turned earth o'th' sudden. </l>
+          </sp>
+          <sp xml:id="A01777-e118460" who="A01777-newman">
+            <speaker>Newm.</speaker>
+            <l xml:id="A01777-e118470">No faith, thank heaven, I feel no inclination</l>
+            <l xml:id="A01777-e118480">That savours of mortality: gentlemen</l>
+            <l xml:id="A01777-e118490">Shall's have a catch. </l>
+          </sp>
+          <sp xml:id="A01777-e118500" who="A01777-omnes">
+            <speaker>Omnes.</speaker>
+            <p xml:id="A01777-e118510">With all our hearts, good colonel.</p>
+          </sp>
+          <sp xml:id="A01777-e118520" who="A01777-newman">
+            <speaker>New.</speaker>
+            <l xml:id="A01777-e118530">A military Madrigal, I learned it</l>
+            <l xml:id="A01777-e118540">Of a right imp of Mars, a red-faced sergeant,</l>
+            <l xml:id="A01777-e118550">At Halberstat. </l>
+            <l xml:id="A01777-e118560"><pb facs="27"/>To me be terrible, since 'tis main folly,</l>
+            <l xml:id="A01777-e118570">To fear that which we no way can avoid:</l>
+            <l xml:id="A01777-e118580">Nor is't much matter how we die, by force,</l>
+            <l xml:id="A01777-e118590">Or naturally chequered with grisly wounds,</l>
+            <l xml:id="A01777-e118600">Or in our beds, since all's but the same death still:</l>
+            <l xml:id="A01777-e118610">Oh! but to die surcharged with mortal sins,</l>
+            <l xml:id="A01777-e118620">Such as can kill our everlasting beings,</l>
+            <l xml:id="A01777-e118630">Our souls, and send them hence to bathe in floods</l>
+            <l xml:id="A01777-e118640">Of living fire; there, that's the frightful mischief,</l>
+            <l xml:id="A01777-e118650">The other's but a trifle; ay, who never</l>
+            <l xml:id="A01777-e118660">Could fear the other, at the thought of this,</l>
+            <l xml:id="A01777-e118670">Am one with death already; my vast crimes,</l>
+            <l xml:id="A01777-e118680">My horrid murders kill that conscience in me,</l>
+            <l xml:id="A01777-e118690">Which makes me know my guilt, that conscience,</l>
+            <l xml:id="A01777-e118700">Which as my shadow follows me. </l>
+          </sp>
+          <stage xml:id="A01777-e118710">Int. Less, Gordon, Butler.</stage>
+          <sp xml:id="A01777-e118720" who="A01777-gordon">
+            <speaker>Gordon:</speaker>
+            <l xml:id="A01777-e118730">Come softly,</l>
+            <l xml:id="A01777-e118740">And if my stroke miss, second me. </l>
+          </sp>
+          <stage xml:id="A01777-e118750">Stabs Wallenstein in the back.</stage>
+          <sp xml:id="A01777-e118760" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e118770">Ha! 'twas no ghost, that was a</l>
+            <l xml:id="A01777-e118780">Mortal touch,</l>
+            <l xml:id="A01777-e118790">It came so home and heavily: base traitor,</l>
+            <l xml:id="A01777-e118800">Whoe'er thou art, thou durst not see my face,</l>
+            <l xml:id="A01777-e118810">My looks would even have blasted thee:</l>
+            <l xml:id="A01777-e118820">Ha! Lesle, Gordon, Butler. </l>
+          </sp>
+          <sp xml:id="A01777-e118830" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e118840">Yes traitor-duke, 'twas we, who out thy soul</l>
+            <l xml:id="A01777-e118850">From thy weak twist of life, we who glory</l>
+            <l xml:id="A01777-e118860">More in performing this brave act of justice,</l>
+            <l xml:id="A01777-e118870">Then had we gained the empire thy ambition</l>
+            <l xml:id="A01777-e118880">Aspired to, thy base treacheries to Caesar,</l>
+            <l xml:id="A01777-e118890">Are by us revenged. </l>
+          </sp>
+          <sp xml:id="A01777-e118900" who="A01777-gordon">
+            <speaker>Gordon.</speaker>
+            <l xml:id="A01777-e118910">The counts,</l>
+            <l xml:id="A01777-e118920">Thy bold confederate rebels, by our hands</l>
+            <l xml:id="A01777-e118930">Sent to their ruin. </l>
+          </sp>
+          <sp xml:id="A01777-e118940" who="A01777-wallenstein">
+            <speaker>Wallens.</speaker>
+            <l xml:id="A01777-e118950">Thus coward hare,</l>
+            <l xml:id="A01777-e118960">Prey on a dying lion, for thee Lesle,</l>
+            <l xml:id="A01777-e118970"><pb facs="27"/> basely perfidious to me in thy faith,</l>
+            <l xml:id="A01777-e118980">Receive my last breath in a curse: you have</l>
+            <l xml:id="A01777-e118990">But played the hangmen to perform heavens justice. </l>
+            <l xml:id="A01777-e119000">Forgive me heaven my past offence: I die,</l>
+            <l xml:id="A01777-e119010">Not for my ambition, but my cruelty. <stage xml:id="A01777-e119020">Dyes.</stage></l>
+          </sp>
+          <sp xml:id="A01777-e119030" who="A01777-lesle">
+            <speaker>Lesle.</speaker>
+            <l xml:id="A01777-e119040">Let us convey the body in, ard post</l>
+            <l xml:id="A01777-e119050">With all speed to Vienna, and give notice</l>
+            <l xml:id="A01777-e119060">Toth' emperor of our proceedings; thus every traitor shall,</l>
+            <l xml:id="A01777-e119070">Stead of a crown, meet his own funeral. </l>
+          </sp>
+        </div>
+        <trailer xml:id="A01777-e119080">Finis.</trailer>
+        <pb facs="28"/>
+        <pb facs="28"/>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A01777"><item xml:id="A01777-wallenstein" n="40">
+    <seg type="character_name">A01777-wallenstein</seg>
+    <seg type="speech_count">40</seg>
+  </item>
+  <item xml:id="A01777-lesle" n="30">
+    <seg type="character_name">A01777-lesle</seg>
+    <seg type="speech_count">30</seg>
+  </item>
+  <item xml:id="A01777-albertus" n="27">
+    <seg type="character_name">A01777-albertus</seg>
+    <seg type="speech_count">27</seg>
+  </item>
+  <item xml:id="A01777-newman" n="18">
+    <seg type="character_name">A01777-newman</seg>
+    <seg type="speech_count">18</seg>
+  </item>
+  <item xml:id="A01777-gordon" n="17">
+    <seg type="character_name">A01777-gordon</seg>
+    <seg type="speech_count">17</seg>
+  </item>
+  <item xml:id="A01777-emperor" n="13">
+    <seg type="character_name">A01777-emperor</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+  <item xml:id="A01777-frederick" n="12">
+    <seg type="character_name">A01777-frederick</seg>
+    <seg type="speech_count">12</seg>
+  </item>
+<item xml:id="A01777-duchess" n="9">
+    <seg type="character_name">A01777-duchess</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A01777-isabella" n="9">
+    <seg type="character_name">A01777-isabella</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A01777-tertzki" n="9">
+    <seg type="character_name">A01777-tertzki</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A01777-butler" n="6">
+    <seg type="character_name">A01777-butler</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A01777-page" n="5">
+    <seg type="character_name">A01777-page</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A01777-waymar" n="5">
+    <seg type="character_name">A01777-waymar</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A01777-emilia" n="5">
+    <seg type="character_name">A01777-emilia</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A01777-kintzki" n="4">
+    <seg type="character_name">A01777-kintzki</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A01777-hungary" n="4">
+    <seg type="character_name">A01777-hungary</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A01777-brandenburgh" n="3">
+    <seg type="character_name">A01777-brandenburgh</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A01777-illawe" n="2">
+    <seg type="character_name">A01777-illawe</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A01777-messenger" n="2">
+    <seg type="character_name">A01777-messenger</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A01777-omnes" n="2">
+    <seg type="character_name">A01777-omnes</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A01777-questenberg" n="2">
+    <seg type="character_name">A01777-questenberg</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A01777-gallas" n="2">
+    <seg type="character_name">A01777-gallas</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A01777-saxon-weimar" n="2">
+    <seg type="character_name">A01777-saxon-weimar</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A01777-missing" n="2">
+    <seg type="character_name">A01777-missing</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A01777-multiple" n="1">
+    <seg type="character_name">A01777-multiple</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

@@ -1,0 +1,2712 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A06583">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Campaspe (Alexander, Campaspe, and Diogenes) <date type="creation_date">1583</date></title>
+        <author>Lyly, John</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A06583.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">A moste excellent comedie of Alexander, Campaspe, and Diogenes played beefore the Queenes Maiestie on twelfe day at night, by her Maiesties children, and the children of Poules.</title>
+            <author>Lyly, John, 1554?-1605.</author>
+          </titleStmt>
+          <extent>28 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2004 November (TCP phase 1)</date>
+            <idno type="marc">99857441</idno>
+            <idno type="stc">STC (2nd ed.) 17047.5.</idno>
+            <idno type="stc">Greg, I, 84(a).</idno>
+            <idno type="vid">23181</idno>
+            <idno type="DLPS">A06583</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">A moste excellent comedie of Alexander, Campaspe, and Diogenes played beefore the Queenes Maiestie on twelfe day at night, by her Maiesties children, and the children of Poules.</title>
+            <title type="alt">Alexander and Campaspe</title>
+            <title type="alt">Campaspe.</title>
+            <title type="alt">Tragicall comedie of Alexander and Campaspe.</title>
+            <author>Lyly, John, 1554?-1605.</author>
+          </titleStmt>
+          <extent>[56] p.</extent>
+          <publicationStmt>
+            <publisher>[By Thomas Dawson] for Thomas Cadman,</publisher>
+            <pubPlace>Imprinted at London :</pubPlace>
+            <date>1584.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Anonymous. By John Lyly.</p>
+            </note>
+            <note>
+              <p>Printer's name from STC.</p>
+            </note>
+            <note>
+              <p>Signatures: A4 2A-F4.</p>
+            </note>
+            <note>
+              <p>The first leaf is blank except for a fleuron.</p>
+            </note>
+            <note>
+              <p>Running title reads: A tragicall comedie of Alexander and Campaspe.</p>
+            </note>
+            <note>
+              <p>Later editions published as: Campaspe.</p>
+            </note>
+            <note>
+              <p>Identified as STC 17048b on UMI microfilm.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A06583-e100010">
+    <front xml:id="A06583-e100020">
+      <div type="title_page" xml:id="A06583-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A06583-e100040">A most excellent comedy of Alexander, Campaspe, and Diogenes, played before the Queen's majesty on twelve day at night, by her majesty's children, and the children of Poule's.</p>
+        <p xml:id="A06583-e100050">Imprinted at London for Thomas Cadman. 1584.</p>
+      </div>
+      <div type="prologue" xml:id="A06583-e100060">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The prologue at the black friars.</head>
+        <p xml:id="A06583-e100070">They that fear the flinging of wasps make fans of peacocks tails, whose spots are like eyes. And Lepidus, which could not sleep for the chatting of birds, set up a beast, whose head was like a dragon: and we which stand in awe of report, are compelled to set before our owl Pallas shield, thinking by her virtue to cover the others deformity. It was a sign of famine to Egypt, when Nilus flowed less than twelve cubits, or more than eighteen, and it may threaten despair unto us, if we be less curious than you look for, or more cumbersome. But as Theseus being promised to be brought to an eagle's nest, and travailing all the day, found but a wren in a hedge, yet said, this is a bird: so we hope, if the shower of our swelling mountain seem to bring forth some elephant, perform but a mouse, you will gently say, this is a beast? Basill softly touched, yields a sweet sent, but chafed in the hand, a rank savour. We fear even so that our labours slyly glanced on, will breed some content, but examined to the proof, small commendation. The haste in performing shall be our excuse, there went two nights to the begetting of Hercules. Feathers appear not on the phoenix under seven months, and the mulberry is twelve in budding, but our travails are like the hares, who at one time bringeth forth, nourisheth, and engendereth again, or like the brood of Trasbylus, whose eggs in the same moment<pb facs="3"/> that they are laid, become birds. But howsoever we finish our work, we crave pardon, if we offend in matter, and patience if we transgress in manners. We have mixed mirth with counsel, and discipline with delight, thinking it not amiss in the same garden to sow potherbs, that we set flowers. But we hope, as hearts that cast their horns, snakes their skins, eagles their bills, become more fresh for any other labour: so our charge being shaken off, we shall be fit for greater matters. But least like the Mindyans, we make our gates greater than our town, and that our play runs out at the preface, we here conclude: wishing that although there be in your precise judgements an universal mislike, yet we may enjoy by your wonted courtesies a general silence.</p>
+      </div>
+      <div type="prologue" xml:id="A06583-e100080">
+        <pb facs="3"/>
+        <head>The prologue at the court.</head>
+        <p xml:id="A06583-e100090">We are ashamed that our bird, which fluttered by twilight seeming a swan, should be proved a bat set against the sun. But as Jupiter placed Silenus' ass among the stars, and Alcibiades covered his pictures being owls and apes, with a curtain embroidered with lions and eagles, so are we enforced upon a rough discourse to draw on a smooth excuse, resbling lapidaries, who think to hide the crack in a stone by setting it deep in gold. The gods supped once with poor Baucis, the Persian Kings sometimes shaved sticks, our hope is your highness will at this time lend an ear to an idle pastime. Appion raising Homer from hell, demanded only who was his father, and we calling Alexander from his grave, seek only who was his love. Whatsoever we present, we wish it may be thought the dancing of Agrippa his shadows, who in the moment they were seen, were of any shape one would conceive: or lynxes, who having a quick fight to discern, have a short memory to forget. With us it is like to fare, as with these torches, which giving light to others, consume themselves, and we showing delight to others, shame ourselves. <pb facs="4"/></p>
+      </div>
+    </front>
+    <body xml:id="A06583-e100100">
+      <div n="1" type="act" xml:id="A06583-e100110">
+        <pb facs="4"/>
+        <div n="1" type="scene" xml:id="A06583-e100120">
+          <head>Actus primus, scaena prima.</head>
+          <stage xml:id="A06583-e100130">Clitus, Parmenio, Timoclea, Campaspe, Alexander, Hephestion.</stage>
+          <sp xml:id="A06583-e100140" who="A06583-clitus">
+            <speaker>Clyt.</speaker>
+            <p xml:id="A06583-e100150">Parmenio, I cannot tell whether I should more commend in Alexander's victories, courage, or courtesy, in the one being a resolution without fear, in the other a liberality above custom: Thebes is raised, the people not racked, towers thrown down, bodies not thrust aside, a conquest without conflict, and a cruel war in a mild peace.</p>
+          </sp>
+          <sp xml:id="A06583-e100160" who="A06583-parmenio">
+            <speaker>Parme.</speaker>
+            <p xml:id="A06583-e100170">Clytus, it becometh the son of Philip to be none other than Alexander is: therefore seeing in the father a full perfection, who could have doubted in the son an excellency. For as the moon can borrow nothing else of the sun but light, so of a fire, in whom nothing but virtue was, what could the child receive but singular? It is for Turks to stain each other, not for diamonds, in the one to be made a difference in goodness, in the other no comparison.</p>
+          </sp>
+          <sp xml:id="A06583-e100180" who="A06583-clitus">
+            <speaker>Clitus</speaker>
+            <p xml:id="A06583-e100190">You mistake me Parmenio, if whilst I commend Alexander, you imagine I call Philip into question, unless happily you conjecture (Which none of judgement will conceive) that because I like the fruit, therefore I heave at the tree, or coveting to kiss the child, I therefore go about to poison the teat.</p>
+          </sp>
+          <sp xml:id="A06583-e100200" who="A06583-parmenio">
+            <speaker>Parme.</speaker>
+            <p xml:id="A06583-e100210">I but Clytus I perceive you are born in the East, and never laugh but at the sun rising, which argueth though a duty where you ought, yet no great devotion where you might.</p>
+          </sp>
+          <sp xml:id="A06583-e100220" who="A06583-clitus">
+            <speaker>Clytus</speaker>
+            <p xml:id="A06583-e100230">We will make no controversy of that which there ought to be no question, only this shall be the opinion<pb facs="5"/> of us both, that none was worthy to be the father of Alexander but Philip, nor any meet to be the son of Philip but Alexander. </p>
+          </sp>
+          <sp xml:id="A06583-e100240" who="A06583-parmenio">
+            <speaker>Parme.</speaker>
+            <p xml:id="A06583-e100250">Soft Clytus, behold the spoils and prisoners, a pleasant sight to us, because profit is joined with honour, not much painful to them, because their captivity is eased by mercy.</p>
+          </sp>
+          <sp xml:id="A06583-e100260" who="A06583-timoclea">
+            <speaker>Timo.</speaker>
+            <p xml:id="A06583-e100270">Fortune, thou didst never yet deceive virtue, because virtue never yet did trust fortune. Sword and fire will never get spoil, where wisdom and fortitude bears sway. O Thebes, thy walls were raised by the sweetness of the harp, but razed by the shrillness of the trumpet. Alexander had never come so near the walls, had Epaminondas walked about the walls, and yet might the Thebans have been merry in their streets, if he had been to watch their towers. But destiny is seldom foreseen, never prevented. We are here now captives, whose necks are yoked by force, but whose hearts can not yield by death. Come Campaspe and the rest, let us not be ashamed to cast our eyes on him, on whom we feared not to cast our darts.</p>
+          </sp>
+          <sp xml:id="A06583-e100280" who="A06583-parmenio">
+            <speaker>Parme.</speaker>
+            <p xml:id="A06583-e100290">Madam, you need not doubt, it is Alexander, that is, the conqueror.</p>
+          </sp>
+          <sp xml:id="A06583-e100300" who="A06583-timoclea">
+            <speaker>Timo.</speaker>
+            <p xml:id="A06583-e100310">Alexander hath overcome, not conquered.</p>
+          </sp>
+          <sp xml:id="A06583-e100320" who="A06583-parmenio">
+            <speaker>Parm.</speaker>
+            <p xml:id="A06583-e100330">To bring all under his subjection is to conquer.</p>
+          </sp>
+          <sp xml:id="A06583-e100340" who="A06583-timoclea">
+            <speaker>Timo.</speaker>
+            <p xml:id="A06583-e100350">He cannot subdue that which is divine.</p>
+          </sp>
+          <sp xml:id="A06583-e100360" who="A06583-parmenio">
+            <speaker>Parme.</speaker>
+            <p xml:id="A06583-e100370">Thebes was not.</p>
+          </sp>
+          <sp xml:id="A06583-e100380" who="A06583-timoclea">
+            <speaker>Timo.</speaker>
+            <p xml:id="A06583-e100390">Virtue is.</p>
+          </sp>
+          <sp xml:id="A06583-e100400" who="A06583-clitus">
+            <speaker>Clytus.</speaker>
+            <p xml:id="A06583-e100410">Alexander as he tendereth virtue, so he will you, he drinketh not blood, but thirsteth after honour, he is greedy of victory, but never satisfied with mercy. In fight terrible, as becometh a captain, in conquest mild, as beseemeth a King. In all things then which nothing can be greater he is Alexander. </p>
+          </sp>
+          <sp xml:id="A06583-e100420" who="A06583-campaspe">
+            <speaker>Campas.</speaker>
+            <p xml:id="A06583-e100430">Then if it be such a thing to be Alexander, I hope it shall be no miserable thing to be a virgin. For if<pb facs="5"/> he save our honours, it is more than; to restore our goods. And rather do I wish he preserve our fame then our lives, which if he do, we will confess there can be no greater thing than to be Alexander. </p>
+          </sp>
+          <sp xml:id="A06583-e100440" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e100450">Clytus, are these prisoners? of whence these spoils?</p>
+          </sp>
+          <sp xml:id="A06583-e100460" who="A06583-clitus">
+            <speaker>Cly.</speaker>
+            <p xml:id="A06583-e100470">Like your majesty they are prisoners, and of Thebes. </p>
+          </sp>
+          <sp xml:id="A06583-e100480" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e100490">Of what calling or reputation?</p>
+          </sp>
+          <sp xml:id="A06583-e100500" who="A06583-clitus">
+            <speaker>Cly.</speaker>
+            <p xml:id="A06583-e100510">I know not, but they seem to be ladies of honour.</p>
+          </sp>
+          <sp xml:id="A06583-e100520" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e100530">I will know: madam, of whence you are I know, but who, I cannot tell.</p>
+          </sp>
+          <sp xml:id="A06583-e100540" who="A06583-timoclea">
+            <speaker>Timo.</speaker>
+            <p xml:id="A06583-e100550">Alexander, I am the sister of Theagines, who fought a battle with thy father, before the city of Chyeronie, where he died, I say which none cangainsay, valiantly.</p>
+          </sp>
+          <sp xml:id="A06583-e100560" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e100570">Lady, there seem in your words sparks of your brother's deeds, but worser fortune in your life than his death: but fear not, for you shall live without violence, enemies, or necessity: but what are you fair lady, another sister to Theagines?</p>
+          </sp>
+          <sp xml:id="A06583-e100580" who="A06583-campaspe">
+            <speaker>Campas.</speaker>
+            <p xml:id="A06583-e100590">No sister to Theagines, but an humble handmaid to Alexander, born of a mean parentage, but to extreme fortune.</p>
+          </sp>
+          <sp xml:id="A06583-e100600" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e100610">Well ladies, for so your virtues show you, whatsoever your births be, you shall be honourably entreated. Athens shall be your Thebes, and you shall not be as abjects of war, but as subjects to Alexander ▪ Parmenio, conduct these honourable ladies into the city, charge the soldiers not so much as in words to offer them any offence, and let all wants be supplied so far forth as shall be necessary for such persons and my prisoners.</p>
+            <stage xml:id="A06583-e100620">Exeunt Parme. and captivi.</stage>
+            <p xml:id="A06583-e100630">Hephestion, it resteth now that we have as great care to govern in peace, as conquer in war: that whilst arms cease, arts may flourish, and joining letters with lances we endeavour to be as good philosophers as soldiers, knowing it no less praise to be wise, than commendable to be valiant ▪</p>
+          </sp>
+          <sp xml:id="A06583-e100640" who="A06583-hephaestion">
+            <pb facs="6"/>
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e100650">Your majesty therein showeth that you have as great desire to rule as to subdue: and needs must that common wealth be fortunate, whose captain is a philosopher, and whose philosopher is a captain.</p>
+          </sp>
+          <stage xml:id="A06583-e100660">Exeunt.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A06583-e100670">
+          <head>Actus primus, schaena secunda.</head>
+          <stage xml:id="A06583-e100680">Manes, Granichus, Psyllus.</stage>
+          <sp xml:id="A06583-e100690" who="A06583-manes">
+            <speaker>Manes.</speaker>
+            <p xml:id="A06583-e100700">I serve in steed of a master, a mouse, whose house is a tub, whose dinner is a crust, and whose board is a bed.</p>
+          </sp>
+          <sp xml:id="A06583-e100710" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e100720">Then art thou in a state of life, which philosophers commend. A crumb for thy supper, an hand for thy cup, and thy clothes for thy sheets. For natura paucis contenta. </p>
+          </sp>
+          <sp xml:id="A06583-e100730" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e100740">Manes, it is pity so proper a man should be cast away upon a philosopher: but that Diogenes that dog should have manes that dogbolte, it grieveth nature and spiteth art: the one having found the so dissolute, absolute I would say, in body, the other so single singular in mind.</p>
+          </sp>
+          <sp xml:id="A06583-e100750" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e100760">Are you merry, it is a sign by the trip of your tongue, and the toys of your head, that you have done that today, which I have not done these three days.</p>
+          </sp>
+          <sp xml:id="A06583-e100770" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e100780">What's that?</p>
+          </sp>
+          <sp xml:id="A06583-e100790" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e100800">Dined.</p>
+          </sp>
+          <sp xml:id="A06583-e100810" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e100820">I think Diogenes keeps but cold cheer.</p>
+          </sp>
+          <sp xml:id="A06583-e100830" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e100840">I would it were so, but he keepeth neither hot nor cold.</p>
+          </sp>
+          <sp xml:id="A06583-e100850" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e100860">What then, luke warm? That made manes run from his master last day.</p>
+          </sp>
+          <sp xml:id="A06583-e100870" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e100880">Manes had reason: for his name foretold as much.</p>
+          </sp>
+          <sp xml:id="A06583-e100890" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e100900">My name? how so sir boy?</p>
+          </sp>
+          <sp xml:id="A06583-e100910" who="A06583-psyllus">
+            <pb facs="6"/>
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e100920">You know that it is called mons, à movendo, because it stands still.</p>
+          </sp>
+          <sp xml:id="A06583-e100930" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e100940">Good.</p>
+          </sp>
+          <sp xml:id="A06583-e100950" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e100960">And thou art named Manes, à manendo, because thou runnest away.</p>
+          </sp>
+          <sp xml:id="A06583-e100970" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e100980">Passing reasons, I did not run away, but retire.</p>
+          </sp>
+          <sp xml:id="A06583-e100990" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e101000">To a prison, because thou wouldst have leisure to contemplate.</p>
+          </sp>
+          <sp xml:id="A06583-e101010" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e101020">I will prove that my body was immortal: because it was in prison.</p>
+          </sp>
+          <sp xml:id="A06583-e101030" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e101040">As how?</p>
+          </sp>
+          <sp xml:id="A06583-e101050" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e101060">Did your masters never teach you that the soul is immortal?</p>
+          </sp>
+          <sp xml:id="A06583-e101070" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e101080">Yes.</p>
+          </sp>
+          <sp xml:id="A06583-e101090" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e101100">And the body is the prison of the soul.</p>
+          </sp>
+          <sp xml:id="A06583-e101110" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e101120">True.</p>
+          </sp>
+          <sp xml:id="A06583-e101130" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e101140">Why then, thus to make my body immortal, I put it to prison.</p>
+          </sp>
+          <sp xml:id="A06583-e101150" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e101160">O bad.</p>
+          </sp>
+          <sp xml:id="A06583-e101170" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e101180">Excellent ill.</p>
+          </sp>
+          <sp xml:id="A06583-e101190" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e101200">You may see how dull a fasting wit is: therefore Psyllus let us go to supper with Granichus: Plato is the best fellow of all philosophers. Give me him that reads in the morning in the school, and at noon in the kitchen.</p>
+          </sp>
+          <sp xml:id="A06583-e101210" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e101220">And me.</p>
+          </sp>
+          <sp xml:id="A06583-e101230" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e101240">Ah sirs, my master is a King in his parlour for the body, and a god in his study for the soul. Among all his men he commendeth one that is an excellent musician, then stand I by and clap another on the shoulder and say, this is a passing good cook.</p>
+          </sp>
+          <sp xml:id="A06583-e101250" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e101260">It is well done Granichus, for give me pleasure that goes in at the mouth, not the ear, I had rather fill my guts, than my brains.</p>
+          </sp>
+          <sp xml:id="A06583-e101270" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e101280">I serve Apelles, who feedeth me, as Diogenes<pb facs="7"/> doth Manes, for at dinner the one preacheth abstinence, the other commendeth counterfeiting: when I would eat meat, he paints a spit, and when I thirst, oh faith he, is not this a fair pot, and points to a table, which contains the banquet of the gods, where are many dishes to feed the eye, but not to fill the gut.</p>
+          </sp>
+          <sp xml:id="A06583-e101290" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e101300">What dost thou then?</p>
+          </sp>
+          <sp xml:id="A06583-e101310" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e101320">This doth he then bring in many examples that some have lived by favours, and proveth that much easier it is to fat by colours, and tells of birds that have been fatted by painted grapes in winter: and how many have so fed their eyes with their mistress picture, that they never desired to take food, being glutted with the delight in their favours. Then doth he show me counterfeits, such as have forfeited with their filthy and loathsome vomits, and with the riotous Bacchanals of the god Bacchus, and his disorderly crew, which are painted all to the life in his shop. To conclude, I fare hardly, though I go richly, which maketh me when I should begin to shadow a lady's face, to draw a lamb's head, and sometime to set to the body of a maid a shoulder of mutton: for semper animus meus est in patinis. </p>
+          </sp>
+          <sp xml:id="A06583-e101330" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e101340">Thou art a god to me: for could I see but a cook's shop painted, I would make mine eyes fat as butter. For I have naught but sentences to fill my maw, as, plures occidit crapula quàm gladius: musateiunantibus amica: repletion killeth delicately: and an old saw of abstinence, Socrates: the belly is the heads grave. Thus with sayings not with meat he maketh a gallimaufry.</p>
+          </sp>
+          <sp xml:id="A06583-e101350" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e101360">But how dost thou then live?</p>
+          </sp>
+          <sp xml:id="A06583-e101370" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e101380">With fine jests, sweet air, and the dogs alms.</p>
+          </sp>
+          <sp xml:id="A06583-e101390" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e101400">Well, for this time I will staunch thy gut, and among pots and platters thou shalt see what it is to serve Plato. </p>
+          </sp>
+          <sp xml:id="A06583-e101410" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e101420">For joy of Granichus let's sing.</p>
+          </sp>
+          <sp xml:id="A06583-e101430" who="A06583-macedon">
+            <speaker>Ma.</speaker>
+            <p xml:id="A06583-e101440">My voice is as clear in the evening as in the morning.</p>
+          </sp>
+          <sp xml:id="A06583-e101450" who="A06583-granichus">
+            <pb facs="7"/>
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e101460"> another commodity of emptiness.</p>
+          </sp>
+          <stage xml:id="A06583-e101470">Song.</stage>
+        </div>
+        <div n="3" type="scene" xml:id="A06583-e101480">
+          <head>Actus primus, scaena tertia.</head>
+          <stage xml:id="A06583-e101490">Melippus, Plato, Aristotle, Crisippus, Crates, Cleanthes, Anaxarchus, Alexander, Hephestion Parmenio, Clytus, Diogenes.</stage>
+          <sp xml:id="A06583-e101500" who="A06583-melippus">
+            <speaker>Melip.</speaker>
+            <p xml:id="A06583-e101510">I had never such ado to warn scholars to come before a King: first, I came to Crisippus a tall lean old mad man, willing him presently to appear before Alexander, he stood staring on my face, neither moving his eyes nor his body, I urging him to give some answer, he took up a book, sat down and said nothing: Melissa his maid told me it was his manner, and that oftentimes she was fain to thrust meat in to his mouth: for that he would rather starve than cease study. Well thought I, seeing bookish men are so blockish, and so great clerks such simple courtiers, I will neither be partaker of their commons nor their commendations. Frō thence I came to Plato and to Aristotle, and to divers other none refusing to come, saving an old obscure fellow, who sitting in a tub turned towards the son, read Greek to a young boy, him when I willed to appear before Alexander, he answered, if Alexander would fain see me, let him come to me, if learn of me, let him come to me, whatsoever it be, let him come to me: why, said I, he is a King, he answered, why I am a philosopher, why, but he is Alexander, I but I am Diogenes. I was half angry to see one so crooked in his shape, to be so crabbed in his sayings. So going my way, I said thou shalt repent it, if thou comest not to Alexander: nay, smiling answered he, Alexander may repent it, if he come not to Diogenes: virtue must be sought, not offered: and so turning himself to his cell, he grunted I know not what, like a pig under a tub. But I must be gone, the philosophers are coming.</p>
+          </sp>
+          <stage xml:id="A06583-e101520">Exit.</stage>
+          <sp xml:id="A06583-e101530" who="A06583-plato">
+            <pb facs="8"/>
+            <speaker>Plato</speaker>
+            <p xml:id="A06583-e101540">It is a difficult controversy, Aristotle, and rather to be wondered at, then believed, how natural causes should work supernal effects.</p>
+          </sp>
+          <sp xml:id="A06583-e101550" who="A06583-aristotle">
+            <speaker>Arist.</speaker>
+            <p xml:id="A06583-e101560">I do not so much stand upon the apparition is seen in the moon, neither the demonium of Socrates, as that I cannot by natural reason give any reason of the ebbing and flowing of the sea, which makes me in the depth of my studies to cry out, oh ens entium miserere mei. </p>
+          </sp>
+          <sp xml:id="A06583-e101570" who="A06583-plato">
+            <speaker>Plato.</speaker>
+            <p xml:id="A06583-e101580">Cleanthes, and you attribute so much to nature by searching for things which are not to be found, that whilst you study a cause of your own, you omit the occasion itself. There is no man so savage in whom resteth not this divine particle, that there is an omnipotent, eternal and divine mover, which may be called God.</p>
+          </sp>
+          <sp xml:id="A06583-e101590" who="A06583-cleanthes">
+            <speaker>Cleant.</speaker>
+            <p xml:id="A06583-e101600">I am of this mind, that that first mover, which you term God, is the instrument of all the movings, which we attribute to nature. The earth which is mass, swimmeth on the sea, seasons divided in themselves, fruits growing in themselves, the majesty of the sky, the whole firmament of the world, and whatsoever else appeareth miraculous, what man almost of mean capacity but can prove it natural.</p>
+          </sp>
+          <sp xml:id="A06583-e101610" who="A06583-anaxarchus">
+            <speaker>Anaxar</speaker>
+            <p xml:id="A06583-e101620">These causes shall be debated at our philosopher's feast, in which controversy I will take part with Aristotle, that there is naturanaturans, and yet not God.</p>
+          </sp>
+          <sp xml:id="A06583-e101630" who="A06583-craterus">
+            <speaker>Craterus</speaker>
+            <p xml:id="A06583-e101640">And I with Plato, that there is deus optimus maximus, and not nature.</p>
+          </sp>
+          <sp xml:id="A06583-e101650" who="A06583-aristotle">
+            <speaker>Arist.</speaker>
+            <p xml:id="A06583-e101660">Here cometh Alexander. </p>
+          </sp>
+          <sp xml:id="A06583-e101670" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e101680">I see Hephestion, that these philosophers are here attending for us.</p>
+          </sp>
+          <sp xml:id="A06583-e101690" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e101700">They were not philosophers, if they knew not their duties.</p>
+          </sp>
+          <sp xml:id="A06583-e101710" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e101720">But I much marvel Diogenes should be so dogged.</p>
+          </sp>
+          <sp xml:id="A06583-e101730" who="A06583-hephaestion">
+            <pb facs="8"/>
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e101740">I do not think but his excuse will be better than Melippus' message.</p>
+          </sp>
+          <sp xml:id="A06583-e101750" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e101760">I will go see him Hephestion, because I long to see him that would command Alexander to come, to whom all the world is like to come. Aristotle and the rest sithence my coming from Thebes to Athens, from a place of conquest to a palace of quiet, I have resolved with myself in my court to have as many philosophers as I had in my camp soldiers. My court shall be a school, wherein I will have used as great doctrine in peace, as I did in war discipline.</p>
+          </sp>
+          <sp xml:id="A06583-e101770" who="A06583-aristotle">
+            <speaker>Arist.</speaker>
+            <p xml:id="A06583-e101780">We are all here ready to be commanded, and glad we are that we are commanded, for that nothing better becometh Kings then literature, which maketh them come as near to the gods in wisdom, as they do in dignity.</p>
+          </sp>
+          <sp xml:id="A06583-e101790" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e101800">It is so Aristotle, but yet there is among you, yea and of your bringing up, that sought to destroy Alexander, Calistenes, Aristotle, whose treasons against his prince shall not be born out with the reasons of his philosophy.</p>
+          </sp>
+          <sp xml:id="A06583-e101810" who="A06583-aristotle">
+            <speaker>Arist.</speaker>
+            <p xml:id="A06583-e101820">If ever mischief entered into the heart of Calistenes, let Calistenes suffer for it, but that Aristotle ever imagined any such thing of Calistenes, Aristotle doth deny.</p>
+          </sp>
+          <sp xml:id="A06583-e101830" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e101840">Well Aristotle, kindred may blind thee, and affection me, but in King's causes I will not stand to scholar's arguments. This meeting shall be for a commandment, that you all frequent my court, instruct the young with rules, confirm the old with reasons: let your lives be answerable to your learnings, jest my proceedings be contrary to my promises.</p>
+          </sp>
+          <sp xml:id="A06583-e101850" who="A06583-hephaestion">
+            <speaker>Hophest.</speaker>
+            <p xml:id="A06583-e101860">You said you would ask every one of them a question, which yesternight none of us could answer.</p>
+          </sp>
+          <sp xml:id="A06583-e101870" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e101880">I will. Plato, of all beasts, which is the subtlest?</p>
+          </sp>
+          <sp xml:id="A06583-e101890" who="A06583-plato">
+            <pb facs="9"/>
+            <speaker>Plato</speaker>
+            <p xml:id="A06583-e101900">That which man hitherto never knew.</p>
+          </sp>
+          <sp xml:id="A06583-e101910" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e101920">Aristotle, how should a man be thought a god?</p>
+          </sp>
+          <sp xml:id="A06583-e101930" who="A06583-aristotle">
+            <speaker>Arist.</speaker>
+            <p xml:id="A06583-e101940">In doing a thing unpossible for a man.</p>
+          </sp>
+          <sp xml:id="A06583-e101950" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e101960">Crisippus, which was first, the day or the night?</p>
+          </sp>
+          <sp xml:id="A06583-e101970" who="A06583-crisippus">
+            <speaker>Crisip.</speaker>
+            <p xml:id="A06583-e101980">The day by a day.</p>
+          </sp>
+          <sp xml:id="A06583-e101990" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e102000">In deed strange questions must have strange answers, Cleanthes, what say you, is life or death the stronger?</p>
+          </sp>
+          <sp xml:id="A06583-e102010" who="A06583-cleanthes">
+            <speaker>Clean.</speaker>
+            <p xml:id="A06583-e102020">Life, that suffereth so many troubles.</p>
+          </sp>
+          <sp xml:id="A06583-e102030" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e102040">Crates, how long should a man live?</p>
+          </sp>
+          <sp xml:id="A06583-e102050" who="A06583-crates">
+            <speaker>Crates</speaker>
+            <p xml:id="A06583-e102060">Till he think it better to die then live.</p>
+          </sp>
+          <sp xml:id="A06583-e102070" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e102080">Anaxarchus, whether doth the sea or the earth bring forth most creatures?</p>
+          </sp>
+          <sp xml:id="A06583-e102090" who="A06583-anaxarchus">
+            <speaker>Anax.</speaker>
+            <p xml:id="A06583-e102100">The earth, for the sea is but a part of the earth.</p>
+          </sp>
+          <sp xml:id="A06583-e102110" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e102120">Hephestion, methinks they have answered all well, and in such questions I mean often to try them.</p>
+          </sp>
+          <sp xml:id="A06583-e102130" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e102140">It is better to have in your court a wise man, then in your ground a golden mine. Therefore would I lean war, to study wisdom, were I Alexander. </p>
+          </sp>
+          <sp xml:id="A06583-e102150" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e102160">So would I, were I Hephestion. But come let us go and give release, as I promised to our Theban thralls.</p>
+          </sp>
+          <stage xml:id="A06583-e102170">Exeunt.</stage>
+          <sp xml:id="A06583-e102180" who="A06583-plato">
+            <speaker>Plato</speaker>
+            <p xml:id="A06583-e102190">Thou art fortunate Aristotle, that Alexander is thy scholar.</p>
+          </sp>
+          <sp xml:id="A06583-e102200" who="A06583-aristotle">
+            <speaker>Arist.</speaker>
+            <p xml:id="A06583-e102210">And all you happy that he is your sovereign.</p>
+          </sp>
+          <sp xml:id="A06583-e102220" who="A06583-crisippus">
+            <speaker>Crisip.</speaker>
+            <p xml:id="A06583-e102230">I could like the man well, if he could be contented to be but a man.</p>
+          </sp>
+          <sp xml:id="A06583-e102240" who="A06583-aristotle">
+            <speaker>Arist.</speaker>
+            <p xml:id="A06583-e102250">He seeketh to draw near to the gods in knowledge, not to be a God.</p>
+          </sp>
+          <sp xml:id="A06583-e102260" who="A06583-plato">
+            <speaker>Plato</speaker>
+            <p xml:id="A06583-e102270">Let us question a little with Diogenes, why he went not with us to Alexander, Diogenes, thou didst forget thy duty, that thou wentest not with us to the King.</p>
+          </sp>
+          <sp xml:id="A06583-e102280" who="A06583-diog">
+            <pb facs="9"/>
+            <speaker>Diog●.</speaker>
+            <p xml:id="A06583-e102290">And you your profession, that you went to the King.</p>
+          </sp>
+          <sp xml:id="A06583-e102300" who="A06583-plato">
+            <speaker>Plato</speaker>
+            <p xml:id="A06583-e102310">Thou takest as great pride to be peevish, as others do glory to be virtuous.</p>
+          </sp>
+          <sp xml:id="A06583-e102320" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102330">And thou as great honour being a philosopher to be thought courtlike, as others shame that be courtiers, to be accounted philosophers.</p>
+          </sp>
+          <sp xml:id="A06583-e102340" who="A06583-aristotle">
+            <speaker>Arist.</speaker>
+            <p xml:id="A06583-e102350">These austere manners set aside, it is well known that thou didst counterfeit money.</p>
+          </sp>
+          <sp xml:id="A06583-e102360" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102370">And thou thy manners, in that thou didst not counterfeit money.</p>
+          </sp>
+          <sp xml:id="A06583-e102380" who="A06583-aristotle">
+            <speaker>Arist.</speaker>
+            <p xml:id="A06583-e102390">Thou hast reason to contemn the court, being both in body and mind too crooked for a courtier.</p>
+          </sp>
+          <sp xml:id="A06583-e102400" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102410">As good be crooked, and endeavour to make myself straight from the court, as to be straight, and learn to be crooked at the court.</p>
+          </sp>
+          <sp xml:id="A06583-e102420" who="A06583-crates">
+            <speaker>Crates</speaker>
+            <p xml:id="A06583-e102430">Thou thinkest it a grace to be opposite against Alexander. </p>
+          </sp>
+          <sp xml:id="A06583-e102440" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102450">And thou to be jump with Alexander. </p>
+          </sp>
+          <sp xml:id="A06583-e102460" who="A06583-anaxarchus">
+            <speaker>Anaxar</speaker>
+            <p xml:id="A06583-e102470">Let us go: for in cotemning him, we shall better please him, then in wondering at him.</p>
+          </sp>
+          <sp xml:id="A06583-e102480" who="A06583-aristotle">
+            <speaker>Arist.</speaker>
+            <p xml:id="A06583-e102490">Plato, what dost thou think of Diogenes? </p>
+          </sp>
+          <sp xml:id="A06583-e102500" who="A06583-plato">
+            <speaker>Plato</speaker>
+            <p xml:id="A06583-e102510">To be Socrates' furious, let us go.</p>
+          </sp>
+          <stage xml:id="A06583-e102520">Exeunt philosophi.</stage>
+        </div>
+      </div>
+      <div n="2" type="act" xml:id="A06583-e102530">
+        <div n="1" type="scene" xml:id="A06583-e102540">
+          <head>Actus secundus, schaena prima.</head>
+          <stage xml:id="A06583-e102550">Diogenes, Psyllus, manes, Granichus.</stage>
+          <sp xml:id="A06583-e102560" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e102570">Behold manes where thy master is, seeking either for bones for his dinner, or pins for his sleeves. I will go salute him.</p>
+          </sp>
+          <sp xml:id="A06583-e102580" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e102590">Do so, but mum not a word that you saw manes. </p>
+          </sp>
+          <sp xml:id="A06583-e102600" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e102610">Then stay thou behind, and I will go with Psyllus. </p>
+          </sp>
+          <sp xml:id="A06583-e102620" who="A06583-psyllus">
+            <pb facs="10"/>
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e102630">All hail Diogenes to your proper person.</p>
+          </sp>
+          <sp xml:id="A06583-e102640" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102650">All hate to thy peevish conditions.</p>
+          </sp>
+          <sp xml:id="A06583-e102660" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e102670">O dog.</p>
+          </sp>
+          <sp xml:id="A06583-e102680" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e102690">What dost thou seek for here?</p>
+          </sp>
+          <sp xml:id="A06583-e102700" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102710">For a man and a beast.</p>
+          </sp>
+          <sp xml:id="A06583-e102720" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e102730">That is easy without thy light to be found, be not all these men?</p>
+          </sp>
+          <sp xml:id="A06583-e102740" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102750">Called men.</p>
+          </sp>
+          <sp xml:id="A06583-e102760" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e102770">What beast is it thou lookest for?</p>
+          </sp>
+          <sp xml:id="A06583-e102780" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102790">The beast my man Manes. </p>
+          </sp>
+          <sp xml:id="A06583-e102800" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e102810">He is a beast in deed that will serve thee.</p>
+          </sp>
+          <sp xml:id="A06583-e102820" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102830">So is he that begat thee.</p>
+          </sp>
+          <sp xml:id="A06583-e102840" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e102850">What wouldst thou do, if thou shouldst find manes? </p>
+          </sp>
+          <sp xml:id="A06583-e102860" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102870">Give him leave to do as he hath done before.</p>
+          </sp>
+          <sp xml:id="A06583-e102880" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e102890">What's that?</p>
+          </sp>
+          <sp xml:id="A06583-e102900" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102910">To run away.</p>
+          </sp>
+          <sp xml:id="A06583-e102920" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e102930">Why, hast thou no need of manes? </p>
+          </sp>
+          <sp xml:id="A06583-e102940" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102950">It were a shame for Diogenes to have need of manes, and for manes to have no need of Diogenes. </p>
+          </sp>
+          <sp xml:id="A06583-e102960" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e102970">But put the case he were gone, wouldst thou entertain any of us two?</p>
+          </sp>
+          <sp xml:id="A06583-e102980" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e102990">Upon condition.</p>
+          </sp>
+          <sp xml:id="A06583-e103000" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e103010">What?</p>
+          </sp>
+          <sp xml:id="A06583-e103020" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e103030">That you should tell me wherefore any of you both were good.</p>
+          </sp>
+          <sp xml:id="A06583-e103040" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e103050">Why, I am a scholar, and well seen in philosophy.</p>
+          </sp>
+          <sp xml:id="A06583-e103060" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e103070">And I a prentice, and well seen in painting.</p>
+          </sp>
+          <sp xml:id="A06583-e103080" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e103090">Well then Granichus, be thou a painter to amend thine ill face, and thou Psyllus a philosopher to correct thine evil manners. But who is that manes? </p>
+          </sp>
+          <sp xml:id="A06583-e103100" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e103110">I care not who I were so I were not manes. </p>
+          </sp>
+          <sp xml:id="A06583-e103120" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e103130">You are taken tardy.</p>
+          </sp>
+          <sp xml:id="A06583-e103140" who="A06583-psyllus">
+            <pb facs="10"/>
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e103150">Let us slip aside gravickiis, to see the salutation between manes and his master.</p>
+          </sp>
+          <sp xml:id="A06583-e103160" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e103170">Manes, thou knowest the last day I threw away my dish to drink in my hand, because it was superfluous, now I am determined to put away my man, and serve myself: quia non egeo tui velte. </p>
+          </sp>
+          <sp xml:id="A06583-e103180" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e103190">Master, you know a while ago I ran away, so do I mean to do again, quia'scio tibi esse argentum. </p>
+          </sp>
+          <sp xml:id="A06583-e103200" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e103210">I know I have no money, neither will I have ever a man: for I was resolved long sithence to put away both my slaves, money and maves. </p>
+          </sp>
+          <sp xml:id="A06583-e103220" who="A06583-manes">
+            <speaker>Manes.</speaker>
+            <p xml:id="A06583-e103230">So was I determined to shake off both my dogs, hunger and Diogenes. </p>
+          </sp>
+          <sp xml:id="A06583-e103240" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e103250">O sweet consent between a crowd and a Jew's harp.</p>
+          </sp>
+          <sp xml:id="A06583-e103260" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e103270">Come, let us reconcile them</p>
+          </sp>
+          <sp xml:id="A06583-e103280" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e103290">It shall not need: for this is their use, now do they dine one upon another.</p>
+          </sp>
+          <stage xml:id="A06583-e103300">Exit Diog.</stage>
+          <sp xml:id="A06583-e103310" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e103320">How now manes, art thou gone from thy master.</p>
+          </sp>
+          <sp xml:id="A06583-e103330" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e103340">No, I did but now bind myself to him.</p>
+          </sp>
+          <sp xml:id="A06583-e103350" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e103360">Why, you were at mortalliars.</p>
+          </sp>
+          <sp xml:id="A06583-e103370" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e103380">In faith no, we broke a bitter jest one upon another.</p>
+          </sp>
+          <sp xml:id="A06583-e103390" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e103400">Why, thou art as dogged as he.</p>
+          </sp>
+          <sp xml:id="A06583-e103410" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e103420">My father knew them both little whelps.</p>
+          </sp>
+          <sp xml:id="A06583-e103430" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e103440">Well, I will hie me after my master.</p>
+          </sp>
+          <sp xml:id="A06583-e103450" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e103460">Why, is it supper time with Diogenes? </p>
+          </sp>
+          <sp xml:id="A06583-e103470" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e103480">Ay, with him at all times when he hath meat.</p>
+          </sp>
+          <sp xml:id="A06583-e103490" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e103500">Why then every man to his home, and let us steal out again anon.</p>
+          </sp>
+          <sp xml:id="A06583-e103510" who="A06583-granichus">
+            <speaker>Grani.</speaker>
+            <p xml:id="A06583-e103520">Where shall we meet.</p>
+          </sp>
+          <sp xml:id="A06583-e103530" who="A06583-psyllus">
+            <pb facs="11"/>
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e103540">Why, at ala vendibili suspensa badera non est epus. </p>
+          </sp>
+          <sp xml:id="A06583-e103550" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e103560">O Psyllus habeo te leco parentis, thou blessest me.</p>
+          </sp>
+          <stage xml:id="A06583-e103570">Exeunt.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A06583-e103580">
+          <head>Actus secundus, schaena secunda.</head>
+          <stage xml:id="A06583-e103590">Alexander, Hephestion, page, Diogenes, Apelles.</stage>
+          <sp xml:id="A06583-e103600" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e103610">Stand aside sir boy, till you be called. Hephestion, how do ye like the sweet face of Campaspe? </p>
+          </sp>
+          <sp xml:id="A06583-e103620" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e103630">I cannot but commend the stout courage of Timeclea. </p>
+          </sp>
+          <sp xml:id="A06583-e103640" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e103650">Without doubt Campaspe had some great man to her father.</p>
+          </sp>
+          <sp xml:id="A06583-e103660" who="A06583-hephaestion">
+            <speaker>Hephe.</speaker>
+            <p xml:id="A06583-e103670">You know Timoclea had Theagines to her brother.</p>
+          </sp>
+          <sp xml:id="A06583-e103680" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e103690">Timoclea still in thy mouth, art thou not in love?</p>
+          </sp>
+          <sp xml:id="A06583-e103700" who="A06583-hephaestion">
+            <speaker>Hephe.</speaker>
+            <p xml:id="A06583-e103710">Not I.</p>
+          </sp>
+          <sp xml:id="A06583-e103720" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e103730">Not with Timoclea you mean, wherein you resemble the lapwing, who crieth most where her nest is not. And so you lead me from espying your love with Campaspe, you cry Timoclea. </p>
+          </sp>
+          <sp xml:id="A06583-e103740" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e103750">Could I as well subdue kingdoms, as I can my thoughts, or were I as far from ambition, as I am from love, all the world would account me as valiant in arms as I know myself moderate in affection.</p>
+          </sp>
+          <sp xml:id="A06583-e103760" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e103770">Is love a vice?</p>
+          </sp>
+          <sp xml:id="A06583-e103780" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e103790">It is no virtue.</p>
+          </sp>
+          <sp xml:id="A06583-e103800" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e103810">Well, now shalt thou see what small difference I make between Alexander and Hephestion. And sith thou hast been always partaker of my triumphs, thou shalt be partaker of my torments. I love Hephestion, I love I love Campaspe, a thing far unfit for a Macedonian, for a King, for Alexander. Why hangest thou down thy head Hephestion? blushing to hear that which<pb facs="11"/> I am not ashamed to tell.</p>
+          </sp>
+          <sp xml:id="A06583-e103820" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e103830">Might my words crave pardon and my counsel credit, I would both discharge the duty of a subject, for so I am, and the office of a friend, for so I will.</p>
+          </sp>
+          <sp xml:id="A06583-e103840" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e103850">Speak Hephestion, for whatsoever is spoken, Hephestion speaketh to Alexander. </p>
+          </sp>
+          <sp xml:id="A06583-e103860" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e103870">I cannot tell Alexander, whether the report be more shameful to be heard, or the cause sorrowful to be believed? What, is the son of Philip, King of Macedon become the subject of Campaspe, the captive of Thebes? Is that mind, whose greatness the world could not contain, drawn within the compass of an idle alluring eye? Will you handle the spindle with Hercules, when you should shake the spear with Achilles? Is the warlike sound of drum and trump turned to the soft noise of lyre and lute, the neighing of barbed steeds, whose loudness filled the air with terror, and whose breathes dimmed the sun with smoke, converted to delicate tunes and amorous glances? O Alexander, that soft and yielding mind should not be in him, whose hard and unconquered heart hath made so many yield. But you love, ah grief, but whom? Campaspe, ah shame, a maid forsooth unknown, unnoble; and who can tell whether immodest? whose eyes are framed by art to enamour, and whose heart was made by nature to enchant. Ay, but she is beautiful, yea, but not therefore chaste: ay, but she is comely in all parts of the body: yea, but she may be crooked in some part of the mind; ay, but she is wise, yea, but she is a woman: beauty is like the blackberry, which seemeth red, when it is not ripe resembling precious stones that are polished with honey, which the smother they look, the sooner they break. It is thought wonderful among the sea men that mugil of all fishes the swiftest is found in the belly of the bret of all the slowest; and shall it not seem monstrous to wise men, that the heart of the greatest conqueror of the world, should be found<pb facs="12"/> in the hands of the weakest creature of nature? of a woman? of a captive? Hermyns have fair skins, but foul livers; sepulchre's fresh colours but rotten bones, women fair faces, but false hearts. Remember Alexander thou haste a camp to govern, not a chamber, fall not from the armour of Mars to the arms of Venus, from the fiery assaults of war, to the maidenly skirmishes of love from displaying the eagle in thine ensign, to set down the sparrow. I sigh Alexander that where fortune could not conquer, folly should overcome. But behold all the perfection that may be in Campaspe, a hair curling by nature, not art: sweet alluring eyes, a fair face made in despite of Venus; and a stately port in disdain of Juno, a wit apt to conceive, and quick to answer a skin as soft as silk, and as smooth as jet, a long white hand, a fine little foot, to conclude, all parts answerable to the best part, what of this? Though she have heavenly gifts, virtue and beauty, is she not of earthly metal flesh and blood? You Alexander that would be a God, show yourself in this worse than a man, so soon to be both overseen and overtaken in a woman, whose false tears know their true times, whose smooth words wound deeper than sharp swords. There is no surfeit so dangerous, as that of honey, nor any poison so deadly, as that of love, in the one physic cannot prevail, nor in the other counsel.</p>
+          </sp>
+          <sp xml:id="A06583-e103880" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e103890">My case were light Hephestion, and not worthy to be called love, if reason were a remedy, or sentences could salve, that sense cannot conceive, little do you know, and therefore slightly do you regard the dead embers in a private person, or live coals in a great prince, whose passions and thoughts do as far exceed others in extremity, as their callings do in majesty. An eclipse in the sun is more than the falling of a star, none can conceive the torments of a King, unless he be a King; whose desires are not inferior to their dignities. <pb facs="12"/>And then judge Hephestion if the agonies of love be dangerous in a subject, whether they be not more than deadly unto Alexander, whose deep and not to be conceived sighs, cleave the heart in shivers, whose wounded thoughts can neither be expressed nor endured. Cease then Hephestion with arguments to seek to refel that, which with their deity the gods cannot resist, and let this suffice to answer thee, that it is a King that loveth and Alexander, whose affections are not to be measured by reason, being immortal, nor I fear me to be born being intolerable.</p>
+          </sp>
+          <sp xml:id="A06583-e103900" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e103910">I must needs yield, when neither reason nor counsel can be heard.</p>
+          </sp>
+          <sp xml:id="A06583-e103920" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e103930">Yield Hephestion, for Alexander doth love, and therefore must obtain.</p>
+          </sp>
+          <sp xml:id="A06583-e103940" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e103950">Suppose she loves not you, affection cometh not by appointment or birth, and then as good hated as enforced.</p>
+          </sp>
+          <sp xml:id="A06583-e103960" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e103970">I am a King, and will command.</p>
+          </sp>
+          <sp xml:id="A06583-e103980" who="A06583-hephaestion">
+            <speaker>Hephe.</speaker>
+            <p xml:id="A06583-e103990">You may, to yield to lust by force, but to consent to love by fear you cannot.</p>
+          </sp>
+          <sp xml:id="A06583-e104000" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104010">Why, what is that, which Alexander may not conquer as he list?</p>
+          </sp>
+          <sp xml:id="A06583-e104020" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e104030">Why, that which you say the gods cannot resist, love.</p>
+          </sp>
+          <sp xml:id="A06583-e104040" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104050">I am a conqueror, she a captive, I as fortunate, as she fair: my greatness may answer her wants, and the gifts of my mind, the modesty of hers: is it not likely then that she should love? Is it not reasonable?</p>
+          </sp>
+          <sp xml:id="A06583-e104060" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e104070">You say that in love there is no reason, and therefore there can be no likelihood.</p>
+          </sp>
+          <sp xml:id="A06583-e104080" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104090">No more Hephestion: in this case I will use mine own counsel, and in all other thine advice, thou mayst be a good soldier, but never good lover. Call my page. Sirrah, go presently to Apelles, and will him to come to<pb facs="13"/> me without either delay or excuse.</p>
+          </sp>
+          <sp xml:id="A06583-e104100" who="A06583-page">
+            <speaker>Page</speaker>
+            <p xml:id="A06583-e104110">I go.</p>
+          </sp>
+          <sp xml:id="A06583-e104120" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104130">In the mean season to recreate my spirits, being so near, we will go see Diogenes. And see where his tub is, Diogenes. </p>
+          </sp>
+          <sp xml:id="A06583-e104140" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104150">Who calleth?</p>
+          </sp>
+          <sp xml:id="A06583-e104160" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104170">Alexander: how happened it that you would not come out of your tub to my palace?</p>
+          </sp>
+          <sp xml:id="A06583-e104180" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104190">Because it was as far from my tub to your palace, as from your palace to my tub.</p>
+          </sp>
+          <sp xml:id="A06583-e104200" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104210">Why then dost thou owe no reverence to Kings?</p>
+          </sp>
+          <sp xml:id="A06583-e104220" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104230">No.</p>
+          </sp>
+          <sp xml:id="A06583-e104240" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104250">Why so?</p>
+          </sp>
+          <sp xml:id="A06583-e104260" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104270">Because they be no gods.</p>
+          </sp>
+          <sp xml:id="A06583-e104280" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104290">They be gods of the earth.</p>
+          </sp>
+          <sp xml:id="A06583-e104300" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104310">Yea, gods of earth.</p>
+          </sp>
+          <sp xml:id="A06583-e104320" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104330">Plato is not of thy mind.</p>
+          </sp>
+          <sp xml:id="A06583-e104340" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104350">I am glad of it.</p>
+          </sp>
+          <sp xml:id="A06583-e104360" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104370">Why?</p>
+          </sp>
+          <sp xml:id="A06583-e104380" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104390">Because I would have none of Diogenes' mind, but Diogenes</p>
+          </sp>
+          <sp xml:id="A06583-e104400" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104410">If Alexander have any thing that may pleasure Diogenes, let me know, and take it.</p>
+          </sp>
+          <sp xml:id="A06583-e104420" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104430">Then take not from me, that you cannot give me, the light of the world.</p>
+          </sp>
+          <sp xml:id="A06583-e104440" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104450">What dost thou want?</p>
+          </sp>
+          <sp xml:id="A06583-e104460" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104470">Nothing that you have.</p>
+          </sp>
+          <sp xml:id="A06583-e104480" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104490">I have the world at command.</p>
+          </sp>
+          <sp xml:id="A06583-e104500" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104510">And I in contempt.</p>
+          </sp>
+          <sp xml:id="A06583-e104520" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104530">Thou shalt live no longer than I will.</p>
+          </sp>
+          <sp xml:id="A06583-e104540" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104550">But I shall die whether you will or no.</p>
+          </sp>
+          <sp xml:id="A06583-e104560" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104570">How should one learn to be content?</p>
+          </sp>
+          <sp xml:id="A06583-e104580" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104590">Unlearn to covet.</p>
+          </sp>
+          <sp xml:id="A06583-e104600" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104610">Hephestion, were I not Alexander, I would wish to be Diogenes. </p>
+          </sp>
+          <sp xml:id="A06583-e104620" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e104630">He is dogged, but discrete, I cannot tell how<pb facs="13"/> sharp with a kind of sweetness, full of wit, yet too too wayward.</p>
+          </sp>
+          <sp xml:id="A06583-e104640" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104650">Diogenes, when I come this way again, I will both see thee, and confer with thee.</p>
+          </sp>
+          <sp xml:id="A06583-e104660" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e104670">Do.</p>
+          </sp>
+          <sp xml:id="A06583-e104680" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104690">But here cometh Apelles, how now Apelles, is Venus' face yet finished?</p>
+          </sp>
+          <sp xml:id="A06583-e104700" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e104710">Not yet: beauty is not so soon shadowed, whose perfection cometh not within the compass either of cunning or of colour.</p>
+          </sp>
+          <sp xml:id="A06583-e104720" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e104730">Well let it rest unperfect, and come you with me, where I will show you that finished by nature, that you have been trifling about by art.</p>
+          </sp>
+        </div>
+      </div>
+      <div n="3" type="act" xml:id="A06583-e104740">
+        <div n="1" type="scene" xml:id="A06583-e104750">
+          <head>Actus tertius, schaena prima.</head>
+          <stage xml:id="A06583-e104760">Apelles, Campaspe.</stage>
+          <sp xml:id="A06583-e104770" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e104780">Lady, I doubt whether there be any colour so fresh, that may shadow a countenance so fair.</p>
+          </sp>
+          <sp xml:id="A06583-e104790" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e104800">Sir, I had thought you had been commanded to paint with your hand, not to gloze with your tongue, but as I have heard, it is the hardest thing in painting to set down a hard favour, which maketh you to despair of my face, and then shall you have as great thanks to spare your labour, as to discredit your art.</p>
+          </sp>
+          <sp xml:id="A06583-e104810" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e104820">Mistress, you neither differ from yourself nor your sex: for knowing your own perfection, you seem to dispraise that which men most commend, drawing them by that mean into an admiration, where feeding themselves they fall into an ecstasy, your modesty being the cause of the one, and of the other, your affections.</p>
+          </sp>
+          <sp xml:id="A06583-e104830" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e104840">I am too young to understand your speech, though old enough to withstand your device: you have been so long used to colours, you can do nothing but colour.</p>
+          </sp>
+          <sp xml:id="A06583-e104850" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e104860">Indeed the colours I see, I fear, will alter the colour I have: but come madam, will you draw near: for<pb facs="14"/> Alexander will be here anon. Psyllus, stay you here at the window, if any inquire for me, answer, non lubet esse domi. </p>
+          </sp>
+          <stage xml:id="A06583-e104870">Exeunt.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A06583-e104880">
+          <head>Actus tertius, scaena secunda.</head>
+          <stage xml:id="A06583-e104890">Psyllus, manes.</stage>
+          <sp xml:id="A06583-e104900" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e104910">It is always my master's fashion, when any fair gentlewoman is to be drawn within, to make me to stay without. But if he should paint Jupiter like a bull, like a swan like an eagle, then must Psyllus with one hand grind colours, and with the other hold the candle. But let him alone, the better he shadows her face, the more will he burn his own heart. And now if a man could mere with manes, who I dare say, looks as lean, as if Diogenes dropped out of his nose.</p>
+          </sp>
+          <sp xml:id="A06583-e104920" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e104930">And here comes manes, who hath as much meat in his maw, as thou hast honesty in thy head.</p>
+          </sp>
+          <sp xml:id="A06583-e104940" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e104950">Then I hope thou art very hungry.</p>
+          </sp>
+          <sp xml:id="A06583-e104960" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e104970">They that know thee, know that.</p>
+          </sp>
+          <sp xml:id="A06583-e104980" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e104990">But dost thou not remember that we have certain liquour to confer withal.</p>
+          </sp>
+          <sp xml:id="A06583-e105000" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105010">Ay, but I have business, I must go cry a thing.</p>
+          </sp>
+          <sp xml:id="A06583-e105020" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105030">Why, what hast thou lost?</p>
+          </sp>
+          <sp xml:id="A06583-e105040" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105050">That which I never had, my dinner?</p>
+          </sp>
+          <sp xml:id="A06583-e105060" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105070">Foul lubber wilt thou cry for thy dinner?</p>
+          </sp>
+          <sp xml:id="A06583-e105080" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105090">I mean, I must cry, not as one would say cry, but cry, that is, make a noise.</p>
+          </sp>
+          <sp xml:id="A06583-e105100" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105110">Why fool, that is all one, for if thou cry, thou must needs make a noise.</p>
+          </sp>
+          <sp xml:id="A06583-e105120" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105130">Boy, thou art deceived cry hath divers significations, and may be alluded to many things, knave but one, and can be applied but to thee.</p>
+          </sp>
+          <sp xml:id="A06583-e105140" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105150">Profound manes. </p>
+          </sp>
+          <sp xml:id="A06583-e105160" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105170">We cynics are mad fellows, didst thou<pb facs="14"/> not find I did quip thee?</p>
+          </sp>
+          <sp xml:id="A06583-e105180" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105190">No verily, why, what's a quip?</p>
+          </sp>
+          <sp xml:id="A06583-e105200" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105210">We great girders call it a short saying of a sharp wit, with a bitter sense in a sweet word.</p>
+          </sp>
+          <sp xml:id="A06583-e105220" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105230">How canst thou thus divine, divide, define, dispute, and all on the sudden?</p>
+          </sp>
+          <sp xml:id="A06583-e105240" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105250">Wit will have his swing, I am bewitched, inspire, inflamed, infected.</p>
+          </sp>
+          <sp xml:id="A06583-e105260" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105270">Well, then will not I tempt thy gibing spirit.</p>
+          </sp>
+          <sp xml:id="A06583-e105280" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105290">Do not Psyllus, for thy dull head will be but a grindstone for my quick wit, which if thou whet with overtwhartes, peristi, actum est de te. I have drawn blood at ones brains with a bitter bob.</p>
+          </sp>
+          <sp xml:id="A06583-e105300" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105310">Let me cross myself: for I die, if I cross thee.</p>
+          </sp>
+          <sp xml:id="A06583-e105320" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105330">Let me do my business, I myself am afraid, lest my wit should wax warm, and then must it needs consume some hard head with fine and pretty jests. I am sometimes in such a vain, that for want of some dull pate to work on, I begin to gird myself.</p>
+          </sp>
+          <sp xml:id="A06583-e105340" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105350">The gods shield me from such a fine fellow, whose words melt wits like wax.</p>
+          </sp>
+          <sp xml:id="A06583-e105360" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105370">Well then, let us to the matter. In faith my master meaneth tomorrow to fly.</p>
+          </sp>
+          <sp xml:id="A06583-e105380" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105390">It is a jest.</p>
+          </sp>
+          <sp xml:id="A06583-e105400" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105410">Is it a jest to fly? shouldst thou fly so soon, thou shouldst repent it in earnest.</p>
+          </sp>
+          <sp xml:id="A06583-e105420" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105430">Well, I will be the crier.</p>
+          </sp>
+          <sp xml:id="A06583-e105440" who="A06583-multiple">
+            <speaker>Man. and Psyl. one after another.</speaker>
+            <p xml:id="A06583-e105450">O is, o is, o is, all manner of men, women, or children, that will come to morrow into the market place, between the hours of nine and ten, shall see Diogenes the cynic fly.</p>
+          </sp>
+          <sp xml:id="A06583-e105460" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105470">I do not think he will fly.</p>
+          </sp>
+          <sp xml:id="A06583-e105480" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105490">Tush, say fly.</p>
+          </sp>
+          <sp xml:id="A06583-e105500" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105510">Fly.</p>
+          </sp>
+          <sp xml:id="A06583-e105520" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105530">Now let us go: for I will not see him again, till midnight, I have a back way into his tub.</p>
+          </sp>
+          <sp xml:id="A06583-e105540" who="A06583-psyllus">
+            <pb facs="15"/>
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105550">Which way callest thou the backway, when every way is open.</p>
+          </sp>
+          <sp xml:id="A06583-e105560" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e105570">I mean to come in at his back.</p>
+          </sp>
+          <sp xml:id="A06583-e105580" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e105590">Well, let us go away, that we may return speedily.</p>
+          </sp>
+          <stage xml:id="A06583-e105600">Exeunt.</stage>
+        </div>
+        <div n="3" type="scene" xml:id="A06583-e105610">
+          <head>Actus tertius, schaena tertia.</head>
+          <stage xml:id="A06583-e105620">Apelles, Campaspe.</stage>
+          <sp xml:id="A06583-e105630" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e105640">I shall never draw your eyes well, because they blind mine.</p>
+          </sp>
+          <sp xml:id="A06583-e105650" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e105660">Why then, paint me without eyes, for I am blind?</p>
+          </sp>
+          <sp xml:id="A06583-e105670" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e105680">Were you ever shadowed before of any?</p>
+          </sp>
+          <sp xml:id="A06583-e105690" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e105700">No. And would you could so now shadow me, that I might not be perceived of any.</p>
+          </sp>
+          <sp xml:id="A06583-e105710" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e105720">It were pity, but that so absolute a face should furnish Venus' temple amongst these pictures.</p>
+          </sp>
+          <sp xml:id="A06583-e105730" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e105740">What are these pictures?</p>
+          </sp>
+          <sp xml:id="A06583-e105750" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e105760">This is Leda, whom Jove deceived in likeness of a swan.</p>
+          </sp>
+          <sp xml:id="A06583-e105770" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e105780">A fair woman, but a foul deceit.</p>
+          </sp>
+          <sp xml:id="A06583-e105790" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e105800">This is Alcmena, unto whom Jupiter came in shape of Amphitrion her husband, and begat Hercules. </p>
+          </sp>
+          <sp xml:id="A06583-e105810" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e105820">A famous son, but an infamous fact.</p>
+          </sp>
+          <sp xml:id="A06583-e105830" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e105840">He might do it, because he was a God.</p>
+          </sp>
+          <sp xml:id="A06583-e105850" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e105860">Nay, therefore it was evil done, because he was a God.</p>
+          </sp>
+          <sp xml:id="A06583-e105870" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e105880">This is Danae, into whose prison Jupiter drizzled a golden shower, and obtained his desire.</p>
+          </sp>
+          <sp xml:id="A06583-e105890" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e105900">What gold can make one yield to desire?</p>
+          </sp>
+          <sp xml:id="A06583-e105910" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e105920">This is Europa, whom Jupiter ravished, this Antiopa. </p>
+          </sp>
+          <sp xml:id="A06583-e105930" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e105940">Were all the gods like this Jupiter? </p>
+          </sp>
+          <sp xml:id="A06583-e105950" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e105960">There were many gods in this like Jupiter. </p>
+          </sp>
+          <sp xml:id="A06583-e105970" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e105980">I think in those day's love was well ratified among<pb facs="15"/> men on earth, when lust was so full authorised by the gods in heaven.</p>
+          </sp>
+          <sp xml:id="A06583-e105990" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e106000">Nay, you may imagine there were women passing amiable, whē there were gods exceeding amorous.</p>
+          </sp>
+          <sp xml:id="A06583-e106010" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e106020">Were women never so fair, men would be false.</p>
+          </sp>
+          <sp xml:id="A06583-e106030" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e106040">Were women never so false, men would be fond.</p>
+          </sp>
+          <sp xml:id="A06583-e106050" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e106060">What counterfeit is this Apelles? </p>
+          </sp>
+          <sp xml:id="A06583-e106070" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e106080">This is Venus, the goddess of love.</p>
+          </sp>
+          <sp xml:id="A06583-e106090" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e106100">What, be there also loving goddesses?</p>
+          </sp>
+          <sp xml:id="A06583-e106110" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e106120">This is she that hath power to command the very affections of the heart.</p>
+          </sp>
+          <sp xml:id="A06583-e106130" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e106140">How is she hired, by prayer, by sacrifice, or bribs?</p>
+          </sp>
+          <sp xml:id="A06583-e106150" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e106160">By prayer, sacrifice and bribes.</p>
+          </sp>
+          <sp xml:id="A06583-e106170" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e106180">What prayer?</p>
+          </sp>
+          <sp xml:id="A06583-e106190" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e106200">Vows irrevocable.</p>
+          </sp>
+          <sp xml:id="A06583-e106210" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e106220">What sacrifice?</p>
+          </sp>
+          <sp xml:id="A06583-e106230" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e106240">Hearts ever sighing, never dissembling.</p>
+          </sp>
+          <sp xml:id="A06583-e106250" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e106260">What bribes?</p>
+          </sp>
+          <sp xml:id="A06583-e106270" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e106280">Roses and kisses? but were you never in love?</p>
+          </sp>
+          <sp xml:id="A06583-e106290" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e106300">No, nor love in me.</p>
+          </sp>
+          <sp xml:id="A06583-e106310" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e106320">Then have you injuried many.</p>
+          </sp>
+          <sp xml:id="A06583-e106330" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e106340">How so?</p>
+          </sp>
+          <sp xml:id="A06583-e106350" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e106360">Because you have been loved of many.</p>
+          </sp>
+          <sp xml:id="A06583-e106370" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e106380">Flattered perchance of some.</p>
+          </sp>
+          <sp xml:id="A06583-e106390" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e106400">Is it not possible that a face so fair, and a wit so sharp, both without comparison, should not be apt to love.</p>
+          </sp>
+          <sp xml:id="A06583-e106410" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e106420">If you begin to tip your tongue with cunning, I pray dip your pencil in colours, and fall to that you must do, not that you would do.</p>
+          </sp>
+        </div>
+        <div n="4" type="scene" xml:id="A06583-e106430">
+          <head>Actus tertius, schaena quarta.</head>
+          <stage xml:id="A06583-e106440">Clytus, Parmenio, Alexander, Hephestion, Crysus, Diogenes, Apelles, Campaspe.</stage>
+          <sp xml:id="A06583-e106450" who="A06583-clitus">
+            <speaker>Clytus</speaker>
+            <p xml:id="A06583-e106460">Parmenio I cannot tell how it cometh to pass, that in Alexander now a day's there groweth an unpatient kind of life, in the morning he is melancholy, at noon<pb facs="16"/> solemn, at all times either more sour or severe, than he was accustomed.</p>
+          </sp>
+          <sp xml:id="A06583-e106470" who="A06583-parmenio">
+            <speaker>Parme.</speaker>
+            <p xml:id="A06583-e106480">In King's causes I rather love to doubt then conjecture and think it better to be ignorant then inquisitive: they have long ears and stretched arms, in whose heads suspicion is a proof, and to be accused is to be condemned.</p>
+          </sp>
+          <sp xml:id="A06583-e106490" who="A06583-clitus">
+            <speaker>Clytus</speaker>
+            <p xml:id="A06583-e106500">Yet between us there can be no danger to find out the cause: for that there is no malice to withstand it. It may be an unquenchable thirst of conquering maketh him unquiet: it is not unlikely his long ease hath altered his humour: that he should be in love, it is not impossible.</p>
+          </sp>
+          <sp xml:id="A06583-e106510" who="A06583-parmenio">
+            <speaker>Parme.</speaker>
+            <p xml:id="A06583-e106520">In love Clytus, no, no, it is as far from his thought, as treason in ours: he, whose ever waking eye, whose never tired heart, whose body patient of labour, whose mind unsatiable of victory hath always been noted, cannot so soon be melted into the weak conceits of love: Aristotle told him there were many worlds, and that he hath not conquered one that gapeth for all, galleth Alexander. But here he cometh.</p>
+          </sp>
+          <sp xml:id="A06583-e106530" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e106540">Parmenio, and Clytus, I would have you both ready to go into Persia about an ambassage no less profitable to me, than to yourselves honourable.</p>
+          </sp>
+          <sp xml:id="A06583-e106550" who="A06583-clitus">
+            <speaker>Clitus</speaker>
+            <p xml:id="A06583-e106560">We are ready at all commands, wishing nothing else, but continually to be commanded.</p>
+          </sp>
+          <sp xml:id="A06583-e106570" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e106580">Well, then withdraw yourselves, till I have further considered of this matter.</p>
+            <stage xml:id="A06583-e106590">Exeunt Clytus and Parmenio.</stage>
+            <p xml:id="A06583-e106600">Now we will see how Apelles goeth forward: I doubt me that nature hath overcome art, and her countenance his cunning.</p>
+          </sp>
+          <sp xml:id="A06583-e106610" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e106620">You love, and therefore think any thing.</p>
+          </sp>
+          <sp xml:id="A06583-e106630" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e106640">But not so far in love with Campaspe, as with Bucephalus, if occasion serve either of conflict or of conquest.</p>
+          </sp>
+          <sp xml:id="A06583-e106650" who="A06583-hephaestion">
+            <pb facs="16"/>
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e106660">Occasion cannot want, if will do not. Behold all Persia swelling in the pride of their own power, the Scythians careless what courage or fortune can do: the Egyptians dreaming in the soothsayings of their augurs, and gaping over the sinoak of their beasts entrails. All these Alexander are to be subdued, if that world be not slipped out of your head, which you have sworn to conquer with that hand.</p>
+          </sp>
+          <sp xml:id="A06583-e106670" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e106680">I confess the labours fit for Alexander, and yet recreation necessary among so many assaults, bloody wounds, intolerable troubles: give me leave a little, if not to sit, yet to breath. And doubt not but Alexander can when he will throw affections as far from him, as he can cowardice. But behold Diogenes talking with one at his tub.</p>
+          </sp>
+          <sp xml:id="A06583-e106690" who="A06583-crysus">
+            <speaker>Crysus</speaker>
+            <p xml:id="A06583-e106700">One penny Diogenes, I am a cynic.</p>
+          </sp>
+          <sp xml:id="A06583-e106710" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e106720">He made thee a beggar, that first gave thee any thing.</p>
+          </sp>
+          <sp xml:id="A06583-e106730" who="A06583-crysus">
+            <speaker>Crysus</speaker>
+            <p xml:id="A06583-e106740">Why, if thou wilt give nothing, nobody will give thee.</p>
+          </sp>
+          <sp xml:id="A06583-e106750" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e106760">I want nothing, till the springs dry, and the earth perish.</p>
+          </sp>
+          <sp xml:id="A06583-e106770" who="A06583-crysus">
+            <speaker>Crysus</speaker>
+            <p xml:id="A06583-e106780">I gather for the gods.</p>
+          </sp>
+          <sp xml:id="A06583-e106790" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e106800">And I care not for those gods, which want money.</p>
+          </sp>
+          <sp xml:id="A06583-e106810" who="A06583-crysus">
+            <speaker>Crysus</speaker>
+            <p xml:id="A06583-e106820">Thou art a right cynic, that will give nothing.</p>
+          </sp>
+          <sp xml:id="A06583-e106830" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e106840">Thou art not, that will beg anything.</p>
+          </sp>
+          <sp xml:id="A06583-e106850" who="A06583-crysus">
+            <speaker>Crysus</speaker>
+            <p xml:id="A06583-e106860">Alexander, King Alexander, give a poor cynic a groat.</p>
+          </sp>
+          <sp xml:id="A06583-e106870" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e106880">It is not for a King to give a groat.</p>
+          </sp>
+          <sp xml:id="A06583-e106890" who="A06583-crysus">
+            <speaker>Crysus</speaker>
+            <p xml:id="A06583-e106900">Then give me a talon.</p>
+          </sp>
+          <sp xml:id="A06583-e106910" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e106920">It is not for a beggar to ask a talon. Away. Apelles? </p>
+          </sp>
+          <sp xml:id="A06583-e106930" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e106940">Here.</p>
+          </sp>
+          <sp xml:id="A06583-e106950" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e106960">Now gentlewoman, doth not your beauty<pb facs="17"/> put the painter to his trump?</p>
+          </sp>
+          <sp xml:id="A06583-e106970" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e106980">Yes my lord, seeing so disordered a countenance, he feareth he shall, shadow a deformed counterfeit.</p>
+          </sp>
+          <sp xml:id="A06583-e106990" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107000">Would he could colour the life with the feature. And methinketh Apelles, were you as cunning as report saith you are, you may paint flowers as well with sweet smells, as fresh colours, observing in your mixture such things as should draw near to their savours.</p>
+          </sp>
+          <sp xml:id="A06583-e107010" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107020">Your majesty must know, it is no less hard to paint savours then virtues, colours can neither speak nor think.</p>
+          </sp>
+          <sp xml:id="A06583-e107030" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107040">Where do you first begin, when you draw any picture?</p>
+          </sp>
+          <sp xml:id="A06583-e107050" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107060">The proportion of the face in just compass, as I can.</p>
+          </sp>
+          <sp xml:id="A06583-e107070" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107080">I would begin with the eye, as a light to all the rest.</p>
+          </sp>
+          <sp xml:id="A06583-e107090" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107100">If you will paint, as you are a King, your majesty, may begin where you please, but as you would be a painter, you must begin with the face.</p>
+          </sp>
+          <sp xml:id="A06583-e107110" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107120">Aurelius would in one hour colour four faces.</p>
+          </sp>
+          <sp xml:id="A06583-e107130" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107140">I marvel in half an hour he did not four.</p>
+          </sp>
+          <sp xml:id="A06583-e107150" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107160">Why, is it so easy?</p>
+          </sp>
+          <sp xml:id="A06583-e107170" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107180">No, but he doth it so homely.</p>
+          </sp>
+          <sp xml:id="A06583-e107190" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107200">When will you finish Campaspe? </p>
+          </sp>
+          <sp xml:id="A06583-e107210" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107220">Never finish: for always in absolute beauty there is somewhat above art.</p>
+          </sp>
+          <sp xml:id="A06583-e107230" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107240">Why should not I by labour be as cunning as Apelles? </p>
+          </sp>
+          <sp xml:id="A06583-e107250" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107260">God shield you should have cause to be so cunning as Apelles. </p>
+          </sp>
+          <sp xml:id="A06583-e107270" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107280"> methinketh four colours are sufficient to shadow any countenance, and so it was in the time of Phydias. </p>
+          </sp>
+          <sp xml:id="A06583-e107290" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107300">Then had men fewer fancies, and women not so many favours. For now, if the hair of her eye brows be black,<pb facs="17"/> yet must the hair of her head be yellow: the attire of her head must be different from the habit of her body, else would the picture seem like the blazon of ancient armoury, not like the sweet delight of new found amiableness. For as in garden knots diversity of odours make a more sweet savour, or as in music divers strings cause a more delicate consent, so in painting, the more colours, the better counterfeit, observing black for a ground, and the rest for grace.</p>
+          </sp>
+          <sp xml:id="A06583-e107310" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107320">Lend me thy pencil Apelles, I will paint, and thou shalt judge.</p>
+          </sp>
+          <sp xml:id="A06583-e107330" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107340">Here.</p>
+          </sp>
+          <sp xml:id="A06583-e107350" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107360">The coal breaks.</p>
+          </sp>
+          <sp xml:id="A06583-e107370" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107380">You lean too hard.</p>
+          </sp>
+          <sp xml:id="A06583-e107390" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107400">Now it blacks not.</p>
+          </sp>
+          <sp xml:id="A06583-e107410" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107420">You lean too soft.</p>
+          </sp>
+          <sp xml:id="A06583-e107430" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107440">This is awry.</p>
+          </sp>
+          <sp xml:id="A06583-e107450" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107460">Your eye goeth not with your hand.</p>
+          </sp>
+          <sp xml:id="A06583-e107470" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107480">Now it is worse.</p>
+          </sp>
+          <sp xml:id="A06583-e107490" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107500">Your hand goeth not with your mind.</p>
+          </sp>
+          <sp xml:id="A06583-e107510" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107520">Nay, if all be too hard or soft, so many rules and regards, that ones hand ones eye, ones mind must all draw together, I had rather be setting of a battle, then blotting of a board. But how have I done here?</p>
+          </sp>
+          <sp xml:id="A06583-e107530" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107540">Like a King.</p>
+          </sp>
+          <sp xml:id="A06583-e107550" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107560">I think so: but nothing more unlike a painter. Well Apelles, Campaspe is finished as I wish, dismiss her, and bring presently her counterfeit after me.</p>
+          </sp>
+          <sp xml:id="A06583-e107570" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107580">I will.</p>
+          </sp>
+          <sp xml:id="A06583-e107590" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107600">Now Hephestion, doth not this matter cotton as I would, Campaspe looketh pleasantly, liberty will increase her beauty, and my love shall advance her honour.</p>
+          </sp>
+          <sp xml:id="A06583-e107610" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e107620">I will not contrary your majesty, for time must wear out that love hath wrought, and reason wean what appetite nursed.</p>
+          </sp>
+          <sp xml:id="A06583-e107630" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107640">How stately she passeth by, yet how soberly, a<pb facs="18"/> sweet consent in her countenance with a chaste disdain, desire mingled with coyness, and I cannot tell how to term it, a cursed yielding modesty.</p>
+          </sp>
+          <sp xml:id="A06583-e107650" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e107660">Let her pass.</p>
+          </sp>
+          <sp xml:id="A06583-e107670" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e107680">So she shall for the fairest on the earth.</p>
+          </sp>
+          <stage xml:id="A06583-e107690">Exeunt.</stage>
+        </div>
+        <div n="5" type="scene" xml:id="A06583-e107700">
+          <head>Actus tertius, schaena quinta.</head>
+          <stage xml:id="A06583-e107710">Psyllus, manes, Apelles.</stage>
+          <sp xml:id="A06583-e107720" who="A06583-psyllus">
+            <speaker>Psyllus.</speaker>
+            <p xml:id="A06583-e107730">I shall be hanged for tarrying so long.</p>
+          </sp>
+          <sp xml:id="A06583-e107740" who="A06583-manes">
+            <speaker>Manes.</speaker>
+            <p xml:id="A06583-e107750">I pray God my master be not flown before I come.</p>
+          </sp>
+          <sp xml:id="A06583-e107760" who="A06583-psyllus">
+            <speaker>Psyllus.</speaker>
+            <p xml:id="A06583-e107770">Away Manes, my master doth come.</p>
+          </sp>
+          <sp xml:id="A06583-e107780" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107790">Where have you been all this while?</p>
+          </sp>
+          <sp xml:id="A06583-e107800" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e107810"> nowhere but here.</p>
+          </sp>
+          <sp xml:id="A06583-e107820" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107830">Who was here sithence my coming?</p>
+          </sp>
+          <sp xml:id="A06583-e107840" who="A06583-psyllus">
+            <speaker>Psil.</speaker>
+            <p xml:id="A06583-e107850"> nobody .</p>
+          </sp>
+          <sp xml:id="A06583-e107860" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107870">Ungracious wag, I perceive you have been a loitering, was Alexander nobody ?</p>
+          </sp>
+          <sp xml:id="A06583-e107880" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e107890">He was a King, I meant no mean body.</p>
+          </sp>
+          <sp xml:id="A06583-e107900" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e107910">I will cudgel your body for it, and then will I say it was nobody , because it was no honest body. Away in.</p>
+            <stage xml:id="A06583-e107920">Exit Psyl.</stage>
+            <p xml:id="A06583-e107930">Unfortunate Apelles, and therefore unfortunate, because Apelles. Hast thou by drawing her beauty brought to pass thatthou canst scarce draw thine own breath? And by so much the more hast thou increased thy care, by how much the more thou hast showed thy cunning: was it not sufficient to behold the fire, and warm thee, but with Satyrus thou must kiss the fire and burn thee? O Campaspe, Campaspe, art must yield to nature, reason to appetite, wisdom to affection, could Pygmalion entreat<pb facs="18"/> by prayer to have his ivory turned into flesh? and cannot Apelles obtain by plaints to have the picture of his love changed to life? Is painting so far inferior to carving? or dost thou Venus' more delight to be hewed with chisels, then shadowed with colours? what Pygmalion, or what Pyrgoteles, or what Lysippus is he, that ever made thy face so fair, or spread thy fame so far as I? unless Venus, in this thou enviest mine art, that in colouring my sweet Campaspe, I have left no place by cunning to make thee so amiable. But alas, she is the paramour to a prince. Alexander the monarch of the earth hath both her body and affection. For what is it that Kings cannot obtain by prayers, threats and promises? Will not she think it better to sit under a cloth of estate like a Queen, than in a poor shop like a housewife? and esteem it sweeter to be the concubine of the lord of the world, than spouse to a painter in Athens? Yes, yes Apelles, thou mayst swim against the stream with the crab, and feed against the wind with the dear, and peck against the steel with the cockatrice: stars are to be looked at, not reached at. Princes to be yielded unto, not contended with, Campaspe to be honoured, not obtained, to be painted, not possessed of thee: oh fair face, oh unhappy hand, and why didst thou draw it so fair a face? O beautiful countenance, the express image of Venus, but somewhat fresher: the only pattern of that eternity which Jupiter dreaming of asleep, could not conceive again waking. Blush Venus, for I am ashamed to end thee. Now must I paint things unpossible for mine art, but agreeable with my affections: deep and hollow sighs, sad and melancholy thoughts, wounds and slaughters of conceits, a life posting to death, a death galloping from life, a wavering constancy, an unsettled resolution, and what not, Apelles? And what but Apelles? But as they that are shaken with a fever are to be warmed with clothes, not groans, and as he that melteth in<pb facs="19"/> a consumption is to be recured by colices, not conceits: so the feeding canker of my care, the never dying worm of my heart, is to be killed by counsel, not cries, by applying of remedies, not by replying of reasons. And sith in cases desperate there must be used medicines thatare extreme, I will hazard that little life that is left, to restore the greater part that is lost, and this shall be my first practice: for wit must work, where authority is not. As soon as Alexander hath viewed this portraiture, I will by device give it a blemish, that by that means she may come again to my shop, and then as good it were to utter my love, and die with denial, as conceal it and live in despair.</p>
+          </sp>
+          <stage xml:id="A06583-e107940">The song.</stage>
+        </div>
+      </div>
+      <div n="4" type="act" xml:id="A06583-e107950">
+        <div n="1" type="scene" xml:id="A06583-e107960">
+          <head>Actus quartus, schaena prima.</head>
+          <stage xml:id="A06583-e107970">Solinus, Psyllus, Granichus, manes, Diogenes, populus.</stage>
+          <sp xml:id="A06583-e107980" who="A06583-solinus">
+            <speaker>Soli.</speaker>
+            <p xml:id="A06583-e107990">This is the place, the day, the time, that Diogenes hath appointed to fly.</p>
+          </sp>
+          <sp xml:id="A06583-e108000" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e108010">I will not lose the flight of so fair a foul as Diogenes is, though my master cudgel my nobody , as he threatened.</p>
+          </sp>
+          <sp xml:id="A06583-e108020" who="A06583-granichus">
+            <speaker>Gran.</speaker>
+            <p xml:id="A06583-e108030">What Psyllus, will the beast wag his wings today?</p>
+          </sp>
+          <sp xml:id="A06583-e108040" who="A06583-psyllus">
+            <speaker>Psyl.</speaker>
+            <p xml:id="A06583-e108050">We shall hear: for here cometh Manes: Manes will it be?</p>
+          </sp>
+          <sp xml:id="A06583-e108060" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e108070">Be, he were best be as cunning as a bee, 'Or else shortly he will not be at all.</p>
+          </sp>
+          <sp xml:id="A06583-e108080" who="A06583-granichus">
+            <speaker>Gran.</speaker>
+            <p xml:id="A06583-e108090">How is he furnished to fly, hath he feathers?</p>
+          </sp>
+          <sp xml:id="A06583-e108100" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e108110">Thou art an ass, capons, geese and owls have feathers. He hath found Dedalus old waxen wings, and hath been piecing them this month, he is so broad in the shoulders. O you shall see him cut the air even like a tortoise.</p>
+          </sp>
+          <sp xml:id="A06583-e108120" who="A06583-solinus">
+            <pb facs="19"/>
+            <speaker>Soli.</speaker>
+            <p xml:id="A06583-e108130">Methinks so wise a man should not be so mad, his body must needs be too heavy.</p>
+          </sp>
+          <sp xml:id="A06583-e108140" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e108150">Why, he hath eaten nothing this sevennight but cork and feathers.</p>
+          </sp>
+          <sp xml:id="A06583-e108160" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e108170">Touch him manes. </p>
+          </sp>
+          <sp xml:id="A06583-e108180" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e108190">He is so light that he can scarce keep him from flying at midnight.</p>
+          </sp>
+          <stage xml:id="A06583-e108200">Populus intrat.</stage>
+          <sp xml:id="A06583-e108210" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e108220">See they begin to flock, and behold my master bustles himself to fly.</p>
+          </sp>
+          <sp xml:id="A06583-e108230" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e108240">Ye wicked and bewitched Athenians, whose bodies make the earth to groan, and whose breathes infect the air with stench. Come ye to see Diogenes fly? Diogenes cometh to see you sink: ye call me dog, so I am, for I long to gnaw the bones in your skins. Ye term mean hater of men: no, I am a hater of your manners. Your lives dissolute, not fearing death, will prove your deaths desperate, not hoping for life. What do you else in Athens but sleep in the day, and surfeit in the night: back gods in the morning with pride, in the evening belly gods with gluttony. You flatter Kings, and call them gods, speak truth of yourselves, and confess you are devils. From the bee you have taken not the honey, but the wax to make your religion, framing it to the time, not to the truth. Your filthy lust you colour under a courtly colour of love, injuries abroad under the title of policies at home, and secret malice creepeth under the name of public justice. You have caused Alexander to dry up springs and plant vines, to sow rocket and weed endive, to shear sheep, and shrine foxes. All conscience is sealed at Athens. Swearing cometh of a hot mettle: lying of a quick wit: flattery of a flowing tongue, undecent talk of a merry disposition. All things are lawful at Athens. Either you think there are no gods, or I must think ye are no men. You build as though you should live for ever, and surfeit as though you should die tomorrow. <pb facs="20"/>None teacheth true philosophy but Aristotle, because he was the King's schoolmaster. O times, oh men, oh corruption in manners. Remember that green grass must turn to dry hay. When you sleep, you are not sure to wake, and when you rise not certain to lie down. Look you never so high, your heads must lie level with your feet. Thus have I flown over your disordered lives, and if you will not amend your manners, I will study to fly further from you, that I may be nearer to honesty.</p>
+          </sp>
+          <sp xml:id="A06583-e108250" who="A06583-solinus">
+            <speaker>Soli.</speaker>
+            <p xml:id="A06583-e108260">Thou ravest Diogenes, for thy life is different from thy words. Did not, I see thee come out of a brothel house? was it not a shame?</p>
+          </sp>
+          <sp xml:id="A06583-e108270" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e108280">It was no shame to go out, but a shame to go in.</p>
+          </sp>
+          <sp xml:id="A06583-e108290" who="A06583-unassigned">
+            <speaker>Grant</speaker>
+            <p xml:id="A06583-e108300">It were a good deed manes, to beat thy master.</p>
+          </sp>
+          <sp xml:id="A06583-e108310" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e108320">You were as good eat my master.</p>
+          </sp>
+          <sp xml:id="A06583-e108330" who="A06583-unassigned">
+            <speaker>One of the people.</speaker>
+            <p xml:id="A06583-e108340">Hast thou made us all fools, and wile thou not fly?</p>
+          </sp>
+          <sp xml:id="A06583-e108350" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e108360">I tell thee, unless thou be honest, I will fly.</p>
+          </sp>
+          <sp xml:id="A06583-e108370" who="A06583-people">
+            <speaker>People</speaker>
+            <p xml:id="A06583-e108380">Dog, dog, take a bone.</p>
+          </sp>
+          <sp xml:id="A06583-e108390" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e108400">Thy father need fear no dogs, but dogs thy father.</p>
+          </sp>
+          <sp xml:id="A06583-e108410" who="A06583-people">
+            <speaker>People</speaker>
+            <p xml:id="A06583-e108420">We will tell Alexander, that thou reprovest him behind his back.</p>
+          </sp>
+          <sp xml:id="A06583-e108430" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e108440">And I will tell him, that you flatter him before his face.</p>
+          </sp>
+          <sp xml:id="A06583-e108450" who="A06583-people">
+            <speaker>People</speaker>
+            <p xml:id="A06583-e108460">We will cause all the boys in the street to hiss at thee.</p>
+          </sp>
+          <sp xml:id="A06583-e108470" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e108480">In deed I think the Athenians have their children ready for any vice, because they be Athenians.</p>
+          </sp>
+          <sp xml:id="A06583-e108490" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e108500">Why master, mean you not to fly?</p>
+          </sp>
+          <sp xml:id="A06583-e108510" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e108520">No manes, not without wings.</p>
+          </sp>
+          <sp xml:id="A06583-e108530" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e108540"> everybody will account you a liar.</p>
+          </sp>
+          <sp xml:id="A06583-e108550" who="A06583-diog">
+            <pb facs="20"/>
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e108560">No, I warrant you: for I will always say the Athenians are mischievous.</p>
+          </sp>
+          <sp xml:id="A06583-e108570" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e108580">I care not, it was sport enough for me to see these old huddles hit home.</p>
+          </sp>
+          <sp xml:id="A06583-e108590" who="A06583-granichus">
+            <speaker>Gran.</speaker>
+            <p xml:id="A06583-e108600">Nor I.</p>
+          </sp>
+          <sp xml:id="A06583-e108610" who="A06583-psyllus">
+            <speaker>Psyllus</speaker>
+            <p xml:id="A06583-e108620">Come, let us go, and hereafter when I mean to raise upon anybody openly, it shall be given out, I will fly.</p>
+          </sp>
+          <stage xml:id="A06583-e108630">Exeunt.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A06583-e108640">
+          <head>Actus quartus, scaena secunda.</head>
+          <stage xml:id="A06583-e108650">Campaspe, Apelles.</stage>
+          <sp xml:id="A06583-e108660" who="A06583-campaspe">
+            <speaker>Campaspe sola.</speaker>
+            <p xml:id="A06583-e108670">Campaspe, it is hard to judge whether thy choice be more unwise, or thy chance unfortunate. Dost thou prefer, but stay, utter not that in words, which maketh thine ears to glow with thoughts. Tush better thy tongue wag, than thy heart break. Hath a painter crept further into thy mind then a prince? Apelles then Alexander? Fond wench, the baseness of thy mind bewrays the meanness of thy birth. But alas, affection is a fire, which kindleth as well in the bramble as in the oak, and catcheth hold where it first lighteth, not where it may best burn, larks that mount aloft in the air, build their nests below in the earth, and women that cast their eyes upon Kings, may place their hearts upon vassals. A needle will become thy fingers better than a lute, and a distaff is fitter for thy hand then a sceptre. Aunts live safely, till they have gotten wings, and juniper is not blown up, till it hath gotten an high top. The mean estate is without care as long as it continueth without pride. But here cometh Apelles, in whom I would there were the like affection.</p>
+          </sp>
+          <sp xml:id="A06583-e108680" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e108690">Gentlewoman, the misfortune I had with your picture, will put you to some pains, to sit again to be painted.</p>
+          </sp>
+          <sp xml:id="A06583-e108700" who="A06583-campaspe">
+            <pb facs="21"/>
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e108710">It is small pains for me to sit still, but infinite for you to draw still.</p>
+          </sp>
+          <sp xml:id="A06583-e108720" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e108730">No madam, to paint Venus' was a pleasure, but to shadow the sweet face of Campaspe it is a heaven.</p>
+          </sp>
+          <sp xml:id="A06583-e108740" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e108750">If your tongue were made of the same flesh that your heart is, your words would be as your thoughts are: but such a common thing it is amongst you to commend, that oftentimes for fashion's sake you call them beautiful, whom you know black.</p>
+          </sp>
+          <sp xml:id="A06583-e108760" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e108770">What might men do to be believed?</p>
+          </sp>
+          <sp xml:id="A06583-e108780" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e108790">Whet their tongues on their hearts.</p>
+          </sp>
+          <sp xml:id="A06583-e108800" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e108810">So they do, and speak as they think.</p>
+          </sp>
+          <sp xml:id="A06583-e108820" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e108830">I would they did.</p>
+          </sp>
+          <sp xml:id="A06583-e108840" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e108850">I would they did not.</p>
+          </sp>
+          <sp xml:id="A06583-e108860" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e108870">Why, would you have them dissemble?</p>
+          </sp>
+          <sp xml:id="A06583-e108880" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e108890">Not in love, but their love. But will you give me leave to ask you a question without offence?</p>
+          </sp>
+          <sp xml:id="A06583-e108900" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e108910">So that you will answer me another without excuse.</p>
+          </sp>
+          <sp xml:id="A06583-e108920" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e108930">Whom do you love best in the world?</p>
+          </sp>
+          <sp xml:id="A06583-e108940" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e108950">He that made me last in the world.</p>
+          </sp>
+          <sp xml:id="A06583-e108960" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e108970">That was a God.</p>
+          </sp>
+          <sp xml:id="A06583-e108980" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e108990">I had thought it had been a man: but whom do you honour most Apelles? </p>
+          </sp>
+          <sp xml:id="A06583-e109000" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e109010">The thing that is likest you Campaspe. </p>
+          </sp>
+          <sp xml:id="A06583-e109020" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e109030">My picture?</p>
+          </sp>
+          <sp xml:id="A06583-e109040" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e109050">I dare not venture upon your person. But come, let us go in: for Alexander will think it long till we return.</p>
+          </sp>
+          <stage xml:id="A06583-e109060">Exeunt.</stage>
+        </div>
+        <div n="3" type="scene" xml:id="A06583-e109070">
+          <head>Actus quartus, schaena tertia.</head>
+          <stage xml:id="A06583-e109080">Clytus, Parmenio.</stage>
+          <sp xml:id="A06583-e109090" who="A06583-clitus">
+            <speaker>Clytus</speaker>
+            <p xml:id="A06583-e109100">We hear nothing of our embassage, a colour<pb facs="21"/> belike to blear our eyes, or tickle our ears, or inflame our hearts. But what doth Alexander in the mean season, but use for tantara, sol. Fa. La. for his hard couch, down beds, for his handful of water, his standing cup of wine?</p>
+          </sp>
+          <sp xml:id="A06583-e109110" who="A06583-parmenio">
+            <speaker>Parme.</speaker>
+            <p xml:id="A06583-e109120">Clytus, I mislike this new delicacy and pleasing peace: for what else do we see now then a kind of softness in every man's mind, bees to make their hives in soldiers' helmets, our steeds furnished with foot clothes of gold, instead of saddles of steel: more time to be required to scour the rust of our weapons, then there was wont to be in subduing the countries of our enemies. Sithence Alexander fell from his hard armour to his soft robes, behold the face of his court, youths that were wont to carry devises of victory in their shields, engrave now posies of love in their rings: they that were accustomed on trotting horses to charge the enemy with a lance, now in easy coach ride up and down to court ladies: in steed of sword and target to hazard their lives, use pen and paper to paint their loves. Yea, such a fear and faintness is grown in court, that they wish rather to hear the blowing of a horn to hunt, than the sound of a trumpet to fight? O Philip, wert thou alive to see this alteration, thy men turned to women, thy soldiers to lovers, gloves worn in velvet, caps in steed of plumes in graven helmets, thou wouldst either die among them for sorrow, or confound them for anger.</p>
+          </sp>
+          <sp xml:id="A06583-e109130" who="A06583-clitus">
+            <speaker>Clitus</speaker>
+            <p xml:id="A06583-e109140">Cease Permenio, lest in speaking what becometh thee not, thou feel what liketh thee not: truth is never without a snatched face, whose tongue although it cannot be cut out, yet must it be tied up.</p>
+          </sp>
+          <sp xml:id="A06583-e109150" who="A06583-parmenio">
+            <speaker>Parme.</speaker>
+            <p xml:id="A06583-e109160">It grieveth me not a little for Hephestion, who thirsteth for honour, not ease, but such is his fortune and nearness in friendship to Alexander, that he must lay a pillow under his head, when he would put a target in his hand.</p>
+            <p xml:id="A06583-e109170"><pb facs="22"/>But let us draw in, to see how well it becomes them to tread the measures in a dance, that were wont to set the order for a march.</p>
+          </sp>
+          <stage xml:id="A06583-e109180">Exeunt,</stage>
+        </div>
+        <div n="4" type="scene" xml:id="A06583-e109190">
+          <head>Actus quartus, schaena quarta.</head>
+          <stage xml:id="A06583-e109200">Apelles, Campaspe.</stage>
+          <sp xml:id="A06583-e109210" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e109220">I have now Campaspe almost made an end.</p>
+          </sp>
+          <sp xml:id="A06583-e109230" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e109240">You told me Apelles, you would never end.</p>
+          </sp>
+          <sp xml:id="A06583-e109250" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e109260">Never end my love: for it shall be eternal.</p>
+          </sp>
+          <sp xml:id="A06583-e109270" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e109280">That is, neither to have beginning nor ending.</p>
+          </sp>
+          <sp xml:id="A06583-e109290" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e109300">You are disposed to mistake, I hope you do not mistrust.</p>
+          </sp>
+          <sp xml:id="A06583-e109310" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e109320">What will you say, if Alexander perceive your love?</p>
+          </sp>
+          <sp xml:id="A06583-e109330" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e109340">I will say, it is no treason to love.</p>
+          </sp>
+          <sp xml:id="A06583-e109350" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e109360">But how if he will not suffer thee to see my person?</p>
+          </sp>
+          <sp xml:id="A06583-e109370" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e109380">Then will I gaze continually on thy picture.</p>
+          </sp>
+          <sp xml:id="A06583-e109390" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e109400">That will not feed thy heart.</p>
+          </sp>
+          <sp xml:id="A06583-e109410" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e109420">Yet shall it fill mine eye: besides the sweet thoughts, the sure hopes, thy protested faith, will cause me to embrace thy shadow continually in mine arms, of the which by strong imagination I will make a substance.</p>
+          </sp>
+          <sp xml:id="A06583-e109430" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e109440">Well, I must be gone: but this assure yourself, that I had rather be in thy shop grinding colours, then in Alexander's court, following higher fortunes.</p>
+            <stage xml:id="A06583-e109450">Campaspe alone.</stage>
+            <p xml:id="A06583-e109460">Foolish wench, what hast thou done? that alas which cannot be undone, and therefore I fear me undone. But content is such a life, I care not for abundance. O Apelles,<pb facs="22"/> thy love cometh from the heart, but Alexander's from the mouth. The love of Kings is like the blowing of winds, which whistle sometimes gently among the leaves, and straight ways turn the trees up by the roots, or fire which warmeth afar off, and burneth near hand, or the sea, which maketh men hoist their sails in a flattering calm, and to cut their masts in a rough storm. They place affection by times, by policy, by appointment, if they frown, who dares call them unconstant, if bewray secrets, who will term them untrue, if fall to other loves, who trembles not, if he call them unfaithful. In Kings there can be no love, but to Queens: for as near must they meet in majesty, as they do in affection. It is requisite to stand aloof from King's love, love, and lightning.</p>
+          </sp>
+          <stage xml:id="A06583-e109470">Exit.</stage>
+        </div>
+        <div n="5" type="scene" xml:id="A06583-e109480">
+          <head>Actus quartus, schaena quinta.</head>
+          <stage xml:id="A06583-e109490">Apelles, page.</stage>
+          <sp xml:id="A06583-e109500" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e109510">Now Apelles, gather thy wits together: Campaspe is no less wise than fair, thyself must be no less cunning then faithful. It is no small matter to be rival with Alexander. </p>
+          </sp>
+          <sp xml:id="A06583-e109520" who="A06583-page">
+            <speaker>Page</speaker>
+            <p xml:id="A06583-e109530">Apelles, you must come away quickly with the picture, the King thinketh that now you have painted it, you play with it.</p>
+          </sp>
+          <sp xml:id="A06583-e109540" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e109550">If I would play with pictures, I have enough at home.</p>
+          </sp>
+          <sp xml:id="A06583-e109560" who="A06583-page">
+            <speaker>Page</speaker>
+            <p xml:id="A06583-e109570">None perhaps you like so well.</p>
+          </sp>
+          <sp xml:id="A06583-e109580" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e109590">It may be I have painted none so well.</p>
+          </sp>
+          <sp xml:id="A06583-e109600" who="A06583-page">
+            <speaker>Page</speaker>
+            <p xml:id="A06583-e109610">I have known many fairer faces.</p>
+          </sp>
+          <sp xml:id="A06583-e109620" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e109630">And I many better boys.</p>
+          </sp>
+          <stage xml:id="A06583-e109640">Exeunt.</stage>
+        </div>
+      </div>
+      <div n="5" type="act" xml:id="A06583-e109650">
+        <pb facs="23"/>
+        <div n="1" type="scene" xml:id="A06583-e109660">
+          <head>Actus quintus, scaena prima.</head>
+          <stage xml:id="A06583-e109670">Diogenes, Syluius, Perim, Milo irico, manes.</stage>
+          <sp xml:id="A06583-e109680" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e109690">I have brought my sons Diogenes, to be taught of thee.</p>
+          </sp>
+          <sp xml:id="A06583-e109700" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e109710">What can thy sons do?</p>
+          </sp>
+          <sp xml:id="A06583-e109720" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e109730">You shall see their qualities: dance sirrah.</p>
+          </sp>
+          <stage xml:id="A06583-e109740">Then Perim danceth.</stage>
+          <p xml:id="A06583-e109750">How like you this? doth he well?</p>
+          <sp xml:id="A06583-e109760" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e109770">The better, the worser.</p>
+          </sp>
+          <sp xml:id="A06583-e109780" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e109790">The music very good.</p>
+          </sp>
+          <sp xml:id="A06583-e109800" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e109810">The musicians very bad, who only study to have their strings in tune, never framing their manners to order.</p>
+          </sp>
+          <sp xml:id="A06583-e109820" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e109830">Now shall you see the other: tumble sirrah.</p>
+          </sp>
+          <stage xml:id="A06583-e109840">Milo tumbleth.</stage>
+          <p xml:id="A06583-e109850">How like you this? why do you laugh?</p>
+          <sp xml:id="A06583-e109860" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e109870">To see a wag, that was born to break his neck by destiny, to practise it by art.</p>
+          </sp>
+          <sp xml:id="A06583-e109880" who="A06583-milo">
+            <speaker>Milo.</speaker>
+            <p xml:id="A06583-e109890">This dog will bite me, I will not be with him.</p>
+          </sp>
+          <sp xml:id="A06583-e109900" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e109910">Fear not boy, dogs eat no thistles.</p>
+          </sp>
+          <sp xml:id="A06583-e109920" who="A06583-perim">
+            <speaker>Perim.</speaker>
+            <p xml:id="A06583-e109930">I marvel what dog thou art, if thou be a dog.</p>
+          </sp>
+          <sp xml:id="A06583-e109940" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e109950">When I am hungry, a mastiff, and when my belly is full, a spaniel.</p>
+          </sp>
+          <sp xml:id="A06583-e109960" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e109970">Dost thou believe that there are any gods, that thou art so dogged?</p>
+          </sp>
+          <sp xml:id="A06583-e109980" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e109990">I must needs believe there are gods: for I think thee an enemy to them.</p>
+          </sp>
+          <sp xml:id="A06583-e110000" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e110010">Why so?</p>
+          </sp>
+          <sp xml:id="A06583-e110020" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110030">Because thou hast taught one of thy sons to rule his legs, and not to follow learning, the other to bend his body every way, and his mind no way.</p>
+          </sp>
+          <sp xml:id="A06583-e110040" who="A06583-perim">
+            <speaker>Perim.</speaker>
+            <p xml:id="A06583-e110050">Thou dost nothing but snarl, and bark like a dog.</p>
+          </sp>
+          <sp xml:id="A06583-e110060" who="A06583-diog">
+            <pb facs="23"/>
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110070">It is the next way to drive away a thief.</p>
+          </sp>
+          <sp xml:id="A06583-e110080" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e110090">Now shall you hear the third, who signs like a nightingale.</p>
+          </sp>
+          <sp xml:id="A06583-e110100" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110110">I care not: for I have heard a nightingale sing herself.</p>
+          </sp>
+          <sp xml:id="A06583-e110120" who="A06583-sylvius">
+            <speaker>Syl.</speaker>
+            <p xml:id="A06583-e110130">Sing sirrah.</p>
+          </sp>
+          <stage xml:id="A06583-e110140">Trico singeth.</stage>
+          <sp xml:id="A06583-e110150" who="A06583-sylvius">
+            <speaker>Syl.</speaker>
+            <p xml:id="A06583-e110160">Lo Diogenes, I am sure thou canst not do so much.</p>
+          </sp>
+          <sp xml:id="A06583-e110170" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110180">But there is never a thrush but can.</p>
+          </sp>
+          <sp xml:id="A06583-e110190" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e110200">What hast thou taught manes thy man?</p>
+          </sp>
+          <sp xml:id="A06583-e110210" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110220">To be as unlike as may be thy sons.</p>
+          </sp>
+          <sp xml:id="A06583-e110230" who="A06583-manes">
+            <speaker>Manes</speaker>
+            <p xml:id="A06583-e110240">He hath taught me to fast, lie hard, and run away.</p>
+          </sp>
+          <sp xml:id="A06583-e110250" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e110260">How sayest thou Perim, wilt thou be with him?</p>
+          </sp>
+          <sp xml:id="A06583-e110270" who="A06583-perim">
+            <speaker>Perim.</speaker>
+            <p xml:id="A06583-e110280">Ay, so he will teach me first to run away.</p>
+          </sp>
+          <sp xml:id="A06583-e110290" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110300">Thou needest not be taught, thy legs are so nimble.</p>
+          </sp>
+          <sp xml:id="A06583-e110310" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e110320">How sayest thou Milo wilt thou be with him ▪</p>
+          </sp>
+          <sp xml:id="A06583-e110330" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110340">Nay, hold your peace, he shall not.</p>
+          </sp>
+          <sp xml:id="A06583-e110350" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e110360">Why?</p>
+          </sp>
+          <sp xml:id="A06583-e110370" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110380">There is not room enough for him and me both to tumble in one tub.</p>
+          </sp>
+          <sp xml:id="A06583-e110390" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e110400">Well Diogenes, I perceive my sons brook not thy manners.</p>
+          </sp>
+          <sp xml:id="A06583-e110410" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110420">I thought no less, when they knew my virtues.</p>
+          </sp>
+          <sp xml:id="A06583-e110430" who="A06583-sylvius">
+            <speaker>Sylui.</speaker>
+            <p xml:id="A06583-e110440">Farewell Diogenes, thou neededst not have scraped roots, if thou wouldst have followed Alexander. </p>
+          </sp>
+          <sp xml:id="A06583-e110450" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110460">Nor thou have followed Alexander, if thou hadst scraped roots.</p>
+          </sp>
+          <stage xml:id="A06583-e110470">Exeunt.</stage>
+        </div>
+        <div n="2" type="scene" xml:id="A06583-e110480">
+          <pb facs="24"/>
+          <head>Actus quintus, schaena secunda.</head>
+          <stage xml:id="A06583-e110490">Apelles alone.</stage>
+          <sp xml:id="A06583-e110500" who="A06583-apelles">
+            <p xml:id="A06583-e110510">I fear me Apelles, that thine eyes have blabbed that, which thy tongue durst not. What little regard hadst thou, whilst Alexander viewed the counterfeit of Campaspe, thou stoodst gazing on her countenance? If he espy or but suspect, thou must needs twice perish with his hate, and thine own love. Thy pale looks, when he blushed, thy sad countenance, when he smiled, thy sighs, when he questioned, may breed in him a jealousy, perchance a frenzy. O love, I never before knew what thou wert, and now haste thou made me that I know not what myself am? Only this I know, that I must endure intolerable passions, for unknown pleasures. Dispute not the cause wretch, but yield to it: for better it is to melt with desire, then wrestle with love. Cast thyself on thy careful bed, be content to live unknown, and die unfound. O Campaspe, I have painted thee in my heart, painted? nay, contrary to mine art, imprinted, and that in such deep characters, that nothing can raze it out, unless it rub thy heart out.</p>
+          </sp>
+          <stage xml:id="A06583-e110520">Exit.</stage>
+        </div>
+        <div n="3" type="scene" xml:id="A06583-e110530">
+          <head>Actus quintus, schaena tertia.</head>
+          <stage xml:id="A06583-e110540">Milectus, Phrigius, layis, Diogenes.</stage>
+          <sp xml:id="A06583-e110550" who="A06583-milectus">
+            <speaker>Mil.</speaker>
+            <p xml:id="A06583-e110560">It shall go hard, but this peace shall bring us some pleasure.</p>
+          </sp>
+          <sp xml:id="A06583-e110570" who="A06583-phrygius">
+            <speaker>Phry.</speaker>
+            <p xml:id="A06583-e110580">Down with arms, and up with legs, this is a world for the nonce.</p>
+          </sp>
+          <sp xml:id="A06583-e110590" who="A06583-lays">
+            <pb facs="24"/>
+            <speaker>Lays</speaker>
+            <p xml:id="A06583-e110600">Sweet youths, if you knew what it were to save your sweet blood, you would not so foolishly go about to spend it. What delight can there be in gashing, to make foul scars in fair faces, and crooked maims in straight legs? as though men being born goodly by nature, would of purpose become deformed by folly, and all forsooth for a new found term, called valiant, a word which breedeth more quarrels than the sense can commendation.</p>
+          </sp>
+          <sp xml:id="A06583-e110610" who="A06583-milectus">
+            <speaker>Mil.</speaker>
+            <p xml:id="A06583-e110620">It is true Lays, a featherbed hath no fellow, good drink makes good blood, and shall pelting words spill it?</p>
+          </sp>
+          <sp xml:id="A06583-e110630" who="A06583-phrygius">
+            <speaker>Phry.</speaker>
+            <p xml:id="A06583-e110640">I mean to enjoy the world, and to draw out my life at the wire-drawers, not to curtail it off at the cuttelers.</p>
+          </sp>
+          <sp xml:id="A06583-e110650" who="A06583-lays">
+            <speaker>Lays</speaker>
+            <p xml:id="A06583-e110660">You may talk of war, speak big, conquer worlds with great words: but stay at home, where in steed of alarms you shall have dances, for hot battles with fierce men, gentle skirmishes with fair women. These pewter coats can never sit so well as satin doublets. Believe me, you cannot conceive the pleasure of peace, unless you despise the rudeness of war.</p>
+          </sp>
+          <sp xml:id="A06583-e110670" who="A06583-milectus">
+            <speaker>Mil.</speaker>
+            <p xml:id="A06583-e110680">It is so. But see Diogenes prying over his tub: Diogenes, what sayest thou to such a morsel?</p>
+          </sp>
+          <sp xml:id="A06583-e110690" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110700">I say, I would spit it out of my mouth, because it should not poison my stomach.</p>
+          </sp>
+          <sp xml:id="A06583-e110710" who="A06583-phrygius">
+            <speaker>Phry.</speaker>
+            <p xml:id="A06583-e110720">Thou speakest as thou art, 'It is no meat for dogs.</p>
+          </sp>
+          <sp xml:id="A06583-e110730" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110740">I am a dog, and philosophy rates me from carrion.</p>
+          </sp>
+          <sp xml:id="A06583-e110750" who="A06583-lays">
+            <speaker>Lays</speaker>
+            <p xml:id="A06583-e110760">Uncivil wretch, whose manners are answerable to thy calling, the time was thou wouldst have had my company, had it not been, as thou saidst too dear.</p>
+          </sp>
+          <sp xml:id="A06583-e110770" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e110780">I remember there was a thing, that I repented<pb facs="25"/> me of, and now thou haste told it, indeed it was too dear of nothing, and thou dear to nobody .</p>
+          </sp>
+          <sp xml:id="A06583-e110790" who="A06583-lays">
+            <speaker>Lays</speaker>
+            <p xml:id="A06583-e110800">Down villain, or I will have thy head broken?</p>
+          </sp>
+          <sp xml:id="A06583-e110810" who="A06583-milectus">
+            <speaker>Mil.</speaker>
+            <p xml:id="A06583-e110820">Will you couch?</p>
+          </sp>
+          <sp xml:id="A06583-e110830" who="A06583-phrygius">
+            <speaker>Phry.</speaker>
+            <p xml:id="A06583-e110840">Avant cur: come sweet Lays, let us go to some place, and possess peace. But first let us sing, there is more pleasure in tuning of a voice, then in a volley of shot.</p>
+          </sp>
+          <sp xml:id="A06583-e110850" who="A06583-milectus">
+            <speaker>Milec.</speaker>
+            <p xml:id="A06583-e110860">Now let us make haste, lest Alexander find us here.</p>
+          </sp>
+          <stage xml:id="A06583-e110870">Exeunt,</stage>
+        </div>
+        <div n="4" type="scene" xml:id="A06583-e110880">
+          <head>Actus quintus, schaena quarta.</head>
+          <stage xml:id="A06583-e110890">Alexander. Hephestion, page, Diogenes, Apelles, Campaspe.</stage>
+          <sp xml:id="A06583-e110900" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e110910"> methinketh Hephestion you are more melancholy than you were accustomed; but I perceive it is all for Alexander. You can neither brook this peace, nor my pleasure, be of good cheer, though I wink, I sleep not.</p>
+          </sp>
+          <sp xml:id="A06583-e110920" who="A06583-hephaestion">
+            <speaker>Hephest.</speaker>
+            <p xml:id="A06583-e110930">Melancholy I am not, nor well content: for I know not how there is such a rust crept into my bones with this long ease, that I fear I shall not scour it out with infinite labours.</p>
+          </sp>
+          <sp xml:id="A06583-e110940" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e110950">Yes, yes, if all the travails of conquering the world will set either thy body or mine in tune, we will undertake them. But what think you of Apelles? Did ye ever see any so perplexed? He neither answered directly to any question, nor looked steadfastly upon any thing. I hold my life the painter is in love.</p>
+          </sp>
+          <sp xml:id="A06583-e110960" who="A06583-hephaestion">
+            <speaker>Hephe.</speaker>
+            <p xml:id="A06583-e110970">It may be: for commonly we see it incident in artificers to be enamoured of their own works, as Archidamus of his wooden dove, Pygmalion, of his ivory<pb facs="25"/> image, Arachne of his wooden swan, especially painters, who playing with their own conceits, now coveting to draw a glancing eye, than a rolling, now a winking; still mending it, never ending it, till they be caught with it, and then poor souls they kiss the colours with their lips, with which before they were loath to taint their fingers.</p>
+          </sp>
+          <sp xml:id="A06583-e110980" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e110990">I will find it out. Page, go speedily for Apelles, will him to come hither, and when you see us earnestly in talk, sodenly cry out, Apelles shop is on fire.</p>
+          </sp>
+          <sp xml:id="A06583-e111000" who="A06583-unassigned">
+            <speaker>Page</speaker>
+            <p xml:id="A06583-e111010">It shall be done.</p>
+          </sp>
+          <sp xml:id="A06583-e111020" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111030">Forget not your lesson</p>
+          </sp>
+          <sp xml:id="A06583-e111040" who="A06583-hephaestion">
+            <speaker>Hephe.</speaker>
+            <p xml:id="A06583-e111050">I 〈◊〉 what your device shall be.</p>
+          </sp>
+          <sp xml:id="A06583-e111060" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111070">The event shall prove.</p>
+          </sp>
+          <sp xml:id="A06583-e111080" who="A06583-hephaestion">
+            <speaker>Hephe.</speaker>
+            <p xml:id="A06583-e111090">I pity the poor painter, if he be in love.</p>
+          </sp>
+          <sp xml:id="A06583-e111100" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111110">Pity him not, I pray thee, that severe gravity set aside, what do you think of love?</p>
+          </sp>
+          <sp xml:id="A06583-e111120" who="A06583-hephaestion">
+            <speaker>Hephe.</speaker>
+            <p xml:id="A06583-e111130">As the Macedonians do of their herb beet, which looking yellow in the ground; and black in the hand, think it better seen than touched.</p>
+          </sp>
+          <sp xml:id="A06583-e111140" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111150">But what do you imagine it to be.</p>
+          </sp>
+          <sp xml:id="A06583-e111160" who="A06583-hephaestion">
+            <speaker>Hephe.</speaker>
+            <p xml:id="A06583-e111170">A word by superstition thought a God, by use turned to an humour, by self will made a flattering madness.</p>
+          </sp>
+          <sp xml:id="A06583-e111180" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111190">You are too hard hearted to think so of love. Let us go to Diogenes. Diogenes, thou mayst think it somewhat, that Alexander cometh to thee again so soon</p>
+          </sp>
+          <sp xml:id="A06583-e111200" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e111210">If you come to learn, you could not come soon enough, if to laugh, you be come too soon.</p>
+          </sp>
+          <sp xml:id="A06583-e111220" who="A06583-hephaestion">
+            <speaker>Hephe.</speaker>
+            <p xml:id="A06583-e111230">It would better become thee to be more courteous, and frame thyself to please.</p>
+          </sp>
+          <sp xml:id="A06583-e111240" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e111250">And you 〈…〉 loss, if you durst displease.</p>
+          </sp>
+          <sp xml:id="A06583-e111260" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111270">What dost thou think of the time we have here?</p>
+          </sp>
+          <sp xml:id="A06583-e111280" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e111290">That we have lit be; and lose much.</p>
+          </sp>
+          <sp xml:id="A06583-e111300" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111310">If one be sick, what wouldst thou have him do?</p>
+          </sp>
+          <sp xml:id="A06583-e111320" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e111330">Be sure that he make not his physician his hiete.</p>
+          </sp>
+          <sp xml:id="A06583-e111340" who="A06583-alexander">
+            <pb facs="26"/>
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111350">If thou mightest have thy will, how much ground would content thee?</p>
+          </sp>
+          <sp xml:id="A06583-e111360" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e111370">As much as you in the end must be contented withal.</p>
+          </sp>
+          <sp xml:id="A06583-e111380" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111390">What, a world?</p>
+          </sp>
+          <sp xml:id="A06583-e111400" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e111410">No, the length of my body.</p>
+          </sp>
+          <sp xml:id="A06583-e111420" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111430">Hephestion, shall I be a little pleasant with him?</p>
+          </sp>
+          <sp xml:id="A06583-e111440" who="A06583-hephaestion">
+            <speaker>Heph.</speaker>
+            <p xml:id="A06583-e111450">You may: but he will be very perverse with you.</p>
+          </sp>
+          <sp xml:id="A06583-e111460" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e111470">It skilleth not, I cannot be angry with him. Diogenes, I pray thee, what dost thou think of love?</p>
+          </sp>
+          <sp xml:id="A06583-e111480" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e111490">A little worser than I can of hate.</p>
+          </sp>
+          <sp xml:id="A06583-e111500" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111510">And why?</p>
+          </sp>
+          <sp xml:id="A06583-e111520" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e111530">Because it is better to hate the things, which make to love, than to love the things, which give occasion of hate.</p>
+          </sp>
+          <sp xml:id="A06583-e111540" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111550">Why, be not women the best creatures in the world?</p>
+          </sp>
+          <sp xml:id="A06583-e111560" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e111570">Next men and bees.</p>
+          </sp>
+          <sp xml:id="A06583-e111580" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111590">What dost thou dislike chiefly in a woman?</p>
+          </sp>
+          <sp xml:id="A06583-e111600" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e111610">One thing.</p>
+          </sp>
+          <sp xml:id="A06583-e111620" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111630">What?</p>
+          </sp>
+          <sp xml:id="A06583-e111640" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e111650">That she is a woman.</p>
+          </sp>
+          <sp xml:id="A06583-e111660" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111670">In mine opinion thou wert never born of a woman, that thou thinkest so hardly of women. But not cometh Apelles, who I am sure is as far from thy thoughts, as thou art from his cunning. Diogenes, I will have thy cabin removed nearer to my court, because I will be a philosopher</p>
+          </sp>
+          <sp xml:id="A06583-e111680" who="A06583-diog">
+            <speaker>Diog.</speaker>
+            <p xml:id="A06583-e111690">And when you have done so, I pray you remove your court further from my cabin, because I will not be a courtier.</p>
+          </sp>
+          <sp xml:id="A06583-e111700" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111710">But here cometh Apelles. Apelles, what piece of work have you now in hand?</p>
+          </sp>
+          <sp xml:id="A06583-e111720" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e111730">None in hand, if it like your majesty: but I am devising a platform in my head.</p>
+          </sp>
+          <sp xml:id="A06583-e111740" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111750">I think your hand put it in your head. Is it nothing about Venus? </p>
+          </sp>
+          <sp xml:id="A06583-e111760" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e111770">No, but some thing about Venus. </p>
+          </sp>
+          <sp xml:id="A06583-e111780" who="A06583-page">
+            <pb facs="26"/>
+            <speaker>Page</speaker>
+            <p xml:id="A06583-e111790">Apelles, Apelles, look about you, your shaped is on fire.</p>
+          </sp>
+          <sp xml:id="A06583-e111800" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e111810">Ay me, if the picture of Campaspe be burned, I am undone.</p>
+          </sp>
+          <sp xml:id="A06583-e111820" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111830">Stay Apelles, no haste, it is your heart is on fire, not your shop, and if camp. hang there, I would she were burned. But have you the picture of Campaspe? Belike you love her well, that you care not though all be lost, so she be safe.</p>
+          </sp>
+          <sp xml:id="A06583-e111840" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e111850">Not love her: but your majesty knows that painters in their last works are said to excel themselves, and in this I have so much pleased myself, that the shadow as much delighteth me being an artificer, as the substance doth others that are amorous.</p>
+          </sp>
+          <sp xml:id="A06583-e111860" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111870">You lay your colours grossly, though I could not paint in your shop, I can spy into your excuse. Be not ashamed Apelles, it is a gentleman's sport to be in love. Call hither Campaspe. Methinks I might have been made privy to your affection, though my counsel had not been necessary, yet my countenance might have been thought requisite. But Apelles forsooth loveth under hand, yea and under Alexander's nose, and, but I say no more.</p>
+          </sp>
+          <sp xml:id="A06583-e111880" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e111890">Apelles loveth not so: but he liveth to do as Alexander will.</p>
+          </sp>
+          <sp xml:id="A06583-e111900" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111910">Campaspe, here is news, Apel. is in love with you.</p>
+          </sp>
+          <sp xml:id="A06583-e111920" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e111930">It pleaseth your majesty to say so.</p>
+          </sp>
+          <sp xml:id="A06583-e111940" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111950">Hephestion, I will try her to. Campaspe, for the good qualities I know in Apelles and the virtue I see in you, I am determined you shall enjoy one the other. How say you Campaspe, would you say, I?</p>
+          </sp>
+          <sp xml:id="A06583-e111960" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e111970">Your handmaid must obey, if you command.</p>
+          </sp>
+          <sp xml:id="A06583-e111980" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e111990">Think you not Hephestion that she would fain be commanded?</p>
+          </sp>
+          <sp xml:id="A06583-e112000" who="A06583-hephaestion">
+            <speaker>Heph.</speaker>
+            <p xml:id="A06583-e112010">I am no thought catcher, but I guess unhappily.</p>
+          </sp>
+          <sp xml:id="A06583-e112020" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e112030">I will not enforce marriage, where I cannot compel love.</p>
+          </sp>
+          <sp xml:id="A06583-e112040" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e112050">But your majesty may move a question, where<pb facs="27"/> you be willing to have a match.</p>
+          </sp>
+          <sp xml:id="A06583-e112060" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e112070">` Hephestion, these parties are agreed, they would have me both priest and witness. Apelles, take Campaspe, why move ye not? Campaspe, take Apelles, will it not be? If you be ashamed one of the other, by my consent you shall never come together. But dissemble not Campaspe, do you love Apelles? </p>
+          </sp>
+          <sp xml:id="A06583-e112080" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e112090">Pardon my lord, I love Apelles. </p>
+          </sp>
+          <sp xml:id="A06583-e112100" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e112110">Apelles, it were a shame for you, being loved so openly of so fair a virgin, to say the contrary. Do you love Campaspe? </p>
+          </sp>
+          <sp xml:id="A06583-e112120" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e112130">Only Campaspe. </p>
+          </sp>
+          <sp xml:id="A06583-e112140" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e112150">Two loving worms, Hephestion, I perceive Alexander cannot subdue the affections of men, though he conquer their countries. Love falleth like dew as well upon the low grass, as upon the high cedar. Sparks have their heat, ants their gall, flies their spleen. Well, enjoy one another, I give her thee frankly Apelles. Thou shalt see that Alexander maketh but a toy of love, and leadeth affection in setters, using fancy as a fool to make him sport, or as a minstrel to make him merry. It is not the amorous glance of an eye can settle an idle thought in the heart, no no, it is children's game, a life for seamesters and scholars, the one pricking in clouts have nothing else to think on, the other picking fancies out of books, have little else to marvel at. Go Apelles take with you your Campaspe, Alexander is cloyed with looking on that, which thou wondredst at.</p>
+          </sp>
+          <sp xml:id="A06583-e112160" who="A06583-apelles">
+            <speaker>Apel.</speaker>
+            <p xml:id="A06583-e112170">Thanks to your majesty on bent knee; you have honoured Apelles. </p>
+          </sp>
+          <sp xml:id="A06583-e112180" who="A06583-campaspe">
+            <speaker>Camp.</speaker>
+            <p xml:id="A06583-e112190">Thanks with bowed heart ▪ you have blessed Campaspe. </p>
+            <stage xml:id="A06583-e112200">Exeunt.</stage>
+          </sp>
+          <sp xml:id="A06583-e112210" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e112220">Page, go warn Clytus and Parmenio and the other lords to be in a readiness, let the trumpet sound, strike up the drum, and I will presently into Persia. <pb facs="27"/>How now Hephestion, is Alexander able to resist love as he lift?</p>
+          </sp>
+          <sp xml:id="A06583-e112230" who="A06583-hephaestion">
+            <speaker>Hephe.</speaker>
+            <p xml:id="A06583-e112240">The conquering of Thebes was not so honourable, as the subdueing of these thoughts.</p>
+          </sp>
+          <sp xml:id="A06583-e112250" who="A06583-alexander">
+            <speaker>Alex.</speaker>
+            <p xml:id="A06583-e112260">It were a shame Alexander should desire to command the world, if he could not command himself. But come, let us go, I will try whether I can better bear my hand with my heart, than I could with mine eye. And good Hephestion, when, all the world is won, and every country is thine and mine, either find me out another to subdue, or of my word I will fall in love.</p>
+            <stage xml:id="A06583-e112270">Exeunt.</stage>
+          </sp>
+        </div>
+      </div>
+    </body>
+    <back xml:id="A06583-e112280">
+      <div type="epilogue" xml:id="A06583-e112290">
+        <head>The epilogue at the black friars.</head>
+        <p xml:id="A06583-e112300">Where the rainbow toucheth the tree, no caterpillars will hang on the leaves ▪ where the glow-worm creepeth in the night, no addar will go in the day. We hope in the ears where our travails be lodged, no carping shall harbour in those tongues. Our exercises must be as your judgement is, resembling water, which is always of the same colour into what it runneth. In the Trojan horse lay couched soldiers with children, and in heaps of many words we seat, divers unfit, among some allowable. But as Demosthenes with often breathing up the hill amended his stammering, so we hope with sundry labours against the hair, to correct our studies. If the tree be blasted that blossoms, the fault is in the wind, and not in the root, and if our pastimes be misliked, that have been allowed, you must impute it to the malice of others, and not our endeavour. And so we rest in good case if you rest well content. <pb facs="28"/></p>
+      </div>
+      <div type="epilogue" xml:id="A06583-e112310">
+        <head>The epilogue at the court.</head>
+        <p xml:id="A06583-e112320">We cannot tell whether we are fallen among Diomedes birds or his horses, the one received some men with sweet notes, the other bit all men with sharp teeth. But as Homer ▪ gods conveyed them into clouds, whom they would have kept from curses, and as Venus, lest Adonis should be pricked with the stings of adders, covered his face with the wings of swans: so we hope being shielded with your highness' countenance, we shall, though hear the neighing, yet not feel the kicking of those jades, and receive, though no praise (Which we cannot deserve) yet a pardon, which in all humility we desire as yet we cannot tell what we should term our labours, iron or bullion, only it belongeth to your majesty to make them fit either for the forge or the mint, currant by the stamp, or counterfeit by the anvil. For as nothing is to be called white, unless it had been named white by the first creature, so can there be nothing thought good in the opinion of others, unless it be christened good by the judgement of yourself. For ourselves again, we are like these torches wax, of which being in your highness hands, you may make doves or vultures, roses or nettles, laurel for a garland, or elder for a disgrace.</p>
+        <trailer xml:id="A06583-e112330">Finis</trailer>
+        <pb facs="28"/>
+      </div>
+      <div type="machine-generated_castlist"><list n="A06583"><item xml:id="A06583-alexander" n="103">
+    <seg type="character_name">A06583-alexander</seg>
+    <seg type="speech_count">103</seg>
+  </item>
+  <item xml:id="A06583-diog" n="75">
+    <seg type="character_name">A06583-diog</seg>
+    <seg type="speech_count">75</seg>
+  </item>
+  <item xml:id="A06583-apelles" n="73">
+    <seg type="character_name">A06583-apelles</seg>
+    <seg type="speech_count">73</seg>
+  </item>
+<item xml:id="A06583-psyllus" n="53">
+    <seg type="character_name">A06583-psyllus</seg>
+    <seg type="speech_count">53</seg>
+  </item>
+  <item xml:id="A06583-manes" n="50">
+    <seg type="character_name">A06583-manes</seg>
+    <seg type="speech_count">50</seg>
+  </item>
+  <item xml:id="A06583-campaspe" n="46">
+    <seg type="character_name">A06583-campaspe</seg>
+    <seg type="speech_count">46</seg>
+  </item>
+  <item xml:id="A06583-hephaestion" n="32">
+    <seg type="character_name">A06583-hephaestion</seg>
+    <seg type="speech_count">32</seg>
+  </item>
+  <item xml:id="A06583-granichus" n="29">
+    <seg type="character_name">A06583-granichus</seg>
+    <seg type="speech_count">29</seg>
+  </item>
+  <item xml:id="A06583-sylvius" n="15">
+    <seg type="character_name">A06583-sylvius</seg>
+    <seg type="speech_count">15</seg>
+  </item>
+  <item xml:id="A06583-clitus" n="11">
+    <seg type="character_name">A06583-clitus</seg>
+    <seg type="speech_count">11</seg>
+  </item>
+  <item xml:id="A06583-parmenio" n="10">
+    <seg type="character_name">A06583-parmenio</seg>
+    <seg type="speech_count">10</seg>
+  </item>
+  <item xml:id="A06583-aristotle" n="10">
+    <seg type="character_name">A06583-aristotle</seg>
+    <seg type="speech_count">10</seg>
+  </item>
+  <item xml:id="A06583-plato" n="7">
+    <seg type="character_name">A06583-plato</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A06583-crysus" n="6">
+    <seg type="character_name">A06583-crysus</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A06583-page" n="5">
+    <seg type="character_name">A06583-page</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A06583-milectus" n="5">
+    <seg type="character_name">A06583-milectus</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A06583-timoclea" n="5">
+    <seg type="character_name">A06583-timoclea</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A06583-phrygius" n="4">
+    <seg type="character_name">A06583-phrygius</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A06583-lays" n="4">
+    <seg type="character_name">A06583-lays</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A06583-unassigned" n="3">
+    <seg type="character_name">A06583-unassigned</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A06583-anaxarchus" n="3">
+    <seg type="character_name">A06583-anaxarchus</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A06583-solinus" n="3">
+    <seg type="character_name">A06583-solinus</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A06583-people" n="3">
+    <seg type="character_name">A06583-people</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A06583-perim" n="3">
+    <seg type="character_name">A06583-perim</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A06583-crisippus" n="2">
+    <seg type="character_name">A06583-crisippus</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A06583-cleanthes" n="2">
+    <seg type="character_name">A06583-cleanthes</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A06583-crates" n="2">
+    <seg type="character_name">A06583-crates</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A06583-craterus" n="1">
+    <seg type="character_name">A06583-craterus</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A06583-macedon" n="1">
+    <seg type="character_name">A06583-macedon</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A06583-multiple" n="1">
+    <seg type="character_name">A06583-multiple</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A06583-melippus" n="1">
+    <seg type="character_name">A06583-melippus</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A06583-milo" n="1">
+    <seg type="character_name">A06583-milo</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

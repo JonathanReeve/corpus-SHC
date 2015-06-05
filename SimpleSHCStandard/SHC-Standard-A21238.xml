@@ -1,0 +1,1846 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A21238">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Queen's Entertainment at Woodstock <date type="creation_date">1575</date></title>
+        <author>anon.</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A21238.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The Queenes Maiesties entertainement at VVoodstock.</title>
+          </titleStmt>
+          <extent>25 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 March (TCP phase 1)</date>
+            <idno type="marc">99848496</idno>
+            <idno type="stc">STC (2nd ed.) 7596.</idno>
+            <idno type="stc">Greg 88.</idno>
+            <idno type="vid">13592</idno>
+            <idno type="DLPS">A21238</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The Queenes Maiesties entertainement at VVoodstock.</title>
+            <title type="alt">Queenes Majesties entertainement at Woodstock</title>
+            <title type="alt">Queenes Majesties entertainement at Woodstock.</title>
+            <title type="alt">Queenes Maiesties entertainment at Woodstocke.</title>
+            <title type="alt">Queenes Maiesties entertainment at Woodstocke.</title>
+            <author>Elizabeth, 1533-1603.</author>
+            <author>Gascoigne, George, 1542?1577,</author>
+            <author>Ferrers, George, 1500?-1579,</author>
+          </titleStmt>
+          <extent>[54] p.</extent>
+          <publicationStmt>
+            <publisher>Printed for Thomas Cadman,</publisher>
+            <pubPlace>At London :</pubPlace>
+            <date>1585.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>In verse and prose.</p>
+            </note>
+            <note>
+              <p>Running title reads: The Queenes Maiesties entertainment at Woodstocke.</p>
+            </note>
+            <note>
+              <p>Includes "The tale of Hermetes", attributed to George Gascoigne, and a comedy which has been attributed to George Ferrers.</p>
+            </note>
+            <note>
+              <p>Signatures: A-G4 (-G4, blank?).</p>
+            </note>
+            <note>
+              <p>Imperfect: leaves A2-4 lacking.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the British Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Elizabeth, -- I, -- Queen of England, -- 1533-1603 -- Early works to 1800.</term>
+          <term>English drama -- 16th century -- Early works to 1800.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A21238-e100010">
+    <front xml:id="A21238-e100020">
+      <div type="title_page" xml:id="A21238-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A21238-e100040">The Queen's majesty's entertainment at Woodstock</p>
+        <p xml:id="A21238-e100050">At London, printed for Thomas Cadman. 1585.</p>
+      </div>
+      <div type="text" xml:id="A21238-e100060">
+        <gap extent="unknown" xml:id="A21238-e100070" n="1-b-0170"/>
+        <pb facs="2"/>
+        <p xml:id="A21238-e100080"><pb facs="2"/>Followeth brought no less like to the Queen's majesty: and all the rest that were present: for at his coming he caused them to dismount themselves and said:<quote xml:id="A21238-e100090">You must fight no more, most valiant knights: violence must give place to virtue, and the doubtful hazard you be in, by a most noble help must be ended. Therefore cease your fight and follow me, so shall you hear that you would least believe, and shall have with me that shall most behoove you. And you fair lady, fall into this fellowship, where it shall appear Sibilla said true, and your infortunes shall have end.</quote></p>
+        <p xml:id="A21238-e100100">This said, he bringeth them all to theplace where the Queen's majesty stood (In a fine bower made of purpose covered with green ivy, and seats made of earth with sweet smelling herbs, (Even such a place as you shall conjecture) and after some reverence beginning his tale, he showed a great proof of his audacity, in which tale if you mark the words with this present world, or were acquainted with the state of the devises, you should find no less hidden than uttered, and no less uttered than should deserve a double reading over, even of those (With whom I find you a companion) that have disposed their hours to the study of great matters. </p>
+        <floatingText xml:id="A21238-e100110">
+          <body xml:id="A21238-e100120">
+            <div type="tale" xml:id="A21238-e100130">
+              <head>Here followeth Hemetes tale.</head>
+              <p xml:id="A21238-e100140">Most excellent princes, forepointed from above with your presence and your virtue to profit more than you are aware of, how much you are bound to the immortal gods, and mortal men are bound to you, our present case will partly prove: but before you understand the worth of your virtue, may it please you to hear the variableness of our adventures. Not long since in the country of Cambia which is situate near the mouth of the rich river Indus, a mighty Duke bare dominion called Occanon: who had heir to his estate but one only daughter named Caudina:<pb facs="3"/> this lady then more fairer than fortunate, lived most dear to her father and best beloved of his people: but to prove that beauty is not always a benefit, nor highest states be ever the happiest, it chanced within a while that Caudina being sought unto by sundry that were great, and served by many that were worthy, had more competitors of her beauty then did either well content her, or proved commodious unto them: for love, which is not led by order nor chosen by appointment, had limed her affections unreasonably with the liking of a knight, of estate but mean, but of value very great called Contarenus who as he exceedingly loved her, so the desires of divers others was somewhat for his glory, but nothing for his gain. In small process of time the secret fires of their fancies discovered by the smoke of their desires, bewrayed this matter unto her father long time before they would. The Duke dissembling what he saw, but determined to disappoint that he most misliked, neither made challenge to the knight, nor charged his daughter for any love was betwixt them, but devised a way as he thought more sure, (But as it proved most sorrowful) to set these lovers asunder by the work of an enchantress most cunning in her kind: he caused Contarenus, to be conveyed up and carried in the air from the cost of Cambia to the very bounds of the ocean sea: which cost Occanon twenty thousand crowns (A dear price for repentance:) but it is no novelty for princes to make their wills very costly, and sometime to pay dear for their own displeasures. Contarenus thus strangely divided from his joy and perplexed above measure was charged by the enchantress to wear this punishment with patience, which necessity did put on, and destiny would put off: and ere seven years came about, she truly assured him, he should have for his reward the height of his desire: but first he should fight with the hardiest knight, and see the worthiest lady of the world. The whilst she told him, he must there take the guard of a blind hermit, who should recover his sight, and he his satisfaction, both at one time, so she left him on the earth, and took her way again into the air. Caudina now lacking log that she looked for, the sight and service of her knight, fell soon<pb facs="3"/> in those diseases that accompany such desires as to be accumbered with mistrust, curiosity, and exceeding unrest. <quote xml:id="A21238-e100150">At last as princes do few things privily, but they have partakers of their council: and heirs to crowns lack never servants of hope, which be curious to please them: the device and dealing of Occanon came to the ears of his daughter, which being told her:</quote>and is it even so, quoth Candina? care Kings for no right? then right cares for no kingdoms. It is neither the court of Occanon, nor the country of Camb. that I can account of, if Contarenus be gone: farewell most unhappy country, and most cruel father, that turns me to this fortune, to follow my fates, which neither greatness of estate nor hazard of mine adventure shall make me forsake: but if I lose not my life, I will find Contarenus, if he be in the world. This said, she pursueth her most hard determinations, and taking only two damsels with her in simple habit, with such things as were necessary, she straightways conveyed herself most closely from the borders of Camb. And with toil too long to tell, passed perils passed belief, till at last she arrived at the grate of Sibilla, where, by chance she met with a most noble knight yclept Loricus, by love likewise drawn thither, to learn what should betide him. This Loricus loved a lady that was matchless, in such manner as is strange, for after much device to attain but the favour that she would be pleased, he might but love her without looking froward: and seeing no glance of her liking (His uttermost devotion) to find surely out her fancy (Which she carried most closely,) he made a strange assay with all the semblance that might be. He showed to set by her but lightly, that was so sought for of all, and the better to colour the passion, he was not able to conquer, he made show of choice of a new mistress, that lived every day in her eye: a piece sure of pri●● but far from such a pearl, as his heart only esteemed. And to this idol he seemed to offer all his love and service, leaving no manner of observance undone, that to love appertained: as wearing her colours on his back, her pictures in his bosom, keeping her company above all others, and continuing most at her commandment: which espied by this lady (That indeed was liked no more) for whatsoever man may think might become or content though she cared not for his choice, yet he showed scorn of<pb facs="4"/> his change: and by jealousy disclosed that which love could not discover. Which Loricus perceiving, he fell by and by to consider, that the want of his worth made his service unaccepted, and no impossibility in her will to receive one too serve her, that merited the honour of such favour. Therefore he left his own country, and betook himself altogether to travel, and to arms, desiring with most endeavour but to deserve that reputation as this great and noble mistress would but think him worthy to be hers, though she would never be none of his; so thinking no toil too tough, nor no attempt too hard to attain to renown, he wandered through the world till he came by painful ways to Sibylla's grate, where he met with Caudina. Where these two lovers having occasion to unfold all their fortunes: the lady seeking to know the end of her travel, and the knight advise for the ease of his hope, they both received this answer of Sibilla: that as they were now coupled by this fortune, so they should never depart fellowship, till they had found out a place, where men were most strong, women most fair, the country most fertile, the people most wealthy, the government most just, and the princes most worthy: so should the lady see that would content her, so should the knight hear that might comfort him. Now most deer and best deserving lady, it falls to my purpose, and your praise, to say somewhat of myself. Old though you see me here, and wrinkled and cast into a corner, yet once have I been otherwise: a knight known and accounted of, with the best of the world: and living in court of most fame amongst a swarm of knights and ladies of great worth and virtue, where beauty bade the base and desire sought the goal. It chanced me to love a lady, to be beloved of love himself, if he could but have seen her: but as she was such as did excel, so was she of wonderful condition, without disdain to be desired, but most dainty to be dealt with: for touch her, and she will turn to 20. divers shapes, yet to none but to content, as methought , that thought still to touch her, was a heaven: and so it seemed by my hold that was so loath to let her go. Till (Alas) it liked her at last to put on the shape of a Tigris so terrible to behold, as I durst hold her no longer, and being so escaped, I could never more set eye on her. Madam, thus began my pain, but you hear not yet my punishment:<pb facs="4"/> being shifted from the sight of that I sought above the world, and then little delighting to look on any thing else, I took by and by a pilgrimage to Paphos in Cyprus, trusting to hear of my mistress there, where Venus was most honoured. Whither when I came, as I began to step in at the door of her temple, I was suddenly strooken blind astoned. At my mischance, and understanding not the cause thereof fell I down on my knees and said: oh fairest of the goddesses and farthest from cruelty, what hath been my fault, that thou art thus offended? Thy folly and presumption (Quoth Venus' chaplain as I guess) from my youth up quoth I, have I ever been an honourer of virtue, a delighter in learning, and a servant of love. But it is no parted affection quoth he, that Venus will be honoured with. Books and beauty make no match, and it is an whole man or no man, that this goddess will have to serve her, and therewithal taking me by the shoulders, he thrust me out of the temple. So with sighs and sorrow I sat down in the porch, making intercession to Apollo (The peculiar God I honoured) to have compassion on my estate: now faithful prayers being hard ere they be ended: Mercury comes unto me, and bid me be of good comfort, the goddesses be all found to have this fault: Diana with Actaeon: Pallas with Arachne: Juno with Tiresias, were angry above measure: so is Venus now with thee, the cause with the remedy shall be told thee at Delphos, whither straight I must carry thee. Which he had no sooner spoken, but by and by I was set in the temple of Apollo. Where first demanding my fault, the oracle made answer: thy fear and not thy faith: and what quoth I, may be my remedy? The best besides the beautifullest, the oracle straight answered. And with this Apollo his priest took me by the hand, recounting unto me the whole course of my life, whom I loved, and how I lost her. And when I told him of the faithfulness of my service. And the faithfulness of my meaning, of the variableness of her condition, and at the last of the fearfulness of her appearance: ah, good Hemetes quoth he, it is not the kind of women to be cruel, it is but their countenance, and touching their variableness, who will not apply himself thereto, shall not much please them, nor long hold them, neither is it to be found fault with. Nature herself loves variety, so it be done without deceit. Now for thy faithfulness it<pb facs="5"/> sufficeth not, the servants of Venus must not only have faith, but also lack fear, fear lost thee thy mistress, and thy boldness to enter into Venus' temple, being unacceptable, made her strike thee blind. But Apollo bid me tell thee, the gods will receive, whom women for , thy eyes shut up from delight, shall give thy mind more open understanding: this punishment shall be thy profit, Venus can bar thee but from her felicity of love: but for the devotion thou bearest to Apollo, he gives thee this gift, to be able to decipher the destiny of every one in love, and better to advise them, than the best of her darlings. And furthermore, doth promise thee, that in revolution of years thou shalt recover thy sight: but this shall not betide thee till at one time, and in one place, in a country of most peace, two of the most valiant knights shall fight, two of the most constant lovers shall meet, and the most virtuous lady of the world shall be there to look on. And when thy eyes shall behold what thy heart delighteth in, even a lady in whom inhabiteth the most virtue, learning, and beauty, that ever yet was in creature, then shall they be opened, and that shall be thy warrant.</p>
+              <p xml:id="A21238-e100160">All Apollo sayeth is sooth: the while, it is determined that thou shalt dwell in an hermitage, where nothing that longs unto nature's use, shall be lacking unto thee: so suddenly I was shifted unto this hill hard by, where I have wintered many a year far from the woes and wrongs, the world besides is full of. And now best lady and most beautiful, so termed of the oracle, and so thought of in the world: what the enchantress told Contarenus: Sibilla showed Caudina, and Loricus: and Apollo said to me, by your most happy coming is verified, the most hardy knights count. and Lori. have here fought, the most constant lover's Cont and Caudina here be met, and I poor Hemetes (As the knight knows full long blind) have received my sight. All which happened by virtue of your grace, which the best so much honour, and we most bound unto you: and so I present these noble persons to please you with their service, and myself to serve you ever with my prayers, and leaving these lovers to their delights, must leave Loric. to this advice. Knight, prosecute thy purpose, it is noble, learning by me not to fear of thyself to<pb facs="5"/> take pain: remembering, nothing notable is won without difficulty, Hercules had by his labours his renown, and his end by his love: Loricus, thy end will be reward, at least most reputation, with noblest women most esteemed. But I fear I have too long tired your most noble ears, and therefore only now I beseech your ma. with your happy presence to honour my poor home, whither straight I mean to guide you.</p>
+            </div>
+          </body>
+        </floatingText>
+        <p xml:id="A21238-e100170">This learned or long tale being brought to his end: the poor hermit laden as it were with beads and other such ornaments of his profession, begins to tread the way before the Queen, which her majesty espying, refused her steed, and betook herself in like sort to the use of her feet, and accompanying the hermit (Her self waited on of the rest) fell into some discourse and praise of his good tale, which not ended, or rather scarce fully begun, the Q. ma. had in sight the house, which indeed was a place by art so reared from the ground, as never before, nor hereafter, shall I see thelike. First it was encompassed the number of 200. paces round with lattice, the place of the prince's entrance bedecked with ivy and spangs of gold plate, the glimmering whereof was such, that men of great judgement might have held themselves at stay. The ground from thence reared little and little to the altitude of forty foot or more, the path in mounting covered with fresh turves, with such art, that a great many made question of his skill, which was the Layer. The way was railed with lattice, beset with sweet flowers and ivy, as before: above in the house was a table made in order of a half moon or more, covered with green turves (And so replenished with sorts of dainty, and those divers dishes belonging to banquet, that the beholders might well have though, Jupit. had hoped the connuing, and trusted the pleasing by banquet of his fair Europa.) At one end thereof somewhat distant, from the other, was placed another table (But round) with a chair costly made of crimson velvet, embroidered with branches and pictures of wild beasts and trees, as it had been a piece of work made in the deserts. But jest I hold you too long, this mount made, as I have said, about an oak, the top whereof was enforced by strength too bend<pb facs="6"/> down her branches to cover the house, which was done with such art, that thepraise of the beholders coming would have sufficed the worker for his travel: although he was not so satisfied for his skill, by more than 40. pounds. A number of fine pictures with posies of the noble or men of great credit, was in like sort hanging there, where with many were in love, and above the rest the French ambassador, which was present at these sights, made great suit to have some of them. The which posies, with some perfect note of their pictures, I would have presented unto you: but because the allegories are hard to be understood, without some knowledge of the inventors, I have chosen my time rather when myself shall be present, and more the sooner, because I would leave nothing unfulfilled of my first determination. Now Hemetes having brought her majesty to the entrance of this place said:<quote xml:id="A21238-e100180">Here most noble lady, having now brought you to this most simple hermitage, where you shall see small cunning, but of nature, and no cost, but of good will, my hour approaching for my orrisones (Which according to my vow I must never break) I must here leave your majesty, promising to pray, as for myself, that whosoever wish you best, may never wish in vain.</quote></p>
+        <p xml:id="A21238-e100190">Thus the hermit departs, and the Queen's majesty addresseth herself with merry cheer to banqueting, which to increase a divine sound of unacquainted instruments in the hollow room under the house, made such strokes of pleasure, and moved such delights, that if Apollo himself had been there, I think he would have entreated the learning of their skill, or at the jest forgotten the pleasant remembrance of his sweet Daphne's. Her majesty thus in the midst of this mirth might espy the Queen of the fairy drawn with 6. children in a waggon of state: the boys bravely attired, and herself very costly apparelled, whose present show might well argue her immortality, and presenting herself to the Queen's majesty, she spoke as followeth. <quote xml:id="A21238-e100200"><lg xml:id="A21238-e100210"><l xml:id="A21238-e100220">As I did roam abroad in woody range,</l><l xml:id="A21238-e100230">In shade to shun the heat of sunny day:</l><l xml:id="A21238-e100240"><pb facs="6"/> I met a sorrowing knight in passion strange.</l><l xml:id="A21238-e100250">By whom I learned, that coasting on this way</l><l xml:id="A21238-e100260">I should ere long your highness here espy,</l><l xml:id="A21238-e100270">To whom who bears a greater love than I? </l></lg><lg xml:id="A21238-e100280"><l xml:id="A21238-e100290">Which then took root still mounting up on height,</l><l xml:id="A21238-e100300">When I beheld you last nigh to this place,</l><l xml:id="A21238-e100310">With gracious speech appeasing cruel fight. </l><l xml:id="A21238-e100320">This love hath caused me transform my face,</l><l xml:id="A21238-e100330">And in your hue to come before your eyne,</l><l xml:id="A21238-e100340">Now white, then black, your friend the fairy Queen. </l></lg><lg xml:id="A21238-e100350"><l xml:id="A21238-e100360">Which marking all, as all to me is known,</l><l xml:id="A21238-e100370">Your face, your grace, your government of state,</l><l xml:id="A21238-e100380">Your passing sprite whereby your fame is blown:</l><l xml:id="A21238-e100390">Do know by certain skill you have no mate:</l><l xml:id="A21238-e100400">And that no man throughout the world hath seen</l><l xml:id="A21238-e100410">A prince that may compare with th' English Queen. </l></lg><lg xml:id="A21238-e100420"><l xml:id="A21238-e100430">This knowledge kinds in me so hot desire</l><l xml:id="A21238-e100440">To see your highness here in this my walk</l><l xml:id="A21238-e100450">As since your parting hence I flamed in fire</l><l xml:id="A21238-e100460">Till your return that I might hear you talk,</l><l xml:id="A21238-e100470">That none to you a better heart doth bear</l><l xml:id="A21238-e100480">Myself in speech to you might make it clear. </l></lg><lg xml:id="A21238-e100490"><l xml:id="A21238-e100500">In sign whereof accept most sacred Queen,</l><l xml:id="A21238-e100510">This simple token wrought within this wood,</l><l xml:id="A21238-e100520">Which as but base so better should have been</l><l xml:id="A21238-e100530">If I had not at sudden understood</l><l xml:id="A21238-e100540">Of your arrival here, which made me take</l><l xml:id="A21238-e100550">What came to hand, and no great choice to make. </l></lg></quote></p>
+        <p xml:id="A21238-e100560">Her speech thus ended she delivered her gift, which was a gown for her majesty of great price, whereon the embroiderer<pb facs="7"/> had bestowed the sum of his cunning, which she received with yielding thanks: to whom the fairy Queene replied:<quote xml:id="A21238-e100570"><lg xml:id="A21238-e100580"><l xml:id="A21238-e100590">The thing is far beneath both your desert,</l><l xml:id="A21238-e100600">And my desire, yet am I glad to hear</l><l xml:id="A21238-e100610">Your highness take it thus in so good part,</l><l xml:id="A21238-e100620">Which for myself, if it like you to wear:</l><l xml:id="A21238-e100630">Then shall I reap the fruit of happy mind,</l><l xml:id="A21238-e100640">As honoured by you the honour of your kind. </l></lg></quote></p>
+        <p xml:id="A21238-e100650">To gratify the rest of the ladies present, there was devised many excellent and fine smelling nosegays made of all colours to every one whereof was annexed a posy of two verses, given by a handmaid of the fairy Queen, and one above the rest of greatest price for the Queen's majesty with her posy in Italian, which because I neither understood it, nor scarce can write it to be understood: I leave also till my next coming to visit you: for the rest as they wear given, I have set down: every several posy was fair written and bordered about cunningly with several branches excellent to behold. </p>
+        <floatingText xml:id="A21238-e100660">
+          <body xml:id="A21238-e100670">
+            <div type="poems" xml:id="A21238-e100680">
+              <div type="poem" xml:id="A21238-e100690">
+                <head>L. Derby.</head>
+                <l xml:id="A21238-e100700">The virtues four went wand'ring once and harbourless astray,</l>
+                <l xml:id="A21238-e100710">Till Derby gave them room to rest whereas they now may stay. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e100720">
+                <head>L. Warwick.</head>
+                <l xml:id="A21238-e100730">If your deserts surpassed not my silly pen and speech,</l>
+                <l xml:id="A21238-e100740">Some other men should view them then, which now do pass my reach. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e100750">
+                <head>L. Hunsdon.</head>
+                <l xml:id="A21238-e100760">For husband, children, and yourself, or ornaments of fame,</l>
+                <l xml:id="A21238-e100770">You are above comparison, a right thrice happy dame,</l>
+              </div>
+              <div type="poem" xml:id="A21238-e100780">
+                <head>L. Haward.</head>
+                <l xml:id="A21238-e100790">The means that make a mother blessed, you have a fruitful race,</l>
+                <l xml:id="A21238-e100800">A noble dame, a patient wife, what's this but blessed case. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e100810">
+                <head>L. Susan.</head>
+                <l xml:id="A21238-e100820">Take heed lest in a mood, dame Venus work your woo,</l>
+                <l xml:id="A21238-e100830">For spite of right must work in her, you pass her beauty so. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e100840">
+                <head>L. Mary Vere.</head>
+                <l xml:id="A21238-e100850">Where virtue, birth, and beauty to, are thus in one mould cast,</l>
+                <l xml:id="A21238-e100860">This place to simple 'Is for her seat with gods let her be placed. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e100870">
+                <head><pb facs="7"/>Mistress Skidmore.</head>
+                <l xml:id="A21238-e100880">Trusty and true, secret and sage in place where you do serve. </l>
+                <l xml:id="A21238-e100890">With wise foresight these praises lo your worthiness deserve. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e100900">
+                <head>M. Parry.</head>
+                <l xml:id="A21238-e100910">For long and faithful service' sake which hath abidden touch,</l>
+                <l xml:id="A21238-e100920">Good Parry is a paragon, show me a neither such. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e100930">
+                <head>M. Abbington.</head>
+                <l xml:id="A21238-e100940">Good liking upon choice made way, to bring you first in place,</l>
+                <l xml:id="A21238-e100950">Which you maintain by modest mean still in your prince's grace. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e100960">
+                <head>M. Sidney</head>
+                <l xml:id="A21238-e100970">Though young in years yet old in wit, a gest due to your race,</l>
+                <l xml:id="A21238-e100980">If you hold on as you begin who is't you'll not deface? </l>
+              </div>
+              <div type="poem" xml:id="A21238-e100990">
+                <head>M. Hopton</head>
+                <l xml:id="A21238-e101000">When Phoebus saw fair Hopton come to court and leave the tower,</l>
+                <l xml:id="A21238-e101010">He spread his beams with merry looks that erst before did lower. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e101020">
+                <head>M. Katherin Howard.</head>
+                <l xml:id="A21238-e101030">For noble race, and virtue's gifts, compare you with the best,</l>
+                <l xml:id="A21238-e101040">Who list to seek, in you shall find, no less than in the rest. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e101050">
+                <head>M. garret.</head>
+                <l xml:id="A21238-e101060">Why do men set their sights to feed on pictures set in gold?</l>
+                <l xml:id="A21238-e101070">Sith garret gives the very view of natures modest mould. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e101080">
+                <head>M. Bridges.</head>
+                <l xml:id="A21238-e101090">In guess is guile, conjectures fail, your graces be well known:</l>
+                <l xml:id="A21238-e101100">Which who denies, fame saith he lies, by whom the brute is blown. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e101110">
+                <head>M. Burrough.</head>
+                <l xml:id="A21238-e101120">Apollo seeing his Burroughes brows his Daphne did forget,</l>
+                <l xml:id="A21238-e101130">So stalled in stay, so rapped in love as he stands musing yet. </l>
+              </div>
+              <div type="poem" xml:id="A21238-e101140">
+                <head>Mistress Knowles.</head>
+                <l xml:id="A21238-e101150">You gallants give the room a dame of price doth come,</l>
+                <l xml:id="A21238-e101160">Conjecture what your brags may be when she hath cast the sum</l>
+              </div>
+              <div type="poem" xml:id="A21238-e101170">
+                <head>M. Frances Howard:</head>
+                <l xml:id="A21238-e101180">Some say dame nature took in care, to keep Cornelia's mould,</l>
+                <l xml:id="A21238-e101190">But Howard's 'tis about her neck framed in finest gold. </l>
+              </div>
+            </div>
+          </body>
+        </floatingText>
+        <p xml:id="A21238-e101200">I think (Good sir) I have within little repeated the names of those that were ladies and maids of honour, at these sights, wherein you shall see the vain, that runneth to the liking of such kinds. Now her majesty being risen: with good cheer, accompanied with the Queen of the fairy and the lady Caudina; she cometh from her banquet, and at her departure the lady Caudina say:<quote xml:id="A21238-e101210"><lg xml:id="A21238-e101220"><l xml:id="A21238-e101230">Let thanks suffice in word where strength in power doth faint.</l><l xml:id="A21238-e101240">Let pith in prayer from heaven to crave requite,</l><l xml:id="A21238-e101250"><pb facs="8"/> stand for reward to such a sacred saint.</l><l xml:id="A21238-e101260">In whom on earth the gods in heaven delight,</l><l xml:id="A21238-e101270">Whose mould when nature made she 'gan to stand,</l><l xml:id="A21238-e101280">In wonder of the work she had in hand. </l></lg><lg xml:id="A21238-e101290"><l xml:id="A21238-e101300">The gods for all their good bestowed on man,</l><l xml:id="A21238-e101310">Accept our speech, as fruit of thankful heart:</l><l xml:id="A21238-e101320">Which sith it is the utmost that we can,</l><l xml:id="A21238-e101330">Let humble thanks be price for your desert. </l><l xml:id="A21238-e101340">Content yourself with that contents the gods,</l><l xml:id="A21238-e101350">Twixt whom and you I see such little odds. </l></lg></quote></p>
+        <p xml:id="A21238-e101360">The day thus spent, her majesty took her coach with joy in remembering what had passed, recounting with herself and others how well she had spent the afternoon , and as it fell of necessity in her way homeward, closely in an oak she heard thesound both of voice and instrument of the excellentest now living whose pleasantness therein bred a great liking with a willing ear to thepurport which I have hardly gotten to present you withal: assuredly I see great invention therein, and yet no more than the just fame of the deviser doth both deserve and carry. <floatingText xml:id="A21238-e101370"><body xml:id="A21238-e101380"><div type="song" xml:id="A21238-e101390"><head>The song in the oak</head><lg xml:id="A21238-e101400"><l xml:id="A21238-e101410">The man whose thoughts against him do conspire,</l><l xml:id="A21238-e101420">In whom mishap her story did depante:</l><l xml:id="A21238-e101430">The man of woe, the matter of desire,</l><l xml:id="A21238-e101440">Free of the dead that lives in endless plaint:</l><l xml:id="A21238-e101450">His sprite am I within this desert won,</l><l xml:id="A21238-e101460">To rue his case whose cause I cannot shun. </l></lg><lg xml:id="A21238-e101470"><l xml:id="A21238-e101480">Despair my name who never seek relief,</l><l xml:id="A21238-e101490">Friended of none, unto myself my foe,</l><l xml:id="A21238-e101500">An idle care maintained by firm belief,</l><l xml:id="A21238-e101510">That praise of faith shall through my torments grow. </l><l xml:id="A21238-e101520">And count the hopes that other hearts do ease,</l><l xml:id="A21238-e101530">But base conceits the common sort to please. </l></lg><lg xml:id="A21238-e101540"><l xml:id="A21238-e101550"><pb facs="8"/>I am most sure that I shall not attain,</l><l xml:id="A21238-e101560">The only good wherein the joy doth lie. </l><l xml:id="A21238-e101570">I have no power my passions to refrain,</l><l xml:id="A21238-e101580">But wail the want which naught else may supply. </l><l xml:id="A21238-e101590">Whereby my life the shape of death, must bear</l><l xml:id="A21238-e101600">That death, which feels the worst that life doth fear. </l></lg><lg xml:id="A21238-e101610"><l xml:id="A21238-e101620">But what avails with tragical complaint,</l><l xml:id="A21238-e101630">Not hoping help, the furies to awake? </l><l xml:id="A21238-e101640">Or why should I the happy minds acquaint</l><l xml:id="A21238-e101650">With doleful tunes, their settled peace to shake? </l><l xml:id="A21238-e101660">O ye that here behold infortune's fare,</l><l xml:id="A21238-e101670">There is no grief that may with mine compare. </l></lg></div></body></floatingText></p>
+        <p xml:id="A21238-e101680">Now was it dark night, and her majesty filled with conceits, returneth home, leaving earnest command that the whole in order as it fell, should be brought her in writing, which being done, as I hear, she used, besides her own skill, the help of the devisors, and how things were made I know not, but sure I am her majesty hath often in speech some part hereof with mirth at the remembrance. </p>
+        <p xml:id="A21238-e101690">But to keep my promise for the rest, I will begin in order to make you privy of the sequel: which indeed followeth, as an apt consequent to what is passed. Therefore shall you understand, that upon the 20. day of the same month, the Queen being disposed to spend her time with some delights, this comedy was presented, acted before her majesty. </p>
+        <p xml:id="A21238-e101700">And the more to egg you forward with desire of the end, assure yourself, it was as well thought of, as any thing ever done before her majesty, not only of her, but of the rest: in such sort, that her grace's passions, and other the ladies could not but show itself in open place more than ever hath been seen. </p>
+      </div>
+    </front>
+    <body xml:id="A21238-e101710">
+      <div type="dramatis_personae" xml:id="A21238-e101720">
+        <pb facs="9"/>
+        <head>The actors names.</head>
+        <list xml:id="A21238-e101730">
+          <item xml:id="A21238-e101740">1 Roxane Caudina's maid.</item>
+          <item xml:id="A21238-e101750">2 occanon the Duke.</item>
+          <item xml:id="A21238-e101760">3 Achates his counsellor.</item>
+          <item xml:id="A21238-e101770">4 Queen of the fairy.</item>
+          <item xml:id="A21238-e101780">5 Caudina the Duke's daughter.</item>
+          <item xml:id="A21238-e101790">6 Contarenus Caudina's lover.</item>
+          <item xml:id="A21238-e101800">7 Niphe Caudina's other maid.</item>
+          <item xml:id="A21238-e101810">8 Alexandro and</item>
+          <item xml:id="A21238-e101820">9 Guilfrido, pages.</item>
+        </list>
+      </div>
+      <div type="masque" xml:id="A21238-e101830">
+        <sp xml:id="A21238-e101840" who="A21238-roxane">
+          <speaker>Roxane.</speaker>
+          <lg xml:id="A21238-e101850">
+            <l xml:id="A21238-e101860">I think as yet all here hath fresh in mind,</l>
+            <l xml:id="A21238-e101870">A strange adventure passed in act of late,</l>
+            <l xml:id="A21238-e101880">How that a lady born nigh to the Ind,</l>
+            <l xml:id="A21238-e101890">Arrived here in quest of loving mate:</l>
+            <l xml:id="A21238-e101900">Whom she did find by such adventurous sort,</l>
+            <l xml:id="A21238-e101910">As erst the hermit showed by large report. </l>
+          </lg>
+          <lg xml:id="A21238-e101920">
+            <l xml:id="A21238-e101930">Which hermit then if you remember well,</l>
+            <l xml:id="A21238-e101940">Require the prince and lady of this land,</l>
+            <l xml:id="A21238-e101950">That she with her would let the lady dwell:</l>
+            <l xml:id="A21238-e101960">And waiting still on her, attend at hand:</l>
+            <l xml:id="A21238-e101970">And that the knight in court there might remain,</l>
+            <l xml:id="A21238-e101980">Till that they both returned home again. </l>
+          </lg>
+          <lg xml:id="A21238-e101990">
+            <l xml:id="A21238-e102000">Which thing consented too by prince's voice,</l>
+            <l xml:id="A21238-e102010">They have pursued and waited on the train,</l>
+            <l xml:id="A21238-e102020">Till late desire hath made them alter choice:</l>
+            <l xml:id="A21238-e102030"><pb facs="9"/> the lady's heart still longing home again,</l>
+            <l xml:id="A21238-e102040">And glad to win the Duke her father's will:</l>
+            <l xml:id="A21238-e102050">For moving whom she knoweth she hath done ill. </l>
+          </lg>
+          <lg xml:id="A21238-e102060">
+            <l xml:id="A21238-e102070">For though at first in heat she set him light,</l>
+            <l xml:id="A21238-e102080">And forced by father's wrong, went wand'ring so,</l>
+            <l xml:id="A21238-e102090">Yet doth she still suspect strong nature's might,</l>
+            <l xml:id="A21238-e102100">Who checking chaff sure works the chaffer woe:</l>
+            <l xml:id="A21238-e102110">Which to appear, is now her chief desire,</l>
+            <l xml:id="A21238-e102120">And therefore home she meaneth to retire. </l>
+          </lg>
+          <lg xml:id="A21238-e102130">
+            <l xml:id="A21238-e102140">Which thing to compass well, and leave no part</l>
+            <l xml:id="A21238-e102150">Of duty unfulfilled both here and there,</l>
+            <l xml:id="A21238-e102160">She with the fairy Queen is gone apart,</l>
+            <l xml:id="A21238-e102170">Of whom she hopes the readiest way to hear:</l>
+            <l xml:id="A21238-e102180">How to return with love from whence she came,</l>
+            <l xml:id="A21238-e102190">As she for love departed from the same. </l>
+          </lg>
+          <lg xml:id="A21238-e102200">
+            <l xml:id="A21238-e102210">Now willed she me (As loath to move offence)</l>
+            <l xml:id="A21238-e102220">If she were called for ere she could come back,</l>
+            <l xml:id="A21238-e102230">To be in place, and not to part from hence,</l>
+            <l xml:id="A21238-e102240">That for excuse in me might be no lack:</l>
+            <l xml:id="A21238-e102250">Till whose return fair ladies if I may,</l>
+            <l xml:id="A21238-e102260">Among you with your leave I mean to stay. </l>
+          </lg>
+        </sp>
+        <stage xml:id="A21238-e102270">Achates. Occanon.</stage>
+        <sp xml:id="A21238-e102280" who="A21238-missing">
+          <l xml:id="A21238-e102290">Now good my lord let mourning moan have end,</l>
+          <l xml:id="A21238-e102300">The harm is yours, yourself this still to wrack,</l>
+          <l xml:id="A21238-e102310">The heavens I trust some better news will send,</l>
+          <l xml:id="A21238-e102320">The gods which suffered you these pains to take,</l>
+          <l xml:id="A21238-e102330">Intend you to behold with cheerful eye:</l>
+          <l xml:id="A21238-e102340">Your help is near, it must of force so be. </l>
+        </sp>
+        <sp xml:id="A21238-e102350" who="A21238-occanon">
+          <speaker>Occan.</speaker>
+          <lg xml:id="A21238-e102360">
+            <l xml:id="A21238-e102370">In seeking hope, hap flieth still away,</l>
+            <l xml:id="A21238-e102380">My weary corpses is ready for to faint,</l>
+            <l xml:id="A21238-e102390">Then death, that debt which I at length must pay,</l>
+            <l xml:id="A21238-e102400">By yielding life receive, and end my plaint. </l>
+            <l xml:id="A21238-e102410">Now is the time most for to pleasure me,</l>
+            <l xml:id="A21238-e102420">When I in grief, do crave it thus of thee. </l>
+          </lg>
+          <lg xml:id="A21238-e102430">
+            <pb facs="10"/>
+            <l xml:id="A21238-e102440">Who hath not heretofore beheld on stage.</l>
+            <l xml:id="A21238-e102450">The hard conflict which breach of duty breeds,</l>
+            <l xml:id="A21238-e102460">With nature's might in way to vanquish rage,</l>
+            <l xml:id="A21238-e102470">Let him behold me and my daughter's deeds:</l>
+            <l xml:id="A21238-e102480">Twixt whom, as strange contempt hath caused flame,</l>
+            <l xml:id="A21238-e102490">So nature seeks again to quench the same. </l>
+          </lg>
+          <lg xml:id="A21238-e102500">
+            <l xml:id="A21238-e102510">She set her love where she herself liked best,</l>
+            <l xml:id="A21238-e102520">I much misliked because her choice did light,</l>
+            <l xml:id="A21238-e102530">Beneath her birth, though I might like the rest:</l>
+            <l xml:id="A21238-e102540">To stay this stream I did all that I might. </l>
+            <l xml:id="A21238-e102550">First with persuasions sweet I did begin,</l>
+            <l xml:id="A21238-e102560">To try if so my daughter I could win. </l>
+          </lg>
+          <lg xml:id="A21238-e102570">
+            <l xml:id="A21238-e102580">The more I charged, the sorer she repelled,</l>
+            <l xml:id="A21238-e102590">Wherefore my labour lost, I change my way,</l>
+            <l xml:id="A21238-e102600">And from my court her lover I expelled,</l>
+            <l xml:id="A21238-e102610">Thereby in hope to work my daughter's stay. </l>
+            <l xml:id="A21238-e102620">But while I sought to wring her from her love,</l>
+            <l xml:id="A21238-e102630">Love wrought her clean from me, as then de did prove. </l>
+          </lg>
+          <lg xml:id="A21238-e102640">
+            <l xml:id="A21238-e102650">No sooner did she find herself alone,</l>
+            <l xml:id="A21238-e102660">Bereft of him whom she a love did choose. </l>
+            <l xml:id="A21238-e102670">But secretly herself must needs be gone:</l>
+            <l xml:id="A21238-e102680">Her state, her train, her wealth, she did refuse:</l>
+            <l xml:id="A21238-e102690">And held that hap to be her only bliss,</l>
+            <l xml:id="A21238-e102700">Him to enjoy whom she in court did miss. </l>
+          </lg>
+          <lg xml:id="A21238-e102710">
+            <l xml:id="A21238-e102720">Her parting first, because it did proceed,</l>
+            <l xml:id="A21238-e102730">From vild contempt of duty to her sire,</l>
+            <l xml:id="A21238-e102740">Did stir my choler much, for that her deed,</l>
+            <l xml:id="A21238-e102750">Till nature did arrest, and wrought desire</l>
+            <l xml:id="A21238-e102760">To have my child restored to me again,</l>
+            <l xml:id="A21238-e102770">Whose absence then had wrought my woe and pain. </l>
+          </lg>
+          <lg xml:id="A21238-e102780">
+            <l xml:id="A21238-e102790">Then I began such parents to accuse,</l>
+            <l xml:id="A21238-e102800">As be too sour to those they have begotten,</l>
+            <l xml:id="A21238-e102810">And found of all, them farthest from excuse,</l>
+            <l xml:id="A21238-e102820"><pb facs="10"/> whose noble state doth make them more of note,</l>
+            <l xml:id="A21238-e102830">On them and theirs love hath the greatest power,</l>
+            <l xml:id="A21238-e102840">Therefore on love they ought the least to lower,</l>
+          </lg>
+          <lg xml:id="A21238-e102850">
+            <l xml:id="A21238-e102860">A quiet life where need no labour wills,</l>
+            <l xml:id="A21238-e102870">A seemly face whereon all eyes be cast,</l>
+            <l xml:id="A21238-e102880">A diet where desire the heart fulfils,</l>
+            <l xml:id="A21238-e102890">A world of sport while day, while night doth last,</l>
+            <l xml:id="A21238-e102900">How can these things but make love open a way,</l>
+            <l xml:id="A21238-e102910">And fancy force with her delights to play? </l>
+          </lg>
+          <lg xml:id="A21238-e102920">
+            <l xml:id="A21238-e102930">Here did I fail in seeking to withstand,</l>
+            <l xml:id="A21238-e102940">Where I confess the power of love is most,</l>
+            <l xml:id="A21238-e102950">Hence did proceed the leaving of my land</l>
+            <l xml:id="A21238-e102960">To find her out which I so lewdly lost. </l>
+            <l xml:id="A21238-e102970">This is the cause why in such simple case,</l>
+            <l xml:id="A21238-e102980">I wander seeking her from place to place. </l>
+          </lg>
+          <lg xml:id="A21238-e102990">
+            <l xml:id="A21238-e103000">So as I feel my weary bones to shrink,</l>
+            <l xml:id="A21238-e103010">Not able long my fainting corpses to bear,</l>
+            <l xml:id="A21238-e103020">Sleep doth oppress my limbs which 'gin to sink,</l>
+            <l xml:id="A21238-e103030">While slumbering ease relieves my toilsome cheer. </l>
+            <l xml:id="A21238-e103040">I pray you sir, depart not hence from me.</l>
+            <l xml:id="A21238-e103050">Your faithful help maintains my hope I see. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e103060" who="A21238-achates">
+          <speaker>Acha.</speaker>
+          <l xml:id="A21238-e103070">I will my lord not once part from your side,</l>
+          <l xml:id="A21238-e103080">Take you your rest, your travels do it crave,</l>
+          <l xml:id="A21238-e103090">Here fast by you I am resolved to bide,</l>
+          <l xml:id="A21238-e103100">To guard you so, as naught your rest deprave. </l>
+          <l xml:id="A21238-e103110">The grief of mind I see works wondrous things,</l>
+          <l xml:id="A21238-e103120">Commanding all estates both lords and Kings. </l>
+        </sp>
+        <sp xml:id="A21238-e103130" who="A21238-roxane">
+          <speaker>Roxa.</speaker>
+          <lg xml:id="A21238-e103140">
+            <l xml:id="A21238-e103150">O gods what have I heard, oh cruel fates,</l>
+            <l xml:id="A21238-e103160">Must that needs fall which you will needs fulfil:</l>
+            <l xml:id="A21238-e103170">My lord the Duke to leave his princely states,</l>
+            <l xml:id="A21238-e103180">And wand'ring thus to yield to fortunes will? </l>
+            <l xml:id="A21238-e103190">Then do I see that even as you please,</l>
+            <l xml:id="A21238-e103200">Men reap their rest and feel their most disease. </l>
+          </lg>
+          <lg xml:id="A21238-e103210">
+            <pb facs="11"/>
+            <l xml:id="A21238-e103220">This haughty Duke which set so light by love,</l>
+            <l xml:id="A21238-e103230">As though he could command him to obey,</l>
+            <l xml:id="A21238-e103240">Doth now himself by strange adventures prove:</l>
+            <l xml:id="A21238-e103250">That 'gainst love's force no power beareth sway:</l>
+            <l xml:id="A21238-e103260">For where love lives at will, he soonest dies,</l>
+            <l xml:id="A21238-e103270">And where he flaunts at full thence soonest flies. </l>
+          </lg>
+          <lg xml:id="A21238-e103280">
+            <l xml:id="A21238-e103290">But yet to learn more certainly what's past,</l>
+            <l xml:id="A21238-e103300">Ere that to him myself I do bewray,</l>
+            <l xml:id="A21238-e103310">At this good man I mean to have a cast,</l>
+            <l xml:id="A21238-e103320">Of whom I will learn out if that I may:</l>
+            <l xml:id="A21238-e103330">By way of glance who 'tis that lieth here,</l>
+            <l xml:id="A21238-e103340">And what might cause this his so ruthful cheer. </l>
+          </lg>
+          <lg xml:id="A21238-e103350">
+            <l xml:id="A21238-e103360">If't be not he, then is my labour lost,</l>
+            <l xml:id="A21238-e103370">And being but few words the cost is small,</l>
+            <l xml:id="A21238-e103380">If it be he, then hence straight will I post,</l>
+            <l xml:id="A21238-e103390">And to my lady's ears report it all:</l>
+            <l xml:id="A21238-e103400">That she thereby may presently advise,</l>
+            <l xml:id="A21238-e103410">What good therein may to her state arise. </l>
+          </lg>
+          <lg xml:id="A21238-e103420">
+            <l xml:id="A21238-e103430">Good sir I see you sad which grieveth me,</l>
+            <l xml:id="A21238-e103440">Whom curtsy makes partaker of your woe,</l>
+            <l xml:id="A21238-e103450">To rip your grief unpleasant it will be,</l>
+            <l xml:id="A21238-e103460">As to all pained souls it is I know:</l>
+            <l xml:id="A21238-e103470">Yet if I may find such grace in your eye,</l>
+            <l xml:id="A21238-e103480">Tell me what man this is that here doth lie. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e103490" who="A21238-achates">
+          <speaker>Ach.</speaker>
+          <l xml:id="A21238-e103500">Fair lady this your courteous speech doth crave,</l>
+          <l xml:id="A21238-e103510">Disclose of all that careful breast doth hide,</l>
+          <l xml:id="A21238-e103520">In him that lieth here the world may have,</l>
+          <l xml:id="A21238-e103530">Wherein with maze to let their minds abide. </l>
+          <l xml:id="A21238-e103540">A prince he is, whom fortune doth constrain,</l>
+          <l xml:id="A21238-e103550">With fruitless toil to travel still in vain. </l>
+        </sp>
+        <sp xml:id="A21238-e103560" who="A21238-roxane">
+          <speaker>Rox.</speaker>
+          <l xml:id="A21238-e103570">A prince? I pray you where, and of what land? </l>
+        </sp>
+        <sp xml:id="A21238-e103580" who="A21238-achates">
+          <speaker>Ach.</speaker>
+          <l xml:id="A21238-e103590">An Asian lord the great Cambaian Duke. </l>
+        </sp>
+        <sp xml:id="A21238-e103600" who="A21238-roxane">
+          <speaker>Rox.</speaker>
+          <l xml:id="A21238-e103610">What fate might force him take this toil in hand? </l>
+        </sp>
+        <sp xml:id="A21238-e103620" who="A21238-achates">
+          <pb facs="11"/>
+          <speaker>Acha.</speaker>
+          <l xml:id="A21238-e103630">To find his daughter out these pains he took. </l>
+        </sp>
+        <sp xml:id="A21238-e103640" who="A21238-roxane">
+          <speaker>Rox.</speaker>
+          <l xml:id="A21238-e103650">Why where is she, how happed he her to lose? </l>
+        </sp>
+        <sp xml:id="A21238-e103660" who="A21238-achates">
+          <speaker>Ach.</speaker>
+          <l xml:id="A21238-e103670">Because in love her mind he did displease. </l>
+        </sp>
+        <sp xml:id="A21238-e103680" who="A21238-roxane">
+          <speaker>Rox.</speaker>
+          <l xml:id="A21238-e103690">Perhaps he did not like where she had loved,</l>
+        </sp>
+        <sp xml:id="A21238-e103700" who="A21238-achates">
+          <speaker>Ach.</speaker>
+          <l xml:id="A21238-e103710">Even so it was: for he from court removed</l>
+          <l xml:id="A21238-e103720">Her friend, for whom her country she forsook,</l>
+          <l xml:id="A21238-e103730">As not of force her lover's lack to bear:</l>
+          <l xml:id="A21238-e103740">Which known, the Duke to travel him betook:</l>
+          <l xml:id="A21238-e103750">To find her out whom nature made so dear,</l>
+          <l xml:id="A21238-e103760">With mind resolved if he her met again,</l>
+          <l xml:id="A21238-e103770">To think such hap sweet pay for all his pain. </l>
+        </sp>
+        <sp xml:id="A21238-e103780" who="A21238-roxane">
+          <speaker>Rox.</speaker>
+          <l xml:id="A21238-e103790">And hath he not as yet heard where she is? </l>
+        </sp>
+        <sp xml:id="A21238-e103800" who="A21238-achates">
+          <speaker>Ach.</speaker>
+          <l xml:id="A21238-e103810">Not yet, but that Sibilla bade him go,</l>
+          <l xml:id="A21238-e103820">To such a soil as I suppose is this,</l>
+          <l xml:id="A21238-e103830">And there to have his hope and end his woe,</l>
+        </sp>
+        <sp xml:id="A21238-e103840" who="A21238-roxane">
+          <speaker>Rox.</speaker>
+          <l xml:id="A21238-e103850">These things be strange, yet stranger things have been</l>
+          <l xml:id="A21238-e103860">Accomplished here, as I myself have seen. </l>
+          <l xml:id="A21238-e103870">Well sir, I am to think myself much bound,</l>
+          <l xml:id="A21238-e103880">For this your curtsy showed at my request,</l>
+          <l xml:id="A21238-e103890">And if your ease may grow within this ground,</l>
+          <l xml:id="A21238-e103900">By means of me, sure I will do my best. </l>
+          <l xml:id="A21238-e103910">But sir, may I desire your prince's daughters name? </l>
+        </sp>
+        <sp xml:id="A21238-e103920" who="A21238-achates">
+          <speaker>Ach.</speaker>
+          <l xml:id="A21238-e103930">Gaudina she is called of worthy fame. </l>
+        </sp>
+        <sp xml:id="A21238-e103940" who="A21238-roxane">
+          <speaker>Rox.</speaker>
+          <l xml:id="A21238-e103950">I thank you sir, I can no longer stay,</l>
+          <l xml:id="A21238-e103960">But for requite command me any way. </l>
+        </sp>
+        <sp xml:id="A21238-e103970" who="A21238-achates">
+          <speaker>Ach.</speaker>
+          <l xml:id="A21238-e103980">I thank you for your courtesy. </l>
+        </sp>
+        <sp xml:id="A21238-e103990" who="A21238-roxane">
+          <speaker>Rox.</speaker>
+          <l xml:id="A21238-e104000">Now to my l. I'll go with speed,</l>
+          <l xml:id="A21238-e104010">That hearing this she may accordingly proceed. </l>
+          <stage xml:id="A21238-e104020">Exit.</stage>
+          <stage xml:id="A21238-e104030">Occanon from sleep.</stage>
+          <l xml:id="A21238-e104040">Ah, ah, it is but vain to hope in sleep,</l>
+          <l xml:id="A21238-e104050">To purchase ease, where waking fills with care:</l>
+          <l xml:id="A21238-e104060">In sleep I felt my slumbering eyes did weep,</l>
+          <l xml:id="A21238-e104070">My heart did pant for grief in mind I bore. </l>
+          <l xml:id="A21238-e104080">Now let us pass unto our journey's end,</l>
+          <l xml:id="A21238-e104090">Till we find out what chance the gods will send. </l>
+        </sp>
+        <sp xml:id="A21238-e104100" who="A21238-achates">
+          <pb facs="12"/>
+          <speaker>Ach.</speaker>
+          <lg xml:id="A21238-e104110">
+            <l xml:id="A21238-e104120">My lord, if words that pass from faithful heart</l>
+            <l xml:id="A21238-e104130">May stay your mind, my hope here bids me stay,</l>
+            <l xml:id="A21238-e104140">For marking all that's here in every part,</l>
+            <l xml:id="A21238-e104150">And minding that which Sibyl once did say:</l>
+            <l xml:id="A21238-e104160">Methink this place should be the happy land,</l>
+            <l xml:id="A21238-e104170">Where we should rest, as she bore us in hand. </l>
+          </lg>
+          <lg xml:id="A21238-e104180">
+            <l xml:id="A21238-e104190">Besides while you took rest, a lady came</l>
+            <l xml:id="A21238-e104200">With show of grief, that your mishaps were such,</l>
+            <l xml:id="A21238-e104210">And learning both yours and your daughter's name,</l>
+            <l xml:id="A21238-e104220">Did pass away: all which persuade me much:</l>
+            <l xml:id="A21238-e104230">That if you stay till she again return,</l>
+            <l xml:id="A21238-e104240">Your heavy heart with joyful news shall burn. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e104250" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <lg xml:id="A21238-e104260">
+            <l xml:id="A21238-e104270">The nearer hope to have that I desire,</l>
+            <l xml:id="A21238-e104280">To see my child whom I so far have sought,</l>
+            <l xml:id="A21238-e104290">The more I burn, the greater is my fire,</l>
+            <l xml:id="A21238-e104300">For fear to fail of that to win I thought,</l>
+            <l xml:id="A21238-e104310">The wished end requites the toil that's past,</l>
+            <l xml:id="A21238-e104320">And joy for grief is recompense at last. </l>
+          </lg>
+          <lg xml:id="A21238-e104330">
+            <l xml:id="A21238-e104340">What is the force of father's care I see,</l>
+            <l xml:id="A21238-e104350">Though I myself am father to my care,</l>
+            <l xml:id="A21238-e104360">To this effect the same hath wrought in me,</l>
+            <l xml:id="A21238-e104370">That though it be among examples rare:</l>
+            <l xml:id="A21238-e104380">Myself I have disrobed of my state,</l>
+            <l xml:id="A21238-e104390">To find my child which I did lose of late. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e104400" who="A21238-achates">
+          <speaker>Acha.</speaker>
+          <lg xml:id="A21238-e104410">
+            <l xml:id="A21238-e104420">For great offence my lord the payment great,</l>
+            <l xml:id="A21238-e104430">The meanest man feels not the greatest fall,</l>
+            <l xml:id="A21238-e104440">You rue with time that you did work in heat,</l>
+            <l xml:id="A21238-e104450">And yet you find to comfort you withal:</l>
+            <l xml:id="A21238-e104460">This cost to Sibyl's words so doth agree. </l>
+            <l xml:id="A21238-e104470">But sir behold what ladies do I see? </l>
+          </lg>
+          <stage xml:id="A21238-e104480">The fairy Queen and Roxane entereth.</stage>
+          <lg xml:id="A21238-e104490">
+            <l xml:id="A21238-e104500">A royal blood her virtue will bew ray,</l>
+            <l xml:id="A21238-e104510">Though fortune seek her ne'er so to oppress,</l>
+            <l xml:id="A21238-e104520">And noble race will not run far astray.</l>
+            <l xml:id="A21238-e104530"><pb facs="12"/> but of herself will work her own redress:</l>
+            <l xml:id="A21238-e104540">As I myself even now have found most true,</l>
+            <l xml:id="A21238-e104550">In this your lady's case whom I so rue. </l>
+          </lg>
+          <lg xml:id="A21238-e104560">
+            <l xml:id="A21238-e104570">She fearing father's wrath for her offence,</l>
+            <l xml:id="A21238-e104580">Though by constraint unkindly caused to stray,</l>
+            <l xml:id="A21238-e104590">As she intends with speed departure hence,</l>
+            <l xml:id="A21238-e104600">So will she not but wisely part away,</l>
+            <l xml:id="A21238-e104610">And for advice resorted unto me,</l>
+            <l xml:id="A21238-e104620">To learn what way her best return might be. </l>
+          </lg>
+          <lg xml:id="A21238-e104630">
+            <l xml:id="A21238-e104640">My council was, since fates had found the mean,</l>
+            <l xml:id="A21238-e104650">The English Queen to make for her defence,</l>
+            <l xml:id="A21238-e104660">To whose assured stay she might welleane</l>
+            <l xml:id="A21238-e104670">To suage her father's wrath, so wrought for her offence:</l>
+            <l xml:id="A21238-e104680">For none could help her more nor so as she,</l>
+            <l xml:id="A21238-e104690">If with such suit her grace content might be. </l>
+          </lg>
+          <lg xml:id="A21238-e104700">
+            <l xml:id="A21238-e104710">Her credit is so good her fame so flies,</l>
+            <l xml:id="A21238-e104720">Her honour such, her wisdom so in note,</l>
+            <l xml:id="A21238-e104730">Her name so known to all men's ears and eyes,</l>
+            <l xml:id="A21238-e104740">As better mean could nowhere else be got,</l>
+            <l xml:id="A21238-e104750">Then if he might at her hands understand,</l>
+            <l xml:id="A21238-e104760">What she hath heard and seen within her land. </l>
+          </lg>
+          <lg xml:id="A21238-e104770">
+            <l xml:id="A21238-e104780">Whereon when we resolved by joint assent,</l>
+            <l xml:id="A21238-e104790">And I at her request was drawing near,</l>
+            <l xml:id="A21238-e104800">To move the suit according as we meant,</l>
+            <l xml:id="A21238-e104810">I met you by the way which had been here:</l>
+            <l xml:id="A21238-e104820">By whom I learned a very speedy mean,</l>
+            <l xml:id="A21238-e104830">To work her weal and void all terror clean. </l>
+          </lg>
+          <lg xml:id="A21238-e104840">
+            <l xml:id="A21238-e104850">But maid where is the Duke of whom you spoke,</l>
+            <l xml:id="A21238-e104860">Which took this toil for your good lady's sake? </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e104870" who="A21238-roxane">
+          <speaker>Rox.</speaker>
+          <l xml:id="A21238-e104880">Yond same is he whose strange attire,</l>
+          <l xml:id="A21238-e104890">Descries his grief and points at his desire. </l>
+        </sp>
+        <sp xml:id="A21238-e104900" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A21238-e104910">Well: I'll feel his pulse. Sir knight I hear,</l>
+          <l xml:id="A21238-e104920">You are inquest your daughter here to find. </l>
+          <l xml:id="A21238-e104930"><pb facs="13"/>In weed disguised because behaps you fear,</l>
+          <l xml:id="A21238-e104940">Least being known contrary to your mind. </l>
+          <l xml:id="A21238-e104950">Your search might grow too long, yet may it be,</l>
+          <l xml:id="A21238-e104960">Your state descried you may find help of me. </l>
+        </sp>
+        <sp xml:id="A21238-e104970" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <lg xml:id="A21238-e104980">
+            <l xml:id="A21238-e104990">Alas madam, and must it needs be so?</l>
+            <l xml:id="A21238-e105000">Must grief burst out? and must my careful thought,</l>
+            <l xml:id="A21238-e105010">Make you by speech partaker of my woe?</l>
+            <l xml:id="A21238-e105020">Wherein the wrong that I have justly wrought</l>
+            <l xml:id="A21238-e105030">Unto myself, shall lead me on along,</l>
+            <l xml:id="A21238-e105040">Till her I find whose wand'ring is my wrong. </l>
+          </lg>
+          <lg xml:id="A21238-e105050">
+            <l xml:id="A21238-e105060">My native country is, where Indies stream,</l>
+            <l xml:id="A21238-e105070">Doth enter sea, nigh to th' Cambaian cost,</l>
+            <l xml:id="A21238-e105080">From whence I roam into this famous realm,</l>
+            <l xml:id="A21238-e105090">To seek my child which by mischance I lost,</l>
+            <l xml:id="A21238-e105100">There Duke I am, a lord of fruitful soil,</l>
+            <l xml:id="A21238-e105110">Though fortune's force now tax me with this toil. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e105120" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A21238-e105130">How hap your child did leave you so alone?</l>
+          <l xml:id="A21238-e105140">Was there no help but she must needs be gone? </l>
+        </sp>
+        <sp xml:id="A21238-e105150" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <l xml:id="A21238-e105160">She would needs love where I misliked much,</l>
+          <l xml:id="A21238-e105170">A man of mean estate of base degree,</l>
+          <l xml:id="A21238-e105180">She is my only care and his case such,</l>
+          <l xml:id="A21238-e105190">As, though well born, a subject yet to me. </l>
+          <l xml:id="A21238-e105200">Whom I in heat removed from her: but she</l>
+          <l xml:id="A21238-e105210">In greater heat removed herself from me. </l>
+        </sp>
+        <sp xml:id="A21238-e105220" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <lg xml:id="A21238-e105230">
+            <l xml:id="A21238-e105240">Methinks these words in such high state bewray</l>
+            <l xml:id="A21238-e105250">More eager mind then gift of great conceit,</l>
+            <l xml:id="A21238-e105260">A Princess peer a Duke should seek to stay,</l>
+            <l xml:id="A21238-e105270">And not 'gainst fume with wit to work debate. </l>
+            <l xml:id="A21238-e105280">Are you so far misled for want of skill,</l>
+            <l xml:id="A21238-e105290">As you know not that love will have his will? </l>
+          </lg>
+          <lg xml:id="A21238-e105300">
+            <l xml:id="A21238-e105310">He knows no peer: all states stoop to his check,</l>
+            <l xml:id="A21238-e105320">He spares no prince no more than mean estate,</l>
+            <l xml:id="A21238-e105330">But makes each one obey him at a beck:</l>
+            <l xml:id="A21238-e105340">He takes great scorn to hear tell of a mate,</l>
+            <l xml:id="A21238-e105350"><pb facs="13"/> but where he finds such match as he doth like,</l>
+            <l xml:id="A21238-e105360">Without gainsay he bends his bow to strike. </l>
+          </lg>
+          <lg xml:id="A21238-e105370">
+            <l xml:id="A21238-e105380">Because you are a prince of high degree,</l>
+            <l xml:id="A21238-e105390">In country where you dwell, you hold it light</l>
+            <l xml:id="A21238-e105400">That love should should wound your only heir I see,</l>
+            <l xml:id="A21238-e105410">But were you of far more puissant might,</l>
+            <l xml:id="A21238-e105420">And she of price as peerless as may be,</l>
+            <l xml:id="A21238-e105430">Love hath subdued far braver dames than she. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e105440" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <l xml:id="A21238-e105450">Madam I must confess the force of love,</l>
+          <l xml:id="A21238-e105460">To be a thing in vain against to bend,</l>
+          <l xml:id="A21238-e105470">Which blind reason first did after prove,</l>
+          <l xml:id="A21238-e105480">To set us so as we can not defend,</l>
+          <l xml:id="A21238-e105490">And so triumphing when we cannot see,</l>
+          <l xml:id="A21238-e105500">We must confess, who is the god but he? </l>
+        </sp>
+        <sp xml:id="A21238-e105510" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <lg xml:id="A21238-e105520">
+            <l xml:id="A21238-e105530">As who should say, love never hits aright,</l>
+            <l xml:id="A21238-e105540">But beetle like bereaved of sight doth run,</l>
+            <l xml:id="A21238-e105550">Not weighing worth, nor marking where to light,</l>
+            <l xml:id="A21238-e105560">But love oft times by due desert is won,</l>
+            <l xml:id="A21238-e105570">And most pressed on in dames of highest prize,</l>
+            <l xml:id="A21238-e105580">Wherefore judge right, for love oft times is wise. </l>
+          </lg>
+          <lg xml:id="A21238-e105590">
+            <l xml:id="A21238-e105600">Perhaps your daughter's love sprang from desert,</l>
+            <l xml:id="A21238-e105610">Perhaps the persons worth procured her choice,</l>
+            <l xml:id="A21238-e105620">Perhaps he was so tied he could not start</l>
+            <l xml:id="A21238-e105630">From her, commanding him by virtue's voice:</l>
+            <l xml:id="A21238-e105640">And would you seem at such link to repine,</l>
+            <l xml:id="A21238-e105650">Which virtue did with her own fingers twine? </l>
+          </lg>
+          <lg xml:id="A21238-e105660">
+            <l xml:id="A21238-e105670">Therefore make your account this grief you feel,</l>
+            <l xml:id="A21238-e105680">Proceeds from offence 'gainst such a power,</l>
+            <l xml:id="A21238-e105690">And never hope to win your better weal,</l>
+            <l xml:id="A21238-e105700">Till that his wrath appeared, he leave to lower. </l>
+            <l xml:id="A21238-e105710">Love is a lord, who loathes, him him he shames,</l>
+            <l xml:id="A21238-e105720">Not sparing lords, not sparing princely dames. </l>
+          </lg>
+          <lg xml:id="A21238-e105730">
+            <l xml:id="A21238-e105740">And chiefly where with virtue he doth link,</l>
+            <l xml:id="A21238-e105750">For virtue's sake, where love doth like to light. </l>
+            <l xml:id="A21238-e105760"><pb facs="14"/>There can no force enforce his force to shrink,</l>
+            <l xml:id="A21238-e105770">He trusts so much to his confederates might. </l>
+            <l xml:id="A21238-e105780">Wherefore your daughter's love for virtue's sake,</l>
+            <l xml:id="A21238-e105790">Work what you could, no overthrow would take. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e105800" who="A21238-occanon">
+          <speaker>Occan.</speaker>
+          <l xml:id="A21238-e105810">I never did repine where virtues love did link,</l>
+          <l xml:id="A21238-e105820">But where there seemed disparagement to rise,</l>
+          <l xml:id="A21238-e105830">As in her match I did and do still think,</l>
+          <l xml:id="A21238-e105840">His birth to hers in no point did suffice,</l>
+          <l xml:id="A21238-e105850">A prince's child inheritor to state,</l>
+          <l xml:id="A21238-e105860">Too good I thought so far to undermate. </l>
+        </sp>
+        <sp xml:id="A21238-e105870" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <lg xml:id="A21238-e105880">
+            <l xml:id="A21238-e105890">Alas good sir, know you not at these years,</l>
+            <l xml:id="A21238-e105900">That love doth always fight on equal ground,</l>
+            <l xml:id="A21238-e105910">And where he mindeth match, he makes them peers:</l>
+            <l xml:id="A21238-e105920">If minds agree the ground of states is found. </l>
+            <l xml:id="A21238-e105930">A princely heart in meaner man may dwell,</l>
+            <l xml:id="A21238-e105940">Where, if a Princess like, she doth but well. </l>
+          </lg>
+          <lg xml:id="A21238-e105950">
+            <l xml:id="A21238-e105960">For when the ear is fed with worths report,</l>
+            <l xml:id="A21238-e105970">When eye beholds what ravisheth the sight,</l>
+            <l xml:id="A21238-e105980">The heart straight to desire yields up the fort:</l>
+            <l xml:id="A21238-e105990">Where if again like liking hap to light,</l>
+            <l xml:id="A21238-e106000">When virtues join and like with like is knit,</l>
+            <l xml:id="A21238-e106010">What match is made more excellent than it? </l>
+          </lg>
+          <lg xml:id="A21238-e106020">
+            <l xml:id="A21238-e106030">This match should you maintain where love crept in.</l>
+            <l xml:id="A21238-e106040">Not of himself but guess-ways led by hand,</l>
+            <l xml:id="A21238-e106050">For virtue was the first that did begin,</l>
+            <l xml:id="A21238-e106060">Against whose force whilst you thought to withstand,</l>
+            <l xml:id="A21238-e106070">In single terms as not allowing love,</l>
+            <l xml:id="A21238-e106080">The compound strength of virtue you do prove. </l>
+          </lg>
+          <lg xml:id="A21238-e106090">
+            <l xml:id="A21238-e106100">You blame not him for mounting up so high,</l>
+            <l xml:id="A21238-e106110">She bears the blame for bending down so low,</l>
+            <l xml:id="A21238-e106120">Whom fortune bids look up, too blame were he,</l>
+            <l xml:id="A21238-e106130">If he should quail, and worthy overthrow. </l>
+            <l xml:id="A21238-e106140">And she too blame, of ne'er so high degree,</l>
+            <l xml:id="A21238-e106150">Not casting love where virtues doth agree. </l>
+          </lg>
+          <lg xml:id="A21238-e106160">
+            <pb facs="14"/>
+            <l xml:id="A21238-e106170">Alas what's birth though born so much in eye,</l>
+            <l xml:id="A21238-e106180">The only mean to blind who so is born,</l>
+            <l xml:id="A21238-e106190">Who looking big with countenance on high,</l>
+            <l xml:id="A21238-e106200">With vain conceits holds virtues gifts in scorn,</l>
+            <l xml:id="A21238-e106210">Unhappy he that brags in that behalf,</l>
+            <l xml:id="A21238-e106220">Where virtue lacks he proves himself a calf. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e106230" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <l xml:id="A21238-e106240">You force me sore, yet this you'll not deny,</l>
+          <l xml:id="A21238-e106250">That though love's power be not to be withstood,</l>
+          <l xml:id="A21238-e106260">And that the match of minds be beyond cry.</l>
+          <l xml:id="A21238-e106270">And they best linked where liking thinks it good,</l>
+          <l xml:id="A21238-e106280">Yet should my child of me make so small store,</l>
+          <l xml:id="A21238-e106290">As match herself and not move me before? </l>
+        </sp>
+        <sp xml:id="A21238-e106300" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A21238-e106310">If match were made by only mean of man,</l>
+          <l xml:id="A21238-e106320">You had been first, as whom the cause concerned,</l>
+          <l xml:id="A21238-e106330">But what the gods first move do what you can,</l>
+          <l xml:id="A21238-e106340">They will pass on though parents be not warned,</l>
+          <l xml:id="A21238-e106350">It is but vain to say love shall not win,</l>
+          <l xml:id="A21238-e106360">Unless at your consent he first begin. </l>
+        </sp>
+        <sp xml:id="A21238-e106370" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <l xml:id="A21238-e106380">But was not that unkindly done of her,</l>
+          <l xml:id="A21238-e106390">Unknown to me to stray from country's soil? </l>
+          <l xml:id="A21238-e106400">Thereby her father's blood so sore to stir,</l>
+          <l xml:id="A21238-e106410">Which for her sake do take this irksome toil? </l>
+          <l xml:id="A21238-e106420">In kind a child, unkind to such a sire,</l>
+          <l xml:id="A21238-e106430">Deserving just revenge of father's ire. </l>
+        </sp>
+        <sp xml:id="A21238-e106440" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A21238-e106450">Nay was not that unkindly done of you,</l>
+          <l xml:id="A21238-e106460">Unknown to her, to send her love away,</l>
+          <l xml:id="A21238-e106470">To work you both such woe as you feel now,</l>
+          <l xml:id="A21238-e106480">You for her sake, she for her love to stray:</l>
+          <l xml:id="A21238-e106490">In kind a sire, unkind to such a child,</l>
+          <l xml:id="A21238-e106500">Whose only fault hath child and sire exiled. </l>
+        </sp>
+        <sp xml:id="A21238-e106510" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <l xml:id="A21238-e106520">But nature should have born with parents heat,</l>
+          <l xml:id="A21238-e106530">Sith what was meant was meant but for her good,</l>
+          <l xml:id="A21238-e106540">The love of kind, such fancy love should beat,</l>
+          <l xml:id="A21238-e106550">And though she found me for a time in mood. </l>
+          <l xml:id="A21238-e106560">Time would have turned and caused me to relent,</l>
+          <l xml:id="A21238-e106570"><pb facs="15"/> in that for which from me she slily went. </l>
+        </sp>
+        <sp xml:id="A21238-e106580" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <lg xml:id="A21238-e106590">
+            <l xml:id="A21238-e106600">Where nature doth but warm love sets on fire,</l>
+            <l xml:id="A21238-e106610">And greater force of lesser is obeyed,</l>
+            <l xml:id="A21238-e106620">For love by choice doth draw more deep desire,</l>
+            <l xml:id="A21238-e106630">The love of kind, by kind love's over weighed,</l>
+            <l xml:id="A21238-e106640">Which master like gives not time to relent,</l>
+            <l xml:id="A21238-e106650">But on he will or make the man repent. </l>
+          </lg>
+          <lg xml:id="A21238-e106660">
+            <l xml:id="A21238-e106670">How could your tigrish heart by sundering them,</l>
+            <l xml:id="A21238-e106680">Which lived in heaven before you sought their hell,</l>
+            <l xml:id="A21238-e106690">Defeat the hold where Cupid held his claim?</l>
+            <l xml:id="A21238-e106700">But in these terms no longer for to dwell:</l>
+            <l xml:id="A21238-e106710">What if your child were offered to your face,</l>
+            <l xml:id="A21238-e106720">Should she, or should she not obtain your grace? </l>
+          </lg>
+          <lg xml:id="A21238-e106730">
+            <l xml:id="A21238-e106740">And if her love for whom her toil hath been,</l>
+            <l xml:id="A21238-e106750">Should come with her resolved to be her own,</l>
+            <l xml:id="A21238-e106760">Should not this angry mood of yours void clean?</l>
+            <l xml:id="A21238-e106770">Answer me that, for that thing being known,</l>
+            <l xml:id="A21238-e106780">Perhaps I would in part procure your ease,</l>
+            <l xml:id="A21238-e106790">So that their match your mind might not displease. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e106800" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <l xml:id="A21238-e106810">This compound case doth cause a fight in mind:</l>
+          <l xml:id="A21238-e106820">To gain my child my grief would soon relent,</l>
+          <l xml:id="A21238-e106830">Though in her flight she followed not her kind,</l>
+          <l xml:id="A21238-e106840">But with her match I cannot be content. </l>
+          <l xml:id="A21238-e106850">But who are you madam if I may crave,</l>
+          <l xml:id="A21238-e106860">To know your name which seeks them thus to save. </l>
+        </sp>
+        <sp xml:id="A21238-e106870" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A21238-e106880">I am the fairy Queen. </l>
+        </sp>
+        <sp xml:id="A21238-e106890" who="A21238-occanon">
+          <speaker>Occan.</speaker>
+          <l xml:id="A21238-e106900">O noble dame,</l>
+          <l xml:id="A21238-e106910">Whose skill is such, as naught is hid from you,</l>
+          <l xml:id="A21238-e106920">Nothing so dark but you do know the same,</l>
+          <l xml:id="A21238-e106930">I know you know where both they be, and how</l>
+          <l xml:id="A21238-e106940">I may obtain the thing I have so sought,</l>
+          <l xml:id="A21238-e106950">Whose want I wrought and dear have it bought. </l>
+        </sp>
+        <sp xml:id="A21238-e106960" who="A21238-queen">
+          <pb facs="15"/>
+          <speaker>Queen.</speaker>
+          <l xml:id="A21238-e106970">Well sir, I do perceive you are content,</l>
+          <l xml:id="A21238-e106980">To take your child into your grace again,</l>
+          <l xml:id="A21238-e106990">In hope whereof she shall straight be present,</l>
+          <l xml:id="A21238-e107000">To please her father's sight, to stay his pain:</l>
+          <l xml:id="A21238-e107010">For other things discourse you when you meet,</l>
+          <l xml:id="A21238-e107020">All will be well since you are won from heat. </l>
+          <stage xml:id="A21238-e107030">Go maid, go, call your lady here.</stage>
+          <stage xml:id="A21238-e107040">Rox. exit.</stage>
+        </sp>
+        <sp xml:id="A21238-e107050" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <l xml:id="A21238-e107060">I thank you noble dame for pitying me,</l>
+          <l xml:id="A21238-e107070">And tendering this my silly daughter's state,</l>
+          <l xml:id="A21238-e107080">Whom if it be my hap again to see,</l>
+          <l xml:id="A21238-e107090">No such like heat shall set us at debate,</l>
+          <l xml:id="A21238-e107100">And yet I hope by reason so to deal,</l>
+          <l xml:id="A21238-e107110">As that her match shall stand to country's weal. </l>
+        </sp>
+        <sp xml:id="A21238-e107120" who="A21238-achates">
+          <speaker>Acha.</speaker>
+          <l xml:id="A21238-e107130">It will be hard her settled love to shake,</l>
+          <l xml:id="A21238-e107140">Which grounded once is not light to remove,</l>
+          <l xml:id="A21238-e107150">Yet for your love and for her country's sake,</l>
+          <l xml:id="A21238-e107160">It may fall out she will forget her love:</l>
+          <l xml:id="A21238-e107170">Which being new and young did ravish so,</l>
+          <l xml:id="A21238-e107180">Now being old hath better leave to go,</l>
+          <l xml:id="A21238-e107190">But yonder comes the maiden which was sent,</l>
+          <stage xml:id="A21238-e107200">Gaudina and Roxa. entereth.</stage>
+          <l xml:id="A21238-e107210">And lo my lady there for whom she went. </l>
+        </sp>
+        <sp xml:id="A21238-e107220" who="A21238-queen">
+          <speaker>Qu.</speaker>
+          <l xml:id="A21238-e107230">'Tis true my l. your daughter is in place.</l>
+          <l xml:id="A21238-e107240">Perform your speech and let her find some grace. </l>
+          <stage xml:id="A21238-e107250">Gaudi. espying her father, falleth on her knees, saying:</stage>
+        </sp>
+        <sp xml:id="A21238-e107260" who="A21238-gaudina">
+          <speaker>Gaudi.</speaker>
+          <lg xml:id="A21238-e107270">
+            <l xml:id="A21238-e107280">I must dear father crave here at your feet,</l>
+            <l xml:id="A21238-e107290">For mine offence your pardon to obtain,</l>
+            <l xml:id="A21238-e107300">From whom to fly, I yield it was not meet,</l>
+            <l xml:id="A21238-e107310">Yet love (My lord) in me so sore did rain:</l>
+            <l xml:id="A21238-e107320">As victor once repulse he would not bear,</l>
+            <l xml:id="A21238-e107330">But bade me seek my love in place each where. </l>
+          </lg>
+          <lg xml:id="A21238-e107340">
+            <l xml:id="A21238-e107350">You understand my lord the course I kept,</l>
+            <l xml:id="A21238-e107360">You see the gods have brought this gear to end,</l>
+            <l xml:id="A21238-e107370">These fatal lists could not be over leapt,</l>
+            <l xml:id="A21238-e107380">But needs my will to their great might must bend:</l>
+            <l xml:id="A21238-e107390"><pb facs="16"/> for fault to you their force I must oppose,</l>
+            <l xml:id="A21238-e107400">I am your child of me you may dispose. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e107410" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <lg xml:id="A21238-e107420">
+            <l xml:id="A21238-e107430">Small pardon needs where grace is ready found,</l>
+            <l xml:id="A21238-e107440">Upon some better hope you have discharge,</l>
+            <l xml:id="A21238-e107450">Affection heals where folly made the wound,</l>
+            <l xml:id="A21238-e107460">But these things are to be discoursed at large. </l>
+            <l xml:id="A21238-e107470">But now the mean to mend your present case,</l>
+            <l xml:id="A21238-e107480">Is that you yield and gain your father's grace. </l>
+          </lg>
+          <lg xml:id="A21238-e107490">
+            <l xml:id="A21238-e107500">This lady here the fairy Queen hath laid,</l>
+            <l xml:id="A21238-e107510">For your defence in so forsaking me,</l>
+            <l xml:id="A21238-e107520">As much as may in your behalf be said,</l>
+            <l xml:id="A21238-e107530">To whom we both are bound exceedingly:</l>
+            <l xml:id="A21238-e107540">One point remains, wherein if you relent,</l>
+            <l xml:id="A21238-e107550">To take you home to grace I am content. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e107560" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A21238-e107570">I dare myself for her part undertake,</l>
+          <l xml:id="A21238-e107580">That on her side resistance will be small,</l>
+          <l xml:id="A21238-e107590">To what request her father here shall make,</l>
+          <l xml:id="A21238-e107600">The cause once known, and circumstance withal;</l>
+          <l xml:id="A21238-e107610">To compass your good will is her desire,</l>
+          <l xml:id="A21238-e107620">Wherefore demand the thing that you require. </l>
+        </sp>
+        <sp xml:id="A21238-e107630" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <lg xml:id="A21238-e107640">
+            <l xml:id="A21238-e107650">Gaudina this long time you have given rain,</l>
+            <l xml:id="A21238-e107660">To serve your choice and feed your fancy still,</l>
+            <l xml:id="A21238-e107670">Wherein as you have suffered part of pain,</l>
+            <l xml:id="A21238-e107680">So I became partaker of your ill,</l>
+            <l xml:id="A21238-e107690">Now is the time to come to reason's school,</l>
+            <l xml:id="A21238-e107700">Which can alone these hot affections cool. </l>
+          </lg>
+          <lg xml:id="A21238-e107710">
+            <l xml:id="A21238-e107720">For love to leave the land where you were born,</l>
+            <l xml:id="A21238-e107730">To tread your father's tears quite under feet. </l>
+            <l xml:id="A21238-e107740">To stray you wot not where as one forlorn,</l>
+            <l xml:id="A21238-e107750">To wander stranger like in such a heat:</l>
+            <l xml:id="A21238-e107760">Doth ill beseem a person of your port,</l>
+            <l xml:id="A21238-e107770">Which being done, to reason now resort. </l>
+          </lg>
+          <lg xml:id="A21238-e107780">
+            <pb facs="16"/>
+            <l xml:id="A21238-e107790">You are mine only child, heir to my state,</l>
+            <l xml:id="A21238-e107800">The wealth whereof doth rest upon your choice,</l>
+            <l xml:id="A21238-e107810">Which will be well if you in taking mate,</l>
+            <l xml:id="A21238-e107820">Do use advice of father's careful voice,</l>
+            <l xml:id="A21238-e107830">Mark well, hereon doth hang your father's love,</l>
+            <l xml:id="A21238-e107840">Besides the good by you my state may prove. </l>
+          </lg>
+          <lg xml:id="A21238-e107850">
+            <l xml:id="A21238-e107860">I will (Considering both birth and your degree,</l>
+            <l xml:id="A21238-e107870">Whereto at first I cast my chief respect)</l>
+            <l xml:id="A21238-e107880">To country's good you chiefly have an eye,</l>
+            <l xml:id="A21238-e107890">Which calls you home, and wills you to neglect,</l>
+            <l xml:id="A21238-e107900">The love of him which led you so astray,</l>
+            <l xml:id="A21238-e107910">And for her sake to take a better way. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e107920" who="A21238-gaudina">
+          <speaker>Gaudin.</speaker>
+          <lg xml:id="A21238-e107930">
+            <l xml:id="A21238-e107940">A dainty choice my lord you offer me,</l>
+            <l xml:id="A21238-e107950">Old rooted love still wedded to conceit,</l>
+            <l xml:id="A21238-e107960">With rueful look appearing in mine eye,</l>
+            <l xml:id="A21238-e107970">And to your suit presenting still debate,</l>
+            <l xml:id="A21238-e107980">Whom countries good and nature bids obey,</l>
+            <l xml:id="A21238-e107990">Whereby my tongue knows not what's best to say. </l>
+          </lg>
+          <lg xml:id="A21238-e108000">
+            <l xml:id="A21238-e108010">But good my lord sith you which may command,</l>
+            <l xml:id="A21238-e108020">Do give me leave for my defence to plead,</l>
+            <l xml:id="A21238-e108030">May it please you in short to understand,</l>
+            <l xml:id="A21238-e108040">How things have passed twixt him and me indeed,</l>
+            <l xml:id="A21238-e108050">Which being heard, if you be not content,</l>
+            <l xml:id="A21238-e108060">My will to yours shall presently be bent:</l>
+          </lg>
+          <lg xml:id="A21238-e108070">
+            <l xml:id="A21238-e108080">How worth in him did work love first in me,</l>
+            <l xml:id="A21238-e108090">In princely state while I did live at home,</l>
+            <l xml:id="A21238-e108100">Yourself therewith displeased did right well see,</l>
+            <l xml:id="A21238-e108110">Which banishing him enforced me to roam,</l>
+            <l xml:id="A21238-e108120">Because the bait which love for us had laid,</l>
+            <l xml:id="A21238-e108130">Held us so fast as it could not be stayed. </l>
+          </lg>
+          <lg xml:id="A21238-e108140">
+            <pb facs="17"/>
+            <l xml:id="A21238-e108150">By land and sea I wandered far and near,</l>
+            <l xml:id="A21238-e108160">Not finding rest till Sibyl told me plain,</l>
+            <l xml:id="A21238-e108170">Her hap of that I hoped remained here,</l>
+            <l xml:id="A21238-e108180">Where I should rest and finish all my pain:</l>
+            <l xml:id="A21238-e108190">Success confirmed her speech, and here I found,</l>
+            <l xml:id="A21238-e108200">To whom by chained link love hath me bound. </l>
+          </lg>
+          <lg xml:id="A21238-e108210">
+            <l xml:id="A21238-e108220">For farther link in marriage to proceed,</l>
+            <l xml:id="A21238-e108230">Because therein I had not your consent,</l>
+            <l xml:id="A21238-e108240">I followed still Apollo's holy reed,</l>
+            <l xml:id="A21238-e108250">Whose priest in that restrained mine intent,</l>
+            <l xml:id="A21238-e108260">And willed me not to marriage to give place,</l>
+            <l xml:id="A21238-e108270">Till he should like of whom I took my race. </l>
+          </lg>
+          <lg xml:id="A21238-e108280">
+            <l xml:id="A21238-e108290">Our state is thus, our love which thus did grow,</l>
+            <l xml:id="A21238-e108300">Stands in these terms, in other terms yet free,</l>
+            <l xml:id="A21238-e108310">I loved where I liked which reft me fro,</l>
+            <l xml:id="A21238-e108320">I hasted on the thing I liked to see:</l>
+            <l xml:id="A21238-e108330">I sought, I found, our love remaineth still,</l>
+            <l xml:id="A21238-e108340">So to pass forth, if it be your good will. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e108350" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <l xml:id="A21238-e108360">If you stand free save only that it pleased</l>
+          <l xml:id="A21238-e108370">The mighty Cupid this to cause you roam,</l>
+          <l xml:id="A21238-e108380">Therein I find my heart well eased,</l>
+          <l xml:id="A21238-e108390">And trust to match you well when I come home:</l>
+          <l xml:id="A21238-e108400">With love more fit for you then this can be,</l>
+          <l xml:id="A21238-e108410">Where both estate and wealth shall well agree. </l>
+        </sp>
+        <sp xml:id="A21238-e108420" who="A21238-gaudina">
+          <speaker>Gaud.</speaker>
+          <l xml:id="A21238-e108430">Alas my lord, it is but fortune's gift,</l>
+          <l xml:id="A21238-e108440">To have descent brought down from prince's train,</l>
+          <l xml:id="A21238-e108450">The person's worth is virtue's worthy drift,</l>
+          <l xml:id="A21238-e108460">Which by desert the highest place should gain. </l>
+          <l xml:id="A21238-e108470">Care not for birth though it be never so base,</l>
+          <l xml:id="A21238-e108480">But virtue reke which craves the highest place. </l>
+        </sp>
+        <sp xml:id="A21238-e108490" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <lg xml:id="A21238-e108500">
+            <l xml:id="A21238-e108510">As 'tis a chance to be a prince's child,</l>
+            <l xml:id="A21238-e108520">So if you think that virtue is restrained,</l>
+            <l xml:id="A21238-e108530">To one alone, therein you are beguiled,</l>
+            <l xml:id="A21238-e108540"><pb facs="17"/> she doth refuse of none to be obtained:</l>
+            <l xml:id="A21238-e108550">And where that royal blood with virtues meet,</l>
+            <l xml:id="A21238-e108560">Doth not such one best seem a princely seat. </l>
+          </lg>
+          <lg xml:id="A21238-e108570">
+            <l xml:id="A21238-e108580">Such one I know in place where you were born,</l>
+            <l xml:id="A21238-e108590">More fit for you then this to whom you cleave,</l>
+            <l xml:id="A21238-e108600">Wherefore give your consent, and think no scorn,</l>
+            <l xml:id="A21238-e108610">At father's suit your former love to leave:</l>
+            <l xml:id="A21238-e108620">For duty so despised for all my pain,</l>
+            <l xml:id="A21238-e108630">To find you out, I crave this only gain. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e108640" who="A21238-gaudina">
+          <speaker>Gaudi.</speaker>
+          <lg xml:id="A21238-e108650">
+            <l xml:id="A21238-e108660">But yet my lord consider all the toil,</l>
+            <l xml:id="A21238-e108670">Which I have passed to compass this my love? </l>
+            <l xml:id="A21238-e108680">Shall old conceit at length receive the foil,</l>
+            <l xml:id="A21238-e108690">Whose force I feel not minding to remove? </l>
+            <l xml:id="A21238-e108700">When love forsaken shall revive again,</l>
+            <l xml:id="A21238-e108710">Alas my lord how sore will be my pain:</l>
+          </lg>
+          <lg xml:id="A21238-e108720">
+            <l xml:id="A21238-e108730">To be constrained not once to cast a look,</l>
+            <l xml:id="A21238-e108740">Where I tofore did pitch my whole delight? </l>
+            <l xml:id="A21238-e108750">To leave him thus, for whom I all forsook,</l>
+            <l xml:id="A21238-e108760">How can true love abide such poisoned spite? </l>
+            <l xml:id="A21238-e108770">What's to be said in this unequal fight,</l>
+            <l xml:id="A21238-e108780">Where love denies what nature claims of right? </l>
+          </lg>
+          <lg xml:id="A21238-e108790">
+            <l xml:id="A21238-e108800">O Cupid be content with that is past,</l>
+            <l xml:id="A21238-e108810">Thus long to thee I have my service vowed,</l>
+            <l xml:id="A21238-e108820">Let nature now prevail at last,</l>
+            <l xml:id="A21238-e108830">What she demands hold it not disallowed:</l>
+            <l xml:id="A21238-e108840">And shall I then forsake my former joy?</l>
+            <l xml:id="A21238-e108850">Nay my Gaudina death were less annoy. </l>
+          </lg>
+          <lg xml:id="A21238-e108860">
+            <l xml:id="A21238-e108870">Plaint hath found mean, and love hath won his right,</l>
+            <l xml:id="A21238-e108880">From whom but death no force shall sever me,</l>
+            <l xml:id="A21238-e108890">Dame nature be content, here in thy sight</l>
+            <l xml:id="A21238-e108900">My love I do release and yield to thee,</l>
+            <l xml:id="A21238-e108910"><pb facs="18"/> yet neither love nor nature may possess,</l>
+            <l xml:id="A21238-e108920">But only death the mother to redress. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e108930" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <lg xml:id="A21238-e108940">
+            <l xml:id="A21238-e108950">See how this heat doth burst to extreme flame,</l>
+            <l xml:id="A21238-e108960">See what device extreme desire hath found,</l>
+            <l xml:id="A21238-e108970">She loves and cannot leave yet to void blame,</l>
+            <l xml:id="A21238-e108980">She hath found out another helpless ground,</l>
+            <l xml:id="A21238-e108990">By death to disappoint both our desires:</l>
+            <l xml:id="A21238-e109000">See reasons check when senseless love aspires. </l>
+          </lg>
+          <lg xml:id="A21238-e109010">
+            <l xml:id="A21238-e109020">Yet this I may not leave that is begun,</l>
+            <l xml:id="A21238-e109030">Madam of you I must crave farther aid,</l>
+            <l xml:id="A21238-e109040">By whom I trust this fort shall yet be won:</l>
+            <l xml:id="A21238-e109050">You have perceived by both what hath been said,</l>
+            <l xml:id="A21238-e109060">You see the ground whereon my reasons lean,</l>
+            <l xml:id="A21238-e109070">To work my daughter's weal be you the mean. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e109080" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <lg xml:id="A21238-e109090">
+            <l xml:id="A21238-e109100">I see affection armed and loath to yield,</l>
+            <l xml:id="A21238-e109110">Whom length of time and strength of love support,</l>
+            <l xml:id="A21238-e109120">I see whereon persuasions right doth build,</l>
+            <l xml:id="A21238-e109130">Which hath methinks possessed the stronger fort:</l>
+            <l xml:id="A21238-e109140">If love had sight and reason could be hold,</l>
+            <l xml:id="A21238-e109150">Or fiery flame could be subdued with cold. </l>
+          </lg>
+          <lg xml:id="A21238-e109160">
+            <l xml:id="A21238-e109170">But lady, give me leave whose friendship tried,</l>
+            <l xml:id="A21238-e109180">Doth bid you bend your ear to that I say,</l>
+            <l xml:id="A21238-e109190">The truth whereof cannot be well denied,</l>
+            <l xml:id="A21238-e109200">Though flaming love in heat seem to say nay:</l>
+            <l xml:id="A21238-e109210">Immortal states as you know mine to be,</l>
+            <l xml:id="A21238-e109220">From passions blind affects are quite and free. </l>
+          </lg>
+          <lg xml:id="A21238-e109230">
+            <l xml:id="A21238-e109240">If you may so consent to parents mind,</l>
+            <l xml:id="A21238-e109250">(Wherewith is joined the wealth of country's soil)</l>
+            <l xml:id="A21238-e109260">As love cannot accuse you for unkind,</l>
+            <l xml:id="A21238-e109270">Ne yet complain himself to have the foil:</l>
+            <l xml:id="A21238-e109280">Considering he whereon your love is bent,</l>
+            <l xml:id="A21238-e109290">May have your love though you herein relent. </l>
+          </lg>
+          <lg xml:id="A21238-e109300">
+            <pb facs="18"/>
+            <l xml:id="A21238-e109310">If you forsake, not forced by greater cause,</l>
+            <l xml:id="A21238-e109320">Love then of some unkindness might you blame. </l>
+            <l xml:id="A21238-e109330">But weight of greater worth forbidding pause</l>
+            <l xml:id="A21238-e109340">If you withstand, you blemish much your name. </l>
+            <l xml:id="A21238-e109350">It were no love that stood so in your sight:</l>
+            <l xml:id="A21238-e109360">But might be termed mere madness out of right. </l>
+          </lg>
+          <lg xml:id="A21238-e109370">
+            <l xml:id="A21238-e109380">Return again with parent whence you came,</l>
+            <l xml:id="A21238-e109390">Regard the state which birth hath brought you to,</l>
+            <l xml:id="A21238-e109400">Relent to love that will augment your fame,</l>
+            <l xml:id="A21238-e109410">And yet this knight cannot, if you so do,</l>
+            <l xml:id="A21238-e109420">Condemn you much although you him forsake,</l>
+            <l xml:id="A21238-e109430">Sith of two gods the greater you do take. </l>
+          </lg>
+          <lg xml:id="A21238-e109440">
+            <l xml:id="A21238-e109450">Your father's reason springs from such a ground,</l>
+            <l xml:id="A21238-e109460">As cannot well by reason be denied:</l>
+            <l xml:id="A21238-e109470">If he for you so fit a match have found,</l>
+            <l xml:id="A21238-e109480">As for your birth no fitter may be spied,</l>
+            <l xml:id="A21238-e109490">What have you then against him to withstand,</l>
+            <l xml:id="A21238-e109500">Since naught but good can come from parents' hand. </l>
+          </lg>
+          <lg xml:id="A21238-e109510">
+            <l xml:id="A21238-e109520">Set all aside, and only this observe,</l>
+            <l xml:id="A21238-e109530">To seek you out, your knight he took no pain,</l>
+            <l xml:id="A21238-e109540">Yours was the toil, you did from country swerve,</l>
+            <l xml:id="A21238-e109550">You travailed still, in rest he did remain:</l>
+            <l xml:id="A21238-e109560">So that of you if love crave further aid,</l>
+            <l xml:id="A21238-e109570">You answer may, he hath his wages paid. </l>
+          </lg>
+          <lg xml:id="A21238-e109580">
+            <l xml:id="A21238-e109590">But though you may thus check his love you'll say,</l>
+            <l xml:id="A21238-e109600">How shall I choke the love which flames in me,</l>
+            <l xml:id="A21238-e109610">That, do my best, so keeps me at the bay,</l>
+            <l xml:id="A21238-e109620">As ties me fast when loose I fain would be:</l>
+            <l xml:id="A21238-e109630">So that I find, the goal must there be won,</l>
+            <l xml:id="A21238-e109640">Where fancy fights, and love the broil begun? </l>
+          </lg>
+          <lg xml:id="A21238-e109650">
+            <pb facs="19"/>
+            <l xml:id="A21238-e109660">Your countenance seems to yield, debar all doubt,</l>
+            <l xml:id="A21238-e109670">Let meaner love to greater quickly yield,</l>
+            <l xml:id="A21238-e109680">Your good it is these reasons go about,</l>
+            <l xml:id="A21238-e109690">Let common care give private will the field,</l>
+            <l xml:id="A21238-e109700">Why stand you still as one in sudden trance,</l>
+            <l xml:id="A21238-e109710">Give place to that your honour may advance. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e109720" who="A21238-gaudina">
+          <speaker>Gaudina.</speaker>
+          <lg xml:id="A21238-e109730">
+            <l xml:id="A21238-e109740">Th'assault is great, yet love bids keep the field,</l>
+            <l xml:id="A21238-e109750">What all this time hath my long travel won? </l>
+            <l xml:id="A21238-e109760">If now by light attempt I hap to yield:</l>
+            <l xml:id="A21238-e109770">These reasons helte before my flight began:</l>
+            <l xml:id="A21238-e109780">What is now said but then the same was true?</l>
+            <l xml:id="A21238-e109790">The ground is old though flowers be fresh and new. </l>
+          </lg>
+          <lg xml:id="A21238-e109800">
+            <l xml:id="A21238-e109810">When he by slight was so withdrawn from me,</l>
+            <l xml:id="A21238-e109820">Then did my love condemn these reasons all,</l>
+            <l xml:id="A21238-e109830">And shall I now sith nothing else I see,</l>
+            <l xml:id="A21238-e109840">By yielding thus procure both present thrall? </l>
+            <l xml:id="A21238-e109850">I rather choose to wander with him still,</l>
+            <l xml:id="A21238-e109860">Then so to change and countermand my will. </l>
+          </lg>
+          <lg xml:id="A21238-e109870">
+            <l xml:id="A21238-e109880">I feel a false alarm as though there were,</l>
+            <l xml:id="A21238-e109890">A fitter match to be found out for me;</l>
+            <l xml:id="A21238-e109900">No Contarenus no, I smell this gear,</l>
+            <l xml:id="A21238-e109910">To try if so I would relent from thee:</l>
+            <l xml:id="A21238-e109920">No our consents have joined this faithful link,</l>
+            <l xml:id="A21238-e109930">Till thou sayest nay I will not from thee shrink. </l>
+          </lg>
+          <lg xml:id="A21238-e109940">
+            <l xml:id="A21238-e109950">And yet in thee if slender shows take place,</l>
+            <l xml:id="A21238-e109960">I'll never yield for honour of my kind,</l>
+            <l xml:id="A21238-e109970">Let men remove and slightly turn their face,</l>
+            <l xml:id="A21238-e109980">In woman's breast more stay they still shall find:</l>
+            <l xml:id="A21238-e109990">My parents pardon me my country stay,</l>
+            <l xml:id="A21238-e110000">For what is said from love I will not stray. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e110010" who="A21238-occanon">
+          <speaker>Occan.</speaker>
+          <l xml:id="A21238-e110020">You see how sore my headstrong daughter's bent,</l>
+          <l xml:id="A21238-e110030">She will not yield for ought that can be said,</l>
+          <l xml:id="A21238-e110040"><pb facs="19"/> were it not good that to the knight we went,</l>
+          <l xml:id="A21238-e110050">To see if his desire might be delayed:</l>
+          <l xml:id="A21238-e110060">I see by him the mean must first begin,</l>
+          <l xml:id="A21238-e110070">To quench the flame my daughter frieth in. </l>
+        </sp>
+        <sp xml:id="A21238-e110080" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A21238-e110090">If it seem good to you as't doth to me,</l>
+          <l xml:id="A21238-e110100">To him where as he is, we will repair,</l>
+          <l xml:id="A21238-e110110">For at his hand this must be wrought I see,</l>
+          <l xml:id="A21238-e110120">If he himself will yield to country's care:</l>
+          <l xml:id="A21238-e110130">Come sir, and you madam, let us retire,</l>
+          <l xml:id="A21238-e110140">We have to deal with him whom you desire. </l>
+        </sp>
+        <sp xml:id="A21238-e110150" who="A21238-gaudina">
+          <speaker>Gaudi.</speaker>
+          <l xml:id="A21238-e110160">You may so with persuasions deal I think,</l>
+          <l xml:id="A21238-e110170">As he to your demand may seem to yield,</l>
+          <l xml:id="A21238-e110180">But inwardly that he from me will shrink,</l>
+          <l xml:id="A21238-e110190">No reason can such ground bring for her shield:</l>
+          <l xml:id="A21238-e110200">Yet to do that which both you do desire,</l>
+          <l xml:id="A21238-e110210">Apart with you myself I will retire. </l>
+          <stage xml:id="A21238-e110220">Exeunt.</stage>
+          <stage xml:id="A21238-e110230">Here the pages abiding, use a pretty act of sport, but because the matter will be full without it, I have thought good not to trouble you with such parenthesis, but making their speeches ended I will only recite the introduction to their coming in.</stage>
+        </sp>
+        <sp xml:id="A21238-e110240" who="A21238-alexandro">
+          <speaker>Alexandro.</speaker>
+          <l xml:id="A21238-e110250">But yonder comes the fairy Queen,</l>
+          <l xml:id="A21238-e110260">And brings with her in train,</l>
+          <l xml:id="A21238-e110270">My lord the Duke with merry look,</l>
+          <l xml:id="A21238-e110280">I hope weis home again. </l>
+          <stage xml:id="A21238-e110290">Occa. the Duke, Eambia the fairy Queen, Contarenus, Gaudina, Roxa. Niphe.</stage>
+        </sp>
+        <sp xml:id="A21238-e110300" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A21238-e110310">You hear sir knight the parents just request,</l>
+          <l xml:id="A21238-e110320">You see the force whereon his reasons stand,</l>
+          <l xml:id="A21238-e110330">Affections stays what wisdom thinks for best,</l>
+          <l xml:id="A21238-e110340">The matter rests all only in your hand. </l>
+          <l xml:id="A21238-e110350">By nature you are farther to foresee,</l>
+          <l xml:id="A21238-e110360">You are therefore to strike the stroke, not she. </l>
+        </sp>
+        <sp xml:id="A21238-e110370" who="A21238-occanon">
+          <pb facs="20"/>
+          <speaker>Occa.</speaker>
+          <l xml:id="A21238-e110380">You know of old what led me so to let</l>
+          <l xml:id="A21238-e110390">The great desire wherewith you both so brent,</l>
+          <l xml:id="A21238-e110400">Against your worth my will was never set,</l>
+          <l xml:id="A21238-e110410">To further countries good was mine intent:</l>
+          <l xml:id="A21238-e110420">Which sith in me so constantly doth dwell,</l>
+          <l xml:id="A21238-e110430">To yield thereto methinks you might do well. </l>
+        </sp>
+        <sp xml:id="A21238-e110440" who="A21238-gaudina">
+          <speaker>Gaudi</speaker>
+          <lg xml:id="A21238-e110450">
+            <l xml:id="A21238-e110460">Yet Contarenus think what is in you,</l>
+            <l xml:id="A21238-e110470">If virtues worth and weight in you be great,</l>
+            <l xml:id="A21238-e110480">And such as none but blind can disallow,</l>
+            <l xml:id="A21238-e110490">Why should persuasions then us two defeat,</l>
+            <l xml:id="A21238-e110500">As who say, any else might better seem.</l>
+            <l xml:id="A21238-e110510">Than you and I to rule so great a realm,</l>
+          </lg>
+          <lg xml:id="A21238-e110520">
+            <l xml:id="A21238-e110530">Birth bears me out, and virtue bears up you,</l>
+            <l xml:id="A21238-e110540">And why should any then thereof mislike? </l>
+            <l xml:id="A21238-e110550">As certain proof shall still prevail I trow,</l>
+            <l xml:id="A21238-e110560">Before that is uncertain how to like. </l>
+            <l xml:id="A21238-e110570">You are to choose my friend, make answer so</l>
+            <l xml:id="A21238-e110580">As you do not procure us endless woe. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e110590" who="A21238-contarenus">
+          <speaker>Conta.</speaker>
+          <lg xml:id="A21238-e110600">
+            <l xml:id="A21238-e110610">The choice is hard in midst of such extremes,</l>
+            <l xml:id="A21238-e110620">My lord and prince pretending countries good,</l>
+            <l xml:id="A21238-e110630">On th'other side affections dazzling beams,</l>
+            <l xml:id="A21238-e110640">Which still will shine though eclipsed with a cloud,</l>
+            <l xml:id="A21238-e110650">Layeth in mine eye my lady's due desert,</l>
+            <l xml:id="A21238-e110660">Which naught but death can sever from my heart. </l>
+          </lg>
+          <lg xml:id="A21238-e110670">
+            <l xml:id="A21238-e110680">What flashing flames did she at first abide,</l>
+            <l xml:id="A21238-e110690">Whenas on me her love she did bestow? </l>
+            <l xml:id="A21238-e110700">What constance still in her wrought on my side,</l>
+            <l xml:id="A21238-e110710">To keep that love whereto my life I owe? </l>
+            <l xml:id="A21238-e110720">What grief did then consume her careful heart,</l>
+            <l xml:id="A21238-e110730">Whenas my lord willed me from court depart? </l>
+          </lg>
+          <lg xml:id="A21238-e110740">
+            <l xml:id="A21238-e110750">What was the zeal that made her so forsake,</l>
+            <l xml:id="A21238-e110760">The bliss which princely court to her could bring,</l>
+            <l xml:id="A21238-e110770"><pb facs="20"/> and for my love such passing pains to take,</l>
+            <l xml:id="A21238-e110780">To find me out where bruit of me should ring. </l>
+            <l xml:id="A21238-e110790">Now should I swerve whom she so long hath sought?</l>
+            <l xml:id="A21238-e110800">Death were too small did I but fault in thought. </l>
+          </lg>
+          <lg xml:id="A21238-e110810">
+            <l xml:id="A21238-e110820">How can I leave her thus and not deserve,</l>
+            <l xml:id="A21238-e110830">To be enrolled with those infamous men,</l>
+            <l xml:id="A21238-e110840">Whom love, because they did from him so swerve,</l>
+            <l xml:id="A21238-e110850">Hath painted out by poet's public pen:</l>
+            <l xml:id="A21238-e110860">In hell to have their well deserving hire,</l>
+            <l xml:id="A21238-e110870">For so defrauding love of just desire? </l>
+          </lg>
+          <lg xml:id="A21238-e110880">
+            <l xml:id="A21238-e110890">Yet pardon me madam for weighing both,</l>
+            <l xml:id="A21238-e110900">If any harm do rise, the grief is mine,</l>
+            <l xml:id="A21238-e110910">You to displease the god, know I am loath,</l>
+            <l xml:id="A21238-e110920">For whom my heart disdains not any pine. </l>
+            <l xml:id="A21238-e110930">Set love aside till reason hath found out,</l>
+            <l xml:id="A21238-e110940">What is the best in that we go about. </l>
+          </lg>
+          <lg xml:id="A21238-e110950">
+            <l xml:id="A21238-e110960">Against our love our countries good is laid,</l>
+            <l xml:id="A21238-e110970">For whose avail we ought not death refuse,</l>
+            <l xml:id="A21238-e110980">Than death for love in country's cause bewrayed,</l>
+            <l xml:id="A21238-e110990">Ought to rejoice and seek no other 'scuse:</l>
+            <l xml:id="A21238-e111000">Yet leaving love for country's cause I die,</l>
+            <l xml:id="A21238-e111010">Who will not weep such hap on me to lie. </l>
+          </lg>
+          <lg xml:id="A21238-e111020">
+            <l xml:id="A21238-e111030">Because my lord your father may well know</l>
+            <l xml:id="A21238-e111040">That virtue is the link of this our love,</l>
+            <l xml:id="A21238-e111050">And not affection blind which leads us so,</l>
+            <l xml:id="A21238-e111060">As being bent we cannot once remove:</l>
+            <l xml:id="A21238-e111070">Mark madam what I say, and yield consent,</l>
+            <l xml:id="A21238-e111080">It is your love that causeth me relent. </l>
+          </lg>
+          <lg xml:id="A21238-e111090">
+            <l xml:id="A21238-e111100">Without my lord your parents free good will,</l>
+            <l xml:id="A21238-e111110">At home with him what can his child enjoy? </l>
+            <l xml:id="A21238-e111120"><pb facs="21"/>And thus to live in state a wanderer still,</l>
+            <l xml:id="A21238-e111130">As you do now, what more may breed annoy? </l>
+            <l xml:id="A21238-e111140">Good madam though I love as no man more,</l>
+            <l xml:id="A21238-e111150">Yield yet to him, withstand him not so sore. </l>
+          </lg>
+          <lg xml:id="A21238-e111160">
+            <l xml:id="A21238-e111170">You shall obtain such one by his foresight,</l>
+            <l xml:id="A21238-e111180">As he shall like, and country's weal shall crave,</l>
+            <l xml:id="A21238-e111190">You must regard the common weals good plight,</l>
+            <l xml:id="A21238-e111200">And seek the whole not only one to save. </l>
+            <l xml:id="A21238-e111210">If you do well, I cannot do amiss,</l>
+            <l xml:id="A21238-e111220">Though losing you I lose mine only bliss. </l>
+          </lg>
+          <lg xml:id="A21238-e111230">
+            <l xml:id="A21238-e111240">I do foresee the grief that will ensue,</l>
+            <l xml:id="A21238-e111250">When I shall find myself of you bereft,</l>
+            <l xml:id="A21238-e111260">When careful mind my late mishap shall rue,</l>
+            <l xml:id="A21238-e111270">That void of you and of your sight am left. </l>
+            <l xml:id="A21238-e111280">A double death my doleful days shall feel,</l>
+            <l xml:id="A21238-e111290">Yet I resign my right to country's weal. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e111300" who="A21238-queen">
+          <speaker>Qu.</speaker>
+          <l xml:id="A21238-e111310">A noble speech confirming what was said,</l>
+          <l xml:id="A21238-e111320">That virtue's worth was causer of your love,</l>
+          <l xml:id="A21238-e111330">For sure my lord it cannot be denied,</l>
+          <l xml:id="A21238-e111340">But that this mind a stony heart might move,</l>
+          <l xml:id="A21238-e111350">Which to his praise doth yield to country's good,</l>
+          <l xml:id="A21238-e111360">The thing which to possess so near he stood. </l>
+        </sp>
+        <sp xml:id="A21238-e111370" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <lg xml:id="A21238-e111380">
+            <l xml:id="A21238-e111390">Well conta. I must needs esteem,</l>
+            <l xml:id="A21238-e111400">You of such worth as your estate doth bear,</l>
+            <l xml:id="A21238-e111410">And if it might so to all others seem,</l>
+            <l xml:id="A21238-e111420">You best deserve the garland for to wear. </l>
+            <l xml:id="A21238-e111430">But sith the fates against your virtues bend,</l>
+            <l xml:id="A21238-e111440">Your virtue wills you this to condescend. </l>
+          </lg>
+          <lg xml:id="A21238-e111450">
+            <l xml:id="A21238-e111460">Whereto this far I yield if that you please</l>
+            <l xml:id="A21238-e111470">With me again to country to resort,</l>
+            <l xml:id="A21238-e111480">You shall in noble state there live at ease,</l>
+            <l xml:id="A21238-e111490">And spend your days in most delightful sport. </l>
+            <l xml:id="A21238-e111500"><pb facs="21"/>And as for love I banished you my land,</l>
+            <l xml:id="A21238-e111510">Even so for love in grace still shall you stand. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e111520" who="A21238-contarenus">
+          <speaker>Cont.</speaker>
+          <l xml:id="A21238-e111530">My lord, what you have done, your state maintains,</l>
+          <l xml:id="A21238-e111540">Exiling me that did offend your eye,</l>
+          <l xml:id="A21238-e111550">My life must be in course of restless pains,</l>
+          <l xml:id="A21238-e111560">For her whom care of country doth deny. </l>
+          <l xml:id="A21238-e111570">Good hap light on the land where I was born,</l>
+          <l xml:id="A21238-e111580">Though I do live in wretched state forlorn. </l>
+        </sp>
+        <sp xml:id="A21238-e111590" who="A21238-gaudina">
+          <speaker>Gaudin.</speaker>
+          <l xml:id="A21238-e111600">Alas that such a spirit cannot persuade,</l>
+          <l xml:id="A21238-e111610">Alas that state and virtue sunder so,</l>
+          <l xml:id="A21238-e111620">Alas of worth no more account is made,</l>
+          <l xml:id="A21238-e111630">But thus from thee my love must I needs go. </l>
+          <l xml:id="A21238-e111640">Well sith he yields which hath most right in me,</l>
+          <l xml:id="A21238-e111650">Ah countries good I yield myself to thee. </l>
+        </sp>
+        <sp xml:id="A21238-e111660" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <l xml:id="A21238-e111670">Now have I that which though I bought with pain,</l>
+          <l xml:id="A21238-e111680">I think it light, the gain thereof so great,</l>
+          <l xml:id="A21238-e111690">Now I receive you to my grace again,</l>
+          <l xml:id="A21238-e111700">Whereof before love sought you to defeat. </l>
+          <l xml:id="A21238-e111710">The second mends the former fault doth heal,</l>
+          <l xml:id="A21238-e111720">Since you give place to care of country's weal. </l>
+        </sp>
+        <sp xml:id="A21238-e111730" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <lg xml:id="A21238-e111740">
+            <l xml:id="A21238-e111750">Well now the force whereto your fate made way</l>
+            <l xml:id="A21238-e111760">Is well expired, you have the heavens to friend,</l>
+            <l xml:id="A21238-e111770">Who though they saw you run so long astray,</l>
+            <l xml:id="A21238-e111780">Yet have they given your care a joyful end. </l>
+            <l xml:id="A21238-e111790">Think on and thank, it is a special grace,</l>
+            <l xml:id="A21238-e111800">First so to stray, than so to end your race. </l>
+          </lg>
+          <lg xml:id="A21238-e111810">
+            <l xml:id="A21238-e111820">Your peace is wrought madam, retire with me,</l>
+            <l xml:id="A21238-e111830">To place where I do dwell from whence you may</l>
+            <l xml:id="A21238-e111840">To country make repair when time shall be.</l>
+            <l xml:id="A21238-e111850">Till when my lord if you with me will stay,</l>
+            <l xml:id="A21238-e111860">What things shall need for that your home retire,</l>
+            <l xml:id="A21238-e111870">I will supply your want to your desire. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e111880" who="A21238-occanon">
+          <speaker>Occa.</speaker>
+          <l xml:id="A21238-e111890">Your goodness hath so bound both her and me,</l>
+          <l xml:id="A21238-e111900">As while we live we be yours to command,</l>
+          <l xml:id="A21238-e111910"><pb facs="22"/> by you is wrought this wished work I see,</l>
+          <l xml:id="A21238-e111920">By power divine, and by no mortal hand. </l>
+          <l xml:id="A21238-e111930">Pass on madam let us be of your train,</l>
+          <l xml:id="A21238-e111940">The causer of our joy the healer of our pain. </l>
+        </sp>
+        <sp xml:id="A21238-e111950" who="A21238-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A21238-e111960">And you sir knight whose honest yielding made</l>
+          <l xml:id="A21238-e111970">The good consent which passed to help this ill. </l>
+          <l xml:id="A21238-e111980">You may remain as I before have said,</l>
+          <l xml:id="A21238-e111990">Where I do dwell with hearty great good will. </l>
+          <l xml:id="A21238-e112000">And ever have the fairy Queen to friend,</l>
+          <l xml:id="A21238-e112010">For virtue's sake which I in you do find. </l>
+        </sp>
+        <sp xml:id="A21238-e112020" who="A21238-contarenus">
+          <speaker>Conta.</speaker>
+          <lg xml:id="A21238-e112030">
+            <l xml:id="A21238-e112040">Madam I am your own still to command,</l>
+            <l xml:id="A21238-e112050">As one you see of hap bereft quite,</l>
+            <l xml:id="A21238-e112060">Resolved not to return to country's land,</l>
+            <l xml:id="A21238-e112070">Sith I have lost what was my whole delight:</l>
+            <l xml:id="A21238-e112080">When resting pause hath stayed my troubled heart,</l>
+            <l xml:id="A21238-e112090">I will retire and draw myself apart. </l>
+          </lg>
+          <lg xml:id="A21238-e112100">
+            <l xml:id="A21238-e112110">And now sith cause of such importance moves,</l>
+            <l xml:id="A21238-e112120">My woeful heart thus to forgo his love,</l>
+            <l xml:id="A21238-e112130">Most worthy dame sith chance so parts our loves,</l>
+            <l xml:id="A21238-e112140">That from my sight your presence must remove,</l>
+            <l xml:id="A21238-e112150">Grant me herein, sith now the last I see,</l>
+            <l xml:id="A21238-e112160">Let not your love all whole depart from me. </l>
+          </lg>
+          <lg xml:id="A21238-e112170">
+            <l xml:id="A21238-e112180">Weigh well the cause that moved me to relent,</l>
+            <l xml:id="A21238-e112190">Which may perhaps imprint more deep conceit,</l>
+            <l xml:id="A21238-e112200">What man as I, his love so firmly bent,</l>
+            <l xml:id="A21238-e112210">Would yield the hold once master of the bait? </l>
+            <l xml:id="A21238-e112220">The gods preserve your honour still in health,</l>
+            <l xml:id="A21238-e112230">My private good, my common country's wealth. </l>
+          </lg>
+          <lg xml:id="A21238-e112240">
+            <l xml:id="A21238-e112250">And if your mind were set that home you will,</l>
+            <l xml:id="A21238-e112260">It were but labour lost, if I gainsaid,</l>
+            <l xml:id="A21238-e112270">And absent if your love continue still,</l>
+            <l xml:id="A21238-e112280">My gain is great who still this ground have laid,</l>
+            <l xml:id="A21238-e112290"><pb facs="22"/> that honest love might think it no disgrace,</l>
+            <l xml:id="A21238-e112300">Though they that love do hap to sunder place. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e112310" who="A21238-gaudina">
+          <speaker>Gaudi.</speaker>
+          <l xml:id="A21238-e112320">Well, Contarenus well, what shall ensue?</l>
+          <l xml:id="A21238-e112330">You are the cause whose yielding makes me yield,</l>
+          <l xml:id="A21238-e112340">Yet of my word for ever hold this true,</l>
+          <l xml:id="A21238-e112350">Whereon you may assured comfort build:</l>
+          <l xml:id="A21238-e112360">Till death my soul and body shall depart,</l>
+          <l xml:id="A21238-e112370">Your love shall lodge in some part of my heart. </l>
+          <stage xml:id="A21238-e112380">Grief calls me hence.</stage>
+          <stage xml:id="A21238-e112390">Exit.</stage>
+        </sp>
+        <sp xml:id="A21238-e112400" who="A21238-contarenus">
+          <speaker>Conta.</speaker>
+          <lg xml:id="A21238-e112410">
+            <l xml:id="A21238-e112420">Such is my recompense. </l>
+            <l xml:id="A21238-e112430">Now do I feel the pangs the sea men bide,</l>
+            <l xml:id="A21238-e112440">Which having harbour nigh in hope to land</l>
+            <l xml:id="A21238-e112450">By turning wind are driven to try the tide,</l>
+            <l xml:id="A21238-e112460">And trust the seas thereby to void the sand. </l>
+            <l xml:id="A21238-e112470">Now do I feel the depth of mother's pain,</l>
+            <l xml:id="A21238-e112480">For death of child she hoped to see again. </l>
+          </lg>
+          <lg xml:id="A21238-e112490">
+            <l xml:id="A21238-e112500">Was ever man more near his haven of bliss?</l>
+            <l xml:id="A21238-e112510">His ship driven forth with wind that filled the sail,</l>
+            <l xml:id="A21238-e112520">Had ever man such cause of hopeless miss,</l>
+            <l xml:id="A21238-e112530">As I which at the fall so soon did fail? </l>
+            <l xml:id="A21238-e112540">Did fortune ere so sudden show her power</l>
+            <l xml:id="A21238-e112550">As in her mirth so soon again to lower? </l>
+          </lg>
+          <lg xml:id="A21238-e112560">
+            <l xml:id="A21238-e112570">When I had lived so long in strange exile,</l>
+            <l xml:id="A21238-e112580">In desert wastes commanded still to dwell,</l>
+            <l xml:id="A21238-e112590">Disfavoured of my prince (Alas the while)</l>
+            <l xml:id="A21238-e112600">And barred my lady's sight my heaviest hell:</l>
+            <l xml:id="A21238-e112610">Again at last though to her pain we met,</l>
+            <l xml:id="A21238-e112620">So love in her surmounted luckless let,</l>
+          </lg>
+          <lg xml:id="A21238-e112630">
+            <l xml:id="A21238-e112640">Which love as it did work in her to ease,</l>
+            <l xml:id="A21238-e112650">So father's search which sought to salve his loss,</l>
+            <l xml:id="A21238-e112660">Hath bred us both more cause of great displease,</l>
+            <l xml:id="A21238-e112670">And tied us thus to try more bitter cross:</l>
+            <l xml:id="A21238-e112680"><pb facs="23"/> by duty she is forced to relent,</l>
+            <l xml:id="A21238-e112690">And leaves to love a leisure to repent. </l>
+          </lg>
+          <lg xml:id="A21238-e112700">
+            <l xml:id="A21238-e112710">Yet can I not Gaudina blame therefore,</l>
+            <l xml:id="A21238-e112720">Her hearty love, her toiling tracts bewails,</l>
+            <l xml:id="A21238-e112730">She is the lodge where virtue makes her store,</l>
+            <l xml:id="A21238-e112740">It was her sire that bred my doleful days:</l>
+            <l xml:id="A21238-e112750">Most happy he that on her Jove can hit,</l>
+            <l xml:id="A21238-e112760">Most hapless I for so foregoing it. </l>
+          </lg>
+          <lg xml:id="A21238-e112770">
+            <l xml:id="A21238-e112780">And so far went I yet as one that spied,</l>
+            <l xml:id="A21238-e112790">Her whole estate depend upon my grant,</l>
+            <l xml:id="A21238-e112800">Though my mishap herein be not denied,</l>
+            <l xml:id="A21238-e112810">Yet of her spied myself may justly vaunt. </l>
+            <l xml:id="A21238-e112820">To work her good my life I would forgo,</l>
+            <l xml:id="A21238-e112830">As I have done though to my endless woe. </l>
+          </lg>
+          <stage xml:id="A21238-e112840">Niphe and Roxane entereth.</stage>
+        </sp>
+        <sp xml:id="A21238-e112850" who="A21238-roxane">
+          <speaker>Rox.</speaker>
+          <l xml:id="A21238-e112860">Friend Niphe could we two have ever once surmised,</l>
+          <l xml:id="A21238-e112870">That such event would fall to this exceeding love,</l>
+          <l xml:id="A21238-e112880">Or that blind Cupid could so quickly be suppressed,</l>
+          <l xml:id="A21238-e112890">Which to all reason first so strongly gave the glove? </l>
+        </sp>
+        <sp xml:id="A21238-e112900" who="A21238-niphe">
+          <speaker>Ni.</speaker>
+          <l xml:id="A21238-e112910">I never thought but that there might fall out some turn,</l>
+          <l xml:id="A21238-e112920">The stream did run so strong, it threatened still to stay,</l>
+          <l xml:id="A21238-e112930">The flame so flashing hot could not so always burn,</l>
+          <l xml:id="A21238-e112940">But being closely kept would burst some other way. </l>
+        </sp>
+        <sp xml:id="A21238-e112950" who="A21238-contarenus">
+          <speaker>Contar.</speaker>
+          <l xml:id="A21238-e112960">What Niphe, art thou here, and heardest my plaint?</l>
+          <l xml:id="A21238-e112970">With silent voice couldst thou such grief abide? </l>
+          <l xml:id="A21238-e112980">Which heretofore when fortune gave the taint,</l>
+          <l xml:id="A21238-e112990">From sounding shrill couldst not thine anguish hide? </l>
+          <l xml:id="A21238-e113000">O help in sound to show my sorrowing state,</l>
+          <l xml:id="A21238-e113010">Which seemed to thee most happy but of late. </l>
+        </sp>
+        <sp xml:id="A21238-e113020" who="A21238-niphe">
+          <speaker>Niphe.</speaker>
+          <lg xml:id="A21238-e113030">
+            <l xml:id="A21238-e113040">I will good sir do all that lieth in me,</l>
+            <l xml:id="A21238-e113050">To ease your care whose case doth touch me near,</l>
+            <l xml:id="A21238-e113060"><pb facs="23"/> to find you out by land, and eke by sea,</l>
+            <l xml:id="A21238-e113070">Myself did toil twixt hope and trembling fear,</l>
+            <l xml:id="A21238-e113080">Whose shaking off in sort as now we see,</l>
+            <l xml:id="A21238-e113090">Is sour to you, and nothing sweet to me. </l>
+          </lg>
+          <lg xml:id="A21238-e113100">
+            <l xml:id="A21238-e113110">But sith you may with licence of my lord,</l>
+            <l xml:id="A21238-e113120">Return again from whence you were exiled,</l>
+            <l xml:id="A21238-e113130">Why will you not with him therein accord?</l>
+            <l xml:id="A21238-e113140">Methinks refusing that, you are beguiled,</l>
+            <l xml:id="A21238-e113150">There whom you love, you may have still in sight,</l>
+            <l xml:id="A21238-e113160">Which step in love was never holden light. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A21238-e113170" who="A21238-contarenus">
+          <speaker>Conta.</speaker>
+          <l xml:id="A21238-e113180">Can I behold another to embrace,</l>
+          <l xml:id="A21238-e113190">Where I myself my love have always cast,</l>
+          <l xml:id="A21238-e113200">Would not my grief bewray itself in place,</l>
+          <l xml:id="A21238-e113210">To see my love so clearly from me past. </l>
+          <l xml:id="A21238-e113220">Good Niphe help, this is my last request,</l>
+          <l xml:id="A21238-e113230">To show my grief good Niphe do thy best. </l>
+        </sp>
+        <floatingText xml:id="A21238-e113240">
+          <body xml:id="A21238-e113250">
+            <div type="song" xml:id="A21238-e113260">
+              <head>Niphes song.</head>
+              <lg xml:id="A21238-e113270">
+                <l xml:id="A21238-e113280">O silly bird what feels thy heavy breast,</l>
+                <l xml:id="A21238-e113290">Which seeking food to feed thy young withal,</l>
+                <l xml:id="A21238-e113300">At thy return dost find thy empty nest,</l>
+                <l xml:id="A21238-e113310">And none therein to answer at thy call? </l>
+                <l xml:id="A21238-e113320">How can thy heart but melt away for grief,</l>
+                <l xml:id="A21238-e113330">Foregoing them to thee of late so lief? </l>
+              </lg>
+              <lg xml:id="A21238-e113340">
+                <l xml:id="A21238-e113350">How couldst thou Thisby stay, by trembling hand,</l>
+                <l xml:id="A21238-e113360">From reaving thee thy then so loathsome life,</l>
+                <l xml:id="A21238-e113370">When dead on ground thy Pyramus 'gan stand,</l>
+                <l xml:id="A21238-e113380">Who hoped forthwith to have thee to his wife? </l>
+                <l xml:id="A21238-e113390">The nearer hope the fuller fraught with gall,</l>
+                <l xml:id="A21238-e113400">When trust in hope to rest hath sudden fall. </l>
+              </lg>
+              <lg xml:id="A21238-e113410">
+                <pb facs="24"/>
+                <l xml:id="A21238-e113420">Poor Contarenus how hath fortune fickle dame,</l>
+                <l xml:id="A21238-e113430">Procured thy grief in offering thee her hand? </l>
+                <l xml:id="A21238-e113440">Which in thy cause doth now deserve most blame,</l>
+                <l xml:id="A21238-e113450">When she would seem thy special friend to stand,</l>
+                <l xml:id="A21238-e113460">Oh ye that trust the whirling of her wheel,</l>
+                <l xml:id="A21238-e113470">Beware the wrench at turning of her heel. </l>
+              </lg>
+              <lg xml:id="A21238-e113480">
+                <l xml:id="A21238-e113490">And you that look aloft beyond degree,</l>
+                <l xml:id="A21238-e113500">When fairest wind doth fill your flying sail,</l>
+                <l xml:id="A21238-e113510">Hold fast for fear your footing ficklest be,</l>
+                <l xml:id="A21238-e113520">When hope will seem to help you to prevail. </l>
+                <l xml:id="A21238-e113530">So did she here with Contarenus' play,</l>
+                <l xml:id="A21238-e113540">From whom she fled when she made show of stay. </l>
+              </lg>
+            </div>
+          </body>
+        </floatingText>
+        <sp xml:id="A21238-e113550" who="A21238-contarenus">
+          <speaker>Conta.</speaker>
+          <lg xml:id="A21238-e113560">
+            <l xml:id="A21238-e113570">I thank thee Niphe for thy mournful song,</l>
+            <l xml:id="A21238-e113580">The tune whereof delights the doleful ears</l>
+            <l xml:id="A21238-e113590">Of such as justly may complain the wrong,</l>
+            <l xml:id="A21238-e113600">Whose grief dams up the flood of trickling tears. </l>
+            <l xml:id="A21238-e113610">Farewell to both, sith I must needs depart,</l>
+            <l xml:id="A21238-e113620">Bear witness of my woe and careful heart. </l>
+          </lg>
+          <lg xml:id="A21238-e113630">
+            <l xml:id="A21238-e113640">And tell my lady dear that I intend,</l>
+            <l xml:id="A21238-e113650">Henceforth to seek if I may meet her friend,</l>
+            <l xml:id="A21238-e113660">Loricus whom the hermit did commend,</l>
+            <l xml:id="A21238-e113670">I'll bid him think and hope one day to find</l>
+            <l xml:id="A21238-e113680">Reward for that his faithful service long,</l>
+            <l xml:id="A21238-e113690">Till when we both may plain of fortunes wrong. </l>
+          </lg>
+          <lg xml:id="A21238-e113700">
+            <l xml:id="A21238-e113710">Yet say, I will abide hers to command,</l>
+            <l xml:id="A21238-e113720">Where so adventures hard shall carry me,</l>
+            <l xml:id="A21238-e113730">Not leaving love by sea nor yet by land,</l>
+            <l xml:id="A21238-e113740">Though that I love, I never hap to see. </l>
+            <l xml:id="A21238-e113750">O careful heart oppressed with such desires,</l>
+            <l xml:id="A21238-e113760">As lacks the joys that liking aye requires. </l>
+          </lg>
+          <lg xml:id="A21238-e113770">
+            <pb facs="24"/>
+            <l xml:id="A21238-e113780">Yet this I am assured her princely heart,</l>
+            <l xml:id="A21238-e113790">Where she hath loved will never quite forget,</l>
+            <l xml:id="A21238-e113800">I know in her I shall have still apart,</l>
+            <l xml:id="A21238-e113810">In honest sort I know she loves me yet. </l>
+            <l xml:id="A21238-e113820">These thoughts in me maintain the hope of life,</l>
+            <l xml:id="A21238-e113830">Which other ways by death should end the strife. </l>
+          </lg>
+          <stage xml:id="A21238-e113840">Exit Contar.</stage>
+        </sp>
+        <sp xml:id="A21238-e113850" who="A21238-roxane">
+          <speaker>Rox.</speaker>
+          <lg xml:id="A21238-e113860">
+            <l xml:id="A21238-e113870">Well then I see our fortune must divide,</l>
+            <l xml:id="A21238-e113880">We must again to country's land retire,</l>
+            <l xml:id="A21238-e113890">This knight delights in sorrowing to abide,</l>
+            <l xml:id="A21238-e113900">For missing her which was his whole desire. </l>
+            <l xml:id="A21238-e113910">Myself have felt such travel on their train,</l>
+            <l xml:id="A21238-e113920">As I am glad home to return again. </l>
+          </lg>
+          <lg xml:id="A21238-e113930">
+            <l xml:id="A21238-e113940">The gods send all good speed that tarry here,</l>
+            <l xml:id="A21238-e113950">And chiefly her which governs all the rest,</l>
+            <l xml:id="A21238-e113960">As for myself I will spread far and near,</l>
+            <l xml:id="A21238-e113970">For princely praise that she deserveth best:</l>
+            <l xml:id="A21238-e113980">And that God loved us which made us stay,</l>
+            <l xml:id="A21238-e113990">Where virtuous Queen doth stately sceptre sway. </l>
+          </lg>
+        </sp>
+        <trailer xml:id="A21238-e114000">Finis.</trailer>
+      </div>
+    </body>
+    <back xml:id="A21238-e114010">
+      <div type="colophon" xml:id="A21238-e114020">
+        <pb facs="25"/>
+        <p xml:id="A21238-e114030">Imprinted at London for Thomas Cadman. 1585.</p>
+        <pb facs="25"/>
+      </div>
+      <div type="machine-generated_castlist"><list n="A21238"><item xml:id="A21238-occanon" n="22">
+    <seg type="character_name">A21238-occanon</seg>
+    <seg type="speech_count">22</seg>
+  </item>
+  <item xml:id="A21238-queen" n="18">
+    <seg type="character_name">A21238-queen</seg>
+    <seg type="speech_count">18</seg>
+  </item>
+  <item xml:id="A21238-roxane" n="13">
+    <seg type="character_name">A21238-roxane</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+<item xml:id="A21238-achates" n="12">
+    <seg type="character_name">A21238-achates</seg>
+    <seg type="speech_count">12</seg>
+  </item>
+  <item xml:id="A21238-gaudina" n="9">
+    <seg type="character_name">A21238-gaudina</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A21238-contarenus" n="7">
+    <seg type="character_name">A21238-contarenus</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A21238-niphe" n="2">
+    <seg type="character_name">A21238-niphe</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A21238-alexandro" n="1">
+    <seg type="character_name">A21238-alexandro</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A21238-missing" n="1">
+    <seg type="character_name">A21238-missing</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

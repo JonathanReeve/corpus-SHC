@@ -1,0 +1,673 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A04600">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Temple of Love <date type="creation_date">1634</date></title>
+        <author>Davenant, William </author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Nayoon Ahn</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A04600.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The temple of love. A masque. Presented by the Queenes Majesty, and her ladies, at White-hall on Shrove-Tuesday, 1634. By Inigo Iones, surveyor of his Maties. workes, and William Davenant, her Maties. servant.</title>
+            <author>Jones, Inigo, 1573-1652.</author>
+          </titleStmt>
+          <extent>10 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 January (TCP phase 1)</date>
+            <idno type="marc">99843551</idno>
+            <idno type="stc">STC (2nd ed.) 14719.</idno>
+            <idno type="stc">Greg, II, 497.</idno>
+            <idno type="vid">8293</idno>
+            <idno type="DLPS">A04600</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The temple of love. A masque. Presented by the Queenes Majesty, and her ladies, at White-hall on Shrove-Tuesday, 1634. By Inigo Iones, surveyor of his Maties. workes, and William Davenant, her Maties. servant.</title>
+            <author>Jones, Inigo, 1573-1652.</author>
+            <author>D'Avenant, William, 1606-1668.</author>
+          </titleStmt>
+          <extent>[26] p.</extent>
+          <publicationStmt>
+            <publisher>Printed for Thomas Walkley, and are to be sold at his shop neare White-hall,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1634.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Signatures: A-B4 (-B4) C4 D2.</p>
+            </note>
+            <note>
+              <p>B4 was intended to be cancelled, but persists in most copies.</p>
+            </note>
+            <note>
+              <p>Variant: title page in an earlier version, with "surveyour of his Majesties workes" and other differences.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the British Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A04600-e100010">
+    <front xml:id="A04600-e100020">
+      <div type="title_page" xml:id="A04600-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A04600-e100040">The temple of love. A masque. Presented by the queen's majesty, and her ladies, at Whitehall on Shrove-tuesday, 1634. By Inigo Jones, surveyor of his maties.works, and William Davenant, her maties.servant.</p>
+        <p xml:id="A04600-e100050">London: printed for Thomas Walkley, and are to be sold at his shop near Whitehall. 1634.</p>
+      </div>
+      <div type="argument" xml:id="A04600-e100060">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The argument.</head>
+        <p xml:id="A04600-e100070">Divine poesy (The secretary of nature) is sent by fate to Indamora, Queen of Narsinga, to signify the time prefixed was come, when by the influence of her beauty (Attended with those lesser lights, her contributary ladies) the temple of chaste love should be re-established in this island; which temple being long sought for by certain magicians (Enemies to chaste love) intending to use it to their intemperate ends, was by divine poesy hidden in mists and clouds; so as the magicians being frustrate of their hopes, sought by enchantments to hinder all others from finding it; and by this imposture many noble knights and ladies had been tempted and misled. The fame of this temple of love being quickly spread over all the Eastern world, inflamed a company of noble Persian youths, borderers on India to travel in quest of it; who arriving, were by the illusions of the magicians, and their spirits of several regions, almost seduced, as others had been: but divine poesy appearing, discovered unto them some part of the temple unshadowed, and prophesied<pb facs="3"/> of the time when Indamora and her train should arrive to effect this miracle; which though it seems somewhat hard doctrine to most young men, yet these being spirits of the highest rank, forsaking the false magicians and their allurements, were resolved to entertain themselves to contemplate on this apparition until the coming of the glorious Indian Queen. At whose sight they being inspired with chaste flames might be permitted by their faithful observance and legitimate affections to enter and enjoy the privileges of that sacred temple. Then divine poesy sends Orpheus her chief priest in a bark (Assisted by the Brachmant and priests of the temple, who meet him on the shores) to calm the seas with his harp, that a maritime chariot prepared by the Indian seagods, might safer, and more swiftly convey them to achieve this noble adventure; after whose landing having paid their ceremonies by moving in harmonical and numerous figures, Sunesis and Thelema (Which intimate the understanding and the will) joining together, the true temple appears, and chaste love descends to invoke the last and living hero (Indamora's royal lover) that he may help and witness the consecration of it.</p>
+      </div>
+    </front>
+    <body xml:id="A04600-e100080">
+      <div type="text" xml:id="A04600-e100090">
+        <pb facs="3"/>
+        <head>The temple of love.</head>
+        <p xml:id="A04600-e100100">At the lower end of the banqueting-house, opposite to the state, was a stage of six foot high, and on that was raised an ornament of a new invention agreeable to the subject; consisting of Indian trophies: on the one side upon a basement sat a naked Indian on a whitish elephant, his legs shortening towards the neck of the beast, his tire and bases of several coloured feathers, representing the Indian monarchy: on the other side an Asiatic in the habit of an Indian borderer, riding on a camel; his turban and coat differing from that of the Turks, figured for the Asian monarchy: over these hung shield like compartments: in that over the Indian was painted a sun rising, and in the other an half moon; these had for finishing the capital of a great pilaster, which served as a ground to stick them of, and bore up a large freeze or border with a coronice. In this over the Indian lay the figure of an old man, with a long white hair and beard, representing the flood Tigris; on his head a wreath of canes and siege, and leaning upon a great urn, out of which run water, by him in an extravagant posture stood a tiger.</p>
+        <p xml:id="A04600-e100110">At the other end of this freeze lay another naked man, representing Meander, the famous river of Asia, who likewise had a great silver urn, and by him lay an unicorn.</p>
+        <p xml:id="A04600-e100120">In the midst of this border was fixed a rich compartment,<pb facs="4"/> behind which was a crimson drapery part of it born up by naked children tacked up in several pleats, and the rest was at each end of the freeze tied with a great knot, and from thence hung down in folds to the bottom of the pedestals: in the midst of this compartment in an oval was written templvm amoris: all these figures were in their natural colours bigger than the life, and the compartments of gold.</p>
+        <p xml:id="A04600-e100130">A curtain flying up the first scene was discovered, in which appeared a spacious grove of shady trees; and afar off on a mount with a winding way to the top was seated a pleasant bower environed with young trees, and in the lower part walks planted with cypress, representing the place where the souls of the ancient poets are feigned to reside: the delight of this prospect was quickly diverted to the fight of a more strange apparition; for, out of the heaven by little and little broke forth a great cloud of a rosy colour, which being come down some little way began to open, and in it was seen sitting a beautiful woman; her garment was sky-colour set all with stars of gold, her head was crowned with laurel, with a spangled veil hanging down behind, and her hair in artificial curls graciously dressed, representing divine poesy, and by her a milk white swan, as she descends singing out of those venerable shades came forth a company of ancient Greek poets, as Demodicus, Foemius, Homer, Hesiod, Terpander, and Sapho a poetess in habits varied and of several colours, with laurel wreaths on their heads. Divine poesy sung this:</p>
+        <sp xml:id="A04600-e100140" who="A04600-divine_poesy">
+          <pb facs="4"/>
+          <speaker>Divine poesy.</speaker>
+          <lg n="1" xml:id="A04600-e100150">
+            <head>(1.)</head>
+            <l xml:id="A04600-e100160">As cheerful as the morning's light,</l>
+            <l xml:id="A04600-e100170">Comes Indamora from above,</l>
+            <l xml:id="A04600-e100180">To guide those lovers that want sight,</l>
+            <l xml:id="A04600-e100190">To see and know what they should love. </l>
+          </lg>
+          <lg n="2" xml:id="A04600-e100200">
+            <head>(2.)</head>
+            <l xml:id="A04600-e100210">Her beams into each breast will steal,</l>
+            <l xml:id="A04600-e100220">And search what every heart doth mean,</l>
+            <l xml:id="A04600-e100230">The sadly wounded she will heal,</l>
+            <l xml:id="A04600-e100240">And make the foully tainted clean. </l>
+          </lg>
+          <lg n="3" xml:id="A04600-e100250">
+            <head>(3.)</head>
+            <l xml:id="A04600-e100260">Rise you, from your dark shades below,</l>
+            <l xml:id="A04600-e100270">That first gave words an harmony,</l>
+            <l xml:id="A04600-e100280">And made false love in numbers flow,</l>
+            <l xml:id="A04600-e100290">Till vice became a mystery. </l>
+          </lg>
+          <lg n="4" xml:id="A04600-e100300">
+            <head>(4.)</head>
+            <l xml:id="A04600-e100310">And when I've purified that air</l>
+            <l xml:id="A04600-e100320">To which death turned you long ago,</l>
+            <l xml:id="A04600-e100330">Help with your voices to declare</l>
+            <l xml:id="A04600-e100340">What Indamora comes to show. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e100350" who="A04600-poets">
+          <speaker>The poets.</speaker>
+          <lg xml:id="A04600-e100360">
+            <l xml:id="A04600-e100370">Soul of our science! how inspired we come? </l>
+            <l xml:id="A04600-e100380">By thee restored to voices that lay dumb,</l>
+            <l xml:id="A04600-e100390">Awed lost in many a forgotten tomb. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e100400" who="A04600-divine_poesy">
+          <speaker>D. poesy.</speaker>
+          <lg xml:id="A04600-e100410">
+            <pb facs="5"/>
+            <l xml:id="A04600-e100420">You're spirits all; and have so long</l>
+            <l xml:id="A04600-e100430">From flesh, and frailty absent been,</l>
+            <l xml:id="A04600-e100440">That sure though love should fill your song,</l>
+            <l xml:id="A04600-e100450">It could not relish now of sin. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e100460" who="A04600-poets">
+          <speaker>The poets.</speaker>
+          <lg xml:id="A04600-e100470">
+            <l xml:id="A04600-e100480">Vex not our sad remembrance with our shame! </l>
+            <l xml:id="A04600-e100490">We have been punished for ill-gotten fame,</l>
+            <l xml:id="A04600-e100500">For each loose verse, tormented with a flame. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e100510" who="A04600-divine_poesy">
+          <speaker>D. poesy.</speaker>
+          <lg xml:id="A04600-e100520">
+            <l xml:id="A04600-e100530">Descend then, and become with me,</l>
+            <l xml:id="A04600-e100540">The happy organs to make known</l>
+            <l xml:id="A04600-e100550">In an harmonious embassy,</l>
+            <l xml:id="A04600-e100560">Our great affair to yonder throne. </l>
+          </lg>
+        </sp>
+        <p xml:id="A04600-e100570">She being descended to the ground in a majestic pace, goes up to the state, attended by the forenamed poets; and the cloud that brought her down, closeth as it ascends.</p>
+        <sp xml:id="A04600-e100580" who="A04600-divine_poesy">
+          <speaker>D. poesy.</speaker>
+          <lg xml:id="A04600-e100590">
+            <l xml:id="A04600-e100600">Thou monarch of men's hearts rejoice! </l>
+            <l xml:id="A04600-e100610">So much thou art beloved in heaven,</l>
+            <l xml:id="A04600-e100620">That fate hath made thy reign her choice,</l>
+            <l xml:id="A04600-e100630">In which Love's blessings shall be given. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e100640" who="A04600-poets">
+          <speaker>The poets.</speaker>
+          <lg xml:id="A04600-e100650">
+            <l xml:id="A04600-e100660">Truth shall appear, and rule till she resists</l>
+            <l xml:id="A04600-e100670">Those subtle charms, and melts those darker mists,</l>
+            <l xml:id="A04600-e100680">In which Love's temple's hid from exorcists. </l>
+          </lg>
+          <lg xml:id="A04600-e100690">
+            <pb facs="5"/>
+            <l xml:id="A04600-e100700">(Whom forsooth divine poesy they style)</l>
+            <l xml:id="A04600-e100710">This morn proclaimed it from a falling cloud. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e100720" who="A04600-speaker_2">
+          <speaker>(2.)</speaker>
+          <l xml:id="A04600-e100730">Who? Divine poesy? </l>
+        </sp>
+        <sp xml:id="A04600-e100740" who="A04600-speaker_2">
+          <speaker>(3.)</speaker>
+          <lg xml:id="A04600-e100750">
+            <l xml:id="A04600-e100760">I know her well. </l>
+            <l xml:id="A04600-e100770">She's one that makes the holy jigs,</l>
+            <l xml:id="A04600-e100780">And sacred catches for the gods, when they</l>
+            <l xml:id="A04600-e100790">Are merry with mistakes of men, and laugh</l>
+            <l xml:id="A04600-e100800">To see us careless of their punishment. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e100810" who="A04600-speaker_1">
+          <speaker>(1.)</speaker>
+          <l xml:id="A04600-e100820">But who shall bring this mischief to our art? </l>
+        </sp>
+        <sp xml:id="A04600-e100830" who="A04600-speaker_3">
+          <speaker>(3.)</speaker>
+          <lg xml:id="A04600-e100840">
+            <l xml:id="A04600-e100850">Indamora, the delight of destiny! </l>
+            <l xml:id="A04600-e100860">She, and the beauties of her train: who sure</l>
+            <l xml:id="A04600-e100870">Though they discover summer in their looks,</l>
+            <l xml:id="A04600-e100880">Still carry frozen winter in their blood. </l>
+            <l xml:id="A04600-e100890">They raise strange doctrines, and new sects of love:</l>
+            <l xml:id="A04600-e100900">Which must not woo or court the person, but</l>
+            <l xml:id="A04600-e100910">The mind; and practise generation not</l>
+            <l xml:id="A04600-e100920">Of bodies but of souls. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e100930" who="A04600-speaker_2">
+          <speaker>(2.)</speaker>
+          <lg xml:id="A04600-e100940">
+            <l xml:id="A04600-e100950">Believe me, my magical friends,</l>
+            <l xml:id="A04600-e100960">They must bring bodies with 'em that worship</l>
+            <l xml:id="A04600-e100970">In our pleasant temple: I have an odd</l>
+            <l xml:id="A04600-e100980">Fantastic faith persuades me there will be</l>
+            <l xml:id="A04600-e100990">Little pastime upon earth without bodies. </l>
+            <l xml:id="A04600-e101000">Your spirit's a cold companion at midnight. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e101010" who="A04600-speaker_1">
+          <speaker>(1.)</speaker>
+          <lg xml:id="A04600-e101020">
+            <l xml:id="A04600-e101030">Have we so long misled and entertained</l>
+            <l xml:id="A04600-e101040">The youthful of the world, (I mean their bodies)</l>
+            <l xml:id="A04600-e101050">And now do they betake themselves unto</l>
+            <l xml:id="A04600-e101060">The dull imaginary pleasures of</l>
+            <l xml:id="A04600-e101070">Their souls? This humour cannot last. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e101080" who="A04600-speaker_2">
+          <speaker>(2.)</speaker>
+          <lg xml:id="A04600-e101090">
+            <l xml:id="A04600-e101100">If it should, we may rid our temple</l>
+            <l xml:id="A04600-e101110">Of all our Persian quilts, embroidered couches,</l>
+            <l xml:id="A04600-e101120">And our standing beds; these (I take it) are</l>
+            <l xml:id="A04600-e101130">Bodily implements; our souls need 'em not. </l>
+            <l xml:id="A04600-e101140"><pb facs="6"/>But where shall this new sect be planted first? </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e101150" who="A04600-speaker_3">
+          <speaker>(3.)</speaker>
+          <l xml:id="A04600-e101160">In a dull Northern I'll, they call Britain. </l>
+        </sp>
+        <sp xml:id="A04600-e101170" who="A04600-speaker_2">
+          <speaker>(2.)</speaker>
+          <lg xml:id="A04600-e101180">
+            <l xml:id="A04600-e101190">Indeed 'tis a cold northerly opinion;</l>
+            <l xml:id="A04600-e101200">And I'll lay my life begot since their late</l>
+            <l xml:id="A04600-e101210">Great frosts. It will be long enough ere it</l>
+            <l xml:id="A04600-e101220">Shall spread, and prosper in the South! Or if</l>
+            <l xml:id="A04600-e101230">The Spaniard or Italian ever be</l>
+            <l xml:id="A04600-e101240">Persuaded out of the use of their bodies,</l>
+            <l xml:id="A04600-e101250">I'll give mine to a raven for his supper. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e101260" who="A04600-speaker_3">
+          <speaker>(3.)</speaker>
+          <lg xml:id="A04600-e101270">
+            <l xml:id="A04600-e101280">The miracle is more increased, in that</l>
+            <l xml:id="A04600-e101290">It first takes birth and nourishment in court. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e101300" who="A04600-speaker_2">
+          <speaker>(2.)</speaker>
+          <lg xml:id="A04600-e101310">
+            <l xml:id="A04600-e101320">But my good damned friend tell me? Is there not</l>
+            <l xml:id="A04600-e101330">One courtier will resent the cause, and give</l>
+            <l xml:id="A04600-e101340">Some countenance to the affairs of the body? </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e101350" who="A04600-speaker_3">
+          <speaker>(3)</speaker>
+          <lg xml:id="A04600-e101360">
+            <l xml:id="A04600-e101370">Certain young lords at first disliked the philosophy</l>
+            <l xml:id="A04600-e101380">As most uncomfortable, sad, and new;</l>
+            <l xml:id="A04600-e101390">But soon inclined to a superior vote,</l>
+            <l xml:id="A04600-e101400">And are grown as good Platonical lovers</l>
+            <l xml:id="A04600-e101410">As are to be found in an hermitage, where he</l>
+            <l xml:id="A04600-e101420">That was born last, reckons above fourscore. </l>
+          </lg>
+        </sp>
+        <p xml:id="A04600-e101430">To these come forth in haste another magician, in shape and habit differing from the other, and spoke as followeth.</p>
+        <sp xml:id="A04600-e101440" who="A04600-speaker_1">
+          <speaker>(1.)</speaker>
+          <l xml:id="A04600-e101450">Here comes a brother of our mystic tribe! </l>
+        </sp>
+        <sp xml:id="A04600-e101460" who="A04600-speaker_3">
+          <speaker>(3.)</speaker>
+          <lg xml:id="A04600-e101470">
+            <l xml:id="A04600-e101480">He knows th'occasion of our grief, and by</l>
+            <l xml:id="A04600-e101490">His haste imports discoveries more strange! </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e101500" who="A04600-speaker_4">
+          <speaker>(4.)</speaker>
+          <lg xml:id="A04600-e101510">
+            <l xml:id="A04600-e101520">News! news! my sad companions of the shade! </l>
+            <l xml:id="A04600-e101530">There's lately landed on our fatal shore</l>
+            <l xml:id="A04600-e101540">Nine Persian youths, their habit and their looks</l>
+            <l xml:id="A04600-e101550">So smooth, that from the pleasures i'th Elysian fields</l>
+            <l xml:id="A04600-e101560">Each female ghost will come, and enter in</l>
+            <l xml:id="A04600-e101570">Their flesh again, to make embraces warm. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e101580" who="A04600-speaker_2">
+          <pb facs="6"/>
+          <speaker>(2.)</speaker>
+          <lg xml:id="A04600-e101590">
+            <l xml:id="A04600-e101600">I hope these are no platonical lovers,</l>
+            <l xml:id="A04600-e101610">No such carthusian poets as do write</l>
+            <l xml:id="A04600-e101620">Madrigals to the mind? more of thy news! </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e101630" who="A04600-speaker_4">
+          <speaker>(4.)</speaker>
+          <lg xml:id="A04600-e101640">
+            <l xml:id="A04600-e101650">The rest infers small joy, and little hope:</l>
+            <l xml:id="A04600-e101660">For though at first their youth and eager thoughts</l>
+            <l xml:id="A04600-e101670">Directed them where our gay altar stood,</l>
+            <l xml:id="A04600-e101680">And they were ready too for sacrifice,</l>
+            <l xml:id="A04600-e101690">I cannot tell what luckless light informed</l>
+            <l xml:id="A04600-e101700">Their eyes, but loves true temple straight they spied</l>
+            <l xml:id="A04600-e101710">Through the ascending mists, and would have entered it</l>
+            <l xml:id="A04600-e101720">To read grave frosty homilies,</l>
+            <l xml:id="A04600-e101730">And antic saws of chastity, but that</l>
+            <l xml:id="A04600-e101740">(As my swift spirit brought me word) a voice</l>
+            <l xml:id="A04600-e101750">Sent from within bade them with reverence</l>
+            <l xml:id="A04600-e101760">Desist till Indamora did appear, for then</l>
+            <l xml:id="A04600-e101770">The gates would open, and the mists dry up</l>
+            <l xml:id="A04600-e101780">That thus concealed it from the general view,</l>
+            <l xml:id="A04600-e101790">Which now their expectation doth attend. </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e101800" who="A04600-speaker_3">
+          <speaker>(3.)</speaker>
+          <lg xml:id="A04600-e101810">
+            <l xml:id="A04600-e101820">'Tis time to wake our drowsy art, and try</l>
+            <l xml:id="A04600-e101830">If we have power to hinder destiny. </l>
+            <l xml:id="A04600-e101840">Mount! mount! our charms! fetch me, whilst you aspire,</l>
+            <l xml:id="A04600-e101850">A spirit of the element of fire! </l>
+          </lg>
+        </sp>
+        <sp xml:id="A04600-e101860" who="A04600-speaker_2">
+          <speaker>(2.)</speaker>
+          <l xml:id="A04600-e101870">Me one of air! </l>
+        </sp>
+        <sp xml:id="A04600-e101880" who="A04600-speaker_1">
+          <speaker>(1.)</speaker>
+          <l xml:id="A04600-e101890">The water me supplies! </l>
+        </sp>
+        <sp xml:id="A04600-e101900" who="A04600-speaker_4">
+          <speaker>(4.)</speaker>
+          <l xml:id="A04600-e101910">Mine from the centre of the earth shall rise! </l>
+        </sp>
+        <sp xml:id="A04600-e101920" who="A04600-speaker_3">
+          <speaker>(3.)</speaker>
+          <l xml:id="A04600-e101930">These shall infuse their several qualities</l>
+          <l xml:id="A04600-e101940">In men; if not t'uphold the faction of</l>
+          <l xml:id="A04600-e101950">The flesh, yet to infect the queasy age</l>
+          <l xml:id="A04600-e101960">With blacker sins: if we (Now we have joined</l>
+          <l xml:id="A04600-e101970">The force of all the elements t'assist</l>
+          <l xml:id="A04600-e101980">The horror of our will) shall not prevail</l>
+          <l xml:id="A04600-e101990">Against this humorous virtue of the time,</l>
+          <l xml:id="A04600-e102000">Nature, our weakness must be thought thy crime. </l>
+        </sp>
+        <sp xml:id="A04600-e102010" who="A04600-missing">
+          <gap extent="2" unit="pages" xml:id="A04600-e102020" n="6-b-3040"/>
+          <l xml:id="A04600-e102030"><pb facs="7"/>From Persian princes too, and each as fierce</l>
+          <l xml:id="A04600-e102040">A lover, as did ever sigh in verse! </l>
+          <l xml:id="A04600-e102050">Give audience then, you ladies of this I'll! </l>
+          <l xml:id="A04600-e102060">Lord how you lift your fans up now, and smile! </l>
+          <l xml:id="A04600-e102070">To think (Forsooth) they are so fond to take</l>
+          <l xml:id="A04600-e102080">So long a journey for your beauty's sake! </l>
+          <l xml:id="A04600-e102090">For know, they're come! but sure, ere they return,</l>
+          <l xml:id="A04600-e102100">Will give your femaleships some cause to mourn! </l>
+          <l xml:id="A04600-e102110">For I must tell you, that about them all</l>
+          <l xml:id="A04600-e102120">There's not one grain, but what's platonical! </l>
+          <l xml:id="A04600-e102130">So bashful that I think they might be drawn</l>
+          <l xml:id="A04600-e102140">(Like you) to wear close hoods, or veils of lawn. </l>
+          <l xml:id="A04600-e102150">My master is the chief that doth protect,</l>
+          <l xml:id="A04600-e102160">Or (As some say) mislead this precise sect:</l>
+          <l xml:id="A04600-e102170">One heretofore that wisely could confute</l>
+          <l xml:id="A04600-e102180">A lady at her window with his lute. </l>
+          <l xml:id="A04600-e102190">There devoutly in a cold morning stand</l>
+          <l xml:id="A04600-e102200">Two hours, praising the snow of her white hand,</l>
+          <l xml:id="A04600-e102210">So long, till's words were frozen between his lips,</l>
+          <l xml:id="A04600-e102220">And's lute-strings learned their quavering from his hips. </l>
+          <l xml:id="A04600-e102230">And when he could not rule her to's intent,</l>
+          <l xml:id="A04600-e102240">Like Tarquin he would proffer ravishment. </l>
+          <l xml:id="A04600-e102250">But now, no fear of rapes, until he find</l>
+          <l xml:id="A04600-e102260">A maidenhead belonging to the mind. </l>
+          <l xml:id="A04600-e102270">The rest are all so modest too, and pure,</l>
+          <l xml:id="A04600-e102280">So virginly, so coy, and so demure,</l>
+          <l xml:id="A04600-e102290">That they retreat at kissing, and but name</l>
+          <l xml:id="A04600-e102300">Hymen, or love, they blush for very shame! </l>
+          <l xml:id="A04600-e102310">Ladies! I must needs laugh! you'll give me leave</l>
+          <l xml:id="A04600-e102320">I hope; and 'tis to think how you deceive</l>
+          <l xml:id="A04600-e102330">Yourselves with all this precious art, and care</l>
+          <l xml:id="A04600-e102340">Ta'en in your glass to dress your looks, and hair! </l>
+          <l xml:id="A04600-e102350"><pb facs="7"/>When (In good faith!) they heed no outward merit,</l>
+          <l xml:id="A04600-e102360">But fervently resolve to woo the spirit! </l>
+          <l xml:id="A04600-e102370">Ha! do you all look melancholy vow? </l>
+          <l xml:id="A04600-e102380">And cast a cloud of anger o'er the brow? </l>
+          <l xml:id="A04600-e102390">'Tis time to fly, and my best swiftness use,</l>
+          <l xml:id="A04600-e102400">Lest killed with pins, and bodkins for my news. </l>
+        </sp>
+        <p xml:id="A04600-e102410">The page retires, and the noble Persian youths make their entry, apparelled in Asian coats of seagreen embroidered that reached down above their knees, with buttons and loops before and cut up square to their hips, and returned down with two short skirts; the sleeves of this coat were large without seam, and cut short to the bending of the arm, and hanging down long behind, trimmed with buttons as those of the breast; out of this came a sleeve of white satin embroidered, and the basis answerable to the sleeve, hung down in gathering underneath the shortest part of their coat; on their heads they wore Persian turbans silvered underneath, and wound about with white cypress, and one fall of a white feather before.</p>
+        <p xml:id="A04600-e102420">Their dance ended, the mist and clouds at an instant disappear, and the scene is all changed into a sea somewhat calm, where the billows moving sometimes whole, and sometimes breaking, beat gently on the land, which represented a new and strange prospect; the nearest part was broken grounds and rocks, with a mountainous country, but of a pleasant aspect, in which were trees of strange form and colour, and here and there were placed in the bottom several arbours like cottages, and strange beasts and birds, far unlike the country of these parts, expressing an Indian landscape ▪ in the sea were several I -</p>
+        <p xml:id="A04600-e102430"><gap extent="2" unit="pages" xml:id="A04600-e102440" n="7-b-3230"/><pb facs="8"/>Indamora Queen of Narsinga sat enthroned in the highest part of this chariot, in a rich seat, the back of which was a great scallop shell. The habit of the masquers was of Isabella colour, and watchet, with bases in large pains cut through, all over richly embroidered with silver, and the dressing of their heads was of silver, with small falls of white feathers tipped with watchet. This sight thus moving on the water, was accompanied with the music and voices of the chorus. </p>
+        <lg type="song" xml:id="A04600-e102450">
+          <lg n="1" xml:id="A04600-e102460">
+            <head>(1.)</head>
+            <l xml:id="A04600-e102470">She comes! each Princess in her train hath all</l>
+            <l xml:id="A04600-e102480">That wise enamoured poets, beauty call! </l>
+            <l xml:id="A04600-e102490">So fit and ready to subdue:</l>
+            <l xml:id="A04600-e102500">That had they not kind hearts which take a care</l>
+            <l xml:id="A04600-e102510">To free, and counsel, whom their eyes ensnare,</l>
+            <l xml:id="A04600-e102520">Poor lovers would have cause to rue. </l>
+          </lg>
+          <lg n="2" xml:id="A04600-e102530">
+            <head>(2.)</head>
+            <l xml:id="A04600-e102540">More welcome than the wand'ring seaman's star,</l>
+            <l xml:id="A04600-e102550">When in the night the winds make causeless war,</l>
+            <l xml:id="A04600-e102560">Until his bark so long is tossed,</l>
+            <l xml:id="A04600-e102570">That's sails to rags are blown, the mainyard bears</l>
+            <l xml:id="A04600-e102580">Not sheet enough to wipe, and dry those tears</l>
+            <l xml:id="A04600-e102590">He shed to see his rudder lost. </l>
+          </lg>
+        </lg>
+        <p xml:id="A04600-e102600">The song ended, all the forepart of the sea was in an instant turned to dry land, and Indamora with her contributary ladies descended into the room, and made their entry. Then for enter medium the music began again, and sung this song.</p>
+        <lg type="song" xml:id="A04600-e102610">
+          <pb facs="8"/>
+          <head>The song.</head>
+          <lg n="1" xml:id="A04600-e102620">
+            <head>(1.)</head>
+            <l xml:id="A04600-e102630">The planets though they move so fast,</l>
+            <l xml:id="A04600-e102640">Have power to make their swiftness last,</l>
+            <l xml:id="A04600-e102650">But see, your strength is quickly gone! </l>
+            <l xml:id="A04600-e102660">Yet move by sense and rules of art,</l>
+            <l xml:id="A04600-e102670">And each hath an immortal part,</l>
+            <l xml:id="A04600-e102680">Which cannot tire, but they have none ▪</l>
+          </lg>
+          <lg n="2" xml:id="A04600-e102690">
+            <head>(2.)</head>
+            <l xml:id="A04600-e102700">Let then your soft, and nimble feet</l>
+            <l xml:id="A04600-e102710">Lead and in various figures meet</l>
+            <l xml:id="A04600-e102720">Those stranger knights, who though they came</l>
+            <l xml:id="A04600-e102730">Seduced at first by false desire,</l>
+            <l xml:id="A04600-e102740">You'll kindle in their breasts a fire</l>
+            <l xml:id="A04600-e102750">Shall keep love warm, yet not inflame. </l>
+          </lg>
+          <lg n="3" xml:id="A04600-e102760">
+            <head>(3.)</head>
+            <l xml:id="A04600-e102770">At first they were your beauty's prize,</l>
+            <l xml:id="A04600-e102780">Now offer willing sacrifice</l>
+            <l xml:id="A04600-e102790">Unto the virtues of the mind,</l>
+            <l xml:id="A04600-e102800">And each shall wear when they depart,</l>
+            <l xml:id="A04600-e102810">A lawful though a loving heart,</l>
+            <l xml:id="A04600-e102820">And wish you still both strict and kind. </l>
+          </lg>
+        </lg>
+        <p xml:id="A04600-e102830">The masquers having a while reposed, danced their second dance, which ended, and the Queen being seated under the state by the King, the scene was changed into the true temple of chaste love; this temple instead of columns had terms of young satyrs bearing<pb facs="9"/> up the returns of architrave freeze and coronice, all enriched of goldsmith's work, the further part of the temple running far from the eye was designed of another kind of architecture, with pilasters, niches, and statues; and in the midst a stately gate adorned with columns and their ornaments, and a frontispiece on the top, all which seemed to be of burnished gold. Into this temple enters Sunesis and Thelema; Sunesis a man of a noble aspect, and richly attired; his garment of cloth of gold reaching down below his knees, and girt with a tuck at the waist, with wide sleeves turned up; his mantle of watchet fastened on both shoulders, and hanging down long behind, a garland of Sinope on his head, with a flame of fire issuing out of it, his buskins were yellow, wrought with gold. Thelema a young woman in a robe of changeable silk girt with several tucks, under her breast, and beneath her waist, and great leaves of silver about her shoulders hanging down to the midst of her arm; upon her head a garland of great marigolds, and puffs of silvered lawn between. And at her shoulders were angels wings, these sung this dialogue, assisted by the chori. </p>
+        <floatingText xml:id="A04600-e102840">
+          <body xml:id="A04600-e102850">
+            <div type="song" xml:id="A04600-e102860">
+              <head>The song.</head>
+              <stage xml:id="A04600-e102870">Sunesis and Thelema.</stage>
+              <sp xml:id="A04600-e102880" who="A04600-sunesis">
+                <speaker>Sunesis.</speaker>
+                <l xml:id="A04600-e102890">Come melt thy soul in mine, that when unite,</l>
+                <l xml:id="A04600-e102900">We may become one virtuous appetite. </l>
+              </sp>
+              <sp xml:id="A04600-e102910" who="A04600-thelema">
+                <pb facs="9"/>
+                <speaker>Thelema.</speaker>
+                <l xml:id="A04600-e102920">First breath thine into me, thine is the part</l>
+                <l xml:id="A04600-e102930">More heavenly, and doth more adorn the heart. </l>
+              </sp>
+              <sp xml:id="A04600-e102940" who="A04600-both">
+                <speaker>Both.</speaker>
+                <l xml:id="A04600-e102950">Thus mixed, our love will ever be discreet,</l>
+                <l xml:id="A04600-e102960">And all our thoughts and actions pure,</l>
+                <l xml:id="A04600-e102970">When perfect will, and strengthened reason meet,</l>
+                <l xml:id="A04600-e102980">Then love's created to endure. </l>
+              </sp>
+              <sp xml:id="A04600-e102990" who="A04600-chorus">
+                <speaker>Chorus.</speaker>
+                <l xml:id="A04600-e103000">Were heaven more distant from us, we would strive</l>
+                <l xml:id="A04600-e103010">To reach't with prayers to make this union thrive. </l>
+              </sp>
+            </div>
+          </body>
+        </floatingText>
+        <p xml:id="A04600-e103020">Whilst this song continued, there came softly down from the highest part of the heaven a bright and transparent cloud, which being come to the middle part of the air it opened, and out of it came Amianteros, or chaste love flying down, clad all in carnation and white, and two garlands of laurel in one hand, and crowned with another of the same; whilst he descended the cloud closeth again and returns upwards, and is hidden in the heavens; chaste love being come down to the earth, was accompanied by Sunesis and Thelema, divine poesy, Orpheus, and the rest of the poets up to the state, the great chorus following at a distance, where they sung this song.</p>
+        <floatingText xml:id="A04600-e103030">
+          <body xml:id="A04600-e103040">
+            <div type="song" xml:id="A04600-e103050">
+              <head>The song.</head>
+              <stage xml:id="A04600-e103060">Amianteros, or chaste love.</stage>
+              <lg n="1" xml:id="A04600-e103070">
+                <head>(1.)</head>
+                <l xml:id="A04600-e103080">While by a mixture thus made one,</l>
+                <l xml:id="A04600-e103090">You're th' emblem of my deity,</l>
+                <l xml:id="A04600-e103100"><pb facs="10"/> and now you may in yonder throne,</l>
+                <l xml:id="A04600-e103110">The pattern of your union see. </l>
+              </lg>
+              <lg n="2" xml:id="A04600-e103120">
+                <head>(2.)</head>
+                <l xml:id="A04600-e103130">Softly as fruitful showers I fall,</l>
+                <l xml:id="A04600-e103140">And th'undiscerned increase I bring,</l>
+                <l xml:id="A04600-e103150">Is of more precious worth than all</l>
+                <l xml:id="A04600-e103160">A plenteous summer pays a spring. </l>
+              </lg>
+              <lg n="3" xml:id="A04600-e103170">
+                <head>(3.)</head>
+                <l xml:id="A04600-e103180">The benefit it doth impart,</l>
+                <l xml:id="A04600-e103190">Will not the barren earth improve,</l>
+                <l xml:id="A04600-e103200">But fructify each barren heart,</l>
+                <l xml:id="A04600-e103210">And give eternal ▪ growth to love. </l>
+              </lg>
+              <sp xml:id="A04600-e103220" who="A04600-sunesis">
+                <speaker>Sunesis.</speaker>
+                <l xml:id="A04600-e103230">To Charles the mightiest and the best,</l>
+                <l xml:id="A04600-e103240">And to the darling of his breast,</l>
+                <l xml:id="A04600-e103250">(Who rule b' example as by power)</l>
+                <l xml:id="A04600-e103260">May youthful blessings still increase,</l>
+                <l xml:id="A04600-e103270">And in their offspring never cease,</l>
+                <l xml:id="A04600-e103280">Till time's too old to last an hour. </l>
+              </sp>
+              <sp xml:id="A04600-e103290" who="A04600-chorus">
+                <speaker>Chorus.</speaker>
+                <l xml:id="A04600-e103300">These wishes are so well deserved by thee,</l>
+                <l xml:id="A04600-e103310">And thought so modest too by destiny,</l>
+                <l xml:id="A04600-e103320">That heaven hath sealed the grant as a decree. </l>
+              </sp>
+            </div>
+          </body>
+        </floatingText>
+        <p xml:id="A04600-e103330">After which they all retire to the scene, and Indamora and her ladies begin the revels with the King and the lords, which continue the most part of the night. Thus ended this masque which for the newness<pb facs="10"/> of the invention, variety of scenes, apparitions, and richness of habits was generally approved to be one of the most magnificent that hath been done in England.</p>
+      </div>
+    </body>
+    <back xml:id="A04600-e103340">
+      <div type="dramatis_personae" xml:id="A04600-e103350">
+        <head>The masquers names.</head>
+        <list xml:id="A04600-e103360">
+          <head>The Queen's majesty.</head>
+          <item xml:id="A04600-e103370">Lady marquess Hamilton. </item>
+          <item xml:id="A04600-e103380">Lady Mary Herbert. </item>
+          <item xml:id="A04600-e103390">Countess of Oxford. </item>
+          <item xml:id="A04600-e103400">Countess of Berkshire. </item>
+          <item xml:id="A04600-e103410">Countess of Carnarvan. </item>
+          <item xml:id="A04600-e103420">Countess of Newport. </item>
+          <item xml:id="A04600-e103430">Lady Herbert. </item>
+          <item xml:id="A04600-e103440">Lady Katherine Howard</item>
+          <item xml:id="A04600-e103450">Lady Anne Carre. </item>
+          <item xml:id="A04600-e103460">Lady Elizabeth Fielding</item>
+          <item xml:id="A04600-e103470">Lady Thimbleby. </item>
+          <item xml:id="A04600-e103480">Mistress Dorothy savage. </item>
+          <item xml:id="A04600-e103490">Mistress victory carry. </item>
+          <item xml:id="A04600-e103500">Mistress Nevill. </item>
+        </list>
+        <list xml:id="A04600-e103510">
+          <head>The lords and others that presented the noble Persian youths.</head>
+          <item xml:id="A04600-e103520">The Duke of Lenox. </item>
+          <item xml:id="A04600-e103530">Earl of Newport. </item>
+          <item xml:id="A04600-e103540">Earl of Desmond. </item>
+          <item xml:id="A04600-e103550">Viscount Grandeson. </item>
+          <item xml:id="A04600-e103560">Lord Russell. </item>
+          <item xml:id="A04600-e103570">Lord Doncaster. </item>
+          <item xml:id="A04600-e103580">Master Thomas Weston. </item>
+          <item xml:id="A04600-e103590">Master George Goring. </item>
+          <item xml:id="A04600-e103600">Master Henry Murrey. </item>
+        </list>
+        <trailer xml:id="A04600-e103610">Finis.</trailer>
+      </div>
+      <div type="machine-generated_castlist"><list n="A04600"><item xml:id="A04600-speaker_2" n="8">
+    <seg type="character_name">A04600-speaker_2</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A04600-speaker_3" n="7">
+    <seg type="character_name">A04600-speaker_3</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A04600-divine_poesy" n="4">
+    <seg type="character_name">A04600-divine_poesy</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A04600-speaker_1" n="4">
+    <seg type="character_name">A04600-speaker_1</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A04600-poets" n="3">
+    <seg type="character_name">A04600-poets</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A04600-speaker_4" n="3">
+    <seg type="character_name">A04600-speaker_4</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A04600-sunesis" n="2">
+    <seg type="character_name">A04600-sunesis</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A04600-chorus" n="2">
+    <seg type="character_name">A04600-chorus</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+<item xml:id="A04600-both" n="1">
+    <seg type="character_name">A04600-both</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04600-missing" n="1">
+    <seg type="character_name">A04600-missing</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A04600-thelema" n="1">
+    <seg type="character_name">A04600-thelema</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

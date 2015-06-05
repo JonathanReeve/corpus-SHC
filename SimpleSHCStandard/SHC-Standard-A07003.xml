@@ -1,0 +1,2758 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A07003">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Massacre at Paris <date type="creation_date">1593</date></title>
+        <author>Marlowe, Christopher</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Nayoon Ahn</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A07003.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The massacre at Paris with the death of the Duke of Guise. As it was plaide by the right honourable the Lord high Admirall his Seruants. Written by Christopher Marlow.</title>
+            <author>Marlowe, Christopher, 1564-1593.</author>
+          </titleStmt>
+          <extent>30 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 January (TCP phase 1)</date>
+            <idno type="marc">99845508</idno>
+            <idno type="stc">STC (2nd ed.) 17423.</idno>
+            <idno type="stc">Greg, I, 133.</idno>
+            <idno type="vid">10413</idno>
+            <idno type="DLPS">A07003</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The massacre at Paris with the death of the Duke of Guise. As it was plaide by the right honourable the Lord high Admirall his Seruants. Written by Christopher Marlow.</title>
+            <author>Marlowe, Christopher, 1564-1593.</author>
+          </titleStmt>
+          <extent>[64] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by E[dward] A[llde] for Edward White, dwelling neere the little north doore of S. Paules Church, at the signe of the Gun,</publisher>
+            <pubPlace>At London :</pubPlace>
+            <date>[1594?]</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Publication date conjectured by STC.</p>
+            </note>
+            <note>
+              <p>Signatures: A-D.</p>
+            </note>
+            <note>
+              <p>The first leaf is blank except for signature-mark "A"; the last two leaves are blank.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the British Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Guise, Henri, -- duc de, -- 1550-1588 -- Drama.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A07003-e100010">
+    <front xml:id="A07003-e100020">
+      <div type="title_page" xml:id="A07003-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A07003-e100040">The massacre at Paris: with the death of the Duke of Guise.</p>
+        <p xml:id="A07003-e100050">As it was played by the right honourable the lord high admiral his servants.</p>
+        <p xml:id="A07003-e100060">Written by Christopher Marlowe. </p>
+        <p xml:id="A07003-e100070">
+          <figure xml:id="A07003-e100080"/>
+        </p>
+        <p xml:id="A07003-e100090">At London printed by E. A. for Edward white, dwelling near the little North door of s. Paul's church at the sign of the gun.</p>
+      </div>
+    </front>
+    <body xml:id="A07003-e100100">
+      <div type="play" xml:id="A07003-e100110">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The massacre at Paris. With the death of the Duke of Guise. </head>
+        <stage xml:id="A07003-e100120">Enter Charles the French King, the Queen mother, the King of Navarre, the prince of Condy, the lord high admiral, and the Queen of Navarre, with others.</stage>
+        <sp xml:id="A07003-e100130" who="A07003-charles">
+          <speaker>Charles.</speaker>
+          <l xml:id="A07003-e100140">Prince of Navarre my honourable brother,</l>
+          <l xml:id="A07003-e100150">Prince Condy, and my good lord admiral,</l>
+          <l xml:id="A07003-e100160">I wish this union and religious league,</l>
+          <l xml:id="A07003-e100180">Knit in these hands thus joined in nuptial rites,</l>
+          <l xml:id="A07003-e100200">May not dissolve, till death dissolve our lives,</l>
+          <l xml:id="A07003-e100210">And that the native sparks of princely love,</l>
+          <l xml:id="A07003-e100220"><pb facs="3"/> that kindled first this motion in our hearts:</l>
+          <l xml:id="A07003-e100230">May still be fueled in our progeny. </l>
+        </sp>
+        <sp xml:id="A07003-e100240" who="A07003-navarre">
+          <speaker>Navar.</speaker>
+          <p xml:id="A07003-e100250">The many favours which your grace hath shown,</p>
+          <l xml:id="A07003-e100260">From time to time, but specially in this:</l>
+          <l xml:id="A07003-e100270">Shall bind me ever to your highness' will,</l>
+          <l xml:id="A07003-e100280">In what Queen mother or your grace commands. </l>
+        </sp>
+        <sp xml:id="A07003-e100290" who="A07003-old_queen">
+          <speaker>Old Qu.</speaker>
+          <p xml:id="A07003-e100300">Thanks son Navarre, you see we love you well,</p>
+          <l xml:id="A07003-e100310">That link you in marriage with our daughter here:</l>
+          <l xml:id="A07003-e100320">And as you know our difference in religion,</l>
+          <l xml:id="A07003-e100330">Might be a means to cross you in your love. </l>
+        </sp>
+        <sp xml:id="A07003-e100340" who="A07003-charles">
+          <speaker>Charles.</speaker>
+          <l xml:id="A07003-e100350">Well madam, let that rest:</l>
+          <l xml:id="A07003-e100360">And now my lords the marriage rites performed,</l>
+          <l xml:id="A07003-e100370">We think it good to go and consummate the rest,</l>
+          <p xml:id="A07003-e100380">With hearing of a holy mass: sister, I think yourself will bear us company.</p>
+        </sp>
+        <sp xml:id="A07003-e100390" who="A07003-UNASSIGNED">
+          <speaker>Q. Mar.</speaker>
+          <l xml:id="A07003-e100400">I will my good lord,</l>
+        </sp>
+        <sp xml:id="A07003-e100410" who="A07003-charles">
+          <speaker>Charles.</speaker>
+          <p xml:id="A07003-e100420">The rest that will not go (My lords) may stay:</p>
+          <l xml:id="A07003-e100430">Come mother let us go to honour this solemnity. </l>
+        </sp>
+        <sp xml:id="A07003-e100440" who="A07003-UNASSIGNED">
+          <speaker>Old Q. </speaker>
+          <l xml:id="A07003-e100450">Which I'll dissolve with blood and cruelty. </l>
+        </sp>
+        <stage xml:id="A07003-e100460">Exit the King, Q mother, and the Q. of Navar, and manet Navar, the prince of Condy, and the lord high admiral. </stage>
+        <sp xml:id="A07003-e100470" who="A07003-navarre">
+          <speaker>Navar.</speaker>
+          <l xml:id="A07003-e100480">Prince Condy and my good l. admiral,</l>
+          <l xml:id="A07003-e100490">Now Guise may storm but do us little hurt:</l>
+          <l xml:id="A07003-e100500">Having the King, Qu. Mother on our sides,</l>
+          <l xml:id="A07003-e100510">To stop the malice of his envious heart,</l>
+          <l xml:id="A07003-e100520"><pb facs="3"/> that seeks to murder all the Protestants:</l>
+          <l xml:id="A07003-e100530">Have you not heard of late how he decreed,</l>
+          <l xml:id="A07003-e100540">If that the King had given consent thereto,</l>
+          <l xml:id="A07003-e100550">That all the Protestants that are in Paris,</l>
+          <l xml:id="A07003-e100560">Should have been murdered the other night? </l>
+        </sp>
+        <sp xml:id="A07003-e100570" who="A07003-admiral">
+          <speaker>Admiral</speaker>
+          <l xml:id="A07003-e100580">My lord I marvel that th'aspiring Guise,</l>
+          <l xml:id="A07003-e100590">Dares once adventure without the King's consent,</l>
+          <l xml:id="A07003-e100600">To meddle or attempt such dangerous things. </l>
+        </sp>
+        <sp xml:id="A07003-e100610" who="A07003-condy">
+          <speaker>Con.</speaker>
+          <l xml:id="A07003-e100620">My l. you need not marvel at the Guise,</l>
+          <l xml:id="A07003-e100630">For what he doth the Pope will ratify:</l>
+          <l xml:id="A07003-e100640">In murder, mischief, or in tyranny. </l>
+        </sp>
+        <sp xml:id="A07003-e100650" who="A07003-navarre">
+          <speaker>Na.</speaker>
+          <l xml:id="A07003-e100660">But he that sits and rules above the clouds,</l>
+          <l xml:id="A07003-e100670">Doth hear and see the prayers of the just:</l>
+          <l xml:id="A07003-e100680">And will revenge the blood of innocents,</l>
+          <l xml:id="A07003-e100690">That Guise hath slain by treason of his heart,</l>
+          <l xml:id="A07003-e100700">And brought by murder to their timeless ends. </l>
+        </sp>
+        <sp xml:id="A07003-e100710" who="A07003-admiral">
+          <speaker>Admiral</speaker>
+          <l xml:id="A07003-e100720">My lord, but did you mark the Cardinal,</l>
+          <l xml:id="A07003-e100730">The Guise's brother and the Duke Dumain:</l>
+          <l xml:id="A07003-e100740">How they did storm at these your nuptial rites,</l>
+          <l xml:id="A07003-e100750">Because the house of Burbon now comes in,</l>
+          <l xml:id="A07003-e100760">And joins your lineage to the crown of France? </l>
+        </sp>
+        <sp xml:id="A07003-e100770" who="A07003-navarre">
+          <speaker>Na,</speaker>
+          <l xml:id="A07003-e100780">And that's the cause that Guise so frowns at us,</l>
+          <l xml:id="A07003-e100790">And beats his brains to catch us in his trap:</l>
+          <l xml:id="A07003-e100800">Which he hath pitched within his deadly toil. </l>
+          <l xml:id="A07003-e100810">Come my lords let's go to the church and prey,</l>
+          <l xml:id="A07003-e100820">That God may still defend the right of France:</l>
+          <l xml:id="A07003-e100830">And make his gospel flourish in this land. </l>
+        </sp>
+        <stage xml:id="A07003-e100840">Exeunt.</stage>
+        <stage xml:id="A07003-e100850">Enter the Duke of Guise. </stage>
+        <sp xml:id="A07003-e100860" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e100870">If ever Hymen loured at marriage rites,</l>
+          <l xml:id="A07003-e100880">And had his altars decked with dusky lights:</l>
+          <l xml:id="A07003-e100890"><pb facs="4"/> if ever sun stained heaven with bloody clouds,</l>
+          <l xml:id="A07003-e100900">And made it look with terror on the world:</l>
+          <l xml:id="A07003-e100910">If ever day were turned to ugly night. </l>
+          <l xml:id="A07003-e100920">And night made semblance of the hue of hell,</l>
+          <l xml:id="A07003-e100930">This day, this hour, this fatal night,</l>
+          <l xml:id="A07003-e100940">Shall fully show the fury of them all,</l>
+          <l xml:id="A07003-e100950">Apothecary. </l>
+        </sp>
+        <stage xml:id="A07003-e100960">Enter the pothecary. </stage>
+        <sp xml:id="A07003-e100970" who="A07003-apothecary">
+          <speaker>Pothe.</speaker>
+          <l xml:id="A07003-e100990">My lord. </l>
+        </sp>
+        <sp xml:id="A07003-e101000" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e101010">Now shall I prove and guerdon to the full,</l>
+          <l xml:id="A07003-e101020">The love thou bearest unto the house of Guise:</l>
+          <l xml:id="A07003-e101030">Where are those perfumed gloves which I sent</l>
+          <l xml:id="A07003-e101040">To be poisoned, hast thou done them? speak,</l>
+          <l xml:id="A07003-e101050">Will every savour breed a pang of death? </l>
+        </sp>
+        <sp xml:id="A07003-e101060" who="A07003-A07003-apothecary">
+          <speaker>Pothe.</speaker>
+          <l xml:id="A07003-e101070">See where they be my good lord,</l>
+          <l xml:id="A07003-e101080">And he that smells but to them, dies. </l>
+        </sp>
+        <sp xml:id="A07003-e101090" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e101100">Then thou remainest resolute. </l>
+        </sp>
+        <sp xml:id="A07003-e101110" who="A07003-A07003-apothecary">
+          <speaker>Pothe.</speaker>
+          <p xml:id="A07003-e101120">I am my lord, in what your grace commands till death.</p>
+        </sp>
+        <sp xml:id="A07003-e101130" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e101140">Thanks my good friend, I will requite thy love,</l>
+          <l xml:id="A07003-e101150">Go then present them to the Queen Navarre:</l>
+          <l xml:id="A07003-e101160">For she is that huge blemish in our eye,</l>
+          <l xml:id="A07003-e101170">That makes these upstart heresies in France:</l>
+          <l xml:id="A07003-e101190">Be gone my friend present them to her straight. </l>
+          <l xml:id="A07003-e101210">Soldier. </l>
+        </sp>
+        <stage xml:id="A07003-e101220">Exit Pothe.</stage>
+        <stage xml:id="A07003-e101230">Enter a soldier.</stage>
+        <sp xml:id="A07003-e101240" who="A07003-soldier">
+          <speaker>Soldier</speaker>
+          <l xml:id="A07003-e101250">My lord,</l>
+        </sp>
+        <sp xml:id="A07003-e101260" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e101270">Now come thou forth and play thy tragic part.</p>
+          <l xml:id="A07003-e101280">Stand in some window opening near the street,</l>
+          <l xml:id="A07003-e101290"><pb facs="4"/> and when thou seest the admiral ride by,</l>
+          <l xml:id="A07003-e101300">Discharge thy musket and perform his death:</l>
+          <l xml:id="A07003-e101320">And then I'll guerdon thee with store of crowns. </l>
+        </sp>
+        <sp xml:id="A07003-e101330" who="A07003-soldier">
+          <speaker>Soldier</speaker>
+          <l xml:id="A07003-e101340">I will my lord. </l>
+        </sp>
+        <stage xml:id="A07003-e101350">Exit Souldi. </stage>
+        <sp xml:id="A07003-e101360" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e101370">Now Guise begins those deep engendered thoughts,</p>
+          <l xml:id="A07003-e101380">To burst abroad those never dying flames,</l>
+          <l xml:id="A07003-e101390">Which cannot be extinguished but by blood. </l>
+          <l xml:id="A07003-e101400">Oft have I levelled, and at last have learned,</l>
+          <l xml:id="A07003-e101420">That peril is the chiefest way to happiness,</l>
+          <l xml:id="A07003-e101430">And resolution honours fairest aim. </l>
+          <l xml:id="A07003-e101440">What glory is there in a common good,</l>
+          <l xml:id="A07003-e101450">That hangs for every peasant to achieve? </l>
+          <l xml:id="A07003-e101460">That like I best that flies beyond my reach,</l>
+          <l xml:id="A07003-e101470">Set me to scale the high pyramids,</l>
+          <l xml:id="A07003-e101480">And thereon set the diadem of France,</l>
+          <l xml:id="A07003-e101490">I'll either rend it with my nails to naught,</l>
+          <l xml:id="A07003-e101500">Or mount the top with my aspiring wings,</l>
+          <l xml:id="A07003-e101510">Although my downfall be the deepest hell. </l>
+          <l xml:id="A07003-e101520">For this, I wake, when others think I sleep,</l>
+          <l xml:id="A07003-e101530">For this, I wait, that scorns attendance else:</l>
+          <l xml:id="A07003-e101540">For this, my quenchless thirst whereon I build,</l>
+          <l xml:id="A07003-e101550">Hath often pleaded kindred to the King. </l>
+          <l xml:id="A07003-e101560">For this, this head, this heart, this hand and sword,</l>
+          <l xml:id="A07003-e101570">Contrives, imagines and fully executes,</l>
+          <l xml:id="A07003-e101580">Matters of import, aimed at by many,</l>
+          <l xml:id="A07003-e101590">Yet understood by none. </l>
+          <l xml:id="A07003-e101600">For this, hath heaven engendered me of earth,</l>
+          <l xml:id="A07003-e101610">For this, this earth sustains my body's weight,</l>
+          <l xml:id="A07003-e101620">And with this wiat I'll counterpoise a crown,</l>
+          <l xml:id="A07003-e101630"><pb facs="5"/> or with seditions weary all the world:</l>
+          <l xml:id="A07003-e101640">For this, from Spain the stately Catholics,</l>
+          <l xml:id="A07003-e101650">Sends Indian gold to coin me French ecus:</l>
+          <l xml:id="A07003-e101660">For this have I a largesse from the Pope,</l>
+          <l xml:id="A07003-e101670">A pension and a dispensation too:</l>
+          <l xml:id="A07003-e101680">And by that privilege to work upon,</l>
+          <l xml:id="A07003-e101690">My policy hath framed religion,</l>
+          <l xml:id="A07003-e101700">Religion: oh diabole. </l>
+          <l xml:id="A07003-e101710">Fie, I am ashamed however that I seem,</l>
+          <l xml:id="A07003-e101720">To think a word of such a simple sound,</l>
+          <l xml:id="A07003-e101730">Of so great matter should be made the ground. </l>
+          <l xml:id="A07003-e101740">The gentle King whose pleasure uncontrolled,</l>
+          <l xml:id="A07003-e101750">Weakeneth his body, and will waste his realm,</l>
+          <l xml:id="A07003-e101760">If I repair not what he ruinates:</l>
+          <l xml:id="A07003-e101770">Him as a child I daily win with words,</l>
+          <l xml:id="A07003-e101780">So that for proof, he barely bears the name:</l>
+          <l xml:id="A07003-e101790">I execute, and he sustains the blame. </l>
+          <p xml:id="A07003-e101800">The mother Queen works wonders for my sake,</p>
+          <l xml:id="A07003-e101810">And in my love entombs the hope of France:</l>
+          <l xml:id="A07003-e101820">Rifling the bowels of her treasury,</l>
+          <l xml:id="A07003-e101830">To supply my wants and necessity. </l>
+          <l xml:id="A07003-e101840">Paris hath full five hundred colleges,</l>
+          <l xml:id="A07003-e101850">As monasteries, priories, abbeys and halls,</l>
+          <l xml:id="A07003-e101860">Wherein are thirty thousand able men,</l>
+          <l xml:id="A07003-e101870">Besides a thousand sturdy student Catholics,</l>
+          <l xml:id="A07003-e101880">And more of my knowledge in one cloister keeps,</l>
+          <l xml:id="A07003-e101890">Five hundred fat Franciscan friars and priests. </l>
+          <l xml:id="A07003-e101900">All this and more, if more may be comprised,</l>
+          <l xml:id="A07003-e101910">To bring the will of our desires to end. </l>
+          <l xml:id="A07003-e101920"><pb facs="5"/>Then Guise since thou hast all the cards,</l>
+          <p xml:id="A07003-e101930">Within thy hands to shuffle or cut, take this as surest thing:</p>
+          <l xml:id="A07003-e101950">That right or wrong, thou deal thyself a King. </l>
+          <l xml:id="A07003-e101960">I but, Navarre, Navarre, 'tis but a nook of France,</l>
+          <l xml:id="A07003-e101970">Sufficient yet for such a petty King:</l>
+          <l xml:id="A07003-e101980">That with a rabblement of his heretics,</l>
+          <l xml:id="A07003-e101990">Blinds Europa's eyes and troubleth our estate:</l>
+          <l xml:id="A07003-e102000">Him will we</l>
+          <stage xml:id="A07003-e102010">Pointing to his sword.</stage>
+          <l xml:id="A07003-e102020">But first let's follow those in France,</l>
+          <l xml:id="A07003-e102030">That hinder our possession to the crown:</l>
+          <l xml:id="A07003-e102040">As Caesar to his soldiers, so say I:</l>
+          <l xml:id="A07003-e102050">Those that hate me, will I learn to loathe. </l>
+          <l xml:id="A07003-e102060">Give me a look, that when I bend the brows,</l>
+          <l xml:id="A07003-e102070">Pale death may walk in furrows of my face:</l>
+          <l xml:id="A07003-e102080">A hand, that with a grasp may gripe the world,</l>
+          <l xml:id="A07003-e102090">An ear, to hear what my detractors say,</l>
+          <l xml:id="A07003-e102100">A royal seat, a sceptre and a crown:</l>
+          <l xml:id="A07003-e102110">That those which do behold, they may become</l>
+          <l xml:id="A07003-e102120">As men that stand and gaze against the sun. </l>
+          <l xml:id="A07003-e102130">The plot is laid, and things shall come to pass:</l>
+          <l xml:id="A07003-e102140">Where resolution strives for victory. </l>
+        </sp>
+        <stage xml:id="A07003-e102150">Exit.</stage>
+        <stage xml:id="A07003-e102160">Enter the King of Navar and Queen, and his mother Queen, the prince of Condy, the admiral, and the apothecary with the gloves, and gives them to the old Queen.</stage>
+        <sp xml:id="A07003-e102170" who="A07003-apothecary">
+          <speaker>Pothe.</speaker>
+          <p xml:id="A07003-e102180">Madam, I beseech your grace to accept this simple gift.</p>
+        </sp>
+        <sp xml:id="A07003-e102190" who="A07003-old_queen">
+          <pb facs="6"/>
+          <speaker>Old Qu.</speaker>
+          <p xml:id="A07003-e102210">Thanks my good friend, hold take thou this reward.</p>
+        </sp>
+        <sp xml:id="A07003-e102220" who="A07003-apothecary">
+          <speaker>Pothe.</speaker>
+          <l xml:id="A07003-e102230">I humbly thank your majesty. </l>
+        </sp>
+        <stage xml:id="A07003-e102240">Exit Po.</stage>
+        <sp xml:id="A07003-e102250" who="A07003-old_queen">
+          <speaker>Old Qu.</speaker>
+          <p xml:id="A07003-e102260"> methinks the gloves have a very strong perfume,</p>
+          <l xml:id="A07003-e102270">The scent whereof doth make my head to ache. </l>
+        </sp>
+        <sp xml:id="A07003-e102280" who="A07003-navarre">
+          <speaker>Navar.</speaker>
+          <l xml:id="A07003-e102290">Doth not your grace know the man that gave them you? </l>
+        </sp>
+        <sp xml:id="A07003-e102300" who="A07003-old_queen">
+          <speaker>Old Queen</speaker>
+          <l xml:id="A07003-e102310">Not well, but do remember such a man. </l>
+        </sp>
+        <sp xml:id="A07003-e102320" who="A07003-unassigned">
+          <speaker>Ad</speaker>
+          <l xml:id="A07003-e102340">Your grace was ill advised to take them then,</l>
+          <l xml:id="A07003-e102350">Considering of these dangerous times. </l>
+        </sp>
+        <sp xml:id="A07003-e102360" who="A07003-old_queen">
+          <speaker>Old Queen</speaker>
+          <l xml:id="A07003-e102370">Help son Navarre I am poisoned. </l>
+        </sp>
+        <sp xml:id="A07003-e102380" who="A07003-queen_margaret">
+          <speaker>Q Mar.</speaker>
+          <p xml:id="A07003-e102390">The heavens forbid your highness such mishap.</p>
+        </sp>
+        <sp xml:id="A07003-e102400" who="A07003-navarre">
+          <speaker>Navar.</speaker>
+          <l xml:id="A07003-e102410">The late suspicion of the Duke of Guise,</l>
+          <l xml:id="A07003-e102420">Might well have moved your highness to beware:</l>
+          <l xml:id="A07003-e102430">How you did meddle with such dangerous gifts. </l>
+        </sp>
+        <sp xml:id="A07003-e102440" who="A07003-queen_margaret">
+          <speaker>Q. Mar.</speaker>
+          <l xml:id="A07003-e102450">Too late it is my lord if that be true</l>
+          <l xml:id="A07003-e102460">To blame her highness, but I hope it be</l>
+          <l xml:id="A07003-e102470">Only some natural passion makes her sick. </l>
+        </sp>
+        <sp xml:id="A07003-e102480" who="A07003-old_queen">
+          <speaker>O worser Queen</speaker>
+          <l xml:id="A07003-e102490">O no, sweet Marg'ret, the fatal poison</l>
+          <l xml:id="A07003-e102500">Works within my head, my brain pan breaks,</l>
+          <l xml:id="A07003-e102510">My heart doth faint, I die. </l>
+        </sp>
+        <stage xml:id="A07003-e102520">She dies.</stage>
+        <sp xml:id="A07003-e102530" who="A07003-navarre">
+          <speaker>Navar.</speaker>
+          <p xml:id="A07003-e102540">My mother poisoned here before my face:</p>
+          <l xml:id="A07003-e102550">Oh gracious God, what times are these? </l>
+          <l xml:id="A07003-e102560">O grant sweet God my days may end with hers,</l>
+          <l xml:id="A07003-e102570">That I with her may die and live again. </l>
+        </sp>
+        <sp xml:id="A07003-e102580" who="A07003-queen_margaret">
+          <speaker>Q. Mar.</speaker>
+          <p xml:id="A07003-e102590">Let not this heavy chance my dearest lord,</p>
+          <l xml:id="A07003-e102600"><pb facs="6"/>For whose effects my soul is massacred)</l>
+          <l xml:id="A07003-e102610">Infect thy gracious breast with fresh supply,</l>
+          <l xml:id="A07003-e102620">To aggravate our sudden misery. </l>
+        </sp>
+        <sp xml:id="A07003-e102630" who="A07003-admiral">
+          <speaker>Admiral</speaker>
+          <l xml:id="A07003-e102640">Come my lords let us bear her body hence,</l>
+          <l xml:id="A07003-e102650">And see it honoured with just solemnity. </l>
+        </sp>
+        <stage xml:id="A07003-e102660">As they are going, the soldier dischargeth his musket at the lord admiral.</stage>
+        <sp xml:id="A07003-e102670" who="A07003-condy">
+          <speaker>Condy,</speaker>
+          <l xml:id="A07003-e102680">What are you hurt my l. high admiral? </l>
+        </sp>
+        <sp xml:id="A07003-e102690" who="A07003-admiral">
+          <speaker>Admiral</speaker>
+          <l xml:id="A07003-e102700">I my good lord shot through the arm. </l>
+        </sp>
+        <sp xml:id="A07003-e102710" who="A07003-navarre">
+          <speaker>Navar.</speaker>
+          <p xml:id="A07003-e102720">We are betrayed come my lords, and let us go tell the King of this.</p>
+        </sp>
+        <sp xml:id="A07003-e102730" who="A07003-admiral">
+          <speaker>Admiral</speaker>
+          <p xml:id="A07003-e102740">These are the cursed Guisians that do seek our death.</p>
+          <l xml:id="A07003-e102750">O fatal was this marriage to us all. </l>
+        </sp>
+        <stage xml:id="A07003-e102760">They bear away the Queen and go out.</stage>
+        <stage xml:id="A07003-e102770">Enter the King, Queen mother, Duke of Guise, Duke Anjoy, Duke demayne. </stage>
+        <sp xml:id="A07003-e102780" who="A07003-queen_mother">
+          <speaker>Queen mother.</speaker>
+          <l xml:id="A07003-e102790">My noble son, and princely Duke of Guise,</l>
+          <l xml:id="A07003-e102800">Now have we got the fatal straggling deer:</l>
+          <l xml:id="A07003-e102810">Within the compass of a deadly toil,</l>
+          <l xml:id="A07003-e102820">And as we late decreed we may perform. </l>
+        </sp>
+        <sp xml:id="A07003-e102830" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e102840">Madam, it will be noted through the world,</l>
+          <l xml:id="A07003-e102850">An action bloody and tyrannical:</l>
+          <l xml:id="A07003-e102860">Chiefly since under safety of our word,</l>
+          <l xml:id="A07003-e102870">They justly challenge their protection:</l>
+          <l xml:id="A07003-e102880">Besides my heart relents that noble men,</l>
+          <l xml:id="A07003-e102890">Only corrupted in religion, ladies of honour,</l>
+          <p xml:id="A07003-e102900"><pb facs="7"/>Knights and gentlemen, should for their conscience taste such ruthless ends.</p>
+        </sp>
+        <sp xml:id="A07003-e102910" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <p xml:id="A07003-e102920">Though gentle minds should pity others pains,</p>
+          <l xml:id="A07003-e102930">Yet will the wisest note their proper griefs:</l>
+          <l xml:id="A07003-e102940">And rather seek to scourge their enemies,</l>
+          <l xml:id="A07003-e102950">Then be themselves base subjects to the whip. </l>
+        </sp>
+        <sp xml:id="A07003-e102960" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e102970"> methinks my lord, Anjoy hath well advised,</p>
+          <l xml:id="A07003-e102980">Your highness to consider of the thing,</l>
+          <l xml:id="A07003-e102990">And rather choose to sack your countries good,</l>
+          <l xml:id="A07003-e103000">Then pity or relieve these up start heretics. </l>
+        </sp>
+        <sp xml:id="A07003-e103010" who="A07003-queen">
+          <speaker>Queen.</speaker>
+          <p xml:id="A07003-e103020">I hope these reasons may serve my princely son,</p>
+          <l xml:id="A07003-e103030">To have some care for fear of enemies:</l>
+        </sp>
+        <sp xml:id="A07003-e103040" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e103050">Well madam, I refer it to your majesty,</l>
+          <l xml:id="A07003-e103060">And to my nephew here the Duke of Guise:</l>
+          <l xml:id="A07003-e103070">What you determine, I will ratify. </l>
+        </sp>
+        <sp xml:id="A07003-e103080" who="A07003-queen">
+          <speaker>Queen.</speaker>
+          <p xml:id="A07003-e103090">Thanks to my princely son, then tell me Guise,</p>
+          <l xml:id="A07003-e103100">What order will you set down for the massacre? </l>
+        </sp>
+        <sp xml:id="A07003-e103110" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e103120">Thus madam. </l>
+          <l xml:id="A07003-e103130">They that shall be actors in this massacre,</l>
+          <l xml:id="A07003-e103140">Shall wear white crosses on their burgonets:</l>
+          <l xml:id="A07003-e103150">And tie white linen scarves about their arms. </l>
+          <l xml:id="A07003-e103160">He that wants these, and is suspected of heresy,</l>
+          <l xml:id="A07003-e103170">Shall die, be he King or emperor. </l>
+          <p xml:id="A07003-e103180">Then I'll have a peal of ordinance shot from the tower,</p>
+          <l xml:id="A07003-e103190">At which they all shall issue out and set the streets. </l>
+          <p xml:id="A07003-e103200"><pb facs="7"/>And then the watchword being given, a bell shall ring,</p>
+          <l xml:id="A07003-e103210">Which when they hear, they shall begin to kill:</l>
+          <l xml:id="A07003-e103220">And never cease until that bell shall cease,</l>
+          <l xml:id="A07003-e103230">Then breathe a while. </l>
+        </sp>
+        <stage xml:id="A07003-e103240">Enter the admiral's man.</stage>
+        <sp xml:id="A07003-e103250" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e103260">How now fellow, what news? </l>
+        </sp>
+        <sp xml:id="A07003-e103270" who="A07003-man">
+          <speaker>Man.</speaker>
+          <p xml:id="A07003-e103280">And it please your grace the lord high admiral,</p>
+          <l xml:id="A07003-e103290">Riding the streets was traitorously shot,</l>
+          <l xml:id="A07003-e103300">And most humbly entreats your majesty</l>
+          <l xml:id="A07003-e103310">To visit him sick in his bed. </l>
+        </sp>
+        <sp xml:id="A07003-e103320" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e103330">Messenger, tell him I will see him straight. </l>
+          <stage xml:id="A07003-e103340">Exit messenger.</stage>
+          <l xml:id="A07003-e103350">What shall we do now with the admiral? </l>
+        </sp>
+        <sp xml:id="A07003-e103360" who="A07003-queen">
+          <speaker>Qu.</speaker>
+          <l xml:id="A07003-e103370">Your majesty were best go visit him,</l>
+          <l xml:id="A07003-e103380">And make a show as if all were well. </l>
+        </sp>
+        <sp xml:id="A07003-e103390" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e103400">Content, I will go visit the admiral. </l>
+        </sp>
+        <sp xml:id="A07003-e103410" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e103420">And I will go take order for his death. </l>
+        </sp>
+        <stage xml:id="A07003-e103430">Exit Guise. </stage>
+        <stage xml:id="A07003-e103440">Enter the admiral in his bed.</stage>
+        <sp xml:id="A07003-e103450" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e103460">How fares it with my lord high admiral,</l>
+          <l xml:id="A07003-e103470">Hath he been hurt with villains in the street? </l>
+          <l xml:id="A07003-e103480">I vow and swear as I am King of France,</l>
+          <l xml:id="A07003-e103490">To find and to repay the man with death:</l>
+          <l xml:id="A07003-e103500">With death delayed and torments never used,</l>
+          <l xml:id="A07003-e103510">That durst presume for hope of any gain,</l>
+          <l xml:id="A07003-e103520">To hurt the noble man their sovereign loves. </l>
+        </sp>
+        <sp xml:id="A07003-e103530" who="A07003-admiral">
+          <speaker>Admiral</speaker>
+          <l xml:id="A07003-e103540">Ah my good lord, these are the Guisians,</l>
+          <l xml:id="A07003-e103550">That seek to massacre our guiltless lives. </l>
+        </sp>
+        <sp xml:id="A07003-e103560" who="A07003-king">
+          <pb facs="8"/>
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e103570">Assure yourself my good lord admiral,</l>
+          <l xml:id="A07003-e103580">I deeply sorrow for your treacherous wrong:</l>
+          <l xml:id="A07003-e103590">And that I am not more secure myself,</l>
+          <l xml:id="A07003-e103600">Than I am careful you should be preserved. </l>
+          <l xml:id="A07003-e103610">Cousin, take twenty of our strongest guard,</l>
+          <l xml:id="A07003-e103620">And under your direction see they keep,</l>
+          <l xml:id="A07003-e103630">All treacherous violence from our noble friend,</l>
+          <l xml:id="A07003-e103640">Repaying all attempts with present death,</l>
+          <l xml:id="A07003-e103650">Upon the cursed breakers of our peace. </l>
+          <l xml:id="A07003-e103660">And so be patient good lord admiral,</l>
+          <l xml:id="A07003-e103670">And every hour I will visit you. </l>
+        </sp>
+        <sp xml:id="A07003-e103680" who="A07003-admiral">
+          <speaker>Admiral</speaker>
+          <l xml:id="A07003-e103690">I humbly thank your royal majesty. </l>
+        </sp>
+        <stage xml:id="A07003-e103700">Exeunt omnes.</stage>
+        <stage xml:id="A07003-e103710">Enter Guise, Anjoy, Dumaine, Gonzago, Retes, Montsorrell, and soldiers to the massacre. </stage>
+        <sp xml:id="A07003-e103720" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e103730">Anjoy, Dumaine, Gonzago, Retes,</l>
+          <l xml:id="A07003-e103740">Swear by the argent crosses in your burgonets,</l>
+          <l xml:id="A07003-e103750">To kill all that you suspect of heresy. </l>
+        </sp>
+        <sp xml:id="A07003-e103760" who="A07003-dumaine">
+          <speaker>Dumain.</speaker>
+          <l xml:id="A07003-e103770">I swear by this to be unmerciful. </l>
+        </sp>
+        <sp xml:id="A07003-e103780" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <p xml:id="A07003-e103790">I am disguised and none knows who I am.</p>
+          <l xml:id="A07003-e103800">And therefore mean to murder all I meet. </l>
+        </sp>
+        <sp xml:id="A07003-e103810" who="A07003-gonzago">
+          <speaker>Gonza.</speaker>
+          <l xml:id="A07003-e103820">And so will I. </l>
+        </sp>
+        <sp xml:id="A07003-e103830" who="A07003-retes">
+          <speaker>Retes.</speaker>
+          <l xml:id="A07003-e103840">And I. </l>
+        </sp>
+        <sp xml:id="A07003-e103850" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e103860">Away then, break into the admiral's house,</l>
+        </sp>
+        <sp xml:id="A07003-e103870" who="A07003-retes">
+          <speaker>Retes.</speaker>
+          <l xml:id="A07003-e103880">I let the admiral be first dispatcher. </l>
+        </sp>
+        <sp xml:id="A07003-e103890" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e103900">The admiral chief standard bearer to the Lutherans,</p>
+          <l xml:id="A07003-e103910">Shall in the entrance of this massacre,</l>
+          <p xml:id="A07003-e103920"><pb facs="8"/>Be murdered in his bed. Gonzago conduct them thither,</p>
+          <l xml:id="A07003-e103930">And then beset his house that not a man may live. </l>
+        </sp>
+        <sp xml:id="A07003-e103940" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <p xml:id="A07003-e103950">That charge is mine, Swizzers keep you the streets,</p>
+          <l xml:id="A07003-e103960">And at each corner shall the King's guard stand. </l>
+        </sp>
+        <sp xml:id="A07003-e103970" who="A07003-gonzago">
+          <speaker>Gonzago.</speaker>
+          <l xml:id="A07003-e103980">Come sirs follow me. </l>
+        </sp>
+        <stage xml:id="A07003-e103990">Exit Gonzago and others with him.</stage>
+        <sp xml:id="A07003-e104000" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <p xml:id="A07003-e104010">Cousin, the captain of the admiral's guard,</p>
+          <l xml:id="A07003-e104020">Placed by my brother, will betray his lord:</l>
+          <l xml:id="A07003-e104030">Now Guise shall Catholics flourish once again,</l>
+          <l xml:id="A07003-e104040">The head being of, the members cannot stand. </l>
+        </sp>
+        <sp xml:id="A07003-e104050" who="A07003-retes">
+          <speaker>Retes.</speaker>
+          <p xml:id="A07003-e104060">But look my lord, there's some in the admiral's house.</p>
+        </sp>
+        <stage xml:id="A07003-e104070">Enter into the admiral's house, and he in his bed.</stage>
+        <sp xml:id="A07003-e104080" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <l xml:id="A07003-e104090">In lucky time, come let us keep this lane,</l>
+          <l xml:id="A07003-e104100">And slay his servants that shall issue out. </l>
+        </sp>
+        <sp xml:id="A07003-e104110" who="A07003-gonzago">
+          <speaker>Gonza,</speaker>
+          <l xml:id="A07003-e104120">Where is the admiral? </l>
+        </sp>
+        <sp xml:id="A07003-e104130" who="A07003-admiral">
+          <speaker>Admiral</speaker>
+          <l xml:id="A07003-e104140">O let me pray before I die. </l>
+        </sp>
+        <sp xml:id="A07003-e104150" who="A07003-gonzago">
+          <speaker>Gonza.</speaker>
+          <l xml:id="A07003-e104160">Then pray unto our lady, kiss this cross. </l>
+        </sp>
+        <stage xml:id="A07003-e104170">Stab him.</stage>
+        <sp xml:id="A07003-e104180" who="A07003-admiral">
+          <speaker>Admiral</speaker>
+          <l xml:id="A07003-e104190">O God forgive my sins. </l>
+        </sp>
+        <sp xml:id="A07003-e104200" who="A07003-guise">
+          <speaker>Guise,</speaker>
+          <l xml:id="A07003-e104210">Gonzago, what, is he dead? </l>
+        </sp>
+        <sp xml:id="A07003-e104220" who="A07003-gonzago">
+          <speaker>Gonza.</speaker>
+          <l xml:id="A07003-e104230">I my lord. </l>
+        </sp>
+        <sp xml:id="A07003-e104240" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e104250">Then throw him down. </l>
+        </sp>
+        <sp xml:id="A07003-e104260" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <p xml:id="A07003-e104270">Now cousin view him well, it may be it is some other, and he escaped.</p>
+        </sp>
+        <sp xml:id="A07003-e104280" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e104290">Cousin 'tis he, I know him by his look. </l>
+          <l xml:id="A07003-e104300"><pb facs="9"/>See where my soldier shot him through the arm. </l>
+          <l xml:id="A07003-e104310">He missed him near, but we have struck him now. </l>
+          <p xml:id="A07003-e104320">Ah base Chatillion and degenerate, chief standard bearer to the Lutherans,</p>
+          <l xml:id="A07003-e104330">Thus in despite of thy religion,</l>
+          <l xml:id="A07003-e104340">The Duke of Guise stamps on thy lifeless bulk. </l>
+        </sp>
+        <sp xml:id="A07003-e104350" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <p xml:id="A07003-e104360">A way with him, cut of his head and hands.</p>
+          <l xml:id="A07003-e104370">And send them for a present to the Pope:</l>
+          <l xml:id="A07003-e104380">And when this just revenge is finished,</l>
+          <l xml:id="A07003-e104390">Unto mount Falcon will we drag his corse:</l>
+          <l xml:id="A07003-e104400">And he that living hated so the cross,</l>
+          <l xml:id="A07003-e104410">Shall being dead, be hanged thereon in chains. </l>
+        </sp>
+        <sp xml:id="A07003-e104420" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e104430">Anjoy, Gonzago, Retes, if that you three,</l>
+          <l xml:id="A07003-e104440">Will be as resolute as I and Dumaine:</l>
+          <l xml:id="A07003-e104450">There shall not a Huguenot breath in France. </l>
+        </sp>
+        <sp xml:id="A07003-e104460" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <p xml:id="A07003-e104470">I swear by this cross, we'll not be partial,</p>
+          <l xml:id="A07003-e104480">But slay as many as we can come near. </l>
+        </sp>
+        <sp xml:id="A07003-e104490" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e104500">Mountsorrell, go shoot the ordinance of,</l>
+          <l xml:id="A07003-e104510">That they which have already set the street</l>
+          <l xml:id="A07003-e104520">May know their watchword, then toll the bell,</l>
+          <l xml:id="A07003-e104530">And so let's forward to the massacre. </l>
+        </sp>
+        <sp xml:id="A07003-e104540" who="A07003-mountsorrell">
+          <speaker>Mount.</speaker>
+          <l xml:id="A07003-e104550">I will my lord,</l>
+        </sp>
+        <stage xml:id="A07003-e104560">Exit. Mount. </stage>
+        <sp xml:id="A07003-e104570" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e104580">And now my lords let us closely to our business.</p>
+        </sp>
+        <sp xml:id="A07003-e104590" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <l xml:id="A07003-e104600">Anjoy will follow thee. </l>
+        </sp>
+        <sp xml:id="A07003-e104610" who="A07003-duchess">
+          <speaker>Duchess</speaker>
+          <p xml:id="A07003-e104620">And so will Dumaine. </p>
+        </sp>
+        <stage xml:id="A07003-e104630">The ordinance being shot of, the bell tolls.</stage>
+        <sp xml:id="A07003-e104640" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e104650">Come then, let's away. </l>
+        </sp>
+        <stage xml:id="A07003-e104660">Exeunt.</stage>
+        <stage xml:id="A07003-e104670"><pb facs="9"/>The Guise enters again, with all the rest, with their swords drawn, chasing the Protestants.</stage>
+        <sp xml:id="A07003-e104680" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e104690">Tue tue, tue, let none escape, murder the Huguenots.</p>
+        </sp>
+        <sp xml:id="A07003-e104700" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <l xml:id="A07003-e104710">Kill them, kill them. </l>
+        </sp>
+        <stage xml:id="A07003-e104720">Exeunt.</stage>
+        <stage xml:id="A07003-e104730">Enter Loreine running, the Guise and the rest pursuing him.</stage>
+        <sp xml:id="A07003-e104740" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e104750">Lorraine, Lorraine, follow Lorraine, sirrah,</l>
+          <p xml:id="A07003-e104760">Are you a preacher of these heresies?</p>
+        </sp>
+        <sp xml:id="A07003-e104770" who="A07003-loreine">
+          <speaker>Loreine</speaker>
+          <l xml:id="A07003-e104780">I am a preacher of the word of God,</l>
+          <l xml:id="A07003-e104790">And thou a traitor to thy soul and him. </l>
+        </sp>
+        <sp xml:id="A07003-e104800" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e104810">Dear beloved brother, thus 'tis written.</p>
+        </sp>
+        <stage xml:id="A07003-e104820">He stabs him.</stage>
+        <sp xml:id="A07003-e104830" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <p xml:id="A07003-e104840">Stay my lord, let me begin the psalm.</p>
+        </sp>
+        <sp xml:id="A07003-e104850" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e104860">Come drag him away and throw him in a ditch.</p>
+        </sp>
+        <stage xml:id="A07003-e104870">Exeunt.</stage>
+        <stage xml:id="A07003-e104880">Enter Mountsorrell and knocks at serouns door.</stage>
+        <sp xml:id="A07003-e104890" who="A07003-serouns_wife">
+          <speaker>Serouns wife.</speaker>
+          <l xml:id="A07003-e104900">Who is that which knocks there? </l>
+        </sp>
+        <sp xml:id="A07003-e104910" who="A07003-mountsorrell">
+          <speaker>Mount.</speaker>
+          <l xml:id="A07003-e104920">Mountsorrell from the Duke of Guise. </l>
+        </sp>
+        <sp xml:id="A07003-e104930" who="A07003-wife">
+          <speaker>Wife.</speaker>
+          <p xml:id="A07003-e104940">Husband come down, here's one would speak with you from the Duke of Guise. </p>
+        </sp>
+        <stage xml:id="A07003-e104950">Enter Seroune. </stage>
+        <sp xml:id="A07003-e104960" who="A07003-seroune">
+          <speaker>Seroune.</speaker>
+          <l xml:id="A07003-e104970">To speak with me from such a man as he? </l>
+        </sp>
+        <sp xml:id="A07003-e104980" who="A07003-mountsorrell">
+          <speaker>Mount.</speaker>
+          <p xml:id="A07003-e104990">Ay, ay, for this Seroune, and thou shalt hate.</p>
+        </sp>
+        <stage xml:id="A07003-e105000">Showing his dagger.</stage>
+        <sp xml:id="A07003-e105010" who="A07003-seroune">
+          <speaker>Seroune.</speaker>
+          <l xml:id="A07003-e105020">O let me pray before I take my death. </l>
+        </sp>
+        <sp xml:id="A07003-e105030" who="A07003-mountsorrell">
+          <speaker>Mount.</speaker>
+          <l xml:id="A07003-e105040">Despatch then quickly. </l>
+        </sp>
+        <sp xml:id="A07003-e105050" who="A07003-seroune">
+          <pb facs="10"/>
+          <speaker>Seronne.</speaker>
+          <l xml:id="A07003-e105060">O Christ my saviour. </l>
+        </sp>
+        <sp xml:id="A07003-e105070" who="A07003-mountsorrell">
+          <speaker>Mount.</speaker>
+          <p xml:id="A07003-e105080">Christ, villain, why dar'st thou presume to call on Christ, without the intercession of some saint? Sancta Jacobus he was my saint, pray to him.</p>
+        </sp>
+        <sp xml:id="A07003-e105090" who="A07003-seroune">
+          <speaker>Seronne.</speaker>
+          <l xml:id="A07003-e105100">O let me pray unto my god. </l>
+        </sp>
+        <sp xml:id="A07003-e105110" who="A07003-mountsorrell">
+          <speaker>Mount.</speaker>
+          <l xml:id="A07003-e105120">Then take this with you. </l>
+        </sp>
+        <stage xml:id="A07003-e105130">Stab him.</stage>
+        <stage xml:id="A07003-e105140">Exit.</stage>
+        <stage xml:id="A07003-e105150">Enter Ramus in his study.</stage>
+        <sp xml:id="A07003-e105160" who="A07003-ramus">
+          <speaker>Ramus.</speaker>
+          <p xml:id="A07003-e105170">What fearful cries comes from the river Seine,</p>
+          <l xml:id="A07003-e105180">That frights poor Ramus sitting at his book? </l>
+          <l xml:id="A07003-e105190">I fear the Guisians have passed the bridge,</l>
+          <l xml:id="A07003-e105200">And mean once more to menace me. </l>
+        </sp>
+        <stage xml:id="A07003-e105210">Enter Taleus. </stage>
+        <sp xml:id="A07003-e105220" who="A07003-taleus">
+          <speaker>Taleus.</speaker>
+          <l xml:id="A07003-e105230">Fly Ramus fly, if thou wilt save thy life,</l>
+        </sp>
+        <sp xml:id="A07003-e105240" who="A07003-ramus">
+          <speaker>Ramus.</speaker>
+          <l xml:id="A07003-e105250">Tell me Taleus, wherefore should I fly? </l>
+        </sp>
+        <sp xml:id="A07003-e105260" who="A07003-taleus">
+          <speaker>Taleus.</speaker>
+          <p xml:id="A07003-e105270">The Guisians are hard at thy door, and mean to murder us: hark, hark they come, I'll leap out at the window.</p>
+        </sp>
+        <sp xml:id="A07003-e105280" who="A07003-ramus">
+          <speaker>Ramus.</speaker>
+          <l xml:id="A07003-e105290">Sweet Taleus stay. </l>
+        </sp>
+        <stage xml:id="A07003-e105300">Enter Gonzago and Retes.</stage>
+        <sp xml:id="A07003-e105310" who="A07003-gonzago">
+          <speaker>Gonzago.</speaker>
+          <l xml:id="A07003-e105320">Who goes there? </l>
+        </sp>
+        <sp xml:id="A07003-e105330" who="A07003-retes">
+          <speaker>Retes.</speaker>
+          <l xml:id="A07003-e105350">'Tis Taleus, Ramas' bedfellow. </l>
+        </sp>
+        <sp xml:id="A07003-e105360" who="A07003-gonzago">
+          <pb facs="10"/>
+          <speaker>Gonza.</speaker>
+          <l xml:id="A07003-e105370">What art thou? </l>
+        </sp>
+        <sp xml:id="A07003-e105380" who="A07003-taleus">
+          <speaker>Tal.</speaker>
+          <l xml:id="A07003-e105390">I am as Ramus is, a christian. </l>
+        </sp>
+        <sp xml:id="A07003-e105400" who="A07003-retes">
+          <speaker>Ret.</speaker>
+          <l xml:id="A07003-e105410">O let him go, he is a Catholic. </l>
+        </sp>
+        <stage xml:id="A07003-e105420">Enter Ramus. </stage>
+        <stage xml:id="A07003-e105430">Exit Taleus. </stage>
+        <sp xml:id="A07003-e105440" who="A07003-gonzago">
+          <speaker>Gon.</speaker>
+          <p xml:id="A07003-e105450">Come Ramus, more gold, or thou shalt have the stab.</p>
+        </sp>
+        <sp xml:id="A07003-e105460" who="A07003-ramus">
+          <speaker>Ramus.</speaker>
+          <p xml:id="A07003-e105470">Alas I am a scholar, how should I have gold?</p>
+          <l xml:id="A07003-e105480">All that I have is but my stipend from the King,</l>
+          <l xml:id="A07003-e105490">Which is no sooner received but it is spent. </l>
+        </sp>
+        <stage xml:id="A07003-e105500">Enter the Guise and Anjoy.</stage>
+        <sp xml:id="A07003-e105510" who="A07003-anjou">
+          <speaker>Anioy.</speaker>
+          <l xml:id="A07003-e105520">Who have you there? </l>
+        </sp>
+        <sp xml:id="A07003-e105530" who="A07003-retes">
+          <speaker>Ret.</speaker>
+          <l xml:id="A07003-e105540">'Tis Ramus, the King's professor of logic. </l>
+        </sp>
+        <sp xml:id="A07003-e105550" who="A07003-guise">
+          <speaker>Guise,</speaker>
+          <l xml:id="A07003-e105560">Stab him. </l>
+        </sp>
+        <sp xml:id="A07003-e105570" who="A07003-ramus">
+          <speaker>Ramus.</speaker>
+          <p xml:id="A07003-e105580">O good my lord, wherein hath Ramus been so offencious.</p>
+        </sp>
+        <sp xml:id="A07003-e105590" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e105600">Marry sir, in having a smack in all,</l>
+          <l xml:id="A07003-e105610">And yet didst never sound any thing to the depth. </l>
+          <l xml:id="A07003-e105620">Was it not thou that scoff'dst the organon,</l>
+          <l xml:id="A07003-e105630">And said it was a heap of vanities? </l>
+          <l xml:id="A07003-e105640">He that will be a flat decotamest,</l>
+          <l xml:id="A07003-e105650">And seen in nothing but epetomies:</l>
+          <l xml:id="A07003-e105660">Is in your judgement thought a learned man. </l>
+          <l xml:id="A07003-e105670">And he forsooth must go and preach in Germany:</l>
+          <l xml:id="A07003-e105680">Excepting against doctors actions,</l>
+          <l xml:id="A07003-e105690">And ipsi dixi with this quiddity,</l>
+          <l xml:id="A07003-e105700">Argumentum testimonis est in arte fetialis. </l>
+          <l xml:id="A07003-e105710"><pb facs="11"/>To contradict which, I say Ramus shall die:</l>
+          <l xml:id="A07003-e105720">How answer you that? your nego argumentum cannot serve, sirrah, kill him. </l>
+        </sp>
+        <sp xml:id="A07003-e105730" who="A07003-ramus">
+          <speaker>Ra.</speaker>
+          <l xml:id="A07003-e105740">O good my lord, let me but speak a word. </l>
+        </sp>
+        <sp xml:id="A07003-e105750" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <p xml:id="A07003-e105760">Well, say on.</p>
+        </sp>
+        <sp xml:id="A07003-e105770" who="A07003-ramus">
+          <speaker>Ramus.</speaker>
+          <l xml:id="A07003-e105780">Not for my life do I desire this pause,</l>
+          <l xml:id="A07003-e105790">But in my latter hour to purge myself,</l>
+          <l xml:id="A07003-e105800">In that I know the things that I have written,</l>
+          <l xml:id="A07003-e105810">Which as I hear one Shekins takes it ill:</l>
+          <l xml:id="A07003-e105820">Because my places being but three, contains all his:</l>
+          <l xml:id="A07003-e105830">I knew the organon to be confused,</l>
+          <l xml:id="A07003-e105840">And I reduced it into better form. </l>
+          <l xml:id="A07003-e105850">And this for Aristotle will I say,</l>
+          <l xml:id="A07003-e105860">That he that despiseth him, can ne'er</l>
+          <l xml:id="A07003-e105870">Be good in logic or philosophy. </l>
+          <l xml:id="A07003-e105880">And that's because the blockish thorbonest,</l>
+          <l xml:id="A07003-e105890">Attribute as much unto their works,</l>
+          <l xml:id="A07003-e105900">As to the service of the eternal God. </l>
+        </sp>
+        <sp xml:id="A07003-e105910" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e105920">Why suffer you that peasant to declaim? </l>
+          <l xml:id="A07003-e105930">Stab him I say and send him to his friends in hell. </l>
+        </sp>
+        <sp xml:id="A07003-e105940" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <l xml:id="A07003-e105950">Ne'er was there collier's son so full of pride. </l>
+        </sp>
+        <stage xml:id="A07003-e105960">Kill him.</stage>
+        <sp xml:id="A07003-e105970" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e105980">My lord of Anjoy, there are a hundred Protestants. </l>
+          <l xml:id="A07003-e105990">Which we have chaste into the river Seine,</l>
+          <l xml:id="A07003-e106000">That swim about and so preserve their lives:</l>
+          <l xml:id="A07003-e106010">How may we do? I fear me they will live. </l>
+        </sp>
+        <sp xml:id="A07003-e106020" who="A07003-dumaine">
+          <speaker>Dumaine.</speaker>
+          <l xml:id="A07003-e106030">Go place some men upon the bridge,</l>
+          <l xml:id="A07003-e106040">With bows and darts to shoot at them they see,</l>
+          <l xml:id="A07003-e106050">And sink them in the river as they swim. </l>
+        </sp>
+        <sp xml:id="A07003-e106060" who="A07003-guise">
+          <pb facs="11"/>
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e106070">'Tis well advised Dumain, go see it straight be done.</p>
+          <l xml:id="A07003-e106080">And in the mean time my lord, could we devise,</l>
+          <l xml:id="A07003-e106090">To get those pedants from the King Navarre,</l>
+          <l xml:id="A07003-e106100">That are tutors to him and the prince of Condy. </l>
+        </sp>
+        <sp xml:id="A07003-e106110" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <l xml:id="A07003-e106120">For that let me alone, cousin stay you here,</l>
+          <l xml:id="A07003-e106130">And when you see me in, then follow hard. </l>
+          <stage xml:id="A07003-e106140">He knocketh, and enter the King of Navarre and prince of Condy, with their schoolmasters.</stage>
+          <l xml:id="A07003-e106150">How now my lords, how fare you? </l>
+        </sp>
+        <sp xml:id="A07003-e106160" who="A07003-navarre">
+          <speaker>Navar.</speaker>
+          <l xml:id="A07003-e106170">My lord, they say that all the Protestants are massacred. </l>
+        </sp>
+        <sp xml:id="A07003-e106180" who="A07003-anjou">
+          <speaker>Anjoy</speaker>
+          <l xml:id="A07003-e106190">Ay, so they are, but yet what remedy:</l>
+          <l xml:id="A07003-e106200">I have done what I could to stay this broil. </l>
+        </sp>
+        <sp xml:id="A07003-e106210" who="A07003-navarre">
+          <speaker>Navarr.</speaker>
+          <l xml:id="A07003-e106220">But yet my lord the report doth run,</l>
+          <l xml:id="A07003-e106230">That you were one that made this massacre. </l>
+        </sp>
+        <sp xml:id="A07003-e106240" who="A07003-anjou">
+          <speaker>An.</speaker>
+          <l xml:id="A07003-e106250">Who I, you are deceived, I rose but now. </l>
+        </sp>
+        <stage xml:id="A07003-e106260">Enter Guise. </stage>
+        <sp xml:id="A07003-e106270" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e106280">Murder the Huguenots, take those pedants hence. </l>
+        </sp>
+        <sp xml:id="A07003-e106290" who="A07003-navarre">
+          <speaker>Na.</speaker>
+          <l xml:id="A07003-e106300">Thou traitor Guise, lay of thy bloody hands. </l>
+        </sp>
+        <sp xml:id="A07003-e106310" who="A07003-condy">
+          <speaker>Condy.</speaker>
+          <l xml:id="A07003-e106320">Come let us go tell the King. </l>
+        </sp>
+        <stage xml:id="A07003-e106330">Exeunt.</stage>
+        <sp xml:id="A07003-e106340" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e106350">Come sirs, I'll whip you to death with my poniard's point.</p>
+        </sp>
+        <stage xml:id="A07003-e106360">He kills them.</stage>
+        <sp xml:id="A07003-e106370" who="A07003-anjou">
+          <speaker>An.</speaker>
+          <l xml:id="A07003-e106380">A way with them both. </l>
+        </sp>
+        <stage xml:id="A07003-e106390">Exit Anjoy.</stage>
+        <sp xml:id="A07003-e106400" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e106410">And now sirs for this night let our fury stay. </l>
+          <l xml:id="A07003-e106420">Yet will we not that the massacre shall end,</l>
+          <l xml:id="A07003-e106430">Gonzago post you to Orleans,</l>
+          <l xml:id="A07003-e106440">Retes to deep, Mountsorrell unto Rouen,</l>
+          <l xml:id="A07003-e106450">And spare not one that you suspect of heresy.</l>
+          <l xml:id="A07003-e106460">And now stay that bell that to the devil's matin's rings</l>
+          <l xml:id="A07003-e106470"><pb facs="12"/> now every man put of his burgonet,</l>
+          <l xml:id="A07003-e106480">And so convey him closely to his bed. </l>
+        </sp>
+        <stage xml:id="A07003-e106490">Exeunt.</stage>
+        <stage xml:id="A07003-e106500">Enter Anjoy, with two lords of Poland.</stage>
+        <sp xml:id="A07003-e106510" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <l xml:id="A07003-e106520">My lords of Poland I must needs confess,</l>
+          <l xml:id="A07003-e106530">The offer of your prince electors, far</l>
+          <l xml:id="A07003-e106540">Beyond the reach of my deserts:</l>
+          <l xml:id="A07003-e106550">For Poland is as I have been informed,</l>
+          <l xml:id="A07003-e106560">A martial people, worthy such a King,</l>
+          <l xml:id="A07003-e106570">As hath sufficient counsel in himself,</l>
+          <l xml:id="A07003-e106580">To lighten doubts and frustrate subtle foes. </l>
+          <l xml:id="A07003-e106590">And such a King whom practice long hath taught,</l>
+          <l xml:id="A07003-e106600">To please himself with manage of the wars. </l>
+          <l xml:id="A07003-e106610">The greatest wars within our Christian bounds,</l>
+          <l xml:id="A07003-e106620">I mean our wars against the Muscovites:</l>
+          <l xml:id="A07003-e106630">And on the other side against the Turk,</l>
+          <l xml:id="A07003-e106640">Rich princes both, and mighty emperors:</l>
+          <l xml:id="A07003-e106650">Yet by my brother Charles our King of France,</l>
+          <l xml:id="A07003-e106660">And by his grace's council it is thought,</l>
+          <l xml:id="A07003-e106670">That if I undertake to wear the crown</l>
+          <l xml:id="A07003-e106680">Of Poland, it may prejudice their hope</l>
+          <l xml:id="A07003-e106690">Of my inheritance to the crown of France:</l>
+          <l xml:id="A07003-e106700">For if th'almighty take my brother hence,</l>
+          <l xml:id="A07003-e106710">By due descent the regal seat is mine. </l>
+          <l xml:id="A07003-e106720">With Poland therefore must I covenant thus,</l>
+          <l xml:id="A07003-e106730">That if by death of Charles, the diadem</l>
+          <l xml:id="A07003-e106740">Of France be cast on me, then with your leaves</l>
+          <l xml:id="A07003-e106750">I may retire me to my native home. </l>
+          <l xml:id="A07003-e106760"><pb facs="12"/>If your commission serve to warrant this,</l>
+          <l xml:id="A07003-e106770">I thankfully shall undertake the charge</l>
+          <l xml:id="A07003-e106780">Of you and yours, and carefully maintain</l>
+          <l xml:id="A07003-e106790">The wealth and safety of your kingdom's right. </l>
+        </sp>
+        <sp xml:id="A07003-e106800" who="A07003-lord">
+          <speaker>Lord.</speaker>
+          <p xml:id="A07003-e106810">All this and more your highness shall command,</p>
+          <l xml:id="A07003-e106820">For Polands crown and kingly diadem. </l>
+        </sp>
+        <sp xml:id="A07003-e106830" who="A07003-anjou">
+          <speaker>Anjoy.</speaker>
+          <l xml:id="A07003-e106840">Then come my lords, let's go. </l>
+        </sp>
+        <stage xml:id="A07003-e106850">Exeunt.</stage>
+        <stage xml:id="A07003-e106860">Enter two with the admiral's body.</stage>
+        <sp xml:id="A07003-e106870" who="A07003-xxxx_1">
+          <speaker>1.</speaker>
+          <p xml:id="A07003-e106880">Now sirrah, what shall we do with the admiral?</p>
+        </sp>
+        <sp xml:id="A07003-e106890" who="A07003-xxxx_2">
+          <speaker>2.</speaker>
+          <l xml:id="A07003-e106900">Why let us burn him for an heretic. </l>
+        </sp>
+        <sp xml:id="A07003-e106910" who="A07003-xxxx_1">
+          <speaker>1.</speaker>
+          <p xml:id="A07003-e106920">O no, his body will infect the fire, and the fire the air, and so we shall be poisoned with him.</p>
+        </sp>
+        <sp xml:id="A07003-e106930" who="A07003-xxxx_2">
+          <speaker>2.</speaker>
+          <l xml:id="A07003-e106940">What shall we do then? </l>
+        </sp>
+        <sp xml:id="A07003-e106950" who="A07003-xxxx_1">
+          <speaker>1.</speaker>
+          <l xml:id="A07003-e106960">Let's throw him into the river. </l>
+        </sp>
+        <sp xml:id="A07003-e106970" who="A07003-xxxx_2">
+          <speaker>2.</speaker>
+          <p xml:id="A07003-e106980">O 'twill corrupt the water, and the water the fish, and by the fish ourselves when we eat them.</p>
+        </sp>
+        <sp xml:id="A07003-e106990" who="A07003-xxxx_1">
+          <speaker>1.</speaker>
+          <l xml:id="A07003-e107000">Then throw him into the ditch. </l>
+        </sp>
+        <sp xml:id="A07003-e107010" who="A07003-xxxx_2">
+          <speaker>2.</speaker>
+          <p xml:id="A07003-e107020">No, no, to decide all doubts, be ruled by me, let's hang him here upon this tree.</p>
+        </sp>
+        <sp xml:id="A07003-e107030" who="A07003-xxxx_1">
+          <speaker>1,</speaker>
+          <l xml:id="A07003-e107040">Agreed. </l>
+        </sp>
+        <stage xml:id="A07003-e107050">They hang him.</stage>
+        <stage xml:id="A07003-e107060">Enter the Duke of Guise, and Queen mother, and the Cardinal. </stage>
+        <sp xml:id="A07003-e107070" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e107080">Now madam, how like you our lusty admiral?</p>
+        </sp>
+        <sp xml:id="A07003-e107090" who="A07003-queen">
+          <pb facs="13"/>
+          <speaker>Queen.</speaker>
+          <p xml:id="A07003-e107100">Believe me Guise he becomes the place so well,</p>
+          <l xml:id="A07003-e107110">As I could long ere this have wished him there. </l>
+          <l xml:id="A07003-e107120">But come let's walk aside, there's not very sweet. </l>
+        </sp>
+        <sp xml:id="A07003-e107130" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e107140">No by my faith madam. </l>
+          <l xml:id="A07003-e107150">Sirs, take him away and throw him in some ditch. </l>
+          <stage xml:id="A07003-e107160">Carry away the dead body.</stage>
+          <l xml:id="A07003-e107170">And now madam as I understand,</l>
+          <l xml:id="A07003-e107180">There are a hundred Huguenots and more,</l>
+          <l xml:id="A07003-e107190">Which in the woods do hold their synagogue:</l>
+          <l xml:id="A07003-e107200">And daily meet about this time of day,</l>
+          <l xml:id="A07003-e107210">And thither will I to put them to the sword. </l>
+        </sp>
+        <sp xml:id="A07003-e107220" who="A07003-queen">
+          <speaker>Qu.</speaker>
+          <l xml:id="A07003-e107230">Do so sweet Guise, let us delay no time,</l>
+          <l xml:id="A07003-e107240">For if these stragglers gather head again,</l>
+          <p xml:id="A07003-e107250">And disperse themselves throughout the realm of France,</p>
+          <l xml:id="A07003-e107260">It will be hard for us to work their deaths. </l>
+          <l xml:id="A07003-e107270">Be gone, delay no time sweet Guise. </l>
+        </sp>
+        <sp xml:id="A07003-e107280" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e107290">Madam, I go as whirlwind's rage before a storm,</p>
+        </sp>
+        <stage xml:id="A07003-e107300">Exit Guise. </stage>
+        <sp xml:id="A07003-e107310" who="A07003-queen">
+          <speaker>Qu.</speaker>
+          <l xml:id="A07003-e107320">My lord of Lorraine have you marked of late,</l>
+          <l xml:id="A07003-e107330">How Charles our son begins for to lament:</l>
+          <l xml:id="A07003-e107340">For the late night's work which my lord of Guise</l>
+          <l xml:id="A07003-e107350">Did make in Paris amongst the Hugonites? </l>
+        </sp>
+        <sp xml:id="A07003-e107360" who="A07003-cardinal">
+          <speaker>Cardinal</speaker>
+          <l xml:id="A07003-e107370">Madam, I have heard him solemnly vow,</l>
+          <l xml:id="A07003-e107380">With the rebellious King of Navarre,</l>
+          <l xml:id="A07003-e107390">For to revenge their deaths upon us all. </l>
+        </sp>
+        <sp xml:id="A07003-e107400" who="A07003-queen">
+          <speaker>Qu.</speaker>
+          <l xml:id="A07003-e107410">Ay, but my lord let me alone for that,</l>
+          <l xml:id="A07003-e107420">For Katherine must have her will in France:</l>
+          <l xml:id="A07003-e107430">As I do live, so surely shall he die. </l>
+          <l xml:id="A07003-e107440"><pb facs="13"/>And Henry then shall wear the diadem. </l>
+          <l xml:id="A07003-e107450">And if he grudge or cross his mother's will,</l>
+          <l xml:id="A07003-e107460">I'll disinherit him and all the rest:</l>
+          <l xml:id="A07003-e107470">For I'll rule France, but they shall wear the crown:</l>
+          <l xml:id="A07003-e107480">And if they storm, I then may pull them down. </l>
+          <l xml:id="A07003-e107490">Come my lord let's us go. </l>
+        </sp>
+        <stage xml:id="A07003-e107500">Exeunt.</stage>
+        <stage xml:id="A07003-e107510">Enter five or six Protestants with books, and kneel together.</stage>
+        <stage xml:id="A07003-e107520">Enter also the Guise. </stage>
+        <sp xml:id="A07003-e107530" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e107540">Down with the Hugonites, murder them. </l>
+        </sp>
+        <sp xml:id="A07003-e107550" who="A07003-protestant">
+          <speaker>Protestant.</speaker>
+          <p xml:id="A07003-e107560">O mounser de Guise, hear me but speak.</p>
+        </sp>
+        <sp xml:id="A07003-e107570" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e107580">No villain, that tongue of thine,</l>
+          <l xml:id="A07003-e107590">That hath blasphemed the holy church of Rome,</l>
+          <l xml:id="A07003-e107600">Shall drive no plaints into the Guise's ears,</l>
+          <l xml:id="A07003-e107610">To make the justice of my heart relent:</l>
+          <l xml:id="A07003-e107620">Tue, tue, tue, let none escape:</l>
+          <stage xml:id="A07003-e107630">Kill them.</stage>
+          <l xml:id="A07003-e107640">So, drag them away. </l>
+        </sp>
+        <stage xml:id="A07003-e107650">Exeunt.</stage>
+        <stage xml:id="A07003-e107660">Enter the King of France, Navar and Epernoune staying him: enter Qu. mother, and the Cardinal. </stage>
+        <sp xml:id="A07003-e107670" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e107680">O let me stay and rest me here a while,</l>
+          <l xml:id="A07003-e107690">A griping pain hath ceased upon my heart:</l>
+          <l xml:id="A07003-e107700">A sudden pang, the messenger of death. </l>
+        </sp>
+        <sp xml:id="A07003-e107710" who="A07003-queen">
+          <speaker>Qu.</speaker>
+          <l xml:id="A07003-e107720">O say not so, thou killest thy mother's heart. </l>
+        </sp>
+        <sp xml:id="A07003-e107730" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e107740">I must say so, pain forceth me complain. </l>
+        </sp>
+        <sp xml:id="A07003-e107750" who="A07003-navarre">
+          <speaker>Na.</speaker>
+          <p xml:id="A07003-e107760">Comfort yourself my lord and have no doubt,</p>
+          <l xml:id="A07003-e107770">But God will sure restore you to your health. </l>
+        </sp>
+        <sp xml:id="A07003-e107780" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e107790">O no, my loving brother of Navarre. </l>
+          <l xml:id="A07003-e107800"><pb facs="14"/>I have deserved a scourge I must confess,</l>
+          <l xml:id="A07003-e107810">Yet is there patience of another sort,</l>
+          <l xml:id="A07003-e107820">Than to misdo the welfare of their King:</l>
+          <p xml:id="A07003-e107830">God grant my nearest friends may prove no worse.</p>
+          <l xml:id="A07003-e107840">O hold me up, my sight begins to fail,</l>
+          <p xml:id="A07003-e107850">My sinews shrink, my brains turn upside down,</p>
+          <l xml:id="A07003-e107860">My heart doth break, I faint and die. </l>
+        </sp>
+        <stage xml:id="A07003-e107870">He dies.</stage>
+        <sp xml:id="A07003-e107880" who="A07003-queen">
+          <speaker>Queen,</speaker>
+          <p xml:id="A07003-e107890">What art thou dead, sweet son speak to thy mother,</p>
+          <l xml:id="A07003-e107900">Oh no, his soul is fled from out his breast,</l>
+          <l xml:id="A07003-e107910">And he nor hears, nor sees us what we do:</l>
+          <l xml:id="A07003-e107920">My lords, what resteth there now for to be done? </l>
+          <l xml:id="A07003-e107930">But that we presently dispatch ambassadors</l>
+          <l xml:id="A07003-e107940">To Poland, to call Henry back again,</l>
+          <l xml:id="A07003-e107950">To wear his brother's crown and dignity. </l>
+          <l xml:id="A07003-e107960">Epernoune, go see it presently be done,</l>
+          <l xml:id="A07003-e107970">And bid him come without delay to us. </l>
+        </sp>
+        <sp xml:id="A07003-e107980" who="A07003-epernon">
+          <speaker>Eper.</speaker>
+          <l xml:id="A07003-e107990">Madam, I will. </l>
+        </sp>
+        <stage xml:id="A07003-e108000">Exit Eper.</stage>
+        <sp xml:id="A07003-e108010" who="A07003-queen">
+          <speaker>Queen.</speaker>
+          <p xml:id="A07003-e108020">And now my lords after these funerals be done,</p>
+          <l xml:id="A07003-e108030">We will with all the speed we can provide,</l>
+          <l xml:id="A07003-e108040">For Henry's coronation from Polony:</l>
+          <l xml:id="A07003-e108050">Come let us take his body hence. </l>
+        </sp>
+        <stage xml:id="A07003-e108060">All go out, but Navarre and Pleshe. </stage>
+        <sp xml:id="A07003-e108070" who="A07003-navarre">
+          <speaker>Navar,</speaker>
+          <p xml:id="A07003-e108080">And now Navarre whilst that these broils do last,</p>
+          <l xml:id="A07003-e108090">My opportunity may serve me fit,</l>
+          <l xml:id="A07003-e108100">To steal from France, and hie me to my home. </l>
+          <l xml:id="A07003-e108110"><pb facs="14"/>For here's no safety in the realm for me,</l>
+          <l xml:id="A07003-e108120">And now that Henry is called from Polland,</l>
+          <l xml:id="A07003-e108130">It is my due by just succession:</l>
+          <l xml:id="A07003-e108140">And therefore as speedily as I can perform,</l>
+          <l xml:id="A07003-e108150">I'll muster up an army secretly,</l>
+          <l xml:id="A07003-e108160">For fear that Guise joined with the K. of Spain,</l>
+          <l xml:id="A07003-e108170">Might seem to cross me in mine enterprise. </l>
+          <l xml:id="A07003-e108180">But God that always doth defend the right,</l>
+          <l xml:id="A07003-e108190">Will show his mercy and preserve us still. </l>
+        </sp>
+        <sp xml:id="A07003-e108200" who="A07003-pleshe">
+          <speaker>Pleshe.</speaker>
+          <l xml:id="A07003-e108210">The virtues of our true religion,</l>
+          <l xml:id="A07003-e108220">Cannot but march with many graces more:</l>
+          <l xml:id="A07003-e108230">Whose army shall discomfort all your foes,</l>
+          <l xml:id="A07003-e108240">And at the length in Pampelonia crown,</l>
+          <l xml:id="A07003-e108250">In spite of Spain and all the popish power,</l>
+          <l xml:id="A07003-e108260">That holds it from your highness wrongfully:</l>
+          <l xml:id="A07003-e108270">Your majesty her rightful lord and sovereign. </l>
+        </sp>
+        <sp xml:id="A07003-e108280" who="A07003-navarre">
+          <speaker>Navar.</speaker>
+          <p xml:id="A07003-e108290">Truth Pleshe, and God so prosper me in all,</p>
+          <l xml:id="A07003-e108300">As I intend to labour for the truth,</l>
+          <l xml:id="A07003-e108310">And true profession of his holy word:</l>
+          <l xml:id="A07003-e108320">Come Pleshe, let's away whilst time doth serve,</l>
+        </sp>
+        <stage xml:id="A07003-e108330">Ezeunt.</stage>
+        <stage xml:id="A07003-e108340">Sound trumpets within, and then all cry vive la roy two or three times.</stage>
+        <stage xml:id="A07003-e108350">Enter Henry crowned: Queen, Cardinal, Duke of Guise, epernoone, the Kings Mintons, with others, and the cutpurse.</stage>
+        <sp xml:id="A07003-e108360" who="A07003-all">
+          <speaker>All.</speaker>
+          <l xml:id="A07003-e108370">Vive la roy, vive la roy,</l>
+        </sp>
+        <stage xml:id="A07003-e108380">Sound trumpets.</stage>
+        <sp xml:id="A07003-e108390" who="A07003-queen">
+          <speaker>Qu.</speaker>
+          <l xml:id="A07003-e108400">Welcome from Poland Henry once again,</l>
+          <l xml:id="A07003-e108410"><pb facs="15"/> welcome to France thy father's royal seat,</l>
+          <l xml:id="A07003-e108420">Here hast thou a country void of fears,</l>
+          <l xml:id="A07003-e108430">A warlike people to maintain thy right,</l>
+          <l xml:id="A07003-e108440">A watchful senate for ordaining laws,</l>
+          <l xml:id="A07003-e108450">A loving mother to preserve thy state,</l>
+          <l xml:id="A07003-e108460">And all things that a King may wish besides:</l>
+          <l xml:id="A07003-e108470">All this and more hath Henry with his crown. </l>
+        </sp>
+        <sp xml:id="A07003-e108480" who="A07003-cardinal">
+          <speaker>Cardinal</speaker>
+          <l xml:id="A07003-e108490">And long may Henry enjoy all this and more,</l>
+        </sp>
+        <sp xml:id="A07003-e108500" who="A07003-all">
+          <speaker>All.</speaker>
+          <l xml:id="A07003-e108510">Vive la roy, vive la roy. </l>
+        </sp>
+        <stage xml:id="A07003-e108520">Sound trumpets.</stage>
+        <sp xml:id="A07003-e108530" who="A07003-henry3">
+          <speaker>Henry,</speaker>
+          <p xml:id="A07003-e108540">Thanks to you all. The guider of all crowns,</p>
+          <l xml:id="A07003-e108550">Grant that our deeds may well deserve your loves:</l>
+          <l xml:id="A07003-e108560">And so they shall, if fortune speed my will,</l>
+          <l xml:id="A07003-e108570">And yield your thoughts to height of my deserts. </l>
+          <l xml:id="A07003-e108580">What says our minions, think they Henry's heart</l>
+          <l xml:id="A07003-e108590">Will not both harbour love and majesty? </l>
+          <l xml:id="A07003-e108600">Put of that fear, they are already joined,</l>
+          <l xml:id="A07003-e108610">No person, place, or time, or circumstance,</l>
+          <l xml:id="A07003-e108620">Shall slack my love's affection from his bent,</l>
+          <l xml:id="A07003-e108640">As now you are, so shall you still persist,</l>
+          <l xml:id="A07003-e108650">Removeless from the favours of your King. </l>
+        </sp>
+        <sp xml:id="A07003-e108660" who="A07003-mugeroun">
+          <speaker>Mugeroun.</speaker>
+          <p xml:id="A07003-e108670">We know that noble minds change not their thoughts</p>
+          <l xml:id="A07003-e108680">For wearing of a crown: in that your grace,</l>
+          <l xml:id="A07003-e108690">Hath worn the Poland diadem, before</l>
+          <l xml:id="A07003-e108700">You were invested in the crown of France:</l>
+        </sp>
+        <sp xml:id="A07003-e108710" who="A07003-henry3">
+          <speaker>Henry.</speaker>
+          <l xml:id="A07003-e108720">I tell thee Mugeroun we will be friends,</l>
+          <l xml:id="A07003-e108730">And fellows to, whatever storms arise. </l>
+        </sp>
+        <sp xml:id="A07003-e108740" who="A07003-mugeroun">
+          <speaker>Mugeroun.</speaker>
+          <p xml:id="A07003-e108750">Then may it please your majesty to give me leave,</p>
+          <l xml:id="A07003-e108760"><pb facs="15"/>To punish those that do profane this holy feast. </l>
+        </sp>
+        <stage xml:id="A07003-e108770">He cuts of the cutpurse ear, for cutting of the gold buttons off his cloak.</stage>
+        <sp xml:id="A07003-e108780" who="A07003-henry3">
+          <speaker>Henry.</speaker>
+          <l xml:id="A07003-e108790">How meanst thou that? </l>
+        </sp>
+        <sp xml:id="A07003-e108800" who="A07003-cutpurse">
+          <speaker>Cutpurse.</speaker>
+          <l xml:id="A07003-e108810">O lord, mine ear. </l>
+        </sp>
+        <sp xml:id="A07003-e108820" who="A07003-mugeroun">
+          <speaker>Mugeroun.</speaker>
+          <p xml:id="A07003-e108830">Come sir, give me my buttons and here's your ear.</p>
+        </sp>
+        <sp xml:id="A07003-e108840" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e108850">Sirrah, take him away. </l>
+        </sp>
+        <sp xml:id="A07003-e108860" who="A07003-henry3">
+          <speaker>Henry.</speaker>
+          <p xml:id="A07003-e108870">Hands of good fellow, I will be his bail</p>
+          <l xml:id="A07003-e108880">For this offence: go sirrah, work no more,</l>
+          <l xml:id="A07003-e108890">Till this our coronation day be passed:</l>
+          <l xml:id="A07003-e108900">And now our solemn rites of coronation done,</l>
+          <l xml:id="A07003-e108910">What now remains, but for a while to feast,</l>
+          <l xml:id="A07003-e108920">And spend some days in barriers, tourney, tilt,</l>
+          <l xml:id="A07003-e108930">And like disports, such as do fit the court? </l>
+          <l xml:id="A07003-e108940">Let's go my lords, our dinner stays for us. </l>
+        </sp>
+        <stage xml:id="A07003-e108950">Go out all, but the Queen and the Cardinal. </stage>
+        <sp xml:id="A07003-e108960" who="A07003-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A07003-e108970">My lord Cardinal of Lorraine, tell me,</l>
+          <l xml:id="A07003-e108980">How likes your grace my son's pleasantness? </l>
+          <l xml:id="A07003-e108990">His mind you see runs on his minions,</l>
+          <l xml:id="A07003-e109000">And all his heaven is to delight himself:</l>
+          <l xml:id="A07003-e109010">And whilst he sleeps securely thus in ease,</l>
+          <l xml:id="A07003-e109020">Thy brother Guise and we may now provide,</l>
+          <l xml:id="A07003-e109030">To plant ourselves with such authority,</l>
+          <l xml:id="A07003-e109040">As not a man may live without our leaves. </l>
+          <l xml:id="A07003-e109050">Then shall the catholic faith of Rome,</l>
+          <l xml:id="A07003-e109060">Flourish in France, and none deny the same,</l>
+        </sp>
+        <sp xml:id="A07003-e109070" who="A07003-cardinal">
+          <speaker>Cardinal</speaker>
+          <l xml:id="A07003-e109080">Madam, as in secrecy I was told,</l>
+          <l xml:id="A07003-e109090"><pb facs="16"/> my brother Guise hath gathered a power of men,</l>
+          <l xml:id="A07003-e109100">Which as he saith, to kill the Puritans,</l>
+          <l xml:id="A07003-e109110">But 'tis the house of Burbon that he means. </l>
+          <l xml:id="A07003-e109120">Now madam must you insinuate with the King,</l>
+          <l xml:id="A07003-e109130">And tell him that 'tis for his country's good,</l>
+          <l xml:id="A07003-e109140">And common profit of religion. </l>
+        </sp>
+        <sp xml:id="A07003-e109150" who="A07003-queen">
+          <speaker>Qu.</speaker>
+          <l xml:id="A07003-e109160">Tush man, let me alone with him,</l>
+          <l xml:id="A07003-e109170">To work the way to bring this thing to pass:</l>
+          <l xml:id="A07003-e109180">And if he do deny what I do say,</l>
+          <l xml:id="A07003-e109190">I'll dispatch him with his brother presently. </l>
+          <l xml:id="A07003-e109200">And then shall mounser wear the diadem:</l>
+          <l xml:id="A07003-e109210">Tush, all shall die unless I have my will. </l>
+          <l xml:id="A07003-e109220">For while she lives Katherine will be Queen. </l>
+          <l xml:id="A07003-e109230">Come my lords, let us go seek the Guise,</l>
+          <l xml:id="A07003-e109240">And then determine of this enterprise. </l>
+        </sp>
+        <stage xml:id="A07003-e109250">Exeunt.</stage>
+        <stage xml:id="A07003-e109260">Enter the Duchess of Guise, and her maid,</stage>
+        <sp xml:id="A07003-e109270" who="A07003-duchess">
+          <speaker>Duchess</speaker>
+          <l xml:id="A07003-e109280">Go fetch me pen and ink. </l>
+        </sp>
+        <sp xml:id="A07003-e109290" who="A07003-maid">
+          <speaker>Maid.</speaker>
+          <l xml:id="A07003-e109300">I will madam. </l>
+        </sp>
+        <stage xml:id="A07003-e109310">Exit maid. </stage>
+        <sp xml:id="A07003-e109320" who="A07003-duchess">
+          <speaker>Duchess</speaker>
+          <l xml:id="A07003-e109330">That I may write unto my dearest lord. </l>
+          <l xml:id="A07003-e109340">Sweet Mugeroune, 'tis he that hath my heart,</l>
+          <l xml:id="A07003-e109350">And Guise usurps it, cause I am his wife:</l>
+          <l xml:id="A07003-e109360">Fain would I find some means to speak with him</l>
+          <l xml:id="A07003-e109370">But cannot, and therefore am enforced to write,</l>
+          <l xml:id="A07003-e109380">That he may come and meet me in some place,</l>
+          <l xml:id="A07003-e109390">Where we may one enjoy the others sight. </l>
+          <stage xml:id="A07003-e109400">Enter the maid with ink and paper.</stage>
+          <l xml:id="A07003-e109410">So, set it down and leave me to myself. </l>
+          <l xml:id="A07003-e109420">She writes. O would to God this quill that here doth write,</l>
+          <l xml:id="A07003-e109430">Had late been plucked from out fair Cupid's wing:</l>
+          <l xml:id="A07003-e109440"><pb facs="16"/> that it might print these lines within his heart. </l>
+        </sp>
+        <stage xml:id="A07003-e109450">Enter the Guise. </stage>
+        <sp xml:id="A07003-e109460" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e109470">What, all alone my love, and writing too:</l>
+          <l xml:id="A07003-e109480">I prithee say to whom thou writes? </l>
+        </sp>
+        <sp xml:id="A07003-e109490" who="A07003-duchess">
+          <speaker>Duchess</speaker>
+          <l xml:id="A07003-e109500">To such a one my lord, as when she reads my lines, will laugh I fear me at their good array. </l>
+        </sp>
+        <sp xml:id="A07003-e109510" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e109520">I pray thee let me see. </l>
+        </sp>
+        <sp xml:id="A07003-e109530" who="A07003-duchess">
+          <speaker>Duchess</speaker>
+          <l xml:id="A07003-e109540">O no my lord, a woman only must partake the secrets of my heart. </l>
+        </sp>
+        <sp xml:id="A07003-e109550" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e109560">But madam I must see. </l>
+          <stage xml:id="A07003-e109570">He takes it.</stage>
+          <l xml:id="A07003-e109580">Are these your secrets that no man must know? </l>
+        </sp>
+        <sp xml:id="A07003-e109590" who="A07003-duchess">
+          <speaker>Duchess</speaker>
+          <l xml:id="A07003-e109600">O pardon me my lord. </l>
+        </sp>
+        <sp xml:id="A07003-e109610" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e109620">Thou trothless and unjust, what lines are these?</p>
+          <l xml:id="A07003-e109630">Am I grown old, or is thy lust grown young,</l>
+          <l xml:id="A07003-e109640">Or hath my love been so obscured in thee,</l>
+          <l xml:id="A07003-e109660">That others needs to comment on my text? </l>
+          <l xml:id="A07003-e109670">Be my love forgotten which held thee dear? </l>
+          <l xml:id="A07003-e109680">Ay, dearer than the apple of mine eye? </l>
+          <l xml:id="A07003-e109690">Is Guise's glory but a cloudy mist,</l>
+          <l xml:id="A07003-e109700">In sight and judgement of thy lustful eye? </l>
+          <l xml:id="A07003-e109710">Mor du, wert not the fruit within thy womb,</l>
+          <l xml:id="A07003-e109730">Of whose increase I set some longing hope:</l>
+          <l xml:id="A07003-e109740">This wrathful hand should strike thee to the heart. </l>
+          <l xml:id="A07003-e109750">Hence strumpet, hide thy head for shame,</l>
+          <l xml:id="A07003-e109760">And fly my presence if thou look to live. </l>
+          <stage xml:id="A07003-e109770">Exit.</stage>
+          <l xml:id="A07003-e109780">O wicked sex, perjured and unjust,</l>
+          <l xml:id="A07003-e109790">Now do I see that from the very first,</l>
+          <l xml:id="A07003-e109800"><pb facs="17"/> her eyes and looks sowed seeds of perjury,</l>
+          <l xml:id="A07003-e109810">But villain he to whom these lines should go,</l>
+          <l xml:id="A07003-e109820">Shall buy her love even with his dearest blood. </l>
+        </sp>
+        <stage xml:id="A07003-e109830">Exit.</stage>
+        <stage xml:id="A07003-e109840">Enter the King of Navarre, Pleshe and Bartus, and their train, with drums and trumpets.</stage>
+        <sp xml:id="A07003-e109850" who="A07003-navarre">
+          <speaker>Navarre.</speaker>
+          <l xml:id="A07003-e109860">My lords, sith in a quarrel just and right,</l>
+          <l xml:id="A07003-e109870">We undertake to manage these our wars:</l>
+          <l xml:id="A07003-e109880">Against the proud disturbers of the faith,</l>
+          <l xml:id="A07003-e109890">I mean the Guise, the Pope, and King of Spain,</l>
+          <l xml:id="A07003-e109900">Who set themselves to tread us under foot,</l>
+          <l xml:id="A07003-e109910">And rent our true religion from this land. </l>
+          <l xml:id="A07003-e109920">But for you know our quarrel is no more,</l>
+          <l xml:id="A07003-e109930">But to defend their strange inventions,</l>
+          <l xml:id="A07003-e109940">Which they will put us to with sword and fire:</l>
+          <l xml:id="A07003-e109950">We must with resolute minds resolve to fight,</l>
+          <l xml:id="A07003-e109960">In honour of our god and countries good. </l>
+          <l xml:id="A07003-e109970">Spain is the counsel chamber of the Pope,</l>
+          <p xml:id="A07003-e109980">Spain is the place where he makes peace and war,</p>
+          <l xml:id="A07003-e109990">And Guise for Spain hath now incensed the King,</l>
+          <l xml:id="A07003-e110000">To send his power to meet us in the field. </l>
+        </sp>
+        <sp xml:id="A07003-e110010" who="A07003-bartus">
+          <speaker>Bartus.</speaker>
+          <p xml:id="A07003-e110020">Then in this bloody brunt they may behold,</p>
+          <p xml:id="A07003-e110030">The sole endeavour of your princely care,</p>
+          <l xml:id="A07003-e110040">To plant the true succession of the faith,</l>
+          <l xml:id="A07003-e110050">In spite of Spain and all his heresies. </l>
+        </sp>
+        <sp xml:id="A07003-e110060" who="A07003-navarre">
+          <pb facs="17"/>
+          <speaker>Navarre.</speaker>
+          <p xml:id="A07003-e110070">The power of vengeance now encamps itself,</p>
+          <l xml:id="A07003-e110080">Upon the haughty mountains of my breast:</l>
+          <l xml:id="A07003-e110090">Plays with her gory colours of revenge,</l>
+          <l xml:id="A07003-e110100">Whom I respect as leaves of boasting green,</l>
+          <l xml:id="A07003-e110110">That change their colour when the winter comes,</l>
+          <l xml:id="A07003-e110120">When I shall vaunt as victor in revenge. </l>
+          <stage xml:id="A07003-e110130">Enter a messenger.</stage>
+          <l xml:id="A07003-e110140">How now sirrah, what news? </l>
+        </sp>
+        <sp xml:id="A07003-e110150" who="A07003-messenger">
+          <speaker>Messenger</speaker>
+          <p xml:id="A07003-e110160">My lord, as by our scouts we understand,</p>
+          <l xml:id="A07003-e110170">A mighty army comes from France with speed:</l>
+          <l xml:id="A07003-e110180">Which are already mustered in the land,</l>
+          <l xml:id="A07003-e110190">And means to meet your highness in the field. </l>
+        </sp>
+        <sp xml:id="A07003-e110200" who="A07003-navarre">
+          <speaker>Na.</speaker>
+          <l xml:id="A07003-e110210">In god's name, let them come. </l>
+          <l xml:id="A07003-e110220">This is the Guise that hath incensed the King,</l>
+          <l xml:id="A07003-e110230">To levy arms and make these civil broiles</l>
+          <l xml:id="A07003-e110240">But canst thou tell who is their general? </l>
+        </sp>
+        <sp xml:id="A07003-e110250" who="A07003-messenger">
+          <speaker>Messenger</speaker>
+          <p xml:id="A07003-e110260">Not yet my lord, for thereon do they stay:</p>
+          <l xml:id="A07003-e110270">But as report doth go, the Duke of Joyeux</l>
+          <l xml:id="A07003-e110280">Hath made great suit unto the King therefore. </l>
+        </sp>
+        <sp xml:id="A07003-e110290" who="A07003-navarre">
+          <speaker>Na.</speaker>
+          <l xml:id="A07003-e110300">It will not countervail his pains I hope,</l>
+          <l xml:id="A07003-e110310">I would the Guise in his steed might have come,</l>
+          <l xml:id="A07003-e110320">But he doth lurk within his drowsy couch,</l>
+          <l xml:id="A07003-e110330">And makes his footstool on security:</l>
+          <l xml:id="A07003-e110340">So he be safe he cares not what becomes,</l>
+          <l xml:id="A07003-e110350">Of King or country, no not for them both. </l>
+          <l xml:id="A07003-e110360">But come my lords, let us away with speed,</l>
+          <l xml:id="A07003-e110370"><pb facs="18"/> and place ourselves in order for the fight. </l>
+        </sp>
+        <stage xml:id="A07003-e110380">Exeunt.</stage>
+        <stage xml:id="A07003-e110390">Enter the King of France, Duke of Guise, Epernoune, and Duke Joyeux. </stage>
+        <sp xml:id="A07003-e110400" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e110410">My sweet Joyeux, I make thee general,</l>
+          <l xml:id="A07003-e110420">Of all my army now in readiness:</l>
+          <l xml:id="A07003-e110430">To march against the rebellious King Navarre. </l>
+          <l xml:id="A07003-e110440">At thy request I am content thou go,</l>
+          <l xml:id="A07003-e110450">Although my love to thee can hardly suffer,</l>
+          <l xml:id="A07003-e110460">Regarding still the danger of thy life. </l>
+        </sp>
+        <sp xml:id="A07003-e110470" who="A07003-joyeux">
+          <speaker>Joyeux.</speaker>
+          <p xml:id="A07003-e110480">Thanks to your majesty, and so I take my leave.</p>
+          <l xml:id="A07003-e110490">Farewell to my lord of Guise and Epernoune,</l>
+        </sp>
+        <sp xml:id="A07003-e110500" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e110510">Health and hearty farewell to my lord Joyeux. </p>
+        </sp>
+        <stage xml:id="A07003-e110520">Exit Joyeux.</stage>
+        <sp xml:id="A07003-e110530" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e110540">So kindly cousin of Guise you and your wife do both salute our lovely minions.</p>
+          <stage xml:id="A07003-e110550">He makes horns at the Guise. </stage>
+          <p xml:id="A07003-e110560">Remember you the letter gentle sir, which your wife writ to my dear minion, and her chosen friend?</p>
+        </sp>
+        <sp xml:id="A07003-e110570" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e110580">How now my lord, faith this is more than need,</p>
+          <l xml:id="A07003-e110590">Am I thus to be jested at and scorned? </l>
+          <l xml:id="A07003-e110600">'Tis more than kingly or imperious. </l>
+          <l xml:id="A07003-e110610">And sure if all the proudest Kings in</l>
+          <l xml:id="A07003-e110620">Christendom, should bear me such derision:</l>
+          <p xml:id="A07003-e110630">They should know how I scorned them and their mocks.</p>
+          <l xml:id="A07003-e110640"><pb facs="18"/>I love your minions, dote on them yourself,</l>
+          <l xml:id="A07003-e110650">I know none else but holds them in disgrace:</l>
+          <l xml:id="A07003-e110660">And here by all the saints in heaven I swear,</l>
+          <l xml:id="A07003-e110670">That villain for whom I bear this deep disgrace:</l>
+          <l xml:id="A07003-e110680">Even for your words that have incensed me so,</l>
+          <l xml:id="A07003-e110690">Shall buy that strumpet's favour with his blood. </l>
+          <l xml:id="A07003-e110700">Whether he have dishonoured me or no. </l>
+          <l xml:id="A07003-e110710">Par la mor du, il mera. </l>
+        </sp>
+        <stage xml:id="A07003-e110720">Exit.</stage>
+        <sp xml:id="A07003-e110730" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e110740">Believe me this jest bites soar. </l>
+        </sp>
+        <sp xml:id="A07003-e110750" who="A07003-epernon">
+          <speaker>Eper.</speaker>
+          <l xml:id="A07003-e110760">My lord, 'twere good to make them friends</l>
+          <l xml:id="A07003-e110770">For his oaths are seldom spent in vain. </l>
+        </sp>
+        <stage xml:id="A07003-e110780">Enter Mugeroun.</stage>
+        <sp xml:id="A07003-e110790" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e110800">How now Mugeroun, metst thou not the Guise at the door?</p>
+        </sp>
+        <sp xml:id="A07003-e110810" who="A07003-mugeroun">
+          <speaker>Muge.</speaker>
+          <l xml:id="A07003-e110820">Not I my lord, what if I had? </l>
+        </sp>
+        <sp xml:id="A07003-e110830" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e110840">Marry if thou hadst, thou mightst have had the stab,</p>
+          <l xml:id="A07003-e110850">For he hath solemnly sworn thy death. </l>
+        </sp>
+        <sp xml:id="A07003-e110860" who="A07003-mugeroun">
+          <speaker>Muge.</speaker>
+          <l xml:id="A07003-e110870">I may be stabbed, and live till he be dead,</l>
+          <l xml:id="A07003-e110880">But wherefore bears he me such deadly hate? </l>
+        </sp>
+        <sp xml:id="A07003-e110890" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e110900">Because his wife bears thee such kindly love.</p>
+        </sp>
+        <sp xml:id="A07003-e110910" who="A07003-mugeroun">
+          <speaker>Muge.</speaker>
+          <l xml:id="A07003-e110920">If that be all, the next time that I meet her,</l>
+          <l xml:id="A07003-e110930">I'll make her shake off love with her heels. </l>
+          <p xml:id="A07003-e110940">But which way is he gone, I'll go make a walk on purpose from the court to meet with him.</p>
+        </sp>
+        <stage xml:id="A07003-e110950">Exit.</stage>
+        <sp xml:id="A07003-e110960" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e110970">I like not this, come Epernoune let's go seek the Duke and make them friends.</p>
+        </sp>
+        <stage xml:id="A07003-e110980">Exeunt.</stage>
+        <stage xml:id="A07003-e110990">Alarms within.</stage>
+        <stage xml:id="A07003-e111000">The Duke Joyeux slain.</stage>
+        <stage xml:id="A07003-e111010"><pb facs="19"/>Enter the King of Navarre and his train.</stage>
+        <sp xml:id="A07003-e111020" who="A07003-navarre">
+          <speaker>Navarre.</speaker>
+          <l xml:id="A07003-e111030">The Duke is slain and all his power dispersed,</l>
+          <l xml:id="A07003-e111040">And we are graced with wreathes of victory:</l>
+          <l xml:id="A07003-e111050">Thus God we see doth ever guide the right,</l>
+          <l xml:id="A07003-e111060">To make his glory great upon the earth. </l>
+        </sp>
+        <sp xml:id="A07003-e111070" who="A07003-bartus">
+          <speaker>Bar.</speaker>
+          <l xml:id="A07003-e111090">The terror of this happy victory,</l>
+          <l xml:id="A07003-e111100">I hope will make the King surcease his hate:</l>
+          <l xml:id="A07003-e111110">And either never manage army more ,</l>
+          <l xml:id="A07003-e111120">Or else employ them in some better cause. </l>
+        </sp>
+        <sp xml:id="A07003-e111130" who="A07003-navarre">
+          <speaker>Na.</speaker>
+          <p xml:id="A07003-e111140">How many noble men have lost their lives,</p>
+          <l xml:id="A07003-e111150">In prosecution of these cruel arms,</l>
+          <l xml:id="A07003-e111160">Is ruth and almost death to call to mind:</l>
+          <l xml:id="A07003-e111170">But God we know will always put them down,</l>
+          <l xml:id="A07003-e111180">That lift themselves against the perfect truth,</l>
+          <l xml:id="A07003-e111190">Which I'll maintain so long as life doth last,</l>
+          <l xml:id="A07003-e111200">And with the Q. of England join my force:</l>
+          <l xml:id="A07003-e111210">To beat the papal monarch from our lands,</l>
+          <l xml:id="A07003-e111220">And keep those relics from our countries coasts. </l>
+          <l xml:id="A07003-e111240">Come my lords now that this storm is overpast,</l>
+          <l xml:id="A07003-e111250">Let us away with triumph to our tents. </l>
+        </sp>
+        <stage xml:id="A07003-e111260">Exeunt.</stage>
+        <stage xml:id="A07003-e111270">Enter a soldier.</stage>
+        <sp xml:id="A07003-e111280" who="A07003-soldier">
+          <speaker>Soldier</speaker>
+          <p xml:id="A07003-e111290">Sir, to you sir, that dares make the Duke a cuckold,</p>
+          <p xml:id="A07003-e111300">And use a counterfeit key to his privy chamber door: and although<pb facs="19"/> you take out nothing but your own, yet you put in that which displeaseth him, and so forestall his market, and set up your standing where you should not: and whereas he is your landlord, you will take upon you to be his, and till the ground that he himself should occupy, which is his own free land. If it be not too free there's the question: and though I come not to take possession (As I would I might) yet I mean to keep you out, which I will if this gear hold: what are ye come so soon? have at ye sir.</p>
+        </sp>
+        <stage xml:id="A07003-e111320">Enter Mugeroun.</stage>
+        <stage xml:id="A07003-e111330">He shoots at him and kills him.</stage>
+        <stage xml:id="A07003-e111340">Enter the Guise. </stage>
+        <sp xml:id="A07003-e111350" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e111360">Hold thee tall soldier, take thee this and fly.</p>
+          <stage xml:id="A07003-e111370">Exit soul.</stage>
+          <l xml:id="A07003-e111380">Lie there the King's delight, and Guise's scorn. </l>
+          <l xml:id="A07003-e111390">Revenge it Henry as thou list or dare,</l>
+          <l xml:id="A07003-e111400">I did it only in despite of thee. </l>
+        </sp>
+        <stage xml:id="A07003-e111410">Take him away.</stage>
+        <stage xml:id="A07003-e111420">Enter the King and Epernoune. </stage>
+        <sp xml:id="A07003-e111430" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e111440">My lord of Guise, we understand that you have gathered a power of men, what your intent is yet we cannot learn, but we presume it is not for our good.</p>
+        </sp>
+        <sp xml:id="A07003-e111450" who="A07003-guise">
+          <pb facs="20"/>
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e111460">Why I am no traitor to the crown of France.</p>
+          <l xml:id="A07003-e111470">What I have done 'tis for the gospel's sake. </l>
+        </sp>
+        <sp xml:id="A07003-e111480" who="A07003-epernon">
+          <speaker>Eper.</speaker>
+          <p xml:id="A07003-e111490">Nay for the Pope's sake, and thine own benefit.</p>
+          <l xml:id="A07003-e111500">What peer in France but thou (Aspiring Guise)</l>
+          <l xml:id="A07003-e111510">Durst be in arms without the King's consent? </l>
+          <l xml:id="A07003-e111520">I challenge thee for treason in the cause. </l>
+        </sp>
+        <sp xml:id="A07003-e111530" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e111540">Ah base Epernoune, were not his highness here,</p>
+          <l xml:id="A07003-e111550">Thou shouldst perceive the D. of Guise is moved. </l>
+        </sp>
+        <sp xml:id="A07003-e111560" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e111570">Be patient Guise and threat not Epernoune,</l>
+          <l xml:id="A07003-e111580">Lest thou perceive the King of France be moved. </l>
+        </sp>
+        <sp xml:id="A07003-e111590" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e111600">Why? I am a prince of the Valoyses line,</l>
+          <l xml:id="A07003-e111610">Therefore an enemy to the Burbonites. </l>
+          <l xml:id="A07003-e111620">I am a juror in the holy league,</l>
+          <l xml:id="A07003-e111630">And therefore hated of the Protestants. </l>
+          <l xml:id="A07003-e111640">What should I do but stand upon my guard? </l>
+          <l xml:id="A07003-e111650">And being able, I'll keep an host in pay. </l>
+        </sp>
+        <sp xml:id="A07003-e111660" who="A07003-epernon">
+          <speaker>Epernoune.</speaker>
+          <p xml:id="A07003-e111670">Thou able to maintain an host in pay,</p>
+          <l xml:id="A07003-e111680">That livest by foreign exhibition. </l>
+          <l xml:id="A07003-e111690">The Pope and King of Spain are thy good friends,</l>
+          <l xml:id="A07003-e111700">Else all France knows how poor a Duke thou art. </l>
+        </sp>
+        <sp xml:id="A07003-e111710" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e111720">Ay, those are they that feed him with their gold,</p>
+          <l xml:id="A07003-e111730">To countermand our will and check our friends. </l>
+        </sp>
+        <sp xml:id="A07003-e111740" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e111750">My lord, to speak more plainly, thus it is :</l>
+          <l xml:id="A07003-e111760">Being animated by religious zeal,</l>
+          <l xml:id="A07003-e111770">I mean to muster all the power I can,</l>
+          <l xml:id="A07003-e111780"><pb facs="20"/> to overthrow those sexious Puritan :</l>
+          <p xml:id="A07003-e111790">And know my lord, the Pope will sell his triple crown,</p>
+          <l xml:id="A07003-e111800">Ay, and the Catholic Philip King of Spain,</l>
+          <l xml:id="A07003-e111810">Ere I shall want, will cause his Indians,</l>
+          <l xml:id="A07003-e111820">To rip the golden bowels of America. </l>
+          <l xml:id="A07003-e111830">Navarre that cloaks them underneath his wings ,</l>
+          <l xml:id="A07003-e111840">Shall feel the house of Lorraine is his foe:</l>
+          <l xml:id="A07003-e111850">Your highness needs not fear mine army's force,</l>
+          <l xml:id="A07003-e111860">'Tis for your safety and your enemy's wrack. </l>
+        </sp>
+        <sp xml:id="A07003-e111870" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e111880">Guise, wear our crown, and be thou King of France,</p>
+          <l xml:id="A07003-e111890">And as dictator make or war or peace,</l>
+          <l xml:id="A07003-e111900">Whilst I cry placet like a senator,</l>
+          <l xml:id="A07003-e111910">I cannot brook thy haughty insolence,</l>
+          <l xml:id="A07003-e111920">Dismiss thy camp or else by our edict,</l>
+          <l xml:id="A07003-e111930">Be thou proclaimed a traitor throughout France. </l>
+        </sp>
+        <sp xml:id="A07003-e111940" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e111950">The choice is hard, I must dissemble. </l>
+          <l xml:id="A07003-e111960">My lord, in token of my true humility,</l>
+          <l xml:id="A07003-e111970">And simple meaning to your majesty:</l>
+          <l xml:id="A07003-e111980">I kiss your grace's hand, and take my leave,</l>
+          <l xml:id="A07003-e111990">Intending to dislodge my camp with speed. </l>
+        </sp>
+        <sp xml:id="A07003-e112000" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e112010">Then farewell Guise, the King and thou are friends.</p>
+        </sp>
+        <stage xml:id="A07003-e112020">Exit Guise. </stage>
+        <sp xml:id="A07003-e112030" who="A07003-epernon">
+          <speaker>Eper.</speaker>
+          <p xml:id="A07003-e112040">But trust him not my lord, for had your highness,</p>
+          <l xml:id="A07003-e112050">Seen with what a pomp he entered Paris,</l>
+          <l xml:id="A07003-e112060">And how the citizens with gifts and shows</l>
+          <p xml:id="A07003-e112070">Did entertain him and promised to be at his command:</p>
+          <l xml:id="A07003-e112080"><pb facs="21"/>Nay, they feared not to speak in the streets,</l>
+          <p xml:id="A07003-e112090">That the Guise durst stand in arms against the King,</p>
+          <l xml:id="A07003-e112100">For not effecting of his holiness will. </l>
+        </sp>
+        <sp xml:id="A07003-e112110" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e112120">Did they of Paris entertain him so? </l>
+          <l xml:id="A07003-e112130">Then means he present treason to our state. </l>
+          <l xml:id="A07003-e112140">Well, let me alone, who's within there? </l>
+          <stage xml:id="A07003-e112150">Enter one with a pen and ink.</stage>
+          <l xml:id="A07003-e112160">Make a discharge of all my counsel straight,</l>
+          <l xml:id="A07003-e112170">And I'll subscribe my name and seal it straight. </l>
+          <l xml:id="A07003-e112180">My head shall be my counsel, they are false:</l>
+          <l xml:id="A07003-e112190">And Epernoune I will be ruled by thee. </l>
+        </sp>
+        <sp xml:id="A07003-e112200" who="A07003-epernon">
+          <speaker>Eper.</speaker>
+          <p xml:id="A07003-e112210">My lord, I think for safety of your royal person,</p>
+          <l xml:id="A07003-e112220">It would be good the Guise were made away,</l>
+          <l xml:id="A07003-e112230">And so to quite your grace of all suspect. </l>
+        </sp>
+        <sp xml:id="A07003-e112240" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e112250">First let us set our hand and seal to this,</p>
+          <stage xml:id="A07003-e112260">(He writes.</stage>
+          <l xml:id="A07003-e112270">And then I'll tell thee what I mean to do. </l>
+          <l xml:id="A07003-e112280">So, convey this to the counsel presently. </l>
+          <stage xml:id="A07003-e112290">Exit one.</stage>
+          <l xml:id="A07003-e112300">And Epernoune though I seem mild and calm,</l>
+          <l xml:id="A07003-e112310">Think not but I am tragical within:</l>
+          <l xml:id="A07003-e112320">I'll secretly convey me unto Bloyse,</l>
+          <l xml:id="A07003-e112330">For now that Paris takes the Guise's part,</l>
+          <l xml:id="A07003-e112340">Here is no staying for the King of France,</l>
+          <l xml:id="A07003-e112350">Unless he mean to be betrayed and die:</l>
+          <l xml:id="A07003-e112360">But as I hue, so sure the Guise shall die. </l>
+        </sp>
+        <stage xml:id="A07003-e112370">Exeunt.</stage>
+        <stage xml:id="A07003-e112380"><pb facs="21"/>Enter the King of Navarre reading of a letter, and Bartus. </stage>
+        <sp xml:id="A07003-e112390" who="A07003-navarre">
+          <speaker>Navarre.</speaker>
+          <l xml:id="A07003-e112400">My lord, I am advertised from France,</l>
+          <l xml:id="A07003-e112410">That the Guise hath taken arms against the King,</l>
+          <l xml:id="A07003-e112420">And that Paris is revolted from his grace. </l>
+        </sp>
+        <sp xml:id="A07003-e112430" who="A07003-bartus">
+          <speaker>Bar.</speaker>
+          <l xml:id="A07003-e112440">Then hath your grace fit opportunity,</l>
+          <l xml:id="A07003-e112450">To show your love unto the King of France:</l>
+          <l xml:id="A07003-e112460">Offering him aid against his enemies,</l>
+          <l xml:id="A07003-e112470">Which cannot but be thankfully received. </l>
+        </sp>
+        <sp xml:id="A07003-e112480" who="A07003-navarre">
+          <speaker>Navarre.</speaker>
+          <p xml:id="A07003-e112490">Bartus, it shall be so, post then to France,</p>
+          <l xml:id="A07003-e112500">And there salute his highness in our name,</l>
+          <l xml:id="A07003-e112510">Assure him all the aid we can provide,</l>
+          <l xml:id="A07003-e112520">Against the Guisians and their complices. </l>
+          <l xml:id="A07003-e112530">Bartus be gone, commend me to his grace,</l>
+          <l xml:id="A07003-e112540">And tell him ere it be long, I'll visit him. </l>
+        </sp>
+        <sp xml:id="A07003-e112550" who="A07003-bartus">
+          <speaker>Bar.</speaker>
+          <l xml:id="A07003-e112560">I will my lord. </l>
+        </sp>
+        <stage xml:id="A07003-e112570">Exit.</stage>
+        <stage xml:id="A07003-e112580">Enter Pleshe. </stage>
+        <sp xml:id="A07003-e112590" who="A07003-navarre">
+          <speaker>Navarre.</speaker>
+          <l xml:id="A07003-e112600">Pleshe,</l>
+        </sp>
+        <sp xml:id="A07003-e112610" who="A07003-pleshe">
+          <speaker>Pleshe.</speaker>
+          <l xml:id="A07003-e112620">My lord. </l>
+        </sp>
+        <sp xml:id="A07003-e112630" who="A07003-navarre">
+          <speaker>Na</speaker>
+          <l xml:id="A07003-e112640">Pleshe, go muster up our men with speed,</l>
+          <l xml:id="A07003-e112650">And let them march away to France amain:</l>
+          <l xml:id="A07003-e112660">For we must aid the King against the Guise. </l>
+          <l xml:id="A07003-e112670">Be gone I say, 'tis time that we were there. </l>
+        </sp>
+        <sp xml:id="A07003-e112680" who="A07003-pleshe">
+          <speaker>Pleshe.</speaker>
+          <l xml:id="A07003-e112690">I go my lord. </l>
+        </sp>
+        <sp xml:id="A07003-e112700" who="A07003-navarre">
+          <pb facs="22"/>
+          <speaker>Navar.</speaker>
+          <p xml:id="A07003-e112710">That wicked Guise I fear me much will be,</p>
+          <l xml:id="A07003-e112720">The ruin of that famous realm of France:</l>
+          <l xml:id="A07003-e112730">For his aspiring thoughts aim at the crown,</l>
+          <l xml:id="A07003-e112740">And takes his vantage on religion,</l>
+          <l xml:id="A07003-e112750">To plant the Pope and popelings in the realm,</l>
+          <l xml:id="A07003-e112760">And bind it wholly to the sea of Rome:</l>
+          <l xml:id="A07003-e112770">But if that God do prosper mine attempts,</l>
+          <l xml:id="A07003-e112780">And send us safely to arrive in France:</l>
+          <l xml:id="A07003-e112790">We'll beat him back, and drive him to his death,</l>
+          <l xml:id="A07003-e112800">That basely seeks the ruin of his realm. </l>
+        </sp>
+        <stage xml:id="A07003-e112810">Exeunt.</stage>
+        <stage xml:id="A07003-e112820">Enter the captain of the guard, and three murderers.</stage>
+        <sp xml:id="A07003-e112830" who="A07003-captain">
+          <speaker>Captain.</speaker>
+          <l xml:id="A07003-e112840">Come on sirs, what, are you resolutely bent,</l>
+          <l xml:id="A07003-e112850">Hating the life and honour of the Guise? </l>
+          <l xml:id="A07003-e112860">What, will you not fear when you see him come? </l>
+        </sp>
+        <sp xml:id="A07003-e112870" who="A07003-xxxx_1">
+          <speaker>1.</speaker>
+          <p xml:id="A07003-e112880">Fear him said you? tush, were he here, we would kill him presently.</p>
+        </sp>
+        <sp xml:id="A07003-e112890" who="A07003-xxxx_2">
+          <speaker>2.</speaker>
+          <p xml:id="A07003-e112900">O that his heart were leaping in my hand.</p>
+        </sp>
+        <sp xml:id="A07003-e112910" who="A07003-xxxx_3">
+          <speaker>3.</speaker>
+          <p xml:id="A07003-e112920">But when will he come that we may murder him?</p>
+        </sp>
+        <sp xml:id="A07003-e112930" who="A07003-captain">
+          <speaker>Captain</speaker>
+          <l xml:id="A07003-e112940">Well, than I see you are resolute. </l>
+        </sp>
+        <sp xml:id="A07003-e112950" who="A07003-xxxx_1">
+          <speaker>1.</speaker>
+          <l xml:id="A07003-e112960">Let us alone, I warrant you. </l>
+        </sp>
+        <sp xml:id="A07003-e112970" who="A07003-captain">
+          <speaker>Captain</speaker>
+          <p xml:id="A07003-e112980">Then sits take your standings within this chamber,</p>
+          <l xml:id="A07003-e112990">For anon the Guise will come. </l>
+        </sp>
+        <sp xml:id="A07003-e113000" who="A07003-all">
+          <pb facs="22"/>
+          <speaker>All.</speaker>
+          <l xml:id="A07003-e113010">You will give us our money. </l>
+        </sp>
+        <sp xml:id="A07003-e113020" who="A07003-captain">
+          <speaker>Captain</speaker>
+          <l xml:id="A07003-e113030">Ay, ay, fear not, stand close, so be resolute:</l>
+          <p xml:id="A07003-e113040">Now falls the star whose influence governs France,</p>
+          <l xml:id="A07003-e113050">Whose light was deadly to the Protestants</l>
+          <l xml:id="A07003-e113070">Now must he fall and perish in his height. </l>
+        </sp>
+        <stage xml:id="A07003-e113080">Enter the King and Epernoune. </stage>
+        <sp xml:id="A07003-e113090" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e113100">Now captain of my guard, are these murderers ready?</p>
+        </sp>
+        <sp xml:id="A07003-e113110" who="A07003-captain">
+          <speaker>Captain</speaker>
+          <l xml:id="A07003-e113120">They be my good lord. </l>
+        </sp>
+        <sp xml:id="A07003-e113130" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e113140">But are they resolute and armed to kill,</l>
+          <l xml:id="A07003-e113150">Hating the life and honour of the Guise? </l>
+        </sp>
+        <sp xml:id="A07003-e113160" who="A07003-captain">
+          <speaker>Captain</speaker>
+          <l xml:id="A07003-e113170">I warrant ye my lord. </l>
+        </sp>
+        <sp xml:id="A07003-e113180" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e113190">Then come proud Guise and here disgorged thy breast,</p>
+          <l xml:id="A07003-e113200">Surcharged with surfeit of ambitious thoughts:</l>
+          <l xml:id="A07003-e113210">Breath out that life wherein my death was hid,</l>
+          <l xml:id="A07003-e113220">And end thy endless treasons with thy death. </l>
+        </sp>
+        <stage xml:id="A07003-e113230">Enter the Guise and knocketh.</stage>
+        <sp xml:id="A07003-e113240" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e113250">Halla varlet heigh: Epernoune, where is the King? </l>
+        </sp>
+        <sp xml:id="A07003-e113260" who="A07003-epernon">
+          <speaker>Eper.</speaker>
+          <l xml:id="A07003-e113270">Mounted his royal cabinet. </l>
+        </sp>
+        <sp xml:id="A07003-e113280" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e113290">I prithee tell him that the Guise is here.</p>
+        </sp>
+        <sp xml:id="A07003-e113300" who="A07003-epernon">
+          <speaker>Eper.</speaker>
+          <p xml:id="A07003-e113310">And please your grace the Duke of Guise,<pb facs="23"/> doth crave access unto your highness.</p>
+        </sp>
+        <sp xml:id="A07003-e113320" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e113330">Let him come in. </l>
+          <l xml:id="A07003-e113340">Come Guise and see thy traitorous guile outreached,</l>
+          <l xml:id="A07003-e113350">And perish in the pit thou madest for me. </l>
+        </sp>
+        <stage xml:id="A07003-e113360">The Guise comes to the King.</stage>
+        <sp xml:id="A07003-e113370" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e113380">Good morrow to your majesty. </l>
+        </sp>
+        <sp xml:id="A07003-e113390" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e113400">Good morrow to my loving cousin of Guise. </p>
+          <l xml:id="A07003-e113410">How fares it this morning with your excellence? </l>
+        </sp>
+        <sp xml:id="A07003-e113420" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e113430">I heard your majesty was scarcely pleased,</p>
+          <p xml:id="A07003-e113440">That in the court I bore so great a train.</p>
+        </sp>
+        <sp xml:id="A07003-e113450" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e113460">They were to blame that said I was displeased,</p>
+          <l xml:id="A07003-e113470">And you good cousin to imagine it. </l>
+          <p xml:id="A07003-e113480">'Twere hard with me if I should doubt my kin,</p>
+          <l xml:id="A07003-e113490">Or be suspicious of my dearest friends:</l>
+          <l xml:id="A07003-e113500">Cousin, assure you I am resolute,</l>
+          <l xml:id="A07003-e113510">Whatsoever any whisper in mine ears,</l>
+          <l xml:id="A07003-e113520">Not to suspect disloyalty in thee,</l>
+          <l xml:id="A07003-e113530">And so sweet coz farewell. </l>
+        </sp>
+        <stage xml:id="A07003-e113540">Exit King. </stage>
+        <sp xml:id="A07003-e113550" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e113560">So, now sues the King for favour to the Guise,</p>
+          <l xml:id="A07003-e113570">And all his minions stoop when I command:</l>
+          <l xml:id="A07003-e113580">Why this 'tis to have an army in the field,</l>
+          <l xml:id="A07003-e113590">Now by the holy sacrament I swear,</l>
+          <l xml:id="A07003-e113600">As ancient Romans over their captive lords,</l>
+          <l xml:id="A07003-e113610"><pb facs="23"/> so will I triumph over this wanton King,</l>
+          <l xml:id="A07003-e113620">And he shall follow my proud chariot's wheels. </l>
+          <l xml:id="A07003-e113630">Now do I but begin to look about,</l>
+          <l xml:id="A07003-e113640">And all my former time was spent in vain:</l>
+          <p xml:id="A07003-e113650">Hold sword, for in thee is the Duke of Guise's hope.</p>
+          <stage xml:id="A07003-e113660">Enter one of the murderers.</stage>
+          <p xml:id="A07003-e113670">Villain, why dost thou look so ghastly? speak.</p>
+        </sp>
+        <sp xml:id="A07003-e113680" who="A07003-murderer">
+          <speaker>Murderer</speaker>
+          <l xml:id="A07003-e113690">O pardon me my lord of Guise. </l>
+        </sp>
+        <sp xml:id="A07003-e113700" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e113710">Pardon thee, why what hast thou done? </l>
+        </sp>
+        <sp xml:id="A07003-e113720" who="A07003-murderer">
+          <speaker>Murderer</speaker>
+          <p xml:id="A07003-e113730">O my lord, I am one of them that is set to murder you.</p>
+        </sp>
+        <sp xml:id="A07003-e113740" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <l xml:id="A07003-e113750">To murder me villain. </l>
+        </sp>
+        <sp xml:id="A07003-e113760" who="A07003-murderer">
+          <speaker>Murderer</speaker>
+          <p xml:id="A07003-e113770">I my lord, the rest have ta'ne their standings in the next room, therefore good my lord go not forth.</p>
+        </sp>
+        <sp xml:id="A07003-e113780" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e113790">Yet Caesar shall go forth, let mean consaits, and baser men fear death: tut they are peasants,</p>
+          <p xml:id="A07003-e113800">I am Duke of Guise: and princes with their looks, engender fear.</p>
+        </sp>
+        <sp xml:id="A07003-e113810" who="A07003-xxxx_1">
+          <speaker>1.</speaker>
+          <p xml:id="A07003-e113820">Stand close, he is coming, I know him by his voice.</p>
+        </sp>
+        <sp xml:id="A07003-e113830" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e113840">As pale as ashes, nay then 'tis time to look about.</p>
+        </sp>
+        <sp xml:id="A07003-e113850" who="A07003-all">
+          <speaker>All.</speaker>
+          <l xml:id="A07003-e113860">Down with him, down with him. </l>
+        </sp>
+        <stage xml:id="A07003-e113870">They stab him. </stage>
+        <sp xml:id="A07003-e113880" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e113890">O I have my death's wound, give me leave to speak.</p>
+        </sp>
+        <sp xml:id="A07003-e113900" who="A07003-xxxx_2">
+          <pb facs="24"/>
+          <speaker>2.</speaker>
+          <p xml:id="A07003-e113910">Then pray to God, and ask forgiveness of the King.</p>
+        </sp>
+        <sp xml:id="A07003-e113920" who="A07003-guise">
+          <speaker>Guise.</speaker>
+          <p xml:id="A07003-e113930">Trouble me not, I ne'er offended him.</p>
+          <l xml:id="A07003-e113940">Nor will I ask forgiveness of the King. </l>
+          <l xml:id="A07003-e113950">O that I have not power to stay my life,</l>
+          <l xml:id="A07003-e113960">Nor immortality to be revenged:</l>
+          <l xml:id="A07003-e113970">To die by peasants, what a grief is this? </l>
+          <l xml:id="A07003-e113980">Ah Sextus, be revenged upon the King,</l>
+          <l xml:id="A07003-e113990">Philip and Parma, I am slain for you:</l>
+          <l xml:id="A07003-e114000">Pope excommunicate, Philip depose,</l>
+          <p xml:id="A07003-e114010">The wicked branch of cursed Valois his line.</p>
+          <l xml:id="A07003-e114020">Vive la messa, perish Huguenots,</l>
+          <p xml:id="A07003-e114030">Thus Caesar did go forth, and thus he died.</p>
+        </sp>
+        <stage xml:id="A07003-e114040">He dies.</stage>
+        <stage xml:id="A07003-e114050">Enter captain of the guard.</stage>
+        <sp xml:id="A07003-e114060" who="A07003-captain">
+          <speaker>Captain.</speaker>
+          <p xml:id="A07003-e114070">What have you done? then stay a while and I'll go call the King, but see where he comes.</p>
+          <l xml:id="A07003-e114080">My lord, see where the Guise is slain. </l>
+        </sp>
+        <sp xml:id="A07003-e114090" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e114100">Ah this sweet sight is physic to my soul,</p>
+          <l xml:id="A07003-e114110">Go fetch his son for to behold his death:</l>
+          <p xml:id="A07003-e114120">Surcharged with guilt of thousand massacres:</p>
+          <l xml:id="A07003-e114130">Mounser of Lorraine sink away to hell,</l>
+          <p xml:id="A07003-e114140">And in remembrance of those bloody broils:</p>
+          <l xml:id="A07003-e114150"><pb facs="24"/>To which thou didst allure me being alive:</l>
+          <l xml:id="A07003-e114160">And here in presence of you all I swear,</l>
+          <l xml:id="A07003-e114170">I ne'er was King of France until this hour:</l>
+          <l xml:id="A07003-e114180">This is the traitor that hath spent my gold,</l>
+          <l xml:id="A07003-e114190">In making foreign wars and civil broils. </l>
+          <l xml:id="A07003-e114200">Did he not draw a sort of English priests,</l>
+          <l xml:id="A07003-e114210">From Douai to the seminary at Rheims,</l>
+          <p xml:id="A07003-e114220">To hatch forth treason 'gainst their natural Queen?</p>
+          <p xml:id="A07003-e114230">Did he not cause the King of Spain's huge fleet,</p>
+          <l xml:id="A07003-e114240">To threaten England and to menace me? </l>
+          <l xml:id="A07003-e114250">Did he not injure mounser that's deceased? </l>
+          <l xml:id="A07003-e114260">Hath he not made me in the Pope's defence,</l>
+          <p xml:id="A07003-e114270">To spend the treasure that should strength my land:</p>
+          <l xml:id="A07003-e114280">In civil broils between Navarre and me? </l>
+          <l xml:id="A07003-e114290">Tush, to be short, he meant to make me monk,</l>
+          <l xml:id="A07003-e114300">Or else to murder me, and so be King. </l>
+          <l xml:id="A07003-e114310">Let Christian princes that shall hear of this,</l>
+          <l xml:id="A07003-e114320">(As all the world shall know our Guise is dead)</l>
+          <l xml:id="A07003-e114330">Rest satisfied with this that here I swear,</l>
+          <l xml:id="A07003-e114340">Ne'er was there King of France so yoked as I. </l>
+        </sp>
+        <sp xml:id="A07003-e114350" who="A07003-epernon">
+          <speaker>Eper.</speaker>
+          <l xml:id="A07003-e114360">My lord here is his son. </l>
+        </sp>
+        <stage xml:id="A07003-e114370">Enter the Guise's son.</stage>
+        <sp xml:id="A07003-e114380" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e114390">Boy, look where your father lies,</l>
+        </sp>
+        <sp xml:id="A07003-e114400" who="A07003-guise_jr">
+          <speaker>Young Guise.</speaker>
+          <p xml:id="A07003-e114410">My father slain, who hath done this deed?</p>
+        </sp>
+        <sp xml:id="A07003-e114420" who="A07003-king">
+          <pb facs="25"/>
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e114430">Sirrah 'twas I that slew him, and will slay thee too, and thou prove such a traitor.</p>
+        </sp>
+        <sp xml:id="A07003-e114440" who="A07003-guise_jr">
+          <speaker>Young Guise.</speaker>
+          <p xml:id="A07003-e114450">Art thou King, and hast done this bloody deed?</p>
+          <l xml:id="A07003-e114460">I'll be revenged. </l>
+        </sp>
+        <stage xml:id="A07003-e114470">He offereth to throw his dagger.</stage>
+        <sp xml:id="A07003-e114480" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e114490">A way to prison with him, I'll clip his wings or ere he pass my hands, away with him.</p>
+          <stage xml:id="A07003-e114500">Exit boy. </stage>
+          <l xml:id="A07003-e114510">But what availeth that this traitors dead,</l>
+          <l xml:id="A07003-e114520">When Duke Dumaine his brother is alive,</l>
+          <p xml:id="A07003-e114530">And that young Cardinal that is grown so proud?</p>
+          <l xml:id="A07003-e114540">Go to the governor of Orleans,</l>
+          <l xml:id="A07003-e114550">And will him in my name to kill the Duke. </l>
+          <l xml:id="A07003-e114560">Get you a way and strangle the Cardinal,</l>
+          <l xml:id="A07003-e114570">These two will make one entire Duke of Guise,</l>
+          <l xml:id="A07003-e114580">Especially with our old mother's help. </l>
+        </sp>
+        <sp xml:id="A07003-e114590" who="A07003-epernon">
+          <speaker>Eper.</speaker>
+          <p xml:id="A07003-e114600">My lord, see where she comes, as if she drooped to hear these news.</p>
+        </sp>
+        <stage xml:id="A07003-e114610">Enter Queen mother. </stage>
+        <sp xml:id="A07003-e114620" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e114630">And let her drop, my heart is light enough.</p>
+          <l xml:id="A07003-e114640">Mother, how like you this device of mine? </l>
+          <l xml:id="A07003-e114650">I slew the Guise, because I would be King. </l>
+        </sp>
+        <sp xml:id="A07003-e114660" who="A07003-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A07003-e114670">King, why so thou wert before. </l>
+          <l xml:id="A07003-e114680">Pray God thou be a King now this is done. </l>
+        </sp>
+        <sp xml:id="A07003-e114690" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e114700">Nay he was King and countermanded me,</l>
+          <l xml:id="A07003-e114710"><pb facs="25"/> but now I will be King and rule myself,</l>
+          <l xml:id="A07003-e114720">And make the Guisians stoop that are alive. </l>
+        </sp>
+        <sp xml:id="A07003-e114730" who="A07003-queen">
+          <speaker>Queen.</speaker>
+          <p xml:id="A07003-e114740">I cannot speak for grief, when thou wast born,</p>
+          <l xml:id="A07003-e114750">I would that I had murdered thee my son. </l>
+          <l xml:id="A07003-e114760">My son: thou art a changeling, not my son. </l>
+          <l xml:id="A07003-e114770">I curse thee and exclaim thee miscreant,</l>
+          <l xml:id="A07003-e114780">Traitor to God, and to the realm of France. </l>
+        </sp>
+        <sp xml:id="A07003-e114790" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e114800">Cry out, exclaim, howl till thy throat be hoarse,</p>
+          <l xml:id="A07003-e114810">The Guise is slain, and I rejoice therefore:</l>
+          <l xml:id="A07003-e114820">And now will I to arms, come Epernoune:</l>
+          <l xml:id="A07003-e114830">And let her grieve her heart out if she will. </l>
+        </sp>
+        <stage xml:id="A07003-e114840">Exit the King and Epernoune. </stage>
+        <sp xml:id="A07003-e114850" who="A07003-queen">
+          <speaker>Queen.</speaker>
+          <l xml:id="A07003-e114860">A way, leave me alone to meditate,</l>
+          <p xml:id="A07003-e114870">Sweet Guise, would he had died so thou wert here:</p>
+          <l xml:id="A07003-e114880">To whom shall I bewray my secrets now,</l>
+          <l xml:id="A07003-e114890">Or who will help to build religion? </l>
+          <l xml:id="A07003-e114900">The Protestants will glory and insult,</l>
+          <l xml:id="A07003-e114910">Wicked Navarre will get the crown of France,</l>
+          <l xml:id="A07003-e114920">The popedom cannot stand, all goes to wrack. </l>
+          <l xml:id="A07003-e114930">And all for thee my Guise, what may I do? </l>
+          <l xml:id="A07003-e114940">But sorrow seize upon my toiling soul,</l>
+          <l xml:id="A07003-e114950">For since the Guise is dead, I will not live. </l>
+        </sp>
+        <stage xml:id="A07003-e114960">Exit.</stage>
+        <stage xml:id="A07003-e114970">Enter two dragging in the Cardinal.</stage>
+        <sp xml:id="A07003-e114980" who="A07003-cardinal">
+          <speaker>Cardinal</speaker>
+          <l xml:id="A07003-e114990">Murder me not, I am a Cardinal. </l>
+        </sp>
+        <sp xml:id="A07003-e115000" who="A07003-xxxx_1">
+          <speaker>1.</speaker>
+          <p xml:id="A07003-e115010">Wert thou the Pope thou mightst not scape from us.</p>
+        </sp>
+        <sp xml:id="A07003-e115020" who="A07003-cardinal">
+          <pb facs="26"/>
+          <speaker>Cardinal</speaker>
+          <p xml:id="A07003-e115030">What will you file your hands with churchmen's blood?</p>
+        </sp>
+        <sp xml:id="A07003-e115040" who="A07003-xxxx_2">
+          <speaker>2.</speaker>
+          <p xml:id="A07003-e115050">Shed your blood, oh lord no: for we intend to strangle you.</p>
+        </sp>
+        <sp xml:id="A07003-e115060" who="A07003-cardinal">
+          <speaker>Cardinal</speaker>
+          <p xml:id="A07003-e115070">Then there is no remedy but I must die.</p>
+        </sp>
+        <sp xml:id="A07003-e115080" who="A07003-xxxx_1">
+          <speaker>1.</speaker>
+          <p xml:id="A07003-e115090">No remedy, therefore prepare yourself.</p>
+        </sp>
+        <sp xml:id="A07003-e115100" who="A07003-cardinal">
+          <speaker>Cardinal</speaker>
+          <p xml:id="A07003-e115110">Yet lives my brother Duke Dumaine, and many more:</p>
+          <p xml:id="A07003-e115120">To revenge our deaths upon that cursed King.</p>
+          <l xml:id="A07003-e115130">Upon whose heart may all the furies gripe,</l>
+          <p xml:id="A07003-e115140">And with their paws drench his black soul in hell.</p>
+        </sp>
+        <sp xml:id="A07003-e115150" who="A07003-xxxx_1">
+          <speaker>1.</speaker>
+          <p xml:id="A07003-e115160">Yours my lord Cardinal, you should have said.</p>
+          <stage xml:id="A07003-e115170">Now they strangle him.</stage>
+          <p xml:id="A07003-e115180">So, pluck amain, he is hard hearted, therefore pull with violence.</p>
+          <l xml:id="A07003-e115190">Come take him away. </l>
+        </sp>
+        <stage xml:id="A07003-e115200">Exeunt.</stage>
+        <stage xml:id="A07003-e115210">Enter Duke Dumayn reading of a letter, with others.</stage>
+        <sp xml:id="A07003-e115220" who="A07003-dumaine">
+          <speaker>Dumaine.</speaker>
+          <p xml:id="A07003-e115230">My noble brother murdered by the King,</p>
+          <p xml:id="A07003-e115240">O what may I do, for to revenge thy death?</p>
+          <l xml:id="A07003-e115250"><pb facs="26"/>The kings alone, it cannot satisfy. </l>
+          <p xml:id="A07003-e115260">Sweet Duke of Guise our prop to lean upon,</p>
+          <p xml:id="A07003-e115270">Now thou art dead, here is no stay for us:</p>
+          <p xml:id="A07003-e115280">I am thy brother, and I'll revenge thy death,</p>
+          <p xml:id="A07003-e115290">And root Valois his line from forth of France,</p>
+          <l xml:id="A07003-e115300">And beat proud Burbon to his native home. </l>
+          <p xml:id="A07003-e115310">That basely seeks to join with such a King.</p>
+          <p xml:id="A07003-e115320">Whose murderous thoughts will be his overthrow.</p>
+          <p xml:id="A07003-e115330">He willed the governor of Orleans in his name,</p>
+          <p xml:id="A07003-e115340">That I with speed should have been put to death.</p>
+          <l xml:id="A07003-e115350">But that's prevented, for to end his life. </l>
+          <p xml:id="A07003-e115360">His life, and all those traitors to the church of Rome,</p>
+          <p xml:id="A07003-e115370">That durst attempt to murder noble Guise. </p>
+        </sp>
+        <stage xml:id="A07003-e115380">Enter the friar. </stage>
+        <sp xml:id="A07003-e115390" who="A07003-friar">
+          <speaker>Friar.</speaker>
+          <p xml:id="A07003-e115400">My lord, I come to bring you news, that your brother the Cardinal of Lorraine by the King's consent is lately strangled unto death.</p>
+        </sp>
+        <sp xml:id="A07003-e115410" who="A07003-dumaine">
+          <pb facs="27"/>
+          <speaker>Dumaine.</speaker>
+          <p xml:id="A07003-e115420">My brother Carden all slain and I alive?</p>
+          <l xml:id="A07003-e115430">O words of power to kill a thousand men. </l>
+          <l xml:id="A07003-e115440">Come let us away and levy men,</l>
+          <p xml:id="A07003-e115450">'Tis war that must assuage this tyrant's pride.</p>
+        </sp>
+        <sp xml:id="A07003-e115460" who="A07003-friar">
+          <speaker>Friar.</speaker>
+          <l xml:id="A07003-e115470">My lord, hear me but speak. </l>
+          <p xml:id="A07003-e115480">I am a friar of the order of the Jacobins,</p>
+          <p xml:id="A07003-e115490">That for my conscience' sake will kill the King.</p>
+        </sp>
+        <sp xml:id="A07003-e115500" who="A07003-dumaine">
+          <speaker>Dumaine.</speaker>
+          <p xml:id="A07003-e115510">But what doth move thee above the rest to do the deed?</p>
+        </sp>
+        <sp xml:id="A07003-e115520" who="A07003-friar">
+          <speaker>Friar.</speaker>
+          <p xml:id="A07003-e115530">O my lord, I have been a great sinner in my days, and the deed is meritorious.</p>
+        </sp>
+        <sp xml:id="A07003-e115540" who="A07003-dumaine">
+          <speaker>Dumaine.</speaker>
+          <p xml:id="A07003-e115550">But how wilt thou get opportunity?</p>
+        </sp>
+        <sp xml:id="A07003-e115560" who="A07003-friar">
+          <speaker>Friar.</speaker>
+          <l xml:id="A07003-e115570">Tush my lord, let me alone for that. </l>
+        </sp>
+        <sp xml:id="A07003-e115580" who="A07003-dumaine">
+          <speaker>Dumaine.</speaker>
+          <l xml:id="A07003-e115590">Friar come with me,</l>
+          <l xml:id="A07003-e115600">We will go talk more of this within. </l>
+        </sp>
+        <stage xml:id="A07003-e115610">Exeunt.</stage>
+        <stage xml:id="A07003-e115620">Sound drum and trumpets, and enter the King of France, and Navarre, Epernoune, Bartus, Pleshe and soldiers.</stage>
+        <sp xml:id="A07003-e115630" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e115640">Brother of Navarre, I sorrow much,</l>
+          <l xml:id="A07003-e115650">That ever I was proved your enemy,</l>
+          <l xml:id="A07003-e115660">And that the sweet and princely mind you bear,</l>
+          <l xml:id="A07003-e115670"><pb facs="27"/> was ever troubled with injurious wars:</l>
+          <l xml:id="A07003-e115680">I vow as I am lawful King of France,</l>
+          <l xml:id="A07003-e115690">To recompense your reconciled love,</l>
+          <l xml:id="A07003-e115700">With all the honours and affections,</l>
+          <l xml:id="A07003-e115710">That ever I vouchsafed my dearest friends. </l>
+        </sp>
+        <sp xml:id="A07003-e115720" who="A07003-navarre">
+          <speaker>Navarre.</speaker>
+          <p xml:id="A07003-e115730">It is enough if that Navarre niay be,</p>
+          <l xml:id="A07003-e115740">Esteemed faithful to the King of France:</l>
+          <p xml:id="A07003-e115750">Whose service he may still command till death.</p>
+        </sp>
+        <sp xml:id="A07003-e115760" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e115770">Thanks to my kingly brother of Navarre. </p>
+          <l xml:id="A07003-e115780">Then here we'll lie before Lucrecia walls,</l>
+          <l xml:id="A07003-e115790">Girding this strumpet city with our siege,</l>
+          <l xml:id="A07003-e115800">Till surfeiting with our afflicting arms,</l>
+          <l xml:id="A07003-e115810">She cast her hateful stomach to the earth. </l>
+        </sp>
+        <stage xml:id="A07003-e115820">Enter a messenger.</stage>
+        <sp xml:id="A07003-e115830" who="A07003-messenger">
+          <speaker>Messenger.</speaker>
+          <p xml:id="A07003-e115840">And it please your majesty here is a friar of the order of the Jacobins, sent from the president of Paris, that craves access unto your grace.</p>
+        </sp>
+        <sp xml:id="A07003-e115850" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e115860">Let him come in. </l>
+        </sp>
+        <stage xml:id="A07003-e115870">Enter friar with a letter.</stage>
+        <sp xml:id="A07003-e115880" who="A07003-epernon">
+          <speaker>Epernoune.</speaker>
+          <l xml:id="A07003-e115890">I like not this friars look. </l>
+          <p xml:id="A07003-e115900"><pb facs="28"/>'twere not amiss my lord, if he were searched.</p>
+        </sp>
+        <sp xml:id="A07003-e115910" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e115920">Sweet Epernoune, our friars are holy men,</p>
+          <p xml:id="A07003-e115930">And will not offer violence to their King,</p>
+          <l xml:id="A07003-e115940">For all the wealth and treasure of the world,</l>
+          <p xml:id="A07003-e115950">Friar, thou dost acknowledge me thy King:</p>
+        </sp>
+        <sp xml:id="A07003-e115960" who="A07003-friar">
+          <speaker>Friar.</speaker>
+          <p xml:id="A07003-e115970">I my good lord, and will die therein.</p>
+        </sp>
+        <sp xml:id="A07003-e115980" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e115990">Then come thou near, and tell what news thou bringst.</p>
+        </sp>
+        <sp xml:id="A07003-e116000" who="A07003-friar">
+          <speaker>Friar.</speaker>
+          <p xml:id="A07003-e116010">My lord, the president of Paris greets your grace, and sends his duty by these speedy lines, humbly craving your gracious reply.</p>
+        </sp>
+        <sp xml:id="A07003-e116020" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e116030">I'll read them friar, and then I'll answer thee.</p>
+        </sp>
+        <sp xml:id="A07003-e116040" who="A07003-friar">
+          <speaker>Friar.</speaker>
+          <l xml:id="A07003-e116050">Sancte Jacobus, now have mercy upon me. </l>
+        </sp>
+        <stage xml:id="A07003-e116060">He stabs the King with a knife as he readeth the letter, and then the King getteth the knife and kills him.</stage>
+        <sp xml:id="A07003-e116070" who="A07003-epernon">
+          <speaker>Epernoune.</speaker>
+          <l xml:id="A07003-e116080">O my lord, let him live a while. </l>
+        </sp>
+        <sp xml:id="A07003-e116090" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e116100">No, let the villain die, and feel in hell, just torments for his treachery.</p>
+        </sp>
+        <sp xml:id="A07003-e116110" who="A07003-navarre">
+          <pb facs="28"/>
+          <speaker>Navarre.</speaker>
+          <l xml:id="A07003-e116120">What, is your highness hurt? </l>
+        </sp>
+        <sp xml:id="A07003-e116130" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e116140">Yes Navarre, but not to death I hope.</p>
+        </sp>
+        <sp xml:id="A07003-e116150" who="A07003-navarre">
+          <speaker>Navarre.</speaker>
+          <p xml:id="A07003-e116160">God shield your grace from such a sudden death:</p>
+          <l xml:id="A07003-e116170">Go call a surgeon hither straight. </l>
+        </sp>
+        <sp xml:id="A07003-e116180" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e116190">What irreligious pagans parts be these,</p>
+          <l xml:id="A07003-e116200">Of such as hold them of the holy church? </l>
+          <l xml:id="A07003-e116210">Take hence that damned villain from my sight. </l>
+        </sp>
+        <sp xml:id="A07003-e116220" who="A07003-epernon">
+          <speaker>Eper.</speaker>
+          <l xml:id="A07003-e116230">Ah, had your highness let him live,</l>
+          <l xml:id="A07003-e116240">We might have punished him to his deserts. </l>
+        </sp>
+        <sp xml:id="A07003-e116250" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e116260">Sweet Epernoune all rebels under heaven, shall take example by their punishment, how they bear arms against their sovereign.</p>
+          <l xml:id="A07003-e116270">Go call the English agent hither straight,</l>
+          <l xml:id="A07003-e116280">I'll send my sister England news of this,</l>
+          <l xml:id="A07003-e116290">And give her warning of her treacherous foes. </l>
+        </sp>
+        <sp xml:id="A07003-e116300" who="A07003-navarre">
+          <speaker>Navarre.</speaker>
+          <p xml:id="A07003-e116310">Pleaseth your grace to let the surgeon search your wound.</p>
+        </sp>
+        <sp xml:id="A07003-e116320" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e116330">The wound I warrant ye is deep my lord,</p>
+          <p xml:id="A07003-e116340">Search surgeon and resolve me what thou seest.</p>
+          <stage xml:id="A07003-e116350">The surgeon searcheth.</stage>
+          <stage xml:id="A07003-e116360">Enter the English agent. </stage>
+          <l xml:id="A07003-e116370">Agent for England, send thy mistress word,</l>
+          <l xml:id="A07003-e116380"><pb facs="29"/> what this detested jacobin hath done. </l>
+          <l xml:id="A07003-e116390">Tell her for all this that I hope to live,</l>
+          <p xml:id="A07003-e116400">Which if I do, the papal monarch goes to wrack.</p>
+          <l xml:id="A07003-e116410">And Antichristian kingdom falls. </l>
+          <l xml:id="A07003-e116420">These bloody hands shall tear his triple crown,</l>
+          <l xml:id="A07003-e116430">And fire accursed Rome about his ears. </l>
+          <l xml:id="A07003-e116440">He fire his crazed buildings and incense,</l>
+          <l xml:id="A07003-e116450">The papal towers to kiss the holy earth. </l>
+          <l xml:id="A07003-e116460">Navarre, give me thy hand, I here do swear,</l>
+          <l xml:id="A07003-e116470">To ruinate that wicked church of Rome,</l>
+          <l xml:id="A07003-e116480">That hatcheth up such bloody practises. </l>
+          <l xml:id="A07003-e116490">And here protest eternal love to thee,</l>
+          <l xml:id="A07003-e116500">And to the Queen of England specially,</l>
+          <l xml:id="A07003-e116510">Whom God hath blessed for hating papistry. </l>
+        </sp>
+        <sp xml:id="A07003-e116520" who="A07003-navarre">
+          <speaker>Navarre.</speaker>
+          <p xml:id="A07003-e116530">These words revive my thoughts and comforts me,</p>
+          <l xml:id="A07003-e116540">To see your highness in this virtuous mind. </l>
+        </sp>
+        <sp xml:id="A07003-e116550" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e116560">Tell me surgeon, shall I live? </l>
+        </sp>
+        <sp xml:id="A07003-e116570" who="A07003-surgeon">
+          <speaker>Surgeon</speaker>
+          <p xml:id="A07003-e116580">Alas my lord, the wound is dangerous, for you are stricken with a poisoned knife.</p>
+        </sp>
+        <sp xml:id="A07003-e116590" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e116600">A poisoned knife, what shall the French King die ,</p>
+          <l xml:id="A07003-e116610">Wounded and poisoned, both at once? </l>
+        </sp>
+        <sp xml:id="A07003-e116620" who="A07003-epernon">
+          <speaker>Eper.</speaker>
+          <p xml:id="A07003-e116630">O that that damned villain were alive again,</p>
+          <p xml:id="A07003-e116640">That we might torture him with some new found death.</p>
+        </sp>
+        <sp xml:id="A07003-e116650" who="A07003-bartus">
+          <speaker>Bar.</speaker>
+          <p xml:id="A07003-e116660">He died a death too good, the devil of hell torture his wicked soul.</p>
+        </sp>
+        <sp xml:id="A07003-e116670" who="A07003-king">
+          <pb facs="29"/>
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e116680">Ah curse him not sith he is dead, oh the fatal poison works within my breast, tell me surgeon and flatter not, may I live?</p>
+        </sp>
+        <sp xml:id="A07003-e116690" who="A07003-surgeon">
+          <speaker>Surgeon</speaker>
+          <l xml:id="A07003-e116700">Alas my lord, your highness cannot live. </l>
+        </sp>
+        <sp xml:id="A07003-e116710" who="A07003-navarre">
+          <speaker>Navarre.</speaker>
+          <p xml:id="A07003-e116720">Surgeon, why sayest thou so? the King may live.</p>
+        </sp>
+        <sp xml:id="A07003-e116730" who="A07003-king">
+          <speaker>King.</speaker>
+          <p xml:id="A07003-e116740">O no Navarre, thou must be King of France.</p>
+        </sp>
+        <sp xml:id="A07003-e116750" who="A07003-navarre">
+          <speaker>Navarre.</speaker>
+          <p xml:id="A07003-e116760">Long may you live, and still be King of France.</p>
+        </sp>
+        <sp xml:id="A07003-e116770" who="A07003-epernon">
+          <speaker>Eper.</speaker>
+          <l xml:id="A07003-e116780">Or else die Epernoune. </l>
+        </sp>
+        <sp xml:id="A07003-e116790" who="A07003-king">
+          <speaker>King.</speaker>
+          <l xml:id="A07003-e116800">Sweet Epernoune thy King must die. </l>
+          <p xml:id="A07003-e116810">My lords, fight in the quarrel of this valiant prince,</p>
+          <l xml:id="A07003-e116820">For he is your lawful King and my next heir:</l>
+          <l xml:id="A07003-e116830">Valois' line ends in my tragedy. </l>
+          <l xml:id="A07003-e116840">Now let the house of Bourbon wear the crown,</l>
+          <p xml:id="A07003-e116850">And may it never end in blood as mine hath done.</p>
+          <p xml:id="A07003-e116860">Weep not sweet Navarre, but revenge my death.</p>
+          <l xml:id="A07003-e116870">Ah Epernoune, is this thy love to me? </l>
+          <p xml:id="A07003-e116880">Henry thy King wipes of these childish tears,</p>
+          <l xml:id="A07003-e116890">And bids thee whet thy sword on Sextus bones,</l>
+          <l xml:id="A07003-e116900">That it may keenly slice the Catholics. </l>
+          <l xml:id="A07003-e116910">He loves me not that sheds most tears,</l>
+          <l xml:id="A07003-e116920">But he that makes most lavish of his blood. </l>
+          <l xml:id="A07003-e116930">Fire Paris where these treacherous rebels lurk,</l>
+          <l xml:id="A07003-e116940">I die Navarre, come bear me to my sepulchre. </l>
+          <l xml:id="A07003-e116950"><pb facs="30"/>Salute the Queen of England in my name,</l>
+          <l xml:id="A07003-e116960">And tell her Henry dies her faithful friend. </l>
+        </sp>
+        <stage xml:id="A07003-e116970">He dies. </stage>
+        <sp xml:id="A07003-e116990" who="A07003-navarre">
+          <speaker>Navarre.</speaker>
+          <p xml:id="A07003-e117000">Come lords, take up the body of the King.</p>
+          <l xml:id="A07003-e117010">That we may see it honourably interred:</l>
+          <l xml:id="A07003-e117020">And then I vow for to revenge his death,</l>
+          <l xml:id="A07003-e117030">As Rome and all those popish prelates there,</l>
+          <l xml:id="A07003-e117040">Shall curse the time that ere Navarre was King. </l>
+          <l xml:id="A07003-e117050">And ruled in France by Henry's fatal death. </l>
+        </sp>
+        <stage xml:id="A07003-e117060">They march out with the body of the King, lying on four men's shoulders with a dead march, drawing weapons on the ground.</stage>
+        <trailer xml:id="A07003-e117070">Finis.</trailer>
+        <pb facs="30"/>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A07003"><item xml:id="A07003-guise" n="60">
+    <seg type="character_name">A07003-guise</seg>
+    <seg type="speech_count">60</seg>
+  </item>
+  <item xml:id="A07003-king" n="53">
+    <seg type="character_name">A07003-king</seg>
+    <seg type="speech_count">53</seg>
+  </item>
+  <item xml:id="A07003-navarre" n="33">
+    <seg type="character_name">A07003-navarre</seg>
+    <seg type="speech_count">33</seg>
+  </item>
+  <item xml:id="A07003-anjou" n="20">
+    <seg type="character_name">A07003-anjou</seg>
+    <seg type="speech_count">20</seg>
+  </item>
+  <item xml:id="A07003-queen" n="16">
+    <seg type="character_name">A07003-queen</seg>
+    <seg type="speech_count">16</seg>
+  </item>
+  <item xml:id="A07003-epernon" n="15">
+    <seg type="character_name">A07003-epernon</seg>
+    <seg type="speech_count">15</seg>
+  </item>
+  <item xml:id="A07003-xxxx_1" n="11">
+    <seg type="character_name">A07003-xxxx_1</seg>
+    <seg type="speech_count">11</seg>
+  </item>
+  <item xml:id="A07003-admiral" n="9">
+    <seg type="character_name">A07003-admiral</seg>
+    <seg type="speech_count">9</seg>
+  </item>
+  <item xml:id="A07003-gonzago" n="8">
+    <seg type="character_name">A07003-gonzago</seg>
+    <seg type="speech_count">8</seg>
+  </item>
+  <item xml:id="A07003-friar" n="7">
+    <seg type="character_name">A07003-friar</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A07003-ramus" n="7">
+    <seg type="character_name">A07003-ramus</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A07003-cardinal" n="7">
+    <seg type="character_name">A07003-cardinal</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A07003-xxxx_2" n="7">
+    <seg type="character_name">A07003-xxxx_2</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A07003-dumaine" n="7">
+    <seg type="character_name">A07003-dumaine</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A07003-captain" n="7">
+    <seg type="character_name">A07003-captain</seg>
+    <seg type="speech_count">7</seg>
+  </item>
+  <item xml:id="A07003-old_queen" n="6">
+    <seg type="character_name">A07003-old_queen</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A07003-mountsorrell" n="6">
+    <seg type="character_name">A07003-mountsorrell</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A07003-mugeroun" n="6">
+    <seg type="character_name">A07003-mugeroun</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A07003-retes" n="6">
+    <seg type="character_name">A07003-retes</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A07003-duchess" n="6">
+    <seg type="character_name">A07003-duchess</seg>
+    <seg type="speech_count">6</seg>
+  </item>
+  <item xml:id="A07003-bartus" n="5">
+    <seg type="character_name">A07003-bartus</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A07003-all" n="4">
+    <seg type="character_name">A07003-all</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A07003-henry3" n="4">
+    <seg type="character_name">A07003-henry3</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A07003-seroune" n="4">
+    <seg type="character_name">A07003-seroune</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A07003-taleus" n="3">
+    <seg type="character_name">A07003-taleus</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07003-condy" n="3">
+    <seg type="character_name">A07003-condy</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07003-pleshe" n="3">
+    <seg type="character_name">A07003-pleshe</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07003-murderer" n="3">
+    <seg type="character_name">A07003-murderer</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07003-charles" n="3">
+    <seg type="character_name">A07003-charles</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07003-queen_margaret" n="3">
+    <seg type="character_name">A07003-queen_margaret</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07003-apothecary" n="3">
+    <seg type="character_name">A07003-apothecary</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07003-messenger" n="3">
+    <seg type="character_name">A07003-messenger</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07003-soldier" n="3">
+    <seg type="character_name">A07003-soldier</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07003-UNASSIGNED" n="2">
+    <seg type="character_name">A07003-UNASSIGNED</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07003-A07003-apothecary" n="2">
+    <seg type="character_name">A07003-A07003-apothecary</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07003-guise_jr" n="2">
+    <seg type="character_name">A07003-guise_jr</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07003-surgeon" n="2">
+    <seg type="character_name">A07003-surgeon</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+<item xml:id="A07003-maid" n="1">
+    <seg type="character_name">A07003-maid</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07003-serouns_wife" n="1">
+    <seg type="character_name">A07003-serouns_wife</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07003-lord" n="1">
+    <seg type="character_name">A07003-lord</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07003-queen_mother" n="1">
+    <seg type="character_name">A07003-queen_mother</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07003-protestant" n="1">
+    <seg type="character_name">A07003-protestant</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07003-xxxx_3" n="1">
+    <seg type="character_name">A07003-xxxx_3</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07003-unassigned" n="1">
+    <seg type="character_name">A07003-unassigned</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07003-loreine" n="1">
+    <seg type="character_name">A07003-loreine</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07003-joyeux" n="1">
+    <seg type="character_name">A07003-joyeux</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07003-wife" n="1">
+    <seg type="character_name">A07003-wife</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07003-man" n="1">
+    <seg type="character_name">A07003-man</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07003-cutpurse" n="1">
+    <seg type="character_name">A07003-cutpurse</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

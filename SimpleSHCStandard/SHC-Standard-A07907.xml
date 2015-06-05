@@ -1,0 +1,739 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A07907">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Triumphs of Reunited Britannia <date type="creation_date">1605</date></title>
+        <author>Munday,  Anthony</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A07907.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The triumphes of re-vnited Britania. Performed at the cost and charges of the Right Worship: Company of the Merchant-Tayulors, in honor of Sir Leonard Holliday kni: to solemnize his entrance as Lorde Mayor of the Citty of London, on Tuesday the 29. of October. 1605. Deuised and written by A. Mundy, cittizen and draper of London.</title>
+            <author>Munday, Anthony, 1553-1633.</author>
+          </titleStmt>
+          <extent>12 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2007 October (TCP phase 1)</date>
+            <idno type="marc">99848241</idno>
+            <idno type="stc">STC (2nd ed.) 18279.</idno>
+            <idno type="stc">Greg, I, 218.</idno>
+            <idno type="vid">13321</idno>
+            <idno type="DLPS">A07907</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The triumphes of re-vnited Britania. Performed at the cost and charges of the Right Worship: Company of the Merchant-Tayulors, in honor of Sir Leonard Holliday kni: to solemnize his entrance as Lorde Mayor of the Citty of London, on Tuesday the 29. of October. 1605. Deuised and written by A. Mundy, cittizen and draper of London.</title>
+            <title type="alt">Triumphes of re-united Britania</title>
+            <title type="alt">Triumphes of re-united Britania.</title>
+            <author>Munday, Anthony, 1553-1633.</author>
+          </titleStmt>
+          <extent>[24] p.</extent>
+          <publicationStmt>
+            <publisher>By W. Jaggard,</publisher>
+            <pubPlace>Printed at London :</pubPlace>
+            <date>[1605]</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Mostly in verse.</p>
+            </note>
+            <note>
+              <p>Publictaion date from STC.</p>
+            </note>
+            <note>
+              <p>Signatures: A-C4.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Bodleian Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Holliday, Leonard, -- Sir, -- ca. 1550-1612.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A07907-e100010">
+    <front xml:id="A07907-e100020">
+      <div type="title_page" xml:id="A07907-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A07907-e100040">The triumphs of reunited Britannia. </p>
+        <p xml:id="A07907-e100050">Performed at the cost and charges of the right worship: company of the Merchant-taylors, in honour of sir Leonard Holliday kni: to solemnize his entrance as lord mayor of the city of London, on Tuesday the 29. of October. 1605.</p>
+        <p xml:id="A07907-e100060">Devised and written by A. Mundy, citizen and draper of London.</p>
+        <p xml:id="A07907-e100070">Printed at London by W. Jaggard.</p>
+      </div>
+    </front>
+    <body xml:id="A07907-e100080">
+      <div type="text" xml:id="A07907-e100090">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The triumphs of reunited Brytannia.</head>
+        <p xml:id="A07907-e100100">Because our present conceit, reacheth unto the antiquity of Britain, which (In many minds) hath carried as many and variable opinions: I thought it not unnecessary, (Being thereto earnestly solicited) to speak somewhat concerning the estate of this our country, even from the very first original, until her honourable attaining the name of Brytannia, and then lastly how she became to be called England. Most writers do agree, that after the deluge,<note anchored="true" place="margin" xml:id="A07907-e100110">a 〈…〉 oment 〈…〉 lib. 〈…〉 de 〈…〉.</note> Noah was the sole monarch of all the world, and that he divided the dominion of the whole earth to his three sons: all Europe with the isles thereto belonging (Wherein this our isle of Britain was one among the rest) fell to the lot and possession of Japhet his third son. Samothes the sixth son of Japhet,<note anchored="true" place="margin" xml:id="A07907-e100120">Wolfangus Lazius.</note> called by Moses Mesech, by others Dys, had for his portion the whole country lying between the Ryner of Rhine and the Pyrenian mountains, where he founded his kingdom of Celtica<note anchored="true" place="margin" xml:id="A07907-e100130">I bale cent. 1</note> over his people called<pb facs="3"/> Celtae, which name, by the opinion of bale our country man, was indifferent to them of Gallia, and us of this isle of Britain. This samothes being the first King over these people, of him came lineally these Kings following: Magus, Sarron, Bruis and Bardus, all ruling severally over the Celts and Brytons, who were not then so called, but Samotheans, after the name of Samothes. Of Bardus, who, according to Berosus, was very famous for inventing of music and duties, came an order of philosophical poets or heralds, called Bardi, after his own name, whose excellent qualities were of such power, as they could enforce armies of enemies ready to fight fierce battle, to stand at a gaze, and forbear their cruel intent, until these bards left singing, and went out of the battle: according to Lucan. lib. 1. <quote xml:id="A07907-e100140"><l xml:id="A07907-e100150">Vos quoque qui fortes animas belloque peremptas,</l><l xml:id="A07907-e100160">Laudius in longum vates dimittitis aewm,</l><l xml:id="A07907-e100170">Plurima securi fudistis carmina Bardi. </l></quote>many of these bards lined among the Britan's,<note anchored="true" place="margin" xml:id="A07907-e100180">I. bale script. Brit cent 2 I prise. defence hist. Brit. Ca 〈…〉 de ant cant lib. 1 John Leland 〈…〉. ant . dict.</note> before the birth of Christ, as Plenidius and Oronius. Since then, Thalestine, the two Merlin's, Melkin, Elaskirion and others. Among the Welshmen now of late days, David die, Jollo Gough, David Ap-williams, and divers others remaining yet amongst them, and called in their own language bards. </p>
+        <p xml:id="A07907-e100190">Thus continued the name of Samothes the space of 310.<note anchored="true" place="margin" xml:id="A07907-e100200">Neptune for his many ships called King or god of the seas, and in regard of his great skill in navigation.</note> years, till Neptune put his son Albion the giant in possession of this land, who subduing the Samotheans, called this island Albion after his own name. Concerning the coming hither of Danaus<pb facs="3"/> 50. daughters, and that one of them should be called Albina, and so the land to be named by her: first, not any one of them was so named, neither do I think the story so authentical, but do hold Albion's name for the truest.</p>
+        <p xml:id="A07907-e100210">The country thus peopled with giants, and continuing after the name of Albion for 600. years: Brute, (Being directed by a vision in his sleep, to find out a country situated in the West) with the remains of his Trojan followers, arrived and landed at the haven now called Totnes, the year of the world, 2850. after the destruction of Troy, 66. before the building of Rome 368. and 1116. before Christ's nativity. He, searching the land over from side to side, found it to be very fertile, and inhabited by uncivil, monstrous huge men of stature, termed grants, whom he with his bold and resolved companions slew and destroyed. One of them named Goemagot or Gogmagog, exceeding the rest in strength and courage, Brute caused Corineus, one of his confederates, to wrestle with the said Goemagot at a place beside Dover, where the grant happened to break a tib in the side of Corineus, which so sharply incensed him, that redoubling his power to win the victory, he threw him headlong down from off one of the rocks, which place was after called Gogmagog's leap the giant being thus dispatched, in reward of this honourable piece of service, Brute gave unto Corineus a part of his land, which according to his name, was, and yet is unto this day, called Cornwall. </p>
+        <p xml:id="A07907-e100220"><pb facs="4"/>Brute thus having the whole land in his own quiet possession, began to build a city, near to the side of the river Thamesis, in the second year of his reign, which he named Troynovant, or as Humphrey Lhoyd saith,<note anchored="true" place="margin" xml:id="A07907-e100230">G●l. Mon.</note> Troinewith; which is, new Troy: in remembrance of that famous city Troy, whence he and his people (For the greater part) were descended. Now began he to alter the name of the island, and according to his own name, called it Britain, and caused all the inhabitants to be named Brytons, for a perpetual memory, that he was the first bringer of them into this land. In this time he had by his wife fair Innogen, daughter to King Pandrasus King of the Greeks, three worthy sons, the first named Locrine, the second Camber, and the third Albanact, to which three (Not long before his death) he divided his whole kingdom in several partitions, giving to Locrine all that part which we know best by the name of England, then termed by him Loegria or Logres. To Camber he limited the country of Wales, called Cambria after his name, and divided from Loegria by the river of Severn. To Albanact his third son, he appointed all the North part of the I'll, lying beyond the river of Humber, then called Albania, now Scotland; and to that river than Albania did reach. But since that time, the limits of Loegria were enlarged, first by the prowess of the Romans, then by our own conquests, that the Tweed on the one side, and the Solve on the other, were taken for the principal<pb facs="4"/> bounds between us and Scotland. </p>
+        <p xml:id="A07907-e100240">After Brute, I find not any other alteration of our country's name, until the reign of King Ecbert, who about the year of grace 800. and the first of his reign, gave forth an especial edict, dated at Winchester: that it should be named Angles land, or Angellandt, for which (In our time) we do pronounce it England. Nor can hengyst the Saxon be the father of this latter name, for Ecbert, because his ancestors descended from the Angles, one of the six nations that came with the Saxons into Britain, (For they were not all of one, but of divers countries, viz: angles, Saxons, Germains, Switzers, Norwegians, Jutes, otherwise termed Jutons, Vites, Gothes, or Getes and Vandales, and all comprehended under the name of Saxons, became 〈…〉 of Hengist the Saxon and his company, that first arrived here before any of the other) and thereto having now the monarchy and pre-eminence, in manner of this whole island, called the same after the name of the country, from whence he derived his original. So that neither Hengist, nor any Qu. named Angla, or derivation ab Angulo, is to be allowed before this sound and sure authority. Thus much briefly concerning the names of our country, now come we to discourse the whole frame and body of our device, in this solemn triumph of reunited Brytannia. </p>
+        <div type="part" xml:id="A07907-e100250">
+          <pb facs="5"/>
+          <head>The ship called the royal exchange.</head>
+          <sp xml:id="A07907-e100260" who="A07907-master">
+            <speaker>Master.</speaker>
+            <l xml:id="A07907-e100270">All hail fair London, to behold thy towers,</l>
+            <l xml:id="A07907-e100280">After our voyage long and dangerous:</l>
+            <l xml:id="A07907-e100290">Is seaman's comfort, thanks unto those powers. </l>
+            <l xml:id="A07907-e100300">That in all perils have preserved us.</l>
+            <l xml:id="A07907-e100310">Our royal exchange hath made a rich return,</l>
+            <l xml:id="A07907-e100320">Laden with spices, silks, and indigo,</l>
+            <l xml:id="A07907-e100330">Our wines that for our absence long did mourn,</l>
+            <l xml:id="A07907-e100340">Now find release from all their former woe. </l>
+          </sp>
+          <sp xml:id="A07907-e100350" who="A07907-mate">
+            <speaker>Mate.</speaker>
+            <l xml:id="A07907-e100360">Master good news, our owner, as I hear,</l>
+            <l xml:id="A07907-e100370">Is this day sworn in London's mayoralty:</l>
+          </sp>
+          <sp xml:id="A07907-e100380" who="A07907-boy">
+            <speaker>Boy.</speaker>
+            <l xml:id="A07907-e100390">Master 'tis true, for, see what troops appear,</l>
+            <l xml:id="A07907-e100400">Of citizens, to bear him company. </l>
+            <l xml:id="A07907-e100410">Hark how the drums and trumpets cheerly sound,</l>
+            <l xml:id="A07907-e100420">To solemnize the triumph of this day,</l>
+            <l xml:id="A07907-e100430">Shall we do nothing, but be idle found,</l>
+            <l xml:id="A07907-e100440">On such a general mirthful holiday? </l>
+          </sp>
+          <sp xml:id="A07907-e100450" who="A07907-master">
+            <speaker>Master.</speaker>
+            <l xml:id="A07907-e100460">Take of our pepper, of our cloves and mace,</l>
+            <l xml:id="A07907-e100470">And liberally bestow them round about,</l>
+            <l xml:id="A07907-e100480">'Tis our ship's luggage, and in such a case,</l>
+            <l xml:id="A07907-e100490">I know our owner means to bear us out. </l>
+            <l xml:id="A07907-e100500">Then, in his honour: and that company,</l>
+            <l xml:id="A07907-e100510">Whose love and bounty this day doth declare,</l>
+            <l xml:id="A07907-e100520">Hurl boy, hurl mate. And gunner, see you ply</l>
+            <l xml:id="A07907-e100530">Your ordinance, and of fireworks make no spare,</l>
+            <l xml:id="A07907-e100540">To add the very uttermost we may,</l>
+            <l xml:id="A07907-e100550">To make this up a cheerful holiday. </l>
+          </sp>
+          <trailer xml:id="A07907-e100560">Finis.</trailer>
+        </div>
+        <div type="part" xml:id="A07907-e100570">
+          <pb facs="5"/>
+          <head>The lion, and the camel.</head>
+          <p xml:id="A07907-e100580">On the lion and camel, we do figuratively personate Neptune and his Queen Amphitrita, who first seated their son Albion in this land. And in them we figure poetically, that as they then triumphed in their sons happy fortune, so now they cannot choose but do the like, seeing what happy success hath thereon ensued, to renown this country from time to time. And as times have altered former harsh incivilities, bringing the state to more perfect shape of majesty, so (As occasion serves) do they likewise say their borrowed forms aside, and speak according to the nature of the present business in hand, without any imputation of grossness or error, considering the laws of poesy grants such allowance and liberty. Corineus and Goemagot, appearing in the shape and proportion of huge giants, for the more grace and beauty of the show, we place as guides to Britania's mount, and being fettered unto it in chains of gold, they seem (As it were) to draw the whole frame, showing much envy and contention, who shall exceed most in duty and service.</p>
+        </div>
+        <div type="part" xml:id="A07907-e100590">
+          <head>The pageant.</head>
+          <p xml:id="A07907-e100600">On a mount triangular, as the island of Britain itself is described to be, we seat in the supreme place, under the shape<pb facs="6"/> of a fair and beautiful nymph, Britannia herself accosted with Brutus' divided kingdoms, in the like female representations, Loegria, Cambria, and Albania. Brytania speaking to Brute her conqueror, (Who is seated somewhat lower, in the habit of an adventurous warlike Trojan) tells him, that she had still continued her name of Albion, but for his conquest of her virgin honour, which since it was by heaven so appointed, she reckons it to be the very best of her fortunes. Brute shows her, what height of happiness she hath attained unto by his victory, being before a vast wilderness, inhabited by giants, and a mere den of monsters: Goemagot and his barbarous brood, being quite subdued, his civil followers, first taught her modest manners, and the means how to reign as an imperial lady, building his Troya nova by the river Thamesis, and beautifying his land with other cities beside. But then the three virgin kingdoms seem to reprove him, for his overmuch fond love to his sons, and dividing her (Who was one sole monarchy) into three several estates, the hurt and inconvenience whereon ensuing, each one of them modestly delivered unto him. He stays their further progress in reproof, by his and their now present revived condition, being raised again by the powerful virtue of poesy (After such length of time) to behold Britania's former felicity again, and that the same Albania, where Humber slew his son Albanact, had bred a second Brute, by the blessed marriage of Margaret, eldest daughter to King Henry<pb facs="6"/> the seventh, to James the fourth King of Scotland, of whom our second Brute (Royal King James) is truly and rightfully descended: by whose happy coming to the crown, England, Wales, and Scotland, by the first Brute severed and divided, is in our second Brute reunited, and made one happy Britannia again: peace and quietness bringing that to pass, which war nor any other means could attain unto. For joy of which sacred union and combination, Locrine, Camber, and Albanact, figured there also in their antique estates, deliver up their crowns and sceptres, applauding the day of this long-wished conjunction, and Troya-nova (Now London) incites fair Thamesis, and the rivers that bounded the severed kingdoms, (Personated in fair and beautiful nymphs) to sing paeans and songs of triumph, in honour of our second Brute, royal King James. Thamesis, as Queen of all Britain's rivers, begins the triumphal course of solemn rejoicing. Next her, Severn, that took her name of Sabrina, begotten by Locrine on fair Elstrid, and both mother and daughter were drowned in that river, by Guendolena's command, the wife to Locrine, doth the like. Lastly, Humber, whose name was derived from Humber King of the Scythians, who being pursued by Locrine and Camber, in revenge of their brother's death, was enforced to leap into that river, and there drowned himself, of whom I find these verses written. <quote xml:id="A07907-e100610"><l xml:id="A07907-e100620">Dum fugit obstat ei flumen submergitur illic,</l><l xml:id="A07907-e100630">Deque svo tribuit nomine aquae. </l></quote><pb facs="7"/>What further may be required, to express Britania's triumph more perfectly to the life, with all the other personages her servants and attendants, is more at large let down in the several speeches, which I have hereto annexed as most meet and convenient.</p>
+          <div type="subpart" xml:id="A07907-e100640">
+            <head>The speeches delivered by the several children, according to their degrees of seating in the pageant.</head>
+            <sp xml:id="A07907-e100650" who="A07907-britannia">
+              <speaker>Britannia.</speaker>
+              <l xml:id="A07907-e100660">I that sometime was termed Albion,</l>
+              <l xml:id="A07907-e100670">After the name of Neptune's valiant son:</l>
+              <l xml:id="A07907-e100680">Albion the giant, and so had still held on,</l>
+              <l xml:id="A07907-e100690">But that my conquest, first by thee begun,</l>
+              <l xml:id="A07907-e100700">Hath in fame's chronicle such honour won,</l>
+              <l xml:id="A07907-e100710">That thy first setting from Albania,<note anchored="true" place="margin" xml:id="A07907-e100720">Albania in Greece.</note></l>
+              <l xml:id="A07907-e100730">Crowned me thy virgin Queen Britannia. </l>
+            </sp>
+            <sp xml:id="A07907-e100740" who="A07907-brute">
+              <speaker>Brvte.</speaker>
+              <lg xml:id="A07907-e100750">
+                <l xml:id="A07907-e100760">Wherein, recount thy height of happiness,</l>
+                <l xml:id="A07907-e100770">Thou that before my honoured victory,</l>
+                <l xml:id="A07907-e100780">Wert as a base and o'ergrown wilderness,</l>
+                <l xml:id="A07907-e100790">Peopled with men of incivility,</l>
+                <l xml:id="A07907-e100800">Huge and stern giants, keeping company</l>
+                <l xml:id="A07907-e100810">With savage monsters, thus was Albion then,</l>
+                <l xml:id="A07907-e100820">Till I first furnished thee with civil men. </l>
+              </lg>
+              <lg xml:id="A07907-e100830">
+                <l xml:id="A07907-e100840">Goentagot, and all his barbarous brood,</l>
+                <l xml:id="A07907-e100850">(When he was foiled by Corineus' hand,)</l>
+                <l xml:id="A07907-e100860">Were quite subdued, and not one withstood</l>
+                <l xml:id="A07907-e100870">My quiet progress over all thy land,</l>
+                <l xml:id="A07907-e100880">But, as sole conqueror, I did command:</l>
+                <l xml:id="A07907-e100890">And then from Albion did I change thy name,</l>
+                <l xml:id="A07907-e100900">To Brute's Britannia, still to hold the same. </l>
+              </lg>
+              <lg xml:id="A07907-e100910">
+                <pb facs="7"/>
+                <l xml:id="A07907-e100920">Then built I my new Troy, in memory</l>
+                <l xml:id="A07907-e100930">Of whence I came, by Thanesis fair side,</l>
+                <l xml:id="A07907-e100940">And nature giving me posterity,</l>
+                <l xml:id="A07907-e100950">Three worthy sons, not long before I died,</l>
+                <l xml:id="A07907-e100960">My kingdom to them three I did divide. </l>
+                <l xml:id="A07907-e100970">And as in three parts I had set it down,</l>
+                <l xml:id="A07907-e100980">Each named his seat, and each did wear a crown. </l>
+              </lg>
+            </sp>
+            <sp xml:id="A07907-e100990" who="A07907-loegria">
+              <speaker>Loegria.</speaker>
+              <l xml:id="A07907-e101000">But she whom thou hadst made one monarchy</l>
+              <l xml:id="A07907-e101010">To be so severed, to thy sons might show</l>
+              <l xml:id="A07907-e101020">Some sign of love, to her small courtesy,</l>
+              <l xml:id="A07907-e101030">When three possess what one did solely owe,</l>
+              <l xml:id="A07907-e101040">It makes more ways to harm then many know. </l>
+              <l xml:id="A07907-e101050">And so proved that division of the land,</l>
+              <l xml:id="A07907-e101060">It brought in wary that hellish firebrand. </l>
+            </sp>
+            <sp xml:id="A07907-e101070" who="A07907-cambria">
+              <speaker>Cambria.</speaker>
+              <l xml:id="A07907-e101080">The King of Hunnes entered Albania,</l>
+              <l xml:id="A07907-e101090">Slew Albanact thy son, and there bare sway,</l>
+              <l xml:id="A07907-e101100">Till Locrine rose with valiant Cambria,</l>
+              <l xml:id="A07907-e101110">And to revenge their brother's death made way,</l>
+              <l xml:id="A07907-e101120">Which instantly they did without delay,</l>
+              <l xml:id="A07907-e101130">And made that river bear the proud King's name,</l>
+              <l xml:id="A07907-e101140">That thus intruded, drowned him in the same. </l>
+            </sp>
+            <sp xml:id="A07907-e101150" who="A07907-albania">
+              <speaker>Albania.</speaker>
+              <l xml:id="A07907-e101160">Fair Elstrid taken in that fatal fight,</l>
+              <l xml:id="A07907-e101170">And Locrine's love to her, wrong to his wife,</l>
+              <l xml:id="A07907-e101180">Duke corineus daughter, dear delight,</l>
+              <l xml:id="A07907-e101190">That reft both her and Locrine of his life,</l>
+              <l xml:id="A07907-e101200">Opened a gap to much more dismal strife,</l>
+              <l xml:id="A07907-e101210">Of all which heavy haps there had been none,</l>
+              <l xml:id="A07907-e101220">Had Brute left me one governor alone. </l>
+            </sp>
+            <sp xml:id="A07907-e101230" who="A07907-brute">
+              <speaker>Brvte.</speaker>
+              <lg xml:id="A07907-e101240">
+                <l xml:id="A07907-e101250">See, after so long slumbering in our tombs</l>
+                <l xml:id="A07907-e101260">Such multitudes of years, rich poesy</l>
+                <l xml:id="A07907-e101270">That does revive us to fill up these rooms</l>
+                <l xml:id="A07907-e101280"><pb facs="8"/> and tell our former age's history,</l>
+                <l xml:id="A07907-e101290">(The better to record Brutus' memory,)</l>
+                <l xml:id="A07907-e101300">Turns now our accents to another key,</l>
+                <l xml:id="A07907-e101310">To tell old Britain's new born happy day. </l>
+              </lg>
+              <lg xml:id="A07907-e101320">
+                <l xml:id="A07907-e101330">That separation of her sinewed strength,</l>
+                <l xml:id="A07907-e101340">Weeping so many hundred years of woes</l>
+                <l xml:id="A07907-e101350">Whereto that learned bard dated long length</l>
+                <l xml:id="A07907-e101360">Before those ulcered wounds again could close,<note anchored="true" place="margin" xml:id="A07907-e101370">Merlin, who propheted hereof long ago.</note></l>
+                <l xml:id="A07907-e101380">And reach unto their former first dispose. </l>
+                <l xml:id="A07907-e101390">Hath run his course through times sandy glass,</l>
+                <l xml:id="A07907-e101400">And brought the former happiness that was. </l>
+              </lg>
+              <lg xml:id="A07907-e101410">
+                <l xml:id="A07907-e101420">Albania, Scotland, where my son was slain</l>
+                <l xml:id="A07907-e101430">And where my folly's wretchedness began,</l>
+                <l xml:id="A07907-e101440">Hath bred another Brute, that gives again</l>
+                <l xml:id="A07907-e101450">To Britain her first name, he is the man</l>
+                <l xml:id="A07907-e101460">On whose fair birth our elder wits did scan,</l>
+                <l xml:id="A07907-e101470">Which prophet-like seventh Henry did foresee,</l>
+                <l xml:id="A07907-e101480">Of whose fair child comes Britain's unity. </l>
+              </lg>
+              <lg xml:id="A07907-e101490">
+                <l xml:id="A07907-e101500">And what fierce war by no means could effect,</l>
+                <l xml:id="A07907-e101510">To reunite those sundered lands in one,</l>
+                <l xml:id="A07907-e101520">The hand of heaven did peacefully elect</l>
+                <l xml:id="A07907-e101530">By mildest grace, to seat on Britain's throne</l>
+                <l xml:id="A07907-e101540">This second Brute, than whom there else was none. </l>
+                <l xml:id="A07907-e101550">Wales, England, Scotland, severed first by me:</l>
+                <l xml:id="A07907-e101560">To knit again in blessed unity. </l>
+              </lg>
+              <lg xml:id="A07907-e101570">
+                <l xml:id="A07907-e101580">For this britannia tides in triumph thus,</l>
+                <l xml:id="A07907-e101590">For this these sister-kingdoms now shake hands,</l>
+                <l xml:id="A07907-e101600">Brute's Troy, (Now London) looks most amorous</l>
+                <l xml:id="A07907-e101610">And stands on tiptoe, telling foreign lands,</l>
+                <l xml:id="A07907-e101620"><pb facs="8"/> so long as seas bear ships, or shores have sands:</l>
+                <l xml:id="A07907-e101630">So long shall we in true devotion pray,</l>
+                <l xml:id="A07907-e101640">And praise high heaven for that most happy day. </l>
+              </lg>
+            </sp>
+            <sp xml:id="A07907-e101650" who="A07907-locrine">
+              <speaker>Locrine.</speaker>
+              <l xml:id="A07907-e101660">England, that first was called Loegria,</l>
+              <l xml:id="A07907-e101670">After my name, when I commanded here:</l>
+              <l xml:id="A07907-e101680">Gives back her due unto Britannia,</l>
+              <l xml:id="A07907-e101690">And doth her true born son in right prefer,</l>
+              <l xml:id="A07907-e101700">Before divided rule, irregular. </l>
+              <l xml:id="A07907-e101710">Wishing my brothers in like sort resign,</l>
+              <l xml:id="A07907-e101720">A sacred union once more to combine. </l>
+            </sp>
+            <sp xml:id="A07907-e101730" who="A07907-camber">
+              <speaker>Camber.</speaker>
+              <l xml:id="A07907-e101740">I yielded long ago, and did in heart,</l>
+              <l xml:id="A07907-e101750">Allow Britannia's first created name,</l>
+              <l xml:id="A07907-e101760">My true born brutes have ever took her part</l>
+              <l xml:id="A07907-e101770">And to their last hour will maintain the same. </l>
+            </sp>
+            <sp xml:id="A07907-e101780" who="A07907-albanact">
+              <speaker>Albanact.</speaker>
+              <l xml:id="A07907-e101790">It is no marvel though you gladly yield,</l>
+              <l xml:id="A07907-e101800">When the all-ruling power doth so command,</l>
+              <l xml:id="A07907-e101810">I bring that monarch now into the field,</l>
+              <l xml:id="A07907-e101820">With peace and plenty in his sacred hand,</l>
+              <l xml:id="A07907-e101830">To make britannia one united land:</l>
+              <l xml:id="A07907-e101840">And when I brought him, after times will say</l>
+              <l xml:id="A07907-e101850">It was Britannia's happy holiday. </l>
+            </sp>
+            <sp xml:id="A07907-e101860" who="A07907-troya_nova">
+              <pb facs="9"/>
+              <speaker>Troya nova.</speaker>
+              <l xml:id="A07907-e101870">Then you fair swans in Thamesis that swim,</l>
+              <l xml:id="A07907-e101880">And you c 〈…〉 o●se nymphs that do delight to play</l>
+              <l xml:id="A07907-e101890">On Humber and 〈…〉 e Sauverne, welcome him</l>
+              <l xml:id="A07907-e101900">In Canz 〈…〉 〈…〉 gges and many a roundelay</l>
+              <l xml:id="A07907-e101910">That from the North brought you this blessed day. </l>
+              <l xml:id="A07907-e101920">And in one tuneful, harmony let's sing,</l>
+              <l xml:id="A07907-e101930">Welcome King James, welcome bright Britain's King. </l>
+            </sp>
+            <sp xml:id="A07907-e101940" who="A07907-thamesis">
+              <speaker>Thamesis.</speaker>
+              <l xml:id="A07907-e101950">I that am Queen of all Britannia's streams,</l>
+              <l xml:id="A07907-e101960">The ocean's darling and endear delight,</l>
+              <l xml:id="A07907-e101970">That want on daily with the sun's guilt beams</l>
+              <l xml:id="A07907-e101980">And o'er my bosom suffer day and night,</l>
+              <l xml:id="A07907-e101990">Fair floats of ships to sail in goodly sight:</l>
+              <l xml:id="A07907-e102000">Unto my second Brute shall homely sing,</l>
+              <l xml:id="A07907-e102010">Welcome King James, welcome great Britain's King. </l>
+            </sp>
+            <sp xml:id="A07907-e102020" who="A07907-savarne">
+              <speaker>Savarne.</speaker>
+              <l xml:id="A07907-e102030">Fair Elstrid's and Sabrina's fatal grave,</l>
+              <l xml:id="A07907-e102040">(Whereby the name of Severn fell to me:)</l>
+              <l xml:id="A07907-e102050">When Locrine's Guendolen in anger gave,</l>
+              <l xml:id="A07907-e102060">My womb to be their dismal tragedy,</l>
+              <l xml:id="A07907-e102070">Whereof my nymphs (As yet) talk mournfully,</l>
+              <l xml:id="A07907-e102080">Unto my second Brute do likewise sing,</l>
+              <l xml:id="A07907-e102090">Welcome King James, welcome great Britain's King. </l>
+            </sp>
+            <sp xml:id="A07907-e102100" who="A07907-humber">
+              <speaker>Humber.</speaker>
+              <l xml:id="A07907-e102110">Proud Scythians Humber that slew Albanact,</l>
+              <l xml:id="A07907-e102120">Whose brothers forest him to a shameful flight,</l>
+              <l xml:id="A07907-e102130">When in my watery arms his light I wracked,</l>
+              <l xml:id="A07907-e102140">I took his name, and kept it as my right,</l>
+              <l xml:id="A07907-e102150">For which my nymphs still dancing in delight,</l>
+              <l xml:id="A07907-e102160">With me these paeans and sweet Canzoni sing,</l>
+              <l xml:id="A07907-e102170">Welcome King James, our second Brute and King. </l>
+            </sp>
+            <trailer xml:id="A07907-e102180">Finis.</trailer>
+          </div>
+        </div>
+        <div type="part" xml:id="A07907-e102190">
+          <pb facs="9"/>
+          <head>The chariot.</head>
+          <sp xml:id="A07907-e102200" who="A07907-pheme">
+            <speaker>Pheme</speaker>
+            <stage xml:id="A07907-e102210">Riding before it.</stage>
+            <lg xml:id="A07907-e102220">
+              <l xml:id="A07907-e102230">Fame that attends on Britain's monarchy,</l>
+              <l xml:id="A07907-e102240">Thus reunited to one state again,</l>
+              <l xml:id="A07907-e102250">Ushers this chariot of true dignity,</l>
+              <l xml:id="A07907-e102260">Wherein seven Kings that did in England reign,</l>
+              <l xml:id="A07907-e102270">These royal virtues in their shields contain,</l>
+              <l xml:id="A07907-e102280">Expressing what great grace each majesty,</l>
+              <l xml:id="A07907-e102290">Gave to the Merchant-taylors' company</l>
+            </lg>
+            <lg xml:id="A07907-e102300">
+              <l xml:id="A07907-e102310">When they were first a guild, and bore the style</l>
+              <l xml:id="A07907-e102320">Of taylors, and of armourers beside</l>
+              <l xml:id="A07907-e102330">Of the linen armoury: for no little while</l>
+              <l xml:id="A07907-e102340">Were they so known, and daily did provide,</l>
+              <l xml:id="A07907-e102350">Those coats of arms that quailed our foemen's pride</l>
+              <l xml:id="A07907-e102360">When England's bent-bow, and the gray-goose wing</l>
+              <l xml:id="A07907-e102370">Our many victories abroad did sing. </l>
+            </lg>
+            <lg xml:id="A07907-e102380">
+              <l xml:id="A07907-e102390">From this employment for the state's defence,</l>
+              <l xml:id="A07907-e102400">Their ancient title first unto them came,</l>
+              <l xml:id="A07907-e102410">And then their following care and diligence,</l>
+              <l xml:id="A07907-e102420">Squared them the way to order well and frame,</l>
+              <l xml:id="A07907-e102430">All means to keep their guild in honest fame. </l>
+              <l xml:id="A07907-e102440">Now gracious virtues unto you I leave,</l>
+              <l xml:id="A07907-e102450">What further fortunes time did them bequeath. </l>
+            </lg>
+          </sp>
+          <sp xml:id="A07907-e102460" who="A07907-unassigned">
+            <speaker>Tapesnotes.</speaker>
+            <l xml:id="A07907-e102470">Edward the third, whose noble name I bear,</l>
+            <l xml:id="A07907-e102480">Hearing the love and royal amity,</l>
+            <l xml:id="A07907-e102490"><pb facs="10"/> that good report gave of them everywhere ,</l>
+            <l xml:id="A07907-e102500">Preserving peace and kind society,</l>
+            <l xml:id="A07907-e102510">In his first year unto this company,</l>
+            <l xml:id="A07907-e102520">He gave this charter to confirm their guild:</l>
+            <l xml:id="A07907-e102530">And they enjoyed it, as his highness wild. </l>
+          </sp>
+          <sp xml:id="A07907-e102540" who="A07907-eros">
+            <speaker>Aeros.</speaker>
+            <l xml:id="A07907-e102550">To build this body on a stronger frame,</l>
+            <l xml:id="A07907-e102560">Richard the second gave authority,</l>
+            <l xml:id="A07907-e102570">A master and four keepers they should name,</l>
+            <l xml:id="A07907-e102580">And full elect to sway their mystery,</l>
+            <l xml:id="A07907-e102590">Granting them power to have a livery,</l>
+            <l xml:id="A07907-e102600">And hold a feast on saint John Baptist day,</l>
+            <l xml:id="A07907-e102610">Yearly for ever, as they do and may. </l>
+          </sp>
+          <sp xml:id="A07907-e102620" who="A07907-eleutheriotes">
+            <speaker>Eleutheriotes.</speaker>
+            <l xml:id="A07907-e102630">To fortify a work so well begun,</l>
+            <l xml:id="A07907-e102640">Henry the fourth did liberally create:</l>
+            <l xml:id="A07907-e102650">(Beside the former favours to them done,)</l>
+            <l xml:id="A07907-e102660">Their guild a brotherhood incorporate,</l>
+            <l xml:id="A07907-e102670">And thought it no disgrace to his high state,</l>
+            <l xml:id="A07907-e102680">To wear the clothing of the company,</l>
+            <l xml:id="A07907-e102690">A most majestic royal courtesy. </l>
+          </sp>
+          <sp xml:id="A07907-e102700" who="A07907-sophrosyne">
+            <speaker>Sophrosyne.</speaker>
+            <l xml:id="A07907-e102710">Henry the fifth my warlike lord maintained</l>
+            <l xml:id="A07907-e102720">His father's love to this society,</l>
+          </sp>
+          <sp xml:id="A07907-e102730" who="A07907-agnites">
+            <speaker>Agnites.</speaker>
+            <l xml:id="A07907-e102740">Of my sixth Henry they as freely gained,</l>
+            <l xml:id="A07907-e102750">All former grants in selfsame quality,</l>
+            <l xml:id="A07907-e102760">He wore their clothing, mild and graciously:</l>
+            <l xml:id="A07907-e102770">For princes lose no part of dignity,</l>
+            <l xml:id="A07907-e102780">In being affable, it adds to majesty. </l>
+          </sp>
+          <sp xml:id="A07907-e102790" who="A07907-hypomone">
+            <pb facs="10"/>
+            <speaker>Hypomone.</speaker>
+            <l xml:id="A07907-e102800">Thus long a master and four keepers stood. </l>
+            <l xml:id="A07907-e102810">Till my fourth Edward change the keeper's name</l>
+            <l xml:id="A07907-e102820">To wardens: for the strength of brotherhood,</l>
+            <l xml:id="A07907-e102830">And thus at first master and wardens came. </l>
+          </sp>
+          <sp xml:id="A07907-e102840" who="A07907-epimeleia">
+            <speaker>Epimeleia.</speaker>
+            <l xml:id="A07907-e102850">And for they traded, as no men did more,</l>
+            <l xml:id="A07907-e102860">With foreign realms, by clothes and merchandise,</l>
+            <l xml:id="A07907-e102870">Returning hither other country's store,</l>
+            <l xml:id="A07907-e102880">Of what might best be our commodities,</l>
+            <l xml:id="A07907-e102890">Henry the seventh a gracious King, and wise,</l>
+            <l xml:id="A07907-e102900">To Merchant-taylors did exchange their name:</l>
+            <l xml:id="A07907-e102910">Since when, with credit they have kept the same. </l>
+          </sp>
+          <sp xml:id="A07907-e102920" who="A07907-pheme">
+            <speaker>Pheme.</speaker>
+            <l xml:id="A07907-e102930">But sacred lady, deign me so much grace,</l>
+            <l xml:id="A07907-e102940">As tell me, why that seat is unsupplied ,</l>
+            <l xml:id="A07907-e102950">Being the most eminent and chiefest place,</l>
+            <l xml:id="A07907-e102960">With state, with crown and sceptre dignified? </l>
+          </sp>
+          <sp xml:id="A07907-e102970" who="A07907-epimeleia">
+            <speaker>Epimeleia.</speaker>
+            <l xml:id="A07907-e102980">Have our discourses (Pheme) let thee know,</l>
+            <l xml:id="A07907-e102990">That seven Kings have born free brothers' name,</l>
+            <l xml:id="A07907-e103000">Of this society, and may not time bestow</l>
+            <l xml:id="A07907-e103010">An eight, when heaven shall so appoint the same? </l>
+          </sp>
+          <sp xml:id="A07907-e103020" who="A07907-pheme">
+            <speaker>Pheme.</speaker>
+            <lg xml:id="A07907-e103030">
+              <l xml:id="A07907-e103040">I find recorded in my register,</l>
+              <l xml:id="A07907-e103050">Seven Kings have honoured this society:</l>
+              <l xml:id="A07907-e103060"><pb facs="11"/> fourteen great Dukes did willingly prefer,</l>
+              <l xml:id="A07907-e103070">Their love and kindness to this company,</l>
+              <l xml:id="A07907-e103080">Threescore eight lords declared like amity,</l>
+              <l xml:id="A07907-e103090">Terming themselves all brothers of this band,</l>
+              <l xml:id="A07907-e103100">The very worthiest lords in all the land. </l>
+            </lg>
+            <lg xml:id="A07907-e103110">
+              <l xml:id="A07907-e103120">Three Dukes, three Earls, four lords of noble name</l>
+              <l xml:id="A07907-e103130">All in one year did join in brotherhood:</l>
+            </lg>
+            <p xml:id="A07907-e103140">In the year 1390. Edward Duke of York. Thomas, Duke of Glocester. Henry Duke of Hereford and Earl of Derby, who afterwards was K. Henry the fourth. Edward, Earl of Rutland. Thomas Earl of Warwick. John Holland, Earl of Huntingdon. John, lord Rose. Rafe lord Nevill. Thomas L. Furnival. Reignald, lord grey of Rithin.</p>
+            <lg xml:id="A07907-e103150">
+              <l xml:id="A07907-e103160">I find beside great lords from France there came</l>
+              <l xml:id="A07907-e103170">To hold like league, and do them any good:</l>
+            </lg>
+            <p xml:id="A07907-e103180">Gaylard, lord Danvers. Barard, lord Delamote, Barard, lord Montferrant, etc.</p>
+            <lg xml:id="A07907-e103190">
+              <l xml:id="A07907-e103200">Yet no embasing to their height in blood:</l>
+              <l xml:id="A07907-e103210">For they accounted honour then most high,</l>
+              <l xml:id="A07907-e103220">When it was held up by community. </l>
+            </lg>
+            <lg xml:id="A07907-e103230">
+              <l xml:id="A07907-e103240">Of Bishops, knights and Deans, to those before,</l>
+              <l xml:id="A07907-e103250">(Not spoke in vaunt , or any spirit of pride)</l>
+              <l xml:id="A07907-e103260">My records could afford as many more ,</l>
+              <l xml:id="A07907-e103270">All brothers, Merchant-taylors signified</l>
+              <l xml:id="A07907-e103280">That lived in love with them, and when they died</l>
+              <l xml:id="A07907-e103290">Left me their names, to after-times to tell,</l>
+              <l xml:id="A07907-e103300">Thus then they did, and thought it good and well. </l>
+            </lg>
+          </sp>
+          <sp xml:id="A07907-e103310" who="A07907-neptune">
+            <pb facs="11"/>
+            <speaker>Neptune on the lion.</speaker>
+            <lg xml:id="A07907-e103320">
+              <l xml:id="A07907-e103330">My borrowed name of Neptune now I leave,</l>
+              <l xml:id="A07907-e103340">The like doth Amphitrita my fair Queen,</l>
+              <l xml:id="A07907-e103350">And worthy lord, grant favour to receive</l>
+              <l xml:id="A07907-e103360">What in these mysteries we seem to mean,</l>
+              <l xml:id="A07907-e103370">Britannia's glory hath been heard and seen,</l>
+              <l xml:id="A07907-e103380">Revived from her old chaos of distress,</l>
+              <l xml:id="A07907-e103390">And now united in firm happiness. </l>
+            </lg>
+            <lg xml:id="A07907-e103400">
+              <l xml:id="A07907-e103410">Blessed be that second Brute James our dread King,</l>
+              <l xml:id="A07907-e103420">That set this wreath of union on her head,</l>
+              <l xml:id="A07907-e103430">Whose very name did heavenly comfort bring,</l>
+              <l xml:id="A07907-e103440">When in despair our hopes lay drooping dead,</l>
+              <l xml:id="A07907-e103450">When comfort from most hearts was gone and fled,</l>
+              <l xml:id="A07907-e103460">Immediately the trumpets tongue did say,</l>
+              <l xml:id="A07907-e103470">God save King James: o 'twas a happy day. </l>
+            </lg>
+          </sp>
+          <sp xml:id="A07907-e103480" who="A07907-amphitrita">
+            <speaker>Amphitrita.</speaker>
+            <lg xml:id="A07907-e103490">
+              <l xml:id="A07907-e103500">Our latest phaenix whose dead cinders shine,</l>
+              <l xml:id="A07907-e103510">In angels spheres, she, like a mother mild,</l>
+              <l xml:id="A07907-e103520">Yielding to nature, did her right resign</l>
+              <l xml:id="A07907-e103530">To times true heir, her godson, and loved child,</l>
+              <l xml:id="A07907-e103540">When giddy expectation was beguiled:</l>
+              <l xml:id="A07907-e103550">And Scotland yielded out of Teudors race,</l>
+              <l xml:id="A07907-e103560">A true born bud, to sit in Teudors place. </l>
+            </lg>
+            <lg xml:id="A07907-e103570">
+              <l xml:id="A07907-e103580">Which seat to him and his, heaven ever bless,</l>
+              <l xml:id="A07907-e103590">That we ne'er want a rose of Teudors tree,</l>
+              <l xml:id="A07907-e103600">To maintain Britain's future happiness,</l>
+              <l xml:id="A07907-e103610">To the world's end in true tranquillity. </l>
+            </lg>
+          </sp>
+          <sp xml:id="A07907-e103620" who="A07907-neptune">
+            <pb facs="12"/>
+            <speaker>Neptune.</speaker>
+            <lg xml:id="A07907-e103630">
+              <l xml:id="A07907-e103640">Sir Leonard holiday, now unto thee,</l>
+              <l xml:id="A07907-e103650">My love in some mean measure let me show,</l>
+              <l xml:id="A07907-e103660">Since heaven hath called thee to this dignity,</l>
+              <l xml:id="A07907-e103670">Which (Then myself) far better thou d 〈…〉 est know,</l>
+              <l xml:id="A07907-e103680">I make no doubt thou wilt thy time bestow,</l>
+              <l xml:id="A07907-e103690">A 〈…〉 s so great a subject's place as this,</l>
+              <l xml:id="A07907-e103700">To govern justly, and amend each miss. </l>
+            </lg>
+            <lg xml:id="A07907-e103710">
+              <l xml:id="A07907-e103720">Bethink thee how on that high holiday,</l>
+              <l xml:id="A07907-e103730">Which bears God's champion, th'arch-angel's name,</l>
+              <l xml:id="A07907-e103740">When conquering Sathan in a glorious fray,</l>
+              <l xml:id="A07907-e103750">Michael hells-monster nobly overcame,</l>
+              <l xml:id="A07907-e103760">And now a sacred sabbath being the same,</l>
+              <l xml:id="A07907-e103770">A free and full election on all parts,</l>
+              <l xml:id="A07907-e103780">Made choice of thee, both with their hands and hearts. </l>
+            </lg>
+            <lg xml:id="A07907-e103790">
+              <l xml:id="A07907-e103800">Albeit this day is usual every year,</l>
+              <l xml:id="A07907-e103810">For new election of a magistrate,</l>
+              <l xml:id="A07907-e103820">Yet, now to me some instance doth appear,</l>
+              <l xml:id="A07907-e103830">Worth note, which to myself I thus relate,</l>
+              <l xml:id="A07907-e103840">Holiday, called on holiday to state,</l>
+              <l xml:id="A07907-e103850">Requires methinks a year of holidays,</l>
+              <l xml:id="A07907-e103860">To be disposed in good and virtuous ways. </l>
+            </lg>
+            <lg xml:id="A07907-e103870">
+              <l xml:id="A07907-e103880">For I account 'tis a lord's holiday,</l>
+              <l xml:id="A07907-e103890">When justice shines in perfect majesty,</l>
+              <l xml:id="A07907-e103900">Whenas the poor can to the rich man say,</l>
+              <l xml:id="A07907-e103910">The magistrate hath given us equity,</l>
+              <l xml:id="A07907-e103920">And lent no ear to partiality,</l>
+              <l xml:id="A07907-e103930">When sin is punished, lewdness bears no sway:</l>
+              <l xml:id="A07907-e103940">All that day long, each day is holiday. </l>
+            </lg>
+            <lg xml:id="A07907-e103950">
+              <pb facs="12"/>
+              <l xml:id="A07907-e103960">When good provision for the poor is made,</l>
+              <l xml:id="A07907-e103970">Sloth set to labour, vice curbed everywhere ,</l>
+              <l xml:id="A07907-e103980">When through the city every honest trade,</l>
+              <l xml:id="A07907-e103990">Stands not of might or insolence in fear,</l>
+              <l xml:id="A07907-e104000">But justice in their goodness does them bear:</l>
+              <l xml:id="A07907-e104010">Then, as before, in safety I may say:</l>
+              <l xml:id="A07907-e104020">All that year long, each day is holiday. </l>
+            </lg>
+            <lg xml:id="A07907-e104030">
+              <l xml:id="A07907-e104040">Now in behalf of that society,</l>
+              <l xml:id="A07907-e104050">Whereof thou bearest a loving brother's name,</l>
+              <l xml:id="A07907-e104060">What hath been done this day to dignify,</l>
+              <l xml:id="A07907-e104070">They pray thee kindly to accept the same,</l>
+              <l xml:id="A07907-e104080">More circumstance I shall not need to frame:</l>
+              <l xml:id="A07907-e104090">But from the Merchant-taylors this I say,</l>
+              <l xml:id="A07907-e104100">They wish all good to Leonard Holliday. </l>
+            </lg>
+          </sp>
+          <trailer xml:id="A07907-e104110">Finis.</trailer>
+        </div>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A07907"><item xml:id="A07907-pheme" n="3">
+    <seg type="character_name">A07907-pheme</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07907-master" n="2">
+    <seg type="character_name">A07907-master</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07907-brute" n="2">
+    <seg type="character_name">A07907-brute</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07907-epimeleia" n="2">
+    <seg type="character_name">A07907-epimeleia</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07907-neptune" n="2">
+    <seg type="character_name">A07907-neptune</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07907-eleutheriotes" n="1">
+    <seg type="character_name">A07907-eleutheriotes</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-troya_nova" n="1">
+    <seg type="character_name">A07907-troya_nova</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-albanact" n="1">
+    <seg type="character_name">A07907-albanact</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-hypomone" n="1">
+    <seg type="character_name">A07907-hypomone</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-amphitrita" n="1">
+    <seg type="character_name">A07907-amphitrita</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-camber" n="1">
+    <seg type="character_name">A07907-camber</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-agnites" n="1">
+    <seg type="character_name">A07907-agnites</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-thamesis" n="1">
+    <seg type="character_name">A07907-thamesis</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-unassigned" n="1">
+    <seg type="character_name">A07907-unassigned</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-albania" n="1">
+    <seg type="character_name">A07907-albania</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-humber" n="1">
+    <seg type="character_name">A07907-humber</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-locrine" n="1">
+    <seg type="character_name">A07907-locrine</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-savarne" n="1">
+    <seg type="character_name">A07907-savarne</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-loegria" n="1">
+    <seg type="character_name">A07907-loegria</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-cambria" n="1">
+    <seg type="character_name">A07907-cambria</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-boy" n="1">
+    <seg type="character_name">A07907-boy</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-britannia" n="1">
+    <seg type="character_name">A07907-britannia</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-sophrosyne" n="1">
+    <seg type="character_name">A07907-sophrosyne</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-mate" n="1">
+    <seg type="character_name">A07907-mate</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07907-eros" n="1">
+    <seg type="character_name">A07907-eros</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+</list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

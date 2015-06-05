@@ -1,0 +1,766 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A07503">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Inner-Temple Masque, or The Masque of Heroes <date type="creation_date">1619</date></title>
+        <author>Middleton, Thomas</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A07503.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The Inner-Temple masque. Or Masque of heroes. Presented (as an entertainement for many worthy ladies:) by gentlemen of the same ancient and noble house. Tho. Middleton.</title>
+            <author>Middleton, Thomas, d. 1627.</author>
+          </titleStmt>
+          <extent>10 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2005 December (TCP phase 1)</date>
+            <idno type="marc">99847823</idno>
+            <idno type="stc">STC (2nd ed.) 17887.</idno>
+            <idno type="stc">Greg, II, 358.</idno>
+            <idno type="vid">12884</idno>
+            <idno type="DLPS">A07503</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The Inner-Temple masque. Or Masque of heroes. Presented (as an entertainement for many worthy ladies:) by gentlemen of the same ancient and noble house. Tho. Middleton.</title>
+            <title type="alt">Inner-Temple masque</title>
+            <title type="alt">Masque of heroes.</title>
+            <author>Middleton, Thomas, d. 1627.</author>
+          </titleStmt>
+          <extent>[24] p.</extent>
+          <publicationStmt>
+            <publisher>Printed [by William Stansby] for Iohn Brovvne, and are to be sold at his shop in S. Dunstanes Church-yard in Fleetstreete,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1619.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>In verse.</p>
+            </note>
+            <note>
+              <p>Printer's name from STC.</p>
+            </note>
+            <note>
+              <p>Signatures: A-C4.</p>
+            </note>
+            <note>
+              <p>The first leaf and the last leaf are blank.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A07503-e100010">
+    <front xml:id="A07503-e100020">
+      <div type="title_page" xml:id="A07503-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A07503-e100040">The inner temple masque. Or masqve of heroes. Presented (As an entertainment for many worthy ladies:) by gentlemen of the same ancient and noble house.</p>
+        <p xml:id="A07503-e100050">Tho. Middleton. </p>
+        <p xml:id="A07503-e100060">London printed for John Brown, and are to be sold at his shop in s. Dunstanes Church-yard in Fleetstreet. 1619.</p>
+      </div>
+      <div type="poem" xml:id="A07503-e100070">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The masqve.</head>
+        <l xml:id="A07503-e100080">This, nothing owes to any tale, or story,</l>
+        <l xml:id="A07503-e100090">With which some writer pieces up a glory;</l>
+        <l xml:id="A07503-e100100">I only made the time, they sat to see,</l>
+        <l xml:id="A07503-e100110">Serve for the mirth itself; which was found free,</l>
+        <l xml:id="A07503-e100120">And herein fortunate, (That's counted good)</l>
+        <l xml:id="A07503-e100130">Being made for ladies, ladies understood. </l>
+        <closer xml:id="A07503-e100140">
+          <signed xml:id="A07503-e100150">T. m.</signed>
+        </closer>
+      </div>
+      <div type="dramatis_personae" xml:id="A07503-e100160">
+        <pb facs="3"/>
+        <p xml:id="A07503-e100170">
+          <table xml:id="A07503-e100180">
+            <row role="data" xml:id="A07503-e100190">
+              <cell cols="1" role="data" rows="1">The parts.</cell>
+              <cell cols="1" role="data" rows="1">The speakers.</cell>
+            </row>
+            <row role="data" xml:id="A07503-e100200">
+              <cell cols="1" role="data" rows="1">D. almanac.</cell>
+              <cell cols="1" role="data" rows="1">Jos. Taylor.</cell>
+            </row>
+            <row role="data" xml:id="A07503-e100210">
+              <cell cols="1" role="data" rows="1">Plumporridge.</cell>
+              <cell cols="1" role="data" rows="1">W. Rowley.</cell>
+            </row>
+            <row role="data" xml:id="A07503-e100220">
+              <cell cols="1" role="data" rows="1">A fastingday.</cell>
+              <cell cols="1" role="data" rows="1">I. Newton.</cell>
+            </row>
+            <row role="data" xml:id="A07503-e100230">
+              <cell cols="1" role="data" rows="1">New-year.</cell>
+              <cell cols="1" role="data" rows="1">H. atwell.</cell>
+            </row>
+            <row role="data" xml:id="A07503-e100240">
+              <cell cols="1" role="data" rows="1">Time.</cell>
+              <cell cols="1" role="data" rows="1">W. Carpenter.</cell>
+            </row>
+            <row role="data" xml:id="A07503-e100250">
+              <cell cols="1" role="data" rows="1">Harmony.</cell>
+              <cell cols="1" role="data" rows="1">A boy.</cell>
+            </row>
+          </table>
+        </p>
+        <p xml:id="A07503-e100260">Two Antemasqves.</p>
+        <p xml:id="A07503-e100270">In the first, six dancers. <list xml:id="A07503-e100280"><item xml:id="A07503-e100290">1. Candlemas day.</item><item xml:id="A07503-e100300">2. Shrove-tuesday.</item><item xml:id="A07503-e100310">3. Lent.</item><item xml:id="A07503-e100320">4. Iii. May-day.</item><item xml:id="A07503-e100330">5. Midsummer Eve.</item><item xml:id="A07503-e100340">6. The first dog-day.</item></list></p>
+        <p xml:id="A07503-e100350">The second antimasque, presented by eight boys. <list xml:id="A07503-e100360"><item xml:id="A07503-e100370">Good days — 3.</item><item xml:id="A07503-e100380">Bad days — 3.</item><item xml:id="A07503-e100390">Indifferent days — 2.</item></list></p>
+        <p xml:id="A07503-e100400">The masqve itself, receiving it's illustration from nine of the gentlemen of the house.</p>
+      </div>
+    </front>
+    <body xml:id="A07503-e100410">
+      <div type="text" xml:id="A07503-e100420">
+        <pb facs="3"/>
+        <head>The inner-temple masqve.</head>
+        <stage xml:id="A07503-e100430">Enter doctor almanac coming from the funeral of December, or the old year.</stage>
+        <sp xml:id="A07503-e100440" who="A07503-missing">
+          <l xml:id="A07503-e100450">I have seen the old year fairly buried,</l>
+          <l xml:id="A07503-e100460">Good gentleman he was, but towards his end</l>
+          <l xml:id="A07503-e100470">Full of diseases, he kept no good diet,</l>
+          <l xml:id="A07503-e100480">He loved a wench in June, (Which we account vild,</l>
+          <l xml:id="A07503-e100490">And got the latter end of may with child;</l>
+          <l xml:id="A07503-e100500">That was his fault, and many an old year smells on't. </l>
+          <l xml:id="A07503-e100510">How now? who's 'tis? o, one ath' fasting-days</l>
+          <l xml:id="A07503-e100520">That followed him to his grave;</l>
+          <l xml:id="A07503-e100530">I know him by his gauntness, his thin chitterlings,</l>
+          <l xml:id="A07503-e100540">He would undo a tripe-wise; fastingday! </l>
+          <l xml:id="A07503-e100550">Why art so heavy? </l>
+        </sp>
+        <sp xml:id="A07503-e100560" who="A07503-fasting-day">
+          <speaker>Fast.</speaker>
+          <l xml:id="A07503-e100570">O, sweet doctor almanac,</l>
+          <l xml:id="A07503-e100580">I have lost a dear old master, beside sir,</l>
+          <l xml:id="A07503-e100590">I have been out of service, all this kersmas;</l>
+          <l xml:id="A07503-e100600">Nobody minds fasting day, I have scarce been thought upon of Friday nights;</l>
+          <l xml:id="A07503-e100610">And because Kersmas this year fell upon't,</l>
+          <l xml:id="A07503-e100620"><pb facs="4"/> the Fridays have been ever since so proud</l>
+          <l xml:id="A07503-e100630">They scorn my company, the butcher's boys</l>
+          <l xml:id="A07503-e100640">At Temple-bar, set their great dogs upon me,</l>
+          <l xml:id="A07503-e100650">I dare not walk abroad, nor be seen yet,</l>
+          <l xml:id="A07503-e100660">The very poulters girls throw rotten eggs at me,</l>
+          <l xml:id="A07503-e100670">Nay Fish-street loves me, e'en but from teeth outward,</l>
+          <l xml:id="A07503-e100680">(The nearest kin I have) looks shy upon me,</l>
+          <l xml:id="A07503-e100690">As if t'ad forgotten me, I met plumporridge now,</l>
+          <l xml:id="A07503-e100700">My big-swollen enemy, he's plump and lusty,</l>
+          <l xml:id="A07503-e100710">The only man in place, sweet master doctor,</l>
+          <l xml:id="A07503-e100720">Prefer me to the new-year, you can do't. </l>
+        </sp>
+        <sp xml:id="A07503-e100730" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e100740">When can I do't sir? you must stay till Lent.</p>
+        </sp>
+        <sp xml:id="A07503-e100750" who="A07503-fasting-day">
+          <speaker>Fast.</speaker>
+          <p xml:id="A07503-e100760">Till Lent, you kill my heart, sweet m. doctor, thrust me into Candlemas Eve, I do beseech you.</p>
+        </sp>
+        <sp xml:id="A07503-e100770" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e100780">Away, Candlemas Eve will never bear thee i' these days, 'tis so frampold, the Puritans will never yield to't.</p>
+          <stage xml:id="A07503-e100790">Enter plumporridge. </stage>
+        </sp>
+        <sp xml:id="A07503-e100800" who="A07503-fasting-day">
+          <speaker>Fast.</speaker>
+          <p xml:id="A07503-e100810">Why they're fat enough.</p>
+        </sp>
+        <sp xml:id="A07503-e100820" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e100830">Here comes plumporridge. </p>
+        </sp>
+        <sp xml:id="A07503-e100840" who="A07503-fasting-day">
+          <speaker>Fast.</speaker>
+          <p xml:id="A07503-e100850">Ay, he's sure of welcome; methinks he moves like one of the great porridge tubs, going to the counter.</p>
+        </sp>
+        <sp xml:id="A07503-e100860" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <p xml:id="A07503-e100870">O killing cruel sight, yonder's a fasting day: a lean spiny rascal with a dog in's belly, his very bowels bark with hunger; avaunt, thy breath stinks, I do not love to meet thee fasting, thou art nothing but wind, thy stomach's full of farts, as if they had lost their way, and thou made with the wrong end upward, like a Dutch maw, that discharges still into'th mouth!</p>
+        </sp>
+        <sp xml:id="A07503-e100880" who="A07503-fasting-day">
+          <speaker>Fast.</speaker>
+          <p xml:id="A07503-e100890">Why thou whoreson breakfast, dinner,<pb facs="4"/> nuncheons, supper and beaver, cellar, hall, kitchen, and wet-larder.</p>
+        </sp>
+        <sp xml:id="A07503-e100900" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <p xml:id="A07503-e100910">Sweet master doctor, look quickly upon his water, that I may break the urinal about his pate.</p>
+        </sp>
+        <sp xml:id="A07503-e100920" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e100930">Nay friendship, friendship.</p>
+        </sp>
+        <sp xml:id="A07503-e100940" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <p xml:id="A07503-e100950">Never master doctor, with any fastingday, persuade me not.</p>
+        </sp>
+        <l xml:id="A07503-e100960">Nor any thing belongs to ember-week. </l>
+        <l xml:id="A07503-e100970">And if I take against a thing, I'm stomachful,</l>
+        <l xml:id="A07503-e100980">I was born an Anabaptist, a fell foe,</l>
+        <l xml:id="A07503-e100990">To fish and Fridayes, pig's my absolute sweetheart. </l>
+        <l xml:id="A07503-e101000">And shall I wrong my love, and cleave to saltfish! </l>
+        <l xml:id="A07503-e101010">Commit adultery with an egg and butter? </l>
+        <sp xml:id="A07503-e101020" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e101030">Well setting this apart, whose water's this sir?</p>
+        </sp>
+        <sp xml:id="A07503-e101040" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <l xml:id="A07503-e101050">On, thereby hangs a tale, my m. Kersmasses. </l>
+          <l xml:id="A07503-e101060">It is his water, sir, he's drawing on. </l>
+        </sp>
+        <sp xml:id="A07503-e101070" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <l xml:id="A07503-e101080">Kersmas? why let me see,</l>
+          <l xml:id="A07503-e101090">I saw him very lusty a twelve-night. </l>
+        </sp>
+        <sp xml:id="A07503-e101100" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <l xml:id="A07503-e101110">Ay, that's true, sir, but then he took his bane,</l>
+          <l xml:id="A07503-e101120">With choosing King and Queen;</l>
+          <l xml:id="A07503-e101130">Has made his will already, here's the copy. </l>
+        </sp>
+        <sp xml:id="A07503-e101140" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e101150">And what has he given away, let me see, plumbroth. </p>
+        </sp>
+        <sp xml:id="A07503-e101160" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <p xml:id="A07503-e101170">He could not give away much, sir, his children have so consumed him before hand.</p>
+        </sp>
+        <floatingText xml:id="A07503-e101180">
+          <body xml:id="A07503-e101190">
+            <div type="will" xml:id="A07503-e101200">
+              <pb facs="5"/>
+              <head>The last will and testament of Kersmas, irrevocable. Read;</head>
+              <p xml:id="A07503-e101210">In primis I give and bequeath to my second son in, and in; his perpetual lodging i'the kings-bench, and his ordinary out of the basket.</p>
+            </div>
+          </body>
+        </floatingText>
+        <sp xml:id="A07503-e101220" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <p xml:id="A07503-e101230">A sweet allowance for a second brother.</p>
+        </sp>
+        <p xml:id="A07503-e101240">Item, I give to my youngest sons gleek and priministe, the full consuming of nights and days, and wives and children, together with one secret gift, that is, never to give over, while they have a penny.</p>
+        <sp xml:id="A07503-e101250" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <p xml:id="A07503-e101260">And if e'er they do, I'll be hanged.</p>
+        </sp>
+        <p xml:id="A07503-e101270">For the possession of all my lands, manors, manor-houses, I leave them full and wholly to my eldest son, noddy, whom during his minority, I commit to the custody of a pair of knaves and one and thirty?</p>
+        <sp xml:id="A07503-e101280" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <p xml:id="A07503-e101290">There's knaves enough a conscience to cozen one fool.</p>
+        </sp>
+        <p xml:id="A07503-e101300">Item, I give to my eldest daughter, tickle me quickly, and to her sister my lady's hole, free leave to shift for themselves, either in court, city, or country.</p>
+        <sp xml:id="A07503-e101310" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <p xml:id="A07503-e101320">We thank him heartily.</p>
+        </sp>
+        <p xml:id="A07503-e101330">Item, I leave to their old aunt, my sow has pigged, a litter of courtesans to breed up for shrovetide.</p>
+        <sp xml:id="A07503-e101340" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <p xml:id="A07503-e101350">They will be good ware in Lent, when flesh is forbid by proclamation.</p>
+        </sp>
+        <p xml:id="A07503-e101360">Item, I give to my nephew gambols, commonly<pb facs="5"/> called by the name of Kersmas gambols, all my cattle, horse and mare, but let him shoe 'em himself.</p>
+        <sp xml:id="A07503-e101370" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <p xml:id="A07503-e101380">I ha' seen him shoe the mare forty times over.</p>
+        </sp>
+        <p xml:id="A07503-e101390">Also, I bequeath to my cousin-germane wassail-bowl, born of Dutch parents, the privilege of a free denizen, that is, to be drunk with scotch-ale, or english-beer: and lastly, I have given by word of mouth, to poor blind man buff, a flap with a foxtail.</p>
+        <sp xml:id="A07503-e101400" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <p xml:id="A07503-e101410">Ay, so has given 'em all for ought I see. But now what think you of his water, sir?</p>
+        </sp>
+        <sp xml:id="A07503-e101420" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e101430">Well he may linger out till Candlemas: but never recover it.</p>
+        </sp>
+        <sp xml:id="A07503-e101440" who="A07503-fasting-day">
+          <speaker>Fast.</speaker>
+          <p xml:id="A07503-e101450">Would he were gone once, I should be more respected.</p>
+          <stage xml:id="A07503-e101460">Enter new-yeere.</stage>
+        </sp>
+        <sp xml:id="A07503-e101470" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e101480">Here's new-year? </p>
+        </sp>
+        <sp xml:id="A07503-e101490" who="A07503-plumporridge">
+          <speaker>Plum.</speaker>
+          <p xml:id="A07503-e101500">I have never a gift to give him, I'll be gone.</p>
+        </sp>
+        <sp xml:id="A07503-e101510" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e101520">Mirth and a healthful time fill all your days. Look freshly, sir.</p>
+        </sp>
+        <sp xml:id="A07503-e101530" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <l xml:id="A07503-e101540">I cannot, master doctor. </l>
+          <l xml:id="A07503-e101550">My father's death sets the spring backward I'm. </l>
+          <l xml:id="A07503-e101560">For joy and comfort yet, I'm now between</l>
+          <l xml:id="A07503-e101570">Sorrow and joy, the winter and the spring. </l>
+          <l xml:id="A07503-e101580">And as time gathers freshness in it's season,</l>
+          <l xml:id="A07503-e101590">No doubt affects will be subdued with reason. </l>
+        </sp>
+        <sp xml:id="A07503-e101600" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <l xml:id="A07503-e101610">You've a brave mind to work on, use my rules,</l>
+          <l xml:id="A07503-e101620">And you shall cut a caper in November,</l>
+          <l xml:id="A07503-e101630">When other years your grandfathers lay bedrid. </l>
+        </sp>
+        <sp xml:id="A07503-e101640" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <p xml:id="A07503-e101650">What's he, that looks so piteously, and shakes so?</p>
+        </sp>
+        <sp xml:id="A07503-e101660" who="A07503-fasting-day">
+          <pb facs="6"/>
+          <speaker>Fast.</speaker>
+          <p xml:id="A07503-e101670">A fastingday?</p>
+        </sp>
+        <sp xml:id="A07503-e101680" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <p xml:id="A07503-e101690">How's that?</p>
+        </sp>
+        <sp xml:id="A07503-e101700" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <l xml:id="A07503-e101710">A foolish fastingday,</l>
+          <l xml:id="A07503-e101720">An unseasonable coxcomb , seeks now for a service,</l>
+          <l xml:id="A07503-e101730">Has hunted up and down, has been at court,</l>
+          <l xml:id="A07503-e101740">And the long-porter broke his head across there,</l>
+          <l xml:id="A07503-e101750">He had rather see the devil, for this he says,</l>
+          <l xml:id="A07503-e101760">He never grew up so tall with fasting-days,</l>
+          <l xml:id="A07503-e101770">I would not for the price of all my almanacs;</l>
+          <l xml:id="A07503-e101780">The guard had taken him there, they would ha' beaten out his brains with bombards. </l>
+          <l xml:id="A07503-e101790">I bade him stay till Lent, and now he whimpers;</l>
+          <l xml:id="A07503-e101800">He would to Rome forsooth, that's his last refuge,</l>
+          <l xml:id="A07503-e101810">But would try awhile,</l>
+          <l xml:id="A07503-e101820">How well he should be used in Lancashire. </l>
+        </sp>
+        <sp xml:id="A07503-e101830" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <p xml:id="A07503-e101840">He was my father's servant, that he was, sir.</p>
+        </sp>
+        <sp xml:id="A07503-e101850" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e101860">'Tis here upon record.</p>
+        </sp>
+        <sp xml:id="A07503-e101870" who="A07503-fasting-day">
+          <speaker>Fast.</speaker>
+          <p xml:id="A07503-e101880">I served him honestly, and cost him little.</p>
+        </sp>
+        <sp xml:id="A07503-e101890" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e101900">Ay, I'll be sworn for that.</p>
+        </sp>
+        <sp xml:id="A07503-e101910" who="A07503-fasting-day">
+          <speaker>Fast.</speaker>
+          <l xml:id="A07503-e101920">Those were the times, sir,</l>
+          <l xml:id="A07503-e101930">That made your predecessors rich, and able</l>
+          <l xml:id="A07503-e101940">To lay up more for you, and since poor fasting-days</l>
+          <l xml:id="A07503-e101950">Were not made reckoning on, the pampered flesh</l>
+          <l xml:id="A07503-e101960">Has played the knave, maids have had fuller bellies,</l>
+          <l xml:id="A07503-e101970">Those meals that once were saved, have stirred, and leapt,</l>
+          <l xml:id="A07503-e101980">And bègot bastards, and they must be kept,</l>
+          <l xml:id="A07503-e101990">Better keep fasting-days, yourself may tell you,</l>
+          <l xml:id="A07503-e102000">And for the profit of purse, back and belly? </l>
+        </sp>
+        <sp xml:id="A07503-e102010" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e102020">I never yet heard truth better whined out.</p>
+        </sp>
+        <sp xml:id="A07503-e102030" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <l xml:id="A07503-e102040">Thou shalt not all be lost, not for vainglory</l>
+          <l xml:id="A07503-e102050"><pb facs="6"/> greedily welcomed, we'll begin with virtue,</l>
+          <l xml:id="A07503-e102060">As we may hold with't, that does virtue right,</l>
+          <l xml:id="A07503-e102070">Set him down, sir, for Candlemas Eve at night. </l>
+        </sp>
+        <sp xml:id="A07503-e102080" who="A07503-fasting-day">
+          <speaker>Fast.</speaker>
+          <l xml:id="A07503-e102090">Well, better late than never. </l>
+          <l xml:id="A07503-e102100">This is my comfort, I shall come to make</l>
+          <l xml:id="A07503-e102110">All the fat rogues go to bed supperless,</l>
+          <l xml:id="A07503-e102120">Get dinners where they can. </l>
+        </sp>
+        <sp xml:id="A07503-e102130" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <p xml:id="A07503-e102140">How now? what's he?</p>
+        </sp>
+        <sp xml:id="A07503-e102150" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e102160">'Tis old time, sir, that belonged to all your predecessors.</p>
+        </sp>
+        <sp xml:id="A07503-e102170" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <l xml:id="A07503-e102180">O I honour</l>
+          <l xml:id="A07503-e102190">That reverend figure, may I ever think</l>
+          <l xml:id="A07503-e102200">How precious thou'rt in youth, how rarely</l>
+          <l xml:id="A07503-e102210">Redeemed in age. </l>
+          <l xml:id="A07503-e102220">Time observe, you have times service. </l>
+          <l xml:id="A07503-e102230">There's all in brief. </l>
+          <stage xml:id="A07503-e102240">Enter the first antimasque.</stage>
+        </sp>
+        <sp xml:id="A07503-e102250" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <p xml:id="A07503-e102260">Ha? Doctor? What are these?</p>
+          <l xml:id="A07503-e102270">Time the rabble that I pity, these I have served too,</l>
+          <l xml:id="A07503-e102280">But few or none have ever observed me,</l>
+          <l xml:id="A07503-e102290">Amongst this dissolute rout, Candlemas day! </l>
+          <l xml:id="A07503-e102300">I'm sorry to see him so ill associated? </l>
+        </sp>
+        <sp xml:id="A07503-e102310" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <l xml:id="A07503-e102320">Why that's his cause of coming to complain,</l>
+          <l xml:id="A07503-e102330">Because Shrove-tuesday this year dwells so near him. </l>
+          <l xml:id="A07503-e102340">But 'tis his place he cannot be removed. </l>
+          <l xml:id="A07503-e102350">You must be patient, Candlemas, and brook it. </l>
+          <l xml:id="A07503-e102360">This rabble, sir, Shrove-tuesday, hungry Lent,</l>
+          <l xml:id="A07503-e102370">Ill May-day, midsummer Eve, and the first dog-day,</l>
+          <l xml:id="A07503-e102380">Come to receive their places due by custom,</l>
+          <l xml:id="A07503-e102390">And that they build upon. </l>
+        </sp>
+        <sp xml:id="A07503-e102400" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <p xml:id="A07503-e102410">Give 'em their charge, and then admit 'em.</p>
+        </sp>
+        <sp xml:id="A07503-e102420" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e102430">I will do't in cone.</p>
+          <l xml:id="A07503-e102440"><pb facs="7"/>Stand forth Shrove-tuesday, one 'a the silenced bricklayers,</l>
+          <l xml:id="A07503-e102450">'Tis in your charge to pull down bawdy-houses,</l>
+          <l xml:id="A07503-e102460">To set your tribe a-work, cause spoil in Shoreditch,</l>
+          <l xml:id="A07503-e102470">And make a dangerous leak there, deface Turnbul,</l>
+          <l xml:id="A07503-e102480">And tickle codpiece Rowe, ruin the cockpit, the</l>
+          <l xml:id="A07503-e102490">Poor players never thrived in't, a my conscience some</l>
+          <l xml:id="A07503-e102500">Quean pissed upon the first brick;</l>
+          <l xml:id="A07503-e102510">For you, lean Lent, be sure you utter first</l>
+          <l xml:id="A07503-e102520">Your rotten herrings and keep up your best</l>
+          <l xml:id="A07503-e102530">Till they be rotten, then there's no deceit</l>
+          <l xml:id="A07503-e102540">When they be all alike. You ill-mayday,</l>
+          <l xml:id="A07503-e102550">Be as unruly a rascal as you may,</l>
+          <l xml:id="A07503-e102560">To stir up deputy double diligence,</l>
+          <l xml:id="A07503-e102570">That comes perking forth with halberts:</l>
+          <l xml:id="A07503-e102580">And for you midsummer Eve, that watches warmest,</l>
+          <l xml:id="A07503-e102590">Be but sufficiently drunk, and you're well harnessed,</l>
+          <l xml:id="A07503-e102600">You dogday! </l>
+        </sp>
+        <sp xml:id="A07503-e102610" who="A07503-dogday">
+          <speaker>Dogd.</speaker>
+          <p xml:id="A07503-e102620">Woh.</p>
+        </sp>
+        <sp xml:id="A07503-e102630" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <l xml:id="A07503-e102640">A churlish maundering rogue,</l>
+          <l xml:id="A07503-e102650">You must both beg and rob, curse and colloque,</l>
+          <l xml:id="A07503-e102660">In cooler nights the barn with doxies fill,</l>
+          <l xml:id="A07503-e102670">In harvest lie in haycock with your Jill. </l>
+          <l xml:id="A07503-e102680">They have all their charge. </l>
+        </sp>
+        <sp xml:id="A07503-e102690" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <p xml:id="A07503-e102700">You have gin't at the wrong end,</p>
+        </sp>
+        <sp xml:id="A07503-e102710" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <l xml:id="A07503-e102720">To bid 'em sin's the way to make 'em mend,</l>
+          <l xml:id="A07503-e102730">For what they are forbid, they run too headlong. </l>
+          <l xml:id="A07503-e102740">I ha' cast their inclinations, now your service,</l>
+          <l xml:id="A07503-e102750">To draw fresh blood into your Mrs. cheeks, slaves! </l>
+        </sp>
+        <stage xml:id="A07503-e102760"><pb facs="7"/>The first dance, and first antimasque, consisting of these six rude ones.</stage>
+        <stage xml:id="A07503-e102770">Exeunt.</stage>
+        <sp xml:id="A07503-e102780" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <l xml:id="A07503-e102790">What scornful looks the abusive villains threw,</l>
+          <l xml:id="A07503-e102800">Upon the reverend form and face of time! </l>
+          <l xml:id="A07503-e102810">Methought it appeared sorry, and went angry. </l>
+        </sp>
+        <sp xml:id="A07503-e102820" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <p xml:id="A07503-e102830">'Tis still your servant.</p>
+        </sp>
+        <sp xml:id="A07503-e102840" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <p xml:id="A07503-e102850">How now? what are these?</p>
+        </sp>
+        <sp xml:id="A07503-e102860" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <l xml:id="A07503-e102870">These are your good days, and your bad days, sir,</l>
+          <l xml:id="A07503-e102880">Those your indifferent days, nor good, nor bad. </l>
+        </sp>
+        <sp xml:id="A07503-e102890" who="A07503-new-year">
+          <speaker>New-y.</speaker>
+          <p xml:id="A07503-e102900">But is here all?</p>
+        </sp>
+        <sp xml:id="A07503-e102910" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <l xml:id="A07503-e102920">A wonder there's so many. </l>
+          <l xml:id="A07503-e102930">How these broke loose, every one stops their passage,</l>
+          <l xml:id="A07503-e102940">And makes inquiry after 'em. </l>
+          <l xml:id="A07503-e102950">This farmer will not cast his seed ith' ground</l>
+          <l xml:id="A07503-e102960">Before he look in Bretnor, there he finds</l>
+          <l xml:id="A07503-e102970">Some word which he hugs happily, as, ply the box,</l>
+          <l xml:id="A07503-e102980">Make hay betimes, it falls into thy mouth. </l>
+          <l xml:id="A07503-e102990">A punctual lady will not paint forsooth</l>
+          <l xml:id="A07503-e103000">Upon his critical days, 'twill not hold well,</l>
+          <l xml:id="A07503-e103010">Nor a nice city-wedlock eat fresh herring,</l>
+          <l xml:id="A07503-e103020">Nor periwinkles;</l>
+          <l xml:id="A07503-e103030">Although she long for both, if the word be that day,</l>
+          <l xml:id="A07503-e103040">Gape after gudgeons, or some fishing phrase. </l>
+          <l xml:id="A07503-e103050">A scriveners wife will not entreat the money-master</l>
+          <l xml:id="A07503-e103060">That lies ith' house, and gets her husband's children</l>
+          <l xml:id="A07503-e103070">To furnish a poor gentleman's extremes,</l>
+          <l xml:id="A07503-e103080">If she find, nihil in a bag, that morning,</l>
+          <l xml:id="A07503-e103090"><pb facs="8"/> and so of thousand follies, these suffice</l>
+          <l xml:id="A07503-e103100">To show you good, bad, and indifferent days,</l>
+          <l xml:id="A07503-e103110">And all have their inscriptions, here's, cock a hoop,</l>
+          <l xml:id="A07503-e103120">This the gear cottons, and this, faint heart, never ▪</l>
+          <l xml:id="A07503-e103130">These, noted black for badness, rods in piss. </l>
+          <l xml:id="A07503-e103140">This, post for puddings, this put up thy pipes,</l>
+          <l xml:id="A07503-e103150">These black and white indifferently inclining</l>
+          <l xml:id="A07503-e103160">To both their natures, neither full nor fasting,</l>
+          <l xml:id="A07503-e103170">In dock, out nettle, — now to your motion,</l>
+          <l xml:id="A07503-e103180">Black knaves, and white knaves, and you parcel rascals,</l>
+          <l xml:id="A07503-e103190">Two hypocritical parti-coloured varlets,</l>
+          <l xml:id="A07503-e103200">That play o'both hands. </l>
+        </sp>
+        <stage xml:id="A07503-e103210">
+          <p xml:id="A07503-e103220">Here the second dance, and last antimasque: eight boys, habited according to their former characters.</p>
+          <p xml:id="A07503-e103230">The three good days, attired all in white garments, sitting close to their bodies, their inscriptions on their breasts.</p>
+          <p xml:id="A07503-e103240">On the first.</p>
+          <p xml:id="A07503-e103250">Cock a hoop. </p>
+          <p xml:id="A07503-e103260">On the second.</p>
+          <p xml:id="A07503-e103270">The gear cottons. </p>
+          <p xml:id="A07503-e103280"><pb facs="8"/>On the third.</p>
+          <p xml:id="A07503-e103290">Faint heart never. </p>
+          <p xml:id="A07503-e103300">The three bad days all in black garments, their faces black, and their inscriptions.</p>
+          <p xml:id="A07503-e103310">On the first.</p>
+          <p xml:id="A07503-e103320">Rods in piss. </p>
+          <p xml:id="A07503-e103330">On the second.</p>
+          <p xml:id="A07503-e103340">Post for puddings. </p>
+          <p xml:id="A07503-e103350">On the third.</p>
+          <p xml:id="A07503-e103360">Put up thy pipes. </p>
+          <p xml:id="A07503-e103370">The indifferent days.</p>
+          <p xml:id="A07503-e103380">In garments half white, half black, their faces seamed with that party colour, and their inscriptions.</p>
+          <p xml:id="A07503-e103390">The first.</p>
+          <p xml:id="A07503-e103400">Neither full nor fasting. </p>
+          <p xml:id="A07503-e103410">The second.</p>
+          <p xml:id="A07503-e103420">In dock, out nettle. </p>
+          <p xml:id="A07503-e103430"><pb facs="9"/>These having purchased a smile from the cheeks of many a beauty, by their ridiculous figures, vanish, proud of that treasure.</p>
+        </stage>
+        <sp xml:id="A07503-e103440" who="A07503-doctor">
+          <speaker>Doctor</speaker>
+          <l xml:id="A07503-e103450">I see these pleasures of low births and natures,</l>
+          <l xml:id="A07503-e103460">Add little freshness to your cheeks, I pity you,</l>
+          <l xml:id="A07503-e103470">And can no longer now conceal from you,</l>
+          <l xml:id="A07503-e103480">Your happy omen, sir, blessings draw near you,</l>
+          <l xml:id="A07503-e103490">I will disclose a secret in astrology,</l>
+          <l xml:id="A07503-e103500">By the sweet industry of harmony,</l>
+          <l xml:id="A07503-e103510">Your white and glorious friend;</l>
+          <l xml:id="A07503-e103520">E'en very deities have conspired, to grace</l>
+          <l xml:id="A07503-e103530">Your fair inauguration, here I find it,</l>
+          <l xml:id="A07503-e103540">'Tis clear in art,</l>
+          <l xml:id="A07503-e103550">The minute, nay, the point of time's arrived,</l>
+          <l xml:id="A07503-e103560">Methinks the blessings touch you, now they're felt, sir. </l>
+        </sp>
+        <stage xml:id="A07503-e103570">At which loud music heard the first cloud vanishing, harmony is discovered with her sacred choir.</stage>
+        <floatingText xml:id="A07503-e103580">
+          <body xml:id="A07503-e103590">
+            <div n="1" type="song" xml:id="A07503-e103600">
+              <head>The first song.</head>
+              <sp xml:id="A07503-e103610" who="A07503-harmony">
+                <speaker>Harmony</speaker>
+                <l xml:id="A07503-e103620">New-year, new-year! hark, harken to me,</l>
+                <l xml:id="A07503-e103630">I am sent down</l>
+                <l xml:id="A07503-e103640">To crown,</l>
+                <l xml:id="A07503-e103650">Thy wishes, with me,</l>
+                <l xml:id="A07503-e103660">Thy fair desires in virtue's court are filled,</l>
+                <l xml:id="A07503-e103670">The goodness of thy thought,</l>
+                <l xml:id="A07503-e103680">This blessed work hath wrought,</l>
+                <l xml:id="A07503-e103690"><pb facs="9"/> time shall be reconciled:</l>
+                <l xml:id="A07503-e103700">Thy spring shall in all sweets abound,</l>
+                <l xml:id="A07503-e103710">Thy summer shall be clear and sound,</l>
+                <l xml:id="A07503-e103720">Thy autumn swell the barn and loft,</l>
+                <l xml:id="A07503-e103730">With corn and fruits, ripe, sweet and soft,</l>
+                <l xml:id="A07503-e103740">And in thy winter, when all go,</l>
+                <l xml:id="A07503-e103750">Thou shalt depart as white as snow. </l>
+                <stage xml:id="A07503-e103760">Then a second cloud vanishing, the masquers themselves discovered, sitting in arches of clouds, being nine in number, heroes deified for their virtues.</stage>
+                <stage xml:id="A07503-e103770">The song goes on.</stage>
+                <l xml:id="A07503-e103780">Behold, behold, hark, harken to me,</l>
+                <l xml:id="A07503-e103790">Glories come down,</l>
+                <l xml:id="A07503-e103800">To crown</l>
+                <l xml:id="A07503-e103810">Thy wishes, with me,</l>
+                <l xml:id="A07503-e103820">Bright heroes in lasting honour sphered</l>
+                <l xml:id="A07503-e103830">Virtues eternal spring,</l>
+                <l xml:id="A07503-e103840">(By making time their King.) </l>
+                <l xml:id="A07503-e103850">See, they're beyond time reared. </l>
+                <l xml:id="A07503-e103860">Yet in their love to humane good,</l>
+                <l xml:id="A07503-e103870">In which estate themselves once stood,</l>
+                <l xml:id="A07503-e103880">They all descend to have their worth</l>
+                <l xml:id="A07503-e103890">Shine, to imitation, forth:</l>
+                <l xml:id="A07503-e103900">And by their motion, light and love,</l>
+                <l xml:id="A07503-e103910">To show how after times should move! </l>
+              </sp>
+            </div>
+          </body>
+        </floatingText>
+        <stage xml:id="A07503-e103920">Then the masquers descending, set to their first dance.</stage>
+        <floatingText xml:id="A07503-e103930">
+          <body xml:id="A07503-e103940">
+            <div n="2" type="song" xml:id="A07503-e103950">
+              <pb facs="10"/>
+              <head>The second song.</head>
+              <sp xml:id="A07503-e103960" who="A07503-harmony">
+                <speaker>Harmony</speaker>
+                <l xml:id="A07503-e103970">Move on, move on, be still the same,</l>
+                <l xml:id="A07503-e103980">You beauteous sons of brightness,</l>
+                <l xml:id="A07503-e103990">You add to honour spirit and flame,</l>
+                <l xml:id="A07503-e104000">To virtue, grace, and whiteness;</l>
+                <l xml:id="A07503-e104010">You, whose every little motion</l>
+                <l xml:id="A07503-e104020">May learn strictness more devotion,</l>
+                <l xml:id="A07503-e104030">Every pace, of that high worth,</l>
+                <l xml:id="A07503-e104040">It treads a fair example forth;</l>
+                <l xml:id="A07503-e104050">Quickens a virtue, makes a story,</l>
+                <l xml:id="A07503-e104060">To your own heroic glory. </l>
+                <l xml:id="A07503-e104070">May your three times thrice blessed number</l>
+                <l xml:id="A07503-e104080">Raise merit from his ancient slumber;</l>
+                <l xml:id="A07503-e104090">Move on, move on, etc. </l>
+              </sp>
+            </div>
+          </body>
+        </floatingText>
+        <stage xml:id="A07503-e104100">Then they order themselves for their second dance, after which,</stage>
+        <floatingText xml:id="A07503-e104110">
+          <body xml:id="A07503-e104120">
+            <div n="3" type="song" xml:id="A07503-e104130">
+              <head>The third song.</head>
+              <l xml:id="A07503-e104140">See, whether fate hath led you, (Lamps of honour)</l>
+              <l xml:id="A07503-e104150">(Fog goodness brings her own reward upon her)</l>
+              <l xml:id="A07503-e104160">Look, turn your eyes, and then conclude, commending,</l>
+              <l xml:id="A07503-e104170">And say, you have lost no worth by your descending,</l>
+              <l xml:id="A07503-e104180">Behold a heaven about you, spheres more plenty,</l>
+              <l xml:id="A07503-e104190">There, for one Luna, here shines ten,</l>
+              <l xml:id="A07503-e104200">And for one Venus, twenty;</l>
+              <l xml:id="A07503-e104210">Then heroes, double both your fame and light,</l>
+              <l xml:id="A07503-e104220">Each choose his star, and full adorn this night. </l>
+            </div>
+          </body>
+        </floatingText>
+        <stage xml:id="A07503-e104230"><pb facs="10"/>At which, the masquers make choice of their ladies, and dance.</stage>
+        <stage xml:id="A07503-e104240">Time, thus closing all.</stage>
+        <sp xml:id="A07503-e104250" who="A07503-unassigned">
+          <speaker>Time.</speaker>
+          <l xml:id="A07503-e104260">The morning grey,</l>
+          <l xml:id="A07503-e104270">Bids, come away,</l>
+          <l xml:id="A07503-e104280">Every lady should begin</l>
+          <l xml:id="A07503-e104290">To take her chamber, for the stars are in:</l>
+          <stage xml:id="A07503-e104300">Then making his honour to the ladies.</stage>
+          <l xml:id="A07503-e104310">Live long the miracles of times and years,</l>
+          <l xml:id="A07503-e104320">Till with those heroes, you sit fixed in spheres. </l>
+        </sp>
+        <trailer xml:id="A07503-e104330">Finis.</trailer>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A07503"><item xml:id="A07503-doctor" n="24">
+    <seg type="character_name">A07503-doctor</seg>
+    <seg type="speech_count">24</seg>
+  </item>
+  <item xml:id="A07503-plumporridge" n="14">
+    <seg type="character_name">A07503-plumporridge</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A07503-new-year" n="13">
+    <seg type="character_name">A07503-new-year</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+  <item xml:id="A07503-fasting-day" n="10">
+    <seg type="character_name">A07503-fasting-day</seg>
+    <seg type="speech_count">10</seg>
+  </item>
+  <item xml:id="A07503-harmony" n="2">
+    <seg type="character_name">A07503-harmony</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07503-dogday" n="1">
+    <seg type="character_name">A07503-dogday</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07503-missing" n="1">
+    <seg type="character_name">A07503-missing</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07503-unassigned" n="1">
+    <seg type="character_name">A07503-unassigned</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+</list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

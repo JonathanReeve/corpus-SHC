@@ -1,0 +1,1449 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A01425">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Wine, Beer, and Ale Together by the Ears (Wine, Beer, Ale, and Tobacco Contending for Superiority) <date type="creation_date">1630</date></title>
+        <author>anon.</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A01425.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">VVine, beere, ale, and tobacco. Contending for superiority. A dialogue.</title>
+            <author>Gallobelgicus.</author>
+          </titleStmt>
+          <extent>14 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2004 March (TCP phase 1)</date>
+            <idno type="marc">99838569</idno>
+            <idno type="stc">STC (2nd ed.) 11542.</idno>
+            <idno type="stc">Greg, II, 426(b).</idno>
+            <idno type="vid">2951</idno>
+            <idno type="DLPS">A01425</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">VVine, beere, ale, and tobacco. Contending for superiority. A dialogue.</title>
+            <title type="alt">Wine, beere, ale, and tobacco</title>
+            <title type="alt">Wine, beere, and ale, together by the eares</title>
+            <title type="alt">Wine, beere, ale, and tobacco. Contending for superiority.</title>
+            <author>Gallobelgicus.</author>
+          </titleStmt>
+          <editionStmt>
+            <edition>The second edition, much enlarged.</edition>
+          </editionStmt>
+          <extent>[28] p.</extent>
+          <publicationStmt>
+            <publisher>By T[homas] C[otes] for Iohn Groue, and are to be sold at his shop at Furniuals Inne Gate in Holborne,</publisher>
+            <pubPlace>Printed at London :</pubPlace>
+            <date>1630.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>A revision of "Wine, beere, and ale, together by the eares", which was attributed to Gallobelgicus.</p>
+            </note>
+            <note>
+              <p>Printer's name from STC.</p>
+            </note>
+            <note>
+              <p>Signatures: A-C4 D2.</p>
+            </note>
+            <note>
+              <p>The first leaf is blank.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Henry E. Huntington Library and Art Gallery.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Wine -- Early works to 1800.</term>
+          <term>Beer -- Early works to 1800.</term>
+          <term>Ale -- Early works to 1800.</term>
+          <term>Tobacco -- Early works to 1800.</term>
+          <term>Smoking -- Great Britain -- Early works to 1800.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A01425-e100010">
+    <front xml:id="A01425-e100020">
+      <div type="title_page" xml:id="A01425-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A01425-e100040">Wine, beer, ale, and tobacco. Contending for superiority.</p>
+        <p xml:id="A01425-e100050">A dialogue.</p>
+        <p xml:id="A01425-e100060">The second edition, much enlarged.</p>
+        <bibl xml:id="A01425-e100070">Horat. </bibl>
+        <quote xml:id="A01425-e100080">Siccis omnia dura deus proposuit.</quote>
+        <p xml:id="A01425-e100090">Printed at London by T. C. for John grove, and are to be sold at his shop at Furnival's inn gate in Holborn, 1630.</p>
+      </div>
+      <div type="dedication" xml:id="A01425-e100100">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>The stationer to the readers.</head>
+        <opener xml:id="A01425-e100110">
+          <salute xml:id="A01425-e100120">Gentlemen;</salute>
+        </opener>
+        <p xml:id="A01425-e100130">For in your drink, you will be no less, I present you with this small collation: if either wine and sugar, beer and nutmeg, a cup of ale and a toast, tobacco, or all together, may meet your acceptation, I am glad I had it for you. There is difference between them; but your palate may reconcile all. If any thing distaste you, there is water to wash your hands of the whole pamphlet. So hoping you will accept a pledge of my service, and have a care of your own health, I begin to you.</p>
+        <closer xml:id="A01425-e100140">
+          <signed xml:id="A01425-e100150">I. Gr.</signed>
+        </closer>
+      </div>
+      <div type="dramatis_personae" xml:id="A01425-e100160">
+        <pb facs="3"/>
+        <list xml:id="A01425-e100170">
+          <head>The speakers.</head>
+          <item xml:id="A01425-e100180">Wine, a gentleman.</item>
+          <item xml:id="A01425-e100190">Sugar, his page.</item>
+          <item xml:id="A01425-e100200">Beer, a citizen.</item>
+          <item xml:id="A01425-e100210">Nutmeg, his prentice.</item>
+          <item xml:id="A01425-e100220">Ale, a countryman.</item>
+          <item xml:id="A01425-e100230">Tossed, one of his rural servants.</item>
+          <item xml:id="A01425-e100240">Water, a parson.</item>
+          <item xml:id="A01425-e100250">Tobacco, a swaggering gentleman.</item>
+        </list>
+      </div>
+    </front>
+    <body xml:id="A01425-e100260">
+      <div type="dialogue" xml:id="A01425-e100270">
+        <pb facs="3"/>
+        <head>Wine, beer, ale, and tobacco, contending for superiority.</head>
+        <stage xml:id="A01425-e100280">Sugar and nutmeg from several doors meet.</stage>
+        <sp xml:id="A01425-e100290" who="A01425-sugar">
+          <speaker>Sugar.</speaker>
+          <p xml:id="A01425-e100300">Nutmeg?</p>
+        </sp>
+        <sp xml:id="A01425-e100310" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e100320">Sugar? well met, how chance you wait not upon your master, where's wine now?</p>
+        </sp>
+        <sp xml:id="A01425-e100330" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e100340">O sometimes without sugar, all the while he's well if I be in his company, 'tis but for fashion's sake, I wait upon him into a room now and then, but am not regarded: marry when he is ill, he makes much of me, who but sugar? but to my remembrance I have not been in his presence this fortnight, I hope shortly he will not know me, though he meet me in his drink.</p>
+        </sp>
+        <sp xml:id="A01425-e100350" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e100360">Thou hast a sweet life in the mean time sugar.</p>
+        </sp>
+        <sp xml:id="A01425-e100370" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e100380">But thou art tied to more attendance nutmeg upon your master beer.</p>
+        </sp>
+        <sp xml:id="A01425-e100390" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e100400">Faith no, I am free now and then, though I be his prentice still, nutmeg hath more friends to trust to then beer: I can be welcome to wine thy master sometimes, and to the honest country man ale too. But now I talk of ale, when didst see his man prithee?</p>
+        </sp>
+        <sp xml:id="A01425-e100410" who="A01425-sugar">
+          <pb facs="4"/>
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e100420">Who, tossed?</p>
+        </sp>
+        <sp xml:id="A01425-e100430" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e100440">The same.</p>
+        </sp>
+        <sp xml:id="A01425-e100450" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e100460">I meet him at tavern every day.</p>
+        </sp>
+        <sp xml:id="A01425-e100470" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e100480">When shall thou, and he, and I, meet and be merry over a cup?</p>
+        </sp>
+        <sp xml:id="A01425-e100490" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e100500">I'll tell thee nutmeg, I do not care much for his company, he's such a choleric piece, I know not what he's made of, but his quarrelling comes home to him, for he's every day cut for it, I marvel how he scapes, this morning he had a knife thrust into him.</p>
+        </sp>
+        <sp xml:id="A01425-e100510" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e100520">Indeed he will be very hot sometimes.</p>
+        </sp>
+        <sp xml:id="A01425-e100530" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e100540">Hot? Ay, till he look black ith' face again, besides, if he take an opinion there's no turning him, he'll be burned first. I did but by chance let fall some words against ale, and he had like to have beaten me to powder for it.</p>
+        </sp>
+        <sp xml:id="A01425-e100550" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e100560">How; beaten sugar? that would be very fine i'faith; but he being bread, and thou a loaf, you should not differ so. Stand, look where he is.</p>
+        </sp>
+        <stage xml:id="A01425-e100570">Enter Tost drunk.</stage>
+        <sp xml:id="A01425-e100580" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e100590">Then I'll be gone, for we shall quarrel.</p>
+        </sp>
+        <sp xml:id="A01425-e100600" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e100610">Come, fear not, I'll part you, but he's drunk, ready to fall; whence comes he dropping in now? How now tossed?</p>
+        </sp>
+        <sp xml:id="A01425-e100620" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e100630">Nutmeg? round and sound and all of a colour, art thou there?</p>
+        </sp>
+        <sp xml:id="A01425-e100640" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e100650">Here's all that's left of me.</p>
+        </sp>
+        <sp xml:id="A01425-e100660" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e100670">Nutmeg, I love thee nutmeg. What's that a ghost?</p>
+        </sp>
+        <sp xml:id="A01425-e100680" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e100690">No ▪ 'tis your old acquaintance sugar.</p>
+        </sp>
+        <sp xml:id="A01425-e100700" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e100710">Sugar: I'll beat him to pieces.</p>
+        </sp>
+        <sp xml:id="A01425-e100720" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e100730">Hold, hold. Nutmeg.</p>
+        </sp>
+        <stage xml:id="A01425-e100740">Nutmeg and sugar hang upon Tost.</stage>
+        <sp xml:id="A01425-e100750" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e100760">Cannot tossed stand without holding?</p>
+        </sp>
+        <sp xml:id="A01425-e100770" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e100780">Where have you been tossed?</p>
+        </sp>
+        <sp xml:id="A01425-e100790" who="A01425-tost">
+          <pb facs="4"/>
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e100800">I'll tell thee, I have been with my m. ale. Sirrah, I was very dry, and he has made me drunk: do I not crumble? I shall fall a pieces; but I'll beat sugar for all that: I do not weigh him, he is a poor rogue, I have known him sold for two pence, when he was young, wrapped in swaddling clouts of paper. I know his breeding, a drawer brought him up, and now he's grown so lumpish.</p>
+        </sp>
+        <sp xml:id="A01425-e100810" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e100820">You're a rude tossed.</p>
+        </sp>
+        <sp xml:id="A01425-e100830" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e100840">Rude? Let me but crush him: rude? Sirrah, 'tis well known you come from Barbary yourself, and because of some few pounds in a chest, you think to domineer over tossed: you're a little handsome, I confess, and wenches lick their lips after you; but for all that, would I might sink to the bottom, if I do not —: I will give sugar but one box.</p>
+        </sp>
+        <sp xml:id="A01425-e100850" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e100860">Come, come. you shall not.</p>
+        </sp>
+        <sp xml:id="A01425-e100870" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e100880">Prithee nutmeg, take out tossed a little, tomorrow we'll meet and be drunk together.</p>
+        </sp>
+        <stage xml:id="A01425-e100890">Exit nutmeg with Tost.</stage>
+        <p xml:id="A01425-e100900">So, so, I am glad he's gone: I do not love this toasts company, yet some occasion or other, puts me still upon him. Ha, who's this?</p>
+        <stage xml:id="A01425-e100910">Enter wine.</stage>
+        <p xml:id="A01425-e100920">'Tis wine my master.</p>
+        <sp xml:id="A01425-e100930" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e100940">Sugar, you are a sweet youth, you wait well.</p>
+        </sp>
+        <sp xml:id="A01425-e100950" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e100960">A friend of mine called me forth, to cure a cut finger.</p>
+        </sp>
+        <sp xml:id="A01425-e100970" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e100980">You'll turn surgeon or physician shortly.</p>
+        </sp>
+        <sp xml:id="A01425-e100990" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101000">But your diseases need none: for inflammations, which are dangerous to others, makes you more acceptable, nor do you blush to have it reported sir, how often you have been burned.</p>
+        </sp>
+        <sp xml:id="A01425-e101010" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101020">So sir, now you put me in mind on't, I hear say you run a wenching, and keep women's company too much.</p>
+        </sp>
+        <sp xml:id="A01425-e101030" who="A01425-sugar">
+          <pb facs="5"/>
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101040">Alas sir, like will to like, Sugar being of his own nature sweet, has reason to make much of women, which are the sweetest creatures.</p>
+        </sp>
+        <sp xml:id="A01425-e101050" who="A01425-wine">
+          <speaker>Wine</speaker>
+          <p xml:id="A01425-e101060">But some of them are sour enough.</p>
+        </sp>
+        <sp xml:id="A01425-e101070" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101080">Ay sir, widows at fifteen, and maids at twenty five; but I keep them company, for no other thing, than to convert them, some of them could e'en eat me, but for fear of spoiling their teeth.</p>
+        </sp>
+        <sp xml:id="A01425-e101090" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101100">Indeed one of your sweet hearts complained tother day you made her teeth rotten.</p>
+        </sp>
+        <sp xml:id="A01425-e101110" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101120">Alas sir, 'twas none of my fault, she bit me first, and I could do no less, than punish her sweet tooth.</p>
+        </sp>
+        <sp xml:id="A01425-e101130" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101140">Well sirrah, I say, take heed of women.</p>
+        </sp>
+        <sp xml:id="A01425-e101150" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101160">Nay sir, if I may credit my own experience they are the best friends I have, for I am always in their mouths. If I come to a banquet, as none are made without me, in what fashion soever I appear, every woman bestows a handkercher upon me, and strive to carry me away in their cleanest linen: nay, but for shame, to betray their affections to me, they would bring whole sheets for me to lie in ▪</p>
+        </sp>
+        <sp xml:id="A01425-e101170" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101180">Why sure thou wert wrapped in thy mother's smock.</p>
+        </sp>
+        <sp xml:id="A01425-e101190" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101200">I think if the midwife were put to her oath, I was wrapped in hers, oath christing day.</p>
+          <p xml:id="A01425-e101210">But see sir, here's master beer.</p>
+        </sp>
+        <stage xml:id="A01425-e101220">Enter beer.</stage>
+        <sp xml:id="A01425-e101230" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101240">How, beer? we are not very good friends, no matter, I scorn to avoid him.</p>
+        </sp>
+        <sp xml:id="A01425-e101250" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e101260">Beer-leave sir.</p>
+        </sp>
+        <stage xml:id="A01425-e101270">Justles wine.</stage>
+        <sp xml:id="A01425-e101280" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101290">So methinks ? how now beer, running a-tilt, dost not know me?</p>
+        </sp>
+        <sp xml:id="A01425-e101300" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e101310">I do mean to have the wall on you.</p>
+        </sp>
+        <sp xml:id="A01425-e101320" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101330">The wall of me, you would have your head and the wall knocked together, learn better manners, or I may chance to broach you.</p>
+        </sp>
+        <sp xml:id="A01425-e101340" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e101350">Broach me, alas poor wine, 'tis not your fieri<pb facs="5"/> facias can make beer afraid, thy betters know the strength of beer. I do not fear your high colour sir.</p>
+        </sp>
+        <sp xml:id="A01425-e101360" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101370">So, so, here will be some scuffling.</p>
+        </sp>
+        <sp xml:id="A01425-e101380" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101390">You'll leave your impudence, and learn to know your superiors beer, or I may chance to have you stopped up. what never leave working? I am none of your fellows.</p>
+        </sp>
+        <sp xml:id="A01425-e101400" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e101410">I scorn thou shouldst.</p>
+        </sp>
+        <sp xml:id="A01425-e101420" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101430">I am a companion for princes, the least drop of my blood, worth all thy body. I am sent for by the citizens, visited by the gallants, kissed by the gentlewomen ▪ I am their life, their genius, the poetical fury, the Helicon of the Muses, of better value than beer; I should be sorry else.</p>
+        </sp>
+        <sp xml:id="A01425-e101440" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e101450">Thou art sorry wine indeed sometimes: value? you are come up of late, men pay dear for your company, and repent it: that gives you not the precedency; though beer set not so great a price upon himself, he means not to bate a grain of his worth, nor subscribe to wine for all his braveries,</p>
+        </sp>
+        <sp xml:id="A01425-e101460" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101470">Not to me?</p>
+        </sp>
+        <sp xml:id="A01425-e101480" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e101490">Not to you: why whence come you pray?</p>
+        </sp>
+        <sp xml:id="A01425-e101500" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101510">From France, from Spain, from Greece.</p>
+        </sp>
+        <sp xml:id="A01425-e101520" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e101530">Thou art a mad Greek indeed.</p>
+        </sp>
+        <sp xml:id="A01425-e101540" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101550">Where thou must never hope to come: who dares deny that I have been a traveler?</p>
+        </sp>
+        <sp xml:id="A01425-e101560" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e101570">A traveler? in a tumbril, a little beer will go farther: why wine, art not thou kept under lock and key, confined to some corner of a cellar, and there indeed commonly close prisoner, unless the jailor or yeoman of the bottles turn the key for the chambermaid now and then, for which she vows not to leave him, till the last gasp, where beer goes abroad, and rendezvous in every place.</p>
+        </sp>
+        <sp xml:id="A01425-e101580" who="A01425-wine">
+          <speaker>Win.</speaker>
+          <p xml:id="A01425-e101590">Thou in every place? away hop of my thumb: beer, I am a shamed of thee.</p>
+        </sp>
+        <sp xml:id="A01425-e101600" who="A01425-beer">
+          <speaker>Beer,</speaker>
+          <p xml:id="A01425-e101610">Be ashamed of thyself, and blush wine thou art no better. Beer shall have commendations for his mildness and virtue, when thou art spit out of men's mouths, and distasted: thou art an hypocrite, wine, art all white sometimes, but<pb facs="6"/> more changeable than Proteus: thou wouldst take upon thee to comfort the blood, but haste been the cause that too many noble veins have been emptied: thy virtue is to betray secrets, the very preparative to a thousand rapes and murders, and yet thou darest stand upon thy credit, and prefer thyself to beer, that is as clear as day.</p>
+        </sp>
+        <sp xml:id="A01425-e101620" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101630">Well said beer, he bears up stiff like a constable. Now will I play my part with 'em both. Sir,<stage xml:id="A01425-e101640">Tn wine</stage>this is intolerable.</p>
+        </sp>
+        <sp xml:id="A01425-e101650" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101660">The vessel of your wit leaks, beer, why thou art drunk.</p>
+        </sp>
+        <sp xml:id="A01425-e101670" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e101680">So art thou wine, every day i'th week, and art fain to be carried forth of doors.</p>
+        </sp>
+        <sp xml:id="A01425-e101690" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101700">How sir?</p>
+        </sp>
+        <stage xml:id="A01425-e101710">To wine.</stage>
+        <sp xml:id="A01425-e101720" who="A01425-wine">
+          <speaker>Win.</speaker>
+          <p xml:id="A01425-e101730">I scorn thy words, thou art base beer: wine is well born, has good breeding, and bringing up; thou deservest to be carted, beer.</p>
+        </sp>
+        <sp xml:id="A01425-e101740" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101750">Suffer this, and suffer all, to him again.</p>
+        </sp>
+        <sp xml:id="A01425-e101760" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e101770">Carted? thou would be carted thyself, racked and drawn for thy baseness, wine. Welborne? Did not every man call you bastard tother day? born? there's no man able to bear thee much: and for breeding, I know none thou hast, unless it be diseases.</p>
+        </sp>
+        <sp xml:id="A01425-e101780" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101790">How, diseases? you have been held always to be wholesome wine, sir.</p>
+        </sp>
+        <sp xml:id="A01425-e101800" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101810">Sirrah, if I take you in hand, I shall make you small beer.</p>
+        </sp>
+        <sp xml:id="A01425-e101820" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e101830">Take heed I do not make vinegar of you first.</p>
+        </sp>
+        <sp xml:id="A01425-e101840" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101850">Do, do, make him piss it, in my opinion sir, it were not for your honour to run away: yet beer being a common quarreler, I fear may prove too hard for you.</p>
+        </sp>
+        <sp xml:id="A01425-e101860" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101870">Too hard for me? away boy, I'll be as hard as he for his heart: alas, he's but weak beer, if I give him but a tap, it shall stay him from running out thus.</p>
+        </sp>
+        <sp xml:id="A01425-e101880" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101890">So, so, they are high enough fall too, and welcome.</p>
+        </sp>
+        <stage xml:id="A01425-e101900"><pb facs="6"/>Enter ale.</stage>
+        <p xml:id="A01425-e101910">Who's this? Ale? O for the three-men-song: this ale is a stout fellow, it shall go hard, but sugar which makes all sweet sometimes, shall set him in his part of discord.</p>
+        <sp xml:id="A01425-e101920" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e101930">Come, come, beer, you forget how low you were tother day: provoke me not too much, lest I bestow a firkin on you.</p>
+        </sp>
+        <sp xml:id="A01425-e101940" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e101950">Strike and thou dar'st wine, I shall make thee answer as quick as the objection, and give you a dash.</p>
+        </sp>
+        <sp xml:id="A01425-e101960" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e101970">Umh: what's this? it seems there's great difference between wine and beer. Sugar, what's the matter?</p>
+        </sp>
+        <sp xml:id="A01425-e101980" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e101990">O goodman ale, I am glad you're come, here's nothing but contention: I have gone betwixt 'em twice or thrice, but I fear, one or both will be spilt.</p>
+        </sp>
+        <sp xml:id="A01425-e102000" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102010">What do they contend about?</p>
+        </sp>
+        <sp xml:id="A01425-e102020" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e102030">For that, which for ought I can apprehend, belongs as much to you, as to either of them.</p>
+        </sp>
+        <sp xml:id="A01425-e102040" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102050">Ha? to me? what's that?</p>
+        </sp>
+        <sp xml:id="A01425-e102060" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e102070">Ale, by judicious men hath been held no despicable drink, for my own part, 'tis nothing to me: you are all one to sugar, whosoever be King, sugar can be a subject, but yet, 'twere fit, ale had his measure.</p>
+        </sp>
+        <sp xml:id="A01425-e102080" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102090">Are they so proud?</p>
+        </sp>
+        <sp xml:id="A01425-e102100" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e102110">They mind not you, as if you were too unworthy a competitor; see, 'tis come to a challenge.</p>
+        </sp>
+        <stage xml:id="A01425-e102120">Wine throws down the glove, which beer takes up.</stage>
+        <p xml:id="A01425-e102130">Pray take no knowledge that I discovered any thing of their ambition; sugar shall ever be found true to ale, else would I might never be more drunk in your company.</p>
+        <sp xml:id="A01425-e102140" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102150">No matter for protestation.</p>
+        </sp>
+        <sp xml:id="A01425-e102160" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e102170">So, so, now I have warmed ale pretty well, I'll leave 'em: if wine beer and ale agree together, would sugar might never be drunk but with water, nor never help to<pb facs="7"/> preserve any thing but old women, and elder brothers.</p>
+          <stage xml:id="A01425-e102180">Exit.</stage>
+        </sp>
+        <sp xml:id="A01425-e102190" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e102200">Remember the place, and weapon.</p>
+        </sp>
+        <sp xml:id="A01425-e102210" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102220">Stay, stay, come together again, why how now, what fight, and kill one another?</p>
+        </sp>
+        <sp xml:id="A01425-e102230" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e102240">Alas poor beer, I account him dead already.</p>
+        </sp>
+        <sp xml:id="A01425-e102250" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e102260">No sir, you may find beer quick enough, to pierce your hogshead. I shall remember.</p>
+        </sp>
+        <sp xml:id="A01425-e102270" who="A01425-ale">
+          <speaker>Ale ▪</speaker>
+          <p xml:id="A01425-e102280">But ith' mean time you both forget yourselves: d'ye hear? Ale is a friend to you both, let me know your difference.</p>
+        </sp>
+        <sp xml:id="A01425-e102290" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e102300">He has disgraced me.</p>
+        </sp>
+        <sp xml:id="A01425-e102310" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e102320">Thou hast disgraced thyself in thy comparisons. Wine must be acknowledged the nectar of all drinks, the prince of liquours.</p>
+        </sp>
+        <sp xml:id="A01425-e102330" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e102340">To wash boots.</p>
+        </sp>
+        <sp xml:id="A01425-e102350" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102360">Hark you, are you both mad? who hath heat you, that you run over, do you contend for that in justice belongs to another? I tell you wine and beer, I do not relish you, I'll tell you a tale: two spruce hotspur fiery gallants meeting ith' streets, justled for the wall, drew, would he been fighting: there steps me forth a correcter of soles, an underlaid cobbler, and cries out, hold, hold your hands gentlemen, are you so simple to fight for the wall? why the wall's my landlords. Have you but so much wit as to apply this, you shall never need fence for the matter. Superiority is mine, ale is the prince of liquours, and you are both my subjects.</p>
+        </sp>
+        <sp xml:id="A01425-e102370" who="A01425-both">
+          <speaker>Both.</speaker>
+          <p xml:id="A01425-e102380">We thy subjects?</p>
+        </sp>
+        <sp xml:id="A01425-e102390" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e102400">O base ale.</p>
+        </sp>
+        <sp xml:id="A01425-e102410" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e102420">O muddy ale.</p>
+        </sp>
+        <sp xml:id="A01425-e102430" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102440">Leave your railing, and attend my reasons, I claim your duties to me, for many prerogatives: my antiquity, my riches, my learning, my, strength, my gravity.</p>
+        </sp>
+        <sp xml:id="A01425-e102450" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e102460">Antiquity? your first reason's a very small one.</p>
+        </sp>
+        <sp xml:id="A01425-e102470" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102480">Dare any of you deny my antiquity? I say.</p>
+        </sp>
+        <sp xml:id="A01425-e102490" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e102500">We must bear with him, 'tis in his ale.</p>
+        </sp>
+        <sp xml:id="A01425-e102510" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102520">It only pleads for me: who hath not heard of the old ale of England?</p>
+        </sp>
+        <sp xml:id="A01425-e102530" who="A01425-beer">
+          <pb facs="7"/>
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e102540">Old ale; o there 'tis grown to a proverb, Jones Ale'new.</p>
+        </sp>
+        <sp xml:id="A01425-e102550" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102560">These are trifles, and convince me not.</p>
+        </sp>
+        <sp xml:id="A01425-e102570" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e102580">If we should grant your argument, you would gain little by't, go together, I do allow you both a couple of stale companions.</p>
+        </sp>
+        <sp xml:id="A01425-e102590" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e102600">Wine, you're very harsh.</p>
+        </sp>
+        <sp xml:id="A01425-e102610" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102620">Let him, my second prerogative is my riches and possessions; for who knows not how many houses I have? Wine and beer are fain to take up a corner, your ambition goes no further than a cellar, where the whole house where I am is mine, goes only by my name, is called an alehouse; but when is either heard, the wine-house, or the beerhouse? you cannot pass a street, wherein I have not houses of mine own, besides many that go by other men's names.</p>
+        </sp>
+        <sp xml:id="A01425-e102630" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e102640">I confess you have here and there an alehouse, but whose are all the rest? hath not beer as much title to them?</p>
+        </sp>
+        <sp xml:id="A01425-e102650" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e102660">And yet I have not heard that either of you both have fined for aldermen, though I confess something has been attempted out of nick and froth. Be ruled by me, beer and ale, and aspire no higher than the common-councell-houses. O impudence, that either of you should talk of houses, when sometimes you are both glad of a tub: d'ye hear ale? do not you know the man that did the bottle bring?</p>
+        </sp>
+        <sp xml:id="A01425-e102670" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102680">Thou art glad of a bottle thyself, wine, sometimes, and so is beer too, for all he froths now.</p>
+        </sp>
+        <sp xml:id="A01425-e102690" who="A01425-beer">
+          <speaker>Beer</speaker>
+          <p xml:id="A01425-e102700">So, so.</p>
+        </sp>
+        <sp xml:id="A01425-e102710" who="A01425-ale">
+          <speaker>Ale,</speaker>
+          <p xml:id="A01425-e102720">My third prerogative, is my learning.</p>
+        </sp>
+        <sp xml:id="A01425-e102730" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e102740">Learning? If you have the liberal sciences, pray be free, and let's hear some.</p>
+        </sp>
+        <sp xml:id="A01425-e102750" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102760">For that, though I could give you demonstration, for brevity's sake I remit you to my books.</p>
+        </sp>
+        <sp xml:id="A01425-e102770" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e102780">Books? printed cum privilegio no doubt on't, and sold for the company of stationers: what are the names?</p>
+        </sp>
+        <sp xml:id="A01425-e102790" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102800">Admire me, but when I name learned, though not<pb facs="8"/> the great Alexander ale and Tostatus the Jesuit.</p>
+        </sp>
+        <sp xml:id="A01425-e102810" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e102820">O learned ale, you scorn to make indentures any more, but you might as well have concluded this without book.</p>
+        </sp>
+        <sp xml:id="A01425-e102830" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e102840">Why, you will shortly be town-clerk, the city chronicler is too mean a place for you.</p>
+        </sp>
+        <sp xml:id="A01425-e102850" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e102860">Now for my strength and invincibility.</p>
+        </sp>
+        <sp xml:id="A01425-e102870" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e102880">But here let me interrupt you, talk no more of strength, none but beer deserves to be called strong, no pen is able to set down my victories. I? why, I have been the destruction. —</p>
+        </sp>
+        <sp xml:id="A01425-e102890" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e102900">Of Troy, hast not? here your own mouths condemn you: if killing be your conquest, every quacksaluing knave may have the credit of a rare physician, that sends more to the church and churchyard, than diseases do: I wine, comfort and preserve, let that be my character. I am cousin germane to the blood, not so like in my appearance as I am in nature, I repair the debilities of age, and revive the refrigerated spirits, exhilarate the heart, and steel the brow with confidence. For you both the poet hath drawn you memorial in one. <quote xml:id="A01425-e102910"><l xml:id="A01425-e102920">— nil spissus illa</l><l xml:id="A01425-e102930">Dum bibitur, nil clarius est dum mingitur, unde</l><l xml:id="A01425-e102940">Constat quod mult as fences in corpore linquat. </l></quote><quote xml:id="A01425-e102950"><l xml:id="A01425-e102960">Nothing goes in so thick,</l><l xml:id="A01425-e102970">Nothing comes out so thin:</l><l xml:id="A01425-e102980">It must needs follow then,</l><l xml:id="A01425-e102990">Your dregs are left within. </l></quote></p>
+          <p xml:id="A01425-e103000">And so I leave you stygiae monstrum conform paludi, monstrous drink, like the river Styx.</p>
+        </sp>
+        <sp xml:id="A01425-e103010" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e103020">Nay but hark, 'tis not your Latin must carry it away, I will not lose a drop of my reputation, and by your favour, if you stand so much upon your preserving, I'll put you to your Latin again, and prove myself superior, for ale as if it were the life of mankind, hath a peculiar name and denomination, being called ale from alo, which every school boy can tell, signifies to feed and nourish, which neither<pb facs="8"/> wine nor beer can show for themselves; and for my strength and honour in the wars, know that ale is a knight of Malta, and dares fight with any man bears a head, 'tis more safe to believe what a soldier I am, then try what I can do.</p>
+        </sp>
+        <sp xml:id="A01425-e103030" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e103040">If you look thus ill-favouredly ale, you may fright men well enough, and be held terrible by weak stomachs; but if you call to mind the puissance and valour of beer, invincible beer, tumble down beer, you must sing a pallinode. I? why I have overthrown armies, how easy is it for me to take a city, when I can tame constables, which in their presence are formidable at midnight, in the midst of their rugged billmen, make 'em all resign their weapons, and send 'em away to sleep upon their charge.</p>
+        </sp>
+        <sp xml:id="A01425-e103050" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e103060">How? upon their own charge? take the constable committing that fault, and he'll never be good in his office after it.</p>
+        </sp>
+        <sp xml:id="A01425-e103070" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e103080">Now for my virtue in preserving and nourishing the body wherein you both so glory, you are not to compare with me, since thousands every day come to receive their healths from me.</p>
+        </sp>
+        <sp xml:id="A01425-e103090" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e103100">Kings and princes from me, and like them I am served in plate.</p>
+        </sp>
+        <sp xml:id="A01425-e103110" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e103120">But thou art come down of late to a glass, wine: and that's the reason I think, so many vintners have broke: now observe my last reason.</p>
+        </sp>
+        <sp xml:id="A01425-e103130" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e103140">Yes, pray where lies your gravity?</p>
+        </sp>
+        <sp xml:id="A01425-e103150" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e103160">Not in my beard, I speak without mental reservation, I'll tell you, and you shall confess it: the wise men of ancient time were called sages, and to this day it signifies judgement, discretion, gravity; for by what other would you excite to good manners more aptly, than to show a young man to be sage, that is grave: and with what title can you better salute him that is grave, or more honour him, than to call him one of the sages? Now this appellation neither of you can challenge, yet every man giveth me the attribute; for who knows not I am called sage ale?</p>
+        </sp>
+        <sp xml:id="A01425-e103170" who="A01425-wine">
+          <pb facs="9"/>
+          <speaker>Wi.</speaker>
+          <p xml:id="A01425-e103180">One may guess what brains he caries by the sage now.</p>
+        </sp>
+        <sp xml:id="A01425-e103190" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e103200">And thus having given you sufficient reasons for your acknowledgement of my principality, let your knees witness your obedience to your King, and I will grace you both by making you squires of my body, right honourable ale-squires.</p>
+        </sp>
+        <sp xml:id="A01425-e103210" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e103220">This is beyond suffering: was ever wine so undervalved? Barbarous detractors, whose beginning came from a dunghill, I defy you Bacchus, look down, and see me vindicate thine honour, I scorn to procrastinate in this, and this minute you shall give account of your insolences: my spirit's high, I am enemy to both.</p>
+        </sp>
+        <sp xml:id="A01425-e103230" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e103240">Is wine drawn? then have at you, I'll make good ale.</p>
+        </sp>
+        <sp xml:id="A01425-e103250" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e103260">I stand for the honour of beer, were you an army.</p>
+        </sp>
+        <stage xml:id="A01425-e103270">As they offer to fight water comes running in.</stage>
+        <sp xml:id="A01425-e103280" who="A01425-water">
+          <speaker>Water.</speaker>
+          <p xml:id="A01425-e103290">Hold, hold, hold.</p>
+        </sp>
+        <sp xml:id="A01425-e103300" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e103310">How now? what comes water running hither for?</p>
+        </sp>
+        <sp xml:id="A01425-e103320" who="A01425-water">
+          <speaker>Wat.</speaker>
+          <p xml:id="A01425-e103330">Let my fear ebb a little.</p>
+        </sp>
+        <sp xml:id="A01425-e103340" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e103350">What tide brought you hither, water?</p>
+        </sp>
+        <sp xml:id="A01425-e103360" who="A01425-water">
+          <speaker>Water.</speaker>
+          <p xml:id="A01425-e103370">The pure stream of my affection: o how I am troubled! I am not yet recovered.</p>
+        </sp>
+        <sp xml:id="A01425-e103380" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e103390">So methinks you look very thin upon't water: but why do we not fight?</p>
+        </sp>
+        <sp xml:id="A01425-e103400" who="A01425-water">
+          <speaker>Water.</speaker>
+          <p xml:id="A01425-e103410">Do not talk of fighting, is it not time that water should come to quench the fire of such contention? I tell you, the care of your preservation made me break my banks to come to you, that you might see the overflowing love I bear you: your quarrel hath echoed unto me; I know your ambition for superiority: you are all my kinsmen, near allied to water, and though I say it, sometimes not a little beholding to water, even for your very makings. Will you refer yourselves to me, and wade no further in these discontentments? I will undertake your reconcilement and qualification.</p>
+        </sp>
+        <sp xml:id="A01425-e103420" who="A01425-wine">
+          <pb facs="9"/>
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e103430">To thee, water? wilt thou take upon thee to correct our irregularity? Thou often goest beyond thy bounds thyself. But if they consent, I shall.</p>
+        </sp>
+        <sp xml:id="A01425-e103440" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e103450">I am content.</p>
+        </sp>
+        <sp xml:id="A01425-e103460" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e103470">And I.</p>
+        </sp>
+        <sp xml:id="A01425-e103480" who="A01425-water">
+          <speaker>Water.</speaker>
+          <p xml:id="A01425-e103490">Then without further circumlocution or insinuation, water runs to the matter: you shall no more contend for excellency, for water shall allow each of you a singularity. First, you wine, shall be in most request among courtiers, gallants, gentlemen, poetical wits, qui melioris luti homines, being of a refined mould, shall choose as a more nimble and active watering, to make their brains fruitful, fecundi calices quem non? but so as not confined to them, nor limiting them to you, more than to exhilarate their spirits, and acuate their inventions.</p>
+          <p xml:id="A01425-e103500">You beer, shall be in most grace with the citizens, as being a more stayed liquor, fit for them that purpose retirement and gravity, that with the snail carries the cares of a house and family with them, tied to the attendance of an illiberal profession, that neither trot nor amble, but have a sure pace of their own, Bos lassus fortius figit pedem, the black ox has trod upon their foot: yet I bound you not with the city, though it be the common entertainment, you may be in credit with gentlemen's cellars, and carry reputation before you from march to Christmas — tide I should say; that water should forget his tide.</p>
+          <p xml:id="A01425-e103510">You ale I remit to the country as more fit to live where you were bred: your credit shall not be inferior, for people of all sorts shall desire your acquaintance, specially in the morning, though you may be allowed all the day after: the parson shall account you one of his best parishioners, and the church wardens shall pay for your company, and drawing their bills all the year long, you shall be loved and maintained at the parish charge till you be old, be allowed a Robin-hood, or mother Redcap, to hang at your door, to beckon in customers: and if you come into the city, you may be drunk with pleasure, but never come into the fashion. <pb facs="10"/>At all times you shall have respect, but ith' winter morning without comparison. How do you like my censure now?</p>
+        </sp>
+        <sp xml:id="A01425-e103520" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e103530">Water has a deep judgement.</p>
+        </sp>
+        <sp xml:id="A01425-e103540" who="A01425-water">
+          <speaker>Wat.</speaker>
+          <p xml:id="A01425-e103550">And yet the world says sometimes water is shallow: nay, I'll see you shake hands, and tie a new knot of friendship.</p>
+        </sp>
+        <sp xml:id="A01425-e103560" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e103570">We are henceforth brothers.</p>
+        </sp>
+        <sp xml:id="A01425-e103580" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e103590">Stay, who's here?</p>
+        </sp>
+        <stage xml:id="A01425-e103600">Enter Tost, sugar, and nutmeg: Tost whetting a knife on his shoe.</stage>
+        <sp xml:id="A01425-e103610" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e103620">I tell thee, sugar, I am now friends with thee. But if it be as you say —</p>
+        </sp>
+        <sp xml:id="A01425-e103630" who="A01425-water">
+          <speaker>Wat.</speaker>
+          <p xml:id="A01425-e103640">What's the matter?</p>
+        </sp>
+        <sp xml:id="A01425-e103650" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e103660">Let's observe him a little, tossed is angry.</p>
+        </sp>
+        <sp xml:id="A01425-e103670" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e103680">What need you be so hot, tossed?</p>
+        </sp>
+        <sp xml:id="A01425-e103690" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e103700">Hote? 'tis no matter, sugar: you will justify that wine and beer offered this wrong unto ale.</p>
+        </sp>
+        <sp xml:id="A01425-e103710" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e103720">I know not whose pride began; but I was sorry to see wine, beer, and ale at such odds.</p>
+        </sp>
+        <sp xml:id="A01425-e103730" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e103740">Ods quotha? I do mean to be even with somebody .</p>
+        </sp>
+        <sp xml:id="A01425-e103750" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e103760">An even tossed shows well,</p>
+        </sp>
+        <sp xml:id="A01425-e103770" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e103780">They shall find that ale has those about him that are not altogether dow.</p>
+        </sp>
+        <sp xml:id="A01425-e103790" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e103800">Thou hast been baked, I'll swear.</p>
+        </sp>
+        <sp xml:id="A01425-e103810" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e103820">And new come out of the oven too, I think: son he is very fiery.</p>
+        </sp>
+        <sp xml:id="A01425-e103830" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e103840">Ale must not be put down so long as tossed has a crumb of life left. Beer too?</p>
+        </sp>
+        <sp xml:id="A01425-e103850" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e103860">What do you mean to do with your knife, tossed? that will scarce cut beer and 'twere buttered.</p>
+        </sp>
+        <sp xml:id="A01425-e103870" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e103880">Come not near me, nutmeg, lest I grate you, and slice you: nutmeg, do you mark?</p>
+        </sp>
+        <sp xml:id="A01425-e103890" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e103900">Let's in, and make 'em friends. How now tossed?</p>
+        </sp>
+        <sp xml:id="A01425-e103910" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e103920">'Tis all one for that: o, are you there? pray tell me<pb facs="10"/> which of 'em is't?</p>
+        </sp>
+        <sp xml:id="A01425-e103930" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e103940">Is what?</p>
+        </sp>
+        <sp xml:id="A01425-e103950" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e103960">Why they are friends: what did you mean sugar, to make tossed burn thus?</p>
+        </sp>
+        <sp xml:id="A01425-e103970" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e103980">No such matter.</p>
+        </sp>
+        <sp xml:id="A01425-e103990" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e104000">You will not tell me then. Hark you beer, march-beer, this way a little.</p>
+        </sp>
+        <sp xml:id="A01425-e104010" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e104020">What dost thou mean to do with thy knife?</p>
+        </sp>
+        <sp xml:id="A01425-e104030" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e104040">I must stir you a little beer: what colour had you to quarrel with my master?</p>
+        </sp>
+        <sp xml:id="A01425-e104050" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e104060">Ale. We are sworn brothers.</p>
+        </sp>
+        <sp xml:id="A01425-e104070" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e104080">We were at difference, and wine too. but —</p>
+        </sp>
+        <sp xml:id="A01425-e104090" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e104100">Wine too but, but me no butts, I care not a straw for his butts; d'ye hear sir, do you long to be graves's wine?</p>
+        </sp>
+        <sp xml:id="A01425-e104110" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e104120">We are all friends.</p>
+        </sp>
+        <sp xml:id="A01425-e104130" who="A01425-water">
+          <speaker>Water.</speaker>
+          <p xml:id="A01425-e104140">Ay, ay, all friends on my word, tossed.</p>
+        </sp>
+        <sp xml:id="A01425-e104150" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e104160">Fire and water are not to be trusted, away new river, away, I wash my hands on thee.</p>
+        </sp>
+        <sp xml:id="A01425-e104170" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e104180">Come hither again, tossed.</p>
+        </sp>
+        <sp xml:id="A01425-e104190" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e104200">Over head and ears in ale.</p>
+        </sp>
+        <sp xml:id="A01425-e104210" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e104220">How comes this about, sugar?</p>
+        </sp>
+        <sp xml:id="A01425-e104230" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e104240">The truth is, sir, I told him of some difference between you, for he and I had been fallen out, and I had no other security to put in for myself, than to put him upon somebody else.</p>
+        </sp>
+        <sp xml:id="A01425-e104250" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e104260">Nutmeg durst scarce speak to him, he was ready to put me in his pocket.</p>
+        </sp>
+        <sp xml:id="A01425-e104270" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e104280">I am cool again: I may believe you are friends; then I am content to put up.</p>
+          <stage xml:id="A01425-e104290">Puts up his knife.</stage>
+          <p xml:id="A01425-e104300">Sugar and nutmeg, come, we be three.</p>
+        </sp>
+        <sp xml:id="A01425-e104310" who="A01425-sugar">
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e104320">Let's be all one rather: and from henceforth since they are so well accorded, let's make no difference of our masters, but belong to 'em in common: for my part, though I wait upon wine, it shall not exempt my attendance on beer, or ale, if they please to command sugar.</p>
+        </sp>
+        <sp xml:id="A01425-e104330" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e104340">A match. I am for any thing but water.</p>
+        </sp>
+        <sp xml:id="A01425-e104350" who="A01425-nutmeg">
+          <speaker>Nut.</speaker>
+          <p xml:id="A01425-e104360">And I.</p>
+        </sp>
+        <sp xml:id="A01425-e104370" who="A01425-sugar">
+          <pb facs="11"/>
+          <speaker>Sugar</speaker>
+          <p xml:id="A01425-e104380">But my service shall be ready for him to, water and sugar I hope, may be drunk together now and then, and not be brought within compass of the statute, to be put ith' stocks for't,</p>
+        </sp>
+        <sp xml:id="A01425-e104390" who="A01425-water">
+          <speaker>Wat.</speaker>
+          <p xml:id="A01425-e104400">Godamercy sugar with all my heart, I shall love thy company, fer I am solitary, and thou wilt make me pleasant. Stay.</p>
+          <stage xml:id="A01425-e104410">Music.</stage>
+          <p xml:id="A01425-e104420">Hark music? O some friends of mine, I know 'em, they often come upon the water: let's entertain the air a little, never a voice among you?</p>
+        </sp>
+        <floatingText xml:id="A01425-e104430">
+          <body xml:id="A01425-e104440">
+            <div type="song" xml:id="A01425-e104450">
+              <head>The song.</head>
+              <sp xml:id="A01425-e104460" who="A01425-wine">
+                <speaker>Wine,</speaker>
+                <l xml:id="A01425-e104470">I jovial wine exhilarate the heart. </l>
+              </sp>
+              <sp xml:id="A01425-e104480" who="A01425-beer">
+                <speaker>Beer.</speaker>
+                <l xml:id="A01425-e104490">March beer is drink for a King. </l>
+              </sp>
+              <sp xml:id="A01425-e104500" who="A01425-ale">
+                <speaker>Ale.</speaker>
+                <l xml:id="A01425-e104510">But ale, bonny ale, with spice and tossed,</l>
+                <l xml:id="A01425-e104520">In the morning's a dainty thing. </l>
+              </sp>
+              <sp xml:id="A01425-e104530" who="A01425-chorus">
+                <speaker>Chorus.</speaker>
+                <l xml:id="A01425-e104540">Then let us be merry, wash sorrow away,</l>
+                <l xml:id="A01425-e104550">Wine, beer, and ale, shall be drunk today. </l>
+              </sp>
+              <sp xml:id="A01425-e104560" who="A01425-wine">
+                <speaker>Wine.</speaker>
+                <l xml:id="A01425-e104570">I generous wine, am for the court. </l>
+              </sp>
+              <sp xml:id="A01425-e104580" who="A01425-beer">
+                <speaker>Beer.</speaker>
+                <l xml:id="A01425-e104590">The city calls for beer. </l>
+              </sp>
+              <sp xml:id="A01425-e104600" who="A01425-ale">
+                <speaker>Ale.</speaker>
+                <l xml:id="A01425-e104610">But ale, bonny ale, like a lord of the soil,</l>
+                <l xml:id="A01425-e104620">In the country shall domineer. </l>
+              </sp>
+              <sp xml:id="A01425-e104630" who="A01425-chorus">
+                <speaker>Chorus.</speaker>
+                <l xml:id="A01425-e104640">Then let us be merry, wash sorrow away,</l>
+                <l xml:id="A01425-e104650">Wine, beer and ale shall be drunk today. </l>
+              </sp>
+            </div>
+          </body>
+        </floatingText>
+        <sp xml:id="A01425-e104660" who="A01425-water">
+          <speaker>Water.</speaker>
+          <p xml:id="A01425-e104670">Why, now could I dance for joy.</p>
+        </sp>
+        <sp xml:id="A01425-e104680" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e104690">Now you talk of dancing, wine, 'tis one of your qualities, let's pay the musicians all together: we have often made other men have light heads and heels, there's no hurt a little in tripping for ourselves, what say you?</p>
+        </sp>
+        <sp xml:id="A01425-e104700" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e104710">Strike up piper.</p>
+        </sp>
+        <sp xml:id="A01425-e104720" who="A01425-wine">
+          <speaker>Wine</speaker>
+          <p xml:id="A01425-e104730">Lustily, make a merry day on't; nay, leave out none, at dancing and at football, all fellows.</p>
+        </sp>
+        <stage xml:id="A01425-e104740"><pb facs="11"/>Enter Tobaco.</stage>
+        <sp xml:id="A01425-e104750" who="A01425-tobacco">
+          <speaker>Tobaco.</speaker>
+          <p xml:id="A01425-e104760">Be your leave gentlemen — wil't please you be here sir?</p>
+        </sp>
+        <sp xml:id="A01425-e104770" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e104780">Who's this Tobaco?</p>
+        </sp>
+        <sp xml:id="A01425-e104790" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e104800">Why comes he into our company?</p>
+        </sp>
+        <sp xml:id="A01425-e104810" who="A01425-tobacco">
+          <speaker>Tobaco.</speaker>
+          <p xml:id="A01425-e104820">I do hear say there is a controversy — among you, and I am come — to moderate the business,</p>
+        </sp>
+        <sp xml:id="A01425-e104830" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e104840">It sha'not need, we are concluded sir.</p>
+        </sp>
+        <sp xml:id="A01425-e104850" who="A01425-water">
+          <speaker>Water.</speaker>
+          <p xml:id="A01425-e104860">Your name is Tobaco I take it.</p>
+        </sp>
+        <sp xml:id="A01425-e104870" who="A01425-tobacco">
+          <speaker>Tobaco.</speaker>
+          <p xml:id="A01425-e104880">No sir you take it not — deesee, 'tis I that take it.</p>
+        </sp>
+        <sp xml:id="A01425-e104890" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e104900">But we take it very ill, you should intrude yourself into our mirth.</p>
+        </sp>
+        <sp xml:id="A01425-e104910" who="A01425-water">
+          <speaker>Water.</speaker>
+          <p xml:id="A01425-e104920">I did guess, by the chimney your nose that you might stand in need of water, to quench some fire in your kitchen.</p>
+        </sp>
+        <sp xml:id="A01425-e104930" who="A01425-tobacco">
+          <speaker>Tobaco.</speaker>
+          <p xml:id="A01425-e104940">Hoh? Water.</p>
+        </sp>
+        <stage xml:id="A01425-e104950">Spets.</stage>
+        <sp xml:id="A01425-e104960" who="A01425-water">
+          <speaker>Water.</speaker>
+          <p xml:id="A01425-e104970">He has spit me out already</p>
+          <stage xml:id="A01425-e104980">Exit.</stage>
+        </sp>
+        <sp xml:id="A01425-e104990" who="A01425-tobacco">
+          <speaker>Tobaco.</speaker>
+          <p xml:id="A01425-e105000">Sugar tossed and nutmeg. puh. vanish.</p>
+        </sp>
+        <sp xml:id="A01425-e105010" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e105020">He has blown away the spice too.</p>
+        </sp>
+        <stage xml:id="A01425-e105030">Ex. S. t. n.</stage>
+        <sp xml:id="A01425-e105040" who="A01425-tobacco">
+          <speaker>Tobaco,</speaker>
+          <p xml:id="A01425-e105050">Now, do you not know me — what do ye stand at gaze — tobacco is a drink too.</p>
+        </sp>
+        <sp xml:id="A01425-e105060" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e105070">A drink?</p>
+        </sp>
+        <sp xml:id="A01425-e105080" who="A01425-tobacco">
+          <speaker>Tobaco.</speaker>
+          <p xml:id="A01425-e105090">Wine, you and I come both out of a pipe.</p>
+        </sp>
+        <sp xml:id="A01425-e105100" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e105110">Prithee go smoke somewhere else, we are covetous of your acquaintance.</p>
+        </sp>
+        <sp xml:id="A01425-e105120" who="A01425-tobacco">
+          <speaker>Tobaco.</speaker>
+          <p xml:id="A01425-e105130">Do not incense me, do not inflame tobacco.</p>
+        </sp>
+        <sp xml:id="A01425-e105140" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e105150">We do not fear your puffing sir, and you have any thing to say to us be brief and speak it.</p>
+        </sp>
+        <sp xml:id="A01425-e105160" who="A01425-tobacco">
+          <speaker>Tobaco.</speaker>
+          <p xml:id="A01425-e105170">Then briefly — and without more circumstance — not to hold you in expectation.</p>
+        </sp>
+        <sp xml:id="A01425-e105180" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e105190">Heida, this is prolixity itself.</p>
+        </sp>
+        <sp xml:id="A01425-e105200" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e105210">O sir his words are not well died in his mouth.</p>
+        </sp>
+        <sp xml:id="A01425-e105220" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e105230">Or his understanding is not sufficiently lighted yet give him leave I pray.</p>
+        </sp>
+        <sp xml:id="A01425-e105240" who="A01425-tobacco">
+          <speaker>Tobaco.</speaker>
+          <p xml:id="A01425-e105250">I do come —</p>
+        </sp>
+        <sp xml:id="A01425-e105260" who="A01425-wine">
+          <pb facs="12"/>
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e105270">Not yet to the purpose methinks.</p>
+        </sp>
+        <sp xml:id="A01425-e105280" who="A01425-tost">
+          <speaker>Tost.</speaker>
+          <p xml:id="A01425-e105290">And I do mean —</p>
+        </sp>
+        <sp xml:id="A01425-e105300" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e105310">Somewhat — would hear out.</p>
+        </sp>
+        <sp xml:id="A01425-e105320" who="A01425-tobacco">
+          <speaker>Tobaco.</speaker>
+          <p xml:id="A01425-e105330">And I intend —</p>
+        </sp>
+        <sp xml:id="A01425-e105340" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e105350">Yet again, think, think, till tomorrow, we may chance meet again.</p>
+        </sp>
+        <sp xml:id="A01425-e105360" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e105370">Stay, I command you stay.</p>
+        </sp>
+        <sp xml:id="A01425-e105380" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e105390">How, you command us by whose authority. ?</p>
+        </sp>
+        <sp xml:id="A01425-e105400" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e105410">That must be disputed.</p>
+        </sp>
+        <sp xml:id="A01425-e105420" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e105430">Attend my argument; the sovereign ought to command, I am your sovereign, the sovereign drink Tobaco. Ergo. —</p>
+        </sp>
+        <sp xml:id="A01425-e105440" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e105450">I see tobacco is sophisticated.</p>
+        </sp>
+        <sp xml:id="A01425-e105460" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e105470">I ought to command you, and it will become your duty to obey me —</p>
+        </sp>
+        <sp xml:id="A01425-e105480" who="A01425-beer">
+          <speaker>Bee.</speaker>
+          <p xml:id="A01425-e105490">You our sovereign a mere whiffler.</p>
+        </sp>
+        <sp xml:id="A01425-e105500" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e105510">I say again I am your prince, bow, and do homage.</p>
+        </sp>
+        <sp xml:id="A01425-e105520" who="A01425-ale">
+          <speaker>Al.</speaker>
+          <p xml:id="A01425-e105530">You have turned over a new leaf tobacco.</p>
+        </sp>
+        <sp xml:id="A01425-e105540" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e105550">You are very high tobacco, I see ill weeds grow apace.</p>
+        </sp>
+        <sp xml:id="A01425-e105560" who="A01425-beer">
+          <speaker>Bee.</speaker>
+          <p xml:id="A01425-e105570">Most high and mighty Trinidado.</p>
+        </sp>
+        <sp xml:id="A01425-e105580" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e105590">For whose virtue would you be exalted, if it shall please your smoky excellence?</p>
+        </sp>
+        <sp xml:id="A01425-e105600" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e105610">Not yours, — nor yours — nor yours — but altogether, all the virtues which you severally glory in, are in me united, — look not so coy, call water to spread your faction, and you are but like the giddy elements changing and borrowing creatures, whilst I tobacco am acknowledged a heavenly quintessence, a divine herb.</p>
+        </sp>
+        <sp xml:id="A01425-e105620" who="A01425-beer">
+          <speaker>Bee.</speaker>
+          <p xml:id="A01425-e105630">Tobacco you are out.</p>
+        </sp>
+        <sp xml:id="A01425-e105640" who="A01425-ale">
+          <speaker>Al.</speaker>
+          <p xml:id="A01425-e105650">After what rate is this an ounce?</p>
+        </sp>
+        <sp xml:id="A01425-e105660" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e105670">Let us beseech your excellence, for less title we must not give you having so much virtue as you pretend, to let us understand foam of your particular graces and qualities.</p>
+        </sp>
+        <sp xml:id="A01425-e105680" who="A01425-beer">
+          <speaker>Bee.</speaker>
+          <p xml:id="A01425-e105690">I pray discourse a little, what's the first?</p>
+        </sp>
+        <sp xml:id="A01425-e105700" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e105710">You have named it — 'tis discourse which you are so<pb facs="12"/> far from being able to advance that you destroy it, in all men when you are most accepted, when my divine breath mixing with theirs, doth distil eloquence and oracle upon the tongue, which moveth with such deliberation — words flowing in so sweet distinction, that many ears are chained to the lips of him that speaketh.</p>
+          <p xml:id="A01425-e105720">Da pver accensum selecto fictile poeto, ut phaebum ore bibam.</p>
+        </sp>
+        <sp xml:id="A01425-e105730" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e105740">And yet we are not enchanted with the music of your pipe to dance after it. My most excellent discourser.</p>
+        </sp>
+        <sp xml:id="A01425-e105750" who="A01425-beer">
+          <speaker>Bee.</speaker>
+          <p xml:id="A01425-e105760">And a help for the imperfections of nature. For when a man has not wit enough to express himself in words, you being taken, do presently help him, — to spit forth gentleman like.</p>
+        </sp>
+        <sp xml:id="A01425-e105770" who="A01425-ale">
+          <speaker>Al.</speaker>
+          <p xml:id="A01425-e105780">Indeed the most part of our common compliment is but smoke, and now I know how gentlemen come by it.</p>
+        </sp>
+        <sp xml:id="A01425-e105790" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e105800">Thus swine do value pearl —</p>
+        </sp>
+        <sp xml:id="A01425-e105810" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e105820">But as you have the eloquence of Ulysses, I suppose you have not the strength of Aiax, we should move in great fear, if you were valiant, I hope you are but weak tobacco.</p>
+        </sp>
+        <sp xml:id="A01425-e105830" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e105840">Weak? whose brain hath not felt the effects of my mightiness? He that opposes me shall find me march like a tempest, waited upon with lightning and black clouds.</p>
+        </sp>
+        <sp xml:id="A01425-e105850" who="A01425-wine">
+          <speaker>Wi.</speaker>
+          <p xml:id="A01425-e105860">Here is no crack.</p>
+        </sp>
+        <sp xml:id="A01425-e105870" who="A01425-beer">
+          <speaker>Bee.</speaker>
+          <p xml:id="A01425-e105880">Yet he thunders it out.</p>
+        </sp>
+        <sp xml:id="A01425-e105890" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e105900">Yes yes, I remember I have heard him reported a soldier, and once being in company with a knapsack man a companion of his, I obtained a copy of his military postures, which put down the pike and potgun clean, pray observe 'em.</p>
+          <p xml:id="A01425-e105910">
+            <list xml:id="A01425-e105920">
+              <item xml:id="A01425-e105930">1 take your seal.</item>
+              <item xml:id="A01425-e105940">2 draw your box.</item>
+              <item xml:id="A01425-e105950">3 uncase your pipe.</item>
+              <item xml:id="A01425-e105960">4 produce your rammer.</item>
+              <item xml:id="A01425-e105970">5 blow you pipe.</item>
+              <item xml:id="A01425-e105980">6 open your box.</item>
+              <item xml:id="A01425-e105990"><pb facs="13"/>7. Fill your pipe.</item>
+              <item xml:id="A01425-e106000">8. Ram your pipe.</item>
+              <item xml:id="A01425-e106010">9. Withdraw your rammer.</item>
+              <item xml:id="A01425-e106020">10. Return your rammer.</item>
+              <item xml:id="A01425-e106030">11. Make ready.</item>
+              <item xml:id="A01425-e106040">12. Present.</item>
+              <item xml:id="A01425-e106050">13. Elbow your pipe.</item>
+              <item xml:id="A01425-e106060">14. Mouth your pipe.</item>
+              <item xml:id="A01425-e106070">15. Give fire.</item>
+              <item xml:id="A01425-e106080">16. Nose your tobacco.</item>
+              <item xml:id="A01425-e106090">17. Puff up your smoke,</item>
+              <item xml:id="A01425-e106100">18. Spit on your right hand.</item>
+              <item xml:id="A01425-e106110">19. Throw off your loose ashes.</item>
+              <item xml:id="A01425-e106120">20. Present to your friend.</item>
+              <item xml:id="A01425-e106130">21. As you were.</item>
+              <item xml:id="A01425-e106140">22. Cleanse your pipe.</item>
+              <item xml:id="A01425-e106150">23. Blow your pipe.</item>
+              <item xml:id="A01425-e106160">24. Supply your pipe.</item>
+            </list>
+          </p>
+        </sp>
+        <sp xml:id="A01425-e106170" who="A01425-ale">
+          <p xml:id="A01425-e106180">Exercise this discipline till you stink, defile the room, offend your friends, destroy your liver and lungs, and bid adieu to the world with a scowring flux.</p>
+        </sp>
+        <sp xml:id="A01425-e106190" who="A01425-toast">
+          <speaker>To.</speaker>
+          <p xml:id="A01425-e106200">You have a good memory. —</p>
+        </sp>
+        <sp xml:id="A01425-e106210" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e106220">I'm sure tobacco will spoil it.</p>
+        </sp>
+        <sp xml:id="A01425-e106230" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e106240">These are but childish inventions.</p>
+        </sp>
+        <sp xml:id="A01425-e106250" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e106260">They are most proper to illustrate your magnificence, for howsoever you pretend that you converse with men, it is apparent, that you make men children again, for they that use you most familiarly, do but smoke all the day long.</p>
+        </sp>
+        <sp xml:id="A01425-e106270" who="A01425-toast">
+          <speaker>To.</speaker>
+          <p xml:id="A01425-e106280">You dishonour me.</p>
+        </sp>
+        <sp xml:id="A01425-e106290" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e106300">Not somuch as gentlemen dishonour themselves, to turn common pipers: but if you have any more conditions, pray enrich us with the story.</p>
+        </sp>
+        <sp xml:id="A01425-e106310" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e106320">I am medicinal.</p>
+        </sp>
+        <sp xml:id="A01425-e106330" who="A01425-beer">
+          <speaker>Be.</speaker>
+          <p xml:id="A01425-e106340">How?</p>
+        </sp>
+        <sp xml:id="A01425-e106350" who="A01425-toast">
+          <speaker>To.</speaker>
+          <p xml:id="A01425-e106360">And preserve the health of man.</p>
+        </sp>
+        <sp xml:id="A01425-e106370" who="A01425-wine">
+          <pb facs="13"/>
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e106380">I hope they are not come to drink healths in tobacco.</p>
+        </sp>
+        <sp xml:id="A01425-e106390" who="A01425-toast">
+          <speaker>To.</speaker>
+          <p xml:id="A01425-e106400">I repair the bodies which your immoderate cups have turned to fens and marishes. The wisest physicians prescribe my use, and acknowledge me a salutary herb.</p>
+        </sp>
+        <sp xml:id="A01425-e106410" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e106420">Physicians are no fools, they may commend you for their profit, you are one of their harbingers to provide for a disease; yet howsoever you call them wise, and glory in their flatteries, they make but a very simple of you.</p>
+        </sp>
+        <sp xml:id="A01425-e106430" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e106440">Methinks this should cut tobacco.</p>
+        </sp>
+        <sp xml:id="A01425-e106450" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e106460">Not at all, I am above their poor derision; at my pleasure I could revenge their malice, for I am in favour, and grown to be the delight of poets and princes.</p>
+        </sp>
+        <sp xml:id="A01425-e106470" who="A01425-beer">
+          <speaker>Bee.</speaker>
+          <p xml:id="A01425-e106480">How poets and princes? Ego et rex meus, a stopper for tobacco, we shall have pretty treason anon else.</p>
+        </sp>
+        <sp xml:id="A01425-e106490" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e106500">Does it scruple your judgement Mr. small beer that I say poets and princes? I am not to learn their distinction, nor doth it take from any allegiance, they are both sacred names: yet I am confident it is easier for a poet not born to sovereignty to aspire to a kingdom, then for a King not born with fancy to be made a poet. I mentioned these names, not in their method and order, but to show my grace with them, that are most able to punish insolence, such as yours,</p>
+        </sp>
+        <sp xml:id="A01425-e106510" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e106520">How the vapour rises.</p>
+        </sp>
+        <sp xml:id="A01425-e106530" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e106540">This ruffler may be troublesome, we were best admit him to our society, he is a dry companion, and you may observe, how he hath insinuated already with the greatest; the ladies begin to affect him, and he receives private favours from their lips, every day he kisseth their hands, when he appears in a fair pipe; though we allow him not a priority, for our own sakes, let us hold correspondence with him, lest he seduce men to forsake us, or at least to make use of us but for their necessity.</p>
+        </sp>
+        <sp xml:id="A01425-e106550" who="A01425-ale">
+          <speaker>Ale.</speaker>
+          <p xml:id="A01425-e106560">Hum! he says well, now I better consider 'twere safest to use him kindly, lest by degrees he overthrow us, and iett upon our privileges, for I heard a gentleman tother<pb facs="14"/> day affirm, he had fasted 3 or 4 days, only with tobacco.</p>
+        </sp>
+        <sp xml:id="A01425-e106570" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e106580">Beside, if we continue friends he will be a preparative for our reception, without us he may subsist, but with him we are sure of liberal entertainment.</p>
+        </sp>
+        <sp xml:id="A01425-e106590" who="A01425-beer">
+          <speaker>Beer.</speaker>
+          <p xml:id="A01425-e106600">I am converted, wine you are the best orator, speak for us.</p>
+        </sp>
+        <sp xml:id="A01425-e106610" who="A01425-wine">
+          <speaker>Wine.</speaker>
+          <p xml:id="A01425-e106620">Tobacco, you are a good fellow, all ambition laid aside, let us embrace as friends; excuse us, that we have been a little merry with you, we acknowledge you a gentle drink and you shall have all the respect will become wine, beer, or ale to observe you with: what should we contend for primacy, quarrel about titles, which if to any we acknowledge most properly belong to you, for they are all but smoke. Let us unite and be confederate states for the benefit of men's low countries, live and love together. Wine doth here enter into league with tobacco.</p>
+        </sp>
+        <sp xml:id="A01425-e106630" who="A01425-beer">
+          <speaker>Be.</speaker>
+          <p xml:id="A01425-e106640">And beer.</p>
+        </sp>
+        <sp xml:id="A01425-e106650" who="A01425-ale">
+          <speaker>Al.</speaker>
+          <p xml:id="A01425-e106660">And ale.</p>
+        </sp>
+        <sp xml:id="A01425-e106670" who="A01425-tobacco">
+          <speaker>Tob.</speaker>
+          <p xml:id="A01425-e106680">Are you in earnest? why then tobacco is so far from pride, that he vows to serve you all, and when I leave to be a true friend, may fire consume me, and my ashes want a burial.</p>
+          <p xml:id="A01425-e106690">W. B. A. and when we falsify, may thunder's shriek us dead.</p>
+        </sp>
+        <stage xml:id="A01425-e106700">
+          <p xml:id="A01425-e106710">The dance.</p>
+          <p xml:id="A01425-e106720">In which wine falling down, one taketh sugar by the heels and seems to shake him upon wine.</p>
+          <p xml:id="A01425-e106730">In the second passage, beer falleth, and 2 take nutmeg, and as it were to grate him over beer.</p>
+          <p xml:id="A01425-e106740">In the third ale falleth, one bringeth in a chafendish of coals, and another causeth tossed to put his breech to it; afterwards it is dapt to ale's mouth, and the dance concludeth.</p>
+        </stage>
+        <trailer xml:id="A01425-e106750">Finis.</trailer>
+        <pb facs="14"/>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A01425"><item xml:id="A01425-wine" n="65">
+    <seg type="character_name">A01425-wine</seg>
+    <seg type="speech_count">65</seg>
+  </item>
+  <item xml:id="A01425-ale" n="50">
+    <seg type="character_name">A01425-ale</seg>
+    <seg type="speech_count">50</seg>
+  </item>
+  <item xml:id="A01425-beer" n="50">
+    <seg type="character_name">A01425-beer</seg>
+    <seg type="speech_count">50</seg>
+  </item>
+  <item xml:id="A01425-sugar" n="35">
+    <seg type="character_name">A01425-sugar</seg>
+    <seg type="speech_count">35</seg>
+  </item>
+  <item xml:id="A01425-tobacco" n="24">
+    <seg type="character_name">A01425-tobacco</seg>
+    <seg type="speech_count">24</seg>
+  </item>
+  <item xml:id="A01425-tost" n="21">
+    <seg type="character_name">A01425-tost</seg>
+    <seg type="speech_count">21</seg>
+  </item>
+  <item xml:id="A01425-nutmeg" n="19">
+    <seg type="character_name">A01425-nutmeg</seg>
+    <seg type="speech_count">19</seg>
+  </item>
+<item xml:id="A01425-water" n="13">
+    <seg type="character_name">A01425-water</seg>
+    <seg type="speech_count">13</seg>
+  </item>
+  <item xml:id="A01425-toast" n="4">
+    <seg type="character_name">A01425-toast</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A01425-chorus" n="2">
+    <seg type="character_name">A01425-chorus</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A01425-both" n="1">
+    <seg type="character_name">A01425-both</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

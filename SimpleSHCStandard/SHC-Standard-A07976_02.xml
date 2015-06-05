@@ -1,0 +1,603 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A07976">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Spring's Glory <date type="creation_date">1638</date></title>
+        <author>Nabbes, Thomas</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Madeline Burg</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A07976_02.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The springs glorie. Vindicating love by temperance against the tenent, sine cerere &amp; Baccho friget Venus. Moralized in a maske. With other poems, epigrams, elegies, and epithalamiums of the authors Thomas Nabbes.</title>
+            <author>Nabbes, Thomas, 1605?-1645?</author>
+          </titleStmt>
+          <extent>26 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2005 December (TCP phase 1)</date>
+            <idno type="marc">99848287</idno>
+            <idno type="stc">STC (2nd ed.) 18343.</idno>
+            <idno type="stc">Greg, II, 543,544(AI).</idno>
+            <idno type="vid">13371</idno>
+            <idno type="DLPS">A07976</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The springs glorie. Vindicating love by temperance against the tenent, sine cerere &amp; Baccho friget Venus. Moralized in a maske. With other poems, epigrams, elegies, and epithalamiums of the authors Thomas Nabbes.</title>
+            <author>Nabbes, Thomas, 1605?-1645?</author>
+          </titleStmt>
+          <extent>[56] p.</extent>
+          <publicationStmt>
+            <publisher>Printed by I[ohn] D[awson] for Charles Greene, and are to be sold by Nicholas Fussell at the signe of the white Lyon in Pauls Church-yard,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1638.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>In verse.</p>
+            </note>
+            <note>
+              <p>Printer's name from STC.</p>
+            </note>
+            <note>
+              <p>Signatures: [A]4 B-G4.</p>
+            </note>
+            <note>
+              <p>The first leaf and the last leaf are blank.</p>
+            </note>
+            <note>
+              <p>With a dedication to Benedict Roberts on A3r. Variant: dedication to William Ball.</p>
+            </note>
+            <note>
+              <p>Also issued as part of his: Playes, maskes, epigrams, elegies, and epithalamiums.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Library of Congress.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A07976_02-e100010">
+    <front xml:id="A07976_02-e100020">
+      <div type="title_page" xml:id="A07976_02-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A07976_02-e100040">The spring's glory.</p>
+        <p xml:id="A07976_02-e100050">Vindicating love by temperance against the tenet, sine cerere et baccho friget Venus. </p>
+        <p xml:id="A07976_02-e100060">Moralised in a mask. With other poems, epigrams, elegies, and epithalamium of the authors Thomas Nabbes.</p>
+        <p xml:id="A07976_02-e100070">London, printed by I.d. for Charles green, and are to be sold by Nicolas Fussell at the sign of the white lion in Paul's churchyard. 1638.</p>
+      </div>
+    </front>
+    <body xml:id="A07976_02-e100080">
+      <div type="play" xml:id="A07976_02-e100090">
+        <pb facs="20"/>
+        <head>A presentation intended for the prince his highness on his birthday the 29 of may, 1638. annually celebrated.</head>
+        <stage xml:id="A07976_02-e100100">A curtain being drawn, an alehouse is discovered, out of which time drives certain ignorant, and yet great undertaking almanac-makers. </stage>
+        <sp xml:id="A07976_02-e100110" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e100120">And must I still be vexed! shall my grey age</l>
+          <l xml:id="A07976_02-e100130">Be played upon, as if I were a page</l>
+          <l xml:id="A07976_02-e100140">To your fond art, not nature: did not live</l>
+          <l xml:id="A07976_02-e100150">But by the stipend which you yearly give. </l>
+          <l xml:id="A07976_02-e100160">Your own's but forty shillings, and that price</l>
+          <l xml:id="A07976_02-e100170">Binds you to order me by sage advice</l>
+          <l xml:id="A07976_02-e100180">With Tycho brach, and Ptolemy, so far</l>
+          <l xml:id="A07976_02-e100190">You dare outdo a learned Albumazar. </l>
+          <l xml:id="A07976_02-e100200">And with predictions cheat the faith of men,</l>
+          <l xml:id="A07976_02-e100210">That make your books their gods; and from your reign</l>
+          <l xml:id="A07976_02-e100220">Or drought foretold enhance the price of grain,</l>
+          <l xml:id="A07976_02-e100230">This is the end of your high practice. </l>
+        </sp>
+        <sp xml:id="A07976_02-e100240" who="A07976_02-yyyy_1">
+          <speaker>1. Alm. </speaker>
+          <l xml:id="A07976_02-e100250">We</l>
+          <l xml:id="A07976_02-e100260">Do all by just rules of astrology. </l>
+        </sp>
+        <sp xml:id="A07976_02-e100270" who="A07976_02-time">
+          <pb facs="21"/>
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e100280">Stargazing idiots, you astrologers! </l>
+          <l xml:id="A07976_02-e100290">That understand not what the name infers. </l>
+          <l xml:id="A07976_02-e100300">You have not enough grammar to conceive</l>
+          <l xml:id="A07976_02-e100310">The words true Etymon; and therefore leave</l>
+          <l xml:id="A07976_02-e100320">Your vain replies, lest I apply them to</l>
+          <l xml:id="A07976_02-e100330">Another use. </l>
+        </sp>
+        <sp xml:id="A07976_02-e100340" who="A07976_02-yyyy_2">
+          <speaker>2. Alm. </speaker>
+          <p xml:id="A07976_02-e100350">What would time have us do?</p>
+        </sp>
+        <sp xml:id="A07976_02-e100360" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e100370">Not fright credulity with this years wonders;</l>
+          <l xml:id="A07976_02-e100380">Eclipses; tempests; frosts; snows; storms and thunders. </l>
+          <l xml:id="A07976_02-e100390">And you that sad fates sadly do report</l>
+          <l xml:id="A07976_02-e100400">In borrowed Latin from the inns a court;</l>
+          <l xml:id="A07976_02-e100410">Let not great princes; statesmen, and whole nations</l>
+          <l xml:id="A07976_02-e100420">Suffer this year by your prognostications:</l>
+          <l xml:id="A07976_02-e100430">As if you could the fates of all men teach,</l>
+          <l xml:id="A07976_02-e100440">When your conjecture hath obtained the reach</l>
+          <l xml:id="A07976_02-e100450">Of probability: for which your ears</l>
+          <l xml:id="A07976_02-e100460">May stand in time as fixed stars on the spheres</l>
+          <l xml:id="A07976_02-e100470">Of some round pillory. 'twill teach you how</l>
+          <l xml:id="A07976_02-e100480">'Tis judgement to be silent, though you know. </l>
+        </sp>
+        <sp xml:id="A07976_02-e100490" who="A07976_02-yyyy_3">
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e100500">Why astra regunt homines. </p>
+        </sp>
+        <sp xml:id="A07976_02-e100510" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e100520">'Tis true:</l>
+          <l xml:id="A07976_02-e100530">Stars govern men; but time shall govern you;</l>
+          <l xml:id="A07976_02-e100540">And regulate your studies: or he'll be</l>
+          <l xml:id="A07976_02-e100550">No longer ruler o'er his pentarchy. </l>
+          <l xml:id="A07976_02-e100560">You shall not stuff your annual books with rhymes</l>
+          <l xml:id="A07976_02-e100570">Bought of the ballad-mongers of the times;</l>
+          <l xml:id="A07976_02-e100580"><pb facs="21"/> in which (And that shows little poetry)</l>
+          <l xml:id="A07976_02-e100590">He must inveigh 'gainst wine and venery. </l>
+          <l xml:id="A07976_02-e100600">Prescribe the fittest time for cutting corns:</l>
+          <l xml:id="A07976_02-e100610">And when the pigs should fear the gelder's horns. </l>
+          <l xml:id="A07976_02-e100620">These are your labours; and by such as these</l>
+          <l xml:id="A07976_02-e100630">Each of you shows himself Philomates. </l>
+          <l xml:id="A07976_02-e100640">You likewise think 'tis grace your years works are</l>
+          <l xml:id="A07976_02-e100650">Fixed on the backside of some chalky bar,</l>
+          <l xml:id="A07976_02-e100660">Where's your own score, perhaps for ale or beer</l>
+          <l xml:id="A07976_02-e100670">You will not pay till the Platonic year. </l>
+        </sp>
+        <sp xml:id="A07976_02-e100680" who="A07976_02-yyyy_4">
+          <speaker>4 Alm. </speaker>
+          <p xml:id="A07976_02-e100690">Time satires me.</p>
+        </sp>
+        <sp xml:id="A07976_02-e100700" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e100710">Indeed time cannot lie:</l>
+          <l xml:id="A07976_02-e100720">You know his motto:<seg xml:lang="unk" xml:id="A07976_02-e100730"> 〈◊〉 〈◊〉 〈◊〉</seg>. </l>
+          <l xml:id="A07976_02-e100740">'Tis well that you can make the country squire</l>
+          <l xml:id="A07976_02-e100750">For two pence yearly a chronologer. </l>
+          <l xml:id="A07976_02-e100760">Tell him how long 'tis since the world began;</l>
+          <l xml:id="A07976_02-e100770">And since the conquest every monarch's reign. </l>
+          <l xml:id="A07976_02-e100780">Then with this store enabled he's complete;</l>
+          <l xml:id="A07976_02-e100790">Can welcome friends with talk as well as meat. </l>
+          <l xml:id="A07976_02-e100800">Before poor tenants have their rent to pay</l>
+          <l xml:id="A07976_02-e100810">The landlord's skilful in the quarter day:</l>
+          <l xml:id="A07976_02-e100820">Knows every terms returns, and when he's tied</l>
+          <l xml:id="A07976_02-e100830">By a subpoena on his mare to ride</l>
+          <l xml:id="A07976_02-e100840">To London; where he only learns to boast</l>
+          <l xml:id="A07976_02-e100850">How much his journey, and his lawsuits cost. </l>
+        </sp>
+        <sp xml:id="A07976_02-e100860" who="A07976_02-yyyy_2">
+          <speaker>2. Alm. </speaker>
+          <p xml:id="A07976_02-e100870">Time knows that we are scholars.</p>
+        </sp>
+        <sp xml:id="A07976_02-e100880" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e100890">So you are;</l>
+          <l xml:id="A07976_02-e100900">And learned ones too: whose speculations dare</l>
+          <l xml:id="A07976_02-e100910"><pb facs="22"/> reach at sublime things, when you cannot spy</l>
+          <l xml:id="A07976_02-e100920">What snakes of folly at your own feet lie. </l>
+        </sp>
+        <sp xml:id="A07976_02-e100930" who="A07976_02-yyyy_3">
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e100940">What would time have us then?</p>
+        </sp>
+        <sp xml:id="A07976_02-e100950" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e100960">I'd have you be. </l>
+          <l xml:id="A07976_02-e100970">Not vain prescribers of men's destiny;</l>
+          <l xml:id="A07976_02-e100980">But registers of actions, such as may</l>
+          <l xml:id="A07976_02-e100990">Challenge deservedly a peculiar day</l>
+          <l xml:id="A07976_02-e101000">To every owner. You methinks should show</l>
+          <l xml:id="A07976_02-e101010">The executions done by th'english bow,</l>
+          <l xml:id="A07976_02-e101020">When black prince Edward bravely did advance</l>
+          <l xml:id="A07976_02-e101030">His ensigns through the very heart of France. </l>
+          <l xml:id="A07976_02-e101040">I will have all the world observe this day,</l>
+          <l xml:id="A07976_02-e101050">So glorious by the birth of him, that may</l>
+          <l xml:id="A07976_02-e101060">Fill volumes with his acts, and challenge more</l>
+          <l xml:id="A07976_02-e101070">Than all the great heroes went before. </l>
+        </sp>
+        <sp xml:id="A07976_02-e101080" who="A07976_02-yyyy_4">
+          <speaker>4. Alm. </speaker>
+          <p xml:id="A07976_02-e101090">Such things as those historians ought today.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101100" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e101110">Be nothing, or be you historians too. </l>
+          <l xml:id="A07976_02-e101120">Practice a reformation, or (Fond elves)</l>
+          <l xml:id="A07976_02-e101130">Changed into satires you shall lash yourselves. <stage xml:id="A07976_02-e101140">Exit.</stage></l>
+        </sp>
+        <sp xml:id="A07976_02-e101150" who="A07976_02-yyyy_1">
+          <speaker>1. Alm. </speaker>
+          <l xml:id="A07976_02-e101160">Is the grey dotard gone? </l>
+          <l xml:id="A07976_02-e101170">We are then alone:</l>
+          <l xml:id="A07976_02-e101180">Good fellows every one</l>
+          <l xml:id="A07976_02-e101190">Let's call my hostess Joan. </l>
+        </sp>
+        <sp xml:id="A07976_02-e101200" who="A07976_02-yyyy_2">
+          <pb facs="22"/>
+          <speaker>2. Alm. </speaker>
+          <p xml:id="A07976_02-e101210">Well said rhymer ▪ thy halting verses will hardly support the fat cripple any longer that begs with them. Would we had some ale.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101220" who="A07976_02-yyyy_3">
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e101230">Hang this time that would alter our profession, which is of equal antiquity with him. Suppose we have abilities; must we use them as he please? No: let us inspire ourselves with ale, and compile an everlasting ephemerides. </p>
+        </sp>
+        <sp xml:id="A07976_02-e101240" who="A07976_02-yyyy_1">
+          <speaker>1. Alm. </speaker>
+          <l xml:id="A07976_02-e101250">Where's the stock-boy? </l>
+          <l xml:id="A07976_02-e101260">Do not mock boy:</l>
+          <l xml:id="A07976_02-e101270">Lest I knock boy</l>
+          <l xml:id="A07976_02-e101280">Your learned block boy ▪</l>
+        </sp>
+        <sp xml:id="A07976_02-e101290" who="A07976_02-yyyy_3">
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e101300">Hast thou none left of thy six years before hand? If the stationer's refuse to trust, our books shall never more credit the company with rubrics in the title.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101310" who="A07976_02-yyyy_2">
+          <speaker>2. Alm. </speaker>
+          <p xml:id="A07976_02-e101320">We'll try all the houses in the zodiac; and if they will not trust, we'll pull down the signs.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101330" who="A07976_02-yyyy_3">
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e101340">Here is the sign of the moon, the rendezvous of our fraternity. If the worst comes to the worst, we'll pawn time for the reckoning.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101350" who="A07976_02-yyyy_4">
+          <pb facs="23"/>
+          <speaker>4. Alm. </speaker>
+          <p xml:id="A07976_02-e101360">By your favour we may more easily spend him.</p>
+          <stage xml:id="A07976_02-e101370">Hostess enters.</stage>
+        </sp>
+        <sp xml:id="A07976_02-e101380" who="A07976_02-yyyy_3">
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e101390">Here comes she will fill us the comfortable liquor.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101400" who="A07976_02-yyyy_2">
+          <speaker>2. Alm. </speaker>
+          <p xml:id="A07976_02-e101410">By the dozen?</p>
+        </sp>
+        <sp xml:id="A07976_02-e101420" who="A07976_02-yyyy_3">
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e101430">By the score boy. Wilt not hostess?</p>
+        </sp>
+        <sp xml:id="A07976_02-e101440" who="A07976_02-host">
+          <speaker>Host.</speaker>
+          <p xml:id="A07976_02-e101450">No indeed sir. I'll hazard no more upon your next year's almanac. You say there's a man in the moon drinks claret; keep him company. The woman at the moon will keep her ale for better customers.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101460" who="A07976_02-yyyy_3">
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e101470">Shall we have no ale then?</p>
+        </sp>
+        <sp xml:id="A07976_02-e101480" who="A07976_02-hostess">
+          <speaker>Hostess.</speaker>
+          <p xml:id="A07976_02-e101490">Not a cockleshell full without money beforehand.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101500" who="A07976_02-yyyy_3">
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e101510">Here's two groats; fetch every man his pot, and before we drink a health we'll curse thee.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101520" who="A07976_02-host">
+          <speaker>Host.</speaker>
+          <p xml:id="A07976_02-e101530">The fox will fare the better. <stage xml:id="A07976_02-e101540">Exit.</stage></p>
+        </sp>
+        <sp xml:id="A07976_02-e101550" who="A07976_02-yyyy_3">
+          <pb facs="23"/>
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e101560">Mayst thou have always penniless guests like us, till thou pawn thy petticoat to pay the brewer, and thy glorious shelves shine not so much as with an earthen platter. Instead of shoelane hangings may the walls of thy house be painted with chalk; and the figures of no more value than cyphers. Mayst thou weekly be subject to informers, and thy forfeited licence be put to the last use of waste paper.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101570" who="A07976_02-host">
+          <speaker>Host.</speaker>
+          <stage xml:id="A07976_02-e101580">Host enters with drink, and exit presently.</stage>
+          <p xml:id="A07976_02-e101590">Stop your mouth sir.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101600" who="A07976_02-yyyy_3">
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e101610">Hast thou brought ale? cry thee mercy. Here's a health to the prince, whose birthday time would have should be the whole subject of an almanac.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101620" who="A07976_02-yyyy_4">
+          <speaker>4. Alm. </speaker>
+          <p xml:id="A07976_02-e101630">Let him give the conceit to a poet; it may be worth a day to him.</p>
+        </sp>
+        <stage xml:id="A07976_02-e101640">They drink, and are transformed into satires, horn growing out of their heads.</stage>
+        <sp xml:id="A07976_02-e101650" who="A07976_02-yyyy_3">
+          <speaker>3. Alm. </speaker>
+          <stage xml:id="A07976_02-e101660">Time enters.</stage>
+          <p xml:id="A07976_02-e101670">Ha! hath Circe's given us an enchanted cup; or are our wives turned city witches? These are fine jests.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101680" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <p xml:id="A07976_02-e101690">'Tis your own idle humour makes you beasts.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101700" who="A07976_02-yyyy_3">
+          <pb facs="24"/>
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e101710">Forgive us time. </p>
+        </sp>
+        <sp xml:id="A07976_02-e101720" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e101730">Nay dance a hornpipe now. </l>
+          <l xml:id="A07976_02-e101740">That done perhaps I'll crop your well-grown brow. </l>
+        </sp>
+        <stage xml:id="A07976_02-e101750">They dance: at the end whereof their horns fall away.</stage>
+        <sp xml:id="A07976_02-e101760" who="A07976_02-yyyy_3">
+          <speaker>3. Alm. </speaker>
+          <p xml:id="A07976_02-e101770">Ha! we are men again.</p>
+        </sp>
+        <sp xml:id="A07976_02-e101780" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e101790">Hence: since you sleight all counsel that is mine,</l>
+          <l xml:id="A07976_02-e101800">I'll employ others in my great design. </l>
+        </sp>
+        <stage xml:id="A07976_02-e101810">Time drives them forth. </stage>
+        <stage xml:id="A07976_02-e101820">A symphony of music with chirping of birds, singing of nightingales and cuckoes. The scene changing into a pleasant garden, ●ime brings in may, attended by Flora and Vertumnus, who sing the following song. </stage>
+        <floatingText xml:id="A07976_02-e101830">
+          <body xml:id="A07976_02-e101840">
+            <div type="song" xml:id="A07976_02-e101850">
+              <head>The song.</head>
+              <lg xml:id="A07976_02-e101860">
+                <l xml:id="A07976_02-e101870">On, gently on; the sky is fair:</l>
+                <l xml:id="A07976_02-e101880">Arabian winds perfume the air,</l>
+                <l xml:id="A07976_02-e101890">As they the Eastern gardens sweep,</l>
+                <l xml:id="A07976_02-e101900">Or amber floating on the deep. </l>
+                <l xml:id="A07976_02-e101910">Such sweets do here the sense bewitch. </l>
+                <l xml:id="A07976_02-e101920">The phoenix pile is not so rich. </l>
+              </lg>
+              <lg xml:id="A07976_02-e101930">
+                <head>Chorus.</head>
+                <l xml:id="A07976_02-e101940"><pb facs="24"/>Here is a presence, from whose eyes</l>
+                <l xml:id="A07976_02-e101950">An influence awes all destinies. </l>
+                <l xml:id="A07976_02-e101960">A su●ue that can with one bright ●●y</l>
+                <l xml:id="A07976_02-e101970">Make where it shines 〈…〉</l>
+              </lg>
+              <lg xml:id="A07976_02-e101980">
+                <l xml:id="A07976_02-e101990">Sing, sweetly sing. The chirping birds</l>
+                <l xml:id="A07976_02-e102000">Have got new notes, and better words. </l>
+                <l xml:id="A07976_02-e102010">What nature wants art doth supply,</l>
+                <l xml:id="A07976_02-e102020">And makes it perfect harmony. </l>
+                <l xml:id="A07976_02-e102030">Such sounds do here enrich the ears ▪</l>
+                <l xml:id="A07976_02-e102040">Above the music of the spheres. </l>
+              </lg>
+              <lg xml:id="A07976_02-e102050">
+                <head>Chorus.</head>
+                <l xml:id="A07976_02-e102060">Here are presented to the tuft</l>
+                <l xml:id="A07976_02-e102070">Ripe fruits and early, that will last. </l>
+                <l xml:id="A07976_02-e102080">For such we banish nectar hence,</l>
+                <l xml:id="A07976_02-e102090">Here's perfect may in every sense. </l>
+              </lg>
+            </div>
+          </body>
+        </floatingText>
+        <sp xml:id="A07976_02-e102100" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e102110">Welcome to time thou comfort of the earth,</l>
+          <l xml:id="A07976_02-e102120">T●●t ●ith the warm do we givest a lively birth</l>
+          <l xml:id="A07976_02-e102130">To all her glories, which cold winter late</l>
+          <l xml:id="A07976_02-e102140">Wrapped in his clouds of ice: she desolate</l>
+          <l xml:id="A07976_02-e102150">Ungarnished then, wore nothing on her head</l>
+          <l xml:id="A07976_02-e102160">But snow and barrenness, nor was her bed</l>
+          <l xml:id="A07976_02-e102170">Covered with green: then heavens crystal eye</l>
+          <l xml:id="A07976_02-e102180">Seldom peep out of his bright canopy. </l>
+          <l xml:id="A07976_02-e102190">But now thou hast unto the infant spring</l>
+          <l xml:id="A07976_02-e102200">Given perfection; and thy blessings bring</l>
+          <l xml:id="A07976_02-e102210">The summer's hopes on. Thou time's Queen shalt be</l>
+          <l xml:id="A07976_02-e102220">Whilst Flora and Vertumnus wait on thee. </l>
+          <l xml:id="A07976_02-e102230"><pb facs="25"/>Thou ownest a glory yet tran●e● 〈◊〉 the 〈◊〉</l>
+          <l xml:id="A07976_02-e102240">Of these, as day light doth th● 〈◊〉 ●ime of rest. </l>
+          <l xml:id="A07976_02-e102250">This day, that makes time young, in hope to see</l>
+          <l xml:id="A07976_02-e102260">A thousand revolution 〈◊〉 be 〈◊〉</l>
+          <l xml:id="A07976_02-e102270">Dissolved, to gaze on trophies shall adorn</l>
+          <l xml:id="A07976_02-e102280">The prince's life, and 〈◊〉 way this day home ▪</l>
+          <l xml:id="A07976_02-e102290">Go my delight 〈◊〉 the 〈◊〉</l>
+          <l xml:id="A07976_02-e102300">Of all thy pleasures; to his graciously</l>
+          <l xml:id="A07976_02-e102310">Present the 〈…〉</l>
+        </sp>
+        <sp xml:id="A07976_02-e102320" who="A07976_02-may">
+          <speaker>May.</speaker>
+          <l xml:id="A07976_02-e102330">I 〈◊〉 that are</l>
+          <l xml:id="A07976_02-e102340">Worthy his high acceptance they are far</l>
+          <l xml:id="A07976_02-e102350">Inferior to the things that should set forth</l>
+          <l xml:id="A07976_02-e102360">The fullness of his glory and his worth. </l>
+          <l xml:id="A07976_02-e102370">The pastimes which belong to me are rude,</l>
+          <l xml:id="A07976_02-e102380">Fitter for course ones, and the multitudes</l>
+          <l xml:id="A07976_02-e102390">Yet (So the 〈◊〉 may be pardoned) they</l>
+          <l xml:id="A07976_02-e102400">Shall enter to delight him as they ●●y. </l>
+        </sp>
+        <stage xml:id="A07976_02-e102410">A morisk dance.</stage>
+        <sp xml:id="A07976_02-e102420" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e102430">He's pleased with this Greatness● and goodness 〈◊〉</l>
+          <l xml:id="A07976_02-e102440">At such proportion in his princely frame,</l>
+          <l xml:id="A07976_02-e102450">That every part of him, his heart, his eyes,</l>
+          <l xml:id="A07976_02-e102460">Express them in a due equality. </l>
+          <l xml:id="A07976_02-e102470">I have another to present him, then</l>
+          <l xml:id="A07976_02-e102480">We'll yield to change. </l>
+        </sp>
+        <sp xml:id="A07976_02-e102490" who="A07976_02-may">
+          <speaker>May.</speaker>
+          <l xml:id="A07976_02-e102500">I'll never change whilst mor●</l>
+          <l xml:id="A07976_02-e102510">Keep registers of time. And though it be</l>
+          <l xml:id="A07976_02-e102520"><pb facs="25"/> custom, that they do chiefly welcome 〈◊〉</l>
+          <l xml:id="A07976_02-e102530">At my first entrance, this shall be my day</l>
+          <l xml:id="A07976_02-e102540">As th'only one that trownes the pride of may. </l>
+          <l xml:id="A07976_02-e102550">I'll wear no other flowers upon my head</l>
+          <l xml:id="A07976_02-e102560">But the deluce; with roses, white and red;</l>
+          <l xml:id="A07976_02-e102570">And the stout thistle: each of which implies</l>
+          <l xml:id="A07976_02-e102580">An emblem full of sacred mysteries. </l>
+          <l xml:id="A07976_02-e102590">The lily and the rose are beauty's flowers:</l>
+          <l xml:id="A07976_02-e102600">They deck; the thistle shall defend his bowers. </l>
+          <l xml:id="A07976_02-e102610">The white and red rose thornless, signify</l>
+          <l xml:id="A07976_02-e102620">A gentle rule: the lily, sovereignty. </l>
+          <l xml:id="A07976_02-e102630">The thistle strength and power to quell his foe●</l>
+          <l xml:id="A07976_02-e102640">That rudely dare attempt to gather those ▪</l>
+          <l xml:id="A07976_02-e102650">Besides, these several flowers do appertain</l>
+          <l xml:id="A07976_02-e102660">To nations subject to his future reign. </l>
+          <l xml:id="A07976_02-e102670">And this is all poor may can strain her powers</l>
+          <l xml:id="A07976_02-e102680">To do; to make her garland of his flowers. </l>
+          <l xml:id="A07976_02-e102690">And cause men yearly on this day to see</l>
+          <l xml:id="A07976_02-e102700">His name preserved unto posterity. </l>
+          <l xml:id="A07976_02-e102710">Time hath some rich thing to present. </l>
+        </sp>
+        <sp xml:id="A07976_02-e102720" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e102730">I have</l>
+          <l xml:id="A07976_02-e102740">(As time is powerful) summoned from the grave</l>
+          <l xml:id="A07976_02-e102750">Eight princes all of Wales, whose histories</l>
+          <l xml:id="A07976_02-e102760">Shall be instruction, and their memories</l>
+          <l xml:id="A07976_02-e102770">Present heroic actions so this mind,</l>
+          <l xml:id="A07976_02-e102780">That though their fortunes were not always kind,</l>
+          <l xml:id="A07976_02-e102790">Their virtues he shall strictly imitate,</l>
+          <l xml:id="A07976_02-e102800">And make those virtues awful over fate. </l>
+          <l xml:id="A07976_02-e102810">Vertumnus you, and Flora you be gone. </l>
+          <l xml:id="A07976_02-e102820">And if their airy forms are quite put on</l>
+          <l xml:id="A07976_02-e102830">Let them appear; whilst lovely may and I</l>
+          <l xml:id="A07976_02-e102840">Listen to th'birds and nature's harmony. </l>
+        </sp>
+        <stage xml:id="A07976_02-e102850"><pb facs="26"/>Another Symphony with 〈…〉 the scare is varied into a glorious expression of 〈…〉 in which appear the eight 〈…〉 eight princes of Wales, distinguished by the several 〈◊〉, and inscriptions on their shields. Who whilst the following so●g is singing, approach the presence salute the prince, then place themselves in a figure for the dance. </stage>
+        <floatingText xml:id="A07976_02-e102860">
+          <body xml:id="A07976_02-e102870">
+            <div type="song" xml:id="A07976_02-e102880">
+              <head>The song.</head>
+              <lg xml:id="A07976_02-e102890">
+                <l xml:id="A07976_02-e102900">From th'earth whom honour long hath slept ▪</l>
+                <l xml:id="A07976_02-e102910">And noblest dust (As treasure h●●e)</l>
+                <l xml:id="A07976_02-e102920">By hallowing clay hath made it shine</l>
+                <l xml:id="A07976_02-e102930">More glorious than an Indian mine,</l>
+                <l xml:id="A07976_02-e102940">These brave heroic shadows come</l>
+                <l xml:id="A07976_02-e102950">To sport in this Elysium. </l>
+              </lg>
+              <lg xml:id="A07976_02-e102960">
+                <head>Chorus ▪</head>
+                <l xml:id="A07976_02-e102970">For theirs and this do both agree</l>
+                <l xml:id="A07976_02-e102980">In all but the eternity. </l>
+              </lg>
+              <lg xml:id="A07976_02-e102990">
+                <l xml:id="A07976_02-e103000">From th'air, or from the spheres above</l>
+                <l xml:id="A07976_02-e103010">As they in perfect concord move. </l>
+                <l xml:id="A07976_02-e103020">Let music sound, and such is may</l>
+                <l xml:id="A07976_02-e103030">Equal his hope that rules the day. </l>
+                <l xml:id="A07976_02-e103040">Thus do we welcome you tonight </l>
+                <l xml:id="A07976_02-e103050">Unto our mansion of delight. </l>
+              </lg>
+              <lg xml:id="A07976_02-e103060">
+                <head>Chorus.</head>
+                <l xml:id="A07976_02-e103070">For yours and 〈◊〉 do both agree</l>
+                <l xml:id="A07976_02-e103080">In all but the eternity. </l>
+              </lg>
+              <stage xml:id="A07976_02-e103090"><pb facs="26"/>The dance ended they retire, 〈…〉 speaks the epilogue. </stage>
+            </div>
+          </body>
+        </floatingText>
+        <sp xml:id="A07976_02-e103100" who="A07976_02-time">
+          <speaker>Time.</speaker>
+          <l xml:id="A07976_02-e103110">Old time leaves all his blessings that he may</l>
+          <l xml:id="A07976_02-e103120">Here with this presence; and will every day</l>
+          <l xml:id="A07976_02-e103130">Confirm possession. Sadly sets the sun</l>
+          <l xml:id="A07976_02-e103140">After his day's course cheerfully was run. </l>
+          <l xml:id="A07976_02-e103150">The moon looks pale; the tapers dimly burn:</l>
+          <l xml:id="A07976_02-e103160">The fear of your departure makes them mourn. </l>
+          <l xml:id="A07976_02-e103170">Sweet rest attend ye all: good night 'tis late,</l>
+          <l xml:id="A07976_02-e103180">Many birthdays may you thus celebrate. </l>
+        </sp>
+        <p xml:id="A07976_02-e103190">Time being received into the scene it closeth. </p>
+        <trailer xml:id="A07976_02-e103200">The end</trailer>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A07976_02"><item xml:id="A07976_02-time" n="15">
+    <seg type="character_name">A07976_02-time</seg>
+    <seg type="speech_count">15</seg>
+  </item>
+  <item xml:id="A07976_02-yyyy_3" n="14">
+    <seg type="character_name">A07976_02-yyyy_3</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A07976_02-yyyy_2" n="5">
+    <seg type="character_name">A07976_02-yyyy_2</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+<item xml:id="A07976_02-yyyy_4" n="4">
+    <seg type="character_name">A07976_02-yyyy_4</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A07976_02-host" n="3">
+    <seg type="character_name">A07976_02-host</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07976_02-yyyy_1" n="3">
+    <seg type="character_name">A07976_02-yyyy_1</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A07976_02-may" n="2">
+    <seg type="character_name">A07976_02-may</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A07976_02-hostess" n="1">
+    <seg type="character_name">A07976_02-hostess</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

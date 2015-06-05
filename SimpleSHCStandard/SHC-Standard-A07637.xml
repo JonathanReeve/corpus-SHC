@@ -1,0 +1,2996 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A07637">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Hans Beer-Pot (See Me and See Me Not) <date type="creation_date">1618</date></title>
+        <author>Belchier, Dabridgcourt</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Nayoon Ahn</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A07637.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">Hans Beer-Pot his inuisible comedie, of see me, and see me not. Actedin the Low Countries, by an honest company of health-drinkers.</title>
+            <author>Belchier, Dabridgcourt, 1580?-1621.</author>
+          </titleStmt>
+          <extent>32 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2008 September (TCP phase 1)</date>
+            <idno type="marc">99837237</idno>
+            <idno type="stc">STC (2nd ed.) 1803.</idno>
+            <idno type="stc">Greg II:354.</idno>
+            <idno type="vid">1552</idno>
+            <idno type="DLPS">A07637</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">Hans Beer-Pot his inuisible comedie, of see me, and see me not. Actedin the Low Countries, by an honest company of health-drinkers.</title>
+            <title type="alt">Hans Beer-Pot his invisible comedie, of see me, and see me not</title>
+            <title type="alt">Hans Beer-Pot his invisible comedie, of see me, and see me not.</title>
+            <title type="alt">See mee, and see me not.</title>
+            <title type="alt">See me, and see me not.</title>
+            <author>Belchier, Dabridgcourt, 1580?-1621.</author>
+          </titleStmt>
+          <extent>[64] p.</extent>
+          <publicationStmt>
+            <publisher>Imprinted by Bernard Alsop, and are to be solde at his house by Saint Annes Church neere Aldersgate,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1618.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Dedication signed: Dabridgcourt Belchier.</p>
+            </note>
+            <note>
+              <p>In verse.</p>
+            </note>
+            <note>
+              <p>Signatures: A-H4.</p>
+            </note>
+            <note>
+              <p>The first leaf and the last leaf are blank.</p>
+            </note>
+            <note>
+              <p>Running title reads: See mee, and see me not.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the British Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A07637-e100010">
+    <front xml:id="A07637-e100020">
+      <div type="title_page" xml:id="A07637-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A07637-e100040">Hans Beer-pot his invisible comedy, of see me, and see me not. Acted in the low countries, by an honest company of health-drinkers.</p>
+        <quote xml:id="A07637-e100050">Omne tulit punctum qui miscuit utile dulci.</quote>
+        <p xml:id="A07637-e100060">London, imprinted by Bernard Alsop, and are to be sold at his house by saint Anne's church near Aldersgate, 1618.</p>
+      </div>
+      <div type="dedication" xml:id="A07637-e100070">
+        <pb facs="2"/>
+        <pb facs="2"/>
+        <head>To the honourable sir John Ogle knight, colonel of our English regiment of foot, under the lords, the estates general of the united provinces, and lord governor of the town and garrison of Utrecht.</head>
+        <p xml:id="A07637-e100080">Mine honoured lord, I here present unto your view, nor comedy, nor tragedy, as wanting first the just number of speakers: secondarily, those parts or acts it should have, which should be at the least five; but a plain dialogue or conference between so many persons, consisting of three acts, and no more. If there be any act in it, to make it savour in your Lordship's palate, I shall be glad: wormwood or gall to make it distasteful, I am sure there is none, if rightly understood: for howsoever I may by chance light upon a galled place, my intent is not to rub it so hard, to grieve it or make it worse: but rather to wipe it smoothly to cleanse it, and heal it.</p>
+        <p xml:id="A07637-e100090">If any man thinks himself touched in any thing<pb facs="3"/> that is amiss, let him endeavour by god's help to amend it; and if there be any good counsel in it, tending to reformation of manners, or other advice, as I dare be bold to say, there either is, or should be; let him make use of that, and follow it.</p>
+        <p xml:id="A07637-e100100">Moreover, my very good lord, as in all actions done, or to be done, after what kind soever, there be several reasons, if grounded upon reason or judgement: why, or to what end they are, or should be done, so in this committed to your lordship's hands, though soon conceived, and as soon brought into the world, being not above sixteen days' labour therein, more aimed at then the verbal sense: which if it please your lordship, give me leave to give you some instructions, is thus to be taken.</p>
+        <p xml:id="A07637-e100110">In the person of the old gentleman is figured forth a man of singular good education, life and conversation, a man that had seen the world, tasted the sorrows and troubles of this life with David, and towards the end of his days had a peaceful possession of an happy estate given him: wherein also is set out the benefit of contentation: a man truly virtuous, frugal, bounteous and liberal, a lover of good company and hospitality, desirous to gain the good will of his neighbours.</p>
+        <p xml:id="A07637-e100120">Moreover, are showed the wonderful preservation and blessings that God bestoweth on them that serve him: first, his wife a good wife; then his children, as a principal blessing, next, good children, and his care in their education, besides his temporal blessings.</p>
+        <p xml:id="A07637-e100130">In the person of his wife is set out a virtuous, chaste and sober matron, one that was careful of her charge,<pb facs="3"/> not a gadding housewife, but such an one as did spend her idle times in reading histories and other good books, as is easy to be perceived. In them both the happiest union, and agreement that should be in that blessed estate of marriage: and lastly, in them two, the praise of a country life.</p>
+        <p xml:id="A07637-e100140">In the person of their son is set out an hopeful young gentleman, whose father had a great care to see him well brought up according to his estate, and to let him know the world betimes; not to keep him at home under his nose, as many too kind and foolish parents use to do, until they have marred their children, which otherwise might have been better. Secondly, in him is showed how a young man should carry himself; first, to serve God, to please his parents, to follow that which is good, to read good books, and to make choice of his company.</p>
+        <p xml:id="A07637-e100150">In the person of the merchant, the noblest profession of trade; from whom divers worshipful houses in England have had their original, is set out in some part their disposition, who being for the most part exceeding rich, are also exceeding miserable, till they are disposed to get out and warm their bloods with this element of good liquor, and then as far exceed in superfluity, as by experience I have known some.</p>
+        <p xml:id="A07637-e100160">In the sergeant is set out, a well-deserving soldier, who sticking in the first place of preferment, can get no higher.</p>
+        <p xml:id="A07637-e100170">In the sentinel, an honest private soldier, one that loves a pot better than a wench, and indeed the natural disposition of all soldiers, who for the most part<pb facs="4"/> lead a merry life, careless of any thing, so they may in a reasonable measure be provided for of meat, drink, and apparel.</p>
+        <p xml:id="A07637-e100180">In Beerepot is set out an honest servant, who howsoever, he will keep company, and be merry sometimes, yet nothing can draw him from the performance of his business, and the due respect of his service, and duty to his master.</p>
+        <p xml:id="A07637-e100190">In Flutterkin, a merchant of good beer, a merry companion, one that will give content to his guests, set out his wares, and help to utter them himself, and rather than nobody should be drunk, he will make one.</p>
+        <p xml:id="A07637-e100200">In the Moor, a man that had tasted the inconstancy of fortune, one that bore his crosses bravely and stoutly, and in despite of fortune, would be merry, and sing while others wept.</p>
+        <p xml:id="A07637-e100210">And for the names which are significant, if you take them according to their dialect, as less material, I leave your lordship, at your leisure to guess at: and commending myself, and those my poor endeavours unto your lordship's honourable patronage. I rest: Utrecht from my lodging the 14. of November, 1617.</p>
+        <closer xml:id="A07637-e100220">
+          <signed xml:id="A07637-e100230">Yours in all humble service, to be commanded, Dabridgcourt Belchier.</signed>
+        </closer>
+      </div>
+      <div type="prologue" xml:id="A07637-e100240">
+        <pb facs="4"/>
+        <head>The prologue.</head>
+        <l xml:id="A07637-e100250">Expect not here a stately tragedy,</l>
+        <l xml:id="A07637-e100260">Nor comedy set out, with graceful shows,</l>
+        <l xml:id="A07637-e100270">Of divers kinds, to please men's greedy eyes:</l>
+        <l xml:id="A07637-e100280">Yet what we have, we give, accept it then</l>
+        <l xml:id="A07637-e100290">With patience, kindness, and with thankfulness. </l>
+        <l xml:id="A07637-e100300">The author's no mechanic, writes not for gain;</l>
+        <l xml:id="A07637-e100310">Nor with this dish, thinks to fill all your tastes,</l>
+        <l xml:id="A07637-e100320">Only, for the learned, and judicious sort;</l>
+        <l xml:id="A07637-e100330">Yet would please all, and no man here offend. </l>
+        <l xml:id="A07637-e100340">Here is no gall, nor any bitter stuff</l>
+        <l xml:id="A07637-e100350">To quip men's vices in particular,</l>
+        <l xml:id="A07637-e100360">Such snarling tricks, are free from him and his:</l>
+        <l xml:id="A07637-e100370">Then wrest not sense, to what was never meant;</l>
+        <l xml:id="A07637-e100380">If ought be wanting, it is want of skill,</l>
+        <l xml:id="A07637-e100390">Not want of willing minds to give content</l>
+        <l xml:id="A07637-e100400">To high and low, to all of each degree;</l>
+        <l xml:id="A07637-e100410">Then give me leave, kind friends, to beg this boon,</l>
+        <l xml:id="A07637-e100420">That you'll be silent, if we do amiss;</l>
+        <l xml:id="A07637-e100430">And if ought please you, though we dare not crave</l>
+        <l xml:id="A07637-e100440">An open plaudit, in our ears to ring:</l>
+        <l xml:id="A07637-e100450">Yet do us right, commend it afterwards;</l>
+        <l xml:id="A07637-e100460">And though some few of us, do take this pains,</l>
+        <l xml:id="A07637-e100470">Yet one man's head did only ache for this:</l>
+        <l xml:id="A07637-e100480">He makes me speak for him, and he for us;</l>
+        <l xml:id="A07637-e100490">And altogether join in this request,</l>
+        <l xml:id="A07637-e100500">That you will hear and see, and say the best. </l>
+      </div>
+      <div type="dramatis_personae" xml:id="A07637-e100510">
+        <pb facs="5"/>
+        <head>See me, and see me not. Or a dialogue between these persons following.</head>
+        <list xml:id="A07637-e100520">
+          <item xml:id="A07637-e100530">Cornelius Harmants, a rich country gentleman,</item>
+          <item xml:id="A07637-e100540">Hanneke, his wife, a grave matron.</item>
+          <item xml:id="A07637-e100550">Hans Beerepot their man.</item>
+          <item xml:id="A07637-e100560">Younker Harmants their son.</item>
+          <item xml:id="A07637-e100570">Jaques garland, a rich merchant which married his sister.</item>
+          <item xml:id="A07637-e100580">Sergeant good fellow an old soldier.</item>
+          <item xml:id="A07637-e100590">Pasquill Beeremond a sentinel.</item>
+          <item xml:id="A07637-e100600">Joaske Flutterkin a tapper.</item>
+          <item xml:id="A07637-e100610">Abnidara's Quixot, a tawny Moor.</item>
+        </list>
+      </div>
+    </front>
+    <body xml:id="A07637-e100620">
+      <div type="play" xml:id="A07637-e100630">
+        <pb facs="5"/>
+        <head>See me, and see me not.</head>
+        <stage xml:id="A07637-e100640">Enter Hans beerpot singing a verse or two of a song, etc.</stage>
+        <l xml:id="A07637-e100650">Younker, I come, your father sends me forth,</l>
+        <l xml:id="A07637-e100660">To sell his corn, and bring him money in,</l>
+        <l xml:id="A07637-e100670">Each day he walks, and pries, and looks about</l>
+        <l xml:id="A07637-e100680">With watchful eyes, and ever in mistrust,</l>
+        <l xml:id="A07637-e100690">Lest that my dame, or I his trusty man,</l>
+        <l xml:id="A07637-e100700">Should nimme from him, or put up more than right;</l>
+        <l xml:id="A07637-e100710">I by my dame am watched, and she by him,</l>
+        <l xml:id="A07637-e100720">And twixt them both in equal balance hangs</l>
+        <l xml:id="A07637-e100730">Poor Hans their man, their wakeful Argos eyes,</l>
+        <l xml:id="A07637-e100740">Do seldom wink, yet must I have a trick</l>
+        <l xml:id="A07637-e100750">To make large measure, fill the bushel full,</l>
+        <l xml:id="A07637-e100760">And jog it soft unseen, while they look on,</l>
+        <l xml:id="A07637-e100770">And still cry out for more, the measures scant;</l>
+        <l xml:id="A07637-e100780">And then the overplus. </l>
+        <stage xml:id="A07637-e100790">Cornelius within.</stage>
+        <l xml:id="A07637-e100800">What Hans, come here. </l>
+        <sp xml:id="A07637-e100810" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <p xml:id="A07637-e100820">My master calls, and I must needs be gone. <stage xml:id="A07637-e100830">Exit.</stage></p>
+        </sp>
+        <stage xml:id="A07637-e100840">Enter Hanneke sola.</stage>
+        <sp xml:id="A07637-e100850" who="A07637-hannecke">
+          <speaker>Han.</speaker>
+          <l xml:id="A07637-e100860">As God doth bless the earth with great increase,</l>
+          <l xml:id="A07637-e100870">And in great measure sends us ten for one:</l>
+          <l xml:id="A07637-e100880">So must those blessings carefully be kept,</l>
+          <l xml:id="A07637-e100890">And not with reckless heed, let run at large,</l>
+          <l xml:id="A07637-e100900">For so huge heaps of wealth consume to naught,</l>
+          <l xml:id="A07637-e100910">And like fair buildings unrepair, decay. </l>
+          <l xml:id="A07637-e100920"><pb facs="6"/>Yet must not beastly miching niggardize,</l>
+          <l xml:id="A07637-e100930">Cause us forget ourselves, and those that want,</l>
+          <l xml:id="A07637-e100940">But give relief from our abundant store:</l>
+          <l xml:id="A07637-e100950">We have enough, our charge it is not great,</l>
+          <l xml:id="A07637-e100960">One daughter she's bestowed richly, and</l>
+          <l xml:id="A07637-e100970">Her portion paid, no penny more in debt,</l>
+          <l xml:id="A07637-e100980">Two sons besides, and they provided for;</l>
+          <l xml:id="A07637-e100990">The youngest at school, the other trails a pike,</l>
+          <l xml:id="A07637-e101000">And for preferment looks each day, each hour:</l>
+          <l xml:id="A07637-e101010">What friendship fails, his father's purse supplies;</l>
+          <l xml:id="A07637-e101020">He doth not want, nor shall, nor have too much</l>
+          <l xml:id="A07637-e101030">To please the fancies of unbridled youth:</l>
+          <l xml:id="A07637-e101040">Mine husband bids him use his means, no doit</l>
+          <l xml:id="A07637-e101050">That he will send him, but alas poor I,</l>
+          <l xml:id="A07637-e101060">Must lick my cream-pots, shake my winnow sheet</l>
+          <l xml:id="A07637-e101070">And all for coin, and often send him some. </l>
+          <l xml:id="A07637-e101080">Mine husband sees and knows, yet nothing says,</l>
+          <l xml:id="A07637-e101090">But is content with what he thinks I do;</l>
+          <l xml:id="A07637-e101100">My man plays fast and loose, I see it too,</l>
+          <l xml:id="A07637-e101110">And nothing say, for why, the knave is true,</l>
+          <l xml:id="A07637-e101120">And wrongs us not one cross, but what he gets</l>
+          <l xml:id="A07637-e101130">Is for my sons, not for himself, I am sure. </l>
+          <l xml:id="A07637-e101140">I see, but see not, give him oft a shilling,</l>
+          <l xml:id="A07637-e101150">Because to do for mine, he is so willing. </l>
+          <l xml:id="A07637-e101160">What Hans? </l>
+          <stage xml:id="A07637-e101170">Enter Hans.</stage>
+          <l xml:id="A07637-e101180">Your servant at command,</l>
+          <l xml:id="A07637-e101190">To run, to ride, to go by day or night. </l>
+        </sp>
+        <sp xml:id="A07637-e101200" who="A07637-hannecke">
+          <speaker>Han.</speaker>
+          <l xml:id="A07637-e101210">How now sir sauce, your tongue so early glib;</l>
+          <l xml:id="A07637-e101220">What though the days be short, there's time enough</l>
+          <l xml:id="A07637-e101230">Ere night to make your pate ring noon. </l>
+        </sp>
+        <sp xml:id="A07637-e101240" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e101250">Indeed,</l>
+          <l xml:id="A07637-e101260">Madam, you never saw me drunk as yet,</l>
+          <l xml:id="A07637-e101270">So much as to forget that due respect</l>
+          <l xml:id="A07637-e101280"><pb facs="6"/> I owe your service. </l>
+        </sp>
+        <sp xml:id="A07637-e101290" who="A07637-hannecke">
+          <speaker>Han.</speaker>
+          <l xml:id="A07637-e101300">Well sir, then be gone,</l>
+          <l xml:id="A07637-e101310">Make haste, dispatch, and get you to the town;</l>
+          <l xml:id="A07637-e101320">Look to your business, what you buy and sell;</l>
+          <l xml:id="A07637-e101330">But ere you go, take that and give my son. </l>
+        </sp>
+        <sp xml:id="A07637-e101340" who="A07637-hannecke">
+          <speaker>Han.</speaker>
+          <l xml:id="A07637-e101350">The heavens bless you mistress, that fair hand,</l>
+          <l xml:id="A07637-e101360">Once more for the sergeant. </l>
+        </sp>
+        <sp xml:id="A07637-e101370" who="A07637-hannecke">
+          <speaker>Hann.</speaker>
+          <l xml:id="A07637-e101380">Away you knave,</l>
+          <l xml:id="A07637-e101390">Take that Dutch shilling, drink amongst your comrades. </l>
+        </sp>
+        <stage xml:id="A07637-e101400">Exit.</stage>
+        <sp xml:id="A07637-e101410" who="A07637-hans">
+          <speaker>Hans. </speaker>
+          <l xml:id="A07637-e101420">She's gone, the best that ever trodden on shoe:</l>
+          <l xml:id="A07637-e101430">I would not change my life to be lord mayor</l>
+          <l xml:id="A07637-e101440">Of the thy crown of London: my service</l>
+          <l xml:id="A07637-e101450">〈◊〉 freedom, labour but a pleasure,</l>
+          <l xml:id="A07637-e101460">〈…〉 what I ask, but half a word,</l>
+          <l xml:id="A07637-e101470">'Tis done, she knew my mind, I would I have said,</l>
+          <l xml:id="A07637-e101480">That with the sergeant I must crack a pot,</l>
+          <l xml:id="A07637-e101490">But 〈◊〉 I could bringt out, she stopped my mouth</l>
+          <l xml:id="A07637-e101500">With knave and shilling too: well let her do't</l>
+          <l xml:id="A07637-e101510">As often as she will, see who gets most</l>
+          <l xml:id="A07637-e101520">Of she or I. <stage xml:id="A07637-e101530">He sings.</stage></l>
+          <quote xml:id="A07637-e101540">
+            <l xml:id="A07637-e101550">As I went to Walsingham,</l>
+            <l xml:id="A07637-e101560">To that holy land,</l>
+            <l xml:id="A07637-e101570">Met I with an old bald mare,</l>
+            <l xml:id="A07637-e101580">By the way as I came. </l>
+          </quote>
+          <l xml:id="A07637-e101590">Indeed you do full little think, how I</l>
+          <l xml:id="A07637-e101600">Am taken up amongst soldiers in the town;</l>
+          <l xml:id="A07637-e101610">Hans beer pot is a man of note, well known</l>
+          <l xml:id="A07637-e101620">To all under the degree of officers. </l>
+          <l xml:id="A07637-e101630">But sergeant Goodfellow, I love him best;</l>
+          <l xml:id="A07637-e101640">And why? because he loves my master's son ▪</l>
+          <l xml:id="A07637-e101650">My master loves him too, for his honesty</l>
+          <l xml:id="A07637-e101660">And never sees him, but he gives him gold,</l>
+          <l xml:id="A07637-e101670">And sends him much provision for his house;</l>
+          <l xml:id="A07637-e101680">He'll drink his cup, swears not and hates a whore,</l>
+          <l xml:id="A07637-e101690">Which if he used, I am sure my master</l>
+          <l xml:id="A07637-e101700"><pb facs="7"/> brooks not the company of any such</l>
+          <l xml:id="A07637-e101710">To haunt his son: but with an angry frown,</l>
+          <l xml:id="A07637-e101720">Would look upon him: for he and Beremond</l>
+          <l xml:id="A07637-e101730">Are the only lads of all the garrison;</l>
+          <l xml:id="A07637-e101740">I come my lads, my markets once o'erpast,</l>
+          <l xml:id="A07637-e101750">At Flutterkins we'll have one bridling cast. </l>
+          <stage xml:id="A07637-e101760">Exit.</stage>
+          <stage xml:id="A07637-e101770">Enter Cornelius with his wife.</stage>
+          <l xml:id="A07637-e101780">Come wife, help me on with my band: indeed</l>
+          <l xml:id="A07637-e101790">This fair morning invites me take the pains</l>
+          <l xml:id="A07637-e101800">To walk on foot, and see the town, visit</l>
+          <l xml:id="A07637-e101810">My friends, and children, drink some Spanish wine:</l>
+          <l xml:id="A07637-e101820">And why, that wine? I am not yet grown old,</l>
+          <l xml:id="A07637-e101830">I can bestride, a bouncing jennet still,</l>
+          <l xml:id="A07637-e101840">And with mine arm to frush a sturdy lance. </l>
+        </sp>
+        <sp xml:id="A07637-e101850" who="A07637-hannecke">
+          <speaker>Hann.</speaker>
+          <l xml:id="A07637-e101860">Talk you no more of martial exercise,</l>
+          <l xml:id="A07637-e101870">Good sir, but take you to your country farm,</l>
+          <l xml:id="A07637-e101880">Keep you at home, leave that to younger bloods,</l>
+          <l xml:id="A07637-e101890">Your son is young enough, let him go forth,</l>
+          <l xml:id="A07637-e101900">And prove his fortune amongst those armed troops,</l>
+          <l xml:id="A07637-e101910">I am contented, God his will be done. </l>
+        </sp>
+        <sp xml:id="A07637-e101920" who="A07637-cornelius">
+          <speaker>Corn.</speaker>
+          <l xml:id="A07637-e101930">I think dear wife thou speakst more than thou thinkst. </l>
+          <l xml:id="A07637-e101940">Thou wouldst be loath to adventure him so much. </l>
+        </sp>
+        <sp xml:id="A07637-e101950" who="A07637-hannecke">
+          <speaker>Hann.</speaker>
+          <l xml:id="A07637-e101960">Not I sweet sir, for God is God at sea,</l>
+          <l xml:id="A07637-e101970">And land, a god always omnipotent;</l>
+          <l xml:id="A07637-e101980">He can defend him from the gaping jaws</l>
+          <l xml:id="A07637-e101990">Of roaring canons mouth, that dreadful flash</l>
+          <l xml:id="A07637-e102000">Cannot come near him, if it be his will;</l>
+          <l xml:id="A07637-e102010">Yet if he die, 'tis honours lofty bed</l>
+          <l xml:id="A07637-e102020">That shall entomb him, than I care the less. </l>
+        </sp>
+        <sp xml:id="A07637-e102030" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e102040">Well spoken, brave lass, I think fair Pallas shine,</l>
+          <l xml:id="A07637-e102050">Begird thy temples with her glorious rays,</l>
+          <l xml:id="A07637-e102060">At thy day's birth, the wonder of thy sex. </l>
+        </sp>
+        <sp xml:id="A07637-e102070" who="A07637-hannecke">
+          <speaker>Hann.</speaker>
+          <l xml:id="A07637-e102080">How now my love, what do you court me still? </l>
+          <l xml:id="A07637-e102090"><pb facs="7"/>This phrase befits not, twixt a man and wife,</l>
+          <l xml:id="A07637-e102100">'Tis time for you to leave such courting terms,</l>
+        </sp>
+        <sp xml:id="A07637-e102110" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e102120">What courting callest thou them, thou rub'st me up,</l>
+          <l xml:id="A07637-e102130">To think upon the times forepast, I saw</l>
+          <l xml:id="A07637-e102140">In England's court so famous and renowmde</l>
+          <l xml:id="A07637-e102150">Of great Eliza's blessed memory. </l>
+          <l xml:id="A07637-e102160">That aided so these troubled Netherlands</l>
+          <l xml:id="A07637-e102170">With men and money; still o, o still methinks </l>
+          <l xml:id="A07637-e102180">I see those worthies marching on earth's stage;</l>
+          <l xml:id="A07637-e102190">The famous Essex, Norreis, Sidney too,</l>
+          <l xml:id="A07637-e102200">And wisest Vere, that held Ostend so long,</l>
+          <l xml:id="A07637-e102210">'Gainst hell's foul mouth, and Spanish tyranny,</l>
+          <l xml:id="A07637-e102220">As yet his complices can testify. </l>
+          <l xml:id="A07637-e102230">That saw his works beyond the bounds of wit,</l>
+          <l xml:id="A07637-e102240">That now do live in noble fame and name;</l>
+          <l xml:id="A07637-e102250">Whom I'll o'erpass, for fear I should offend. </l>
+        </sp>
+        <sp xml:id="A07637-e102260" who="A07637-hannecke">
+          <speaker>Hann.</speaker>
+          <l xml:id="A07637-e102270">Offend not then (My spouse) I counsel you,</l>
+          <l xml:id="A07637-e102280">But leave the mighty to their best contents,</l>
+          <l xml:id="A07637-e102290">And pass in silence, what they have to do;</l>
+          <l xml:id="A07637-e102300">Let us not meddle with the magistrate,</l>
+          <l xml:id="A07637-e102310">But see, unseen, and hope for what's the best. </l>
+        </sp>
+        <sp xml:id="A07637-e102320" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e102330">What hath Apollo's sacred oracle</l>
+          <l xml:id="A07637-e102340">Infused thy soul with high divinity,</l>
+          <l xml:id="A07637-e102350">Or deeper judgements, of I know not what,</l>
+          <l xml:id="A07637-e102360">Made thee know more than thy frail sex should do</l>
+          <l xml:id="A07637-e102370">I wonder: let's along, we'll to the town,</l>
+          <l xml:id="A07637-e102380">Where I not doubt but I shall find your son</l>
+          <l xml:id="A07637-e102390">A drinking, not at's book. </l>
+        </sp>
+        <sp xml:id="A07637-e102400" who="A07637-hannecke">
+          <speaker>Hann.</speaker>
+          <l xml:id="A07637-e102410">What if you do? </l>
+          <l xml:id="A07637-e102420">The elder priest forgets that he was clerk,</l>
+          <l xml:id="A07637-e102430">When you were young, you did as he now does. </l>
+        </sp>
+        <sp xml:id="A07637-e102440" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e102450">'Tis true indeed, but yet I'll tell thee what,</l>
+          <l xml:id="A07637-e102460">'Twas strange to see a younker once but drunk</l>
+          <l xml:id="A07637-e102470">In England's kingdom, when I lived there,</l>
+          <l xml:id="A07637-e102480">For to be drunk, was beggar like they said,</l>
+          <l xml:id="A07637-e102490">Now beggars say they are drunk like gentlemen,</l>
+          <pb facs="8"/>
+          <pb facs="8"/>
+          <l xml:id="A07637-e102500"><pb facs="9"/> as since I have heard an old fantastic rhyme,</l>
+          <l xml:id="A07637-e102510">That thus imports if I be not deceived. </l>
+        </sp>
+        <quote xml:id="A07637-e102520">
+          <l xml:id="A07637-e102530">Gentlemen are sick, and parsons ill at ease,</l>
+          <l xml:id="A07637-e102540">But serving men are drunk, and all have one disease. </l>
+        </quote>
+        <sp xml:id="A07637-e102550" who="A07637-hannecke">
+          <speaker>Han.</speaker>
+          <l xml:id="A07637-e102560">God bless my son from such base foolery,</l>
+          <l xml:id="A07637-e102570">As to delight in drink, a beastly sin,</l>
+          <l xml:id="A07637-e102580">Yet with a friend, to drink a cup or more,</l>
+          <l xml:id="A07637-e102590">I'll not find fault, the times are now grown such. </l>
+        </sp>
+        <sp xml:id="A07637-e102600" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <p xml:id="A07637-e102610">Well wife, give but an inch, he takes an ell.</p>
+        </sp>
+        <sp xml:id="A07637-e102620" who="A07637-hannecke">
+          <speaker>Han.</speaker>
+          <l xml:id="A07637-e102630">What then? his nature, education,</l>
+          <l xml:id="A07637-e102640">Composed him otherwise, you did your part</l>
+          <l xml:id="A07637-e102650">To give him learning, which will make him know</l>
+          <l xml:id="A07637-e102660">The good from evil: but his blooming youth</l>
+          <l xml:id="A07637-e102670">May be corrupted by bad company;</l>
+          <l xml:id="A07637-e102680">But that he seeks not, loves not, flies as much</l>
+          <l xml:id="A07637-e102690">As in him lies, I heard't with comfort too,</l>
+          <l xml:id="A07637-e102700">Else would I not. </l>
+        </sp>
+        <sp xml:id="A07637-e102710" who="A07637-cornelius">
+          <speaker>Cor,</speaker>
+          <l xml:id="A07637-e102720">My dear, what would you do,</l>
+          <l xml:id="A07637-e102730">Or not do, women's witless wilful will,</l>
+          <l xml:id="A07637-e102740">Is strange sometimes, with reason limitless. </l>
+        </sp>
+        <sp xml:id="A07637-e102750" who="A07637-hannecke">
+          <speaker>Hann</speaker>
+          <p xml:id="A07637-e102760">I will not tell you.</p>
+        </sp>
+        <sp xml:id="A07637-e102770" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <p xml:id="A07637-e102780">Why?</p>
+        </sp>
+        <sp xml:id="A07637-e102790" who="A07637-hannecke">
+          <speaker>Hann.</speaker>
+          <p xml:id="A07637-e102800">Because I will not.</p>
+        </sp>
+        <sp xml:id="A07637-e102810" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e102820">A reason reasonless, women,</l>
+          <l xml:id="A07637-e102830">Have oft such reason, for their wilfulness,</l>
+          <l xml:id="A07637-e102840">Whenas they overthwart their too kind husbands</l>
+          <l xml:id="A07637-e102850">In things not mere indifferent, else</l>
+        </sp>
+        <sp xml:id="A07637-e102860" who="A07637-hannecke">
+          <speaker>Hann.</speaker>
+          <l xml:id="A07637-e102870">What else? </l>
+          <l xml:id="A07637-e102880">Sometimes we know more than our husbands think,</l>
+          <l xml:id="A07637-e102890">And give advice worthy to be followed,</l>
+          <l xml:id="A07637-e102900">Not to be scorned, or to be contemned</l>
+          <l xml:id="A07637-e102910">In weighty matters, matters of estate,</l>
+          <l xml:id="A07637-e102920">As 〈…〉 wife to great</l>
+          <l xml:id="A07637-e102930">〈◊〉; and Nero's mother too,</l>
+          <l xml:id="A07637-e102940"><pb facs="9"/> another Agrippina, less virtuous,</l>
+          <l xml:id="A07637-e102950">But wise and politic, one that knew much,</l>
+          <l xml:id="A07637-e102960">And that great Queen, the Queen of Caria,</l>
+          <l xml:id="A07637-e102970">Nausolus' wife, the wonder of her time. </l>
+          <l xml:id="A07637-e102980">And she whom former times never paralleled,</l>
+          <l xml:id="A07637-e102990">She whom you named but now. </l>
+        </sp>
+        <sp xml:id="A07637-e103000" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e103010">O stay, my wife,</l>
+          <l xml:id="A07637-e103020">Your mouth runs o'er, she makes all women proud;</l>
+          <l xml:id="A07637-e103030">Are you so read in Roman histories? </l>
+          <l xml:id="A07637-e103040">And I not know it: welcome to the town;</l>
+          <l xml:id="A07637-e103050">We'll to your daughter straight, she'll be at home,</l>
+          <l xml:id="A07637-e103060">I hope, where ere her thriving husband be. </l>
+          <stage xml:id="A07637-e103070">Exeunt.</stage>
+          <stage xml:id="A07637-e103080">Music.</stage>
+          <stage xml:id="A07637-e103090">Enter Pasquill.</stage>
+          <l xml:id="A07637-e103100">My back thin clothed, my belly thinner lined,</l>
+          <l xml:id="A07637-e103110">Keeps out no cold, I like not I these planks,</l>
+          <l xml:id="A07637-e103120">But when my belly is full of double beer;</l>
+          <l xml:id="A07637-e103130">O then I sleep like to mine hostess pigs,</l>
+          <l xml:id="A07637-e103140">And feel no cold, nor hardness; featherbeds,</l>
+          <l xml:id="A07637-e103150">Stand further off, three stivers and a half,</l>
+          <l xml:id="A07637-e103160">The can of English beer: my money's spent;</l>
+          <l xml:id="A07637-e103170">Pay days tomorrow: tut, hang't, today, I'll shift,</l>
+          <l xml:id="A07637-e103180">But yet were younker Harmants here; one can,</l>
+          <l xml:id="A07637-e103190">My morning's draught were good; or if today</l>
+          <l xml:id="A07637-e103200">Hans beer-pot come to town: o furious Mars,</l>
+          <l xml:id="A07637-e103210">He's come, his waggons yonder, now cocksure,</l>
+          <l xml:id="A07637-e103220">For this whole day I am provided for. </l>
+          <stage xml:id="A07637-e103230">Enter the merchant, master garland, and clap him on the shoulder.</stage>
+          <l xml:id="A07637-e103240">Good morrow Pasquill, where's my brother, where's</l>
+          <l xml:id="A07637-e103250">That younker? and the sergeant Goodfellow. </l>
+        </sp>
+        <sp xml:id="A07637-e103260" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e103270">You are welcome sir, what m. garland? </l>
+          <l xml:id="A07637-e103280"><pb facs="10"/>Is't you, you know my mind; one tooth is dry,</l>
+          <l xml:id="A07637-e103290">Since yesternight I have not had one drink;</l>
+          <l xml:id="A07637-e103300">I am so cold. </l>
+        </sp>
+        <sp xml:id="A07637-e103310" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e103320">Why dost not answer me?</p>
+        </sp>
+        <sp xml:id="A07637-e103330" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e103340">What did you say? sure I remember not;</l>
+          <l xml:id="A07637-e103350">My wits want freshing. </l>
+        </sp>
+        <sp xml:id="A07637-e103360" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e103370">I will thrash them straight</l>
+          <l xml:id="A07637-e103380">With good strong beer, one cup will do no harm. </l>
+        </sp>
+        <sp xml:id="A07637-e103390" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <p xml:id="A07637-e103400">Will drive cold out, and keep my belly warm.</p>
+        </sp>
+        <sp xml:id="A07637-e103410" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e103420">What rhyming so early, and thine eyes not</l>
+          <l xml:id="A07637-e103430">Washed yet: but where is younger Harmants? </l>
+          <l xml:id="A07637-e103440">Where's his companion, sergeant Goodfellow? </l>
+        </sp>
+        <sp xml:id="A07637-e103450" who="A07637-pasquil">
+          <speaker>Pas</speaker>
+          <l xml:id="A07637-e103460">Fast asleep , his troubled head is so vexed</l>
+          <l xml:id="A07637-e103470">With this world's cares. </l>
+        </sp>
+        <sp xml:id="A07637-e103480" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e103490">What both.</p>
+        </sp>
+        <sp xml:id="A07637-e103500" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e103510">The sergeant, him</l>
+          <l xml:id="A07637-e103520">Lonely mean, lies sleeping yet within;</l>
+          <l xml:id="A07637-e103530">I'll call him to you, if you will go drink. </l>
+        </sp>
+        <sp xml:id="A07637-e103540" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e103550">Not else.</p>
+        </sp>
+        <sp xml:id="A07637-e103560" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e103570">Yes that I will, and more than that;</l>
+          <l xml:id="A07637-e103580">I'll do for you, or for your brother's sake;</l>
+          <l xml:id="A07637-e103590">Like burning drakes I'll split the empty air,</l>
+          <l xml:id="A07637-e103600">And run through thick or thin, at noon or night:</l>
+          <l xml:id="A07637-e103610">If you command, poor Pasquill will obey. </l>
+        </sp>
+        <sp xml:id="A07637-e103620" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e103630">Where didst thou learn such high styled compliments?</p>
+        </sp>
+        <sp xml:id="A07637-e103640" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e103650">Out from the smoaking of my muskets mouth</l>
+          <l xml:id="A07637-e103660">Fetched from the fragments of some poetry:</l>
+          <l xml:id="A07637-e103670">My nimble muse comes from the Aquilone,</l>
+          <l xml:id="A07637-e103680">And flaps her wings 'gainst austers frothy beard;</l>
+          <l xml:id="A07637-e103690">While Eurus blasts do pinch my tender sides. </l>
+          <l xml:id="A07637-e103700">And gentle Zephir, glads the seaman's heart;</l>
+          <l xml:id="A07637-e103710">Driving his ship, cross Neptune's foaming front. </l>
+        </sp>
+        <sp xml:id="A07637-e103720" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e103730">How now turned poet, or turned conjurer;</l>
+          <l xml:id="A07637-e103740">Stares not mine hair: shall I be scared hence:</l>
+          <l xml:id="A07637-e103750">I'll make a circle least hobgoblin come,</l>
+        </sp>
+        <sp xml:id="A07637-e103760" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e103770">You are disposed to jest m. Ganland. </l>
+          <l xml:id="A07637-e103780"><pb facs="10"/>I have many such conceits without book. </l>
+        </sp>
+        <sp xml:id="A07637-e103790" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e103800">Of thine own making sure, they do so well</l>
+          <l xml:id="A07637-e103810">Concur in sweetest diapason. </l>
+        </sp>
+        <sp xml:id="A07637-e103820" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e103830">Die a pace on sir: what's that? </l>
+          <l xml:id="A07637-e103840">That's quite past</l>
+          <l xml:id="A07637-e103850">The reach or centre of my shallow brain:</l>
+          <l xml:id="A07637-e103860">But since with terms you think to put me down:</l>
+          <l xml:id="A07637-e103870">Once more have at you, I'll not yield it so. </l>
+        </sp>
+        <quote xml:id="A07637-e103880">
+          <l xml:id="A07637-e103890">Then did he make heavens vault to rebound,</l>
+          <l xml:id="A07637-e103900">With rounce, robble hobble,</l>
+          <l xml:id="A07637-e103910">With riff raff, roaring, thwick-thwack ,</l>
+          <l xml:id="A07637-e103920">Thurlerie bouncing. </l>
+        </quote>
+        <sp xml:id="A07637-e103930" who="A07637-garland">
+          <speaker>Ga.</speaker>
+          <l xml:id="A07637-e103940">O heavens! why made you night to cover sin? </l>
+          <l xml:id="A07637-e103950">Had it been day, such things had never been. </l>
+        </sp>
+        <sp xml:id="A07637-e103960" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e103970">Once more with patience, silence, and be still:</l>
+          <l xml:id="A07637-e103980">You shall have rhetoric 'gainst your will. </l>
+        </sp>
+        <quote xml:id="A07637-e103990">
+          <l xml:id="A07637-e104000">Mount thee my Phlegon muse, and testify</l>
+          <l xml:id="A07637-e104010">How Saturn sitting on an ebon cloud,</l>
+          <l xml:id="A07637-e104020">Disrobed his podex, white as ivory,</l>
+          <l xml:id="A07637-e104030">And through the welkin thundered all aloud. </l>
+        </quote>
+        <sp xml:id="A07637-e104040" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e104050">Read thou my riddle, and take thou my fiddle</l>
+          <l xml:id="A07637-e104060">I met a man that wept and wailed,</l>
+          <l xml:id="A07637-e104070">I grieved to see him how he ailed;</l>
+          <l xml:id="A07637-e104080">He fared strangely, in such taking;</l>
+          <l xml:id="A07637-e104090">He said he was not of God's making. </l>
+        </sp>
+        <sp xml:id="A07637-e104100" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e104110">The cuckoo sings not worth a groat,</l>
+          <l xml:id="A07637-e104120">Because she never changeth note:</l>
+          <l xml:id="A07637-e104130">The man you speak of, young or old,</l>
+          <l xml:id="A07637-e104140">Indeed he is a plain cuckold. </l>
+        </sp>
+        <sp xml:id="A07637-e104150" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e104160">O brains of a burbate, wool of an owl:</l>
+          <l xml:id="A07637-e104170">Where hadst thou so much wit? now tell me thine. </l>
+        </sp>
+        <sp xml:id="A07637-e104180" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e104190">My grandam taught me, and I learned by heart</l>
+          <l xml:id="A07637-e104200"><pb facs="11"/> this riddle of Saturn's far-fetched sigh,</l>
+          <l xml:id="A07637-e104210">But hear me sir, you know that honest man</l>
+          <l xml:id="A07637-e104220">M. Flutterkin our jovial host. </l>
+        </sp>
+        <sp xml:id="A07637-e104230" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e104240">Go seek my brother out, and then I will,</l>
+          <l xml:id="A07637-e104250">Show thee the way, and give thee thy desire. </l>
+        </sp>
+        <sp xml:id="A07637-e104260" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e104270">I must not stir without my corporal</l>
+          <l xml:id="A07637-e104280">Gives his consent, I must not so offend</l>
+          <l xml:id="A07637-e104290">For fear the varvels catch me by the feet. </l>
+        </sp>
+        <sp xml:id="A07637-e104300" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e104310">Go to the sergeant, I dare warrant thee,</l>
+          <l xml:id="A07637-e104320">And tell him that I stay to speak with him. </l>
+        </sp>
+        <sp xml:id="A07637-e104330" who="A07637-pasquil">
+          <speaker>Pa.</speaker>
+          <l xml:id="A07637-e104340">Swifter than thought, your errand shall be done</l>
+          <stage xml:id="A07637-e104350">Exit.</stage>
+          <stage xml:id="A07637-e104360">Enter sergeant Good-fellow, and Pasquill, walking by the guard door.</stage>
+          <stage xml:id="A07637-e104370">Sergeant Goodfellow.</stage>
+          <l xml:id="A07637-e104380">Good morrow m. garland, what abroad</l>
+          <l xml:id="A07637-e104390">So early, can you leave so sweet a froe;</l>
+          <l xml:id="A07637-e104400">By gisse I swear, were I so fairly wed,</l>
+          <l xml:id="A07637-e104410">This hour yet would I have kept my bed. </l>
+        </sp>
+        <sp xml:id="A07637-e104420" who="A07637-garland">
+          <speaker>Ga.</speaker>
+          <l xml:id="A07637-e104430">Good morrow sergeant, dreaming, yet not waked</l>
+          <l xml:id="A07637-e104440">You are mistaken man, you see not well,</l>
+          <l xml:id="A07637-e104450">Such ware's not dainty, though you think it dear,</l>
+          <l xml:id="A07637-e104460">Where is enough, and market all the year. </l>
+        </sp>
+        <sp xml:id="A07637-e104470" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e104480">I am glad to see you in so pleasant vain;</l>
+          <l xml:id="A07637-e104490">I hope we shall have a merry day on't. </l>
+        </sp>
+        <sp xml:id="A07637-e104500" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e104510">Deed, Pasquill and I have been rhyming.</p>
+        </sp>
+        <sp xml:id="A07637-e104520" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e104530">What? </l>
+          <l xml:id="A07637-e104540">That pretty stripling, that mad pasty-crust,</l>
+          <l xml:id="A07637-e104550">He rhymeth best with lug or pewter-can,</l>
+          <l xml:id="A07637-e104560">And oft doth quarrel with our honest host</l>
+          <l xml:id="A07637-e104570">For spiced ale, that hisseth with a toast:</l>
+          <l xml:id="A07637-e104580">But let these matters pass, I'll tell you news;</l>
+          <l xml:id="A07637-e104590">Last night your brother and I fell flat out</l>
+          <l xml:id="A07637-e104600">About an argument we stiffly held</l>
+          <l xml:id="A07637-e104610"><pb facs="11"/> which service was best on horseback, or on foot:</l>
+          <l xml:id="A07637-e104620">But what say you? </l>
+        </sp>
+        <sp xml:id="A07637-e104630" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e104640">For horsemen tooth and nail.</p>
+        </sp>
+        <sp xml:id="A07637-e104650" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e104660">He called me ass, but since one predicament</l>
+          <l xml:id="A07637-e104670">Contains us both, I care not I'll not yield;</l>
+          <l xml:id="A07637-e104680">You know he's learned, had I but so much,</l>
+          <l xml:id="A07637-e104690">I'd make him fret, and stamp, and scratch his head;</l>
+          <l xml:id="A07637-e104700">Do you but second me, I'll vex him yet. </l>
+        </sp>
+        <sp xml:id="A07637-e104710" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <p xml:id="A07637-e104720">While you do talk, than I am sure of drink.</p>
+        </sp>
+        <sp xml:id="A07637-e104730" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e104740">Let Pasquill seek him.</p>
+        </sp>
+        <sp xml:id="A07637-e104750" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e104760">Sirrah, make haste, run;</l>
+          <l xml:id="A07637-e104770">My captain called him, when I went to sleep. </l>
+        </sp>
+        <sp xml:id="A07637-e104780" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e104790">I go, I run, I haste, I skip, I fly;</l>
+          <l xml:id="A07637-e104800">With nimbler heels than ere did Mercury. </l>
+        </sp>
+        <sp xml:id="A07637-e104810" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e104820">Ah poti maia sitis, how fast he</l>
+          <l xml:id="A07637-e104830">Runs for the liquours sake; now thinks he,</l>
+          <l xml:id="A07637-e104840">To stuff his guts with Huffcappe English beer;</l>
+          <l xml:id="A07637-e104850">But hear me sir, let's walk in the churchyard</l>
+          <l xml:id="A07637-e104860">Until he comes again; for I must think</l>
+          <l xml:id="A07637-e104870">Myself of pro and con, what's to be done</l>
+          <l xml:id="A07637-e104880">Against this lusty younker; o he's here. </l>
+          <stage xml:id="A07637-e104890">Enter younker Harmanis.</stage>
+          <l xml:id="A07637-e104900">Good morrow brother garland, why did you</l>
+          <l xml:id="A07637-e104910">Send Pasquill for me posting in such haste;</l>
+          <l xml:id="A07637-e104920">What is my sister sick, or your young son,</l>
+          <l xml:id="A07637-e104930">Or some misfortune happened, that I know</l>
+          <l xml:id="A07637-e104940">Not of as yet, unto your house or goods,</l>
+          <l xml:id="A07637-e104950">Or ships at sea: speak, I am in suspense. </l>
+          <l xml:id="A07637-e104960">What? do you fool me, flout me to my face;</l>
+          <l xml:id="A07637-e104970">Is that for my good will? why then farewell. </l>
+        </sp>
+        <sp xml:id="A07637-e104980" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e104990">Be not so angry brother, I protest,</l>
+          <l xml:id="A07637-e105000">I laugh not at you, but at Pasquill, what</l>
+          <l xml:id="A07637-e105010">Said he to you, what message did he bring? </l>
+        </sp>
+        <sp xml:id="A07637-e105020" who="A07637-yonker">
+          <pb facs="12"/>
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e105030">The fool comes gaping, sets up such a throat,</l>
+          <l xml:id="A07637-e105040">Staring so madly, as if foul Cerberus</l>
+          <l xml:id="A07637-e105050">From pitchy Acheron, were come to affright</l>
+          <l xml:id="A07637-e105060">Poor men on earth: or else some accident</l>
+          <l xml:id="A07637-e105070">Of wonder strange, worse than a blazing star,</l>
+          <l xml:id="A07637-e105080">Had made men gaze, I know not what to think:</l>
+          <l xml:id="A07637-e105090">You sent him for me, and I must come straight:</l>
+          <l xml:id="A07637-e105100">I must not stay; my captain asked him, what</l>
+          <l xml:id="A07637-e105110">The matter was: if the town were on fire:</l>
+          <l xml:id="A07637-e105120">There's fire in the town, quoth he, quite out</l>
+          <l xml:id="A07637-e105130">Of breath and wit, forgets to move his cap,</l>
+          <l xml:id="A07637-e105140">Cries out on's throat, that it was almost burned</l>
+          <l xml:id="A07637-e105150">With soot and smoke, and dust I know not what:</l>
+          <l xml:id="A07637-e105160">My captain gave him twelve pence, bade him go</l>
+          <l xml:id="A07637-e105170">And wash his face, he looked so reechily,</l>
+          <l xml:id="A07637-e105180">Like bacon hanging on the chimney's roof;</l>
+          <l xml:id="A07637-e105190">Faring so ghastly, that we both did think,</l>
+          <l xml:id="A07637-e105200">Him worse than mad. </l>
+        </sp>
+        <sp xml:id="A07637-e105210" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e105220">But whether is he gone?</p>
+        </sp>
+        <sp xml:id="A07637-e105230" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e105240">I'll tell you, as we crossed the market place,</l>
+          <l xml:id="A07637-e105250">He spies my father's man, and then from me,</l>
+          <l xml:id="A07637-e105260">He flings as fast, as erst did Hercules,</l>
+          <l xml:id="A07637-e105270">Send that his fastest shafts to Nessus' side;</l>
+          <l xml:id="A07637-e105280">When he from him stole Deianira fair</l>
+          <l xml:id="A07637-e105290">For whom he lost his life: I saw my youth,</l>
+          <l xml:id="A07637-e105300">And looked behind, to see what they would do;</l>
+          <l xml:id="A07637-e105310">In at next taphouse, round as jugglers's box,</l>
+          <l xml:id="A07637-e105320">Went they two first, and then two soldiers more. </l>
+        </sp>
+        <sp xml:id="A07637-e105330" who="A07637-garland">
+          <speaker>Ga.</speaker>
+          <l xml:id="A07637-e105340">Why then your captain's piece is half consumed</l>
+          <l xml:id="A07637-e105350">By this; if he have got such company. </l>
+        </sp>
+        <sp xml:id="A07637-e105360" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e105370">'Twill not belong, I am sure, befor't be drowned,</l>
+          <l xml:id="A07637-e105380">Four men four cans, what's that, but four fair draughts. </l>
+        </sp>
+        <sp xml:id="A07637-e105390" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e105400">Yea for a brewer's horse, not for his man:</l>
+          <l xml:id="A07637-e105410">O my rumbling guts do ache to think on't;</l>
+          <l xml:id="A07637-e105420">'A can a draught, I never saw't but once,</l>
+          <l xml:id="A07637-e105430"><pb facs="12"/> and then I thought that man had burst his guts;</l>
+          <l xml:id="A07637-e105440">His eyeballs started, as the strings were cracked;</l>
+          <l xml:id="A07637-e105450">And though sometimes I love to drink my pot,</l>
+          <l xml:id="A07637-e105460">Strong drink should never more go down with me,</l>
+          <l xml:id="A07637-e105470">Before I'd swill so much at such huge draughts;</l>
+          <l xml:id="A07637-e105480">One civil glass or two, that warms my blood,</l>
+          <l xml:id="A07637-e105490">It is enough, methinks . </l>
+        </sp>
+        <sp xml:id="A07637-e105500" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <l xml:id="A07637-e105510">Why? now I know,</l>
+          <l xml:id="A07637-e105520">Thou art not tongue-tied sergeant, else I thought</l>
+          <l xml:id="A07637-e105530">It had been pawned ith' Lombard for two doits:</l>
+          <l xml:id="A07637-e105540">I'll buy a calf's tongue for four, that's good meat</l>
+          <l xml:id="A07637-e105550">For them that love it. </l>
+        </sp>
+        <sp xml:id="A07637-e105560" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e105570">Why? there's none but calves</l>
+          <l xml:id="A07637-e105580">Refuse good meat, or offered courtesies,</l>
+        </sp>
+        <sp xml:id="A07637-e105590" who="A07637-yonker">
+          <speaker>Yon.</speaker>
+          <p xml:id="A07637-e105600">Why? how now sergeant, do you call me calf?</p>
+        </sp>
+        <sp xml:id="A07637-e105610" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e105620">No sir, not I, but by chance speak of them,</l>
+          <l xml:id="A07637-e105630">As by the way you light upon their tongues. </l>
+        </sp>
+        <sp xml:id="A07637-e105640" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e105650">So now the game begins: fly to him, give</l>
+          <l xml:id="A07637-e105660">Him not one inch, let him wear gold that wins</l>
+          <l xml:id="A07637-e105670">It first: shrink back, I will never own thee</l>
+          <l xml:id="A07637-e105680">For a sergeant. </l>
+        </sp>
+        <sp xml:id="A07637-e105690" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e105700">Now we are two to one,</l>
+          <l xml:id="A07637-e105710">I care not. </l>
+        </sp>
+        <sp xml:id="A07637-e105720" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <l xml:id="A07637-e105730">What sayst, thou speakst hebrew, Greek,</l>
+          <l xml:id="A07637-e105740">Or English, Welsh, I know not what thou meanst. </l>
+        </sp>
+        <sp xml:id="A07637-e105750" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e105760">Sauf vostre grace, vous estes bien venuz. </p>
+        </sp>
+        <sp xml:id="A07637-e105770" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e105780">Hangs the French Ideon at thy tongue's end too</l>
+          <l xml:id="A07637-e105790">Speak two words more, I'll make thee port-ensign</l>
+          <l xml:id="A07637-e105800">Si ce iemais aduient, en ma pvissance. </l>
+        </sp>
+        <sp xml:id="A07637-e105810" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e105820">Perform your words, and then I swear, I will.</p>
+        </sp>
+        <sp xml:id="A07637-e105830" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <p xml:id="A07637-e105840">I will.</p>
+        </sp>
+        <sp xml:id="A07637-e105850" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e105860">Swear first, I'll not believe you else.</p>
+        </sp>
+        <sp xml:id="A07637-e105870" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <p xml:id="A07637-e105880">Without an oath I will.</p>
+        </sp>
+        <sp xml:id="A07637-e105890" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e105900">Why, hear you then;</l>
+          <l xml:id="A07637-e105910">Admiranda canunt, sed non credenda poetae. </l>
+        </sp>
+        <sp xml:id="A07637-e105920" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <p xml:id="A07637-e105930">That's Latin sergeant, wiseman, that's not French.</p>
+        </sp>
+        <sp xml:id="A07637-e105940" who="A07637-servant">
+          <pb facs="13"/>
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e105950">You named no language, bid me speak two words,</l>
+          <l xml:id="A07637-e105960">And you would do't, I'll be judged by all</l>
+          <l xml:id="A07637-e105970">Here present, if the wager be not won. </l>
+          <l xml:id="A07637-e105980">I'll get a staff, the colours they are mine. </l>
+        </sp>
+        <sp xml:id="A07637-e105990" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e106000">'Tis well said sergeant, I am on thy side,</l>
+          <l xml:id="A07637-e106010">I'll bear thee witness they are thine by right. </l>
+        </sp>
+        <sp xml:id="A07637-e106020" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e106030">Though I meant French, yet will I yield, I lost;</l>
+          <l xml:id="A07637-e106040">Take thou the colours, I bestow them free,</l>
+          <l xml:id="A07637-e106050">In my conceit, as ere did emperor,</l>
+        </sp>
+        <sp xml:id="A07637-e106060" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e106070">I thank your greatness in conceit,</l>
+          <l xml:id="A07637-e106080">I do enjoy them, and I rest content. </l>
+        </sp>
+        <sp xml:id="A07637-e106090" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e106100">A good conceit, for now methinks I see,</l>
+          <l xml:id="A07637-e106110">The sergeant ensign, only in conceit</l>
+          <l xml:id="A07637-e106120">Stepped up in place, and office of command;</l>
+          <l xml:id="A07637-e106130">I see, but see not, what I hope to see;</l>
+          <l xml:id="A07637-e106140">That once performed which now is but conceit. </l>
+        </sp>
+        <sp xml:id="A07637-e106150" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e106160">I thank you m. garland, your good word,</l>
+          <l xml:id="A07637-e106170">Is ever pressed to do an honest man good,</l>
+          <l xml:id="A07637-e106180">For my preferment think you would disburse</l>
+          <l xml:id="A07637-e106190">A score of pounds; or so, wert come to that,</l>
+          <l xml:id="A07637-e106200">Rather than I should fail. </l>
+        </sp>
+        <sp xml:id="A07637-e106210" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e106220">Sure that I would;</l>
+          <l xml:id="A07637-e106230">Thou shouldst not want to furnish thy conceits;</l>
+          <l xml:id="A07637-e106240">If I have gold and silver at command,</l>
+          <l xml:id="A07637-e106250">'Tis ready: sergeant I would do thee good;</l>
+          <l xml:id="A07637-e106260">Get thou a place, try thy friends, thou shalt see</l>
+          <l xml:id="A07637-e106270">What I will do. </l>
+        </sp>
+        <sp xml:id="A07637-e106280" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e106290">I thank God and friends, 'tis done;</l>
+          <l xml:id="A07637-e106300">I have bethought me, you shall see ere long</l>
+          <l xml:id="A07637-e106310">A metamorphosis of me reformed. </l>
+        </sp>
+        <sp xml:id="A07637-e106320" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <p xml:id="A07637-e106330">Transformed, thou wouldst say.</p>
+        </sp>
+        <sp xml:id="A07637-e106340" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e106350">Call you it transformed;</l>
+          <l xml:id="A07637-e106360">Transformed, reformed; or call it how you will:</l>
+          <l xml:id="A07637-e106370">I do remember what I learned at school</l>
+          <l xml:id="A07637-e106380">In Ovid: o these verses made me whipped;</l>
+          <l xml:id="A07637-e106390">In nova fert animus, mutatas dicere formas</l>
+          <l xml:id="A07637-e106400"><pb facs="13"/> corpora dij caeptis, nam vos mutastis et illas,</l>
+          <l xml:id="A07637-e106410">Aspirate meis. </l>
+        </sp>
+        <sp xml:id="A07637-e106420" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e106430">Let thee alone sergeant, thou wilt be like</l>
+          <l xml:id="A07637-e106440">To Pasquill, wild as a buck, or liveret</l>
+          <l xml:id="A07637-e106450">Bred in march: this or be it not contains thee</l>
+          <l xml:id="A07637-e106460">When thy brains flow with skilful poesy;</l>
+          <l xml:id="A07637-e106470">Hast thou forgotten what we came hither for. </l>
+        </sp>
+        <sp xml:id="A07637-e106480" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e106490">I like thee sergeant, when thou bringst out pairs</l>
+          <l xml:id="A07637-e106500">Of verses; one and singles alone is not</l>
+          <l xml:id="A07637-e106510">So good; as when by two and two in ranks,</l>
+          <l xml:id="A07637-e106520">They march in order: than they please mine ears. </l>
+        </sp>
+        <sp xml:id="A07637-e106530" who="A07637-sentinel">
+          <speaker>Sentinel</speaker>
+          <l xml:id="A07637-e106540">You want a fellow to my tother verse,</l>
+          <l xml:id="A07637-e106550">Do you not. </l>
+        </sp>
+        <sp xml:id="A07637-e106560" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e106570">Yes marry do I, make but one</l>
+          <l xml:id="A07637-e106580">To wipe my mouth, like to the first, I swear,</l>
+          <l xml:id="A07637-e106590">I'll give thee a pair of good stags's leather gloves. </l>
+        </sp>
+        <sp xml:id="A07637-e106600" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e106610">A match 'tis done, I'll fit you presently;</l>
+          <l xml:id="A07637-e106620">M. garland will you see it performed? </l>
+        </sp>
+        <sp xml:id="A07637-e106630" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e106640">Upon mine honest word, I will.</p>
+        </sp>
+        <sp xml:id="A07637-e106650" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e106660">Why then,</l>
+          <l xml:id="A07637-e106670">I have it by this time: since your mouth is clean;</l>
+          <l xml:id="A07637-e106680">My noble younker, wipe your nose with this;</l>
+          <l xml:id="A07637-e106690">Sic faciunt stulti, quos gloria vexat inanis. </l>
+        </sp>
+        <sp xml:id="A07637-e106700" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e106710">You have hit me home with your rhinoceros</l>
+          <l xml:id="A07637-e106720">Did near make that, that famous learned knight,</l>
+          <l xml:id="A07637-e106730">Sir Philip Sidney, scholars, soldiers pride</l>
+          <l xml:id="A07637-e106740">Was his, not yours. </l>
+        </sp>
+        <sp xml:id="A07637-e106750" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e106760">What, though he made that verse,</l>
+          <l xml:id="A07637-e106770">Those words were made before, he made them not;</l>
+          <l xml:id="A07637-e106780">'Twas well I happed on his inventions. </l>
+        </sp>
+        <sp xml:id="A07637-e106790" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e106800">Good wits do jump, good witty, witless sir:</l>
+          <l xml:id="A07637-e106810">You hatch those eggs that other birds have laid:</l>
+          <l xml:id="A07637-e106820">I bid you make me one, by your own wit. </l>
+        </sp>
+        <sp xml:id="A07637-e106830" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e106840">Why so I did, that which sir Philip made,</l>
+          <l xml:id="A07637-e106850">Is now grown old, and like my father's gown,</l>
+          <l xml:id="A07637-e106860">Spun, weave, and made, 'bove fourscore years ago;</l>
+          <l xml:id="A07637-e106870"><pb facs="14"/> but this I made is new: as fresh as may</l>
+          <l xml:id="A07637-e106880">Or flowers in June, or eggs, but this day sprung,</l>
+          <l xml:id="A07637-e106890">A plain case younker: sir the gloves are mine</l>
+          <l xml:id="A07637-e106900">Upon your honest word: forestoe you dat,</l>
+          <l xml:id="A07637-e106910">A merchant's word, no price set down, I'll have</l>
+          <l xml:id="A07637-e106920">Them richly made, with gold and silken fringe. </l>
+        </sp>
+        <sp xml:id="A07637-e106930" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <l xml:id="A07637-e106940">I think the sergeant is grown mountebank</l>
+          <l xml:id="A07637-e106950">To cling by shifts, heigh pass, pass,</l>
+          <l xml:id="A07637-e106960">Italian grown; a sharking charlatan. </l>
+        </sp>
+        <sp xml:id="A07637-e106970" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e106980">Italian, Spanish, English, Dutch, or French;</l>
+          <l xml:id="A07637-e106990">Shark what you will, you shall not shark me out</l>
+          <l xml:id="A07637-e107000">Of my stags's leather gloves with charlatan:</l>
+          <l xml:id="A07637-e107010">Your glover knows my hand m. garland,</l>
+          <l xml:id="A07637-e107020">Tomorrow morning early, charlatan</l>
+          <l xml:id="A07637-e107030">Goes for his gloves, look to the payment sir,</l>
+          <l xml:id="A07637-e107040">Your honest words at stake; 'tis good I know,</l>
+          <l xml:id="A07637-e107050">You'll keep it sure, a merchant break his word,</l>
+          <l xml:id="A07637-e107060">His credits gone, no not for twice so much. </l>
+        </sp>
+        <sp xml:id="A07637-e107070" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e107080">Go fetch thy gloves, I'll see the glover paid:</l>
+          <l xml:id="A07637-e107090">Brother, 'tis lost, you shall pay me again. </l>
+        </sp>
+        <sp xml:id="A07637-e107100" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <l xml:id="A07637-e107110">Upon condition I will be content,</l>
+          <l xml:id="A07637-e107120">So he will make me but one true French verse. </l>
+        </sp>
+        <sp xml:id="A07637-e107130" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e107140">I will and if I can.</p>
+        </sp>
+        <sp xml:id="A07637-e107150" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e107160">Yea, that's well said;</l>
+          <l xml:id="A07637-e107170">That can was well. </l>
+        </sp>
+        <sp xml:id="A07637-e107180" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e107190">I can and will; not for naught;</l>
+          <l xml:id="A07637-e107200">My learning cost me something; and my wit</l>
+          <l xml:id="A07637-e107210">Works quick and nimbly, if ought be to be got,</l>
+          <l xml:id="A07637-e107220">The Roman consuls after victories,</l>
+          <l xml:id="A07637-e107230">Did crown with bays triumphant conquerors. </l>
+          <l xml:id="A07637-e107240">Set but a prize, auferre gloriam</l>
+          <l xml:id="A07637-e107250">Infuseth spirit to a working brain,</l>
+        </sp>
+        <sp xml:id="A07637-e107260" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e107270">It shall be done, what is't?</p>
+        </sp>
+        <sp xml:id="A07637-e107280" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e107290">Why what you will.</p>
+        </sp>
+        <sp xml:id="A07637-e107300" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e107310">A pair of garters.</p>
+        </sp>
+        <sp xml:id="A07637-e107320" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e107330">Garters? yea content. </l>
+          <l xml:id="A07637-e107340"><pb facs="14"/>I want a pair; what gloves and garters too,</l>
+          <l xml:id="A07637-e107350">I rose on the right side today I am sure. </l>
+        </sp>
+        <sp xml:id="A07637-e107360" who="A07637-yonker">
+          <speaker>Yo.</speaker>
+          <p xml:id="A07637-e107370">What time, a bargain wisely made's half won.</p>
+        </sp>
+        <sp xml:id="A07637-e107380" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e107390">Ere you can go to flutterkins mine host,</l>
+          <l xml:id="A07637-e107400">And come again, or else I'll lose two fauns,</l>
+          <l xml:id="A07637-e107410">Or beer, or claret wine, or Spanish wine. </l>
+        </sp>
+        <sp xml:id="A07637-e107420" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <p xml:id="A07637-e107430">Beer, what beer, scar-beer?</p>
+        </sp>
+        <sp xml:id="A07637-e107440" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e107450">No of English beer.</p>
+        </sp>
+        <sp xml:id="A07637-e107460" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e107470">I'll not go thither, I was there too late,</l>
+          <l xml:id="A07637-e107480">Ere I can tell threescore distinctly: say</l>
+          <l xml:id="A07637-e107490">A match; I'll tell them plainly, one by one. </l>
+        </sp>
+        <sp xml:id="A07637-e107500" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e107510">Agreed, begin.</p>
+        </sp>
+        <sp xml:id="A07637-e107520" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <p xml:id="A07637-e107530">I'll tell then, shall I?</p>
+        </sp>
+        <sp xml:id="A07637-e107540" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e107550">Yes.</p>
+        </sp>
+        <sp xml:id="A07637-e107560" who="A07637-yonker">
+          <speaker>Young.</speaker>
+          <p xml:id="A07637-e107570">One, two, three, four.</p>
+        </sp>
+        <sp xml:id="A07637-e107580" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e107590">Jesuis. </p>
+        </sp>
+        <sp xml:id="A07637-e107600" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e107610">Seven, eight. </l>
+          <l xml:id="A07637-e107620">Nine, ten, eleven, twelve, thirteen, fourteen, fifteen. </l>
+        </sp>
+        <sp xml:id="A07637-e107630" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e107640">Soft, you are too hasty for a parish priest,</l>
+          <l xml:id="A07637-e107650">I am sure of your good word; five and six</l>
+          <l xml:id="A07637-e107660">Are lost, are they nothing: tell rightly, tell on,</l>
+          <l xml:id="A07637-e107670">And do your worst: some honest French man lend</l>
+          <l xml:id="A07637-e107680">Me but one handsome word or two. </l>
+        </sp>
+        <sp xml:id="A07637-e107690" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <p xml:id="A07637-e107700">Thirty.</p>
+        </sp>
+        <sp xml:id="A07637-e107710" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e107720">I.</l>
+          <l xml:id="A07637-e107730">God's me, half out, but two words yet, vostre. </l>
+        </sp>
+        <sp xml:id="A07637-e107740" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e107750">Thou make a verse, then I'll bake in a well.</p>
+        </sp>
+        <sp xml:id="A07637-e107760" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e107770">There's one word more, humble, nay tres-humble</p>
+        </sp>
+        <sp xml:id="A07637-e107780" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <p xml:id="A07637-e107790">Fifty.</p>
+        </sp>
+        <sp xml:id="A07637-e107800" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e107810">Seruiteur, life of my life, 'tis out:</l>
+          <l xml:id="A07637-e107820">Be it what it will, stand on thine even feet;</l>
+          <l xml:id="A07637-e107830">Then gloves and garters both are quickly won. </l>
+        </sp>
+        <sp xml:id="A07637-e107840" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <p xml:id="A07637-e107850">Brother, you have lost.</p>
+        </sp>
+        <sp xml:id="A07637-e107860" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e107870">Then know I who must win.</p>
+        </sp>
+        <sp xml:id="A07637-e107880" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e107890">I'll not believe you, I will have it scanned,</l>
+          <l xml:id="A07637-e107900"><pb facs="15"/> let them that know speak true: is it good French. </l>
+        </sp>
+        <sp xml:id="A07637-e107910" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e107920">Je suis vostre tres-humble seruiteur. </l>
+          <l xml:id="A07637-e107930">The verse is true, consisting of five feet;</l>
+          <l xml:id="A07637-e107940">The case is plain in common law: no book</l>
+          <l xml:id="A07637-e107950">Can save you: sergeant thou hast won; the garters</l>
+          <l xml:id="A07637-e107960">They are thine. </l>
+        </sp>
+        <sp xml:id="A07637-e107970" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e107980">Younker, 'tis well; and your gloves too;</l>
+          <l xml:id="A07637-e107990">Both gloves and garters, they are fairly won;</l>
+          <l xml:id="A07637-e108000">Scratch not your head, it's but a jacobin</l>
+          <l xml:id="A07637-e108010">At most; come let us in to flutterkins,</l>
+          <l xml:id="A07637-e108020">A cup and toast will do me now no hurt. </l>
+        </sp>
+        <sp xml:id="A07637-e108030" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <l xml:id="A07637-e108040">Why then farewell, I care not I for beer,</l>
+          <l xml:id="A07637-e108050">My captain gave me some canary wine:</l>
+          <l xml:id="A07637-e108060">The churl he shall not ride the gentleman. </l>
+        </sp>
+        <sp xml:id="A07637-e108070" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e108080">You shall not flinch, if that your cap be wool,</l>
+          <l xml:id="A07637-e108090">You shall along; what, would you leave us so;</l>
+          <l xml:id="A07637-e108100">Turned mitcher, that were not tolerable. </l>
+        </sp>
+        <sp xml:id="A07637-e108110" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <l xml:id="A07637-e108120">I will go with thee, do but promise me,</l>
+          <l xml:id="A07637-e108130">Rightly to construe those lines of Ovid's,</l>
+          <l xml:id="A07637-e108140">Which thou readest but now. </l>
+        </sp>
+        <sp xml:id="A07637-e108150" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e108160">I will, then let us hence;</l>
+          <l xml:id="A07637-e108170">I thank great Jove that blessed me so this day;</l>
+          <l xml:id="A07637-e108180">How others speed, I bear the prize away. </l>
+        </sp>
+        <stage xml:id="A07637-e108190">Exeunt.</stage>
+        <stage xml:id="A07637-e108200">Enter Hans and Pasquill.</stage>
+        <sp xml:id="A07637-e108210" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e108220">This way he went, and here they were ere while,</l>
+          <l xml:id="A07637-e108230">But now they are fled like birds that cut the air,</l>
+          <l xml:id="A07637-e108240">With clipping wings, and leave no trace behind. </l>
+          <l xml:id="A07637-e108250">But Hans my nose is quick and sharp of scent,</l>
+          <l xml:id="A07637-e108260">Like those great bears in nova Zembla found,</l>
+          <l xml:id="A07637-e108270">Whose smelling sense was better than their sight. </l>
+          <l xml:id="A07637-e108280">I cannot see, but smell where they are gone. </l>
+        </sp>
+        <sp xml:id="A07637-e108290" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e108300">Whether dost thou think? straight to flutterkins,</l>
+          <l xml:id="A07637-e108310"><pb facs="15"/> my jovial host that longs to see my face,</l>
+          <l xml:id="A07637-e108320">My beauteous face, my proper phisnomy;</l>
+          <l xml:id="A07637-e108330">I soon dispatched, sold all my corn at once,</l>
+          <l xml:id="A07637-e108340">And bought my meat. </l>
+        </sp>
+        <sp xml:id="A07637-e108350" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e108360">As straight as Circe's wand,</l>
+          <l xml:id="A07637-e108370">Not looking back, as oft Meander doth,</l>
+        </sp>
+        <sp xml:id="A07637-e108380" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e108390">What of Meander? now my things be done,</l>
+          <l xml:id="A07637-e108400">I care not, I'll go where thou wilt; let's on;</l>
+          <l xml:id="A07637-e108410">But what's Meander? man, or maid, or wife. </l>
+        </sp>
+        <sp xml:id="A07637-e108420" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e108430">A river fool, didst never see a play,</l>
+          <l xml:id="A07637-e108440">Or hear these verses which I have by heart. </l>
+          <l xml:id="A07637-e108450">What's he that talketh of the banks of Po,</l>
+          <l xml:id="A07637-e108460">And of the milk-white swans that in Meander swam</l>
+          <l xml:id="A07637-e108470">I'll down from hence and scour the Stygian lake:</l>
+          <l xml:id="A07637-e108480">To raise a fiend shall make his soul to quake. </l>
+        </sp>
+        <sp xml:id="A07637-e108490" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e108500">O terrible, my mistress sent you that,</l>
+          <l xml:id="A07637-e108510">And bid you drink it, not to hoard it up. </l>
+        </sp>
+        <sp xml:id="A07637-e108520" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <p xml:id="A07637-e108530">An English shilling: heigh; did she indeed?</p>
+        </sp>
+        <sp xml:id="A07637-e108540" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <p xml:id="A07637-e108550">Why widgeon, thinkst thou I would give thee't else?</p>
+        </sp>
+        <sp xml:id="A07637-e108560" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e108570">I'll drink her health upon my bent knees,</l>
+          <l xml:id="A07637-e108580">Until the welkin roar, and ground looks blue;</l>
+          <l xml:id="A07637-e108590">Two shillings have I, not one penny spent;</l>
+          <l xml:id="A07637-e108600">I bless my stars, good fortune set me free;</l>
+          <l xml:id="A07637-e108610">This days mine own. </l>
+        </sp>
+        <stage xml:id="A07637-e108620">He skips, or capers.</stage>
+        <sp xml:id="A07637-e108630" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e108640">Take heed, your supple joints</l>
+          <l xml:id="A07637-e108650">Are tender, bones are soon thrust out: a wrinch</l>
+          <l xml:id="A07637-e108660">Comes quickly. </l>
+        </sp>
+        <sp xml:id="A07637-e108670" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e108680">I am free from pox, good face. </l>
+        </sp>
+        <sp xml:id="A07637-e108690" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e108700">If they be free from thee, it skills the less:</l>
+          <l xml:id="A07637-e108710">Do you remember, how you served me once,</l>
+          <l xml:id="A07637-e108720">When to the leaguer I was sent from home</l>
+          <l xml:id="A07637-e108730">With some provision to my master's son;</l>
+          <l xml:id="A07637-e108740">You brought me to a whore, a leaguer whore;</l>
+          <l xml:id="A07637-e108750">Such stuff blind Polypheme would loathe to touch:</l>
+          <l xml:id="A07637-e108760">An wholesome piece, I ne'er loud mutton since. </l>
+          <l xml:id="A07637-e108770"><pb facs="16"/>Ne'er blush for shame. </l>
+        </sp>
+        <sp xml:id="A07637-e108780" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e108790">'Twas for thine honesty;</l>
+          <l xml:id="A07637-e108800">Now it's on record, 'tis proved, 'tis passed the touch. </l>
+        </sp>
+        <sp xml:id="A07637-e108810" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e108820">Can you accuse me? no, and speak but true. </l>
+        </sp>
+        <sp xml:id="A07637-e108830" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e108840">I saw no hurt, I'll say't, and swear it too:</l>
+          <l xml:id="A07637-e108850">But good cause why; thou couldst nor go, nor stand</l>
+          <l xml:id="A07637-e108860">Thou wert so drunk: unfit for Venus' game,</l>
+          <l xml:id="A07637-e108870">A cart became thee better than a coach. </l>
+        </sp>
+        <sp xml:id="A07637-e108880" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e108890">Why thou tellst all, thou mightst have hid some part,</l>
+          <l xml:id="A07637-e108900">And no I have shamed me so fore company,</l>
+          <l xml:id="A07637-e108910">But I'll requite you, if I live ten days. </l>
+          <l xml:id="A07637-e108920">It was no marvel, I will tell thee rest. </l>
+          <l xml:id="A07637-e108930">As through the camp I passed in strange amaze,</l>
+          <l xml:id="A07637-e108940">Driving mine ass before me with his load;</l>
+          <l xml:id="A07637-e108950">I thought to be devoured ass and all</l>
+          <l xml:id="A07637-e108960">By hungry soldiers, they did look so thin:</l>
+          <l xml:id="A07637-e108970">My heels they were flung up, and headlong I,</l>
+          <l xml:id="A07637-e108980">Fell on a sutler's hut a fortnight's space,</l>
+          <l xml:id="A07637-e108990">I had no legs, nor could I quit that place. </l>
+        </sp>
+        <sp xml:id="A07637-e109000" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e109010">What wert thou shot? </l>
+        </sp>
+        <sp xml:id="A07637-e109020" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e109030">And lamed: you know too well,</l>
+          <l xml:id="A07637-e109040">The grievous moan our alips made for me,</l>
+          <l xml:id="A07637-e109050">Alas, poor girl, she thought I had been slain,</l>
+          <l xml:id="A07637-e109060">But had the bullet hit me, as the wind,</l>
+          <l xml:id="A07637-e109070">Poor beer-pot had been squashed, these handsome limbs</l>
+          <l xml:id="A07637-e109080">Had flown in pieces, nor splinter left unbroke. </l>
+        </sp>
+        <sp xml:id="A07637-e109090" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e109100">That had been pity, which way went the shot</l>
+        </sp>
+        <sp xml:id="A07637-e109110" who="A07637-hans">
+          <speaker>Hans,</speaker>
+          <l xml:id="A07637-e109120">To Callais as I think, or further off,</l>
+          <l xml:id="A07637-e109130">I scaped I am sure, that dreadful malling knock. </l>
+        </sp>
+        <sp xml:id="A07637-e109140" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e109150">O hold my head my thumb begins to ache,</l>
+          <l xml:id="A07637-e109160">From hence to France if this be not a lie. </l>
+        </sp>
+        <sp xml:id="A07637-e109170" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e109180">Is that good manners for to take my tale,</l>
+          <l xml:id="A07637-e109190">Out of my mouth, before I make an end. </l>
+        </sp>
+        <sp xml:id="A07637-e109200" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e109210">I have no manners: had I such an one</l>
+          <l xml:id="A07637-e109220">As Amptill is, to which seven parks belong,</l>
+          <l xml:id="A07637-e109230">I would keep thee to be my worship's fool. </l>
+        </sp>
+        <sp xml:id="A07637-e109240" who="A07637-hans">
+          <pb facs="16"/>
+          <speaker>Hans.</speaker>
+          <p xml:id="A07637-e109250">Why? where is Amptill. </p>
+        </sp>
+        <sp xml:id="A07637-e109260" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e109270">In the fairy land. </l>
+          <l xml:id="A07637-e109280">Where men eat mutton, pig, and goose, and beef,</l>
+          <l xml:id="A07637-e109290">Rabbits and chickens, partridge, pheasants, quails,</l>
+          <l xml:id="A07637-e109300">And drink rich wine, that France or Spain sends in,</l>
+          <l xml:id="A07637-e109310">And strong march beer, of five or six years old,</l>
+          <l xml:id="A07637-e109320">But on with thy tale. </l>
+        </sp>
+        <sp xml:id="A07637-e109330" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e109340">I'll hang thee first,</l>
+          <l xml:id="A07637-e109350">The fairy land, where's that? I am with child,</l>
+          <l xml:id="A07637-e109360">Good Pasquill tell me quickly, else I die;</l>
+          <l xml:id="A07637-e109370">My mind is ravished from this lower orb,</l>
+        </sp>
+        <sp xml:id="A07637-e109380" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e109390">'Tis not far off, we'll go to flutterkins,</l>
+          <l xml:id="A07637-e109400">And talk more on't. </l>
+        </sp>
+        <sp xml:id="A07637-e109410" who="A07637-hans">
+          <speaker>Hans,</speaker>
+          <l xml:id="A07637-e109420">Why then thou winst my heart,</l>
+          <l xml:id="A07637-e109430">I long to see't, to taste such wine, such cheer,</l>
+          <l xml:id="A07637-e109440">But more, I long for such unheard of beer. </l>
+          <stage xml:id="A07637-e109450">Exeunt.</stage>
+          <stage xml:id="A07637-e109460">Enter the Moor singing a verse or two of a song.</stage>
+          <l xml:id="A07637-e109470">If that I speak my language natural,</l>
+          <l xml:id="A07637-e109480">I think there's few that understands it here:</l>
+          <l xml:id="A07637-e109490">It's Heber's tongue left with the Abderites;</l>
+          <l xml:id="A07637-e109500">Hestron, pangaeon, cacobomboton, aphnes halenon,</l>
+          <l xml:id="A07637-e109510">Mydras, myphrasman, tyltura, pantha, teman,</l>
+          <l xml:id="A07637-e109520">Hogdon, camthompos, parathasta pidarda laronta,</l>
+          <l xml:id="A07637-e109530">Clastriae campharides, bulgida bartra bela. </l>
+          <l xml:id="A07637-e109540">I am a Moor born in Numedia,</l>
+          <l xml:id="A07637-e109550">Parched with the suns extreme and scorching heat;</l>
+          <l xml:id="A07637-e109560">My mother's name Abdela Sydan hight,</l>
+          <l xml:id="A07637-e109570">My father was don Jan de Vechia,</l>
+          <l xml:id="A07637-e109580">A noble Spaniard, brave Castilian:</l>
+          <l xml:id="A07637-e109590">I served the King of swart Numidia,</l>
+          <l xml:id="A07637-e109600">And did command ten thousand barbarous horse</l>
+          <l xml:id="A07637-e109610"><pb facs="17"/> for two whole years; and than my father's love</l>
+          <l xml:id="A07637-e109620">Drew me from thence to seek mount Atlas out;</l>
+          <l xml:id="A07637-e109630">And so to Spain: my merchant played the jade,</l>
+          <l xml:id="A07637-e109640">And hoisted sails for great Byzantium's town;</l>
+          <l xml:id="A07637-e109650">From whence I ran, and so through Germany,</l>
+          <l xml:id="A07637-e109660">With weary steps I posted to this place. </l>
+          <l xml:id="A07637-e109670">If that you ask my name, and fain would know,</l>
+          <l xml:id="A07637-e109680">It is don Abendara's Quixot,</l>
+          <l xml:id="A07637-e109690">A Spaniard, Moor, half Turk, half christian,</l>
+          <l xml:id="A07637-e109700">Howe'er my flesh escaped the whizzing shot,</l>
+          <l xml:id="A07637-e109710">My tattered doublet sure, escaped not. </l>
+          <stage xml:id="A07637-e109720">He sings.</stage>
+          <stage xml:id="A07637-e109730">Exit.</stage>
+          <stage xml:id="A07637-e109740">Enter joash Flutterkin.</stage>
+          <l xml:id="A07637-e109750">Good wine, good beer, they say, it needs no bush;</l>
+          <l xml:id="A07637-e109760">Yet have I looked abroad, and no man comes;</l>
+          <l xml:id="A07637-e109770">I have o'erpeer the market hill quite round,</l>
+          <l xml:id="A07637-e109780">My goodly front, mine eyes, my neatest beard. </l>
+          <l xml:id="A07637-e109790">My well fed corpse: why, these are adamants</l>
+          <l xml:id="A07637-e109800">To draw men's minds to lend me many a look,</l>
+          <l xml:id="A07637-e109810">But yet (None hears) all pass, none steps aside,</l>
+          <l xml:id="A07637-e109820">The soaring falcon stoops not at my lure,</l>
+          <l xml:id="A07637-e109830">But clips her wings, flees on, heeds not her prey,</l>
+          <l xml:id="A07637-e109840">I see no younker, nor no sergeant yet;</l>
+          <l xml:id="A07637-e109850">But Hans is busy with his master's corn,</l>
+          <l xml:id="A07637-e109860">His markets done, I am sure he will be here,</l>
+          <l xml:id="A07637-e109870">Oh there's a man lives bravely, keeps an house,</l>
+          <l xml:id="A07637-e109880">Relieves the poor, his gates be never shut;</l>
+          <l xml:id="A07637-e109890">His tables free, there's meat for honest men:</l>
+          <l xml:id="A07637-e109900">He lived in England, learned that country's guise,</l>
+          <l xml:id="A07637-e109910">For hospitality, few such be here:</l>
+          <l xml:id="A07637-e109920">Yet frugal too, was never prodigal,</l>
+          <l xml:id="A07637-e109930">Spends nothing more, but what he well may spare,</l>
+          <l xml:id="A07637-e109940">He borrows naught, nor lends on usury:</l>
+          <l xml:id="A07637-e109950"><pb facs="17"/> yet hath enough. </l>
+        </sp>
+        <stage xml:id="A07637-e109960">Enter younker. Marchant, and the sergeant.</stage>
+        <sp xml:id="A07637-e109970" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <l xml:id="A07637-e109980">Mine host, what all alone? </l>
+          <l xml:id="A07637-e109990">And market day, why this is wondrous strange. </l>
+        </sp>
+        <sp xml:id="A07637-e110000" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e110010">My noble younker: welcome gentlemen,</l>
+          <l xml:id="A07637-e110020">I want such guests, here's beer was never drunk,</l>
+          <l xml:id="A07637-e110030">Fresh set a broach: puts down the diamond</l>
+          <l xml:id="A07637-e110040">For lively sparkling: of transparent view,</l>
+          <l xml:id="A07637-e110050">More clear than amber, or fair orient pearl,</l>
+          <l xml:id="A07637-e110060">Fetched from the farthest Ind,</l>
+        </sp>
+        <sp xml:id="A07637-e110070" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <p xml:id="A07637-e110080">How now mine host?</p>
+        </sp>
+        <sp xml:id="A07637-e110090" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e110100">Spare so much courtesy, lest we suspect</l>
+          <l xml:id="A07637-e110110">Some hidden craft. </l>
+        </sp>
+        <sp xml:id="A07637-e110120" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e110130">In me? you know me well,</l>
+          <l xml:id="A07637-e110140">Plain Flutterkin, a down, right dealing man,</l>
+          <l xml:id="A07637-e110150">I have no guards to set me bravely out;</l>
+          <l xml:id="A07637-e110160">But what I think I speak, and freely too,</l>
+          <l xml:id="A07637-e110170">Without deceit or simulation. </l>
+        </sp>
+        <sp xml:id="A07637-e110180" who="A07637-garland">
+          <speaker>Ga.</speaker>
+          <p xml:id="A07637-e110190">Why then two cans of your best English beer</p>
+        </sp>
+        <sp xml:id="A07637-e110200" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <p xml:id="A07637-e110210">It shall be done with much celerity.</p>
+        </sp>
+        <stage xml:id="A07637-e110220">He goeth out for beer.</stage>
+        <sp xml:id="A07637-e110230" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e110240">Come sergeant, I must have construction</l>
+          <l xml:id="A07637-e110250">Of Ovid's verses, I'll not bate an ace</l>
+          <l xml:id="A07637-e110260">Before you drink, I will not stay so long. </l>
+        </sp>
+        <sp xml:id="A07637-e110270" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e110280">You are too hasty, spare me yet a while,</l>
+          <l xml:id="A07637-e110290">And then I'll fit you. </l>
+        </sp>
+        <sp xml:id="A07637-e110300" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <l xml:id="A07637-e110310">Pray thee quick, dispatch,</l>
+          <l xml:id="A07637-e110320">I have some business calls me soon from hence. </l>
+        </sp>
+        <sp xml:id="A07637-e110330" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e110340">Think you I cannot, am I such a fool?</p>
+        </sp>
+        <sp xml:id="A07637-e110350" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <p xml:id="A07637-e110360">I know not truly, but I love to learn,</p>
+        </sp>
+        <sp xml:id="A07637-e110370" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e110380">Why then give ear, take heed, and mark me well,</l>
+          <l xml:id="A07637-e110390"><pb facs="18"/> you often watch to take me at the worst;</l>
+          <l xml:id="A07637-e110400">But I'll bar that, I'll have no cunning trick. </l>
+          <l xml:id="A07637-e110410">Fert animus; my mind provokes me: dij</l>
+          <l xml:id="A07637-e110420">Coeptis aspirate meis: ye gods</l>
+          <l xml:id="A07637-e110430">Bless my proceedings: dicere, to speak</l>
+          <l xml:id="A07637-e110440">Of: corpora mutatas: bodies change,</l>
+          <l xml:id="A07637-e110450">In nova formas: to new shapes: nam vos</l>
+          <l xml:id="A07637-e110460">Mutastis et illas: for you transformed</l>
+          <l xml:id="A07637-e110470">Those bodies strangely; yea and altered sore</l>
+          <l xml:id="A07637-e110480">Their shapes to that they never had before. </l>
+        </sp>
+        <sp xml:id="A07637-e110490" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e110500">That same addition, adds life to the rest,</l>
+          <l xml:id="A07637-e110510">And wipes poor Priscian's head, that's foully broke:</l>
+        </sp>
+        <sp xml:id="A07637-e110520" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e110530">Why, is't not right?</p>
+        </sp>
+        <sp xml:id="A07637-e110540" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <p xml:id="A07637-e110550">Yes, there's none can mend it.</p>
+        </sp>
+        <sp xml:id="A07637-e110560" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e110570">And now sir, for our other argument,</l>
+          <l xml:id="A07637-e110580">I'll not give of, before I am satisfied. </l>
+        </sp>
+        <sp xml:id="A07637-e110590" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e110600">Fly to him sergeant, I will take thy part,</l>
+          <l xml:id="A07637-e110610">To serve on horseback, is best service still,</l>
+          <l xml:id="A07637-e110620">I will maintain it, while I live one day. </l>
+        </sp>
+        <sp xml:id="A07637-e110630" who="A07637-yonker">
+          <speaker>Yon.</speaker>
+          <l xml:id="A07637-e110640">'Gainst him and you, but give me leave to speak,</l>
+          <l xml:id="A07637-e110650">I'll show my reasons what I think are fit. </l>
+        </sp>
+        <stage xml:id="A07637-e110660">Enter Pasquill and Hans, and Flutterkin follows them with a can of beer in either hand.</stage>
+        <sp xml:id="A07637-e110670" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <p xml:id="A07637-e110680">They are here before us.</p>
+        </sp>
+        <sp xml:id="A07637-e110690" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e110700">We come in time,</l>
+          <l xml:id="A07637-e110710">Here comes mine host propped up between two cans. </l>
+        </sp>
+        <sp xml:id="A07637-e110720" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <p xml:id="A07637-e110730">That's well, all good.</p>
+        </sp>
+        <sp xml:id="A07637-e110740" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e110750">A pair of pretty youths;</l>
+          <l xml:id="A07637-e110760">Show me but one six pence Pasquill, then I'll say,</l>
+          <l xml:id="A07637-e110770">Thoul't quickly thrive. </l>
+        </sp>
+        <sp xml:id="A07637-e110780" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e110790">Why, that I can, see there. </l>
+          <l xml:id="A07637-e110800">There's four, and all unspent. believe your eyes. </l>
+        </sp>
+        <sp xml:id="A07637-e110810" who="A07637-yonker">
+          <pb facs="18"/>
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e110820">God bless mine eyes, but Hans what news at home. </l>
+          <l xml:id="A07637-e110830">How fares my parents, are they both in health? </l>
+        </sp>
+        <sp xml:id="A07637-e110840" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e110850">They send their blessing, but your mothers, it</l>
+          <l xml:id="A07637-e110860">Is to be felt: 'tis leaquer on de tongue,</l>
+          <l xml:id="A07637-e110870">It cleaves fast to your palms: nay sir, 'tis gold,</l>
+          <l xml:id="A07637-e110880">The purest mettle that the earth affords. </l>
+        </sp>
+        <sp xml:id="A07637-e110890" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <p xml:id="A07637-e110900">Fill out some beer mine host.</p>
+        </sp>
+        <sp xml:id="A07637-e110910" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e110920">Here's to that hand;</l>
+          <l xml:id="A07637-e110930">That blessed you so with crosses of that kind. </l>
+        </sp>
+        <sp xml:id="A07637-e110940" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e110950">It shall be pledged.</p>
+        </sp>
+        <sp xml:id="A07637-e110960" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <p xml:id="A07637-e110970">Hang him says nay.</p>
+        </sp>
+        <sp xml:id="A07637-e110980" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <p xml:id="A07637-e110990">Not I.</p>
+        </sp>
+        <sp xml:id="A07637-e111000" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e111010">Nor I, nor he, but with as good a will,</l>
+          <l xml:id="A07637-e111020">As ere I came from school, with leave to play. </l>
+        </sp>
+        <sp xml:id="A07637-e111030" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e111040">Then give me leave I will begin this round;</l>
+          <l xml:id="A07637-e111050">This swelling cup I will drink lively out,</l>
+          <l xml:id="A07637-e111060">Not one word more, before I see't about. </l>
+        </sp>
+        <sp xml:id="A07637-e111070" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e111080">In this I'll please you, but I'll drink no more. </l>
+          <stage xml:id="A07637-e111090">They drink round, the younker and sergeant rise from the table,</stage>
+          <l xml:id="A07637-e111100">The question which I prosecute is this,</l>
+          <l xml:id="A07637-e111110">If horse or foot should have pre-eminence:</l>
+          <l xml:id="A07637-e111120">They are needful both, to make an army up:</l>
+          <l xml:id="A07637-e111130">Yet those great armies which the Tartars used,</l>
+          <l xml:id="A07637-e111140">Were all of horse; so were the Persians</l>
+          <l xml:id="A07637-e111150">Till later times the English Shirleys taught</l>
+          <l xml:id="A07637-e111160">The use of foot, and how to entrench a camp. </l>
+          <l xml:id="A07637-e111170">What can they do but in such huge, vast plains,</l>
+          <l xml:id="A07637-e111180">As are Tyrauna, and that Cossova</l>
+          <l xml:id="A07637-e111190">So oft made red with Turks and Christians blood,</l>
+          <l xml:id="A07637-e111200">And great Pharsalia famous for the fight</l>
+          <l xml:id="A07637-e111210">Twixt Pompey and Caesar worthy warriors both,</l>
+          <l xml:id="A07637-e111220">Both which did strive for Rome's sole monarchy. </l>
+          <l xml:id="A07637-e111230"><pb facs="19"/>On mountains, bogs or woods, or broken rocks:</l>
+          <l xml:id="A07637-e111240">Where are your horse, o'erturned and swallowed up</l>
+          <l xml:id="A07637-e111250">What can they do against a stand of pikes,</l>
+          <l xml:id="A07637-e111260">Well lined with shot in such vantageous place. </l>
+        </sp>
+        <sp xml:id="A07637-e111270" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e111280">But what say you unto that Persian prince</l>
+          <l xml:id="A07637-e111290">That beat the Turk with thirty thousand horse,</l>
+          <l xml:id="A07637-e111300">Selim the first, the bloodiest Ottoman</l>
+          <l xml:id="A07637-e111310">Of all his race; who brought into the field</l>
+          <l xml:id="A07637-e111320">Two hundred thousand strong of horse and foot. </l>
+        </sp>
+        <sp xml:id="A07637-e111330" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e111340">Indeed you touch me now, that history,</l>
+          <l xml:id="A07637-e111350">Makes much for you, that sophy Ismael,</l>
+          <l xml:id="A07637-e111360">Did meet the tyrant in the open field,</l>
+          <l xml:id="A07637-e111370">Whose multitudes did think to swallow him</l>
+          <l xml:id="A07637-e111380">With open jaws, like to a mighty whale:</l>
+          <l xml:id="A07637-e111390">But as an anchor he stuck in his throat;</l>
+          <l xml:id="A07637-e111400">And made him keck and shrink, to quit himself. </l>
+        </sp>
+        <sp xml:id="A07637-e111410" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e111420">As how good brother, I desire to hear:</l>
+          <l xml:id="A07637-e111430">This likes me well: mine host I drink to you. </l>
+        </sp>
+        <sp xml:id="A07637-e111440" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e111450">I thank you sir, you shall not go unpledge:</l>
+          <l xml:id="A07637-e111460">Here Pasquill, Hans, you two shall have your shares:</l>
+        </sp>
+        <sp xml:id="A07637-e111470" who="A07637-both">
+          <speaker>Both.</speaker>
+          <p xml:id="A07637-e111480">We thank you both, we mean not to refuse.</p>
+        </sp>
+        <sp xml:id="A07637-e111490" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e111500">Yea, toot and spare not, it will be your own,</l>
+          <l xml:id="A07637-e111510">Good drink breeds blood, and blood makes able men</l>
+        </sp>
+        <sp xml:id="A07637-e111520" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e111530">This warlike prince divides his troops in two</l>
+          <l xml:id="A07637-e111540">The right hand battle he himself did lead,</l>
+          <l xml:id="A07637-e111550">The left, his vassal named Ustan Oghlie,</l>
+          <l xml:id="A07637-e111560">When turks divided they did do the like,</l>
+          <l xml:id="A07637-e111570">And so escaped the thundering ordinance. </l>
+          <l xml:id="A07637-e111580">Unhappy Ustan could not get so clear</l>
+          <l xml:id="A07637-e111590">As did his master, for the cannon shot</l>
+          <l xml:id="A07637-e111600">Fell amongst his troops, and did him greater harm. </l>
+          <l xml:id="A07637-e111610">This dreadless prince with valour bravely armed,</l>
+          <l xml:id="A07637-e111620">Falls on amain, with Turkish routs enclosed</l>
+          <l xml:id="A07637-e111630">On every side, and from each side he sends</l>
+          <l xml:id="A07637-e111640">Such fiery balls, as made them know his force. </l>
+          <l xml:id="A07637-e111650"><pb facs="19"/>They forwards ride, and backwards send their shot</l>
+          <l xml:id="A07637-e111660">On either hand, no place from them was free,</l>
+          <l xml:id="A07637-e111670">He onward flings, amongst the janizars,</l>
+          <l xml:id="A07637-e111680">The chiefest guard that this grand seigneur hath,</l>
+          <l xml:id="A07637-e111690">And drives them back within their strongest hold,</l>
+          <l xml:id="A07637-e111700">Amongst their packs, and camels bound with chains,</l>
+          <l xml:id="A07637-e111710">No words, nor blows, nor fairest promises</l>
+          <l xml:id="A07637-e111720">Could make them budge, or move, or stir one foot. </l>
+          <l xml:id="A07637-e111730">The wounded prince, that fainted bleeding sore,</l>
+          <l xml:id="A07637-e111740">Unable scarce to keep his courser's back,</l>
+          <l xml:id="A07637-e111750">Perceiving this, with slow paced steps retired,</l>
+          <l xml:id="A07637-e111760">And wheel about, leaving his richest tents</l>
+          <l xml:id="A07637-e111770">Unto their spoils, that durst not stir to see,</l>
+          <l xml:id="A07637-e111780">For three days' space, what was become of him. </l>
+          <l xml:id="A07637-e111790">In this I yield, the world's best service known</l>
+          <l xml:id="A07637-e111800">That ever horsemen did, themselves alone. </l>
+        </sp>
+        <sp xml:id="A07637-e111810" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e111820">Well younker, have I catched you. I am glad</l>
+          <l xml:id="A07637-e111830">Of any thing, wherewith to stop your mouth. </l>
+        </sp>
+        <sp xml:id="A07637-e111840" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e111850">Nay soft, good sergeant, what can horsemen do,</l>
+          <l xml:id="A07637-e111860">Before a town, when we beleaguer it. </l>
+          <l xml:id="A07637-e111870">They'll scale the walls, pass trenches, give assaults,</l>
+          <l xml:id="A07637-e111880">Or enter breaches, yes I warrant you. </l>
+        </sp>
+        <sp xml:id="A07637-e111890" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e111900">They scour the country, bring rich booties in,</l>
+          <l xml:id="A07637-e111910">While we lie starving here, they live at ease,</l>
+          <l xml:id="A07637-e111920">Eat, drink and sleep. </l>
+        </sp>
+        <sp xml:id="A07637-e111930" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e111940">The more they answer for:</l>
+          <l xml:id="A07637-e111950">When they ride struggling forth for lawless spoil,</l>
+          <l xml:id="A07637-e111960">We keep our works in danger night and day,</l>
+          <l xml:id="A07637-e111970">No spoilt peasant cries on us for's goods,</l>
+          <l xml:id="A07637-e111980">Nor ravished maid, for lost virginity,</l>
+          <l xml:id="A07637-e111990">Nor wronged wife for forc't dishonesty. </l>
+        </sp>
+        <sp xml:id="A07637-e112000" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e112010">What? would you have no horsemen then,</p>
+        </sp>
+        <sp xml:id="A07637-e112020" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <l xml:id="A07637-e112030">Not so. </l>
+          <l xml:id="A07637-e112040">Mistake me not, but I'll not yield them chief,</l>
+          <l xml:id="A07637-e112050">Each body well composed, it doth consist</l>
+          <l xml:id="A07637-e112060"><pb facs="20"/> of divers members, framed by art, yet natural;</l>
+          <l xml:id="A07637-e112070">The body where are lodged the chiefest parts,</l>
+          <l xml:id="A07637-e112080">I liken it unto the infantry;</l>
+          <l xml:id="A07637-e112090">The exterior parts to the cavalry. </l>
+          <l xml:id="A07637-e112100">The heart commands, the members execute;</l>
+          <l xml:id="A07637-e112110">So they to us, not we to them give way. </l>
+        </sp>
+        <sp xml:id="A07637-e112120" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e112130">But where they are alone, all absolute:</l>
+          <l xml:id="A07637-e112140">What they can do, against yourself you proud. </l>
+        </sp>
+        <sp xml:id="A07637-e112150" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e112160">Why that's barbarian, and not christian-like,</l>
+          <l xml:id="A07637-e112170">Where multitude prevails, not discipline,</l>
+          <l xml:id="A07637-e112180">And in such places, as I named before;</l>
+          <l xml:id="A07637-e112190">As witness are those three days cruel fight</l>
+          <l xml:id="A07637-e112200">Huniades maintained 'gainst mighty Amurath</l>
+          <l xml:id="A07637-e112210">The second: in Cossoua's fatal plains. </l>
+          <l xml:id="A07637-e112220">He kept an hill with thirty thousand men;</l>
+          <l xml:id="A07637-e112230">Ten thousand horse, the rest were all on foot</l>
+          <l xml:id="A07637-e112240">Against the Turks that lay like grasshoppers,</l>
+          <l xml:id="A07637-e112250">Filling those plains, eight miles in compass round:</l>
+          <l xml:id="A07637-e112260">This little handful, rolled and turned about,</l>
+          <l xml:id="A07637-e112270">On that hills top in strong and close array,</l>
+          <l xml:id="A07637-e112280">Flamed like a candle amongst a world of flies,</l>
+          <l xml:id="A07637-e112290">That burned themselves, ere they could put it out:</l>
+          <l xml:id="A07637-e112300">At length with travel tired, with blows and wounds</l>
+          <l xml:id="A07637-e112310">All rent and torn, choked up with smoke and stench</l>
+          <l xml:id="A07637-e112320">Of bodies dead: match, powder, bullets spent</l>
+          <l xml:id="A07637-e112330">This light did glimmer, flashed, and so went out ▪</l>
+        </sp>
+        <sp xml:id="A07637-e112340" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e112350">What did the horsemen there, did none escape?</p>
+        </sp>
+        <sp xml:id="A07637-e112360" who="A07637-yonker">
+          <speaker>Yon.</speaker>
+          <l xml:id="A07637-e112370">They quit their horse, and made them as a wall</l>
+          <l xml:id="A07637-e112380">For their defence, and fought it out on foot,</l>
+          <l xml:id="A07637-e112390">Almost to the last man, some few escaped;</l>
+          <l xml:id="A07637-e112400">And swam the river, got into a wood</l>
+          <l xml:id="A07637-e112410">Among the which, Huniades was one</l>
+          <l xml:id="A07637-e112420">The half beat conquering Turks had all enough,</l>
+          <l xml:id="A07637-e112430">Stood still and gazed, and glad to see him gone. </l>
+        </sp>
+        <sp xml:id="A07637-e112440" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e112450">Was not the seigneur proud, on's victory,</l>
+          <l xml:id="A07637-e112460"><pb facs="20"/> rejoicing much at his Hungarian spoils. </l>
+        </sp>
+        <sp xml:id="A07637-e112470" who="A07637-yonker">
+          <speaker>Youn</speaker>
+          <l xml:id="A07637-e112480">So proud, he mourned: was sick with grief and hate,</l>
+          <l xml:id="A07637-e112490">Of this his conquest, at so dear a rate. </l>
+        </sp>
+        <sp xml:id="A07637-e112500" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e112510">This likes me well, but ere you do proceed,</l>
+          <l xml:id="A07637-e112520">I'll drink to you: now am I for the foot,</l>
+          <l xml:id="A07637-e112530">Here's to you all, my noble phantasms. </l>
+        </sp>
+        <sp xml:id="A07637-e112540" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e112550">Sir, one health more, your father's health, I mean,</l>
+          <l xml:id="A07637-e112560">That good old man, he must not be forgotten. </l>
+        </sp>
+        <sp xml:id="A07637-e112570" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <p xml:id="A07637-e112580">Drink't out I pray thee, I will have no more.</p>
+        </sp>
+        <sp xml:id="A07637-e112590" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e112600">Were you a younker, made of beaten gold,</l>
+          <l xml:id="A07637-e112610">You should have this; what nor your father's health? </l>
+        </sp>
+        <sp xml:id="A07637-e112620" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e112630">No, not his health ▪ to drink away mine own ▪</l>
+          <l xml:id="A07637-e112640">But drink to Hans, I see by his lips he's dry;</l>
+          <l xml:id="A07637-e112650">He wants it, I do not, he'll drink for me,</l>
+          <l xml:id="A07637-e112660">Or to the sergeant, he can get no drink. </l>
+        </sp>
+        <sp xml:id="A07637-e112670" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e112680">Nor him, nor he, I'll drink to none but you,</l>
+          <l xml:id="A07637-e112690">I'll keep my man, I learned that trick at school. </l>
+        </sp>
+        <sp xml:id="A07637-e112700" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e112710">Am I your man, god Bacchus, tosspot knight,</l>
+          <l xml:id="A07637-e112720">Would glass and drink were both besides thy guts;</l>
+          <l xml:id="A07637-e112730">I tell thee, I'll no more. </l>
+        </sp>
+        <sp xml:id="A07637-e112740" who="A07637-flutterkin">
+          <speaker>Flutt.</speaker>
+          <l xml:id="A07637-e112750">Come Pasquill, I</l>
+          <l xml:id="A07637-e112760">Will pledge thee, I can yet hold out, two cups,</l>
+          <l xml:id="A07637-e112770">Two slashes on the legs will not be felt. </l>
+          <l xml:id="A07637-e112780">I am as strong as Hercules near out. </l>
+        </sp>
+        <sp xml:id="A07637-e112790" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e112800">Why how now Hans? what planet struck? quite mute,</l>
+          <l xml:id="A07637-e112810">Or bagpipe-like, not speak before thou art full,</l>
+          <l xml:id="A07637-e112820">Not one wise word; why, where is all thy mirth. </l>
+        </sp>
+        <sp xml:id="A07637-e112830" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e112840">Nor so, nor so, I can speak yet, if need,</l>
+          <l xml:id="A07637-e112850">I hear, I see, yet nothing say at all:</l>
+          <l xml:id="A07637-e112860">Mine host hath learned, to play at fox mine host;</l>
+          <l xml:id="A07637-e112870">He will grow kind, we shall have drink enough. </l>
+        </sp>
+        <sp xml:id="A07637-e112880" who="A07637-flutterkin">
+          <speaker>Flutt.</speaker>
+          <l xml:id="A07637-e112890">Enough my lad, wilt drink an ocean? </l>
+          <l xml:id="A07637-e112900">Methinks a whirlpool cannot o'er drink me. </l>
+        </sp>
+        <sp xml:id="A07637-e112910" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e112920">Yet am I still for horse a kingly fight. </l>
+          <l xml:id="A07637-e112930">O finely mounted, what a pleasure 'tis</l>
+          <l xml:id="A07637-e112940"><pb facs="21"/> a troop of brave lancers, a stately show,</l>
+        </sp>
+        <sp xml:id="A07637-e112950" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e112960">More show than service, for our good dragons,</l>
+          <l xml:id="A07637-e112970">Do wheel about untouched, and gall their sides,</l>
+          <l xml:id="A07637-e112980">Nor do our pikemen care a straw for them:</l>
+          <l xml:id="A07637-e112990">Those troops are good for execution,</l>
+          <l xml:id="A07637-e113000">To spoil a kingdom, waste or havoc all:</l>
+          <l xml:id="A07637-e113010">Where's no resistance, or at least small head,</l>
+          <l xml:id="A07637-e113020">Or else to run, whenas a battle's lost,</l>
+          <l xml:id="A07637-e113030">But for a strength, a brave battalion</l>
+          <l xml:id="A07637-e113040">Of pikes and shot, empaled two hundred square,</l>
+          <l xml:id="A07637-e113050">And flanked with carts and packs on either side:</l>
+          <l xml:id="A07637-e113060">Your horsemen may go whistle, where are they,</l>
+          <l xml:id="A07637-e113070">This iron wall is impenetrable. </l>
+          <l xml:id="A07637-e113080">Witness that battle was at Varna fought,</l>
+          <l xml:id="A07637-e113090">A shame to Christians for their breach of truce. </l>
+        </sp>
+        <sp xml:id="A07637-e113100" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e113110">Why? what was that? twixt whom, what was there done?</p>
+        </sp>
+        <sp xml:id="A07637-e113120" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e113130">He pays you sergeant now, you're well most gone. </l>
+          <l xml:id="A07637-e113140">Come I'll go home, I'll stay no longer here. </l>
+          <l xml:id="A07637-e113150">This beer hath pepper, it begins to bite. </l>
+        </sp>
+        <sp xml:id="A07637-e113160" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e113170">Yet stay a while, and I'll wait on you home,</l>
+          <l xml:id="A07637-e113180">I must needs hear an end of this discourse. </l>
+        </sp>
+        <sp xml:id="A07637-e113190" who="A07637-yonker">
+          <speaker>Younk.</speaker>
+          <l xml:id="A07637-e113200">The Cardinal Julian moved this luckless war,</l>
+          <l xml:id="A07637-e113210">Causing the King and states of Hungary</l>
+          <l xml:id="A07637-e113220">To break their truce; which they had solemn sworn;</l>
+          <l xml:id="A07637-e113230">The Pope dispensed with them, so would not God,</l>
+          <l xml:id="A07637-e113240">If he be witness: he wills faith be kept</l>
+          <l xml:id="A07637-e113250">Without exception, be it with infidels,</l>
+          <l xml:id="A07637-e113260">As this was here; the sequel proud it true,</l>
+          <l xml:id="A07637-e113270">In manner thus: Huniades that managed all,</l>
+          <l xml:id="A07637-e113280">Disliked this war: yet Vladislaus</l>
+          <l xml:id="A07637-e113290">This youthful King, egged on by Julian,</l>
+          <l xml:id="A07637-e113300">Would needs break faith with mighty Amurath,</l>
+          <l xml:id="A07637-e113310">And near to Varna both their armies met,</l>
+          <l xml:id="A07637-e113320">Where he so placed his battles as a lake,</l>
+          <l xml:id="A07637-e113330">Flanked the left side; a wood was on the rear:</l>
+          <l xml:id="A07637-e113340"><pb facs="21"/> and on the right hand all their waggons went:</l>
+          <l xml:id="A07637-e113350">Had they kept so, Byzantium had been ours:</l>
+          <l xml:id="A07637-e113360">And Greece once more it had been Christendom;</l>
+          <l xml:id="A07637-e113370">The battles joined, and after furious charge,</l>
+          <l xml:id="A07637-e113380">The Turks turned back, like birds with scarlions scared;</l>
+          <l xml:id="A07637-e113390">So dreadful were those well known colours which</l>
+          <l xml:id="A07637-e113400">Huniades did bear: he gives them chase,</l>
+          <l xml:id="A07637-e113410">Heeds not the meaner troops; but at hard heels,</l>
+          <l xml:id="A07637-e113420">Follows the fearful Amurath: meanwhile </l>
+          <l xml:id="A07637-e113430">The warlike priest, more happy at his book</l>
+          <l xml:id="A07637-e113440">Doth quit his strength, falls on, thinks all is won,</l>
+          <l xml:id="A07637-e113450">Some chase the Turks, while others seek for prey,</l>
+          <l xml:id="A07637-e113460">And spoil their tents: they rued this greediness. </l>
+          <l xml:id="A07637-e113470">This when the Turks perceived, they soon rallied,</l>
+          <l xml:id="A07637-e113480">And chased them now, by whom they erst were chased. </l>
+          <l xml:id="A07637-e113490">Here dies the perjured King, the luckless priest</l>
+          <l xml:id="A07637-e113500">Falls in a ditch, and there was choked with mud. </l>
+        </sp>
+        <sp xml:id="A07637-e113510" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e113520">Where was the general? what did he this while?</p>
+        </sp>
+        <sp xml:id="A07637-e113530" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e113540">His warlike troops, stood firm both horse and foot:</l>
+          <l xml:id="A07637-e113550">Held on his chase, none durst 'gainst him make head:</l>
+          <l xml:id="A07637-e113560">But when he saw all lost, with watered eyes,</l>
+          <l xml:id="A07637-e113570">True signals of his grief, all safe retired,</l>
+          <l xml:id="A07637-e113580">And watched the seigneur till he left those bounds. </l>
+        </sp>
+        <sp xml:id="A07637-e113590" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e113600">Why, this was strange, o fie on perjury,</l>
+          <l xml:id="A07637-e113610">I'll not believe dispensations of the Pope,</l>
+          <l xml:id="A07637-e113620">Had that foul Cardinal, choked in's mothers womb,</l>
+          <l xml:id="A07637-e113630">This shameful loss had scaped Christendom. </l>
+        </sp>
+        <sp xml:id="A07637-e113640" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e113650">That's true sir, pray drink one cup to me,</l>
+          <l xml:id="A07637-e113660">Deed I am dry. </l>
+        </sp>
+        <sp xml:id="A07637-e113670" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e113680">I care not, so's not I. </l>
+          <l xml:id="A07637-e113690">Filled up, drink't out, you are an honest man. </l>
+          <l xml:id="A07637-e113700">How dost Pasquill, perceivest thou nothing yet. </l>
+        </sp>
+        <sp xml:id="A07637-e113710" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e113720">All well sit; nothing: I am prettily well,</l>
+          <l xml:id="A07637-e113730">And so's mine host, I think his brains do crow. </l>
+        </sp>
+        <sp xml:id="A07637-e113740" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e113750">But leaving these to come near to our times,</l>
+          <l xml:id="A07637-e113760"><pb facs="22"/> and nearer home, I'll give you one for all.</l>
+          <l xml:id="A07637-e113770">When Henry th'eighth of famous memory,</l>
+          <l xml:id="A07637-e113780">Wan Bolleigue from the French: near Ardres town</l>
+          <l xml:id="A07637-e113790">A great commander lighted from his horse,</l>
+          <l xml:id="A07637-e113800">When 'gainst the English they were to make head,</l>
+          <l xml:id="A07637-e113810">And served on foot, using such friendly speech:</l>
+          <l xml:id="A07637-e113820">You are the men I love, this like I best;</l>
+          <l xml:id="A07637-e113830">With you I'll live and die: let me ask this;</l>
+          <l xml:id="A07637-e113840">What service ever did the horse alone,</l>
+          <l xml:id="A07637-e113850">In these our Belgic wars, without the foot? </l>
+          <l xml:id="A07637-e113860">Can they endure hunger, thirst or want,</l>
+          <l xml:id="A07637-e113870">Or march in cold, or heat, like to the foot:</l>
+          <l xml:id="A07637-e113880">They'll die like dogs, and you must eat them up;</l>
+          <l xml:id="A07637-e113890">Or they'll eat you. </l>
+          <stage xml:id="A07637-e113900">Cornelius discovers himself. His man creeps behind mine host Flutterkin. and slips out behind him.</stage>
+          <l xml:id="A07637-e113910">Why what's the matter there? </l>
+        </sp>
+        <sp xml:id="A07637-e113920" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e113930">Well younker well, I will with you dispense,</l>
+          <l xml:id="A07637-e113940">I'll yield the foot the chief pre-eminence. </l>
+        </sp>
+        <stage xml:id="A07637-e113950">Enter Cornelius. He reels against him.</stage>
+        <sp xml:id="A07637-e113960" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <p xml:id="A07637-e113970">Your worship's welcome, you do grace mine house.</p>
+        </sp>
+        <sp xml:id="A07637-e113980" who="A07637-cornelius">
+          <speaker>Corn.</speaker>
+          <l xml:id="A07637-e113990">Thanks, good mine host, is Phoebus passed his height,</l>
+          <l xml:id="A07637-e114000">Or be times changed, is't noon before't be night? </l>
+          <l xml:id="A07637-e114010">Your house is altered, it's grown a school</l>
+          <l xml:id="A07637-e114020">Of good discourse; of martial discipline. </l>
+        </sp>
+        <sp xml:id="A07637-e114030" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e114040">Will't please you sir to drink?</p>
+        </sp>
+        <sp xml:id="A07637-e114050" who="A07637-cornelius">
+          <speaker>Corn.</speaker>
+          <l xml:id="A07637-e114060">Some claret wine;</l>
+          <l xml:id="A07637-e114070">No beer, I seldom use to drink twixt meals,</l>
+          <l xml:id="A07637-e114080">Observe good diet, to preserve mine health. </l>
+          <l xml:id="A07637-e114090"><pb facs="22"/>Drink fasting in the morning strong march beer,</l>
+          <l xml:id="A07637-e114100">Small beer at meals, and when my stomachs raw,</l>
+          <l xml:id="A07637-e114110">A cup of Spanish wine: eat light suppers,</l>
+          <l xml:id="A07637-e114120">Ne'er sit up late at night: and rise betimes;</l>
+          <l xml:id="A07637-e114130">Oft walk abroad, and use much exercise:</l>
+          <l xml:id="A07637-e114140">These midnight revels, surfeits, wine, and whores,</l>
+          <l xml:id="A07637-e114150">And private quarrels, have devoured more men</l>
+          <l xml:id="A07637-e114160">Then have the wars of late. </l>
+        </sp>
+        <sp xml:id="A07637-e114170" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e114180">Sir, here's a chair,</l>
+          <l xml:id="A07637-e114190">Please you to sit and take tobacco with us. </l>
+        </sp>
+        <sp xml:id="A07637-e114200" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e114210">Not I good sergeant, I'll no trinidade,</l>
+          <l xml:id="A07637-e114220">My nose shall not be redded, nor guts died black,</l>
+          <l xml:id="A07637-e114230">That dainty likes me not, that wholesome weed,</l>
+          <l xml:id="A07637-e114240">Makes fulsome smell: a dying hound would choke</l>
+          <l xml:id="A07637-e114250">With Belgic fire, and with Spanish smoke. </l>
+        </sp>
+        <sp xml:id="A07637-e114260" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e114270">You can endure the smell sir?</p>
+        </sp>
+        <sp xml:id="A07637-e114280" who="A07637-cornelius">
+          <speaker>Corn.</speaker>
+          <l xml:id="A07637-e114290">Wondrous well,</l>
+          <l xml:id="A07637-e114300">But not to take it; it doth purge mine head,</l>
+          <l xml:id="A07637-e114310">And makes me sneeze, as though I took't myself. </l>
+          <l xml:id="A07637-e114320">It's well done sergeant, you have held him up</l>
+          <l xml:id="A07637-e114330">With good discourse: all times not lost, I see,</l>
+          <l xml:id="A07637-e114340">Nor yet ill spent: place makes not men or good</l>
+          <l xml:id="A07637-e114350">Or bad, its lewdness, ill condition,</l>
+          <l xml:id="A07637-e114360">As vice or virtue doth in men abound;</l>
+          <l xml:id="A07637-e114370">Virtue from heaven, vice it comes from hell,</l>
+          <l xml:id="A07637-e114380">And drags men's souls where monstrous furies dwell. </l>
+          <stage xml:id="A07637-e114390">Flutterkin brings wine, and drinks to him.</stage>
+          <l xml:id="A07637-e114400">Please you sir, I will drink one hearty draught</l>
+          <l xml:id="A07637-e114410">Unto your worship's welcome to the town;</l>
+          <l xml:id="A07637-e114420">In generous claret, sparkling; this for me,</l>
+          <l xml:id="A07637-e114430">The only drink. </l>
+        </sp>
+        <stage xml:id="A07637-e114440">He drinks.</stage>
+        <sp xml:id="A07637-e114450" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e114460">Drink't out. — I thank you kindly. </l>
+          <l xml:id="A07637-e114470"><pb facs="23"/>To drink one hearty draught, will do me good. </l>
+        </sp>
+        <sp xml:id="A07637-e114480" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e114490">Yea twenty, if you will, here's wine enough. </l>
+          <l xml:id="A07637-e114500">The town is full, good liquour ways it round,</l>
+        </sp>
+        <sp xml:id="A07637-e114510" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e114520">The moat thou meanest; thou speakst in metaphors:</l>
+          <l xml:id="A07637-e114530">You have been busy, I perceive the cup</l>
+          <l xml:id="A07637-e114540">Works his revenge, for jowling it so oft. </l>
+        </sp>
+        <sp xml:id="A07637-e114550" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e114560">A little sir, one civil cup or two.</p>
+        </sp>
+        <sp xml:id="A07637-e114570" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e114580">That civil cup breeds incivility. </l>
+          <l xml:id="A07637-e114590">When wine sometimes makes men be not themselves</l>
+          <l xml:id="A07637-e114600">How dost thou Pasquill, I am glad thou art well? </l>
+        </sp>
+        <sp xml:id="A07637-e114610" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <p xml:id="A07637-e114620">I thank you sir, I want but holidays.</p>
+        </sp>
+        <sp xml:id="A07637-e114630" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <p xml:id="A07637-e114640">What dost thou work so hard?</p>
+        </sp>
+        <sp xml:id="A07637-e114650" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e114660">Pay-days I mean,</l>
+          <l xml:id="A07637-e114670">To make one meet another, and shake hands,</l>
+          <l xml:id="A07637-e114680">On even terms, is all that I care for. </l>
+        </sp>
+        <sp xml:id="A07637-e114690" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <p xml:id="A07637-e114700">'Tis well thou leadest a merry life.</p>
+        </sp>
+        <sp xml:id="A07637-e114710" who="A07637-pasquil">
+          <speaker>Pasq.</speaker>
+          <l xml:id="A07637-e114720">Thank God. </l>
+          <l xml:id="A07637-e114730">My mistress, and you sir: you are my friends</l>
+          <l xml:id="A07637-e114740">You make me drink, when others will not do't. </l>
+        </sp>
+        <sp xml:id="A07637-e114750" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e114760">What news mine host, I like your humour well</l>
+          <l xml:id="A07637-e114770">'Tis merry harmless, free without offence:</l>
+          <l xml:id="A07637-e114780">But where's my man, was not he here today. </l>
+        </sp>
+        <sp xml:id="A07637-e114790" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e114800">He was indeed, but went before you came</l>
+          <l xml:id="A07637-e114810">About his business. </l>
+        </sp>
+        <sp xml:id="A07637-e114820" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e114830">Since you might have said;</l>
+          <l xml:id="A07637-e114840">I saw him when he slinked behind mine host</l>
+        </sp>
+        <sp xml:id="A07637-e114850" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <l xml:id="A07637-e114860">God's blessing on your heart, whate'er you think</l>
+          <l xml:id="A07637-e114870">You find no fault. </l>
+        </sp>
+        <sp xml:id="A07637-e114880" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e114890">What news sir? did you ask? </l>
+          <l xml:id="A07637-e114900">Here is small news: our churchmen disagree</l>
+          <l xml:id="A07637-e114910">About opinions, which ne'er troubles me:</l>
+          <l xml:id="A07637-e114920">I am a man, I hope, believes the right,</l>
+          <l xml:id="A07637-e114930">There's but one God, one true religion;</l>
+          <l xml:id="A07637-e114940">One way to heaven, two or three to hell,</l>
+          <l xml:id="A07637-e114950">If they teach right, according to god's word. </l>
+          <l xml:id="A07637-e114960"><pb facs="23"/>I will believe them, otherwise I'll choose. </l>
+        </sp>
+        <sp xml:id="A07637-e114970" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e114980">Why that's well said, indeed those deep disputes</l>
+          <l xml:id="A07637-e114990">Are fitter for the universities</l>
+          <l xml:id="A07637-e115000">To be discussed within the college walls</l>
+          <l xml:id="A07637-e115010">Amongst the learned, not to come abroad</l>
+          <l xml:id="A07637-e115020">In open pulpits amongst the meaner sort,</l>
+          <l xml:id="A07637-e115030">Whose faith is weak, whose judgement cannot reach</l>
+          <l xml:id="A07637-e115040">Unto the depth of things: the magistrate,</l>
+          <l xml:id="A07637-e115050">Whose sword I dare not touch, should look to this:</l>
+          <l xml:id="A07637-e115060">'Twill breed combustions, hazard many souls;</l>
+          <l xml:id="A07637-e115070">Besides this place befits not this discourse;</l>
+          <l xml:id="A07637-e115080">Therefore I'll break it off, come let's away;</l>
+          <l xml:id="A07637-e115090">I'll to my wife, I left her at your house:</l>
+          <l xml:id="A07637-e115100">Son garland, there I mean to dine;</l>
+          <l xml:id="A07637-e115110">Tomorrow I invite you to my house</l>
+          <l xml:id="A07637-e115120">To eat some venison, here 'tis novelty;</l>
+          <l xml:id="A07637-e115130">It came from England, baked in rye paste,</l>
+          <l xml:id="A07637-e115140">Look that you come, mine host this reckonings mine:</l>
+          <l xml:id="A07637-e115150">Let not my son score high: for if you do</l>
+          <l xml:id="A07637-e115160">'Tis lost for me, I'll not pay one penny. </l>
+        </sp>
+        <sp xml:id="A07637-e115170" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e115180">No sir, he does not, needs not, will not sir;</l>
+          <l xml:id="A07637-e115190">I will not miss you, if it shall please God</l>
+          <l xml:id="A07637-e115200">Nothing shall stay me, naught shall keep me back. </l>
+        </sp>
+        <sp xml:id="A07637-e115210" who="A07637-pasquil">
+          <speaker>Pas.</speaker>
+          <p xml:id="A07637-e115220">And I'll come too, and though I go on foot.</p>
+        </sp>
+        <sp xml:id="A07637-e115230" who="A07637-cornelius">
+          <speaker>Co.</speaker>
+          <l xml:id="A07637-e115240">Why come and welcome, that's your chiefest cheer</l>
+          <l xml:id="A07637-e115250">I keep no feast, but what lasts all the year. </l>
+          <stage xml:id="A07637-e115260">Exeunt.</stage>
+          <stage xml:id="A07637-e115270">Music.</stage>
+          <stage xml:id="A07637-e115280">Enter Hans solus.</stage>
+          <l xml:id="A07637-e115290">If I escaped unseen, why so it is:</l>
+          <l xml:id="A07637-e115300">If not I care not much: it is but so;</l>
+          <l xml:id="A07637-e115310">Perhaps a chiding, sour look, or rap,</l>
+          <l xml:id="A07637-e115320">It's but a storm, it will be soon o'erpast;</l>
+          <l xml:id="A07637-e115330"><pb facs="24"/> may be, just nothing: but I'll haste me home;</l>
+          <l xml:id="A07637-e115340">Set up mine horses, dress my stable up,</l>
+          <l xml:id="A07637-e115350">And do such things, as I do use to do,</l>
+          <l xml:id="A07637-e115360">So I be doing, 'tis no matter what:</l>
+          <l xml:id="A07637-e115370">If it be not ill, and may bring profit in,</l>
+          <l xml:id="A07637-e115380">Or otherwise, prevent a wilful waste. </l>
+          <l xml:id="A07637-e115390">Things must be handsome, idleness is naught,</l>
+          <l xml:id="A07637-e115400">My mistress loves me for my cleanliness. </l>
+          <l xml:id="A07637-e115410">Our yard lies handsome, there's no scattered straw</l>
+          <l xml:id="A07637-e115420">Nor sticks, nor chips, but all things be as neat,</l>
+          <l xml:id="A07637-e115430">As some man's house, not rooted hogsty like;</l>
+          <l xml:id="A07637-e115440">Or else poor Hans his jacket hums: my coat</l>
+          <l xml:id="A07637-e115450">Is sure to pay for't: ere my master comes</l>
+          <l xml:id="A07637-e115460">I'll be at home; if Pasquill ere come there</l>
+          <l xml:id="A07637-e115470">I'll sit on's skirts, fear't not, for out of doubt,</l>
+          <l xml:id="A07637-e115480">I'll use him so, the boys shall find him out. </l>
+          <stage xml:id="A07637-e115490">Exit.</stage>
+          <stage xml:id="A07637-e115500">Enter Cornelius and his wife.</stage>
+          <l xml:id="A07637-e115510">I told you wife where I should find your son;</l>
+          <l xml:id="A07637-e115520">Your sons I might have said: for they were both</l>
+          <l xml:id="A07637-e115530">Fast at the pot, some talked, some drunk as fast;</l>
+          <l xml:id="A07637-e115540">The cups flew high, and brains waxed something light</l>
+          <l xml:id="A07637-e115550">I do perceive wise men sometimes lash out,</l>
+          <l xml:id="A07637-e115560">And thrifty too: would you have thought my son</l>
+          <l xml:id="A07637-e115570">The merchant m. garland would have stepped</l>
+          <l xml:id="A07637-e115580">Into a taphouse, there to spend his time,</l>
+          <l xml:id="A07637-e115590">And money both. </l>
+        </sp>
+        <sp xml:id="A07637-e115600" who="A07637-hannecke">
+          <speaker>Hann.</speaker>
+          <l xml:id="A07637-e115610">Why not? 'tis recreation,</l>
+          <l xml:id="A07637-e115620">Sometimes for company, always at home;</l>
+          <l xml:id="A07637-e115630">It makes it loathsome, dulls the brain and sense:</l>
+          <l xml:id="A07637-e115640">We must not think on profit always, win,</l>
+          <l xml:id="A07637-e115650">Spend now and then, though not to please our selves</l>
+          <l xml:id="A07637-e115660">For others sakes. </l>
+        </sp>
+        <sp xml:id="A07637-e115670" who="A07637-cornelius">
+          <pb facs="24"/>
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e115680">Well: you will still excuse,</l>
+          <l xml:id="A07637-e115690">Your son, this gives too much encouragement</l>
+          <l xml:id="A07637-e115700">To his amiss. </l>
+        </sp>
+        <sp xml:id="A07637-e115710" who="A07637-hannecke">
+          <speaker>Hann.</speaker>
+          <l xml:id="A07637-e115720">I speak not fore his face,</l>
+          <l xml:id="A07637-e115730">Nor do I like in him, what you dislike:</l>
+          <l xml:id="A07637-e115740">My will is yours; but should I say as you</l>
+          <l xml:id="A07637-e115750">We should not reason, so to pass the time;</l>
+          <l xml:id="A07637-e115760">For when I speak, and speak the same you do;</l>
+          <l xml:id="A07637-e115770">You'll not reply, than both our tongues are still;</l>
+          <l xml:id="A07637-e115780">But if I cross you, though it be not much,</l>
+          <l xml:id="A07637-e115790">I hear more of you, sometimes learn more wit ▪</l>
+        </sp>
+        <sp xml:id="A07637-e115800" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e115810">Your answers sharp, it cutteth razor like,</l>
+          <l xml:id="A07637-e115820">A woman's wit is quick, as quick her tongue,</l>
+          <l xml:id="A07637-e115830">As aspen leaves, some say it is the last</l>
+          <l xml:id="A07637-e115840">Part of a woman dies. </l>
+        </sp>
+        <sp xml:id="A07637-e115850" who="A07637-hannecke">
+          <speaker>Han.</speaker>
+          <l xml:id="A07637-e115860">Alas poor souls, we women must bear all</l>
+          <l xml:id="A07637-e115870">We weaker vessels must abide your frumps:</l>
+          <l xml:id="A07637-e115880">But 'tis no matter, while they break no skin,</l>
+          <l xml:id="A07637-e115890">Our backs were made to bear. </l>
+        </sp>
+        <sp xml:id="A07637-e115900" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <p xml:id="A07637-e115910">Your belly's full,</p>
+        </sp>
+        <sp xml:id="A07637-e115920" who="A07637-hannecke">
+          <speaker>Han.</speaker>
+          <l xml:id="A07637-e115930">Our children do you mean? that's Gyptian like:</l>
+          <l xml:id="A07637-e115940">For so they bear them, in their slats or sheets;</l>
+          <l xml:id="A07637-e115950">If otherwise, my modest cheeks would blush</l>
+          <l xml:id="A07637-e115960">To answer you. </l>
+        </sp>
+        <sp xml:id="A07637-e115970" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e115980">Better and better still;</l>
+          <l xml:id="A07637-e115990">Your apprehension takes like touch; it's hard</l>
+          <l xml:id="A07637-e116000">To find a woman quick of wit, so mild,</l>
+          <l xml:id="A07637-e116010">So modest, shamefaced, and so debonair. </l>
+          <l xml:id="A07637-e116020">It joys me much, a woman's modesty,</l>
+          <l xml:id="A07637-e116030">And grieves my soul to hear a scolding quean,</l>
+          <l xml:id="A07637-e116040">That sets her husband's nightcap on with horns. </l>
+        </sp>
+        <sp xml:id="A07637-e116050" who="A07637-hannecke">
+          <speaker>Hann.</speaker>
+          <p xml:id="A07637-e116060">Be there such women?</p>
+        </sp>
+        <sp xml:id="A07637-e116070" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e116080">No, there should not be,</l>
+          <l xml:id="A07637-e116090">I do not say there are; I know none such;</l>
+          <l xml:id="A07637-e116100">All women are alike to me, I'll swear,</l>
+          <l xml:id="A07637-e116110"><pb facs="25"/> if my skill fail not, thou'lt not cuckold me,</l>
+          <l xml:id="A07637-e116120">Nor bring more children, so thy planet says,</l>
+          <l xml:id="A07637-e116130">I found it, casting thy nativity. </l>
+        </sp>
+        <sp xml:id="A07637-e116140" who="A07637-hannecke">
+          <speaker>Hann.</speaker>
+          <l xml:id="A07637-e116150">O sir, those studies are but fopperies,</l>
+          <l xml:id="A07637-e116160">They are conjectures, there's no certainty,</l>
+          <l xml:id="A07637-e116170">Scarce warrantable, by the word of God,</l>
+          <l xml:id="A07637-e116180">Yet scholars use them, if not good, the more,</l>
+          <l xml:id="A07637-e116190">Their fault, my fancy tells me so. </l>
+        </sp>
+        <sp xml:id="A07637-e116200" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e116210">'Tis true:</l>
+          <l xml:id="A07637-e116220">The art is lawful, 'tis astrology,</l>
+          <l xml:id="A07637-e116230">But th'arts abuse in those predictions</l>
+          <l xml:id="A07637-e116240">Stretching a string too far, mars all;</l>
+          <l xml:id="A07637-e116250">We must not attribute to creatures that</l>
+          <l xml:id="A07637-e116260">Which the creator wills; it's he alone,</l>
+          <l xml:id="A07637-e116270">That guides our bodies, not the influence</l>
+          <l xml:id="A07637-e116280">Of stars or planets, without him their power</l>
+          <l xml:id="A07637-e116290">Is nothing; nor doth he reveal his will</l>
+          <l xml:id="A07637-e116300">In them; yet wonders strange they oft foreshow,</l>
+          <l xml:id="A07637-e116310">Which men may guess at, none knows till 'tis past;</l>
+          <l xml:id="A07637-e116320">Therefore I hold them idle vanity. </l>
+        </sp>
+        <sp xml:id="A07637-e116330" who="A07637-hannecke">
+          <speaker>Han</speaker>
+          <l xml:id="A07637-e116340">Now sir, you are welcome home, this idle chat</l>
+          <l xml:id="A07637-e116350">Hath shortened our way: I'll to my dairy;</l>
+          <l xml:id="A07637-e116360">I must spare time to see my house wifery. </l>
+          <stage xml:id="A07637-e116370">Exeunt.</stage>
+          <stage xml:id="A07637-e116380">Enter Pasquill solus.</stage>
+          <l xml:id="A07637-e116390">Shall I not have a pleasant journey on't</l>
+          <l xml:id="A07637-e116400">Think you, that must take such provision</l>
+          <l xml:id="A07637-e116410">With me: a tankard full of Spanish wine</l>
+          <l xml:id="A07637-e116420">Like those in London water-bearers use;</l>
+          <l xml:id="A07637-e116430">The which the merchant sends to his father</l>
+          <l xml:id="A07637-e116440">A baked swan, and two huge turkey-cocks;</l>
+          <l xml:id="A07637-e116450">Two bottles of French wine, the sergeant sends</l>
+          <l xml:id="A07637-e116460">And m. Flutterkin. I am their man</l>
+          <l xml:id="A07637-e116470"><pb facs="25"/> must do their business, must haste on a fore,</l>
+          <l xml:id="A07637-e116480">While they take leisure: nay I'll get two more</l>
+          <l xml:id="A07637-e116490">To wait on me, and row me in a boat</l>
+          <l xml:id="A07637-e116500">With this my luggage: when I am dry, I'll drink,</l>
+          <l xml:id="A07637-e116510">And taste a bit: but that the pies are whole;</l>
+          <l xml:id="A07637-e116520">Oh there's the grief: but yet I'll have a trick</l>
+          <l xml:id="A07637-e116530">Shall serve my turn, ere I will starve for meat. </l>
+          <l xml:id="A07637-e116540">Three English miles, and neither drink nor eat? </l>
+          <l xml:id="A07637-e116550">It is too great a journey, I shall scarce hold out</l>
+          <l xml:id="A07637-e116560">Without refreshing, something by the way,</l>
+          <l xml:id="A07637-e116570">Will do me good, but for mine honest men;</l>
+          <l xml:id="A07637-e116580">I'll keep them sober, give them never a drop</l>
+          <l xml:id="A07637-e116590">Till they come there, unto the younkers house,</l>
+          <l xml:id="A07637-e116600">Where they shall have enough; too much I doubt</l>
+          <l xml:id="A07637-e116610">Without more heed; yet none will force them drink;</l>
+          <l xml:id="A07637-e116620">But if they'll take't, their buttery is so free. </l>
+          <l xml:id="A07637-e116630">A drunkard will be caught, before he's ware;</l>
+          <l xml:id="A07637-e116640">There's Hans his man, that rascal beer-pot,</l>
+          <l xml:id="A07637-e116650">He will be doing, though he gets the worst;</l>
+          <l xml:id="A07637-e116660">And when his head flies light, why then he runs</l>
+          <l xml:id="A07637-e116670">To look to his horse, and there he falls asleep </l>
+          <l xml:id="A07637-e116680">O'er th'ears in litter; but I'll watch him now. </l>
+          <l xml:id="A07637-e116690">I'll keep him from the stable; then I am sure</l>
+          <l xml:id="A07637-e116700">To nog him soundly; I'll corroborate</l>
+          <l xml:id="A07637-e116710">My Beer-pot bravely; I'll buffticulate,</l>
+          <l xml:id="A07637-e116720">And counter-jeer him with my terms of art;</l>
+          <l xml:id="A07637-e116730">Rib-roast his downs, fling up my gallants heels;</l>
+          <l xml:id="A07637-e116740">Make him take heed hereafter: be he wise</l>
+          <l xml:id="A07637-e116750">To deal with soldiers in a drinking prize. </l>
+          <l xml:id="A07637-e116760">But time hastes on, and I must hence with speed;</l>
+          <l xml:id="A07637-e116770">What's left with me in trust, I'll do't indeed. </l>
+          <stage xml:id="A07637-e116780">Exit.</stage>
+          <stage xml:id="A07637-e116790">Enter the Moor singing.</stage>
+          <l xml:id="A07637-e116800"><pb facs="26"/>Burston dantmarden, calaminthay pindara toekson,</l>
+          <l xml:id="A07637-e116810">Marnuta maltalton, tintima marra tolon. </l>
+          <l xml:id="A07637-e116820">I brought with me great store of Barbary gold;</l>
+          <l xml:id="A07637-e116830">But all is gone, my 'parel quite worn out;</l>
+          <l xml:id="A07637-e116840">And in this fashion am ashamed to go,</l>
+          <l xml:id="A07637-e116850">For fear my father would not look on me;</l>
+          <l xml:id="A07637-e116860">But if good fortune furnish me again. </l>
+          <l xml:id="A07637-e116870">With your free wills I'll run from hence to Spain. </l>
+          <stage xml:id="A07637-e116880">Sing again.</stage>
+          <l xml:id="A07637-e116890">Here may you see how fortune turns her wheel:</l>
+          <l xml:id="A07637-e116900">I that before did many men command;</l>
+          <l xml:id="A07637-e116910">Am now constrained to serve my master's man;</l>
+          <l xml:id="A07637-e116920">For fortune I care not, that fickle whore;</l>
+          <l xml:id="A07637-e116930">I will be merry still, though ne'er so poor. </l>
+        </sp>
+        <stage xml:id="A07637-e116940">Sing another song, and go out.</stage>
+        <stage xml:id="A07637-e116950">Enter the younker, the merchant and the sergeant.</stage>
+        <sp xml:id="A07637-e116960" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e116970">I thank you both, for you have made me fine;</l>
+          <l xml:id="A07637-e116980">These gloves and garters they were quickly won:</l>
+          <l xml:id="A07637-e116990">Each day so set on work, I should be rich. </l>
+          <l xml:id="A07637-e117000">Blessed be my grandam brought me up at school</l>
+          <l xml:id="A07637-e117010">Where I learned wit, more than you thought I had. </l>
+        </sp>
+        <sp xml:id="A07637-e117020" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e117030">He hath drilled us both, and mocks us to our teeth</l>
+          <l xml:id="A07637-e117040">What shall we do with him? we'll 'Canvas him. </l>
+        </sp>
+        <sp xml:id="A07637-e117050" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <p xml:id="A07637-e117060">I am too big.</p>
+        </sp>
+        <sp xml:id="A07637-e117070" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e117080">We'll fling him in the graft,</l>
+          <l xml:id="A07637-e117090">'Twill cool him sweetly; o 'twill do him good. </l>
+        </sp>
+        <sp xml:id="A07637-e117100" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e117110">Were I an Anabaptist, you might do't,</l>
+          <l xml:id="A07637-e117120">And witness for me that I were baptized;</l>
+          <l xml:id="A07637-e117130">But that I had i'th town where I was born,</l>
+          <l xml:id="A07637-e117140"><pb facs="26"/> ere eight days old, I do remember't yet. </l>
+        </sp>
+        <sp xml:id="A07637-e117150" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e117160">O monstrous, fie, thy mouth is foully torn,</l>
+          <l xml:id="A07637-e117170">Art not ashamed? </l>
+        </sp>
+        <sp xml:id="A07637-e117180" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e117190">As well I swear,</l>
+          <l xml:id="A07637-e117200">As the first smock that ere my father wear. </l>
+        </sp>
+        <sp xml:id="A07637-e117210" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <p xml:id="A07637-e117220">Let him alone and he'll maintain't with oaths.</p>
+        </sp>
+        <sp xml:id="A07637-e117230" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e117240">See, see how you are deceived, you thought I lied,</l>
+          <l xml:id="A07637-e117250">There's no such matter, altered is the case,</l>
+          <l xml:id="A07637-e117260">As surely as I live, and walking in this place. </l>
+        </sp>
+        <sp xml:id="A07637-e117270" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e117280">Rhyming again, I'll deal no more with you;</l>
+          <l xml:id="A07637-e117290">I had enough of late, I paid too dear</l>
+          <l xml:id="A07637-e117300">For your conceits, I'll have no more of them. </l>
+        </sp>
+        <sp xml:id="A07637-e117310" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e117320">As often as you will, you know the price;</l>
+          <l xml:id="A07637-e117330">And for my skill I pass not, am not nice. </l>
+        </sp>
+        <sp xml:id="A07637-e117340" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e117350">Well to him sergeant, now I'll take thy part</l>
+          <l xml:id="A07637-e117360">'Gainst him, as he did thine before 'gainst me;</l>
+          <l xml:id="A07637-e117370">I'll be revenged for his discourtesy. </l>
+          <l xml:id="A07637-e117380">I marvel much where's master Flutterkin? </l>
+          <l xml:id="A07637-e117390">He stays so long I think he hath forgotten himself. </l>
+        </sp>
+        <sp xml:id="A07637-e117400" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e117410">O here he is, his guts they are so stuffed,</l>
+          <l xml:id="A07637-e117420">With his fat liquor he can scarcely run. </l>
+        </sp>
+        <sp xml:id="A07637-e117430" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e117440">Scarce run, scarce go, this barreled sturgeon</l>
+          <l xml:id="A07637-e117450">Is out of breath, his grease begins to melt. </l>
+        </sp>
+        <sp xml:id="A07637-e117460" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e117470">Mock on my gallants, see what will come on't,</l>
+          <l xml:id="A07637-e117480">A shame on lurchers, you have killed me up. </l>
+          <l xml:id="A07637-e117490">I ran so fast, ere I could o'ertake you. </l>
+        </sp>
+        <sp xml:id="A07637-e117500" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e117510">A child of two year old would run as fast. </l>
+        </sp>
+        <sp xml:id="A07637-e117520" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e117530">Then I'll be hanged, good sir, how can that run? </l>
+          <l xml:id="A07637-e117540">That doth but dead, can hardly go or stand. </l>
+          <l xml:id="A07637-e117550">Where's Pasquill is he gone? </l>
+        </sp>
+        <sp xml:id="A07637-e117560" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e117570">He's there by this? </l>
+          <l xml:id="A07637-e117580">I saw him at the ports, that gentleman</l>
+          <l xml:id="A07637-e117590">Is at's two men; takes boat, sits down at ease,</l>
+          <l xml:id="A07637-e117600">And takes tobacco, while they row him on,</l>
+          <l xml:id="A07637-e117610">He keeps a bottle just betwixt his legs,</l>
+          <l xml:id="A07637-e117620"><pb facs="27"/> drinks when he list, and so he sets it down. </l>
+        </sp>
+        <sp xml:id="A07637-e117630" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e117640">Would I were with him in such equipage;</l>
+          <l xml:id="A07637-e117650">Or he were here, for I am almost choked. </l>
+        </sp>
+        <stage xml:id="A07637-e117660">Draw out the aqua vitae pottle and drinks.</stage>
+        <sp xml:id="A07637-e117670" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e117680">Why, how Flutterkin, at your brandwine? </l>
+          <l xml:id="A07637-e117690">I pray thee give me some. </l>
+        </sp>
+        <sp xml:id="A07637-e117700" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e117710">Not the least drop. </l>
+          <stage xml:id="A07637-e117720">Drink again.</stage>
+          <l xml:id="A07637-e117730">Were you a thousand merchants;<stage xml:id="A07637-e117740">Seargeants, drink again.</stage></l>
+          <l xml:id="A07637-e117750">Or younkers not a drop,</l>
+          <l xml:id="A07637-e117760">Think you I'll die</l>
+          <l xml:id="A07637-e117770">For want of wholesome drink? all's out, see there:</l>
+          <l xml:id="A07637-e117780">So now I am well, can walk a mile or two,</l>
+          <l xml:id="A07637-e117790">As rustic as a boor, and ne'er complain. </l>
+        </sp>
+        <sp xml:id="A07637-e117800" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <p xml:id="A07637-e117810">My fathers yonder, he comes here to meet's.</p>
+        </sp>
+        <sp xml:id="A07637-e117820" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e117830">So nigh already; o, I see the house;</l>
+          <l xml:id="A07637-e117840">I smell the kitchen, see the chimneys smoke. </l>
+          <l xml:id="A07637-e117850">Come sergeant; put the better leg before;</l>
+          <l xml:id="A07637-e117860">You shall speak first, if well, I'll second you. </l>
+        </sp>
+        <sp xml:id="A07637-e117870" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e117880">Thanks good mine host, your wit would help me much</l>
+          <l xml:id="A07637-e117890">For good conceits your wholesome guts have hatched,</l>
+          <l xml:id="A07637-e117900">When sod in sack, your brains begin to flow. </l>
+        </sp>
+        <sp xml:id="A07637-e117910" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e117920">Out from the horror of infernal deeps;</l>
+          <l xml:id="A07637-e117930">Pass forwards on; for I must stay behind:</l>
+          <l xml:id="A07637-e117940">Some small occasion bids me stand aside. </l>
+        </sp>
+        <sp xml:id="A07637-e117950" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e117960">Its 'Well your come, for I did think you long:</l>
+          <l xml:id="A07637-e117970">And that you had forgotten to keep your words. </l>
+          <l xml:id="A07637-e117980">I bid you welcome to my country farm;</l>
+          <l xml:id="A07637-e117990">Take that for all, I'll use no ceremony. </l>
+        </sp>
+        <sp xml:id="A07637-e118000" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e118010">I'll warrant you sir, we did not mean to fail,</l>
+          <l xml:id="A07637-e118020">To stay at home, and miss so good a feast,</l>
+          <l xml:id="A07637-e118030">'Tis Christmas now, it comes but once a year;</l>
+          <l xml:id="A07637-e118040"><pb facs="27"/> and when it comes, men say, it brings good cheer. </l>
+          <l xml:id="A07637-e118050">Here's Flutterkin takes leisure, comes behind;</l>
+          <l xml:id="A07637-e118060">Good man he sweats, his guts keep him so warm. </l>
+          <l xml:id="A07637-e118070">But fear of fainting by the high way side,</l>
+          <l xml:id="A07637-e118080">He hath provided to preserve his health;</l>
+          <l xml:id="A07637-e118090">Brandwine a creuse, which he drinks out himself. </l>
+        </sp>
+        <sp xml:id="A07637-e118100" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e118110">I hear you sergeant, I can bear your mocks:</l>
+          <l xml:id="A07637-e118120">You never knew fat men but honest yet;</l>
+          <l xml:id="A07637-e118130">A good companion, full of mirth and wit;</l>
+          <l xml:id="A07637-e118140">Lean jades cast off, lie starving in a ditch;</l>
+          <l xml:id="A07637-e118150">When plumper steeds are esteemed among the rich. </l>
+        </sp>
+        <sp xml:id="A07637-e118160" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e118170">Are you so nigh, I thought you had been lost:</l>
+          <l xml:id="A07637-e118180">By your leave sir; I'll welcome here mine host. </l>
+        </sp>
+        <sp xml:id="A07637-e118190" who="A07637-cornelius">
+          <speaker>Cor,</speaker>
+          <l xml:id="A07637-e118200">Ha sergeant I have known thee to serve long,</l>
+          <l xml:id="A07637-e118210">And yet thou stick'st, belike thou likest thy game:</l>
+          <l xml:id="A07637-e118220">Try friends and fortune, may be it will hit</l>
+          <l xml:id="A07637-e118230">To make thee higher on preferments step;</l>
+          <l xml:id="A07637-e118240">Stand not on thorns: adventure, draw a card. </l>
+        </sp>
+        <sp xml:id="A07637-e118250" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e118260">So may I draw, and draw myself quite out:</l>
+          <l xml:id="A07637-e118270">And striving to get more, lose that I have. </l>
+          <l xml:id="A07637-e118280">Times are not now as they were erst, when you</l>
+          <l xml:id="A07637-e118290">Did haunt the fields, and led a soldier's life:</l>
+          <l xml:id="A07637-e118300">Men had respect, and then were looked upon</l>
+          <l xml:id="A07637-e118310">For their deserts; but now 'tis nothing so. </l>
+          <l xml:id="A07637-e118320">Reward goes backward, honour on his head,</l>
+          <l xml:id="A07637-e118330">And due deserts are sleight regarded now:</l>
+          <l xml:id="A07637-e118340">He that wants gold, seeks place, may stand aloof;</l>
+          <l xml:id="A07637-e118350">Stand fast he that would rise, or else he falls;</l>
+          <l xml:id="A07637-e118360">That now is sold, which then was but free gift;</l>
+          <l xml:id="A07637-e118370">Promotions fall not, but are bought before;</l>
+          <l xml:id="A07637-e118380">He that mounts now, he doth not as of old;</l>
+          <l xml:id="A07637-e118390">Rise by his virtues, but helped up with gold. </l>
+        </sp>
+        <sp xml:id="A07637-e118400" who="A07637-yonker">
+          <speaker>Youn.</speaker>
+          <l xml:id="A07637-e118410">With leave and reverence may I speak my mind;</l>
+          <l xml:id="A07637-e118420">What though my friends be rich? it grieves me much</l>
+          <l xml:id="A07637-e118430">To see poor soldiers walk in mean attire;</l>
+          <l xml:id="A07637-e118440"><pb facs="28"/> and less respect that have deserved well,</l>
+          <l xml:id="A07637-e118450">Grown old in wars, and got nothing but blows,</l>
+          <l xml:id="A07637-e118460">Wide gaping wounds, lost limbs and broken bones,</l>
+          <l xml:id="A07637-e118470">And just preferment, which another gets,</l>
+          <l xml:id="A07637-e118480">And they deserved, and perhaps a man</l>
+          <l xml:id="A07637-e118490">That never saw the field, nor chimneys smoke;</l>
+          <l xml:id="A07637-e118500">But those at home within his native soil. </l>
+          <l xml:id="A07637-e118510">Each man would up, there's none I am sure would down;</l>
+          <l xml:id="A07637-e118520">And they may use their talents as their own</l>
+          <l xml:id="A07637-e118530">To their own good and glory; not the hurt</l>
+          <l xml:id="A07637-e118540">Of poor or rich, of kingdoms, common-wealthes;</l>
+          <l xml:id="A07637-e118550">I blame not those that seek to increase their wealth,</l>
+          <l xml:id="A07637-e118560">Or better their estates by honest means;</l>
+          <l xml:id="A07637-e118570">I wrong not princes, touch not their affairs. </l>
+          <l xml:id="A07637-e118580">Carpe not at men, but times corruptions;</l>
+          <l xml:id="A07637-e118590">Some climb too fast, and climbing catch a fall;</l>
+          <l xml:id="A07637-e118600">If please God he can help it, he helps all. </l>
+        </sp>
+        <sp xml:id="A07637-e118610" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e118620">The Romans used to make their worthies known,</l>
+          <l xml:id="A07637-e118630">By honoured titles, and with ornaments,</l>
+          <l xml:id="A07637-e118640">As rings and chains, gilt swords, and spurs of gold,</l>
+          <l xml:id="A07637-e118650">Which none might wear but such as were allowed. </l>
+          <l xml:id="A07637-e118660">But now Jack sauce will be in's gilded spurs,</l>
+          <l xml:id="A07637-e118670">Whose father brewed good ale for honest men:</l>
+          <l xml:id="A07637-e118680">Lodged pedlars, tinkers, bearwards such a crew,</l>
+          <l xml:id="A07637-e118690">The scum of men, the plain rascality,</l>
+          <l xml:id="A07637-e118700">Such was auratus eques miles called;</l>
+          <l xml:id="A07637-e118710">The French men now, call him unchevalier;</l>
+          <l xml:id="A07637-e118720">We call them rydders, the English name them knights;</l>
+          <l xml:id="A07637-e118730">Was strange to see, what knighthood once would do;</l>
+          <l xml:id="A07637-e118740">Stir great men up, to lead a martial life,</l>
+          <l xml:id="A07637-e118750">Such as were nobly born, of great estates</l>
+          <l xml:id="A07637-e118760">To gain this honour, and this dignity;</l>
+          <l xml:id="A07637-e118770">So noble a mark to their posterity. </l>
+          <l xml:id="A07637-e118780">But now alas, it's grown ridiculous,</l>
+          <l xml:id="A07637-e118790">Since bought with money, sold for basest prize;</l>
+          <l xml:id="A07637-e118800"><pb facs="28"/> that some refuse it, which are counted wise. </l>
+        </sp>
+        <sp xml:id="A07637-e118810" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e118820">But here's the difference; for we use to say,</l>
+          <l xml:id="A07637-e118830">Is such one knighted? he deserved it well;</l>
+          <l xml:id="A07637-e118840">He's learned, wise, an hopeful gentleman;</l>
+          <l xml:id="A07637-e118850">Hath been abroad, hath seen and knows the wars:</l>
+          <l xml:id="A07637-e118860">He speaks more language than his mother's tongue,</l>
+          <l xml:id="A07637-e118870">He can does country service, or his prince</l>
+          <l xml:id="A07637-e118880">At home, abroad by sea, or else by land,</l>
+          <l xml:id="A07637-e118890">Maintain the sword of civil government:</l>
+          <l xml:id="A07637-e118900">But such ones made a knight: what that arch-clown! </l>
+          <l xml:id="A07637-e118910">His wit is like his mother's milking pail:</l>
+          <l xml:id="A07637-e118920">Brought up at home, or at Hogsnorton school:</l>
+          <l xml:id="A07637-e118930">His father ne'er gave arms, writ goodman Cluneh,</l>
+          <l xml:id="A07637-e118940">And he kept sheep, or beasts, drove plough or cart:</l>
+          <l xml:id="A07637-e118950">The first on's name, first knight, than gentleman. </l>
+          <l xml:id="A07637-e118960">God give him joy; his honour cost him dear:</l>
+          <l xml:id="A07637-e118970">A sot in crimson, grown a golden knight;</l>
+          <l xml:id="A07637-e118980">Well may't become him, he becomes not it:</l>
+          <l xml:id="A07637-e118990">More than an ass, a rich caparison. </l>
+        </sp>
+        <sp xml:id="A07637-e119000" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e119010">You are two bitter son, you speak too townsman like,</l>
+          <l xml:id="A07637-e119020">As one that envies country gentlemen:</l>
+          <l xml:id="A07637-e119030">He that doth raise his house, although a clown,</l>
+          <l xml:id="A07637-e119040">Is happier far, than he that pulls it down. </l>
+        </sp>
+        <sp xml:id="A07637-e119050" who="A07637-garland">
+          <speaker>Gar.</speaker>
+          <l xml:id="A07637-e119060">Indeed that's true, for he may have a son,</l>
+          <l xml:id="A07637-e119070">Whose better breeding may help those defects,</l>
+          <l xml:id="A07637-e119080">That beins father; may be fit to rule,</l>
+          <l xml:id="A07637-e119090">The sword of justice in a commonwealth,</l>
+          <l xml:id="A07637-e119100">Raiseth his house and name, sets it higher,</l>
+          <l xml:id="A07637-e119110">Writes second knight, a justice, or esquire. </l>
+        </sp>
+        <sp xml:id="A07637-e119120" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e119130">When I was in my flower of youth, and lived</l>
+          <l xml:id="A07637-e119140">In England's court, that swarmed with martialists,</l>
+          <l xml:id="A07637-e119150">Seamen and soldiers, there had great respect,</l>
+          <l xml:id="A07637-e119160">Were set by; honoured more than other men,</l>
+          <l xml:id="A07637-e119170">As drake and Candish. Hawkins, Frobisher,</l>
+          <l xml:id="A07637-e119180">Williams, and Baskervile two valiant knights,</l>
+          <l xml:id="A07637-e119190"><pb facs="29"/> those worthy brothers known by Norreis' name:</l>
+          <l xml:id="A07637-e119200">The vereses, the Shirleys, and the constables,</l>
+          <l xml:id="A07637-e119210">Sir Thomas Morgan, brave lord Willoughby,</l>
+          <l xml:id="A07637-e119220">Whom Spaniards termed the fierce, the devil of hell;</l>
+          <l xml:id="A07637-e119230">Renowned Essex, famous Cumberland,</l>
+          <l xml:id="A07637-e119240">And both the Howards proved so oft at sea</l>
+          <l xml:id="A07637-e119250">With tempests, roaring billows, cannon shot;</l>
+          <l xml:id="A07637-e119260">George Somers knight, Carlisle and Lancaster,</l>
+          <l xml:id="A07637-e119270">Were not the least; these lived in my time;</l>
+          <l xml:id="A07637-e119280">And divers more whose names I have forgotten,</l>
+          <l xml:id="A07637-e119290">That served in Ireland, whom those bloody wars ▪</l>
+          <l xml:id="A07637-e119300">Made famous unto all posterity,</l>
+          <l xml:id="A07637-e119310">Some living yet, some folded up in lead,</l>
+          <l xml:id="A07637-e119320">That died in honour's lap; sleep in her bed. </l>
+        </sp>
+        <sp xml:id="A07637-e119330" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e119340">Then was a time that soldiers were esteemed,</l>
+          <l xml:id="A07637-e119350">And if they lived they had preferment sure,</l>
+          <l xml:id="A07637-e119360">And those that died were well provided for;</l>
+          <l xml:id="A07637-e119370">Then did men rise from meanest parentage</l>
+          <l xml:id="A07637-e119380">By their deserts, to places of account,</l>
+          <l xml:id="A07637-e119390">As some you named, not born to any thing;</l>
+          <l xml:id="A07637-e119400">Did raise their fortunes to a great estate,</l>
+          <l xml:id="A07637-e119410">And gave no bribes, did not one penny pay,</l>
+          <l xml:id="A07637-e119420">To any cogging claw-back sycophant,</l>
+          <l xml:id="A07637-e119430">And for deserts had freely what they had;</l>
+          <l xml:id="A07637-e119440">For happy was that man, though ne'er so great,</l>
+          <l xml:id="A07637-e119450">That could do honour to a man of war,</l>
+          <l xml:id="A07637-e119460">As those that served in France amongst those broils,</l>
+          <l xml:id="A07637-e119470">And civil discords yet can testify,</l>
+          <l xml:id="A07637-e119480">When that rich kingdom piteously torn</l>
+          <l xml:id="A07637-e119490">All stained with gore, half marred with fire and sword</l>
+          <l xml:id="A07637-e119500">What there was got, how much account was had</l>
+          <l xml:id="A07637-e119510">Of them: when back they made their home return:</l>
+          <l xml:id="A07637-e119520">When happy Bourbon got those lillies three;</l>
+          <l xml:id="A07637-e119530">Began their peace: did end that misery. </l>
+        </sp>
+        <sp xml:id="A07637-e119540" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e119550">I saw those wars, and saw that naval fight</l>
+          <l xml:id="A07637-e119560"><pb facs="29"/> in eighty eight twixt Spain and English fleet. </l>
+          <l xml:id="A07637-e119570">With Norreis went I unto Portugal,</l>
+          <l xml:id="A07637-e119580">And was with Essex at the sack of Cales,</l>
+          <l xml:id="A07637-e119590">From thence to Ireland where I was a while,</l>
+          <l xml:id="A07637-e119600">But Newport battle that made up my mouth,</l>
+          <l xml:id="A07637-e119610">The last great service that I ere was at,</l>
+          <l xml:id="A07637-e119620">Where being sore hurt, was weak, and sick long time,</l>
+          <l xml:id="A07637-e119630">Ere I was well, and had my former health</l>
+          <l xml:id="A07637-e119640">Before that time, if ought were to be done. </l>
+          <l xml:id="A07637-e119650">Each summer was I wand'ring still abroad,</l>
+          <l xml:id="A07637-e119660">And what I got, increased my livelihood,</l>
+          <l xml:id="A07637-e119670">Each year a little, till I had enough,</l>
+          <l xml:id="A07637-e119680">I thank my God, he tossed me to and fro,</l>
+          <l xml:id="A07637-e119690">And sent me home at last to live in peace;</l>
+          <l xml:id="A07637-e119700">Per mare, per terras, per tot discrimenarerum</l>
+          <l xml:id="A07637-e119710">Tendimus in Latium: this Aeneas said. </l>
+          <l xml:id="A07637-e119720">In Latin land when Trojan wars were passed,</l>
+          <l xml:id="A07637-e119730">To live in peace we are arrived at last. </l>
+          <l xml:id="A07637-e119740">Blessed be that hand which brought this blessed peace;</l>
+          <l xml:id="A07637-e119750">And blessed be those that pray it never cease. </l>
+        </sp>
+        <sp xml:id="A07637-e119760" who="A07637-flutterkin">
+          <speaker>Flut.</speaker>
+          <l xml:id="A07637-e119770">O happy you, that so did spend your time,</l>
+          <l xml:id="A07637-e119780">In dangers great abroad, by sea and land,</l>
+          <l xml:id="A07637-e119790">While lazy Lurdaines lay and slept at home,</l>
+          <l xml:id="A07637-e119800">You raised your fortunes, got a brave estate,</l>
+          <l xml:id="A07637-e119810">And after all, now lead a country life,</l>
+          <l xml:id="A07637-e119820">Amongst your neighbours with a virtuous wife. </l>
+        </sp>
+        <sp xml:id="A07637-e119830" who="A07637-servant">
+          <speaker>Servant</speaker>
+          <l xml:id="A07637-e119840">Why that's a comfort, far beyond compare ▪</l>
+          <l xml:id="A07637-e119850">This happy life cannot be paragoned,</l>
+          <l xml:id="A07637-e119860">My own conceit hath rapt me from myself,</l>
+          <l xml:id="A07637-e119870">Methinks I am such one, my state is such,</l>
+          <l xml:id="A07637-e119880">And how I sit by mine own fire side</l>
+          <l xml:id="A07637-e119890">With my sweet wife, the life of my dear life,</l>
+          <l xml:id="A07637-e119900">And tell my children, what I erst have seen</l>
+          <l xml:id="A07637-e119910">To encourage them, to tread their father's steps;</l>
+          <l xml:id="A07637-e119920">To make them bold to banish servile fear. </l>
+          <l xml:id="A07637-e119930"><pb facs="30"/>'tis heaven on earth; the minds and hearts content,</l>
+          <l xml:id="A07637-e119940">A kingdom's riches: can a man have more? </l>
+          <l xml:id="A07637-e119950">Then God's sweet peace: the love of commonwealth;</l>
+          <l xml:id="A07637-e119960">His minds desires and bodies perfect health. </l>
+        </sp>
+        <sp xml:id="A07637-e119970" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e119980">Here comes my wife, and Pasquill with my man,</l>
+          <l xml:id="A07637-e119990">Think dinners ready, we will leave discourse. </l>
+        </sp>
+        <sp xml:id="A07637-e120000" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e120010">Please you come in, your meat is taking up,</l>
+          <l xml:id="A07637-e120020">And you may talk as well by th'fire side. </l>
+        </sp>
+        <sp xml:id="A07637-e120030" who="A07637-cornelius">
+          <speaker>Cor.</speaker>
+          <l xml:id="A07637-e120040">We come sweet wife, come give me thy fair hand;</l>
+          <l xml:id="A07637-e120050">We'll walk in couples one turn round about. </l>
+          <l xml:id="A07637-e120060">'Tis temple fashion, there observed yet. </l>
+          <l xml:id="A07637-e120070">By th'ancient seniors, dancing in a ring,</l>
+          <l xml:id="A07637-e120080">Their stately measures, hand in hand by two</l>
+          <l xml:id="A07637-e120090">And two; upon their solemn revel nights,</l>
+          <l xml:id="A07637-e120100">And then we'll in, and drink full nectar cups,</l>
+          <l xml:id="A07637-e120110">And taste such meat, as God hath given us,</l>
+          <l xml:id="A07637-e120120">Yet midst of mirth remember them that want,</l>
+          <l xml:id="A07637-e120130">To comfort them, with some part of our store</l>
+          <l xml:id="A07637-e120140">In harmless mirth; thus have we done our parts;</l>
+          <l xml:id="A07637-e120150">If you be pleased, how joyful are our hearts. </l>
+          <stage xml:id="A07637-e120160">Exeunt.</stage>
+          <stage xml:id="A07637-e120170">Manet Hans.</stage>
+          <l xml:id="A07637-e120180">Revenge, revenge for Pasquil's ugly whore,</l>
+          <l xml:id="A07637-e120190">I'll make him drunk, was never creature more. </l>
+          <stage xml:id="A07637-e120200">Pasquill within.</stage>
+          <l xml:id="A07637-e120210">You would but cannot, thank you good sir Hans,</l>
+          <l xml:id="A07637-e120220">If I be drunk, yourself shall lead the dance. </l>
+        </sp>
+        <sp xml:id="A07637-e120230" who="A07637-hans">
+          <speaker>Hans.</speaker>
+          <l xml:id="A07637-e120240">What? did he hear me? now this bargains made;</l>
+          <l xml:id="A07637-e120250">Once warned, half armed, so doth the proverb say. </l>
+          <l xml:id="A07637-e120260">Now if I would, I cannot, he will none,</l>
+          <l xml:id="A07637-e120270">He not adventure, lest I first be gone;</l>
+          <l xml:id="A07637-e120280"><pb facs="30"/> he saw me not, yet sees what I would do;</l>
+          <l xml:id="A07637-e120290">Him I'll requite, see not, and yet see too ▪</l>
+          <l xml:id="A07637-e120300">I'll give him what he wants, or drink or meat,</l>
+          <l xml:id="A07637-e120310">And all you too, if that you please to eat,</l>
+          <l xml:id="A07637-e120320">At your own costs, for my store will not do't,</l>
+          <l xml:id="A07637-e120330">My means are short, they will not reach unto't. </l>
+          <l xml:id="A07637-e120340">In such excess, I will not do amiss;</l>
+          <l xml:id="A07637-e120350">My mind is altered, you may see by this:</l>
+          <l xml:id="A07637-e120360">And for what's passed: if it have moved delight,</l>
+          <l xml:id="A07637-e120370">I take my leave rejoice, and so good night. </l>
+        </sp>
+        <stage xml:id="A07637-e120380">Music, song and dance.</stage>
+      </div>
+      <div type="song" xml:id="A07637-e120390">
+        <pb facs="31"/>
+        <head>The song.</head>
+        <lg xml:id="A07637-e120400">
+          <l xml:id="A07637-e120410">Walking in a shadow grove,</l>
+          <l xml:id="A07637-e120420">Near silver streams fair gliding,</l>
+          <l xml:id="A07637-e120430">Where trees in ranks did grace those banks,</l>
+          <l xml:id="A07637-e120440">And nymphs had their abiding. </l>
+          <l xml:id="A07637-e120450">Here as I stayed, I saw a maid. </l>
+          <l xml:id="A07637-e120460">A beauteous lovely creature,</l>
+          <l xml:id="A07637-e120470">With angel's face, and goddess grace,</l>
+          <l xml:id="A07637-e120480">Of such exceeding feature. </l>
+        </lg>
+        <lg xml:id="A07637-e120490">
+          <l xml:id="A07637-e120500">Her looks did so astonish me,</l>
+          <l xml:id="A07637-e120510">And set my heart a quaking,</l>
+          <l xml:id="A07637-e120520">Like stag that gazed, was I amazed,</l>
+          <l xml:id="A07637-e120530">And in a stranger taking:</l>
+          <l xml:id="A07637-e120540">Yet roused myself to see this elf,</l>
+          <l xml:id="A07637-e120550">And lo a tree did hide me:</l>
+          <l xml:id="A07637-e120560">Where I unseen beheld this Queen,</l>
+          <l xml:id="A07637-e120570">A while ere she espied me. </l>
+        </lg>
+        <lg xml:id="A07637-e120580">
+          <l xml:id="A07637-e120590">Her voice was sweet melodiously,</l>
+          <l xml:id="A07637-e120600">She sung in perfect measure:</l>
+          <l xml:id="A07637-e120610">And thus she said with trickling tears,</l>
+          <l xml:id="A07637-e120620">Alas my joy and treasure. </l>
+          <l xml:id="A07637-e120630">I'll be thy wife, or lose my life. </l>
+          <l xml:id="A07637-e120640">There's no man else shall have me,</l>
+          <l xml:id="A07637-e120650">If God say so: I will say no,</l>
+          <l xml:id="A07637-e120660">Although a thousand crave me. </l>
+        </lg>
+        <lg xml:id="A07637-e120670">
+          <pb facs="31"/>
+          <l xml:id="A07637-e120680">O stay not long, but come my dear,</l>
+          <l xml:id="A07637-e120690">And knit our marriage knot,</l>
+          <l xml:id="A07637-e120700">Each hour a day, each month a year. </l>
+          <l xml:id="A07637-e120710">Thou knowest I think, God wot,</l>
+          <l xml:id="A07637-e120720">Delay not then like worldly men,</l>
+          <l xml:id="A07637-e120730">Good works till withered age</l>
+          <l xml:id="A07637-e120740">'Bove other things: the King of Kings</l>
+          <l xml:id="A07637-e120750">Blessed a lawful marriage. </l>
+        </lg>
+        <lg xml:id="A07637-e120760">
+          <l xml:id="A07637-e120770">Thou art my choice, I constant am,</l>
+          <l xml:id="A07637-e120780">I mean to die unspotted,</l>
+          <l xml:id="A07637-e120790">With thee I'll live, for thee I love,</l>
+          <l xml:id="A07637-e120800">And keep my name unblotted. </l>
+          <l xml:id="A07637-e120810">A virtuous life, in maid and wife,</l>
+          <l xml:id="A07637-e120820">The spirit of God commends it. </l>
+          <l xml:id="A07637-e120830">Accursed he, for ever be,</l>
+          <l xml:id="A07637-e120840">That seeks with shame to offend it. </l>
+        </lg>
+        <lg xml:id="A07637-e120850">
+          <l xml:id="A07637-e120860">With that she rose like nimble roe,</l>
+          <l xml:id="A07637-e120870">The tender grass scarce bending,</l>
+          <l xml:id="A07637-e120880">And left me there, perplexed with fear,</l>
+          <l xml:id="A07637-e120890">At this her sonnets ending. </l>
+          <l xml:id="A07637-e120900">I thought to move this dame of love,</l>
+          <l xml:id="A07637-e120910">But she was gone already:</l>
+          <l xml:id="A07637-e120920">Wherefore I pray, that those that stay</l>
+          <l xml:id="A07637-e120930">May find their loves as steady. </l>
+        </lg>
+      </div>
+      <div type="speech" xml:id="A07637-e120940">
+        <pb facs="32"/>
+        <head>An addition to the Moors last speech.</head>
+        <l xml:id="A07637-e120950">Here may you see how fortune turns her wheel;</l>
+        <l xml:id="A07637-e120960">I that before did many men command:</l>
+        <l xml:id="A07637-e120970">Am now constrained to serve my master's man;</l>
+        <l xml:id="A07637-e120980">Regnaus, regno, regnabo, sum sine regno:</l>
+        <l xml:id="A07637-e120990">She makes the world her stage, or tennis-court:</l>
+        <l xml:id="A07637-e121000">Where men like balls are banded to and fro:</l>
+        <l xml:id="A07637-e121010">Or player-like, come forth, to act their parts;</l>
+        <l xml:id="A07637-e121020">Speak big and strut, and stride colossus like,</l>
+        <l xml:id="A07637-e121030">And when his turn is out steps in at door;</l>
+        <l xml:id="A07637-e121040">Another takes his room. comes out no more. </l>
+        <l xml:id="A07637-e121050">Soon up, soon down, now high'st, then lowest of all,</l>
+        <l xml:id="A07637-e121060">Like Codrus poor: and straight as Croesus' rat,</l>
+        <l xml:id="A07637-e121070">Thus glories fortune in inconstancy;</l>
+        <l xml:id="A07637-e121080">For her I care not, she's a fickle whore,</l>
+        <l xml:id="A07637-e121090">I will be merry, be I ne'er so poor. </l>
+        <trailer xml:id="A07637-e121100">Finis.</trailer>
+        <pb facs="32"/>
+      </div>
+    </body>
+    <back>
+      <div type="machine-generated_castlist"><list n="A07637"><item xml:id="A07637-servant" n="76">
+    <seg type="character_name">A07637-servant</seg>
+    <seg type="speech_count">76</seg>
+  </item>
+  <item xml:id="A07637-yonker" n="62">
+    <seg type="character_name">A07637-yonker</seg>
+    <seg type="speech_count">62</seg>
+  </item>
+  <item xml:id="A07637-garland" n="52">
+    <seg type="character_name">A07637-garland</seg>
+    <seg type="speech_count">52</seg>
+  </item>
+  <item xml:id="A07637-pasquil" n="43">
+    <seg type="character_name">A07637-pasquil</seg>
+    <seg type="speech_count">43</seg>
+  </item>
+  <item xml:id="A07637-cornelius" n="37">
+    <seg type="character_name">A07637-cornelius</seg>
+    <seg type="speech_count">37</seg>
+  </item>
+<item xml:id="A07637-hans" n="24">
+    <seg type="character_name">A07637-hans</seg>
+    <seg type="speech_count">24</seg>
+  </item>
+  <item xml:id="A07637-hannecke" n="22">
+    <seg type="character_name">A07637-hannecke</seg>
+    <seg type="speech_count">22</seg>
+  </item>
+  <item xml:id="A07637-flutterkin" n="20">
+    <seg type="character_name">A07637-flutterkin</seg>
+    <seg type="speech_count">20</seg>
+  </item>
+  <item xml:id="A07637-sentinel" n="1">
+    <seg type="character_name">A07637-sentinel</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  <item xml:id="A07637-both" n="1">
+    <seg type="character_name">A07637-both</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+

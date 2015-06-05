@@ -1,0 +1,1170 @@
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A17871">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>The Masque at Lord Hay's Marriage<date type="creation_date">1607</date></title>
+        <author>Campion, Thomas</author>
+      </titleStmt>
+      <editionStmt>
+
+           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+           <editor>Martin Mueller</editor>
+           <respStmt>
+              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+              <name>Melina Yeh</name></respStmt>
+           <respStmt>
+              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+              <name>Philip R. Burns</name>
+           </respStmt>
+           <respStmt>
+              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+              with their number of speeches sorted from high to low by </resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+           <respStmt>
+              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+              <name>Martin Mueller</name>
+           </respStmt>
+
+        </editionStmt>
+      <publicationStmt>
+           <authority>
+              <name>Martin Mueller</name>
+              <address>
+            <addrLine>Department of English</addrLine>
+         <addrLine>Northwestern University</addrLine>
+         <addrLine>Evanston IL 60208</addrLine>
+         </address></authority>
+
+           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
+           <date>2015</date>
+           <idno type="SHC">SHC-A17871.xml</idno>
+        </publicationStmt>
+      <sourceDesc>
+        <biblFull n="TCP source">
+          <titleStmt>
+            <title type="_245">The discription of a maske, presented before the Kinges Maiestie at White-Hall, on Twelfth Night last in honour of the Lord Hayes, and his bride, daughter and heire to the Honourable the Lord Dennye, their marriage hauing been the same day at court solemnized. To this by occasion other small poemes are adioyned. Inuented and set forth by Thomas Campion doctor of phisicke.</title>
+            <author>Campion, Thomas, 1567-1620.</author>
+          </titleStmt>
+          <extent>20 600dpi TIFF G4 page images</extent>
+          <publicationStmt>
+            <publisher>University of Michigan, Digital Library Production Service</publisher>
+            <pubPlace>Ann Arbor, Michigan</pubPlace>
+            <date>2003 March (TCP phase 1)</date>
+            <idno type="marc">99843113</idno>
+            <idno type="stc">STC (2nd ed.) 4538.</idno>
+            <idno type="stc">Greg, I, 238.</idno>
+            <idno type="vid">7823</idno>
+            <idno type="DLPS">A17871</idno>
+            <availability>
+              <p>This keyboarded and encoded edition of the work described above is co-owned by the institutions providing financial support to the Early English Books Online Text Creation Partnership. Searching, reading, printing, or downloading EEBO-TCP texts is reserved for the authorized users of these project partner institutions. Permission must be granted for subsequent distribution, in print or electronically, of this text, in whole or in part. Please contact project staff at eebotcp-info@umich.edu for further information or permissions.</p>
+            </availability>
+          </publicationStmt>
+        </biblFull>
+        <biblFull n="printed source">
+          <titleStmt>
+            <title type="_245">The discription of a maske, presented before the Kinges Maiestie at White-Hall, on Twelfth Night last in honour of the Lord Hayes, and his bride, daughter and heire to the Honourable the Lord Dennye, their marriage hauing been the same day at court solemnized. To this by occasion other small poemes are adioyned. Inuented and set forth by Thomas Campion doctor of phisicke.</title>
+            <title type="alt">Discription of a maske, presented before the Kinges Majestie at White-Hall, on Twelfth Night last</title>
+            <author>Campion, Thomas, 1567-1620.</author>
+          </titleStmt>
+          <extent>[38] p. : ill., letterpress music.</extent>
+          <publicationStmt>
+            <publisher>Imprinted by Iohn Windet for Iohn Brovvn and are to be solde at his shop in S. Dunstones Churchyeard in Fleetstreet,</publisher>
+            <pubPlace>London :</pubPlace>
+            <date>1607.</date>
+          </publicationStmt>
+          <notesStmt>
+            <note>
+              <p>Signatures: A-E4.</p>
+            </note>
+            <note>
+              <p>The last leaf is blank.</p>
+            </note>
+            <note>
+              <p>Reproduction of the original in the Folger Shakespeare Library.</p>
+            </note>
+          </notesStmt>
+        </biblFull>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <projectDesc>
+        <p>
+This is a very early release with many imperfections. Contact martinmueller@northwestern.edu for corrections and improvement. For more information about the project go to http://scalablereading.northwestern.edu</p>
+      </projectDesc>
+      <editorialDecl n="4">
+        <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
+      </editorialDecl>
+    </encodingDesc>
+    <profileDesc>
+      <textClass>
+        <keywords scheme="lcsh">
+          <term>Carlisle, James Hay, -- Earl of, -- 1580-1636.</term>
+          <term>Carlisle, Honora Hay, -- Countess of, -- d. 1614.</term>
+          <term>Masques.</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text xml:lang="eng" xml:id="A17871-e100010">
+    <front xml:id="A17871-e100020">
+      <div type="title_page" xml:id="A17871-e100030">
+        <pb facs="1"/>
+        <pb facs="1"/>
+        <p xml:id="A17871-e100040">The description of a mask, presented before the King's majesty at white-hall, on twelfth night last, in honour of the lord Hayes, and his bride, daughter and heir to the honourable the lord Dennye, their marriage having been the same day at court solemnised. To this by occasion other small poems are adjoined.</p>
+        <p xml:id="A17871-e100050">Invented and set forth by Thomas Campion doctor of physic. </p>
+        <p xml:id="A17871-e100060">London imprinted by John Windet for John brown and are to be sold at his shop in s. Dunstones churchyard in Fleetstreet. 1607.</p>
+      </div>
+      <div type="illustration" xml:id="A17871-e100070">
+        <pb facs="2"/>
+        <p xml:id="A17871-e100080">
+          <figure xml:id="A17871-e100090"/>
+        </p>
+      </div>
+      <div type="dedication" xml:id="A17871-e100100">
+        <pb facs="2"/>
+        <head>To the most puissant and gracious James King of great Britain.</head>
+        <l xml:id="A17871-e100110">The disunited Scythians when they sought</l>
+        <l xml:id="A17871-e100120">To gather strength by parties, and combine</l>
+        <l xml:id="A17871-e100130">That perfect league of friends which once being wrought</l>
+        <l xml:id="A17871-e100140">No turn of time, or fortune could untwine,</l>
+        <l xml:id="A17871-e100150">This rite they held: a massy bowl was brought,</l>
+        <l xml:id="A17871-e100160">And every right arm shot his several blood</l>
+        <l xml:id="A17871-e100170">Into the mazzard till 'twas fully fraught,</l>
+        <l xml:id="A17871-e100180">Then having stirred it to an equal flood</l>
+        <l xml:id="A17871-e100190">They quaffed to th'union, which till death should last,</l>
+        <l xml:id="A17871-e100200">In spite of private foe, or foreign fear,</l>
+        <l xml:id="A17871-e100210">And this blood sacrament being known t'have past</l>
+        <l xml:id="A17871-e100220">Their names grew dreadful to all far, and near. </l>
+        <l xml:id="A17871-e100230">O then great monarch with how wise a care</l>
+        <l xml:id="A17871-e100240">Do you these bloods divided mix in one,</l>
+        <l xml:id="A17871-e100250">And with like consanguinities prepare</l>
+        <l xml:id="A17871-e100260">The high, and everliving union</l>
+        <l xml:id="A17871-e100270">'Tween Scots, and English: who can wonder then</l>
+        <l xml:id="A17871-e100280">If he that marries kingdoms, marries men? </l>
+        <div type="epigram" xml:id="A17871-e100290">
+          <head>An epigram.</head>
+          <l xml:id="A17871-e100300">Merlin, the great King Arthur being slain,</l>
+          <l xml:id="A17871-e100310">Foretold that he should come to life again,</l>
+          <l xml:id="A17871-e100320">And long time after wield great Britain's state</l>
+          <l xml:id="A17871-e100330">More powerful tenfold, and more fortunate. </l>
+          <l xml:id="A17871-e100340">Prophet 'tis true, and well we find the same,</l>
+          <l xml:id="A17871-e100350">Save only that thou didst mistake the name. </l>
+        </div>
+      </div>
+      <div type="dedication" xml:id="A17871-e100360">
+        <pb facs="3"/>
+        <head>Ad invictissimum, serenissimumque jacobum magnae britanniae regem.</head>
+        <l xml:id="A17871-e100370">Angliae, et unanimis scotiae pater, annè maritus</l>
+        <l xml:id="A17871-e100380">Sis duhito, an neuter, (Rex) vel uterque simul. </l>
+        <l xml:id="A17871-e100390">Uxores pariter binas sibi iungat ut unus,</l>
+        <l xml:id="A17871-e100400">Credimus hoc ipso te probibente nephas. </l>
+        <l xml:id="A17871-e100410">Atque, maritali natas violare par entem</l>
+        <l xml:id="A17871-e100420">Complexu, quis non cogitat esse scelus? </l>
+        <l xml:id="A17871-e100430">At tibi divinis successibus utraque nubit,</l>
+        <l xml:id="A17871-e100440">Una tamen coninx, coniugis unus amor. </l>
+        <l xml:id="A17871-e100450">Connubium o mirum? binas qui ducer, et uname</l>
+        <l xml:id="A17871-e100460">Possis? tu solus sic iacobe potes:</l>
+        <l xml:id="A17871-e100470">Divisa, leviterterras componis in unam,</l>
+        <l xml:id="A17871-e100480">Atque unam aeternum nomine, reque facis:</l>
+        <l xml:id="A17871-e100490">Natisque, et nuptis, pater et vir factus, utrisque es</l>
+        <l xml:id="A17871-e100500">Unitis ceniux verè, et amore parens. </l>
+      </div>
+      <div type="dedication" xml:id="A17871-e100510">
+        <pb facs="3"/>
+        <head>To the right noble and virtuous Theophilus Howard, lord of Walden, son and heir to the right honourable the Earl of Suffolk.</head>
+        <lg xml:id="A17871-e100520">
+          <l xml:id="A17871-e100530">If to be sprung of high and princely blood,</l>
+          <l xml:id="A17871-e100540">If to inherit virtue, honour, grace,</l>
+          <l xml:id="A17871-e100550">If to be great in all things, and yet good,</l>
+          <l xml:id="A17871-e100560">If to be facile, yet t'have power and place,</l>
+          <l xml:id="A17871-e100570">If to be just, and bountiful may get</l>
+          <l xml:id="A17871-e100580">The love of men, your right may challenge it. </l>
+        </lg>
+        <lg xml:id="A17871-e100590">
+          <l xml:id="A17871-e100600">The course of foreign manners far and wide,</l>
+          <l xml:id="A17871-e100610">The courts, the countries, cities, towns and state,</l>
+          <l xml:id="A17871-e100620">The blossom of your springing youth hath tried,</l>
+          <l xml:id="A17871-e100630">Honoured in every place and fortunate,</l>
+          <l xml:id="A17871-e100640">Which now grown fairer doth adorn our court</l>
+          <l xml:id="A17871-e100650">With princely revelling, and timely sport. </l>
+        </lg>
+        <lg xml:id="A17871-e100660">
+          <l xml:id="A17871-e100670">But if th'admired virtues of your youth</l>
+          <l xml:id="A17871-e100680">Breed such despairing to my daunted muse,</l>
+          <l xml:id="A17871-e100690">That it can scarcely utter naked truth,</l>
+          <l xml:id="A17871-e100700">How shall it mount as ravished spirits use</l>
+          <l xml:id="A17871-e100710">Under the burden of your riper days,</l>
+          <l xml:id="A17871-e100720">Or hope to reach the so far distant bays? </l>
+        </lg>
+        <lg xml:id="A17871-e100730">
+          <l xml:id="A17871-e100740">My slender muse shall yet my love express,</l>
+          <l xml:id="A17871-e100750">And by the fair Thames side of you she'll sing,</l>
+          <l xml:id="A17871-e100760">The double streams shall bear her willing verse</l>
+          <l xml:id="A17871-e100770">Far hence with murmur of their ebb and spring. </l>
+          <l xml:id="A17871-e100780">But if you favour her light tunes, ere long</l>
+          <l xml:id="A17871-e100790">She'll strive to raise you with a loftier song. </l>
+        </lg>
+      </div>
+      <div type="dedication" xml:id="A17871-e100800">
+        <pb facs="4"/>
+        <head>To the right virtuous, and honourable, the lord and lady Hayes</head>
+        <l xml:id="A17871-e100810">Should I presume to separate you now,</l>
+        <l xml:id="A17871-e100820">That were so lately joined by holy vow? </l>
+        <l xml:id="A17871-e100830">For whom this golden dream which I report,</l>
+        <l xml:id="A17871-e100840">Begotten so many waking eyes at court,</l>
+        <l xml:id="A17871-e100850">And for whose grace so many nobles changed,</l>
+        <l xml:id="A17871-e100860">Their names and habits from themselves estranged? </l>
+        <l xml:id="A17871-e100870">Accept together, and together view</l>
+        <l xml:id="A17871-e100880">This little work which all belongs to you,</l>
+        <l xml:id="A17871-e100890">And live together many blessed days,</l>
+        <l xml:id="A17871-e100900">To propagate the honoured name of Hayes. </l>
+        <div type="epigram" xml:id="A17871-e100910">
+          <head>Epigramma.</head>
+          <l xml:id="A17871-e100920">Haeredem (Ut spes est) pariet nova nupta scot 'Anglun,</l>
+          <l xml:id="A17871-e100930">Quem gignet post hac ille, Britannus erit. </l>
+          <l xml:id="A17871-e100940">Sicnova posteritas ex regnis orta dvobus,</l>
+          <l xml:id="A17871-e100950">Utrinque egregios nobilitabit avos. </l>
+        </div>
+      </div>
+    </front>
+    <body xml:id="A17871-e100960">
+      <div type="text" xml:id="A17871-e100970">
+        <pb facs="4"/>
+        <head>The description of a mask presented before the King's majesty at white hall, on twelft night last, in honour of the lord Hayes, and his bride, daughter, and heir to the honourable the lord Dennye, their marriage having been the same day at court solemnised.</head>
+        <p xml:id="A17871-e100980">As in battles, so in all other actions that are to be reported, the first, and most necessary part is the description of the place, with his opportunities, and properties, whether they be natural, or artificial. The great hall (Wherein the mask was presented) received this division, and order: the upper part where the cloth and chair of state were placed, had scaffolds and seats on either side continued to the screen; right before it was made a partition for the dancing place; on the right hand whereof were consorted ten musicians, with base and mean lutes, a Bandora, a double sackbut, and an harpsicord, with two<pb facs="5"/> treble violins; on the other side somewhat nearer the screen were placed 9. Violins and three lutes, and to answer both the consorts (As it were in a triangle) six cornets, and six chapel voices, were seated almost right against them, in a place raised higher in respect of the piercing sound of those instruments-eighteen foot from the screen, another stage was raised higher by a yard then that which was prepared for dancing: this higher stage was all enclosed with a double vale, so artificially painted, that it seemed as if dark clouds had hung before it: within that shroud was concealed a green valley, with green trees round about it, and in the midst of them nine golden trees of fifteen foot high, with arms and branches very glorious to behold: from the which grove towards the state was made a broad descent to the dancing place, just in the midst of it; on either hand were two ascents, like the sides of two hills, dressed with shrubs and trees; that on the right hand leading to the bower of Flora: the other to the house of night; which bower and house were placed opposite at either end of the screen, and between them both was raised a hill, hanging like a cliff over the grove below, and on the top of it a goodly large tree was set, supposed to be the tree of Diana; behind the which towards the window was a small descent, with another spreading hill that climbed up to the top of the window, with many trees on the height of it, whereby those that played on the hoboys at the King's entrance into the hall<pb facs="5"/> were shadowed: the bower of Flora was very spacious, garnished with all kind of flowers, and flowery branches with lights in them; the house of night ample, and stately, with black pillars, whereon many stars of gold were fixed: within it when it was empty, appeared nothing but clouds and stars, and on the top of it stood three turrets underpropped with small black starred pillars, the middlemost being highest and greatest, the other two of equal proportion: about it were placed on wire artificial Battes, and owls, continually moving: with many other inventions, the which for brevity's sake I pass by with silence.</p>
+        <p xml:id="A17871-e100990">Thus much for the place, and now from thence let us come to the persons.</p>
+        <p xml:id="A17871-e101000">The maskers names were these, (Whom both for order and honour I mention in the first place.</p>
+        <list xml:id="A17871-e101010">
+          <item xml:id="A17871-e101020">1 lord Walden. </item>
+          <item xml:id="A17871-e101030">2 sir Thomas Howard</item>
+          <item xml:id="A17871-e101040">3 sir Henry Carey, master of the jewel house. </item>
+          <item xml:id="A17871-e101050">4 sir Richard Preston, gent. of the K. privy chamber. </item>
+          <item xml:id="A17871-e101060">5 sir John Ashley, gent. of the K. privy chamber. </item>
+          <item xml:id="A17871-e101070">6 sir Thomas Jarret pensioner. </item>
+          <item xml:id="A17871-e101080">7 sir John Digby, one of the King's carvers. </item>
+          <item xml:id="A17871-e101090">8 sir Thomas Badger, master of the King's hariers. </item>
+          <item xml:id="A17871-e101100">9 master Goring. </item>
+        </list>
+        <p xml:id="A17871-e101110">Their number nine, the best and amplest of numbers, for as in music seven notes contain all variety, the eight being in nature the same with the<pb facs="6"/> first, so in numbering after the ninth we begin again, the tenth being as it were the diapason in arithmetic. The number of 9. is famed by the Muses, and worthies, and it is of all the most apt for change, and diversity of proportion. The chief habit which the maskers did use, is set forth to your view in the first leaf: they presented in their feigned persons the knights of Apollo, who is the father of heat, and youth, and consequently of amorous affections.</p>
+        <list xml:id="A17871-e101120">
+          <head>The speakers were in number four.</head>
+          <item xml:id="A17871-e101130">Flora the Queen of flowers, attired in a changeable taffety gown, with a large vale embroidered with flowers, a crown of flowers, and white buskins painted with flowers.</item>
+          <item xml:id="A17871-e101140">Zephyrus in a white loose robe of sky coloured taffety, with a mantle of white silk propped with wire, still waving behind him as he moved; on his head he wore a wreath of palm decked with primmeroses and violets, the hair of his head and beard were flaxen, and his buskins white, and painted with flowers.</item>
+          <item xml:id="A17871-e101150">Night in a close robe of black silk and gold, a black mantle embroidered with stars, a crown of stars on her head, her hair black and spangled with gold, her face black, her buskins black, and painted with stars, in her hand she bore a black wand, wreathed with gold.</item>
+          <item xml:id="A17871-e101160">Hesperus in a close robe of a deep crimson<pb facs="6"/> taffety mingled with sky colour, and over that a large loose robe of a lighter crimson taffety, on his head he wore a wreathed band of gold, with a star in the front thereof, his hair and beard red, and buskins yellow.</item>
+        </list>
+        <p xml:id="A17871-e101170">These are the principal persons that bear sway in this invention, others that are but secunders to these, I will describe in their proper places, discoursing the mask in order as it was performed.</p>
+        <p xml:id="A17871-e101180">As soon as the King was entered the great hall, the hoboys (Out of the wood on the top of the hill) entertained the time till his majesty and his train were placed, and then after a little expectation the consort of ten began to play an air, at the sound whereof the vale on the right hand was withdrawn, and the ascent of the hill with the bower of Flora were discovered, where Flora and Zephyrus were busily plucking flowers from the bower, and throwing them into two baskets, which two silvans held, who were attired in changeable taffety, with wreathes of flowers on their heads. As soon as the baskets were filled, they came down in this order, first Zephyrus and Flora, than the two silvans with baskets after them: four silvans in green taffety, and wreathes, two bearing mean lutes, the third a base lute, and the fourth a deep Bandora.</p>
+        <p xml:id="A17871-e101190">As soon as they came to the descent towards the dancing place, the consort of ten ceased, and the four silvans played the same air, to which Zephyrus and the two other silvans did sing these words in a base, tenor, and treble voice, and going up and<pb facs="7"/> down as they sung, they strewed flowers all about the place.</p>
+        <lg xml:id="A17871-e101200">
+          <l xml:id="A17871-e101210"><note anchored="true" place="margin" xml:id="A17871-e101220">song. </note>now hath Flora robbed her bowers</l>
+          <l xml:id="A17871-e101230">To befriend this place with flowers;</l>
+          <l xml:id="A17871-e101240">Strow about, strow about,</l>
+          <l xml:id="A17871-e101250">The sky rained never kindlier showers. </l>
+          <l xml:id="A17871-e101260">Flowers with bridals well agree,</l>
+          <l xml:id="A17871-e101270">Fresh as brides, and bridegrooms be,</l>
+          <l xml:id="A17871-e101280">Strow about, strow about,</l>
+          <l xml:id="A17871-e101290">And mix them with fit melody. </l>
+          <l xml:id="A17871-e101300">Earth hath no princelier flowers</l>
+          <l xml:id="A17871-e101310">Than roses white, and roses red,</l>
+          <l xml:id="A17871-e101320">But they must still be mingled. </l>
+          <l xml:id="A17871-e101330">And as a rose new plucked from Venus' thorn</l>
+          <l xml:id="A17871-e101340">So doth a bride her bride grooms bed adorn. </l>
+        </lg>
+        <lg xml:id="A17871-e101350">
+          <l xml:id="A17871-e101360">Divers divers flowers affect</l>
+          <l xml:id="A17871-e101370">For some private dear respect,</l>
+          <l xml:id="A17871-e101380">Strow about, strew about,</l>
+          <l xml:id="A17871-e101390">Let every one his own protect. </l>
+          <l xml:id="A17871-e101400">But he's none of Flora's friend</l>
+          <l xml:id="A17871-e101410">That will not the rose commend. </l>
+          <l xml:id="A17871-e101420">Strew about, strew about,</l>
+          <l xml:id="A17871-e101430">Let princes princely flowers defend. </l>
+          <l xml:id="A17871-e101440">Roses the gardens pride,</l>
+          <l xml:id="A17871-e101450">Are flowers for love, and flowers for Kings,</l>
+          <l xml:id="A17871-e101460">In courts desired, and weddings. </l>
+          <l xml:id="A17871-e101470">And as a rose in Venus' bosom worn,</l>
+          <l xml:id="A17871-e101480">So doth a bridegroom his bride's bed adorn. </l>
+        </lg>
+        <p xml:id="A17871-e101490"><pb facs="7"/>The music ceaseth, and Flora speaks.</p>
+        <sp xml:id="A17871-e101500" who="A17871-flora">
+          <speaker>Flora</speaker>
+          <l xml:id="A17871-e101510">Flowers and good wishes Flora doth present,</l>
+          <l xml:id="A17871-e101520">Sweet flowers, the ceremonious ornament</l>
+          <l xml:id="A17871-e101530">Of maiden marriage, beauty figuring,</l>
+          <l xml:id="A17871-e101540">And blooming youth, which though we careless fling</l>
+          <l xml:id="A17871-e101550">About this sacred place, let none profane</l>
+          <l xml:id="A17871-e101560">Think that these fruits from common hills are ta'en,</l>
+          <l xml:id="A17871-e101570">Or vulgar valleys which do subject lie</l>
+          <l xml:id="A17871-e101580">To winter's wrath, and cold mortality. </l>
+          <l xml:id="A17871-e101590">But these are hallowed and immortal flowers</l>
+          <l xml:id="A17871-e101600">With Flora's hands gathered from Flora's bowers. </l>
+          <l xml:id="A17871-e101610">Such are her presents, endless, as her love,</l>
+          <l xml:id="A17871-e101620">And such for ever may this night's joy prove. </l>
+        </sp>
+        <sp xml:id="A17871-e101630" who="A17871-zephyrus">
+          <speaker>Zeph.</speaker>
+          <l xml:id="A17871-e101640">For ever endless may this night's joy prove,<note anchored="true" place="margin" xml:id="A17871-e101650">Zephyrus. The western wind, of all the most mild, and pleasant, who with Venus the Queen of love is said to bring in the spring, when natural heat and appetite reviveth and the glad earth begins to be beautified with flowers,</note></l>
+          <l xml:id="A17871-e101660">So echoes Zephyrus the friend of love. </l>
+          <l xml:id="A17871-e101670">Whose aid Venus implores when she doth bring</l>
+          <l xml:id="A17871-e101680">Into the naked world the green leafed spring. </l>
+          <l xml:id="A17871-e101690">When of the sun's warm beams the nets we weave</l>
+          <l xml:id="A17871-e101700">That can the stubbornest heart with love deceive. </l>
+          <l xml:id="A17871-e101710">That Queen of beauty, and desire by me</l>
+          <l xml:id="A17871-e101720">Breathes gently forth this bridal prophecy. </l>
+          <l xml:id="A17871-e101730">Faithful and fruitful shall these bedmates prove,</l>
+          <l xml:id="A17871-e101740">Blessed in their fortunes, honoured in their love. </l>
+        </sp>
+        <sp xml:id="A17871-e101750" who="A17871-flora">
+          <speaker>Flor.</speaker>
+          <l xml:id="A17871-e101760">All grace this night, and silvans so must you,</l>
+          <l xml:id="A17871-e101770">Offering your marriage song with changes new</l>
+        </sp>
+        <p xml:id="A17871-e101780"><pb facs="8"/>The song in form of a dialogue.</p>
+        <sp xml:id="A17871-e101790" who="A17871-cantus">
+          <speaker>Can.</speaker>
+          <l xml:id="A17871-e101800">Who is the happier of the two,</l>
+          <l xml:id="A17871-e101810">A maid, or wife? </l>
+        </sp>
+        <sp xml:id="A17871-e101820" who="A17871-tenor">
+          <speaker>Ten.</speaker>
+          <l xml:id="A17871-e101830">Which is more to be desired</l>
+          <l xml:id="A17871-e101840">Peace or strife? </l>
+        </sp>
+        <sp xml:id="A17871-e101850" who="A17871-cantus">
+          <speaker>Can.</speaker>
+          <l xml:id="A17871-e101860">What strife can be where two are one,</l>
+          <l xml:id="A17871-e101870">Or what delight to pine alone? </l>
+        </sp>
+        <sp xml:id="A17871-e101880" who="A17871-bas">
+          <speaker>Bas.</speaker>
+          <l xml:id="A17871-e101890">None such true friends, none so sweet life,</l>
+          <l xml:id="A17871-e101900">As that between the man and wife. </l>
+        </sp>
+        <sp xml:id="A17871-e101910" who="A17871-tenor">
+          <speaker>Ten.</speaker>
+          <l xml:id="A17871-e101920">A maid is free, a wife is tied. </l>
+        </sp>
+        <sp xml:id="A17871-e101930" who="A17871-cantus">
+          <speaker>Can.</speaker>
+          <l xml:id="A17871-e101940">No maid but fain would be a bride. </l>
+        </sp>
+        <sp xml:id="A17871-e101950" who="A17871-tenor">
+          <speaker>Ten.</speaker>
+          <l xml:id="A17871-e101960">Why live so many single then. </l>
+          <l xml:id="A17871-e101970">'Tis not I hope for want of men? </l>
+        </sp>
+        <sp xml:id="A17871-e101980" who="A17871-cantus">
+          <speaker>Can.</speaker>
+          <l xml:id="A17871-e101990">The bow and arrow both may fit,</l>
+          <l xml:id="A17871-e102000">And yet 'tis hard the mark to hit. </l>
+        </sp>
+        <sp xml:id="A17871-e102010" who="A17871-bas">
+          <speaker>Bas.</speaker>
+          <l xml:id="A17871-e102020">He levels fair that by his side</l>
+          <l xml:id="A17871-e102030">Lays at night his lovely bride. </l>
+        </sp>
+        <sp xml:id="A17871-e102040" who="A17871-chorus">
+          <speaker>Chorus</speaker>
+          <l xml:id="A17871-e102050">Sing Io: Hymen, io: io: Hymen. </l>
+        </sp>
+        <p xml:id="A17871-e102060">This song being ended the whole vale is suddenly drawn, the grove and trees of gold, and the hill with Diana's tree are at once discovered.</p>
+        <p xml:id="A17871-e102070">Night appears in her house with her 9. hours, apparelled in large robes of black taffety, painted thick with stars, their hairs long, black, and spangled with gold, on their heads coronets of stars and their faces black, every hour bore in his hand a black torch, painted with stars, and lighted. Night presently descending from her house spoke as followeth.</p>
+        <sp xml:id="A17871-e102080" who="A17871-night">
+          <pb facs="8"/>
+          <speaker>Night</speaker>
+          <l xml:id="A17871-e102090">Vanish dark vales, let night in glory shine</l>
+          <l xml:id="A17871-e102100">As she doth burn in rage, come leave our shrine</l>
+          <l xml:id="A17871-e102110">You black haired hours, and guide us with your lights,<note anchored="true" place="margin" xml:id="A17871-e102120">Diana. The moon and Queen of virginity, is said to be regent and empress of night, and is therefore by night defended as in her quarrel for the loss of the bride, her virgin.</note></l>
+          <l xml:id="A17871-e102130">Flora hath wakened wide our drowsy sprights</l>
+          <l xml:id="A17871-e102140">See where she triumphs, see her flowers are thrown,</l>
+          <l xml:id="A17871-e102150">And all about the seeds of malice sown? </l>
+          <l xml:id="A17871-e102160">Despiteful Flora is't not enough of grief</l>
+          <l xml:id="A17871-e102170">That Cynthia's robbed, but thou must grace the thief? </l>
+          <l xml:id="A17871-e102180">Or didst not hear night's sovereign Queen complain</l>
+          <l xml:id="A17871-e102190">Hymen had stolen a nymph out of her train. </l>
+          <l xml:id="A17871-e102200">And matched her here plighted henceforth to be</l>
+          <l xml:id="A17871-e102210">Love's friend, and stranger to virginity</l>
+          <l xml:id="A17871-e102220">And mak'st thou sport for this? </l>
+        </sp>
+        <sp xml:id="A17871-e102230" who="A17871-flora">
+          <speaker>Flora.</speaker>
+          <l xml:id="A17871-e102240">Be mild stern night</l>
+          <l xml:id="A17871-e102250">Flora doth honour Cinthia, and her right,</l>
+          <l xml:id="A17871-e102260">Virginity is a voluntary power,</l>
+          <l xml:id="A17871-e102270">Free from constraint, even like an untouched flower</l>
+          <l xml:id="A17871-e102280">Meet to be gathered when 'tis thoroughly blown. </l>
+          <l xml:id="A17871-e102290">The nymph was Cinthia's while she was her own,</l>
+          <l xml:id="A17871-e102300">But now another claims in her a right</l>
+          <l xml:id="A17871-e102310">By fate reserved thereto, and wise foresight. </l>
+        </sp>
+        <sp xml:id="A17871-e102320" who="A17871-zephyrus">
+          <speaker>Zeph.</speaker>
+          <l xml:id="A17871-e102330">Can Cynthia one kind virgins loss bemoan? </l>
+          <l xml:id="A17871-e102340">How if perhaps she brings her ten for one? </l>
+          <l xml:id="A17871-e102350">Or can she miss one in so full a train? </l>
+          <l xml:id="A17871-e102360">Your goddess doth of too much store complain. </l>
+          <l xml:id="A17871-e102370">If all her nymphs would ask advice of me</l>
+          <l xml:id="A17871-e102380">There should be fewer virgins than there be. </l>
+          <l xml:id="A17871-e102390">Nature ordained not men to live alone,</l>
+          <l xml:id="A17871-e102400">Where there are two, a woman should be one. </l>
+        </sp>
+        <sp xml:id="A17871-e102410" who="A17871-night">
+          <pb facs="9"/>
+          <speaker>Night.</speaker>
+          <l xml:id="A17871-e102420">Thou breathest sweet poison wanton Zephyrus</l>
+          <l xml:id="A17871-e102430">But Cynthia must not be deluded thus. </l>
+          <l xml:id="A17871-e102440">Her holy forests are by thieves profaned,</l>
+          <l xml:id="A17871-e102450">Her virgins frighted, and lo, where they stand</l>
+          <l xml:id="A17871-e102460">That late were Phoebus knights, turned now to trees</l>
+          <l xml:id="A17871-e102470">By Cynthia's vengement for their injuries</l>
+          <l xml:id="A17871-e102480">In seeking to seduce her nymphs with love:</l>
+          <l xml:id="A17871-e102490">Here they are sixth and never may remove</l>
+          <l xml:id="A17871-e102500">But by Diana's power that stuck them here. </l>
+          <l xml:id="A17871-e102510">Apollo's love to them doth yet appear,</l>
+          <l xml:id="A17871-e102520">In that his beams hath guilt them a they grow,</l>
+          <l xml:id="A17871-e102530">To make their misery yield the greater show. </l>
+          <l xml:id="A17871-e102540">But they shall tremble when sad night doth speak,</l>
+          <l xml:id="A17871-e102550">And at her stormy words their boughs shall break. </l>
+        </sp>
+        <p xml:id="A17871-e102560">Towards the end of this speech Hesperus begins to descend by the house of night, and by that time the speech was finished he was ready to speak.</p>
+        <sp xml:id="A17871-e102570" who="A17871-hesperus">
+          <speaker>Hesp.</speaker>
+          <l xml:id="A17871-e102580"><note anchored="true" place="margin" xml:id="A17871-e102590">Hesperus. The evening star foreshows that the wished marriage night is hand, and for that cause is supposed to be the friend of bridegrooms, and brides.</note>hail reverend angry night, hail Queen of flowers,</l>
+          <l xml:id="A17871-e102600">Mild spirited Zephyrus hail, silvans and hours. </l>
+          <l xml:id="A17871-e102610">Hesperus brings peace, cease then your needless jars</l>
+          <l xml:id="A17871-e102620">Here in this little firmament of stars. </l>
+          <l xml:id="A17871-e102630">Cynthia is now by Phoebus pacified,</l>
+          <l xml:id="A17871-e102640">And well content her nymph is made a bride ▪</l>
+          <l xml:id="A17871-e102650">Since the fair match was by that Phoebus graced</l>
+          <l xml:id="A17871-e102660">Which in this happy western I'll is placed</l>
+          <l xml:id="A17871-e102670">As he in heaven, one lamp enlightening all</l>
+          <l xml:id="A17871-e102680">That under his benign aspect doth fall ▪</l>
+          <l xml:id="A17871-e102690"><pb facs="9"/> deep oracles he speaks, and he alone</l>
+          <l xml:id="A17871-e102700">For arts and wisdoms meet for Phoebus throne. </l>
+          <l xml:id="A17871-e102710">The nymph is honoured, and Diana pleased:</l>
+          <l xml:id="A17871-e102720">Night be you then, and your black hours appeased ▪</l>
+          <l xml:id="A17871-e102730">And friendly listen what your Queen by me</l>
+          <l xml:id="A17871-e102740">Farther commands, let this my credence be,</l>
+          <l xml:id="A17871-e102750">View it, and know it for the highest gem,</l>
+          <l xml:id="A17871-e102760">That hung on her imperial diadem. </l>
+        </sp>
+        <sp xml:id="A17871-e102770" who="A17871-night">
+          <speaker>Night.</speaker>
+          <l xml:id="A17871-e102780">I know, and honour it lovely Hesperus,</l>
+          <l xml:id="A17871-e102790">Speak then your message, both are welcome to</l>
+        </sp>
+        <sp xml:id="A17871-e102800" who="A17871-hesperus">
+          <speaker>Hesp</speaker>
+          <l xml:id="A17871-e102810">Your sovereign from the virtuous gem she sends us.</l>
+          <l xml:id="A17871-e102820">Bids you take power to retransform the friends</l>
+          <l xml:id="A17871-e102830">Of Phoebus, metamorphosed here to trees,</l>
+          <l xml:id="A17871-e102840">And give them straight the shapes which they did lose. </l>
+        </sp>
+        <p xml:id="A17871-e102850">This is her pleasure.</p>
+        <sp xml:id="A17871-e102860" who="A17871-night">
+          <speaker>Night.</speaker>
+          <l xml:id="A17871-e102870">Hesperus I obey,</l>
+          <l xml:id="A17871-e102880">Night must needs yield when Phoebus gets the day. </l>
+        </sp>
+        <sp xml:id="A17871-e102890" who="A17871-flora">
+          <speaker>Flo.</speaker>
+          <l xml:id="A17871-e102900">Honoured be Cynthia for this generous deed. </l>
+        </sp>
+        <sp xml:id="A17871-e102910" who="A17871-zephyrus">
+          <speaker>Zep.</speaker>
+          <l xml:id="A17871-e102920">Pity grows only from celestial seed. </l>
+        </sp>
+        <sp xml:id="A17871-e102930" who="A17871-night">
+          <speaker>Night.</speaker>
+          <l xml:id="A17871-e102940">If all seem glad, why should we only lower? </l>
+          <l xml:id="A17871-e102950">Since t'express gladness we have now most power. </l>
+          <l xml:id="A17871-e102960">Frolic graced captives, we present you here</l>
+          <l xml:id="A17871-e102970">This glass, wherein your liberties appear,</l>
+          <l xml:id="A17871-e102980">Cynthia is pacified, and now blithe night</l>
+          <l xml:id="A17871-e102990">Begins to shake off melancholy quite. </l>
+        </sp>
+        <sp xml:id="A17871-e103000" who="A17871-zephyrus">
+          <pb facs="10"/>
+          <speaker>Ze.</speaker>
+          <l xml:id="A17871-e103010">Who should grace mirth, and revels but the night,</l>
+          <l xml:id="A17871-e103020">Next love she should be goddess of delight. </l>
+        </sp>
+        <sp xml:id="A17871-e103030" who="A17871-night">
+          <speaker>N.</speaker>
+          <l xml:id="A17871-e103040">'Tis now a time when (Zephyrus) all with dancing</l>
+          <l xml:id="A17871-e103050">Honour me, above day my state advancing. </l>
+          <l xml:id="A17871-e103060">I'll now be frolic, all is full of heart,</l>
+          <l xml:id="A17871-e103070">And e'en these trees for joy shall bear a part. </l>
+          <l xml:id="A17871-e103080">Zephyrus they shall dance. </l>
+        </sp>
+        <sp xml:id="A17871-e103090" who="A17871-zephyrus">
+          <speaker>Zeph.</speaker>
+          <l xml:id="A17871-e103100">Dance goddess? how? </l>
+        </sp>
+        <sp xml:id="A17871-e103110" who="A17871-night">
+          <speaker>Night.</speaker>
+          <l xml:id="A17871-e103120">Seems that so full of strangeness to you now? </l>
+          <l xml:id="A17871-e103130">Did not the Thracian harp long since the same? </l>
+          <l xml:id="A17871-e103140">And (If we rip the old records of fame)</l>
+          <l xml:id="A17871-e103150">Did not Amphion's lyre the deaf stones call,</l>
+          <l xml:id="A17871-e103160">When they came dancing to the Theban wall? </l>
+          <l xml:id="A17871-e103170">Can music then joy? joy mountains moves</l>
+          <l xml:id="A17871-e103180">And why not trees? joys powerful when it loves. </l>
+          <l xml:id="A17871-e103190">Could the religious oak speak oracle</l>
+          <l xml:id="A17871-e103200">Like to the gods? and the tree wounded tell</l>
+          <l xml:id="A17871-e103210">T'aeneas his sad story? have trees therefore</l>
+          <l xml:id="A17871-e103220">The instruments of speech, and hearing more</l>
+          <l xml:id="A17871-e103230">Than they've of pacing, and to whom but night</l>
+          <l xml:id="A17871-e103240">Belong enchantments? who can more affright</l>
+          <l xml:id="A17871-e103250">The eye with magic wonders? Night alone</l>
+          <l xml:id="A17871-e103260">Is fit for miracles, and this shall be one</l>
+          <l xml:id="A17871-e103270">Apt for this nuptial dancing jollity. </l>
+          <l xml:id="A17871-e103280">Earth then be soft and passable to free</l>
+          <l xml:id="A17871-e103290">These fettered roots? joy trees the time draws near</l>
+          <l xml:id="A17871-e103300">When in your better forms you shall appear. </l>
+          <l xml:id="A17871-e103310">Dancing, and music must prepare the way,</l>
+          <l xml:id="A17871-e103320">There's little tedious time in such delay. </l>
+          <p xml:id="A17871-e103330"><pb facs="10"/>This spoken, the four silvans played on their instruments the first strain of this song following: and at the repetition thereof the voices sell in with the instruments which were thus divided, a treble and a base were placed near his majesty, and another treble and base near the grove, that the words of the song might be heard of all, because the trees of gold instantly at the first sound of their voices began to move, and dance according to the measure of the time which the musicians kept in singing, and the nature of the words which they delivered.</p>
+          <lg xml:id="A17871-e103340">
+            <l xml:id="A17871-e103350">Move now with measured sound</l>
+            <l xml:id="A17871-e103360">You charmed grove of gold,<note anchored="true" place="margin" xml:id="A17871-e103370">song. </note></l>
+            <l xml:id="A17871-e103380">Trace forth the sacred ground</l>
+            <l xml:id="A17871-e103390">That shall your forms unfold. </l>
+          </lg>
+          <lg xml:id="A17871-e103400">
+            <l xml:id="A17871-e103410">Diana, and the starry night for your Apollo's sake</l>
+            <l xml:id="A17871-e103420">Endue your sylvan shapes with power this strange delight to make</l>
+            <l xml:id="A17871-e103430">Much joy must needs the place betide where trees for gladness move,</l>
+            <l xml:id="A17871-e103440">A fairer sight was ne'er beheld, or more expressing love. </l>
+          </lg>
+          <lg xml:id="A17871-e103450">
+            <l xml:id="A17871-e103460">Yet nearer Phoebus throne</l>
+            <l xml:id="A17871-e103470">Meet on your winding ways,</l>
+            <l xml:id="A17871-e103480">Your bridal mirth make known</l>
+            <l xml:id="A17871-e103490">In your high-graced hayes. </l>
+          </lg>
+          <lg xml:id="A17871-e103500">
+            <l xml:id="A17871-e103510">Let Hymen lead your sliding rounds, and guide them with his light,</l>
+            <l xml:id="A17871-e103520">While we do jo Hymen sing in honour of this night</l>
+            <l xml:id="A17871-e103530">Join three by three, for so the night by triple spell decrees</l>
+            <l xml:id="A17871-e103540">Now to release Apollo's knights from these enchanted trees. </l>
+          </lg>
+        </sp>
+        <p xml:id="A17871-e103550"><pb facs="11"/>This dancing song being ended, the golden trees stood in ranks three by three, and night ascended up to the grove, and spoke thus, touching the first three severally with her wand.</p>
+        <sp xml:id="A17871-e103560" who="A17871-night">
+          <speaker>Night</speaker>
+          <l xml:id="A17871-e103570">By virtue of this wand, and touch divine,</l>
+          <l xml:id="A17871-e103580">These sylvan shadows back to earth resign,</l>
+          <l xml:id="A17871-e103590">Your native forms resume, with habit fair,</l>
+          <l xml:id="A17871-e103600">While solemn music shall enchant the air</l>
+          <p xml:id="A17871-e103610">Presently the silvans with their four instruments,<note anchored="true" place="margin" xml:id="A17871-e103620">either by the simplicity, negligence, or conspiracy of the painter, the passing away of the trees was somewhat hazarded the pattern of them the same day having been shown with much admiration, and the 9 trees being left unsett together even to the same night. </note>and five voices, began to play, and sing together the song following at the beginning whereof that part of the stage whereon the first three trees stood began to yield, and the three foremost trees gently to sink, and this was effected, by an engine placed under the stage. When the trees had sunk a yard they cleft in three parts, and the maskers appeared out of the tops of them, the trees were suddenly conveyed away, and the first three maskers were raised again by the engine. They appeared then in a false habit, yet very fair, and in form not much unlike their principal, and true robe. It was made of green taffety cut into leaves, and laid upon cloth of silver, and their hats were suitable to the same.</p>
+          <l xml:id="A17871-e103630"><note anchored="true" place="margin" xml:id="A17871-e103640">song of transformation. </note>night, and Diana charge,</l>
+          <l xml:id="A17871-e103650">And th'earth obeys</l>
+          <l xml:id="A17871-e103660">Opening large</l>
+          <l xml:id="A17871-e103670">Her secret ways,</l>
+          <l xml:id="A17871-e103680">While Apollo's charmed men</l>
+          <l xml:id="A17871-e103690">Their forms receive again. </l>
+          <l xml:id="A17871-e103700"><pb facs="11"/>Give gracious Phoebus honour then,</l>
+          <l xml:id="A17871-e103710">And so fall down, and rest behind the train</l>
+          <l xml:id="A17871-e103720">Give gracious Phoebus honour then and so fall etc. </l>
+        </sp>
+        <p xml:id="A17871-e103730">When those words were sung, the three maskers made an honour to the King, and so falling back the other six trees three by three came forward, and when they were in their appointed places night spoke ▪ again thus</p>
+        <sp xml:id="A17871-e103740" who="A17871-night">
+          <speaker>Night</speaker>
+          <l xml:id="A17871-e103750">Thus can celestials work in humane fate,</l>
+          <l xml:id="A17871-e103760">Transform, and form as they do love or hate. </l>
+          <l xml:id="A17871-e103770">Like touch, and change receive: the gods agree</l>
+          <l xml:id="A17871-e103780">The best of numbers is contained in three. </l>
+          <p xml:id="A17871-e103790">The song of transformation again.</p>
+          <l xml:id="A17871-e103800">Night and Diana, etc. </l>
+        </sp>
+        <p xml:id="A17871-e103810">Then night touched the second three trees and the stage sunk with them as before. And in brief the second three did in all points as the first: then night spoke again.</p>
+        <sp xml:id="A17871-e103820" who="A17871-night">
+          <speaker>Night</speaker>
+          <l xml:id="A17871-e103830">The last, and third of nine, touch magic wand,</l>
+          <l xml:id="A17871-e103840">And give them back their forms at nights command</l>
+        </sp>
+        <p xml:id="A17871-e103850">Night touched the third 3. trees and the same charm of night and Diana was sung the third time, the last three trees were transformed, and the maskers raised. When presently the first music began his full chorus. </p>
+        <sp xml:id="A17871-e103860" who="A17871-missing">
+          <l xml:id="A17871-e103870"><pb facs="12"/>Again this song revive and sound it high,</l>
+          <l xml:id="A17871-e103880">Long live Apollo Britain's glorious eye. </l>
+        </sp>
+        <p xml:id="A17871-e103890">This chorus was in manner of an echo, seconded by the cornets, then by the consort of ten, then by the consort of twelve, and by a double chorus of voices standing on either side, the one against the other bearing five voices a piece, and sometime every chorus was heard severally, sometime mixed, but in the end altogether: which kind of harmony so distinguished by the place, and by the several nature of instruments, and changeable conveyance of the song, and performed by so many excellent masters, as were actors in that music, (Their number in all amounting to forty two voices and instruments) could not but yield great satisfaction to the hearers.</p>
+        <p xml:id="A17871-e103900">While this chorus was repeated twice over, the nine maskers in their green habits solemnly descended to the dancing place, in such order as they were to begin their dance, and as soon as the chorus ended, the violins, or consort of twelve began to play the second new dance, which was taken in form of an echo by the cornets, and then caught in like manner by the consort often, sometime they mingled two musics together; sometime played all at once; which kind of echoing music rarely became their sylvan attire, and was so truly mixed together, that no dance could ever be better graced than that, as (In such distraction of music) it was performed by the maskers. After this dance night descended from the grove, and addressed her speech to the maskers, as followeth.</p>
+        <sp xml:id="A17871-e103910" who="A17871-night">
+          <pb facs="12"/>
+          <speaker>Night</speaker>
+          <l xml:id="A17871-e103920">Phoebus is pleased, and all rejoice to see</l>
+          <l xml:id="A17871-e103930">His servants, from their golden prison free,</l>
+          <l xml:id="A17871-e103940">But yet since Cinthia hath so friendly smiled,</l>
+          <l xml:id="A17871-e103950">And to you tree-born knights, is reconciled,</l>
+          <l xml:id="A17871-e103960">First ere you any more work undertake,</l>
+          <l xml:id="A17871-e103970">About her tree solemn procession make,</l>
+          <l xml:id="A17871-e103980">Diana's tree, the tree of chastity,</l>
+          <l xml:id="A17871-e103990">That placed alone on yonder hill you see. </l>
+          <l xml:id="A17871-e104000">These green leafed robes wherein disguised you made</l>
+          <l xml:id="A17871-e104010">Stealths to her nymphs through the thick forest's shade</l>
+          <l xml:id="A17871-e104020">There to the goddess offer thankfully,</l>
+          <l xml:id="A17871-e104030">That she may not in vain appeased be. </l>
+          <l xml:id="A17871-e104040">The night shall guide you, and her hours attend you</l>
+          <l xml:id="A17871-e104050">That no ill eyes, or spirits shall offend you. </l>
+        </sp>
+        <p xml:id="A17871-e104060">At the end of this speech night began to lead the way alone, and after her an hour with his torch and after the hour a masker, and so in order one by one, a torchbearer and a masker, they march on towards Diana's tree. When the maskers came by the house of night, every one by his hour received his helmet, and had his false robe plucked off, and bearing it in his hand, with a low honour offered it at the tree of chastity, and so in his glorious habit, with his hour before him marched to the bower of Flora. The shape of their habit the picture before discovers, the stuff was of carnation satin laid thick with broad silver lace, their helmets being made of the same stuff. So through the bower of Flora they came, where they joined two torch-bearers, and two maskers, and when they passed down to the grove: the hours parted on either side, and made way between them for the maskers, who descended<pb facs="13"/> to the dancing place in such order as they were to begin their third new dance. All this time of procession the six cornets, and six chapel voices sung a solemn motet of six parts made upon these words.</p>
+        <lg xml:id="A17871-e104070">
+          <l xml:id="A17871-e104080">With spotless minds now mount we to the tree</l>
+          <l xml:id="A17871-e104090">Of single chastity. </l>
+          <l xml:id="A17871-e104100">The root is temperance grounded deep</l>
+          <l xml:id="A17871-e104110">Which the cold juiced earth doth steep:</l>
+          <l xml:id="A17871-e104120">Water it desires alone,</l>
+          <l xml:id="A17871-e104130">Other drink it thirsts for none:</l>
+          <l xml:id="A17871-e104140">Therewith the sober branches it doth feed,</l>
+          <l xml:id="A17871-e104150">Which though they fruitless be,</l>
+          <l xml:id="A17871-e104160">Yet comely leaves they breed,</l>
+          <l xml:id="A17871-e104170">To beautify the tree,</l>
+          <l xml:id="A17871-e104180">Cynthia protectress is, and for her sake,</l>
+          <l xml:id="A17871-e104190">We this grave procession make. </l>
+          <l xml:id="A17871-e104200">Chaste eyes and ears, pure hearts, and voices</l>
+          <l xml:id="A17871-e104210">Are graces wherein Phoebe most rejoices. </l>
+        </lg>
+        <p xml:id="A17871-e104220">The motet being ended the violins began the third new dance, which was lively performed by the maskers, after which they took forth the ladies, and danced the measures with them, which being finished, the maskers brought the ladies back again to their places: and Hesperus with the rest descended from the grove into the dancing place, and spoke to the maskers as followeth.</p>
+        <sp xml:id="A17871-e104230" who="A17871-hesperus">
+          <speaker>Hesperus</speaker>
+          <l xml:id="A17871-e104240">Knights of Apollo proud of your new birth,</l>
+          <l xml:id="A17871-e104250">Pursue your triumphs still with joy and mirth,</l>
+          <l xml:id="A17871-e104260">Your changed fortunes, and redeem estate</l>
+          <l xml:id="A17871-e104270">Hesperus to your sovereign will relate,</l>
+          <l xml:id="A17871-e104280">'Tis now high time he were far hence retired,</l>
+          <l xml:id="A17871-e104290"><pb facs="13"/> th'old bridal friend, that usher's night desired</l>
+          <l xml:id="A17871-e104300">Through the dim evening shades, then taking flight</l>
+          <l xml:id="A17871-e104310">Gives place and honour to the nuptial night. </l>
+          <l xml:id="A17871-e104320">I that wish't evening star must now make way</l>
+          <l xml:id="A17871-e104330">To Hymen's rights much wronged by my delay. </l>
+          <l xml:id="A17871-e104340">But on night's princely state you ought t'attend,</l>
+          <l xml:id="A17871-e104350">And t'honour your new reconciled friend. </l>
+        </sp>
+        <sp xml:id="A17871-e104360" who="A17871-night">
+          <speaker>Night</speaker>
+          <l xml:id="A17871-e104370">Hesperus as you with concord came, e'en so</l>
+          <l xml:id="A17871-e104380">'Tis meet that you with concord hence should go</l>
+          <l xml:id="A17871-e104390">Then join you that in voice, and art excel,</l>
+          <l xml:id="A17871-e104400">To give this star a musical farewell. </l>
+        </sp>
+        <p xml:id="A17871-e104410">A dialogue of four voices two bases and two trebles.</p>
+        <sp xml:id="A17871-e104420" who="A17871-xxxx_1">
+          <speaker>1</speaker>
+          <l xml:id="A17871-e104430">Of all the stars which is the kindest</l>
+          <l xml:id="A17871-e104440">To a loving bride? </l>
+        </sp>
+        <sp xml:id="A17871-e104450" who="A17871-xxxx_2">
+          <speaker>2</speaker>
+          <l xml:id="A17871-e104460">Hesperus when in the West</l>
+          <l xml:id="A17871-e104470">He doth the day from night divide. </l>
+        </sp>
+        <sp xml:id="A17871-e104480" who="A17871-xxxx_1">
+          <speaker>1</speaker>
+          <l xml:id="A17871-e104490">What message can be more respected</l>
+          <l xml:id="A17871-e104500">Than that which tells wish't joys shall be effected? </l>
+        </sp>
+        <sp xml:id="A17871-e104510" who="A17871-xxxx_2">
+          <speaker>2</speaker>
+          <l xml:id="A17871-e104520">Do not brides watch the evening star? </l>
+        </sp>
+        <sp xml:id="A17871-e104530" who="A17871-xxxx_1">
+          <speaker>1</speaker>
+          <l xml:id="A17871-e104540">O they can discern it far:</l>
+        </sp>
+        <sp xml:id="A17871-e104550" who="A17871-xxxx_2">
+          <speaker>2</speaker>
+          <l xml:id="A17871-e104560">Love bridegroom's revels? </l>
+        </sp>
+        <sp xml:id="A17871-e104570" who="A17871-xxxx_1">
+          <speaker>1</speaker>
+          <l xml:id="A17871-e104580">But for fashion. </l>
+        </sp>
+        <sp xml:id="A17871-e104590" who="A17871-xxxx_2">
+          <speaker>2</speaker>
+          <l xml:id="A17871-e104600">And why? </l>
+        </sp>
+        <sp xml:id="A17871-e104610" who="A17871-xxxx_1">
+          <speaker>1</speaker>
+          <l xml:id="A17871-e104620">They hinder wished occasion. </l>
+        </sp>
+        <sp xml:id="A17871-e104630" who="A17871-xxxx_2">
+          <speaker>2</speaker>
+          <l xml:id="A17871-e104640">Longing hearts and new delights,</l>
+          <l xml:id="A17871-e104650">Love short days, and long nights</l>
+        </sp>
+        <sp xml:id="A17871-e104660" who="A17871-chorus">
+          <speaker>Chorus.</speaker>
+          <l xml:id="A17871-e104670">Hesperus since you all stars excel</l>
+          <l xml:id="A17871-e104680">In bridal kindness kindly farewell farewell. </l>
+        </sp>
+        <p xml:id="A17871-e104690">While these words of the chorus (Kindly farewell farewell) were in singing often repeated Hesperus took his leave seven ally of night, Flora, and Zephyrus, the hours, and silvans, and so while the chorus was sung over the second time, he was got<pb facs="14"/> up to the grove, where turning again to the singers, and they to him. Hesperus took a second farewell of them, and so passed away by the house of night: then night spoke these two lines, and therewith all retired to the grove where they stood before.</p>
+        <sp xml:id="A17871-e104700" who="A17871-night">
+          <speaker>Night.</speaker>
+          <l xml:id="A17871-e104710">Come Flora let us now withdraw our train</l>
+          <l xml:id="A17871-e104720">That th'eclipsed revels may shine forth again</l>
+        </sp>
+        <p xml:id="A17871-e104730">Now the maskers began their lighter dances as currantoes, levaltas and galliards, wherein when they had spent as much time as they thought fit, night spoke thus from the grove, and in her speech descended a little into the dancing place.</p>
+        <sp xml:id="A17871-e104740" who="A17871-night">
+          <speaker>N.</speaker>
+          <l xml:id="A17871-e104750">Here stay, night leaden-eyed, and sprighted grows</l>
+          <l xml:id="A17871-e104760">And her late hours begin to hang their brows</l>
+          <l xml:id="A17871-e104770">Hymen long since the bridal bed hath dressed,</l>
+          <l xml:id="A17871-e104780">And longs to bring the turtles to their nest. </l>
+          <l xml:id="A17871-e104790">Then with one quick dence sound up your delight,</l>
+          <l xml:id="A17871-e104800">And with one song we'll bid you all god-night. </l>
+        </sp>
+        <p xml:id="A17871-e104810">At the end of these words, the violins began the 4. new dance, which was excellently discharged by the maskers, and it ended with a light change of music and measure: after the dance followed this dialogue of 2 voices, a base and tenor sung by a sylvan, and an hour. </p>
+        <sp xml:id="A17871-e104820" who="A17871-multiple">
+          <speaker>Ten: sylvan.</speaker>
+          <l xml:id="A17871-e104830">Tell me gentle hour of night</l>
+          <l xml:id="A17871-e104840">Wherein dost thou most delight? </l>
+        </sp>
+        <sp xml:id="A17871-e104850" who="A17871-multiple">
+          <speaker>Bas. hour.</speaker>
+          <l xml:id="A17871-e104860">Not in sleep,</l>
+        </sp>
+        <sp xml:id="A17871-e104870" who="A17871-silvan">
+          <speaker>Sil.</speaker>
+          <l xml:id="A17871-e104880">Wherein then? </l>
+        </sp>
+        <sp xml:id="A17871-e104890" who="A17871-hour">
+          <speaker>Hour</speaker>
+          <l xml:id="A17871-e104900">In the frolic view of men? </l>
+        </sp>
+        <sp xml:id="A17871-e104910" who="A17871-silvan">
+          <speaker>Sil</speaker>
+          <l xml:id="A17871-e104920">Lovest thou music? </l>
+        </sp>
+        <sp xml:id="A17871-e104930" who="A17871-hour">
+          <speaker>Hour</speaker>
+          <l xml:id="A17871-e104940">O 'tis sweet. </l>
+        </sp>
+        <sp xml:id="A17871-e104950" who="A17871-silvan">
+          <speaker>Sil.</speaker>
+          <l xml:id="A17871-e104960">What's dancing? </l>
+        </sp>
+        <sp xml:id="A17871-e104970" who="A17871-hour">
+          <speaker>How.</speaker>
+          <l xml:id="A17871-e104980">E'en the mirth of feet</l>
+        </sp>
+        <sp xml:id="A17871-e104990" who="A17871-silvan">
+          <speaker>Sil.</speaker>
+          <l xml:id="A17871-e105000">Joy you in fairies and idleness? </l>
+        </sp>
+        <sp xml:id="A17871-e105010" who="A17871-hour">
+          <speaker>How.</speaker>
+          <l xml:id="A17871-e105020">We are of that sore ourselves,</l>
+          <l xml:id="A17871-e105030">But sylvan say why do you love</l>
+          <l xml:id="A17871-e105040"><pb facs="14"/> only to frequent the grove? </l>
+        </sp>
+        <sp xml:id="A17871-e105050" who="A17871-silvan">
+          <speaker>Sil.</speaker>
+          <l xml:id="A17871-e105060">Life is fullest of content</l>
+          <l xml:id="A17871-e105070">Where delight is innocent. </l>
+        </sp>
+        <sp xml:id="A17871-e105080" who="A17871-hour">
+          <speaker>How.</speaker>
+          <l xml:id="A17871-e105090">Pleasure must vary not be long,</l>
+          <l xml:id="A17871-e105100">Come then let's close, and end our song. </l>
+        </sp>
+        <sp xml:id="A17871-e105110" who="A17871-chorus">
+          <speaker>Chorus</speaker>
+          <l xml:id="A17871-e105120">Yet ere we vanish from this princely sight,</l>
+          <l xml:id="A17871-e105130">Let us bid Phoebus, and his states goodnight</l>
+        </sp>
+        <p xml:id="A17871-e105140">This chorus was performed with several echoes of music, and voices, in manner as the great chorus before. At the end whereof the maskers putting off their vizards, and helmets, made a low honour to the King, and attended his ma: to the banquetting place</p>
+        <lg xml:id="A17871-e105150">
+          <head>To the reader.</head>
+          <l xml:id="A17871-e105160">Neither buskin now, nor bays</l>
+          <l xml:id="A17871-e105170">Challenge I, a lady's praise</l>
+          <l xml:id="A17871-e105180">Shall content my proudest hope,</l>
+          <l xml:id="A17871-e105190">Their applause was all my scope</l>
+          <l xml:id="A17871-e105200">And to their shrines properly</l>
+          <l xml:id="A17871-e105210">Revels dedicated be:</l>
+          <l xml:id="A17871-e105220">Whose soft ears none ought to pierce</l>
+          <l xml:id="A17871-e105230">But with smooth and gentle verse,</l>
+          <l xml:id="A17871-e105240">Let the tragic poem swell,</l>
+          <l xml:id="A17871-e105250">Raising raging fiends from hell,</l>
+          <l xml:id="A17871-e105260">And let epic dactyls range</l>
+          <l xml:id="A17871-e105270">Swelling seas and country's strange. </l>
+          <l xml:id="A17871-e105280">Little room small things contains</l>
+          <l xml:id="A17871-e105290">Easy praise quites easy pains. </l>
+          <l xml:id="A17871-e105300">Suffer them whose brows do sweat</l>
+          <l xml:id="A17871-e105310">To gain honour by the great. </l>
+          <l xml:id="A17871-e105320">It's enough if men me name</l>
+          <l xml:id="A17871-e105330">A retailer of such fame. </l>
+        </lg>
+        <lg xml:id="A17871-e105340">
+          <head>Epigramma.</head>
+          <l xml:id="A17871-e105350">Quid tu te numeris immisces? anne medentem</l>
+          <l xml:id="A17871-e105360">Metra cathedratum ludicra scripta decent</l>
+          <l xml:id="A17871-e105370">Musicus et medicus, celebris quoque Phoebe poeta es</l>
+          <l xml:id="A17871-e105380">Et lepor aegrotos arte rogante iuuat. </l>
+          <l xml:id="A17871-e105390">Crede mihi doctum qui carmen non sapit, idem</l>
+          <l xml:id="A17871-e105400">Non habet ingentum, nec genium medici. </l>
+        </lg>
+        <trailer xml:id="A17871-e105410">Finis.</trailer>
+      </div>
+    </body>
+    <back xml:id="A17871-e105420">
+      <div type="songs" xml:id="A17871-e105430">
+        <pb facs="20"/>
+        <head>These songs were used in the mask, whereof the first two airs were made by m. Campion, the third and last by m, Lupo, the fourth by m. Tho. Giles, and though the last three airs were devised only for dancing, yet they are here set forth with words that they may be sung to the lute or viol.</head>
+        <div type="song" xml:id="A17871-e105440">
+          <head>A tenor part to the first song.</head>
+          <l xml:id="A17871-e105450">
+            <gap reason="music" xml:id="A17871-e105460" n="20-a-0750"/>
+          </l>
+          <l xml:id="A17871-e105470">Now hath Flora robbed her bowers to be friend this place with flowers</l>
+          <l xml:id="A17871-e105480">Flowers with bridals well agree fresh as brides and bridegrooms be</l>
+          <l xml:id="A17871-e105490">
+            <gap reason="music" xml:id="A17871-e105500" n="20-a-1000"/>
+          </l>
+          <l xml:id="A17871-e105510">Strew about strew about the sky rained never kindlier showers,</l>
+          <l xml:id="A17871-e105520">Strew about strew about and mix them with fit melody,</l>
+          <l xml:id="A17871-e105530">
+            <gap reason="music" xml:id="A17871-e105540" n="20-a-1230"/>
+          </l>
+          <l xml:id="A17871-e105550">Earth hath no princelier flowers than roses white and roses red, but they must</l>
+          <l xml:id="A17871-e105560">
+            <gap reason="music" xml:id="A17871-e105570" n="20-a-1390"/>
+          </l>
+          <l xml:id="A17871-e105580">Still be mingled and as a rose new plucked from Venus' thorn so doth a bride</l>
+          <l xml:id="A17871-e105590">
+            <gap reason="music" xml:id="A17871-e105600" n="20-a-1560"/>
+          </l>
+          <l xml:id="A17871-e105610">Her bridegrooms bed adorn. </l>
+        </div>
+        <div n="1" type="song" xml:id="A17871-e105620">
+          <pb facs="15"/>
+          <head>I.</head>
+          <l xml:id="A17871-e105630">
+            <gap reason="music" xml:id="A17871-e105640" n="15-a-0030"/>
+          </l>
+          <l xml:id="A17871-e105650">Now hath Flora robbed her bowers to befriend this place with flowers,</l>
+          <l xml:id="A17871-e105660">Flowers with bridal - dals well agree: fresh as brides and bridegrooms be. </l>
+          <l xml:id="A17871-e105670">
+            <gap reason="music" xml:id="A17871-e105680" n="15-a-0320"/>
+          </l>
+          <l xml:id="A17871-e105690">
+            <gap reason="music" xml:id="A17871-e105700" n="15-a-0330"/>
+          </l>
+          <l xml:id="A17871-e105710">Strew about strew about the sky rained never kindlier showers,</l>
+          <l xml:id="A17871-e105720">Strew about strew about and mix them with sit melody,</l>
+          <l xml:id="A17871-e105730">
+            <gap reason="music" xml:id="A17871-e105740" n="15-a-0560"/>
+          </l>
+          <l xml:id="A17871-e105750">
+            <gap reason="music" xml:id="A17871-e105760" n="15-a-0570"/>
+          </l>
+          <l xml:id="A17871-e105770">Earth hath no princelier flowers than roses white and roses red,</l>
+          <l xml:id="A17871-e105780">
+            <gap reason="music" xml:id="A17871-e105790" n="15-a-0700"/>
+          </l>
+          <l xml:id="A17871-e105800">
+            <pb facs="15"/>
+            <gap reason="music" xml:id="A17871-e105810" n="15-b-0010"/>
+          </l>
+          <l xml:id="A17871-e105820">But they must still be mingled and as a rose new plucked from</l>
+          <l xml:id="A17871-e105830">
+            <gap reason="music" xml:id="A17871-e105840" n="15-b-0150"/>
+          </l>
+          <l xml:id="A17871-e105850">
+            <gap reason="music" xml:id="A17871-e105860" n="15-b-0160"/>
+          </l>
+          <l xml:id="A17871-e105870">Venus' thorn so doth a bride her bridegrooms bed adorn. </l>
+          <l xml:id="A17871-e105880">
+            <gap reason="music" xml:id="A17871-e105890" n="15-b-0280"/>
+          </l>
+        </div>
+        <div n="1" type="bass" xml:id="A17871-e105900">
+          <head>The base. i.</head>
+          <l xml:id="A17871-e105910">
+            <gap reason="music" xml:id="A17871-e105920" n="15-b-0340"/>
+          </l>
+          <l xml:id="A17871-e105930">
+            <gap reason="music" xml:id="A17871-e105940" n="15-b-0350"/>
+          </l>
+          <l xml:id="A17871-e105950">
+            <gap reason="music" xml:id="A17871-e105960" n="15-b-0360"/>
+          </l>
+        </div>
+        <div n="2" type="song" xml:id="A17871-e105970">
+          <pb facs="16"/>
+          <head>Ii.</head>
+          <l xml:id="A17871-e105980">
+            <gap reason="music" xml:id="A17871-e105990" n="16-a-0020"/>
+          </l>
+          <l xml:id="A17871-e106000">Move now with measured sound you charmed groves of gold</l>
+          <l xml:id="A17871-e106010">Trace forth the sacred ground that shall your forms unfold </l>
+          <l xml:id="A17871-e106020">
+            <gap reason="music" xml:id="A17871-e106030" n="16-a-0240"/>
+          </l>
+          <l xml:id="A17871-e106040">
+            <gap reason="music" xml:id="A17871-e106050" n="16-a-0250"/>
+          </l>
+          <l xml:id="A17871-e106060">Di-ana and the starry night for your Apollo's sake</l>
+          <l xml:id="A17871-e106070">Much joy must needs the place betide where trees for gladness move</l>
+          <l xml:id="A17871-e106080">
+            <gap reason="music" xml:id="A17871-e106090" n="16-a-0480"/>
+          </l>
+          <l xml:id="A17871-e106100">
+            <gap reason="music" xml:id="A17871-e106110" n="16-a-0490"/>
+          </l>
+          <l xml:id="A17871-e106120">En - due your sylvan shapes with power this strange delight to make</l>
+          <l xml:id="A17871-e106130">A fairer sight was near be - held or more expressing love. </l>
+          <l xml:id="A17871-e106140">
+            <gap reason="music" xml:id="A17871-e106150" n="16-a-0760"/>
+          </l>
+          <trailer xml:id="A17871-e106160">Finis.</trailer>
+        </div>
+        <div n="2" type="bass" xml:id="A17871-e106170">
+          <pb facs="16"/>
+          <head>The base ii.</head>
+          <l xml:id="A17871-e106180">
+            <gap reason="music" xml:id="A17871-e106190" n="16-b-0040"/>
+          </l>
+          <l xml:id="A17871-e106200">Move now with measured sound you charmed grove of gold, Diana and</l>
+          <l xml:id="A17871-e106210">Trace forth the sacred ground that shall your forms unfold, much joy must needs</l>
+          <l xml:id="A17871-e106220">
+            <gap reason="music" xml:id="A17871-e106230" n="16-b-0340"/>
+          </l>
+          <l xml:id="A17871-e106240">The starry night for your Apollo's sake endue your sylvan shape with power this</l>
+          <l xml:id="A17871-e106250">The place betide where trees for gladness move, a fairer fight was ne'er beheld or</l>
+          <l xml:id="A17871-e106260">
+            <gap reason="music" xml:id="A17871-e106270" n="16-b-0650"/>
+          </l>
+          <l xml:id="A17871-e106280">Strange delight to make,</l>
+          <l xml:id="A17871-e106290">More expressing love. </l>
+          <l xml:id="A17871-e106300">
+            <gap reason="music" xml:id="A17871-e106310" n="16-b-0750"/>
+          </l>
+          <l xml:id="A17871-e106320">
+            <gap reason="music" xml:id="A17871-e106330" n="16-b-0760"/>
+          </l>
+        </div>
+        <div n="3" type="song" xml:id="A17871-e106340">
+          <l xml:id="A17871-e106350">
+            <pb facs="17"/>
+            <gap reason="music" xml:id="A17871-e106360" n="17-a-0010"/>
+          </l>
+          <l xml:id="A17871-e106370">Shows and nightly revels signs of joy and peace fill royal</l>
+          <l xml:id="A17871-e106380">Fair and princely branches with strong arms increase from that deep</l>
+          <l xml:id="A17871-e106390">
+            <gap reason="music" xml:id="A17871-e106400" n="17-a-0240"/>
+          </l>
+          <l xml:id="A17871-e106410">
+            <gap reason="music" xml:id="A17871-e106420" n="17-a-0250"/>
+          </l>
+          <l xml:id="A17871-e106430">Britain's court while cruel war far off doth rage for ever hence.</l>
+          <l xml:id="A17871-e106440">Rooted tree whose sacred strength and glory foreign malice hath. </l>
+          <l xml:id="A17871-e106450">
+            <gap reason="music" xml:id="A17871-e106460" n="17-a-0500"/>
+          </l>
+          <l xml:id="A17871-e106470">
+            <gap reason="music" xml:id="A17871-e106480" n="17-a-0510"/>
+          </l>
+          <l xml:id="A17871-e106490">Exiled our divided kingdoms now in friendly kindred meet</l>
+          <l xml:id="A17871-e106500">Beguiled truly reconciled grief appears at last more sweet</l>
+          <l xml:id="A17871-e106510">
+            <gap reason="music" xml:id="A17871-e106520" n="17-a-0720"/>
+          </l>
+          <l xml:id="A17871-e106530">
+            <pb facs="17"/>
+            <gap reason="music" xml:id="A17871-e106540" n="17-b-0010"/>
+          </l>
+          <l xml:id="A17871-e106550">And old debate to love and kindness turns our power with double force v -</l>
+          <l xml:id="A17871-e106560">Both to ourselves and faithful friends our un-der-mi-ning foes of -</l>
+          <l xml:id="A17871-e106570">
+            <gap reason="music" xml:id="A17871-e106580" n="17-b-0300"/>
+          </l>
+          <l xml:id="A17871-e106590">
+            <gap reason="music" xml:id="A17871-e106600" n="17-b-0310"/>
+          </l>
+          <l xml:id="A17871-e106610">Niting.</l>
+          <l xml:id="A17871-e106620">Frighting. </l>
+          <l xml:id="A17871-e106630">
+            <gap reason="music" xml:id="A17871-e106640" n="17-b-0360"/>
+          </l>
+        </div>
+        <div n="3" type="bass" xml:id="A17871-e106650">
+          <head>The base iii.</head>
+          <l xml:id="A17871-e106660">
+            <gap reason="music" xml:id="A17871-e106670" n="17-b-0410"/>
+          </l>
+          <l xml:id="A17871-e106680">
+            <gap reason="music" xml:id="A17871-e106690" n="17-b-0420"/>
+          </l>
+          <l xml:id="A17871-e106700">
+            <gap reason="music" xml:id="A17871-e106710" n="17-b-0430"/>
+          </l>
+        </div>
+        <div n="4" type="song" xml:id="A17871-e106720">
+          <l xml:id="A17871-e106730">
+            <pb facs="18"/>
+            <gap reason="music" xml:id="A17871-e106740" n="18-a-0010"/>
+          </l>
+          <l xml:id="A17871-e106750">Triumph now with joy and mirth the god of peace hath</l>
+          <l xml:id="A17871-e106760">We enjoy- the fruits of earth through favour of his</l>
+          <l xml:id="A17871-e106770">
+            <gap reason="music" xml:id="A17871-e106780" n="18-a-0250"/>
+          </l>
+          <l xml:id="A17871-e106790">
+            <gap reason="music" xml:id="A17871-e106800" n="18-a-0260"/>
+          </l>
+          <l xml:id="A17871-e106810">Blessed our land we through his most loving grace a King and King lie</l>
+          <l xml:id="A17871-e106820">Bounteous hand like a son with lesser stars or careful shepherd</l>
+          <l xml:id="A17871-e106830">
+            <gap reason="music" xml:id="A17871-e106840" n="18-a-0530"/>
+          </l>
+          <l xml:id="A17871-e106850">
+            <gap reason="music" xml:id="A17871-e106860" n="18-a-0540"/>
+          </l>
+          <l xml:id="A17871-e106870">Seed behold triumph then and yield him praise that gives us blessed and</l>
+          <l xml:id="A17871-e106880">To his fold. </l>
+          <l xml:id="A17871-e106890">
+            <gap reason="music" xml:id="A17871-e106900" n="18-a-0720"/>
+          </l>
+          <l xml:id="A17871-e106910">
+            <pb facs="18"/>
+            <gap reason="music" xml:id="A17871-e106920" n="18-b-0010"/>
+          </l>
+          <l xml:id="A17871-e106930">Joyful days. </l>
+          <l xml:id="A17871-e106940">
+            <gap reason="music" xml:id="A17871-e106950" n="18-b-0050"/>
+          </l>
+        </div>
+        <div n="4" type="bass" xml:id="A17871-e106960">
+          <head>The base. Iiii -</head>
+          <l xml:id="A17871-e106970">
+            <gap reason="music" xml:id="A17871-e106980" n="18-b-0110"/>
+          </l>
+          <l xml:id="A17871-e106990">
+            <gap reason="music" xml:id="A17871-e107000" n="18-b-0120"/>
+          </l>
+        </div>
+        <div n="5" type="song" xml:id="A17871-e107010">
+          <pb facs="19"/>
+          <head>V</head>
+          <l xml:id="A17871-e107020">
+            <gap reason="music" xml:id="A17871-e107030" n="19-a-0020"/>
+          </l>
+          <l xml:id="A17871-e107040">Time that leads the fatal round hath made his centre in our ground</l>
+          <l xml:id="A17871-e107050">And there at one stay he rests and with the fates keeps holy feasts</l>
+          <l xml:id="A17871-e107060">
+            <gap reason="music" xml:id="A17871-e107070" n="19-a-0300"/>
+          </l>
+          <l xml:id="A17871-e107080">
+            <gap reason="music" xml:id="A17871-e107090" n="19-a-0310"/>
+          </l>
+          <l xml:id="A17871-e107100">With swelling seas 'em - braced light Cupid's there do dance and</l>
+          <l xml:id="A17871-e107110">With pomp and pastime graced their songs are all of joy no sign</l>
+          <l xml:id="A17871-e107120">
+            <gap reason="music" xml:id="A17871-e107130" n="19-a-0570"/>
+          </l>
+          <l xml:id="A17871-e107140">
+            <gap reason="music" xml:id="A17871-e107150" n="19-a-0580"/>
+          </l>
+          <l xml:id="A17871-e107160">Venus sweetly sings with heavenly notes tuned to sound of</l>
+          <l xml:id="A17871-e107170">Of sorrow there but all as stars glistering fair and</l>
+          <l xml:id="A17871-e107180">
+            <gap reason="music" xml:id="A17871-e107190" n="19-a-0790"/>
+          </l>
+          <l xml:id="A17871-e107200">
+            <pb facs="19"/>
+            <gap reason="music" xml:id="A17871-e107210" n="19-b-0010"/>
+          </l>
+          <l xml:id="A17871-e107220">Silver strings,</l>
+          <l xml:id="A17871-e107230">Blithe appear. </l>
+          <l xml:id="A17871-e107240">
+            <gap reason="music" xml:id="A17871-e107250" n="19-b-0080"/>
+          </l>
+          <trailer xml:id="A17871-e107260">Finis.</trailer>
+        </div>
+        <div n="5" type="bass" xml:id="A17871-e107270">
+          <head>The base v.</head>
+          <l xml:id="A17871-e107280">
+            <gap reason="music" xml:id="A17871-e107290" n="19-b-0150"/>
+          </l>
+          <l xml:id="A17871-e107300">
+            <gap reason="music" xml:id="A17871-e107310" n="19-b-0160"/>
+          </l>
+          <pb facs="20"/>
+        </div>
+      </div>
+      <div type="machine-generated_castlist"><list n="A17871"><item xml:id="A17871-night" n="14">
+    <seg type="character_name">A17871-night</seg>
+    <seg type="speech_count">14</seg>
+  </item>
+  <item xml:id="A17871-xxxx_1" n="5">
+    <seg type="character_name">A17871-xxxx_1</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A17871-xxxx_2" n="5">
+    <seg type="character_name">A17871-xxxx_2</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A17871-silvan" n="5">
+    <seg type="character_name">A17871-silvan</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A17871-zephyrus" n="5">
+    <seg type="character_name">A17871-zephyrus</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+  <item xml:id="A17871-hour" n="5">
+    <seg type="character_name">A17871-hour</seg>
+    <seg type="speech_count">5</seg>
+  </item>
+<item xml:id="A17871-flora" n="4">
+    <seg type="character_name">A17871-flora</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A17871-cantus" n="4">
+    <seg type="character_name">A17871-cantus</seg>
+    <seg type="speech_count">4</seg>
+  </item>
+  <item xml:id="A17871-hesperus" n="3">
+    <seg type="character_name">A17871-hesperus</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A17871-chorus" n="3">
+    <seg type="character_name">A17871-chorus</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A17871-tenor" n="3">
+    <seg type="character_name">A17871-tenor</seg>
+    <seg type="speech_count">3</seg>
+  </item>
+  <item xml:id="A17871-bas" n="2">
+    <seg type="character_name">A17871-bas</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A17871-multiple" n="2">
+    <seg type="character_name">A17871-multiple</seg>
+    <seg type="speech_count">2</seg>
+  </item>
+  <item xml:id="A17871-missing" n="1">
+    <seg type="character_name">A17871-missing</seg>
+    <seg type="speech_count">1</seg>
+  </item>
+  </list>
+  </div>
+      <div type="textual_notes">
+        <head>Textual Notes</head>
+        <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
+
+</p>
+      </div>
+    </back>
+  </text>
+</TEI>
+
