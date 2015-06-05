@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A00456">
   <teiHeader>
     <fileDesc>
@@ -1894,7 +1894,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="they" ana="#pns" xml:id="A00456-006870" facs="3-a-0660">they</w>
             <c> </c>
-            <w lemma="the" part="I" ana="#d" xml:id="A00456-006880.1" facs="3-a-0670" rendition="y-sup">the</w>
+            <w lemma="the" part="I" ana="#d" xml:id="A00456-006880.1" facs="3-a-0670">
+              <choice>
+                <orig>ye</orig>
+                <reg>the</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="man" ana="#n1" xml:id="A00456-006900" facs="3-a-0680">man</w>
             <c> </c>
@@ -6072,7 +6077,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                     </choice>
                   </w>
                   <c> </c>
-                  <w lemma="you" part="I" ana="#pn" xml:id="A00456-021920.1" facs="5-a-1470" rendition="y-sup">ye</w>
+                  <w lemma="you" part="I" ana="#pn" xml:id="A00456-021920.1" facs="5-a-1470">ye</w>
                   <c> </c>
                   <w lemma="ground" ana="#n1" xml:id="A00456-021940" facs="5-a-1480">ground</w>
                   <pc xml:id="A00456-021950" unit="sentence" facs="5-a-1490">.</pc>
@@ -12205,7 +12210,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="like" ana="#j" xml:id="A00456-045080" facs="8-b-0380">like</w>
             <c> </c>
-            <w lemma="you" part="I" ana="#pn" xml:id="A00456-045090.1" facs="8-b-0390" rendition="y-sup">ye</w>
+            <w lemma="you" part="I" ana="#pn" xml:id="A00456-045090.1" facs="8-b-0390">ye</w>
             <c> </c>
             <w lemma="can" ana="#vmd2" xml:id="A00456-045110" facs="8-b-0400">couldst</w>
             <c> </c>
@@ -23289,7 +23294,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="now" ana="#av" xml:id="A00456-085120" facs="14-a-3890">now</w>
             <c> </c>
-            <w lemma="the" part="I" ana="#d" xml:id="A00456-085130.1" facs="14-a-3900" rendition="y-sup">the</w>
+            <w lemma="the" part="I" ana="#d" xml:id="A00456-085130.1" facs="14-a-3900">
+              <choice>
+                <orig>ye</orig>
+                <reg>the</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="case" ana="#n1" xml:id="A00456-085150" facs="14-a-3910">case</w>
             <pc xml:id="A00456-085160" facs="14-a-3920">,</pc>
@@ -24947,7 +24957,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A00456-090950.1" facs="15-a-2040" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A00456-090950.1" facs="15-a-2040">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="bear" ana="#vvd" xml:id="A00456-090970" facs="15-a-2050">
               <choice>
@@ -25000,7 +25015,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="you" part="I" ana="#pn" xml:id="A00456-091130.1" facs="15-a-2210" rendition="y-sup">ye</w>
+            <w lemma="you" part="I" ana="#pn" xml:id="A00456-091130.1" facs="15-a-2210">ye</w>
             <c> </c>
             <w lemma="suck" ana="#vvi" xml:id="A00456-091150" facs="15-a-2220">
               <choice>
@@ -28213,6 +28228,293 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A00456-000230" xml:id="A00456-1-b-0210">
+          <label>A00456-1-b-0210</label>
+          <sic>Chast●●●e</sic>
+          <seg>expressed a rare example of the vertue of</seg>
+          <corr>Chastitie</corr>
+          <seg>, by Virginias constancy , in wishing rather</seg>
+        </note>
+        <note target="A00456-000930" xml:id="A00456-1-b-0730">
+          <label>A00456-1-b-0730</label>
+          <sic>Subteruus</sic>
+          <seg/>
+          <corr>Subseruus</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A00456-000970" xml:id="A00456-1-b-0750">
+          <label>A00456-1-b-0750</label>
+          <sic>Aptus</sic>
+          <seg/>
+          <corr>Apius</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A00456-001420" xml:id="A00456-1-b-1020">
+          <label>A00456-1-b-1020</label>
+          <sic>Kichard</sic>
+          <seg>Imprinted at London , by William How , for</seg>
+          <corr>Richard</corr>
+          <seg>Ihones . 1575.</seg>
+        </note>
+        <note target="A00456-001550" xml:id="A00456-2-b-0050">
+          <label>A00456-2-b-0050</label>
+          <sic>cup●●</sic>
+          <seg>Qui</seg>
+          <corr>cupis</corr>
+          <seg>aethereas &amp; summas scandere sedes Vim simul</seg>
+        </note>
+        <note target="A00456-001590" xml:id="A00456-2-b-0090">
+          <label>A00456-2-b-0090</label>
+          <sic>s●andere</sic>
+          <seg>Qui cupis aethereas &amp; summas</seg>
+          <corr>scandere</corr>
+          <seg>sedes Vim simul ac fraudem discute chare</seg>
+        </note>
+        <note target="A00456-001600" xml:id="A00456-2-b-0100">
+          <label>A00456-2-b-0100</label>
+          <sic>sed●●</sic>
+          <seg>Qui cupis aethereas &amp; summas scandere</seg>
+          <corr>sedes</corr>
+          <seg>Vim simul ac fraudem discute chare tibi</seg>
+        </note>
+        <note target="A00456-003910" xml:id="A00456-2-b-2390">
+          <label>A00456-2-b-2390</label>
+          <sic>same</sic>
+          <seg>euer , Do imitate the life you sée , whose</seg>
+          <corr>fame</corr>
+          <seg>will perish neuer , But Virgins you , oh</seg>
+        </note>
+        <note target="A00456-007180" xml:id="A00456-3-a-0960">
+          <label>A00456-3-a-0960</label>
+          <sic>aiso</sic>
+          <seg>, to runne and turne againe : They framed</seg>
+          <corr>also</corr>
+          <seg>after this , out of his tender side , A</seg>
+        </note>
+        <note target="A00456-009800" xml:id="A00456-3-a-3540">
+          <label>A00456-3-a-3540</label>
+          <sic>insected</sic>
+          <seg>Phoebus with his beames , hath youth so much</seg>
+          <corr>infected</corr>
+          <seg>, It doth me wee to see them craue the thing</seg>
+        </note>
+        <note target="A00456-010540" xml:id="A00456-3-a-4240">
+          <label>A00456-3-a-4240</label>
+          <sic>●e●el</sic>
+          <seg/>
+          <corr>Refel</corr>
+          <seg>your minde of mournig plaints , deare mother</seg>
+        </note>
+        <note target="A00456-011060" xml:id="A00456-3-b-0410">
+          <label>A00456-3-b-0410</label>
+          <sic>disp●es</sic>
+          <seg>Glope and eke the Clement , they would me els</seg>
+          <corr>dispiese</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A00456-015040" xml:id="A00456-4-a-0900">
+          <label>A00456-4-a-0900</label>
+          <sic>sortunate</sic>
+          <seg>all measure : Such a happy spouse , such a</seg>
+          <corr>fortunate</corr>
+          <seg>dame , That no blot or staine , can impayre</seg>
+        </note>
+        <note target="A00456-016420" xml:id="A00456-4-a-2200">
+          <label>A00456-4-a-2200</label>
+          <sic>rightwell</sic>
+          <seg>thy wishing for woe , My selfe thy faute</seg>
+          <corr>right well</corr>
+          <seg>do know : And rather I wish my selfe</seg>
+        </note>
+        <note target="A00456-023530" xml:id="A00456-5-b-0340">
+          <label>A00456-5-b-0340</label>
+          <sic>m●●er</sic>
+          <seg>els a countrie cloune A Brumman , a Baskit</seg>
+          <corr>maker</corr>
+          <seg>, or a Baker of Pies , A flesh or a Fishmonger</seg>
+        </note>
+        <note target="A00456-023650" xml:id="A00456-5-b-0460">
+          <label>A00456-5-b-0460</label>
+          <sic>Fishmon zer</sic>
+          <seg>maker , or a Baker of Pies , A flesh or a</seg>
+          <corr>Fishmonger</corr>
+          <seg>, or a sower of lies : A Louse or a louser</seg>
+        </note>
+        <note target="A00456-033620" xml:id="A00456-6-b-2290">
+          <label>A00456-6-b-2290</label>
+          <sic>ra●cke</sic>
+          <seg>I neuer heard one so</seg>
+          <corr>rancke</corr>
+          <seg>of rudnesse ,</seg>
+        </note>
+        <note target="A00456-037500" xml:id="A00456-7-a-2780">
+          <label>A00456-7-a-2780</label>
+          <sic>sheside</sic>
+          <seg>and bum , Our syde saddle shoulders shal</seg>
+          <corr>sheilde</corr>
+          <seg>that doth come ? Hope so , and hay so ,</seg>
+        </note>
+        <note target="A00456-043570" xml:id="A00456-8-a-2840">
+          <label>A00456-8-a-2840</label>
+          <sic>prmeelest</sic>
+          <seg>realme inforced am to loue : Iudge Apius I the</seg>
+          <corr>princelest</corr>
+          <seg>Iudge , that raigneth vnder sonne , And</seg>
+        </note>
+        <note target="A00456-044490" xml:id="A00456-8-a-3760">
+          <label>A00456-8-a-3760</label>
+          <sic>pee●e</sic>
+          <seg>, why boastest thou so much ? The famost</seg>
+          <corr>peece</corr>
+          <seg>thou madst in Greece , whose ●●ments were</seg>
+        </note>
+        <note target="A00456-049900" xml:id="A00456-9-a-0630">
+          <label>A00456-9-a-0630</label>
+          <sic>canust</sic>
+          <seg>eke by all the misteries , where on thou</seg>
+          <corr>canst</corr>
+          <seg>intreate : Thou shalt possesse and haue</seg>
+        </note>
+        <note target="A00456-050420" xml:id="A00456-9-a-1110">
+          <label>A00456-9-a-1110</label>
+          <sic>setch</sic>
+          <seg>, thus standard the case , Perhaps such a</seg>
+          <corr>fetch</corr>
+          <seg>, as may please your grace : There is no</seg>
+        </note>
+        <note target="A00456-055750" xml:id="A00456-9-b-3150">
+          <label>A00456-9-b-3150</label>
+          <sic>awronge</sic>
+          <seg>Iudgement is none , Thus Iudgement and Iustice</seg>
+          <corr>a wronge</corr>
+          <seg>way hath gone : Then care not for Consience</seg>
+        </note>
+        <note target="A00456-056680" xml:id="A00456-9-b-4040">
+          <label>A00456-9-b-4040</label>
+          <sic>wayteou</sic>
+          <seg>shall haue no ruth , Come on proceede and</seg>
+          <corr>wayte on</corr>
+          <seg>on me , I will hap woe or wealth , Hap blunt</seg>
+        </note>
+        <note target="A00456-060560" xml:id="A00456-10-b-1050">
+          <label>A00456-10-b-1050</label>
+          <sic>mylyse</sic>
+          <seg>dyd ioy in sport , I liue and languish in</seg>
+          <corr>my lyfe</corr>
+          <seg>lyfe , as doth the wounded Deare : I thirst</seg>
+        </note>
+        <note target="A00456-062310" xml:id="A00456-11-a-0780">
+          <label>A00456-11-a-0780</label>
+          <sic>imbace</sic>
+          <seg>but that my burning breste , Virginia may</seg>
+          <corr>imbrace</corr>
+          <seg>: If case your eares be dead and deafe ,</seg>
+        </note>
+        <note target="A00456-067970" xml:id="A00456-12-a-0990">
+          <label>A00456-12-a-0990</label>
+          <sic>riddueke</sic>
+          <seg>hangman , in hazard of hempe Runne for a</seg>
+          <corr>ridducke</corr>
+          <seg>, there is no such impe : Claudius is knocking</seg>
+        </note>
+        <note target="A00456-069900" xml:id="A00456-12-a-2810">
+          <label>A00456-12-a-2810</label>
+          <sic>nvrourtesie</sic>
+          <seg>Haphazard , bould blinde bayard , A figge for his</seg>
+          <corr>uncourtesie</corr>
+          <seg>, that seekes to shun good companie .</seg>
+        </note>
+        <note target="A00456-073180" xml:id="A00456-12-b-2720">
+          <label>A00456-12-b-2720</label>
+          <sic>Andat</sic>
+          <seg>way round about , by the space of a mile ,</seg>
+          <corr>And at</corr>
+          <seg>at Symkins side ridge , my Lord stoode talking</seg>
+        </note>
+        <note target="A00456-073190" xml:id="A00456-12-b-2730">
+          <label>A00456-12-b-2730</label>
+          <sic>Sy mkins</sic>
+          <seg>round about , by the space of a mile , And at</seg>
+          <corr>Symkins</corr>
+          <seg>side ridge , my Lord stoode talking , And</seg>
+        </note>
+        <note target="A00456-075200" xml:id="A00456-13-a-1620">
+          <label>A00456-13-a-1620</label>
+          <sic>Mahsipula</sic>
+          <seg/>
+          <corr>Mansipula</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A00456-076800" xml:id="A00456-13-a-3170">
+          <label>A00456-13-a-3170</label>
+          <sic>●er</sic>
+          <seg/>
+          <corr>her</corr>
+          <seg>lady , barefoote this bakes trimly ,</seg>
+        </note>
+        <note target="A00456-077050" xml:id="A00456-13-a-3380">
+          <label>A00456-13-a-3380</label>
+          <sic>bedge</sic>
+          <seg>I escaped more finely , For I vnder this</seg>
+          <corr>hedge</corr>
+          <seg>one while dyd stay , Then in this bushe</seg>
+        </note>
+        <note target="A00456-080680" xml:id="A00456-13-b-3150">
+          <label>A00456-13-b-3150</label>
+          <sic>seuces</sic>
+          <seg>precious , do vade and beare no hewe , My</seg>
+          <corr>sences</corr>
+          <seg>they do shun there course , my lights do</seg>
+        </note>
+        <note target="A00456-089980" xml:id="A00456-15-a-1120">
+          <label>A00456-15-a-1120</label>
+          <sic>yo●</sic>
+          <seg>abrode , the trompe of depe defame , Reuenge</seg>
+          <corr>you</corr>
+          <seg>Gods this Rumor craues , this bloud and</seg>
+        </note>
+        <note target="A00456-090640" xml:id="A00456-15-a-1740">
+          <label>A00456-15-a-1740</label>
+          <sic>●aulle</sic>
+          <seg>, O clay , O Hell , O hellish hounde , O</seg>
+          <corr>faulle</corr>
+          <seg>Iudge Apius wrablinge wretch , is this thy</seg>
+        </note>
+        <note target="A00456-095690" xml:id="A00456-16-a-0440">
+          <label>A00456-16-a-0440</label>
+          <sic>reg●rde</sic>
+          <seg>darling , oh dame , Dispatch me I pray thee ,</seg>
+          <corr>regarde</corr>
+          <seg>not my name : But yet , as thou satest sith</seg>
+        </note>
+        <note target="A00456-095800" xml:id="A00456-16-a-0550">
+          <label>A00456-16-a-0550</label>
+          <sic>fith</sic>
+          <seg>regarde not my name : But yet , as thou satest</seg>
+          <corr>sith</corr>
+          <seg>remedy none , But Lemmon thou must be ,</seg>
+        </note>
+        <note target="A00456-096370" xml:id="A00456-16-a-1120">
+          <label>A00456-16-a-1120</label>
+          <sic>shauie</sic>
+          <seg>after my selfe folow shall , Then end without</seg>
+          <corr>shame</corr>
+          <seg>so let vs perseuer , With trompe of good</seg>
+        </note>
+        <note target="A00456-099520" xml:id="A00456-16-b-0050">
+          <label>A00456-16-b-0050</label>
+          <sic>handca●cher</sic>
+          <seg>¶ Here tye a</seg>
+          <corr>handcarcher</corr>
+          <seg>aboute hir eyes , and then strike of hir</seg>
+        </note>
+        <note target="A00456-100250" xml:id="A00456-16-b-0770">
+          <label>A00456-16-b-0770</label>
+          <sic>sp●ede</sic>
+          <seg>ende , Strike home thou careles arme with</seg>
+          <corr>speede</corr>
+          <seg>, of death be not afrayde .</seg>
+        </note>
       </div>
     </back>
   </text>

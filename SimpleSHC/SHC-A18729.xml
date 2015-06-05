@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A18729">
   <teiHeader>
     <fileDesc>
@@ -116,9 +116,6 @@ This is a very early release with many imperfections. Contact martinmueller@nort
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <creation>
-        <date>1578</date>
-      </creation>
       <textClass>
         <keywords scheme="lcsh">
           <term>Frobisher, Martin, -- Sir, -- ca. 1535-1594 -- Poetry.</term>
@@ -126,6 +123,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <term>Elizabeth, -- I, -- Queen of England, -- 1533-1603 -- Poetry.</term>
         </keywords>
       </textClass>
+      <creation>
+        <date>1578</date>
+      </creation>
     </profileDesc>
   </teiHeader>
   <text xml:lang="eng" xml:id="A18729-e100010">
@@ -29540,7 +29540,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="warning" ana="#n1" xml:id="A18729-096860" facs="19-a-0140">warning</w>
             <c> </c>
-            <w lemma="the" part="I" ana="#d" xml:id="A18729-096870.1" facs="19-a-0150" rendition="y-sup">the</w>
+            <w lemma="the" part="I" ana="#d" xml:id="A18729-096870.1" facs="19-a-0150">
+              <choice>
+                <orig>ye</orig>
+                <reg>the</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="queen" ana="#n1g" xml:id="A18729-096890" facs="19-a-0160">
               <choice>
@@ -33340,7 +33345,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <w lemma="adage" ana="#n1" xml:id="A18729-109530" facs="20-a-4300">Adage</w>
             <pc xml:id="A18729-109540" facs="20-a-4310">,</pc>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A18729-109550.1" facs="20-a-4320" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A18729-109550.1" facs="20-a-4320">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="man" ana="#n1" xml:id="A18729-109570" facs="20-a-4330" rendition="hi">Man</w>
             <c> </c>
@@ -50313,7 +50323,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="time" ana="#n2" xml:id="A18729-167310" facs="28-b-3640">times</w>
           <pc xml:id="A18729-167320" facs="28-b-3650">)</pc>
           <c> </c>
-          <w lemma="the" part="I" ana="#d" xml:id="A18729-167330.1" facs="28-b-3660" rendition="y-sup">the</w>
+          <w lemma="the" part="I" ana="#d" xml:id="A18729-167330.1" facs="28-b-3660">
+            <choice>
+              <orig>ye</orig>
+              <reg>the</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="whole" ana="#j" xml:id="A18729-167350" facs="28-b-3670">whole</w>
           <c> </c>
@@ -50345,7 +50360,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="before" ana="#acp-p" xml:id="A18729-167420" facs="28-b-3740">before</w>
           <c> </c>
-          <w lemma="the" part="I" ana="#d" xml:id="A18729-167430.1" facs="28-b-3750" rendition="y-sup">the</w>
+          <w lemma="the" part="I" ana="#d" xml:id="A18729-167430.1" facs="28-b-3750">
+            <choice>
+              <orig>ye</orig>
+              <reg>the</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="queen" ana="#n1" xml:id="A18729-167450" facs="28-b-3760">
             <choice>
@@ -50487,7 +50507,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A18729-167840" facs="28-b-4150">of</w>
           <c> </c>
-          <w lemma="the" part="I" ana="#d" xml:id="A18729-167850.1" facs="28-b-4160" rendition="y-sup">the</w>
+          <w lemma="the" part="I" ana="#d" xml:id="A18729-167850.1" facs="28-b-4160">
+            <choice>
+              <orig>ye</orig>
+              <reg>the</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="queen" ana="#n1g" xml:id="A18729-167870" facs="28-b-4170">
             <choice>
@@ -66154,6 +66179,1497 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A18729-022890" xml:id="A18729-8-a-2570">
+          <label>A18729-8-a-2570</label>
+          <sic>Gentlem●n</sic>
+          <seg>whereof as some affirme , were sixe hundreth</seg>
+          <corr>Gentlemen</corr>
+          <seg>, so brauely attired , and mounted , as</seg>
+        </note>
+        <note target="A18729-023620" xml:id="A18729-8-a-3300">
+          <label>A18729-8-a-3300</label>
+          <sic>●héere</sic>
+          <seg>earle of Surrey did shewe most sumptuous</seg>
+          <corr>chéere</corr>
+          <seg>, in whose Parke were spéeches well sette</seg>
+        </note>
+        <note target="A18729-024370" xml:id="A18729-8-a-4050">
+          <label>A18729-8-a-4050</label>
+          <sic>ma●ner</sic>
+          <seg>the whole Triumph and feasting , was in a</seg>
+          <corr>manner</corr>
+          <seg>there new to beginne , for order was taken</seg>
+        </note>
+        <note target="A18729-024790" xml:id="A18729-8-b-0330">
+          <label>A18729-8-b-0330</label>
+          <sic>bré●thren</sic>
+          <seg>Aldermē , appointed among themselues and their</seg>
+          <corr>bréethren</corr>
+          <seg>, that no one person , reteyning to the</seg>
+        </note>
+        <note target="A18729-026230" xml:id="A18729-8-b-1770">
+          <label>A18729-8-b-1770</label>
+          <sic>la●de</sic>
+          <seg>gouernemente in these causes ) but gyue them due</seg>
+          <corr>laude</corr>
+          <seg>and reputation , as farre as my penne or</seg>
+        </note>
+        <note target="A18729-027800" xml:id="A18729-8-b-3320">
+          <label>A18729-8-b-3320</label>
+          <sic>p●sse</sic>
+          <seg>others , dyd seeppe in after , and broughte to</seg>
+          <corr>passe</corr>
+          <seg>that alreadye is sette in Print in a Booke</seg>
+        </note>
+        <note target="A18729-033080" xml:id="A18729-9-b-2100">
+          <label>A18729-9-b-2100</label>
+          <sic>●loures</sic>
+          <seg>aboute his browes , and a gay Garlande of fine</seg>
+          <corr>floures</corr>
+          <seg>on his head , which Boy was not séene ,</seg>
+        </note>
+        <note target="A18729-038290" xml:id="A18729-10-b-1060">
+          <label>A18729-10-b-1060</label>
+          <sic>fol●owed</sic>
+          <seg>wondered at the swiftnesse thereof , and</seg>
+          <corr>followed</corr>
+          <seg>it in suche flockes and multitudes , that</seg>
+        </note>
+        <note target="A18729-040530" xml:id="A18729-11-a-0440">
+          <label>A18729-11-a-0440</label>
+          <sic>o●</sic>
+          <seg>diuine , and shining Angels bright . This Lord</seg>
+          <corr>of</corr>
+          <seg>late to shew his mightie power , Hath wonders</seg>
+        </note>
+        <note target="A18729-041370" xml:id="A18729-11-a-1280">
+          <label>A18729-11-a-1280</label>
+          <sic>thems●lues</sic>
+          <seg>ayre , for world to wonder on . The Sainctes</seg>
+          <corr>themselues</corr>
+          <seg>, that sate in glory great , VVere sent</seg>
+        </note>
+        <note target="A18729-042370" xml:id="A18729-11-a-2280">
+          <label>A18729-11-a-2280</label>
+          <sic>Princ●</sic>
+          <seg>lodge a sacred Queene . And waying well , the</seg>
+          <corr>Prince</corr>
+          <seg>whereof I speake , Might weerie waxe of</seg>
+        </note>
+        <note target="A18729-045140" xml:id="A18729-11-b-1640">
+          <label>A18729-11-b-1640</label>
+          <sic>Iehou●</sic>
+          <seg>Coatch in hast , Abide sir Boy , then sayd</seg>
+          <corr>Iehoua</corr>
+          <seg>now , Thou goest not yet , vntill a Prince</seg>
+        </note>
+        <note target="A18729-045230" xml:id="A18729-11-b-1730">
+          <label>A18729-11-b-1730</label>
+          <sic>●</sic>
+          <seg>Iehoua now , Thou goest not yet , vntill</seg>
+          <corr>a</corr>
+          <seg>Prince be plast VVhere I appoynt , thou</seg>
+        </note>
+        <note target="A18729-046060" xml:id="A18729-11-b-2560">
+          <label>A18729-11-b-2560</label>
+          <sic>tri●●es</sic>
+          <seg>, To penne foorth shewes , and paint out</seg>
+          <corr>trifles</corr>
+          <seg>well , Some halde and puld , to bring the</seg>
+        </note>
+        <note target="A18729-047250" xml:id="A18729-12-a-0090">
+          <label>A18729-12-a-0090</label>
+          <sic>disp●tch</sic>
+          <seg>Princesse here . It shall be so ( quoth he )</seg>
+          <corr>dispatch</corr>
+          <seg>and 〈◊〉 , And tell hir , that she is to</seg>
+        </note>
+        <note target="A18729-047680" xml:id="A18729-12-a-0520">
+          <label>A18729-12-a-0520</label>
+          <sic>ayr●</sic>
+          <seg>If that she please to walke and take the</seg>
+          <corr>ayre</corr>
+          <seg>: And that so soone as out of dore she goes</seg>
+        </note>
+        <note target="A18729-048750" xml:id="A18729-12-a-1590">
+          <label>A18729-12-a-1590</label>
+          <sic>gall●n●</sic>
+          <seg>looke To see that Coatch , and each thing</seg>
+          <corr>gallant</corr>
+          <seg>were : So downe I came , all winged as you</seg>
+        </note>
+        <note target="A18729-048760" xml:id="A18729-12-a-1600">
+          <label>A18729-12-a-1600</label>
+          <sic>wer●</sic>
+          <seg>see that Coatch , and each thing gallant</seg>
+          <corr>were</corr>
+          <seg>: So downe I came , all winged as you see</seg>
+        </note>
+        <note target="A18729-052260" xml:id="A18729-12-b-2200">
+          <label>A18729-12-b-2200</label>
+          <sic>Tow●r</sic>
+          <seg>middle of that Coatch stoode a high compassed</seg>
+          <corr>Tower</corr>
+          <seg>, bedeckt with golden and gay iewels , in</seg>
+        </note>
+        <note target="A18729-052500" xml:id="A18729-12-b-2440">
+          <label>A18729-12-b-2440</label>
+          <sic>bespangde</sic>
+          <seg>a faire plume of whyte feathers , all to</seg>
+          <corr>be spangde</corr>
+          <seg>spangde and trimmed to the most brauerie</seg>
+        </note>
+        <note target="A18729-056570" xml:id="A18729-13-a-2120">
+          <label>A18729-13-a-2120</label>
+          <sic>i●</sic>
+          <seg>, which graced much the matter , and gaue</seg>
+          <corr>it</corr>
+          <seg>some expected hope of good successe : and</seg>
+        </note>
+        <note target="A18729-056580" xml:id="A18729-13-a-2130">
+          <label>A18729-13-a-2130</label>
+          <sic>s●me</sic>
+          <seg>which graced much the matter , and gaue it</seg>
+          <corr>some</corr>
+          <seg>expected hope of good successe : and for</seg>
+        </note>
+        <note target="A18729-057620" xml:id="A18729-13-a-3150">
+          <label>A18729-13-a-3150</label>
+          <sic>ta●●tes</sic>
+          <seg>and he replyed , and beganne with troth and</seg>
+          <corr>tauntes</corr>
+          <seg>to tickle thē so néere , that VENVS fell</seg>
+        </note>
+        <note target="A18729-059130" xml:id="A18729-13-b-0760">
+          <label>A18729-13-b-0760</label>
+          <sic>wa●ting</sic>
+          <seg>goodly Coatche , and without any honest gard</seg>
+          <corr>waiting</corr>
+          <seg>on him , sette vpon him , threwe him out</seg>
+        </note>
+        <note target="A18729-059500" xml:id="A18729-13-b-1130">
+          <label>A18729-13-b-1130</label>
+          <sic>qu●uer</sic>
+          <seg>and cloke , and tooke away his bowe and his</seg>
+          <corr>quiuer</corr>
+          <seg>of arrowes , ( the one headed with leade</seg>
+        </note>
+        <note target="A18729-060300.1" xml:id="A18729-13-b-1900">
+          <label>A18729-13-b-1900</label>
+          <sic>CVPIDS●ow</sic>
+          <seg>chosen the best life , she gaue the Quéene</seg>
+          <corr>CVPIDS bow</corr>
+          <seg>, to learn to shoote at whome she pleased</seg>
+        </note>
+        <note target="A18729-060620" xml:id="A18729-13-b-2220">
+          <label>A18729-13-b-2220</label>
+          <sic>how</sic>
+          <seg>Chastitie ) that she should do with CVPIDS</seg>
+          <corr>bow</corr>
+          <seg>and arrowes what she pleased : and so did</seg>
+        </note>
+        <note target="A18729-061320" xml:id="A18729-13-b-2910">
+          <label>A18729-13-b-2910</label>
+          <sic>●●ing</sic>
+          <seg>Wantōnesse &amp; Ryot , that CVPID was forced to</seg>
+          <corr>fling</corr>
+          <seg>away once agayne , and hazarde himselfe</seg>
+        </note>
+        <note target="A18729-062770" xml:id="A18729-14-a-0010">
+          <label>A18729-14-a-0010</label>
+          <sic>dep●rted</sic>
+          <seg>Philosophers ) and goe away with them , so CVPID</seg>
+          <corr>departed</corr>
+          <seg>, and wente away with Wantonnesse and Riotte</seg>
+        </note>
+        <note target="A18729-062870" xml:id="A18729-14-a-0110">
+          <label>A18729-14-a-0110</label>
+          <sic>a●d</sic>
+          <seg>wente away with Wantonnesse and Riotte ,</seg>
+          <corr>and</corr>
+          <seg>the Philosopher remayned , and declared</seg>
+        </note>
+        <note target="A18729-063390" xml:id="A18729-14-a-0630">
+          <label>A18729-14-a-0630</label>
+          <sic>●oft</sic>
+          <seg>Chastity , with the powers Deuine , came</seg>
+          <corr>soft</corr>
+          <seg>and faire in their Mistresse Coatch , singing</seg>
+        </note>
+        <note target="A18729-064080" xml:id="A18729-14-a-1320">
+          <label>A18729-14-a-1320</label>
+          <sic>Now●</sic>
+          <seg>openly and often pronounced by hir Highnesse .</seg>
+          <corr>Nowe</corr>
+          <seg>before you reade the partes , you must throughly</seg>
+        </note>
+        <note target="A18729-064530" xml:id="A18729-14-a-1770">
+          <label>A18729-14-a-1770</label>
+          <sic>●●udie</sic>
+          <seg>better life , and I shall thinke my labour &amp;</seg>
+          <corr>studie</corr>
+          <seg>well bestowed .</seg>
+        </note>
+        <note target="A18729-064550" xml:id="A18729-14-a-1790">
+          <label>A18729-14-a-1790</label>
+          <sic>bestow●d</sic>
+          <seg>and I shall thinke my labour &amp; studie well</seg>
+          <corr>bestowed</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A18729-065270" xml:id="A18729-14-a-2440">
+          <label>A18729-14-a-2440</label>
+          <sic>A●as</sic>
+          <seg/>
+          <corr>Alas</corr>
+          <seg>poore boy , where shalt thou wander not</seg>
+        </note>
+        <note target="A18729-065350" xml:id="A18729-14-a-2520">
+          <label>A18729-14-a-2520</label>
+          <sic>no●</sic>
+          <seg>Alas poore boy , where shalt thou wander</seg>
+          <corr>not</corr>
+          <seg>, I am thrust out of Heauen in despight</seg>
+        </note>
+        <note target="A18729-066090" xml:id="A18729-14-a-3260">
+          <label>A18729-14-a-3260</label>
+          <sic>with●ll</sic>
+          <seg>, To houle , to crye , and ●ore complayne</seg>
+          <corr>withall</corr>
+          <seg>. For loe of late , where she and I did</seg>
+        </note>
+        <note target="A18729-067190" xml:id="A18729-14-b-0860">
+          <label>A18729-14-b-0860</label>
+          <sic>●ettles</sic>
+          <seg>nourish wanton talke , And to conclude , sharp</seg>
+          <corr>nettle</corr>
+          <seg>vnder Rose VVe were : thus sayd the Father</seg>
+        </note>
+        <note target="A18729-067350" xml:id="A18729-14-b-1020">
+          <label>A18729-14-b-1020</label>
+          <sic>bl●sh●</sic>
+          <seg>thus sayd the Father that we me● . My Mother</seg>
+          <corr>blushd</corr>
+          <seg>, these thundering words to heare , And</seg>
+        </note>
+        <note target="A18729-067620" xml:id="A18729-14-b-1290">
+          <label>A18729-14-b-1290</label>
+          <sic>cheer●</sic>
+          <seg>● get , To see if I in Court find better</seg>
+          <corr>cheere</corr>
+          <seg>, But if no friend , nor fauoure I may finde</seg>
+        </note>
+        <note target="A18729-067690" xml:id="A18729-14-b-1360">
+          <label>A18729-14-b-1360</label>
+          <sic>no●</sic>
+          <seg>Court find better cheere , But if no friend ,</seg>
+          <corr>nor</corr>
+          <seg>fauoure I may finde , Nor aunswere haue</seg>
+        </note>
+        <note target="A18729-067700" xml:id="A18729-14-b-1370">
+          <label>A18729-14-b-1370</label>
+          <sic>fauo●re</sic>
+          <seg>find better cheere , But if no friend , nor</seg>
+          <corr>fauoure</corr>
+          <seg>I may finde , Nor aunswere haue of that</seg>
+        </note>
+        <note target="A18729-068030" xml:id="A18729-14-b-1700">
+          <label>A18729-14-b-1700</label>
+          <sic>Heauen●</sic>
+          <seg>the wind , For Cupid hath in head 〈…〉 . If</seg>
+          <corr>Heauens</corr>
+          <seg>〈…〉 In earth below , I 〈◊〉 to hide my face</seg>
+        </note>
+        <note target="A18729-068460" xml:id="A18729-14-b-2150">
+          <label>A18729-14-b-2150</label>
+          <sic>afoo●e</sic>
+          <seg>his Coatch , Bowe and all , and sets him</seg>
+          <corr>afoote</corr>
+          <seg>, and so rides , in his Coatche to the Queene</seg>
+        </note>
+        <note target="A18729-068860" xml:id="A18729-14-b-2450">
+          <label>A18729-14-b-2450</label>
+          <sic>braue●</sic>
+          <seg>striue with boyes that standes on bragges and</seg>
+          <corr>braues</corr>
+          <seg>I thought great scorne , till Cupid I espyde</seg>
+        </note>
+        <note target="A18729-069200" xml:id="A18729-14-b-2790">
+          <label>A18729-14-b-2790</label>
+          <sic>Chastit●e</sic>
+          <seg>one , to daunt his Peacocks pride . Dame</seg>
+          <corr>Chastitie</corr>
+          <seg>is she that winnes the field , VVhose breast</seg>
+        </note>
+        <note target="A18729-069490" xml:id="A18729-14-b-3080">
+          <label>A18729-14-b-3080</label>
+          <sic>c●eane</sic>
+          <seg>fight doth bring no glittering shield , But</seg>
+          <corr>cleane</corr>
+          <seg>conceytes , which pure and blessed are ,</seg>
+        </note>
+        <note target="A18729-069550" xml:id="A18729-14-b-3140">
+          <label>A18729-14-b-3140</label>
+          <sic>bl●ssed</sic>
+          <seg>shield , But cleane conceytes , which pure and</seg>
+          <corr>blessed</corr>
+          <seg>are , That strikes downe lust , and tames</seg>
+        </note>
+        <note target="A18729-073640" xml:id="A18729-15-b-0370">
+          <label>A18729-15-b-0370</label>
+          <sic>Coatch●</sic>
+          <seg>hath Cupid lost his bow ? His cloke ? his</seg>
+          <corr>Coatch:</corr>
+          <seg>: his witte and all ? and fled from mothers</seg>
+        </note>
+        <note target="A18729-074190" xml:id="A18729-15-b-0920">
+          <label>A18729-15-b-0920</label>
+          <sic>prim●</sic>
+          <seg>as the Poets fayne , ) when beautie was in</seg>
+          <corr>prime</corr>
+          <seg>A strumpet was , it may be so , as well</seg>
+        </note>
+        <note target="A18729-074210" xml:id="A18729-15-b-0940">
+          <label>A18729-15-b-0940</label>
+          <sic>st●umpet</sic>
+          <seg>Poets fayne , ) when beautie was in prime A</seg>
+          <corr>strumpet</corr>
+          <seg>was , it may be so , as well appeareth yet</seg>
+        </note>
+        <note target="A18729-075490" xml:id="A18729-15-b-2150">
+          <label>A18729-15-b-2150</label>
+          <sic>●</sic>
+          <seg>But dost thou thinke thou art</seg>
+          <corr>a</corr>
+          <seg>God : then shew some proofe thereof .</seg>
+        </note>
+        <note target="A18729-075500" xml:id="A18729-15-b-2160">
+          <label>A18729-15-b-2160</label>
+          <sic>God●</sic>
+          <seg>But dost thou thinke thou art a</seg>
+          <corr>God:</corr>
+          <seg>: then shew some proofe thereof .</seg>
+        </note>
+        <note target="A18729-076620" xml:id="A18729-15-b-3200">
+          <label>A18729-15-b-3200</label>
+          <sic>w●●ds</sic>
+          <seg>, and silence keepe a whyle , Vntill thy</seg>
+          <corr>words</corr>
+          <seg>haue gone so farre , thy folly makes me</seg>
+        </note>
+        <note target="A18729-076640" xml:id="A18729-15-b-3220">
+          <label>A18729-15-b-3220</label>
+          <sic>g●ne</sic>
+          <seg>silence keepe a whyle , Vntill thy words haue</seg>
+          <corr>gone</corr>
+          <seg>so farre , thy folly makes me smyle .</seg>
+        </note>
+        <note target="A18729-077070" xml:id="A18729-16-a-0300">
+          <label>A18729-16-a-0300</label>
+          <sic>T●eir</sic>
+          <seg>or treate , takes Cupids part ye knowe .</seg>
+          <corr>Their</corr>
+          <seg>bokes , their scrolles , their pāphlets</seg>
+        </note>
+        <note target="A18729-077260" xml:id="A18729-16-a-0490">
+          <label>A18729-16-a-0490</label>
+          <sic>furt●er</sic>
+          <seg>, makes mētiō of my name , You nede no</seg>
+          <corr>further</corr>
+          <seg>search for proof , to try out Cupids fame</seg>
+        </note>
+        <note target="A18729-077460" xml:id="A18729-16-a-0650">
+          <label>A18729-16-a-0650</label>
+          <sic>booke●</sic>
+          <seg>Boast not of</seg>
+          <corr>bookes</corr>
+          <seg>, for bookes they be , that plainely witnes</seg>
+        </note>
+        <note target="A18729-079060" xml:id="A18729-16-a-2130">
+          <label>A18729-16-a-2130</label>
+          <sic>tru●</sic>
+          <seg>not Ioue and Mars beare sway ? 〈◊〉 that is</seg>
+          <corr>true</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A18729-079280" xml:id="A18729-16-a-2310">
+          <label>A18729-16-a-2310</label>
+          <sic>yo●</sic>
+          <seg>and Tibbe , and all beares sway as much as</seg>
+          <corr>you</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A18729-079650" xml:id="A18729-16-a-2600">
+          <label>A18729-16-a-2600</label>
+          <sic>deligh●</sic>
+          <seg>too neere the sore , and please not your</seg>
+          <corr>delight</corr>
+          <seg>. But since you 〈◊〉 for naught , and can</seg>
+        </note>
+        <note target="A18729-081380" xml:id="A18729-16-b-1520">
+          <label>A18729-16-b-1520</label>
+          <sic>VVa●tonnesse</sic>
+          <seg>leavvd of life , and brittle as the glasse , I</seg>
+          <corr>VVantonnesse</corr>
+          <seg>knowe well that tale is true , To this my</seg>
+        </note>
+        <note target="A18729-081510" xml:id="A18729-16-b-1650">
+          <label>A18729-16-b-1650</label>
+          <sic>R●●tte</sic>
+          <seg>that tale is true , To this my friend now</seg>
+          <corr>Riotte</corr>
+          <seg>what say you ?</seg>
+        </note>
+        <note target="A18729-081910" xml:id="A18729-16-b-2010">
+          <label>A18729-16-b-2010</label>
+          <sic>Ven●●</sic>
+          <seg>defiles . If Riot should not speake , that</seg>
+          <corr>Venus</corr>
+          <seg>knowes so well , ( VVith whom since Cupid</seg>
+        </note>
+        <note target="A18729-082070" xml:id="A18729-16-b-2170">
+          <label>A18729-16-b-2170</label>
+          <sic>Ven●●</sic>
+          <seg>whom since Cupid bare a name , did wantō</seg>
+          <corr>Venus</corr>
+          <seg>dwel ) Much pitie were it sure , that Riot</seg>
+        </note>
+        <note target="A18729-082400" xml:id="A18729-16-b-2500">
+          <label>A18729-16-b-2500</label>
+          <sic>Ven●●</sic>
+          <seg>where . VVithout the help of whome , Dame</seg>
+          <corr>Venus</corr>
+          <seg>can not liue , For vnto Lust and Riot both</seg>
+        </note>
+        <note target="A18729-083190" xml:id="A18729-16-b-3290">
+          <label>A18729-16-b-3290</label>
+          <sic>Ven●s</sic>
+          <seg>flocke ) As prating Poets fayne , at first did</seg>
+          <corr>Venus</corr>
+          <seg>spring , But Venus was no strumpet sure</seg>
+        </note>
+        <note target="A18729-083470" xml:id="A18729-16-b-3570">
+          <label>A18729-16-b-3570</label>
+          <sic>be●ter</sic>
+          <seg>furthers Loue , in French a 〈◊〉 ● playne , A</seg>
+          <corr>better</corr>
+          <seg>of good bargaynes oft , and roote of fancyes</seg>
+        </note>
+        <note target="A18729-083500" xml:id="A18729-16-b-3600">
+          <label>A18729-16-b-3600</label>
+          <sic>barg●ynes</sic>
+          <seg>French a 〈◊〉 ● playne , A better of good</seg>
+          <corr>bargaynes</corr>
+          <seg>oft , and roote of fancyes vayne . Though</seg>
+        </note>
+        <note target="A18729-084280" xml:id="A18729-17-a-0700">
+          <label>A18729-17-a-0700</label>
+          <sic>Pri●●s</sic>
+          <seg>needes must hold . Twas she , to whome King</seg>
+          <corr>Priams</corr>
+          <seg>sonne did giue the apple of golde That cost</seg>
+        </note>
+        <note target="A18729-084290" xml:id="A18729-17-a-0710">
+          <label>A18729-17-a-0710</label>
+          <sic>sonn●</sic>
+          <seg>must hold . Twas she , to whome King Priams</seg>
+          <corr>sonne</corr>
+          <seg>did giue the apple of golde That cost so</seg>
+        </note>
+        <note target="A18729-084460" xml:id="A18729-17-a-0880">
+          <label>A18729-17-a-0880</label>
+          <sic>Tr●y</sic>
+          <seg>That cost so many 〈◊〉 but r●●de the seege of</seg>
+          <corr>Troy</corr>
+          <seg>, And you shall see what prettie pranckes</seg>
+        </note>
+        <note target="A18729-084860" xml:id="A18729-17-a-1280">
+          <label>A18729-17-a-1280</label>
+          <sic>Wanto●nesse</sic>
+          <seg>many things , but am not learnd at all Good</seg>
+          <corr>Wantonnesse</corr>
+          <seg>thou knowst , but passe ore that awhile</seg>
+        </note>
+        <note target="A18729-084910" xml:id="A18729-17-a-1330">
+          <label>A18729-17-a-1330</label>
+          <sic>p●sse</sic>
+          <seg>at all Good Wantonnesse thou knowst , but</seg>
+          <corr>passe</corr>
+          <seg>ore that awhile I could tell tales of Venus</seg>
+        </note>
+        <note target="A18729-085000" xml:id="A18729-17-a-1420">
+          <label>A18729-17-a-1420</label>
+          <sic>Ven●●</sic>
+          <seg>passe ore that awhile I could tell tales of</seg>
+          <corr>Venus</corr>
+          <seg>yet , would make the hearers smile .</seg>
+        </note>
+        <note target="A18729-085450" xml:id="A18729-17-a-1830">
+          <label>A18729-17-a-1830</label>
+          <sic>C●astitie</sic>
+          <seg>order great , and all the manner how Dame</seg>
+          <corr>Chastitie</corr>
+          <seg>did mount to Starrie Skye VVith such a Coatch</seg>
+        </note>
+        <note target="A18729-085640" xml:id="A18729-17-a-2020">
+          <label>A18729-17-a-2020</label>
+          <sic>h●th</sic>
+          <seg>Coatch , and such a noble spoyle , As seldome</seg>
+          <corr>hath</corr>
+          <seg>in Heauen oft bin seene . She sayd , when</seg>
+        </note>
+        <note target="A18729-086050" xml:id="A18729-17-a-2430">
+          <label>A18729-17-a-2430</label>
+          <sic>a●d</sic>
+          <seg>streight came running vnto me . I saw him bare ,</seg>
+          <corr>and</corr>
+          <seg>sent him bare away , And as we are in deede</seg>
+        </note>
+        <note target="A18729-087050" xml:id="A18729-17-a-3390">
+          <label>A18729-17-a-3390</label>
+          <sic>weede●</sic>
+          <seg>By sweete Sainct Iohn we are in goodly</seg>
+          <corr>weedes</corr>
+          <seg>, To daunce with belles a Morrice through</seg>
+        </note>
+        <note target="A18729-087120" xml:id="A18729-17-a-3460">
+          <label>A18729-17-a-3460</label>
+          <sic>Morric●</sic>
+          <seg>in goodly weedes , To daunce with belles a</seg>
+          <corr>Morrice</corr>
+          <seg>through the Streets . If any heere , three</seg>
+        </note>
+        <note target="A18729-087130" xml:id="A18729-17-a-3470">
+          <label>A18729-17-a-3470</label>
+          <sic>throu●h</sic>
+          <seg>weedes , To daunce with belles a Morrice</seg>
+          <corr>through</corr>
+          <seg>the Streets . If any heere , three ydle</seg>
+        </note>
+        <note target="A18729-087240" xml:id="A18729-17-b-0080">
+          <label>A18729-17-b-0080</label>
+          <sic>need●s</sic>
+          <seg>Streets . If any heere , three ydle people</seg>
+          <corr>needes</corr>
+          <seg>, Call vs in time , for we are fine for</seg>
+        </note>
+        <note target="A18729-087340" xml:id="A18729-17-b-0180">
+          <label>A18729-17-b-0180</label>
+          <sic>finefor</sic>
+          <seg>people needes , Call vs in time , for we are</seg>
+          <corr>fine for</corr>
+          <seg>for sheetes : Yea , for a shift , to steale</seg>
+        </note>
+        <note target="A18729-087960" xml:id="A18729-17-b-0800">
+          <label>A18729-17-b-0800</label>
+          <sic>Chast●ti●</sic>
+          <seg>Cupid come , if thou wilt heare a song , Dame</seg>
+          <corr>Chastitie</corr>
+          <seg>hath sent hir Coatch along , To comfort</seg>
+        </note>
+        <note target="A18729-088270" xml:id="A18729-17-b-1070">
+          <label>A18729-17-b-1070</label>
+          <sic>tro●</sic>
+          <seg>NAy Cupid will , go hang himselfe I</seg>
+          <corr>trow</corr>
+          <seg>. Much better were , to fall on poynt of</seg>
+        </note>
+        <note target="A18729-088360" xml:id="A18729-17-b-1160">
+          <label>A18729-17-b-1160</label>
+          <sic>p●ynt</sic>
+          <seg>himselfe I trow . Much better were , to fall on</seg>
+          <corr>poynt</corr>
+          <seg>of knife , Than from rich state , to leade</seg>
+        </note>
+        <note target="A18729-089160" xml:id="A18729-17-b-1890">
+          <label>A18729-17-b-1890</label>
+          <sic>b●</sic>
+          <seg>iudge what fables are , &amp; what vain gods ther</seg>
+          <corr>be</corr>
+          <seg>, VVhat names and titles fondlings giue</seg>
+        </note>
+        <note target="A18729-089500" xml:id="A18729-17-b-2230">
+          <label>A18729-17-b-2230</label>
+          <sic>C●pid</sic>
+          <seg>rest no vertue showe , Vayne Venus and blind</seg>
+          <corr>Cupid</corr>
+          <seg>both , and all the ragment rowe And rabble</seg>
+        </note>
+        <note target="A18729-090110" xml:id="A18729-17-b-2840">
+          <label>A18729-17-b-2840</label>
+          <sic>app●●res</sic>
+          <seg>, By hollow wayes , and crooked pathes ,</seg>
+          <corr>appeares</corr>
+          <seg>the playnest ground . Thus leauing vnto</seg>
+        </note>
+        <note target="A18729-091380" xml:id="A18729-18-a-0630">
+          <label>A18729-18-a-0630</label>
+          <sic>l●oke</sic>
+          <seg>noble Queene . Salute hir in my name , and</seg>
+          <corr>looke</corr>
+          <seg>in secret sort ( Quoth she ) you do with</seg>
+        </note>
+        <note target="A18729-092150" xml:id="A18729-18-a-1400">
+          <label>A18729-18-a-1400</label>
+          <sic>Ieb●us</sic>
+          <seg>hither streight , but ere we went at large ,</seg>
+          <corr>Iehoua</corr>
+          <seg>sent vs Graces great , and gaue vs powre</seg>
+        </note>
+        <note target="A18729-093280" xml:id="A18729-18-a-2530">
+          <label>A18729-18-a-2530</label>
+          <sic>fair●st</sic>
+          <seg>richest roabes , we haue a powre to goe , In</seg>
+          <corr>fairest</corr>
+          <seg>weedes are cleanest thoughts , &amp; purest</seg>
+        </note>
+        <note target="A18729-093780" xml:id="A18729-18-a-3030">
+          <label>A18729-18-a-3030</label>
+          <sic>Seo●●e</sic>
+          <seg>doth carrie mind aloft , Makes mā think</seg>
+          <corr>scorne</corr>
+          <seg>to stoupe to vice , &amp; loke to Vertue oft</seg>
+        </note>
+        <note target="A18729-093930" xml:id="A18729-18-a-3180">
+          <label>A18729-18-a-3180</label>
+          <sic>s●●neth</sic>
+          <seg>vice , &amp; loke to Vertue oft . The Sunne that</seg>
+          <corr>shineth</corr>
+          <seg>bright , hath vertues manifold , A gallant</seg>
+        </note>
+        <note target="A18729-095850" xml:id="A18729-18-b-1430">
+          <label>A18729-18-b-1430</label>
+          <sic>withdraw●</sic>
+          <seg>nighte came on , and so we were faine to</seg>
+          <corr>withdrawe</corr>
+          <seg>oure selues and goe homewarde , trusting</seg>
+        </note>
+        <note target="A18729-099420" xml:id="A18729-19-a-2680">
+          <label>A18729-19-a-2680</label>
+          <sic>dress●d</sic>
+          <seg>placed twelue water Nimphes , desguised or</seg>
+          <corr>dressed</corr>
+          <seg>most strangely , eache of them had eyther</seg>
+        </note>
+        <note target="A18729-099950" xml:id="A18729-19-a-3210">
+          <label>A18729-19-a-3210</label>
+          <sic>o●</sic>
+          <seg>euery Nimph had in hir hand a great bundell</seg>
+          <corr>of</corr>
+          <seg>bulrushes , and had on hir head a Garland</seg>
+        </note>
+        <note target="A18729-102740" xml:id="A18729-19-b-2090">
+          <label>A18729-19-b-2090</label>
+          <sic>tr●mmed</sic>
+          <seg>daunced a daunce with Timbrels that were</seg>
+          <corr>trimmed</corr>
+          <seg>with belles , and other iangling things</seg>
+        </note>
+        <note target="A18729-102800" xml:id="A18729-19-b-2150">
+          <label>A18729-19-b-2150</label>
+          <sic>●angling</sic>
+          <seg>that were trimmed with belles , and other</seg>
+          <corr>iangling</corr>
+          <seg>things , which Timbrels were as brode as</seg>
+        </note>
+        <note target="A18729-105440" xml:id="A18729-20-a-0240">
+          <label>A18729-20-a-0240</label>
+          <sic>pow●r</sic>
+          <seg>strengthes : but good Fortune should faire in</seg>
+          <corr>power</corr>
+          <seg>excéede his enimies : And yet to shew that</seg>
+        </note>
+        <note target="A18729-105610" xml:id="A18729-20-a-0410">
+          <label>A18729-20-a-0410</label>
+          <sic>co●quer</sic>
+          <seg>to shew that Destenie , ( and who best can</seg>
+          <corr>conquer</corr>
+          <seg>) shal gouerne all , Fortune should make</seg>
+        </note>
+        <note target="A18729-108550" xml:id="A18729-20-a-3330">
+          <label>A18729-20-a-3330</label>
+          <sic>●attes</sic>
+          <seg>greater pastime to sée vs looke like drowned</seg>
+          <corr>Rattes</corr>
+          <seg>, than to haue beheld the vttermost of the</seg>
+        </note>
+        <note target="A18729-109720" xml:id="A18729-20-b-0010">
+          <label>A18729-20-b-0010</label>
+          <sic>●●mmitte</sic>
+          <seg>dispose , to whose disposition and pleasure I</seg>
+          <corr>committe</corr>
+          <seg>the guide of greater matters . So this 〈◊〉</seg>
+        </note>
+        <note target="A18729-110160" xml:id="A18729-20-b-0450">
+          <label>A18729-20-b-0450</label>
+          <sic>●undle</sic>
+          <seg>greatest silence , and lapping vp , among a</seg>
+          <corr>bundle</corr>
+          <seg>of other mysfortunes this euil chaunce ,</seg>
+        </note>
+        <note target="A18729-111370" xml:id="A18729-20-b-1660">
+          <label>A18729-20-b-1660</label>
+          <sic>form●st</sic>
+          <seg>should sléepe in silence . And first and</seg>
+          <corr>formost</corr>
+          <seg>you must conceiue , that the Shew of MANHODE</seg>
+        </note>
+        <note target="A18729-111600" xml:id="A18729-20-b-1890">
+          <label>A18729-20-b-1890</label>
+          <sic>●ound</sic>
+          <seg>playde in a Garden , or wheresoeuer had bene</seg>
+          <corr>found</corr>
+          <seg>a conueniente place , the Prince then being</seg>
+        </note>
+        <note target="A18729-113120" xml:id="A18729-21-a-0420">
+          <label>A18729-21-a-0420</label>
+          <sic>r●nne</sic>
+          <seg>hast in time , to do thy subiects good , Go</seg>
+          <corr>runne</corr>
+          <seg>with me , to stay this heauie cace , Take</seg>
+        </note>
+        <note target="A18729-113230" xml:id="A18729-21-a-0530">
+          <label>A18729-21-a-0530</label>
+          <sic>p●ynes</sic>
+          <seg>with me , to stay this heauie cace , Take</seg>
+          <corr>paynes</corr>
+          <seg>good Queene , to gayne the giltlesse bloud</seg>
+        </note>
+        <note target="A18729-114800" xml:id="A18729-21-a-2070">
+          <label>A18729-21-a-2070</label>
+          <sic>smooth●</sic>
+          <seg>gay , are in his Peacocks face , And skinne</seg>
+          <corr>smoothe</corr>
+          <seg>vp , with shew of ydle hue , That I do lodge</seg>
+        </note>
+        <note target="A18729-116030" xml:id="A18729-21-a-3260">
+          <label>A18729-21-a-3260</label>
+          <sic>les●</sic>
+          <seg>VVhere naught but bale , and wretched woe is</seg>
+          <corr>less</corr>
+          <seg>▪ Yet thy reward , which doest assault my</seg>
+        </note>
+        <note target="A18729-116250" xml:id="A18729-21-b-0210">
+          <label>A18729-21-b-0210</label>
+          <sic>whyl●</sic>
+          <seg>In whose delight , my heart was fedde long</seg>
+          <corr>whyle</corr>
+          <seg>) Shall be disdeyne , and hatered in the</seg>
+        </note>
+        <note target="A18729-117710" xml:id="A18729-21-b-1550">
+          <label>A18729-21-b-1550</label>
+          <sic>●oe</sic>
+          <seg>, I will delight , to wreake my wrath on</seg>
+          <corr>foe</corr>
+          <seg>. In greeuing thee , most glad to heare</seg>
+        </note>
+        <note target="A18729-117930" xml:id="A18729-21-b-1770">
+          <label>A18729-21-b-1770</label>
+          <sic>moan●</sic>
+          <seg>art most pleasd , when Manhode makes his</seg>
+          <corr>moane</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A18729-119350" xml:id="A18729-21-b-3150">
+          <label>A18729-21-b-3150</label>
+          <sic>Iou●</sic>
+          <seg>case discusse , If he do dye , by Mightie</seg>
+          <corr>Ioue</corr>
+          <seg>I sweare I will not liue , if sword or knife</seg>
+        </note>
+        <note target="A18729-120190" xml:id="A18729-22-a-0660">
+          <label>A18729-22-a-0660</label>
+          <sic>Myn●</sic>
+          <seg>marke my case , and giue me leaue to make</seg>
+          <corr>Myne</corr>
+          <seg>owne defence , and 〈◊〉 alleage and proue</seg>
+        </note>
+        <note target="A18729-120250" xml:id="A18729-22-a-0720">
+          <label>A18729-22-a-0720</label>
+          <sic>allea●ge</sic>
+          <seg>leaue to make Myne owne defence , and 〈◊〉</seg>
+          <corr>alleage</corr>
+          <seg>and proue , And I will shewe 〈◊〉 right and</seg>
+        </note>
+        <note target="A18729-120440" xml:id="A18729-22-a-0910">
+          <label>A18729-22-a-0910</label>
+          <sic>des●rue</sic>
+          <seg>〈◊〉 right and title good , And that I do ,</seg>
+          <corr>deserue</corr>
+          <seg>the 〈…〉 . Though this fond wretch , always</seg>
+        </note>
+        <note target="A18729-121120" xml:id="A18729-22-a-1590">
+          <label>A18729-22-a-1590</label>
+          <sic>pay●ted</sic>
+          <seg>●idde in deepe , A fond deuice to trust to</seg>
+          <corr>paynted</corr>
+          <seg>face , And fasten fayth vpon so fickle ●l●y</seg>
+        </note>
+        <note target="A18729-121250" xml:id="A18729-22-a-1720">
+          <label>A18729-22-a-1720</label>
+          <sic>D●me</sic>
+          <seg>fasten fayth vpon so fickle ●l●y , To whome</seg>
+          <corr>Dame</corr>
+          <seg>Hebe , lends often gui●efull grace , VVhich</seg>
+        </note>
+        <note target="A18729-121260" xml:id="A18729-22-a-1730">
+          <label>A18729-22-a-1730</label>
+          <sic>H●be</sic>
+          <seg>fayth vpon so fickle ●l●y , To whome Dame</seg>
+          <corr>Hebe</corr>
+          <seg>, lends often gui●efull grace , VVhich euery</seg>
+        </note>
+        <note target="A18729-121580" xml:id="A18729-22-a-2050">
+          <label>A18729-22-a-2050</label>
+          <sic>●ares</sic>
+          <seg>VVhome time doth eate and age 〈…〉 , VVhome</seg>
+          <corr>cares</corr>
+          <seg>of mind do shake and alter so , As VVinter</seg>
+        </note>
+        <note target="A18729-122080" xml:id="A18729-22-a-2550">
+          <label>A18729-22-a-2550</label>
+          <sic>th●●</sic>
+          <seg>wherein there is no truth , A poysoned dish ,</seg>
+          <corr>that</corr>
+          <seg>doth the reason blind ▪ A colour cast on</seg>
+        </note>
+        <note target="A18729-122120" xml:id="A18729-22-a-2590">
+          <label>A18729-22-a-2590</label>
+          <sic>bli●d</sic>
+          <seg>, A poysoned dish , that doth the reason</seg>
+          <corr>blind</corr>
+          <seg>▪ A colour cast on things that are but 〈◊〉</seg>
+        </note>
+        <note target="A18729-122620" xml:id="A18729-22-a-3090">
+          <label>A18729-22-a-3090</label>
+          <sic>thi●tles</sic>
+          <seg>heart . In rage of youth , these pricking</seg>
+          <corr>thistles</corr>
+          <seg>growes , VVhiles Riot raygnes , and Folly</seg>
+        </note>
+        <note target="A18729-122670" xml:id="A18729-22-a-3140">
+          <label>A18729-22-a-3140</label>
+          <sic>●aynes</sic>
+          <seg>these pricking thistles growes , VVhiles Riot</seg>
+          <corr>raygnes</corr>
+          <seg>, and Folly beares the sway In hoarie age</seg>
+        </note>
+        <note target="A18729-122710" xml:id="A18729-22-a-3180">
+          <label>A18729-22-a-3180</label>
+          <sic>bear●s</sic>
+          <seg>growes , VVhiles Riot raygnes , and Folly</seg>
+          <corr>beares</corr>
+          <seg>the sway In hoarie age , 〈…〉 , VVhere 〈…〉</seg>
+        </note>
+        <note target="A18729-122850" xml:id="A18729-22-b-0120">
+          <label>A18729-22-b-0120</label>
+          <sic>●exe</sic>
+          <seg>hoarie age , 〈…〉 , VVhere 〈…〉 . The weaker</seg>
+          <corr>sexe</corr>
+          <seg>, in 〈…〉 The infant hath , the , 〈…〉 ▪ The</seg>
+        </note>
+        <note target="A18729-123170" xml:id="A18729-22-b-0440">
+          <label>A18729-22-b-0440</label>
+          <sic>deed●</sic>
+          <seg>of eye , doth 〈…〉 . In outward shower , in</seg>
+          <corr>deede</corr>
+          <seg>the trust in small , They are but clokes</seg>
+        </note>
+        <note target="A18729-123430" xml:id="A18729-22-b-0700">
+          <label>A18729-22-b-0700</label>
+          <sic>Ven●●</sic>
+          <seg>mind , and 〈…〉 , VVhich gaynes 〈…〉 . Dame</seg>
+          <corr>Venus</corr>
+          <seg>loues , the 〈◊〉 and warlike Knight , Though</seg>
+        </note>
+        <note target="A18729-125260" xml:id="A18729-22-b-2490">
+          <label>A18729-22-b-2490</label>
+          <sic>●end</sic>
+          <seg>subdude them with his sight , And made them</seg>
+          <corr>send</corr>
+          <seg>, and bow to him at length . VVhome force</seg>
+        </note>
+        <note target="A18729-125510" xml:id="A18729-22-b-2740">
+          <label>A18729-22-b-2740</label>
+          <sic>strok●</sic>
+          <seg>Submittes themselues , and greeue at euery</seg>
+          <corr>stroke</corr>
+          <seg>: VVho beautie winnes , and gaynes vnto</seg>
+        </note>
+        <note target="A18729-126350" xml:id="A18729-23-a-0630">
+          <label>A18729-23-a-0630</label>
+          <sic>Pear●e</sic>
+          <seg>Heauenly gift , to rauish euery eye , A perfite</seg>
+          <corr>Pearle</corr>
+          <seg>, wherein is naught but blisse , Delight</seg>
+        </note>
+        <note target="A18729-126820" xml:id="A18729-23-a-1100">
+          <label>A18729-23-a-1100</label>
+          <sic>Ado●i●</sic>
+          <seg>, hir tender brest did teare , VVhen she</seg>
+          <corr>Adonis</corr>
+          <seg>death was fayne to 〈◊〉 . Phoebus did mourne</seg>
+        </note>
+        <note target="A18729-126890" xml:id="A18729-23-a-1170">
+          <label>A18729-23-a-1170</label>
+          <sic>P●●●bus</sic>
+          <seg>VVhen she Adonis death was fayne to 〈◊〉 .</seg>
+          <corr>Phoebus</corr>
+          <seg>did mourne , when his delight was slayne</seg>
+        </note>
+        <note target="A18729-127520" xml:id="A18729-23-a-1800">
+          <label>A18729-23-a-1800</label>
+          <sic>Ph●eb</sic>
+          <seg>Nimphes , in loue supprisd away , Or him whome</seg>
+          <corr>Phoeb</corr>
+          <seg>, in to hir Charriot tooke , Or him , whose</seg>
+        </note>
+        <note target="A18729-127650" xml:id="A18729-23-a-1930">
+          <label>A18729-23-a-1930</label>
+          <sic>di●d</sic>
+          <seg>hir Charriot tooke , Or him , whose beautie</seg>
+          <corr>died</corr>
+          <seg>the morning grey , The Gods in beautie ,</seg>
+        </note>
+        <note target="A18729-129370" xml:id="A18729-23-b-0240">
+          <label>A18729-23-b-0240</label>
+          <sic>●ute</sic>
+          <seg>, deserues to rea●e his gayn Mine earnest</seg>
+          <corr>sute</corr>
+          <seg>, may not be thus orethrowen , So long employd</seg>
+        </note>
+        <note target="A18729-129720" xml:id="A18729-23-b-0590">
+          <label>A18729-23-b-0590</label>
+          <sic>deb●tes</sic>
+          <seg>in place , Vnfolds great words , and long</seg>
+          <corr>debates</corr>
+          <seg>the cace : And braues it out , with goodly</seg>
+        </note>
+        <note target="A18729-130700" xml:id="A18729-23-b-1570">
+          <label>A18729-23-b-1570</label>
+          <sic>l●st</sic>
+          <seg>. My trauell then , and truth may not be</seg>
+          <corr>lost</corr>
+          <seg>, Nor my good will , be recompenst with</seg>
+        </note>
+        <note target="A18729-131580" xml:id="A18729-23-b-2450">
+          <label>A18729-23-b-2450</label>
+          <sic>●ame</sic>
+          <seg>but the heart , The friendly meanes , can</seg>
+          <corr>tame</corr>
+          <seg>the wildest beast . And VVomen who , in</seg>
+        </note>
+        <note target="A18729-132430" xml:id="A18729-23-b-3300">
+          <label>A18729-23-b-3300</label>
+          <sic>b●st</sic>
+          <seg>VVhose loyall loue , claymes place aboue the</seg>
+          <corr>best</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A18729-132840" xml:id="A18729-24-a-0350">
+          <label>A18729-24-a-0350</label>
+          <sic>●ayle</sic>
+          <seg>Though I good Happe , haue borne but simple</seg>
+          <corr>sayle</corr>
+          <seg>, And went aloofe , tis I must end thys</seg>
+        </note>
+        <note target="A18729-133120" xml:id="A18729-24-a-0630">
+          <label>A18729-24-a-0630</label>
+          <sic>weak●</sic>
+          <seg>victor of the field , Vnto whose troth , your</seg>
+          <corr>weake</corr>
+          <seg>discourse shall yeeld .</seg>
+        </note>
+        <note target="A18729-133450" xml:id="A18729-24-a-0940">
+          <label>A18729-24-a-0940</label>
+          <sic>wer●</sic>
+          <seg>, a God to like hir well , But though she</seg>
+          <corr>were</corr>
+          <seg>, the fayrest thing aliue , ( As sure indeede</seg>
+        </note>
+        <note target="A18729-134340" xml:id="A18729-24-a-1810">
+          <label>A18729-24-a-1810</label>
+          <sic>bestowe●</sic>
+          <seg>fedde . Shall she be spoyld , for fauoure she</seg>
+          <corr>bestowes</corr>
+          <seg>In friendly sort , and not in faithfull</seg>
+        </note>
+        <note target="A18729-134760" xml:id="A18729-24-a-2230">
+          <label>A18729-24-a-2230</label>
+          <sic>stri●e</sic>
+          <seg>. But to the poynt , and purpose of your</seg>
+          <corr>strife</corr>
+          <seg>, One pleades good will , by shape and fauoure</seg>
+        </note>
+        <note target="A18729-135040" xml:id="A18729-24-a-2510">
+          <label>A18729-24-a-2510</label>
+          <sic>●ale</sic>
+          <seg>please a pleasant wife ) Another tels a penned</seg>
+          <corr>tale</corr>
+          <seg>by rote , Bedeckt and fylde with ynckhorne</seg>
+        </note>
+        <note target="A18729-135120" xml:id="A18729-24-a-2590">
+          <label>A18729-24-a-2590</label>
+          <sic>ynck●o●ne</sic>
+          <seg>penned tale by rote , Bedeckt and fylde with</seg>
+          <corr>ynckhorne</corr>
+          <seg>tearmes ynow . The third commes in , and</seg>
+        </note>
+        <note target="A18729-135680" xml:id="A18729-24-a-3150">
+          <label>A18729-24-a-3150</label>
+          <sic>●e</sic>
+          <seg>right , and iudgement in this cace , Dezart ,</seg>
+          <corr>he</corr>
+          <seg>telles a trimme discourse of troth , The</seg>
+        </note>
+        <note target="A18729-136700" xml:id="A18729-24-b-0860">
+          <label>A18729-24-b-0860</label>
+          <sic>Deza●t</sic>
+          <seg>may not , alone the glorie gayne : Nor yet</seg>
+          <corr>Dezart</corr>
+          <seg>, that neerest goes the gole , May winne</seg>
+        </note>
+        <note target="A18729-138200" xml:id="A18729-24-b-2360">
+          <label>A18729-24-b-2360</label>
+          <sic>sto●pe</sic>
+          <seg>Fortune flyes , A wife must needes , then</seg>
+          <corr>stoope</corr>
+          <seg>to destnyes lot . VVherefore I heere , possesse</seg>
+        </note>
+        <note target="A18729-139810" xml:id="A18729-25-a-0470">
+          <label>A18729-25-a-0470</label>
+          <sic>A Gree●</sic>
+          <seg/>
+          <corr>AGreed</corr>
+          <seg>, though I Dezart haue double wrong , I</seg>
+        </note>
+        <note target="A18729-141080" xml:id="A18729-25-a-1700">
+          <label>A18729-25-a-1700</label>
+          <sic>●ight</sic>
+          <seg>that first found speciall grace , In formost</seg>
+          <corr>sight</corr>
+          <seg>, looke you for tender yeares , And iudge</seg>
+        </note>
+        <note target="A18729-144090" xml:id="A18729-25-b-1890">
+          <label>A18729-25-b-1890</label>
+          <sic>Phayri●s</sic>
+          <seg>THe</seg>
+          <corr>Phayries</corr>
+          <seg>are another kind , of elues that daunce</seg>
+        </note>
+        <note target="A18729-144150" xml:id="A18729-25-b-1950">
+          <label>A18729-25-b-1950</label>
+          <sic>el●es</sic>
+          <seg>THe Phayries are another kind , of</seg>
+          <corr>elues</corr>
+          <seg>that daunce in darke , Yet can light Candles</seg>
+        </note>
+        <note target="A18729-145990" xml:id="A18729-25-b-3730">
+          <label>A18729-25-b-3730</label>
+          <sic>shou●de</sic>
+          <seg>Then suddaynely</seg>
+          <corr>shoulde</corr>
+          <seg>they all haue departed into the ground ,</seg>
+        </note>
+        <note target="A18729-146390" xml:id="A18729-25-b-4130">
+          <label>A18729-25-b-4130</label>
+          <sic>descripti●n</sic>
+          <seg>had bin drawen ouer their heads , as the</seg>
+          <corr>description</corr>
+          <seg>thereof doth declare .</seg>
+        </note>
+        <note target="A18729-150510" xml:id="A18729-26-b-0260">
+          <label>A18729-26-b-0260</label>
+          <sic>fiu●</sic>
+          <seg>present , when the Shewe ended , it was past</seg>
+          <corr>fiue</corr>
+          <seg>of the clocke .</seg>
+        </note>
+        <note target="A18729-150540" xml:id="A18729-26-b-0290">
+          <label>A18729-26-b-0290</label>
+          <sic>cl●cke</sic>
+          <seg>the Shewe ended , it was past fiue of the</seg>
+          <corr>clocke</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A18729-150780" xml:id="A18729-26-b-0510">
+          <label>A18729-26-b-0510</label>
+          <sic>o●e</sic>
+          <seg>and inuentions , with the which did no any</seg>
+          <corr>one</corr>
+          <seg>deale but my selfe . And as I haue made</seg>
+        </note>
+        <note target="A18729-152440" xml:id="A18729-26-b-2170">
+          <label>A18729-26-b-2170</label>
+          <sic>ther●of</sic>
+          <seg>ouer the causes , and make a briefe report</seg>
+          <corr>thereof</corr>
+          <seg>, as knoweth God , who graunt and sende</seg>
+        </note>
+        <note target="A18729-153130" xml:id="A18729-27-a-0180">
+          <label>A18729-27-a-0180</label>
+          <sic>view●</sic>
+          <seg>against the Phayries kind , we come in open</seg>
+          <corr>viewe</corr>
+          <seg>, ( And that the Queene of Phayries heere</seg>
+        </note>
+        <note target="A18729-154590" xml:id="A18729-27-a-1600">
+          <label>A18729-27-a-1600</label>
+          <sic>●or</sic>
+          <seg>thrust poore Phayries out of place , yet we :</seg>
+          <corr>for</corr>
+          <seg>feare of soyle , VVatcht here our time ,</seg>
+        </note>
+        <note target="A18729-160300" xml:id="A18729-28-a-0370">
+          <label>A18729-28-a-0370</label>
+          <sic>n●t</sic>
+          <seg>tolde , as the rest of matter penned before ,</seg>
+          <corr>not</corr>
+          <seg>chiefely for the chéere and entertaynemente</seg>
+        </note>
+        <note target="A18729-160370" xml:id="A18729-28-a-0440">
+          <label>A18729-28-a-0440</label>
+          <sic>●ounde</sic>
+          <seg>chiefely for the chéere and entertaynemente</seg>
+          <corr>founde</corr>
+          <seg>returning , but for other causes méete to</seg>
+        </note>
+        <note target="A18729-160430" xml:id="A18729-28-a-0500">
+          <label>A18729-28-a-0500</label>
+          <sic>ca●ses</sic>
+          <seg>entertaynemente founde returning , but for other</seg>
+          <corr>causes</corr>
+          <seg>méete to be rehearsed . But to be tedious</seg>
+        </note>
+        <note target="A18729-161400" xml:id="A18729-28-a-1470">
+          <label>A18729-28-a-1470</label>
+          <sic>re●eyned</sic>
+          <seg>Woodhouses that night , where she was well</seg>
+          <corr>receyued</corr>
+          <seg>, and nobly entertayned . From thence to</seg>
+        </note>
+        <note target="A18729-161720" xml:id="A18729-28-a-1790">
+          <label>A18729-28-a-1790</label>
+          <sic>The●forde</sic>
+          <seg>it no greate commendation . From thence to</seg>
+          <corr>Thetforde</corr>
+          <seg>at Sir Edward Cleeres . The trayne haue</seg>
+        </note>
+        <note target="A18729-163640" xml:id="A18729-28-a-3690">
+          <label>A18729-28-a-3690</label>
+          <sic>con●●esse</sic>
+          <seg>and comfort to all good minds that shall</seg>
+          <corr>confesse</corr>
+          <seg>of the same , suche a Lorde is oure greate</seg>
+        </note>
+        <note target="A18729-164030" xml:id="A18729-28-b-0390">
+          <label>A18729-28-b-0390</label>
+          <sic>conu●eth</sic>
+          <seg>make the crooked pathes streighte where she</seg>
+          <corr>commeth</corr>
+          <seg>, and drawe the hearts of the people after</seg>
+        </note>
+        <note target="A18729-164230" xml:id="A18729-28-b-0590">
+          <label>A18729-28-b-0590</label>
+          <sic>bound●s</sic>
+          <seg>wheresoeuer she trauels . I had almost passed the</seg>
+          <corr>boundes</corr>
+          <seg>of my discourse , by a desire of doing wel</seg>
+        </note>
+        <note target="A18729-165440" xml:id="A18729-28-b-1800">
+          <label>A18729-28-b-1800</label>
+          <sic>●eare</sic>
+          <seg>the Shire ( as in many other places ) did</seg>
+          <corr>beare</corr>
+          <seg>the Queenes meate to the table , whiche</seg>
+        </note>
+        <note target="A18729-165460" xml:id="A18729-28-b-1820">
+          <label>A18729-28-b-1820</label>
+          <sic>Qu●enes</sic>
+          <seg>( as in many other places ) did beare the</seg>
+          <corr>Queenes</corr>
+          <seg>meate to the table , whiche was a great</seg>
+        </note>
+        <note target="A18729-165560" xml:id="A18729-28-b-1920">
+          <label>A18729-28-b-1920</label>
+          <sic>lik●ng</sic>
+          <seg>Queenes meate to the table , whiche was a great</seg>
+          <corr>liking</corr>
+          <seg>, and gladnèsse to the Gentlemen , and a</seg>
+        </note>
+        <note target="A18729-167020" xml:id="A18729-28-b-3380">
+          <label>A18729-28-b-3380</label>
+          <sic>reui●ed</sic>
+          <seg>, and to knit vp all , the good there was</seg>
+          <corr>reuiued</corr>
+          <seg>, not only with making a great feast to</seg>
+        </note>
+        <note target="A18729-167890" xml:id="A18729-28-b-4200">
+          <label>A18729-28-b-4200</label>
+          <sic>retu●ne</sic>
+          <seg>little , to speake of ye Quéenes Highnesse</seg>
+          <corr>returne</corr>
+          <seg>, who God hath so well preserued , that</seg>
+        </note>
+        <note target="A18729-176070" xml:id="A18729-32-a-0810">
+          <label>A18729-32-a-0810</label>
+          <sic>hee●e</sic>
+          <seg>marueld howe this Knight , could leaue his Lady</seg>
+          <corr>heere</corr>
+          <seg>, His friends , and prettie-tender babes</seg>
+        </note>
+        <note target="A18729-177520" xml:id="A18729-32-b-0390">
+          <label>A18729-32-b-0390</label>
+          <sic>to-trudge</sic>
+          <seg>still , and noble mind enioyes , Are glad</seg>
+          <corr>to trudge</corr>
+          <seg>trudge and toyle , and driue off time awhile</seg>
+        </note>
+        <note target="A18729-179350" xml:id="A18729-33-a-0450">
+          <label>A18729-33-a-0450</label>
+          <sic>VVhe●stone</sic>
+          <seg>appeare . Miles Morgan gaynes good Fame , and</seg>
+          <corr>VVhetstone</corr>
+          <seg>steps in place , And seekes by trauell ,</seg>
+        </note>
+        <note target="A18729-179530" xml:id="A18729-33-a-0630">
+          <label>A18729-33-a-0630</label>
+          <sic>gr●●ce</sic>
+          <seg>trauell , and by toyle , to wine him double</seg>
+          <corr>grace</corr>
+          <seg>. Iohn Vdall is not hidde , nor Rowles I</seg>
+        </note>
+        <note target="A18729-182720" xml:id="A18729-34-a-0200">
+          <label>A18729-34-a-0200</label>
+          <sic>ma●e</sic>
+          <seg>〈…〉 a greedie hope 〈…〉 And heap 〈…〉 doth</seg>
+          <corr>make</corr>
+          <seg>you 〈…〉 Oh sure that 〈…〉 conceyue the case</seg>
+        </note>
+        <note target="A18729-183000" xml:id="A18729-34-a-0480">
+          <label>A18729-34-a-0480</label>
+          <sic>look●</sic>
+          <seg>in 〈…〉 You meane to 〈…〉 as high as eye may</seg>
+          <corr>looke</corr>
+          <seg>〈…〉 And search 〈…〉 , and euery secret nooke</seg>
+        </note>
+        <note target="A18729-184260" xml:id="A18729-34-b-0430">
+          <label>A18729-34-b-0430</label>
+          <sic>you'in</sic>
+          <seg>And as he sent you out , so can he bring</seg>
+          <corr>you' in</corr>
+          <seg>in , Yea safely home 〈…〉 at large vvhere</seg>
+        </note>
+        <note target="A18729-187040" xml:id="A18729-35-a-1660">
+          <label>A18729-35-a-1660</label>
+          <sic>●retched</sic>
+          <seg>tainted carren bate , Or liue a lea●d and</seg>
+          <corr>wretched</corr>
+          <seg>life , vpon a hungry share . At home much</seg>
+        </note>
+        <note target="A18729-189650" xml:id="A18729-36-a-0610">
+          <label>A18729-36-a-0610</label>
+          <sic>ri●e</sic>
+          <seg>the 〈◊〉 , the cold , and each disease is</seg>
+          <corr>rife</corr>
+          <seg>. Abroade the sightes are strange , and</seg>
+        </note>
+        <note target="A18729-190600" xml:id="A18729-36-a-1560">
+          <label>A18729-36-a-1560</label>
+          <sic>se●s●</sic>
+          <seg>prooue I trauels best , for body , soule , and</seg>
+          <corr>sense</corr>
+          <seg>, And ease a nurse to pamper vice , and</seg>
+        </note>
+        <note target="A18729-191510" xml:id="A18729-36-b-0660">
+          <label>A18729-36-b-0660</label>
+          <sic>teach●●●</sic>
+          <seg>ripe , and settes bad things abroch , Toyle</seg>
+          <corr>teacheth</corr>
+          <seg>men to conquer Fame , and flee from foule</seg>
+        </note>
+        <note target="A18729-191790" xml:id="A18729-36-b-0940">
+          <label>A18729-36-b-0940</label>
+          <sic>Ve●●ue</sic>
+          <seg>vvhelp that waues the tayle , Toyle is for</seg>
+          <corr>Vertue</corr>
+          <seg>quicke as Bee , for Vice as slow as 〈◊〉</seg>
+        </note>
+        <note target="A18729-191870" xml:id="A18729-36-b-1020">
+          <label>A18729-36-b-1020</label>
+          <sic>slo●</sic>
+          <seg>is for Vertue quicke as Bee , for Vice as</seg>
+          <corr>slow</corr>
+          <seg>as 〈◊〉 . Rest sowes no blessed feede , yet</seg>
+        </note>
+        <note target="A18729-192060" xml:id="A18729-36-b-1210">
+          <label>A18729-36-b-1210</label>
+          <sic>g●ound</sic>
+          <seg>reapes a curssed grayne , Toyle weedes the</seg>
+          <corr>ground</corr>
+          <seg>, and planteth floures where nettles did</seg>
+        </note>
+        <note target="A18729-192300" xml:id="A18729-36-b-1450">
+          <label>A18729-36-b-1450</label>
+          <sic>●he</sic>
+          <seg>but shakes off shackels still , Toyle makes</seg>
+          <corr>the</corr>
+          <seg>body apte to stoupe , to bend and shew good</seg>
+        </note>
+        <note target="A18729-192410" xml:id="A18729-36-b-1560">
+          <label>A18729-36-b-1560</label>
+          <sic>●ill</sic>
+          <seg>body apte to stoupe , to bend and shew good</seg>
+          <corr>will</corr>
+          <seg>. Rest is a retchlesse ioy , that sees not</seg>
+        </note>
+        <note target="A18729-192500" xml:id="A18729-36-b-1650">
+          <label>A18729-36-b-1650</label>
+          <sic>●ees</sic>
+          <seg>good will . Rest is a retchlesse ioy , that</seg>
+          <corr>sees</corr>
+          <seg>not his 〈…〉 , Toyle castes out many a vayne</seg>
+        </note>
+        <note target="A18729-193630" xml:id="A18729-37-a-1090">
+          <label>A18729-37-a-1090</label>
+          <sic>suffic●</sic>
+          <seg>say troth , VVhole kingdomes scarcely cā</seg>
+          <corr>suffice</corr>
+          <seg>their minds and manhoode both . Now haue</seg>
+        </note>
+        <note target="A18729-194500" xml:id="A18729-37-b-0190">
+          <label>A18729-37-b-0190</label>
+          <sic>no●</sic>
+          <seg>ritches , race , or birth . To worthy wife</seg>
+          <corr>nor</corr>
+          <seg>friend , to babes nor neerest kinne , But</seg>
+        </note>
+        <note target="A18729-194750" xml:id="A18729-37-b-0440">
+          <label>A18729-37-b-0440</label>
+          <sic>Cou●●reys</sic>
+          <seg>aboue , and iourney they are in . And all for</seg>
+          <corr>Countreys</corr>
+          <seg>cause , and to enrich the same , Now do</seg>
+        </note>
+        <note target="A18729-196260" xml:id="A18729-38-a-0090">
+          <label>A18729-38-a-0090</label>
+          <sic>behold●</sic>
+          <seg>waxeth cold : Yet face 〈…〉 , the same is to</seg>
+          <corr>beholde</corr>
+          <seg>But they must need●● 〈◊〉 a greater brunt</seg>
+        </note>
+        <note target="A18729-198140" xml:id="A18729-38-b-0600">
+          <label>A18729-38-b-0600</label>
+          <sic>bea●e</sic>
+          <seg>calls , 〈…〉 , a sort of them are plast , To</seg>
+          <corr>beare</corr>
+          <seg>the 〈…〉 , that should the Shipp● assayle</seg>
+        </note>
+        <note target="A18729-203420" xml:id="A18729-41-b-0310">
+          <label>A18729-41-b-0310</label>
+          <sic>incogni●a</sic>
+          <seg>last iourney , in the Countrey called ( Met●</seg>
+          <corr>incognita</corr>
+          <seg>) whiche welcome was written since this</seg>
+        </note>
+        <note target="A18729-203670" xml:id="A18729-41-b-0560">
+          <label>A18729-41-b-0560</label>
+          <sic>testim●ny</sic>
+          <seg>and ioyned to the same Booke , for a true</seg>
+          <corr>testimony</corr>
+          <seg>of Church-yardes good will , for the furtherance</seg>
+        </note>
+        <note target="A18729-203710" xml:id="A18729-41-b-0600">
+          <label>A18729-41-b-0600</label>
+          <sic>w●ll</sic>
+          <seg>for a true testimony of Church-yardes good</seg>
+          <corr>will</corr>
+          <seg>, for the furtherance of Mayster Frobushers</seg>
+        </note>
+        <note target="A18729-203750" xml:id="A18729-41-b-0640">
+          <label>A18729-41-b-0640</label>
+          <sic>further●nce</sic>
+          <seg>testimony of Church-yardes good will , for the</seg>
+          <corr>furtherance</corr>
+          <seg>of Mayster Frobushers fame .</seg>
+        </note>
+        <note target="A18729-203790" xml:id="A18729-41-b-0680">
+          <label>A18729-41-b-0680</label>
+          <sic>f●me</sic>
+          <seg>for the furtherance of Mayster Frobushers</seg>
+          <corr>fame</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A18729-204790" xml:id="A18729-41-b-1670">
+          <label>A18729-41-b-1670</label>
+          <sic>sowell</sic>
+          <seg>that creepe not far , and loue your shelles</seg>
+          <corr>so well</corr>
+          <seg>, And you cold crousts , that haue</seg>
+        </note>
+        <note target="A18729-207820" xml:id="A18729-42-b-1480">
+          <label>A18729-42-b-1480</label>
+          <sic>●e</sic>
+          <seg>ery where , The foole and wise man , would</seg>
+          <corr>be</corr>
+          <seg>one : and voyde of loue or feare The world</seg>
+        </note>
+        <note target="A18729-207940" xml:id="A18729-42-b-1600">
+          <label>A18729-42-b-1600</label>
+          <sic>sta●d</sic>
+          <seg>and voyde of loue or feare The world should</seg>
+          <corr>stand</corr>
+          <seg>; for wealth &amp; wit is that which gouernes</seg>
+        </note>
+        <note target="A18729-208030" xml:id="A18729-42-b-1690">
+          <label>A18729-42-b-1690</label>
+          <sic>gouern●s</sic>
+          <seg>should stand ; for wealth &amp; wit is that which</seg>
+          <corr>gouernes</corr>
+          <seg>all , And makes vs know the mighty sorte</seg>
+        </note>
+        <note target="A18729-209240" xml:id="A18729-43-a-1190">
+          <label>A18729-43-a-1190</label>
+          <sic>la●de</sic>
+          <seg>to their good mindes The Gods had made the</seg>
+          <corr>lande</corr>
+          <seg>and Seas , the skies , the ayre and windes</seg>
+        </note>
+        <note target="A18729-216020" xml:id="A18729-45-a-0560">
+          <label>A18729-45-a-0560</label>
+          <sic>mu●h</sic>
+          <seg>leaues , blossoms and fruite , oughte as</seg>
+          <corr>much</corr>
+          <seg>to be spoken of , as the ●are bod●e of the</seg>
+        </note>
+        <note target="A18729-216170" xml:id="A18729-45-a-0710">
+          <label>A18729-45-a-0710</label>
+          <sic>witho●t</sic>
+          <seg>of , as the ●are bod●e of the same , 〈◊〉</seg>
+          <corr>without</corr>
+          <seg>branches , ( though it haue neuer so greate</seg>
+        </note>
+        <note target="A18729-216400" xml:id="A18729-45-a-0940">
+          <label>A18729-45-a-0940</label>
+          <sic>●ayes</sic>
+          <seg>barrayne or little estéemed . I remember of late</seg>
+          <corr>dayes</corr>
+          <seg>a victory wonne agaynst the Turkes on the</seg>
+        </note>
+        <note target="A18729-216790" xml:id="A18729-45-a-1330">
+          <label>A18729-45-a-1330</label>
+          <sic>tim●</sic>
+          <seg>in whome the force dydlie , that from that</seg>
+          <corr>time</corr>
+          <seg>in this present houre , the greate man that</seg>
+        </note>
+        <note target="A18729-218090" xml:id="A18729-45-a-2630">
+          <label>A18729-45-a-2630</label>
+          <sic>th●ir</sic>
+          <seg>so daunted them and taken away the vse of</seg>
+          <corr>their</corr>
+          <seg>〈◊〉 . And many matters and noble Histories</seg>
+        </note>
       </div>
     </back>
   </text>

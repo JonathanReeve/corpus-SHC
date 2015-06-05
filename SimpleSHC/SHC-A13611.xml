@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A13611">
   <teiHeader>
     <fileDesc>
@@ -13118,7 +13118,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="be" ana="#vvz" xml:id="A13611-050230" facs="11-a-1540">is</w>
             <c> </c>
-            <w lemma="the" part="I" ana="#d" xml:id="A13611-050240.1" facs="11-a-1550" rendition="y-sup">the</w>
+            <w lemma="the" part="I" ana="#d" xml:id="A13611-050240.1" facs="11-a-1550">
+              <choice>
+                <orig>ye</orig>
+                <reg>the</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="first" ana="#ord" xml:id="A13611-050260" facs="11-a-1560">first</w>
             <pc xml:id="A13611-050270" unit="sentence" facs="11-a-1570">.</pc>
@@ -48681,7 +48686,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <c> </c>
               <w lemma="cause" ana="#n1" xml:id="A13611-201310" facs="30-b-3680">cause</w>
               <c> </c>
-              <w lemma="that" part="I" ana="#cs" xml:id="A13611-201320.1" facs="30-b-3690" rendition="y-sup">that</w>
+              <w lemma="that" part="I" ana="#cs" xml:id="A13611-201320.1" facs="30-b-3690">
+                <choice>
+                  <orig>yt</orig>
+                  <reg>that</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="the" ana="#d" xml:id="A13611-201340" facs="30-b-3700">the</w>
               <c> </c>
@@ -73912,6 +73922,139 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A13611-000450" xml:id="A13611-1-b-0410">
+          <label>A13611-1-b-0410</label>
+          <sic>●ue</sic>
+          <seg>also a commodious meane of help , to such as</seg>
+          <corr>haue</corr>
+          <seg>forgotten Latin , for their speedy recouering</seg>
+        </note>
+        <note target="A13611-009550" xml:id="A13611-4-a-2250">
+          <label>A13611-4-a-2250</label>
+          <sic>wor</sic>
+          <seg>By your</seg>
+          <corr>wor,</corr>
+          <seg>alwaies to be commaunded Maurice Kyffin</seg>
+        </note>
+        <note target="A13611-011180" xml:id="A13611-4-b-1500">
+          <label>A13611-4-b-1500</label>
+          <sic>besitting</sic>
+          <seg>to the Reader , and also not halfe seemly</seg>
+          <corr>befitting</corr>
+          <seg>the sweete style and eloquence of the Author</seg>
+        </note>
+        <note target="A13611-033920" xml:id="A13611-8-b-1720">
+          <label>A13611-8-b-1720</label>
+          <sic>besitteth</sic>
+          <seg>By this you may see , that it much better</seg>
+          <corr>befits</corr>
+          <seg>the woord Speras , here in this place ,</seg>
+        </note>
+        <note target="A13611-067150" xml:id="A13611-14-a-0240">
+          <label>A13611-14-a-0240</label>
+          <sic>●uyding</sic>
+          <seg>thinke hee might ful well haue the rule and</seg>
+          <corr>guyding</corr>
+          <seg>of his owne life . Now ouer and besides</seg>
+        </note>
+        <note target="A13611-067400" xml:id="A13611-14-a-0490">
+          <label>A13611-14-a-0490</label>
+          <sic>censent</sic>
+          <seg>well , lo all other men also , euen with one</seg>
+          <corr>consent</corr>
+          <seg>, gaue al the commendations that might be</seg>
+        </note>
+        <note target="A13611-068100" xml:id="A13611-14-a-1190">
+          <label>A13611-14-a-1190</label>
+          <sic>●ry</sic>
+          <seg>in marryage to my sonne , and that with a</seg>
+          <corr>very</corr>
+          <seg>large dowry : I was well pleas'd withall</seg>
+        </note>
+        <note target="A13611-071020" xml:id="A13611-14-a-3810">
+          <label>A13611-14-a-3810</label>
+          <sic>chuance</sic>
+          <seg>brought furth : we passe along with it : Anon I</seg>
+          <corr>chaunce</corr>
+          <seg>to cast myne eye ( among the women there</seg>
+        </note>
+        <note target="A13611-072280" xml:id="A13611-14-b-1160">
+          <label>A13611-14-b-1160</label>
+          <sic>Chrys●</sic>
+          <seg>: They tell mée that shée is sister vnto</seg>
+          <corr>Chrysesa</corr>
+          <seg>That went by and by , to the very hart of</seg>
+        </note>
+        <note target="A13611-082720" xml:id="A13611-16-a-0360">
+          <label>A13611-16-a-0360</label>
+          <sic>an●</sic>
+          <seg>notwithstanding ) neuer speake woorde to</seg>
+          <corr>any</corr>
+          <seg>of vs , nor yet was any thing mooued at</seg>
+        </note>
+        <note target="A13611-091340" xml:id="A13611-17-a-0470">
+          <label>A13611-17-a-0470</label>
+          <sic>flow</sic>
+          <seg>good earnest Dauus it is no time now to be</seg>
+          <corr>slow</corr>
+          <seg>and sluggish , so far as I perceiued of</seg>
+        </note>
+        <note target="A13611-091360" xml:id="A13611-17-a-0490">
+          <label>A13611-17-a-0490</label>
+          <sic>fluggish</sic>
+          <seg>earnest Dauus it is no time now to be flow and</seg>
+          <corr>sluggish</corr>
+          <seg>, so far as I perceiued of late by the old</seg>
+        </note>
+        <note target="A13611-093450" xml:id="A13611-17-a-2580">
+          <label>A13611-17-a-2580</label>
+          <sic>●icke</sic>
+          <seg>mischeeues , this comes also in the very</seg>
+          <corr>nicke</corr>
+          <seg>: This same woman an of Andros whether she</seg>
+        </note>
+        <note target="A13611-096150" xml:id="A13611-17-b-1890">
+          <label>A13611-17-b-1890</label>
+          <sic>g●ues</sic>
+          <seg>comming furth from Glycerie : And here Terence</seg>
+          <corr>giues</corr>
+          <seg>a lesson , That such especially as haue</seg>
+        </note>
+        <note target="A13611-169290" xml:id="A13611-27-a-1280">
+          <label>A13611-27-a-1280</label>
+          <sic>apappointed</sic>
+          <seg>that drink , and the same quantity that I</seg>
+          <corr>appointed</corr>
+          <seg>for her . I will come backe againe hither</seg>
+        </note>
+        <note target="A13611-201960" xml:id="A13611-31-a-0300">
+          <label>A13611-31-a-0300</label>
+          <sic>ma●</sic>
+          <seg>yonder I sée him himselfe , I am but a dead</seg>
+          <corr>man</corr>
+          <seg>: I would to God héere were some place ,</seg>
+        </note>
+        <note target="A13611-202090" xml:id="A13611-31-a-0430">
+          <label>A13611-31-a-0430</label>
+          <sic>●ight</sic>
+          <seg>would to God héere were some place , where I</seg>
+          <corr>might</corr>
+          <seg>throwe my selfe downe headlong .</seg>
+        </note>
+        <note target="A13611-253980" xml:id="A13611-37-b-0270">
+          <label>A13611-37-b-0270</label>
+          <sic>d●ly</sic>
+          <seg>It seems that Dauus offereth to</seg>
+          <corr>daly</corr>
+          <seg>and play with Mysis , seeking thereby to</seg>
+        </note>
+        <note target="A13611-279240" xml:id="A13611-40-b-1850">
+          <label>A13611-40-b-1850</label>
+          <sic>thextreame</sic>
+          <seg>pleasure , Chremes endeuoreth to appease</seg>
+          <corr>the extreame</corr>
+          <seg>extreame Rage of Simo .</seg>
+        </note>
       </div>
     </back>
   </text>

@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A07003">
   <teiHeader>
     <fileDesc>
@@ -105,14 +105,14 @@ This is a very early release with many imperfections. Contact martinmueller@nort
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <creation>
-        <date>1593</date>
-      </creation>
       <textClass>
         <keywords scheme="lcsh">
           <term>Guise, Henri, -- duc de, -- 1550-1588 -- Drama.</term>
         </keywords>
       </textClass>
+      <creation>
+        <date>1593</date>
+      </creation>
     </profileDesc>
   </teiHeader>
   <text xml:lang="eng" xml:id="A07003-e100010">
@@ -1900,7 +1900,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="the" part="I" ana="#d" xml:id="A07003-006980.1" facs="3-b-2030" rendition="y-sup">the</w>
+            <w lemma="the" part="I" ana="#d" xml:id="A07003-006980.1" facs="3-b-2030">
+              <choice>
+                <orig>ye</orig>
+                <reg>the</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="cause" ana="#n1" xml:id="A07003-007000" facs="3-b-2040">cause</w>
             <c> </c>
@@ -13467,7 +13472,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="to" ana="#acp-p" xml:id="A07003-054140" facs="11-b-2900">to</w>
             <c> </c>
-            <w lemma="the" part="I" ana="#d" xml:id="A07003-054150.1" facs="11-b-2910" rendition="y-sup">the</w>
+            <w lemma="the" part="I" ana="#d" xml:id="A07003-054150.1" facs="11-b-2910">
+              <choice>
+                <orig>ye</orig>
+                <reg>the</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="devil" ana="#n1g" xml:id="A07003-054170" facs="11-b-2920">
               <choice>
@@ -37507,6 +37517,209 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A07003-001080" xml:id="A07003-2-b-0310">
+          <label>A07003-2-b-0310</label>
+          <sic>Pri●ce</sic>
+          <seg>Queene Mother , the King of Nauarre , the</seg>
+          <corr>Prince</corr>
+          <seg>of Condye , the Lord high Admirall , and</seg>
+        </note>
+        <note target="A07003-006690" xml:id="A07003-3-b-1770">
+          <label>A07003-3-b-1770</label>
+          <sic>nuptiallrites</sic>
+          <seg>Dumain : How they did storme at these your</seg>
+          <corr>nuptial rites</corr>
+          <seg>rites , Because the house of Burbon now</seg>
+        </note>
+        <note target="A07003-008040" xml:id="A07003-4-a-0120">
+          <label>A07003-4-a-0120</label>
+          <sic>〈◊〉</sic>
+          <seg>stainde heauen with bloudy clowdes , And made</seg>
+          <corr>it</corr>
+          <seg>look with terrour on the worlde : If euer</seg>
+        </note>
+        <note target="A07003-021970" xml:id="A07003-6-b-0010">
+          <label>A07003-6-b-0010</label>
+          <sic>Forwhose</sic>
+          <seg/>
+          <corr>For whose</corr>
+          <seg>whose effects my soule is massacred ) infect</seg>
+        </note>
+        <note target="A07003-022040" xml:id="A07003-6-b-0080">
+          <label>A07003-6-b-0080</label>
+          <sic>●nfect</sic>
+          <seg>For whose effects my soule is massacred )</seg>
+          <corr>infect</corr>
+          <seg>thy gracious brest with fresh supply , to</seg>
+        </note>
+        <note target="A07003-022120" xml:id="A07003-6-b-0160">
+          <label>A07003-6-b-0160</label>
+          <sic>●o</sic>
+          <seg>infect thy gracious brest with fresh supply ,</seg>
+          <corr>to</corr>
+          <seg>agrauate our sodaine miserie .</seg>
+        </note>
+        <note target="A07003-022330" xml:id="A07003-6-b-0340">
+          <label>A07003-6-b-0340</label>
+          <sic>●nd</sic>
+          <seg>Come my Lords let vs beare her body hence ,</seg>
+          <corr>and</corr>
+          <seg>see it honoured with iust solemnitie .</seg>
+        </note>
+        <note target="A07003-028260" xml:id="A07003-7-b-0780">
+          <label>A07003-7-b-0780</label>
+          <sic>vifite</sic>
+          <seg>And most humble intreates your Maiestie To</seg>
+          <corr>visite</corr>
+          <seg>him sick in his bed .</seg>
+        </note>
+        <note target="A07003-031820" xml:id="A07003-8-a-1400">
+          <label>A07003-8-a-1400</label>
+          <sic>burgoners</sic>
+          <seg>Retes , Sweare by the argent crosses in your</seg>
+          <corr>burgonets</corr>
+          <seg>, To kill all that you suspect of heresie</seg>
+        </note>
+        <note target="A07003-043490" xml:id="A07003-10-a-0790">
+          <label>A07003-10-a-0790</label>
+          <sic>Rene</sic>
+          <seg>What fearfull cries comes from the riuer</seg>
+          <corr>Sene</corr>
+          <seg>,</seg>
+        </note>
+        <note target="A07003-050080" xml:id="A07003-11-a-2210">
+          <label>A07003-11-a-2210</label>
+          <sic>Rene</sic>
+          <seg>Protestants . Which we haue chaste into the riuer</seg>
+          <corr>Sene</corr>
+          <seg>, That swim about and so preserue their</seg>
+        </note>
+        <note target="A07003-080460" xml:id="A07003-16-b-0280">
+          <label>A07003-16-b-0280</label>
+          <sic>Iprethee</sic>
+          <seg>What , all alone my loue , and writing too :</seg>
+          <corr>I prethee</corr>
+          <seg>prethee say to whome thou writes ?</seg>
+        </note>
+        <note target="A07003-087310" xml:id="A07003-17-b-1430">
+          <label>A07003-17-b-1430</label>
+          <sic>Noty</sic>
+          <seg/>
+          <corr>Not</corr>
+          <seg>yet my Lord , for thereon doe they stay</seg>
+        </note>
+        <note target="A07003-087320" xml:id="A07003-17-b-1440">
+          <label>A07003-17-b-1440</label>
+          <sic>et</sic>
+          <seg>Not</seg>
+          <corr>yet</corr>
+          <seg>my Lord , for thereon doe they stay :</seg>
+        </note>
+        <note target="A07003-093470" xml:id="A07003-18-b-2130">
+          <label>A07003-18-b-2130</label>
+          <sic>offloue</sic>
+          <seg>time that I meet her , Ile make her shake</seg>
+          <corr>off loue</corr>
+          <seg>loue with her heeles .</seg>
+        </note>
+        <note target="A07003-095030" xml:id="A07003-19-a-0740">
+          <label>A07003-19-a-0740</label>
+          <sic>▪</sic>
+          <seg>hate : And either neuer mannage army more</seg>
+          <corr>,</corr>
+          <seg>Or else employ them in some better cause</seg>
+        </note>
+        <note target="A07003-097720" xml:id="A07003-19-b-1050">
+          <label>A07003-19-b-1050</label>
+          <sic>geareholde</sic>
+          <seg>meane to keepe you out , which I will if this</seg>
+          <corr>geare holde</corr>
+          <seg>holde : what are ye come so soone ? haue</seg>
+        </note>
+        <note target="A07003-101960" xml:id="A07003-20-a-2400">
+          <label>A07003-20-a-2400</label>
+          <sic>▪</sic>
+          <seg>Lord , to speak more plainely , thus it is</seg>
+          <corr>:</corr>
+          <seg>Being animated by Religious zeale , I meane</seg>
+        </note>
+        <note target="A07003-102180" xml:id="A07003-20-b-0060">
+          <label>A07003-20-b-0060</label>
+          <sic>▪</sic>
+          <seg>can , To ouerthrow those sexious Puritan</seg>
+          <corr>:</corr>
+          <seg> </seg>
+        </note>
+        <note target="A07003-102690" xml:id="A07003-20-b-0550">
+          <label>A07003-20-b-0550</label>
+          <sic>▪</sic>
+          <seg>Nauarre that cloakes them vnderneath his wings</seg>
+          <corr>,</corr>
+          <seg>Shall feele the house of Lorayne is his</seg>
+        </note>
+        <note target="A07003-122850" xml:id="A07003-24-b-0040">
+          <label>A07003-24-b-0040</label>
+          <sic>didstalure</sic>
+          <seg>To which thou</seg>
+          <corr>didst alure</corr>
+          <seg>alure me being aliue : And heere in presence</seg>
+        </note>
+        <note target="A07003-123310" xml:id="A07003-24-b-0500">
+          <label>A07003-24-b-0500</label>
+          <sic>drawa</sic>
+          <seg>forraine warres and ciuile broiles . Did he not</seg>
+          <corr>draw a</corr>
+          <seg>a sorte of English priestes , From Doway</seg>
+        </note>
+        <note target="A07003-131730" xml:id="A07003-26-a-0580">
+          <label>A07003-26-a-0580</label>
+          <sic>Dumaiue</sic>
+          <seg>Yet liues my brother Duke</seg>
+          <corr>Dumaine</corr>
+          <seg>, and many moe :</seg>
+        </note>
+        <note target="A07003-132780" xml:id="A07003-26-a-1430">
+          <label>A07003-26-a-1430</label>
+          <sic>Dumaiue</sic>
+          <seg/>
+          <corr>Dumaine</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A07003-133000" xml:id="A07003-26-a-1610">
+          <label>A07003-26-a-1610</label>
+          <sic>reuengethy</sic>
+          <seg>Oh what may I doe , for to</seg>
+          <corr>reuenge thy</corr>
+          <seg>thy death ?</seg>
+        </note>
+        <note target="A07003-133050" xml:id="A07003-26-b-0020">
+          <label>A07003-26-b-0020</label>
+          <sic>Kingsalone</sic>
+          <seg>The</seg>
+          <corr>Kings alone</corr>
+          <seg>alone , it cannot satisfie .</seg>
+        </note>
+        <note target="A07003-138240" xml:id="A07003-27-b-0790">
+          <label>A07003-27-b-0790</label>
+          <sic>wee'llye</sic>
+          <seg>Then heere</seg>
+          <corr>wee'l lye</corr>
+          <seg>lye before Lucrecia walles , Girting this</seg>
+        </note>
+        <note target="A07003-145990" xml:id="A07003-29-a-1830">
+          <label>A07003-29-a-1830</label>
+          <sic>dy e</sic>
+          <seg>poysoned knife , what shall the French king</seg>
+          <corr>dye</corr>
+          <seg>,</seg>
+        </note>
+        <note target="A07003-149280" xml:id="A07003-29-b-2260">
+          <label>A07003-29-b-2260</label>
+          <sic>Idye</sic>
+          <seg>Paris where these trecherous rebels lurke ,</seg>
+          <corr>I dye</corr>
+          <seg>Nauarre , come beare me to my Sepulchre</seg>
+        </note>
       </div>
     </back>
   </text>

@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A09651">
   <teiHeader>
     <fileDesc>
@@ -102,14 +102,14 @@ This is a very early release with many imperfections. Contact martinmueller@nort
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <creation>
-        <date>1567</date>
-      </creation>
       <textClass>
         <keywords scheme="lcsh">
           <term>Orestes -- Drama -- Early works to 1800.</term>
         </keywords>
       </textClass>
+      <creation>
+        <date>1567</date>
+      </creation>
     </profileDesc>
   </teiHeader>
   <text xml:lang="eng" xml:id="A09651-e100010">
@@ -957,7 +957,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <w lemma="armour" ana="#n1" xml:id="A09651-003440" facs="2-b-0590">armour</w>
             <pc xml:id="A09651-003450" facs="2-b-0600">,</pc>
             <c> </c>
-            <w lemma="the" part="I" ana="#d" xml:id="A09651-003460.1" facs="2-b-0610" rendition="y-sup">the</w>
+            <w lemma="the" part="I" ana="#d" xml:id="A09651-003460.1" facs="2-b-0610">
+              <choice>
+                <orig>ye</orig>
+                <reg>the</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="caitiff" ana="#n2_j" xml:id="A09651-003480" facs="2-b-0620">
               <choice>
@@ -8422,9 +8427,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="thou" ana="#pns" xml:id="A09651-028270" facs="5-b-0540">thou</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-028280.1" facs="5-b-0550" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-028280.1" facs="5-b-0550">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -8492,7 +8497,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="thou" part="I" ana="#pns" xml:id="A09651-028490.1" facs="5-b-0750" rendition="y-sup">thou</w>
+            <w lemma="thou" part="I" ana="#pns" xml:id="A09651-028490.1" facs="5-b-0750">
+              <choice>
+                <orig>yu</orig>
+                <reg>thou</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="man" ana="#n1" xml:id="A09651-028510" facs="5-b-0760">man</w>
             <pc xml:id="A09651-028520" facs="5-b-0770">,</pc>
@@ -8821,9 +8831,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="forth" ana="#av" xml:id="A09651-029620" facs="5-b-1770">forth</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-029630.1" facs="5-b-1780" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-029630.1" facs="5-b-1780">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -9129,9 +9139,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             </w>
             <pc xml:id="A09651-030460" facs="5-b-2570">,</pc>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-030470.1" facs="5-b-2580" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-030470.1" facs="5-b-2580">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -9861,7 +9871,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <l xml:id="A09651-e103180">
             <w lemma="he" ana="#pns" xml:id="A09651-032800" facs="6-a-0400">He</w>
             <c> </c>
-            <w lemma="the" part="I" ana="#d" xml:id="A09651-032810.1" facs="6-a-0410" rendition="y-sup">the</w>
+            <w lemma="the" part="I" ana="#d" xml:id="A09651-032810.1" facs="6-a-0410">
+              <choice>
+                <orig>ye</orig>
+                <reg>the</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="have" ana="#vvd" xml:id="A09651-032830" facs="6-a-0420">had</w>
             <c> </c>
@@ -10426,9 +10441,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             </w>
             <pc xml:id="A09651-034540" facs="6-a-2050">,</pc>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-034550.1" facs="6-a-2060" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-034550.1" facs="6-a-2060">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -11293,7 +11308,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-037490.1" facs="6-b-0460" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-037490.1" facs="6-b-0460">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="which" ana="#crq-r" xml:id="A09651-037510" facs="6-b-0470">which</w>
             <c> </c>
@@ -11778,9 +11798,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="you" ana="#pn" xml:id="A09651-039150" facs="6-b-2040">you</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-039160.1" facs="6-b-2050" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-039160.1" facs="6-b-2050">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -16094,9 +16114,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="bofite" ana="#n2" xml:id="A09651-053500" facs="8-b-0630">bofites</w>
           <c> </c>
-          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-053510.1" facs="8-b-0640" rendition="w-sup">
+          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-053510.1" facs="8-b-0640">
             <choice>
-              <orig>which</orig>
+              <orig>wt</orig>
               <reg>with</reg>
             </choice>
           </w>
@@ -16487,9 +16507,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="enter" ana="#vvb" xml:id="A09651-054810" facs="8-b-1800">enter</w>
           <c> </c>
-          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-054820.1" facs="8-b-1810" rendition="w-sup">
+          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-054820.1" facs="8-b-1810">
             <choice>
-              <orig>which</orig>
+              <orig>wt</orig>
               <reg>with</reg>
             </choice>
           </w>
@@ -16705,7 +16725,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="now" ana="#av" xml:id="A09651-055460" facs="8-b-2360">now</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-055470.1" facs="8-b-2370" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-055470.1" facs="8-b-2370">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="you" ana="#pn" xml:id="A09651-055490" facs="8-b-2380">ye</w>
             <c> </c>
@@ -16974,7 +16999,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-056280.1" facs="8-b-3170" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-056280.1" facs="8-b-3170">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="on" ana="#acp-p" xml:id="A09651-056300" facs="8-b-3180">on</w>
             <c> </c>
@@ -17064,9 +17094,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-056540.1" facs="8-b-3390" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-056540.1" facs="8-b-3390">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -17381,9 +17411,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <l xml:id="A09651-e105580">
             <w lemma="not" ana="#xx" xml:id="A09651-057650" facs="9-a-0170">Not</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-057660.1" facs="9-a-0180" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-057660.1" facs="9-a-0180">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -17566,9 +17596,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <w lemma="pain" ana="#n1" xml:id="A09651-058240" facs="9-a-0750">pain</w>
             <pc xml:id="A09651-058250" facs="9-a-0760">,</pc>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-058260.1" facs="9-a-0770" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-058260.1" facs="9-a-0770">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -17651,9 +17681,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-058510.1" facs="9-a-0970" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-058510.1" facs="9-a-0970">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -17782,7 +17812,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="though" ana="#cs" xml:id="A09651-058870" facs="9-a-1310">though</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-058880.1" facs="9-a-1320" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-058880.1" facs="9-a-1320">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="I" ana="#pns" xml:id="A09651-058900" facs="9-a-1330">I</w>
             <c> </c>
@@ -17827,7 +17862,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="beast" ana="#n2" xml:id="A09651-059080" facs="9-a-1480">beasts</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-059090.1" facs="9-a-1490" rendition="sup-1">
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-059090.1" facs="9-a-1490">
               <choice>
                 <orig>thatt</orig>
                 <reg>that</reg>
@@ -18348,7 +18383,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-060610.1" facs="9-a-2960" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-060610.1" facs="9-a-2960">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="I" ana="#pns" xml:id="A09651-060630" facs="9-a-2970">I</w>
             <pc xml:id="A09651-060640" facs="9-a-2980">,</pc>
@@ -18689,7 +18729,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="true" ana="#j" xml:id="A09651-061820" facs="9-a-4080">true</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-061830.1" facs="9-a-4090" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-061830.1" facs="9-a-4090">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="blood" ana="#n1" xml:id="A09651-061850" facs="9-a-4100">
               <choice>
@@ -19278,9 +19323,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="Horestis" ana="#n1-nn" xml:id="A09651-064050" facs="9-b-1500">Horestis</w>
           <c> </c>
-          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-064060.1" facs="9-b-1510" rendition="w-sup">
+          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-064060.1" facs="9-b-1510">
             <choice>
-              <orig>which</orig>
+              <orig>wt</orig>
               <reg>with</reg>
             </choice>
           </w>
@@ -19588,7 +19633,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <w lemma="end" ana="#vvi" xml:id="A09651-065130" facs="9-b-2500">end</w>
             <pc xml:id="A09651-065140" facs="9-b-2510">,</pc>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-065150.1" facs="9-b-2520" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-065150.1" facs="9-b-2520">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="find" ana="#vvi" xml:id="A09651-065170" facs="9-b-2530">find</w>
             <c> </c>
@@ -19990,7 +20040,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="throughout" ana="#acp-p" xml:id="A09651-066530" facs="9-b-3870">throughout</w>
             <c> </c>
-            <w lemma="the" part="I" ana="#d" xml:id="A09651-066540.1" facs="9-b-3880" rendition="y-sup">the</w>
+            <w lemma="the" part="I" ana="#d" xml:id="A09651-066540.1" facs="9-b-3880">
+              <choice>
+                <orig>ye</orig>
+                <reg>the</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="world" ana="#n1" xml:id="A09651-066560" facs="9-b-3890">world</w>
             <c> </c>
@@ -20990,7 +21045,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="in" ana="#acp-p" xml:id="A09651-069790" facs="10-a-2520">in</w>
             <c> </c>
-            <w lemma="the" part="I" ana="#d" xml:id="A09651-069800.1" facs="10-a-2530" rendition="y-sup">the</w>
+            <w lemma="the" part="I" ana="#d" xml:id="A09651-069800.1" facs="10-a-2530">
+              <choice>
+                <orig>ye</orig>
+                <reg>the</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="war" ana="#n1" xml:id="A09651-069820" facs="10-a-2540">war</w>
             <pc xml:id="A09651-069830" facs="10-a-2550">,</pc>
@@ -22105,14 +22165,24 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="follow" ana="#vvi" xml:id="A09651-073640" facs="10-b-1670">follow</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-073650.1" facs="10-b-1680" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-073650.1" facs="10-b-1680">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="be" ana="#vvd" xml:id="A09651-073670" facs="10-b-1690">was</w>
             <c> </c>
             <w lemma="nought" ana="#pi-x" xml:id="A09651-073680" facs="10-b-1700">naught</w>
           </l>
           <l xml:id="A09651-e106920">
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-073690.1" facs="10-b-1710" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-073690.1" facs="10-b-1710">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="which" ana="#crq-r" xml:id="A09651-073710" facs="10-b-1720">which</w>
             <c> </c>
@@ -22770,7 +22840,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="the" part="I" ana="#d" xml:id="A09651-075810.1" facs="10-b-3780" rendition="y-sup">the</w>
+            <w lemma="the" part="I" ana="#d" xml:id="A09651-075810.1" facs="10-b-3780">
+              <choice>
+                <orig>ye</orig>
+                <reg>the</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="god" ana="#n2" xml:id="A09651-075830" facs="10-b-3790">gods</w>
             <c> </c>
@@ -25280,9 +25355,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-083500.1" facs="12-a-1190" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-083500.1" facs="12-a-1190">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -27689,9 +27764,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             </choice>
           </w>
           <c> </c>
-          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-091120.1" facs="13-a-0660" rendition="w-sup">
+          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-091120.1" facs="13-a-0660">
             <choice>
-              <orig>which</orig>
+              <orig>wt</orig>
               <reg>with</reg>
             </choice>
           </w>
@@ -28208,9 +28283,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="four" ana="#ord" xml:id="A09651-092790" facs="13-a-2270">fourth</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-092800.1" facs="13-a-2280" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-092800.1" facs="13-a-2280">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -28628,7 +28703,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="their" ana="#po" xml:id="A09651-093940" facs="13-a-3240">their</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-093950.1" facs="13-a-3250" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-093950.1" facs="13-a-3250">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="keep" ana="#vvz" xml:id="A09651-093970" facs="13-a-3260">
               <choice>
@@ -29385,7 +29465,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             </w>
             <pc xml:id="A09651-096600" facs="13-b-1370">,</pc>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-096610.1" facs="13-b-1380" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-096610.1" facs="13-b-1380">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="once" ana="#acp-av" xml:id="A09651-096630" facs="13-b-1390">once</w>
             <c> </c>
@@ -29403,9 +29488,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="there" ana="#acp-av" xml:id="A09651-096680" facs="13-b-1440">there</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-096690.1" facs="13-b-1450" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-096690.1" facs="13-b-1450">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -30976,9 +31061,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="out" ana="#av" xml:id="A09651-101510" facs="14-a-1030">out</w>
           <c> </c>
-          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-101520.1" facs="14-a-1040" rendition="w-sup">
+          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-101520.1" facs="14-a-1040">
             <choice>
-              <orig>which</orig>
+              <orig>wt</orig>
               <reg>with</reg>
             </choice>
           </w>
@@ -32685,7 +32770,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="now" ana="#av" xml:id="A09651-106970" facs="14-b-1130">now</w>
             <c> </c>
-            <w lemma="you" part="I" ana="#pn" xml:id="A09651-106980.1" facs="14-b-1140" rendition="y-sup">ye</w>
+            <w lemma="you" part="I" ana="#pn" xml:id="A09651-106980.1" facs="14-b-1140">ye</w>
             <c> </c>
             <w lemma="god" ana="#n2" xml:id="A09651-107000" facs="14-b-1150">gods</w>
             <pc xml:id="A09651-107010" facs="14-b-1160">,</pc>
@@ -34648,9 +34733,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="be" ana="#vvb" xml:id="A09651-113240" facs="15-a-2100">be</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-113250.1" facs="15-a-2110" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-113250.1" facs="15-a-2110">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -35073,7 +35158,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-114610.1" facs="15-a-3460" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-114610.1" facs="15-a-3460">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="you" ana="#pn" xml:id="A09651-114630" facs="15-a-3470">you</w>
             <c> </c>
@@ -35121,9 +35211,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="lack" ana="#n1" xml:id="A09651-114800" facs="15-a-3610">lack</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-114810.1" facs="15-a-3620" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-114810.1" facs="15-a-3620">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -36008,7 +36098,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="all" ana="#d" xml:id="A09651-117770" facs="15-b-1970">all</w>
           <c> </c>
-          <w lemma="the" part="I" ana="#d" xml:id="A09651-117780.1" facs="15-b-1980" rendition="y-sup">the</w>
+          <w lemma="the" part="I" ana="#d" xml:id="A09651-117780.1" facs="15-b-1980">
+            <choice>
+              <orig>ye</orig>
+              <reg>the</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="soldier" ana="#n2" xml:id="A09651-117800" facs="15-b-1990">
             <choice>
@@ -36271,9 +36366,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             </w>
             <pc xml:id="A09651-118590" facs="15-b-2730">,</pc>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-118600.1" facs="15-b-2740" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-118600.1" facs="15-b-2740">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -37782,7 +37877,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-123690.1" facs="16-a-3600" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-123690.1" facs="16-a-3600">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="thou" ana="#pns" xml:id="A09651-123710" facs="16-a-3610">thou</w>
             <c> </c>
@@ -39183,7 +39283,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="throughout" ana="#acp-p" xml:id="A09651-128170" facs="16-b-4050">throughout</w>
             <c> </c>
-            <w lemma="you" part="I" ana="#pn" xml:id="A09651-128180.1" facs="16-b-4060" rendition="y-sup">ye</w>
+            <w lemma="you" part="I" ana="#pn" xml:id="A09651-128180.1" facs="16-b-4060">ye</w>
             <c> </c>
             <w lemma="will" ana="#vmd" xml:id="A09651-128200" facs="16-b-4070">would</w>
             <c> </c>
@@ -40050,9 +40150,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             </choice>
           </w>
           <c> </c>
-          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-131050.1" facs="17-a-2290" rendition="w-sup">
+          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-131050.1" facs="17-a-2290">
             <choice>
-              <orig>which</orig>
+              <orig>wt</orig>
               <reg>with</reg>
             </choice>
           </w>
@@ -40230,7 +40330,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <w lemma="king" ana="#n2" xml:id="A09651-131690" facs="17-a-2800">kings</w>
             <pc xml:id="A09651-131700" facs="17-a-2810">,</pc>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-131710.1" facs="17-a-2820" rendition="sup-1">
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-131710.1" facs="17-a-2820">
               <choice>
                 <orig>thatt</orig>
                 <reg>that</reg>
@@ -40504,9 +40604,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-132670.1" facs="17-a-3770" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-132670.1" facs="17-a-3770">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -40854,7 +40954,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="uvido" ana="#zz" xml:id="A09651-133910" facs="17-b-0760">wido</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-133920.1" facs="17-b-0770" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-133920.1" facs="17-b-0770">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="through" ana="#acp-p" xml:id="A09651-133940" facs="17-b-0780">through</w>
             <c> </c>
@@ -41888,7 +41993,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="say" ana="#vvi" xml:id="A09651-137290" facs="17-b-4000">say</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-137300.1" facs="17-b-4010" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-137300.1" facs="17-b-4010">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="he" ana="#pns" xml:id="A09651-137320" facs="17-b-4020">he</w>
             <c> </c>
@@ -41900,7 +42010,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <w lemma="the" ana="#d" xml:id="A09651-137360" facs="17-b-4060">the</w>
             <w lemma="thing" ana="#n1" xml:id="A09651-137380" facs="17-b-4070">thing</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-137390.1" facs="17-b-4080" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-137390.1" facs="17-b-4080">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="be" ana="#vvz" xml:id="A09651-137410" facs="17-b-4090">is</w>
             <c> </c>
@@ -44070,9 +44185,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="enter" ana="#vvz" xml:id="A09651-144320" facs="18-b-1510">entrith</w>
           <c> </c>
-          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-144330.1" facs="18-b-1520" rendition="w-sup">
+          <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-144330.1" facs="18-b-1520">
             <choice>
-              <orig>which</orig>
+              <orig>wt</orig>
               <reg>with</reg>
             </choice>
           </w>
@@ -47281,7 +47396,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-154280.1" facs="19-b-2730" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-154280.1" facs="19-b-2730">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="the" ana="#d" xml:id="A09651-154300" facs="19-b-2740">the</w>
             <c> </c>
@@ -48171,9 +48291,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-157060.1" facs="20-a-0940" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-157060.1" facs="20-a-0940">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -48192,7 +48312,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <l xml:id="A09651-e114450">
             <w lemma="so" ana="#av" xml:id="A09651-157110" facs="20-a-0980">So</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-157120.1" facs="20-a-0990" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-157120.1" facs="20-a-0990">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="your" ana="#po" xml:id="A09651-157140" facs="20-a-1000">your</w>
             <c> </c>
@@ -48275,7 +48400,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-157330.1" facs="20-a-1190" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-157330.1" facs="20-a-1190">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="your" ana="#po" xml:id="A09651-157350" facs="20-a-1200">your</w>
             <c> </c>
@@ -48591,9 +48721,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="it" ana="#pn" xml:id="A09651-158410" facs="20-a-2200">it</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-158420.1" facs="20-a-2210" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-158420.1" facs="20-a-2210">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -48825,7 +48955,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="their" ana="#po" xml:id="A09651-159220" facs="20-a-2960">their</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A09651-159230.1" facs="20-a-2970" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A09651-159230.1" facs="20-a-2970">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="which" ana="#crq-r" xml:id="A09651-159250" facs="20-a-2980">which</w>
             <pc xml:id="A09651-159260" facs="20-a-2990">,</pc>
@@ -49311,9 +49446,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="shall" ana="#vmb" xml:id="A09651-160800" facs="20-a-4430">shall</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-160810.1" facs="20-a-4440" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A09651-160810.1" facs="20-a-4440">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -51190,6 +51325,209 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A09651-000270" xml:id="A09651-1-b-0250">
+          <label>A09651-1-b-0250</label>
+          <sic>naturtll</sic>
+          <seg>reuengment of his Fathers death , vpon his one</seg>
+          <corr>naturall</corr>
+          <seg>Mother . by Iohn Pikeryng .</seg>
+        </note>
+        <note target="A09651-000560" xml:id="A09651-1-b-0430">
+          <label>A09651-1-b-0430</label>
+          <sic>Hrorestes</sic>
+          <seg/>
+          <corr>Horestes</corr>
+          <seg> </seg>
+        </note>
+        <note target="A09651-012510" xml:id="A09651-3-b-1530">
+          <label>A09651-3-b-1530</label>
+          <sic>abull</sic>
+          <seg>agaynste me , againe to rebell ? O that I wear</seg>
+          <corr>a bull</corr>
+          <seg>bull , the knaues vor to quell , Then would</seg>
+        </note>
+        <note target="A09651-012900" xml:id="A09651-3-b-1880">
+          <label>A09651-3-b-1880</label>
+          <sic>thearuore</sic>
+          <seg>your owne pleasure : In fayth we be , and</seg>
+          <corr>thearfore</corr>
+          <seg>we praye , What they name , is to vs vor</seg>
+        </note>
+        <note target="A09651-016120" xml:id="A09651-4-a-1280">
+          <label>A09651-4-a-1280</label>
+          <sic>be zwinge</sic>
+          <seg>zware by gise , and holye zaynt blyue , Chyll</seg>
+          <corr>bezwinge</corr>
+          <seg>him , and ich be a lyue , By godes de cham</seg>
+        </note>
+        <note target="A09651-024700" xml:id="A09651-5-a-1520">
+          <label>A09651-5-a-1520</label>
+          <sic>sponsaule</sic>
+          <seg>morder vill Hath heaped vp not contented , her</seg>
+          <corr>spousaule</corr>
+          <seg>bed to fyll : With forrayne loue but sought</seg>
+        </note>
+        <note target="A09651-025500" xml:id="A09651-5-a-2320">
+          <label>A09651-5-a-2320</label>
+          <sic>myfo</sic>
+          <seg>mother shuld haue bin thē was she chefe</seg>
+          <corr>my foe</corr>
+          <seg>foe Oh godes therfore sith you be iust ,</seg>
+        </note>
+        <note target="A09651-027060" xml:id="A09651-5-a-3840">
+          <label>A09651-5-a-3840</label>
+          <sic>wrathfuldome</sic>
+          <seg>gyde you on the way . By me thy mind ther</seg>
+          <corr>wrathful doom</corr>
+          <seg>doom , shalbe performd in dede Therfore</seg>
+        </note>
+        <note target="A09651-031050" xml:id="A09651-5-b-3160">
+          <label>A09651-5-b-3160</label>
+          <sic>mese</sic>
+          <seg>haue my father slaine , but soft now let</seg>
+          <corr>me se</corr>
+          <seg>se Idumeus that worthy Kinge , doth com</seg>
+        </note>
+        <note target="A09651-033220" xml:id="A09651-6-a-0820">
+          <label>A09651-6-a-0820</label>
+          <sic>constcaynd</sic>
+          <seg>delight , in clothed coat of maylle , Is now</seg>
+          <corr>constraynd</corr>
+          <seg>in Carones bote ; ouer the brouke to saylle</seg>
+        </note>
+        <note target="A09651-033660" xml:id="A09651-6-a-1250">
+          <label>A09651-6-a-1250</label>
+          <sic>a poyntyd</sic>
+          <seg>beate . Where soules of kinges &amp; other wights</seg>
+          <corr>apoyntid</corr>
+          <seg>are to be , In quiet state there also is</seg>
+        </note>
+        <note target="A09651-034400" xml:id="A09651-6-a-1930">
+          <label>A09651-6-a-1930</label>
+          <sic>faruant</sic>
+          <seg>At hand O King thy</seg>
+          <corr>saruant</corr>
+          <seg>is , which wissheth to thy grace All hayl</seg>
+        </note>
+        <note target="A09651-036310" xml:id="A09651-6-a-3710">
+          <label>A09651-6-a-3710</label>
+          <sic>defiar</sic>
+          <seg>that your grace hath willed me , this my</seg>
+          <corr>desiar</corr>
+          <seg>to show , Oh gratious king this thing it</seg>
+        </note>
+        <note target="A09651-037670" xml:id="A09651-6-b-0590">
+          <label>A09651-6-b-0590</label>
+          <sic>solerayne</sic>
+          <seg>As I do thinke my</seg>
+          <corr>soferayne</corr>
+          <seg>lord , it should be nothing ill , A Prynce</seg>
+        </note>
+        <note target="A09651-046070" xml:id="A09651-7-b-0670">
+          <label>A09651-7-b-0670</label>
+          <sic>act</sic>
+          <seg>In faythe thou</seg>
+          <corr>art</corr>
+          <seg>meatey , but this is the matter , Doust</seg>
+        </note>
+        <note target="A09651-053810" xml:id="A09651-8-b-0890">
+          <label>A09651-8-b-0890</label>
+          <sic>s●●inge</sic>
+          <seg>grote ? Yf thou meddell with me . I wyll</seg>
+          <corr>swinge</corr>
+          <seg>thye cote .</seg>
+        </note>
+        <note target="A09651-057550" xml:id="A09651-9-a-0060">
+          <label>A09651-9-a-0060</label>
+          <sic>awycked</sic>
+          <seg>I do confesse</seg>
+          <corr>a wycked</corr>
+          <seg>wycked facte , it was this is most playne</seg>
+        </note>
+        <note target="A09651-059090.1" xml:id="A09651-9-a-1460">
+          <label>A09651-9-a-1460</label>
+          <sic>ye</sic>
+          <seg>The cruel beasts</seg>
+          <corr>that</corr>
+          <seg>raūg in feldes whose iause to blod ar whet</seg>
+        </note>
+        <note target="A09651-060340" xml:id="A09651-9-a-2660">
+          <label>A09651-9-a-2660</label>
+          <sic>mynest●yd</sic>
+          <seg>, no tyraney to be , When that iustyse is</seg>
+          <corr>mynestryd</corr>
+          <seg>, as lawe and godes decrée . If that the</seg>
+        </note>
+        <note target="A09651-086200" xml:id="A09651-12-a-3620">
+          <label>A09651-12-a-3620</label>
+          <sic>pryfoner</sic>
+          <seg>Come on then in hast , my</seg>
+          <corr>prysoner</corr>
+          <seg>thou art , Come followe me I saye , we must</seg>
+        </note>
+        <note target="A09651-099330" xml:id="A09651-13-b-3920">
+          <label>A09651-13-b-3920</label>
+          <sic>a lyue</sic>
+          <seg>vs , shall make an easey waye , Spare none</seg>
+          <corr>alyue</corr>
+          <seg>for I am bent , to seke their great decaye</seg>
+        </note>
+        <note target="A09651-131710.1" xml:id="A09651-17-a-2820">
+          <label>A09651-17-a-2820</label>
+          <sic>ye</sic>
+          <seg>Two thīgs ther is o kings ,</seg>
+          <corr>that</corr>
+          <seg>moues me thus your ayds to pray : And these</seg>
+        </note>
+        <note target="A09651-138160" xml:id="A09651-18-a-0170">
+          <label>A09651-18-a-0170</label>
+          <sic>therebe</sic>
+          <seg>him , therfore to lyue and dye . Yf none</seg>
+          <corr>there be</corr>
+          <seg>be wyll vnder take , his tyghfull to with</seg>
+        </note>
+        <note target="A09651-142330" xml:id="A09651-18-a-4180">
+          <label>A09651-18-a-4180</label>
+          <sic>a grede</sic>
+          <seg>kyng we do the praye . For eache of them</seg>
+          <corr>agrede</corr>
+          <seg>be the other for to haue , Good syr graunt</seg>
+        </note>
+        <note target="A09651-147010" xml:id="A09651-18-b-4120">
+          <label>A09651-18-b-4120</label>
+          <sic>for sake</sic>
+          <seg>make , A nother wyll haue me , yf you me</seg>
+          <corr>forsake</corr>
+          <seg> . Parhappes you all meruayll , of this</seg>
+        </note>
+        <note target="A09651-148320" xml:id="A09651-19-a-1070">
+          <label>A09651-19-a-1070</label>
+          <sic>with out</sic>
+          <seg>, when I sought to venture . I was dryuen</seg>
+          <corr>without</corr>
+          <seg> comfort , awaye from their gate , I</seg>
+        </note>
+        <note target="A09651-153210" xml:id="A09651-19-b-1730">
+          <label>A09651-19-b-1730</label>
+          <sic>happest</sic>
+          <seg>but to cut to the bone , I count him most</seg>
+          <corr>happiest</corr>
+          <seg>, that medelles with none . Well far you</seg>
+        </note>
+        <note target="A09651-156550" xml:id="A09651-20-a-0480">
+          <label>A09651-20-a-0480</label>
+          <sic>voutsate</sic>
+          <seg>know what case this land Doth now consyst</seg>
+          <corr>vouchsafe</corr>
+          <seg>the same , therfore to shew to me , And</seg>
+        </note>
+        <note target="A09651-156710" xml:id="A09651-20-a-0640">
+          <label>A09651-20-a-0640</label>
+          <sic>a myse</sic>
+          <seg>to shew to me , And yf that ought be now</seg>
+          <corr>amyse</corr>
+          <seg>myse , amendyd it shalbe .</seg>
+        </note>
       </div>
     </back>
   </text>

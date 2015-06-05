@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A01506">
   <teiHeader>
     <fileDesc>
@@ -124,15 +124,15 @@ This is a very early release with many imperfections. Contact martinmueller@nort
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <creation>
-        <date>1578</date>
-      </creation>
       <textClass>
         <keywords scheme="lcsh">
           <term>Elizabeth, -- I, -- Queen of England, -- 1533-1603 -- Poetry.</term>
           <term>Norwich (England) -- History -- Early works to 1800.</term>
         </keywords>
       </textClass>
+      <creation>
+        <date>1578</date>
+      </creation>
     </profileDesc>
   </teiHeader>
   <text xml:lang="eng" xml:id="A01506-e100010">
@@ -10216,7 +10216,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="the" ana="#d" xml:id="A01506-032820" facs="8-a-2430">the</w>
           <w lemma="leave" ana="#vvn" xml:id="A01506-032860" facs="8-a-2440">left</w>
           <c> </c>
-          <w lemma="the" part="I" ana="#d" xml:id="A01506-032870.1" facs="8-a-2450" rendition="y-sup">the</w>
+          <w lemma="the" part="I" ana="#d" xml:id="A01506-032870.1" facs="8-a-2450">
+            <choice>
+              <orig>ye</orig>
+              <reg>the</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="side" ana="#n1" xml:id="A01506-032890" facs="8-a-2460">side</w>
           <c> </c>
@@ -10284,7 +10289,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="express" ana="#vvg" xml:id="A01506-033100" facs="8-a-2670">expressing</w>
           <c> </c>
-          <w lemma="the" part="I" ana="#d" xml:id="A01506-033110.1" facs="8-a-2680" rendition="y-sup">the</w>
+          <w lemma="the" part="I" ana="#d" xml:id="A01506-033110.1" facs="8-a-2680">
+            <choice>
+              <orig>ye</orig>
+              <reg>the</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="union" ana="#n1" xml:id="A01506-033130" facs="8-a-2690">
             <choice>
@@ -44103,7 +44113,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
       <div type="translation" xml:lang="eng" xml:id="A01506-e106220">
         <pb facs="24"/>
         <head>
-          <w lemma="mr." part="I" ana="#n1" xml:id="A01506-151190.1" facs="24-a-0010" rendition="sup-1">
+          <w lemma="mr." part="I" ana="#n1" xml:id="A01506-151190.1" facs="24-a-0010">
             <choice>
               <orig>Mr</orig>
               <reg>Mr.</reg>
@@ -52768,6 +52778,76 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A01506-000200" xml:id="A01506-1-a-0180">
+          <label>A01506-1-a-0180</label>
+          <sic>thing●</sic>
+          <seg>into hir Highnesse Citie of NORVVICH : The</seg>
+          <corr>thinge</corr>
+          <seg>done in the time of hir abode there : and</seg>
+        </note>
+        <note target="A01506-005720" xml:id="A01506-3-a-2040">
+          <label>A01506-3-a-2040</label>
+          <sic>Car●e●●●r</sic>
+          <seg>though the sodaine chop of an vnskilfull</seg>
+          <corr>Carpenter</corr>
+          <seg>perhaps disquareth the strong tymber of</seg>
+        </note>
+        <note target="A01506-013270" xml:id="A01506-4-a-4170">
+          <label>A01506-4-a-4170</label>
+          <sic>●ouer</sic>
+          <seg>standing cup of siluer and guilt , with a</seg>
+          <corr>couer</corr>
+          <seg>, and in the Cup one hundreth pounds in</seg>
+        </note>
+        <note target="A01506-064910" xml:id="A01506-12-a-3500">
+          <label>A01506-12-a-3500</label>
+          <sic>g●tes</sic>
+          <seg>shew before hir highnes without S. Benels</seg>
+          <corr>gates</corr>
+          <seg>as she went towards Cossie Parke to hunt</seg>
+        </note>
+        <note target="A01506-066700" xml:id="A01506-12-b-1690">
+          <label>A01506-12-b-1690</label>
+          <sic>●ermo</sic>
+          <seg>Dei obsequentem instruxit , non fucatus hic</seg>
+          <corr>sermo</corr>
+          <seg>, sed Christi spiritus , pietatisque zelus</seg>
+        </note>
+        <note target="A01506-069920" xml:id="A01506-13-a-1620">
+          <label>A01506-13-a-1620</label>
+          <sic>haet</sic>
+          <seg>pendere visus sit : sed quorsum ista ? In te ne</seg>
+          <corr>haec</corr>
+          <seg>ipsa aliaque consimilia ô Serenissima Regina</seg>
+        </note>
+        <note target="A01506-139920" xml:id="A01506-22-a-3300">
+          <label>A01506-22-a-3300</label>
+          <sic>adu●uncement</sic>
+          <seg>know assuredly to our great and singular</seg>
+          <corr>aduauncement</corr>
+          <seg>, you neuer cease to seeke out and afoord</seg>
+        </note>
+        <note target="A01506-141260" xml:id="A01506-22-a-4640">
+          <label>A01506-22-a-4640</label>
+          <sic>Subiecte●</sic>
+          <seg>VVealth , Beautie of Princes , Solace of thy</seg>
+          <corr>Subiectes</corr>
+          <seg>, most happily ( oh how I rue to speake</seg>
+        </note>
+        <note target="A01506-143660" xml:id="A01506-22-b-2210">
+          <label>A01506-22-b-2210</label>
+          <sic>vchementer</sic>
+          <seg>valedicendi munere defungerer . Quis enim non</seg>
+          <corr>vehementer</corr>
+          <seg>indolueris breuissimo tempore ac veluti</seg>
+        </note>
+        <note target="A01506-147930" xml:id="A01506-23-a-2690">
+          <label>A01506-23-a-2690</label>
+          <sic>ipfique</sic>
+          <seg>, vt est in fabulis ,</seg>
+          <corr>ipsique</corr>
+          <seg>Deo sceleratissimè bellum indicere videamur</seg>
+        </note>
       </div>
     </back>
   </text>

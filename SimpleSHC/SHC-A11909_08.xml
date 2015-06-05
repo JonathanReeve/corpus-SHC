@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -2680,9 +2680,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_08-008210.1" facs="148-a-1200" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_08-008210.1" facs="148-a-1200">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -2869,7 +2869,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="babe" ana="#n2" xml:id="A11909_08-008780" facs="148-a-1750">babes</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A11909_08-008790.1" facs="148-a-1760" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A11909_08-008790.1" facs="148-a-1760">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="shall" ana="#vmd" xml:id="A11909_08-008810" facs="148-a-1770">should</w>
             <c> </c>
@@ -24607,9 +24612,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <c> </c>
               <w lemma="down" ana="#acp-av" xml:id="A11909_08-077120" facs="156-b-0240">down</w>
               <c> </c>
-              <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_08-077130.1" facs="156-b-0250" rendition="w-sup">
+              <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_08-077130.1" facs="156-b-0250">
                 <choice>
-                  <orig>which</orig>
+                  <orig>wt</orig>
                   <reg>with</reg>
                 </choice>
               </w>
@@ -33714,7 +33719,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </choice>
               </w>
               <c> </c>
-              <w lemma="that" part="I" ana="#cs" xml:id="A11909_08-104460.1" facs="159-b-0060" rendition="y-sup">that</w>
+              <w lemma="that" part="I" ana="#cs" xml:id="A11909_08-104460.1" facs="159-b-0060">
+                <choice>
+                  <orig>yt</orig>
+                  <reg>that</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="down" ana="#acp-p" xml:id="A11909_08-104480" facs="159-b-0070">down</w>
               <c> </c>
@@ -40034,12 +40044,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </choice>
               </w>
               <c> </c>
-              <w lemma="y●" part="I" ana="#n1" xml:id="A11909_08-124600.1" facs="161-b-1280" rendition="y-sup">
-                <choice>
-                  <orig>y</orig>
-                  <reg>y●</reg>
-                </choice>
-              </w>
+              <w lemma="y●" part="I" ana="#n1" xml:id="A11909_08-124600.1" facs="161-b-1280">y●</w>
               <c> </c>
               <w lemma="he" ana="#pns" xml:id="A11909_08-124620" facs="161-b-1290">
                 <choice>
@@ -51498,9 +51503,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <w lemma="sob" ana="#n2" xml:id="A11909_08-161330" facs="166-b-2010">sobs</w>
               <pc xml:id="A11909_08-161340" facs="166-b-2020">,</pc>
               <c> </c>
-              <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_08-161350.1" facs="166-b-2030" rendition="w-sup">
+              <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_08-161350.1" facs="166-b-2030">
                 <choice>
-                  <orig>which</orig>
+                  <orig>wt</orig>
                   <reg>with</reg>
                 </choice>
               </w>
@@ -51531,9 +51536,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <l xml:id="A11909_08-e114740">
               <w lemma="and" ana="#cc" xml:id="A11909_08-161420" facs="166-b-2090">And</w>
               <c> </c>
-              <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_08-161430.1" facs="166-b-2100" rendition="w-sup">
+              <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_08-161430.1" facs="166-b-2100">
                 <choice>
-                  <orig>which</orig>
+                  <orig>wt</orig>
                   <reg>with</reg>
                 </choice>
               </w>
@@ -53433,6 +53438,230 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A11909_08-007580" xml:id="A11909_08-148-a-0570">
+          <label>A11909_08-148-a-0570</label>
+          <sic>bre</sic>
+          <seg>enterprysing greater guilte then that is put in</seg>
+          <corr>ure</corr>
+          <seg>, To file my Daughters bawdy Bed , my lust</seg>
+        </note>
+        <note target="A11909_08-017600" xml:id="A11909_08-149-a-2280">
+          <label>A11909_08-149-a-2280</label>
+          <sic>rempest</sic>
+          <seg>westren wynde , Doe yet mystrust thereof a</seg>
+          <corr>tempest</corr>
+          <seg>in theyr mynde : The threatning tops ( that</seg>
+        </note>
+        <note target="A11909_08-018940" xml:id="A11909_08-149-a-3620">
+          <label>A11909_08-149-a-3620</label>
+          <sic>●all</sic>
+          <seg>and hoysteth vp on hye , Shee lets it vp to</seg>
+          <corr>fall</corr>
+          <seg>agayne more greeuously . The thinges of</seg>
+        </note>
+        <note target="A11909_08-023460" xml:id="A11909_08-150-a-1920">
+          <label>A11909_08-150-a-1920</label>
+          <sic>withfranticke</sic>
+          <seg>rage and raue with bedlam braynes , to fret</seg>
+          <corr>with franticke</corr>
+          <seg>franticke fittes ? Though madam thou do</seg>
+        </note>
+        <note target="A11909_08-037870" xml:id="A11909_08-151-b-0370">
+          <label>A11909_08-151-b-0370</label>
+          <sic>wo●</sic>
+          <seg>stepdame haue whose wrath wil worke their</seg>
+          <corr>woe</corr>
+          <seg>. With gashing sword ( and if thou can none</seg>
+        </note>
+        <note target="A11909_08-045320" xml:id="A11909_08-152-b-0530">
+          <label>A11909_08-152-b-0530</label>
+          <sic>co●enaunt</sic>
+          <seg>haue stucke and ought not to forsake , To</seg>
+          <corr>couenaunt</corr>
+          <seg>continent a new let vs our selues betake</seg>
+        </note>
+        <note target="A11909_08-047410" xml:id="A11909_08-152-b-2580">
+          <label>A11909_08-152-b-2580</label>
+          <sic>B●t</sic>
+          <seg>strumpets come that clong about him al ?</seg>
+          <corr>But</corr>
+          <seg>yet the Prophetesse of Thebe ( whom God</seg>
+        </note>
+        <note target="A11909_08-048150" xml:id="A11909_08-152-b-3320">
+          <label>A11909_08-152-b-3320</label>
+          <sic>peete</sic>
+          <seg>life . A Queenes estate cannot abyde her</seg>
+          <corr>peere</corr>
+          <seg>with her to raygne , Ind ielous wedlocke</seg>
+        </note>
+        <note target="A11909_08-048940" xml:id="A11909_08-152-b-4080">
+          <label>A11909_08-152-b-4080</label>
+          <sic>po● pous</sic>
+          <seg>? One law doth rule in royal throne , and</seg>
+          <corr>pompous</corr>
+          <seg>princclye Towres , Among the vulgar sorte</seg>
+        </note>
+        <note target="A11909_08-058090" xml:id="A11909_08-154-a-0110">
+          <label>A11909_08-154-a-0110</label>
+          <sic>quie tnes</sic>
+          <seg>Phaebe vnbend thy noked bow agayne . Syth</seg>
+          <corr>quietnes</corr>
+          <seg>and peace anew we do retayne . And let thy</seg>
+        </note>
+        <note target="A11909_08-058980" xml:id="A11909_08-154-a-0990">
+          <label>A11909_08-154-a-0990</label>
+          <sic>thon</sic>
+          <seg>string It lyketh thee to play the song that</seg>
+          <corr>thou</corr>
+          <seg>did singe : As when from fyery heauen the</seg>
+        </note>
+        <note target="A11909_08-063130" xml:id="A11909_08-154-b-1710">
+          <label>A11909_08-154-b-1710</label>
+          <sic>VVemyndful</sic>
+          <seg>whose blase sheds light three sondry waies</seg>
+          <corr>VVe myndful</corr>
+          <seg>myndful are of thee , and render thankefull</seg>
+        </note>
+        <note target="A11909_08-064550" xml:id="A11909_08-154-b-3130">
+          <label>A11909_08-154-b-3130</label>
+          <sic>burninglightning</sic>
+          <seg>and guide , VVhose mighty force is by the</seg>
+          <corr>burning lightning</corr>
+          <seg>lightning tryde : Who when thou gauest a</seg>
+        </note>
+        <note target="A11909_08-067340" xml:id="A11909_08-155-a-2460">
+          <label>A11909_08-155-a-2460</label>
+          <sic>attayne●</sic>
+          <seg>the sandy shore , that longe he wished to</seg>
+          <corr>attayne▪</corr>
+          <seg>▪ And doth he styll enioy his health enhauncte</seg>
+        </note>
+        <note target="A11909_08-072670" xml:id="A11909_08-155-b-4800">
+          <label>A11909_08-155-b-4800</label>
+          <sic>w●e</sic>
+          <seg>The desart Phrygian plots so bare to vew</seg>
+          <corr>wee</corr>
+          <seg>hop for ioye : The yeuth each one besturres</seg>
+        </note>
+        <note target="A11909_08-082690" xml:id="A11909_08-157-a-1420">
+          <label>A11909_08-157-a-1420</label>
+          <sic>●ost</sic>
+          <seg>gulph doth sup it vp amayne , Then by and by</seg>
+          <corr>tost</corr>
+          <seg>vp aloft it spewes it out againe , She with</seg>
+        </note>
+        <note target="A11909_08-085100" xml:id="A11909_08-157-a-3830">
+          <label>A11909_08-157-a-3830</label>
+          <sic>same</sic>
+          <seg>handy stroake to take his fatall wound , Whom</seg>
+          <corr>fame</corr>
+          <seg>preserueth , taking vp his tombe in conquerd</seg>
+        </note>
+        <note target="A11909_08-088210" xml:id="A11909_08-157-b-2180">
+          <label>A11909_08-157-b-2180</label>
+          <sic>slang</sic>
+          <seg>him hard , and wrapt him in her flame , And</seg>
+          <corr>flang</corr>
+          <seg>another flasshing dint of lightning on the</seg>
+        </note>
+        <note target="A11909_08-089450" xml:id="A11909_08-157-b-3420">
+          <label>A11909_08-157-b-3420</label>
+          <sic>fhyneth</sic>
+          <seg>and on it selfe did rype it ouer , Yet Aiax</seg>
+          <corr>shyneth</corr>
+          <seg>in the floud which darknesse blinde doth</seg>
+        </note>
+        <note target="A11909_08-093750" xml:id="A11909_08-158-a-2700">
+          <label>A11909_08-158-a-2700</label>
+          <sic>●lipping</sic>
+          <seg>some vpon the rockes are roulde . And other</seg>
+          <corr>slipping</corr>
+          <seg>backe agayne so to eschew the Rocks , His</seg>
+        </note>
+        <note target="A11909_08-100330" xml:id="A11909_08-159-a-0740">
+          <label>A11909_08-159-a-0740</label>
+          <sic>myserte</sic>
+          <seg>the walles did scuddyng leape in hast . In</seg>
+          <corr>myserie</corr>
+          <seg>she lost her proud estate , and fast renoume</seg>
+        </note>
+        <note target="A11909_08-101130" xml:id="A11909_08-159-a-1540">
+          <label>A11909_08-159-a-1540</label>
+          <sic>●yme</sic>
+          <seg>in , That fatall gyft of Greeckes : what</seg>
+          <corr>tyme</corr>
+          <seg>at entry of the gap The hugye hors did shyueryng</seg>
+        </note>
+        <note target="A11909_08-102100" xml:id="A11909_08-159-a-2510">
+          <label>A11909_08-159-a-2510</label>
+          <sic>falsa</sic>
+          <seg>heare . The crafty councell picked out of</seg>
+          <corr>false</corr>
+          <seg>Vlifsses brayne , ) Did ●angle in the halow</seg>
+        </note>
+        <note target="A11909_08-109640" xml:id="A11909_08-160-a-0300">
+          <label>A11909_08-160-a-0300</label>
+          <sic>cha●e</sic>
+          <seg>will I call . Although they were disposde to</seg>
+          <corr>chafe</corr>
+          <seg>and fret in fus●ten fumes , They nothing</seg>
+        </note>
+        <note target="A11909_08-113890" xml:id="A11909_08-160-a-4470">
+          <label>A11909_08-160-a-4470</label>
+          <sic>sits</sic>
+          <seg>none of thyne I am , releasse me from the</seg>
+          <corr>fits</corr>
+          <seg>: Infixed in my burning breastes the flames</seg>
+        </note>
+        <note target="A11909_08-116210" xml:id="A11909_08-160-b-1810">
+          <label>A11909_08-160-b-1810</label>
+          <sic>Lyonesle</sic>
+          <seg>fange and tooth The curlish snaps of eger</seg>
+          <corr>Lyonesse</corr>
+          <seg>abyde hee dooth . Alacke yee ghostes of</seg>
+        </note>
+        <note target="A11909_08-141540" xml:id="A11909_08-164-a-1110">
+          <label>A11909_08-164-a-1110</label>
+          <sic>●eares</sic>
+          <seg>deepe in drousp dumpes oppressed is with</seg>
+          <corr>feares</corr>
+          <seg>? I know full well this damsell is of Prynces</seg>
+        </note>
+        <note target="A11909_08-144870" xml:id="A11909_08-164-b-1920">
+          <label>A11909_08-164-b-1920</label>
+          <sic>a●d</sic>
+          <seg>Hee is escapte</seg>
+          <corr>and</corr>
+          <seg>gone , and with vnmeasurable might The Chariot</seg>
+        </note>
+        <note target="A11909_08-152570" xml:id="A11909_08-165-b-2410">
+          <label>A11909_08-165-b-2410</label>
+          <sic>gutit</sic>
+          <seg>controll me with his checks , Whose fathers</seg>
+          <corr>gut it</corr>
+          <seg>it hath caused him to haue a doubtfull name</seg>
+        </note>
+        <note target="A11909_08-157240" xml:id="A11909_08-166-a-1690">
+          <label>A11909_08-166-a-1690</label>
+          <sic>●oy</sic>
+          <seg>with mee , and thankes I doe you giue . I</seg>
+          <corr>ioy</corr>
+          <seg>, that it might be my hap , thus after Troy</seg>
+        </note>
+        <note target="A11909_08-160300" xml:id="A11909_08-166-b-0990">
+          <label>A11909_08-166-b-0990</label>
+          <sic>srtudy</sic>
+          <seg>Conquerour tryumphed ouer Troy , Enduring many</seg>
+          <corr>sturdy</corr>
+          <seg>stormes with mighty toyle and payne To sowe</seg>
+        </note>
+        <note target="A11909_08-164720" xml:id="A11909_08-167-a-0410">
+          <label>A11909_08-167-a-0410</label>
+          <sic>Oresters</sic>
+          <seg>another cause of mourning haue in hand :</seg>
+          <corr>Orestes</corr>
+          <seg>, Agamemnon● some , is forst to fly the</seg>
+        </note>
       </div>
     </back>
   </text>

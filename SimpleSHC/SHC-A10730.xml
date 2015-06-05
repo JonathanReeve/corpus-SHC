@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A10730">
   <teiHeader>
     <fileDesc>
@@ -100,14 +100,14 @@ This is a very early release with many imperfections. Contact martinmueller@nort
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <creation>
-        <date>1589</date>
-      </creation>
       <textClass>
         <keywords scheme="lcsh">
           <term>Richard, -- III, -- King of England, -- 1452-1485 -- Drama -- Early works to 1800.</term>
         </keywords>
       </textClass>
+      <creation>
+        <date>1589</date>
+      </creation>
     </profileDesc>
   </teiHeader>
   <text xml:lang="eng" xml:id="A10730-e100010">
@@ -16381,7 +16381,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </choice>
               </w>
               <c> </c>
-              <w lemma="thou" part="I" ana="#pns" xml:id="A10730-065910.1" facs="10-a-2850" rendition="y-sup">thou</w>
+              <w lemma="thou" part="I" ana="#pns" xml:id="A10730-065910.1" facs="10-a-2850">
+                <choice>
+                  <orig>yu</orig>
+                  <reg>thou</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="the" ana="#d" xml:id="A10730-065930" facs="10-a-2860">the</w>
               <c> </c>
@@ -16397,7 +16402,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </choice>
               </w>
               <c> </c>
-              <w lemma="thou" part="I" ana="#pns" xml:id="A10730-065980.1" facs="10-a-2910" rendition="y-sup">thou</w>
+              <w lemma="thou" part="I" ana="#pns" xml:id="A10730-065980.1" facs="10-a-2910">
+                <choice>
+                  <orig>yu</orig>
+                  <reg>thou</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="speak" ana="#vvi" xml:id="A10730-066000" facs="10-a-2920">speak</w>
               <pc xml:id="A10730-066010" facs="10-a-2930">,</pc>
@@ -16630,7 +16640,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </choice>
               </w>
               <c> </c>
-              <w lemma="thou" part="I" ana="#pns" xml:id="A10730-066850.1" facs="10-a-3700" rendition="y-sup">thou</w>
+              <w lemma="thou" part="I" ana="#pns" xml:id="A10730-066850.1" facs="10-a-3700">
+                <choice>
+                  <orig>yu</orig>
+                  <reg>thou</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="may" ana="#vm2" xml:id="A10730-066870" facs="10-a-3710">
                 <choice>
@@ -66504,6 +66519,216 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A10730-014520" xml:id="A10730-4-a-3100">
+          <label>A10730-4-a-3100</label>
+          <sic>yoon▪</sic>
+          <seg>death you iarre , What will you do to the</seg>
+          <corr>yoong</corr>
+          <seg> Prince after my decease ? For shame I</seg>
+        </note>
+        <note target="A10730-016090" xml:id="A10730-4-b-1090">
+          <label>A10730-4-b-1090</label>
+          <sic>contentented</sic>
+          <seg>yeeld Lord Marcus , sith Lord Hastings Is</seg>
+          <corr>contented</corr>
+          <seg>to be vnited .</seg>
+        </note>
+        <note target="A10730-021860" xml:id="A10730-5-a-2500">
+          <label>A10730-5-a-2500</label>
+          <sic>osspring</sic>
+          <seg>yeare , Then farewell those ioyfull dayes and</seg>
+          <corr>offspring</corr>
+          <seg>of my heart , But say Lodwicke , who hath</seg>
+        </note>
+        <note target="A10730-036350" xml:id="A10730-7-a-0520">
+          <label>A10730-7-a-0520</label>
+          <sic>honourale</sic>
+          <seg>A Messenger with a letter from the right</seg>
+          <corr>honourable</corr>
+          <seg>The Duke of Buckingham .</seg>
+        </note>
+        <note target="A10730-057800" xml:id="A10730-9-a-3310">
+          <label>A10730-9-a-3310</label>
+          <sic>●sible</sic>
+          <seg>lodging prepared as neare Lord Riuer 〈…〉</seg>
+          <corr>possible</corr>
+          <seg>may be</seg>
+        </note>
+        <note target="A10730-066420" xml:id="A10730-10-a-3290">
+          <label>A10730-10-a-3290</label>
+          <sic>A brayd</sic>
+          <seg/>
+          <corr>Abrayd</corr>
+          <seg>you me as traitor to your grace :</seg>
+        </note>
+        <note target="A10730-068990" xml:id="A10730-10-b-1470">
+          <label>A10730-10-b-1470</label>
+          <sic>in iustice</sic>
+          <seg>remorce , Spare me not , let me haue law ,</seg>
+          <corr>iniustice</corr>
+          <seg>do your worst .</seg>
+        </note>
+        <note target="A10730-085220" xml:id="A10730-12-a-3840">
+          <label>A10730-12-a-3840</label>
+          <sic>seeresie</sic>
+          <seg>vnckle will conceale no treason , or dangerous</seg>
+          <corr>heeresie</corr>
+          <seg>from vs .</seg>
+        </note>
+        <note target="A10730-114320" xml:id="A10730-15-a-3520">
+          <label>A10730-15-a-3520</label>
+          <sic>●reat</sic>
+          <seg>assured of that , but the matter is of waight &amp;</seg>
+          <corr>great</corr>
+          <seg>importance , and doth concerne the state</seg>
+        </note>
+        <note target="A10730-114590" xml:id="A10730-15-a-3740">
+          <label>A10730-15-a-3740</label>
+          <sic>sha●</sic>
+          <seg>Lord , I will choake them with gifts that</seg>
+          <corr>shall</corr>
+          <seg>performe it , therefore good my Lord , trust</seg>
+        </note>
+        <note target="A10730-120700" xml:id="A10730-16-a-1040">
+          <label>A10730-16-a-1040</label>
+          <sic>come</sic>
+          <seg>vaine , for none will pittie me . Yet here</seg>
+          <corr>comes</corr>
+          <seg>one to whom I haue done good , in restoring</seg>
+        </note>
+        <note target="A10730-121460" xml:id="A10730-16-a-1730">
+          <label>A10730-16-a-1730</label>
+          <sic>furnish</sic>
+          <seg>sleepe in their graues , whose places are</seg>
+          <corr>furnish'd</corr>
+          <seg>with their inferiours ? Such as are neither</seg>
+        </note>
+        <note target="A10730-121480" xml:id="A10730-16-a-1750">
+          <label>A10730-16-a-1750</label>
+          <sic>thei●</sic>
+          <seg>their graues , whose places are furnish with</seg>
+          <corr>their</corr>
+          <seg>inferiours ? Such as are neither nobly borne</seg>
+        </note>
+        <note target="A10730-123860" xml:id="A10730-16-a-3860">
+          <label>A10730-16-a-3860</label>
+          <sic>f●iends</sic>
+          <seg>Belike then thy fact was notorious , that thy</seg>
+          <corr>friends</corr>
+          <seg>leauing thee would let thee go as a spoyle</seg>
+        </note>
+        <note target="A10730-134230" xml:id="A10730-17-b-0980">
+          <label>A10730-17-b-0980</label>
+          <sic>Linclone</sic>
+          <seg>sway , and hath proclaimed Iohn Earle of</seg>
+          <corr>Lincolne</corr>
+          <seg>, heire aparant to the Crown , the yoong</seg>
+        </note>
+        <note target="A10730-134590" xml:id="A10730-17-b-1340">
+          <label>A10730-17-b-1340</label>
+          <sic>Bucking ham</sic>
+          <seg>. But this makes me to muse , the Duke of</seg>
+          <corr>Buckingham</corr>
+          <seg>and the King is at such variance , that</seg>
+        </note>
+        <note target="A10730-151710" xml:id="A10730-19-a-3990">
+          <label>A10730-19-a-3990</label>
+          <sic>o</sic>
+          <seg>vvas one that vvas appointed by the King</seg>
+          <corr>to</corr>
+          <seg>be an ayde to sir Thomas Brokenbury .</seg>
+        </note>
+        <note target="A10730-157590" xml:id="A10730-20-a-0420">
+          <label>A10730-20-a-0420</label>
+          <sic>●●●t</sic>
+          <seg>lustily . But maister Forest now they are dead</seg>
+          <corr>what</corr>
+          <seg>shall we do with them ?</seg>
+        </note>
+        <note target="A10730-162680" xml:id="A10730-20-b-1180">
+          <label>A10730-20-b-1180</label>
+          <sic>blood</sic>
+          <seg>name , vsurping Richard , that insatiate</seg>
+          <corr>blood succour</corr>
+          <seg>succour , that traitor to God &amp; man . Ah</seg>
+        </note>
+        <note target="A10730-164460" xml:id="A10730-20-b-2800">
+          <label>A10730-20-b-2800</label>
+          <sic>arested</sic>
+          <seg>Then know this countrey men , the cause I am</seg>
+          <corr>thus</corr>
+          <seg>this , Is for bringing in your lawfull King</seg>
+        </note>
+        <note target="A10730-164650" xml:id="A10730-20-b-2990">
+          <label>A10730-20-b-2990</label>
+          <sic>B●ittaine</sic>
+          <seg>, which is Henry Earle of Richmond now in</seg>
+          <corr>Brittaine</corr>
+          <seg>, and meanes ere long to land at Milford</seg>
+        </note>
+        <note target="A10730-165150" xml:id="A10730-20-b-3490">
+          <label>A10730-20-b-3490</label>
+          <sic>pl●ce</sic>
+          <seg>When you shall heare of him landed in that</seg>
+          <corr>place</corr>
+          <seg>, then take vp weapons and amaine to him</seg>
+        </note>
+        <note target="A10730-169370" xml:id="A10730-21-b-0350">
+          <label>A10730-21-b-0350</label>
+          <sic>studient</sic>
+          <seg>raging fiends hath past ther vgly shapes , In</seg>
+          <corr>Stygian</corr>
+          <seg>lakes , adrest to tend on me , If it be</seg>
+        </note>
+        <note target="A10730-170380" xml:id="A10730-21-b-1360">
+          <label>A10730-21-b-1360</label>
+          <sic>That ▪ s</sic>
+          <seg>and bodie for bodie , yea mary Richard ,</seg>
+          <corr>That's</corr>
+          <seg>good , Catesbie .</seg>
+        </note>
+        <note target="A10730-176420" xml:id="A10730-22-a-2360">
+          <label>A10730-22-a-2360</label>
+          <sic>sorreresse</sic>
+          <seg>shall end in blood : I thinke that accursed</seg>
+          <corr>sorrceresse</corr>
+          <seg>the mother Queene , Doth nothing but be</seg>
+        </note>
+        <note target="A10730-176500" xml:id="A10730-22-a-2440">
+          <label>A10730-22-a-2440</label>
+          <sic>bewith</sic>
+          <seg>sorrceresse the mother Queene , Doth nothing but</seg>
+          <corr>be with</corr>
+          <seg>with me , and hatcheth conspiracies , And</seg>
+        </note>
+        <note target="A10730-225060" xml:id="A10730-28-a-1540">
+          <label>A10730-28-a-1540</label>
+          <sic>coursies</sic>
+          <seg>Comets for reuenge . The Planets chaunge their</seg>
+          <corr>courtsies</corr>
+          <seg>for reuenge . The birds sing not , but sorrow</seg>
+        </note>
+        <note target="A10730-246760" xml:id="A10730-30-b-1410">
+          <label>A10730-30-b-1410</label>
+          <sic>Y●lley</sic>
+          <seg>as Hector was among the Lords of Troy , or</seg>
+          <corr>Tulley</corr>
+          <seg>mongst the Romane Senators .</seg>
+        </note>
+        <note target="A10730-254290" xml:id="A10730-31-b-0230">
+          <label>A10730-31-b-0230</label>
+          <sic>〈◊〉</sic>
+          <seg>And so say I , thanks</seg>
+          <corr>to</corr>
+          <seg>you all my Lords , that thus haue honoured</seg>
+        </note>
+        <note target="A10730-258840" xml:id="A10730-32-a-0170">
+          <label>A10730-32-a-0170</label>
+          <sic>thr●ugh</sic>
+          <seg>traytrous Richard Be by our command , drawne</seg>
+          <corr>through</corr>
+          <seg>the streets of Lester , Starke naked on</seg>
+        </note>
       </div>
     </back>
   </text>

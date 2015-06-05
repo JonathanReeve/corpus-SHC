@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A20076">
   <teiHeader>
     <fileDesc>
@@ -19480,7 +19480,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="string" ana="#n2" xml:id="A20076-071110" facs="11-b-3320">strings</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A20076-071120.1" facs="11-b-3330" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A20076-071120.1" facs="11-b-3330">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="go" ana="#vvb" xml:id="A20076-071140" facs="11-b-3340">
               <choice>
@@ -65686,7 +65691,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <l xml:id="A20076-e122180">
             <w lemma="who|be" ana="#crq-q|vvz" xml:id="A20076-250180" facs="32-b-2960">Who's</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A20076-250190.1" facs="32-b-2970" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A20076-250190.1" facs="32-b-2970">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="fool" ana="#n1" xml:id="A20076-250210" facs="32-b-2980">
               <choice>
@@ -92894,6 +92904,265 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A20076-004100" xml:id="A20076-3-a-3120">
+          <label>A20076-3-a-3120</label>
+          <sic>vs.</sic>
+          <seg>See howe gloriouslly the Moone shines vpon</seg>
+          <corr>vs</corr>
+          <seg> </seg>
+        </note>
+        <note target="A20076-015700" xml:id="A20076-5-a-0390">
+          <label>A20076-5-a-0390</label>
+          <sic>boarie</sic>
+          <seg>out in print some filthie booke of the olde</seg>
+          <corr>hoarie</corr>
+          <seg>wandring Knight , meaning me : would I were</seg>
+        </note>
+        <note target="A20076-023030" xml:id="A20076-5-b-2630">
+          <label>A20076-5-b-2630</label>
+          <sic>forceresse</sic>
+          <seg>Accursed Quéene of chaunce , damn'd</seg>
+          <corr>sorceresse</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A20076-037700" xml:id="A20076-8-a-0350">
+          <label>A20076-8-a-0350</label>
+          <sic>obiest</sic>
+          <seg>féete trample on Emperie ; Make Health thine</seg>
+          <corr>obiect</corr>
+          <seg>, thou shalt be strong proofe , Gainst the</seg>
+        </note>
+        <note target="A20076-038060" xml:id="A20076-8-a-0710">
+          <label>A20076-8-a-0710</label>
+          <sic>amorousty</sic>
+          <seg>and within thine eyes , Two naked Cupids</seg>
+          <corr>amorously</corr>
+          <seg>shall swim , And on thy chéekes ile mixe</seg>
+        </note>
+        <note target="A20076-048160" xml:id="A20076-9-a-3500">
+          <label>A20076-9-a-3500</label>
+          <sic>G●d</sic>
+          <seg>with her siluer sound . Trie déeper ▪ ha</seg>
+          <corr>God</corr>
+          <seg>be here : Ha , ha , 1 , 2 , 3 , 4 , 5 ,</seg>
+        </note>
+        <note target="A20076-062770" xml:id="A20076-10-b-3990">
+          <label>A20076-10-b-3990</label>
+          <sic>be ast</sic>
+          <seg>, he must leaue his burthen to some other</seg>
+          <corr>beast</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A20076-064250" xml:id="A20076-11-a-1190">
+          <label>A20076-11-a-1190</label>
+          <sic>Monsteur</sic>
+          <seg>they rot in those shop Counters , except</seg>
+          <corr>Monsieur</corr>
+          <seg>money baile them . Shaddow , I am out of</seg>
+        </note>
+        <note target="A20076-064910" xml:id="A20076-11-a-1800">
+          <label>A20076-11-a-1800</label>
+          <sic>Famag●sta</sic>
+          <seg>euery day : I am out of my wits , to sée our</seg>
+          <corr>Famagosta</corr>
+          <seg>fooles , turne halfe a shop of wares into</seg>
+        </note>
+        <note target="A20076-084280" xml:id="A20076-13-a-3210">
+          <label>A20076-13-a-3210</label>
+          <sic>Antumnes</sic>
+          <seg>intice : Why hang these leaues , As loose as</seg>
+          <corr>Autumnes</corr>
+          <seg>haire ( which euery wind , In mockerie blowes</seg>
+        </note>
+        <note target="A20076-088430" xml:id="A20076-13-b-3720">
+          <label>A20076-13-b-3720</label>
+          <sic>de formitie</sic>
+          <seg>intice my Paramour ; Then will I cast off this</seg>
+          <corr>deformitie</corr>
+          <seg>, And shine in glorie , and triumph to sée</seg>
+        </note>
+        <note target="A20076-096820" xml:id="A20076-15-a-1200">
+          <label>A20076-15-a-1200</label>
+          <sic>beaven</sic>
+          <seg>once chide , My gilded browes from amorous</seg>
+          <corr>heaven</corr>
+          <seg>I hide .</seg>
+        </note>
+        <note target="A20076-098480" xml:id="A20076-15-a-2740">
+          <label>A20076-15-a-2740</label>
+          <sic>sqaudrons</sic>
+          <seg>thousand fighting men , Whose glittering</seg>
+          <corr>squadrons</corr>
+          <seg>when the Sunne beholds , They seeme like</seg>
+        </note>
+        <note target="A20076-100040" xml:id="A20076-15-b-1100">
+          <label>A20076-15-b-1100</label>
+          <sic>thre●●</sic>
+          <seg>Thracian song , ) The black-browd Empresse</seg>
+          <corr>threw</corr>
+          <seg>to Morpheus , Being come to fetch Euridice</seg>
+        </note>
+        <note target="A20076-100060" xml:id="A20076-15-b-1120">
+          <label>A20076-15-b-1120</label>
+          <sic>Mopheus</sic>
+          <seg>song , ) The black-browd Empresse threw to</seg>
+          <corr>Morpheus</corr>
+          <seg>, Being come to fetch Euridice from hell</seg>
+        </note>
+        <note target="A20076-107750" xml:id="A20076-16-b-0530">
+          <label>A20076-16-b-0530</label>
+          <sic>Iewellgon</sic>
+          <seg>clouds ; Bearing my soule with him , for that</seg>
+          <corr>Iewell gon</corr>
+          <seg>gon , I am dead , and all is drosse in Babylon</seg>
+        </note>
+        <note target="A20076-127880" xml:id="A20076-18-b-1270">
+          <label>A20076-18-b-1270</label>
+          <sic>snowle</sic>
+          <seg>age now nips your bloud , And strowes her</seg>
+          <corr>snowie</corr>
+          <seg>flowers vpon your head , And giue you warning</seg>
+        </note>
+        <note target="A20076-129050" xml:id="A20076-18-b-2350">
+          <label>A20076-18-b-2350</label>
+          <sic>fantastic●●s</sic>
+          <seg>with Ladies , worne straunge attires , séene</seg>
+          <corr>fantasticoes</corr>
+          <seg>, conuerst with humorists , béene rauisht</seg>
+        </note>
+        <note target="A20076-141200" xml:id="A20076-20-a-2490">
+          <label>A20076-20-a-2490</label>
+          <sic>wxetched</sic>
+          <seg>strikes thee , So shall their ends sudden and</seg>
+          <corr>wretched</corr>
+          <seg>bee . Ioves daughters ( righteous destinies</seg>
+        </note>
+        <note target="A20076-156070" xml:id="A20076-21-b-3870">
+          <label>A20076-21-b-3870</label>
+          <sic>Reague</sic>
+          <seg>Away , you</seg>
+          <corr>Roague</corr>
+          <seg>, my Father die a begger ? Ile build a Tombe</seg>
+        </note>
+        <note target="A20076-160880" xml:id="A20076-22-a-3980">
+          <label>A20076-22-a-3980</label>
+          <sic>sadge</sic>
+          <seg>I shal neuer</seg>
+          <corr>fadge</corr>
+          <seg>with the humor because I cannot lie .</seg>
+        </note>
+        <note target="A20076-196010" xml:id="A20076-26-b-0680">
+          <label>A20076-26-b-0680</label>
+          <sic>preue</sic>
+          <seg>a poore straunger ) my best powres shall</seg>
+          <corr>proue</corr>
+          <seg>, By Acts of worth , the soundnes of my</seg>
+        </note>
+        <note target="A20076-209070" xml:id="A20076-28-a-1080">
+          <label>A20076-28-a-1080</label>
+          <sic>slucke</sic>
+          <seg>Spangles of pure gold , As ere the spring hath</seg>
+          <corr>stucke</corr>
+          <seg>the earth with flowers . Unlesse he melt</seg>
+        </note>
+        <note target="A20076-216630" xml:id="A20076-29-a-1210">
+          <label>A20076-29-a-1210</label>
+          <sic>Abounteous</sic>
+          <seg>heauen in these times : throw the musicians</seg>
+          <corr>a bounteous</corr>
+          <seg>bounteous largesse of thrée hundred Angels</seg>
+        </note>
+        <note target="A20076-245860" xml:id="A20076-32-a-3390">
+          <label>A20076-32-a-3390</label>
+          <sic>thon</sic>
+          <seg>stay , O I am vndone , Swéete Agripyna , if</seg>
+          <corr>thou</corr>
+          <seg>hearst my voice , Take pittie of me , and</seg>
+        </note>
+        <note target="A20076-252580" xml:id="A20076-33-a-1080">
+          <label>A20076-33-a-1080</label>
+          <sic>hatt</sic>
+          <seg>Oh now I sée , This fruit is thine , thou</seg>
+          <corr>hast</corr>
+          <seg>deformed mée : Ideot auoide , thy gifts</seg>
+        </note>
+        <note target="A20076-253880" xml:id="A20076-33-a-2210">
+          <label>A20076-33-a-2210</label>
+          <sic>thorten</sic>
+          <seg>O sacred Quéene of chance , now</seg>
+          <corr>shorten</corr>
+          <seg>mine , Else let thy deitie take off this</seg>
+        </note>
+        <note target="A20076-296140" xml:id="A20076-38-a-1250">
+          <label>A20076-38-a-1250</label>
+          <sic>pertious</sic>
+          <seg>horne , difficill , and very deepe , tis</seg>
+          <corr>perilous</corr>
+          <seg>, a grand Laroone . But Madam , prea be</seg>
+        </note>
+        <note target="A20076-296410" xml:id="A20076-38-a-1470">
+          <label>A20076-38-a-1470</label>
+          <sic>Thrc●</sic>
+          <seg/>
+          <corr>Thrice</corr>
+          <seg>haue we parde them off , but with fresh</seg>
+        </note>
+        <note target="A20076-302680" xml:id="A20076-38-b-2450">
+          <label>A20076-38-b-2450</label>
+          <sic>ppesently</sic>
+          <seg>nor looke noting dis vey : so , presently ,</seg>
+          <corr>presently</corr>
+          <seg>Madam , snip dis horne off wid de rushes</seg>
+        </note>
+        <note target="A20076-303700" xml:id="A20076-38-b-3360">
+          <label>A20076-38-b-3360</label>
+          <sic>Ainpedo</sic>
+          <seg>Would I were with my brother</seg>
+          <corr>Ampedo</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A20076-333030" xml:id="A20076-42-a-0860">
+          <label>A20076-42-a-0860</label>
+          <sic>I●e</sic>
+          <seg/>
+          <corr>Ile</corr>
+          <seg>these two diuels , of some powers diuine</seg>
+        </note>
+        <note target="A20076-336360" xml:id="A20076-42-b-0420">
+          <label>A20076-42-b-0420</label>
+          <sic>slatterer</sic>
+          <seg>Peace , you</seg>
+          <corr>flatterer</corr>
+          <seg>. Thy tongue but heapes more vengeance on</seg>
+        </note>
+        <note target="A20076-340570" xml:id="A20076-43-a-0810">
+          <label>A20076-43-a-0810</label>
+          <sic>vestow</sic>
+          <seg>from those I tooke , King Athelstane I will</seg>
+          <corr>bestow</corr>
+          <seg>on thée , And in it the old vertue I infuse</seg>
+        </note>
+        <note target="A20076-341130" xml:id="A20076-43-a-1350">
+          <label>A20076-43-a-1350</label>
+          <sic>attendin</sic>
+          <seg>Enter Vertue , crownd : Nymphes and kings</seg>
+          <corr>attending</corr>
+          <seg>on her , crownd with Oliue branches and</seg>
+        </note>
+        <note target="A20076-348490" xml:id="A20076-44-a-1020">
+          <label>A20076-44-a-1020</label>
+          <sic>sarred</sic>
+          <seg>Fortune th'art vanquisht :</seg>
+          <corr>sacred</corr>
+          <seg>deitie , O now pronounce who winnes the</seg>
+        </note>
+        <note target="A20076-353130" xml:id="A20076-45-a-0840">
+          <label>A20076-45-a-0840</label>
+          <sic>intie'd</sic>
+          <seg>pardon for himselfe , and one for mee , For I</seg>
+          <corr>intic'd</corr>
+          <seg>you hither : O deere Goddesse , Breathe</seg>
+        </note>
       </div>
     </back>
   </text>

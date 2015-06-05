@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A20077">
   <teiHeader>
     <fileDesc>
@@ -13498,7 +13498,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="afraid" ana="#j" xml:id="A20077-048870" facs="8-b-3370">afraid</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A20077-048880.1" facs="8-b-3380" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A20077-048880.1" facs="8-b-3380">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="this" ana="#d" xml:id="A20077-048900" facs="8-b-3390">this</w>
             <c> </c>
@@ -16678,7 +16683,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <w lemma="fashion" ana="#n2" xml:id="A20077-061190" facs="10-a-2280">fashions</w>
             <pc xml:id="A20077-061200" facs="10-a-2290">,</pc>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A20077-061210.1" facs="10-a-2300" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A20077-061210.1" facs="10-a-2300">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="can" ana="#vmb" xml:id="A20077-061230" facs="10-a-2310">can</w>
             <c> </c>
@@ -76791,6 +76801,139 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A20077-026550" xml:id="A20077-6-a-1100">
+          <label>A20077-6-a-1100</label>
+          <sic>whatmeanes</sic>
+          <seg>Brothers</seg>
+          <corr>what meanes</corr>
+          <seg>meanes these words ?</seg>
+        </note>
+        <note target="A20077-032870" xml:id="A20077-7-a-0040">
+          <label>A20077-7-a-0040</label>
+          <sic>ani●ola</sic>
+          <seg>Father</seg>
+          <corr>Ianicola</corr>
+          <seg>whats hee that speakes</seg>
+        </note>
+        <note target="A20077-060120" xml:id="A20077-10-a-1300">
+          <label>A20077-10-a-1300</label>
+          <sic>alschollers</sic>
+          <seg>gallants , who in a verie scuruie prid , scorne</seg>
+          <corr>al schollers</corr>
+          <seg>schollers , and reade no bookes but a looking</seg>
+        </note>
+        <note target="A20077-069520" xml:id="A20077-11-a-1700">
+          <label>A20077-11-a-1700</label>
+          <sic>sine</sic>
+          <seg>is great teale of frends : ha ha is tell</seg>
+          <corr>fine</corr>
+          <seg>admirable shest , by Cod Emuloes , for feare</seg>
+        </note>
+        <note target="A20077-074020" xml:id="A20077-11-b-1590">
+          <label>A20077-11-b-1590</label>
+          <sic>apogs</sic>
+          <seg>Gwenthyan see what bobie foole loue her ,</seg>
+          <corr>a pogs</corr>
+          <seg>pogs on you .</seg>
+        </note>
+        <note target="A20077-086270" xml:id="A20077-13-a-1120">
+          <label>A20077-13-a-1120</label>
+          <sic>louelets</sic>
+          <seg>Turtles : Turkie-cocks , for Gods</seg>
+          <corr>love lets</corr>
+          <seg>lets intreate the Duke my brother , tomake</seg>
+        </note>
+        <note target="A20077-086340" xml:id="A20077-13-a-1190">
+          <label>A20077-13-a-1190</label>
+          <sic>tomake</sic>
+          <seg>love lets intreate the Duke my brother ,</seg>
+          <corr>to make</corr>
+          <seg>a lawe , that wheresoeuer Sir Owen</seg>
+        </note>
+        <note target="A20077-086660" xml:id="A20077-13-a-1510">
+          <label>A20077-13-a-1510</label>
+          <sic>cryearme</sic>
+          <seg>bee broken , for theyl'e doe nothing but</seg>
+          <corr>cry arme</corr>
+          <seg>arme , arme , arme .</seg>
+        </note>
+        <note target="A20077-093220" xml:id="A20077-13-b-3330">
+          <label>A20077-13-b-3330</label>
+          <sic>ourmouthes</sic>
+          <seg>this loue makes vs ? if he once but get into</seg>
+          <corr>our mouthes</corr>
+          <seg>mouthes , hee labours to turne our tongues</seg>
+        </note>
+        <note target="A20077-093760" xml:id="A20077-13-b-3870">
+          <label>A20077-13-b-3870</label>
+          <sic>afriend</sic>
+          <seg>that looseth time I can tell you looseth</seg>
+          <corr>a friend</corr>
+          <seg>friend .</seg>
+        </note>
+        <note target="A20077-118700" xml:id="A20077-17-a-2320">
+          <label>A20077-17-a-2320</label>
+          <sic>sexro</sic>
+          <seg>mans boy , so thou art a courtier in decimo</seg>
+          <corr>sexto</corr>
+          <seg>in the least volume , or a courtier at the</seg>
+        </note>
+        <note target="A20077-121350" xml:id="A20077-17-b-1290">
+          <label>A20077-17-b-1290</label>
+          <sic>soole</sic>
+          <seg>Goe looke , sirra</seg>
+          <corr>foole</corr>
+          <seg>, my condition is to ship you too .</seg>
+        </note>
+        <note target="A20077-129070" xml:id="A20077-18-b-1480">
+          <label>A20077-18-b-1480</label>
+          <sic>reuerenre</sic>
+          <seg>With</seg>
+          <corr>reuerence</corr>
+          <seg>of your Highnes I haue not .</seg>
+        </note>
+        <note target="A20077-177200" xml:id="A20077-24-b-0280">
+          <label>A20077-24-b-0280</label>
+          <sic>aloade</sic>
+          <seg>downe , With weightie infamie : heere is</seg>
+          <corr>a loade</corr>
+          <seg>loade Of shame , of speckled shame : O God</seg>
+        </note>
+        <note target="A20077-236480" xml:id="A20077-32-b-3250">
+          <label>A20077-32-b-3250</label>
+          <sic>fciendes</sic>
+          <seg>Gwenthian scawrnes to be</seg>
+          <corr>friendes</corr>
+          <seg>, her Ladie will be Master Sir owen .</seg>
+        </note>
+        <note target="A20077-252880" xml:id="A20077-34-b-2920">
+          <label>A20077-34-b-2920</label>
+          <sic>virtuals</sic>
+          <seg>a tale of Pigmes , and then mounch vp our</seg>
+          <corr>victuals</corr>
+          <seg>, but that fits not vs : or the historie</seg>
+        </note>
+        <note target="A20077-258100" xml:id="A20077-35-b-0300">
+          <label>A20077-35-b-0300</label>
+          <sic>Pau●●</sic>
+          <seg>halfe heyre of Brandenburgh , My brother</seg>
+          <corr>Pauia</corr>
+          <seg>with no small expence , Hath brought the</seg>
+        </note>
+        <note target="A20077-259590" xml:id="A20077-35-b-1600">
+          <label>A20077-35-b-1600</label>
+          <sic>prefence</sic>
+          <seg>Gwenthian , wil you please Goe in , and lend your</seg>
+          <corr>presence</corr>
+          <seg>to my bride ?</seg>
+        </note>
+        <note target="A20077-260040" xml:id="A20077-35-b-2000">
+          <label>A20077-35-b-2000</label>
+          <sic>becowes</sic>
+          <seg>were as many Sharmaines daughter is there</seg>
+          <corr>be cowes</corr>
+          <seg>cowes in Cambria and that is aboue twenty</seg>
+        </note>
       </div>
     </back>
   </text>

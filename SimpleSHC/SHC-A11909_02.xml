@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
@@ -754,7 +754,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               </choice>
             </w>
             <c> </c>
-            <w lemma="the" part="I" ana="#d" xml:id="A11909_02-002050.1" facs="24-a-1980" rendition="y-sup">the</w>
+            <w lemma="the" part="I" ana="#d" xml:id="A11909_02-002050.1" facs="24-a-1980">
+              <choice>
+                <orig>ye</orig>
+                <reg>the</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="he" ana="#pns" xml:id="A11909_02-002070" facs="24-a-1990">he</w>
             <c> </c>
@@ -10713,9 +10718,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </choice>
               </w>
               <c> </c>
-              <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_02-032900.1" facs="28-b-0190" rendition="w-sup">
+              <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_02-032900.1" facs="28-b-0190">
                 <choice>
-                  <orig>which</orig>
+                  <orig>wt</orig>
                   <reg>with</reg>
                 </choice>
               </w>
@@ -10793,9 +10798,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 </choice>
               </w>
               <c> </c>
-              <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_02-033190.1" facs="28-b-0430" rendition="w-sup">
+              <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_02-033190.1" facs="28-b-0430">
                 <choice>
-                  <orig>which</orig>
+                  <orig>wt</orig>
                   <reg>with</reg>
                 </choice>
               </w>
@@ -11283,12 +11288,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <l xml:id="A11909_02-e103200">
               <w lemma="and" ana="#cc" xml:id="A11909_02-035050" facs="28-b-1980">And</w>
               <c> </c>
-              <w lemma="y●" part="I" ana="#n1" xml:id="A11909_02-035060.1" facs="28-b-1990" rendition="y-sup">
-                <choice>
-                  <orig>y</orig>
-                  <reg>y●</reg>
-                </choice>
-              </w>
+              <w lemma="y●" part="I" ana="#n1" xml:id="A11909_02-035060.1" facs="28-b-1990">y●</w>
               <c> </c>
               <w lemma="be" ana="#vvz" xml:id="A11909_02-035080" facs="28-b-2000">is</w>
               <c> </c>
@@ -44282,9 +44282,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
                 <c> </c>
                 <w lemma="gilt" ana="#n1" xml:id="A11909_02-141090" facs="43-a-3410">gilt</w>
                 <c> </c>
-                <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_02-141100.1" facs="43-a-3420" rendition="w-sup">
+                <w lemma="with" part="I" ana="#acp-p" xml:id="A11909_02-141100.1" facs="43-a-3420">
                   <choice>
-                    <orig>which</orig>
+                    <orig>wt</orig>
                     <reg>with</reg>
                   </choice>
                 </w>
@@ -47202,7 +47202,7 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <c> </c>
               <w lemma="you" ana="#pn" xml:id="A11909_02-150310" facs="44-a-3850">you</w>
               <c> </c>
-              <w lemma="forthwith" part="I" ana="#av" xml:id="A11909_02-150320.1" facs="44-a-3860" rendition="sup-1">
+              <w lemma="forthwith" part="I" ana="#av" xml:id="A11909_02-150320.1" facs="44-a-3860">
                 <choice>
                   <orig>forthwt</orig>
                   <reg>forthwith</reg>
@@ -47528,6 +47528,972 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A11909_02-003270" xml:id="A11909_02-25-a-0680">
+          <label>A11909_02-25-a-0680</label>
+          <sic>agayue</sic>
+          <seg>bowres wher breathing bodyes dwel Doth shew</seg>
+          <corr>agayne</corr>
+          <seg>? is ought found worse , then burning thyrst</seg>
+        </note>
+        <note target="A11909_02-003440" xml:id="A11909_02-25-a-0850">
+          <label>A11909_02-25-a-0850</label>
+          <sic>●et</sic>
+          <seg>burning thyrst of hel In lakes alow ? or</seg>
+          <corr>yet</corr>
+          <seg>worse plague then hunger is there one ,</seg>
+        </note>
+        <note target="A11909_02-004080" xml:id="A11909_02-25-a-1490">
+          <label>A11909_02-25-a-1490</label>
+          <sic>tylthy</sic>
+          <seg>Whose growing guttes the gnawing gripes and</seg>
+          <corr>fylthy</corr>
+          <seg>foules do fyll ? That styl by nyght repayres</seg>
+        </note>
+        <note target="A11909_02-006530" xml:id="A11909_02-25-b-0140">
+          <label>A11909_02-25-b-0140</label>
+          <sic>faw●s</sic>
+          <seg>spreade : nor yet let any leysure be The former</seg>
+          <corr>fawts</corr>
+          <seg>to hate , but still more mischiefe newe</seg>
+        </note>
+        <note target="A11909_02-008100" xml:id="A11909_02-25-b-1710">
+          <label>A11909_02-25-b-1710</label>
+          <sic>t●</sic>
+          <seg>yll , But worse begot ? her spouse betrapt</seg>
+          <corr>to</corr>
+          <seg>treasons trayne to kyll , Let hatefull wyfe</seg>
+        </note>
+        <note target="A11909_02-008410" xml:id="A11909_02-25-b-2020">
+          <label>A11909_02-25-b-2020</label>
+          <sic>farr●</sic>
+          <seg>bloodshed lye the lands about and euery field a</seg>
+          <corr>farre</corr>
+          <seg>: And ouer conqueryng captaynes greate ,</seg>
+        </note>
+        <note target="A11909_02-008680" xml:id="A11909_02-25-b-2290">
+          <label>A11909_02-25-b-2290</label>
+          <sic>offene</sic>
+          <seg>house let whoredome counted he The light'st</seg>
+          <corr>offence</corr>
+          <seg>: let trust that in the breasts of brethren</seg>
+        </note>
+        <note target="A11909_02-012720" xml:id="A11909_02-26-a-1130">
+          <label>A11909_02-26-a-1130</label>
+          <sic>r●aryng</sic>
+          <seg>cryes that sound in caues of hell Of greedy</seg>
+          <corr>roarying</corr>
+          <seg>Lyons throats or flocke of furyes fell Who</seg>
+        </note>
+        <note target="A11909_02-013710" xml:id="A11909_02-26-a-2090">
+          <label>A11909_02-26-a-2090</label>
+          <sic>str●ke</sic>
+          <seg>sworde Ill loue to kinges : the cruel brest</seg>
+          <corr>strike</corr>
+          <seg>through and hateful hart , With tumult mad</seg>
+        </note>
+        <note target="A11909_02-014390" xml:id="A11909_02-26-a-2730">
+          <label>A11909_02-26-a-2730</label>
+          <sic>●</sic>
+          <seg>detested crymes , applye My nephewes hartes ?</seg>
+          <corr>o</corr>
+          <seg>parentes great of Gods aboue the skie And</seg>
+        </note>
+        <note target="A11909_02-014810" xml:id="A11909_02-26-a-3150">
+          <label>A11909_02-26-a-3150</label>
+          <sic>war●e</sic>
+          <seg>may no whit refrayne Nor hold my peace : I</seg>
+          <corr>warne</corr>
+          <seg>you this least sacred hand with bloud Of</seg>
+        </note>
+        <note target="A11909_02-014940" xml:id="A11909_02-26-a-3280">
+          <label>A11909_02-26-a-3280</label>
+          <sic>frans●e</sic>
+          <seg>sacred hand with bloud Of slaughter dyre , or</seg>
+          <corr>strange</corr>
+          <seg>fell of frantike fury wood The aulters stayne</seg>
+        </note>
+        <note target="A11909_02-014970" xml:id="A11909_02-26-a-3310">
+          <label>A11909_02-26-a-3310</label>
+          <sic>fran●ke</sic>
+          <seg>bloud Of slaughter dyre , or strange fell of</seg>
+          <corr>frantike</corr>
+          <seg>fury wood The aulters stayne , I wll resist</seg>
+        </note>
+        <note target="A11909_02-015150" xml:id="A11909_02-26-a-3490">
+          <label>A11909_02-26-a-3490</label>
+          <sic>strpes</sic>
+          <seg>resist : And garde such gylt away . With</seg>
+          <corr>strypes</corr>
+          <seg>why dost thou me affryght ? why threatst</seg>
+        </note>
+        <note target="A11909_02-015290" xml:id="A11909_02-26-a-3630">
+          <label>A11909_02-26-a-3630</label>
+          <sic>crallyn g</sic>
+          <seg>affryght ? why threatst thou me to fraye Those</seg>
+          <corr>crallyng</corr>
+          <seg>snakes ? or famine fyxt in empty wombe ,</seg>
+        </note>
+        <note target="A11909_02-015500" xml:id="A11909_02-26-a-3840">
+          <label>A11909_02-26-a-3840</label>
+          <sic>enkmdled</sic>
+          <seg>thou reuyue ? now fries within with thyrst</seg>
+          <corr>enkindled</corr>
+          <seg>sore My harte : and in the bowels burnt</seg>
+        </note>
+        <note target="A11909_02-015620" xml:id="A11909_02-26-a-3960">
+          <label>A11909_02-26-a-3960</label>
+          <sic>fl●me●</sic>
+          <seg>harte : and in the bowels burnt the boyling</seg>
+          <corr>flame</corr>
+          <seg>do glow .</seg>
+        </note>
+        <note target="A11909_02-016200" xml:id="A11909_02-26-a-4500">
+          <label>A11909_02-26-a-4500</label>
+          <sic>degune</sic>
+          <seg>house , and all with wicked touch of the</seg>
+          <corr>begune</corr>
+          <seg>to quake . Enough it is , repayre agayne</seg>
+        </note>
+        <note target="A11909_02-016320" xml:id="A11909_02-26-a-4620">
+          <label>A11909_02-26-a-4620</label>
+          <sic>●nd</sic>
+          <seg>quake . Enough it is , repayre agayne to dens</seg>
+          <corr>and</corr>
+          <seg>loathsome lake , Of floud well knowen ,</seg>
+        </note>
+        <note target="A11909_02-017260" xml:id="A11909_02-26-b-0410">
+          <label>A11909_02-26-b-0410</label>
+          <sic>●earer</sic>
+          <seg>eyther syde that wonted to resound , And</seg>
+          <corr>nearer</corr>
+          <seg>foordes to seperat sometyme with lesser</seg>
+        </note>
+        <note target="A11909_02-024460" xml:id="A11909_02-27-b-1170">
+          <label>A11909_02-27-b-1170</label>
+          <sic>vuder</sic>
+          <seg>to shyne , The bright drawne sword : all</seg>
+          <corr>under</corr>
+          <seg>foote of horse let euery syde Of Argos lande</seg>
+        </note>
+        <note target="A11909_02-024670" xml:id="A11909_02-27-b-1380">
+          <label>A11909_02-27-b-1380</label>
+          <sic>●oes</sic>
+          <seg>and let the woundes not serue to hyde Our</seg>
+          <corr>woes</corr>
+          <seg>, nor yet in haughty top of hilles and mountaynes</seg>
+        </note>
+        <note target="A11909_02-024940" xml:id="A11909_02-27-b-1640">
+          <label>A11909_02-27-b-1640</label>
+          <sic>for sake</sic>
+          <seg>people all let them to battel crye And clere</seg>
+          <corr>forsake</corr>
+          <seg> Mycenas towne who so his hateful head</seg>
+        </note>
+        <note target="A11909_02-025610" xml:id="A11909_02-27-b-2320">
+          <label>A11909_02-27-b-2320</label>
+          <sic>wischese</sic>
+          <seg>after age allow , Nor none it whisht : some</seg>
+          <corr>mischefe</corr>
+          <seg>greate ther must be ventred now , Both fierce</seg>
+        </note>
+        <note target="A11909_02-026510" xml:id="A11909_02-27-b-3220">
+          <label>A11909_02-27-b-3220</label>
+          <sic>wilit</sic>
+          <seg>Vntractable , that broke may be , but neuer</seg>
+          <corr>wil it</corr>
+          <seg>it bend . For which are he prepare himselfe</seg>
+        </note>
+        <note target="A11909_02-026520" xml:id="A11909_02-27-b-3230">
+          <label>A11909_02-27-b-3230</label>
+          <sic>b●nd</sic>
+          <seg>Vntractable , that broke may be , but neuer wil it</seg>
+          <corr>bend</corr>
+          <seg>. For which are he prepare himselfe , or</seg>
+        </note>
+        <note target="A11909_02-029880" xml:id="A11909_02-28-a-2550">
+          <label>A11909_02-28-a-2550</label>
+          <sic>pr●ue</sic>
+          <seg>heynous hurt hath his offence let passe to</seg>
+          <corr>proue</corr>
+          <seg>? or where Refraynd the gylt , thy spouse</seg>
+        </note>
+        <note target="A11909_02-029990" xml:id="A11909_02-28-a-2660">
+          <label>A11909_02-28-a-2660</label>
+          <sic>sta●e</sic>
+          <seg>or where Refraynd the gylt , thy spouse he</seg>
+          <corr>stale</corr>
+          <seg>away for lechery , And raygne by stelth</seg>
+        </note>
+        <note target="A11909_02-030150" xml:id="A11909_02-28-a-2820">
+          <label>A11909_02-28-a-2820</label>
+          <sic>ampery</sic>
+          <seg>by stelth : the auncient note and sygne of</seg>
+          <corr>empery</corr>
+          <seg>, By frawde he got : my house by fraud to</seg>
+        </note>
+        <note target="A11909_02-039040" xml:id="A11909_02-29-a-0020">
+          <label>A11909_02-29-a-0020</label>
+          <sic>faiut'st</sic>
+          <seg>mynde , yet dreadst thou so at last , And</seg>
+          <corr>faint'st</corr>
+          <seg>before thou enterprise ? it must bee done</seg>
+        </note>
+        <note target="A11909_02-041170" xml:id="A11909_02-29-a-1990">
+          <label>A11909_02-29-a-1990</label>
+          <sic>vuckle</sic>
+          <seg>sonnes the charge which they shall to theyr</seg>
+          <corr>vnckle</corr>
+          <seg>tell , We will commit : that whom he would</seg>
+        </note>
+        <note target="A11909_02-041770" xml:id="A11909_02-29-a-2590">
+          <label>A11909_02-29-a-2590</label>
+          <sic>entys , de</sic>
+          <seg>fall , With trauels tier'de , and apte to be</seg>
+          <corr>entysde</corr>
+          <seg>from misery , Requests will moue : on th'one</seg>
+        </note>
+        <note target="A11909_02-042090" xml:id="A11909_02-29-a-2910">
+          <label>A11909_02-29-a-2910</label>
+          <sic>subd●e</sic>
+          <seg>pouerty , and labour hard to see , Will him</seg>
+          <corr>subdue</corr>
+          <seg>and make to yeelde , although full stoute</seg>
+        </note>
+        <note target="A11909_02-042970" xml:id="A11909_02-29-a-3650">
+          <label>A11909_02-29-a-3650</label>
+          <sic>wrose</sic>
+          <seg>The younger sorte the</seg>
+          <corr>worse</corr>
+          <seg>precepts do easely harken to .</seg>
+        </note>
+        <note target="A11909_02-044940" xml:id="A11909_02-29-a-5420">
+          <label>A11909_02-29-a-5420</label>
+          <sic>begull'de</sic>
+          <seg>woulde he should beguiled bee , Them selnes</seg>
+          <corr>beguil'de</corr>
+          <seg>?</seg>
+        </note>
+        <note target="A11909_02-045510" xml:id="A11909_02-29-b-0400">
+          <label>A11909_02-29-b-0400</label>
+          <sic>sorbeare</sic>
+          <seg>purpose ill my mynde : if thou thine owne</seg>
+          <corr>forbeare</corr>
+          <seg>, Thou sparest him . Wherefore of this let</seg>
+        </note>
+        <note target="A11909_02-048030" xml:id="A11909_02-29-b-2840">
+          <label>A11909_02-29-b-2840</label>
+          <sic>cr●wne</sic>
+          <seg>Not lofty lookes , or head encloasde with</seg>
+          <corr>crowne</corr>
+          <seg>, Not glyttring beames with golde and turrets</seg>
+        </note>
+        <note target="A11909_02-053500" xml:id="A11909_02-31-a-0110">
+          <label>A11909_02-31-a-0110</label>
+          <sic>s●</sic>
+          <seg>_MY countrey bowres</seg>
+          <corr>so</corr>
+          <seg>long wisht for , and Argos rytches all ,</seg>
+        </note>
+        <note target="A11909_02-053750" xml:id="A11909_02-31-a-0360">
+          <label>A11909_02-31-a-0360</label>
+          <sic>suyle</sic>
+          <seg>then , and Mysers may befall , The touch of</seg>
+          <corr>soyle</corr>
+          <seg>where born I was , a gods of natiue lād</seg>
+        </note>
+        <note target="A11909_02-054000" xml:id="A11909_02-31-a-0610">
+          <label>A11909_02-31-a-0610</label>
+          <sic>Cycolps</sic>
+          <seg>gods they be , ) a sacred towres I see of</seg>
+          <corr>Cyclops</corr>
+          <seg>hād : That represent then all mans woorke</seg>
+        </note>
+        <note target="A11909_02-054040" xml:id="A11909_02-31-a-0650">
+          <label>A11909_02-31-a-0650</label>
+          <sic>represeat</sic>
+          <seg>sacred towres I see of Cyclops hād : That</seg>
+          <corr>represent</corr>
+          <seg>then all mans woorke , a greater maiesty</seg>
+        </note>
+        <note target="A11909_02-055270" xml:id="A11909_02-31-a-1880">
+          <label>A11909_02-31-a-1880</label>
+          <sic>couate</sic>
+          <seg>Beset but late with such mishaps , as all men</seg>
+          <corr>counte</corr>
+          <seg>full harde , I stoute and ioyfull was :</seg>
+        </note>
+        <note target="A11909_02-056160" xml:id="A11909_02-31-a-2700">
+          <label>A11909_02-31-a-2700</label>
+          <sic>con●drest</sic>
+          <seg>What thing ( my minde )</seg>
+          <corr>considrest</corr>
+          <seg>thou ? or els so long whereto Do'st thou</seg>
+        </note>
+        <note target="A11909_02-057470" xml:id="A11909_02-31-a-3970">
+          <label>A11909_02-31-a-3970</label>
+          <sic>Dy●acerate</sic>
+          <seg>halfe the kyngdome geues , and of the house</seg>
+          <corr>Dysacerate</corr>
+          <seg>, Repayres the partes : and thee restores</seg>
+        </note>
+        <note target="A11909_02-059670" xml:id="A11909_02-31-b-1480">
+          <label>A11909_02-31-b-1480</label>
+          <sic>myfer</sic>
+          <seg>Who may be happy , rather would he</seg>
+          <corr>miser</corr>
+          <seg>yet remayne ?</seg>
+        </note>
+        <note target="A11909_02-061030" xml:id="A11909_02-31-b-2800">
+          <label>A11909_02-31-b-2800</label>
+          <sic>siandes</sic>
+          <seg>it likes my will . Of haughty house that</seg>
+          <corr>standes</corr>
+          <seg>aloft in tickle top of hyll , And swayes</seg>
+        </note>
+        <note target="A11909_02-062550" xml:id="A11909_02-31-b-4320">
+          <label>A11909_02-31-b-4320</label>
+          <sic>siumbers</sic>
+          <seg>smoake : nor yet are dayes in slouthfull</seg>
+          <corr>slumbers</corr>
+          <seg>led , Nor nightes past forth in watche and</seg>
+        </note>
+        <note target="A11909_02-064530" xml:id="A11909_02-32-a-0400">
+          <label>A11909_02-32-a-0400</label>
+          <sic>bottawe</sic>
+          <seg>asswaged be : and corne to rypenes growe In</seg>
+          <corr>bottome</corr>
+          <seg>of Ionian seas , and darkest night shall</seg>
+        </note>
+        <note target="A11909_02-064590" xml:id="A11909_02-32-a-0460">
+          <label>A11909_02-32-a-0460</label>
+          <sic>barkest</sic>
+          <seg>rypenes growe In bottome of Ionian seas , and</seg>
+          <corr>darkest</corr>
+          <seg>night shall showe And spreade the light</seg>
+        </note>
+        <note target="A11909_02-065840" xml:id="A11909_02-32-a-1510">
+          <label>A11909_02-32-a-1510</label>
+          <sic>deguilde</sic>
+          <seg>dread , yee to be</seg>
+          <corr>beguilde</corr>
+          <seg>when caught yee are : To late it is to shoon</seg>
+        </note>
+        <note target="A11909_02-067550" xml:id="A11909_02-32-b-0910">
+          <label>A11909_02-32-b-0910</label>
+          <sic>feekes</sic>
+          <seg>anger brydled bee . So when the Bloudhound</seg>
+          <corr>seekes</corr>
+          <seg>the beast , by step and quick of sent Drawes</seg>
+        </note>
+        <note target="A11909_02-068900" xml:id="A11909_02-32-b-2260">
+          <label>A11909_02-32-b-2260</label>
+          <sic>Brarde</sic>
+          <seg>fowlest tace is dight , How lothsome lyes his</seg>
+          <corr>Bearde</corr>
+          <seg>vnkempt : but let vs friendship fayne .</seg>
+        </note>
+        <note target="A11909_02-072000" xml:id="A11909_02-33-a-1750">
+          <label>A11909_02-33-a-1750</label>
+          <sic>rel●eue</sic>
+          <seg>fathers seate to yelde to you , and brother to</seg>
+          <corr>relieue</corr>
+          <seg>. To haue a kingdome is but chaunce , but</seg>
+        </note>
+        <note target="A11909_02-073310" xml:id="A11909_02-33-a-2910">
+          <label>A11909_02-33-a-2910</label>
+          <sic>●eyse</sic>
+          <seg>dame fortunes gifts refuse , if shee him</seg>
+          <corr>rayse</corr>
+          <seg>to raigne ?</seg>
+        </note>
+        <note target="A11909_02-075670" xml:id="A11909_02-33-b-0750">
+          <label>A11909_02-33-b-0750</label>
+          <sic>resouude</sic>
+          <seg>did to battayle cry , VVhan horsemen did</seg>
+          <corr>resounde</corr>
+          <seg>one euery syde , The swoordes eche vvhere</seg>
+        </note>
+        <note target="A11909_02-077290" xml:id="A11909_02-34-a-0010">
+          <label>A11909_02-34-a-0010</label>
+          <sic>VVocrse</sic>
+          <seg>From turret high did ouerlooke the towne .</seg>
+          <corr>VVorse</corr>
+          <seg>is then warre it selfe the feare of fight</seg>
+        </note>
+        <note target="A11909_02-078190" xml:id="A11909_02-34-a-0910">
+          <label>A11909_02-34-a-0910</label>
+          <sic>Cyclpos</sic>
+          <seg>Charybdis casts that erst it had drunke in : And</seg>
+          <corr>Cyclops</corr>
+          <seg>fierce his father yet doth dred , In AEtna</seg>
+        </note>
+        <note target="A11909_02-080430" xml:id="A11909_02-34-b-0470">
+          <label>A11909_02-34-b-0470</label>
+          <sic>Oyee</sic>
+          <seg>estate may turne ) and doubtfull howre .</seg>
+          <corr>O yee</corr>
+          <seg>yee , vvhom lorde of lande and vvaters wyde</seg>
+        </note>
+        <note target="A11909_02-083270" xml:id="A11909_02-35-a-1260">
+          <label>A11909_02-35-a-1260</label>
+          <sic>Seythians</sic>
+          <seg>Hircana lande ? or els doe here the wandring</seg>
+          <corr>Scythians</corr>
+          <seg>dwell ?</seg>
+        </note>
+        <note target="A11909_02-084120" xml:id="A11909_02-35-a-2040">
+          <label>A11909_02-35-a-2040</label>
+          <sic>drtue</sic>
+          <seg>from hence me beare And to that place me</seg>
+          <corr>driue</corr>
+          <seg>, to which now driuen is the day Thus drawen</seg>
+        </note>
+        <note target="A11909_02-085060" xml:id="A11909_02-35-a-2910">
+          <label>A11909_02-35-a-2910</label>
+          <sic>stantes</sic>
+          <seg>the vtter syde With equall top to mountayne</seg>
+          <corr>standes</corr>
+          <seg>, and on the City lies , And people proude</seg>
+        </note>
+        <note target="A11909_02-086420" xml:id="A11909_02-35-b-0690">
+          <label>A11909_02-35-b-0690</label>
+          <sic>Ho●me</sic>
+          <seg>But Taxe , and Cypresse , and with tree of</seg>
+          <corr>Holme</corr>
+          <seg>ful blacke to see Doth becke and bende the</seg>
+        </note>
+        <note target="A11909_02-087450" xml:id="A11909_02-35-b-1720">
+          <label>A11909_02-35-b-1720</label>
+          <sic>leefullis</sic>
+          <seg>tree , And euery other conquests note , here</seg>
+          <corr>leefull is</corr>
+          <seg>is to see The Phrygian tyre of Pelops head</seg>
+        </note>
+        <note target="A11909_02-088630" xml:id="A11909_02-35-b-2900">
+          <label>A11909_02-35-b-2900</label>
+          <sic>frarefull</sic>
+          <seg>of vgly shapes from olde Sepulchres sent A</seg>
+          <corr>fearefull</corr>
+          <seg>flocke doth wander there , and in that place</seg>
+        </note>
+        <note target="A11909_02-088640" xml:id="A11909_02-35-b-2910">
+          <label>A11909_02-35-b-2910</label>
+          <sic>slocke</sic>
+          <seg>shapes from olde Sepulchres sent A fearefull</seg>
+          <corr>flocke</corr>
+          <seg>doth wander there , and in that place frequent</seg>
+        </note>
+        <note target="A11909_02-088870" xml:id="A11909_02-35-b-3140">
+          <label>A11909_02-35-b-3140</label>
+          <sic>afce</sic>
+          <seg>euer yet were knowwne : ye all the wood full</seg>
+          <corr>oft</corr>
+          <seg>With flame is woont to flash , and all the</seg>
+        </note>
+        <note target="A11909_02-090210" xml:id="A11909_02-35-b-4480">
+          <label>A11909_02-35-b-4480</label>
+          <sic>wh●</sic>
+          <seg>children trayle , Dekt are the aulters :</seg>
+          <corr>who</corr>
+          <seg>( alas ) may it enough bewayle ? Behynde</seg>
+        </note>
+        <note target="A11909_02-090570" xml:id="A11909_02-35-b-4840">
+          <label>A11909_02-35-b-4840</label>
+          <sic>Frankenfence</sic>
+          <seg>with purple bands : There wanted there no</seg>
+          <corr>Frankencense</corr>
+          <seg>, nor yet the holy wine , Nor knyfe to cut</seg>
+        </note>
+        <note target="A11909_02-093140" xml:id="A11909_02-36-a-2320">
+          <label>A11909_02-36-a-2320</label>
+          <sic>a syde</sic>
+          <seg>To th' aulters turnes , and there withwall</seg>
+          <corr>asyde</corr>
+          <seg>he lookes awry . As hungry Tygre wonts that</seg>
+        </note>
+        <note target="A11909_02-093980" xml:id="A11909_02-36-a-3160">
+          <label>A11909_02-36-a-3160</label>
+          <sic>staughter</sic>
+          <seg>whom he poynctes to slake his yre : first</seg>
+          <corr>slaughter</corr>
+          <seg>where to make , Hee doubts : or whom he</seg>
+        </note>
+        <note target="A11909_02-094440" xml:id="A11909_02-36-a-3590">
+          <label>A11909_02-36-a-3590</label>
+          <sic>syrst</sic>
+          <seg>Whom take he</seg>
+          <corr>fyrst</corr>
+          <seg>to dy ?</seg>
+        </note>
+        <note target="A11909_02-096070" xml:id="A11909_02-36-a-5100">
+          <label>A11909_02-36-a-5100</label>
+          <sic>keadlong</sic>
+          <seg>strayght his necke of cutteth hee . The Carcase</seg>
+          <corr>headlong</corr>
+          <seg>falles to ground : a piteous thing to see</seg>
+        </note>
+        <note target="A11909_02-096240" xml:id="A11909_02-36-b-0070">
+          <label>A11909_02-36-b-0070</label>
+          <sic>vucertayne</sic>
+          <seg>see . The mourning head with murmure yet</seg>
+          <corr>vncertayne</corr>
+          <seg>doth complayne .</seg>
+        </note>
+        <note target="A11909_02-096560" xml:id="A11909_02-36-b-0360">
+          <label>A11909_02-36-b-0360</label>
+          <sic>heayeth</sic>
+          <seg>he the Child ? or gilt on gilt agayne yet</seg>
+          <corr>heapeth</corr>
+          <seg>he ?</seg>
+        </note>
+        <note target="A11909_02-096690" xml:id="A11909_02-36-b-0450">
+          <label>A11909_02-36-b-0450</label>
+          <sic>scerce</sic>
+          <seg>As long maynd Lyon</seg>
+          <corr>fierce</corr>
+          <seg>amid the wood of Armenie , The droue pursues</seg>
+        </note>
+        <note target="A11909_02-097470" xml:id="A11909_02-36-b-1230">
+          <label>A11909_02-36-b-1230</label>
+          <sic>stayud</sic>
+          <seg>the sword in hand , with double slaughter</seg>
+          <corr>staynd</corr>
+          <seg>, Regarding not where fell his rage , with</seg>
+        </note>
+        <note target="A11909_02-098130" xml:id="A11909_02-36-b-1860">
+          <label>A11909_02-36-b-1860</label>
+          <sic>O'heynous</sic>
+          <seg/>
+          <corr>O' heynous</corr>
+          <seg>heynous hateful act .</seg>
+        </note>
+        <note target="A11909_02-098230" xml:id="A11909_02-36-b-1920">
+          <label>A11909_02-36-b-1920</label>
+          <sic>Abho●re</sic>
+          <seg/>
+          <corr>Abhorre</corr>
+          <seg>ye this ? ye heare not yet the end of all</seg>
+        </note>
+        <note target="A11909_02-099820" xml:id="A11909_02-36-b-3350">
+          <label>A11909_02-36-b-3350</label>
+          <sic>vntowbd</sic>
+          <seg>wished thing , That them their father saw</seg>
+          <corr>untombd</corr>
+          <seg>: but oh more cursed crime Uncredible ,</seg>
+        </note>
+        <note target="A11909_02-100170" xml:id="A11909_02-36-b-3700">
+          <label>A11909_02-36-b-3700</label>
+          <sic>scareful</sic>
+          <seg>bowels shake , The vaynes yet breath , the</seg>
+          <corr>feareful</corr>
+          <seg>hart doth yet both pant and quakes But he</seg>
+        </note>
+        <note target="A11909_02-100570" xml:id="A11909_02-36-b-4100">
+          <label>A11909_02-36-b-4100</label>
+          <sic>pleaso</sic>
+          <seg>not fully cold . When him the sacrifyce had</seg>
+          <corr>pleasd</corr>
+          <seg>, his diligence hē puttes To dresse his</seg>
+        </note>
+        <note target="A11909_02-100610" xml:id="A11909_02-36-b-4140">
+          <label>A11909_02-36-b-4140</label>
+          <sic>●ē</sic>
+          <seg>the sacrifyce had pleasd , his diligence</seg>
+          <corr>hē</corr>
+          <seg>puttes To dresse his brothers banquet now</seg>
+        </note>
+        <note target="A11909_02-100970" xml:id="A11909_02-36-b-4500">
+          <label>A11909_02-36-b-4500</label>
+          <sic>euerythune</sic>
+          <seg>wyde , and brawnes of armes be strikes of</seg>
+          <corr>euerychone</corr>
+          <seg>. He layes abroad their naked limes , and</seg>
+        </note>
+        <note target="A11909_02-101440" xml:id="A11909_02-36-b-4970">
+          <label>A11909_02-36-b-4970</label>
+          <sic>Itcour</sic>
+          <seg>that burne full ●oe They drop , the boyling</seg>
+          <corr>licour</corr>
+          <seg>some doth tomble to end froe In moorning</seg>
+        </note>
+        <note target="A11909_02-101600" xml:id="A11909_02-36-b-5130">
+          <label>A11909_02-36-b-5130</label>
+          <sic>alorft</sic>
+          <seg>cawderne : from the flesh that ouerstandes</seg>
+          <corr>aloft</corr>
+          <seg>The fyre doth flye , and skatter out and</seg>
+        </note>
+        <note target="A11909_02-101920" xml:id="A11909_02-37-a-0200">
+          <label>A11909_02-37-a-0200</label>
+          <sic>nopse</sic>
+          <seg>Unwilling burnes : the liuer makes great</seg>
+          <corr>noyse</corr>
+          <seg>vpon the spit , Nor easely wot I , if the</seg>
+        </note>
+        <note target="A11909_02-102070" xml:id="A11909_02-37-a-0350">
+          <label>A11909_02-37-a-0350</label>
+          <sic>fla●ies</sic>
+          <seg>spit , Nor easely wot I , if the flesh , or</seg>
+          <corr>flames</corr>
+          <seg>they be that bry , But crye they do : the</seg>
+        </note>
+        <note target="A11909_02-102370" xml:id="A11909_02-37-a-0650">
+          <label>A11909_02-37-a-0650</label>
+          <sic>flithy</sic>
+          <seg>Nor yet the smake it selfe so sad , like</seg>
+          <corr>filthy</corr>
+          <seg>miste in sight Ascendeth vp as wont it is</seg>
+        </note>
+        <note target="A11909_02-102630" xml:id="A11909_02-37-a-0910">
+          <label>A11909_02-37-a-0910</label>
+          <sic>fylithy</sic>
+          <seg>But euen the Gods and house it doth with</seg>
+          <corr>fylthy</corr>
+          <seg>turne defile . O pacient Phoebus though</seg>
+        </note>
+        <note target="A11909_02-102650" xml:id="A11909_02-37-a-0930">
+          <label>A11909_02-37-a-0930</label>
+          <sic>defise</sic>
+          <seg>Gods and house it doth with fylthy turne</seg>
+          <corr>defile</corr>
+          <seg>. O pacient Phoebus though from hence thou</seg>
+        </note>
+        <note target="A11909_02-103390" xml:id="A11909_02-37-a-1670">
+          <label>A11909_02-37-a-1670</label>
+          <sic>aftentymes</sic>
+          <seg>about his heare , Replete with wyne ; and</seg>
+          <corr>oftentymes</corr>
+          <seg>so cursed kynd of food His mouth hath held</seg>
+        </note>
+        <note target="A11909_02-106880" xml:id="A11909_02-37-b-2400">
+          <label>A11909_02-37-b-2400</label>
+          <sic>Au●ora</sic>
+          <seg>ryse of Sunne , nor fall shal be no more ,</seg>
+          <corr>Aurora</corr>
+          <seg>dewish mother of the light That wontes to</seg>
+        </note>
+        <note target="A11909_02-106890" xml:id="A11909_02-37-b-2410">
+          <label>A11909_02-37-b-2410</label>
+          <sic>dowish</sic>
+          <seg>Sunne , nor fall shal be no more , Aurora</seg>
+          <corr>dewish</corr>
+          <seg>mother of the light That wontes to send</seg>
+        </note>
+        <note target="A11909_02-113790" xml:id="A11909_02-40-a-0620">
+          <label>A11909_02-40-a-0620</label>
+          <sic>obsaynde</sic>
+          <seg>lette goe the gods : for all my wil I haue</seg>
+          <corr>obtaynde</corr>
+          <seg>Enoughe and well , ye euen enough for me</seg>
+        </note>
+        <note target="A11909_02-113800" xml:id="A11909_02-40-a-0630">
+          <label>A11909_02-40-a-0630</label>
+          <sic>●aoughe</sic>
+          <seg>the gods : for all my wil I haue obtaynde</seg>
+          <corr>Enoughe</corr>
+          <seg>and well , ye euen enough for me I am acquit</seg>
+        </note>
+        <note target="A11909_02-116310" xml:id="A11909_02-40-a-3140">
+          <label>A11909_02-40-a-3140</label>
+          <sic>sitees</sic>
+          <seg>: In glitteryng gold and purple seate he</seg>
+          <corr>sittes</corr>
+          <seg>hymselfe vpright , And staying vp his heauy</seg>
+        </note>
+        <note target="A11909_02-116880" xml:id="A11909_02-40-a-3710">
+          <label>A11909_02-40-a-3710</label>
+          <sic>volle</sic>
+          <seg>He filled is , he now the wyne in siluer</seg>
+          <corr>bolle</corr>
+          <seg>doth drinke And spare it not : there yet</seg>
+        </note>
+        <note target="A11909_02-117200" xml:id="A11909_02-40-b-0170">
+          <label>A11909_02-40-b-0170</label>
+          <sic>the●</sic>
+          <seg>sacrifyces three , Which wine shall hyde let</seg>
+          <corr>them</corr>
+          <seg>withall the hoordes be taken vp . The father</seg>
+        </note>
+        <note target="A11909_02-117460" xml:id="A11909_02-40-b-0430">
+          <label>A11909_02-40-b-0430</label>
+          <sic>bronke</sic>
+          <seg>childrens bloud shall sup . That would haue</seg>
+          <corr>dronke</corr>
+          <seg>of myne . Behold he now beginnes to strayne</seg>
+        </note>
+        <note target="A11909_02-117820" xml:id="A11909_02-40-b-0740">
+          <label>A11909_02-40-b-0740</label>
+          <sic>_OBeaten</sic>
+          <seg/>
+          <corr>O beaten</corr>
+          <seg>beaten bosomes dullde so longe with woe</seg>
+        </note>
+        <note target="A11909_02-117990" xml:id="A11909_02-40-b-0910">
+          <label>A11909_02-40-b-0910</label>
+          <sic>relē●</sic>
+          <seg>Laie down your cares , at length your greues</seg>
+          <corr>relēt</corr>
+          <seg>Let sorowe passe , and all your dread let</seg>
+        </note>
+        <note target="A11909_02-118530" xml:id="A11909_02-40-b-1450">
+          <label>A11909_02-40-b-1450</label>
+          <sic>ferety</sic>
+          <seg>to him , from hye That falles , it is in</seg>
+          <corr>surety</corr>
+          <seg>to be plast Beneath , and great it is to</seg>
+        </note>
+        <note target="A11909_02-120160" xml:id="A11909_02-41-a-0240">
+          <label>A11909_02-41-a-0240</label>
+          <sic>deeke</sic>
+          <seg>me let with flowers so fresh and gay , To</seg>
+          <corr>decke</corr>
+          <seg>my hayres ? it lets and me withdrawes .</seg>
+        </note>
+        <note target="A11909_02-126040" xml:id="A11909_02-41-b-3540">
+          <label>A11909_02-41-b-3540</label>
+          <sic>a●l</sic>
+          <seg>soones to spare : the Gods so graunt that</seg>
+          <corr>all</corr>
+          <seg>this tempest fall On this vyle head : but</seg>
+        </note>
+        <note target="A11909_02-126060" xml:id="A11909_02-41-b-3560">
+          <label>A11909_02-41-b-3560</label>
+          <sic>testmpest</sic>
+          <seg>spare : the Gods so graunt that all this</seg>
+          <corr>tempest</corr>
+          <seg>fall On this vyle head : but now restore</seg>
+        </note>
+        <note target="A11909_02-126190" xml:id="A11909_02-41-b-3690">
+          <label>A11909_02-41-b-3690</label>
+          <sic>childreu</sic>
+          <seg>this vyle head : but now restore to me my</seg>
+          <corr>children</corr>
+          <seg>all ,</seg>
+        </note>
+        <note target="A11909_02-126780" xml:id="A11909_02-42-a-0200">
+          <label>A11909_02-42-a-0200</label>
+          <sic>bewayses</sic>
+          <seg>opprest , And with an other voyce then myne</seg>
+          <corr>bewayles</corr>
+          <seg>my doleful brest : Come nere my sonnes ,</seg>
+        </note>
+        <note target="A11909_02-126920" xml:id="A11909_02-42-a-0340">
+          <label>A11909_02-42-a-0340</label>
+          <sic>thun happy</sic>
+          <seg>: Come nere my sonnes , for you now doth</seg>
+          <corr>thunhappy</corr>
+          <seg>father call : Come nere , for you once seene</seg>
+        </note>
+        <note target="A11909_02-127550" xml:id="A11909_02-42-a-0940">
+          <label>A11909_02-42-a-0940</label>
+          <sic>suffet</sic>
+          <seg>know my brother : such a gylt yet canst thou</seg>
+          <corr>suffer</corr>
+          <seg>well O earth to beare ? nor yet from hence</seg>
+        </note>
+        <note target="A11909_02-129240" xml:id="A11909_02-42-a-2630">
+          <label>A11909_02-42-a-2630</label>
+          <sic>sled</sic>
+          <seg>payse vn●●●● yet art thou ? The Gods are</seg>
+          <corr>fled</corr>
+          <seg>:</seg>
+        </note>
+        <note target="A11909_02-129440" xml:id="A11909_02-42-a-2800">
+          <label>A11909_02-42-a-2800</label>
+          <sic>enbrace</sic>
+          <seg>with ioy thy children now , And rather them</seg>
+          <corr>embrace</corr>
+          <seg>: at length thy children all of thee So</seg>
+        </note>
+        <note target="A11909_02-130420" xml:id="A11909_02-42-a-3740">
+          <label>A11909_02-42-a-3740</label>
+          <sic>entoom be</sic>
+          <seg>doth brother brother pray : That them he may</seg>
+          <corr>entoombe</corr>
+          <seg>restore , whom see thou shalt strayght waye</seg>
+        </note>
+        <note target="A11909_02-130780" xml:id="A11909_02-42-a-4070">
+          <label>A11909_02-42-a-4070</label>
+          <sic>r●t</sic>
+          <seg>what euer part</seg>
+          <corr>rot</corr>
+          <seg>of thy children all Remaynes , here shalt</seg>
+        </note>
+        <note target="A11909_02-131110" xml:id="A11909_02-42-a-4360">
+          <label>A11909_02-42-a-4360</label>
+          <sic>fleng</sic>
+          <seg>Lye they in fieldes , a food out</seg>
+          <corr>flung</corr>
+          <seg>for fleerug fowles to waste Or are they</seg>
+        </note>
+        <note target="A11909_02-131140" xml:id="A11909_02-42-a-4390">
+          <label>A11909_02-42-a-4390</label>
+          <sic>sowles</sic>
+          <seg>in fieldes , a food out flung for fleerug</seg>
+          <corr>fowles</corr>
+          <seg>to waste Or are they kept a pray , for wyld</seg>
+        </note>
+        <note target="A11909_02-131160" xml:id="A11909_02-42-a-4410">
+          <label>A11909_02-42-a-4410</label>
+          <sic>wast●</sic>
+          <seg>, a food out flung for fleerug fowles to</seg>
+          <corr>waste</corr>
+          <seg>Or are they kept a pray , for wyld and brutish</seg>
+        </note>
+        <note target="A11909_02-131280" xml:id="A11909_02-42-a-4530">
+          <label>A11909_02-42-a-4530</label>
+          <sic>beasten</sic>
+          <seg>are they kept a pray , for wyld and brutish</seg>
+          <corr>beastes</corr>
+          <seg>to eate ?</seg>
+        </note>
+        <note target="A11909_02-132090" xml:id="A11909_02-42-a-5270">
+          <label>A11909_02-42-a-5270</label>
+          <sic>bodres</sic>
+          <seg>cut of , and handes of torne , I from their</seg>
+          <corr>bodies</corr>
+          <seg>see , And wrenched seete from broken thighes</seg>
+        </note>
+        <note target="A11909_02-132140" xml:id="A11909_02-42-b-0030">
+          <label>A11909_02-42-b-0030</label>
+          <sic>seete</sic>
+          <seg>, I from their bodies see , And wrenched</seg>
+          <corr>feete</corr>
+          <seg>from broken thighes I here behold agayn</seg>
+        </note>
+        <note target="A11909_02-134720" xml:id="A11909_02-42-b-2580">
+          <label>A11909_02-42-b-2580</label>
+          <sic>pleaso</sic>
+          <seg>sacred fyres with slaughter vowde I haue Wel</seg>
+          <corr>pleasd</corr>
+          <seg>, the carcase cutting then , and liueles</seg>
+        </note>
+        <note target="A11909_02-134970" xml:id="A11909_02-42-b-2830">
+          <label>A11909_02-42-b-2830</label>
+          <sic>brounde</sic>
+          <seg>litle parcels chopt , and some of them I</seg>
+          <corr>drounde</corr>
+          <seg>In boyling cauderns , some to fyres that</seg>
+        </note>
+        <note target="A11909_02-135570" xml:id="A11909_02-42-b-3430">
+          <label>A11909_02-42-b-3430</label>
+          <sic>otf</sic>
+          <seg>and crye , and with my hand the flame : I</seg>
+          <corr>oft</corr>
+          <seg>kept in : but euery whit the father might</seg>
+        </note>
+        <note target="A11909_02-140160" xml:id="A11909_02-43-a-2710">
+          <label>A11909_02-43-a-2710</label>
+          <sic>sayth</sic>
+          <seg>mee I compt and now of bridebed chast the</seg>
+          <corr>fayth</corr>
+          <seg>I do repayre ,</seg>
+        </note>
+        <note target="A11909_02-142770" xml:id="A11909_02-43-b-0200">
+          <label>A11909_02-43-b-0200</label>
+          <sic>dungeou</sic>
+          <seg>_O Kyng of Dytis</seg>
+          <corr>dungeon</corr>
+          <seg>darke , and grysly Ghosts of hell , That</seg>
+        </note>
+        <note target="A11909_02-142810" xml:id="A11909_02-43-b-0240">
+          <label>A11909_02-43-b-0240</label>
+          <sic>g●ysty</sic>
+          <seg>_O Kyng of Dytis dungeon darke , and</seg>
+          <corr>grysly</corr>
+          <seg>Ghosts of hell , That in the deepe and dreadfull</seg>
+        </note>
+        <note target="A11909_02-142910" xml:id="A11909_02-43-b-0340">
+          <label>A11909_02-43-b-0340</label>
+          <sic>dre adfull</sic>
+          <seg>grysly Ghosts of hell , That in the deepe and</seg>
+          <corr>dreadfull</corr>
+          <seg>Denne , of blackest Tarrace dwell . Where</seg>
+        </note>
+        <note target="A11909_02-143090" xml:id="A11909_02-43-b-0520">
+          <label>A11909_02-43-b-0520</label>
+          <sic>samyne</sic>
+          <seg>leane and pale dyseases lye where feare and</seg>
+          <corr>famyne</corr>
+          <seg>are , Where discord stands with bleeding</seg>
+        </note>
+        <note target="A11909_02-144080" xml:id="A11909_02-43-b-1510">
+          <label>A11909_02-43-b-1510</label>
+          <sic>Putoes</sic>
+          <seg>may byde to couer mee , Nor grisly gates of</seg>
+          <corr>Plutoes</corr>
+          <seg>place , yet dare them selues to spred ,</seg>
+        </note>
+        <note target="A11909_02-144180" xml:id="A11909_02-43-b-1610">
+          <label>A11909_02-43-b-1610</label>
+          <sic>gaying</sic>
+          <seg>place , yet dare them selues to spred , Nor</seg>
+          <corr>gaping</corr>
+          <seg>grounde to swallowe him , whom Gods and</seg>
+        </note>
+        <note target="A11909_02-144290" xml:id="A11909_02-43-b-1720">
+          <label>A11909_02-43-b-1720</label>
+          <sic>sled</sic>
+          <seg>to swallowe him , whom Gods and day haue</seg>
+          <corr>fled</corr>
+          <seg>: Yet breake yee out from cursed seates</seg>
+        </note>
+        <note target="A11909_02-144870" xml:id="A11909_02-43-b-2300">
+          <label>A11909_02-43-b-2300</label>
+          <sic>sled</sic>
+          <seg>or els the lothsome lyght . They both be</seg>
+          <corr>fled</corr>
+          <seg>: and now doth dwell none other count'naunce</seg>
+        </note>
+        <note target="A11909_02-145080" xml:id="A11909_02-43-b-2510">
+          <label>A11909_02-43-b-2510</label>
+          <sic>appeete</sic>
+          <seg>beneath the fowlest face , of hatefull hell</seg>
+          <corr>appeere</corr>
+          <seg>. Come see a meetest match for thee , a</seg>
+        </note>
+        <note target="A11909_02-146220" xml:id="A11909_02-43-b-3650">
+          <label>A11909_02-43-b-3650</label>
+          <sic>graundster</sic>
+          <seg>pange on me alone should light . Now thou O</seg>
+          <corr>graundsier</corr>
+          <seg>guiltlesse arte , and meeter were for mee</seg>
+        </note>
+        <note target="A11909_02-148100" xml:id="A11909_02-44-a-1660">
+          <label>A11909_02-44-a-1660</label>
+          <sic>Lym bo</sic>
+          <seg>catche a surer holde . Thou filthy floud of</seg>
+          <corr>Lymbo</corr>
+          <seg>lake , and Stygian poole so dyre , From</seg>
+        </note>
+        <note target="A11909_02-148150" xml:id="A11909_02-44-a-1710">
+          <label>A11909_02-44-a-1710</label>
+          <sic>S●ygian</sic>
+          <seg>holde . Thou filthy floud of Lymbo lake , and</seg>
+          <corr>Stygian</corr>
+          <seg>poole so dyre , From chocked chanell belche</seg>
+        </note>
+        <note target="A11909_02-149130" xml:id="A11909_02-44-a-2680">
+          <label>A11909_02-44-a-2680</label>
+          <sic>stendes</sic>
+          <seg>hell vnfolde ? Why do yee thus thinfernall</seg>
+          <corr>fiendes</corr>
+          <seg>, so long from hence withholde ? Are you</seg>
+        </note>
+        <note target="A11909_02-149820" xml:id="A11909_02-44-a-3370">
+          <label>A11909_02-44-a-3370</label>
+          <sic>goue</sic>
+          <seg>light , the day , the Gods , the ghosts be</seg>
+          <corr>gone</corr>
+          <seg>. Yet turne agayne yee Skyes a while , ere</seg>
+        </note>
+        <note target="A11909_02-150960" xml:id="A11909_02-44-a-4500">
+          <label>A11909_02-44-a-4500</label>
+          <sic>des●rts</sic>
+          <seg>on your wrath , for right rewarde to due</seg>
+          <corr>deserts</corr>
+          <seg>, will call . Yee scape not fro me , so</seg>
+        </note>
       </div>
     </back>
   </text>

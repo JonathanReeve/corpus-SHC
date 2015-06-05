@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A06625">
   <teiHeader>
     <fileDesc>
@@ -110,14 +110,14 @@ This is a very early release with many imperfections. Contact martinmueller@nort
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <creation>
-        <date>1583</date>
-      </creation>
       <textClass>
         <keywords scheme="lcsh">
           <term>Sappho -- Drama.</term>
         </keywords>
       </textClass>
+      <creation>
+        <date>1583</date>
+      </creation>
     </profileDesc>
   </teiHeader>
   <text xml:lang="eng" xml:id="A06625-e100010">
@@ -2698,7 +2698,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <w lemma="Venus" ana="#n1-nn" xml:id="A06625-008960" facs="3-b-3110">Venus</w>
               <pc xml:id="A06625-008970" facs="3-b-3120">,</pc>
               <c> </c>
-              <w lemma="that" part="I" ana="#cs" xml:id="A06625-008980.1" facs="3-b-3130" rendition="y-sup">that</w>
+              <w lemma="that" part="I" ana="#cs" xml:id="A06625-008980.1" facs="3-b-3130">
+                <choice>
+                  <orig>yt</orig>
+                  <reg>that</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="carry" ana="#vvg" xml:id="A06625-009000" facs="3-b-3140">
                 <choice>
@@ -12449,7 +12454,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <w lemma="continue" ana="#vvi" xml:id="A06625-048880" facs="8-b-1800">continue</w>
               <pc xml:id="A06625-048890" facs="8-b-1810">,</pc>
               <c> </c>
-              <w lemma="that" part="I" ana="#cs" xml:id="A06625-048900.1" facs="8-b-1820" rendition="y-sup">that</w>
+              <w lemma="that" part="I" ana="#cs" xml:id="A06625-048900.1" facs="8-b-1820">
+                <choice>
+                  <orig>yt</orig>
+                  <reg>that</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="time" ana="#n1" xml:id="A06625-048920" facs="8-b-1830">time</w>
               <c> </c>
@@ -49404,6 +49414,139 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A06625-005590" xml:id="A06625-3-a-2320">
+          <label>A06625-3-a-2320</label>
+          <sic>vouchfafe</sic>
+          <seg>conclusiō , in your rising your Maiestie</seg>
+          <corr>vouchsafe</corr>
+          <seg>but to saye , And so you awakte .</seg>
+        </note>
+        <note target="A06625-011850" xml:id="A06625-4-a-2530">
+          <label>A06625-4-a-2530</label>
+          <sic>cannotredresse</sic>
+          <seg>creatures resist that , which the immortall Gods</seg>
+          <corr>cannot redresse</corr>
+          <seg>redresse ?</seg>
+        </note>
+        <note target="A06625-016930" xml:id="A06625-4-b-2930">
+          <label>A06625-4-b-2930</label>
+          <sic>braue ry</sic>
+          <seg>Here you see as great vertue , far greater</seg>
+          <corr>brauery</corr>
+          <seg>, the action of that which you cōtemplate</seg>
+        </note>
+        <note target="A06625-028960" xml:id="A06625-6-a-2710">
+          <label>A06625-6-a-2710</label>
+          <sic>wescarce</sic>
+          <seg>so full of learning are we at home , that</seg>
+          <corr>we scarce</corr>
+          <seg>scarce know good manners when wee come abroad</seg>
+        </note>
+        <note target="A06625-029860" xml:id="A06625-6-a-3560">
+          <label>A06625-6-a-3560</label>
+          <sic>ve</sic>
+          <seg>looke what we heare our maisters talke of ,</seg>
+          <corr>ye</corr>
+          <seg>determine of : where we suspect , we vndermine</seg>
+        </note>
+        <note target="A06625-041280" xml:id="A06625-7-b-2590">
+          <label>A06625-7-b-2590</label>
+          <sic>fayte</sic>
+          <seg>be a word too foule for a face so passing</seg>
+          <corr>fayre</corr>
+          <seg>. But what auaileth bewtie , hadst thou</seg>
+        </note>
+        <note target="A06625-088940" xml:id="A06625-13-a-3180">
+          <label>A06625-13-a-3180</label>
+          <sic>thon</sic>
+          <seg>presse , &amp; bloweth fire vpon his lycour . When</seg>
+          <corr>thou</corr>
+          <seg>talkest with her , let thy speach be pleasant</seg>
+        </note>
+        <note target="A06625-091680" xml:id="A06625-13-b-1890">
+          <label>A06625-13-b-1890</label>
+          <sic>forcerie</sic>
+          <seg>may say , the Gentleman is in loue . Vse no</seg>
+          <corr>sorcerie</corr>
+          <seg>to hasten thy successe , wit is a witch</seg>
+        </note>
+        <note target="A06625-101300" xml:id="A06625-14-b-2030">
+          <label>A06625-14-b-2030</label>
+          <sic>soonestand</sic>
+          <seg>which beeing whitest &amp; softest , fretteth</seg>
+          <corr>soone stand</corr>
+          <seg>stand deepest .</seg>
+        </note>
+        <note target="A06625-102360" xml:id="A06625-14-b-2870">
+          <label>A06625-14-b-2870</label>
+          <sic>ar●</sic>
+          <seg>What browne studie</seg>
+          <corr>art</corr>
+          <seg>thou in Molus , no mirth ? no life ?</seg>
+        </note>
+        <note target="A06625-115400" xml:id="A06625-16-a-2760">
+          <label>A06625-16-a-2760</label>
+          <sic>cutteines</sic>
+          <seg>Shall we draw the</seg>
+          <corr>curteines</corr>
+          <seg>, whilest you gyue your selfe to slumber</seg>
+        </note>
+        <note target="A06625-118000" xml:id="A06625-16-b-1450">
+          <label>A06625-16-b-1450</label>
+          <sic>figne</sic>
+          <seg>It is an vnlucky</seg>
+          <corr>sign</corr>
+          <seg>in the chamber of the sick to talke of mariages</seg>
+        </note>
+        <note target="A06625-121530" xml:id="A06625-17-a-0710">
+          <label>A06625-17-a-0710</label>
+          <sic>Sahpo</sic>
+          <seg/>
+          <corr>Sapho</corr>
+          <seg> </seg>
+        </note>
+        <note target="A06625-123290" xml:id="A06625-17-a-2280">
+          <label>A06625-17-a-2280</label>
+          <sic>rvuers</sic>
+          <seg>sweete roses ? kepte thy swannes in cleare</seg>
+          <corr>ryvers</corr>
+          <seg>? sead thy sparrowes with ripe corne , &amp;</seg>
+        </note>
+        <note target="A06625-123310" xml:id="A06625-17-a-2300">
+          <label>A06625-17-a-2280</label>
+          <sic>sead</sic>
+          <seg>roses ? kepte thy swannes in cleare ryvers ?</seg>
+          <corr>fead</corr>
+          <seg>thy sparrowes with ripe corne , &amp; harboured</seg>
+        </note>
+        <note target="A06625-155200" xml:id="A06625-20-b-3550">
+          <label>A06625-20-b-3550</label>
+          <sic>missortun</sic>
+          <seg>pittying both the fortune of the bird , &amp; the</seg>
+          <corr>misfortun</corr>
+          <seg>of the tree but in this time quils began</seg>
+        </note>
+        <note target="A06625-160840" xml:id="A06625-21-b-0370">
+          <label>A06625-21-b-0370</label>
+          <sic>mysell</sic>
+          <seg>in the midst of my striuing , it seemed to</seg>
+          <corr>myself</corr>
+          <seg>gold , with faire drops , I filled my lap</seg>
+        </note>
+        <note target="A06625-167400" xml:id="A06625-22-a-2080">
+          <label>A06625-22-a-2080</label>
+          <sic>curtifie</sic>
+          <seg>by questions : but preuent the effects by</seg>
+          <corr>curtisie</corr>
+          <seg>. Make me six arrowe heads : it is giuen</seg>
+        </note>
+        <note target="A06625-185660" xml:id="A06625-24-b-1910">
+          <label>A06625-24-b-1910</label>
+          <sic>blafing</sic>
+          <seg>her name : yet stil sighing for Sapho , and</seg>
+          <corr>blasing</corr>
+          <seg>her vertues .</seg>
+        </note>
       </div>
     </back>
   </text>

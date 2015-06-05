@@ -1,4 +1,4 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://morphadorner.northwestern.edu/morphadorner/schemata/ma_tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0" xml:id="A20951">
   <teiHeader>
     <fileDesc>
@@ -117,14 +117,14 @@ This is a very early release with many imperfections. Contact martinmueller@nort
       </editorialDecl>
     </encodingDesc>
     <profileDesc>
-      <creation>
-        <date>1590</date>
-      </creation>
       <textClass>
         <keywords scheme="lcsh">
           <term>Arden, Thomas, -- d. 1551 -- Drama.</term>
         </keywords>
       </textClass>
+      <creation>
+        <date>1590</date>
+      </creation>
     </profileDesc>
   </teiHeader>
   <text xml:lang="eng" xml:id="A20951-e100010">
@@ -660,9 +660,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="subscribe" ana="#vvn" xml:id="A20951-001840" facs="2-b-0670">subscribed</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A20951-001850.1" facs="2-b-0680" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A20951-001850.1" facs="2-b-0680">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -28709,9 +28709,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="wrong" ana="#n1_j" xml:id="A20951-109640" facs="16-a-0910">wrong</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A20951-109650.1" facs="16-a-0920" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A20951-109650.1" facs="16-a-0920">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -32557,7 +32557,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="of" ana="#acp-p" xml:id="A20951-123530" facs="18-a-0520">of</w>
             <c> </c>
-            <w lemma="that" part="I" ana="#cs" xml:id="A20951-123540.1" facs="18-a-0530" rendition="y-sup">that</w>
+            <w lemma="that" part="I" ana="#cs" xml:id="A20951-123540.1" facs="18-a-0530">
+              <choice>
+                <orig>yt</orig>
+                <reg>that</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="day" ana="#n1" xml:id="A20951-123560" facs="18-a-0540">day</w>
             <pc xml:id="A20951-123570" unit="sentence" facs="18-a-0550">.</pc>
@@ -59322,9 +59327,9 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="sup" ana="#vvi" xml:id="A20951-225090" facs="31-a-0710">sup</w>
             <c> </c>
-            <w lemma="with" part="I" ana="#acp-p" xml:id="A20951-225100.1" facs="31-a-0720" rendition="w-sup">
+            <w lemma="with" part="I" ana="#acp-p" xml:id="A20951-225100.1" facs="31-a-0720">
               <choice>
-                <orig>which</orig>
+                <orig>wt</orig>
                 <reg>with</reg>
               </choice>
             </w>
@@ -74392,6 +74397,398 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>The textual notes below aim at making textual corrections  readable in their immediate context and facilitating access to the source text. A five-dit number preceded by 'A' or 'B' represents an EEBO-TCP filenumber.  A notation like "6-b-2890" means "look for EEBO page image 6 of that text, word 289 on the right side of the double-page image." That reference is followed by the corrupt reading. A black dot stands for an unidentified letter, a black square for an unidentified punctuation mark, a diamond for a missing word, and the ellipsis for a short span of undefined length. The corrected reading is displayed as a kewyord in context.
 
 </p>
+        <note target="A20951-014650" xml:id="A20951-4-a-1260">
+          <label>A20951-4-a-1260</label>
+          <sic>●●iles</sic>
+          <seg>hands of mine should race it to the ground :</seg>
+          <corr>Whiles</corr>
+          <seg>that thou would't bring me to my loue .</seg>
+        </note>
+        <note target="A20951-015330" xml:id="A20951-4-a-1860">
+          <label>A20951-4-a-1860</label>
+          <sic>manya</sic>
+          <seg>silver dice : With which we plaid for kisses</seg>
+          <corr>many a</corr>
+          <seg>a time , And when I lost , I wan , and so</seg>
+        </note>
+        <note target="A20951-015340" xml:id="A20951-4-a-1870">
+          <label>A20951-4-a-1870</label>
+          <sic>t●me</sic>
+          <seg>dice : With which we plaid for kisses many a</seg>
+          <corr>time</corr>
+          <seg>, And when I lost , I wan , and so did hée</seg>
+        </note>
+        <note target="A20951-035500" xml:id="A20951-6-b-1700">
+          <label>A20951-6-b-1700</label>
+          <sic>in●●rest</sic>
+          <seg>are not the lands yours ? Hath any other</seg>
+          <corr>interest</corr>
+          <seg>herein ?</seg>
+        </note>
+        <note target="A20951-035600" xml:id="A20951-6-b-1760">
+          <label>A20951-6-b-1760</label>
+          <sic>●●at</sic>
+          <seg>Mosby</seg>
+          <corr>that</corr>
+          <seg>question wele decyde anon , Ales make ready</seg>
+        </note>
+        <note target="A20951-039910" xml:id="A20951-7-a-2310">
+          <label>A20951-7-a-2310</label>
+          <sic>fyze</sic>
+          <seg>hers , maiest thou enioy her long : Hell</seg>
+          <corr>fyre</corr>
+          <seg>and wrathfull vengeance light on me , If</seg>
+        </note>
+        <note target="A20951-040910" xml:id="A20951-7-a-3230">
+          <label>A20951-7-a-3230</label>
+          <sic>staunderous</sic>
+          <seg>Who liues that is not toucht with</seg>
+          <corr>slaunderous</corr>
+          <seg>tongues ,</seg>
+        </note>
+        <note target="A20951-065440" xml:id="A20951-10-a-3490">
+          <label>A20951-10-a-3490</label>
+          <sic>la nds</sic>
+          <seg>know the trueth , Whether my husband had the</seg>
+          <corr>lands</corr>
+          <seg>by grant , I tould him all , where at he</seg>
+        </note>
+        <note target="A20951-065620" xml:id="A20951-10-b-0140">
+          <label>A20951-10-b-0140</label>
+          <sic>s●●ore</sic>
+          <seg>him all , where at he stormd a maine , And</seg>
+          <corr>swore</corr>
+          <seg>he would cry quittance with the Churle ,</seg>
+        </note>
+        <note target="A20951-067610" xml:id="A20951-10-b-1990">
+          <label>A20951-10-b-1990</label>
+          <sic>Cheesely</sic>
+          <seg>acquaint each stranger with our drifts ,</seg>
+          <corr>Cheefely</corr>
+          <seg>in case of murther , why tis the way , To</seg>
+        </note>
+        <note target="A20951-070270" xml:id="A20951-11-a-0740">
+          <label>A20951-11-a-0740</label>
+          <sic>Stresteth</sic>
+          <seg/>
+          <corr>stresseth</corr>
+          <seg>in your graunt , some words are past , And</seg>
+        </note>
+        <note target="A20951-080020" xml:id="A20951-12-a-2680">
+          <label>A20951-12-a-2680</label>
+          <sic>acpuainted</sic>
+          <seg>finde the fellow , now Will I know Thou art</seg>
+          <corr>acquainted</corr>
+          <seg>with such companions ,</seg>
+        </note>
+        <note target="A20951-105250" xml:id="A20951-15-b-0160">
+          <label>A20951-15-b-0160</label>
+          <sic>kowne</sic>
+          <seg>mildely , with the pesant , thus it is , Tis</seg>
+          <corr>known</corr>
+          <seg>to vs you loue mosbies sister . We know</seg>
+        </note>
+        <note target="A20951-105850" xml:id="A20951-15-b-0760">
+          <label>A20951-15-b-0760</label>
+          <sic>aknaue</sic>
+          <seg>coast of Kent . Now comes it then , that such</seg>
+          <corr>a knave</corr>
+          <seg>knave as you Dare sweare a matter of such</seg>
+        </note>
+        <note target="A20951-111800" xml:id="A20951-16-a-2890">
+          <label>A20951-16-a-2890</label>
+          <sic>womenly</sic>
+          <seg>this once . Let pittie lodge where féeble</seg>
+          <corr>women ly</corr>
+          <seg>ly , I am resolued , and Arden néeds must</seg>
+        </note>
+        <note target="A20951-116330" xml:id="A20951-17-a-0330">
+          <label>A20951-17-a-0330</label>
+          <sic>ahell</sic>
+          <seg>you go before , Ile follow you , Ah what</seg>
+          <corr>a hell</corr>
+          <seg>hell is fretfull Ielousie ? What pitty moning</seg>
+        </note>
+        <note target="A20951-126430" xml:id="A20951-18-a-3170">
+          <label>A20951-18-a-3170</label>
+          <sic>offeare</sic>
+          <seg>Why thy speach bewraied an inlye kind</seg>
+          <corr>of feare</corr>
+          <seg>. And fauourd of a weak relenting</seg>
+        </note>
+        <note target="A20951-128790" xml:id="A20951-18-b-1620">
+          <label>A20951-18-b-1620</label>
+          <sic>sleece</sic>
+          <seg>twilight , cockshut light , When I would</seg>
+          <corr>fleece</corr>
+          <seg>the welthie passenger , But ly and languish</seg>
+        </note>
+        <note target="A20951-129970" xml:id="A20951-18-b-2710">
+          <label>A20951-18-b-2710</label>
+          <sic>slouted</sic>
+          <seg>durst say before but yea and no . To be thus</seg>
+          <corr>flouted</corr>
+          <seg>of a coysterel .</seg>
+        </note>
+        <note target="A20951-130370" xml:id="A20951-18-b-3070">
+          <label>A20951-18-b-3070</label>
+          <sic>letme</sic>
+          <seg>comming of that prick eard cur , And then</seg>
+          <corr>let me</corr>
+          <seg>me alone to handle him .</seg>
+        </note>
+        <note target="A20951-137320" xml:id="A20951-19-b-2590">
+          <label>A20951-19-b-2590</label>
+          <sic>sitting</sic>
+          <seg>frons him well on Kaynum downe , A place well</seg>
+          <corr>fitting</corr>
+          <seg>such a stratageme .</seg>
+        </note>
+        <note target="A20951-141250" xml:id="A20951-20-a-2880">
+          <label>A20951-20-a-2880</label>
+          <sic>And</sic>
+          <seg>for his paines Ile heaue him vp a while ,</seg>
+          <corr>after smother</corr>
+          <seg>smother after smother him to haue his waxe</seg>
+        </note>
+        <note target="A20951-141260" xml:id="A20951-20-a-2890">
+          <label>A20951-20-a-2890</label>
+          <sic>aftersmother</sic>
+          <seg>Ile heaue him vp a while , after smother</seg>
+          <corr>after smother</corr>
+          <seg>smother him to haue his waxe . Such bees</seg>
+        </note>
+        <note target="A20951-141530" xml:id="A20951-20-a-3160">
+          <label>A20951-20-a-3160</label>
+          <sic>Chrefe</sic>
+          <seg>Then is there Michael and the Painter to ,</seg>
+          <corr>Cheefe</corr>
+          <seg>actors to Ardens overthrow : Who when they</seg>
+        </note>
+        <note target="A20951-146310" xml:id="A20951-21-a-0820">
+          <label>A20951-21-a-0820</label>
+          <sic>ingraueu</sic>
+          <seg>my kin : Euen in my forehead is thy name</seg>
+          <corr>ingrauen</corr>
+          <seg>, A meane Artifiecer , that lowe borne name</seg>
+        </note>
+        <note target="A20951-146330" xml:id="A20951-21-a-0840">
+          <label>A20951-21-a-0840</label>
+          <sic>Ameane</sic>
+          <seg>Euen in my forehead is thy name ingrauen ,</seg>
+          <corr>A meane</corr>
+          <seg>meane Artifiecer , that lowe borne name</seg>
+        </note>
+        <note target="A20951-147420" xml:id="A20951-21-a-1890">
+          <label>A20951-21-a-1890</label>
+          <sic>●n</sic>
+          <seg>giglote by the lest . I left the Mariage of</seg>
+          <corr>an</corr>
+          <seg>honest maid , VVhose dowry would haue weyed</seg>
+        </note>
+        <note target="A20951-148000" xml:id="A20951-21-a-2470">
+          <label>A20951-21-a-2470</label>
+          <sic>thy</sic>
+          <seg>thou vnhallowed hast enchaunted me : But</seg>
+          <corr>I</corr>
+          <seg> will breake thy spels , and excirsimes</seg>
+        </note>
+        <note target="A20951-148030" xml:id="A20951-21-a-2500">
+          <label>A20951-21-a-2500</label>
+          <sic>thyspels</sic>
+          <seg>enchaunted me : But thy spels will breake</seg>
+          <corr>thy spels</corr>
+          <seg>spels , and excirsimes , And put another</seg>
+        </note>
+        <note target="A20951-148660" xml:id="A20951-21-a-3130">
+          <label>A20951-21-a-3130</label>
+          <sic>conterset</sic>
+          <seg>thy gilt , Thy worthles copper showes thee</seg>
+          <corr>counterfet</corr>
+          <seg>. It grieues me not to see how foull thou</seg>
+        </note>
+        <note target="A20951-180380" xml:id="A20951-25-a-3130">
+          <label>A20951-25-a-3130</label>
+          <sic>sheis</sic>
+          <seg>Who susan Mosbye ?</seg>
+          <corr>she is</corr>
+          <seg>is your Mistres too</seg>
+        </note>
+        <note target="A20951-183020" xml:id="A20951-25-b-1660">
+          <label>A20951-25-b-1660</label>
+          <sic>wilcost</sic>
+          <seg>Such another word</seg>
+          <corr>wil cost</corr>
+          <seg>cost you a cuffe or a knock</seg>
+        </note>
+        <note target="A20951-188250" xml:id="A20951-26-a-3130">
+          <label>A20951-26-a-3130</label>
+          <sic>stull</sic>
+          <seg>I were pitty but his</seg>
+          <corr>scull</corr>
+          <seg>were opened , To make more Chimny roome</seg>
+        </note>
+        <note target="A20951-188630" xml:id="A20951-26-a-3420">
+          <label>A20951-26-a-3420</label>
+          <sic>wise</sic>
+          <seg>I think tis lyke to a curst</seg>
+          <corr>wife</corr>
+          <seg>in a lytlehouse , That neuer leaues her</seg>
+        </note>
+        <note target="A20951-190530" xml:id="A20951-26-b-1500">
+          <label>A20951-26-b-1500</label>
+          <sic>Celipses</sic>
+          <seg>I , and it hath influences and</seg>
+          <corr>Eclipses</corr>
+          <seg>.</seg>
+        </note>
+        <note target="A20951-192480" xml:id="A20951-26-b-3090">
+          <label>A20951-26-b-3090</label>
+          <sic>seete</sic>
+          <seg>fall into some ditche or other , vnles my</seg>
+          <corr>feete</corr>
+          <seg>see better then my eies .</seg>
+        </note>
+        <note target="A20951-192940" xml:id="A20951-26-b-3450">
+          <label>A20951-26-b-3450</label>
+          <sic>sine</sic>
+          <seg>No this were a</seg>
+          <corr>fine</corr>
+          <seg>world for chandlers , If this weather would</seg>
+        </note>
+        <note target="A20951-199600" xml:id="A20951-27-b-1750">
+          <label>A20951-27-b-1750</label>
+          <sic>Andrest</sic>
+          <seg>you to Feuershame to the flowre deluce ,</seg>
+          <corr>And rest</corr>
+          <seg>rest your selues vntil some other time .</seg>
+        </note>
+        <note target="A20951-210140" xml:id="A20951-29-a-1010">
+          <label>A20951-29-a-1010</label>
+          <sic>perturde</sic>
+          <seg>Ah Mosbie ,</seg>
+          <corr>periurde</corr>
+          <seg>beast , beare this and all .</seg>
+        </note>
+        <note target="A20951-211700" xml:id="A20951-29-a-2270">
+          <label>A20951-29-a-2270</label>
+          <sic>hur●e</sic>
+          <seg>drewst thy sword inraged with Ielousy , And</seg>
+          <corr>hurte</corr>
+          <seg>thy freende , Whose thoughts were frée from</seg>
+        </note>
+        <note target="A20951-211940" xml:id="A20951-29-a-2510">
+          <label>A20951-29-a-2510</label>
+          <sic>mir●ely</sic>
+          <seg>kisse , and ioyning armes . Both don but</seg>
+          <corr>mirely</corr>
+          <seg>to try thy patience . And me vnhappy that</seg>
+        </note>
+        <note target="A20951-215140" xml:id="A20951-29-b-2190">
+          <label>A20951-29-b-2190</label>
+          <sic>palce</sic>
+          <seg>of thy frend , Who going wounded from the</seg>
+          <corr>place</corr>
+          <seg>, he said His skinne was peirst only through</seg>
+        </note>
+        <note target="A20951-220640" xml:id="A20951-30-b-0320">
+          <label>A20951-30-b-0320</label>
+          <sic>crosee</sic>
+          <seg>, for-opning her shoppe windowes . For a</seg>
+          <corr>crosse</corr>
+          <seg>worde of a Tapster , I haue pearced one</seg>
+        </note>
+        <note target="A20951-221960" xml:id="A20951-30-b-1640">
+          <label>A20951-30-b-1640</label>
+          <sic>ha●d</sic>
+          <seg>stand euery morning , With a quart pot in his</seg>
+          <corr>hand</corr>
+          <seg>, Saying will it please your worship drinke</seg>
+        </note>
+        <note target="A20951-225470" xml:id="A20951-31-a-0990">
+          <label>A20951-31-a-0990</label>
+          <sic>shak●bag</sic>
+          <seg>Twas long of</seg>
+          <corr>shakebag</corr>
+          <seg>that vnluckye villaine .</seg>
+        </note>
+        <note target="A20951-226700" xml:id="A20951-31-a-2130">
+          <label>A20951-31-a-2130</label>
+          <sic>deui●l</sic>
+          <seg>danger , I lye here for my lyfe . If the</seg>
+          <corr>deuil</corr>
+          <seg>come , and he haue no more strength then</seg>
+        </note>
+        <note target="A20951-228060" xml:id="A20951-31-a-3360">
+          <label>A20951-31-a-3360</label>
+          <sic>cranime</sic>
+          <seg>euery drop of his detested bloode , I would</seg>
+          <corr>cramme</corr>
+          <seg>in Angels in thy fist . And kist thee too</seg>
+        </note>
+        <note target="A20951-229490" xml:id="A20951-31-b-0710">
+          <label>A20951-31-b-0710</label>
+          <sic>cunne</sic>
+          <seg>haue toke the weapon thou letst fall , And</seg>
+          <corr>runne</corr>
+          <seg>at Arden , for I haue sworne , That these</seg>
+        </note>
+        <note target="A20951-230360" xml:id="A20951-31-b-1460">
+          <label>A20951-31-b-1460</label>
+          <sic>Fraith</sic>
+          <seg/>
+          <corr>Faith</corr>
+          <seg>Ales no longer then this night . Black Will</seg>
+        </note>
+        <note target="A20951-234350" xml:id="A20951-32-a-1440">
+          <label>A20951-32-a-1440</label>
+          <sic>sine</sic>
+          <seg>ground , Then stab him till his flesh be as a</seg>
+          <corr>siue</corr>
+          <seg>, That doone beare him behind the Abby ,</seg>
+        </note>
+        <note target="A20951-237590" xml:id="A20951-32-b-0710">
+          <label>A20951-32-b-0710</label>
+          <sic>snath</sic>
+          <seg>her watrie bower , Fling down Endimion and</seg>
+          <corr>snatch</corr>
+          <seg>him vp : Then blame not me , that stay a</seg>
+        </note>
+        <note target="A20951-260190" xml:id="A20951-35-a-0680">
+          <label>A20951-35-a-0680</label>
+          <sic>Ilyke</sic>
+          <seg/>
+          <corr>I lyke</corr>
+          <seg>not this , I pray God all be well</seg>
+        </note>
+        <note target="A20951-266380" xml:id="A20951-35-b-2190">
+          <label>A20951-35-b-2190</label>
+          <sic>indge</sic>
+          <seg>Now let the</seg>
+          <corr>iudge</corr>
+          <seg>and iuries do their worst , My house is</seg>
+        </note>
+        <note target="A20951-266530" xml:id="A20951-35-b-2340">
+          <label>A20951-35-b-2340</label>
+          <sic>seare</sic>
+          <seg>their worst , My house is cleare , and now I</seg>
+          <corr>feare</corr>
+          <seg>them not .</seg>
+        </note>
+        <note target="A20951-277180" xml:id="A20951-37-a-0620">
+          <label>A20951-37-a-0620</label>
+          <sic>asnwer</sic>
+          <seg>Study not for an</seg>
+          <corr>answer</corr>
+          <seg>, looke not down His pursse and girdle found</seg>
+        </note>
+        <note target="A20951-286020" xml:id="A20951-38-a-1940">
+          <label>A20951-38-a-1940</label>
+          <sic>foilted</sic>
+          <seg>naked Tragedy , Wherin no filed points are</seg>
+          <corr>foisted</corr>
+          <seg>in , To make it gratious to the eare or</seg>
+        </note>
       </div>
     </back>
   </text>
