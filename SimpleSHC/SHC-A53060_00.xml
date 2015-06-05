@@ -1,50 +1,52 @@
-<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?><?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<?xml-model href="https://raw.githubusercontent.com/TEIC/TEI-Simple/master/teisimple.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
 <TEI xmlns="http://www.tei-c.org/ns/1.0">
   <teiHeader>
     <fileDesc>
       <titleStmt>
-        <title><date type="creation_date">1662</date></title>
+        <title/>
         <author>Cavendish, Margaret</author>
       </titleStmt>
       <editionStmt>
-
-           <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
-           <editor>Martin Mueller</editor>
-           <respStmt>
-              <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
-              <name>Hannah Bredar</name></respStmt>
-           <respStmt>
-              <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
-              <name>Philip R. Burns</name>
-           </respStmt>
-           <respStmt>
-              <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
-              <name>Martin Mueller</name>
-           </respStmt>
-           <respStmt>
-              <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
+        <edition n="0.1">This early release includes some 500 EEBO-TCP transcriptions of Early Modern plays that have undergone several routines to create an interoperable and algorithmically amenable corpus of Early Modern Drama.  Many incompletely or incorrectly transcribed words have been corrected, including obvious printers' errors,  but the  text has not been proofread word by word. Each word in the text has been identified as a distinct token with its own xml:id and assigned to a lemma, a part of speech, and a standard spelling.  Speech prefixes were mapped  to unique speaker ID's  as "who" attributes of <gi>sp</gi> elements. elements</edition>
+        <editor>Martin Mueller</editor>
+        <respStmt>
+          <resp>Incompletely or incorrectly transcribed words were reviewed and in many cases fixed by</resp>
+          <name>Hannah Bredar</name>
+        </respStmt>
+        <respStmt>
+          <resp>Tokenization and linguistic annotation  using MorphAdorner and NUPOS 2.0 were provided by</resp>
+          <name>Philip R. Burns</name>
+        </respStmt>
+        <respStmt>
+          <resp>With the help of Thomas L. Berger's Index of Characters in Early Modern English Drama Printed Plays, 1500-1660 speech prefixes were mapped to unique "who" attributes of <gi>sp</gi> elements by</resp>
+          <name>Martin Mueller</name>
+        </respStmt>
+        <respStmt>
+          <resp>A provisional, rudimentry, and algorithmically produced castlist was added as a new <gi>div</gi> in the <gi>back</gi> listing each role
               with their number of speeches sorted from high to low by </resp>
-              <name>Martin Mueller</name>
-           </respStmt>
-           <respStmt>
-              <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
-              <name>Martin Mueller</name>
-           </respStmt>
-
-        </editionStmt>
+          <name>Martin Mueller</name>
+        </respStmt>
+        <respStmt>
+          <resp>Project co-ordination and review of textual changes and linguistic annotation by</resp>
+          <name>Martin Mueller</name>
+        </respStmt>
+      </editionStmt>
       <publicationStmt>
-           <authority>
-              <name>Martin Mueller</name>
-              <address>
+        <authority>
+          <name>Martin Mueller</name>
+          <address>
             <addrLine>Department of English</addrLine>
-         <addrLine>Northwestern University</addrLine>
-         <addrLine>Evanston IL 60208</addrLine>
-         </address></authority>
-
-           <availability><licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence></availability>
-           <date>2015</date>
-           <idno type="SHC">SHC-A53060_00.xml</idno>
-        </publicationStmt>
+            <addrLine>Northwestern University</addrLine>
+            <addrLine>Evanston IL 60208</addrLine>
+          </address>
+        </authority>
+        <availability>
+          <licence target="http://creativecommons.org/licenses/by-nc/3.0/deed.en_US">Distributed under a Creative Commons Attribution-NonCommercial 3.0 Unported License</licence>
+        </availability>
+        <date>2015</date>
+        <idno type="SHC">SHC-A53060_00.xml</idno>
+      </publicationStmt>
       <sourceDesc>
         <biblFull n="TCP source">
           <titleStmt>
@@ -100,6 +102,11 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <p>These texts have been encoded in TEI Simple, but retain all the structural distinctions found in the TCP texts fron which they were derived. The facs attributes for each <gi>pb</gi>; and <gi>w</gi>element provide a link to the EEBO pages images. A list of the NUPOS2 tags with descriptiosn and examples can be found at href="http://morphadorner.northwestern.edu/morphadorner/schemata/nupos2-interpgrp.xml"</p>
       </editorialDecl>
     </encodingDesc>
+    <profileDesc>
+      <creation>
+        <date>1662</date>
+      </creation>
+    </profileDesc>
   </teiHeader>
   <text xml:id="A53060_00-e100010">
     <body xml:id="A53060_00-e100020">
@@ -148,7 +155,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <c> </c>
               <w lemma="not" ana="#xx" xml:id="A53060_00-00230" facs="1-a-0200">not</w>
               <c> </c>
-              <w lemma="fix" ana="#vvn" xml:id="A53060_00-00240" facs="1-a-0210"><choice><orig>fixt</orig><reg>fixed</reg></choice></w>
+              <w lemma="fix" ana="#vvn" xml:id="A53060_00-00240" facs="1-a-0210">
+                <choice>
+                  <orig>fixt</orig>
+                  <reg>fixed</reg>
+                </choice>
+              </w>
               <pc xml:id="A53060_00-00250" facs="1-a-0220">,</pc>
               <c> </c>
               <w lemma="they" ana="#pns" xml:id="A53060_00-00260" facs="1-a-0230">they</w>
@@ -168,7 +180,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <c> </c>
               <w lemma="like" ana="#j" xml:id="A53060_00-00330" facs="1-a-0300">like</w>
               <c> </c>
-              <w lemma="shadow" ana="#n2" xml:id="A53060_00-00340" facs="1-a-0310"><choice><orig>Shadowes</orig><reg>Shadows</reg></choice></w>
+              <w lemma="shadow" ana="#n2" xml:id="A53060_00-00340" facs="1-a-0310">
+                <choice>
+                  <orig>Shadowes</orig>
+                  <reg>Shadows</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="to" ana="#acp-p" xml:id="A53060_00-00350" facs="1-a-0320">to</w>
               <c> </c>
@@ -181,7 +198,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <c> </c>
               <w lemma="only" ana="#av_j" xml:id="A53060_00-00390" facs="1-a-0360">only</w>
               <c> </c>
-              <w lemma="represent" ana="#vvz" xml:id="A53060_00-00400" facs="1-a-0370"><choice><orig>represent's</orig><reg>represents</reg></choice></w>
+              <w lemma="represent" ana="#vvz" xml:id="A53060_00-00400" facs="1-a-0370">
+                <choice>
+                  <orig>represent's</orig>
+                  <reg>represents</reg>
+                </choice>
+              </w>
               <pc xml:id="A53060_00-00410" facs="1-a-0380">;</pc>
               <c> </c>
               <w lemma="for" ana="#acp-p" xml:id="A53060_00-00420" facs="1-a-0390">for</w>
@@ -192,7 +214,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <l xml:id="A53060_00-e100110">
               <w lemma="her" ana="#po" xml:id="A53060_00-00450" facs="1-a-0420">Her</w>
               <c> </c>
-              <w lemma="beauty|be" ana="#n1|vvz" xml:id="A53060_00-00460" facs="1-a-0430"><choice><orig>Beuty's</orig><reg>beauty's</reg></choice></w>
+              <w lemma="beauty|be" ana="#n1|vvz" xml:id="A53060_00-00460" facs="1-a-0430">
+                <choice>
+                  <orig>Beuty's</orig>
+                  <reg>beauty's</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="find" ana="#vvn" xml:id="A53060_00-00470" facs="1-a-0440">found</w>
               <c> </c>
@@ -209,18 +236,33 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <c> </c>
               <w lemma="best" ana="#j-s" xml:id="A53060_00-00530" facs="1-a-0500">best</w>
               <c> </c>
-              <w lemma="painter" ana="#n1" xml:id="A53060_00-00540" facs="1-a-0510"><choice><orig>Paynter</orig><reg>Painter</reg></choice></w>
+              <w lemma="painter" ana="#n1" xml:id="A53060_00-00540" facs="1-a-0510">
+                <choice>
+                  <orig>Paynter</orig>
+                  <reg>Painter</reg>
+                </choice>
+              </w>
               <pc xml:id="A53060_00-00550" facs="1-a-0520">,</pc>
               <c> </c>
               <w lemma="to" ana="#acp-cs" xml:id="A53060_00-00560" facs="1-a-0530">to</w>
               <c> </c>
-              <w lemma="embrace" ana="#vvb" xml:id="A53060_00-00570" facs="1-a-0540"><choice><orig>Imbrace</orig><reg>Embrace</reg></choice></w>
+              <w lemma="embrace" ana="#vvb" xml:id="A53060_00-00570" facs="1-a-0540">
+                <choice>
+                  <orig>Imbrace</orig>
+                  <reg>Embrace</reg>
+                </choice>
+              </w>
               <pc xml:id="A53060_00-00580" facs="1-a-0550">,</pc>
             </l>
             <l xml:id="A53060_00-e100130">
               <w lemma="those" ana="#d" xml:id="A53060_00-00590" facs="1-a-0560">Those</w>
               <c> </c>
-              <w lemma="lovely" ana="#j" xml:id="A53060_00-00600" facs="1-a-0570"><choice><orig>louely</orig><reg>lovely</reg></choice></w>
+              <w lemma="lovely" ana="#j" xml:id="A53060_00-00600" facs="1-a-0570">
+                <choice>
+                  <orig>louely</orig>
+                  <reg>lovely</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="line" ana="#n2" xml:id="A53060_00-00610" facs="1-a-0580">Lines</w>
               <c> </c>
@@ -241,7 +283,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <w lemma="picture" ana="#n1" xml:id="A53060_00-00690" facs="1-a-0660">Picture</w>
               <pc xml:id="A53060_00-00700" facs="1-a-0670">,</pc>
               <c> </c>
-              <w lemma="judgement" ana="#n1" xml:id="A53060_00-00710" facs="1-a-0680"><choice><orig>Iudgment</orig><reg>judgement</reg></choice></w>
+              <w lemma="judgement" ana="#n1" xml:id="A53060_00-00710" facs="1-a-0680">
+                <choice>
+                  <orig>Iudgment</orig>
+                  <reg>judgement</reg>
+                </choice>
+              </w>
               <pc xml:id="A53060_00-00720" facs="1-a-0690">,</pc>
               <c> </c>
               <w lemma="will" ana="#n1" xml:id="A53060_00-00730" facs="1-a-0700">will</w>
@@ -258,39 +305,79 @@ This is a very early release with many imperfections. Contact martinmueller@nort
               <c> </c>
               <w lemma="which" ana="#crq-r" xml:id="A53060_00-00790" facs="1-a-0760">which</w>
               <c> </c>
-              <w lemma="she" ana="#pns" xml:id="A53060_00-00800" facs="1-a-0770"><choice><orig>Shee</orig><reg>She</reg></choice></w>
+              <w lemma="she" ana="#pns" xml:id="A53060_00-00800" facs="1-a-0770">
+                <choice>
+                  <orig>Shee</orig>
+                  <reg>She</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="have" ana="#vvz" xml:id="A53060_00-00810" facs="1-a-0780">hath</w>
               <c> </c>
-              <w lemma="write" ana="#vvn" xml:id="A53060_00-00820" facs="1-a-0790"><choice><orig>writt</orig><reg>written</reg></choice></w>
+              <w lemma="write" ana="#vvn" xml:id="A53060_00-00820" facs="1-a-0790">
+                <choice>
+                  <orig>writt</orig>
+                  <reg>written</reg>
+                </choice>
+              </w>
               <pc xml:id="A53060_00-00830" facs="1-a-0800">,</pc>
             </l>
             <l xml:id="A53060_00-e100160">
               <w lemma="by" ana="#acp-p" xml:id="A53060_00-00840" facs="1-a-0810">By</w>
               <c> </c>
-              <w lemma="fancy" ana="#n1g" xml:id="A53060_00-00850" facs="1-a-0820"><choice><orig>Phancy's</orig><reg>Fancy's</reg></choice></w>
+              <w lemma="fancy" ana="#n1g" xml:id="A53060_00-00850" facs="1-a-0820">
+                <choice>
+                  <orig>Phancy's</orig>
+                  <reg>Fancy's</reg>
+                </choice>
+              </w>
               <c> </c>
-              <w lemma="pencil" ana="#n1" xml:id="A53060_00-00860" facs="1-a-0830"><choice><orig>Pencill</orig><reg>Pencil</reg></choice></w>
+              <w lemma="pencil" ana="#n1" xml:id="A53060_00-00860" facs="1-a-0830">
+                <choice>
+                  <orig>Pencill</orig>
+                  <reg>Pencil</reg>
+                </choice>
+              </w>
               <c> </c>
-              <w lemma="draw" ana="#vvn" xml:id="A53060_00-00870" facs="1-a-0840"><choice><orig>drawne</orig><reg>drawn</reg></choice></w>
+              <w lemma="draw" ana="#vvn" xml:id="A53060_00-00870" facs="1-a-0840">
+                <choice>
+                  <orig>drawne</orig>
+                  <reg>drawn</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="alone" ana="#av_j" xml:id="A53060_00-00880" facs="1-a-0850">alone</w>
             </l>
             <l xml:id="A53060_00-e100170">
               <w lemma="which" ana="#crq-r" xml:id="A53060_00-00890" facs="1-a-0860">Which</w>
               <c> </c>
-              <w lemma="piece" ana="#n1" xml:id="A53060_00-00900" facs="1-a-0870"><choice><orig>Peece</orig><reg>Piece</reg></choice></w>
+              <w lemma="piece" ana="#n1" xml:id="A53060_00-00900" facs="1-a-0870">
+                <choice>
+                  <orig>Peece</orig>
+                  <reg>Piece</reg>
+                </choice>
+              </w>
               <c> </c>
               <w lemma="but" ana="#acp-cc" xml:id="A53060_00-00910" facs="1-a-0880">but</w>
               <c> </c>
-              <w lemma="she" ana="#pns" xml:id="A53060_00-00920" facs="1-a-0890"><choice><orig>Shee</orig><reg>She</reg></choice></w>
+              <w lemma="she" ana="#pns" xml:id="A53060_00-00920" facs="1-a-0890">
+                <choice>
+                  <orig>Shee</orig>
+                  <reg>She</reg>
+                </choice>
+              </w>
               <pc xml:id="A53060_00-00930" unit="sentence" facs="1-a-0900">.</pc>
               <c> </c>
               <w lemma="can" ana="#vmb" xml:id="A53060_00-00940" facs="1-a-0910">Can</w>
               <c> </c>
               <w lemma="justify" ana="#vvi" xml:id="A53060_00-00950" facs="1-a-0920">justify</w>
               <c> </c>
-              <w lemma="own" ana="#d" xml:id="A53060_00-00960" facs="1-a-0930"><choice><orig>owne</orig><reg>own</reg></choice></w>
+              <w lemma="own" ana="#d" xml:id="A53060_00-00960" facs="1-a-0930">
+                <choice>
+                  <orig>owne</orig>
+                  <reg>own</reg>
+                </choice>
+              </w>
               <pc xml:id="A53060_00-00970" unit="sentence" facs="1-a-0940">.</pc>
               <c> </c>
             </l>
@@ -300,7 +387,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
       <div type="title_page" xml:id="A53060_00-e100180">
         <pb facs="1"/>
         <p xml:id="A53060_00-e100190">
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-01010" facs="1-b-0010"><choice><orig>PLAYES</orig><reg>PLAYS</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-01010" facs="1-b-0010">
+            <choice>
+              <orig>PLAYES</orig>
+              <reg>PLAYS</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="Written" ana="#n1-nn" xml:id="A53060_00-01020" facs="1-b-0020">Written</w>
           <c> </c>
@@ -351,12 +443,27 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="for" ana="#acp-cs" xml:id="A53060_00-01300" facs="1-b-0260">for</w>
           <c> </c>
-          <w lemma="john" ana="#n1-nn" xml:id="A53060_00-01310" facs="1-b-0270" rendition="hi"><choice><orig>Iohn</orig><reg>john</reg></choice></w>
+          <w lemma="john" ana="#n1-nn" xml:id="A53060_00-01310" facs="1-b-0270" rendition="hi">
+            <choice>
+              <orig>Iohn</orig>
+              <reg>john</reg>
+            </choice>
+          </w>
           <c> </c>
-          <w lemma="Martin" ana="#n1-nn" xml:id="A53060_00-01320" facs="1-b-0280" rendition="hi"><choice><orig>Martyn</orig><reg>Martin</reg></choice></w>
+          <w lemma="Martin" ana="#n1-nn" xml:id="A53060_00-01320" facs="1-b-0280" rendition="hi">
+            <choice>
+              <orig>Martyn</orig>
+              <reg>Martin</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-01330" facs="1-b-0290" rendition="hi">,</pc>
           <c> </c>
-          <w lemma="james" ana="#n1-nn" xml:id="A53060_00-01340" facs="1-b-0300" rendition="hi"><choice><orig>Iames</orig><reg>james</reg></choice></w>
+          <w lemma="james" ana="#n1-nn" xml:id="A53060_00-01340" facs="1-b-0300" rendition="hi">
+            <choice>
+              <orig>Iames</orig>
+              <reg>james</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="allestry" ana="#n1-nn" xml:id="A53060_00-01350" facs="1-b-0310" rendition="hi">Allestry</w>
           <pc xml:id="A53060_00-01360" facs="1-b-0320" rendition="hi">,</pc>
@@ -379,7 +486,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="saint" ana="#n1" xml:id="A53060_00-01460" facs="1-b-0420">Saint</w>
           <c> </c>
-          <w lemma="Paul" ana="#n1g-nn" xml:id="A53060_00-01470" facs="1-b-0430" rendition="hi"><choice><orig>Pauls</orig><reg>Paul's</reg></choice></w>
+          <w lemma="Paul" ana="#n1g-nn" xml:id="A53060_00-01470" facs="1-b-0430" rendition="hi">
+            <choice>
+              <orig>Pauls</orig>
+              <reg>Paul's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="church" ana="#n1" xml:id="A53060_00-01480" facs="1-b-0440">Church</w>
           <c> </c>
@@ -469,7 +581,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="these" ana="#d" xml:id="A53060_00-01930" facs="2-b-0380">these</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-01940" facs="2-b-0390"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-01940" facs="2-b-0390">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="to" ana="#acp-cs" xml:id="A53060_00-01950" facs="2-b-0400">to</w>
           <c> </c>
@@ -487,7 +604,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-02020" facs="2-b-0470">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-02030" facs="2-b-0480"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-02030" facs="2-b-0480">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="a" ana="#av" xml:id="A53060_00-02040" facs="2-b-0490">a</w>
           <c> </c>
@@ -626,7 +748,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="I" ana="#pns" xml:id="A53060_00-02790" facs="3-b-0530">I</w>
           <c> </c>
-          <w lemma="die" ana="#vvb" xml:id="A53060_00-02800" facs="3-b-0540"><choice><orig>dye</orig><reg>die</reg></choice></w>
+          <w lemma="die" ana="#vvb" xml:id="A53060_00-02800" facs="3-b-0540">
+            <choice>
+              <orig>dye</orig>
+              <reg>die</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="before" ana="#acp-cs" xml:id="A53060_00-02810" facs="3-b-0550">before</w>
           <c> </c>
@@ -657,7 +784,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A53060_00-02950" facs="3-b-0690">of</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-02960" facs="3-b-0700"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-02960" facs="3-b-0700">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-02970" facs="3-b-0710">,</pc>
           <c> </c>
           <w lemma="I" ana="#pns" xml:id="A53060_00-02980" facs="3-b-0720">I</w>
@@ -697,7 +829,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="write" ana="#vvn" xml:id="A53060_00-03160" facs="3-b-0900">writ</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-03170" facs="3-b-0910"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-03170" facs="3-b-0910">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-03180" facs="3-b-0920">,</pc>
           <c> </c>
           <w lemma="have" ana="#vvd" xml:id="A53060_00-03190" facs="3-b-0930">had</w>
@@ -714,7 +851,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="some" ana="#d" xml:id="A53060_00-03250" facs="3-b-0990">some</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-03260" facs="3-b-1000"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-03260" facs="3-b-1000">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="which" ana="#crq-r" xml:id="A53060_00-03270" facs="3-b-1010">which</w>
           <c> </c>
@@ -729,7 +871,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-03330" facs="3-b-1070">and</w>
           <c> </c>
-          <w lemma="lie" ana="#vvi" xml:id="A53060_00-03340" facs="3-b-1080"><choice><orig>lye</orig><reg>lie</reg></choice></w>
+          <w lemma="lie" ana="#vvi" xml:id="A53060_00-03340" facs="3-b-1080">
+            <choice>
+              <orig>lye</orig>
+              <reg>lie</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="by" ana="#acp-p" xml:id="A53060_00-03350" facs="3-b-1090">by</w>
           <c> </c>
@@ -772,7 +919,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="write" ana="#vvi" xml:id="A53060_00-03550" facs="3-b-1290">write</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-03560" facs="3-b-1300"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-03560" facs="3-b-1300">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="also" ana="#av" xml:id="A53060_00-03570" facs="3-b-1310">also</w>
           <pc xml:id="A53060_00-03580" facs="3-b-1320">,</pc>
@@ -781,7 +933,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-03600" facs="3-b-1340">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-03610" facs="3-b-1350"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-03610" facs="3-b-1350">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-03620" facs="3-b-1360">are</w>
           <c> </c>
@@ -802,9 +959,19 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="your" ana="#po" xml:id="A53060_00-03710" facs="3-b-1450">your</w>
           <c> </c>
-          <w lemma="lordship" ana="#n1g" xml:id="A53060_00-03720" facs="3-b-1460"><choice><orig>Lordships</orig><reg>Lordship's</reg></choice></w>
+          <w lemma="lordship" ana="#n1g" xml:id="A53060_00-03720" facs="3-b-1460">
+            <choice>
+              <orig>Lordships</orig>
+              <reg>Lordship's</reg>
+            </choice>
+          </w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-03730" facs="3-b-1470"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-03730" facs="3-b-1470">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="have" ana="#vvb" xml:id="A53060_00-03740" facs="3-b-1480">have</w>
           <c> </c>
@@ -1005,7 +1172,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="a" ana="#d" xml:id="A53060_00-04780" facs="3-b-2520">a</w>
           <c> </c>
-          <w lemma="public" ana="#j" xml:id="A53060_00-04790" facs="3-b-2530"><choice><orig>publick</orig><reg>public</reg></choice></w>
+          <w lemma="public" ana="#j" xml:id="A53060_00-04790" facs="3-b-2530">
+            <choice>
+              <orig>publick</orig>
+              <reg>public</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="condemnation" ana="#n1" xml:id="A53060_00-04800" facs="3-b-2540">Condemnation</w>
           <pc xml:id="A53060_00-04810" facs="3-b-2550">;</pc>
@@ -1033,7 +1205,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="be" ana="#vvi" xml:id="A53060_00-04930" facs="3-b-2670">be</w>
           <c> </c>
-          <w lemma="afraid" ana="#j" xml:id="A53060_00-04940" facs="3-b-2680"><choice><orig>affraid</orig><reg>afraid</reg></choice></w>
+          <w lemma="afraid" ana="#j" xml:id="A53060_00-04940" facs="3-b-2680">
+            <choice>
+              <orig>affraid</orig>
+              <reg>afraid</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A53060_00-04950" facs="3-b-2690">of</w>
           <c> </c>
@@ -1086,7 +1263,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="innocent" ana="#j" xml:id="A53060_00-05200" facs="4-a-0200">innocent</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-05210" facs="4-a-0210"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-05210" facs="4-a-0210">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="go" ana="#n1" xml:id="A53060_00-05220" facs="4-a-0220">go</w>
           <c> </c>
@@ -1101,7 +1283,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-05280" facs="4-a-0280">and</w>
           <c> </c>
-          <w lemma="whip" ana="#vvn" xml:id="A53060_00-05290" facs="4-a-0290"><choice><orig>whipt</orig><reg>whipped</reg></choice></w>
+          <w lemma="whip" ana="#vvn" xml:id="A53060_00-05290" facs="4-a-0290">
+            <choice>
+              <orig>whipt</orig>
+              <reg>whipped</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="by" ana="#acp-p" xml:id="A53060_00-05300" facs="4-a-0300">by</w>
           <c> </c>
@@ -1155,7 +1342,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="your" ana="#po" xml:id="A53060_00-05570" facs="4-a-0570">your</w>
           <c> </c>
-          <w lemma="lordship" ana="#n1g" xml:id="A53060_00-05580" facs="4-a-0580"><choice><orig>Lordships</orig><reg>Lordship's</reg></choice></w>
+          <w lemma="lordship" ana="#n1g" xml:id="A53060_00-05580" facs="4-a-0580">
+            <choice>
+              <orig>Lordships</orig>
+              <reg>Lordship's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="approvement" ana="#n1" xml:id="A53060_00-05590" facs="4-a-0590">approvement</w>
           <c> </c>
@@ -1181,7 +1373,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <signed xml:id="A53060_00-e100360">
             <w lemma="your" ana="#po" xml:id="A53060_00-05740" facs="4-a-0690">Your</w>
             <c> </c>
-            <w lemma="lordship" ana="#n1g" xml:id="A53060_00-05750" facs="4-a-0700"><choice><orig>Lordships</orig><reg>Lordship's</reg></choice></w>
+            <w lemma="lordship" ana="#n1g" xml:id="A53060_00-05750" facs="4-a-0700">
+              <choice>
+                <orig>Lordships</orig>
+                <reg>Lordship's</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="honest" ana="#j" xml:id="A53060_00-05760" facs="4-a-0710">honest</w>
             <c> </c>
@@ -1190,7 +1387,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
             <c> </c>
             <w lemma="and" ana="#cc" xml:id="A53060_00-05790" facs="4-a-0740">and</w>
             <c> </c>
-            <w lemma="faithful" ana="#j" xml:id="A53060_00-05800" facs="4-a-0750"><choice><orig>faithfull</orig><reg>faithful</reg></choice></w>
+            <w lemma="faithful" ana="#j" xml:id="A53060_00-05800" facs="4-a-0750">
+              <choice>
+                <orig>faithfull</orig>
+                <reg>faithful</reg>
+              </choice>
+            </w>
             <c> </c>
             <w lemma="servant" ana="#n1" xml:id="A53060_00-05810" facs="4-a-0760">Servant</w>
             <pc xml:id="A53060_00-05820" facs="4-a-0770">,</pc>
@@ -1267,7 +1469,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A53060_00-06220" facs="4-b-0300">of</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-06230" facs="4-b-0310"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-06230" facs="4-b-0310">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-06240" facs="4-b-0320">;</pc>
           <c> </c>
           <w lemma="but" ana="#acp-cc" xml:id="A53060_00-06250" facs="4-b-0330">but</w>
@@ -1282,7 +1489,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="with" ana="#acp-p" xml:id="A53060_00-06300" facs="4-b-0380">with</w>
           <c> </c>
-          <w lemma="myself" part="I" ana="#px" xml:id="A53060_00-06310.1" facs="4-b-0390"><choice><orig>my self</orig><reg>myself</reg></choice></w>
+          <w lemma="myself" part="I" ana="#px" xml:id="A53060_00-06310.1" facs="4-b-0390">
+            <choice>
+              <orig>my self</orig>
+              <reg>myself</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-06320" facs="4-b-0400">,</pc>
           <c> </c>
           <w lemma="there" ana="#acp-av" xml:id="A53060_00-06330" facs="4-b-0410">there</w>
@@ -1504,7 +1716,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="will" ana="#vmb" xml:id="A53060_00-07470" facs="4-b-1550">will</w>
           <c> </c>
-          <w lemma="employ" ana="#vvi" xml:id="A53060_00-07480" facs="4-b-1560"><choice><orig>imploy</orig><reg>employ</reg></choice></w>
+          <w lemma="employ" ana="#vvi" xml:id="A53060_00-07480" facs="4-b-1560">
+            <choice>
+              <orig>imploy</orig>
+              <reg>employ</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-07490" facs="4-b-1570">my</w>
           <c> </c>
@@ -1537,7 +1754,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="I" ana="#pns" xml:id="A53060_00-07640" facs="4-b-1720">I</w>
           <c> </c>
-          <w lemma="endeavour" ana="#vvb" xml:id="A53060_00-07650" facs="4-b-1730"><choice><orig>indeavour</orig><reg>endeavour</reg></choice></w>
+          <w lemma="endeavour" ana="#vvb" xml:id="A53060_00-07650" facs="4-b-1730">
+            <choice>
+              <orig>indeavour</orig>
+              <reg>endeavour</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="it" ana="#pn" xml:id="A53060_00-07660" facs="4-b-1740">it</w>
           <pc xml:id="A53060_00-07670" unit="sentence" facs="4-b-1750">.</pc>
@@ -1584,7 +1806,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-07940" facs="5-a-0140">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-07950" facs="5-a-0150"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-07950" facs="5-a-0150">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="in" ana="#acp-p" xml:id="A53060_00-07960" facs="5-a-0160">in</w>
           <c> </c>
@@ -1669,7 +1896,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A53060_00-08410" facs="5-a-0610">of</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-08420" facs="5-a-0620"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-08420" facs="5-a-0620">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-08430" facs="5-a-0630">;</pc>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-08440" facs="5-a-0640">and</w>
@@ -1981,7 +2213,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-10070" facs="5-a-2270">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-10080" facs="5-a-2280"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-10080" facs="5-a-2280">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="will" ana="#vmd" xml:id="A53060_00-10090" facs="5-a-2290">would</w>
           <c> </c>
@@ -2146,7 +2383,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="a" ana="#d" xml:id="A53060_00-10950" facs="5-a-3150">an</w>
           <c> </c>
-          <w lemma="assront" ana="#n1" xml:id="A53060_00-10960" facs="5-a-3160"><choice><orig>affront</orig><reg>assront</reg></choice></w>
+          <w lemma="assront" ana="#n1" xml:id="A53060_00-10960" facs="5-a-3160">
+            <choice>
+              <orig>affront</orig>
+              <reg>assront</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-10970" facs="5-a-3170">,</pc>
           <c> </c>
           <w lemma="both" ana="#av_d" xml:id="A53060_00-10980" facs="5-a-3180">both</w>
@@ -2177,7 +2419,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-11120" facs="5-a-3320">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-11130" facs="5-a-3330"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-11130" facs="5-a-3330">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-11140" facs="5-a-3340">are</w>
           <c> </c>
@@ -2197,7 +2444,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-11230" facs="5-a-3430">or</w>
           <c> </c>
-          <w lemma="alchemist" ana="#n1" xml:id="A53060_00-11240" facs="5-a-3440"><choice><orig>Alchymist</orig><reg>Alchemist</reg></choice></w>
+          <w lemma="alchemist" ana="#n1" xml:id="A53060_00-11240" facs="5-a-3440">
+            <choice>
+              <orig>Alchymist</orig>
+              <reg>Alchemist</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-11250" facs="5-a-3450">,</pc>
           <c> </c>
           <w lemma="which" ana="#crq-r" xml:id="A53060_00-11260" facs="5-a-3460">which</w>
@@ -2233,7 +2485,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-11430" facs="5-a-3630">the</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-11440" facs="5-a-3640"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-11440" facs="5-a-3640">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="can" ana="#vmb" xml:id="A53060_00-11450" facs="5-a-3650">can</w>
           <c> </c>
@@ -2299,7 +2556,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-11780" facs="5-a-3980">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-11790" facs="5-a-3990"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-11790" facs="5-a-3990">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-11800" facs="5-a-4000">are</w>
           <c> </c>
@@ -2318,7 +2580,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-11880" facs="5-a-4080">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-11890" facs="5-a-4090"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-11890" facs="5-a-4090">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="spoil" ana="#vvz" xml:id="A53060_00-11900" facs="5-a-4100">spoils</w>
           <c> </c>
@@ -2368,7 +2635,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A53060_00-12150" facs="5-a-4350">of</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-12160" facs="5-a-4360"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-12160" facs="5-a-4360">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-12170" facs="5-a-4370">,</pc>
           <c> </c>
           <w lemma="most" ana="#av-s_d" xml:id="A53060_00-12180" facs="5-a-4380">most</w>
@@ -2406,7 +2678,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-12370" facs="5-a-4570">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-12380" facs="5-a-4580"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-12380" facs="5-a-4580">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="will" ana="#vmd" xml:id="A53060_00-12390" facs="5-a-4590">would</w>
           <c> </c>
@@ -2550,7 +2827,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-13180" facs="5-b-0110">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-13190" facs="5-b-0120"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-13190" facs="5-b-0120">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="will" ana="#vmb" xml:id="A53060_00-13200" facs="5-b-0130">will</w>
           <c> </c>
@@ -2598,7 +2880,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="a" ana="#d" xml:id="A53060_00-13430" facs="5-b-0360">a</w>
           <c> </c>
-          <w lemma="triangular" ana="#j" xml:id="A53060_00-13440" facs="5-b-0370"><choice><orig>Trianglar</orig><reg>Triangular</reg></choice></w>
+          <w lemma="triangular" ana="#j" xml:id="A53060_00-13440" facs="5-b-0370">
+            <choice>
+              <orig>Trianglar</orig>
+              <reg>Triangular</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="point" ana="#n1" xml:id="A53060_00-13450" facs="5-b-0380">point</w>
           <pc xml:id="A53060_00-13460" facs="5-b-0390">,</pc>
@@ -2659,7 +2946,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="one" ana="#crd" xml:id="A53060_00-13750" facs="5-b-0680">one</w>
           <c> </c>
-          <w lemma="day" ana="#n1g" xml:id="A53060_00-13760" facs="5-b-0690"><choice><orig>dayes</orig><reg>day's</reg></choice></w>
+          <w lemma="day" ana="#n1g" xml:id="A53060_00-13760" facs="5-b-0690">
+            <choice>
+              <orig>dayes</orig>
+              <reg>day's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="action" ana="#n2" xml:id="A53060_00-13770" facs="5-b-0700">actions</w>
           <c> </c>
@@ -2699,7 +2991,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-13960" facs="5-b-0890">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-13970" facs="5-b-0900"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-13970" facs="5-b-0900">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="behalf" ana="#n1" xml:id="A53060_00-13980" facs="5-b-0910">behalf</w>
           <pc xml:id="A53060_00-13990" facs="5-b-0920">,</pc>
@@ -2788,7 +3085,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-14430" facs="5-b-1360">or</w>
           <c> </c>
-          <w lemma="link" ana="#vvn" xml:id="A53060_00-14440" facs="5-b-1370"><choice><orig>linck'd</orig><reg>linked</reg></choice></w>
+          <w lemma="link" ana="#vvn" xml:id="A53060_00-14440" facs="5-b-1370">
+            <choice>
+              <orig>linck'd</orig>
+              <reg>linked</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="in" ana="#acp-p" xml:id="A53060_00-14450" facs="5-b-1380">in</w>
           <c> </c>
@@ -2801,9 +3103,19 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="family" ana="#n1" xml:id="A53060_00-14490" facs="5-b-1420">Family</w>
           <pc xml:id="A53060_00-14500" facs="5-b-1430">;</pc>
           <c> </c>
-          <w lemma="whenas" ana="#cs" xml:id="A53060_00-14510.1" part="I" facs="5-b-1440"><choice><orig>when as</orig><reg>whenas</reg></choice></w>
+          <w lemma="whenas" ana="#cs" xml:id="A53060_00-14510.1" part="I" facs="5-b-1440">
+            <choice>
+              <orig>when as</orig>
+              <reg>whenas</reg>
+            </choice>
+          </w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-14530" facs="5-b-1450"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-14530" facs="5-b-1450">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-14540" facs="5-b-1460">are</w>
           <c> </c>
@@ -2847,7 +3159,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-14790" facs="5-b-1710">and</w>
           <c> </c>
-          <w lemma="practice" ana="#n2" xml:id="A53060_00-14800" facs="5-b-1720"><choice><orig>practices</orig><reg>practises</reg></choice></w>
+          <w lemma="practice" ana="#n2" xml:id="A53060_00-14800" facs="5-b-1720">
+            <choice>
+              <orig>practices</orig>
+              <reg>practises</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A53060_00-14810" facs="5-b-1730">of</w>
           <c> </c>
@@ -3033,7 +3350,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="opinion" ana="#n1" xml:id="A53060_00-15830" facs="5-b-2750">opinion</w>
           <c> </c>
-          <w lemma="show" ana="#vvz" xml:id="A53060_00-15840" facs="5-b-2760"><choice><orig>shews</orig><reg>shows</reg></choice></w>
+          <w lemma="show" ana="#vvz" xml:id="A53060_00-15840" facs="5-b-2760">
+            <choice>
+              <orig>shews</orig>
+              <reg>shows</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="neither" ana="#d-x" xml:id="A53060_00-15850" facs="5-b-2770">neither</w>
           <c> </c>
@@ -3091,7 +3413,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-16150" facs="5-b-3070">and</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-16160" facs="5-b-3080"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-16160" facs="5-b-3080">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-16170" facs="5-b-3090">are</w>
           <c> </c>
@@ -3297,7 +3624,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-17260" facs="5-b-4180">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-17270" facs="5-b-4190"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-17270" facs="5-b-4190">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="to" ana="#acp-cs" xml:id="A53060_00-17280" facs="5-b-4200">to</w>
           <c> </c>
@@ -3328,7 +3660,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="some" ana="#d" xml:id="A53060_00-17420" facs="5-b-4340">some</w>
           <c> </c>
-          <w lemma="die" ana="#vvb" xml:id="A53060_00-17430" facs="5-b-4350"><choice><orig>dye</orig><reg>die</reg></choice></w>
+          <w lemma="die" ana="#vvb" xml:id="A53060_00-17430" facs="5-b-4350">
+            <choice>
+              <orig>dye</orig>
+              <reg>die</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="soon" ana="#av-c" xml:id="A53060_00-17440" facs="5-b-4360">sooner</w>
           <pc xml:id="A53060_00-17450" facs="5-b-4370">,</pc>
@@ -3382,7 +3719,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A53060_00-17710" facs="5-b-4630">of</w>
           <c> </c>
-          <w lemma="judgement" ana="#n1" xml:id="A53060_00-17720" facs="5-b-4640"><choice><orig>Iudgment</orig><reg>judgement</reg></choice></w>
+          <w lemma="judgement" ana="#n1" xml:id="A53060_00-17720" facs="5-b-4640">
+            <choice>
+              <orig>Iudgment</orig>
+              <reg>judgement</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-17730" facs="5-b-4650">;</pc>
           <c> </c>
           <w lemma="so" ana="#av" xml:id="A53060_00-17740" facs="5-b-4660">so</w>
@@ -3482,7 +3824,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-18240" facs="5-b-5160">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-18250" facs="5-b-5170"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-18250" facs="5-b-5170">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="will" ana="#vmb" xml:id="A53060_00-18260" facs="5-b-5180">will</w>
           <c> </c>
@@ -3494,7 +3841,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="other" ana="#pi_d" xml:id="A53060_00-18300" facs="5-b-5220">other</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-18310" facs="5-b-5230"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-18310" facs="5-b-5230">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="do" ana="#vvb" xml:id="A53060_00-18320" facs="5-b-5240">do</w>
           <pc xml:id="A53060_00-18330" facs="5-b-5250">,</pc>
@@ -3520,13 +3872,23 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="not" ana="#xx" xml:id="A53060_00-18440" facs="5-b-5360">not</w>
           <c> </c>
-          <w lemma="always" ana="#av" xml:id="A53060_00-18450" facs="5-b-5370"><choice><orig>alwayes</orig><reg>always</reg></choice></w>
+          <w lemma="always" ana="#av" xml:id="A53060_00-18450" facs="5-b-5370">
+            <choice>
+              <orig>alwayes</orig>
+              <reg>always</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="make" ana="#vvi" xml:id="A53060_00-18460" facs="5-b-5380">make</w>
           <c> </c>
           <w lemma="all" ana="#d" xml:id="A53060_00-18470" facs="5-b-5390">all</w>
           <c> </c>
-          <w lemma="lie" ana="#n1" xml:id="A53060_00-18480" facs="5-b-5400"><choice><orig>lye</orig><reg>lie</reg></choice></w>
+          <w lemma="lie" ana="#n1" xml:id="A53060_00-18480" facs="5-b-5400">
+            <choice>
+              <orig>lye</orig>
+              <reg>lie</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="bleed" ana="#vvg" xml:id="A53060_00-18490" facs="5-b-5410">bleeding</w>
           <c> </c>
@@ -3583,7 +3945,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-18770" facs="5-b-5690">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-18780" facs="5-b-5700"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-18780" facs="5-b-5700">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="seem" ana="#vvi" xml:id="A53060_00-18790" facs="5-b-5710">seem</w>
           <c> </c>
@@ -3653,7 +4020,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="active" ana="#j" xml:id="A53060_00-19140" facs="5-b-6060">active</w>
           <c> </c>
-          <w lemma="gaiety" ana="#n2" xml:id="A53060_00-19150" facs="5-b-6070"><choice><orig>gayeties</orig><reg>gaieties</reg></choice></w>
+          <w lemma="gaiety" ana="#n2" xml:id="A53060_00-19150" facs="5-b-6070">
+            <choice>
+              <orig>gayeties</orig>
+              <reg>gaieties</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-19160" facs="5-b-6080">,</pc>
           <c> </c>
           <w lemma="so" ana="#av" xml:id="A53060_00-19170" facs="5-b-6090">so</w>
@@ -3666,7 +4038,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-19210" facs="5-b-6130">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-19220" facs="5-b-6140"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-19220" facs="5-b-6140">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="shall" ana="#vmd" xml:id="A53060_00-19230" facs="5-b-6150">should</w>
           <c> </c>
@@ -3697,7 +4074,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-19370" facs="5-b-6290">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-19380" facs="5-b-6300"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-19380" facs="5-b-6300">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-19390" facs="5-b-6310">are</w>
           <c> </c>
@@ -3711,7 +4093,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-19440" facs="5-b-6360">or</w>
           <c> </c>
-          <w lemma="bundle" ana="#n1" xml:id="A53060_00-19450" facs="5-b-6370"><choice><orig>bundel</orig><reg>bundle</reg></choice></w>
+          <w lemma="bundle" ana="#n1" xml:id="A53060_00-19450" facs="5-b-6370">
+            <choice>
+              <orig>bundel</orig>
+              <reg>bundle</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="in" ana="#acp-p" xml:id="A53060_00-19460" facs="5-b-6380">in</w>
           <c> </c>
@@ -3726,7 +4113,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-19520" facs="5-b-6440">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-19530" facs="5-b-6450"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-19530" facs="5-b-6450">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pb facs="6"/>
           <c> </c>
           <w lemma="may" ana="#vmb" xml:id="A53060_00-19540" facs="6-a-0010">may</w>
@@ -3746,9 +4138,19 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-19620" facs="6-a-0090">the</w>
           <c> </c>
-          <w lemma="ancient" ana="#j" xml:id="A53060_00-19630" facs="6-a-0100"><choice><orig>Antient</orig><reg>Ancient</reg></choice></w>
+          <w lemma="ancient" ana="#j" xml:id="A53060_00-19630" facs="6-a-0100">
+            <choice>
+              <orig>Antient</orig>
+              <reg>Ancient</reg>
+            </choice>
+          </w>
           <c> </c>
-          <w lemma="custom" ana="#n1" xml:id="A53060_00-19640" facs="6-a-0110"><choice><orig>Custome</orig><reg>Custom</reg></choice></w>
+          <w lemma="custom" ana="#n1" xml:id="A53060_00-19640" facs="6-a-0110">
+            <choice>
+              <orig>Custome</orig>
+              <reg>Custom</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-19650" facs="6-a-0120">,</pc>
           <c> </c>
           <w lemma="as" ana="#acp-cs" xml:id="A53060_00-19660" facs="6-a-0130">as</w>
@@ -3757,7 +4159,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="learned" ana="#j" xml:id="A53060_00-19680" facs="6-a-0150">learned</w>
           <c> </c>
-          <w lemma="say" ana="#vvz" xml:id="A53060_00-19690" facs="6-a-0160"><choice><orig>sayes</orig><reg>says</reg></choice></w>
+          <w lemma="say" ana="#vvz" xml:id="A53060_00-19690" facs="6-a-0160">
+            <choice>
+              <orig>sayes</orig>
+              <reg>says</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-19700" facs="6-a-0170">,</pc>
           <c> </c>
           <w lemma="which" ana="#crq-r" xml:id="A53060_00-19710" facs="6-a-0180">which</w>
@@ -3812,7 +4219,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="usual" ana="#av_j" xml:id="A53060_00-19980" facs="6-a-0450">usually</w>
           <c> </c>
-          <w lemma="practise" ana="#vvd" xml:id="A53060_00-19990" facs="6-a-0460"><choice><orig>practiced</orig><reg>practised</reg></choice></w>
+          <w lemma="practise" ana="#vvd" xml:id="A53060_00-19990" facs="6-a-0460">
+            <choice>
+              <orig>practiced</orig>
+              <reg>practised</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-20000" facs="6-a-0470">or</w>
           <c> </c>
@@ -3960,7 +4372,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="one" ana="#crd" xml:id="A53060_00-20760" facs="6-a-1230">one</w>
           <c> </c>
-          <w lemma="day" ana="#n1g" xml:id="A53060_00-20770" facs="6-a-1240"><choice><orig>dayes</orig><reg>day's</reg></choice></w>
+          <w lemma="day" ana="#n1g" xml:id="A53060_00-20770" facs="6-a-1240">
+            <choice>
+              <orig>dayes</orig>
+              <reg>day's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="action" ana="#n1" xml:id="A53060_00-20780" facs="6-a-1250">action</w>
           <pc xml:id="A53060_00-20790" facs="6-a-1260">,</pc>
@@ -4054,7 +4471,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-21250" facs="6-a-1720">the</w>
           <c> </c>
-          <w lemma="alchemist" ana="#n1" xml:id="A53060_00-21260" facs="6-a-1730"><choice><orig>Alchymist</orig><reg>Alchemist</reg></choice></w>
+          <w lemma="alchemist" ana="#n1" xml:id="A53060_00-21260" facs="6-a-1730">
+            <choice>
+              <orig>Alchymist</orig>
+              <reg>Alchemist</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="can" ana="#vmd" xml:id="A53060_00-21270" facs="6-a-1740">could</w>
           <c> </c>
@@ -4115,7 +4537,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-21570" facs="6-a-2040">the</w>
           <c> </c>
-          <w lemma="alchemist" ana="#n1" xml:id="A53060_00-21580" facs="6-a-2050"><choice><orig>Alchymist</orig><reg>Alchemist</reg></choice></w>
+          <w lemma="alchemist" ana="#n1" xml:id="A53060_00-21580" facs="6-a-2050">
+            <choice>
+              <orig>Alchymist</orig>
+              <reg>Alchemist</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="make" ana="#vvb" xml:id="A53060_00-21590" facs="6-a-2060">make</w>
           <c> </c>
@@ -4200,7 +4627,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="his" ana="#po" xml:id="A53060_00-22020" facs="6-a-2490">his</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-22030" facs="6-a-2500"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-22030" facs="6-a-2500">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-22040" facs="6-a-2510">,</pc>
           <c> </c>
           <w lemma="not" ana="#xx" xml:id="A53060_00-22050" facs="6-a-2520">not</w>
@@ -4247,7 +4679,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="many" ana="#d" xml:id="A53060_00-22270" facs="6-a-2740">many</w>
           <c> </c>
-          <w lemma="day" ana="#n2" xml:id="A53060_00-22280" facs="6-a-2750"><choice><orig>dayes</orig><reg>days</reg></choice></w>
+          <w lemma="day" ana="#n2" xml:id="A53060_00-22280" facs="6-a-2750">
+            <choice>
+              <orig>dayes</orig>
+              <reg>days</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-22290" facs="6-a-2760">,</pc>
           <c> </c>
           <w lemma="nay" ana="#uh-x" xml:id="A53060_00-22300" facs="6-a-2770">nay</w>
@@ -4296,7 +4733,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="close" ana="#av_j" xml:id="A53060_00-22530" facs="6-a-3000">closely</w>
           <c> </c>
-          <w lemma="pack" ana="#vvn" xml:id="A53060_00-22540" facs="6-a-3010"><choice><orig>packt</orig><reg>packed</reg></choice></w>
+          <w lemma="pack" ana="#vvn" xml:id="A53060_00-22540" facs="6-a-3010">
+            <choice>
+              <orig>packt</orig>
+              <reg>packed</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-22550" facs="6-a-3020">or</w>
           <c> </c>
@@ -4462,7 +4904,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-23430" facs="6-a-3900">the</w>
           <c> </c>
-          <w lemma="Taste" ana="#n1" xml:id="A53060_00-23440" facs="6-a-3910"><choice><orig>Tast</orig><reg>Taste</reg></choice></w>
+          <w lemma="Taste" ana="#n1" xml:id="A53060_00-23440" facs="6-a-3910">
+            <choice>
+              <orig>Tast</orig>
+              <reg>Taste</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-23450" facs="6-a-3920">,</pc>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-23460" facs="6-a-3930">and</w>
@@ -4531,7 +4978,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="both" ana="#d" xml:id="A53060_00-23820" facs="6-a-4290">both</w>
           <c> </c>
-          <w lemma="delightful" ana="#j" xml:id="A53060_00-23830" facs="6-a-4300"><choice><orig>delightfull</orig><reg>delightful</reg></choice></w>
+          <w lemma="delightful" ana="#j" xml:id="A53060_00-23830" facs="6-a-4300">
+            <choice>
+              <orig>delightfull</orig>
+              <reg>delightful</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="to" ana="#acp-p" xml:id="A53060_00-23840" facs="6-a-4310">to</w>
           <c> </c>
@@ -4632,7 +5084,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="several" ana="#j" xml:id="A53060_00-24360" facs="6-a-4830">several</w>
           <c> </c>
-          <w lemma="drug" ana="#n2" xml:id="A53060_00-24370" facs="6-a-4840"><choice><orig>Druggs</orig><reg>Drugs</reg></choice></w>
+          <w lemma="drug" ana="#n2" xml:id="A53060_00-24370" facs="6-a-4840">
+            <choice>
+              <orig>Druggs</orig>
+              <reg>Drugs</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-24380" facs="6-a-4850">and</w>
           <c> </c>
@@ -4836,7 +5293,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="in" ana="#acp-p" xml:id="A53060_00-25480" facs="6-a-5950">in</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-25490" facs="6-a-5960"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-25490" facs="6-a-5960">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-25500" facs="6-a-5970">the</w>
           <c> </c>
@@ -4890,7 +5352,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="thus" ana="#av" xml:id="A53060_00-25790" facs="6-a-6260">thus</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-25800" facs="6-a-6270"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-25800" facs="6-a-6270">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-25810" facs="6-a-6280">are</w>
           <c> </c>
@@ -4906,7 +5373,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-25870" facs="6-a-6340">and</w>
           <c> </c>
-          <w lemma="practice" ana="#n2" xml:id="A53060_00-25880" facs="6-a-6350"><choice><orig>practices</orig><reg>practises</reg></choice></w>
+          <w lemma="practice" ana="#n2" xml:id="A53060_00-25880" facs="6-a-6350">
+            <choice>
+              <orig>practices</orig>
+              <reg>practises</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A53060_00-25890" facs="6-a-6360">of</w>
           <c> </c>
@@ -5019,7 +5491,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="life" ana="#n1" xml:id="A53060_00-26480" facs="6-a-6950">Life</w>
           <pc xml:id="A53060_00-26490" facs="6-a-6960">,</pc>
           <c> </c>
-          <w lemma="delightful" ana="#j" xml:id="A53060_00-26500" facs="6-a-6970"><choice><orig>delightfull</orig><reg>delightful</reg></choice></w>
+          <w lemma="delightful" ana="#j" xml:id="A53060_00-26500" facs="6-a-6970">
+            <choice>
+              <orig>delightfull</orig>
+              <reg>delightful</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="to" ana="#acp-p" xml:id="A53060_00-26510" facs="6-a-6980">to</w>
           <c> </c>
@@ -5135,7 +5612,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="some" ana="#d" xml:id="A53060_00-27110" facs="6-a-7580">some</w>
           <c> </c>
-          <w lemma="way" ana="#n2" xml:id="A53060_00-27120" facs="6-a-7590"><choice><orig>wayes</orig><reg>ways</reg></choice></w>
+          <w lemma="way" ana="#n2" xml:id="A53060_00-27120" facs="6-a-7590">
+            <choice>
+              <orig>wayes</orig>
+              <reg>ways</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-27130" facs="6-a-7600">or</w>
           <c> </c>
@@ -5217,7 +5699,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="can" ana="#vmb-x" xml:id="A53060_00-27600" facs="6-b-0090">Cannot</w>
           <c> </c>
-          <w lemma="choose" ana="#vvi" xml:id="A53060_00-27610" facs="6-b-0100"><choice><orig>chuse</orig><reg>choose</reg></choice></w>
+          <w lemma="choose" ana="#vvi" xml:id="A53060_00-27610" facs="6-b-0100">
+            <choice>
+              <orig>chuse</orig>
+              <reg>choose</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="but" ana="#acp-p" xml:id="A53060_00-27620" facs="6-b-0110">but</w>
           <c> </c>
@@ -5225,7 +5712,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="a" ana="#d" xml:id="A53060_00-27640" facs="6-b-0130">an</w>
           <c> </c>
-          <w lemma="erroneous" ana="#j" xml:id="A53060_00-27650" facs="6-b-0140"><choice><orig>erronious</orig><reg>erroneous</reg></choice></w>
+          <w lemma="erroneous" ana="#j" xml:id="A53060_00-27650" facs="6-b-0140">
+            <choice>
+              <orig>erronious</orig>
+              <reg>erroneous</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="opinion" ana="#n1" xml:id="A53060_00-27660" facs="6-b-0150">opinion</w>
           <c> </c>
@@ -5281,14 +5773,24 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="act" ana="#n1" xml:id="A53060_00-27930" facs="6-b-0420">Act</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-27940" facs="6-b-0430"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-27940" facs="6-b-0430">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-27950" facs="6-b-0440">,</pc>
           <c> </c>
           <w lemma="especial" ana="#av_j" xml:id="A53060_00-27960" facs="6-b-0450">especially</w>
           <c> </c>
           <w lemma="on" ana="#acp-p" xml:id="A53060_00-27970" facs="6-b-0460">on</w>
           <c> </c>
-          <w lemma="public" ana="#j" xml:id="A53060_00-27980" facs="6-b-0470"><choice><orig>publick</orig><reg>public</reg></choice></w>
+          <w lemma="public" ana="#j" xml:id="A53060_00-27980" facs="6-b-0470">
+            <choice>
+              <orig>publick</orig>
+              <reg>public</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="theatre" ana="#n2" xml:id="A53060_00-27990" facs="6-b-0480">Theatres</w>
           <pc xml:id="A53060_00-28000" facs="6-b-0490">,</pc>
@@ -5326,7 +5828,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="in" ana="#acp-p" xml:id="A53060_00-28170" facs="6-b-0660">in</w>
           <c> </c>
-          <w lemma="public" ana="#j" xml:id="A53060_00-28180" facs="6-b-0670"><choice><orig>publick</orig><reg>public</reg></choice></w>
+          <w lemma="public" ana="#j" xml:id="A53060_00-28180" facs="6-b-0670">
+            <choice>
+              <orig>publick</orig>
+              <reg>public</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-28190" facs="6-b-0680">,</pc>
           <c> </c>
           <w lemma="but" ana="#acp-cc" xml:id="A53060_00-28200" facs="6-b-0690">but</w>
@@ -5337,7 +5844,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-28230" facs="6-b-0720">the</w>
           <c> </c>
-          <w lemma="emperor" ana="#n2" xml:id="A53060_00-28240" facs="6-b-0730"><choice><orig>Emperours</orig><reg>Emperors</reg></choice></w>
+          <w lemma="emperor" ana="#n2" xml:id="A53060_00-28240" facs="6-b-0730">
+            <choice>
+              <orig>Emperours</orig>
+              <reg>Emperors</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="themselves" ana="#px" xml:id="A53060_00-28250" facs="6-b-0740">themselves</w>
           <pc xml:id="A53060_00-28260" facs="6-b-0750">;</pc>
@@ -5358,7 +5870,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-28340" facs="6-b-0830">the</w>
           <c> </c>
-          <w lemma="emperor" ana="#n2" xml:id="A53060_00-28350" facs="6-b-0840"><choice><orig>Emperours</orig><reg>Emperors</reg></choice></w>
+          <w lemma="emperor" ana="#n2" xml:id="A53060_00-28350" facs="6-b-0840">
+            <choice>
+              <orig>Emperours</orig>
+              <reg>Emperors</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-28360" facs="6-b-0850">,</pc>
           <c> </c>
           <w lemma="who" ana="#crq-r" xml:id="A53060_00-28370" facs="6-b-0860">who</w>
@@ -5408,7 +5925,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="do" ana="#vvd" xml:id="A53060_00-28610" facs="6-b-1100">did</w>
           <c> </c>
-          <w lemma="practice" ana="#vvi" xml:id="A53060_00-28620" facs="6-b-1110"><choice><orig>practice</orig><reg>practise</reg></choice></w>
+          <w lemma="practice" ana="#vvi" xml:id="A53060_00-28620" facs="6-b-1110">
+            <choice>
+              <orig>practice</orig>
+              <reg>practise</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="what" ana="#crq-r" xml:id="A53060_00-28630" facs="6-b-1120">what</w>
           <c> </c>
@@ -5422,7 +5944,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-28680" facs="6-b-1170">or</w>
           <c> </c>
-          <w lemma="skin" ana="#vvn" xml:id="A53060_00-28690" facs="6-b-1180"><choice><orig>skinn'd</orig><reg>skinned</reg></choice></w>
+          <w lemma="skin" ana="#vvn" xml:id="A53060_00-28690" facs="6-b-1180">
+            <choice>
+              <orig>skinn'd</orig>
+              <reg>skinned</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-28700" facs="6-b-1190">:</pc>
           <c> </c>
           <w lemma="for" ana="#acp-p" xml:id="A53060_00-28710" facs="6-b-1200">for</w>
@@ -5438,7 +5965,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="place" ana="#n1" xml:id="A53060_00-28760" facs="6-b-1250">place</w>
           <pc xml:id="A53060_00-28770" facs="6-b-1260">,</pc>
           <c> </c>
-          <w lemma="way" ana="#n2" xml:id="A53060_00-28780" facs="6-b-1270"><choice><orig>wayes</orig><reg>ways</reg></choice></w>
+          <w lemma="way" ana="#n2" xml:id="A53060_00-28780" facs="6-b-1270">
+            <choice>
+              <orig>wayes</orig>
+              <reg>ways</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-28790" facs="6-b-1280">or</w>
           <c> </c>
@@ -5455,7 +5987,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="as" ana="#acp-cs" xml:id="A53060_00-28860" facs="6-b-1350">as</w>
           <c> </c>
-          <w lemma="public" ana="#j" xml:id="A53060_00-28870" facs="6-b-1360"><choice><orig>publick</orig><reg>public</reg></choice></w>
+          <w lemma="public" ana="#j" xml:id="A53060_00-28870" facs="6-b-1360">
+            <choice>
+              <orig>publick</orig>
+              <reg>public</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="theatre" ana="#n2" xml:id="A53060_00-28880" facs="6-b-1370">Theatres</w>
           <pc xml:id="A53060_00-28890" facs="6-b-1380">,</pc>
@@ -5483,13 +6020,23 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="they" ana="#pno" xml:id="A53060_00-29010" facs="6-b-1500">them</w>
           <c> </c>
-          <w lemma="graceful" ana="#j" xml:id="A53060_00-29020" facs="6-b-1510"><choice><orig>gracefull</orig><reg>graceful</reg></choice></w>
+          <w lemma="graceful" ana="#j" xml:id="A53060_00-29020" facs="6-b-1510">
+            <choice>
+              <orig>gracefull</orig>
+              <reg>graceful</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="behaviour" ana="#n2" xml:id="A53060_00-29030" facs="6-b-1520">behaviours</w>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-29040" facs="6-b-1530">and</w>
           <c> </c>
-          <w lemma="demeanour" ana="#n2" xml:id="A53060_00-29050" facs="6-b-1540"><choice><orig>demeanors</orig><reg>demeanours</reg></choice></w>
+          <w lemma="demeanour" ana="#n2" xml:id="A53060_00-29050" facs="6-b-1540">
+            <choice>
+              <orig>demeanors</orig>
+              <reg>demeanours</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-29060" facs="6-b-1550">,</pc>
           <c> </c>
           <w lemma="it" ana="#pn" xml:id="A53060_00-29070" facs="6-b-1560">it</w>
@@ -5849,7 +6396,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="as" ana="#acp-p" xml:id="A53060_00-30990" facs="6-b-3480">as</w>
           <c> </c>
-          <w lemma="purchaser" ana="#n2" xml:id="A53060_00-31000" facs="6-b-3490"><choice><orig>purchasors</orig><reg>purchasers</reg></choice></w>
+          <w lemma="purchaser" ana="#n2" xml:id="A53060_00-31000" facs="6-b-3490">
+            <choice>
+              <orig>purchasors</orig>
+              <reg>purchasers</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="to" ana="#acp-p" xml:id="A53060_00-31010" facs="6-b-3500">to</w>
           <c> </c>
@@ -5995,7 +6547,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="from" ana="#acp-p" xml:id="A53060_00-31770" facs="6-b-4260">from</w>
           <c> </c>
-          <w lemma="misemploy" ana="#vvg" xml:id="A53060_00-31780" facs="6-b-4270"><choice><orig>misimploying</orig><reg>misemploying</reg></choice></w>
+          <w lemma="misemploy" ana="#vvg" xml:id="A53060_00-31780" facs="6-b-4270">
+            <choice>
+              <orig>misimploying</orig>
+              <reg>misemploying</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="time" ana="#n1" xml:id="A53060_00-31790" facs="6-b-4280">time</w>
           <c> </c>
@@ -6046,7 +6603,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="a" ana="#d" xml:id="A53060_00-32050" facs="6-b-4540">a</w>
           <c> </c>
-          <w lemma="public" ana="#j" xml:id="A53060_00-32060" facs="6-b-4550"><choice><orig>publick</orig><reg>public</reg></choice></w>
+          <w lemma="public" ana="#j" xml:id="A53060_00-32060" facs="6-b-4550">
+            <choice>
+              <orig>publick</orig>
+              <reg>public</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="theatre" ana="#n1" xml:id="A53060_00-32070" facs="6-b-4560">Theatre</w>
           <c> </c>
@@ -6149,7 +6711,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="their" ana="#po" xml:id="A53060_00-32590" facs="6-b-5080">their</w>
           <c> </c>
-          <w lemma="split" part="I" ana="#n2" xml:id="A53060_00-32600.1" facs="6-b-5090"><choice><orig>own selves</orig><reg>splits</reg></choice></w>
+          <w lemma="split" part="I" ana="#n2" xml:id="A53060_00-32600.1" facs="6-b-5090">
+            <choice>
+              <orig>own selves</orig>
+              <reg>splits</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-32610" facs="6-b-5100">,</pc>
           <c> </c>
           <w lemma="than" ana="#cs" xml:id="A53060_00-32620" facs="6-b-5110">than</w>
@@ -6177,7 +6744,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-32740" facs="6-b-5230">or</w>
           <c> </c>
-          <w lemma="kingdom" ana="#n1" xml:id="A53060_00-32750" facs="6-b-5240"><choice><orig>Kingdome</orig><reg>Kingdom</reg></choice></w>
+          <w lemma="kingdom" ana="#n1" xml:id="A53060_00-32750" facs="6-b-5240">
+            <choice>
+              <orig>Kingdome</orig>
+              <reg>Kingdom</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="in" ana="#acp-p" xml:id="A53060_00-32760" facs="6-b-5250">in</w>
           <c> </c>
@@ -6403,7 +6975,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-33990" facs="7-a-0780">are</w>
           <c> </c>
-          <w lemma="she|be" ana="#pns|vvz" xml:id="A53060_00-34000" facs="7-a-0790"><choice><orig>shees</orig><reg>she's</reg></choice></w>
+          <w lemma="she|be" ana="#pns|vvz" xml:id="A53060_00-34000" facs="7-a-0790">
+            <choice>
+              <orig>shees</orig>
+              <reg>she's</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-34010" facs="7-a-0800">,</pc>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-34020" facs="7-a-0810">and</w>
@@ -6414,7 +6991,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-34050" facs="7-a-0840">are</w>
           <c> </c>
-          <w lemma="she|be" ana="#pns|vvz" xml:id="A53060_00-34060" facs="7-a-0850"><choice><orig>shees</orig><reg>she's</reg></choice></w>
+          <w lemma="she|be" ana="#pns|vvz" xml:id="A53060_00-34060" facs="7-a-0850">
+            <choice>
+              <orig>shees</orig>
+              <reg>she's</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-34070" facs="7-a-0860">,</pc>
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-34080" facs="7-a-0870">the</w>
@@ -6423,7 +7005,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-34100" facs="7-a-0890">are</w>
           <c> </c>
-          <w lemma="she|be" ana="#pns|vvz" xml:id="A53060_00-34110" facs="7-a-0900"><choice><orig>shees</orig><reg>she's</reg></choice></w>
+          <w lemma="she|be" ana="#pns|vvz" xml:id="A53060_00-34110" facs="7-a-0900">
+            <choice>
+              <orig>shees</orig>
+              <reg>she's</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-34120" facs="7-a-0910">,</pc>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-34130" facs="7-a-0920">and</w>
@@ -6438,7 +7025,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-34180" facs="7-a-0970">are</w>
           <c> </c>
-          <w lemma="she|be" ana="#pns|vvz" xml:id="A53060_00-34190" facs="7-a-0980"><choice><orig>shees</orig><reg>she's</reg></choice></w>
+          <w lemma="she|be" ana="#pns|vvz" xml:id="A53060_00-34190" facs="7-a-0980">
+            <choice>
+              <orig>shees</orig>
+              <reg>she's</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-34200" facs="7-a-0990">,</pc>
           <c> </c>
           <w lemma="which" ana="#crq-r" xml:id="A53060_00-34210" facs="7-a-1000">which</w>
@@ -6478,7 +7070,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="they" ana="#pno" xml:id="A53060_00-34390" facs="7-a-1180">them</w>
           <c> </c>
-          <w lemma="he|be" ana="#pns|vvz" xml:id="A53060_00-34400" facs="7-a-1190"><choice><orig>Hees</orig><reg>He's</reg></choice></w>
+          <w lemma="he|be" ana="#pns|vvz" xml:id="A53060_00-34400" facs="7-a-1190">
+            <choice>
+              <orig>Hees</orig>
+              <reg>He's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="for" ana="#acp-p" xml:id="A53060_00-34410" facs="7-a-1200">for</w>
           <c> </c>
@@ -6493,12 +7090,22 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="do" ana="#vvd" xml:id="A53060_00-34470" facs="7-a-1260">did</w>
           <c> </c>
-          <w lemma="she|be" ana="#pns|vvz" xml:id="A53060_00-34480" facs="7-a-1270"><choice><orig>Shees</orig><reg>She's</reg></choice></w>
+          <w lemma="she|be" ana="#pns|vvz" xml:id="A53060_00-34480" facs="7-a-1270">
+            <choice>
+              <orig>Shees</orig>
+              <reg>She's</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-34490" facs="7-a-1280">,</pc>
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-34500" facs="7-a-1290">or</w>
           <c> </c>
-          <w lemma="she|be" ana="#pns|vvz" xml:id="A53060_00-34510" facs="7-a-1300"><choice><orig>Shees</orig><reg>She's</reg></choice></w>
+          <w lemma="she|be" ana="#pns|vvz" xml:id="A53060_00-34510" facs="7-a-1300">
+            <choice>
+              <orig>Shees</orig>
+              <reg>She's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="as" ana="#acp-av" xml:id="A53060_00-34520" facs="7-a-1310">as</w>
           <c> </c>
@@ -6506,7 +7113,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="do" ana="#vvd" xml:id="A53060_00-34540" facs="7-a-1330">did</w>
           <c> </c>
-          <w lemma="he|be" ana="#pns|vvz" xml:id="A53060_00-34550" facs="7-a-1340"><choice><orig>Hees</orig><reg>He's</reg></choice></w>
+          <w lemma="he|be" ana="#pns|vvz" xml:id="A53060_00-34550" facs="7-a-1340">
+            <choice>
+              <orig>Hees</orig>
+              <reg>He's</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-34560" unit="sentence" facs="7-a-1350">.</pc>
           <c> </c>
           <w lemma="but" ana="#acp-cc" xml:id="A53060_00-34570" facs="7-a-1360">But</w>
@@ -6787,7 +7399,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-36040" facs="7-a-2830">the</w>
           <c> </c>
-          <w lemma="nicety" ana="#n2" xml:id="A53060_00-36050" facs="7-a-2840"><choice><orig>nicities</orig><reg>niceties</reg></choice></w>
+          <w lemma="nicety" ana="#n2" xml:id="A53060_00-36050" facs="7-a-2840">
+            <choice>
+              <orig>nicities</orig>
+              <reg>niceties</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A53060_00-36060" facs="7-a-2850">of</w>
           <c> </c>
@@ -6956,7 +7573,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           </salute>
         </opener>
         <p xml:id="A53060_00-e100700">
-          <w lemma="it|be" ana="#pn|vvz" xml:id="A53060_00-37020" facs="7-b-0080"><choice><orig>TIs</orig><reg>'Tis</reg></choice></w>
+          <w lemma="it|be" ana="#pn|vvz" xml:id="A53060_00-37020" facs="7-b-0080">
+            <choice>
+              <orig>TIs</orig>
+              <reg>'Tis</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="likely" ana="#j" xml:id="A53060_00-37030" facs="7-b-0090">likely</w>
           <c> </c>
@@ -6968,7 +7590,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-37070" facs="7-b-0130">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-37080" facs="7-b-0140"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-37080" facs="7-b-0140">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="at" ana="#acp-p" xml:id="A53060_00-37090" facs="7-b-0150">at</w>
           <c> </c>
@@ -7006,7 +7633,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="but" ana="#acp-cc" xml:id="A53060_00-37270" facs="7-b-0330">but</w>
           <c> </c>
-          <w lemma="sugar" ana="#n1" xml:id="A53060_00-37280" facs="7-b-0340"><choice><orig>Suger</orig><reg>Sugar</reg></choice></w>
+          <w lemma="sugar" ana="#n1" xml:id="A53060_00-37280" facs="7-b-0340">
+            <choice>
+              <orig>Suger</orig>
+              <reg>Sugar</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvz" xml:id="A53060_00-37290" facs="7-b-0350">is</w>
           <c> </c>
@@ -7039,7 +7671,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="be" ana="#vvz" xml:id="A53060_00-37440" facs="7-b-0500">is</w>
           <c> </c>
-          <w lemma="tasteless" ana="#j" xml:id="A53060_00-37450" facs="7-b-0510"><choice><orig>tastless</orig><reg>tasteless</reg></choice></w>
+          <w lemma="tasteless" ana="#j" xml:id="A53060_00-37450" facs="7-b-0510">
+            <choice>
+              <orig>tastless</orig>
+              <reg>tasteless</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-37460" facs="7-b-0520">,</pc>
           <c> </c>
           <w lemma="which" ana="#crq-r" xml:id="A53060_00-37470" facs="7-b-0530">which</w>
@@ -7059,7 +7696,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="a" ana="#d" xml:id="A53060_00-37550" facs="7-b-0610">a</w>
           <c> </c>
-          <w lemma="satirical" ana="#j" xml:id="A53060_00-37560" facs="7-b-0620"><choice><orig>Satyrical</orig><reg>satirical</reg></choice></w>
+          <w lemma="satirical" ana="#j" xml:id="A53060_00-37560" facs="7-b-0620">
+            <choice>
+              <orig>Satyrical</orig>
+              <reg>satirical</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="speaker" ana="#n1" xml:id="A53060_00-37570" facs="7-b-0630">Speaker</w>
           <c> </c>
@@ -7104,7 +7746,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-37790" facs="7-b-0850">and</w>
           <c> </c>
-          <w lemma="backbiting" ana="#j" xml:id="A53060_00-37800" facs="7-b-0860"><choice><orig>back-biting</orig><reg>backbiting</reg></choice></w>
+          <w lemma="backbiting" ana="#j" xml:id="A53060_00-37800" facs="7-b-0860">
+            <choice>
+              <orig>back-biting</orig>
+              <reg>backbiting</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="sit" ana="#vvb" xml:id="A53060_00-37810" facs="7-b-0870">sit</w>
           <c> </c>
@@ -7149,7 +7796,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="a" ana="#d" xml:id="A53060_00-38030" facs="7-b-1090">a</w>
           <c> </c>
-          <w lemma="raillery" ana="#n1" xml:id="A53060_00-38040" facs="7-b-1100"><choice><orig>Ralery</orig><reg>Raillery</reg></choice></w>
+          <w lemma="raillery" ana="#n1" xml:id="A53060_00-38040" facs="7-b-1100">
+            <choice>
+              <orig>Ralery</orig>
+              <reg>Raillery</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="wit" ana="#n1" xml:id="A53060_00-38050" facs="7-b-1110">Wit</w>
           <pc xml:id="A53060_00-38060" facs="7-b-1120">,</pc>
@@ -7182,7 +7834,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-38210" facs="7-b-1270">and</w>
           <c> </c>
-          <w lemma="freedom" ana="#n1" xml:id="A53060_00-38220" facs="7-b-1280"><choice><orig>Freedome</orig><reg>Freedom</reg></choice></w>
+          <w lemma="freedom" ana="#n1" xml:id="A53060_00-38220" facs="7-b-1280">
+            <choice>
+              <orig>Freedome</orig>
+              <reg>Freedom</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-38230" facs="7-b-1290">;</pc>
           <c> </c>
           <w lemma="whereas" ana="#cs" xml:id="A53060_00-38240" facs="7-b-1300">whereas</w>
@@ -7226,7 +7883,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="say" ana="#vvd" xml:id="A53060_00-38450" facs="7-b-1510">said</w>
           <c> </c>
-          <w lemma="satirical" ana="#j" xml:id="A53060_00-38460" facs="7-b-1520"><choice><orig>Satyrical</orig><reg>satirical</reg></choice></w>
+          <w lemma="satirical" ana="#j" xml:id="A53060_00-38460" facs="7-b-1520">
+            <choice>
+              <orig>Satyrical</orig>
+              <reg>satirical</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="speaker" ana="#n2" xml:id="A53060_00-38470" facs="7-b-1530">Speakers</w>
           <c> </c>
@@ -7237,7 +7899,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="yet" ana="#av" xml:id="A53060_00-38510" facs="7-b-1570">yet</w>
           <c> </c>
-          <w lemma="satirical" ana="#j" xml:id="A53060_00-38520" facs="7-b-1580"><choice><orig>Satyrical</orig><reg>satirical</reg></choice></w>
+          <w lemma="satirical" ana="#j" xml:id="A53060_00-38520" facs="7-b-1580">
+            <choice>
+              <orig>Satyrical</orig>
+              <reg>satirical</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="writer" ana="#n2" xml:id="A53060_00-38530" facs="7-b-1590">Writers</w>
           <c> </c>
@@ -7397,7 +8064,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="a" ana="#d" xml:id="A53060_00-39370" facs="7-b-2430">a</w>
           <c> </c>
-          <w lemma="lyric" ana="#j" xml:id="A53060_00-39380" facs="7-b-2440"><choice><orig>Lyrick</orig><reg>Lyric</reg></choice></w>
+          <w lemma="lyric" ana="#j" xml:id="A53060_00-39380" facs="7-b-2440">
+            <choice>
+              <orig>Lyrick</orig>
+              <reg>Lyric</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="poet" ana="#n1" xml:id="A53060_00-39390" facs="7-b-2450">Poet</w>
           <c> </c>
@@ -7437,7 +8109,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-39580" facs="7-b-2640">or</w>
           <c> </c>
-          <w lemma="blank" ana="#j" xml:id="A53060_00-39590" facs="7-b-2650"><choice><orig>blanck</orig><reg>blank</reg></choice></w>
+          <w lemma="blank" ana="#j" xml:id="A53060_00-39590" facs="7-b-2650">
+            <choice>
+              <orig>blanck</orig>
+              <reg>blank</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="verse" ana="#n1" xml:id="A53060_00-39600" facs="7-b-2660">Verse</w>
           <pc xml:id="A53060_00-39610" facs="7-b-2670">,</pc>
@@ -7533,7 +8210,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="a" ana="#d" xml:id="A53060_00-40080" facs="7-b-3140">a</w>
           <c> </c>
-          <w lemma="style" ana="#n1" xml:id="A53060_00-40090" facs="7-b-3150"><choice><orig>stile</orig><reg>style</reg></choice></w>
+          <w lemma="style" ana="#n1" xml:id="A53060_00-40090" facs="7-b-3150">
+            <choice>
+              <orig>stile</orig>
+              <reg>style</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-40100" facs="7-b-3160">,</pc>
           <c> </c>
           <w lemma="form" ana="#n2" xml:id="A53060_00-40110" facs="7-b-3170">forms</w>
@@ -7588,7 +8270,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-40390" facs="7-b-3450">the</w>
           <c> </c>
-          <w lemma="sense" ana="#n1" xml:id="A53060_00-40400" facs="7-b-3460"><choice><orig>sence</orig><reg>sense</reg></choice></w>
+          <w lemma="sense" ana="#n1" xml:id="A53060_00-40400" facs="7-b-3460">
+            <choice>
+              <orig>sence</orig>
+              <reg>sense</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A53060_00-40410" facs="7-b-3470">of</w>
           <c> </c>
@@ -7596,7 +8283,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="discourse" ana="#n1" xml:id="A53060_00-40430" facs="7-b-3490">discourse</w>
           <c> </c>
-          <w lemma="wrap" ana="#vvn" xml:id="A53060_00-40440" facs="7-b-3500"><choice><orig>wrapt</orig><reg>wrapped</reg></choice></w>
+          <w lemma="wrap" ana="#vvn" xml:id="A53060_00-40440" facs="7-b-3500">
+            <choice>
+              <orig>wrapt</orig>
+              <reg>wrapped</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="in" ana="#acp-p" xml:id="A53060_00-40450" facs="7-b-3510">in</w>
           <c> </c>
@@ -7628,7 +8320,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="not" ana="#xx" xml:id="A53060_00-40600" facs="7-b-3660">not</w>
           <c> </c>
-          <w lemma="always" ana="#av" xml:id="A53060_00-40610" facs="7-b-3670"><choice><orig>alwayes</orig><reg>always</reg></choice></w>
+          <w lemma="always" ana="#av" xml:id="A53060_00-40610" facs="7-b-3670">
+            <choice>
+              <orig>alwayes</orig>
+              <reg>always</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="speak" ana="#vvi" xml:id="A53060_00-40620" facs="7-b-3680">speak</w>
           <c> </c>
@@ -7715,7 +8412,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="conversation" ana="#n1" xml:id="A53060_00-41060" facs="7-b-4120">Conversation</w>
           <pc xml:id="A53060_00-41070" facs="7-b-4130">,</pc>
           <c> </c>
-          <w lemma="converse" ana="#vvn" xml:id="A53060_00-41080" facs="7-b-4140"><choice><orig>converst</orig><reg>conversed</reg></choice></w>
+          <w lemma="converse" ana="#vvn" xml:id="A53060_00-41080" facs="7-b-4140">
+            <choice>
+              <orig>converst</orig>
+              <reg>conversed</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-41090" facs="7-b-4150">and</w>
           <c> </c>
@@ -7802,7 +8504,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-41550" facs="7-b-4610">and</w>
           <c> </c>
-          <w lemma="conversation" ana="#n1" xml:id="A53060_00-41560" facs="7-b-4620"><choice><orig>Coversation</orig><reg>Conversation</reg></choice></w>
+          <w lemma="conversation" ana="#n1" xml:id="A53060_00-41560" facs="7-b-4620">
+            <choice>
+              <orig>Coversation</orig>
+              <reg>Conversation</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="with" ana="#acp-p" xml:id="A53060_00-41570" facs="7-b-4630">with</w>
           <pc xml:id="A53060_00-41580" facs="7-b-4640">,</pc>
@@ -7921,7 +8628,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="other" ana="#d" xml:id="A53060_00-42180" facs="7-b-5240">other</w>
           <c> </c>
-          <w lemma="man" ana="#n2g" xml:id="A53060_00-42190" facs="7-b-5250"><choice><orig>mens</orig><reg>men's</reg></choice></w>
+          <w lemma="man" ana="#n2g" xml:id="A53060_00-42190" facs="7-b-5250">
+            <choice>
+              <orig>mens</orig>
+              <reg>men's</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-42200" facs="7-b-5260">,</pc>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-42210" facs="7-b-5270">and</w>
@@ -8027,7 +8739,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="make" ana="#vvb" xml:id="A53060_00-42750" facs="7-b-5810">make</w>
           <c> </c>
-          <w lemma="ourselves" part="I" ana="#px" xml:id="A53060_00-42760.1" facs="7-b-5820"><choice><orig>our selves</orig><reg>ourselves</reg></choice></w>
+          <w lemma="ourselves" part="I" ana="#px" xml:id="A53060_00-42760.1" facs="7-b-5820">
+            <choice>
+              <orig>our selves</orig>
+              <reg>ourselves</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="fool" ana="#n2" xml:id="A53060_00-42770" facs="7-b-5830">Fools</w>
           <pc xml:id="A53060_00-42780" facs="7-b-5840">,</pc>
@@ -8061,7 +8778,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="over" ana="#acp-p" xml:id="A53060_00-42930" facs="7-b-5990">over</w>
           <c> </c>
-          <w lemma="ourselves" part="I" ana="#px" xml:id="A53060_00-42940.1" facs="7-b-6000"><choice><orig>our selves</orig><reg>ourselves</reg></choice></w>
+          <w lemma="ourselves" part="I" ana="#px" xml:id="A53060_00-42940.1" facs="7-b-6000">
+            <choice>
+              <orig>our selves</orig>
+              <reg>ourselves</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="as" ana="#acp-p" xml:id="A53060_00-42950" facs="7-b-6010">as</w>
           <c> </c>
@@ -8270,7 +8992,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="in" ana="#acp-p" xml:id="A53060_00-44040" facs="8-a-1070">in</w>
           <c> </c>
-          <w lemma="ourselves" part="I" ana="#px" xml:id="A53060_00-44050.1" facs="8-a-1080"><choice><orig>our selves</orig><reg>ourselves</reg></choice></w>
+          <w lemma="ourselves" part="I" ana="#px" xml:id="A53060_00-44050.1" facs="8-a-1080">
+            <choice>
+              <orig>our selves</orig>
+              <reg>ourselves</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-44060" facs="8-a-1090">,</pc>
           <c> </c>
           <w lemma="although" ana="#cs" xml:id="A53060_00-44070" facs="8-a-1100">although</w>
@@ -8281,7 +9008,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="not" ana="#xx" xml:id="A53060_00-44100" facs="8-a-1130">not</w>
           <c> </c>
-          <w lemma="endeavour" ana="#vvi" xml:id="A53060_00-44110" facs="8-a-1140"><choice><orig>indeavour</orig><reg>endeavour</reg></choice></w>
+          <w lemma="endeavour" ana="#vvi" xml:id="A53060_00-44110" facs="8-a-1140">
+            <choice>
+              <orig>indeavour</orig>
+              <reg>endeavour</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="to" ana="#acp-cs" xml:id="A53060_00-44120" facs="8-a-1150">to</w>
           <c> </c>
@@ -8526,7 +9258,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-45460" facs="8-b-0130">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-45470" facs="8-b-0140"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-45470" facs="8-b-0140">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="will" ana="#vmb" xml:id="A53060_00-45480" facs="8-b-0150">will</w>
           <c> </c>
@@ -8569,7 +9306,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-45690" facs="8-b-0360">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-45700" facs="8-b-0370"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-45700" facs="8-b-0370">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-45710" facs="8-b-0380">are</w>
           <c> </c>
@@ -8588,9 +9330,19 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="no" ana="#d-x" xml:id="A53060_00-45790" facs="8-b-0460">no</w>
           <c> </c>
-          <w lemma="ridiculous" ana="#j" xml:id="A53060_00-45800" facs="8-b-0470"><choice><orig>rediculous</orig><reg>ridiculous</reg></choice></w>
+          <w lemma="ridiculous" ana="#j" xml:id="A53060_00-45800" facs="8-b-0470">
+            <choice>
+              <orig>rediculous</orig>
+              <reg>ridiculous</reg>
+            </choice>
+          </w>
           <c> </c>
-          <w lemma="jest" ana="#n1" xml:id="A53060_00-45810" facs="8-b-0480"><choice><orig>Iest</orig><reg>jest</reg></choice></w>
+          <w lemma="jest" ana="#n1" xml:id="A53060_00-45810" facs="8-b-0480">
+            <choice>
+              <orig>Iest</orig>
+              <reg>jest</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="in" ana="#acp-p" xml:id="A53060_00-45820" facs="8-b-0490">in</w>
           <c> </c>
@@ -8639,7 +9391,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="nor" ana="#cc-x" xml:id="A53060_00-46070" facs="8-b-0740">nor</w>
           <c> </c>
-          <w lemma="subtle" ana="#j" xml:id="A53060_00-46080" facs="8-b-0750"><choice><orig>subtil</orig><reg>subtle</reg></choice></w>
+          <w lemma="subtle" ana="#j" xml:id="A53060_00-46080" facs="8-b-0750">
+            <choice>
+              <orig>subtil</orig>
+              <reg>subtle</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="contrivance" ana="#n2" xml:id="A53060_00-46090" facs="8-b-0760">Contrivances</w>
           <pc xml:id="A53060_00-46100" facs="8-b-0770">,</pc>
@@ -8668,13 +9425,23 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-46230" facs="8-b-0900">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-46240" facs="8-b-0910"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-46240" facs="8-b-0910">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvd" xml:id="A53060_00-46250" facs="8-b-0920">were</w>
           <c> </c>
           <w lemma="to" ana="#acp-cs" xml:id="A53060_00-46260" facs="8-b-0930">to</w>
           <c> </c>
-          <w lemma="employ" ana="#vvi" xml:id="A53060_00-46270" facs="8-b-0940"><choice><orig>imploy</orig><reg>employ</reg></choice></w>
+          <w lemma="employ" ana="#vvi" xml:id="A53060_00-46270" facs="8-b-0940">
+            <choice>
+              <orig>imploy</orig>
+              <reg>employ</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-46280" facs="8-b-0950">my</w>
           <c> </c>
@@ -8763,7 +9530,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-46730" facs="8-b-1400">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-46740" facs="8-b-1410"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-46740" facs="8-b-1410">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="neither" ana="#av-x_d" xml:id="A53060_00-46750" facs="8-b-1420">neither</w>
           <c> </c>
@@ -8772,7 +9544,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="nor" ana="#cc-x" xml:id="A53060_00-46780" facs="8-b-1450">nor</w>
           <c> </c>
-          <w lemma="delightful" ana="#j" xml:id="A53060_00-46790" facs="8-b-1460"><choice><orig>Delightfull</orig><reg>Delightful</reg></choice></w>
+          <w lemma="delightful" ana="#j" xml:id="A53060_00-46790" facs="8-b-1460">
+            <choice>
+              <orig>Delightfull</orig>
+              <reg>Delightful</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-46800" facs="8-b-1470">,</pc>
           <c> </c>
           <w lemma="I" ana="#pns" xml:id="A53060_00-46810" facs="8-b-1480">I</w>
@@ -8821,7 +9598,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="much" ana="#av_d" xml:id="A53060_00-47050" facs="8-b-1720">much</w>
           <c> </c>
-          <w lemma="rejoice" ana="#vvi" xml:id="A53060_00-47060" facs="8-b-1730"><choice><orig>rejoyce</orig><reg>rejoice</reg></choice></w>
+          <w lemma="rejoice" ana="#vvi" xml:id="A53060_00-47060" facs="8-b-1730">
+            <choice>
+              <orig>rejoyce</orig>
+              <reg>rejoice</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-47070" facs="8-b-1740">,</pc>
           <c> </c>
           <w lemma="that" ana="#cs" xml:id="A53060_00-47080" facs="8-b-1750">that</w>
@@ -8834,7 +9616,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="be" ana="#vvn" xml:id="A53060_00-47120" facs="8-b-1790">been</w>
           <c> </c>
-          <w lemma="employ" ana="#vvn" xml:id="A53060_00-47130" facs="8-b-1800"><choice><orig>imployed</orig><reg>employed</reg></choice></w>
+          <w lemma="employ" ana="#vvn" xml:id="A53060_00-47130" facs="8-b-1800">
+            <choice>
+              <orig>imployed</orig>
+              <reg>employed</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="to" ana="#acp-p" xml:id="A53060_00-47140" facs="8-b-1810">to</w>
           <c> </c>
@@ -8889,10 +9676,20 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="write" ana="#vvb" xml:id="A53060_00-47460" facs="9-a-0150">write</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-47470" facs="9-a-0160"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-47470" facs="9-a-0160">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-47480" facs="9-a-0170">,</pc>
           <c> </c>
-          <w lemma="seldom" ana="#av" xml:id="A53060_00-47490" facs="9-a-0180"><choice><orig>seldome</orig><reg>seldom</reg></choice></w>
+          <w lemma="seldom" ana="#av" xml:id="A53060_00-47490" facs="9-a-0180">
+            <choice>
+              <orig>seldome</orig>
+              <reg>seldom</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-47500" facs="9-a-0190">or</w>
           <c> </c>
@@ -8953,7 +9750,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="great" ana="#j" xml:id="A53060_00-47800" facs="9-a-0490">great</w>
           <c> </c>
-          <w lemma="tailor" ana="#n2" xml:id="A53060_00-47810" facs="9-a-0500"><choice><orig>Taylors</orig><reg>Tailors</reg></choice></w>
+          <w lemma="tailor" ana="#n2" xml:id="A53060_00-47810" facs="9-a-0500">
+            <choice>
+              <orig>Taylors</orig>
+              <reg>Tailors</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-47820" facs="9-a-0510">,</pc>
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-47830" facs="9-a-0520">the</w>
@@ -8975,7 +9777,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="his" ana="#po" xml:id="A53060_00-47920" facs="9-a-0610">his</w>
           <c> </c>
-          <w lemma="journeyman" ana="#n2" xml:id="A53060_00-47930" facs="9-a-0620"><choice><orig>Iourny-men</orig><reg>journeymen</reg></choice></w>
+          <w lemma="journeyman" ana="#n2" xml:id="A53060_00-47930" facs="9-a-0620">
+            <choice>
+              <orig>Iourny-men</orig>
+              <reg>journeymen</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-47940" facs="9-a-0630">and</w>
           <c> </c>
@@ -9004,7 +9811,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="poor" ana="#j" xml:id="A53060_00-48070" facs="9-a-0760">poor</w>
           <c> </c>
-          <w lemma="tailor" ana="#n1" xml:id="A53060_00-48080" facs="9-a-0770"><choice><orig>Taylor</orig><reg>tailor</reg></choice></w>
+          <w lemma="tailor" ana="#n1" xml:id="A53060_00-48080" facs="9-a-0770">
+            <choice>
+              <orig>Taylor</orig>
+              <reg>tailor</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvd" xml:id="A53060_00-48090" facs="9-a-0780">was</w>
           <c> </c>
@@ -9016,7 +9828,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="all" ana="#d" xml:id="A53060_00-48130" facs="9-a-0820">all</w>
           <c> </c>
-          <w lemma="myself" part="I" ana="#px" xml:id="A53060_00-48140.1" facs="9-a-0830"><choice><orig>my self</orig><reg>myself</reg></choice></w>
+          <w lemma="myself" part="I" ana="#px" xml:id="A53060_00-48140.1" facs="9-a-0830">
+            <choice>
+              <orig>my self</orig>
+              <reg>myself</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-48150" facs="9-a-0840">,</pc>
           <c> </c>
           <w lemma="as" ana="#acp-cs" xml:id="A53060_00-48160" facs="9-a-0850">as</w>
@@ -9106,7 +9923,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="best" ana="#j-s" xml:id="A53060_00-48620" facs="9-a-1310">best</w>
           <c> </c>
-          <w lemma="endeavour" ana="#n1" xml:id="A53060_00-48630" facs="9-a-1320"><choice><orig>indeavour</orig><reg>endeavour</reg></choice></w>
+          <w lemma="endeavour" ana="#n1" xml:id="A53060_00-48630" facs="9-a-1320">
+            <choice>
+              <orig>indeavour</orig>
+              <reg>endeavour</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-48640" facs="9-a-1330">,</pc>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-48650" facs="9-a-1340">and</w>
@@ -9210,7 +10032,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-49220" facs="9-b-0140">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-49230" facs="9-b-0150"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-49230" facs="9-b-0150">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="with" ana="#acp-p" xml:id="A53060_00-49240" facs="9-b-0160">with</w>
           <c> </c>
@@ -9265,7 +10092,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="to" ana="#acp-cs" xml:id="A53060_00-49510" facs="9-b-0430">to</w>
           <c> </c>
-          <w lemma="cozen" ana="#vvi" xml:id="A53060_00-49520" facs="9-b-0440"><choice><orig>couzen</orig><reg>cozen</reg></choice></w>
+          <w lemma="cozen" ana="#vvi" xml:id="A53060_00-49520" facs="9-b-0440">
+            <choice>
+              <orig>couzen</orig>
+              <reg>cozen</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="they" ana="#pno" xml:id="A53060_00-49530" facs="9-b-0450">them</w>
           <pc xml:id="A53060_00-49540" facs="9-b-0460">,</pc>
@@ -9309,7 +10141,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="no" ana="#d-x" xml:id="A53060_00-49750" facs="9-b-0670">no</w>
           <c> </c>
-          <w lemma="lyric" ana="#j" xml:id="A53060_00-49760" facs="9-b-0680"><choice><orig>Lyrick</orig><reg>Lyric</reg></choice></w>
+          <w lemma="lyric" ana="#j" xml:id="A53060_00-49760" facs="9-b-0680">
+            <choice>
+              <orig>Lyrick</orig>
+              <reg>Lyric</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="poet" ana="#n1" xml:id="A53060_00-49770" facs="9-b-0690">Poet</w>
           <pc xml:id="A53060_00-49780" facs="9-b-0700">,</pc>
@@ -9480,7 +10317,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="body" ana="#n2" xml:id="A53060_00-50680" facs="9-b-1600">Bodies</w>
           <c> </c>
-          <w lemma="die" ana="#vvb" xml:id="A53060_00-50690" facs="9-b-1610"><choice><orig>dye</orig><reg>die</reg></choice></w>
+          <w lemma="die" ana="#vvb" xml:id="A53060_00-50690" facs="9-b-1610">
+            <choice>
+              <orig>dye</orig>
+              <reg>die</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-50700" unit="sentence" facs="9-b-1620">.</pc>
         </p>
         <closer xml:id="A53060_00-e100890">
@@ -9532,12 +10374,22 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A53060_00-50970" facs="10-a-0190">of</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-50980" facs="10-a-0200"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-50980" facs="10-a-0200">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-50990" facs="10-a-0210">;</pc>
           <c> </c>
           <w lemma="for" ana="#acp-p" xml:id="A53060_00-51000" facs="10-a-0220">for</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-51010" facs="10-a-0230"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-51010" facs="10-a-0230">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="must" ana="#vmb" xml:id="A53060_00-51020" facs="10-a-0240">must</w>
           <c> </c>
@@ -9569,7 +10421,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-51170" facs="10-a-0390">are</w>
           <c> </c>
-          <w lemma="express" ana="#vvn" xml:id="A53060_00-51180" facs="10-a-0400"><choice><orig>exprest</orig><reg>expressed</reg></choice></w>
+          <w lemma="express" ana="#vvn" xml:id="A53060_00-51180" facs="10-a-0400">
+            <choice>
+              <orig>exprest</orig>
+              <reg>expressed</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="by" ana="#acp-p" xml:id="A53060_00-51190" facs="10-a-0410">by</w>
           <c> </c>
@@ -9640,7 +10497,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="a" ana="#d" xml:id="A53060_00-51540" facs="10-a-0760">a</w>
           <c> </c>
-          <w lemma="mimic" ana="#n1" xml:id="A53060_00-51550" facs="10-a-0770"><choice><orig>Mimick</orig><reg>Mimic</reg></choice></w>
+          <w lemma="mimic" ana="#n1" xml:id="A53060_00-51550" facs="10-a-0770">
+            <choice>
+              <orig>Mimick</orig>
+              <reg>Mimic</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="way" ana="#n1" xml:id="A53060_00-51560" facs="10-a-0780">way</w>
           <pc xml:id="A53060_00-51570" facs="10-a-0790">,</pc>
@@ -9687,7 +10549,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-51790" facs="10-a-1010">or</w>
           <c> </c>
-          <w lemma="tragic" ana="#j" xml:id="A53060_00-51800" facs="10-a-1020"><choice><orig>Tragick</orig><reg>Tragic</reg></choice></w>
+          <w lemma="tragic" ana="#j" xml:id="A53060_00-51800" facs="10-a-1020">
+            <choice>
+              <orig>Tragick</orig>
+              <reg>Tragic</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="scene" ana="#n2" xml:id="A53060_00-51810" facs="10-a-1030">Scenes</w>
           <pc xml:id="A53060_00-51820" facs="10-a-1040">,</pc>
@@ -9706,7 +10573,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="a" ana="#d" xml:id="A53060_00-51890" facs="10-a-1110">a</w>
           <c> </c>
-          <w lemma="pule" ana="#j_vg" xml:id="A53060_00-51900" facs="10-a-1120"><choice><orig>pueling</orig><reg>puling</reg></choice></w>
+          <w lemma="pule" ana="#j_vg" xml:id="A53060_00-51900" facs="10-a-1120">
+            <choice>
+              <orig>pueling</orig>
+              <reg>puling</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="whine" ana="#j_vg" xml:id="A53060_00-51910" facs="10-a-1130">whining</w>
           <c> </c>
@@ -9843,12 +10715,22 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="be" ana="#vvz" xml:id="A53060_00-52620" facs="10-a-1840">is</w>
           <c> </c>
-          <w lemma="employ" ana="#vvn" xml:id="A53060_00-52630" facs="10-a-1850"><choice><orig>imployed</orig><reg>employed</reg></choice></w>
+          <w lemma="employ" ana="#vvn" xml:id="A53060_00-52630" facs="10-a-1850">
+            <choice>
+              <orig>imployed</orig>
+              <reg>employed</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-52640" facs="10-a-1860">;</pc>
           <c> </c>
           <w lemma="but" ana="#acp-cc" xml:id="A53060_00-52650" facs="10-a-1870">but</w>
           <c> </c>
-          <w lemma="whenas" ana="#cs" xml:id="A53060_00-52660.1" part="I" facs="10-a-1880"><choice><orig>when as</orig><reg>whenas</reg></choice></w>
+          <w lemma="whenas" ana="#cs" xml:id="A53060_00-52660.1" part="I" facs="10-a-1880">
+            <choice>
+              <orig>when as</orig>
+              <reg>whenas</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="a" ana="#d" xml:id="A53060_00-52680" facs="10-a-1890">a</w>
           <c> </c>
@@ -9860,7 +10742,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-52720" facs="10-a-1930">and</w>
           <c> </c>
-          <w lemma="skilful" ana="#av_j" xml:id="A53060_00-52730" facs="10-a-1940"><choice><orig>skillfully</orig><reg>skilfully</reg></choice></w>
+          <w lemma="skilful" ana="#av_j" xml:id="A53060_00-52730" facs="10-a-1940">
+            <choice>
+              <orig>skillfully</orig>
+              <reg>skilfully</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="read" ana="#vvn" xml:id="A53060_00-52740" facs="10-a-1950">read</w>
           <pc xml:id="A53060_00-52750" facs="10-a-1960">,</pc>
@@ -9948,7 +10835,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-53180" facs="10-a-2390">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-53190" facs="10-a-2400"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-53190" facs="10-a-2400">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="to" ana="#acp-cs" xml:id="A53060_00-53200" facs="10-a-2410">to</w>
           <c> </c>
@@ -10000,7 +10892,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="she" ana="#pno" xml:id="A53060_00-53470" facs="10-b-0080">her</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-53480" facs="10-b-0090"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-53480" facs="10-b-0090">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-53490" unit="sentence" facs="10-b-0100">.</pc>
         </head>
         <l xml:id="A53060_00-e100950">
@@ -10024,7 +10921,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <l xml:id="A53060_00-e100960">
           <w lemma="their" ana="#po" xml:id="A53060_00-53600" facs="10-b-0200">Their</w>
           <c> </c>
-          <w lemma="comic" ana="#j" xml:id="A53060_00-53610" facs="10-b-0210"><choice><orig>Comick</orig><reg>Comic</reg></choice></w>
+          <w lemma="comic" ana="#j" xml:id="A53060_00-53610" facs="10-b-0210">
+            <choice>
+              <orig>Comick</orig>
+              <reg>Comic</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="sock" ana="#n2" xml:id="A53060_00-53620" facs="10-b-0220">Socks</w>
           <c> </c>
@@ -10055,7 +10957,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="as" ana="#acp-p" xml:id="A53060_00-53760" facs="10-b-0360">as</w>
           <c> </c>
-          <w lemma="toy" ana="#n2" xml:id="A53060_00-53770" facs="10-b-0370"><choice><orig>toyes</orig><reg>toys</reg></choice></w>
+          <w lemma="toy" ana="#n2" xml:id="A53060_00-53770" facs="10-b-0370">
+            <choice>
+              <orig>toyes</orig>
+              <reg>toys</reg>
+            </choice>
+          </w>
         </l>
         <l xml:id="A53060_00-e100980">
           <w lemma="for" ana="#acp-p" xml:id="A53060_00-53780" facs="10-b-0380">For</w>
@@ -10073,7 +10980,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="school" ana="#n1" xml:id="A53060_00-53850" facs="10-b-0450">School</w>
           <c> </c>
-          <w lemma="boy" ana="#n2" xml:id="A53060_00-53860" facs="10-b-0460"><choice><orig>Boyes</orig><reg>Boys</reg></choice></w>
+          <w lemma="boy" ana="#n2" xml:id="A53060_00-53860" facs="10-b-0460">
+            <choice>
+              <orig>Boyes</orig>
+              <reg>Boys</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-53870" facs="10-b-0470">;</pc>
         </l>
         <l xml:id="A53060_00-e100990">
@@ -10103,7 +11015,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="high" ana="#j" xml:id="A53060_00-54000" facs="10-b-0600">high</w>
           <c> </c>
-          <w lemma="fancy" ana="#n2" xml:id="A53060_00-54010" facs="10-b-0610"><choice><orig>Phancies</orig><reg>Fancies</reg></choice></w>
+          <w lemma="fancy" ana="#n2" xml:id="A53060_00-54010" facs="10-b-0610">
+            <choice>
+              <orig>Phancies</orig>
+              <reg>Fancies</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-54020" facs="10-b-0620">,</pc>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-54030" facs="10-b-0630">and</w>
@@ -10118,7 +11035,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <l xml:id="A53060_00-e101010">
           <w lemma="which" ana="#crq-r" xml:id="A53060_00-54080" facs="10-b-0680">Which</w>
           <c> </c>
-          <w lemma="burn" ana="#vvd" xml:id="A53060_00-54090" facs="10-b-0690"><choice><orig>burnt</orig><reg>burned</reg></choice></w>
+          <w lemma="burn" ana="#vvd" xml:id="A53060_00-54090" facs="10-b-0690">
+            <choice>
+              <orig>burnt</orig>
+              <reg>burned</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="they" ana="#png" xml:id="A53060_00-54100" facs="10-b-0700">theirs</w>
           <c> </c>
@@ -10142,7 +11064,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="like" ana="#acp-p" xml:id="A53060_00-54200" facs="10-b-0800">like</w>
           <c> </c>
-          <w lemma="ever" ana="#av" xml:id="A53060_00-54210" facs="10-b-0810"><choice><orig>e'r</orig><reg>e'er</reg></choice></w>
+          <w lemma="ever" ana="#av" xml:id="A53060_00-54210" facs="10-b-0810">
+            <choice>
+              <orig>e'r</orig>
+              <reg>e'er</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="out" ana="#av" xml:id="A53060_00-54220" facs="10-b-0820">out</w>
           <c> </c>
@@ -10158,7 +11085,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <l xml:id="A53060_00-e101030">
           <w lemma="old" ana="#j" xml:id="A53060_00-54280" facs="10-b-0880">Old</w>
           <c> </c>
-          <w lemma="tragic" ana="#j" xml:id="A53060_00-54290" facs="10-b-0890"><choice><orig>Tragick</orig><reg>Tragic</reg></choice></w>
+          <w lemma="tragic" ana="#j" xml:id="A53060_00-54290" facs="10-b-0890">
+            <choice>
+              <orig>Tragick</orig>
+              <reg>Tragic</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="buskin" ana="#n2" xml:id="A53060_00-54300" facs="10-b-0900">Buskins</w>
           <c> </c>
@@ -10237,12 +11169,27 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="in" ana="#acp-p" xml:id="A53060_00-54670" facs="10-b-1270">in</w>
           <c> </c>
-          <w lemma="tragic" ana="#j" xml:id="A53060_00-54680" facs="10-b-1280"><choice><orig>Tragick</orig><reg>Tragic</reg></choice></w>
+          <w lemma="tragic" ana="#j" xml:id="A53060_00-54680" facs="10-b-1280">
+            <choice>
+              <orig>Tragick</orig>
+              <reg>Tragic</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-54690" facs="10-b-1290">,</pc>
           <c> </c>
-          <w lemma="comic" ana="#j" xml:id="A53060_00-54700" facs="10-b-1300"><choice><orig>Comick</orig><reg>Comic</reg></choice></w>
+          <w lemma="comic" ana="#j" xml:id="A53060_00-54700" facs="10-b-1300">
+            <choice>
+              <orig>Comick</orig>
+              <reg>Comic</reg>
+            </choice>
+          </w>
           <c> </c>
-          <w lemma="style" ana="#n1" xml:id="A53060_00-54710" facs="10-b-1310"><choice><orig>stile</orig><reg>style</reg></choice></w>
+          <w lemma="style" ana="#n1" xml:id="A53060_00-54710" facs="10-b-1310">
+            <choice>
+              <orig>stile</orig>
+              <reg>style</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-54720" facs="10-b-1320">,</pc>
         </l>
         <l xml:id="A53060_00-e101080">
@@ -10282,7 +11229,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="passion" ana="#n2" xml:id="A53060_00-54900" facs="10-b-1500">passions</w>
           <c> </c>
-          <w lemma="lie" ana="#vvb" xml:id="A53060_00-54910" facs="10-b-1510"><choice><orig>ly</orig><reg>lie</reg></choice></w>
+          <w lemma="lie" ana="#vvb" xml:id="A53060_00-54910" facs="10-b-1510">
+            <choice>
+              <orig>ly</orig>
+              <reg>lie</reg>
+            </choice>
+          </w>
         </l>
         <l xml:id="A53060_00-e101100">
           <w lemma="obedient" ana="#j" xml:id="A53060_00-54920" facs="10-b-1520">Obedient</w>
@@ -10316,7 +11268,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="of" ana="#acp-p" xml:id="A53060_00-55070" facs="10-b-1670">of</w>
           <c> </c>
-          <w lemma="nature" ana="#n1g" xml:id="A53060_00-55080" facs="10-b-1680"><choice><orig>Natures</orig><reg>Nature's</reg></choice></w>
+          <w lemma="nature" ana="#n1g" xml:id="A53060_00-55080" facs="10-b-1680">
+            <choice>
+              <orig>Natures</orig>
+              <reg>Nature's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="fashion" ana="#n1" xml:id="A53060_00-55090" facs="10-b-1690">fashion</w>
           <pc xml:id="A53060_00-55100" facs="10-b-1700">,</pc>
@@ -10332,7 +11289,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="her" ana="#po" xml:id="A53060_00-55150" facs="10-b-1750">her</w>
           <c> </c>
-          <w lemma="heartstring" ana="#n2" xml:id="A53060_00-55160" facs="10-b-1760"><choice><orig>heart-strings</orig><reg>heartstrings</reg></choice></w>
+          <w lemma="heartstring" ana="#n2" xml:id="A53060_00-55160" facs="10-b-1760">
+            <choice>
+              <orig>heart-strings</orig>
+              <reg>heartstrings</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="still" ana="#av" xml:id="A53060_00-55170" facs="10-b-1770">still</w>
           <c> </c>
@@ -10421,7 +11383,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="in" ana="#acp-p" xml:id="A53060_00-55590" facs="10-b-2190">in</w>
           <c> </c>
-          <w lemma="sovereign" ana="#j" xml:id="A53060_00-55600" facs="10-b-2200"><choice><orig>Soveraign</orig><reg>Sovereign</reg></choice></w>
+          <w lemma="sovereign" ana="#j" xml:id="A53060_00-55600" facs="10-b-2200">
+            <choice>
+              <orig>Soveraign</orig>
+              <reg>Sovereign</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="power" ana="#n1" xml:id="A53060_00-55610" facs="10-b-2210">power</w>
           <c> </c>
@@ -10441,7 +11408,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="tame" ana="#vvz" xml:id="A53060_00-55690" facs="10-b-2290">tames</w>
           <c> </c>
-          <w lemma="poetic" ana="#j" xml:id="A53060_00-55700" facs="10-b-2300"><choice><orig>Poetick</orig><reg>Poetic</reg></choice></w>
+          <w lemma="poetic" ana="#j" xml:id="A53060_00-55700" facs="10-b-2300">
+            <choice>
+              <orig>Poetick</orig>
+              <reg>Poetic</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="wit" ana="#n2" xml:id="A53060_00-55710" facs="10-b-2310">wits</w>
           <pc xml:id="A53060_00-55720" unit="sentence" facs="10-b-2320">.</pc>
@@ -10470,7 +11442,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-55850" facs="11-b-0060">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-55860" facs="11-b-0070"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-55860" facs="11-b-0070">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-55870" unit="sentence" facs="11-b-0080">.</pc>
         </head>
         <l xml:id="A53060_00-e101210">
@@ -10492,7 +11469,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <l xml:id="A53060_00-e101220">
           <w lemma="such" ana="#d" xml:id="A53060_00-55970" facs="11-b-0170">Such</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-55980" facs="11-b-0180"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-55980" facs="11-b-0180">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-55990" facs="11-b-0190">,</pc>
           <c> </c>
           <w lemma="that|be" ana="#d|vvz" xml:id="A53060_00-56000" facs="11-b-0200">that's</w>
@@ -10502,9 +11484,19 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="Ben" ana="#n1-nn" xml:id="A53060_00-56020" facs="11-b-0220" rendition="hi">Ben</w>
           <pc xml:id="A53060_00-56020-eos" unit="sentence" facs="11-b-0230" rendition="hi"/>
           <c> </c>
-          <w lemma="Jonson" ana="#n1g-nn" xml:id="A53060_00-56040" facs="11-b-0240" rendition="hi"><choice><orig>Johnsons</orig><reg>Jonson's</reg></choice></w>
+          <w lemma="Jonson" ana="#n1g-nn" xml:id="A53060_00-56040" facs="11-b-0240" rendition="hi">
+            <choice>
+              <orig>Johnsons</orig>
+              <reg>Jonson's</reg>
+            </choice>
+          </w>
           <c> </c>
-          <w lemma="alchemy" ana="#n1" xml:id="A53060_00-56050" facs="11-b-0250"><choice><orig>Alchymie</orig><reg>Alchemy</reg></choice></w>
+          <w lemma="alchemy" ana="#n1" xml:id="A53060_00-56050" facs="11-b-0250">
+            <choice>
+              <orig>Alchymie</orig>
+              <reg>Alchemy</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-56060" facs="11-b-0260">,</pc>
         </l>
         <l xml:id="A53060_00-e101230">
@@ -10524,7 +11516,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="those" ana="#d" xml:id="A53060_00-56150" facs="11-b-0350">those</w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-56160" facs="11-b-0360"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-56160" facs="11-b-0360">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
         </l>
         <l xml:id="A53060_00-e101240">
           <w lemma="do" ana="#vvd" xml:id="A53060_00-56170" facs="11-b-0370">Did</w>
@@ -10549,7 +11546,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="his" ana="#po" xml:id="A53060_00-56270" facs="11-b-0470">his</w>
           <c> </c>
-          <w lemma="masterpiece" ana="#n2" xml:id="A53060_00-56280" facs="11-b-0480"><choice><orig>Master-pieces</orig><reg>Masterpieces</reg></choice></w>
+          <w lemma="masterpiece" ana="#n2" xml:id="A53060_00-56280" facs="11-b-0480">
+            <choice>
+              <orig>Master-pieces</orig>
+              <reg>Masterpieces</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-56290" facs="11-b-0490">,</pc>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-56300" facs="11-b-0500">and</w>
@@ -10561,7 +11563,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <l xml:id="A53060_00-e101260">
           <w lemma="by" ana="#acp-p" xml:id="A53060_00-56330" facs="11-b-0530">By</w>
           <c> </c>
-          <w lemma="wit" ana="#n1g" xml:id="A53060_00-56340" facs="11-b-0540"><choice><orig>wits</orig><reg>wit's</reg></choice></w>
+          <w lemma="wit" ana="#n1g" xml:id="A53060_00-56340" facs="11-b-0540">
+            <choice>
+              <orig>wits</orig>
+              <reg>wit's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="invention" ana="#n1" xml:id="A53060_00-56350" facs="11-b-0550">Invention</w>
           <pc xml:id="A53060_00-56360" facs="11-b-0560">,</pc>
@@ -10641,7 +11648,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="his" ana="#po" xml:id="A53060_00-56740" facs="11-b-0940">his</w>
           <c> </c>
-          <w lemma="wit" ana="#n1g" xml:id="A53060_00-56750" facs="11-b-0950"><choice><orig>Wits</orig><reg>wit's</reg></choice></w>
+          <w lemma="wit" ana="#n1g" xml:id="A53060_00-56750" facs="11-b-0950">
+            <choice>
+              <orig>Wits</orig>
+              <reg>wit's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="flight" ana="#n1" xml:id="A53060_00-56760" facs="11-b-0960">flight</w>
           <pc xml:id="A53060_00-56770" facs="11-b-0970">;</pc>
@@ -10659,9 +11671,19 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="ben" ana="#n1-nn" xml:id="A53060_00-56830" facs="11-b-1030" rendition="hi">Ben</w>
           <pc xml:id="A53060_00-56830-eos" unit="sentence" facs="11-b-1040" rendition="hi"/>
           <c> </c>
-          <w lemma="Jonson" ana="#n1g-nn" xml:id="A53060_00-56850" facs="11-b-1050" rendition="hi"><choice><orig>Johnsons</orig><reg>Jonson's</reg></choice></w>
+          <w lemma="Jonson" ana="#n1g-nn" xml:id="A53060_00-56850" facs="11-b-1050" rendition="hi">
+            <choice>
+              <orig>Johnsons</orig>
+              <reg>Jonson's</reg>
+            </choice>
+          </w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-56860" facs="11-b-1060"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-56860" facs="11-b-1060">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="come" ana="#vvd" xml:id="A53060_00-56870" facs="11-b-1070">came</w>
           <c> </c>
@@ -10673,7 +11695,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-56910" facs="11-b-1110">the</w>
           <c> </c>
-          <w lemma="world" ana="#n1g" xml:id="A53060_00-56920" facs="11-b-1120"><choice><orig>Worlds</orig><reg>World's</reg></choice></w>
+          <w lemma="world" ana="#n1g" xml:id="A53060_00-56920" facs="11-b-1120">
+            <choice>
+              <orig>Worlds</orig>
+              <reg>World's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="view" ana="#n1" xml:id="A53060_00-56930" facs="11-b-1130">view</w>
           <pc xml:id="A53060_00-56940" facs="11-b-1140">,</pc>
@@ -10694,7 +11721,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <l xml:id="A53060_00-e101330">
           <w lemma="like" ana="#acp-p" xml:id="A53060_00-57020" facs="11-b-1220">Like</w>
           <c> </c>
-          <w lemma="foreign" ana="#j" xml:id="A53060_00-57030" facs="11-b-1230"><choice><orig>Forein</orig><reg>Foreign</reg></choice></w>
+          <w lemma="foreign" ana="#j" xml:id="A53060_00-57030" facs="11-b-1230">
+            <choice>
+              <orig>Forein</orig>
+              <reg>Foreign</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="emperor" ana="#n2" xml:id="A53060_00-57040" facs="11-b-1240">Emperors</w>
           <pc xml:id="A53060_00-57050" facs="11-b-1250">,</pc>
@@ -10715,7 +11747,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="not" ana="#xx" xml:id="A53060_00-57130" facs="11-b-1330">not</w>
           <c> </c>
-          <w lemma="above" ana="#acp-p" xml:id="A53060_00-57140" facs="11-b-1340"><choice><orig>'bove</orig><reg>above</reg></choice></w>
+          <w lemma="above" ana="#acp-p" xml:id="A53060_00-57140" facs="11-b-1340">
+            <choice>
+              <orig>'bove</orig>
+              <reg>above</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="once" ana="#acp-av" xml:id="A53060_00-57150" facs="11-b-1350">once</w>
           <c> </c>
@@ -10732,9 +11769,19 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="Ben" ana="#n1-nn" xml:id="A53060_00-57210" facs="11-b-1410" rendition="hi">Ben</w>
           <pc xml:id="A53060_00-57210-eos" unit="sentence" facs="11-b-1420" rendition="hi"/>
           <c> </c>
-          <w lemma="Jonson" ana="#n1g-nn" xml:id="A53060_00-57230" facs="11-b-1430" rendition="hi"><choice><orig>Johnsons</orig><reg>Jonson's</reg></choice></w>
+          <w lemma="Jonson" ana="#n1g-nn" xml:id="A53060_00-57230" facs="11-b-1430" rendition="hi">
+            <choice>
+              <orig>Johnsons</orig>
+              <reg>Jonson's</reg>
+            </choice>
+          </w>
           <c> </c>
-          <w lemma="play" ana="#vvz" xml:id="A53060_00-57240" facs="11-b-1440"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#vvz" xml:id="A53060_00-57240" facs="11-b-1440">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="so" ana="#av" xml:id="A53060_00-57250" facs="11-b-1450">so</w>
           <c> </c>
@@ -10771,7 +11818,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="poor" ana="#j" xml:id="A53060_00-57410" facs="11-b-1610">poor</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-57420" facs="11-b-1620"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-57420" facs="11-b-1620">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-57430" facs="11-b-1630">,</pc>
           <c> </c>
           <w lemma="like" ana="#j" xml:id="A53060_00-57440" facs="11-b-1640">like</w>
@@ -10795,7 +11847,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-57540" facs="11-b-1740">and</w>
           <c> </c>
-          <w lemma="heedless" ana="#av_j" xml:id="A53060_00-57550" facs="11-b-1750"><choice><orig>heedlesly</orig><reg>heedlessly</reg></choice></w>
+          <w lemma="heedless" ana="#av_j" xml:id="A53060_00-57550" facs="11-b-1750">
+            <choice>
+              <orig>heedlesly</orig>
+              <reg>heedlessly</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="run" ana="#vvz" xml:id="A53060_00-57560" facs="11-b-1760">runs</w>
           <c> </c>
@@ -10820,17 +11877,32 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-57670" facs="11-b-1870">and</w>
           <c> </c>
-          <w lemma="boy" ana="#n2" xml:id="A53060_00-57680" facs="11-b-1880"><choice><orig>Boyes</orig><reg>Boys</reg></choice></w>
+          <w lemma="boy" ana="#n2" xml:id="A53060_00-57680" facs="11-b-1880">
+            <choice>
+              <orig>Boyes</orig>
+              <reg>Boys</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-57690" facs="11-b-1890">,</pc>
         </l>
         <l xml:id="A53060_00-e101400">
-          <w lemma="go" ana="#vvb" xml:id="A53060_00-57700" facs="11-b-1900"><choice><orig>Goe</orig><reg>Go</reg></choice></w>
+          <w lemma="go" ana="#vvb" xml:id="A53060_00-57700" facs="11-b-1900">
+            <choice>
+              <orig>Goe</orig>
+              <reg>Go</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="out" ana="#av" xml:id="A53060_00-57710" facs="11-b-1910">out</w>
           <c> </c>
           <w lemma="to" ana="#acp-cs" xml:id="A53060_00-57720" facs="11-b-1920">to</w>
           <c> </c>
-          <w lemma="show" ana="#vvi" xml:id="A53060_00-57730" facs="11-b-1930"><choice><orig>shew</orig><reg>show</reg></choice></w>
+          <w lemma="show" ana="#vvi" xml:id="A53060_00-57730" facs="11-b-1930">
+            <choice>
+              <orig>shew</orig>
+              <reg>show</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="new" ana="#j" xml:id="A53060_00-57740" facs="11-b-1940">new</w>
           <c> </c>
@@ -10843,17 +11915,32 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="like" ana="#j" xml:id="A53060_00-57790" facs="11-b-1990">like</w>
           <c> </c>
-          <w lemma="toy" ana="#n2" xml:id="A53060_00-57800" facs="11-b-2000"><choice><orig>toyes</orig><reg>toys</reg></choice></w>
+          <w lemma="toy" ana="#n2" xml:id="A53060_00-57800" facs="11-b-2000">
+            <choice>
+              <orig>toyes</orig>
+              <reg>toys</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-57810" facs="11-b-2010">:</pc>
         </l>
         <l xml:id="A53060_00-e101410">
           <w lemma="this" ana="#d" xml:id="A53060_00-57820" facs="11-b-2020">This</w>
           <c> </c>
-          <w lemma="show" ana="#vvz" xml:id="A53060_00-57830" facs="11-b-2030"><choice><orig>shews</orig><reg>shows</reg></choice></w>
+          <w lemma="show" ana="#vvz" xml:id="A53060_00-57830" facs="11-b-2030">
+            <choice>
+              <orig>shews</orig>
+              <reg>shows</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-57840" facs="11-b-2040">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-57850" facs="11-b-2050"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-57850" facs="11-b-2050">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="have" ana="#vvi" xml:id="A53060_00-57860" facs="11-b-2060">have</w>
           <c> </c>
@@ -10871,7 +11958,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <l xml:id="A53060_00-e101420">
           <w lemma="nor" ana="#cc-x" xml:id="A53060_00-57930" facs="11-b-2130">Nor</w>
           <c> </c>
-          <w lemma="subtle" ana="#j" xml:id="A53060_00-57940" facs="11-b-2140"><choice><orig>subtil</orig><reg>subtle</reg></choice></w>
+          <w lemma="subtle" ana="#j" xml:id="A53060_00-57940" facs="11-b-2140">
+            <choice>
+              <orig>subtil</orig>
+              <reg>subtle</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="plot" ana="#n2" xml:id="A53060_00-57950" facs="11-b-2150">plots</w>
           <pc xml:id="A53060_00-57960" facs="11-b-2160">,</pc>
@@ -10923,7 +12015,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="to" ana="#acp-cs" xml:id="A53060_00-58200" facs="11-b-2400">to</w>
           <c> </c>
-          <w lemma="employ" ana="#vvi" xml:id="A53060_00-58210" facs="11-b-2410"><choice><orig>imploy</orig><reg>employ</reg></choice></w>
+          <w lemma="employ" ana="#vvi" xml:id="A53060_00-58210" facs="11-b-2410">
+            <choice>
+              <orig>imploy</orig>
+              <reg>employ</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-58220" facs="11-b-2420">:</pc>
         </l>
         <l xml:id="A53060_00-e101450">
@@ -10940,7 +12037,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="I|be" ana="#pns|vvm" xml:id="A53060_00-58290" facs="11-b-2490">I'm</w>
           <c> </c>
-          <w lemma="force" ana="#j_vn" xml:id="A53060_00-58300" facs="11-b-2500"><choice><orig>forc'd</orig><reg>forced</reg></choice></w>
+          <w lemma="force" ana="#j_vn" xml:id="A53060_00-58300" facs="11-b-2500">
+            <choice>
+              <orig>forc'd</orig>
+              <reg>forced</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="to" ana="#acp-cs" xml:id="A53060_00-58310" facs="11-b-2510">to</w>
           <c> </c>
@@ -10950,7 +12052,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <l xml:id="A53060_00-e101460">
           <w lemma="and" ana="#cc" xml:id="A53060_00-58340" facs="11-b-2540">And</w>
           <c> </c>
-          <w lemma="idle" ana="#av_j" xml:id="A53060_00-58350" facs="11-b-2550"><choice><orig>idlely</orig><reg>idly</reg></choice></w>
+          <w lemma="idle" ana="#av_j" xml:id="A53060_00-58350" facs="11-b-2550">
+            <choice>
+              <orig>idlely</orig>
+              <reg>idly</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="to" ana="#acp-cs" xml:id="A53060_00-58360" facs="11-b-2560">to</w>
           <c> </c>
@@ -11040,14 +12147,29 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <l xml:id="A53060_00-e101510">
           <w lemma="some" ana="#d" xml:id="A53060_00-58810" facs="11-b-3010">Some</w>
           <c> </c>
-          <w lemma="lazy" ana="#j" xml:id="A53060_00-58820" facs="11-b-3020"><choice><orig>lazie</orig><reg>lazy</reg></choice></w>
+          <w lemma="lazy" ana="#j" xml:id="A53060_00-58820" facs="11-b-3020">
+            <choice>
+              <orig>lazie</orig>
+              <reg>lazy</reg>
+            </choice>
+          </w>
           <c> </c>
-          <w lemma="lie" ana="#n1" xml:id="A53060_00-58830" facs="11-b-3030"><choice><orig>lye</orig><reg>lie</reg></choice></w>
+          <w lemma="lie" ana="#n1" xml:id="A53060_00-58830" facs="11-b-3030">
+            <choice>
+              <orig>lye</orig>
+              <reg>lie</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-58840" facs="11-b-3040">,</pc>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-58850" facs="11-b-3050">and</w>
           <c> </c>
-          <w lemma="pamper" ana="#j_vn" xml:id="A53060_00-58860" facs="11-b-3060"><choice><orig>pampred</orig><reg>pampered</reg></choice></w>
+          <w lemma="pamper" ana="#j_vn" xml:id="A53060_00-58860" facs="11-b-3060">
+            <choice>
+              <orig>pampred</orig>
+              <reg>pampered</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvb" xml:id="A53060_00-58870" facs="11-b-3070">are</w>
           <c> </c>
@@ -11107,7 +12229,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="to" ana="#acp-p" xml:id="A53060_00-59160" facs="11-b-3360">to</w>
           <c> </c>
-          <w lemma="mould" ana="#n1" xml:id="A53060_00-59170" facs="11-b-3370"><choice><orig>mold</orig><reg>mould</reg></choice></w>
+          <w lemma="mould" ana="#n1" xml:id="A53060_00-59170" facs="11-b-3370">
+            <choice>
+              <orig>mold</orig>
+              <reg>mould</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-59180" facs="11-b-3380">,</pc>
           <c> </c>
           <w lemma="or" ana="#cc" xml:id="A53060_00-59190" facs="11-b-3390">or</w>
@@ -11178,7 +12305,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="to" ana="#acp-cs" xml:id="A53060_00-59530" facs="11-b-3730">to</w>
           <c> </c>
-          <w lemma="choose" ana="#vvi" xml:id="A53060_00-59540" facs="11-b-3740"><choice><orig>chuse</orig><reg>choose</reg></choice></w>
+          <w lemma="choose" ana="#vvi" xml:id="A53060_00-59540" facs="11-b-3740">
+            <choice>
+              <orig>chuse</orig>
+              <reg>choose</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-59550" facs="11-b-3750">,</pc>
         </l>
         <l xml:id="A53060_00-e101580">
@@ -11231,7 +12363,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="only" ana="#av_j" xml:id="A53060_00-59800" facs="11-b-4000">only</w>
           <c> </c>
-          <w lemma="rhyme" ana="#n1" xml:id="A53060_00-59810" facs="11-b-4010"><choice><orig>rhime</orig><reg>rhyme</reg></choice></w>
+          <w lemma="rhyme" ana="#n1" xml:id="A53060_00-59810" facs="11-b-4010">
+            <choice>
+              <orig>rhime</orig>
+              <reg>rhyme</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-59820" facs="11-b-4020">;</pc>
         </l>
         <l xml:id="A53060_00-e101610">
@@ -11288,7 +12425,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="ben" ana="#n1-nn" xml:id="A53060_00-60070" facs="12-a-0250" rendition="hi">Ben</w>
           <pc xml:id="A53060_00-60070-eos" unit="sentence" facs="12-a-0260" rendition="hi"/>
           <c> </c>
-          <w lemma="Jonson" ana="#n1g-nn" xml:id="A53060_00-60090" facs="12-a-0270" rendition="hi"><choice><orig>Johnsons</orig><reg>Jonson's</reg></choice></w>
+          <w lemma="Jonson" ana="#n1g-nn" xml:id="A53060_00-60090" facs="12-a-0270" rendition="hi">
+            <choice>
+              <orig>Johnsons</orig>
+              <reg>Jonson's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="brain" ana="#n1" xml:id="A53060_00-60100" facs="12-a-0280">brain</w>
           <pc xml:id="A53060_00-60110" facs="12-a-0290">,</pc>
@@ -11354,7 +12496,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-60440" facs="12-a-0620">the</w>
           <c> </c>
-          <w lemma="mastery" ana="#n1" xml:id="A53060_00-60450" facs="12-a-0630"><choice><orig>Masterie</orig><reg>Mastery</reg></choice></w>
+          <w lemma="mastery" ana="#n1" xml:id="A53060_00-60450" facs="12-a-0630">
+            <choice>
+              <orig>Masterie</orig>
+              <reg>Mastery</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-60460" facs="12-a-0640">:</pc>
         </l>
         <l xml:id="A53060_00-e101670">
@@ -11362,7 +12509,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="gentle" ana="#j" xml:id="A53060_00-60480" facs="12-a-0660">Gentle</w>
           <c> </c>
-          <w lemma="Shakespeare" ana="#n1-nn" xml:id="A53060_00-60490" facs="12-a-0670" rendition="hi"><choice><orig>Shakespear</orig><reg>Shakespeare</reg></choice></w>
+          <w lemma="Shakespeare" ana="#n1-nn" xml:id="A53060_00-60490" facs="12-a-0670" rendition="hi">
+            <choice>
+              <orig>Shakespear</orig>
+              <reg>Shakespeare</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="have" ana="#vvd" xml:id="A53060_00-60500" facs="12-a-0680">had</w>
           <c> </c>
@@ -11399,7 +12551,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="his" ana="#po" xml:id="A53060_00-60670" facs="12-a-0850">his</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-60680" facs="12-a-0860"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-60680" facs="12-a-0860">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="be" ana="#vvd" xml:id="A53060_00-60690" facs="12-a-0870">were</w>
           <c> </c>
@@ -11407,7 +12564,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="by" ana="#acp-p" xml:id="A53060_00-60710" facs="12-a-0890">by</w>
           <c> </c>
-          <w lemma="nature" ana="#n1g" xml:id="A53060_00-60720" facs="12-a-0900"><choice><orig>Natures</orig><reg>Nature's</reg></choice></w>
+          <w lemma="nature" ana="#n1g" xml:id="A53060_00-60720" facs="12-a-0900">
+            <choice>
+              <orig>Natures</orig>
+              <reg>Nature's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="light" ana="#n1" xml:id="A53060_00-60730" facs="12-a-0910">light</w>
           <pc xml:id="A53060_00-60740" facs="12-a-0920">,</pc>
@@ -11446,7 +12608,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-60910" facs="12-a-1090">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-60920" facs="12-a-1100"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-60920" facs="12-a-1100">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-60930" facs="12-a-1110">,</pc>
         </l>
         <l xml:id="A53060_00-e101720">
@@ -11466,7 +12633,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="former" ana="#j" xml:id="A53060_00-61010" facs="12-a-1190">former</w>
           <c> </c>
-          <w lemma="day" ana="#n2" xml:id="A53060_00-61020" facs="12-a-1200"><choice><orig>daies</orig><reg>days</reg></choice></w>
+          <w lemma="day" ana="#n2" xml:id="A53060_00-61020" facs="12-a-1200">
+            <choice>
+              <orig>daies</orig>
+              <reg>days</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-61030" facs="12-a-1210">;</pc>
         </l>
         <l xml:id="A53060_00-e101730">
@@ -11475,10 +12647,20 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="Johnson" ana="#n1-nn" xml:id="A53060_00-61050" facs="12-a-1230" rendition="hi">Johnson</w>
           <pc xml:id="A53060_00-61060" facs="12-a-1240" rendition="hi">,</pc>
           <c> </c>
-          <w lemma="Shakespeare" ana="#n1-nn" xml:id="A53060_00-61070" facs="12-a-1250" rendition="hi"><choice><orig>Shakespear</orig><reg>Shakespeare</reg></choice></w>
+          <w lemma="Shakespeare" ana="#n1-nn" xml:id="A53060_00-61070" facs="12-a-1250" rendition="hi">
+            <choice>
+              <orig>Shakespear</orig>
+              <reg>Shakespeare</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-61080" facs="12-a-1260" rendition="hi">,</pc>
           <c> </c>
-          <w lemma="Beaumont" ana="#n1-nn" xml:id="A53060_00-61090" facs="12-a-1270" rendition="hi"><choice><orig>Beamont</orig><reg>Beaumont</reg></choice></w>
+          <w lemma="Beaumont" ana="#n1-nn" xml:id="A53060_00-61090" facs="12-a-1270" rendition="hi">
+            <choice>
+              <orig>Beamont</orig>
+              <reg>Beaumont</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-61100" facs="12-a-1280" rendition="hi">,</pc>
           <c> </c>
           <w lemma="Fletcher" ana="#n1-nn" xml:id="A53060_00-61110" facs="12-a-1290" rendition="hi">Fletcher</w>
@@ -11606,7 +12788,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-61760" facs="12-a-1940">my</w>
           <c> </c>
-          <w lemma="play" ana="#n2" xml:id="A53060_00-61770" facs="12-a-1950"><choice><orig>Playes</orig><reg>Plays</reg></choice></w>
+          <w lemma="play" ana="#n2" xml:id="A53060_00-61770" facs="12-a-1950">
+            <choice>
+              <orig>Playes</orig>
+              <reg>Plays</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="plot" ana="#n2" xml:id="A53060_00-61780" facs="12-a-1960">Plots</w>
           <pc xml:id="A53060_00-61790" facs="12-a-1970">,</pc>
@@ -11627,13 +12814,23 @@ This is a very early release with many imperfections. Contact martinmueller@nort
         <l xml:id="A53060_00-e101810">
           <w lemma="from" ana="#acp-p" xml:id="A53060_00-61870" facs="12-a-2050">From</w>
           <c> </c>
-          <w lemma="Plutarch" ana="#n1g-nn" xml:id="A53060_00-61880" facs="12-a-2060" rendition="hi"><choice><orig>Plutarchs</orig><reg>Plutarch's</reg></choice></w>
+          <w lemma="Plutarch" ana="#n1g-nn" xml:id="A53060_00-61880" facs="12-a-2060" rendition="hi">
+            <choice>
+              <orig>Plutarchs</orig>
+              <reg>Plutarch's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="story" ana="#n1" xml:id="A53060_00-61890" facs="12-a-2070">story</w>
           <c> </c>
           <w lemma="I" ana="#pns" xml:id="A53060_00-61900" facs="12-a-2080">I</w>
           <c> </c>
-          <w lemma="never" ana="#av-x" xml:id="A53060_00-61910" facs="12-a-2090"><choice><orig>ne'r</orig><reg>ne'er</reg></choice></w>
+          <w lemma="never" ana="#av-x" xml:id="A53060_00-61910" facs="12-a-2090">
+            <choice>
+              <orig>ne'r</orig>
+              <reg>ne'er</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="take" ana="#vvd" xml:id="A53060_00-61920" facs="12-a-2100">took</w>
           <c> </c>
@@ -11750,7 +12947,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="no" ana="#d-x" xml:id="A53060_00-62500" facs="12-a-2680">no</w>
           <c> </c>
-          <w lemma="show" ana="#n1" xml:id="A53060_00-62510" facs="12-a-2690"><choice><orig>shew</orig><reg>show</reg></choice></w>
+          <w lemma="show" ana="#n1" xml:id="A53060_00-62510" facs="12-a-2690">
+            <choice>
+              <orig>shew</orig>
+              <reg>show</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-62520" facs="12-a-2700">,</pc>
         </l>
         <l xml:id="A53060_00-e101880">
@@ -11767,7 +12969,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="though" ana="#cs" xml:id="A53060_00-62590" facs="12-a-2770">though</w>
           <c> </c>
-          <w lemma="thatch" ana="#vvn" xml:id="A53060_00-62600" facs="12-a-2780"><choice><orig>thatch'd</orig><reg>thatched</reg></choice></w>
+          <w lemma="thatch" ana="#vvn" xml:id="A53060_00-62600" facs="12-a-2780">
+            <choice>
+              <orig>thatch'd</orig>
+              <reg>thatched</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-62610" facs="12-a-2790">and</w>
           <c> </c>
@@ -11775,7 +12982,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <pc xml:id="A53060_00-62630" facs="12-a-2810">;</pc>
         </l>
         <l xml:id="A53060_00-e101890">
-          <w lemma="Vitruvius" ana="#n1g-nn" xml:id="A53060_00-62640" facs="12-a-2820" rendition="hi"><choice><orig>Vitruvius</orig><reg>Vitruvius'</reg></choice></w>
+          <w lemma="Vitruvius" ana="#n1g-nn" xml:id="A53060_00-62640" facs="12-a-2820" rendition="hi">
+            <choice>
+              <orig>Vitruvius</orig>
+              <reg>Vitruvius'</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="art" ana="#n1" xml:id="A53060_00-62650" facs="12-a-2830">Art</w>
           <c> </c>
@@ -11846,7 +13058,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-63000" facs="12-a-3180">and</w>
           <c> </c>
-          <w lemma="entire" ana="#j" xml:id="A53060_00-63010" facs="12-a-3190"><choice><orig>intire</orig><reg>entire</reg></choice></w>
+          <w lemma="entire" ana="#j" xml:id="A53060_00-63010" facs="12-a-3190">
+            <choice>
+              <orig>intire</orig>
+              <reg>entire</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-63020" facs="12-a-3200">:</pc>
         </l>
         <l xml:id="A53060_00-e101930">
@@ -11856,7 +13073,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="from" ana="#acp-p" xml:id="A53060_00-63050" facs="12-a-3230">from</w>
           <c> </c>
-          <w lemma="foreign" ana="#j" xml:id="A53060_00-63060" facs="12-a-3240"><choice><orig>forein</orig><reg>foreign</reg></choice></w>
+          <w lemma="foreign" ana="#j" xml:id="A53060_00-63060" facs="12-a-3240">
+            <choice>
+              <orig>forein</orig>
+              <reg>foreign</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="part" ana="#n2" xml:id="A53060_00-63070" facs="12-a-3250">parts</w>
           <c> </c>
@@ -11985,7 +13207,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="plancher" ana="#n2" xml:id="A53060_00-63720" facs="12-a-3900">planchers</w>
           <c> </c>
-          <w lemma="lay" ana="#n2" xml:id="A53060_00-63730" facs="12-a-3910"><choice><orig>layes</orig><reg>lays</reg></choice></w>
+          <w lemma="lay" ana="#n2" xml:id="A53060_00-63730" facs="12-a-3910">
+            <choice>
+              <orig>layes</orig>
+              <reg>lays</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-63740" facs="12-a-3920">,</pc>
         </l>
         <l xml:id="A53060_00-e102000">
@@ -12126,7 +13353,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
         </l>
         <l xml:id="A53060_00-e102070">
-          <w lemma="just" ana="#av" xml:id="A53060_00-64440" facs="12-a-4620"><choice><orig>Iust</orig><reg>just</reg></choice></w>
+          <w lemma="just" ana="#av" xml:id="A53060_00-64440" facs="12-a-4620">
+            <choice>
+              <orig>Iust</orig>
+              <reg>just</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="so" ana="#av" xml:id="A53060_00-64450" facs="12-a-4630">so</w>
           <pc xml:id="A53060_00-64460" facs="12-a-4640">,</pc>
@@ -12177,7 +13409,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="as" ana="#acp-cs" xml:id="A53060_00-64700" facs="12-a-4880">as</w>
           <c> </c>
-          <w lemma="nature" ana="#n1g" xml:id="A53060_00-64710" facs="12-a-4890"><choice><orig>Natures</orig><reg>Nature's</reg></choice></w>
+          <w lemma="nature" ana="#n1g" xml:id="A53060_00-64710" facs="12-a-4890">
+            <choice>
+              <orig>Natures</orig>
+              <reg>Nature's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="child" ana="#n1" xml:id="A53060_00-64720" facs="12-a-4900">child</w>
           <pc xml:id="A53060_00-64730" facs="12-a-4910">,</pc>
@@ -12187,7 +13424,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="the" ana="#d" xml:id="A53060_00-64750" facs="12-a-4930">the</w>
           <c> </c>
-          <w lemma="world" ana="#n1g" xml:id="A53060_00-64760" facs="12-a-4940"><choice><orig>Worlds</orig><reg>World's</reg></choice></w>
+          <w lemma="world" ana="#n1g" xml:id="A53060_00-64760" facs="12-a-4940">
+            <choice>
+              <orig>Worlds</orig>
+              <reg>World's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="vanity" ana="#n2" xml:id="A53060_00-64770" facs="12-a-4950">Vanities</w>
           <c> </c>
@@ -12195,7 +13437,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="i" ana="#pno" xml:id="A53060_00-64790" facs="12-a-4970">me</w>
           <c> </c>
-          <w lemma="beguile" ana="#vvi" xml:id="A53060_00-64800" facs="12-a-4980"><choice><orig>beguild</orig><reg>beguile</reg></choice></w>
+          <w lemma="beguile" ana="#vvi" xml:id="A53060_00-64800" facs="12-a-4980">
+            <choice>
+              <orig>beguild</orig>
+              <reg>beguile</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-64810" facs="12-a-4990">:</pc>
         </l>
         <l xml:id="A53060_00-e102110">
@@ -12210,7 +13457,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="be" ana="#vvn" xml:id="A53060_00-64860" facs="12-a-5040">been</w>
           <pc xml:id="A53060_00-64870" facs="12-a-5050">,</pc>
           <c> </c>
-          <w lemma="housewive" ana="#vvn" xml:id="A53060_00-64880" facs="12-a-5060"><choice><orig>houswiv'd</orig><reg>housewived</reg></choice></w>
+          <w lemma="housewive" ana="#vvn" xml:id="A53060_00-64880" facs="12-a-5060">
+            <choice>
+              <orig>houswiv'd</orig>
+              <reg>housewived</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-64890" facs="12-a-5070">my</w>
           <c> </c>
@@ -12232,7 +13484,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="and" ana="#cc" xml:id="A53060_00-64980" facs="12-a-5160">and</w>
           <c> </c>
-          <w lemma="rhyme" ana="#n1" xml:id="A53060_00-64990" facs="12-a-5170"><choice><orig>Rhime</orig><reg>rhyme</reg></choice></w>
+          <w lemma="rhyme" ana="#n1" xml:id="A53060_00-64990" facs="12-a-5170">
+            <choice>
+              <orig>Rhime</orig>
+              <reg>rhyme</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-65000" facs="12-a-5180">;</pc>
         </l>
         <l xml:id="A53060_00-e102130">
@@ -12287,11 +13544,21 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="desire" ana="#vvb" xml:id="A53060_00-65250" facs="12-b-0250">desire</w>
           <c> </c>
-          <w lemma="whenas" ana="#cs" xml:id="A53060_00-65260.1" part="I" facs="12-b-0260"><choice><orig>when as</orig><reg>whenas</reg></choice></w>
+          <w lemma="whenas" ana="#cs" xml:id="A53060_00-65260.1" part="I" facs="12-b-0260">
+            <choice>
+              <orig>when as</orig>
+              <reg>whenas</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="I" ana="#pns" xml:id="A53060_00-65280" facs="12-b-0270">I</w>
           <c> </c>
-          <w lemma="die" ana="#vvb" xml:id="A53060_00-65290" facs="12-b-0280"><choice><orig>dye</orig><reg>die</reg></choice></w>
+          <w lemma="die" ana="#vvb" xml:id="A53060_00-65290" facs="12-b-0280">
+            <choice>
+              <orig>dye</orig>
+              <reg>die</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-65300" facs="12-b-0290">,</pc>
         </l>
         <l xml:id="A53060_00-e102160">
@@ -12309,13 +13576,23 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="my" ana="#po" xml:id="A53060_00-65370" facs="12-b-0360">my</w>
           <c> </c>
-          <w lemma="lie" ana="#n1" xml:id="A53060_00-65380" facs="12-b-0370"><choice><orig>lye</orig><reg>lie</reg></choice></w>
+          <w lemma="lie" ana="#n1" xml:id="A53060_00-65380" facs="12-b-0370">
+            <choice>
+              <orig>lye</orig>
+              <reg>lie</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-65390" facs="12-b-0380">:</pc>
         </l>
         <l xml:id="A53060_00-e102170">
           <w lemma="and" ana="#cc" xml:id="A53060_00-65400" facs="12-b-0390">And</w>
           <c> </c>
-          <w lemma="whenas" ana="#cs" xml:id="A53060_00-65410.1" part="I" facs="12-b-0400"><choice><orig>when as</orig><reg>whenas</reg></choice></w>
+          <w lemma="whenas" ana="#cs" xml:id="A53060_00-65410.1" part="I" facs="12-b-0400">
+            <choice>
+              <orig>when as</orig>
+              <reg>whenas</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="other" ana="#pi2_d" xml:id="A53060_00-65430" facs="12-b-0410">others</w>
           <c> </c>
@@ -12397,7 +13674,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="not" ana="#xx" xml:id="A53060_00-65830" facs="12-b-0810">not</w>
           <c> </c>
-          <w lemma="a" ana="#d" xml:id="A53060_00-65840" facs="12-b-0820"><choice><orig>ae</orig><reg>a</reg></choice></w>
+          <w lemma="a" ana="#d" xml:id="A53060_00-65840" facs="12-b-0820">
+            <choice>
+              <orig>ae</orig>
+              <reg>a</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="stately" ana="#j" xml:id="A53060_00-65850" facs="12-b-0830">stately</w>
           <pc xml:id="A53060_00-65860" facs="12-b-0840">,</pc>
@@ -12405,7 +13687,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <w lemma="cut" ana="#vvb" xml:id="A53060_00-65870" facs="12-b-0850">cut</w>
           <pc xml:id="A53060_00-65880" facs="12-b-0860">,</pc>
           <c> </c>
-          <w lemma="carve" ana="#vvn" xml:id="A53060_00-65890" facs="12-b-0870"><choice><orig>carv'd</orig><reg>carved</reg></choice></w>
+          <w lemma="carve" ana="#vvn" xml:id="A53060_00-65890" facs="12-b-0870">
+            <choice>
+              <orig>carv'd</orig>
+              <reg>carved</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="tomb" ana="#n1" xml:id="A53060_00-65900" facs="12-b-0880">Tomb</w>
           <pc xml:id="A53060_00-65910" facs="12-b-0890">,</pc>
@@ -12422,7 +13709,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="in" ana="#acp-p" xml:id="A53060_00-65970" facs="12-b-0950">in</w>
           <c> </c>
-          <w lemma="fame" ana="#n1g" xml:id="A53060_00-65980" facs="12-b-0960"><choice><orig>Fames</orig><reg>Fame's</reg></choice></w>
+          <w lemma="fame" ana="#n1g" xml:id="A53060_00-65980" facs="12-b-0960">
+            <choice>
+              <orig>Fames</orig>
+              <reg>Fame's</reg>
+            </choice>
+          </w>
           <c> </c>
           <w lemma="house" ana="#n1" xml:id="A53060_00-65990" facs="12-b-0970">house</w>
           <c> </c>
@@ -12458,7 +13750,12 @@ This is a very early release with many imperfections. Contact martinmueller@nort
           <c> </c>
           <w lemma="I" ana="#pns" xml:id="A53060_00-66150" facs="12-b-1130">I</w>
           <c> </c>
-          <w lemma="die" ana="#vvb" xml:id="A53060_00-66160" facs="12-b-1140"><choice><orig>dye</orig><reg>die</reg></choice></w>
+          <w lemma="die" ana="#vvb" xml:id="A53060_00-66160" facs="12-b-1140">
+            <choice>
+              <orig>dye</orig>
+              <reg>die</reg>
+            </choice>
+          </w>
           <pc xml:id="A53060_00-66170" facs="12-b-1150">,</pc>
           <c> </c>
           <w lemma="may" ana="#vmb" xml:id="A53060_00-66180" facs="12-b-1160">may</w>
